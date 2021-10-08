@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "lifestyle/take_notes.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "lifestyle/take_notes.md",
             "mode": "preview"
           }
         },
@@ -33,7 +33,7 @@
         "state": {
           "type": "localgraph",
           "state": {
-            "file": "README.md",
+            "file": "lifestyle/take_notes.md",
             "options": {
               "collapse-filter": true,
               "search": "",
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "lifestyle/take_notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,15 +145,15 @@
   },
   "active": "3be584c09a561d23",
   "lastOpenFiles": [
-    "README.md",
-    "todo/checklist.md",
+    "lifestyle/take_notes.md",
+    "lifestyle/health.md",
+    "lifestyle/Untitled.md",
     "todo/todo_zettelkasten_guide.md",
-    "zettelkasten/zettelkasten_templates.md",
-    "zettelkasten/zettelkasten_meaning.md",
-    "zettelkasten/zettelkasten_apps.md",
-    "zettelkasten/what_is_zettelkasten.md",
-    "zettelkasten/how_to_zettelkasten_with_obsidian.md",
-    "zettelkasten/how_to_zettelkasten.md",
-    "zettelkasten/who_made_zettelkasten.md"
+    "todo/checklist.md",
+    "README.md",
+    "programs/obsidian/what_is_obsidian.md",
+    "programs/obsidian/how_to_obsidian.md",
+    "programs/obsidian/how_to_embed_files.md",
+    "zettelkasten/zettelkasten_templates.md"
   ]
 }

@@ -1,7 +1,8 @@
 ---
 aliases: [Obsidian]
-edited: 2021-10-08
 tags: [obsidian, what-is]
+status: ongoing
+edited: 2021-10-08
 ---
 
 # What is Obsidian?

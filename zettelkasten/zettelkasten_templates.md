@@ -1,5 +1,5 @@
 ---
-alias: [Zettelkasten Templates]
+aliases: [Zettelkasten Templates]
 tags: [zettelkasten, template, idea]
 status: ongoing
 edited: 2021-10-07
@@ -10,8 +10,8 @@ Zettelkasten is, by any mean, ___FLEXIBLE___.
 Meaning, there is no set template.
 
 ## Mein template
-1. Metadata at top, with alias(list), tags(list), status(string), and edited(string)
-2. Alias should be like a title, with properly used Capital letters.
+1. Metadata at top, with aliases(list), tags(list), status(string), and edited(string)
+2. Aliases should be like a title, with properly used Capital letters.
 3. Tags should be all lower-cased letters.
 4. Status should either be `complete` or `ongoing`
 5. Edited should be in `yyyy-mm-dd` format.

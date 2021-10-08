@@ -1,7 +1,8 @@
 ---
 aliases: [How to use Obsidian]
-edited: 2021-10-08
 tags: [obsidian, how-to]
+status: ongoing
+edited: 2021-10-08
 ---
 
 # How to use Obsidian

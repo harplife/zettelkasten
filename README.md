@@ -1,5 +1,5 @@
 ---
-edited: 2021-10-07
+edited: 2021-10-08
 ---
 
 # Zettelkasten with Obsidian

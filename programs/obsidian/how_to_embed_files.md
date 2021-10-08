@@ -1,7 +1,8 @@
 ---
 aliases: [How to embed files in Obsidian]
-edited: 2021-10-08
 tags: [obsidian, how-to, embed]
+status: ongoing
+edited: 2021-10-08
 ---
 
 # How to embed files in Obsidian
