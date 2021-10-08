@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "todo/todo_zettelkasten_guide.md",
+            "file": "todo/how_to_todo.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "todo/todo_zettelkasten_guide.md",
+            "file": "todo/how_to_todo.md",
             "mode": "preview"
           }
         },
@@ -31,35 +31,8 @@
         "id": "095c729f75491630",
         "type": "leaf",
         "state": {
-          "type": "localgraph",
-          "state": {
-            "file": "todo/todo_zettelkasten_guide.md",
-            "options": {
-              "collapse-filter": true,
-              "search": "",
-              "localJumps": 1,
-              "localBacklinks": true,
-              "localForelinks": true,
-              "localInterlinks": false,
-              "showTags": false,
-              "showAttachments": false,
-              "hideUnresolved": false,
-              "collapse-color-groups": true,
-              "colorGroups": [],
-              "collapse-display": true,
-              "showArrow": false,
-              "textFadeMultiplier": 0,
-              "nodeSizeMultiplier": 1,
-              "lineSizeMultiplier": 1,
-              "collapse-forces": true,
-              "centerStrength": 0.518713248970312,
-              "repelStrength": 10,
-              "linkStrength": 1,
-              "linkDistance": 250,
-              "scale": 1,
-              "close": false
-            }
-          }
+          "type": "graph",
+          "state": {}
         },
         "group": "fb7de4be29bcd5e6"
       }
@@ -117,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "todo/todo_zettelkasten_guide.md",
+                "file": "todo/how_to_todo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,10 +108,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "3be584c09a561d23",
+  "active": "095c729f75491630",
   "lastOpenFiles": [
-    "todo/todo_zettelkasten_guide.md",
     "todo/how_to_todo.md",
+    "todo/todo_zettelkasten_guide.md",
     "todo/todo_sync_google_keep_notes.md",
     "todo/Untitled.md",
     "programs/obsidian/how_to_embed_files.md",
