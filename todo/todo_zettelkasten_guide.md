@@ -1,4 +1,7 @@
 ---
+alias: [Write a guide for Zettelkasten]
+tags: [todo]
+status: ongoing
 edited: 2021-10-08
 ---
 

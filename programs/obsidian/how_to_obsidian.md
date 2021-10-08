@@ -6,7 +6,6 @@ edited: 2021-10-08
 ---
 
 # How to use Obsidian
-
 - [[how_to_embed_files]]
 
 ## Beginner's Guide
