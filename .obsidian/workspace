@@ -26,6 +26,50 @@
           }
         },
         "group": "316c98334c9e619b"
+      },
+      {
+        "id": "dfa78a9b969f0d9f",
+        "type": "leaf",
+        "state": {
+          "type": "localgraph",
+          "state": {
+            "file": "README.md",
+            "options": {
+              "collapse-filter": true,
+              "search": "",
+              "localJumps": 1,
+              "localBacklinks": true,
+              "localForelinks": true,
+              "localInterlinks": false,
+              "showTags": false,
+              "showAttachments": false,
+              "hideUnresolved": false,
+              "collapse-color-groups": false,
+              "colorGroups": [
+                {
+                  "query": "",
+                  "color": {
+                    "a": 1,
+                    "rgb": 14701138
+                  }
+                }
+              ],
+              "collapse-display": true,
+              "showArrow": false,
+              "textFadeMultiplier": 0,
+              "nodeSizeMultiplier": 1,
+              "lineSizeMultiplier": 1,
+              "collapse-forces": true,
+              "centerStrength": 0.518713248970312,
+              "repelStrength": 10,
+              "linkStrength": 1,
+              "linkDistance": 250,
+              "scale": 0.7132754626224425,
+              "close": true
+            }
+          }
+        },
+        "group": "316c98334c9e619b"
       }
     ],
     "direction": "vertical"
@@ -99,17 +143,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "6863b438e39e2115",
+  "active": "3be584c09a561d23",
   "lastOpenFiles": [
     "README.md",
-    "programs/what_is_obsidian.md",
-    "zettelkasten/how_to_zettelkasten.md",
-    "zettelkasten/what_is_zettelkasten.md",
+    "todo/checklist.md",
+    "todo/todo_zettelkasten_guide.md",
     "zettelkasten/zettelkasten_templates.md",
     "zettelkasten/zettelkasten_meaning.md",
     "zettelkasten/zettelkasten_apps.md",
-    "zettelkasten/who_made_zettelkasten.md",
-    "data_visualization/graph.md",
-    "zettelkasten/Untitled.md"
+    "zettelkasten/what_is_zettelkasten.md",
+    "zettelkasten/how_to_zettelkasten_with_obsidian.md",
+    "zettelkasten/how_to_zettelkasten.md",
+    "zettelkasten/who_made_zettelkasten.md"
   ]
 }

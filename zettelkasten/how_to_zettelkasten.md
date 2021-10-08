@@ -1,10 +1,13 @@
 ---
-alias: []
-date: 2021-10-07
+alias: [How to Zettelkasten?, Organize notes the Zettelkasten way]
+tags: [zettelkasten, how-to]
+status: ongoing
+edited: 2021-10-07
 ---
 
 # How to Zettelkasten?
-Do a thing
+- [ ] The Principles of Zettelkasten
+- [x] [[how_to_zettelkasten_with_obsidian|How to Zettelkasten with Obsidian]]
 
 ## References
 - [Get started with examples](https://medium.com/@rebeccawilliams9941/the-zettelkasten-method-examples-to-help-you-get-started-8f8a44fa9ae6)

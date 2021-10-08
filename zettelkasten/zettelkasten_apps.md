@@ -1,6 +1,8 @@
 ---
 alias: [Zettelkasten Apps]
-date: 2021-10-07
+tags: [zettelkasten, app, recommended]
+status: complete
+edited: 2021-10-07
 ---
 
 # Apps for Zettelkasten

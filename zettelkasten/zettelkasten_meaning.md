@@ -1,10 +1,9 @@
 ---
-alias: [Zettelkasten Meaning, Note Boxes]
-date: 2021-10-07
+alias: [Meaning of Zettelkasten, Note Boxes]
+tags: [zettelkasten, german, meaning, english]
+status: complete
+edited: 2021-10-07
 ---
 
 # Zettelkasten meaning in English
-Zettelkasten is German for "Note Boxes".
-
-## Related
-[[what_is_zettelkasten]]
+[[what_is_zettelkasten|Zettelkasten]] is German for "Note Boxes".

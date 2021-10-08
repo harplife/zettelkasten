@@ -1,25 +1,27 @@
 ---
 alias: [Zettelkasten, What is Zettelkasten?]
-date: 2021-10-07
+tags: [zettelkasten, what-is]
+status: complete
+edited: 2021-10-07
 ---
 
 # What is zettelkasten?
 Zettelkasten is an efficient, flexible way of note taking that emphasize the connections between notes.
 
 ## Who came up with it?
-[[who_made_zettelkasten]]
+[[niklas_luhmann|Niklas Luhmann]]
 
 ## What does it mean?
-[[zettelkasten_meaning]]
+[[zettelkasten_meaning|Meaning of Zettelkasten]]
 
 ## How to do it?
-pass
+[[how_to_zettelkasten|How to Zettelkasten?]]
 
 ## Which apps can I use?
-[[zettelkasten_apps]]
+[[zettelkasten_apps|Zettelkasten Apps]]
 
 ## Templates
-[[zettelkasten_templates]]
+[[zettelkasten_templates|Zettelkasten Templates]]
 
 ## References
 - [The Official(?) Introduction](https://zettelkasten.de/introduction/)
