@@ -8,6 +8,8 @@ edited: 2021-10-07
 # What is zettelkasten?
 Zettelkasten is an efficient, flexible way of note taking that emphasize the connections between notes.
 
+A Zettelkasten is a personal tool for thinking and writing. It has hypertextual features to make a web of thought possible. The difference to other systems is that you create a web of thoughts instead of notes of arbitrary size and form, and emphasize connection, not a collection.
+
 ## Who came up with it?
 [[niklas_luhmann|Niklas Luhmann]]
 

@@ -6,4 +6,4 @@ edited: 2021-10-07
 ---
 
 # Zettelkasten meaning in English
-[[what_is_zettelkasten|Zettelkasten]] is German for "Note Boxes".
+[[what_is_zettelkasten|Zettelkasten]] is German for "Note Box".

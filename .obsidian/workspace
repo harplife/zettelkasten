@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "todo/how_to_todo.md",
+            "file": "ideas/obsidian_improvements.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "todo/how_to_todo.md",
+            "file": "ideas/obsidian_improvements.md",
             "mode": "preview"
           }
         },
@@ -33,8 +33,7 @@
         "state": {
           "type": "graph",
           "state": {}
-        },
-        "group": "fb7de4be29bcd5e6"
+        }
       }
     ],
     "direction": "vertical"
@@ -61,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#todo",
+                "query": "tag:#zettelkasten",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "todo/how_to_todo.md",
+                "file": "ideas/obsidian_improvements.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,17 +107,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "095c729f75491630",
+  "active": "3be584c09a561d23",
   "lastOpenFiles": [
-    "todo/how_to_todo.md",
-    "todo/todo_zettelkasten_guide.md",
-    "todo/todo_sync_google_keep_notes.md",
-    "todo/Untitled.md",
-    "programs/obsidian/how_to_embed_files.md",
+    "ideas/obsidian_improvements.md",
     "programs/obsidian/how_to_obsidian.md",
-    "zettelkasten/zettelkasten_templates.md",
-    "todo/checklist.md",
     "zettelkasten/how_to_zettelkasten.md",
-    "ideas/obsidian_improvements.md"
+    "zettelkasten/what_is_zettelkasten.md",
+    "zettelkasten/how_to_zettelkasten_with_obsidian.md",
+    "programs/obsidian/how_to_run_obsidian_on_linux.md",
+    "programs/obsidian/what_is_obsidian.md",
+    "README.md",
+    "zettelkasten/zettelkasten_apps.md",
+    "zettelkasten/zettelkasten_principles.md"
   ]
 }
