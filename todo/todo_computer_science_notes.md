@@ -6,6 +6,7 @@ edited: 2021-10-09
 ---
 
 # Take Computer Science Notes
-- [x] make a computer science folder and make subfolders with each of them being a class name
+- [x] make a computer science note [[computer_science|Computer Science]]
+- [ ] make a computer science folder and make subfolders with each of them being a class name
 - [ ] make __what-is__ note for each classes
 - [ ] make notes from class

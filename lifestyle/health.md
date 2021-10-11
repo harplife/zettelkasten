@@ -6,12 +6,12 @@ edited: 2021-10-08
 ---
 
 # What affects health?
-- food
-- fitness
-- mind
+- Diet
+- Workout
+- Psychology
 
-## Food related topics
+## Diet
 
-## Fitness related topics
+## Workout
 
-## Mind related topics
+## Psychology

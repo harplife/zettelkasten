@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "ideas/obsidian_improvements.md",
+            "file": "ich.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "ideas/obsidian_improvements.md",
+            "file": "ich.md",
             "mode": "preview"
           }
         },
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ideas/obsidian_improvements.md",
+                "file": "ich.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,15 +109,15 @@
   },
   "active": "3be584c09a561d23",
   "lastOpenFiles": [
-    "ideas/obsidian_improvements.md",
-    "programs/obsidian/how_to_obsidian.md",
-    "zettelkasten/how_to_zettelkasten.md",
-    "zettelkasten/what_is_zettelkasten.md",
-    "zettelkasten/how_to_zettelkasten_with_obsidian.md",
-    "programs/obsidian/how_to_run_obsidian_on_linux.md",
-    "programs/obsidian/what_is_obsidian.md",
-    "README.md",
-    "zettelkasten/zettelkasten_apps.md",
-    "zettelkasten/zettelkasten_principles.md"
+    "ich.md",
+    "todo/todo_computer_science_notes.md",
+    "computer_science/programming_language.md",
+    "lifestyle/health.md",
+    "Untitled.md",
+    "lifestyle/take_notes.md",
+    "python/get_kst_time_now.md",
+    "linux/how_to_run_appimage.md",
+    "computer_science/computer_science.md",
+    "computer_science/languages/python.md"
   ]
 }

@@ -1,7 +1,8 @@
 ---
 aliases: [Graph, Graph View]
-edited: 2021-10-07
 tags: [math, visualization]
+status: ongoing
+edited: 2021-10-07
 ---
 
 # Graph (discrete mathematics)
