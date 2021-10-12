@@ -1,6 +1,6 @@
 ---
 aliases: [Take Notes!]
-tags: [lifestyle]
+tags: [lifestyle, habit, goal]
 status: ongoing
 edited: 2021-10-08
 ---

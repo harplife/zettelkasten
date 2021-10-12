@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "ich.md",
+            "file": "tools/crm/what_is_crm.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "ich.md",
+            "file": "tools/crm/what_is_crm.md",
             "mode": "preview"
           }
         },
@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#zettelkasten",
+                "query": "tag:#goal",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ich.md",
+                "file": "tools/crm/what_is_crm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,17 +107,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "3be584c09a561d23",
+  "active": "9cc73e3e59dfed37",
   "lastOpenFiles": [
-    "ich.md",
-    "todo/todo_computer_science_notes.md",
-    "computer_science/programming_language.md",
-    "lifestyle/health.md",
-    "Untitled.md",
-    "lifestyle/take_notes.md",
-    "python/get_kst_time_now.md",
-    "linux/how_to_run_appimage.md",
-    "computer_science/computer_science.md",
-    "computer_science/languages/python.md"
+    "tools/crm/what_is_crm.md",
+    "tools/obsidian/what_is_obsidian.md",
+    "tools/obsidian/how_to_embed_files.md",
+    "tools/crm/Untitled.md",
+    "programs/obsidian/how_to_embed_files.md",
+    "lifestyle/work.md",
+    "data_science/data_science.md",
+    "lifestyle/study.md",
+    "lifestyle/hobbies.md",
+    "lifestyle/health.md"
   ]
 }

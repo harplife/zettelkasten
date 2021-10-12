@@ -1,6 +1,6 @@
 ---
-aliases: [Get Healthy!]
-tags: [lifestyle]
+aliases: [Health]
+tags: [lifestyle, health]
 status: ongoing
 edited: 2021-10-08
 ---

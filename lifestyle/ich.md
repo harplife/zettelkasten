@@ -15,12 +15,16 @@ Therefore, all notes should be described or connected in such a way that it can 
 As for how, we can work on that. #todo
 
 ## Work
-I am a programmer. I [[programming_language|Program(verb)]] using [[python|Python]].
-
-I am also a data scientist. I've analyzed data from e-Commerce and CRM platforms. #todo
+[[work|Work]]
 
 ## Study
-I studied Audio Engineering (undergraduate). #todo
+[[study|Study]]
 
-Now I am studying [[computer_science|Computer Science]].
+## Hobbies
+[[hobbies|Hobbies]]
 
+## Health
+[[health|Health]]
+
+## Goals
+#goal 
