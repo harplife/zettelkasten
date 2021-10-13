@@ -10,7 +10,7 @@ edited: 2021-10-12
 - Watching drawing videos
 - Watching science related videos
 - Watching movies and tv shows
-- Does studying count?
+- Does [[study|Study]] count?
 - Reading fantasy novels
-- Programming
-- Writing notes (I could literaly spend all day writing notes)
+- [[programming_language|Programming]]
+- [[what_is_zettelkasten|Zettelkasten]] (I could literaly spend all day writing notes)

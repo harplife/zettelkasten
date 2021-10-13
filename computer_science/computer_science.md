@@ -11,5 +11,6 @@ Computer Science is the study of algorithmic processes, computational machines a
 ## Fields
 - [[programming_language|Computer Programming]]
 
-## Source
-- [wiki entry](https://en.wikipedia.org/wiki/Computer_science)
+## References
+- https://en.wikipedia.org/wiki/Computer_science
+- https://www.britannica.com/science/computer-science

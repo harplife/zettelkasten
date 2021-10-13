@@ -1,5 +1,5 @@
 ---
-aliases: [Health]
+aliases: [Health, Healthy]
 tags: [lifestyle, health]
 status: ongoing
 edited: 2021-10-08
@@ -7,11 +7,13 @@ edited: 2021-10-08
 
 # What affects health?
 - Diet
-- Workout
+- Fitness
 - Psychology
 
 ## Diet
 
-## Workout
+## Fitness
 
 ## Psychology
+[[psychology|Psychology]]
+#psychology 

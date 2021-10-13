@@ -4,35 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "3be584c09a561d23",
+        "id": "f80f7a26b610aad2",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "tools/crm/what_is_crm.md",
+            "file": "computer_science/machine_learning.md",
             "mode": "source"
           }
-        },
-        "group": "fb7de4be29bcd5e6"
-      },
-      {
-        "id": "9cc73e3e59dfed37",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "tools/crm/what_is_crm.md",
-            "mode": "preview"
-          }
-        },
-        "group": "fb7de4be29bcd5e6"
-      },
-      {
-        "id": "095c729f75491630",
-        "type": "leaf",
-        "state": {
-          "type": "graph",
-          "state": {}
         }
       }
     ],
@@ -60,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#goal",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 229
   },
   "right": {
     "id": "f152d8fd8ec1f4e0",
@@ -89,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/crm/what_is_crm.md",
+                "file": "computer_science/machine_learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,17 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "9cc73e3e59dfed37",
+  "active": "f80f7a26b610aad2",
   "lastOpenFiles": [
-    "tools/crm/what_is_crm.md",
-    "tools/obsidian/what_is_obsidian.md",
-    "tools/obsidian/how_to_embed_files.md",
-    "tools/crm/Untitled.md",
-    "programs/obsidian/how_to_embed_files.md",
+    "computer_science/machine_learning.md",
+    "computer_science/computer_science.md",
+    "computer_science/Untitled.md",
     "lifestyle/work.md",
-    "data_science/data_science.md",
-    "lifestyle/study.md",
-    "lifestyle/hobbies.md",
-    "lifestyle/health.md"
+    "lifestyle/ich.md",
+    "certifications/sqld.md",
+    "certifications/national_certification.md",
+    "certifications/international_certification.md",
+    "attachments/niklas_luhmann.jpeg",
+    "certifications/certification.md"
   ]
 }
