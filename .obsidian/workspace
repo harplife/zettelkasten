@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "computer_science/machine_learning.md",
+            "file": "certifications/certification.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer_science/machine_learning.md",
+                "file": "certifications/certification.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "f80f7a26b610aad2",
   "lastOpenFiles": [
-    "computer_science/machine_learning.md",
-    "computer_science/computer_science.md",
-    "computer_science/Untitled.md",
-    "lifestyle/work.md",
-    "lifestyle/ich.md",
-    "certifications/sqld.md",
-    "certifications/national_certification.md",
+    "certifications/certification.md",
     "certifications/international_certification.md",
-    "attachments/niklas_luhmann.jpeg",
-    "certifications/certification.md"
+    "certifications/knou_cs_approved_certifications.md",
+    "certifications/national_certification.md",
+    "certifications/sqld.md",
+    "lifestyle/goals/goal_get_an_it_certification.md",
+    "lifestyle/goals/goal_bachelor_in_cs.md",
+    "certifications/Untitled.md",
+    "lifestyle/goals/goal_get_sqld.md",
+    "lifestyle/goals/Untitled.md"
   ]
 }

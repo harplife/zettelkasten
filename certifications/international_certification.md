@@ -1,6 +1,6 @@
 ---
 aliases: [International Certification]
-tags: [certification, international, USA]
+tags: [certification, international, USA, what-is]
 status: ongoing
 edited: 2021-10-13
 ---
