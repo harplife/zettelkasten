@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "f80f7a26b610aad2",
+        "id": "f8d02e2273582dd1",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "certifications/certification.md",
+            "file": "linux/why_linux_sucks.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "certifications/certification.md",
+                "file": "linux/why_linux_sucks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,17 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f80f7a26b610aad2",
+  "active": "f8d02e2273582dd1",
   "lastOpenFiles": [
-    "certifications/certification.md",
-    "certifications/international_certification.md",
-    "certifications/knou_cs_approved_certifications.md",
-    "certifications/national_certification.md",
-    "certifications/sqld.md",
-    "lifestyle/goals/goal_get_an_it_certification.md",
-    "lifestyle/goals/goal_bachelor_in_cs.md",
-    "certifications/Untitled.md",
-    "lifestyle/goals/goal_get_sqld.md",
-    "lifestyle/goals/Untitled.md"
+    "linux/why_linux_sucks.md",
+    "linux/how_to_run_appimage.md",
+    "linux/Untitled.md",
+    "zettelkasten/what_is_zettelkasten.md",
+    "zettelkasten/how_to_zettelkasten_with_obsidian.md",
+    "unsorted/the_scent_of_a_molecule_2017_sciencehistory.md",
+    "visualization/graph.md",
+    "tools/obsidian/what_is_obsidian.md",
+    "unsorted/Untitled.md",
+    "certifications/certification.md"
   ]
 }
