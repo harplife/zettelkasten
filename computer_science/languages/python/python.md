@@ -2,8 +2,8 @@
 aliases: [Python]
 tags: [python, language, programming, script]
 status: ongoing
-edited: 2021-10-11
+edited: 2021-10-18
 ---
 
 # Python
-A programming language #todo
+A [[programming_language|Programming Language]].

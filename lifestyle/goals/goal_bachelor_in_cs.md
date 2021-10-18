@@ -39,3 +39,6 @@ The timing is awful. I may be moving to USA after 2nd semester.
 Finals have to be taken at the desginated campus.
 Meaning, I may have to go back to S.Korea after each semester.
 I'm hoping that I'd at least be able to finish 3rd semester by the time I have to leave for USA.
+
+## TODO
+- [ ] [[todo_computer_science_notes|Take Computer Science Notes]]

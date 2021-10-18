@@ -6,7 +6,7 @@ edited: 2021-10-11
 ---
 
 # How to add to datetime
-A code examples for [[python|Python]]
+A code example for [[python|Python]].
 
 ## Using Datetime
 ```python

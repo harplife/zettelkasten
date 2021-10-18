@@ -1,5 +1,5 @@
 ---
-aliases: [Computer Science]
+aliases: [Computer Science, Computer Scientist]
 tags: [computer, science, degree, field, study]
 status: ongoing
 edited: 2021-10-11
