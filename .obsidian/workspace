@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "computer_science/languages/javascript/send_signal_on_close.md",
+            "file": "lifestyle/goals/todo/todo_log.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer_science/languages/javascript/send_signal_on_close.md",
+                "file": "lifestyle/goals/todo/todo_log.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,7 @@
   },
   "active": "f8d02e2273582dd1",
   "lastOpenFiles": [
+    "lifestyle/goals/todo/todo_log.md",
     "computer_science/languages/javascript/send_signal_on_close.md",
     "computer_science/languages/javascript/cast_linear_scale.md",
     "computer_science/languages/javascript/javascript.md",
@@ -96,7 +97,6 @@
     "articles/mike_parson_html_hacking.md",
     "computer_science/computer_science.md",
     "articles/interview_with_new_language.md",
-    "articles/Untitled.md",
-    "zettelkasten/zettelkasten_note_types.md"
+    "articles/Untitled.md"
   ]
 }
