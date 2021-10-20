@@ -6,6 +6,9 @@ edited: 2021-10-18
 ---
 
 # A governor says looking at webpage's HTML is hacking
+Read the [article](https://mashable.com/article/missouri-governor-mike-parson-reporter-html-hacking).
+
+## Summary
 Mike Parson, a governor (R) from Missouri USA, threatened to prosecute a journalist for "Decoding HTML source code".
 
 This happened after the journalist reported a vulnerability in an official Department of Elementary and Secondary Education website - people's Social Security Number was exposed right on the HTML.
@@ -29,5 +32,4 @@ Lastly, the fact that a developer thought exposing a private information on a we
 This should serve as a reminder to anybody who works in [[computer_science|Computer Science]] or [[data_science|Data Science]].
 
 ## References
-- [The Article](https://mashable.com/article/missouri-governor-mike-parson-reporter-html-hacking)
 - [Laws on Hacking](https://www.findlaw.com/criminal/criminal-charges/hacking-laws-and-punishments.html)

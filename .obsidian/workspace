@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "lifestyle/goals/todo/todo_log.md",
+            "file": "articles/elon_musk_favorite_interview_question.md",
             "mode": "source"
           }
         }
@@ -68,18 +68,30 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "lifestyle/goals/todo/todo_log.md",
+                "file": "articles/elon_musk_favorite_interview_question.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "22b2c060987a0027",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -88,15 +100,15 @@
   },
   "active": "f8d02e2273582dd1",
   "lastOpenFiles": [
+    "articles/elon_musk_favorite_interview_question.md",
+    "articles/mike_parson_html_hacking.md",
+    "articles/interview_with_new_language.md",
+    "tools/obsidian/how_to_make_obsidian_plugin.md",
+    "tools/obsidian/how_to_embed_files.md",
+    "tools/obsidian/what_is_obsidian.md",
+    "zettelkasten/zettelkasten_apps.md",
     "lifestyle/goals/todo/todo_log.md",
     "computer_science/languages/javascript/send_signal_on_close.md",
-    "computer_science/languages/javascript/cast_linear_scale.md",
-    "computer_science/languages/javascript/javascript.md",
-    "computer_science/languages/javascript/js_library_d3.md",
-    "computer_science/languages/javascript/Untitled.md",
-    "articles/mike_parson_html_hacking.md",
-    "computer_science/computer_science.md",
-    "articles/interview_with_new_language.md",
-    "articles/Untitled.md"
+    "computer_science/languages/javascript/cast_linear_scale.md"
   ]
 }
