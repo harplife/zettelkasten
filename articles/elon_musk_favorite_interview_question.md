@@ -1,8 +1,8 @@
 ---
 aliases: [Interview with Elon Musk, Elon Musk's Favorite Interview Question]
-tags: [article, interview, science]
+tags: [article, interview, career]
 status: ongoing
-edited: 2021-10-18
+edited: 2021-10-20
 ---
 
 # Elon Musk's Favorite Interview Question
@@ -21,6 +21,7 @@ The AIM Technique is all about informing interviewees that more detailed stateme
 - The author makes a statement that 1) Elon Musk was using the AIM Technique, 2) Elon Musk was using a question to find liars. I don't know if Elon informed the interviewee (about detail=truth). Based on the explanation about his question, it doesn't mention anything about lies. So it hardly seems like Elon was trying the AIM technique.
 - The AIM technique (the study of it) just goes to show that it sucks to have bad memories..!
 - The "difficult time" question is valid, in the sense that it's a thinker. I had thought before that this question was unfair (and it is to newbies), but considering it is not up to the interviewer to decide whether it's difficult, the interviewee is free to share any stories, I do think it is fair. It shows many things, like what the interviewee consider difficult, how the interviewee handles difficult situations, and how much awareness the interviewee has to the situation.
+- I think I should think of the answer to the question for myself, for [[work|Work]].
 
 ## References
 These were links that were in the article.

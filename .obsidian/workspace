@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "articles/elon_musk_favorite_interview_question.md",
+            "file": "computer_science/languages/python/libraries/verstack.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "articles/elon_musk_favorite_interview_question.md",
+                "file": "computer_science/languages/python/libraries/verstack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,15 +100,15 @@
   },
   "active": "f8d02e2273582dd1",
   "lastOpenFiles": [
+    "computer_science/languages/python/libraries/verstack.md",
+    "computer_science/languages/python/examples/how_to_parallelize_with_verstack.md",
+    "computer_science/languages/python/examples/get_kst_time_now.md",
+    "computer_science/languages/python/examples.md",
+    "computer_science/languages/python/l.md",
+    "articles/learn_faster_the_feynman_technique.md",
     "articles/elon_musk_favorite_interview_question.md",
-    "articles/mike_parson_html_hacking.md",
     "articles/interview_with_new_language.md",
-    "tools/obsidian/how_to_make_obsidian_plugin.md",
-    "tools/obsidian/how_to_embed_files.md",
-    "tools/obsidian/what_is_obsidian.md",
-    "zettelkasten/zettelkasten_apps.md",
-    "lifestyle/goals/todo/todo_log.md",
-    "computer_science/languages/javascript/send_signal_on_close.md",
-    "computer_science/languages/javascript/cast_linear_scale.md"
+    "articles/mike_parson_html_hacking.md",
+    "tools/obsidian/how_to_make_obsidian_plugin.md"
   ]
 }
