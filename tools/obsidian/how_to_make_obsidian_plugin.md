@@ -6,7 +6,7 @@ edited: 2021-10-20
 ---
 
 # How to make a Plugin for Obsidian
-Obsidian has its own official plugins (aka Core Plugins) but there aren't many.
+[[what_is_obsidian|Obsidian]] has its own official plugins (aka Core Plugins) but there aren't many.
 Third party plugins (aka Community Plugins) are available, and I can even make it myself if I really tried.
 
 I should make a list of useful plugins #todo

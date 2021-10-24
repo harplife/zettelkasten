@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "f8d02e2273582dd1",
+        "id": "31003a037fd634b5",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "computer_science/languages/python/libraries/verstack.md",
+            "file": "computer_science/artificial_intelligence/deep_blue_chess_computer.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "improv",
+                "query": "tag:#what-is",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer_science/languages/python/libraries/verstack.md",
+                "file": "computer_science/artificial_intelligence/deep_blue_chess_computer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,25 +90,24 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 194.8333282470703,
     "collapsed": true
   },
-  "active": "f8d02e2273582dd1",
+  "active": "31003a037fd634b5",
   "lastOpenFiles": [
-    "computer_science/languages/python/libraries/verstack.md",
-    "computer_science/languages/python/examples/how_to_parallelize_with_verstack.md",
-    "computer_science/languages/python/examples/get_kst_time_now.md",
-    "computer_science/languages/python/examples.md",
-    "computer_science/languages/python/l.md",
-    "articles/learn_faster_the_feynman_technique.md",
-    "articles/elon_musk_favorite_interview_question.md",
-    "articles/interview_with_new_language.md",
-    "articles/mike_parson_html_hacking.md",
-    "tools/obsidian/how_to_make_obsidian_plugin.md"
+    "computer_science/artificial_intelligence/deep_blue_chess_computer.md",
+    "computer_science/artificial_intelligence/machine_learning.md",
+    "computer_science/artificial_intelligence/turing_test.md",
+    "computer_science/artificial_intelligence/turing_machine.md",
+    "computer_science/artificial_intelligence/computing_machinery_and_intelligence.md",
+    "computer_science/artificial_intelligence/alan_turing.md",
+    "computer_science/programming_language.md",
+    "computer_science/computer_science.md",
+    "lifestyle/goals/todo/todo_log.md",
+    "edu.kbig.kr.md"
   ]
 }

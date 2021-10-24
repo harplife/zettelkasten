@@ -28,3 +28,5 @@ For reasons,
 For the same reasons above, [Google Keep](https://keep.google.com/) is nearly perfect for writing fleeting notes (but it's not for any other notes).
 
 The only downside, is there are maximum limit for number of tags.
+
+With that said, let's [[todo_sync_google_keep_notes|Sync Google Keep for Zettlekasten]].
