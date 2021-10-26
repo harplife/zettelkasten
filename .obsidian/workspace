@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "computer_science/artificial_intelligence/deep_blue_chess_computer.md",
+            "file": "lifestyle/todo/todo_log.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer_science/artificial_intelligence/deep_blue_chess_computer.md",
+                "file": "lifestyle/todo/todo_log.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,15 +99,15 @@
   },
   "active": "31003a037fd634b5",
   "lastOpenFiles": [
+    "lifestyle/todo/todo_log.md",
+    "unsorted/set_custom_domain_on_localhost.md",
+    "unsorted/the_scent_of_a_molecule_2017_sciencehistory.md",
     "computer_science/artificial_intelligence/deep_blue_chess_computer.md",
     "computer_science/artificial_intelligence/machine_learning.md",
     "computer_science/artificial_intelligence/turing_test.md",
     "computer_science/artificial_intelligence/turing_machine.md",
     "computer_science/artificial_intelligence/computing_machinery_and_intelligence.md",
     "computer_science/artificial_intelligence/alan_turing.md",
-    "computer_science/programming_language.md",
-    "computer_science/computer_science.md",
-    "lifestyle/goals/todo/todo_log.md",
-    "edu.kbig.kr.md"
+    "computer_science/programming_language.md"
   ]
 }

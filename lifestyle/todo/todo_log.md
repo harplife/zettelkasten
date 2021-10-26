@@ -13,8 +13,10 @@ Use of backlinks is recommended for tasks that require further explanation.
 
 ## 2021-10-18
 ### Work
-- [ ] AICRM 분석 input/output 데이터 DB 쿼리 준비
-- [ ] 분석 알고리즘에 관련된 자료/논문 준비
+- [x] AICRM 분석 input/output 데이터 DB 쿼리 준비
+	- 2021/10/25 완료
+- [x] 분석 알고리즘에 관련된 자료/논문 준비
+	- 2021/10/25 완료
 - [x] Refill snacks!
 ### Personal
 - [ ] Get Nike Tanjun shoes (known for its comfort, apparently)
@@ -53,7 +55,33 @@ Use of backlinks is recommended for tasks that require further explanation.
 
 ### Personal
 - [ ] [K-ICT 빅데이터 센터](https://kbig.kr) 10월 빅데이터 분석활용 [교육](http://edu.kbig.kr)
-	- [ ] 로그인 해보기 (이름/8자리)
-	- [ ] 목차 확인
+	- [x] 로그인 해보기 (이름/8자리)
+	- [x] 목차 확인
+	- [x] 교육 진행
+	- [ ] 수료증 취득
 	- [ ] 만족도조사 하기 (링크는 문자메시지에 있음)
 - [x] 문 안쪽 방면 주위로 방수처리 하기
+
+
+## 2021-10-25
+### Work
+- [x] 협업필터링 관련 논문 정리
+- [x] KNN 관련 논문 정리
+- [x] 분석 관련 파일들 취합
+- [x] GS인증 테스트용 컴퓨터 서버 도메인 설정 ([[set_custom_domain_on_localhost|Set a Custom Domain on Localhost]])
+- [ ] GS인증 테스트용 컴퓨터 서버 SSL 설정
+
+### Personal
+- [ ] 3기 신도시 사전청약 [공고](https://kr.object.gov-ncloudstorage.com/lh-storage/2021%EB%85%84%20%EC%82%AC%EC%A0%84%EC%B2%AD%EC%95%BD%202%EC%B0%A8%EC%A7%80%EA%B5%AC%20%EC%9E%85%EC%A3%BC%EC%9E%90%EB%AA%A8%EC%A7%91%EA%B3%B5%EA%B3%A0%EB%AC%B8_%EA%B3%B5%EA%B3%B5%EB%B6%84%EC%96%91.pdf) 확인
+
+
+## 2021-10-26
+### Work
+- [ ] 도커 파이썬 컨테이너 실행 명령어 정리
+
+### Personal
+- [ ] C++ 출석 수업 비디오 정리
+- [ ] C++ 출석 수업 과제 제출
+	- [ ] 과제 확인 - 내용 및 제한기간
+	- [ ] 과제 해당 챕터 확인
+- [ ] TV 사운드바 고려
