@@ -82,10 +82,13 @@ Use of backlinks is recommended for tasks that require further explanation.
 ### Personal
 - [x] C++ 출석 수업 비디오 정리
 - [ ] C++ 출석 수업 과제 제출
-	- [x] 과제 파일 확보
-	- [ ] 과제 확인 - 내용 및 제한기간
+	- [x] 과제 파일 확보: [[cpp_assignment.pdf]]
+	- [x] 과제 제출일 확인: 2021/11/5 금요일
+	- [ ] 과제 작성
 - [x] Write a note on [[sound_bar|Sound Bars]]
-- [ ] Get an Obsidian plugin for tabs
+- [x] Get an Obsidian plugin for tabs
+	- [[plugin_obsidian_tabs|Obsidian Tabs]]
 - [ ] Check if there's such a thing as "multi-pair Bluetooth receiver for Audio"
 - [ ] Write a note on how to set up SSL for Tomcat
 - [ ] Write a note on this [article](https://medium.com/nerd-for-tech/the-day-i-lost-my-job-at-microsoft-anatomy-of-stasis-f0e2cd653e3a)
+- [ ] Check out the Obsidian calendar [plugin](https://github.com/liamcain/obsidian-calendar-plugin)

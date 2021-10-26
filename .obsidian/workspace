@@ -9,78 +9,24 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "lifestyle/todo/todo_log.md",
+            "file": "lifestyle/products/sound_bar.md",
             "mode": "source"
           }
         },
         "pane-relief:history-v1": {
-          "pos": 5,
+          "pos": 0,
           "stack": [
             {
               "leaf": "89d56916367b4b57",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"english/idioms/not_in_kansas_anymore.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":125},\"to\":{\"line\":12,\"ch\":125}}}"
-            },
-            {
-              "leaf": "89d56916367b4b57",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"data_science/data_science.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "89d56916367b4b57",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"english/idioms/not_in_kansas_anymore.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "89d56916367b4b57",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"data_science/data_science.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "89d56916367b4b57",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"english/idioms/not_in_kansas_anymore.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":0}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/products/sound_bar.md\",\"mode\":\"source\"}}",
+              "eState": "{\"scroll\":7.3133900960286455}"
             },
             {
               "leaf": "89d56916367b4b57",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/todo/todo_log.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":67.70833333333333}"
-            },
-            {
-              "leaf": "89d56916367b4b57",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/web_server/how_to_ssl_on_server.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":16.875}"
-            },
-            {
-              "leaf": "89d56916367b4b57",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/web_server/set_custom_domain_on_localhost.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-            },
-            {
-              "leaf": "89d56916367b4b57",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/web_server/how_to_ssl_on_server.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":162},\"to\":{\"line\":25,\"ch\":162}},\"scroll\":15}"
-            },
-            {
-              "leaf": "89d56916367b4b57",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/web_server/set_custom_domain_on_localhost.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":0.9772727272727273}"
-            },
-            {
-              "leaf": "89d56916367b4b57",
-              "group": null,
-              "state": "{\"type\":\"empty\",\"state\":{}}",
-              "eState": "{}"
+              "eState": "{\"scroll\":68.4244500324495}"
             }
           ]
         }
@@ -102,10 +48,6 @@
             "state": {
               "type": "file-explorer",
               "state": {}
-            },
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": []
             }
           },
           {
@@ -114,17 +56,13 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#todo",
+                "query": "sound bar",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
-            },
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": []
             }
           }
         ]
@@ -147,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "lifestyle/todo/todo_log.md",
+                "file": "lifestyle/products/sound_bar.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,10 +94,6 @@
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": false
               }
-            },
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": []
             }
           },
           {
@@ -171,10 +105,6 @@
                 "sortOrder": "frequency",
                 "useHierarchy": true
               }
-            },
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": []
             }
           }
         ]
@@ -186,15 +116,15 @@
   },
   "active": "89d56916367b4b57",
   "lastOpenFiles": [
+    "lifestyle/products/sound_bar.md",
     "lifestyle/todo/todo_log.md",
+    "attachments/cpp_assignment.pdf",
     "english/idioms/not_in_kansas_anymore.md",
     "data_science/data_science.md",
     "computer_science/web_server/how_to_ssl_on_server.md",
     "computer_science/web_server/set_custom_domain_on_localhost.md",
-    "lifestyle/products/sound_bar.md",
     "tools/obsidian/what_is_obsidian.md",
     "tools/obsidian/obsidian_licenses.md",
-    "ideas/obsidian_improvements.md",
-    "certifications/international_certification.md"
+    "ideas/obsidian_improvements.md"
   ]
 }

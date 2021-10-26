@@ -23,4 +23,6 @@ I need to check
 
 ## Products in South Korea
 - Check out the Top 7 [here](https://reviewpro.co.kr/best-tv-sound-bar-speaker/)
+- "Cheap" britz speaker at [coupang](https://www.coupang.com/vp/products/310577730?itemId=979402758)
+- "Good" SoundCore spear with Dolby Atmos Surround Sound ([review](https://www.youtube.com/watch?v=juu3DD7HK8A), [coupang](https://www.coupang.com/vp/products/4321703277?itemId=5030924241))
 - 
