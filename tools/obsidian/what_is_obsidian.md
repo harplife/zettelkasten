@@ -12,3 +12,6 @@ The most powerful aspects of Obsidian are 1) the ___backlinking___, which links 
 
 ## How to use Obsidian?
 [[how_to_obsidian|How to use Obsidian]]
+
+## Licenses
+[[obsidian_licenses|Obsidian Licenses]]

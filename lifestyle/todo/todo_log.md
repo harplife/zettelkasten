@@ -69,7 +69,7 @@ Use of backlinks is recommended for tasks that require further explanation.
 - [x] KNN 관련 논문 정리
 - [x] 분석 관련 파일들 취합
 - [x] GS인증 테스트용 컴퓨터 서버 도메인 설정 ([[set_custom_domain_on_localhost|Set a Custom Domain on Localhost]])
-- [ ] GS인증 테스트용 컴퓨터 서버 SSL 설정
+- [x] GS인증 테스트용 컴퓨터 서버 SSL 설정
 
 ### Personal
 - [ ] 3기 신도시 사전청약 [공고](https://kr.object.gov-ncloudstorage.com/lh-storage/2021%EB%85%84%20%EC%82%AC%EC%A0%84%EC%B2%AD%EC%95%BD%202%EC%B0%A8%EC%A7%80%EA%B5%AC%20%EC%9E%85%EC%A3%BC%EC%9E%90%EB%AA%A8%EC%A7%91%EA%B3%B5%EA%B3%A0%EB%AC%B8_%EA%B3%B5%EA%B3%B5%EB%B6%84%EC%96%91.pdf) 확인
@@ -80,8 +80,12 @@ Use of backlinks is recommended for tasks that require further explanation.
 - [ ] 도커 파이썬 컨테이너 실행 명령어 정리
 
 ### Personal
-- [ ] C++ 출석 수업 비디오 정리
+- [x] C++ 출석 수업 비디오 정리
 - [ ] C++ 출석 수업 과제 제출
+	- [x] 과제 파일 확보
 	- [ ] 과제 확인 - 내용 및 제한기간
-	- [ ] 과제 해당 챕터 확인
-- [ ] TV 사운드바 고려
+- [x] Write a note on [[sound_bar|Sound Bars]]
+- [ ] Get an Obsidian plugin for tabs
+- [ ] Check if there's such a thing as "multi-pair Bluetooth receiver for Audio"
+- [ ] Write a note on how to set up SSL for Tomcat
+- [ ] Write a note on this [article](https://medium.com/nerd-for-tech/the-day-i-lost-my-job-at-microsoft-anatomy-of-stasis-f0e2cd653e3a)
