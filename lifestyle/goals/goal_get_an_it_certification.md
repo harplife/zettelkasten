@@ -9,7 +9,7 @@ edited: 2021-10-14
 This is a goal that has always been on my mind. Now this is an extension to the goal, [[goal_bachelor_in_cs|Get a Bachelor's Degree in Computer Science]].
 
 ## Objective
-Study and test to get one of the certifications listed in "Approved certifications from KNOU CS" #todo
+Study and test to get one of the certifications listed in [[lifestyle/school/knou_cs_approved_certifications|Approved Certifications for KNOU CS]].
 
 ## Deadline
 The end of summer in 2022.

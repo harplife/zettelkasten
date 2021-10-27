@@ -27,7 +27,10 @@ Use of backlinks is recommended for tasks that require further explanation.
 - [ ] Learn Kaldi with C++
 - [ ] Learn Cython
 - [ ] Get a mousepad
-- [ ] Get a keyboard and mouse? (maybe, for my birthday)
+- [ ] Get a keyboard and mouse? (maybe, for my birthday + Christmas?)
+	- Logitech MX KEYS ([danawa](http://prod.danawa.com/info/?pcode=9523836))
+	- Logitech MX MASTER 3 ([danawa](http://prod.danawa.com/info/?pcode=9524094))
+	- Cheaper Keyboard & Mouse set ([K780](https://www.logitech.com/en-us/products/keyboards/k780-multi-device-wireless-keyboard.920-008149.html), [M590](https://www.logitech.com/en-us/products/mice/m590-silent-wireless-mouse.910-005014.html), [리뷰](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=gkrwja88&logNo=221432480681))
 - [x] 상무님에게 받았던 인공지능 강의자료 업로드 및 정리 (대표님 위해서 정리했던 것 포함)
 	- 2021/10/19: 구글 드라이브에 저장 완료
 - [ ] Apply for Student Card at KNOU
@@ -88,7 +91,19 @@ Use of backlinks is recommended for tasks that require further explanation.
 - [x] Write a note on [[sound_bar|Sound Bars]]
 - [x] Get an Obsidian plugin for tabs
 	- [[plugin_obsidian_tabs|Obsidian Tabs]]
-- [ ] Check if there's such a thing as "multi-pair Bluetooth receiver for Audio"
-- [ ] Write a note on how to set up SSL for Tomcat
+- [x] Check if there's such a thing as "multi-pair Bluetooth receiver/transmitter for Audio"
+	- Check out this [list](https://www.headphonesty.com/2019/10/best-bluetooth-audio-transmitters-tv/)
 - [ ] Write a note on this [article](https://medium.com/nerd-for-tech/the-day-i-lost-my-job-at-microsoft-anatomy-of-stasis-f0e2cd653e3a)
 - [ ] Check out the Obsidian calendar [plugin](https://github.com/liamcain/obsidian-calendar-plugin)
+
+
+## 2021-10-27
+### Work
+- [ ] Fix the Referrer IP issue on Tomcat/NGINX (test/docker)
+
+### Personal
+- [ ] Check this [article](https://www.koreascience.or.kr/article/JAKO201916936725776.page) on sound-event classification
+- [ ] Find out the difference between [Signal Programming](https://en.wikipedia.org/wiki/Signal_programming) and [Event-Driven Programming](https://en.wikipedia.org/wiki/Event-driven_programming)
+- [ ] Read [this](https://betterprogramming.pub/crack-coding-interviews-by-building-these-5-real-world-features-4089058d7b0e)
+- [ ] Read [this](https://betterprogramming.pub/design-ubers-backend-a-systems-design-walkthrough-c88f8959de97)
+- [ ] Read [this](https://betterprogramming.pub/40-web-app-ideas-for-startups-in-2021-b6a25f499231)
