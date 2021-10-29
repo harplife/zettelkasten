@@ -57,12 +57,12 @@ Use of backlinks is recommended for tasks that require further explanation.
 - [ ] AI 과제 아이디어 구상하기 (팀스에 메시지 확인)
 
 ### Personal
-- [ ] [K-ICT 빅데이터 센터](https://kbig.kr) 10월 빅데이터 분석활용 [교육](http://edu.kbig.kr)
+- [x] [K-ICT 빅데이터 센터](https://kbig.kr) 10월 빅데이터 분석활용 [교육](http://edu.kbig.kr)
 	- [x] 로그인 해보기 (이름/8자리)
 	- [x] 목차 확인
 	- [x] 교육 진행
-	- [ ] 수료증 취득
-	- [ ] 만족도조사 하기 (링크는 문자메시지에 있음)
+	- [x] 수료증 취득
+	- [x] 만족도조사 하기 (링크는 문자메시지에 있음)
 - [x] 문 안쪽 방면 주위로 방수처리 하기
 
 
@@ -93,13 +93,13 @@ Use of backlinks is recommended for tasks that require further explanation.
 	- [[plugin_obsidian_tabs|Obsidian Tabs]]
 - [x] Check if there's such a thing as "multi-pair Bluetooth receiver/transmitter for Audio"
 	- Check out this [list](https://www.headphonesty.com/2019/10/best-bluetooth-audio-transmitters-tv/)
-- [ ] Write a note on this [article](https://medium.com/nerd-for-tech/the-day-i-lost-my-job-at-microsoft-anatomy-of-stasis-f0e2cd653e3a)
-- [ ] Check out the Obsidian calendar [plugin](https://github.com/liamcain/obsidian-calendar-plugin)
+- [x] Write a note on this [article](https://medium.com/nerd-for-tech/the-day-i-lost-my-job-at-microsoft-anatomy-of-stasis-f0e2cd653e3a)
+	- [[losing_microsoft_job|The Day I Lost my Job at Microsoft]]
 
 
 ## 2021-10-27
 ### Work
-- [ ] Fix the Referrer IP issue on Tomcat/NGINX (test/docker)
+- [x] Install NGINX on GS cert test PC and enable SSL
 
 ### Personal
 - [ ] Check this [article](https://www.koreascience.or.kr/article/JAKO201916936725776.page) on sound-event classification
@@ -107,3 +107,36 @@ Use of backlinks is recommended for tasks that require further explanation.
 - [ ] Read [this](https://betterprogramming.pub/crack-coding-interviews-by-building-these-5-real-world-features-4089058d7b0e)
 - [ ] Read [this](https://betterprogramming.pub/design-ubers-backend-a-systems-design-walkthrough-c88f8959de97)
 - [ ] Read [this](https://betterprogramming.pub/40-web-app-ideas-for-startups-in-2021-b6a25f499231)
+
+
+## 2021-10-28
+### Work
+- [ ] Manage space on work computer
+- [ ] Install docker
+
+### Personal
+- [x] Look into North Face fleeces
+	- Most of them look stuffy except maybe this [one](https://www.thenorthfacekorea.co.kr/product/NJ5JM51J)
+- [ ] Work on Python Math Practice (on work computer, projects folder)
+- [ ] Work on Google Trends API (pytrends, on work computer, projects folder)
+- [ ] Work on Never API (on work computer, projects folder)
+- [x] Write a note on an [article](https://towardsdatascience.com/whats-init-for-me-d70a312da583) explaining `__init__`
+	- [[import_patterns|Import Patterns]]
+
+
+## 2021-10-29
+### Work
+- [ ] 
+
+### Personal
+- [ ] Write a note on Logica (ref: [medium](https://medium.com/nerd-for-tech/google-is-pushing-the-new-language-logica-to-solve-the-major-flaws-in-sql-3cb62b6fab06), [Googleblog](https://opensource.googleblog.com/2021/04/logica-organizing-your-data-queries.html), [Official Site](https://logica.dev/))
+- [ ] Plan a career path
+	- [ ] List what jobs I qualify for now
+	- [ ] List what jobs I qualify for in the future
+	- [ ] List what jobs I want to be qualified ultimately
+- [ ] Write a note on this [article](https://javascript.plainenglish.io/the-20-richest-programmers-in-the-world-f224d1dce9e3)
+- [ ] Write a note on this [article](https://index.medium.com/the-day-i-almost-rage-quit-amazon-5727ef4f71e1) by Carlos Arguelles
+- [ ] Find more people who write about their experience at work
+- [ ] Write a note on this [article](https://entrepreneurshandbook.co/harvard-researchers-prove-high-achievers-crave-purpose-not-passion-ca4a14c2cd3b)
+- [ ] Write a note on [Short Term Memory](https://www.simplypsychology.org/short-term-memory.html)
+

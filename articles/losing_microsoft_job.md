@@ -1,8 +1,8 @@
 ---
-aliases: [Learn Anything Faster, Learn Anything Faster With The Feynman Technique]
-tags: [article, learning, lifestyle, study, technique]
+aliases: [The Day I Lost my Job at Microsoft, Carlos Arguelles Looking Back on Microsoft]
+tags: [article, microsoft, career, reflection]
 status: ongoing
-edited: 2021-10-21
+edited: 2021-10-27
 ---
 
 # The Day I Lost my Job at Microsoft
