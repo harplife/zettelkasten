@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "psychology/serial_position_effect.md",
+            "file": "computer_science/languages/cpp/knou_cpp_notes.md",
             "mode": "source"
           }
         },
@@ -19,8 +19,26 @@
             {
               "leaf": "89d56916367b4b57",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/languages/cpp/knou_cpp_notes.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":105,\"ch\":0},\"to\":{\"line\":105,\"ch\":0}},\"scroll\":82.24882135276924}"
+            },
+            {
+              "leaf": "89d56916367b4b57",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/languages/programming_language.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "89d56916367b4b57",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/languages/cpp/knou_cpp_notes.md\",\"mode\":\"source\"}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "89d56916367b4b57",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"psychology/serial_position_effect.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+              "eState": "{}"
             },
             {
               "leaf": "89d56916367b4b57",
@@ -117,18 +135,6 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/todo/todo_log.md\",\"mode\":\"source\"}}",
               "eState": "{\"scroll\":102.625}"
-            },
-            {
-              "leaf": "89d56916367b4b57",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/products/sound_bar.md\",\"mode\":\"source\"}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "89d56916367b4b57",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/todo/todo_log.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":68.4244500324495}"
             }
           ]
         }
@@ -195,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "psychology/serial_position_effect.md",
+                "file": "computer_science/languages/cpp/knou_cpp_notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -234,6 +240,8 @@
   },
   "active": "89d56916367b4b57",
   "lastOpenFiles": [
+    "computer_science/languages/cpp/knou_cpp_notes.md",
+    "computer_science/languages/programming_language.md",
     "psychology/serial_position_effect.md",
     "psychology/doherty_threshold.md",
     "psychology/zeigarnik_effect.md",
@@ -241,8 +249,6 @@
     "computer_science/languages/Untitled.md",
     "psychology/von_restorff_effect.md",
     "economy/pareto_principle.md",
-    "psychology/occams_razor.md",
-    "psychology/millers_law.md",
-    "psychology/hicks_law.md"
+    "psychology/occams_razor.md"
   ]
 }
