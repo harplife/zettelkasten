@@ -20,6 +20,9 @@ Use of backlinks is recommended for tasks that require further explanation.
 - [x] Refill snacks!
 ### Personal
 - [ ] Get Nike Tanjun shoes (known for its comfort, apparently)
+	- [x] Check out the price [here]; around 6 man-won
+	- [ ] Look for competitions
+		- Allbirds shoes, they all look nice. Somewhat pricey though. Check it [here](https://allbirds.co.kr/collections/mens-runners)
 - [ ] [[todo_fall_fashion|Prepare outfits for Fall]]
 - [ ] [[todo_computer_science_notes|Take Computer Science Notes]]
 - [ ] Learn CUDA programming with C++
@@ -140,3 +143,27 @@ Use of backlinks is recommended for tasks that require further explanation.
 - [ ] Write a note on this [article](https://entrepreneurshandbook.co/harvard-researchers-prove-high-achievers-crave-purpose-not-passion-ca4a14c2cd3b)
 - [ ] Write a note on [Short Term Memory](https://www.simplypsychology.org/short-term-memory.html)
 
+
+## 2021-11-01
+### Work
+- [ ] Organize guideline for starting web server on the Test PC
+- [ ] Make sure everything runs smoothly on the Test PC on full restart
+
+### Personal
+- [ ] Plan for finals; preferably 12/19 afternoon (3rd and 4th). Refer the [guide](https://www.knou.ac.kr/knou/561/subview.do;jsessionid=93B2D705D39B2B8F51E4BBFDF999D3BD.545589fbf31b00461?enc=Zm5jdDF8QEB8JTJGYmJzJTJGa25vdSUyRjUxJTJGMjMyODkwJTJGYXJ0Y2xWaWV3LmRvJTNG).
+	- [ ] Google whether there's any restriction on applying
+	- [ ] Google blog stories on applying for finals
+	- [ ] Check if it's 3 finals per session (25 minutes per final)
+- [x] Turn in assignment for KNOU CS C++ Class
+- [ ] Break down the C++ assignment into notes
+- [ ] Celebrate getting good grades on three assignments (KNOU CS)
+- [ ] Work on Linear Algebra finals assignment
+- [ ] Check out sneaker ideas from [here](https://luxe.digital/lifestyle/style/best-men-luxury-sneakers/)
+- [ ] Check out men's shoes
+	- sneakers brands [list](https://www.dmarge.com/best-sneakers-for-men)
+- [ ] Plan a trip to Seokcho with parents
+- [ ] Read up on how to study for Coding Interviews [here](https://mjbleong.medium.com/ace-the-coding-interview-how-i-got-offers-at-google-and-facebook-twice-d5083fcca17d)
+- [ ] Read up on [this](https://www.thoughtasylum.com/2021/09/12/automating-your-obsidian-workspace/)
+- [ ] Maybe buy this [mouse](https://www.coupang.com/vp/products/1318554391)?
+- [ ] Maybe buy this [wrist support](https://www.coupang.com/vp/products/1797408426)?
+- [ ] 
