@@ -12,6 +12,8 @@ Notes going over
 - pointers and references
 - functions
 
+#todo Pointers, Reference, and Overloading deserves its own notes.
+
 ## Basics
 - File extension is `*.cpp`
 - Single line comments with `//`
@@ -115,9 +117,11 @@ intPtr = new int; // allocates a memory space (of nothing)
 - Reference cannot be initialized by itself, like `int &aRef;`, which would error. Instead it must refer to a variable, like so `int &aRef = a;`
 - Reference is used like any other variable
 - Reference cannot change the value of a constant
+- Once initialized, a Reference cannot refer to any other variable
+- Reference is much similar to Pointer, except Reference is much simpler to use. More on the differences [here](https://www.geeksforgeeks.org/pointers-vs-references-cpp/)
+- Example code for Reference : [[knou_cpp_assignment#RecTest cpp|RecTest.cpp]]
 
 ## Functions
 - Function is a group of program statements that is assigned a name
 - Since a function has a name, a pointer can point to its address
-- note about value-by-reference #todo
-- note about overload #todo
+- Function Overloading means a function can have multiple definitions. This can be implemented by changing the data type of the input parameters. An example of this can be found at [[knou_cpp_assignment#GetMax cpp|GetMax.cpp]]

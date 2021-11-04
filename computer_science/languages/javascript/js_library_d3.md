@@ -18,3 +18,4 @@ I would rate the difficulty of this library 7/10, as it would take at least a we
 - [wiki entry](https://en.wikipedia.org/wiki/D3.js)
 - [official github](https://github.com/d3/d3)
 - [tutorial](https://observablehq.com/@d3/learn-d3)
+- [blog/tutorial](http://www.d3noob.org/)

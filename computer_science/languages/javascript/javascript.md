@@ -1,6 +1,6 @@
 ---
-aliases: [JavaScript, JS]
-tags: [javascript, language, programming, script, frontend]
+aliases: [JavaScript, JS, What is JavaScript]
+tags: [javascript, language, programming, script, frontend, WHAT-IS]
 status: ongoing
 edited: 2021-10-18
 ---

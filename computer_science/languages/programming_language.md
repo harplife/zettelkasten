@@ -10,6 +10,8 @@ Computer Programming is the process of designing and building an executable comp
 
 ## Programming Languages
 - [[python|Python]]
+- [[javascript|JavaScript]]
+- [[cpp|C++]]
 
 ## Source
 - [wiki entry](https://en.wikipedia.org/wiki/Computer_programming)

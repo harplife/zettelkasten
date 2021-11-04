@@ -19,25 +19,29 @@ Use of backlinks is recommended for tasks that require further explanation.
 	- 2021/10/25 완료
 - [x] Refill snacks!
 ### Personal
-- [ ] Get Nike Tanjun shoes (known for its comfort, apparently)
-	- [x] Check out the price [here]; around 6 man-won
-	- [ ] Look for competitions
-		- Allbirds shoes, they all look nice. Somewhat pricey though. Check it [here](https://allbirds.co.kr/collections/mens-runners)
+- [x] Get Nike Tanjun shoes (known for its comfort, apparently)
+	- [x] Check out the price [here](https://front.wemakeprice.com/product/1619072333); around 6 man-won
+		- bought it at ~5 mw due to discount
+	- [x] Look for competitions
+		- Allbirds shoes, they all look nice. Somewhat pricey though (13mw and up). Check it [here](https://allbirds.co.kr/collections/mens-runners)
 - [ ] [[todo_fall_fashion|Prepare outfits for Fall]]
 - [ ] [[todo_computer_science_notes|Take Computer Science Notes]]
 - [ ] Learn CUDA programming with C++
 - [ ] Learn OpenCV with C++
 - [ ] Learn Kaldi with C++
 - [ ] Learn Cython
-- [ ] Get a mousepad
+- [x] Get a mousepad
+	- [x] Trying this leather [mousepad](https://www.coupang.com/vp/products/1758732885) - bought 2021/11/03
 - [ ] Get a keyboard and mouse? (maybe, for my birthday + Christmas?)
-	- Logitech MX KEYS ([danawa](http://prod.danawa.com/info/?pcode=9523836))
-	- Logitech MX MASTER 3 ([danawa](http://prod.danawa.com/info/?pcode=9524094))
-	- Cheaper Keyboard & Mouse set ([K780](https://www.logitech.com/en-us/products/keyboards/k780-multi-device-wireless-keyboard.920-008149.html), [M590](https://www.logitech.com/en-us/products/mice/m590-silent-wireless-mouse.910-005014.html), [리뷰](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=gkrwja88&logNo=221432480681))
+	- [ ] Logitech MX KEYS ([danawa](http://prod.danawa.com/info/?pcode=9523836))
+	- [ ] Logitech MX MASTER 3 ([danawa](http://prod.danawa.com/info/?pcode=9524094))
+	- [x] Logitech [M590](https://www.logitech.com/en-us/products/mice/m590-silent-wireless-mouse.910-005014.html) - bought it because.. why not
+	- [ ] Logitech [K780](https://www.logitech.com/en-us/products/keyboards/k780-multi-device-wireless-keyboard.920-008149.html)
 - [x] 상무님에게 받았던 인공지능 강의자료 업로드 및 정리 (대표님 위해서 정리했던 것 포함)
 	- 2021/10/19: 구글 드라이브에 저장 완료
-- [ ] Apply for Student Card at KNOU
-- [ ] Check for Student Discounts (especially for a phone for dad)
+- [x] Print Certificate of Enrollment from KNOU
+- [x] Check for Student Discounts for a phone for dad
+	- Checked price at Ygoon, Samsung Campus and etc. Turns out it's much cheaper to get discounted phone (w/ contract) from LG U+
 
 
 ## 2021-10-19
@@ -83,7 +87,7 @@ Use of backlinks is recommended for tasks that require further explanation.
 
 ## 2021-10-26
 ### Work
-- [ ] 도커 파이썬 컨테이너 실행 명령어 정리
+- [x] 도커 파이썬 컨테이너 실행 명령어 정리
 
 ### Personal
 - [x] C++ 출석 수업 비디오 정리
@@ -146,8 +150,8 @@ Use of backlinks is recommended for tasks that require further explanation.
 
 ## 2021-11-01
 ### Work
-- [ ] Organize guideline for starting web server on the Test PC
-- [ ] Make sure everything runs smoothly on the Test PC on full restart
+- [x] Organize guideline for starting web server on the Test PC
+- [x] Make sure everything runs smoothly on the Test PC on full restart
 
 ### Personal
 - [ ] Plan for finals; preferably 12/19 afternoon (3rd and 4th). Refer the [guide](https://www.knou.ac.kr/knou/561/subview.do;jsessionid=93B2D705D39B2B8F51E4BBFDF999D3BD.545589fbf31b00461?enc=Zm5jdDF8QEB8JTJGYmJzJTJGa25vdSUyRjUxJTJGMjMyODkwJTJGYXJ0Y2xWaWV3LmRvJTNG).
@@ -155,7 +159,9 @@ Use of backlinks is recommended for tasks that require further explanation.
 	- [ ] Google blog stories on applying for finals
 	- [ ] Check if it's 3 finals per session (25 minutes per final)
 - [x] Turn in assignment for KNOU CS C++ Class
-- [ ] Break down the C++ assignment into notes
+- [x] Break down the C++ assignment into notes
+	- [[knou_cpp_assignment|8 Basic Problems for C++]]
+	- completed 2021/11/03
 - [ ] Celebrate getting good grades on three assignments (KNOU CS)
 - [ ] Work on Linear Algebra finals assignment
 - [ ] Check out sneaker ideas from [here](https://luxe.digital/lifestyle/style/best-men-luxury-sneakers/)
@@ -164,6 +170,35 @@ Use of backlinks is recommended for tasks that require further explanation.
 - [ ] Plan a trip to Seokcho with parents
 - [ ] Read up on how to study for Coding Interviews [here](https://mjbleong.medium.com/ace-the-coding-interview-how-i-got-offers-at-google-and-facebook-twice-d5083fcca17d)
 - [ ] Read up on [this](https://www.thoughtasylum.com/2021/09/12/automating-your-obsidian-workspace/)
-- [ ] Maybe buy this [mouse](https://www.coupang.com/vp/products/1318554391)?
+- [ ] Maybe buy this Anker Wireless Vertical [Mouse](https://www.coupang.com/vp/products/1318554391)?
 - [ ] Maybe buy this [wrist support](https://www.coupang.com/vp/products/1797408426)?
 - [ ] 
+
+
+## 2021-11-03
+### Work
+- [ ] Update WBS & List Errors
+- [ ] Back up python code for GS Certification
+- [ ] Create a separate branch for GS Certification
+- [ ] Set up GS Certification code on work PC
+- [ ] Refill snacks!
+- [ ] USB 선풍기 구입
+
+### Personal
+- [ ] Check out Obsidian Graph-Analysis [Plugin](https://github.com/SkepticMystic/graph-analysis). It is described as _2nd order backlinks panel_.
+- [ ] 
+
+
+## 2021-11-04
+### Work
+- [ ] Make October Report for SC
+- [ ] Make Customer Retention Rate Report for BS
+
+### Personal
+- [ ] Complete note on [[pykaldi]]
+- [ ] Write a review on the new mouespad I got. Refer to 2021-10-18 todo entry
+- [ ] Check out [Grafana](https://grafana.com/). It seems like a Data Visualization Tool
+- [ ] Check out [Prometheus](https://prometheus.io/). It is a Data Monitoring Tool
+- [ ] Write a note on this article, [Top 4 Time Series Databases](https://medium.com/schkn/4-best-time-series-databases-to-watch-in-2019-ef1e89a72377)
+- [ ] Write a note on Open Data and Monitoring Services
+- [ ] Write a note on Customer Retention Rate - [ref](https://www.zendesk.com/blog/calculate-customer-retention-rate/)
