@@ -30,7 +30,7 @@
                   "leaf": "bfe6b56c04df84c1",
                   "group": null,
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/todo/todo_log.md\",\"mode\":\"source\"}}",
-                  "eState": "{\"scroll\":184.08333333333334}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":194,\"ch\":48},\"to\":{\"line\":194,\"ch\":48}},\"scroll\":181.41666666666666}"
                 },
                 {
                   "leaf": "bfe6b56c04df84c1",
@@ -84,139 +84,29 @@
             }
           },
           {
-            "id": "fb2140544c78ba60",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "data_science/open_data_and_monitoring.md",
-                "mode": "source"
-              }
-            },
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "leaf": "fb2140544c78ba60",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"data_science/open_data_and_monitoring.md\",\"mode\":\"source\"}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":3},\"to\":{\"line\":17,\"ch\":3}}}"
-                },
-                {
-                  "leaf": "fb2140544c78ba60",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/todo/todo_computer_science_notes.md\",\"mode\":\"source\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "leaf": "fb2140544c78ba60",
-                  "group": null,
-                  "state": "{\"type\":\"empty\",\"state\":{}}",
-                  "eState": "{}"
-                }
-              ]
-            }
-          },
-          {
-            "id": "0ae3f76f2048b277",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "computer_science/languages/javascript/js_library_d3.md",
-                "mode": "source"
-              }
-            },
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "leaf": "0ae3f76f2048b277",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/languages/javascript/js_library_d3.md\",\"mode\":\"source\"}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "leaf": "0ae3f76f2048b277",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/languages/python/libraries/pykaldi.md\",\"mode\":\"source\"}}",
-                  "eState": "{\"scroll\":0}"
-                },
-                {
-                  "leaf": "0ae3f76f2048b277",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/languages/cpp/cpp.md\",\"mode\":\"source\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "leaf": "0ae3f76f2048b277",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/languages/programming_language.md\",\"mode\":\"source\"}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "leaf": "0ae3f76f2048b277",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/languages/cpp/cpp.md\",\"mode\":\"source\"}}",
-                  "eState": "{\"scroll\":0}"
-                },
-                {
-                  "leaf": "0ae3f76f2048b277",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/languages/cpp/why_use_pointers.md\",\"mode\":\"source\"}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":66,\"ch\":155},\"to\":{\"line\":66,\"ch\":155}},\"scroll\":37.416666666666664}"
-                },
-                {
-                  "leaf": "0ae3f76f2048b277",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/languages/cpp/cpp.md\",\"mode\":\"source\"}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":12},\"to\":{\"line\":19,\"ch\":12}},\"scroll\":3.3333333333333335}"
-                },
-                {
-                  "leaf": "0ae3f76f2048b277",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/languages/cpp/cpp_style_guide.md\",\"mode\":\"source\"}}",
-                  "eState": "{\"scroll\":0}"
-                },
-                {
-                  "leaf": "0ae3f76f2048b277",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/languages/cpp/knou_cpp_assignment.md\",\"mode\":\"preview\"}}",
-                  "eState": "{\"scroll\":269.8980526918671}"
-                },
-                {
-                  "leaf": "0ae3f76f2048b277",
-                  "group": null,
-                  "state": "{\"type\":\"empty\",\"state\":{}}",
-                  "eState": "{}"
-                }
-              ]
-            }
-          },
-          {
             "id": "5dd52559eaf2421b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer_science/languages/cpp/knou_cpp_notes.md",
-                "mode": "source"
+                "file": "data_science/customer_retention_rate.md",
+                "mode": "preview"
               }
             },
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
                 {
                   "leaf": "5dd52559eaf2421b",
                   "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/languages/cpp/knou_cpp_assignment.md\",\"mode\":\"source\"}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":127.17647058823529}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"data_science/customer_retention_rate.md\",\"mode\":\"preview\"}}",
+                  "eState": "{\"scroll\":59.8125}"
                 },
                 {
                   "leaf": "5dd52559eaf2421b",
                   "group": null,
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/languages/cpp/knou_cpp_notes.md\",\"mode\":\"source\"}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":7,\"ch\":22}},\"scroll\":0}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
                 },
                 {
                   "leaf": "5dd52559eaf2421b",
@@ -225,6 +115,14 @@
                   "eState": "{}"
                 }
               ]
+            }
+          },
+          {
+            "id": "4b085346de9233e6",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ],
@@ -292,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "lifestyle/todo/todo_log.md",
+                "file": "data_science/customer_retention_rate.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -328,7 +226,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "lifestyle/todo/todo_log.md"
+                "file": "data_science/customer_retention_rate.md"
               }
             },
             "pane-relief:history-v1": {
@@ -343,17 +241,17 @@
     "direction": "horizontal",
     "width": 316.5
   },
-  "active": "bfe6b56c04df84c1",
+  "active": "5dd52559eaf2421b",
   "lastOpenFiles": [
-    "lifestyle/todo/todo_log.md",
+    "data_science/customer_retention_rate.md",
+    "computer_science/languages/cpp/knou_cpp_notes.md",
+    "computer_science/languages/cpp/knou_cpp_assignment.md",
     "data_science/open_data_and_monitoring.md",
     "computer_science/languages/javascript/js_library_d3.md",
+    "lifestyle/todo/todo_log.md",
     "lifestyle/todo/todo_computer_science_notes.md",
     "computer_science/languages/python/libraries/pykaldi.md",
     "computer_science/languages/cpp/cpp.md",
-    "computer_science/languages/programming_language.md",
-    "computer_science/languages/cpp/why_use_pointers.md",
-    "computer_science/languages/cpp/knou_cpp_notes.md",
-    "computer_science/languages/python/python.md"
+    "computer_science/languages/programming_language.md"
   ]
 }

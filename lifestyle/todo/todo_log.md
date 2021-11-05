@@ -154,10 +154,10 @@ Use of backlinks is recommended for tasks that require further explanation.
 - [x] Make sure everything runs smoothly on the Test PC on full restart
 
 ### Personal
-- [ ] Plan for finals; preferably 12/19 afternoon (3rd and 4th). Refer the [guide](https://www.knou.ac.kr/knou/561/subview.do;jsessionid=93B2D705D39B2B8F51E4BBFDF999D3BD.545589fbf31b00461?enc=Zm5jdDF8QEB8JTJGYmJzJTJGa25vdSUyRjUxJTJGMjMyODkwJTJGYXJ0Y2xWaWV3LmRvJTNG).
-	- [ ] Google whether there's any restriction on applying
-	- [ ] Google blog stories on applying for finals
-	- [ ] Check if it's 3 finals per session (25 minutes per final)
+- [x] Plan for finals; preferably 12/19 afternoon (3rd and 4th). Refer the [guide](https://www.knou.ac.kr/knou/561/subview.do;jsessionid=93B2D705D39B2B8F51E4BBFDF999D3BD.545589fbf31b00461?enc=Zm5jdDF8QEB8JTJGYmJzJTJGa25vdSUyRjUxJTJGMjMyODkwJTJGYXJ0Y2xWaWV3LmRvJTNG).
+	- [x] Google whether there's any restriction on applying - confirmed, none
+	- [x] Check if it's 3 finals per session (25 minutes per final) - confirmed, yes
+	- [x] Applied on 11/05, for 12/19 afternoon (3rd and 4th)
 - [x] Turn in assignment for KNOU CS C++ Class
 - [x] Break down the C++ assignment into notes
 	- [[knou_cpp_assignment|8 Basic Problems for C++]]
