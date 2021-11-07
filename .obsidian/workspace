@@ -30,7 +30,7 @@
                   "leaf": "bfe6b56c04df84c1",
                   "group": null,
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/todo/todo_log.md\",\"mode\":\"source\"}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":194,\"ch\":48},\"to\":{\"line\":194,\"ch\":48}},\"scroll\":181.41666666666666}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":204,\"ch\":0},\"to\":{\"line\":204,\"ch\":0}},\"scroll\":193.9412300942758}"
                 },
                 {
                   "leaf": "bfe6b56c04df84c1",
@@ -89,8 +89,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "data_science/customer_retention_rate.md",
-                "mode": "preview"
+                "file": "computer_science/data_structure/knou_lesson_01.md",
+                "mode": "source"
               }
             },
             "pane-relief:history-v1": {
@@ -99,8 +99,14 @@
                 {
                   "leaf": "5dd52559eaf2421b",
                   "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"data_science/customer_retention_rate.md\",\"mode\":\"preview\"}}",
-                  "eState": "{\"scroll\":59.8125}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/data_structure/knou_lesson_01.md\",\"mode\":\"source\"}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":54,\"ch\":19},\"to\":{\"line\":54,\"ch\":19}},\"scroll\":0}"
+                },
+                {
+                  "leaf": "5dd52559eaf2421b",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"data_science/customer_retention_rate.md\",\"mode\":\"source\"}}",
+                  "eState": "{\"scroll\":0.843949004193436}"
                 },
                 {
                   "leaf": "5dd52559eaf2421b",
@@ -115,14 +121,6 @@
                   "eState": "{}"
                 }
               ]
-            }
-          },
-          {
-            "id": "4b085346de9233e6",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           }
         ],
@@ -190,7 +188,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "data_science/customer_retention_rate.md",
+                "file": "computer_science/data_structure/knou_lesson_01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -226,7 +224,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "data_science/customer_retention_rate.md"
+                "file": "computer_science/data_structure/knou_lesson_01.md"
               }
             },
             "pane-relief:history-v1": {
@@ -243,15 +241,15 @@
   },
   "active": "5dd52559eaf2421b",
   "lastOpenFiles": [
+    "computer_science/data_structure/knou_lesson_01.md",
+    "lifestyle/todo/todo_log.md",
+    "computer_science/languages/cpp/cpp.md",
     "data_science/customer_retention_rate.md",
     "computer_science/languages/cpp/knou_cpp_notes.md",
     "computer_science/languages/cpp/knou_cpp_assignment.md",
     "data_science/open_data_and_monitoring.md",
     "computer_science/languages/javascript/js_library_d3.md",
-    "lifestyle/todo/todo_log.md",
     "lifestyle/todo/todo_computer_science_notes.md",
-    "computer_science/languages/python/libraries/pykaldi.md",
-    "computer_science/languages/cpp/cpp.md",
-    "computer_science/languages/programming_language.md"
+    "computer_science/languages/python/libraries/pykaldi.md"
   ]
 }

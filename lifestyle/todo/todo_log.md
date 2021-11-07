@@ -35,7 +35,8 @@ Use of backlinks is recommended for tasks that require further explanation.
 - [ ] Get a keyboard and mouse? (maybe, for my birthday + Christmas?)
 	- [ ] Logitech MX KEYS ([danawa](http://prod.danawa.com/info/?pcode=9523836))
 	- [ ] Logitech MX MASTER 3 ([danawa](http://prod.danawa.com/info/?pcode=9524094))
-	- [x] Logitech [M590](https://www.logitech.com/en-us/products/mice/m590-silent-wireless-mouse.910-005014.html) - bought it because.. why not
+	- [x] Logitech [M590](https://www.logitech.com/en-us/products/mice/m590-silent-wireless-mouse.910-005014.html) - bought 2021/11/03
+        - Received 2021/11/06, it's really nice
 	- [ ] Logitech [K780](https://www.logitech.com/en-us/products/keyboards/k780-multi-device-wireless-keyboard.920-008149.html)
 - [x] 상무님에게 받았던 인공지능 강의자료 업로드 및 정리 (대표님 위해서 정리했던 것 포함)
 	- 2021/10/19: 구글 드라이브에 저장 완료
