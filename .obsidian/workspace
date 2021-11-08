@@ -30,7 +30,7 @@
                   "leaf": "bfe6b56c04df84c1",
                   "group": null,
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/todo/todo_log.md\",\"mode\":\"source\"}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":204,\"ch\":0},\"to\":{\"line\":204,\"ch\":0}},\"scroll\":193.9412300942758}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":199,\"ch\":92},\"to\":{\"line\":199,\"ch\":92}},\"scroll\":174.64583333333334}"
                 },
                 {
                   "leaf": "bfe6b56c04df84c1",
@@ -100,7 +100,7 @@
                   "leaf": "5dd52559eaf2421b",
                   "group": null,
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/data_structure/knou_lesson_01.md\",\"mode\":\"source\"}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":54,\"ch\":19},\"to\":{\"line\":54,\"ch\":19}},\"scroll\":0}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
                 },
                 {
                   "leaf": "5dd52559eaf2421b",
@@ -188,7 +188,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer_science/data_structure/knou_lesson_01.md",
+                "file": "lifestyle/todo/todo_log.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -224,7 +224,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer_science/data_structure/knou_lesson_01.md"
+                "file": "lifestyle/todo/todo_log.md"
               }
             },
             "pane-relief:history-v1": {
@@ -239,10 +239,10 @@
     "direction": "horizontal",
     "width": 316.5
   },
-  "active": "5dd52559eaf2421b",
+  "active": "bfe6b56c04df84c1",
   "lastOpenFiles": [
-    "computer_science/data_structure/knou_lesson_01.md",
     "lifestyle/todo/todo_log.md",
+    "computer_science/data_structure/knou_lesson_01.md",
     "computer_science/languages/cpp/cpp.md",
     "data_science/customer_retention_rate.md",
     "computer_science/languages/cpp/knou_cpp_notes.md",

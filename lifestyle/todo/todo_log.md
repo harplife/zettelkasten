@@ -12,12 +12,13 @@ The main function of this note is to keep track of daily/weekly tasks.
 Use of backlinks is recommended for tasks that require further explanation.
 
 ## 2021-10-18
-### Work
+### Work (complete)
 - [x] AICRM 분석 input/output 데이터 DB 쿼리 준비
 	- 2021/10/25 완료
 - [x] 분석 알고리즘에 관련된 자료/논문 준비
 	- 2021/10/25 완료
 - [x] Refill snacks!
+
 ### Personal
 - [x] Get Nike Tanjun shoes (known for its comfort, apparently)
 	- [x] Check out the price [here](https://front.wemakeprice.com/product/1619072333); around 6 man-won
@@ -49,7 +50,6 @@ Use of backlinks is recommended for tasks that require further explanation.
 ### Work
 - [ ] 기존 수행한 프로젝트 정리
 - [ ] 앞으로 수행할 프로젝트 정리
-- [ ] 
 
 ### Personal
 - [ ] Dropbox 계정 재활성화 및 자료 정리
@@ -64,7 +64,7 @@ Use of backlinks is recommended for tasks that require further explanation.
 ### Work
 - [ ] AI 과제 아이디어 구상하기 (팀스에 메시지 확인)
 
-### Personal
+### Personal (complete)
 - [x] [K-ICT 빅데이터 센터](https://kbig.kr) 10월 빅데이터 분석활용 [교육](http://edu.kbig.kr)
 	- [x] 로그인 해보기 (이름/8자리)
 	- [x] 목차 확인
@@ -75,7 +75,7 @@ Use of backlinks is recommended for tasks that require further explanation.
 
 
 ## 2021-10-25
-### Work
+### Work (complete)
 - [x] 협업필터링 관련 논문 정리
 - [x] KNN 관련 논문 정리
 - [x] 분석 관련 파일들 취합
@@ -87,15 +87,15 @@ Use of backlinks is recommended for tasks that require further explanation.
 
 
 ## 2021-10-26
-### Work
+### Work (complete)
 - [x] 도커 파이썬 컨테이너 실행 명령어 정리
 
-### Personal
+### Personal (complete)
 - [x] C++ 출석 수업 비디오 정리
-- [ ] C++ 출석 수업 과제 제출
+- [x] C++ 출석 수업 과제 제출
 	- [x] 과제 파일 확보: [[cpp_assignment.pdf]]
 	- [x] 과제 제출일 확인: 2021/11/5 금요일
-	- [ ] 과제 작성
+	- [x] 과제 작성 및 제출
 - [x] Write a note on [[sound_bar|Sound Bars]]
 - [x] Get an Obsidian plugin for tabs
 	- [[plugin_obsidian_tabs|Obsidian Tabs]]
@@ -106,7 +106,7 @@ Use of backlinks is recommended for tasks that require further explanation.
 
 
 ## 2021-10-27
-### Work
+### Work (complete)
 - [x] Install NGINX on GS cert test PC and enable SSL
 
 ### Personal
@@ -133,8 +133,7 @@ Use of backlinks is recommended for tasks that require further explanation.
 
 
 ## 2021-10-29
-### Work
-- [ ] 
+### Work (none)
 
 ### Personal
 - [ ] Write a note on Logica (ref: [medium](https://medium.com/nerd-for-tech/google-is-pushing-the-new-language-logica-to-solve-the-major-flaws-in-sql-3cb62b6fab06), [Googleblog](https://opensource.googleblog.com/2021/04/logica-organizing-your-data-queries.html), [Official Site](https://logica.dev/))
@@ -150,9 +149,9 @@ Use of backlinks is recommended for tasks that require further explanation.
 
 
 ## 2021-11-01
-### Work
-- [x] Organize guideline for starting web server on the Test PC
-- [x] Make sure everything runs smoothly on the Test PC on full restart
+### Work (complete)
+- [x] Organize guideline for starting web server on the GS Cert Test PC
+- [x] Make sure everything runs smoothly on the GS Cert Test PC on full restart
 
 ### Personal
 - [x] Plan for finals; preferably 12/19 afternoon (3rd and 4th). Refer the [guide](https://www.knou.ac.kr/knou/561/subview.do;jsessionid=93B2D705D39B2B8F51E4BBFDF999D3BD.545589fbf31b00461?enc=Zm5jdDF8QEB8JTJGYmJzJTJGa25vdSUyRjUxJTJGMjMyODkwJTJGYXJ0Y2xWaWV3LmRvJTNG).
@@ -163,7 +162,7 @@ Use of backlinks is recommended for tasks that require further explanation.
 - [x] Break down the C++ assignment into notes
 	- [[knou_cpp_assignment|8 Basic Problems for C++]]
 	- completed 2021/11/03
-- [ ] Celebrate getting good grades on three assignments (KNOU CS)
+- [x] Celebrate getting good grades on three assignments (KNOU CS) - ate expensive pasta
 - [ ] Work on Linear Algebra finals assignment
 - [ ] Check out sneaker ideas from [here](https://luxe.digital/lifestyle/style/best-men-luxury-sneakers/)
 - [ ] Check out men's shoes
@@ -173,33 +172,50 @@ Use of backlinks is recommended for tasks that require further explanation.
 - [ ] Read up on [this](https://www.thoughtasylum.com/2021/09/12/automating-your-obsidian-workspace/)
 - [ ] Maybe buy this Anker Wireless Vertical [Mouse](https://www.coupang.com/vp/products/1318554391)?
 - [ ] Maybe buy this [wrist support](https://www.coupang.com/vp/products/1797408426)?
-- [ ] 
 
 
 ## 2021-11-03
 ### Work
-- [ ] Update WBS & List Errors
-- [ ] Back up python code for GS Certification
-- [ ] Create a separate branch for GS Certification
+- [x] Update WBS & List Errors
+- [x] Back up python code for GS Certification
+    - backup is on teams
+- [x] Create a separate branch for GS Certification
 - [ ] Set up GS Certification code on work PC
-- [ ] Refill snacks!
-- [ ] USB 선풍기 구입
+- [x] Refill snacks!
 
 ### Personal
 - [ ] Check out Obsidian Graph-Analysis [Plugin](https://github.com/SkepticMystic/graph-analysis). It is described as _2nd order backlinks panel_.
-- [ ] 
 
 
 ## 2021-11-04
 ### Work
 - [ ] Make October Report for SC
-- [ ] Make Customer Retention Rate Report for BS
+- [x] Make Customer Retention Rate Report for BS
 
 ### Personal
 - [ ] Complete note on [[pykaldi]]
-- [ ] Write a review on the new mouespad I got. Refer to 2021-10-18 todo entry
+- [ ] Write a review on the new mouespad I got. Refer to [[#2021-10-18]]
 - [ ] Check out [Grafana](https://grafana.com/). It seems like a Data Visualization Tool
 - [ ] Check out [Prometheus](https://prometheus.io/). It is a Data Monitoring Tool
 - [ ] Write a note on this article, [Top 4 Time Series Databases](https://medium.com/schkn/4-best-time-series-databases-to-watch-in-2019-ef1e89a72377)
 - [ ] Write a note on Open Data and Monitoring Services
 - [ ] Write a note on Customer Retention Rate - [ref](https://www.zendesk.com/blog/calculate-customer-retention-rate/)
+
+
+## 2021-11-08
+### Work
+- [x] Fill out October report for Work-Study
+- [ ] Upload GS Test Version to 232 Server
+- [ ] `rfm_convert()` at AICRM returns outliers with RFM data. Remove `out_rfm_table` section.
+- [ ] Make WBS for 에코넥션
+- [ ] Make WBS for 휴
+- [ ] Prepare for moving
+    - [ ] Organize commands for internal development server
+- [ ] AICRM curate/user `user_df.append(model columns)` seems wrong, as columns are not in proper order. Refer to `cf_vectorize()`
+- [ ] Make a guide for how to change Git Remote to use Deploy Token (GS Cert)
+
+### Personal (complete)
+- [x] Buy a smartphone case for Samsung Galaxy 20 Ultra
+- [x] Buy a smartphone ring
+- [x] Buy an indoor slipper for home
+- [x] Buy a mouthwash for home
