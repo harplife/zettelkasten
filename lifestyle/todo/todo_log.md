@@ -27,10 +27,6 @@ Use of backlinks is recommended for tasks that require further explanation.
 		- Allbirds shoes, they all look nice. Somewhat pricey though (13mw and up). Check it [here](https://allbirds.co.kr/collections/mens-runners)
 - [ ] [[todo_fall_fashion|Prepare outfits for Fall]]
 - [ ] [[todo_computer_science_notes|Take Computer Science Notes]]
-- [ ] Learn CUDA programming with C++
-- [ ] Learn OpenCV with C++
-- [ ] Learn Kaldi with C++
-- [ ] Learn Cython
 - [x] Get a mousepad
 	- [x] Trying this leather [mousepad](https://www.coupang.com/vp/products/1758732885) - bought 2021/11/03
 - [ ] Get a keyboard and mouse? (maybe, for my birthday + Christmas?)
@@ -175,12 +171,11 @@ Use of backlinks is recommended for tasks that require further explanation.
 
 
 ## 2021-11-03
-### Work
+### Work (complete)
 - [x] Update WBS & List Errors
 - [x] Back up python code for GS Certification
     - backup is on teams
 - [x] Create a separate branch for GS Certification
-- [ ] Set up GS Certification code on work PC
 - [x] Refill snacks!
 
 ### Personal
@@ -199,23 +194,44 @@ Use of backlinks is recommended for tasks that require further explanation.
 - [ ] Check out [Prometheus](https://prometheus.io/). It is a Data Monitoring Tool
 - [ ] Write a note on this article, [Top 4 Time Series Databases](https://medium.com/schkn/4-best-time-series-databases-to-watch-in-2019-ef1e89a72377)
 - [ ] Write a note on Open Data and Monitoring Services
-- [ ] Write a note on Customer Retention Rate - [ref](https://www.zendesk.com/blog/calculate-customer-retention-rate/)
+    - [[open_data_and_monitoring|Open Data and Monitoring Services]]
+- [x] Write a note on Customer Retention Rate
+    - [[customer_retention_rate|Customer Retention Rate]]
 
 
 ## 2021-11-08
 ### Work
 - [x] Fill out October report for Work-Study
-- [ ] Upload GS Test Version to 232 Server
-- [ ] `rfm_convert()` at AICRM returns outliers with RFM data. Remove `out_rfm_table` section.
 - [ ] Make WBS for 에코넥션
 - [ ] Make WBS for 휴
 - [ ] Prepare for moving
     - [ ] Organize commands for internal development server
-- [ ] AICRM curate/user `user_df.append(model columns)` seems wrong, as columns are not in proper order. Refer to `cf_vectorize()`
-- [ ] Make a guide for how to change Git Remote to use Deploy Token (GS Cert)
 
 ### Personal (complete)
 - [x] Buy a smartphone case for Samsung Galaxy 20 Ultra
 - [x] Buy a smartphone ring
 - [x] Buy an indoor slipper for home
 - [x] Buy a mouthwash for home
+
+
+## 2021-11-09
+### Work
+- [ ] Integrate `cf_vectorize()` into AICRM Master Branch / GS Cert Branch
+- [ ] Figure out how to apply change to both Master Branch and GS Cert Branch
+- [ ] AICRM curate/user `user_df.append(model columns)` seems wrong, as columns are not in proper order. Refer to `cf_vectorize()`
+- [ ] Make a guide for how to change Git Remote to use Deploy Token (GS Cert)
+    - [ ] Get Deploy Token
+- [ ] `rfm_convert()` at AICRM returns outliers with RFM data. Remove `out_rfm_table` section.
+- [ ] Upload and run GS Test Version Docker Container on 232 Server
+- [x] Set up GS Certification code on work PC (Jupyter)
+    - [x] RFM
+    - [x] RFM Score
+    - [x] K-Means
+    - [x] User-Based Collaborative Filtering
+    - [x] Item-Based Collaborative Filtering
+- [ ] Fix the WSL vs code conda `source activate` issue
+
+### Personal
+- [ ] Attend KNOU CS Data Structure Online Class
+    - [ ] Watch at least 1 lesson video before class
+- [ ] Write a note on Clipboard function on Windows 10 - [ref](https://techman-tooltip.tistory.com/127)

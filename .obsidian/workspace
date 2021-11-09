@@ -13,24 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lifestyle/todo/todo_log.md",
+                "file": "lifestyle/todo/todo_cpp.md",
                 "mode": "source"
               }
             },
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
                 {
                   "leaf": "bfe6b56c04df84c1",
                   "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/languages/cpp/knou_cpp_assignment.md\",\"mode\":\"source\"}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/todo/todo_cpp.md\",\"mode\":\"source\"}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}},\"scroll\":0}"
                 },
                 {
                   "leaf": "bfe6b56c04df84c1",
                   "group": null,
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/todo/todo_log.md\",\"mode\":\"source\"}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":199,\"ch\":92},\"to\":{\"line\":199,\"ch\":92}},\"scroll\":174.64583333333334}"
+                  "eState": "{\"scroll\":20}"
                 },
                 {
                   "leaf": "bfe6b56c04df84c1",
@@ -89,7 +89,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer_science/data_structure/knou_lesson_01.md",
+                "file": "lifestyle/todo/todo_log.md",
                 "mode": "source"
               }
             },
@@ -99,14 +99,20 @@
                 {
                   "leaf": "5dd52559eaf2421b",
                   "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/todo/todo_log.md\",\"mode\":\"source\"}}",
+                  "eState": "{\"scroll\":13}"
+                },
+                {
+                  "leaf": "5dd52559eaf2421b",
+                  "group": null,
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/data_structure/knou_lesson_01.md\",\"mode\":\"source\"}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
+                  "eState": "{}"
                 },
                 {
                   "leaf": "5dd52559eaf2421b",
                   "group": null,
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"data_science/customer_retention_rate.md\",\"mode\":\"source\"}}",
-                  "eState": "{\"scroll\":0.843949004193436}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.843949004193436}"
                 },
                 {
                   "leaf": "5dd52559eaf2421b",
@@ -209,7 +215,7 @@
             "state": {
               "type": "tag",
               "state": {
-                "sortOrder": "frequency",
+                "sortOrder": "alphabetical",
                 "useHierarchy": true
               }
             },
@@ -233,23 +239,23 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
     "width": 316.5
   },
-  "active": "bfe6b56c04df84c1",
+  "active": "5dd52559eaf2421b",
   "lastOpenFiles": [
     "lifestyle/todo/todo_log.md",
+    "lifestyle/todo/todo_cpp.md",
     "computer_science/data_structure/knou_lesson_01.md",
-    "computer_science/languages/cpp/cpp.md",
     "data_science/customer_retention_rate.md",
+    "computer_science/languages/cpp/cpp.md",
     "computer_science/languages/cpp/knou_cpp_notes.md",
     "computer_science/languages/cpp/knou_cpp_assignment.md",
     "data_science/open_data_and_monitoring.md",
     "computer_science/languages/javascript/js_library_d3.md",
-    "lifestyle/todo/todo_computer_science_notes.md",
-    "computer_science/languages/python/libraries/pykaldi.md"
+    "lifestyle/todo/todo_computer_science_notes.md"
   ]
 }
