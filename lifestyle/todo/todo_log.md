@@ -220,7 +220,7 @@ Use of backlinks is recommended for tasks that require further explanation.
 - [ ] Figure out how to apply change to both Master Branch and GS Cert Branch
 - [ ] AICRM curate/user `user_df.append(model columns)` seems wrong, as columns are not in proper order. Refer to `cf_vectorize()`
 - [ ] Make a guide for how to change Git Remote to use Deploy Token (GS Cert)
-    - [ ] Get Deploy Token
+    - [x] Get Deploy Token
 - [ ] `rfm_convert()` at AICRM returns outliers with RFM data. Remove `out_rfm_table` section.
 - [ ] Upload and run GS Test Version Docker Container on 232 Server
 - [x] Set up GS Certification code on work PC (Jupyter)
@@ -232,6 +232,6 @@ Use of backlinks is recommended for tasks that require further explanation.
 - [ ] Fix the WSL vs code conda `source activate` issue
 
 ### Personal
-- [ ] Attend KNOU CS Data Structure Online Class
-    - [ ] Watch at least 1 lesson video before class
+- [x] Attend KNOU CS Linear Algebra Online Class
 - [ ] Write a note on Clipboard function on Windows 10 - [ref](https://techman-tooltip.tistory.com/127)
+    - [[windows_shortcuts|Windows Shortcuts]]

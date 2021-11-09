@@ -4,133 +4,74 @@
     "type": "split",
     "children": [
       {
-        "id": "1c6f5b423e7ce3cf",
-        "type": "split",
-        "children": [
-          {
-            "id": "bfe6b56c04df84c1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "lifestyle/todo/todo_cpp.md",
-                "mode": "source"
-              }
-            },
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "leaf": "bfe6b56c04df84c1",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/todo/todo_cpp.md\",\"mode\":\"source\"}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "leaf": "bfe6b56c04df84c1",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/todo/todo_log.md\",\"mode\":\"source\"}}",
-                  "eState": "{\"scroll\":20}"
-                },
-                {
-                  "leaf": "bfe6b56c04df84c1",
-                  "group": "eafd673f351bfd7f",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/todo/todo_sync_google_keep_notes.md\",\"mode\":\"source\"}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "leaf": "bfe6b56c04df84c1",
-                  "group": "eafd673f351bfd7f",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/todo/todo_log.md\",\"mode\":\"source\"}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "leaf": "bfe6b56c04df84c1",
-                  "group": "eafd673f351bfd7f",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/todo/todo_fall_fashion.md\",\"mode\":\"source\"}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "leaf": "bfe6b56c04df84c1",
-                  "group": "eafd673f351bfd7f",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/todo/todo_log.md\",\"mode\":\"source\"}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":59},\"to\":{\"line\":10,\"ch\":59}}}"
-                },
-                {
-                  "leaf": "bfe6b56c04df84c1",
-                  "group": "eafd673f351bfd7f",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/todo/todo_fall_fashion.md\",\"mode\":\"source\"}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "leaf": "bfe6b56c04df84c1",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/todo/todo_log.md\",\"mode\":\"source\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "leaf": "bfe6b56c04df84c1",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/todo/todo_fall_fashion.md\",\"mode\":\"source\"}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "leaf": "bfe6b56c04df84c1",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/todo/todo_log.md\",\"mode\":\"source\"}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":65},\"to\":{\"line\":9,\"ch\":65}}}"
-                }
-              ]
-            }
-          },
-          {
-            "id": "5dd52559eaf2421b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "lifestyle/todo/todo_log.md",
-                "mode": "source"
-              }
-            },
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "leaf": "5dd52559eaf2421b",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/todo/todo_log.md\",\"mode\":\"source\"}}",
-                  "eState": "{\"scroll\":13}"
-                },
-                {
-                  "leaf": "5dd52559eaf2421b",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/data_structure/knou_lesson_01.md\",\"mode\":\"source\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "leaf": "5dd52559eaf2421b",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"data_science/customer_retention_rate.md\",\"mode\":\"source\"}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.843949004193436}"
-                },
-                {
-                  "leaf": "5dd52559eaf2421b",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/languages/cpp/knou_cpp_notes.md\",\"mode\":\"source\"}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "leaf": "5dd52559eaf2421b",
-                  "group": null,
-                  "state": "{\"type\":\"empty\",\"state\":{}}",
-                  "eState": "{}"
-                }
-              ]
-            }
+        "id": "5dd52559eaf2421b",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "lifestyle/todo/todo_log.md",
+            "mode": "source"
           }
-        ],
-        "direction": "vertical"
+        },
+        "pane-relief:history-v1": {
+          "pos": 4,
+          "stack": [
+            {
+              "leaf": "5dd52559eaf2421b",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"psychology/aesthetic_usability_effect.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+            },
+            {
+              "leaf": "5dd52559eaf2421b",
+              "group": null,
+              "state": "{\"type\":\"graph\",\"state\":{}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "5dd52559eaf2421b",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"unsorted/plot_temperature.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "5dd52559eaf2421b",
+              "group": null,
+              "state": "{\"type\":\"graph\",\"state\":{}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "5dd52559eaf2421b",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/todo/todo_log.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":215,\"ch\":0},\"to\":{\"line\":215,\"ch\":0}},\"scroll\":203.28563742170738}"
+            },
+            {
+              "leaf": "5dd52559eaf2421b",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/data_structure/knou_ds_lesson_01.md\",\"mode\":\"source\"}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "5dd52559eaf2421b",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"data_science/customer_retention_rate.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.843949004193436}"
+            },
+            {
+              "leaf": "5dd52559eaf2421b",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/languages/cpp/knou_cpp_notes.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+            },
+            {
+              "leaf": "5dd52559eaf2421b",
+              "group": null,
+              "state": "{\"type\":\"empty\",\"state\":{}}",
+              "eState": "{}"
+            }
+          ]
+        }
       }
     ],
     "direction": "vertical"
@@ -239,7 +180,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -248,14 +189,14 @@
   "active": "5dd52559eaf2421b",
   "lastOpenFiles": [
     "lifestyle/todo/todo_log.md",
+    "unsorted/plot_temperature.md",
+    "psychology/aesthetic_usability_effect.md",
+    "computer_science/data_structure/knou_ds_lesson_02.md",
+    "computer_science/linear_algebra/knou_la_class_note.md",
+    "windows/windows_shortcuts.md",
+    "computer_science/data_structure/knou_ds_lesson_01.md",
     "lifestyle/todo/todo_cpp.md",
-    "computer_science/data_structure/knou_lesson_01.md",
     "data_science/customer_retention_rate.md",
-    "computer_science/languages/cpp/cpp.md",
-    "computer_science/languages/cpp/knou_cpp_notes.md",
-    "computer_science/languages/cpp/knou_cpp_assignment.md",
-    "data_science/open_data_and_monitoring.md",
-    "computer_science/languages/javascript/js_library_d3.md",
-    "lifestyle/todo/todo_computer_science_notes.md"
+    "computer_science/languages/cpp/cpp.md"
   ]
 }
