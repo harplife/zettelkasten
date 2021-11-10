@@ -1,7 +1,7 @@
 ---
 aliases: [Elon Musk fires his long time assistant]
 tags: [article, career, management]
-status: ongoing
+status: complete
 edited: 2021-11-10
 ---
 
@@ -18,3 +18,24 @@ Refer to this [article](https://medium.com/illumination/why-elon-musk-fired-his-
 - In Elon's [tweet](https://twitter.com/elonmusk/status/895836885427335168), he further mentioned, "Mary Beth was an amazing assistant for over ten years, but <u>as company complexity grew, the role required several specialists vs. one generalist</u>."
 
 ## My Thoughts
+Even though my initial thought was "I wasted time reading about possibly a fake story", I eventually understood what the author's intention was; for one, to question the reader, had the story been real, "how do you think about firing an employee based on the impact of their absence?"
+
+Is it logical? Is it cruel? Is it justified?
+
+I think, it is illogical.
+1. Assuming the employee is fully competent, if their absence has not impacted the operation, then it is not the employee that deserves to be fired, but rather the higher up who's given them the job that doesn't have any impact on the operation. Don't give people a job that doesn't have any impact, and expect them to make an impact, period.
+2. Assuming the employee is _not_ competent, regardless of the impact of their absence, their performance would've already made negative impact to the operation, which would've been the main reason to fire the employee. The "impact of absence" would've not mattered at that point.
+3. The "impact of absence" seems highly subjective. Is this gauged by 0 to 10 scale, 0 being "I didn't know they were on the team" to 10 being "we literally can't do this without them"? Even if the impact was gauged by the loss of profit or time or any other numeric value, it seems 2 weeks, or months isn't enough time to really see the difference in numbers, not to mention it would be nearly impossible to single out the "absence" as the cause for the difference.
+
+The "impact of absence" does not equal to competency. It's not even on the same equation.
+
+There is a reason why there's a job performance review. Even if there's not, it's not to difficult to calculate an employee's performance - just look at the projects they did over the years, and see how they did. Or ask their manager how they do, etc. There's no point getting into the whole "impact of absence" madness.
+
+I personally like Elon's quote:
+
+> ".. as company complexity grew, the role required several specialists vs. one generalist"
+
+Some people, even if they are fully competent, can become obsolete. The need of the company changes all the time, and there's no point keeping an employee who's become obsolete. It's not fair for the company, it's not fair for them.
+
+All in all, the article wasn't terrible. It's thought provoking.
+Although, it does need some editing, because it was hard to differentiate whether some facts were from the book, or from an external source, or if they were just author's opinions.
