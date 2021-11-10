@@ -235,3 +235,15 @@ Use of backlinks is recommended for tasks that require further explanation.
 - [x] Attend KNOU CS Linear Algebra Online Class
 - [ ] Write a note on Clipboard function on Windows 10 - [ref](https://techman-tooltip.tistory.com/127)
     - [[windows_shortcuts|Windows Shortcuts]]
+
+## 2021-11-10
+### Work
+- [ ] Assess Concrete Mix Proportion Prediction AI
+    - [x] Organize questions
+    - [x] Find related papers
+    - [ ] Think of ideas based on the reply and the papers
+- [ ] 
+
+### Personal
+- [ ] Write a note on this [article](https://mrshrestha.medium.com/top-10-open-source-development-tools-tried-and-tested-6c26d59ed10)
+- [ ] Attend KNOU CS Data Structure Online Class
