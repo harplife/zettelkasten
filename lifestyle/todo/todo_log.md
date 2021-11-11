@@ -242,8 +242,26 @@ Use of backlinks is recommended for tasks that require further explanation.
     - [x] Organize questions
     - [x] Find related papers
     - [ ] Think of ideas based on the reply and the papers
-- [ ] 
 
 ### Personal
 - [ ] Write a note on this [article](https://mrshrestha.medium.com/top-10-open-source-development-tools-tried-and-tested-6c26d59ed10)
-- [ ] Attend KNOU CS Data Structure Online Class
+- [x] Attend KNOU CS Data Structure Online Class
+
+
+## 2021-11-11
+### Work
+- [ ] AICRM UBCF should take into account similarity, such that if a similar user bought a product, then the frequency of the product 1 - similarity distance. This way, a user with the highest similarity has highest weight on recommendation, and a user with the lowest (like 1) has 0 weight. Apply this maybe after GS test
+
+### Personal
+- [ ] Work on KNOU CS Data Structure Online Class Assignment
+- [ ] Check out these books (some of them referenced in this [article](https://medium.com/pragmatic-programmers/pythons-attribute-lookup-2cce02276263))
+    - [ ] https://pragprog.com/titles/d-pandas/pandas-brain-teasers/
+    - [ ] https://pragprog.com/titles/d-pybrain/python-brain-teasers/
+    - [ ] https://pragprog.com/titles/dzcnapy/complex-network-analysis-in-python/
+    - [ ] https://pragprog.com/titles/dzpyds/data-science-essentials-in-python/
+    - [ ] https://pragprog.com/titles/bopytest2/python-testing-with-pytest-second-edition/
+- [ ] Write a note on this article, [why facebook is going meta](https://uxdesign.cc/the-real-reason-facebook-is-changing-its-name-to-meta-what-you-must-know-from-facebooks-2021-e8f12cdc797c)
+- [x] (Python,Pandas) Write about the danger of using `df.append()`, and how `df.reindex()` saved the day
+    - [[pandas_reindex_to_add_columns|Add Columns with Pandas Reindex]]
+- [ ] Write a note about how to set up Python development environment with WSL, ZSH, VS CODE, and CONDA
+- [ ] Write a note about Sentimental Analysis AI Dataset that Google released - [ref](http://www.aitimes.kr/news/articleView.html?idxno=22937)

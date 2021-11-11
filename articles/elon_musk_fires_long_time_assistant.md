@@ -29,7 +29,7 @@ I think, it is illogical.
 
 The "impact of absence" does not equal to competency. It's not even on the same equation.
 
-There is a reason why there's a job performance review. Even if there's not, it's not to difficult to calculate an employee's performance - just look at the projects they did over the years, and see how they did. Or ask their manager how they do, etc. There's no point getting into the whole "impact of absence" madness.
+There is a reason why there's a job performance review. Even if there's not, it's not too difficult to calculate an employee's performance - just look at the projects they did over the years, and see how they did. Or ask their manager how they do, etc. There's no point getting into the whole "impact of absence" madness.
 
 I personally like Elon's quote:
 
