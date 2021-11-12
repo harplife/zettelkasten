@@ -23,13 +23,13 @@ new_df = df.reindex(columns=columns)
 
 output:
 ```python
-df
->>>    a  d  g  i
-    0  1  2  3  4
+>>> df
+   a  d  g  i
+0  1  2  3  4
 
-new_df
->>>    a   b   c  d   e   f  g
-    0  1 NaN NaN  2 NaN NaN  3
+>>> new_df
+   a   b   c  d   e   f  g
+0  1 NaN NaN  2 NaN NaN  3
 ```
 
 explanation:

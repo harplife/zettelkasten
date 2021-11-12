@@ -231,9 +231,9 @@ Use of backlinks is recommended for tasks that require further explanation.
     - [x] Item-Based Collaborative Filtering
 - [ ] Fix the WSL vs code conda `source activate` issue
 
-### Personal
+### Personal (complete)
 - [x] Attend KNOU CS Linear Algebra Online Class
-- [ ] Write a note on Clipboard function on Windows 10 - [ref](https://techman-tooltip.tistory.com/127)
+- [x] Write a note on Clipboard function on Windows 10
     - [[windows_shortcuts|Windows Shortcuts]]
 
 ## 2021-11-10
@@ -261,7 +261,17 @@ Use of backlinks is recommended for tasks that require further explanation.
     - [ ] https://pragprog.com/titles/dzpyds/data-science-essentials-in-python/
     - [ ] https://pragprog.com/titles/bopytest2/python-testing-with-pytest-second-edition/
 - [ ] Write a note on this article, [why facebook is going meta](https://uxdesign.cc/the-real-reason-facebook-is-changing-its-name-to-meta-what-you-must-know-from-facebooks-2021-e8f12cdc797c)
-- [x] (Python,Pandas) Write about the danger of using `df.append()`, and how `df.reindex()` saved the day
-    - [[pandas_reindex_to_add_columns|Add Columns with Pandas Reindex]]
+- [x] Write [[pandas_reindex_to_add_columns|Add Columns with Pandas Reindex]]
 - [ ] Write a note about how to set up Python development environment with WSL, ZSH, VS CODE, and CONDA
 - [ ] Write a note about Sentimental Analysis AI Dataset that Google released - [ref](http://www.aitimes.kr/news/articleView.html?idxno=22937)
+
+
+## 2021-11-12
+### Work
+
+### Personal
+- [ ] Continue working on [RFM analysis with MySQL](https://github.com/harplife/TIL/blob/master/Data%20Science/MySQL%EB%A1%9C_%ED%95%98%EB%8A%94_RFM_%EB%B6%84%EC%84%9D_%EB%B0%8F_EDA.md)
+    - [ ] Put it in Zettelkasten
+    - [ ] Edit so that it's better understood by general public
+- [ ] Write a note on Python static, class, abstract methods - [ref](https://julien.danjou.info/guide-python-static-class-abstract-methods/)
+- [ ] Write a note on the [elbow method](https://www.linkedin.com/pulse/finding-optimal-number-clusters-k-means-through-elbow-asanka-perera/)

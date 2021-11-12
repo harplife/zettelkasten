@@ -19,14 +19,14 @@
             {
               "leaf": "57dd88a26b368539",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/languages/python/examples/pandas_reindex_to_add_columns.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"windows/windows_shortcuts.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":44},\"to\":{\"line\":13,\"ch\":44}},\"scroll\":0}"
             },
             {
               "leaf": "57dd88a26b368539",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/todo/todo_log.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":238.78571428571428}"
+              "eState": "{\"scroll\":207.41666666666666}"
             }
           ]
         }
@@ -38,7 +38,7 @@
           "type": "markdown",
           "state": {
             "file": "computer_science/languages/python/examples/pandas_reindex_to_add_columns.md",
-            "mode": "source"
+            "mode": "preview"
           }
         },
         "pane-relief:history-v1": {
@@ -47,8 +47,8 @@
             {
               "leaf": "5c9d7b4aa0ae3bc7",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/languages/python/examples/pandas_reindex_to_add_columns.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":86},\"to\":{\"line\":8,\"ch\":86}},\"scroll\":0}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/languages/python/examples/pandas_reindex_to_add_columns.md\",\"mode\":\"preview\"}}",
+              "eState": "{\"scroll\":26.63888888888889}"
             },
             {
               "leaf": "5c9d7b4aa0ae3bc7",
@@ -182,13 +182,13 @@
   "lastOpenFiles": [
     "lifestyle/todo/todo_log.md",
     "computer_science/languages/python/examples/pandas_reindex_to_add_columns.md",
+    "windows/windows_shortcuts.md",
     "computer_science/languages/python/examples/get_kst_time_now.md",
     "computer_science/languages/python/examples/import_patterns.md",
     "computer_science/artificial_intelligence/Untitled.md",
     "articles/elon_musk_fires_long_time_assistant.md",
     "articles/elon_musk_favorite_interview_question.md",
     "articles/losing_microsoft_job.md",
-    "articles/interview_with_new_language.md",
-    "unsorted/plot_temperature.md"
+    "articles/interview_with_new_language.md"
   ]
 }
