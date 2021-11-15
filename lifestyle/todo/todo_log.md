@@ -159,7 +159,6 @@ Use of backlinks is recommended for tasks that require further explanation.
 	- [[knou_cpp_assignment|8 Basic Problems for C++]]
 	- completed 2021/11/03
 - [x] Celebrate getting good grades on three assignments (KNOU CS) - ate expensive pasta
-- [ ] Work on Linear Algebra finals assignment
 - [ ] Check out sneaker ideas from [here](https://luxe.digital/lifestyle/style/best-men-luxury-sneakers/)
 - [ ] Check out men's shoes
 	- sneakers brands [list](https://www.dmarge.com/best-sneakers-for-men)
@@ -267,7 +266,7 @@ Use of backlinks is recommended for tasks that require further explanation.
 
 
 ## 2021-11-12
-### Work
+### Work (none)
 
 ### Personal
 - [ ] Continue working on [RFM analysis with MySQL](https://github.com/harplife/TIL/blob/master/Data%20Science/MySQL%EB%A1%9C_%ED%95%98%EB%8A%94_RFM_%EB%B6%84%EC%84%9D_%EB%B0%8F_EDA.md)
@@ -275,3 +274,27 @@ Use of backlinks is recommended for tasks that require further explanation.
     - [ ] Edit so that it's better understood by general public
 - [ ] Write a note on Python static, class, abstract methods - [ref](https://julien.danjou.info/guide-python-static-class-abstract-methods/)
 - [ ] Write a note on the [elbow method](https://www.linkedin.com/pulse/finding-optimal-number-clusters-k-means-through-elbow-asanka-perera/)
+
+
+## 2021-11-15
+### Work
+- [ ] Prepare queries for GS Cert testing analysis codes
+
+### Personal
+- [ ] Write a note about speeding up query (with finding index first then data)
+- [ ] Figure out the deadline for KNOU Media Learning
+    - 2021/12/04 Saturday 23:59. That's 16 week days and 5 weekend days - enough time for maybe 47 videos (2 videos a week day, 3 videos a weekend day)
+- [ ] Figure out how to ease shoulder pain (might be due to using mouse all the time)
+- [ ] Work on Linear Algebra finals assignment (DUE 11/26 Fri 18:00)
+- [ ] Figure out what GPA system KNOU uses
+    - Max is 4.5
+    - Range is 4.5 (A+, 100~95) to 0.0 (F, 59 and low), with 0.5 intervals (except for F)
+    - In order to get 3.5, I need B+ (89~85) and higher
+    - If I get 50 for Media Learning(20) and Assignment(30), then I need 40/50 (80%) for the final
+- [ ] Write a note on [Build a TODO App with Python and Typer](https://realpython.com/python-typer-cli/)
+- [ ] Write a note on [Advanced VS Code for Python](https://realpython.com/advanced-visual-studio-code-python/)
+- [ ] Collect Practice Tests for the KNOU Finals
+- [ ] Write a note on this guy's experience getting into [Standford PhD CS Program](https://medium.com/@alrojo_github/how-to-get-into-the-stanford-computer-science-phd-program-71c8e1169b34)
+- [ ] Write a note on this [article](https://towardsdatascience.com/nine-tools-i-wish-i-mastered-before-my-phd-in-machine-learning-708c6dcb2fb0)
+- [ ] Write a note about [Coding Interviews using Real World Data](https://betterprogramming.pub/crack-coding-interviews-by-building-these-5-real-world-features-4089058d7b0e)
+- [ ] Write a note about [PyDrive](https://medium.com/analytics-vidhya/how-to-connect-google-drive-to-python-using-pydrive-9681b2a14f20), a Python Library to connect and use Google Drive
