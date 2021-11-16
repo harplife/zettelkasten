@@ -298,3 +298,11 @@ Use of backlinks is recommended for tasks that require further explanation.
 - [ ] Write a note on this [article](https://towardsdatascience.com/nine-tools-i-wish-i-mastered-before-my-phd-in-machine-learning-708c6dcb2fb0)
 - [ ] Write a note about [Coding Interviews using Real World Data](https://betterprogramming.pub/crack-coding-interviews-by-building-these-5-real-world-features-4089058d7b0e)
 - [ ] Write a note about [PyDrive](https://medium.com/analytics-vidhya/how-to-connect-google-drive-to-python-using-pydrive-9681b2a14f20), a Python Library to connect and use Google Drive
+
+
+## 2021-11-16
+### Work
+
+### Personal
+- [ ] Write a note about [the 20 richest programmers in the world](https://javascript.plainenglish.io/the-20-richest-programmers-in-the-world-f224d1dce9e3)
+- [ ] 
