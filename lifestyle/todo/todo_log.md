@@ -11,6 +11,8 @@ To reduce the cost of management, goal driven TODO notes are optional.
 The main function of this note is to keep track of daily/weekly tasks.
 Use of backlinks is recommended for tasks that require further explanation.
 
+# 2021-10
+
 ## 2021-10-18
 ### Work (complete)
 - [x] AICRM 분석 input/output 데이터 DB 쿼리 준비
@@ -143,6 +145,7 @@ Use of backlinks is recommended for tasks that require further explanation.
 - [ ] Write a note on this [article](https://entrepreneurshandbook.co/harvard-researchers-prove-high-achievers-crave-purpose-not-passion-ca4a14c2cd3b)
 - [ ] Write a note on [Short Term Memory](https://www.simplypsychology.org/short-term-memory.html)
 
+# 2021-11
 
 ## 2021-11-01
 ### Work (complete)
@@ -252,7 +255,7 @@ Use of backlinks is recommended for tasks that require further explanation.
 - [ ] AICRM UBCF should take into account similarity, such that if a similar user bought a product, then the frequency of the product 1 - similarity distance. This way, a user with the highest similarity has highest weight on recommendation, and a user with the lowest (like 1) has 0 weight. Apply this maybe after GS test
 
 ### Personal
-- [ ] Work on KNOU CS Data Structure Online Class Assignment
+- [x] Work on KNOU CS Data Structure Online Class Assignment
 - [ ] Check out these books (some of them referenced in this [article](https://medium.com/pragmatic-programmers/pythons-attribute-lookup-2cce02276263))
     - [ ] https://pragprog.com/titles/d-pandas/pandas-brain-teasers/
     - [ ] https://pragprog.com/titles/d-pybrain/python-brain-teasers/
@@ -282,11 +285,11 @@ Use of backlinks is recommended for tasks that require further explanation.
 
 ### Personal
 - [ ] Write a note about speeding up query (with finding index first then data)
-- [ ] Figure out the deadline for KNOU Media Learning
+- [x] Figure out the deadline for KNOU Media Learning
     - 2021/12/04 Saturday 23:59. That's 16 week days and 5 weekend days - enough time for maybe 47 videos (2 videos a week day, 3 videos a weekend day)
 - [ ] Figure out how to ease shoulder pain (might be due to using mouse all the time)
 - [ ] Work on Linear Algebra finals assignment (DUE 11/26 Fri 18:00)
-- [ ] Figure out what GPA system KNOU uses
+- [x] Figure out what GPA system KNOU uses
     - Max is 4.5
     - Range is 4.5 (A+, 100~95) to 0.0 (F, 59 and low), with 0.5 intervals (except for F)
     - In order to get 3.5, I need B+ (89~85) and higher
@@ -301,8 +304,29 @@ Use of backlinks is recommended for tasks that require further explanation.
 
 
 ## 2021-11-16
-### Work
+### Work (none)
 
 ### Personal
 - [ ] Write a note about [the 20 richest programmers in the world](https://javascript.plainenglish.io/the-20-richest-programmers-in-the-world-f224d1dce9e3)
 - [ ] 
+
+
+## 2021-11-16
+### Work
+- [ ] Do analysis for BS (CRM Curation)
+
+### Personal
+- [ ] Celebrate getting good grade on KNOU C++ Assignment
+- [ ] Write a note on the article [how to manage properly](https://medium.com/know-your-team-blog/how-to-hold-employees-accountable-without-micromanaging-them-3b62430616c3)
+- [ ] Write a note on the article [ML Coding Interview experience](https://mlengineer.io/from-semiconductor-to-software-engineer-8c3126dde65b)
+- [ ] Write a note on the article [15 interesting github repositories](https://javascript.plainenglish.io/15-interesting-repositories-on-github-you-probably-didnt-know-existed-297d2fd05177)
+- [ ] Write a note on [Ray: Python Parallel Processing](https://towardsdatascience.com/modern-parallel-and-distributed-python-a-quick-tutorial-on-ray-99f8d70369b8)
+- [ ] Write a note on [4 Python Libraries for Parallelize Pandas](https://towardsdatascience.com/4-libraries-that-can-parallelize-the-existing-pandas-ecosystem-f46e5a257809)
+- [ ] Write a note on [Software Architecture Patterns (simple)](https://orkhanscience.medium.com/software-architecture-patterns-5-mins-read-e9e3c8eb47d2)
+- [ ] Write a note about Facebook ending Facial Recognition Feature - [ref](https://onezero.medium.com/facebook-is-killing-its-face-recognition-system-due-to-social-concerns-7e9cd5968fb0)
+- [x] Write a note on the KNOU DS Assignment
+    - [x] [[knou_ds_assignment_01|Abstraction]]
+    - [x] [[knou_ds_assignment_02|Sparse Matrix]]
+    - [x] [[knou_ds_assignment_03|Applying Stack]]
+- [ ] Write a note about File Compression - [ref](https://computer.howstuffworks.com/file-compression.htm)
+- [ ] Write a note (central node) for English related notes
