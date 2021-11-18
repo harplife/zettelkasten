@@ -1,6 +1,6 @@
 ---
 aliases: [The Day I Lost my Job at Microsoft, Carlos Arguelles Looking Back on Microsoft]
-tags: [article, microsoft, career, reflection]
+tags: [article, microsoft, amazon, google, career, reflection]
 status: ongoing
 edited: 2021-10-27
 ---

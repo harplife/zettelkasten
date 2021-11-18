@@ -59,8 +59,9 @@ Use of backlinks is recommended for tasks that require further explanation.
 
 
 ## 2021-10-23
-### Work
-- [ ] AI 과제 아이디어 구상하기 (팀스에 메시지 확인)
+### Work (complete)
+- [x] AI 과제 아이디어 구상하기 (팀스에 메시지 확인)
+    - 2021/11/18 메타버스 쇼핑몰 및 RO2VO 모델 사업제안서 제출 완료
 
 ### Personal (complete)
 - [x] [K-ICT 빅데이터 센터](https://kbig.kr) 10월 빅데이터 분석활용 [교육](http://edu.kbig.kr)
@@ -204,10 +205,9 @@ Use of backlinks is recommended for tasks that require further explanation.
 ## 2021-11-08
 ### Work
 - [x] Fill out October report for Work-Study
-- [ ] Make WBS for 에코넥션
-- [ ] Make WBS for 휴
-- [ ] Prepare for moving
+- [ ] Prepare for moving (12/8)
     - [ ] Organize commands for internal development server
+    - [ ] Buy a jean that I can freely move around in
 
 ### Personal (complete)
 - [x] Buy a smartphone case for Samsung Galaxy 20 Ultra
@@ -219,9 +219,10 @@ Use of backlinks is recommended for tasks that require further explanation.
 ## 2021-11-09
 ### Work
 - [ ] Integrate `cf_vectorize()` into AICRM Master Branch / GS Cert Branch
-- [ ] Figure out how to apply change to both Master Branch and GS Cert Branch
-- [ ] AICRM curate/user `user_df.append(model columns)` seems wrong, as columns are not in proper order. Refer to `cf_vectorize()`
-- [ ] Make a guide for how to change Git Remote to use Deploy Token (GS Cert)
+- [x] Figure out how to apply change to both Master Branch and GS Cert Branch
+    - push to master, pull master, then push to gscert is probably the best way. The proper way would be _merge_, but alas, whatever
+- [x] AICRM curate/user `user_df.append(model columns)` fixed to `reindex()`
+- [x] Make a guide for how to change Git Remote to use Deploy Token (GS Cert)
     - [x] Get Deploy Token
 - [ ] `rfm_convert()` at AICRM returns outliers with RFM data. Remove `out_rfm_table` section.
 - [ ] Upload and run GS Test Version Docker Container on 232 Server
@@ -281,14 +282,13 @@ Use of backlinks is recommended for tasks that require further explanation.
 
 ## 2021-11-15
 ### Work
-- [ ] Prepare queries for GS Cert testing analysis codes
+- [x] Prepare queries for GS Cert testing analysis codes
 
 ### Personal
 - [ ] Write a note about speeding up query (with finding index first then data)
 - [x] Figure out the deadline for KNOU Media Learning
     - 2021/12/04 Saturday 23:59. That's 16 week days and 5 weekend days - enough time for maybe 47 videos (2 videos a week day, 3 videos a weekend day)
 - [ ] Figure out how to ease shoulder pain (might be due to using mouse all the time)
-- [ ] Work on Linear Algebra finals assignment (DUE 11/26 Fri 18:00)
 - [x] Figure out what GPA system KNOU uses
     - Max is 4.5
     - Range is 4.5 (A+, 100~95) to 0.0 (F, 59 and low), with 0.5 intervals (except for F)
@@ -308,12 +308,12 @@ Use of backlinks is recommended for tasks that require further explanation.
 
 ### Personal
 - [ ] Write a note about [the 20 richest programmers in the world](https://javascript.plainenglish.io/the-20-richest-programmers-in-the-world-f224d1dce9e3)
-- [ ] 
 
 
 ## 2021-11-16
-### Work
-- [ ] Do analysis for BS (CRM Curation)
+### Work (complete)
+- [x] Do analysis for BS (CRM Curation)
+    - Done on 11/18. Printed out an excel with Loyal Customers & Repurchases by Year. Refer to [[customer_retention_rate|Customer Retention Rate]]
 
 ### Personal
 - [ ] Celebrate getting good grade on KNOU C++ Assignment
@@ -330,3 +330,11 @@ Use of backlinks is recommended for tasks that require further explanation.
     - [x] [[knou_ds_assignment_03|Applying Stack]]
 - [ ] Write a note about File Compression - [ref](https://computer.howstuffworks.com/file-compression.htm)
 - [ ] Write a note (central node) for English related notes
+
+
+## 2021-11-16
+### Work
+- [x] Turn in AI business idea... FOR THE MEAT! Result on 26th
+
+### Personal
+- [ ] Work on Linear Algebra finals assignment (DUE 11/26 Fri 18:00)
