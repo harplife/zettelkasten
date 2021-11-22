@@ -296,7 +296,6 @@ Use of backlinks is recommended for tasks that require further explanation.
     - If I get 50 for Media Learning(20) and Assignment(30), then I need 40/50 (80%) for the final
 - [ ] Write a note on [Build a TODO App with Python and Typer](https://realpython.com/python-typer-cli/)
 - [ ] Write a note on [Advanced VS Code for Python](https://realpython.com/advanced-visual-studio-code-python/)
-- [ ] Collect Practice Tests for the KNOU Finals
 - [ ] Write a note on this guy's experience getting into [Standford PhD CS Program](https://medium.com/@alrojo_github/how-to-get-into-the-stanford-computer-science-phd-program-71c8e1169b34)
 - [ ] Write a note on this [article](https://towardsdatascience.com/nine-tools-i-wish-i-mastered-before-my-phd-in-machine-learning-708c6dcb2fb0)
 - [ ] Write a note about [Coding Interviews using Real World Data](https://betterprogramming.pub/crack-coding-interviews-by-building-these-5-real-world-features-4089058d7b0e)
@@ -316,7 +315,8 @@ Use of backlinks is recommended for tasks that require further explanation.
     - Done on 11/18. Printed out an excel with Loyal Customers & Repurchases by Year. Refer to [[customer_retention_rate|Customer Retention Rate]]
 
 ### Personal
-- [ ] Celebrate getting good grade on KNOU C++ Assignment
+- [x] Celebrate getting good grade on KNOU C++ Assignment
+    - Got a Kahlua to celebrate. Worth 30 bucks!
 - [ ] Write a note on the article [how to manage properly](https://medium.com/know-your-team-blog/how-to-hold-employees-accountable-without-micromanaging-them-3b62430616c3)
 - [ ] Write a note on the article [ML Coding Interview experience](https://mlengineer.io/from-semiconductor-to-software-engineer-8c3126dde65b)
 - [ ] Write a note on the article [15 interesting github repositories](https://javascript.plainenglish.io/15-interesting-repositories-on-github-you-probably-didnt-know-existed-297d2fd05177)
@@ -333,8 +333,22 @@ Use of backlinks is recommended for tasks that require further explanation.
 
 
 ## 2021-11-16
+### Work (complete)
+- [x] Turn in AI business idea... FOR THE Hanwu(wagyu)! Result on 26th
+
+### Personal (none)
+
+
+## 2021-11-22
 ### Work
-- [x] Turn in AI business idea... FOR THE MEAT! Result on 26th
+- [ ] Organize note on sentimental Analysis
 
 ### Personal
 - [ ] Work on Linear Algebra finals assignment (DUE 11/26 Fri 18:00)
+- [ ] Collect Practice Tests for the KNOU Finals
+    - [ ] C++ collection - [ref](https://html6.tistory.com/45)
+    - [x] AI collection - [ref](https://html6.tistory.com/101)
+    - [x] Data Structure
+    - [ ] Simulation
+    - [ ] Computer Architecture
+- [ ] 

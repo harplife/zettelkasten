@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "articles/managing_experience.md",
+            "file": "lifestyle/todo/todo_log.md",
             "mode": "source"
           }
         },
@@ -19,8 +19,14 @@
             {
               "leaf": "afceaaac40faf4e8",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/todo/todo_log.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+            },
+            {
+              "leaf": "afceaaac40faf4e8",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"articles/managing_experience.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+              "eState": "{\"scroll\":22.116666666666667}"
             },
             {
               "leaf": "afceaaac40faf4e8",
@@ -183,7 +189,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "articles/managing_experience.md",
+                "file": "lifestyle/todo/todo_log.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +225,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "articles/managing_experience.md"
+                "file": "lifestyle/todo/todo_log.md"
               }
             },
             "pane-relief:history-v1": {
@@ -236,11 +242,11 @@
   },
   "active": "afceaaac40faf4e8",
   "lastOpenFiles": [
+    "lifestyle/todo/todo_log.md",
     "articles/managing_experience.md",
     "articles/learn_faster_the_feynman_technique.md",
     "articles/losing_microsoft_job.md",
     "articles/mike_parson_html_hacking.md",
-    "lifestyle/todo/todo_log.md",
     "english/dictionary/draconian.md",
     "english/dictionary/portmanteau.md",
     "english/slangs/frupid.md",
