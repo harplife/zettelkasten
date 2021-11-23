@@ -281,7 +281,7 @@ Use of backlinks is recommended for tasks that require further explanation.
 
 
 ## 2021-11-15
-### Work
+### Work (complete)
 - [x] Prepare queries for GS Cert testing analysis codes
 
 ### Personal
@@ -342,13 +342,23 @@ Use of backlinks is recommended for tasks that require further explanation.
 ## 2021-11-22
 ### Work
 - [ ] Organize note on sentimental Analysis
+    - [x] BOW + Naive Bayes
+    - [ ] TFIDF + Naive Bayes
+    - [ ] Others
 
-### Personal
-- [ ] Work on Linear Algebra finals assignment (DUE 11/26 Fri 18:00)
-- [ ] Collect Practice Tests for the KNOU Finals
-    - [ ] C++ collection - [ref](https://html6.tistory.com/45)
+### Personal (complete)
+- [x] Work on Linear Algebra finals assignment (DUE 11/26 Fri 18:00)
+    - Turned in 11/23
+- [x] Collect Practice Tests for the KNOU Finals
+    - [x] C++ collection - [ref](https://html6.tistory.com/45)
     - [x] AI collection - [ref](https://html6.tistory.com/101)
     - [x] Data Structure
-    - [ ] Simulation
-    - [ ] Computer Architecture
-- [ ] 
+    - [x] Simulation
+    - [x] Computer Architecture
+
+
+## 2021-11-23
+### Work (none)
+
+### Personal
+- [ ] Study Simulation (KNOU) from Chapter 10
