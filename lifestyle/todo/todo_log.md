@@ -362,3 +362,12 @@ Use of backlinks is recommended for tasks that require further explanation.
 
 ### Personal
 - [ ] Study Simulation (KNOU) from Chapter 10
+
+
+## 2021-11-24
+### Work
+- [ ] ZOOM with Hyundai Concrete QA Team about Concrete Quality Prediction AI
+
+### Personal
+- [ ] Write a note about this panda automation library - [bamboolib](https://towardsdatascience.com/bamboolib-one-of-the-most-useful-python-libraries-you-have-ever-seen-6ce331685bb7)
+- [ ] 
