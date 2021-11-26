@@ -371,3 +371,18 @@ Use of backlinks is recommended for tasks that require further explanation.
 ### Personal
 - [ ] Write a note about this panda automation library - [bamboolib](https://towardsdatascience.com/bamboolib-one-of-the-most-useful-python-libraries-you-have-ever-seen-6ce331685bb7)
 - [ ] 
+
+
+## 2021-11-25
+### Work (none)
+
+### Personal
+- [ ] Write a note about KNOU CS + DS plan
+    - [[방통대_컴퓨터과학과_데이터과학과_복수전공_계획|방통대 컴퓨터과학과 데이터과학과 복수전공 계획]]
+
+
+## 2021-11-26
+### Work
+- [ ] Write a note on the Customer Population Map (Plotly)
+
+### Personal (none)
