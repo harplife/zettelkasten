@@ -19,14 +19,14 @@
             {
               "leaf": "afceaaac40faf4e8",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"unsorted/levels_of_wizardry.md\",\"mode\":\"source\"}}",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/database/mariadb/examples/generate_dates_sequence.md\",\"mode\":\"source\"}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
             },
             {
               "leaf": "afceaaac40faf4e8",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"unsorted/방통대_컴퓨터과학과_데이터과학과_복수전공_계획.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+              "eState": "{\"scroll\":202.20833333333334}"
             },
             {
               "leaf": "afceaaac40faf4e8",
@@ -156,7 +156,7 @@
               "leaf": "8c9a924fbb473c10",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/todo/todo_log.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":387,\"ch\":19},\"to\":{\"line\":387,\"ch\":19}},\"scroll\":374.0416666666667}"
+              "eState": "{\"scroll\":365.1666666666667}"
             }
           ]
         }
@@ -278,13 +278,13 @@
   "lastOpenFiles": [
     "unsorted/방통대_컴퓨터과학과_데이터과학과_복수전공_계획.md",
     "lifestyle/todo/todo_log.md",
+    "computer_science/database/mariadb/examples/generate_dates_sequence.md",
+    "computer_science/languages/python/examples/get_kst_time_now.md",
+    "computer_science/database/mariadb/Untitled.md",
     "unsorted/levels_of_wizardry.md",
     "articles/managing_experience.md",
     "articles/learn_faster_the_feynman_technique.md",
     "articles/losing_microsoft_job.md",
-    "articles/mike_parson_html_hacking.md",
-    "english/dictionary/draconian.md",
-    "english/dictionary/portmanteau.md",
-    "english/slangs/frupid.md"
+    "articles/mike_parson_html_hacking.md"
   ]
 }

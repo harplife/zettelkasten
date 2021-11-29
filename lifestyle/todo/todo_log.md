@@ -240,11 +240,11 @@ Use of backlinks is recommended for tasks that require further explanation.
     - [[windows_shortcuts|Windows Shortcuts]]
 
 ## 2021-11-10
-### Work
-- [ ] Assess Concrete Mix Proportion Prediction AI
+### Work (complete)
+- [x] Assess Concrete Mix Proportion Prediction AI
     - [x] Organize questions
     - [x] Find related papers
-    - [ ] Think of ideas based on the reply and the papers
+    - [x] Think of ideas based on the reply and the papers
 
 ### Personal
 - [ ] Write a note on this [article](https://mrshrestha.medium.com/top-10-open-source-development-tools-tried-and-tested-6c26d59ed10)
@@ -365,12 +365,11 @@ Use of backlinks is recommended for tasks that require further explanation.
 
 
 ## 2021-11-24
-### Work
-- [ ] ZOOM with Hyundai Concrete QA Team about Concrete Quality Prediction AI
+### Work (complete)
+- [x] ZOOM with Hyundai Concrete QA Team about Concrete Quality Prediction AI
 
 ### Personal
 - [ ] Write a note about this panda automation library - [bamboolib](https://towardsdatascience.com/bamboolib-one-of-the-most-useful-python-libraries-you-have-ever-seen-6ce331685bb7)
-- [ ] 
 
 
 ## 2021-11-25
@@ -384,5 +383,13 @@ Use of backlinks is recommended for tasks that require further explanation.
 ## 2021-11-26
 ### Work
 - [ ] Write a note on the Customer Population Map (Plotly)
+
+### Personal (none)
+
+
+## 2021-11-29
+### Work (complete)
+- [x] Set up docker & images on e-connection project
+- [x] Write a note on [[generate_dates_sequence|Generate a List of Dates]]
 
 ### Personal (none)
