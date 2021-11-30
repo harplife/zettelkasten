@@ -19,14 +19,14 @@
             {
               "leaf": "afceaaac40faf4e8",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/database/mariadb/examples/generate_dates_sequence.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/goals/goal_bachelor_in_cs.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":13.125}"
             },
             {
               "leaf": "afceaaac40faf4e8",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"unsorted/방통대_컴퓨터과학과_데이터과학과_복수전공_계획.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":202.20833333333334}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":339,\"ch\":0},\"to\":{\"line\":339,\"ch\":0}},\"scroll\":324.2916666666667}"
             },
             {
               "leaf": "afceaaac40faf4e8",
@@ -156,7 +156,7 @@
               "leaf": "8c9a924fbb473c10",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/todo/todo_log.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":365.1666666666667}"
+              "eState": "{\"scroll\":217.45833333333334}"
             }
           ]
         }
@@ -223,7 +223,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "unsorted/방통대_컴퓨터과학과_데이터과학과_복수전공_계획.md",
+                "file": "lifestyle/todo/todo_log.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -259,7 +259,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "unsorted/방통대_컴퓨터과학과_데이터과학과_복수전공_계획.md"
+                "file": "lifestyle/todo/todo_log.md"
               }
             },
             "pane-relief:history-v1": {
@@ -274,17 +274,17 @@
     "direction": "horizontal",
     "width": 316.5
   },
-  "active": "afceaaac40faf4e8",
+  "active": "8c9a924fbb473c10",
   "lastOpenFiles": [
-    "unsorted/방통대_컴퓨터과학과_데이터과학과_복수전공_계획.md",
     "lifestyle/todo/todo_log.md",
+    "unsorted/방통대_컴퓨터과학과_데이터과학과_복수전공_계획.md",
+    "lifestyle/goals/goal_bachelor_in_cs.md",
     "computer_science/database/mariadb/examples/generate_dates_sequence.md",
     "computer_science/languages/python/examples/get_kst_time_now.md",
     "computer_science/database/mariadb/Untitled.md",
     "unsorted/levels_of_wizardry.md",
     "articles/managing_experience.md",
     "articles/learn_faster_the_feynman_technique.md",
-    "articles/losing_microsoft_job.md",
-    "articles/mike_parson_html_hacking.md"
+    "articles/losing_microsoft_job.md"
   ]
 }
