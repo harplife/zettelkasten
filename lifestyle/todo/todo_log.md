@@ -428,6 +428,26 @@ Use of backlinks is recommended for tasks that require further explanation.
     - [ ] Flag examples on C++ ebook
 - [x] (KNOU) Check if finals can be adjusted after confirmation
     - NOPE!
-- [ ] (KNOU) Check if classes below F can be made up again in later semester
-- [ ] (KNOU) Check if classes between F and C+ can only be retaken during Spring/Winter semester
+- [x] (KNOU) Check if classes below F can be made up again in later semester
+    - F and below is not counted toward grades. Although not mentioned, it is implied that it can be taken again in next year.
+- [ ] (KNOU) Check if classes between F and C+ can be retaken during Spring/Fall semester.
 - [ ] (KNOU) Plan 12/13~12/17 unpaid leave, if possible
+
+
+## 2021-12-02
+### Work (none)
+
+### Personal
+- [ ] Write and debug C++ code example (the rest of Chapter 4)
+    - [x] 4-11 까지 완료. 2021/12/02
+    - push on [Cpp_Examples git repository](https://github.com/harplife/Cpp_Examples)
+- [ ] Get these [books](https://www.tableau.com/ko-kr/learn/articles/books-about-data-visualization) someday
+
+
+## 2021-12-03
+### Work
+- [ ] Write a note about getting user highlighted text - [ref](https://stackoverflow.com/questions/5379120/get-the-highlighted-selected-text)
+- [ ] Celebrate with co-workers for finishing GS Certification Test
+
+### Personal
+- [ ] Celebrate with the family for finishing GS Certification Test

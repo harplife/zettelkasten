@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "unsorted/방통대_컴퓨터과학과_데이터과학과_복수전공_계획.md",
-            "mode": "source"
+            "mode": "preview"
           }
         },
         "pane-relief:history-v1": {
@@ -25,8 +25,8 @@
             {
               "leaf": "afceaaac40faf4e8",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"unsorted/방통대_컴퓨터과학과_데이터과학과_복수전공_계획.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":339,\"ch\":0},\"to\":{\"line\":339,\"ch\":0}},\"scroll\":324.2916666666667}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"unsorted/방통대_컴퓨터과학과_데이터과학과_복수전공_계획.md\",\"mode\":\"preview\"}}",
+              "eState": "{\"scroll\":321.38235294117646}"
             },
             {
               "leaf": "afceaaac40faf4e8",
@@ -156,7 +156,7 @@
               "leaf": "8c9a924fbb473c10",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/todo/todo_log.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":402.0357142857143}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
             }
           ]
         }
@@ -277,10 +277,10 @@
   "active": "8c9a924fbb473c10",
   "lastOpenFiles": [
     "lifestyle/todo/todo_log.md",
+    "unsorted/방통대_컴퓨터과학과_데이터과학과_복수전공_계획.md",
     "computer_science/languages/cpp/knou_cpp_assignment.md",
     "computer_science/languages/cpp/why_use_pointers.md",
     "computer_science/languages/cpp/knou_cpp_notes.md",
-    "unsorted/방통대_컴퓨터과학과_데이터과학과_복수전공_계획.md",
     "lifestyle/goals/goal_bachelor_in_cs.md",
     "computer_science/database/mariadb/examples/generate_dates_sequence.md",
     "computer_science/languages/python/examples/get_kst_time_now.md",
