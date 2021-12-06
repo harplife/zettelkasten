@@ -26,7 +26,7 @@
               "leaf": "afceaaac40faf4e8",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"unsorted/방통대_컴퓨터과학과_데이터과학과_복수전공_계획.md\",\"mode\":\"preview\"}}",
-              "eState": "{\"scroll\":321.38235294117646}"
+              "eState": "{}"
             },
             {
               "leaf": "afceaaac40faf4e8",
@@ -157,6 +157,30 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/todo/todo_log.md\",\"mode\":\"source\"}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "8c9a924fbb473c10",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"english/metaphor/t_shaped_skill.md\",\"mode\":\"source\"}}",
+              "eState": "{\"scroll\":0}"
+            },
+            {
+              "leaf": "8c9a924fbb473c10",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"english/dictionary/portmanteau.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "8c9a924fbb473c10",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"english/metaphor/t_shaped_skill.md\",\"mode\":\"source\"}}",
+              "eState": "{\"scroll\":0}"
+            },
+            {
+              "leaf": "8c9a924fbb473c10",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/todo/todo_log.md\",\"mode\":\"source\"}}",
+              "eState": "{\"scroll\":446.25}"
             }
           ]
         }
@@ -277,14 +301,14 @@
   "active": "8c9a924fbb473c10",
   "lastOpenFiles": [
     "lifestyle/todo/todo_log.md",
+    "english/metaphor/t_shaped_skill.md",
     "unsorted/방통대_컴퓨터과학과_데이터과학과_복수전공_계획.md",
+    "people/niklas_luhmann.md",
+    "zettelkasten/what_is_zettelkasten.md",
+    "english/dictionary/portmanteau.md",
+    "lifestyle/products/sound_bar.md",
     "computer_science/languages/cpp/knou_cpp_assignment.md",
     "computer_science/languages/cpp/why_use_pointers.md",
-    "computer_science/languages/cpp/knou_cpp_notes.md",
-    "lifestyle/goals/goal_bachelor_in_cs.md",
-    "computer_science/database/mariadb/examples/generate_dates_sequence.md",
-    "computer_science/languages/python/examples/get_kst_time_now.md",
-    "computer_science/database/mariadb/Untitled.md",
-    "unsorted/levels_of_wizardry.md"
+    "computer_science/languages/cpp/knou_cpp_notes.md"
   ]
 }

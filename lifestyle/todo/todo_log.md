@@ -37,6 +37,7 @@ Use of backlinks is recommended for tasks that require further explanation.
 	- [x] Logitech [M590](https://www.logitech.com/en-us/products/mice/m590-silent-wireless-mouse.910-005014.html) - bought 2021/11/03
         - Received 2021/11/06, it's really nice
 	- [ ] Logitech [K780](https://www.logitech.com/en-us/products/keyboards/k780-multi-device-wireless-keyboard.920-008149.html)
+        - [danawa](http://prod.danawa.com/info/?pcode=4259119)
 - [x] 상무님에게 받았던 인공지능 강의자료 업로드 및 정리 (대표님 위해서 정리했던 것 포함)
 	- 2021/10/19: 구글 드라이브에 저장 완료
 - [x] Print Certificate of Enrollment from KNOU
@@ -438,7 +439,7 @@ Use of backlinks is recommended for tasks that require further explanation.
 ### Work (none)
 
 ### Personal
-- [ ] Write and debug C++ code example (the rest of Chapter 4)
+- [x] Write and debug C++ code example (the rest of Chapter 4)
     - [x] 4-11 까지 완료. 2021/12/02
     - push on [Cpp_Examples git repository](https://github.com/harplife/Cpp_Examples)
 - [ ] Get these [books](https://www.tableau.com/ko-kr/learn/articles/books-about-data-visualization) someday
@@ -450,4 +451,17 @@ Use of backlinks is recommended for tasks that require further explanation.
 - [ ] Celebrate with co-workers for finishing GS Certification Test
 
 ### Personal
-- [ ] Celebrate with the family for finishing GS Certification Test
+- [x] Celebrate with the family for finishing GS Certification Test
+    - Celebrated with 가마치 chicken and wine
+
+
+## 2021-12-06
+### Work
+
+### Personal
+- [ ] Write a note about this [article](https://onezero.medium.com/russia-blew-up-one-of-its-satellites-creating-dangerous-space-debris-199fe19a23ab)
+    - [ ] Write about Russia blowing up one of their satellites, along with other countries
+    - [ ] Write about the Kessler Syndrome, a cascade of collisions that can turn low orbit into a deadly landmine.
+- [ ] Study with Google's internal(previously) Machine Learning [course](https://youtube.com/playlist?list=PLRKtJ4IpxJpDxl0NTvNYQWKCYzHNuy2xG)
+- [ ] Write about Chrome's Face Detection API - [ref](https://medium.com/@joomiguelcunha/lets-play-with-chrome-s-face-detection-api-ca13017a958f)
+- [ ] Try the wxWidgets _Hello World_ [tutorial](https://www.wxwidgets.org/docs/tutorials/)
