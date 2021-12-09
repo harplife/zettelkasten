@@ -413,10 +413,8 @@ Use of backlinks is recommended for tasks that require further explanation.
 # 2021-12
 
 ## 2021-12-01
-### Work
-- [ ] Write summary for the papers related to sentimental analysis
-    - [ ] Find the papers!
-- [ ] Work on Salevis Hue AI services planning ppt
+### Work (complete)
+- [x] Work on Salevis Hue AI services planning ppt
 
 ### Personal
 - [x] Write and debug C++ code example (example 4-11)
@@ -432,7 +430,8 @@ Use of backlinks is recommended for tasks that require further explanation.
 - [x] (KNOU) Check if classes below F can be made up again in later semester
     - F and below is not counted toward grades. Although not mentioned, it is implied that it can be taken again in next year.
 - [ ] (KNOU) Check if classes between F and C+ can be retaken during Spring/Fall semester.
-- [ ] (KNOU) Plan 12/13~12/17 unpaid leave, if possible
+- [x] (KNOU) Plan 12/13~12/17 unpaid leave, if possible
+    - 12/13~14, 16~17 paid leave.. but I'll take it!
 
 
 ## 2021-12-02
@@ -456,7 +455,7 @@ Use of backlinks is recommended for tasks that require further explanation.
 
 
 ## 2021-12-06
-### Work
+### Work (none)
 
 ### Personal
 - [ ] Write a note about this [article](https://onezero.medium.com/russia-blew-up-one-of-its-satellites-creating-dangerous-space-debris-199fe19a23ab)
@@ -465,3 +464,27 @@ Use of backlinks is recommended for tasks that require further explanation.
 - [ ] Study with Google's internal(previously) Machine Learning [course](https://youtube.com/playlist?list=PLRKtJ4IpxJpDxl0NTvNYQWKCYzHNuy2xG)
 - [ ] Write about Chrome's Face Detection API - [ref](https://medium.com/@joomiguelcunha/lets-play-with-chrome-s-face-detection-api-ca13017a958f)
 - [ ] Try the wxWidgets _Hello World_ [tutorial](https://www.wxwidgets.org/docs/tutorials/)
+
+
+## 2021 12-08
+### Work
+- [ ] Find Counseling Conversation Dataset for Sentimental Analysis (or an online community site to crawl)
+- [ ] Check if ther's any patent that is similar to the Sentimental Analysis Model we are thinking of
+- [ ] Get an estimate of cost for labeling dataset (200k)
+
+### Personal (none)
+
+
+## 2021-12-09
+### Work
+- [x] Pick up GS Certificate
+- [x] Help Boss with his ppt homework
+- [ ] Figure out how to wash my face regularly at work
+- [ ] Reset GS Cert Test PC
+
+### Personal
+- [ ] Write a note on this paper: _Simple Method for commonsense Reasoning_
+    - [paper link](https://arxiv.org/pdf/1806.02847.pdf)
+    - [[simple_method_for_commonsense_reasoning.pptx|a student's note on this paper]]
+- [ ] Write a note on this 2021 [Best of What's New](https://www.popsci.com/technology/best-of-whats-new-2021). This is top quality.
+- [ ] Write a note about [2022 Web Design Trends](https://designmodo.com/web-design-trends-2022).
