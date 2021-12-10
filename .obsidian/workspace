@@ -150,13 +150,31 @@
           }
         },
         "pane-relief:history-v1": {
-          "pos": 0,
+          "pos": 3,
           "stack": [
             {
               "leaf": "8c9a924fbb473c10",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/artificial_intelligence/기계 지능 테스트.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":92,\"ch\":0},\"to\":{\"line\":92,\"ch\":0}},\"scroll\":65.41666666666667}"
+            },
+            {
+              "leaf": "8c9a924fbb473c10",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/artificial_intelligence/alan_turing.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+            },
+            {
+              "leaf": "8c9a924fbb473c10",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/artificial_intelligence/기계 지능 테스트.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+            },
+            {
+              "leaf": "8c9a924fbb473c10",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/todo/todo_log.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":485,\"ch\":63},\"to\":{\"line\":485,\"ch\":63}},\"scroll\":462.8333333333333}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":471.5}"
             },
             {
               "leaf": "8c9a924fbb473c10",
@@ -301,14 +319,14 @@
   "active": "8c9a924fbb473c10",
   "lastOpenFiles": [
     "lifestyle/todo/todo_log.md",
+    "computer_science/artificial_intelligence/기계 지능 테스트.md",
+    "computer_science/artificial_intelligence/alan_turing.md",
     "english/metaphor/t_shaped_skill.md",
     "unsorted/방통대_컴퓨터과학과_데이터과학과_복수전공_계획.md",
     "people/niklas_luhmann.md",
     "zettelkasten/what_is_zettelkasten.md",
     "english/dictionary/portmanteau.md",
     "lifestyle/products/sound_bar.md",
-    "computer_science/languages/cpp/knou_cpp_assignment.md",
-    "computer_science/languages/cpp/why_use_pointers.md",
-    "computer_science/languages/cpp/knou_cpp_notes.md"
+    "computer_science/languages/cpp/knou_cpp_assignment.md"
   ]
 }

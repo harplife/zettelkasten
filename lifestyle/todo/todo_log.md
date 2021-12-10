@@ -208,7 +208,6 @@ Use of backlinks is recommended for tasks that require further explanation.
 - [x] Fill out October report for Work-Study
 - [ ] Prepare for moving (12/8)
     - [ ] Organize commands for internal development server
-    - [ ] Buy a jean that I can freely move around in
 
 ### Personal (complete)
 - [x] Buy a smartphone case for Samsung Galaxy 20 Ultra
@@ -488,3 +487,22 @@ Use of backlinks is recommended for tasks that require further explanation.
     - [[simple_method_for_commonsense_reasoning.pptx|a student's note on this paper]]
 - [ ] Write a note on this 2021 [Best of What's New](https://www.popsci.com/technology/best-of-whats-new-2021). This is top quality.
 - [ ] Write a note about [2022 Web Design Trends](https://designmodo.com/web-design-trends-2022).
+
+
+## 2021-12-10
+### Work
+
+### Personal
+- [x] Write a note about Turing Test and Winograd Schemas Challenge (in Korean) - [[기계 지능 테스트]]
+- [ ] Write a note on [All Machine Learning Algorithms You Should Know in 2022](https://towardsdatascience.com/all-machine-learning-algorithms-you-should-know-in-2022-db5b4ccdf32f)
+- [ ] Write a note about [Observer Design Pattern in JavaScript](https://betterprogramming.pub/observer-design-pattern-in-javascript-c839ee49add4)
+- [ ] Write a note about [Replicating Minecraft World Generation in Python](https://towardsdatascience.com/replicating-minecraft-world-generation-in-python-1b491bc9b9a4)
+- [ ] Write a note about [Simulating Traffic Flow in Python](https://towardsdatascience.com/simulating-traffic-flow-in-python-ee1eab4dd20f)
+- [ ] Write a note about [Build a Haiku Machine with Python](https://betterprogramming.pub/nlp-with-python-build-a-haiku-machine-in-50-lines-of-code-6c7b6de959e3)
+- [ ] Write a note about [Amazon Interview Preparation Roadmap](https://medium.com/@mehulchaturvedi/interview-preparation-roadmap-that-got-me-into-amazon-d357049a0a68)
+- [ ] Write a note about [Isolating vocals from music using CNN](https://towardsdatascience.com/audio-ai-isolating-vocals-from-stereo-music-using-convolutional-neural-networks-210532383785)
+- [ ] Write a note about [Ale Koretzky](https://alekoretzky.com/)
+- [ ] Write a note about Splice
+    - [ref 1](https://splice.com/)
+    - [ref 2](https://techcrunch.com/2019/11/21/splice-sample-store/)
+- [ ] Check out [github repository for self-taught developer](https://betterprogramming.pub/10-github-repositories-for-the-self-taught-developer-c8b69b052ba4)
