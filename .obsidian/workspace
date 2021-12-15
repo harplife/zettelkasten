@@ -150,31 +150,25 @@
           }
         },
         "pane-relief:history-v1": {
-          "pos": 3,
+          "pos": 2,
           "stack": [
             {
               "leaf": "8c9a924fbb473c10",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/artificial_intelligence/기계 지능 테스트.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":92,\"ch\":0},\"to\":{\"line\":92,\"ch\":0}},\"scroll\":65.41666666666667}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/languages/python/examples/pandas_reindex_to_add_columns.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
             },
             {
               "leaf": "8c9a924fbb473c10",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/artificial_intelligence/alan_turing.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-            },
-            {
-              "leaf": "8c9a924fbb473c10",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/artificial_intelligence/기계 지능 테스트.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/languages/python/examples/random_id_generator.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":0}"
             },
             {
               "leaf": "8c9a924fbb473c10",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/todo/todo_log.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":471.5}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":500.1666666666667}"
             },
             {
               "leaf": "8c9a924fbb473c10",
@@ -199,6 +193,28 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/todo/todo_log.md\",\"mode\":\"source\"}}",
               "eState": "{\"scroll\":446.25}"
+            }
+          ]
+        }
+      },
+      {
+        "id": "55cdb8e74751f7f0",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "computer_science/languages/python/examples/random_id_generator.md",
+            "mode": "source"
+          }
+        },
+        "pane-relief:history-v1": {
+          "pos": 0,
+          "stack": [
+            {
+              "leaf": "55cdb8e74751f7f0",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/languages/python/examples/random_id_generator.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":39,\"ch\":140},\"to\":{\"line\":39,\"ch\":140}},\"scroll\":16.764705882352942}"
             }
           ]
         }
@@ -265,7 +281,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "lifestyle/todo/todo_log.md",
+                "file": "computer_science/languages/python/examples/random_id_generator.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -301,7 +317,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "lifestyle/todo/todo_log.md"
+                "file": "computer_science/languages/python/examples/random_id_generator.md"
               }
             },
             "pane-relief:history-v1": {
@@ -316,17 +332,17 @@
     "direction": "horizontal",
     "width": 316.5
   },
-  "active": "8c9a924fbb473c10",
+  "active": "55cdb8e74751f7f0",
   "lastOpenFiles": [
+    "computer_science/languages/python/examples/random_id_generator.md",
     "lifestyle/todo/todo_log.md",
+    "computer_science/languages/python/examples/pandas_reindex_to_add_columns.md",
+    "unsorted/방통대_컴퓨터과학과_데이터과학과_복수전공_계획.md",
     "computer_science/artificial_intelligence/기계 지능 테스트.md",
     "computer_science/artificial_intelligence/alan_turing.md",
     "english/metaphor/t_shaped_skill.md",
-    "unsorted/방통대_컴퓨터과학과_데이터과학과_복수전공_계획.md",
     "people/niklas_luhmann.md",
     "zettelkasten/what_is_zettelkasten.md",
-    "english/dictionary/portmanteau.md",
-    "lifestyle/products/sound_bar.md",
-    "computer_science/languages/cpp/knou_cpp_assignment.md"
+    "english/dictionary/portmanteau.md"
   ]
 }

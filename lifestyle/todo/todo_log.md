@@ -506,3 +506,16 @@ Use of backlinks is recommended for tasks that require further explanation.
     - [ref 1](https://splice.com/)
     - [ref 2](https://techcrunch.com/2019/11/21/splice-sample-store/)
 - [ ] Check out [github repository for self-taught developer](https://betterprogramming.pub/10-github-repositories-for-the-self-taught-developer-c8b69b052ba4)
+
+
+## 2021-12-15
+### Work
+- [ ] Make a guideline for Sentimental Analysis Data Labeling
+- [ ] Make a crawler (dc)
+
+### Personal
+- [ ] Write a note on [Best 15 Design Systems](https://mobile.twitter.com/designersaha/status/1469578200216793094)
+- [ ] Write a note on [Can't install Pandas on Py39](https://github.com/pandas-dev/pandas/issues/32045)
+- [ ] Write a note on [How outdated PIP causes problem](https://stackoverflow.com/a/66556827/10570582)
+- [ ] Write a note on [How to wait with Selenium](https://velog.io/@eunjeong/TIL-Selenium-%EC%8B%9C%EA%B0%84%EB%8C%80%EA%B8%B0)
+- [ ] Write about [Apache Log4j vulnerability](https://www.cnet.com/tech/services-and-software/the-log4j-software-bug-could-put-your-favorite-sites-at-risk-what-you-need-to-know/)
