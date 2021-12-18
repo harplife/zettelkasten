@@ -519,3 +519,37 @@ Use of backlinks is recommended for tasks that require further explanation.
 - [ ] Write a note on [How outdated PIP causes problem](https://stackoverflow.com/a/66556827/10570582)
 - [ ] Write a note on [How to wait with Selenium](https://velog.io/@eunjeong/TIL-Selenium-%EC%8B%9C%EA%B0%84%EB%8C%80%EA%B8%B0)
 - [ ] Write about [Apache Log4j vulnerability](https://www.cnet.com/tech/services-and-software/the-log4j-software-bug-could-put-your-favorite-sites-at-risk-what-you-need-to-know/)
+
+
+## 2021-12-16
+### Personal
+- [ ] Write a note on how Pixar applied mathematical wave model called Tessendorf to simulate sea waves for movie Cars 2 - [article](https://www.cnet.com/news/new-technology-revs-up-pixars-cars-2/)
+- [ ] Try to understand what [ShaderToy](https://www.shadertoy.com/view/tstczS) is. You can also play an airplane pipe dodging game.
+- [ ] Write a note about SIUE's MS in Computer Science [programs](https://www.siue.edu/academics/graduate/degrees-and-programs/computer-science/)
+- [ ] Check out the C++ 3D DirectX Programming [playlist](https://www.youtube.com/playlist?list=PLqCJpWy5Fohd3S7ICFXwUomYW0Wv67pDD) by Chili
+- [ ] Check out the Advanced C++ Programming [playlist](https://www.youtube.com/playlist?list=PLqCJpWy5Fohd6Hg5BW8eAjo5SzQQYl43S) by Chili
+- [ ] Check out the 3D Game Programming [playlist](https://www.youtube.com/playlist?list=PLlrATfBNZ98dBKl_szQhHbcpVZ9vYFA8F) by Cherno (it's Java tho..)
+- [ ] Check out the Game Programming [playlist](https://www.youtube.com/playlist?list=PLlrATfBNZ98eOOCk2fOFg7Qg5yoQfFAdf) by Cherno (once again, Java)
+- [ ] Check out How to make Game Engine with C++ [playlist](https://www.youtube.com/playlist?list=PLlrATfBNZ98dC-V-N3m0Go4deliWHPFwT) by Cherno. Note that this is the newest one (there was an older one, _Sparky_, which he made for game dev competition).
+- [ ] Check out C++ [playlist](https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb) by Cherno
+- [ ] Write a note about the Overview of the Shading Process that RenderMan (Pixar's own Graphic Engine?) uses - [ref](https://renderman.pixar.com/resources/RenderMan_20/shadingProcessOverview.html)
+- [ ] Write a note about Patricio Gonzalez Vivo (Programmer / Artist) - [his site](http://patriciogonzalezvivo.com/about.php)
+- [ ] Write a note about Jen Lowe (Programmer / Artist) - [her site](http://jenlowe.net/)
+- [ ] Check out the cool art gallery? - [link](https://frm.fm/gallery)
+- [ ] Not sure what ShaderToy is, but worth checking out - [link](https://www.shadertoy.com/howto), [video: painting with math](https://www.youtube.com/watch?v=0ifChJ0nJfM)
+- [ ] Write a note about Programmable Graphics Pipeline - [wiki](https://en.wikibooks.org/wiki/Cg_Programming/Programmable_Graphics_Pipeline)
+- [ ] Check out all the research paper Pixar's Graphics department wrote over the years - [link](https://graphics.pixar.com/library/)
+
+
+## 2021-12-17
+### Personal
+- [ ] Write a note about [Digital Signal Processing](https://en.wikipedia.org/wiki/Digital_signal_processing)
+- [ ] Write a note about each components in [[color_image_pipepine|Color Image Pipeline]]
+- [x] Write a note about [[color_filter_array|Color Filter Array]]
+- [x] Write a note about [[yuv_color_encoding|YUV Color Encoding]]
+- [x] Write a note about [[color_image_pipepine|Color Image Pipeline]]
+
+
+## 2021-12-18
+### Personal
+- [ ] Write more detail on [[image_compression|Image Compression]]

@@ -9,30 +9,30 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "unsorted/방통대_컴퓨터과학과_데이터과학과_복수전공_계획.md",
-            "mode": "preview"
+            "file": "lifestyle/todo/todo_log.md",
+            "mode": "source"
           }
         },
         "pane-relief:history-v1": {
-          "pos": 1,
+          "pos": 0,
           "stack": [
             {
               "leaf": "afceaaac40faf4e8",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/goals/goal_bachelor_in_cs.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":13.125}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/todo/todo_log.md\",\"mode\":\"source\"}}",
+              "eState": "{\"scroll\":529.5133159663192}"
             },
             {
               "leaf": "afceaaac40faf4e8",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"unsorted/방통대_컴퓨터과학과_데이터과학과_복수전공_계획.md\",\"mode\":\"preview\"}}",
-              "eState": "{}"
+              "eState": "{\"scroll\":0}"
             },
             {
               "leaf": "afceaaac40faf4e8",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/todo/todo_log.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":365.0416666666667}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":364.5674248579401}"
             },
             {
               "leaf": "afceaaac40faf4e8",
@@ -140,59 +140,35 @@
         }
       },
       {
-        "id": "8c9a924fbb473c10",
+        "id": "a0db341280fd0ce6",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "lifestyle/todo/todo_log.md",
-            "mode": "source"
+            "file": "computer_science/computer_vision/image_compression.md",
+            "mode": "preview"
           }
         },
         "pane-relief:history-v1": {
-          "pos": 2,
+          "pos": 0,
           "stack": [
             {
-              "leaf": "8c9a924fbb473c10",
+              "leaf": "a0db341280fd0ce6",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/languages/python/examples/pandas_reindex_to_add_columns.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "8c9a924fbb473c10",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/languages/python/examples/random_id_generator.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":0}"
-            },
-            {
-              "leaf": "8c9a924fbb473c10",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/todo/todo_log.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":500.1666666666667}"
-            },
-            {
-              "leaf": "8c9a924fbb473c10",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"english/metaphor/t_shaped_skill.md\",\"mode\":\"source\"}}",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/image_compression.md\",\"mode\":\"preview\"}}",
               "eState": "{\"scroll\":0}"
             },
             {
-              "leaf": "8c9a924fbb473c10",
+              "leaf": "a0db341280fd0ce6",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"english/dictionary/portmanteau.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/color_image_pipepine.md\",\"mode\":\"source\"}}",
+              "eState": "{}"
             },
             {
-              "leaf": "8c9a924fbb473c10",
+              "leaf": "a0db341280fd0ce6",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"english/metaphor/t_shaped_skill.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":0}"
-            },
-            {
-              "leaf": "8c9a924fbb473c10",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/todo/todo_log.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":446.25}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/color_filter_array.md\",\"mode\":\"preview\"}}",
+              "eState": "{\"scroll\":27.005616605951545}"
             }
           ]
         }
@@ -214,7 +190,7 @@
               "leaf": "55cdb8e74751f7f0",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/languages/python/examples/random_id_generator.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":39,\"ch\":140},\"to\":{\"line\":39,\"ch\":140}},\"scroll\":16.764705882352942}"
+              "eState": "{}"
             }
           ]
         }
@@ -281,7 +257,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer_science/languages/python/examples/random_id_generator.md",
+                "file": "lifestyle/todo/todo_log.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -317,7 +293,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer_science/languages/python/examples/random_id_generator.md"
+                "file": "lifestyle/todo/todo_log.md"
               }
             },
             "pane-relief:history-v1": {
@@ -332,17 +308,17 @@
     "direction": "horizontal",
     "width": 316.5
   },
-  "active": "55cdb8e74751f7f0",
+  "active": "afceaaac40faf4e8",
   "lastOpenFiles": [
-    "computer_science/languages/python/examples/random_id_generator.md",
     "lifestyle/todo/todo_log.md",
-    "computer_science/languages/python/examples/pandas_reindex_to_add_columns.md",
+    "computer_science/computer_vision/image_compression.md",
+    "computer_science/computer_vision/color_image_pipepine.md",
+    "computer_science/computer_vision/color_filter_array.md",
+    "computer_science/computer_vision/yuv_color_encoding.md",
     "unsorted/방통대_컴퓨터과학과_데이터과학과_복수전공_계획.md",
-    "computer_science/artificial_intelligence/기계 지능 테스트.md",
-    "computer_science/artificial_intelligence/alan_turing.md",
-    "english/metaphor/t_shaped_skill.md",
-    "people/niklas_luhmann.md",
-    "zettelkasten/what_is_zettelkasten.md",
-    "english/dictionary/portmanteau.md"
+    "computer_science/computer_vision/colorspace_ycbcr.md",
+    "computer_science/languages/python/examples/random_id_generator.md",
+    "lifestyle/goals/goal_bachelor_in_cs.md",
+    "computer_science/artificial_intelligence/alan_turing.md"
   ]
 }

@@ -52,10 +52,10 @@ In [[computer_science|Computer Science]], random is divided into two categories,
 More on this topic [here](https://en.wikipedia.org/wiki/Random_number_generation)
 
 ## True Random
-It's actually nearly impossible to be __ABSOLUTELY__ random, but there are some phenomenas that we consider to be random enough that we call them _True Random_.
+It's actually nearly impossible to be __ABSOLUTELY__ random, but there are some phenomena that we consider to be random enough that we call them _True Random_.
 - Thermal Noise
 - Photoelectric Effect
-- Quantum phenomenas
+- Quantum phenomena
 
 True Random is unpredictable _for as long as_ an equation governing such phenomena is not known or not computable.
 

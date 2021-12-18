@@ -4,5 +4,10 @@
   "spellcheck": true,
   "vimMode": true,
   "showUnsupportedFiles": true,
-  "useTab": false
+  "useTab": false,
+  "spellcheckDictionary": [
+    "computable",
+    "chrominance",
+    "photosensors"
+  ]
 }
