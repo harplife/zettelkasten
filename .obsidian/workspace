@@ -20,7 +20,7 @@
               "leaf": "afceaaac40faf4e8",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/todo/todo_log.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":529.5133159663192}"
+              "eState": "{}"
             },
             {
               "leaf": "afceaaac40faf4e8",
@@ -135,6 +135,34 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/todo/todo_log.md\",\"mode\":\"source\"}}",
               "eState": "{\"scroll\":328.0833333333333}"
+            }
+          ]
+        }
+      },
+      {
+        "id": "93f9e90af053800e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "unsorted/방통대_컴퓨터과학과_데이터과학과_복수전공_계획.md",
+            "mode": "source"
+          }
+        },
+        "pane-relief:history-v1": {
+          "pos": 0,
+          "stack": [
+            {
+              "leaf": "93f9e90af053800e",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"unsorted/방통대_컴퓨터과학과_데이터과학과_복수전공_계획.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":21.616825644950644}"
+            },
+            {
+              "leaf": "93f9e90af053800e",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_science.md\",\"mode\":\"source\"}}",
+              "eState": "{}"
             }
           ]
         }
@@ -311,14 +339,14 @@
   "active": "afceaaac40faf4e8",
   "lastOpenFiles": [
     "lifestyle/todo/todo_log.md",
+    "unsorted/방통대_컴퓨터과학과_데이터과학과_복수전공_계획.md",
+    "computer_science/computer_science.md",
     "computer_science/computer_vision/image_compression.md",
     "computer_science/computer_vision/color_image_pipepine.md",
     "computer_science/computer_vision/color_filter_array.md",
     "computer_science/computer_vision/yuv_color_encoding.md",
-    "unsorted/방통대_컴퓨터과학과_데이터과학과_복수전공_계획.md",
     "computer_science/computer_vision/colorspace_ycbcr.md",
     "computer_science/languages/python/examples/random_id_generator.md",
-    "lifestyle/goals/goal_bachelor_in_cs.md",
-    "computer_science/artificial_intelligence/alan_turing.md"
+    "lifestyle/goals/goal_bachelor_in_cs.md"
   ]
 }

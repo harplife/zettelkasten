@@ -553,3 +553,8 @@ Use of backlinks is recommended for tasks that require further explanation.
 ## 2021-12-18
 ### Personal
 - [ ] Write more detail on [[image_compression|Image Compression]]
+
+
+## 2021-12-19
+### Personal
+- [x] Take KNOU Finals
