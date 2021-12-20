@@ -558,3 +558,12 @@ Use of backlinks is recommended for tasks that require further explanation.
 ## 2021-12-19
 ### Personal
 - [x] Take KNOU Finals
+
+
+## 2021-12-20
+### Work
+- [ ] Make examples of sentiments (10 per?)
+- [ ] Make a new list of sentiment analysis dataset
+
+### Personal
+- [x] Write a note on [[dementia_prediction_exeter|Dementia Prediction Model]]
