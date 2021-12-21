@@ -377,7 +377,7 @@ Use of backlinks is recommended for tasks that require further explanation.
 
 ### Personal (complete)
 - [x] Write a note about KNOU CS + DS plan
-    - [[방통대_컴퓨터과학과_데이터과학과_복수전공_계획|방통대 컴퓨터과학과 데이터과학과 복수전공 계획]]
+    - [[방통대_컴퓨터과학과_데이터과학과_복수전공_계획_2021_2|방통대 컴퓨터과학과 데이터과학과 복수전공 계획]]
         - completed on 2021/11/30
 
 
@@ -567,3 +567,20 @@ Use of backlinks is recommended for tasks that require further explanation.
 
 ### Personal
 - [x] Write a note on [[dementia_prediction_exeter|Dementia Prediction Model]]
+
+
+## 2021-12-21
+### Work
+
+### Personal
+- [ ] Write a note on somebody's journey as Technical Director - [blog](https://post.naver.com/viewer/postView.naver?volumeNo=14899498&memberNo=1955589&navigationType=push)
+- [ ] Write a note on somebody's journey as American immigrant - [blog](https://m.post.naver.com/viewer/postView.naver?volumeNo=14647395&memberNo=1955589&navigationType=push)
+- [ ] Write a note on somebody's work experience at Disney - [blog](https://m.post.naver.com/viewer/postView.naver?volumeNo=14898936&memberNo=1955589&navigationType=push)
+- [ ] Check out this [site](https://gamecodi.com/793/%EA%B7%B8%EB%9E%98%ED%94%BD%EC%8A%A4-%EC%A7%81%EC%97%85%EC%9D%80-%EA%B2%8C%EC%9E%84-%EC%A7%81%EC%97%85%EA%B5%B0-%EC%99%B8%EC%97%90-%EC%96%B4%EB%96%A4-%EB%B6%84%EC%95%BC%EA%B0%80-%EC%9E%88%EB%82%98%EC%9A%94)
+- [ ] Print out KNOU Finals for classes next semester
+- [ ] Buy ebooks for KNOU classes next semester
+- [ ] Write a note on Technical Director for 3D animation - [ref1](http://www.iconix.co.kr/index.php?mid=icon4_02&document_srl=33949), [ref2](https://cglink.com/index.php?mid=talk&l=en&m=0&listStyle=list&page=2&document_srl=2433818), [ref3](https://blog.naver.com/PostView.nhn?isHttpsRedirect=true&blogId=kusuw&logNo=221235761027)
+- [ ] Write a note on Gyedo, a Korean-American immigrant who works as a TD and has worked for many famous studios - [ref](https://post.naver.com/my.naver?memberNo=1955589)
+- [ ] Write a note on this post - [link](https://gamecodi.com/793/%EA%B7%B8%EB%9E%98%ED%94%BD%EC%8A%A4-%EC%A7%81%EC%97%85%EC%9D%80-%EA%B2%8C%EC%9E%84-%EC%A7%81%EC%97%85%EA%B5%B0-%EC%99%B8%EC%97%90-%EC%96%B4%EB%96%A4-%EB%B6%84%EC%95%BC%EA%B0%80-%EC%9E%88%EB%82%98%EC%9A%94)
+- [ ] Write a note on 3D Production Pipeline (see this [[3d_production_pipeline.jpeg]])
+- [x] Write [[방통대_컴퓨터과학과_데이터과학과_복수전공_계획_2022_1|방통대 컴퓨터과학과 데이터과학과 복수전공 계획 Part 1]]
