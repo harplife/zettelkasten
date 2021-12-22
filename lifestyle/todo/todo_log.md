@@ -584,3 +584,11 @@ Use of backlinks is recommended for tasks that require further explanation.
 - [ ] Write a note on this post - [link](https://gamecodi.com/793/%EA%B7%B8%EB%9E%98%ED%94%BD%EC%8A%A4-%EC%A7%81%EC%97%85%EC%9D%80-%EA%B2%8C%EC%9E%84-%EC%A7%81%EC%97%85%EA%B5%B0-%EC%99%B8%EC%97%90-%EC%96%B4%EB%96%A4-%EB%B6%84%EC%95%BC%EA%B0%80-%EC%9E%88%EB%82%98%EC%9A%94)
 - [ ] Write a note on 3D Production Pipeline (see this [[3d_production_pipeline.jpeg]])
 - [x] Write [[방통대_컴퓨터과학과_데이터과학과_복수전공_계획_2022_1|방통대 컴퓨터과학과 데이터과학과 복수전공 계획 Part 1]]
+
+
+## 2021-12-22
+### Work
+
+### Personal
+- [ ] Visit SBS Academy for inquiry at 7:30 PM
+- [ ] Check out job listings on Sony Imageworks - [link](https://www.imageworks.com/job-postings)

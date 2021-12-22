@@ -9,131 +9,131 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "lifestyle/todo/todo_log.md",
+            "file": "computer_science/career/technical_director_for_marvel_studios_animation.md",
             "mode": "source"
           }
         },
         "pane-relief:history-v1": {
-          "pos": 1,
+          "pos": 0,
           "stack": [
             {
               "leaf": "afceaaac40faf4e8",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/career/technical_director_for_marvel_studios_animation.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":62},\"to\":{\"line\":12,\"ch\":62}},\"scroll\":31.166666666666668}"
-            },
-            {
-              "leaf": "afceaaac40faf4e8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/todo/todo_log.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":575.5277777777778}"
-            },
-            {
-              "leaf": "afceaaac40faf4e8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"unsorted/방통대_컴퓨터과학과_데이터과학과_복수전공_계획_2021_2.md\",\"mode\":\"preview\"}}",
-              "eState": "{\"scroll\":0}"
-            },
-            {
-              "leaf": "afceaaac40faf4e8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/todo/todo_log.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":364.5674248579401}"
-            },
-            {
-              "leaf": "afceaaac40faf4e8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"articles/managing_experience.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":22.116666666666667}"
-            },
-            {
-              "leaf": "afceaaac40faf4e8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"articles/learn_faster_the_feynman_technique.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-            },
-            {
-              "leaf": "afceaaac40faf4e8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"articles/losing_microsoft_job.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":35.25}"
-            },
-            {
-              "leaf": "afceaaac40faf4e8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"articles/managing_experience.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":14},\"to\":{\"line\":15,\"ch\":14}},\"scroll\":0.3181818181818182}"
-            },
-            {
-              "leaf": "afceaaac40faf4e8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"articles/losing_microsoft_job.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":43},\"to\":{\"line\":2,\"ch\":43}}}"
-            },
-            {
-              "leaf": "afceaaac40faf4e8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"articles/managing_experience.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":35},\"to\":{\"line\":2,\"ch\":35}}}"
-            },
-            {
-              "leaf": "afceaaac40faf4e8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"articles/losing_microsoft_job.md\",\"mode\":\"source\"}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
             },
             {
               "leaf": "afceaaac40faf4e8",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"articles/managing_experience.md\",\"mode\":\"source\"}}",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/career/technical_director_for_activision.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "afceaaac40faf4e8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/career/technial_director_for_pixar_animation_studios.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "afceaaac40faf4e8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/career/technical_director_for_activision.md\",\"mode\":\"source\"}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "afceaaac40faf4e8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/career/technical_director_for_marvel_studios_animation.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":10},\"to\":{\"line\":7,\"ch\":10}}}"
+            },
+            {
+              "leaf": "afceaaac40faf4e8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/career/technical_director_for_activision.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "afceaaac40faf4e8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/career/technial_director_for_pixar_animation_studios.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "afceaaac40faf4e8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/career/technical_director_for_activision.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "afceaaac40faf4e8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/career/technical_director_for_marvel_studios_animation.md\",\"mode\":\"source\"}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
             },
             {
               "leaf": "afceaaac40faf4e8",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"articles/mike_parson_html_hacking.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":27.145833333333332}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/career/technical_director_for_activision.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":10},\"to\":{\"line\":7,\"ch\":10}},\"scroll\":3.3333333333333335}"
             },
             {
               "leaf": "afceaaac40faf4e8",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"articles/managing_experience.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/career/technial_director_for_pixar_animation_studios.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":39,\"ch\":13},\"to\":{\"line\":39,\"ch\":13}},\"scroll\":14.333333333333334}"
             },
             {
               "leaf": "afceaaac40faf4e8",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/todo/todo_log.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":324.2708333333333}"
+              "eState": "{\"scroll\":582.4861111111111}"
             },
             {
               "leaf": "afceaaac40faf4e8",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"english/dictionary/draconian.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":0}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/career/technical_director_for_marvel_studios_animation.md\",\"mode\":\"preview\"}}",
+              "eState": "{\"scroll\":32.506024096385545}"
             },
             {
               "leaf": "afceaaac40faf4e8",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"english/dictionary/portmanteau.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":0}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/career/technical_director_for_activision.md\",\"mode\":\"preview\"}}",
+              "eState": "{\"scroll\":31.598214285714285}"
             },
             {
               "leaf": "afceaaac40faf4e8",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"english/dictionary/draconian.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":88},\"to\":{\"line\":8,\"ch\":88}}}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/career/technial_director_for_pixar_animation_studios.md\",\"mode\":\"preview\"}}",
+              "eState": "{\"scroll\":5.185185185185185}"
             },
             {
               "leaf": "afceaaac40faf4e8",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"english/dictionary/portmanteau.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/career/technical_director_for_activision.md\",\"mode\":\"source\"}}",
+              "eState": "{\"scroll\":32.0625}"
             },
             {
               "leaf": "afceaaac40faf4e8",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"english/dictionary/draconian.md\",\"mode\":\"source\"}}",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/career/technical_director_for_marvel_studios_animation.md\",\"mode\":\"source\"}}",
+              "eState": "{\"scroll\":36.791666666666664}"
+            },
+            {
+              "leaf": "afceaaac40faf4e8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/career/technical_director_for_activision.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":10.428571428571429}"
+            },
+            {
+              "leaf": "afceaaac40faf4e8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/career/technial_director_for_pixar_animation_studios.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":38,\"ch\":17},\"to\":{\"line\":38,\"ch\":17}},\"scroll\":10.428571428571429}"
+            },
+            {
+              "leaf": "afceaaac40faf4e8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/career/technical_director_for_marvel_studios_animation.md\",\"mode\":\"source\"}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
             }
           ]
@@ -291,7 +291,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "lifestyle/todo/todo_log.md",
+                "file": "computer_science/career/technical_director_for_marvel_studios_animation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -327,7 +327,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "lifestyle/todo/todo_log.md"
+                "file": "computer_science/career/technical_director_for_marvel_studios_animation.md"
               }
             },
             "pane-relief:history-v1": {
@@ -344,15 +344,15 @@
   },
   "active": "afceaaac40faf4e8",
   "lastOpenFiles": [
+    "computer_science/career/technical_director_for_marvel_studios_animation.md",
+    "computer_science/career/technical_director_for_activision.md",
+    "computer_science/career/technial_director_for_pixar_animation_studios.md",
     "lifestyle/todo/todo_log.md",
     "unsorted/방통대_컴퓨터과학과_데이터과학과_복수전공_계획_2022_1.md",
     "unsorted/방통대_컴퓨터과학과_데이터과학과_복수전공_계획_2021_2.md",
-    "computer_science/career/technical_director_for_marvel_studios_animation.md",
     "computer_science/computer_vision/image_compression.md",
     "computer_science/artificial_intelligence/기계 지능 테스트.md",
     "certifications/knou_cs_approved_certifications.md",
-    "certifications/certification.md",
-    "lifestyle/goals/goal_bachelor_in_cs.md",
-    "computer_science/artificial_intelligence/news/dementia_prediction_exeter.md"
+    "certifications/certification.md"
   ]
 }

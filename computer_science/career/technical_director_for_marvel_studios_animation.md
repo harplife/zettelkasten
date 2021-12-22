@@ -1,11 +1,11 @@
 ---
-aliases: [Technical Director for Marvel Studios Animation]
+aliases: [TD for Marvel]
 tags: [computer_science, computer_vision, animation, career, example]
-status: ongoing
+status: complete
 edited: 2021-12-21
 ---
 
-# Technical Director for Marvel Studios Animation
+# Pipeline Technical Director for Marvel Studios Animation
 (As seen on 2021/12/21 via [GlassDoor](https://www.glassdoor.com/Job/animation-technical-director-jobs-SRCH_KO0,28.htm))
 
 ## Location
