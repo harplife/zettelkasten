@@ -8,6 +8,10 @@ edited: 2021-12-22
 # FX Technical Director for Pixar Animation Studios
 (As seen on 2021/12/22 via [GlassDoor](https://www.glassdoor.com/Job/animation-technical-director-jobs-SRCH_KO0,28.htm))
 
+## Related Fields
+- Computer Science
+- Art
+
 ## Location
 [Emeryville, CA](https://g.page/disney-pixars-hd-4dx?share)
 

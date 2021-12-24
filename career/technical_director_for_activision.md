@@ -8,6 +8,10 @@ edited: 2021-12-22
 # Animation Technical Director for Activision
 (As seen on 2021/12/22 via [GlassDoor](https://www.glassdoor.com/Job/animation-technical-director-jobs-SRCH_KO0,28.htm))
 
+## Related Fields
+- Computer Science
+- Art
+
 ## Location
 [Santa Monica, CA](https://goo.gl/maps/zuuTnh91XKST93Zw8)
 

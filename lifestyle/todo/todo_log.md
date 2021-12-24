@@ -133,8 +133,6 @@ Use of backlinks is recommended for tasks that require further explanation.
 
 
 ## 2021-10-29
-### Work (none)
-
 ### Personal
 - [ ] Write a note on Logica (ref: [medium](https://medium.com/nerd-for-tech/google-is-pushing-the-new-language-logica-to-solve-the-major-flaws-in-sql-3cb62b6fab06), [Googleblog](https://opensource.googleblog.com/2021/04/logica-organizing-your-data-queries.html), [Official Site](https://logica.dev/))
 - [ ] Plan a career path
@@ -270,8 +268,6 @@ Use of backlinks is recommended for tasks that require further explanation.
 
 
 ## 2021-11-12
-### Work (none)
-
 ### Personal
 - [ ] Continue working on [RFM analysis with MySQL](https://github.com/harplife/TIL/blob/master/Data%20Science/MySQL%EB%A1%9C_%ED%95%98%EB%8A%94_RFM_%EB%B6%84%EC%84%9D_%EB%B0%8F_EDA.md)
     - [ ] Put it in Zettelkasten
@@ -303,8 +299,6 @@ Use of backlinks is recommended for tasks that require further explanation.
 
 
 ## 2021-11-16
-### Work (none)
-
 ### Personal
 - [ ] Write a note about [the 20 richest programmers in the world](https://javascript.plainenglish.io/the-20-richest-programmers-in-the-world-f224d1dce9e3)
 
@@ -336,8 +330,6 @@ Use of backlinks is recommended for tasks that require further explanation.
 ### Work (complete)
 - [x] Turn in AI business idea... FOR THE Hanwu(wagyu)! Result on 26th
 
-### Personal (none)
-
 
 ## 2021-11-22
 ### Work
@@ -357,13 +349,6 @@ Use of backlinks is recommended for tasks that require further explanation.
     - [x] Computer Architecture
 
 
-## 2021-11-23
-### Work (none)
-
-### Personal
-- [ ] Study Simulation (KNOU) from Chapter 10
-
-
 ## 2021-11-24
 ### Work (complete)
 - [x] ZOOM with Hyundai Concrete QA Team about Concrete Quality Prediction AI
@@ -373,8 +358,6 @@ Use of backlinks is recommended for tasks that require further explanation.
 
 
 ## 2021-11-25
-### Work (none)
-
 ### Personal (complete)
 - [x] Write a note about KNOU CS + DS plan
     - [[방통대_컴퓨터과학과_데이터과학과_복수전공_계획_2021_2|방통대 컴퓨터과학과 데이터과학과 복수전공 계획]]
@@ -385,15 +368,11 @@ Use of backlinks is recommended for tasks that require further explanation.
 ### Work
 - [ ] Write a note on the Customer Population Map (Plotly)
 
-### Personal (none)
-
 
 ## 2021-11-29
 ### Work (complete)
 - [x] Set up docker & images on e-connection project
 - [x] Write a note on [[generate_dates_sequence|Generate a List of Dates]]
-
-### Personal (none)
 
 
 ## 2021-11-30
@@ -434,8 +413,6 @@ Use of backlinks is recommended for tasks that require further explanation.
 
 
 ## 2021-12-02
-### Work (none)
-
 ### Personal
 - [x] Write and debug C++ code example (the rest of Chapter 4)
     - [x] 4-11 까지 완료. 2021/12/02
@@ -454,8 +431,6 @@ Use of backlinks is recommended for tasks that require further explanation.
 
 
 ## 2021-12-06
-### Work (none)
-
 ### Personal
 - [ ] Write a note about this [article](https://onezero.medium.com/russia-blew-up-one-of-its-satellites-creating-dangerous-space-debris-199fe19a23ab)
     - [ ] Write about Russia blowing up one of their satellites, along with other countries
@@ -467,11 +442,11 @@ Use of backlinks is recommended for tasks that require further explanation.
 
 ## 2021 12-08
 ### Work
-- [ ] Find Counseling Conversation Dataset for Sentimental Analysis (or an online community site to crawl)
-- [ ] Check if ther's any patent that is similar to the Sentimental Analysis Model we are thinking of
-- [ ] Get an estimate of cost for labeling dataset (200k)
-
-### Personal (none)
+- [x] Find Counseling Conversation Dataset for Sentimental Analysis (or an online community site to crawl)
+    - So far DCINSIDE looks good.
+- [ ] Check if there's any patent that is similar to the Sentimental Analysis Model we are thinking of
+- [x] Get an estimate of cost for labeling dataset (200k)
+    - 580 won per sentence. For 200k dataset, that'd be 1.2 billion won ($1 million). No, thank you.
 
 
 ## 2021-12-09
@@ -479,7 +454,8 @@ Use of backlinks is recommended for tasks that require further explanation.
 - [x] Pick up GS Certificate
 - [x] Help Boss with his ppt homework
 - [ ] Figure out how to wash my face regularly at work
-- [ ] Reset GS Cert Test PC
+    - bought some sort of face wash cloth (2021/12/22). Maybe this will work?
+- [x] Reset GS Cert Test PC
 
 ### Personal
 - [ ] Write a note on this paper: _Simple Method for commonsense Reasoning_
@@ -509,9 +485,9 @@ Use of backlinks is recommended for tasks that require further explanation.
 
 
 ## 2021-12-15
-### Work
-- [ ] Make a guideline for Sentimental Analysis Data Labeling
-- [ ] Make a crawler (dc)
+### Work (complete)
+- [x] Make a guideline for Sentimental Analysis Data Labeling
+- [x] Make a crawler (dc)
 
 ### Personal
 - [ ] Write a note on [Best 15 Design Systems](https://mobile.twitter.com/designersaha/status/1469578200216793094)
@@ -562,7 +538,7 @@ Use of backlinks is recommended for tasks that require further explanation.
 
 ## 2021-12-20
 ### Work
-- [ ] Make examples of sentiments (10 per?)
+- [x] Make examples of sentiments (10 per?)
 - [ ] Make a new list of sentiment analysis dataset
 
 ### Personal
@@ -570,14 +546,12 @@ Use of backlinks is recommended for tasks that require further explanation.
 
 
 ## 2021-12-21
-### Work
-
 ### Personal
 - [ ] Write a note on somebody's journey as Technical Director - [blog](https://post.naver.com/viewer/postView.naver?volumeNo=14899498&memberNo=1955589&navigationType=push)
 - [ ] Write a note on somebody's journey as American immigrant - [blog](https://m.post.naver.com/viewer/postView.naver?volumeNo=14647395&memberNo=1955589&navigationType=push)
 - [ ] Write a note on somebody's work experience at Disney - [blog](https://m.post.naver.com/viewer/postView.naver?volumeNo=14898936&memberNo=1955589&navigationType=push)
 - [ ] Check out this [site](https://gamecodi.com/793/%EA%B7%B8%EB%9E%98%ED%94%BD%EC%8A%A4-%EC%A7%81%EC%97%85%EC%9D%80-%EA%B2%8C%EC%9E%84-%EC%A7%81%EC%97%85%EA%B5%B0-%EC%99%B8%EC%97%90-%EC%96%B4%EB%96%A4-%EB%B6%84%EC%95%BC%EA%B0%80-%EC%9E%88%EB%82%98%EC%9A%94)
-- [ ] Print out KNOU Finals for classes next semester
+- [x] Print out KNOU Finals for classes next semester
 - [ ] Buy ebooks for KNOU classes next semester
 - [ ] Write a note on Technical Director for 3D animation - [ref1](http://www.iconix.co.kr/index.php?mid=icon4_02&document_srl=33949), [ref2](https://cglink.com/index.php?mid=talk&l=en&m=0&listStyle=list&page=2&document_srl=2433818), [ref3](https://blog.naver.com/PostView.nhn?isHttpsRedirect=true&blogId=kusuw&logNo=221235761027)
 - [ ] Write a note on Gyedo, a Korean-American immigrant who works as a TD and has worked for many famous studios - [ref](https://post.naver.com/my.naver?memberNo=1955589)
@@ -587,8 +561,38 @@ Use of backlinks is recommended for tasks that require further explanation.
 
 
 ## 2021-12-22
+### Personal
+- [x] Visit SBS Academy for inquiry at 7:30 PM
+- [ ] Check out job listings on Sony Imageworks - [link](https://www.imageworks.com/job-postings)
+
+
+## 2021-12-23
+### Personal
+- [x] Write [[3dcg_inquiry_20211223|3D CG Inquiry at Sibishi Academy]]
+- [ ] Figure out a career path in Computer Vision (in animation/film/game)
+
+
+## 2021-12-24
 ### Work
 
 ### Personal
-- [ ] Visit SBS Academy for inquiry at 7:30 PM
-- [ ] Check out job listings on Sony Imageworks - [link](https://www.imageworks.com/job-postings)
+- [ ] Write a note on Jeon Gyedo, TD at Disney - [linkedin](https://www.linkedin.com/in/gyedo/), [twitter](https://twitter.com/gyedo), [gamecodi](https://gamecodi.com/contributor/gyedo)
+    - [ ] Maybe find a way to contact him, ask him questions about how to become a TD
+- [ ] Check out [꧁ Javanese ꧂](https://unicodes.jessetane.com/%EA%A6%80)
+- [ ] Write a note about Graphics/Engine Programmer - [ref(old post, Korean)](https://gamedevforever.com/194)
+- [ ] Check out Kim Pope's [Blog](https://blog.popekim.com/ko/)
+- [ ] Check out 대마왕's [Blog](https://chulin28ho.tistory.com/)
+- [ ] Maybe buy this book? [Real-Time Rendering](https://www.amazon.com/Real-Time-Rendering-Fourth-Tomas-Akenine-Mo-ebook-dp-B07FSKB982/dp/B07FSKB982/ref=mt_other?_encoding=UTF8&me=&qid=1640325343)
+- [ ] Maybe buy this book? [Physcis for Game Devs](https://www.amazon.com/Physics-Game-Developers-Science-realistic-ebook/dp/B00CB30Y46/ref=sr_1_1)
+- [ ] Maybe buy this book? [셰이더 프로그래밍 입문](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9788979149494&orderClick=LAG&Kc=)
+- [ ] Maybe buy this book? [유니티 쉐이더 스타트업](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9788979149494&orderClick=LAG&Kc=)
+- [ ] Maybe buy this book? [AI: A Modern Approach](https://www.amazon.com/Artificial-Intelligence-Approach-2-downloads-Artifical-ebook-dp-B092J75GML/dp/B092J75GML/ref=mt_other), check out the [desc in korean](https://jpub.tistory.com/1193)
+- [ ] Maybe buy this book? [MIT textbook on AI](https://www.amazon.com/Artificial-Intelligence-3rd-Winston/dp/0201533774)
+- [ ] Write a note on [MIT Course Syllabus on AI](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/readings/)
+- [ ] Read these
+    - [렌더링 프로그래머, 어떻게 공부해야 할까요](https://gamecodi.com/2126/%EB%A0%8C%EB%8D%94%EB%A7%81-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EA%B0%80-%EB%90%98%EA%B3%A0%EC%8B%B6%EC%8A%B5%EB%8B%88%EB%8B%A4-%EC%96%B4%EB%96%BB%EA%B2%8C-%EA%B3%B5%EB%B6%80%ED%95%B4%EC%95%BC%ED%95%A0%EA%B9%8C%EC%9A%94)
+    - [그래픽 프로그래머가 되려면?](http://1st.gamecodi.com/board/zboard.php?id=GAMECODI_QnA&no=1799)
+    - [그래픽 프로그래머가 되려면?2](https://okky.kr/article/756383)
+- [ ] Maybe buy this book? [Essential Math for Games](https://www.amazon.com/Essential-Mathematics-Games-Interactive-Applications-ebook-dp-B015FDE53O/dp/B015FDE53O/ref=mt_other)
+- [ ] Write a note on what Technical Artist is - [ref1](https://gamedevforever.com/74), [ref2](https://brunch.co.kr/@rrblog/21), [ref3](https://m.blog.naver.com/ateliersera/220918151560)
+- [ ] Check out this side [gamecodi](https://gamecodi.com/)

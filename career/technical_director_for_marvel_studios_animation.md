@@ -8,6 +8,10 @@ edited: 2021-12-21
 # Pipeline Technical Director for Marvel Studios Animation
 (As seen on 2021/12/21 via [GlassDoor](https://www.glassdoor.com/Job/animation-technical-director-jobs-SRCH_KO0,28.htm))
 
+## Related Fields
+- Computer Science
+- Art
+
 ## Location
 Burbank, CA
 now [Walt Disney Studios](https://goo.gl/maps/1WyVKzxybvt879T8A)

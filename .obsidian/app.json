@@ -10,5 +10,7 @@
     "chrominance",
     "photosensors",
     "Dataset"
-  ]
+  ],
+  "legacyEditor": false,
+  "livePreview": true
 }
