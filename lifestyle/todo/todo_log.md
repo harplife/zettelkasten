@@ -596,3 +596,6 @@ Use of backlinks is recommended for tasks that require further explanation.
 - [ ] Maybe buy this book? [Essential Math for Games](https://www.amazon.com/Essential-Mathematics-Games-Interactive-Applications-ebook-dp-B015FDE53O/dp/B015FDE53O/ref=mt_other)
 - [ ] Write a note on what Technical Artist is - [ref1](https://gamedevforever.com/74), [ref2](https://brunch.co.kr/@rrblog/21), [ref3](https://m.blog.naver.com/ateliersera/220918151560)
 - [ ] Check out this side [gamecodi](https://gamecodi.com/)
+- [ ] Check out this learning resource for PyQT
+    - [예제로 배우는 PyQt](https://opentutorials.org/module/544)
+    - [파이썬으로 만드는 GUI 프로그램](https://wikidocs.net/book/2165)
