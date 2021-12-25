@@ -10,8 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "lifestyle/todo/todo_log.md",
-            "mode": "source",
-            "source": false
+            "mode": "source"
           }
         },
         "pane-relief:history-v1": {
@@ -20,122 +19,122 @@
             {
               "leaf": "afceaaac40faf4e8",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/todo/todo_log.md\",\"mode\":\"source\",\"source\":false}}",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/todo/todo_log.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+            },
+            {
+              "leaf": "afceaaac40faf4e8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"career/technical_director_for_dreamworks_1.md\",\"mode\":\"source\"}}",
+              "eState": "{\"scroll\":33.603910640113256}"
+            },
+            {
+              "leaf": "afceaaac40faf4e8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"career/software_engineer_for_dreamworks_2.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":34},\"to\":{\"line\":7,\"ch\":34}}}"
+            },
+            {
+              "leaf": "afceaaac40faf4e8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"career/software_engineer_for_dreamworks_1.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":34},\"to\":{\"line\":7,\"ch\":34}}}"
+            },
+            {
+              "leaf": "afceaaac40faf4e8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"career/software_engineer_for_dreamworks_2.md\",\"mode\":\"source\"}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
             },
             {
               "leaf": "afceaaac40faf4e8",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/health/facts_about_plank.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":0}"
-            },
-            {
-              "leaf": "afceaaac40faf4e8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/todo/todo_log.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":563.4592633928571}"
-            },
-            {
-              "leaf": "afceaaac40faf4e8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"career/3dcg_inquiry_20211223.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":0}"
-            },
-            {
-              "leaf": "afceaaac40faf4e8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"career/technical_director_for_marvel_studios_animation.md\",\"mode\":\"source\",\"source\":false}}",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"career/technical_director_for_dreamworks_1.md\",\"mode\":\"source\"}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
             },
             {
               "leaf": "afceaaac40faf4e8",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"career/technical_director_for_activision.md\",\"mode\":\"source\",\"source\":false}}",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"career/software_engineer_for_dreamworks_1.md\",\"mode\":\"source\"}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
             },
             {
               "leaf": "afceaaac40faf4e8",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"career/technial_director_for_pixar_animation_studios.md\",\"mode\":\"source\",\"source\":false}}",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"career/software_engineer_for_dreamworks_2.md\",\"mode\":\"source\"}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
             },
             {
               "leaf": "afceaaac40faf4e8",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"career/3dcg_inquiry_20211223.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":22},\"to\":{\"line\":8,\"ch\":22}}}"
-            },
-            {
-              "leaf": "afceaaac40faf4e8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"career/technical_director_for_marvel_studios_animation.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "afceaaac40faf4e8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"career/technial_director_for_pixar_animation_studios.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}}}"
-            },
-            {
-              "leaf": "afceaaac40faf4e8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"career/technical_director_for_activision.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "afceaaac40faf4e8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"career/technial_director_for_pixar_animation_studios.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "afceaaac40faf4e8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"career/technical_director_for_marvel_studios_animation.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "afceaaac40faf4e8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"career/technical_director_for_activision.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "afceaaac40faf4e8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"career/technial_director_for_pixar_animation_studios.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":0},\"to\":{\"line\":13,\"ch\":0}},\"scroll\":0}"
-            },
-            {
-              "leaf": "afceaaac40faf4e8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/todo/todo_log.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":581.6192}"
-            },
-            {
-              "leaf": "afceaaac40faf4e8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"career/technical_director_for_marvel_studios_animation.md\",\"mode\":\"preview\",\"source\":false}}",
-              "eState": "{\"scroll\":0}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"career/technical_director_for_dreamworks_1.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":35},\"to\":{\"line\":7,\"ch\":35}}}"
             },
             {
               "leaf": "afceaaac40faf4e8",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"career/technical_director_for_activision.md\",\"mode\":\"source\"}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "afceaaac40faf4e8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"career/technical_director_for_dreamworks_1.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":35},\"to\":{\"line\":7,\"ch\":35}}}"
+            },
+            {
+              "leaf": "afceaaac40faf4e8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"career/software_engineer_for_dreamworks_2.md\",\"mode\":\"source\"}}",
+              "eState": "{\"scroll\":0}"
+            },
+            {
+              "leaf": "afceaaac40faf4e8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"career/software_engineer_for_dreamworks_1.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}},\"scroll\":2.270588096539452}"
+            },
+            {
+              "leaf": "afceaaac40faf4e8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"career/software_engineer_for_dreamworks_2.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":43,\"ch\":60},\"to\":{\"line\":43,\"ch\":60}},\"scroll\":21.258394470817617}"
+            },
+            {
+              "leaf": "afceaaac40faf4e8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"career/software_engineer_for_dreamworks_1.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "afceaaac40faf4e8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"career/software_engineer_for_dreamworks_2.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":0},\"to\":{\"line\":20,\"ch\":0}},\"scroll\":7.32392643015371}"
+            },
+            {
+              "leaf": "afceaaac40faf4e8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"career/software_engineer_for_dreamworks_1.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "afceaaac40faf4e8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"career/software_engineer_for_dreamworks_2.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "afceaaac40faf4e8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"career/software_engineer_for_dreamworks_1.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
             },
             {
               "leaf": "afceaaac40faf4e8",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"career/technial_director_for_pixar_animation_studios.md\",\"mode\":\"source\"}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "afceaaac40faf4e8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"career/technical_director_for_activision.md\",\"mode\":\"source\"}}",
-              "eState": "{}"
             }
           ]
         }
@@ -147,8 +146,7 @@
           "type": "markdown",
           "state": {
             "file": "certifications/knou_cs_approved_certifications.md",
-            "mode": "preview",
-            "source": false
+            "mode": "preview"
           }
         },
         "pane-relief:history-v1": {
@@ -182,8 +180,7 @@
           "type": "markdown",
           "state": {
             "file": "computer_science/computer_vision/image_compression.md",
-            "mode": "preview",
-            "source": false
+            "mode": "preview"
           }
         },
         "pane-relief:history-v1": {
@@ -217,8 +214,7 @@
           "type": "markdown",
           "state": {
             "file": "computer_science/languages/python/examples/random_id_generator.md",
-            "mode": "source",
-            "source": false
+            "mode": "preview"
           }
         },
         "pane-relief:history-v1": {
@@ -227,7 +223,7 @@
             {
               "leaf": "55cdb8e74751f7f0",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/languages/python/examples/random_id_generator.md\",\"mode\":\"source\"}}",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/languages/python/examples/random_id_generator.md\",\"mode\":\"preview\"}}",
               "eState": "{}"
             }
           ]
@@ -349,14 +345,14 @@
   "active": "afceaaac40faf4e8",
   "lastOpenFiles": [
     "lifestyle/todo/todo_log.md",
-    "lifestyle/health/facts_about_plank.md",
-    "lifestyle/health/health.md",
-    "career/3dcg_inquiry_20211223.md",
-    "career/technical_director_for_marvel_studios_animation.md",
+    "career/technical_director_for_dreamworks_1.md",
+    "computer_science/languages/python/examples/random_id_generator.md",
+    "career/software_engineer_for_dreamworks_2.md",
+    "career/software_engineer_for_dreamworks_1.md",
     "career/technical_director_for_activision.md",
     "career/technial_director_for_pixar_animation_studios.md",
-    "certifications/knou_cs_approved_certifications.md",
-    "unsorted/방통대_컴퓨터과학과_데이터과학과_복수전공_계획_2022_1.md",
-    "unsorted/방통대_컴퓨터과학과_데이터과학과_복수전공_계획_2021_2.md"
+    "career/technical_director.md",
+    "people/gyedo_jeon.md",
+    "lifestyle/health/facts_about_plank.md"
   ]
 }
