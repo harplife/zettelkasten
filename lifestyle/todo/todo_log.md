@@ -547,9 +547,6 @@ Use of backlinks is recommended for tasks that require further explanation.
 
 ## 2021-12-21
 ### Personal
-- [ ] Write a note on somebody's journey as Technical Director - [blog](https://post.naver.com/viewer/postView.naver?volumeNo=14899498&memberNo=1955589&navigationType=push)
-- [ ] Write a note on somebody's journey as American immigrant - [blog](https://m.post.naver.com/viewer/postView.naver?volumeNo=14647395&memberNo=1955589&navigationType=push)
-- [ ] Write a note on somebody's work experience at Disney - [blog](https://m.post.naver.com/viewer/postView.naver?volumeNo=14898936&memberNo=1955589&navigationType=push)
 - [ ] Check out this [site](https://gamecodi.com/793/%EA%B7%B8%EB%9E%98%ED%94%BD%EC%8A%A4-%EC%A7%81%EC%97%85%EC%9D%80-%EA%B2%8C%EC%9E%84-%EC%A7%81%EC%97%85%EA%B5%B0-%EC%99%B8%EC%97%90-%EC%96%B4%EB%96%A4-%EB%B6%84%EC%95%BC%EA%B0%80-%EC%9E%88%EB%82%98%EC%9A%94)
 - [x] Print out KNOU Finals for classes next semester
 - [ ] Buy ebooks for KNOU classes next semester
