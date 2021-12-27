@@ -97,7 +97,7 @@ His blog series has more detail.
 I tried ordering them by year, but it's not exact.
 
 ### 2016
-Working on DreamPlace: Adventure to Santa :
+Working on DreamPlace: Adventure to Santa,
 > 이 중에 제가 담당한 부분은 산타 하우스 외벽의 LED 스크린 제어 프로그램이었습니다. 마치 옛날 싸이월드 미니홈피 스킨 바꾸듯이 (앗, 이러면 너무 연식이 드러나나요?) 흠흠 네이버 블로그나 티스토리 등에서 스킨 바꾸듯이 이 외벽의 기본 스킨도 변경이 되구요. 각각의 변경된 스킨 테마에 따라 짧은 애니메이션 개그가 각 zone에서 플레이가 돼요. 슈렉이 문 열고 나온다던가 동키가 창문에서 인사한다던가 등이요. 그런데, 만약 슈렉이 문 여는 애니메이션이 한 쪽에 플레이되고 있는데, 다른 쪽 창문에서 쉬렉이 또 손을 흔들면 안되잖아요? 그런 것들도 다 제가 담당한 프로그램이 컨트롤 했습니다.
 
 The main thing to note is that Gyedo worked on a program that controls LED Screens. One of the functionalities involved managing character appearances on multiple screens (making sure a character is displayed only on a single screen).
@@ -139,8 +139,9 @@ Gyedo's started working remotely since August 2020.
 
 ### 2021
 I'm guessing he's working on Puss in Boots : The Last Wish (2022).
-This [post](https://post.naver.com/viewer/postView.naver?volumeNo=30524417&memberNo=1955589) is the last of the TD series, which was written on 2021/01/20.
-He is making other series, like ["For those new to TD"](https://post.naver.com/my/series/detail.naver?seriesNo=643456&memberNo=1955589). 
+This [post](https://post.naver.com/viewer/postView.naver?volumeNo=30524417&memberNo=1955589) is the last of the _TD's Journal_ series, which was written on 2021/01/20.
+He seems to be working on other series, like ["For those new to TD"](https://post.naver.com/my/series/detail.naver?seriesNo=643456&memberNo=1955589). 
 
 ## Misc
 - His [fb profile](https://www.facebook.com/gyedospot) has posts about papers, videos, and books.
+- He leaves good answers/advices on [GameCodi](https://gamecodi.com/contributor/gyedo)

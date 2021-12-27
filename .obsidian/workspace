@@ -15,25 +15,19 @@
           }
         },
         "pane-relief:history-v1": {
-          "pos": 2,
+          "pos": 1,
           "stack": [
             {
               "leaf": "afceaaac40faf4e8",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"careers/software_engineer/software_engineer_for_dreamworks_1.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "afceaaac40faf4e8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"careers/technical_director/technical_director.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"careers/technical_director/gyedo_jeon.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":145,\"ch\":96},\"to\":{\"line\":145,\"ch\":96}},\"scroll\":134.521484375}"
             },
             {
               "leaf": "afceaaac40faf4e8",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/todo/todo_log.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":554.0723513225967}"
+              "eState": "{\"scroll\":157.31621163041802}"
             },
             {
               "leaf": "afceaaac40faf4e8",
@@ -158,7 +152,19 @@
               "leaf": "347acf61cff07410",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"careers/technical_director/technical_director.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+              "eState": "{\"scroll\":67.35400390625}"
+            },
+            {
+              "leaf": "347acf61cff07410",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"careers/technical_director/gyedo_jeon.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":145,\"ch\":97},\"to\":{\"line\":145,\"ch\":97}},\"scroll\":131.36363636363637}"
+            },
+            {
+              "leaf": "347acf61cff07410",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"careers/technical_director/technical_director.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{\"scroll\":0}"
             },
             {
               "leaf": "347acf61cff07410",
@@ -261,18 +267,6 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"careers/technical_director/technical_director_for_activision.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "347acf61cff07410",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"careers/technical_director/technical_director_for_marvel_studios_animation.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "347acf61cff07410",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"careers/technical_director/technical_director_for_dreamworks_1.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":0}"
             }
           ]
         }
@@ -362,7 +356,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "careers/technical_director/technical_director.md",
+                "file": "lifestyle/todo/todo_log.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -398,7 +392,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "careers/technical_director/technical_director.md"
+                "file": "lifestyle/todo/todo_log.md"
               }
             },
             "pane-relief:history-v1": {
@@ -413,11 +407,11 @@
     "direction": "horizontal",
     "width": 316.5
   },
-  "active": "347acf61cff07410",
+  "active": "afceaaac40faf4e8",
   "lastOpenFiles": [
+    "lifestyle/todo/todo_log.md",
     "careers/technical_director/technical_director.md",
     "careers/technical_director/gyedo_jeon.md",
-    "lifestyle/todo/todo_log.md",
     "careers/technical_director/technical_director_for_marvel_studios_animation.md",
     "careers/technical_director/technical_director_for_dreamworks_1.md",
     "careers/technical_director/technical_director_for_activision.md",
