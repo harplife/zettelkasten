@@ -20,14 +20,14 @@
             {
               "leaf": "afceaaac40faf4e8",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"careers/technical_director/gyedo_jeon.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":145,\"ch\":96},\"to\":{\"line\":145,\"ch\":96}},\"scroll\":134.521484375}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"careers/Untitled.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"scroll\":0}"
             },
             {
               "leaf": "afceaaac40faf4e8",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/todo/todo_log.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":157.31621163041802}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.5882352822379667}"
             },
             {
               "leaf": "afceaaac40faf4e8",
@@ -152,7 +152,7 @@
               "leaf": "347acf61cff07410",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"careers/technical_director/technical_director.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":67.35400390625}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":62.32575572620739}"
             },
             {
               "leaf": "347acf61cff07410",
@@ -410,14 +410,14 @@
   "active": "afceaaac40faf4e8",
   "lastOpenFiles": [
     "lifestyle/todo/todo_log.md",
+    "careers/Untitled.md",
     "careers/technical_director/technical_director.md",
+    "careers/technical_artist/technical_artist.md",
     "careers/technical_director/gyedo_jeon.md",
     "careers/technical_director/technical_director_for_marvel_studios_animation.md",
     "careers/technical_director/technical_director_for_dreamworks_1.md",
     "careers/technical_director/technical_director_for_activision.md",
     "careers/software_engineer/software_engineer_for_dreamworks_1.md",
-    "certifications/knou_cs_approved_certifications.md",
-    "computer_science/computer_vision/image_compression.md",
-    "computer_science/languages/python/examples/random_id_generator.md"
+    "certifications/knou_cs_approved_certifications.md"
   ]
 }
