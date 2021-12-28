@@ -587,12 +587,15 @@ Use of backlinks is recommended for tasks that require further explanation.
 - [ ] Gather more examples for Sentiment Analysis (at least 2 examples per consulting category)
 
 ### Personal
-- [ ] Write a note on Graphic Programmer
-    - [그래픽 프로그래머란(2012)](https://gamedevforever.com/194)
-    - [그래픽 프로그래머가 되려면?](http://1st.gamecodi.com/board/zboard.php?id=GAMECODI_QnA&no=1799)
-    - [그래픽 프로그래머가 되려면?2](https://okky.kr/article/756383)
-    - [렌더링 프로그래머, 어떻게 공부해야 할까요](https://gamecodi.com/2126/%EB%A0%8C%EB%8D%94%EB%A7%81-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EA%B0%80-%EB%90%98%EA%B3%A0%EC%8B%B6%EC%8A%B5%EB%8B%88%EB%8B%A4-%EC%96%B4%EB%96%BB%EA%B2%8C-%EA%B3%B5%EB%B6%80%ED%95%B4%EC%95%BC%ED%95%A0%EA%B9%8C%EC%9A%94)
-    - [김포프 서강대 강의](https://blog.popekim.com/ko/2012/10/30/artist-plus-programmer-is.html)
-    - [김포프 인생 스토리](https://blog.popekim.com/ko/2012/04/29/how-i-became-programmer-without-formal-education.html)
-    - [김포프 면접 준비 이야기](https://blog.popekim.com/ko/2010/07/28/na-job-hunting-guide-3-job-interview.html)
+- [x] Start a note on [[graphics_programmer|Graphics Programmer]]
 - [ ] Write a note on what Technical Artist is - [ref1](https://gamedevforever.com/74), [ref2](https://brunch.co.kr/@rrblog/21), [ref3](https://m.blog.naver.com/ateliersera/220918151560)
+
+## 2021-12-28
+## Work
+
+## Personal
+- [x] Start a note on [[cg_programmer_portfolio|CG Programmer Portfolio Ideas]]
+- [x] Start a note on [[quiz_generator_ai|Quiz Generator AI]]
+- [ ] Write a note on [Memory Consolidation](https://human-memory.net/memory-consolidation/)
+- [ ] Write a note on [how we learn](https://fourminutebooks.com/how-we-learn-summary/)
+- [ ] Complete [[graphics_programmer|Graphics Programmer]] note

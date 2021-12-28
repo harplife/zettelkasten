@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "afceaaac40faf4e8",
+        "id": "e14f299c033405b0",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -15,121 +15,180 @@
           }
         },
         "pane-relief:history-v1": {
-          "pos": 1,
+          "pos": 4,
           "stack": [
             {
-              "leaf": "afceaaac40faf4e8",
+              "leaf": "e14f299c033405b0",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"careers/Untitled.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":0}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"careers/technical_artist/technical_artist.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
             },
             {
-              "leaf": "afceaaac40faf4e8",
+              "leaf": "e14f299c033405b0",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"careers/technical_director/technial_director_for_pixar_animation_studios.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "e14f299c033405b0",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"careers/technical_director/technical_director.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "e14f299c033405b0",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"careers/technical_director/technial_director_for_pixar_animation_studios.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.625}"
+            },
+            {
+              "leaf": "e14f299c033405b0",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/todo/todo_log.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.5882352822379667}"
+              "eState": "{\"scroll\":591.3880208333334}"
             },
             {
-              "leaf": "afceaaac40faf4e8",
+              "leaf": "e14f299c033405b0",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"careers/technical_director/technical_director_for_dreamworks_1.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":33.603910640113256}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"ideas/quiz_generator_ai.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"scroll\":18.982142857142858}"
+            }
+          ]
+        }
+      },
+      {
+        "id": "6b4913c7b7fd3cf6",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "careers/graphic_programer/graphics_programmer.md",
+            "mode": "source",
+            "source": false
+          }
+        },
+        "pane-relief:history-v1": {
+          "pos": 0,
+          "stack": [
+            {
+              "leaf": "6b4913c7b7fd3cf6",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"careers/graphic_programer/graphics_programmer.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":111,\"ch\":0},\"to\":{\"line\":111,\"ch\":0}},\"scroll\":0}"
             },
             {
-              "leaf": "afceaaac40faf4e8",
+              "leaf": "6b4913c7b7fd3cf6",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"careers/software_engineer/software_engineer_for_dreamworks_2.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":34},\"to\":{\"line\":7,\"ch\":34}}}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"careers/graphic_programer/software_engineer_for_dreamworks_1.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":21.978678385416668}"
             },
             {
-              "leaf": "afceaaac40faf4e8",
+              "leaf": "6b4913c7b7fd3cf6",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"careers/software_engineer/software_engineer_for_dreamworks_1.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":34},\"to\":{\"line\":7,\"ch\":34}}}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"careers/graphic_programer/software_engineer_for_dreamworks_2.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":36.79652740097667}"
             },
             {
-              "leaf": "afceaaac40faf4e8",
+              "leaf": "6b4913c7b7fd3cf6",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"careers/software_engineer/software_engineer_for_dreamworks_2.md\",\"mode\":\"source\"}}",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"careers/graphic_programer/graphics_programmer.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":76,\"ch\":44},\"to\":{\"line\":76,\"ch\":44}},\"scroll\":64.6123113347144}"
+            },
+            {
+              "leaf": "6b4913c7b7fd3cf6",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"careers/graphic_programer/software_engineer_for_dreamworks_1.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":27.26098752034726}"
+            },
+            {
+              "leaf": "6b4913c7b7fd3cf6",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"careers/graphic_programer/software_engineer_for_dreamworks_2.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":24.717963894643386}"
+            },
+            {
+              "leaf": "6b4913c7b7fd3cf6",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"careers/graphic_programer/software_engineer_for_dreamworks_1.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":24.831606984314885}"
+            },
+            {
+              "leaf": "6b4913c7b7fd3cf6",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"careers/graphic_programer/graphics_programmer.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":72,\"ch\":2},\"to\":{\"line\":72,\"ch\":2}},\"scroll\":64.97218111867416}"
+            },
+            {
+              "leaf": "6b4913c7b7fd3cf6",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"careers/graphic_programer/software_engineer_for_dreamworks_2.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":24.206569991121633}"
+            },
+            {
+              "leaf": "6b4913c7b7fd3cf6",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"careers/graphic_programer/software_engineer_for_dreamworks_1.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":34.25628884285292}"
+            },
+            {
+              "leaf": "6b4913c7b7fd3cf6",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"careers/graphic_programer/graphics_programmer.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":71,\"ch\":13},\"to\":{\"line\":71,\"ch\":13}},\"scroll\":61.65002712967987}"
+            },
+            {
+              "leaf": "6b4913c7b7fd3cf6",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"careers/technical_artist/technical_artist.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}},\"scroll\":0}"
+            },
+            {
+              "leaf": "6b4913c7b7fd3cf6",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"careers/graphic_programer/graphics_programmer.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"scroll\":71.55018990775909}"
+            },
+            {
+              "leaf": "6b4913c7b7fd3cf6",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"careers/graphic_programer/software_engineer_for_dreamworks_2.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":30.782924107142858}"
+            },
+            {
+              "leaf": "6b4913c7b7fd3cf6",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"careers/graphic_programer/software_engineer_for_dreamworks_1.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":30.068638392857142}"
+            },
+            {
+              "leaf": "6b4913c7b7fd3cf6",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"careers/graphic_programer/graphics_programmer.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":73,\"ch\":0},\"to\":{\"line\":73,\"ch\":0}},\"scroll\":64.6123113347144}"
+            },
+            {
+              "leaf": "6b4913c7b7fd3cf6",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"careers/graphic_programer/software_engineer_for_dreamworks_1.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "6b4913c7b7fd3cf6",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"careers/graphic_programer/graphics_programmer.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":71,\"ch\":2},\"to\":{\"line\":71,\"ch\":2}},\"scroll\":64.49866824504291}"
+            },
+            {
+              "leaf": "6b4913c7b7fd3cf6",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"careers/graphic_programer/software_engineer_for_dreamworks_1.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
             },
             {
-              "leaf": "afceaaac40faf4e8",
+              "leaf": "6b4913c7b7fd3cf6",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"careers/technical_director/technical_director_for_dreamworks_1.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "afceaaac40faf4e8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"careers/software_engineer/software_engineer_for_dreamworks_1.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "afceaaac40faf4e8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"careers/software_engineer/software_engineer_for_dreamworks_2.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "afceaaac40faf4e8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"careers/technical_director/technical_director_for_dreamworks_1.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":35},\"to\":{\"line\":7,\"ch\":35}}}"
-            },
-            {
-              "leaf": "afceaaac40faf4e8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"careers/technical_director/technical_director_for_activision.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "afceaaac40faf4e8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"careers/technical_director/technical_director_for_dreamworks_1.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":35},\"to\":{\"line\":7,\"ch\":35}}}"
-            },
-            {
-              "leaf": "afceaaac40faf4e8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"careers/software_engineer/software_engineer_for_dreamworks_2.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":0}"
-            },
-            {
-              "leaf": "afceaaac40faf4e8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"careers/software_engineer/software_engineer_for_dreamworks_1.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}},\"scroll\":2.270588096539452}"
-            },
-            {
-              "leaf": "afceaaac40faf4e8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"careers/software_engineer/software_engineer_for_dreamworks_2.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":43,\"ch\":60},\"to\":{\"line\":43,\"ch\":60}},\"scroll\":21.258394470817617}"
-            },
-            {
-              "leaf": "afceaaac40faf4e8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"careers/software_engineer/software_engineer_for_dreamworks_1.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "afceaaac40faf4e8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"careers/software_engineer/software_engineer_for_dreamworks_2.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":0},\"to\":{\"line\":20,\"ch\":0}},\"scroll\":7.32392643015371}"
-            },
-            {
-              "leaf": "afceaaac40faf4e8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"careers/software_engineer/software_engineer_for_dreamworks_1.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "afceaaac40faf4e8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"careers/software_engineer/software_engineer_for_dreamworks_2.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"careers/graphic_programer/graphics_programmer.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":53,\"ch\":40},\"to\":{\"line\":53,\"ch\":40}},\"scroll\":0}"
             }
           ]
         }
@@ -407,17 +466,17 @@
     "direction": "horizontal",
     "width": 316.5
   },
-  "active": "afceaaac40faf4e8",
+  "active": "e14f299c033405b0",
   "lastOpenFiles": [
     "lifestyle/todo/todo_log.md",
-    "careers/Untitled.md",
-    "careers/technical_director/technical_director.md",
+    "careers/graphic_programer/graphics_programmer.md",
+    "careers/graphic_programer/software_engineer_for_dreamworks_1.md",
+    "careers/graphic_programer/software_engineer_for_dreamworks_2.md",
     "careers/technical_artist/technical_artist.md",
-    "careers/technical_director/gyedo_jeon.md",
-    "careers/technical_director/technical_director_for_marvel_studios_animation.md",
-    "careers/technical_director/technical_director_for_dreamworks_1.md",
-    "careers/technical_director/technical_director_for_activision.md",
-    "careers/software_engineer/software_engineer_for_dreamworks_1.md",
-    "certifications/knou_cs_approved_certifications.md"
+    "careers/technical_director/technial_director_for_pixar_animation_studios.md",
+    "careers/technical_director/technical_director.md",
+    "ideas/cg_programmer_portfolio.md",
+    "ideas/quiz_generator_ai.md",
+    "ideas/obsidian_improvements.md"
   ]
 }
