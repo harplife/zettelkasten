@@ -599,3 +599,9 @@ Use of backlinks is recommended for tasks that require further explanation.
 - [ ] Write a note on [Memory Consolidation](https://human-memory.net/memory-consolidation/)
 - [ ] Write a note on [how we learn](https://fourminutebooks.com/how-we-learn-summary/)
 - [ ] Complete [[graphics_programmer|Graphics Programmer]] note
+
+
+## 2021-12-29
+### Work
+
+### Personal

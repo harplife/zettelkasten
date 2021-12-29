@@ -2,7 +2,7 @@
 aliases: [Get a Bachelor's Degree in Computer Science]
 tags: [goals, study, career, computer_science, bachelor, degree, major, work]
 status: ongoing
-edited: 2021-10-13
+edited: 2021-12-29
 ---
 
 # Get a Bachelor's Degree in Computer Science
@@ -42,3 +42,7 @@ I'm hoping that I'd at least be able to finish 3rd semester by the time I have t
 
 ## TODO
 - [ ] [[todo_computer_science_notes|Take Computer Science Notes]]
+
+## Related
+- [[방통대_컴퓨터과학과_데이터과학과_복수전공_계획_2021_2|방통대 컴퓨터과학과 데이터과학과 복수전공 계획 Overview]]
+- [[방통대_컴퓨터과학과_데이터과학과_복수전공_계획_2022_1|방통대 컴퓨터과학과 데이터과학과 복수전공 계획 Part 1]]
