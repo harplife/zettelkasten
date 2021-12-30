@@ -45,7 +45,7 @@
               "leaf": "e14f299c033405b0",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/todo/todo_log.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":607,\"ch\":0},\"to\":{\"line\":607,\"ch\":0}},\"scroll\":591.5865885416666}"
+              "eState": "{\"scroll\":27.072533333333332}"
             },
             {
               "leaf": "e14f299c033405b0",
@@ -86,7 +86,7 @@
               "leaf": "6b4913c7b7fd3cf6",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"goals/goal_master_in_cs.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":15},\"to\":{\"line\":3,\"ch\":15}},\"scroll\":0}"
             },
             {
               "leaf": "6b4913c7b7fd3cf6",
@@ -415,7 +415,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "goals/goal_master_in_cs.md",
+                "file": "lifestyle/todo/todo_log.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -451,7 +451,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "goals/goal_master_in_cs.md"
+                "file": "lifestyle/todo/todo_log.md"
               }
             },
             "pane-relief:history-v1": {
@@ -466,15 +466,15 @@
     "direction": "horizontal",
     "width": 316.5
   },
-  "active": "6b4913c7b7fd3cf6",
+  "active": "e14f299c033405b0",
   "lastOpenFiles": [
+    "lifestyle/todo/todo_log.md",
     "goals/goal_master_in_cs.md",
     "goals/goal_bachelor_in_cs.md",
     "unsorted/방통대_컴퓨터과학과_데이터과학과_복수전공_계획_2022_1.md",
     "careers/graphic_programmer/graphics_programmer_career_plan.md",
     "unsorted/방통대_컴퓨터과학과_데이터과학과_복수전공_계획_2021_2.md",
     "careers/graphic_programmer/graphics_programmer.md",
-    "lifestyle/todo/todo_log.md",
     "careers/graphic_programmer/software_engineer_for_dreamworks_1.md",
     "careers/graphic_programmer/software_engineer_for_dreamworks_2.md",
     "careers/technical_artist/technical_artist.md"

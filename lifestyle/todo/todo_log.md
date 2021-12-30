@@ -582,6 +582,7 @@ Use of backlinks is recommended for tasks that require further explanation.
     - [예제로 배우는 PyQt](https://opentutorials.org/module/544)
     - [파이썬으로 만드는 GUI 프로그램](https://wikidocs.net/book/2165)
 
+
 ## 2021-12-27
 ### Work
 - [ ] Gather more examples for Sentiment Analysis (at least 2 examples per consulting category)
@@ -590,9 +591,8 @@ Use of backlinks is recommended for tasks that require further explanation.
 - [x] Start a note on [[graphics_programmer|Graphics Programmer]]
 - [ ] Write a note on what Technical Artist is - [ref1](https://gamedevforever.com/74), [ref2](https://brunch.co.kr/@rrblog/21), [ref3](https://m.blog.naver.com/ateliersera/220918151560)
 
-## 2021-12-28
-## Work
 
+## 2021-12-28
 ## Personal
 - [x] Start a note on [[cg_programmer_portfolio|CG Programmer Portfolio Ideas]]
 - [x] Start a note on [[quiz_generator_ai|Quiz Generator AI]]
@@ -602,6 +602,5 @@ Use of backlinks is recommended for tasks that require further explanation.
 
 
 ## 2021-12-29
-### Work
-
 ### Personal
+- [x] Start a note on [[goal_master_in_cs|Get a Master's Degree in Computer Science]]

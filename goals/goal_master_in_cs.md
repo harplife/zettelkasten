@@ -2,17 +2,16 @@
 aliases: [Get a Master's Degree in Computer Science]
 tags: [goals, study, career, computer_science, master, degree, major, work]
 status: ongoing
-edited: 2021-12-29
+edited: 2021-12-30
 ---
 
 # Get a Master's Degree in Computer Science
 After [[goal_bachelor_in_cs|Get a Bachelor's Degree in Computer Science]] plan is done and over with, I'd like to start Master's right away. If I can do it online, I guess that's fine but I feel that the quality of education drops drastically when it's online. If I were to do it offline, however, I'd somehow manage my time with work, or not work at all and go full time student.
 
 ## Focus
-I'm not really interested in the broad range of [[computer_science|Computer Science]].
-I'm more interested in Computer Vision #todo or Computer Graphics.
+I'm interested in Computer Vision #todo or Computer Graphics.
 I'd like to go even further with [[machine_learning|Machine Learning]] in the mix.
-So, all in all, Computer Science with focus on AI in Computer Vision.
+So, all in all, Computer Science with focus on AI in Computer Vision is what I'm going for.
 
 ## Traget Schools
 ### Southern Illinois University Edwardsville
@@ -52,9 +51,46 @@ PU's QS World Ranking (2021) is __109th__, according to [topuniversities](https:
 
 Check out [Purdue CS Graduate Program Admission Requirements](https://www.cs.purdue.edu/graduate/admission/requirements.html).. I'm a little scared on the Letter of Recommendation part. I also don't know if I need to get TOEFL, if I'm a temporary green card holder.
 
-And then there's [CG Graduate Program Admission Requirements](https://www.purdue.edu/gradschool/prospective/gradrequirements/westlafayette/cgtc.html)... This is totally different than the CS requirements. This one requires [GRE](https://www.ets.org/gre), samples(??), and resume.
+And then there's [CG Graduate Program Admission Requirements](https://www.purdue.edu/gradschool/prospective/gradrequirements/westlafayette/cgtc.html)... This is totally different than the CS requirements. This one requires [GRE](https://www.ets.org/gre), samples(??), and resume. I don't understand why, but there is [another page](https://polytechnic.purdue.edu/degrees/ms-computer-graphics-technology/admissions) with much more detail.
 
 If I can afford it, I would go here. Purdue really seems like a place I could get in, if I worked on it hard enough.
+
+### Georgia Institute of Technology (OMSCS)
+[Georgia Tech CS Department Page](https://www.cc.gatech.edu/)
+[Georgia Tech CS Master Online Course Page](https://omscs.gatech.edu/)
+
+Georgia Tech offers an _OMSCS (Online Master of Science in Computer Science)_, a completely online graduate program offered world-wide. It's legit, as in fully recognized and accredited, and the diploma doens't mention anything about "Online". Not only that, it is the most affordable out of all MOOCs (Massive Open Online Courses) on CS, estimated price at $7k~8k for the whole program (30 credit hours).
+
+The school is located [here](https://goo.gl/maps/tUvX57TRNA9LEEXQ7), but that doesn't matter with OMSCS.
+
+The acceptance rate for Georgia Tech's CS Grad School is __10%__, but apparently ___74%___ for OMSCS (according to this [article](https://www.forbes.com/sites/michaeltnietzel/2021/07/01/georgia-techs-online-ms-in-computer-science-continues-to-thrive-what-that-could-mean-for-the-future-of-moocs/?sh=289dca1ba277)). As long as basic requirements are met, it seems OMSCS accepts anybody.
+
+Georgia Tech ranks __8th__ on CS Grad schools, according to [U.S. News & World Report](https://www.usnews.com/best-graduate-schools/top-science-schools/computer-science-rankings?name=Georgia).
+Georgia Tech ranks __80th__ on QS World Ranking, according to [topuniversities.com](https://www.topuniversities.com/university-rankings/world-university-rankings/2021).
+
+OMSCS Admission Requirements/Recommendation is on this ["Preparing Yourself"](https://omscs.gatech.edu/preparing-yourself-omscs) and this ["Requirements"](https://omscs.gatech.edu/program-info/application-deadlines-process-requirements).
+Simply put:
+1. GPA over 3.0 (85%, B)
+2. CS Bachelor or equivalent (a few fundamental courses are enough)
+3. TOEFL
+4. Letters of Recommendation
+5. Resume
+6. Certfications
+7. Statement of Purpose
+
+As far as certifications go, Georgia Tech also offers some fundamental courses online. It is mentioned on the _Preparing Yourself_ page.
+
+Overall, I am all for this. It's almost too good to be true. The location (online), the price, the school ranking, and the quality of education, they are all so great.
+
+references
+- [OMSCS 준비](https://huklee.tistory.com/entry/%EB%8C%80%ED%95%99%EC%9B%90-%EA%B4%80%EB%A0%A8-GT-OMS-CS)
+- [OMSCS Review (Medium)](https://medium.com/@adrianchang/georgia-tech-omscs-review-should-you-do-it-2688a59971d9)
+- [OMSCS 준비 2](https://tech-millennial.tistory.com/23)
+- [OMSCS 합격 요건 정리](https://m.blog.naver.com/black21929/221576688795)
+- [OMSCS 합격 후기](https://cosmy.tistory.com/entry/Georgia-Tech-%EC%A1%B0%EC%A7%80%EC%95%84%ED%85%8D-%EC%BB%B4%ED%93%A8%ED%84%B0-%EA%B3%B5%ED%95%99-%EC%84%9D%EC%82%AC-%ED%95%A9%EA%B2%A9-%ED%9B%84%EA%B8%B0OMS-CS)
+- [학력세탁 요약?](https://self-taught-programmer.tistory.com/8)
+- [Quora: is OMSCS recognized](https://www.quora.com/How-about-the-recognition-of-Georgia-Tech-OMSCS)
+- [Quota: what are OMSCS alternatives](https://www.quora.com/Are-there-any-alternatives-to-Georgia-Tech-OMSCS-which-are-relatively-easy-when-compared-to-OMSCS-but-considered-a-real-master%E2%80%99s-instead-of-an-online-degree)
 
 ### Carnegie Mellon University
 [CMU CS Department Page](https://www.cs.cmu.edu/)
@@ -80,13 +116,14 @@ But, it doesn't hurt to plan and study like this is where I'm going to go.
 ## Plan
 - [ ] GRE
 
-First of all, it seems it's generally a good idea to study GRE.
+If I go the OMSCS route, I don't have to worry about this.
+But other than that, for other schools I do have to care.
 SIUE says they accept work experience (relating to CS) in place of GRE, but they require proof and letter of recommendation from employer (nuh uh).
 Other schools doesn't seem to offer any GRE replacement.
 
 References
 - [GRE 관련 글 모음](https://m.blog.naver.com/storyabroad/222199482099)
-- [GRE 후기 및 준비방법](https://m.blog.naver.com/rlaxogh90/222182900772)
+- [GRE 후기 및 준비 방법](https://m.blog.naver.com/rlaxogh90/222182900772)
 - [GRE Contents (official)](https://www.ets.org/gre/revised_general/about/content/)
 
 - [ ] Letters of Recommendation
@@ -98,13 +135,10 @@ I might be able to get some from KNOU. I'll have to look into it to be sure.
 Thie one is a kicker. I can't get it too quick, otherwise I'd be just wasting money.
 I'm not too concerned about it though.. but I do wonder if I should study for it.
 
-## Other Considerations
-There are Online Master's Degree programs available.
-The notable one seems to be [OMSCS](https://omscs.gatech.edu/).
-Check out:
-- [Ref 1](https://self-taught-programmer.tistory.com/8)
-- [Quora: is OMSCS recognized](https://www.quora.com/How-about-the-recognition-of-Georgia-Tech-OMSCS)
-- [Quota: what are OMSCS alternatives](https://www.quora.com/Are-there-any-alternatives-to-Georgia-Tech-OMSCS-which-are-relatively-easy-when-compared-to-OMSCS-but-considered-a-real-master%E2%80%99s-instead-of-an-online-degree)
+- [ ] Certifications
+
+Maybe not so much for other schools, but certifications might help for applying OMSCS.
+I need to look at OMSCS "Praparation" page for courses that are offered (and accepted).
 
 ## University Rankings in USA
 ### Ranking for Computer Science
