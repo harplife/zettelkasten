@@ -360,7 +360,7 @@ Use of backlinks is recommended for tasks that require further explanation.
 ## 2021-11-25
 ### Personal (complete)
 - [x] Write a note about KNOU CS + DS plan
-    - [[방통대_컴퓨터과학과_데이터과학과_복수전공_계획_2021_2|방통대 컴퓨터과학과 데이터과학과 복수전공 계획]]
+    - [[2021년_2학기_방통대_컴퓨터과학과_계획|방통대 컴퓨터과학과 데이터과학과 복수전공 계획]]
         - completed on 2021/11/30
 
 
@@ -549,7 +549,7 @@ Use of backlinks is recommended for tasks that require further explanation.
 - [x] Print out KNOU Finals for classes next semester
 - [ ] Buy ebooks for KNOU classes next semester
 - [ ] Write a note on 3D Production Pipeline (see this [[3d_production_pipeline.jpeg]])
-- [x] Write [[방통대_컴퓨터과학과_데이터과학과_복수전공_계획_2022_1|방통대 컴퓨터과학과 데이터과학과 복수전공 계획 Part 1]]
+- [x] Write [[2022년_1학기_방통대_컴퓨터과학과_계획|방통대 컴퓨터과학과 데이터과학과 복수전공 계획 Part 1]]
 
 
 ## 2021-12-22
