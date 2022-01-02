@@ -27,150 +27,13 @@
               "leaf": "e14f299c033405b0",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/todo/todo_log.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+              "eState": "{\"scroll\":1.3392857142857144}"
             },
             {
               "leaf": "e14f299c033405b0",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"ideas/quiz_generator_ai.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"scroll\":18.982142857142858}"
-            }
-          ]
-        }
-      },
-      {
-        "id": "90568b5170c550b6",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "KNOU/2021년_2학기_방통대_컴퓨터과학과_후기.md",
-            "mode": "source",
-            "source": false
-          }
-        },
-        "pane-relief:history-v1": {
-          "pos": 0,
-          "stack": [
-            {
-              "leaf": "90568b5170c550b6",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"KNOU/2021년_2학기_방통대_컴퓨터과학과_후기.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-            },
-            {
-              "leaf": "90568b5170c550b6",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"KNOU/2022년_1학기_방통대_컴퓨터과학과_계획.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":16.0625}"
-            },
-            {
-              "leaf": "90568b5170c550b6",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"KNOU/2021년_2학기_방통대_컴퓨터과학과_계획.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "90568b5170c550b6",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"KNOU/2021년_2학기_방통대_컴퓨터과학과_후기.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-            },
-            {
-              "leaf": "90568b5170c550b6",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"KNOU/2022년_1학기_방통대_컴퓨터과학과_계획.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":39.645833333333336}"
-            },
-            {
-              "leaf": "90568b5170c550b6",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"KNOU/2021년_2학기_방통대_컴퓨터과학과_계획.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":177.34655223438887}"
-            },
-            {
-              "leaf": "90568b5170c550b6",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"KNOU/2021년_2학기_방통대_컴퓨터과학과_후기.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "90568b5170c550b6",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"KNOU/2022년_1학기_방통대_컴퓨터과학과_계획.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-            },
-            {
-              "leaf": "90568b5170c550b6",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"KNOU/2021년_2학기_방통대_컴퓨터과학과_계획.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":187.20564297341292}"
-            },
-            {
-              "leaf": "90568b5170c550b6",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"KNOU/2021년_2학기_방통대_컴퓨터과학과_후기.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "90568b5170c550b6",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"KNOU/2021년_2학기_방통대_컴퓨터과학과_계획.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "90568b5170c550b6",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"KNOU/2021년_2학기_방통대_컴퓨터과학과_후기.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "90568b5170c550b6",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"KNOU/2022년_1학기_방통대_컴퓨터과학과_계획.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "90568b5170c550b6",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"KNOU/2021년_2학기_방통대_컴퓨터과학과_계획.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":23},\"to\":{\"line\":10,\"ch\":23}}}"
-            },
-            {
-              "leaf": "90568b5170c550b6",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"KNOU/2021년_2학기_방통대_컴퓨터과학과_후기.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "90568b5170c550b6",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"KNOU/2021년_2학기_방통대_컴퓨터과학과_계획.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
-            },
-            {
-              "leaf": "90568b5170c550b6",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"KNOU/2021년_2학기_방통대_컴퓨터과학과_후기.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "90568b5170c550b6",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"KNOU/2022년_1학기_방통대_컴퓨터과학과_계획.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":12},\"to\":{\"line\":12,\"ch\":12}}}"
-            },
-            {
-              "leaf": "90568b5170c550b6",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"KNOU/2021년_2학기_방통대_컴퓨터과학과_계획.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "90568b5170c550b6",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"KNOU/2022년_1학기_방통대_컴퓨터과학과_계획.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":35},\"to\":{\"line\":1,\"ch\":35}}}"
             }
           ]
         }
@@ -534,7 +397,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KNOU/2021년_2학기_방통대_컴퓨터과학과_후기.md",
+                "file": "lifestyle/todo/todo_log.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -570,7 +433,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KNOU/2021년_2학기_방통대_컴퓨터과학과_후기.md"
+                "file": "lifestyle/todo/todo_log.md"
               }
             },
             "pane-relief:history-v1": {
@@ -585,17 +448,17 @@
     "direction": "horizontal",
     "width": 316.5
   },
-  "active": "90568b5170c550b6",
+  "active": "e14f299c033405b0",
   "lastOpenFiles": [
+    "lifestyle/todo/todo_log.md",
     "KNOU/2021년_2학기_방통대_컴퓨터과학과_후기.md",
+    "ㅁ.md",
     "KNOU/2022년_1학기_방통대_컴퓨터과학과_계획.md",
     "KNOU/2021년_2학기_방통대_컴퓨터과학과_계획.md",
-    "lifestyle/todo/todo_log.md",
     "goals/goal_master_in_cs.md",
     "goals/goal_bachelor_in_cs.md",
     "careers/graphic_programmer/graphics_programmer_career_plan.md",
     "careers/graphic_programmer/graphics_programmer.md",
-    "careers/graphic_programmer/software_engineer_for_dreamworks_1.md",
-    "careers/graphic_programmer/software_engineer_for_dreamworks_2.md"
+    "careers/graphic_programmer/software_engineer_for_dreamworks_1.md"
   ]
 }
