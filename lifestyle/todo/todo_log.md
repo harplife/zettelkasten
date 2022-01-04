@@ -570,7 +570,7 @@ Use of backlinks is recommended for tasks that require further explanation.
 - [ ] Check out 대마왕's [Blog](https://chulin28ho.tistory.com/)
 - [ ] Maybe buy this book? [Real-Time Rendering](https://www.amazon.com/Real-Time-Rendering-Fourth-Tomas-Akenine-Mo-ebook-dp-B07FSKB982/dp/B07FSKB982/ref=mt_other?_encoding=UTF8&me=&qid=1640325343)
 - [ ] Maybe buy this book? [Physcis for Game Devs](https://www.amazon.com/Physics-Game-Developers-Science-realistic-ebook/dp/B00CB30Y46/ref=sr_1_1)
-- [ ] Maybe buy this book? [셰이더 프로그래밍 입문](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9788979149494&orderClick=LAG&Kc=)
+- [x] Maybe buy this book? [셰이더 프로그래밍 입문](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9788979149494&orderClick=LAG&Kc=)
     - [description](https://blog.popekim.com/ko/2012/07/09/intro-to-shader-programming.html)
 - [ ] Maybe buy this book? [유니티 쉐이더 스타트업](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9788979149494&orderClick=LAG&Kc=)
 - [ ] Maybe buy this book? [AI: A Modern Approach](https://www.amazon.com/Artificial-Intelligence-Approach-2-downloads-Artifical-ebook-dp-B092J75GML/dp/B092J75GML/ref=mt_other), check out the [desc in korean](https://jpub.tistory.com/1193)
@@ -604,3 +604,13 @@ Use of backlinks is recommended for tasks that require further explanation.
 ## 2021-12-29
 ### Personal
 - [x] Start a note on [[goal_master_in_cs|Get a Master's Degree in Computer Science]]
+
+
+## 2022-01-04
+### Work
+- [ ] Upgrade AI Workstation environment to be compatible with Python 3.8, Tensorflow 2.3, and CUDA
+
+### Personal
+- [x] Finish writing [[random_id_generator|Random ID Generator]]
+- [ ] Figure out a Korean book to buy (to spend the rest of the points in Benepia)
+    - [maya books](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=rpgs&logNo=220587586265)
