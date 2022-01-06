@@ -20,20 +20,55 @@
             {
               "leaf": "e14f299c033405b0",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"books/ebooks/셰이더_프로그래밍_입문.md\",\"mode\":\"source\",\"source\":false}}",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/languages/python/troubleshooting/tensorflow_gpu_troubleshooting.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
             },
             {
               "leaf": "e14f299c033405b0",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/todo/todo_log.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+              "eState": "{\"scroll\":0.625}"
             },
             {
               "leaf": "e14f299c033405b0",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"ideas/quiz_generator_ai.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"scroll\":18.982142857142858}"
+            }
+          ]
+        }
+      },
+      {
+        "id": "5e781e635b5103fe",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "computer_science/languages/python/guide/conda_basics.md",
+            "mode": "source",
+            "source": false
+          }
+        },
+        "pane-relief:history-v1": {
+          "pos": 0,
+          "stack": [
+            {
+              "leaf": "5e781e635b5103fe",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/languages/python/guide/conda_basics.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":53,\"ch\":124},\"to\":{\"line\":53,\"ch\":124}},\"scroll\":0}"
+            },
+            {
+              "leaf": "5e781e635b5103fe",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/languages/python/guide/setup_tensorflow_gpu_dev_environment.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+            },
+            {
+              "leaf": "5e781e635b5103fe",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/languages/python/troubleshooting/tensorflow_gpu_troubleshooting.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.625}"
             }
           ]
         }
@@ -56,7 +91,7 @@
               "leaf": "991a08604e0623c3",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"books/ebooks/SQL_자격검정_실전_문제.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":3},\"to\":{\"line\":11,\"ch\":3}}}"
+              "eState": "{\"scroll\":0}"
             },
             {
               "leaf": "991a08604e0623c3",
@@ -195,14 +230,14 @@
   "active": "e14f299c033405b0",
   "lastOpenFiles": [
     "lifestyle/todo/todo_log.md",
-    "computer_science/languages/python/examples/random_id_generator.md",
+    "computer_science/languages/python/guide/conda_basics.md",
+    "computer_science/languages/python/guide/setup_tensorflow_gpu_dev_environment.md",
+    "computer_science/languages/python/troubleshooting/tensorflow_gpu_troubleshooting.md",
     "books/ebooks/SQL_자격검정_실전_문제.md",
+    "computer_science/languages/python/examples/random_id_generator.md",
     "books/ebooks/8일간의_선형대수학.md",
     "books/ebooks/수학으로_시작하는_3D_게임_개발.md",
     "books/ebooks/셰이더_프로그래밍_입문.md",
-    "goals/goal_master_in_cs.md",
-    "careers/technical_director/technical_director.md",
-    "KNOU/2021년_2학기_방통대_컴퓨터과학과_후기.md",
-    "ㅁ.md"
+    "goals/goal_master_in_cs.md"
   ]
 }

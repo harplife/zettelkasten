@@ -602,15 +602,29 @@ Use of backlinks is recommended for tasks that require further explanation.
 
 
 ## 2021-12-29
-### Personal
+### Personal (complete)
 - [x] Start a note on [[goal_master_in_cs|Get a Master's Degree in Computer Science]]
 
 
 ## 2022-01-04
-### Work
-- [ ] Upgrade AI Workstation environment to be compatible with Python 3.8, Tensorflow 2.3, and CUDA
+### Work (complete)
+- [x] Upgrade AI Workstation environment to be compatible with Python 3.8, Tensorflow 2.3, and CUDA
 
 ### Personal
 - [x] Finish writing [[random_id_generator|Random ID Generator]]
 - [ ] Figure out a Korean book to buy (to spend the rest of the points in Benepia)
     - [maya books](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=rpgs&logNo=220587586265)
+
+
+## 2022-01-06
+Work
+- [x] Start a note on [[setup_tensorflow_gpu_dev_environment|TF GPU Set Up]]
+- [x] Start a note on [[tensorflow_gpu_troubleshooting|TF GPU Troubleshooting]]
+- [x] Start a note on [[conda_basics|Conda Basics]]
+
+### Personal
+- [ ] Apply for ESTA
+- [x] Figure out if COVID19 test is required for the return flight
+    - S.Korea requires PCR Test result within 3 days of departure
+- [ ] Figure out what counts as "evidence" of meeting somebody
+
