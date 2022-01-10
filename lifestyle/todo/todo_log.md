@@ -423,7 +423,7 @@ Use of backlinks is recommended for tasks that require further explanation.
 ## 2021-12-03
 ### Work
 - [ ] Write a note about getting user highlighted text - [ref](https://stackoverflow.com/questions/5379120/get-the-highlighted-selected-text)
-- [ ] Celebrate with co-workers for finishing GS Certification Test
+- [x] Celebrate with co-workers for finishing GS Certification Test
 
 ### Personal
 - [x] Celebrate with the family for finishing GS Certification Test
@@ -450,11 +450,12 @@ Use of backlinks is recommended for tasks that require further explanation.
 
 
 ## 2021-12-09
-### Work
+### Work (complete)
 - [x] Pick up GS Certificate
 - [x] Help Boss with his ppt homework
-- [ ] Figure out how to wash my face regularly at work
+- [x] Figure out how to wash my face regularly at work
     - bought some sort of face wash cloth (2021/12/22). Maybe this will work?
+    - (2022/01/07) It's meh but it does sort of get rid of grease.
 - [x] Reset GS Cert Test PC
 
 ### Personal
@@ -617,13 +618,13 @@ Use of backlinks is recommended for tasks that require further explanation.
 
 
 ## 2022-01-06
-Work
+Work (complete)
 - [x] Start a note on [[setup_tensorflow_gpu_dev_environment|TF GPU Set Up]]
 - [x] Start a note on [[tensorflow_gpu_troubleshooting|TF GPU Troubleshooting]]
 - [x] Start a note on [[conda_basics|Conda Basics]]
 
 ### Personal
-- [ ] Apply for ESTA
+- [x] Apply for ESTA
 - [x] Figure out if COVID19 test is required for the return flight
     - S.Korea requires PCR Test result within 3 days of departure
 - [ ] Figure out what counts as "evidence" of meeting somebody
