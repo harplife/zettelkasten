@@ -2,7 +2,7 @@
   "alwaysUpdateLinks": true,
   "attachmentFolderPath": "attachments",
   "spellcheck": true,
-  "vimMode": true,
+  "vimMode": false,
   "showUnsupportedFiles": true,
   "useTab": false,
   "spellcheckDictionary": [
@@ -12,6 +12,8 @@
     "Dataset",
     "DreamWorks"
   ],
-  "legacyEditor": false,
-  "livePreview": true
+  "legacyEditor": true,
+  "livePreview": true,
+  "showFrontmatter": false,
+  "lineWrap": true
 }

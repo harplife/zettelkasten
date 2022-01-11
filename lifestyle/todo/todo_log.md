@@ -629,3 +629,12 @@ Work (complete)
     - S.Korea requires PCR Test result within 3 days of departure
 - [ ] Figure out what counts as "evidence" of meeting somebody
 
+
+## 2022-01-11
+### Work
+- [ ] Write a note on the NLP processes for Salevis Hue Sentimental Data
+
+### Personal
+- [x] Check and print ESTA
+- [ ] Write a note on the trip our family took to Sokcho
+- [x] Write a note on [[link_filter_regex|Link Filter Regex]]
