@@ -633,8 +633,13 @@ Work (complete)
 ## 2022-01-11
 ### Work
 - [ ] Write a note on the NLP processes for Salevis Hue Sentimental Data
+- [x] Write a note on [[link_filter_regex|Link Filter Regex]]
 
 ### Personal
 - [x] Check and print ESTA
 - [ ] Write a note on the trip our family took to Sokcho
-- [x] Write a note on [[link_filter_regex|Link Filter Regex]]
+
+
+## 2022-01-12
+### Work
+- [x] Write a note on [[email_filter_regex|E-mail Filter Regex]]
