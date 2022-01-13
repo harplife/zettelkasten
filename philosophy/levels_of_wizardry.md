@@ -1,7 +1,7 @@
 ---
 aliases: [Levels of Wizardry]
-tags: [fantasy, novel, idea]
-status: ongoing
+tags: [fantasy, novel, idea, philosophy]
+status: complete
 edited: 2021-11-14
 ---
 

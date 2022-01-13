@@ -4,46 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "e14f299c033405b0",
+        "id": "cd2ea29d454b2fb0",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "lifestyle/todo/todo_log.md",
-            "mode": "source"
-          }
-        },
-        "pane-relief:history-v1": {
-          "pos": 1,
-          "stack": [
-            {
-              "leaf": "e14f299c033405b0",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/NLP/regex/link_filter_regex.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-            },
-            {
-              "leaf": "e14f299c033405b0",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lifestyle/todo/todo_log.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":614.375}"
-            },
-            {
-              "leaf": "e14f299c033405b0",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"ideas/quiz_generator_ai.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":18.982142857142858}"
-            }
-          ]
-        }
-      },
-      {
-        "id": "c64b86bde5168652",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "careers/graphic_programmer/graphics_programmer.md",
+            "file": "wishlist/books.md",
             "mode": "source"
           }
         },
@@ -51,13 +17,31 @@
           "pos": 0,
           "stack": [
             {
-              "leaf": "c64b86bde5168652",
+              "leaf": "cd2ea29d454b2fb0",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"careers/graphic_programmer/graphics_programmer.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":71.42864894194248}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"wishlist/books.md\",\"mode\":\"source\"}}",
+              "eState": "{\"scroll\":0.022727272727272728}"
             },
             {
-              "leaf": "c64b86bde5168652",
+              "leaf": "cd2ea29d454b2fb0",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"philosophy/levels_of_wizardry.md\",\"mode\":\"source\"}}",
+              "eState": "{\"scroll\":0}"
+            },
+            {
+              "leaf": "cd2ea29d454b2fb0",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"biology/the_scent_of_a_molecule_2017_sciencehistory.md\",\"mode\":\"source\"}}",
+              "eState": "{\"scroll\":0}"
+            },
+            {
+              "leaf": "cd2ea29d454b2fb0",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"unsorted/plot_temperature.md\",\"mode\":\"source\"}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "cd2ea29d454b2fb0",
               "group": null,
               "state": "{\"type\":\"empty\",\"state\":{}}",
               "eState": "{}"
@@ -66,12 +50,12 @@
         }
       },
       {
-        "id": "991a08604e0623c3",
+        "id": "75393debcedfc133",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "books/ebooks/SQL_자격검정_실전_문제.md",
+            "file": "travel/south_korea/20220108_trip_to_sokcho.md",
             "mode": "source"
           }
         },
@@ -79,28 +63,78 @@
           "pos": 0,
           "stack": [
             {
-              "leaf": "991a08604e0623c3",
+              "leaf": "75393debcedfc133",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"books/ebooks/SQL_자격검정_실전_문제.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":0}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"travel/south_korea/20220108_trip_to_sokcho.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":106,\"ch\":302},\"to\":{\"line\":106,\"ch\":302}},\"scroll\":0}"
+            }
+          ]
+        }
+      },
+      {
+        "id": "7f9aea1dfaa4bea9",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "todo/todo_log_2021.md",
+            "mode": "source"
+          }
+        },
+        "pane-relief:history-v1": {
+          "pos": 0,
+          "stack": [
+            {
+              "leaf": "7f9aea1dfaa4bea9",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"todo/todo_log_2021.md\",\"mode\":\"source\"}}",
+              "eState": "{\"scroll\":172.08333333333334}"
             },
             {
-              "leaf": "991a08604e0623c3",
+              "leaf": "7f9aea1dfaa4bea9",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"books/ebooks/8일간의_선형대수학.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"todo/todo_log_2022.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":15},\"to\":{\"line\":3,\"ch\":15}}}"
             },
             {
-              "leaf": "991a08604e0623c3",
+              "leaf": "7f9aea1dfaa4bea9",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"books/ebooks/수학으로_시작하는_3D_게임_개발.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"todo/todo_log_2021.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":116,\"ch\":0},\"to\":{\"line\":116,\"ch\":0}},\"scroll\":0}"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ae84d6d6c2ae1f61",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "computer_science/NLP/regex/email_filter_regex.md",
+            "mode": "source"
+          }
+        },
+        "pane-relief:history-v1": {
+          "pos": 0,
+          "stack": [
             {
-              "leaf": "991a08604e0623c3",
+              "leaf": "ae84d6d6c2ae1f61",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"books/ebooks/셰이더_프로그래밍_입문.md\",\"mode\":\"source\",\"source\":false}}",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/NLP/regex/email_filter_regex.md\",\"mode\":\"source\"}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+            },
+            {
+              "leaf": "ae84d6d6c2ae1f61",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"todo/todo_log_2022.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":41,\"ch\":0},\"to\":{\"line\":41,\"ch\":0}},\"scroll\":23.916666666666668}"
+            },
+            {
+              "leaf": "ae84d6d6c2ae1f61",
+              "group": null,
+              "state": "{\"type\":\"empty\",\"state\":{}}",
+              "eState": "{}"
             }
           ]
         }
@@ -167,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "lifestyle/todo/todo_log.md",
+                "file": "computer_science/NLP/regex/email_filter_regex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,7 +237,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "lifestyle/todo/todo_log.md"
+                "file": "computer_science/NLP/regex/email_filter_regex.md"
               }
             },
             "pane-relief:history-v1": {
@@ -218,17 +252,17 @@
     "direction": "horizontal",
     "width": 316.5
   },
-  "active": "e14f299c033405b0",
+  "active": "ae84d6d6c2ae1f61",
   "lastOpenFiles": [
-    "lifestyle/todo/todo_log.md",
     "computer_science/NLP/regex/email_filter_regex.md",
-    "computer_science/NLP/regex/link_filter_regex.md",
-    "books/ebooks/SQL_자격검정_실전_문제.md",
-    "careers/graphic_programmer/graphics_programmer.md",
-    "computer_science/languages/python/guide/conda_basics.md",
-    "computer_science/languages/python/guide/setup_tensorflow_gpu_dev_environment.md",
-    "computer_science/languages/python/troubleshooting/tensorflow_gpu_troubleshooting.md",
-    "computer_science/languages/python/examples/random_id_generator.md",
-    "books/ebooks/8일간의_선형대수학.md"
+    "todo/todo_log_2022.md",
+    "wishlist/books.md",
+    "travel/south_korea/20220108_trip_to_sokcho.md",
+    "todo/todo_log_2021.md",
+    "data_science/customer_retention_rate.md",
+    "philosophy/levels_of_wizardry.md",
+    "biology/the_scent_of_a_molecule_2017_sciencehistory.md",
+    "unsorted/plot_temperature.md",
+    "books/ebooks/SQL_자격검정_실전_문제.md"
   ]
 }

@@ -1,6 +1,6 @@
 ---
 aliases: [The Scent of a Molecule]
-tags: [science, smell, molecule, article]
+tags: [science, smell, molecule, article, biology, chemistry]
 status: ongoing
 edited: 2021-10-15
 ---

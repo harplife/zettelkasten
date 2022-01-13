@@ -1,11 +1,10 @@
 ---
-alias: [TODO Log, TODO Top-List, TODO]
+alias: [TODO Log 2021, TODO 2021]
 tags: [todo, top-list]
 status: ongoing
-edited: 2021-10-18
 ---
 
-# TODO Log
+# TODO Log 2021
 This is a top level note where it keeps track of TODO notes by time in a checklist format.
 To reduce the cost of management, goal driven TODO notes are optional.
 The main function of this note is to keep track of daily/weekly tasks.
@@ -118,9 +117,11 @@ Use of backlinks is recommended for tasks that require further explanation.
 
 
 ## 2021-10-28
-### Work
-- [ ] Manage space on work computer
-- [ ] Install docker
+### Work (complete)
+- [x] Manage storage space on work computer
+    - This is a never-ending struggle
+- [x] Install docker
+    - Tried, but it'd populate space in C Drive , which doesn't have enough storage
 
 ### Personal
 - [x] Look into North Face fleeces
@@ -165,7 +166,8 @@ Use of backlinks is recommended for tasks that require further explanation.
 - [ ] Check out sneaker ideas from [here](https://luxe.digital/lifestyle/style/best-men-luxury-sneakers/)
 - [ ] Check out men's shoes
 	- sneakers brands [list](https://www.dmarge.com/best-sneakers-for-men)
-- [ ] Plan a trip to Seokcho with parents
+- [x] Plan a trip to Sokcho with parents
+    - Went to Sokcho on 2022/01/08~09
 - [ ] Read up on how to study for Coding Interviews [here](https://mjbleong.medium.com/ace-the-coding-interview-how-i-got-offers-at-google-and-facebook-twice-d5083fcca17d)
 - [ ] Read up on [this](https://www.thoughtasylum.com/2021/09/12/automating-your-obsidian-workspace/)
 - [ ] Maybe buy this Anker Wireless Vertical [Mouse](https://www.coupang.com/vp/products/1318554391)?
@@ -185,13 +187,13 @@ Use of backlinks is recommended for tasks that require further explanation.
 
 
 ## 2021-11-04
-### Work
-- [ ] Make October Report for SC
+### Work (complete)
+- [x] Make October Report for SC
 - [x] Make Customer Retention Rate Report for BS
 
 ### Personal
 - [ ] Complete note on [[pykaldi]]
-- [ ] Write a review on the new mouespad I got. Refer to [[#2021-10-18]]
+- [x] Write a review on the new mouespad I got. Refer to [[#2021-10-18]]
 - [ ] Check out [Grafana](https://grafana.com/). It seems like a Data Visualization Tool
 - [ ] Check out [Prometheus](https://prometheus.io/). It is a Data Monitoring Tool
 - [ ] Write a note on this article, [Top 4 Time Series Databases](https://medium.com/schkn/4-best-time-series-databases-to-watch-in-2019-ef1e89a72377)
@@ -202,10 +204,9 @@ Use of backlinks is recommended for tasks that require further explanation.
 
 
 ## 2021-11-08
-### Work
+### Work (complete)
 - [x] Fill out October report for Work-Study
-- [ ] Prepare for moving (12/8)
-    - [ ] Organize commands for internal development server
+- [x] Prepare for moving (12/8)
 
 ### Personal (complete)
 - [x] Buy a smartphone case for Samsung Galaxy 20 Ultra
@@ -255,13 +256,7 @@ Use of backlinks is recommended for tasks that require further explanation.
 
 ### Personal
 - [x] Work on KNOU CS Data Structure Online Class Assignment
-- [ ] Check out these books (some of them referenced in this [article](https://medium.com/pragmatic-programmers/pythons-attribute-lookup-2cce02276263))
-    - [ ] https://pragprog.com/titles/d-pandas/pandas-brain-teasers/
-    - [ ] https://pragprog.com/titles/d-pybrain/python-brain-teasers/
-    - [ ] https://pragprog.com/titles/dzcnapy/complex-network-analysis-in-python/
-    - [ ] https://pragprog.com/titles/dzpyds/data-science-essentials-in-python/
-    - [ ] https://pragprog.com/titles/bopytest2/python-testing-with-pytest-second-edition/
-- [ ] Write a note on this article, [why facebook is going meta](https://uxdesign.cc/the-real-reason-facebook-is-changing-its-name-to-meta-what-you-must-know-from-facebooks-2021-e8f12cdc797c)
+- [x] Check out the article [why facebook is going meta](https://uxdesign.cc/the-real-reason-facebook-is-changing-its-name-to-meta-what-you-must-know-from-facebooks-2021-e8f12cdc797c)
 - [x] Write [[pandas_reindex_to_add_columns|Add Columns with Pandas Reindex]]
 - [ ] Write a note about how to set up Python development environment with WSL, ZSH, VS CODE, and CONDA
 - [ ] Write a note about Sentimental Analysis AI Dataset that Google released - [ref](http://www.aitimes.kr/news/articleView.html?idxno=22937)
@@ -284,7 +279,6 @@ Use of backlinks is recommended for tasks that require further explanation.
 - [ ] Write a note about speeding up query (with finding index first then data)
 - [x] Figure out the deadline for KNOU Media Learning
     - 2021/12/04 Saturday 23:59. That's 16 week days and 5 weekend days - enough time for maybe 47 videos (2 videos a week day, 3 videos a weekend day)
-- [ ] Figure out how to ease shoulder pain (might be due to using mouse all the time)
 - [x] Figure out what GPA system KNOU uses
     - Max is 4.5
     - Range is 4.5 (A+, 100~95) to 0.0 (F, 59 and low), with 0.5 intervals (except for F)
@@ -376,7 +370,7 @@ Use of backlinks is recommended for tasks that require further explanation.
 
 
 ## 2021-11-30
-### Work
+### Work (complete)
 - [x] Work on Concrete Hardness AI Model (PPT Presentation)
 
 ### Personal
@@ -413,11 +407,10 @@ Use of backlinks is recommended for tasks that require further explanation.
 
 
 ## 2021-12-02
-### Personal
+### Personal (complete)
 - [x] Write and debug C++ code example (the rest of Chapter 4)
     - [x] 4-11 까지 완료. 2021/12/02
     - push on [Cpp_Examples git repository](https://github.com/harplife/Cpp_Examples)
-- [ ] Get these [books](https://www.tableau.com/ko-kr/learn/articles/books-about-data-visualization) someday
 
 
 ## 2021-12-03
@@ -569,15 +562,7 @@ Use of backlinks is recommended for tasks that require further explanation.
 - [ ] Check out [꧁ Javanese ꧂](https://unicodes.jessetane.com/%EA%A6%80)
 - [ ] Check out Kim Pope's [Blog](https://blog.popekim.com/ko/)
 - [ ] Check out 대마왕's [Blog](https://chulin28ho.tistory.com/)
-- [ ] Maybe buy this book? [Real-Time Rendering](https://www.amazon.com/Real-Time-Rendering-Fourth-Tomas-Akenine-Mo-ebook-dp-B07FSKB982/dp/B07FSKB982/ref=mt_other?_encoding=UTF8&me=&qid=1640325343)
-- [ ] Maybe buy this book? [Physcis for Game Devs](https://www.amazon.com/Physics-Game-Developers-Science-realistic-ebook/dp/B00CB30Y46/ref=sr_1_1)
-- [x] Maybe buy this book? [셰이더 프로그래밍 입문](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9788979149494&orderClick=LAG&Kc=)
-    - [description](https://blog.popekim.com/ko/2012/07/09/intro-to-shader-programming.html)
-- [ ] Maybe buy this book? [유니티 쉐이더 스타트업](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9788979149494&orderClick=LAG&Kc=)
-- [ ] Maybe buy this book? [AI: A Modern Approach](https://www.amazon.com/Artificial-Intelligence-Approach-2-downloads-Artifical-ebook-dp-B092J75GML/dp/B092J75GML/ref=mt_other), check out the [desc in korean](https://jpub.tistory.com/1193)
-- [ ] Maybe buy this book? [MIT textbook on AI](https://www.amazon.com/Artificial-Intelligence-3rd-Winston/dp/0201533774)
 - [ ] Write a note on [MIT Course Syllabus on AI](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/readings/)
-- [ ] Maybe buy this book? [Essential Math for Games](https://www.amazon.com/Essential-Mathematics-Games-Interactive-Applications-ebook-dp-B015FDE53O/dp/B015FDE53O/ref=mt_other)
 - [ ] Check out this site [gamecodi](https://gamecodi.com/)
 - [ ] Check out this learning resource for PyQT
     - [예제로 배우는 PyQt](https://opentutorials.org/module/544)
@@ -585,8 +570,8 @@ Use of backlinks is recommended for tasks that require further explanation.
 
 
 ## 2021-12-27
-### Work
-- [ ] Gather more examples for Sentiment Analysis (at least 2 examples per consulting category)
+### Work (complete)
+- [x] Gather more examples for Sentiment Analysis (at least 2 examples per consulting category)
 
 ### Personal
 - [x] Start a note on [[graphics_programmer|Graphics Programmer]]
@@ -594,7 +579,7 @@ Use of backlinks is recommended for tasks that require further explanation.
 
 
 ## 2021-12-28
-## Personal
+### Personal
 - [x] Start a note on [[cg_programmer_portfolio|CG Programmer Portfolio Ideas]]
 - [x] Start a note on [[quiz_generator_ai|Quiz Generator AI]]
 - [ ] Write a note on [Memory Consolidation](https://human-memory.net/memory-consolidation/)
@@ -607,39 +592,3 @@ Use of backlinks is recommended for tasks that require further explanation.
 - [x] Start a note on [[goal_master_in_cs|Get a Master's Degree in Computer Science]]
 
 
-## 2022-01-04
-### Work (complete)
-- [x] Upgrade AI Workstation environment to be compatible with Python 3.8, Tensorflow 2.3, and CUDA
-
-### Personal
-- [x] Finish writing [[random_id_generator|Random ID Generator]]
-- [ ] Figure out a Korean book to buy (to spend the rest of the points in Benepia)
-    - [maya books](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=rpgs&logNo=220587586265)
-
-
-## 2022-01-06
-Work (complete)
-- [x] Start a note on [[setup_tensorflow_gpu_dev_environment|TF GPU Set Up]]
-- [x] Start a note on [[tensorflow_gpu_troubleshooting|TF GPU Troubleshooting]]
-- [x] Start a note on [[conda_basics|Conda Basics]]
-
-### Personal
-- [x] Apply for ESTA
-- [x] Figure out if COVID19 test is required for the return flight
-    - S.Korea requires PCR Test result within 3 days of departure
-- [ ] Figure out what counts as "evidence" of meeting somebody
-
-
-## 2022-01-11
-### Work
-- [ ] Write a note on the NLP processes for Salevis Hue Sentimental Data
-- [x] Write a note on [[link_filter_regex|Link Filter Regex]]
-
-### Personal
-- [x] Check and print ESTA
-- [ ] Write a note on the trip our family took to Sokcho
-
-
-## 2022-01-12
-### Work
-- [x] Write a note on [[email_filter_regex|E-mail Filter Regex]]

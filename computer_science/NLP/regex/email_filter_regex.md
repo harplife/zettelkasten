@@ -9,10 +9,10 @@ edited: 2022-01-12
 This should be applied _AFTER_ [[link_filter_regex|Link Filter Regex]].
 
 ## Regex
-`r'[a-zA-Z0-9_]+@[a-zA-Z0-9]+\.[a-zA-Z]+'`
+`r'[a-zA-Z0-9_]+@[a-zA-Z0-9]+\.[a-zA-Z]+(?:\.[a-zA-Z]+)?'`
 
 ## Explanation
-simple enough. It looks for patterns like `chars@chars.chars`.
+simple enough. It looks for patterns like `chars@chars.chars` or `chars@chars.chars.chars`.
 
 ## Result
 code :
@@ -21,19 +21,20 @@ text = """
 이메일로 연락:admin@example.com또는 support@example.com.there is a good wine
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 언제나@오세요.그러면 감사하겠습니다.
+아니면 no_reply@example.co.kr
 """
 
-email_regex = r'[a-zA-Z0-9_]+@[a-zA-Z0-9]+\.[a-zA-Z]+'
+email_regex = r'[a-zA-Z0-9_]+@[a-zA-Z0-9]+\.[a-zA-Z]+(?:\.[a-zA-Z]+)?'
 re.findall(email_regex, text)
 ```
 
 output :
 ```python
-['admin@example.com', 'support@example.com']
+['admin@example.com', 'support@example.com.there', 'no_reply@example.co.kr']
 ```
 
 ## Remaining Problems
-None that I can find so far.
+- [ ] Allowing formats such as `.co.kr` also allows trailing words at the end of URL (e.g. `google.com.go to here --> google.com.go`)
 
 ## Python Script
 [[python|Python]] script using the Regex.
@@ -47,7 +48,7 @@ def no_dot_end(text):
 def email_filter(text):
     import re
     
-    email_regex = r'[a-zA-Z0-9_]+@[a-zA-Z0-9]+\.[a-zA-Z]+'
+    email_regex = r'[a-zA-Z0-9_]+@[a-zA-Z0-9]+\.[a-zA-Z]+(?:\.[a-zA-Z]+)?'
     split_text = text.split()
     emails = set()
     clean_text = []
