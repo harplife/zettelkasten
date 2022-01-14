@@ -2,7 +2,7 @@
 alias: [Link Filter Regex]
 tags: [natural_language_processing, computer_science, example, guide, HOW-TO]
 status: complete
-edited: 2022-01-12
+edited: 2022-01-14
 ---
 
 # Link Filter Regex
@@ -32,6 +32,12 @@ Fixed:
 New Problem:
 - `.` at the end of the link cannot be removed (e.g. `example.com.`, `./path?query=this.`)
 
+### Updated (2021/01/14)
+`r'\b((?:https?://|www\.)(?:[0-9a-zA-Z]+\.?)+(?:(?:/[\w@\-]+)?)+(?:\.\w+)?(?:/)?(?:/?\?\w+=[\w%.+\-_]+(?:(?:&\w+=(?:[\w%.+\-_]+)?)?)+)?)'`
+
+Fixed:
+- Query can now accept empty value (e.g. `?query=this&empty=&foo=bar`)
+
 ## Explanation
 ![[link_filter_regex_guide.svg]]
 (This _regex_ is an old version, but it should suffice for explanation)
@@ -56,9 +62,10 @@ www.google.com/search?쿼리=이래도될까요
 www.이건어쩔수없네요.com
 www.google.co.kr
 Take a look at http://www.myblog.com/posts/.it is wonderful
+www.example.com/path?query=this&empty=&foo=bar
 """
 
-url_regex = r'\b((?:https?://|www\.)(?:[0-9a-zA-Z]+\.?)+(?:(?:/[\w@\-]+)?)+(?:\.\w+)?(?:/)?(?:/?\?\w+=[\w%.+\-_]+(?:(?:&\w+=[\w%.+\-_]+)?)+)?)'
+url_regex = r'\b((?:https?://|www\.)(?:[0-9a-zA-Z]+\.?)+(?:(?:/[\w@\-]+)?)+(?:\.\w+)?(?:/)?(?:/?\?\w+=[\w%.+\-_]+(?:(?:&\w+=(?:[\w%.+\-_]+)?)?)+)?)'
 re.findall(url_regex, text)
 ```
 
@@ -78,7 +85,8 @@ output :
  'www.google.com/o-m-g?query=this_and_that&add=those_are.cheap-I-Think',
  'www.google.com/search?쿼리=이래도될까요',
  'www.google.co.kr',
- 'http://www.myblog.com/posts/']
+ 'http://www.myblog.com/posts/',
+ 'www.example.com/path?query=this&empty=&foo=bar']
 ```
 
 ## Remaining Problems
@@ -101,7 +109,7 @@ def no_dot_end(text):
 def url_filter(text, invalid='@'):
     import re
     
-    url_regex = r'\b((?:https?://|www\.)(?:[0-9a-zA-Z]+\.?)+(?:(?:/[\w@\-]+)?)+(?:\.\w+)?(?:/)?(?:/?\?\w+=[\w%.+\-_]+(?:(?:&\w+=[\w%.+\-_]+)?)+)?)'
+    url_regex = r'\b((?:https?://|www\.)(?:[0-9a-zA-Z]+\.?)+(?:(?:/[\w@\-]+)?)+(?:\.\w+)?(?:/)?(?:/?\?\w+=[\w%.+\-_]+(?:(?:&\w+=(?:[\w%.+\-_]+)?)?)+)?)'
     split_text = text.split()
     links = set()
     clean_text = []
@@ -134,5 +142,6 @@ def url_filter(text, invalid='@'):
 
 ```python
 >>> url_filter('Take a look at http://www.myblog.com/posts/.it is wonderful')
+output:
 ('Take a look at link.it is wonderful', 'http://www.myblog.com/posts/')
 ```

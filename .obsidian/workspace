@@ -20,7 +20,7 @@
               "leaf": "cd2ea29d454b2fb0",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"wishlist/books.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":0.022727272727272728}"
+              "eState": "{}"
             },
             {
               "leaf": "cd2ea29d454b2fb0",
@@ -66,7 +66,7 @@
               "leaf": "75393debcedfc133",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"travel/south_korea/20220108_trip_to_sokcho.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":106,\"ch\":302},\"to\":{\"line\":106,\"ch\":302}},\"scroll\":0}"
+              "eState": "{}"
             }
           ]
         }
@@ -77,24 +77,24 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "todo/todo_log_2021.md",
+            "file": "todo/todo_log_2022.md",
             "mode": "source"
           }
         },
         "pane-relief:history-v1": {
-          "pos": 0,
+          "pos": 1,
           "stack": [
             {
               "leaf": "7f9aea1dfaa4bea9",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"todo/todo_log_2021.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":172.08333333333334}"
+              "eState": "{}"
             },
             {
               "leaf": "7f9aea1dfaa4bea9",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"todo/todo_log_2022.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":15},\"to\":{\"line\":3,\"ch\":15}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}}}"
             },
             {
               "leaf": "7f9aea1dfaa4bea9",
@@ -111,7 +111,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "computer_science/NLP/regex/email_filter_regex.md",
+            "file": "computer_science/NLP/regex/link_filter_regex.md",
             "mode": "source"
           }
         },
@@ -121,8 +121,14 @@
             {
               "leaf": "ae84d6d6c2ae1f61",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/NLP/regex/link_filter_regex.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":144,\"ch\":7},\"to\":{\"line\":144,\"ch\":7}},\"scroll\":110.3529411764706}"
+            },
+            {
+              "leaf": "ae84d6d6c2ae1f61",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/NLP/regex/email_filter_regex.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":57},\"to\":{\"line\":8,\"ch\":57}}}"
             },
             {
               "leaf": "ae84d6d6c2ae1f61",
@@ -201,7 +207,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer_science/NLP/regex/email_filter_regex.md",
+                "file": "computer_science/NLP/regex/link_filter_regex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -237,7 +243,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer_science/NLP/regex/email_filter_regex.md"
+                "file": "computer_science/NLP/regex/link_filter_regex.md"
               }
             },
             "pane-relief:history-v1": {
@@ -254,15 +260,15 @@
   },
   "active": "ae84d6d6c2ae1f61",
   "lastOpenFiles": [
-    "computer_science/NLP/regex/email_filter_regex.md",
+    "computer_science/NLP/regex/link_filter_regex.md",
     "todo/todo_log_2022.md",
+    "todo/todo_log_2021.md",
     "wishlist/books.md",
     "travel/south_korea/20220108_trip_to_sokcho.md",
-    "todo/todo_log_2021.md",
+    "computer_science/NLP/regex/email_filter_regex.md",
     "data_science/customer_retention_rate.md",
     "philosophy/levels_of_wizardry.md",
     "biology/the_scent_of_a_molecule_2017_sciencehistory.md",
-    "unsorted/plot_temperature.md",
-    "books/ebooks/SQL_자격검정_실전_문제.md"
+    "unsorted/plot_temperature.md"
   ]
 }
