@@ -50,28 +50,6 @@
         }
       },
       {
-        "id": "75393debcedfc133",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "travel/south_korea/20220108_trip_to_sokcho.md",
-            "mode": "source"
-          }
-        },
-        "pane-relief:history-v1": {
-          "pos": 0,
-          "stack": [
-            {
-              "leaf": "75393debcedfc133",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"travel/south_korea/20220108_trip_to_sokcho.md\",\"mode\":\"source\"}}",
-              "eState": "{}"
-            }
-          ]
-        }
-      },
-      {
         "id": "7f9aea1dfaa4bea9",
         "type": "leaf",
         "state": {
@@ -94,7 +72,7 @@
               "leaf": "7f9aea1dfaa4bea9",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"todo/todo_log_2022.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":57,\"ch\":42},\"to\":{\"line\":57,\"ch\":42}},\"scroll\":30.357142857142858}"
             },
             {
               "leaf": "7f9aea1dfaa4bea9",
@@ -122,7 +100,7 @@
               "leaf": "ae84d6d6c2ae1f61",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/NLP/regex/link_filter_regex.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":144,\"ch\":7},\"to\":{\"line\":144,\"ch\":7}},\"scroll\":110.3529411764706}"
+              "eState": "{}"
             },
             {
               "leaf": "ae84d6d6c2ae1f61",
@@ -262,9 +240,9 @@
   "lastOpenFiles": [
     "computer_science/NLP/regex/link_filter_regex.md",
     "todo/todo_log_2022.md",
+    "travel/south_korea/20220108_trip_to_sokcho.md",
     "todo/todo_log_2021.md",
     "wishlist/books.md",
-    "travel/south_korea/20220108_trip_to_sokcho.md",
     "computer_science/NLP/regex/email_filter_regex.md",
     "data_science/customer_retention_rate.md",
     "philosophy/levels_of_wizardry.md",

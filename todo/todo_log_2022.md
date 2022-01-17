@@ -46,5 +46,13 @@ Work (complete)
 
 
 ## 2022-01-12
-### Work
+### Work (complete)
 - [x] Write a note on [[email_filter_regex|E-mail Filter Regex]]
+
+
+## 2022-01-17
+### Work
+- [ ] Finish up Data Pre-processing on Sentimental Analysis Data
+
+### Personal
+- [ ] Start packing the bag for "THE TRIP"

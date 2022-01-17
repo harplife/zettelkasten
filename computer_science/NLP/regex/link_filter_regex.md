@@ -38,6 +38,19 @@ New Problem:
 Fixed:
 - Query can now accept empty value (e.g. `?query=this&empty=&foo=bar`)
 
+### Updated (2021/01/17)
+`r'\b((?:https?://|www\.)(?:[0-9a-zA-Z]+\.?)+(?:(?:/[\w@\-%=]+)?)+(?:\.\w+)?(?:/?\?\w+=[\w%.+\-_=\|]+(?:(?:&\w+=(?:[\w%.+\-_=\|]+)?)?)+)?(?:#\w+)?)'`
+
+Fixed:
+- Path now allows Korean (e.g. `./이길로/간다네`)
+- Query now allows `=` and `|`
+- Content Link `#` added
+- File Path with empty filename is not allowed (e.g. `../.html`)
+- Path now allows `=` (definitively weird, but this [Amazon URL](https://www.amazon.com/uxcell-GX16-4-Aviation-Connecting-Connector/dp/B00GYUUHVW/ref=pd_sbs_23_1?_encoding=UTF8&pd_rd_i=B00GYUUHVW&pd_rd_r=6e83ea7c-6700-11e8-bb86-fd49c2c21015&pd_rd_w=kZxqA&pd_rd_wg=YARMP&pf_rd_i=desktop-dp-sims&pf_rd_m=ATVPDKIKX0DER&pf_rd_p=5825442648805390339&pf_rd_r=D36QZXGKWKE4TKVN94NA&pf_rd_s=desktop-dp-sims&pf_rd_t=40701&psc=1&refRID=D36QZXGKWKE4TKVN94NA) has this)
+
+New Problem:
+- Fixing empty filename issue conflicts with catching slash at the end of URL (e.g. `www.google.com/`), because allowing slash at the end would also allow `../index.html/`. That's no bueno.
+
 ## Explanation
 ![[link_filter_regex_guide.svg]]
 (This _regex_ is an old version, but it should suffice for explanation)
@@ -46,53 +59,63 @@ Fixed:
 code :
 ```python
 text = """
-https://example.com/python/learn/regex.html
-http://www.youtu.be/awefawlin.
-check it out.www.naver.me https://www.google.com/search?q=computer+science and
-that https://goog.le/search?query=hi
-https://goog.le/search?query=hi&key=doit
-map.naver.com
-https://www.example.com/python/python_regex.asp?query=%EC%95%88%EB%85%95%ED%95%98%EC%84%B8%EC%9A%94.
-https://www.example.com/python/python_regex.asp/?query=한국어+..+english
-'howdy https://m.blog.naver.com/PostView.nhn?blogId=ako9417&logNo=221172391948&something=else hgere'
-www.google.com/?query=me&foo=bar&soap=bar
-www.google.com으로 오세요
-www.google.com/o-m-g?query=this_and_that&add=those_are.cheap-I-Think
-www.google.com/search?쿼리=이래도될까요
-www.이건어쩔수없네요.com
-www.google.co.kr
-Take a look at http://www.myblog.com/posts/.it is wonderful
-www.example.com/path?query=this&empty=&foo=bar
+http://example.com <-- 1) http 체크
+https://example.com <-- 2) https 체크
+www.example.com <-- 3) www 체크
+http://www.example.com <-- 4) http + www 체크
+this link.www.example.com <-- 5) URL 앞에 이상한게 붙어있는 경우 체크
+www.google.com/search?q=computer+science <-- 6) 경로 및 쿼리 체크
+www.example.com/path/go?foo=bar&kung=fu&pan=da <-- 7) 쿼리 연장 체크
+map.naver.com <-- 이런 형식의 URL은 필터가 불가능함.
+www.example.com/?foo=bar <-- 8) / 뒤에 바로 쿼리가 있는 경우 체크
+www.example.com/path/?query=%EC%95%88%EB%85%95%ED%95%98%EC%84%B8%EC%9A%94 <-- 9) "한국어" 쿼리 체크
+www.example.com/path?query=한국어+..+english&foo=this|that&bar=it-is_ <-- 10) 한국어 및 특수기호 체크
+www.example.co.kr으로 오세요 <-- 11) domain extension은 영어만 취급
+www.example.com/%EC%95%88%EB%85%95%ED%95%98%EC%84%B8%EC%9A%94/path/ <-- 12) 한국어 path 체크
+www.이건어쩔수없네요.com <-- 한국어 도메인은 제외
+www.example.com/path-like-this/ <-- 13) path 특수기호 체크
+www.example.com/path/index.html visit here <-- 14) 파일 경로 체크
+www.example.com/index.visit here <-- 14번의 문제(1): URL 뒤에 단어가 붙는 경우, domain ext로 취급해버림
+www.example.com/.it is wonderful <-- 15) "가짜" 파일 경로 체크 방지
+www.example.com/path?query=this&empty=&foo=bar <-- 16) 빈 쿼리 체크
+www.example.com/?query=this&foo==&bar== <-- 17) 쿼리에 =가 있는 경우 체크
+www.example.com/path/?query=this#index <-- 18) 콘텐츠 #영역 기능 체크
+www.example.com/path/ref=123142?query=this <-- 19) path에 =가 있는 경우 체크
 """
 
-url_regex = r'\b((?:https?://|www\.)(?:[0-9a-zA-Z]+\.?)+(?:(?:/[\w@\-]+)?)+(?:\.\w+)?(?:/)?(?:/?\?\w+=[\w%.+\-_]+(?:(?:&\w+=(?:[\w%.+\-_]+)?)?)+)?)'
+url_regex = r'\b((?:https?://|www\.)(?:[0-9a-zA-Z]+\.?)+(?:(?:/[\w@\-%=]+)?)+(?:\.\w+)?(?:/?\?\w+=[\w%.+\-_=\|]+(?:(?:&\w+=(?:[\w%.+\-_=\|]+)?)?)+)?(?:#\w+)?)'
 re.findall(url_regex, text)
 ```
 
 output :
 ```python
-['https://example.com/python/learn/regex.html',
- 'http://www.youtu.be/awefawlin',
- 'www.naver.me',
- 'https://www.google.com/search?q=computer+science',
- 'https://goog.le/search?query=hi',
- 'https://goog.le/search?query=hi&key=doit',
- 'https://www.example.com/python/python_regex.asp?query=%EC%95%88%EB%85%95%ED%95%98%EC%84%B8%EC%9A%94.',
- 'https://www.example.com/python/python_regex.asp/?query=한국어+..+english',
- 'https://m.blog.naver.com/PostView.nhn?blogId=ako9417&logNo=221172391948&something=else',
- 'www.google.com/?query=me&foo=bar&soap=bar',
- 'www.google.com',
- 'www.google.com/o-m-g?query=this_and_that&add=those_are.cheap-I-Think',
- 'www.google.com/search?쿼리=이래도될까요',
- 'www.google.co.kr',
- 'http://www.myblog.com/posts/',
- 'www.example.com/path?query=this&empty=&foo=bar']
+['http://example.com',
+ 'https://example.com',
+ 'www.example.com',
+ 'http://www.example.com',
+ 'www.example.com',
+ 'www.google.com/search?q=computer+science',
+ 'www.example.com/path/go?foo=bar&kung=fu&pan=da',
+ 'www.example.com/?foo=bar',
+ 'www.example.com/path/?query=%EC%95%88%EB%85%95%ED%95%98%EC%84%B8%EC%9A%94',
+ 'www.example.com/path?query=한국어+..+english&foo=this|that&bar=it-is_',
+ 'www.example.co.kr',
+ 'www.example.com/%EC%95%88%EB%85%95%ED%95%98%EC%84%B8%EC%9A%94/path',
+ 'www.example.com/path-like-this',
+ 'www.example.com/path/index.html',
+ 'www.example.com/index.visit',
+ 'www.example.com',
+ 'www.example.com/path?query=this&empty=&foo=bar',
+ 'www.example.com/?query=this&foo==&bar==',
+ 'www.example.com/path/?query=this#index',
+ 'www.example.com/path/ref=123142?query=this']
 ```
 
 ## Remaining Problems
 - [x] Can't handle Query Parameter that comes at index level (e.g. `www.ex.com/?foo=bar`)
     - Fixed with 2021/01/12 Update
 - [ ] Can't handle URLs without schemes (e.g. `google.com`). Although fixable, this opens up a whole another issue of grabbing false-positive links.
+- [ ] Typos that connect two URLs, like `www.google.comwww.yahoo.com` cannot be handled
 
 
 ## Python Script
@@ -109,7 +132,7 @@ def no_dot_end(text):
 def url_filter(text, invalid='@'):
     import re
     
-    url_regex = r'\b((?:https?://|www\.)(?:[0-9a-zA-Z]+\.?)+(?:(?:/[\w@\-]+)?)+(?:\.\w+)?(?:/)?(?:/?\?\w+=[\w%.+\-_]+(?:(?:&\w+=(?:[\w%.+\-_]+)?)?)+)?)'
+    url_regex = r'\b((?:https?://|www\.)(?:[0-9a-zA-Z]+\.?)+(?:(?:/[\w@\-%]+)?)+(?:\.\w+)?(?:/?\?\w+=[\w%.+\-_=\|]+(?:(?:&\w+=(?:[\w%.+\-_=\|]+)?)?)+)?(?:#\w+)?)'
     split_text = text.split()
     links = set()
     clean_text = []
@@ -143,5 +166,5 @@ def url_filter(text, invalid='@'):
 ```python
 >>> url_filter('Take a look at http://www.myblog.com/posts/.it is wonderful')
 output:
-('Take a look at link.it is wonderful', 'http://www.myblog.com/posts/')
+('Take a look at link/.it is wonderful', 'http://www.myblog.com/posts')
 ```
