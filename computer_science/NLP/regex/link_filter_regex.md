@@ -51,9 +51,16 @@ Fixed:
 New Problem:
 - Fixing empty filename issue conflicts with catching slash at the end of URL (e.g. `www.google.com/`), because allowing slash at the end would also allow `../index.html/`. That's no bueno.
 
+### Updated (2021/01/18)
+`r'(?:https?:\/\/|www\.)(?:[0-9a-zA-Z]+\.?)+(?:(?:\/[\w@\-%=]+)?)+(?:\.\w+)?(?:\/?\?\w+=[\w%.+\-_=\|]+(?:(?:&\w+=(?:[\w%.+\-_=\|]+)?)?)+)?(?:#\w+)?'`
+
+Fixed:
+- Apparently `/` needs to be escaped. Replaced them with `\/`
+- Seems `\b` was unnecessary, it's more useful without (`this sitewww.google.com` can't be caught with `/b`)
+
 ## Explanation
 ![[link_filter_regex_guide.svg]]
-(This _regex_ is an old version, but it should suffice for explanation)
+(Updated 2022/01/18)
 
 ## Result
 code :
@@ -83,7 +90,7 @@ www.example.com/path/?query=this#index <-- 18) 콘텐츠 #영역 기능 체크
 www.example.com/path/ref=123142?query=this <-- 19) path에 =가 있는 경우 체크
 """
 
-url_regex = r'\b((?:https?://|www\.)(?:[0-9a-zA-Z]+\.?)+(?:(?:/[\w@\-%=]+)?)+(?:\.\w+)?(?:/?\?\w+=[\w%.+\-_=\|]+(?:(?:&\w+=(?:[\w%.+\-_=\|]+)?)?)+)?(?:#\w+)?)'
+url_regex = r'(?:https?:\/\/|www\.)(?:[0-9a-zA-Z]+\.?)+(?:(?:\/[\w@\-%=]+)?)+(?:\.\w+)?(?:\/?\?\w+=[\w%.+\-_=\|]+(?:(?:&\w+=(?:[\w%.+\-_=\|]+)?)?)+)?(?:#\w+)?'
 re.findall(url_regex, text)
 ```
 
@@ -132,7 +139,7 @@ def no_dot_end(text):
 def url_filter(text, invalid='@'):
     import re
     
-    url_regex = r'\b((?:https?://|www\.)(?:[0-9a-zA-Z]+\.?)+(?:(?:/[\w@\-%]+)?)+(?:\.\w+)?(?:/?\?\w+=[\w%.+\-_=\|]+(?:(?:&\w+=(?:[\w%.+\-_=\|]+)?)?)+)?(?:#\w+)?)'
+    url_regex = r'(?:https?:\/\/|www\.)(?:[0-9a-zA-Z]+\.?)+(?:(?:\/[\w@\-%=]+)?)+(?:\.\w+)?(?:\/?\?\w+=[\w%.+\-_=\|]+(?:(?:&\w+=(?:[\w%.+\-_=\|]+)?)?)+)?(?:#\w+)?'
     split_text = text.split()
     links = set()
     clean_text = []

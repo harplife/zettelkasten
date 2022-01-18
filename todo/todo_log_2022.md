@@ -56,3 +56,22 @@ Work (complete)
 
 ### Personal
 - [ ] Start packing the bag for "THE TRIP"
+
+
+## 2022-01-18
+### Work
+- [ ] [This](https://stackoverflow.com/a/37318066/10570582) might help with building a portable crawler (so that I can just pass it over to somebody) 
+
+### Personal
+- [ ] Write a note on [5 Must-Know Python Concepts for Experienced Developers](https://betterprogramming.pub/must-know-python-concepts-for-experienced-developers-4554ceea3d95)
+- [ ] Write a note on [Small Functions considered Harmful](https://copyconstruct.medium.com/small-functions-considered-harmful-91035d316c29)
+    - Martin Fowler says small functions are good, but this article has decent arguments against that.
+- [x] Apply for _MAIN_ classes at KNOU for 2022 2nd Semester, following [[2022년_1학기_방통대_컴퓨터과학과_계획|방통대 컴퓨터과학과 계획 2022년 1학기 계획]]
+- [x] Check S.Korea [Covid19 Travel Info Release](http://ncov.mohw.go.kr/duBoardList.do?brdId=2&brdGubun=23#)
+
+
+## 2022-01-19
+### Work
+
+### Personal
+- [ ] Apply for _Minor_ classes at KNOU for 2022 2nd Semester, following [[2022년_1학기_방통대_컴퓨터과학과_계획|방통대 컴퓨터과학과 계획 2022년 1학기 계획]]

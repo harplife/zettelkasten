@@ -55,24 +55,24 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "todo/todo_log_2022.md",
+            "file": "computer_science/NLP/regex/email_filter_regex.md",
             "mode": "source"
           }
         },
         "pane-relief:history-v1": {
-          "pos": 1,
+          "pos": 0,
           "stack": [
             {
               "leaf": "7f9aea1dfaa4bea9",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"todo/todo_log_2021.md\",\"mode\":\"source\"}}",
-              "eState": "{}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/NLP/regex/email_filter_regex.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":149},\"to\":{\"line\":12,\"ch\":149}},\"scroll\":0}"
             },
             {
               "leaf": "7f9aea1dfaa4bea9",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"todo/todo_log_2022.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":57,\"ch\":42},\"to\":{\"line\":57,\"ch\":42}},\"scroll\":30.357142857142858}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":63,\"ch\":0},\"to\":{\"line\":63,\"ch\":0}},\"scroll\":52.357142857142854}"
             },
             {
               "leaf": "7f9aea1dfaa4bea9",
@@ -84,12 +84,40 @@
         }
       },
       {
+        "id": "0ebef1f0f69ee5ff",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "KNOU/2022년_1학기_방통대_컴퓨터과학과_계획.md",
+            "mode": "source"
+          }
+        },
+        "pane-relief:history-v1": {
+          "pos": 1,
+          "stack": [
+            {
+              "leaf": "0ebef1f0f69ee5ff",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"KNOU/2021년_2학기_방통대_컴퓨터과학과_계획.md\",\"mode\":\"source\"}}",
+              "eState": "{\"scroll\":283}"
+            },
+            {
+              "leaf": "0ebef1f0f69ee5ff",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"KNOU/2022년_1학기_방통대_컴퓨터과학과_계획.md\",\"mode\":\"source\"}}",
+              "eState": "{\"scroll\":31.333333333333332}"
+            }
+          ]
+        }
+      },
+      {
         "id": "ae84d6d6c2ae1f61",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "computer_science/NLP/regex/link_filter_regex.md",
+            "file": "computer_science/NLP/regex/regular_expression.md",
             "mode": "source"
           }
         },
@@ -99,8 +127,38 @@
             {
               "leaf": "ae84d6d6c2ae1f61",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/NLP/regex/regular_expression.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":0},\"to\":{\"line\":13,\"ch\":0}},\"scroll\":0}"
+            },
+            {
+              "leaf": "ae84d6d6c2ae1f61",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/NLP/regex/link_filter_regex.md\",\"mode\":\"source\"}}",
-              "eState": "{}"
+              "eState": "{\"scroll\":40.035714285714285}"
+            },
+            {
+              "leaf": "ae84d6d6c2ae1f61",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/NLP/regex/regular_expression.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":58,\"ch\":269},\"to\":{\"line\":58,\"ch\":269}},\"scroll\":0}"
+            },
+            {
+              "leaf": "ae84d6d6c2ae1f61",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/NLP/regex/link_filter_regex.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":48,\"ch\":455},\"to\":{\"line\":48,\"ch\":455}},\"scroll\":37.166666666666664}"
+            },
+            {
+              "leaf": "ae84d6d6c2ae1f61",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/NLP/regex/regular_expression.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":0},\"to\":{\"line\":18,\"ch\":0}},\"scroll\":0}"
+            },
+            {
+              "leaf": "ae84d6d6c2ae1f61",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/NLP/regex/link_filter_regex.md\",\"mode\":\"source\"}}",
+              "eState": "{\"scroll\":0}"
             },
             {
               "leaf": "ae84d6d6c2ae1f61",
@@ -185,7 +243,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer_science/NLP/regex/link_filter_regex.md",
+                "file": "computer_science/NLP/regex/email_filter_regex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -221,7 +279,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer_science/NLP/regex/link_filter_regex.md"
+                "file": "computer_science/NLP/regex/email_filter_regex.md"
               }
             },
             "pane-relief:history-v1": {
@@ -236,17 +294,17 @@
     "direction": "horizontal",
     "width": 316.5
   },
-  "active": "ae84d6d6c2ae1f61",
+  "active": "7f9aea1dfaa4bea9",
   "lastOpenFiles": [
-    "computer_science/NLP/regex/link_filter_regex.md",
+    "computer_science/NLP/regex/email_filter_regex.md",
     "todo/todo_log_2022.md",
+    "computer_science/NLP/regex/regular_expression.md",
+    "computer_science/NLP/regex/link_filter_regex.md",
+    "KNOU/2022년_1학기_방통대_컴퓨터과학과_계획.md",
+    "KNOU/2021년_2학기_방통대_컴퓨터과학과_계획.md",
     "travel/south_korea/20220108_trip_to_sokcho.md",
     "todo/todo_log_2021.md",
     "wishlist/books.md",
-    "computer_science/NLP/regex/email_filter_regex.md",
-    "data_science/customer_retention_rate.md",
-    "philosophy/levels_of_wizardry.md",
-    "biology/the_scent_of_a_molecule_2017_sciencehistory.md",
-    "unsorted/plot_temperature.md"
+    "data_science/customer_retention_rate.md"
   ]
 }

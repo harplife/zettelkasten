@@ -2,11 +2,15 @@
 alias: [E-mail Filter Regex]
 tags: [natural_language_processing, computer_science, example, guide, HOW-TO]
 status: complete
-edited: 2022-01-12
+edited: 2022-01-18
 ---
 
 # E-mail Filter Regex
 This should be applied _AFTER_ [[link_filter_regex|Link Filter Regex]].
+
+Note that a Regex that can fully comply to the e-mail standard (RFC 5322) is [incredibly complex](https://stackoverflow.com/a/201378/10570582).
+
+On a related note, [RFC 3490 Standard now allows for URLs to be written in UTF8 (previously ASCII only)](https://stackoverflow.com/a/2071250/10570582). It's not implemented very widely as of yet, but it is there and its presence is increasing.
 
 ## Regex
 `r'[a-zA-Z0-9_]+@[a-zA-Z0-9]+\.[a-zA-Z]+(?:\.[a-zA-Z]+)?'`
