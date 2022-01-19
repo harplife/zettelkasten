@@ -74,4 +74,13 @@ Work (complete)
 ### Work
 
 ### Personal
-- [ ] Apply for _Minor_ classes at KNOU for 2022 2nd Semester, following [[2022년_1학기_방통대_컴퓨터과학과_계획|방통대 컴퓨터과학과 계획 2022년 1학기 계획]]
+- [x] Apply for _Minor_ classes at KNOU for 2022 2nd Semester, following [[2022년_1학기_방통대_컴퓨터과학과_계획|방통대 컴퓨터과학과 계획 2022년 1학기 계획]]
+- [ ] Print out Practice Tests for [[2022년_1학기_방통대_컴퓨터과학과_계획|1st Semester Classes]]
+- [ ] Reserve a PCR Test on 2/6
+
+
+## 2022-01-20
+### Work
+
+### Personal
+- [ ] 방통대 등록금 고지서 확인

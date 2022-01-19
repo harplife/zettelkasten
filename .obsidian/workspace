@@ -55,24 +55,24 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "computer_science/NLP/regex/email_filter_regex.md",
+            "file": "todo/todo_log_2022.md",
             "mode": "source"
           }
         },
         "pane-relief:history-v1": {
-          "pos": 0,
+          "pos": 1,
           "stack": [
             {
               "leaf": "7f9aea1dfaa4bea9",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/NLP/regex/email_filter_regex.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":149},\"to\":{\"line\":12,\"ch\":149}},\"scroll\":0}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"travel/south_korea/20220108_trip_to_sokcho.md\",\"mode\":\"source\"}}",
+              "eState": "{\"scroll\":0}"
             },
             {
               "leaf": "7f9aea1dfaa4bea9",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"todo/todo_log_2022.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":63,\"ch\":0},\"to\":{\"line\":63,\"ch\":0}},\"scroll\":52.357142857142854}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":84,\"ch\":83},\"to\":{\"line\":84,\"ch\":83}},\"scroll\":62.166666666666664}"
             },
             {
               "leaf": "7f9aea1dfaa4bea9",
@@ -106,7 +106,7 @@
               "leaf": "0ebef1f0f69ee5ff",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"KNOU/2022년_1학기_방통대_컴퓨터과학과_계획.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":31.333333333333332}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":57,\"ch\":109},\"to\":{\"line\":57,\"ch\":109}},\"scroll\":35.041666666666664}"
             }
           ]
         }
@@ -128,13 +128,13 @@
               "leaf": "ae84d6d6c2ae1f61",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/NLP/regex/regular_expression.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":0},\"to\":{\"line\":13,\"ch\":0}},\"scroll\":0}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
             },
             {
               "leaf": "ae84d6d6c2ae1f61",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/NLP/regex/link_filter_regex.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":40.035714285714285}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":40.607142857142854}"
             },
             {
               "leaf": "ae84d6d6c2ae1f61",
@@ -243,7 +243,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer_science/NLP/regex/email_filter_regex.md",
+                "file": "todo/todo_log_2022.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -279,7 +279,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer_science/NLP/regex/email_filter_regex.md"
+                "file": "todo/todo_log_2022.md"
               }
             },
             "pane-relief:history-v1": {
@@ -296,13 +296,13 @@
   },
   "active": "7f9aea1dfaa4bea9",
   "lastOpenFiles": [
-    "computer_science/NLP/regex/email_filter_regex.md",
     "todo/todo_log_2022.md",
+    "travel/south_korea/20220108_trip_to_sokcho.md",
+    "computer_science/NLP/regex/email_filter_regex.md",
     "computer_science/NLP/regex/regular_expression.md",
     "computer_science/NLP/regex/link_filter_regex.md",
     "KNOU/2022년_1학기_방통대_컴퓨터과학과_계획.md",
     "KNOU/2021년_2학기_방통대_컴퓨터과학과_계획.md",
-    "travel/south_korea/20220108_trip_to_sokcho.md",
     "todo/todo_log_2021.md",
     "wishlist/books.md",
     "data_science/customer_retention_rate.md"
