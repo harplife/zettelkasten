@@ -50,7 +50,7 @@
         }
       },
       {
-        "id": "7f9aea1dfaa4bea9",
+        "id": "b0976b01c441801a",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -60,25 +60,13 @@
           }
         },
         "pane-relief:history-v1": {
-          "pos": 1,
+          "pos": 0,
           "stack": [
             {
-              "leaf": "7f9aea1dfaa4bea9",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"travel/south_korea/20220108_trip_to_sokcho.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":0}"
-            },
-            {
-              "leaf": "7f9aea1dfaa4bea9",
+              "leaf": "b0976b01c441801a",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"todo/todo_log_2022.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":84,\"ch\":83},\"to\":{\"line\":84,\"ch\":83}},\"scroll\":62.166666666666664}"
-            },
-            {
-              "leaf": "7f9aea1dfaa4bea9",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"todo/todo_log_2021.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":116,\"ch\":0},\"to\":{\"line\":116,\"ch\":0}},\"scroll\":0}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
             }
           ]
         }
@@ -294,17 +282,17 @@
     "direction": "horizontal",
     "width": 316.5
   },
-  "active": "7f9aea1dfaa4bea9",
+  "active": "b0976b01c441801a",
   "lastOpenFiles": [
     "todo/todo_log_2022.md",
+    "wishlist/books.md",
+    "attachments/자연어_처리_프로세스_김우빈_20220120.pdf",
     "travel/south_korea/20220108_trip_to_sokcho.md",
     "computer_science/NLP/regex/email_filter_regex.md",
     "computer_science/NLP/regex/regular_expression.md",
     "computer_science/NLP/regex/link_filter_regex.md",
     "KNOU/2022년_1학기_방통대_컴퓨터과학과_계획.md",
     "KNOU/2021년_2학기_방통대_컴퓨터과학과_계획.md",
-    "todo/todo_log_2021.md",
-    "wishlist/books.md",
-    "data_science/customer_retention_rate.md"
+    "todo/todo_log_2021.md"
   ]
 }
