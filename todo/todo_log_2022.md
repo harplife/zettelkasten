@@ -83,3 +83,23 @@ Work (complete)
 
 ### Personal
 - [ ] 방통대 등록금 고지서 확인
+
+
+## 2022-01-24
+### Work
+- [ ] 감정분석 가이드라인 작성
+- [ ] Write a note on [[japanese_regex]]
+- [ ] Write a note on [unicode spaces](https://jkorpela.fi/chars/spaces.html)
+- [ ] Notify team leader about my trip
+
+### Personal
+- [ ] Prepare for the trip
+    - [ ] Get some clothing
+    - [ ] Prepare gifts?
+    - [x] 불가리 익스트림 향수 1개 구입
+    - [x] 블루투스 헤드폰 1개 구입
+    - [x] PC용 게임 컨트롤러 1개 구입
+    - [x] 윈도우10 구입
+- [ ] Read Thinking Fast & Slow (on Amazon eBook)
+- [ ] Ask Delta Airline if a backpack is counted as a carry-on bag
+    - [Delta Carry-On Baggage instructions](https://www.delta.com/us/en/baggage/carry-on-baggage)

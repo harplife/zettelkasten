@@ -105,7 +105,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "computer_science/NLP/regex/regular_expression.md",
+            "file": "computer_science/NLP/regex/japanese_regex.md",
             "mode": "source"
           }
         },
@@ -115,8 +115,14 @@
             {
               "leaf": "ae84d6d6c2ae1f61",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/NLP/regex/japanese_regex.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":45},\"to\":{\"line\":1,\"ch\":45}},\"scroll\":0}"
+            },
+            {
+              "leaf": "ae84d6d6c2ae1f61",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/NLP/regex/regular_expression.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+              "eState": "{\"scroll\":33.916666666666664}"
             },
             {
               "leaf": "ae84d6d6c2ae1f61",
@@ -285,14 +291,14 @@
   "active": "b0976b01c441801a",
   "lastOpenFiles": [
     "todo/todo_log_2022.md",
+    "computer_science/NLP/regex/japanese_regex.md",
+    "computer_science/NLP/regex/regular_expression.md",
     "wishlist/books.md",
     "attachments/자연어_처리_프로세스_김우빈_20220120.pdf",
     "travel/south_korea/20220108_trip_to_sokcho.md",
     "computer_science/NLP/regex/email_filter_regex.md",
-    "computer_science/NLP/regex/regular_expression.md",
     "computer_science/NLP/regex/link_filter_regex.md",
     "KNOU/2022년_1학기_방통대_컴퓨터과학과_계획.md",
-    "KNOU/2021년_2학기_방통대_컴퓨터과학과_계획.md",
-    "todo/todo_log_2021.md"
+    "KNOU/2021년_2학기_방통대_컴퓨터과학과_계획.md"
   ]
 }
