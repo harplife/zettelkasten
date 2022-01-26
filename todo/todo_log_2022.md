@@ -95,11 +95,18 @@ Work (complete)
 ### Personal
 - [ ] Prepare for the trip
     - [ ] Get some clothing
-    - [ ] Prepare gifts?
-    - [x] 불가리 익스트림 향수 1개 구입
-    - [x] 블루투스 헤드폰 1개 구입
-    - [x] PC용 게임 컨트롤러 1개 구입
-    - [x] 윈도우10 구입
+    - [x] Prepare gift
+        - Blue Rough Diamond Earrings (25만원, 14캐럿 골드)
+    - [x] 향수 1개 구입 (쿠팡, 01/25 도착 예정)
+        - [에르메스 떼르 데르메스](https://www.coupang.com/vp/products/1421969594)
+        - [불가리 뿌르 옴므 익스트림](https://www.coupang.com/vp/products/1487426575)
+    - [x] 블루투스 헤드폰 1개 구입 (아마존, 01/28 도착 예정)
+        - [로지텍 H800 Renewed](https://www.amazon.com/dp/B06Y2B514H)
+    - [x] PC용 게임 컨트롤러 1개 구입 (마이크로소프트)
+        - [Xbox Wireless Controller + Wireless Adapter for Windows](https://www.microsoft.com/en-us/p/xbox-wireless-controller-wireless-adapter-for-windows/8rdmhcqpftb3/5d0n), 01/26 도착 예정
+        - [Xbox Rechargeable Battery + USB C Cable](https://www.microsoft.com/en-us/d/xbox-rechargeable-battery-usb-c-cable-latest-model/8thsbp49z46x/9779), 03/18 도착 예정
+    - [x] 윈도우10 구입 (코스트코)
+        - [Windows 10 Home FPP](https://www.costco.co.kr/ElectronicsComputers/Computer-Accessories/Software/Microsoft-Window-10-Home-FPP-USB/p/610724), 도착 시간 ??
 - [ ] Read Thinking Fast & Slow (on Amazon eBook)
-- [ ] Ask Delta Airline if a backpack is counted as a carry-on bag
+- [x] Ask Delta Airline if a backpack is counted as a carry-on bag
     - [Delta Carry-On Baggage instructions](https://www.delta.com/us/en/baggage/carry-on-baggage)
