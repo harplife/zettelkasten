@@ -12,41 +12,6 @@
             "file": "wishlist/books.md",
             "mode": "source"
           }
-        },
-        "pane-relief:history-v1": {
-          "pos": 0,
-          "stack": [
-            {
-              "leaf": "cd2ea29d454b2fb0",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"wishlist/books.md\",\"mode\":\"source\"}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "cd2ea29d454b2fb0",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"philosophy/levels_of_wizardry.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":0}"
-            },
-            {
-              "leaf": "cd2ea29d454b2fb0",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"biology/the_scent_of_a_molecule_2017_sciencehistory.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":0}"
-            },
-            {
-              "leaf": "cd2ea29d454b2fb0",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"unsorted/plot_temperature.md\",\"mode\":\"source\"}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "cd2ea29d454b2fb0",
-              "group": null,
-              "state": "{\"type\":\"empty\",\"state\":{}}",
-              "eState": "{}"
-            }
-          ]
         }
       },
       {
@@ -58,23 +23,6 @@
             "file": "todo/todo_log_2022.md",
             "mode": "source"
           }
-        },
-        "pane-relief:history-v1": {
-          "pos": 1,
-          "stack": [
-            {
-              "leaf": "b0976b01c441801a",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"unsorted/international_travel_checklist.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":0}"
-            },
-            {
-              "leaf": "b0976b01c441801a",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"todo/todo_log_2022.md\",\"mode\":\"source\"}}",
-              "eState": "{}"
-            }
-          ]
         }
       },
       {
@@ -86,17 +34,6 @@
             "file": "unsorted/international_travel_checklist.md",
             "mode": "source"
           }
-        },
-        "pane-relief:history-v1": {
-          "pos": 0,
-          "stack": [
-            {
-              "leaf": "fa0c8db87189e3f4",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"unsorted/international_travel_checklist.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            }
-          ]
         }
       },
       {
@@ -108,23 +45,6 @@
             "file": "KNOU/2022년_1학기_방통대_컴퓨터과학과_계획.md",
             "mode": "source"
           }
-        },
-        "pane-relief:history-v1": {
-          "pos": 1,
-          "stack": [
-            {
-              "leaf": "0ebef1f0f69ee5ff",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"KNOU/2021년_2학기_방통대_컴퓨터과학과_계획.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":283}"
-            },
-            {
-              "leaf": "0ebef1f0f69ee5ff",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"KNOU/2022년_1학기_방통대_컴퓨터과학과_계획.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":27},\"to\":{\"line\":0,\"ch\":0}}}"
-            }
-          ]
         }
       },
       {
@@ -136,71 +56,6 @@
             "file": "computer_science/NLP/regex/japanese_regex.md",
             "mode": "source"
           }
-        },
-        "pane-relief:history-v1": {
-          "pos": 0,
-          "stack": [
-            {
-              "leaf": "ae84d6d6c2ae1f61",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/NLP/regex/japanese_regex.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":45},\"to\":{\"line\":10,\"ch\":45}}}"
-            },
-            {
-              "leaf": "ae84d6d6c2ae1f61",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/NLP/regex/regular_expression.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":33.916666666666664}"
-            },
-            {
-              "leaf": "ae84d6d6c2ae1f61",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/NLP/regex/link_filter_regex.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":40.607142857142854}"
-            },
-            {
-              "leaf": "ae84d6d6c2ae1f61",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/NLP/regex/regular_expression.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":58,\"ch\":269},\"to\":{\"line\":58,\"ch\":269}},\"scroll\":0}"
-            },
-            {
-              "leaf": "ae84d6d6c2ae1f61",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/NLP/regex/link_filter_regex.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":48,\"ch\":455},\"to\":{\"line\":48,\"ch\":455}},\"scroll\":37.166666666666664}"
-            },
-            {
-              "leaf": "ae84d6d6c2ae1f61",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/NLP/regex/regular_expression.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":0},\"to\":{\"line\":18,\"ch\":0}},\"scroll\":0}"
-            },
-            {
-              "leaf": "ae84d6d6c2ae1f61",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/NLP/regex/link_filter_regex.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":0}"
-            },
-            {
-              "leaf": "ae84d6d6c2ae1f61",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/NLP/regex/email_filter_regex.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":57},\"to\":{\"line\":8,\"ch\":57}}}"
-            },
-            {
-              "leaf": "ae84d6d6c2ae1f61",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"todo/todo_log_2022.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":41,\"ch\":0},\"to\":{\"line\":41,\"ch\":0}},\"scroll\":23.916666666666668}"
-            },
-            {
-              "leaf": "ae84d6d6c2ae1f61",
-              "group": null,
-              "state": "{\"type\":\"empty\",\"state\":{}}",
-              "eState": "{}"
-            }
-          ]
         }
       }
     ],
@@ -220,10 +75,6 @@
             "state": {
               "type": "file-explorer",
               "state": {}
-            },
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": []
             }
           },
           {
@@ -239,10 +90,6 @@
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
-            },
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": []
             }
           }
         ]
@@ -274,10 +121,6 @@
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": false
               }
-            },
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": []
             }
           },
           {
@@ -289,10 +132,6 @@
                 "sortOrder": "alphabetical",
                 "useHierarchy": true
               }
-            },
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": []
             }
           },
           {
@@ -303,10 +142,6 @@
               "state": {
                 "file": "todo/todo_log_2022.md"
               }
-            },
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": []
             }
           }
         ],

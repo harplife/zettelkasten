@@ -93,8 +93,8 @@ Work (complete)
 - [ ] Notify team leader about my trip
 
 ### Personal
-- [ ] Prepare for the trip
-    - [ ] Get some clothing
+- [x] Prepare for the trip
+    - [x] Get some clothing
     - [x] Prepare gift
         - Blue Rough Diamond Earrings (25만원, 14캐럿 골드)
     - [x] 향수 1개 구입 (쿠팡, 01/25 도착 예정)
@@ -106,7 +106,8 @@ Work (complete)
         - [Xbox Wireless Controller + Wireless Adapter for Windows](https://www.microsoft.com/en-us/p/xbox-wireless-controller-wireless-adapter-for-windows/8rdmhcqpftb3/5d0n), 01/26 도착 예정
         - [Xbox Rechargeable Battery + USB C Cable](https://www.microsoft.com/en-us/d/xbox-rechargeable-battery-usb-c-cable-latest-model/8thsbp49z46x/9779), 03/18 도착 예정
     - [x] 윈도우10 구입 (코스트코)
-        - [Windows 10 Home FPP](https://www.costco.co.kr/ElectronicsComputers/Computer-Accessories/Software/Microsoft-Window-10-Home-FPP-USB/p/610724), 도착 시간 ??
+        - [Windows 10 Home FPP](https://www.costco.co.kr/ElectronicsComputers/Computer-Accessories/Software/Microsoft-Window-10-Home-FPP-USB/p/610724)
 - [ ] Read Thinking Fast & Slow (on Amazon eBook)
 - [x] Ask Delta Airline if a backpack is counted as a carry-on bag
     - [Delta Carry-On Baggage instructions](https://www.delta.com/us/en/baggage/carry-on-baggage)
+- [ ] 휴가지원사업(베네피아) 남은돈 사용
