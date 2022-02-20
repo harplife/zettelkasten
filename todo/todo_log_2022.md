@@ -16,14 +16,12 @@ Use of backlinks is recommended for tasks that require further explanation.
 ### Work (complete)
 - [x] Upgrade AI Workstation environment to be compatible with Python 3.8, Tensorflow 2.3, and CUDA
 
-### Personal
+### Personal (complete)
 - [x] Finish writing [[random_id_generator|Random ID Generator]]
-- [ ] Figure out a Korean book to buy (to spend the rest of the points in Benepia)
-    - [maya books](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=rpgs&logNo=220587586265)
 
 
 ## 2022-01-06
-Work (complete)
+### Work (complete)
 - [x] Start a note on [[setup_tensorflow_gpu_dev_environment|TF GPU Set Up]]
 - [x] Start a note on [[tensorflow_gpu_troubleshooting|TF GPU Troubleshooting]]
 - [x] Start a note on [[conda_basics|Conda Basics]]
@@ -32,12 +30,10 @@ Work (complete)
 - [x] Apply for ESTA
 - [x] Figure out if COVID19 test is required for the return flight
     - S.Korea requires PCR Test result within 3 days of departure
-- [ ] Figure out what counts as "evidence" of meeting somebody
 
 
 ## 2022-01-11
-### Work
-- [ ] Write a note on the NLP processes for Salevis Hue Sentimental Data
+### Work (complete)
 - [x] Write a note on [[link_filter_regex|Link Filter Regex]]
 
 ### Personal (complete)
@@ -48,14 +44,6 @@ Work (complete)
 ## 2022-01-12
 ### Work (complete)
 - [x] Write a note on [[email_filter_regex|E-mail Filter Regex]]
-
-
-## 2022-01-17
-### Work
-- [ ] Finish up Data Pre-processing on Sentimental Analysis Data
-
-### Personal
-- [ ] Start packing the bag for "THE TRIP"
 
 
 ## 2022-01-18
@@ -73,26 +61,19 @@ Work (complete)
 ## 2022-01-19
 ### Personal
 - [x] Apply for _Minor_ classes at KNOU for 2022 2nd Semester, following [[2022년_1학기_방통대_컴퓨터과학과_계획|방통대 컴퓨터과학과 계획 2022년 1학기 계획]]
-- [ ] Print out Practice Tests for [[2022년_1학기_방통대_컴퓨터과학과_계획|1st Semester Classes]]
-- [ ] Reserve a PCR Test on 2/6
+- [x] Reserve a PCR Test on 2/6
 
 
 ## 2022-01-20
-### Work
+### Work (complete)
 - [x] Write and share [[자연어_처리_프로세스_김우빈_20220120.pdf]]
-
-### Personal
-- [ ] 방통대 등록금 고지서 확인
 
 
 ## 2022-01-24
-### Work
-- [ ] 감정분석 가이드라인 작성
-- [ ] Write a note on [[japanese_regex]]
-- [ ] Write a note on [unicode spaces](https://jkorpela.fi/chars/spaces.html)
-- [ ] Notify team leader about my trip
+### Work (complete)
+- [x] Notify team leader about my trip
 
-### Personal
+### Personal (complete)
 - [x] Prepare for the trip
     - [x] Get some clothing
     - [x] Prepare gift
@@ -107,7 +88,39 @@ Work (complete)
         - [Xbox Rechargeable Battery + USB C Cable](https://www.microsoft.com/en-us/d/xbox-rechargeable-battery-usb-c-cable-latest-model/8thsbp49z46x/9779), 03/18 도착 예정
     - [x] 윈도우10 구입 (코스트코)
         - [Windows 10 Home FPP](https://www.costco.co.kr/ElectronicsComputers/Computer-Accessories/Software/Microsoft-Window-10-Home-FPP-USB/p/610724)
-- [ ] Read Thinking Fast & Slow (on Amazon eBook)
 - [x] Ask Delta Airline if a backpack is counted as a carry-on bag
     - [Delta Carry-On Baggage instructions](https://www.delta.com/us/en/baggage/carry-on-baggage)
-- [ ] 휴가지원사업(베네피아) 남은돈 사용
+
+
+## 2022-02-16
+### Personal
+- [x] Reactivate Dropbox
+- [x] Apply for SQLD
+- [x] Make icon for Discord Witch's Dab. [[witches_dab_idea1.png]]
+
+
+## 2022-02-17
+### Personal
+- [x] Write a note on [[obsidian_vault_shortcut|Obsidian Vault Shortcut]]
+
+
+## 2022-02-18
+### Work
+- [ ] 감정분석 가이드라인 작성
+- [ ] Write a note on [[japanese_regex|Japanese Regex]]
+- [ ] Write a note on [Unicode spaces](https://jkorpela.fi/chars/spaces.html)
+
+### Personal
+- [x] 휴가지원사업(베네피아) 남은돈 사용 (책 구매?)
+    - [x] Write down note for each book
+- [ ] Print out Practice Tests for [[2022년_1학기_방통대_컴퓨터과학과_계획|1st Semester Classes]]
+- [ ] Read Thinking Fast & Slow (on Amazon eBook)
+- [ ] 방통대 2022년 1학기 등록금 관련 업무
+    - [x] 등록금 납부
+    - [x] 회사 지원금 확인
+    - [ ] 회사 지원금 기안서 작성
+- [ ] Figure out what counts as "evidence" of meeting somebody (for fiance visa)
+    - [ ] Contact people who has gone through this
+- [ ] Organize bookmarks
+- [ ] Download and organize HB books
+- [x] Set up Python 3.7.9 on Windows 10 (home PC)

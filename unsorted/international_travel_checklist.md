@@ -1,7 +1,7 @@
 ---
 aliases: [International Travel Checklist]
 tags: [travel, planning, checklist]
-status: ongoing
+status: complete
 edited: 2022-01-26
 ---
 
@@ -12,8 +12,8 @@ A general checklist for traveling abroad.
 - [ ] Passport
     - [ ] Not expired and has more than 3 months left
 - [ ] Visa
-    - [ ] ESTA
-- [ ] Ticket
+    - [ ] ESTA (must have more than 2 weeks left before expiration)
+- [ ] Itinerary (not required, airline can look up info with passport)
 - [ ] Proof of Vaccination
     - [ ] for COVID19
 - [ ] Negative Test Result for Covid19
@@ -28,6 +28,7 @@ A general checklist for traveling abroad.
 - [ ] Painkiller
 - [ ] Toothbrush & Mouthwash (100ml)
 - [ ] Phone Charger
+- [ ] Cologne or Deodorant (100ml)
 
 ### Carry-on / Check-in
 - [ ] T-shirt
