@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "8130abe8b569a269",
+        "id": "adbbb048d514f644",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -17,124 +17,38 @@
           "pos": 0,
           "stack": [
             {
-              "leaf": "8130abe8b569a269",
+              "leaf": "adbbb048d514f644",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"todo/todo_log_2022.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+              "eState": "{\"scroll\":95.25}"
             },
             {
-              "leaf": "8130abe8b569a269",
+              "leaf": "adbbb048d514f644",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"books/ebooks/Maya_3D_Character_Animation_Basic_Modeling.md\",\"mode\":\"source\"}}",
-              "eState": "{}"
-            },
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"todo/todo_log_2021.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":369,\"ch\":23},\"to\":{\"line\":369,\"ch\":23}},\"scroll\":360.7857142857143}"
+            }
+          ]
+        }
+      },
+      {
+        "id": "4406c5afff1bac92",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "todo/general_todos.md",
+            "mode": "source"
+          }
+        },
+        "pane-relief:history-v1": {
+          "pos": 0,
+          "stack": [
             {
-              "leaf": "8130abe8b569a269",
+              "leaf": "4406c5afff1bac92",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"books/ebooks/한국어_임베딩.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":41},\"to\":{\"line\":14,\"ch\":0}}}"
-            },
-            {
-              "leaf": "8130abe8b569a269",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"books/ebooks/이것이_취업을_위한_코딩_테스트다_with_파이썬.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":29},\"to\":{\"line\":7,\"ch\":29}}}"
-            },
-            {
-              "leaf": "8130abe8b569a269",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"books/ebooks/수학으로_시작하는_3D_게임_개발.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "8130abe8b569a269",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"books/ebooks/셰이더_프로그래밍_입문.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "8130abe8b569a269",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"books/ebooks/백견불여일타_CS_입문.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "8130abe8b569a269",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"books/ebooks/8일간의_선형대수학.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "8130abe8b569a269",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"books/ebooks/백견불여일타_CS_입문.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":14},\"to\":{\"line\":7,\"ch\":14}}}"
-            },
-            {
-              "leaf": "8130abe8b569a269",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"books/ebooks/셰이더_프로그래밍_입문.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "8130abe8b569a269",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"books/ebooks/수학으로_시작하는_3D_게임_개발.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "8130abe8b569a269",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"books/ebooks/이것이_취업을_위한_코딩_테스트다_with_파이썬.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "8130abe8b569a269",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"books/ebooks/Maya_3D_Character_Animation_Basic_Modeling.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":11},\"to\":{\"line\":7,\"ch\":11}}}"
-            },
-            {
-              "leaf": "8130abe8b569a269",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"books/ebooks/이것이_취업을_위한_코딩_테스트다_with_파이썬.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":6},\"to\":{\"line\":19,\"ch\":6}}}"
-            },
-            {
-              "leaf": "8130abe8b569a269",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"books/ebooks/백견불여일타_CS_입문.md\",\"mode\":\"source\"}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "8130abe8b569a269",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"books/ebooks/한국어_임베딩.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":41},\"to\":{\"line\":14,\"ch\":0}}}"
-            },
-            {
-              "leaf": "8130abe8b569a269",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"books/ebooks/백견불여일타_CS_입문.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":21},\"to\":{\"line\":14,\"ch\":21}}}"
-            },
-            {
-              "leaf": "8130abe8b569a269",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/book.md\",\"mode\":\"source\"}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "8130abe8b569a269",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"books/ebooks/한국어_임베딩.md\",\"mode\":\"source\"}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "8130abe8b569a269",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"todo/todo_log_2022.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":108.43332926432292}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"todo/general_todos.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":78,\"ch\":64},\"to\":{\"line\":78,\"ch\":64}},\"scroll\":62}"
             }
           ]
         }
@@ -252,17 +166,17 @@
     "direction": "horizontal",
     "width": 316.5
   },
-  "active": "8130abe8b569a269",
+  "active": "adbbb048d514f644",
   "lastOpenFiles": [
     "todo/todo_log_2022.md",
+    "todo/general_todos.md",
+    "todo/todo_log_2021.md",
     "books/ebooks/Maya_3D_Character_Animation_Basic_Modeling.md",
     "books/ebooks/한국어_임베딩.md",
     "books/ebooks/이것이_취업을_위한_코딩_테스트다_with_파이썬.md",
     "books/ebooks/수학으로_시작하는_3D_게임_개발.md",
     "books/ebooks/셰이더_프로그래밍_입문.md",
     "books/ebooks/백견불여일타_CS_입문.md",
-    "books/ebooks/8일간의_선형대수학.md",
-    "templates/book.md",
-    "templates/basic.md"
+    "books/ebooks/8일간의_선형대수학.md"
   ]
 }
