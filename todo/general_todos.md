@@ -30,7 +30,7 @@ But for now, non-priority Todos are to be stored and organized here.
 
 
 ## Personal
-### Reading
+### Read
 - [ ] Read [this](https://betterprogramming.pub/crack-coding-interviews-by-building-these-5-real-world-features-4089058d7b0e)
 - [ ] Read [this](https://betterprogramming.pub/design-ubers-backend-a-systems-design-walkthrough-c88f8959de97)
 - [ ] Read [this](https://betterprogramming.pub/40-web-app-ideas-for-startups-in-2021-b6a25f499231)
@@ -54,6 +54,9 @@ But for now, non-priority Todos are to be stored and organized here.
 - [ ] Write a note on [All Machine Learning Algorithms You Should Know in 2022](https://towardsdatascience.com/all-machine-learning-algorithms-you-should-know-in-2022-db5b4ccdf32f)
 - [ ] Check out [github repository for self-taught developer](https://betterprogramming.pub/10-github-repositories-for-the-self-taught-developer-c8b69b052ba4)
 - [ ] Write a note on [Best 15 Design Systems](https://mobile.twitter.com/designersaha/status/1469578200216793094)
+- [ ] [내가 왜 한의학에 반대하는가](https://www.ibric.org/myboard/read.php?id=197108&Board=sori)
+- [ ] Read Thinking Fast & Slow (on Amazon eBook)
+
 
 
 

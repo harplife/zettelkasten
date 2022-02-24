@@ -20,7 +20,7 @@
               "leaf": "adbbb048d514f644",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"todo/todo_log_2022.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":95.25}"
+              "eState": "{}"
             },
             {
               "leaf": "adbbb048d514f644",
@@ -48,7 +48,7 @@
               "leaf": "4406c5afff1bac92",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"todo/general_todos.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":78,\"ch\":64},\"to\":{\"line\":78,\"ch\":64}},\"scroll\":62}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":43},\"to\":{\"line\":21,\"ch\":43}},\"scroll\":11.833333333333334}"
             }
           ]
         }

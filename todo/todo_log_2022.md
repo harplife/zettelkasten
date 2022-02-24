@@ -107,12 +107,22 @@ Use of backlinks is recommended for tasks that require further explanation.
 
 
 ## 2022-02-22
+### Personal (complete)
+- [x] Organize Todos. Create [[general_todos|General Todos]].
+
+
+## 2022-02-23
+### Personal
+- [x] Print out Practice Tests for [[2022년_1학기_방통대_컴퓨터과학과_계획|1st Semester Classes]]
+
+
+## 2022-02-24
 ### Work
-- [ ] 감정분석 가이드라인 작성
+- [x] 감정분석 가이드라인 작성
+- [ ] 회사소개서 영문본 수정
+- [ ] 제품소개서 영문본 작성
 
 ### Personal
-- [ ] Print out Practice Tests for [[2022년_1학기_방통대_컴퓨터과학과_계획|1st Semester Classes]]
-- [ ] Read Thinking Fast & Slow (on Amazon eBook)
 - [ ] 방통대 2022년 1학기 등록금 관련 업무
     - [x] 등록금 납부
     - [x] 회사 지원금 확인
@@ -120,4 +130,9 @@ Use of backlinks is recommended for tasks that require further explanation.
 - [ ] Figure out what counts as "evidence" of meeting somebody (for fiance visa)
     - [ ] Contact people who has gone through this
     - [ ] Work on collage
-- [x] Organize Todos. Create [[general_todos|General Todos]].
+- [ ] Prepare ingredients for Buffalo Wings
+    - [ ] Chicken Wings
+    - [x] Paprika, Garlic Powder, Baking Powder
+    - [ ] Oven Pan and Foil
+    - [ ] Unsalted Butter
+    - [x] Oil Spray
