@@ -112,14 +112,18 @@ Use of backlinks is recommended for tasks that require further explanation.
 
 
 ## 2022-02-23
-### Personal
+### Personal (complete)
 - [x] Print out Practice Tests for [[2022년_1학기_방통대_컴퓨터과학과_계획|1st Semester Classes]]
 
 
 ## 2022-02-24
-### Work
+### Work (complete)
 - [x] 감정분석 가이드라인 작성
-- [ ] 회사소개서 영문본 수정
+
+
+## 2022-02-25
+### Work
+- [x] 회사소개서 영문본 수정
 - [ ] 제품소개서 영문본 작성
 
 ### Personal
@@ -131,7 +135,7 @@ Use of backlinks is recommended for tasks that require further explanation.
     - [ ] Contact people who has gone through this
     - [ ] Work on collage
 - [ ] Prepare ingredients for Buffalo Wings
-    - [ ] Chicken Wings
+    - [x] Chicken Wings
     - [x] Paprika, Garlic Powder, Baking Powder
     - [ ] Oven Pan and Foil
     - [ ] Unsalted Butter
