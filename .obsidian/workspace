@@ -43,18 +43,18 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "ideas/computer_graphics_ideas.md",
+            "file": "computer_science/computer_vision/computer_graphics_knou_note.md",
             "mode": "source"
           }
         },
         "pane-relief:history-v1": {
-          "pos": 1,
+          "pos": 0,
           "stack": [
             {
               "leaf": "afe458304fcc84ea",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"ideas/obsidian_improvements.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":27},\"to\":{\"line\":0,\"ch\":0}}}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_knou_note.md\",\"mode\":\"source\"}}",
+              "eState": "{\"scroll\":125.26666259765625}"
             },
             {
               "leaf": "afe458304fcc84ea",
@@ -149,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ideas/computer_graphics_ideas.md",
+                "file": "computer_science/computer_vision/computer_graphics_knou_note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ideas/computer_graphics_ideas.md"
+                "file": "computer_science/computer_vision/computer_graphics_knou_note.md"
               }
             },
             "pane-relief:history-v1": {
@@ -202,6 +202,7 @@
   },
   "active": "afe458304fcc84ea",
   "lastOpenFiles": [
+    "computer_science/computer_vision/computer_graphics_knou_note.md",
     "ideas/computer_graphics_ideas.md",
     "ideas/obsidian_improvements.md",
     "todo/todo_log_2022.md",
@@ -210,7 +211,6 @@
     "books/ebooks/Maya_3D_Character_Animation_Basic_Modeling.md",
     "books/ebooks/한국어_임베딩.md",
     "books/ebooks/이것이_취업을_위한_코딩_테스트다_with_파이썬.md",
-    "books/ebooks/수학으로_시작하는_3D_게임_개발.md",
-    "books/ebooks/셰이더_프로그래밍_입문.md"
+    "books/ebooks/수학으로_시작하는_3D_게임_개발.md"
   ]
 }
