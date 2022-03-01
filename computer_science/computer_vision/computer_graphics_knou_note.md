@@ -87,25 +87,74 @@ Display List는 비디오 메모리에 저장되며, 이를 그래픽스 프로�
 화면에 그림을 그리는 수평선을 주사선(Scan Line)이라고 한다.
 
 #### 픽셀
-주사선에 그려지는 점들을 [화소 (픽셀, Pixel)](https://en.wikipedia.org/wiki/Pixel)이라고 한다. 각각 R(빨강), G(초록), B(파랑) 색상을 갖는 점 3개가 모여 하나의 화소를 구성한다.
+주사선에 그려지는 점들을 [화소 (픽셀, Pixel)](https://en.wikipedia.org/wiki/Pixel)이라고 한다. 각 픽셀의 밝기와 색상을 조절하여 그림을 구성한다.
+
+컬러 디스플레이에서 각 화소는 각각 R(빨강), G(초록), B(파랑) 색상을 갖는 부화소 (Subpixel) 3개로 구성된다.
+
+색상을 구현하기 위해 각 부화소는 독립적으로 제어되며, 모니터의 용도에 따라 여러 가지 형태의 [화소 배열 (Pixel Geometry)](https://en.wikipedia.org/wiki/Pixel_geometry)로 배치된다. 특정 디스플레이의 화소 배열 형태를 알고 있다면, [부화소 렌더링 (Subpixel Rendering)]을 소프트웨어로 구현하여 모니터의 외견상 해상도를 향상시킬 수 있다.
+
+![[pixel_geometry.PNG | 300]]
 
 화소 간의 거리를 [도트 피치(Dot Pitch)](https://en.wikipedia.org/wiki/Dot_pitch)라고 부르며, 이 거리가 가까울수록 스크린이 더욱 선명해진다. 대부분의 모니터는 0.28mm 또는 그 이하의 도트 피치를 갖는다.
 
-피치값이 작으면 보다 선명한 영상을 표현할 수 있다 (해상도가 높아진다). 하지만 무조건 작다고 좋은 것은 아니다 - 시청 거리가 먼 경우 피치값이 낮아봤자 더 선명하게 보이는 것이 아니며, 낮을 수록 돈만 낭비하는 꼴이 되기 때문이다.
+피치값이 작으면 보다 선명한 영상을 표현할 수 있다 (해상도가 높아진다). 하지만 무조건 작다고 좋은 것은 아니다 - 시청 거리가 먼 경우 피치값이 낮아봤자 더 선명하게 보이는 것이 아니기 떄문에 돈만 낭비하는 꼴이된다.
+
+참고: 픽셀 값들은 화면에 그려지기 전에 [프레임 버퍼 (Frame Buffer)](https://en.wikipedia.org/wiki/Framebuffer)에 저장된다. 비디오 카드의 RAM이라고 생각하면 된다.
 
 #### 해상도
 해상도 (Resolution)는 디스플레이 화면의 총 픽셀 수 (주사선 당 픽셀 수 x 주사선 수)를 뜻 한다. 수평과 수직의 크기 (픽셀 수)로 1920 x 1080 과 같은 포맷으로 표현된다.
 
-해상도가 낮으면 그림을 정교하게 그릴 수 없다 - 매끄러운 선을 그리지 못하고 거친 선을 그리게 하는 현상을 Aliasing이라고 하며, 이를 완하하기 위해 Anti-aliasing을 사용한다.
+해상도가 높을수록 더욱 정교한 그림을 그릴 수 있다. 하지만, 그리려는 그림의 해상도가 모니터의 해상도보다 높은 경우, 이미지의 일부가 식별할 수 없게 되며 왜곡 현상이 일어난다. 이러한 현상을 [Aliasing](https://en.wikipedia.org/wiki/Aliasing)이라고 부른다 (정확히는 Spatial Aliasing이라고 부른다).
 
-래스터 방식에서는 그림을 한 화면을 구성하는 픽셀들의 값으로 표현한다. 이러한 픽셀 값들을 프레임 버퍼([Frame Buffer](https://en.wikipedia.org/wiki/Framebuffer))에 저장한다.
+![[aliasing_example_01.PNG]]
 
-비디오 메모리 사용량은 화면 해상도에 따라 고정된다.
+Aliasing 현상 중 그림의 윤곽선이 거칠어지고 계단 형식으로 변하는 것을 [Jaggies](https://en.wikipedia.org/wiki/Jaggies)라고 부른다.
 
-아날로그인 CRT 모니터를 제외한 모든 모니터에는 최적의 해상도가 있다.
+![[aliasing_example_02.PNG | 300]]
 
-#### 재생률
-[재생률 (Refresh Rate)](https://en.wikipedia.org/wiki/Refresh_rate)은 
+그리드 (Grid) 형식으로 촘촘이 수많은 작은 디테일이 있는 이미지에서는 [무아레 패턴 (Moiré Pattern)](https://en.wikipedia.org/wiki/Moir%C3%A9_pattern)의 Aliasing이 발생되기도 한다.
+
+![[aliasing_example_03.PNG | 300]]
+
+Aliasing 문제를 해결하기 위해 [Anti-Aliasing](https://en.wikipedia.org/wiki/Spatial_anti-aliasing)이 사용된다. Anti-aliasing의 기본 원리는 디테일이 작고 촘촘한 부분을 제거하거나 흐리게하는 것이다. Anti-aliasing에 사용되는 예시로 Low Pass Filter, Down Sampling, Gaussian Blur, Sinc Filter 등이 있다.
+
+![[anti_aliasing_example_01.PNG]]
+
+참고: 비디오 메모리 사용량은 화면 해상도에 따라 고정된다.
+
+참고: 아날로그인 CRT 모니터를 제외한 모든 모니터에는 최적의 해상도가 있다.
+
+#### 재생률 / 주사율
+[재생률 (Refresh Rate)](https://en.wikipedia.org/wiki/Refresh_rate)은 1초 동안 이미지를 그리는 횟수를 뜻하며 Hz (Hertz) 단위로 센다.
+
+주사율 (Scan Rate)이라고도 불리운다.
+
+Frame Rate는 소프트웨어에서 1초 동안 전송하는 이미지 개수를 뜻하니 혼동하면 안 된다.
+
+Refresh Rate과 Frame Rate은 1:1로 완벽하게 싱크 (Sync)되는게 좋다. 예를 들어, 소프트웨어에서 60 FPS로 이미지를 전송하는 경우, 모니터에서 60 Hz로 이미지를 그려주면 좋다. 1:1로 완벽하게 싱크되지 않는 경우, [티어링 현상 (Screen Tearing)](https://en.wikipedia.org/wiki/Screen_tearing)이 발생할 수 있다.
+
+![[screen_tear_face.PNG | 300]]
+
+Refresh Rate과 Frame Rate을 언제나 완벽하게 싱크하는 것은 어렵기 때문에, 모니터에서 Refresh Rate을 자동으로 조절하여 Frame Rate과 싱크하게 하는 [적응형 수직동기화 (Adaptive Sync)](https://en.wikipedia.org/wiki/Variable_refresh_rate) 기술이 사용된다.
+
+Adaptive Sync는 가변 주사율 (Variable Refresh Rate) 또는 동적 주사율 (Dynamic Refresh Rate)으로 불리기도 한다.
+
+NVIDIA의 [G-SYNC](https://en.wikipedia.org/wiki/Nvidia_G-Sync)와 AMD의 [FreeSync](https://en.wikipedia.org/wiki/FreeSync)가 일반적으로 사용되는 대표적인 예시이다.
+
+Adaptive Sync를 사용하기 위해서는 모니터와 GPU가 호환되어야 한다 - Adaptive Sync를 사용할수 있는 GPU와 Adaptive Sync가 장착된 모니터가 있어야 한다. 원래는 NVIDIA GPU는 G-Sync만 지원했지만, [요즘에는 FreeSync까지 지원한다고 한다](https://www.pcgamesn.com/nvidia/what-is-freesync).
+
+참고: G-Sync, FreeSync는 HDMI 또는 DisplayPort만 지원한다고 하는데, 이에 대하여 정보를 더 찾아봐야 한다.
+
+모니터에 제품사양을 확인해보면 FreeSync 또는 G-Sync를 사용 유뮤가 표시되어 있다. 예로서, 삼성 LED 모니터 (LS27R350FHKXKR) 같은 경우 28인치에 FreeSync를 지원한다.
+
+[VSync (Vertical Sync)](https://en.wikipedia.org/wiki/Screen_tearing#Vertical_synchronization)는 소프트웨어에서 Frame Rate을 Refresh Rate에 맞추는 기술이다. 일반적으로 소프트웨어에서 옵션을 제공하지만, GPU 설정에 있는 경우도 있다.
+
+VSync는 주로 Frame Rate이 Refresh Rate보다 큰 경우에만 효과가 있다.
+
+VSync 원리? #todo
+
+참고: https://blog.tommyzip.co.kr/report/g-sync-vesa-adaptive-sync-freesync/
+참고: https://www.viewsonic.com/library/tech/explained/what-is-adaptive-sync
 
 ## 1.4.2 디스플레이 장치
 그래픽 시스템에서 기본 출력장치이자 가장 일반적인 디스플레이 장치는 모니터다.
@@ -182,8 +231,6 @@ TV와 초기 모니터는 홀수 번쨰와 짝수 번쨰 주사선을 번갈아 
 
 ### LCD 디스플레이
 LCD 디스플레이는 주변광 또는 내부 광원으로부터 나오는 빛을 막거나 통과시키도록 정렬될 수 있는 액정물질 (Liquid Crystal)을 조절하여 그림을 그린다.
-
-컬러 LCD에서 각 화소 (pixel)는 Red (빨강), 초록 (Green), 파랑(Blue)으로 채색된 3 가지 셀 (Cell) / 부화소 (Subpixel)로 이루어진다. 색상을 구현하기 위해 각 부화소는 독립적으로 제어되며, 모니터의 용도에 따라 여러 가지 형태의 [화소 배열 (Pixel Geometry)](https://en.wikipedia.org/wiki/Pixel_geometry)로 배치된다. 특정 디스플레이의 화소 배열 형태를 알고 있다면, [부화소 렌더링 (Subpixel Rendering)]을 소프트웨어로 구현하여 모니터의 외견상 해상도를 향상시킬 수 있다.
 
 LCD 디스플레이의 일반적인 문제로 [불량화소 (Defective Pixel)](https://en.wikipedia.org/wiki/Defective_pixel)가 있다. 불량화소 유형 중 고착화소 (Stuck Pixel)은 화소가 항상 켜져 있는 현상이고, 죽은 화소 (Dead Pixel)은 화소가 항상 꺼저 있는 현상이다.
 
