@@ -1,5 +1,13 @@
+---
+aliases: [Computer Graphics Note]
+tags: [computer_science, computer_vision, computer_graphics, KNOU, study]
+status: ongoing
+edited: 2022-03-02
+---
 
-# Notes from textbook
+# Computer Graphics Note
+방통대 교과서에 있는 내용을 토대로 하되, 여러 부분을 수정/제거/추가한 노트.
+개인적으로 방통대 교과서는 정리가 잘 안 되어 있을 뿐만이 아니라 틀린 정보가 의외로 많다.
 
 # 챕터 1
 
@@ -95,7 +103,7 @@ Display List는 비디오 메모리에 저장되며, 이를 그래픽스 프로�
 
 ![[pixel_geometry.PNG | 300]]
 
-화소 간의 거리를 [도트 피치(Dot Pitch)](https://en.wikipedia.org/wiki/Dot_pitch)라고 부르며, 이 거리가 가까울수록 스크린이 더욱 선명해진다. 대부분의 모니터는 0.28mm 또는 그 이하의 도트 피치를 갖는다.
+화소 간의 거리를 [도트 피치 (Dot Pitch)](https://en.wikipedia.org/wiki/Dot_pitch)라고 부르며, 이 거리가 가까울수록 스크린이 더욱 선명해진다. 대부분의 모니터는 0.28mm 또는 그 이하의 도트 피치를 갖는다.
 
 피치값이 작으면 보다 선명한 영상을 표현할 수 있다 (해상도가 높아진다). 하지만 무조건 작다고 좋은 것은 아니다 - 시청 거리가 먼 경우 피치값이 낮아봤자 더 선명하게 보이는 것이 아니기 떄문에 돈만 낭비하는 꼴이된다.
 
@@ -125,21 +133,23 @@ Aliasing 문제를 해결하기 위해 [Anti-Aliasing](https://en.wikipedia.org/
 참고: 아날로그인 CRT 모니터를 제외한 모든 모니터에는 최적의 해상도가 있다.
 
 #### 재생률 / 주사율
-[재생률 (Refresh Rate)](https://en.wikipedia.org/wiki/Refresh_rate)은 1초 동안 이미지를 그리는 횟수를 뜻하며 Hz (Hertz) 단위로 센다.
+[재생률 (Refresh Rate)](https://en.wikipedia.org/wiki/Refresh_rate)은 모니터가 화면에 1초 동안 이미지를 그리는 횟수를 뜻하며 Hz (Hertz) 단위로 센다.
 
 주사율 (Scan Rate)이라고도 불리운다.
 
-Frame Rate는 소프트웨어에서 1초 동안 전송하는 이미지 개수를 뜻하니 혼동하면 안 된다.
+[Frame Rate](https://en.wikipedia.org/wiki/Frame_rate)도 마찬가지로 1초 동안 이미지를 그리는 횟수를 뜻하지만, 여기서 "그린다"는 것은 소프트웨어 / GPU가 이미지를 [렌더링 (Rendering)](https://en.wikipedia.org/wiki/Rendering_(computer_graphics))하는 것을 뜻한다.
+
+Refresh Rate과 Frame Rate를 혼동하면 안 된다.
 
 Refresh Rate과 Frame Rate은 1:1로 완벽하게 싱크 (Sync)되는게 좋다. 예를 들어, 소프트웨어에서 60 FPS로 이미지를 전송하는 경우, 모니터에서 60 Hz로 이미지를 그려주면 좋다. 1:1로 완벽하게 싱크되지 않는 경우, [티어링 현상 (Screen Tearing)](https://en.wikipedia.org/wiki/Screen_tearing)이 발생할 수 있다.
 
 ![[screen_tear_face.PNG | 300]]
 
-Refresh Rate과 Frame Rate을 언제나 완벽하게 싱크하는 것은 어렵기 때문에, 모니터에서 Refresh Rate을 자동으로 조절하여 Frame Rate과 싱크하게 하는 [적응형 수직동기화 (Adaptive Sync)](https://en.wikipedia.org/wiki/Variable_refresh_rate) 기술이 사용된다.
+Refresh Rate과 Frame Rate을 언제나 완벽하게 싱크하는 것은 어렵기 때문에, 모니터에서 Refresh Rate을 자동으로 조절하여 Frame Rate과 동일하게 하는 [적응형 수직동기화 (Adaptive Sync)](https://en.wikipedia.org/wiki/Variable_refresh_rate) 기술이 사용된다.
 
-Adaptive Sync는 가변 주사율 (Variable Refresh Rate) 또는 동적 주사율 (Dynamic Refresh Rate)으로 불리기도 한다.
+Adaptive Sync는 가변 주사율 (Variable Refresh Rate) 또는 동적 주사율 (Dynamic Refresh Rate)으로 불리기도 한다. 그리고 여기서 명시하는 Adaptive Sync는 Refresh Rate과 Frame Rate을 동기화하는 개념을 뜻하며, [VESA (Video Electronics Standards Association, 비디오 전자공학 표준위원회)](https://en.wikipedia.org/wiki/Video_Electronics_Standards_Association)에서 발표한 _Adaptive Sync_ 기술과 혼동되지 않아야 한다.
 
-NVIDIA의 [G-SYNC](https://en.wikipedia.org/wiki/Nvidia_G-Sync)와 AMD의 [FreeSync](https://en.wikipedia.org/wiki/FreeSync)가 일반적으로 사용되는 대표적인 예시이다.
+NVIDIA의 [G-SYNC](https://en.wikipedia.org/wiki/Nvidia_G-Sync)와 AMD의 [FreeSync](https://en.wikipedia.org/wiki/FreeSync)가 Adaptive Sync가 상용화된 대표적인 예시이다.
 
 Adaptive Sync를 사용하기 위해서는 모니터와 GPU가 호환되어야 한다 - Adaptive Sync를 사용할수 있는 GPU와 Adaptive Sync가 장착된 모니터가 있어야 한다. 원래는 NVIDIA GPU는 G-Sync만 지원했지만, [요즘에는 FreeSync까지 지원한다고 한다](https://www.pcgamesn.com/nvidia/what-is-freesync).
 
@@ -147,14 +157,20 @@ Adaptive Sync를 사용하기 위해서는 모니터와 GPU가 호환되어야 �
 
 모니터에 제품사양을 확인해보면 FreeSync 또는 G-Sync를 사용 유뮤가 표시되어 있다. 예로서, 삼성 LED 모니터 (LS27R350FHKXKR) 같은 경우 28인치에 FreeSync를 지원한다.
 
-[VSync (Vertical Sync)](https://en.wikipedia.org/wiki/Screen_tearing#Vertical_synchronization)는 소프트웨어에서 Frame Rate을 Refresh Rate에 맞추는 기술이다. 일반적으로 소프트웨어에서 옵션을 제공하지만, GPU 설정에 있는 경우도 있다.
+[VSync (Vertical Sync)](https://en.wikipedia.org/wiki/Screen_tearing#Vertical_synchronization)는 Frame Rate을 Refresh Rate에 맞추는 기술이다 - 모니터의 새로운 재생 주기가 시작하기 전에 그래픽 카드가 렌더링하는 장면이 모니터로 업데이트되지 않도록 장면 업데이트를 지연시키는 원리로 작동한다.
 
-VSync는 주로 Frame Rate이 Refresh Rate보다 큰 경우에만 효과가 있다.
+VSync는 Frame Rate이 Refresh Rate보다 높을 때 사용하는게 제일 효과가 좋다. Frame Rate이 더 낮은 경우, 움직임이 늘어졌다 짧아졌다 하는 현상 (Judder), 움직임이 끊기는 현상 (Stutter), 또는 입력에 대한 반응이 늦는 현상 (Input Lag)이 발생한다.
 
-VSync 원리? #todo
+Judder는 각 프레임마다 재생 횟수가 균일하지 못 하면 발생한다. 이미지 참고.
 
-참고: https://blog.tommyzip.co.kr/report/g-sync-vesa-adaptive-sync-freesync/
-참고: https://www.viewsonic.com/library/tech/explained/what-is-adaptive-sync
+![[judder_example_01.png]]
+
+Adaptive VSync는 VSync가 Frame Rate이 Refresh Rate보다 높은 경우에만 켜지도록 하는 기술이다.
+
+VSync 옵션은 GPU 설정 또는 게임/DVD플레이어 설정에 있다.
+
+참고1: https://blog.tommyzip.co.kr/report/g-sync-vesa-adaptive-sync-freesync/
+참고2: https://www.viewsonic.com/library/tech/explained/what-is-adaptive-sync
 
 ## 1.4.2 디스플레이 장치
 그래픽 시스템에서 기본 출력장치이자 가장 일반적인 디스플레이 장치는 모니터다.
