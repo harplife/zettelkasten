@@ -13,6 +13,8 @@ edited: 2022-02-25
 ## 3D Graphics Programming
 1. Use [Non-photorealistic rendering](https://en.wikipedia.org/wiki/Non-photorealistic_rendering) to replicate "Living Paintings" from [_What Dreams May come_](https://en.wikipedia.org/wiki/What_Dreams_May_Come_(film))
 2. Use NPR to replicate [Paul Haeberli's _Paint By Numbers (SIGGRAPH 1990)_](https://graphics.stanford.edu/courses/cs248-99/haeberli/).
+3. Make a program that can mess around with an image's [Chrominance](https://en.wikipedia.org/wiki/Chrominance) and Luminance. ![[luminance_chrominance_comparison.PNG | 300]]
+4. 
 
 
 ## Related

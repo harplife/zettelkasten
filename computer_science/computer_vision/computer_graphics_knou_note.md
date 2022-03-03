@@ -172,6 +172,28 @@ VSync 옵션은 GPU 설정 또는 게임/DVD플레이어 설정에 있다.
 참고1: https://blog.tommyzip.co.kr/report/g-sync-vesa-adaptive-sync-freesync/
 참고2: https://www.viewsonic.com/library/tech/explained/what-is-adaptive-sync
 
+#### 응답 시간
+응답 시간, 또는 반응 시간 (Response Time)은 픽셀의 색상이나 밝기를 변화시키는 속도를 뜻한다.
+
+일반적으로 BTB (Black to Black) 테스트가 사용되며, Black (inactive) → White (active) → Black (active) 으로 변경하는데 걸리는 시간을 ms 단위로 측정한다.
+
+10 ms 정도는 사무용 또는 30 FPS 콘텐츠를 즐기는데 문제는 없지만, 60 FPS 이상의 경쟁 게임 (Competitive Gaming)에는 5ms 이하가 권장된다.
+
+때로는 GTG (Gray to Gray) 테스트가 사용되기도 한다. 극과 극으로 변화하는 BTB 테스트와는 달리, 검은색과 하얀색 사이의 회색 범위 내에 여러번 변화하여 변화할때 마다 걸리는 시간의 평균을 측정한다.
+
+참고: 검증된 것은 아니지만, GTG 테스트가 BTB 더 정확하다고 여겨지는 이유가 - 픽셀을 껐다 켰다 할때 변화 범위가 큼으로 높은 전압 (High Voltage)이 사용되어 변화 속도가 빠른 반면에, 픽셀을 켠 상태로 조금씩 변화하는 것은 낮은 전압 (Low Voltage)이 사용되어 변화 속도가 느리고, 컬러 TV의 특성상 픽셀은 하얀색/검은색으로 전환하는 것보다는 회색의 범위에 왔다갔다 하는 횟수가 많기 때문에 GTG 테스트가 현실 사용 환경에 더 유사하다는 것이다.
+
+#### 색 재현율
+[색 재현율 (Color Gamut)](https://en.wikipedia.org/wiki/Gamut)은 모니터가 색을 얼마만큼 표현할 수 이는지 나타내는 수치이다.
+
+여기서 [색 (Color](https://en.wikipedia.org/wiki/Color)이란 아주 복잡한 개념이다. 알아야 할 것은,
+1. [색 공간 (Color Space)](https://en.wikipedia.org/wiki/Color_space)는 색을 이해하기 위해 최대한 수학적으로 색을 정리한 좌표계를 뜻한다.
+2. [CIE 1931](https://en.wikipedia.org/wiki/CIE_1931_color_space) 색 공간은 인간의 색 인식률과 [휘도 (Luminance)](https://en.wikipedia.org/wiki/Luminance)를 기준으로 표현한 좌표계 입니다. 이 색 공간은 다른 색 공간들의 기반이 되었다.
+3. [NTSC](https://en.wikipedia.org/wiki/NTSC)는 National Television System Committee의 약자로, 방송용 전파에 대한 미국 표준화 담당기구의 이름이자, NTSC가 제정한 아날로그 방송 기술 표준을 의미한다. 이 표준에는 방송에 사용될 색 공간을 정의하고, 디스플레이 기술은 이 색 공간을 기준으로 색 재현율을 계산한다.
+4. NTSC 외에도 다른 색 공간들도 정의되었으며, [각 색 공간들에 따라 용도가 여러 있다](https://en.wikipedia.org/wiki/List_of_color_spaces_and_their_uses).
+
+일반적으로 NTSC 70% 정도이면 충분하다고 한다.
+
 ## 1.4.2 디스플레이 장치
 그래픽 시스템에서 기본 출력장치이자 가장 일반적인 디스플레이 장치는 모니터다.
 
@@ -256,7 +278,7 @@ LCD 모니터의 규격을 규정하는 요소는 다음과 같다.
 2. 도트 피치 (Dot Pitch)
 3. 반응시간 (Response Time)
 4. 재생률 (Refresh Rate)
-5. 지원 색상
+5. 지원 색상 (색 심도 Color Depth & 색 재현율 Color Gamut)
 6. 시야각 (Viewing Angle)
 7. 명암 대비 (Contrast Ratio)
 8. 종횡비 (Aspect Ratio)
