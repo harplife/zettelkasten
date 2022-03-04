@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "4406c5afff1bac92",
+        "id": "a4940ab766116d74",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -17,38 +17,44 @@
           "pos": 0,
           "stack": [
             {
-              "leaf": "4406c5afff1bac92",
+              "leaf": "a4940ab766116d74",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"todo/general_todos.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":27},\"to\":{\"line\":13,\"ch\":27}}}"
+            },
+            {
+              "leaf": "a4940ab766116d74",
+              "group": null,
+              "state": "{\"type\":\"empty\",\"state\":{}}",
+              "eState": "{}"
             }
           ]
         }
       },
       {
-        "id": "98f1c16e4ad3a6d5",
+        "id": "b626d59c02eeb2b8",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "ideas/computer_graphics_ideas.md",
-            "mode": "preview"
+            "file": "todo/todo_log_2022.md",
+            "mode": "source"
           }
         },
         "pane-relief:history-v1": {
           "pos": 0,
           "stack": [
             {
-              "leaf": "98f1c16e4ad3a6d5",
+              "leaf": "b626d59c02eeb2b8",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"ideas/computer_graphics_ideas.md\",\"mode\":\"preview\"}}",
-              "eState": "{\"scroll\":0}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"todo/todo_log_2022.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}},\"scroll\":0}"
             }
           ]
         }
       },
       {
-        "id": "2a1be1d6d9b1784b",
+        "id": "77df8f6461c39642",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -61,10 +67,10 @@
           "pos": 0,
           "stack": [
             {
-              "leaf": "2a1be1d6d9b1784b",
+              "leaf": "77df8f6461c39642",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_knou_note.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":186.60416666666666}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":322,\"ch\":0},\"to\":{\"line\":322,\"ch\":0}},\"scroll\":309.95652173913044}"
             }
           ]
         }
@@ -183,13 +189,13 @@
     "direction": "horizontal",
     "width": 316.5
   },
-  "active": "2a1be1d6d9b1784b",
+  "active": "77df8f6461c39642",
   "lastOpenFiles": [
     "computer_science/computer_vision/computer_graphics_knou_note.md",
-    "ideas/computer_graphics_ideas.md",
-    "todo/general_todos.md",
-    "ideas/Untitled.md",
     "todo/todo_log_2022.md",
+    "todo/general_todos.md",
+    "ideas/computer_graphics_ideas.md",
+    "ideas/Untitled.md",
     "unsorted/international_travel_checklist.md",
     "unsorted/plot_temperature.md",
     "ideas/obsidian_improvements.md",
