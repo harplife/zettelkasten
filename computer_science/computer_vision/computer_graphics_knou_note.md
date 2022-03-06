@@ -56,7 +56,7 @@ RAMDAC(Random Access Memory Digital-to-Analog Converter)은 아날로그 디스�
 
 디지털 디스플레이 장치가 대중화됨으로 RAMDAC이 GPU에 통합되는 추세이기 때문에 RAMDAC은 점차 사라져 가고 있다.
 
-### 출력
+### 비디오 입출력 인터페이스
 비디오 카드와 컴퓨터 디스플레이 간의 가장 보편적인 연결 시스템은 다음과 같다.
 1. Video Graphics Array (VGA) : CRT 디스플레이를 위하여 1980대 후반 채택된 아날로그 기반 표준. 전기적 잡음, 영상왜곡, 표본화 오차 등의 문제를 갖고 있다.
 2. Digital Visual Interface (DVI) : LCD, 플라즈마 스크린 등의 Flat Display를 위한 디지털 기반 표준. 영상왜곡, 전기적 잡음 등을 피할 수 있다.
@@ -64,14 +64,13 @@ RAMDAC(Random Access Memory Digital-to-Analog Converter)은 아날로그 디스�
 4. High-Definition Multimedia Interface (HDMI) : 2003년에 발표된 디지털 오디오/비디오 표준. HDCP 복사장지 기능을 제공한다.
 5. [Display Port](https://en.wikipedia.org/wiki/DisplayPort) : 2007년에 발표된 오디오/비디오 표준. 특허권 사용료 없음.
 
-## 1.4.1 Vector Display and Raster Display
+## 1.4.1 디스플레이 방식
 디스플레이에서 그림을 그리는 방식은 Raster와 Vector로 구분된다.
 
 ### Vector Display
-"전자빔으로 도형을 주사하여 원하는 그림을 그리는 방식"이라고 보통 설명되어 있다.
-지정된 경로에 따라 라인을 그리는 방식으로 그냥 생각하면 될 듯 하다.
-- [Vector Display (wiki)](https://en.wikipedia.org/wiki/Vector_monitor)
-- [Vector Graphics (wiki)](https://en.wikipedia.org/wiki/Vector_graphics)
+[벡터 디스플레이 (Vector Display)](https://en.wikipedia.org/wiki/Vector_monitor)는 "전자빔으로 도형을 주사하여 원하는 그림을 그리는 방식"이라고 보통 설명되어 있다. 지정된 경로에 따라 라인을 그리는 방식으로 그냥 생각하면 될 듯 하다.
+
+[벡터 그래픽스 (Vector Graphics)](https://en.wikipedia.org/wiki/Vector_graphics)는 벡터 디스플레이와 유사하되 디자인 (일러스트레이션) 분야에 사용되는 기술이기 때문에 헷갈리면 안 된다.
 
 벡터 디스플레이 방식에서는 그림을 그래픽스 명령들로 표현하며, 이를 Display List 또는 Display Program이라고 한다.
 
@@ -93,11 +92,14 @@ Display List는 비디오 메모리에 저장되며, 이를 그래픽스 프로�
 우리가 사용하는 대부분의 모니터는 래스터 방식을 사용한다고 보면 된다.
 
 화면에 그림을 그리는 수평선을 주사선(Scan Line)이라고 한다.
+#todo 주사선 부분을 CRT에 할지 이 부분에 할지?
 
 #### 픽셀
 주사선에 그려지는 점들을 [화소 (픽셀, Pixel)](https://en.wikipedia.org/wiki/Pixel)이라고 한다. 각 픽셀의 밝기와 색상을 조절하여 그림을 구성한다.
 
 컬러 디스플레이에서 각 화소는 각각 R(빨강), G(초록), B(파랑) 색상을 갖는 부화소 (Subpixel) 3개로 구성된다.
+
+#todo Additive Color에 대해서 간단 내용 추가
 
 색상을 구현하기 위해 각 부화소는 독립적으로 제어되며, 모니터의 용도에 따라 여러 가지 형태의 [화소 배열 (Pixel Geometry)](https://en.wikipedia.org/wiki/Pixel_geometry)로 배치된다. 특정 디스플레이의 화소 배열 형태를 알고 있다면, [부화소 렌더링 (Subpixel Rendering)]을 소프트웨어로 구현하여 모니터의 외견상 해상도를 향상시킬 수 있다.
 
@@ -110,11 +112,9 @@ Display List는 비디오 메모리에 저장되며, 이를 그래픽스 프로�
 그래픽 시스템에서 기본 출력장치이자 가장 일반적인 디스플레이 장치는 모니터다.
 
 ### 평판 디스플레이
-
-[평판 디스플레이 (Flat Panel Display)](https://en.wikipedia.org/wiki/Flat-panel_display)는 CRT에 비해 부피나 무게, 소비전력을 줄인 평평한 화면의 비디오 장치를 뜻한다 (요즘에는 굳이? 이 단어를 사용할 필요가 있을까 싶다).
+[평판 디스플레이 (Flat-Panel Display)](https://en.wikipedia.org/wiki/Flat-panel_display)는 부피가 얇고, 화면이 평평한 비디오 장치를 뜻한다. 한떄는 화면이 둥그런 CRT와 비교되어 이 단어에 큰 의미가 있었지만, 요즘에는 [곡면 디스플레이 (Curved Screen)](https://en.wikipedia.org/wiki/Curved_screen)를 제외한 모든 디스플레이가 평판 디스플레이기 때문에 그리 큰 의미가 없다.
 
 #### 방사성 vs. 비방사성
-
 [평판 디스플레이는 두 가지 부류로 나뉜다](https://siim.org/page/displays_chapter2).
 1. 방사성 (Emissive)
 2. 비방사성 (Nonemissive)
@@ -322,7 +322,17 @@ VSync 옵션은 GPU 설정 또는 게임/DVD플레이어 설정에 있다.
 참고 : `500:1`은 봐줄만한 수준이고, `1,000 : 1 (Typical)` 이 2022년도 최신 모니터 보통 수준이라고 보면 될 듯 하다.
 
 #### 시야각
-[시야각 (Viewing Angle)](https://en.wikipedia.org/wiki/Viewing_angle)은 화면을 바라보는 각도에 의해 회도, 색도, 감마 등 
+[시야각 (Viewing Angle)](https://en.wikipedia.org/wiki/Viewing_angle)은 화면 정면에서 회도, 색도, 감마 등이 특정 기준을 만족하는 상하좌우 방향의 범위를 의미한다.
+
+![[viewing_angle.jpg]]
+
+여기서 "특정 기준"이란 이미지가 왜곡되는 현상의 허용 수준이며, 다른 말로 "보기 좋은 수준"이다.
+
+![[tn_ips_comparison_01.jpg]]
+
+시야각은 수직, 수평 각도(°)로 표현된다. 최대 시야각은 178°/178° 이다.
+
+주로 시야각은 [[#LCD 디스플레이]]에서 문제가 된다. #todo 패널 종류 - 시야각 관련 내용 링크.
 
 #### 패널 종류
 VA, IPS, 등등
@@ -350,3 +360,5 @@ source : [Digital World 839 - Computer Basics - 5 Different Types of Monitors](h
 - [Programmer's Guide to Video Systems - Lurker's Guide](https://lurkertech.com/lg/video-systems/)
 - [The Lurker's Guide](https://lurkertech.com/lg/)
 - [Dell사에서 알려주는 "모니터 선택하는 방법"](https://www.dell.com/learn/us/en/22/consumer/choose-a-monitor-all)
+
+[[samsung_monitor_S27R350_specs.jpg | 삼성 모니터 제품사양]]
