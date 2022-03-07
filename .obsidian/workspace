@@ -54,7 +54,7 @@
               "leaf": "b626d59c02eeb2b8",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"todo/todo_log_2022.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":41},\"to\":{\"line\":24,\"ch\":41}}}"
+              "eState": "{}"
             }
           ]
         }
@@ -70,13 +70,19 @@
           }
         },
         "pane-relief:history-v1": {
-          "pos": 0,
+          "pos": 1,
           "stack": [
             {
               "leaf": "74d15c5aa24b0dc5",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"ideas/personal_blog_ideas.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "74d15c5aa24b0dc5",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_knou_note.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":317.00001723425993}"
+              "eState": "{\"scroll\":288.9782608695652}"
             }
           ]
         }
@@ -198,11 +204,11 @@
   "active": "74d15c5aa24b0dc5",
   "lastOpenFiles": [
     "computer_science/computer_vision/computer_graphics_knou_note.md",
+    "ideas/personal_blog_ideas.md",
     "todo/todo_log_2022.md",
     "attachments/samsung_monitor_S27R350_specs.jpg",
     "todo/general_todos.md",
     "ideas/computer_graphics_ideas.md",
-    "ideas/Untitled.md",
     "unsorted/international_travel_checklist.md",
     "unsorted/plot_temperature.md",
     "ideas/obsidian_improvements.md",

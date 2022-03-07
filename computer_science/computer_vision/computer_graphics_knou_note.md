@@ -2,7 +2,8 @@
 aliases: [Computer Graphics Note]
 tags: [computer_science, computer_vision, computer_graphics, KNOU, study]
 status: ongoing
-edited: 2022-03-02
+created: 2022-03-02
+edited: 2022-03-07
 ---
 
 # Computer Graphics Note
@@ -17,52 +18,98 @@ edited: 2022-03-02
 2. 그래픽스 워크스테이션 (PC)
 3. 출력장치
 
+### 입력장치
+컴퓨터 그래픽스 시스템에서 입력장치는 키보드, 마우스, 컨트롤러 등 PC에 연결되어 신호를 전송하는 장치를 뜻한다.
+
+### 그래픽스 워크스테이션
+그래픽스 워크스테이션이라 쓰고, 컴퓨터 또는 PC라고 읽는다.
+
+일반적으로 "워크스테이션"은 전문 작업을 수행하는데 적합한 고성능 컴퓨터를 뜻한다. 그래픽스 워크스테이션은 말 그대로 컴퓨터 그래픽 업무 전용 고성능 컴퓨터를 뜻한다.
+
 그래픽스 워크스테이션은 4가지로 구성되로 있다.
 1. 중앙처리장치 (CPU)
-2. 메모리
-3. 그래픽스 처리장치 (GPU) / 비디오 카드
-4. 입출력 인터페이스
+2. 메모리 (RAM)
+3. 그래픽 카드
+4. [입출력 인터페이스](https://en.wikipedia.org/wiki/Audio_and_video_interfaces_and_connectors)
 
 ![[knou_cg_pic1-14.jpg]]
 
-### GPU
-GPU는 그래픽스를 가속하기 위하여 최적화된 전용 프로세서로 주로 비디오 카드에 탑재되지만 일부 시스템에서는 CPU 내에 구현되기도 한다.
+#### 그래픽 카드
+[그래픽 카드 (Graphics Card)](https://en.wikipedia.org/wiki/Graphics_card)는 그래픽 작업을 전문적으로 빠르게 처리하고 이미지 데이터를 출력장치에 전송하는 역할을 하는 [확장 카드](https://en.wikipedia.org/wiki/Expansion_card)이다.
 
-GPU는 3D 그래픽스 렌더링에 필수적인 실수연산을 실행하기 위하여 특별하게 설계된다.
+참고: 그래픽 작업 외 다목적 컴퓨팅에도 사용되기도 한다 (예: 인공지능, 비트코인 채굴) -  [GPU 상 다목적 컴퓨팅 (GPGPU)](https://en.wikipedia.org/wiki/General-purpose_computing_on_graphics_processing_units). [OpenCL](https://sweetcode.io/know-when-you-need-opencl/), Cuda 등의 병렬처리 프레임워크를 참고해보면 좋다.
 
-GPU를 구별하는 속성:
-1. 클럭 주파수 (200~850MHz)
-2. 파이프라인 (꼭짓점과 선으로 특성화되는 3D 영상을 화소로 구성되는 2D 영상으로 변환)
-3. etc.
+그래픽 카드가 "확장 카드"인 이유는 그래픽 카드가 컴퓨터의 필수 요소가 아니기 때문이다. 정확히는, 그래픽 카드가 없어도 CPU에 아주 기본적인 영상처리 기능이 있기 때문에 모니터에 연결해서 이미지를 볼 수 있다.
 
-### 비디오 BIOS
-비디오 BIOS 또는 펌웨어(Firmware)는 비디오 카드의 동작을 조절한다.
+#todo 규격/성능 관련 부분 추가. [참고1](https://www.binarytides.com/graphics-card-specs-explained/), [참고2](https://m.blog.naver.com/neolims/50096275324)
 
-컴퓨터와 소프트웨어가 비디오 카드와 상호 동작할 수 있도록 하는 명령어를 지원하는 기본 프로그램을 포함하고 있다.
+그래픽 카드의 구성 요소는 다음과 같다.
+1. GPU
+2. 방열판
+3. 비디오 BIOS
+4. 비디오 메모리
+5. RAMDAC
+6. 출력 인터페이스
 
-### 비디오 메모리
+##### GPU
+[GPU (Graphics Processing Unit)](https://en.wikipedia.org/wiki/Graphics_processing_unit)는 그래픽 작업을 가속하기 위해 최적화된 전용 프로세서/전자회로 이다. 
+
+GPU는 3D 그래픽스 렌더링에 필수적인 실수 연산을 실행하기 위하여 특별하게 설계된다. 특히나 다수의 코어를 활용하여 병렬처리를 하기 때문에 고속의 실수연산이 가능하다.
+
+참고: CPU는 수많은 [명령어 집합 (Instruction Set)](https://en.wikipedia.org/wiki/Instruction_set_architecture)을 갖추고 있고 복잡한 연산이 가능하다. 반면에, GPU는 적은 수의 명령어 집합을 갖추고 있고 간단한 실수 연산만 가능하다.
+
+GPU는 주로 그래픽 카드에 탑재되지만 일부 시스템에서는 CPU 내에 구현되기도 한다.
+- 그래픽 카드에 탑재되면 Discrete GPU (dGPU), 전용 그래픽이라 불리운다.
+- CPU에 탑재되면 Integrated GPU (iGPU), 내장 그래픽이라 불리운다.
+
+참고: 전용 그래픽은 Dedicated GPU라고 불리기도 한다.
+
+일반적으로 사무용 컴퓨터/노트북에는 내장 그래픽을 사용한다. 게임용/전문가용 컴퓨터는 전용 그래픽을 사용한다.
+
+전용 그래픽을 "외장" 그래픽이라 부르지 않는 이유는 이미 외장 그래픽 (External GPU)이라는 개념이 있기 때문이다. 전용 그래픽, 내장 그래픽은 컴퓨터 구조 내부에 있지만, 외장 그래픽은 말 그대로 컴퓨터 구조 바깥에 있어 케이블로 연결해서 사용한다. 다른 유형의 GPU보다 성능이 좋지 않고 좀 번거롭기 때문에 인기는 별로 없다.
+
+참고: 일반적으로 그래픽 카드와 GPU는 혼용되어 불리운다. 하지만 GPU와 그래픽 카드는 엄연히 다른 것이며 명확히 구분할 필요가 있다.
+
+##### 비디오 BIOS
+[비디오 BIOS](https://en.wikipedia.org/wiki/Video_BIOS)는 그래픽 카드의 초기 설정과 간단한 동작을 제어하기 위해 최소한의 기능을 포함한 프로그램으로 컴퓨터 시작 시 (그래픽 카드 시작 시) 실행된다.
+
+컴퓨터와 소프트웨어가 그래픽 카드와 상호 동작할 수 있도록 하는 명령어를 지원한다.
+
+##### 비디오 메모리
 비디오 메모리는 화면에 출력할 그래픽 데이터를 저장하는 용도로 사용한다.
 
-프레임 버퍼, 깊이 버퍼 등이 비디오 메모리에 포함된다.
+비디오 메모리에 저장할 수 있는 여러 프로그램 및 데이터:
+- [깊이 버퍼 (Z-Buffer)](https://en.wikipedia.org/wiki/Z-buffering)
+- [텍스처 매핑 (Texture Mapping)](https://en.wikipedia.org/wiki/Texture_mapping)
+- [버텍스 버퍼 (Vertex Buffer)](https://en.wikipedia.org/wiki/Vertex_buffer_object)
+- [셰이더 프로그램 (Shader)](https://en.wikipedia.org/wiki/Shader)
 
-또한 GPU가 동작하는데 필요한 프로그램 및 데이터 역시 비디오 메모리에 저장된다.
+#todo 비디오 메모리가 어떻게 활용되는지, 아직 정확한 지식이 없다. 결국엔 여러군데 둘러봐야 할 것 같다. [Hardware Overlay](https://en.wikipedia.org/wiki/Hardware_overlay)가 참고해볼만한 것 같다.
 
-### RAMDAC
-RAMDAC(Random Access Memory Digital-to-Analog Converter)은 아날로그 디스플레이 장치(i.e. CRT, etc)를 위하여 디지털 신호를 아날로그 신호로 변환한다.
+##### RAMDAC
+[RAMDAC (Random Access Memory Digital-to-Analog Converter)](https://en.wikipedia.org/wiki/RAMDAC)은 아날로그 디스플레이 장치(i.e. CRT, etc)를 위하여 디지털 신호를 아날로그 신호로 변환한다.
 
 사용되는 비트 수와 RAMDAC 데이터 전송률에 따라 변환기는 다른 Refresh Rate을 지원할 수 있다.
 - CRT 디스플레이 경우 Flicker를 최소화하기 위하여 75hz 이상에서 최상으로 동작
 - LCD 디스플레이는 Flicker 문제가 없음
 
-디지털 디스플레이 장치가 대중화됨으로 RAMDAC이 GPU에 통합되는 추세이기 때문에 RAMDAC은 점차 사라져 가고 있다.
+디지털 디스플레이 장치가 대중화되며 아날로그 디스플레이 장치가 사라져 가고 있으며, 마찬가지로 RAMDAC도 같이 사라져 가고 있다.
 
-### 비디오 입출력 인터페이스
-비디오 카드와 컴퓨터 디스플레이 간의 가장 보편적인 연결 시스템은 다음과 같다.
+##### 출력 인터페이스
+[출력 인터페이스](https://en.wikipedia.org/wiki/Audio_and_video_interfaces_and_connectors)는 그래픽 카드와 디스플레이 간을 연결하는 시스템/규격을 뜻 한다.
+
+가장 보편적인 연결 시스템은 다음과 같다.
 1. Video Graphics Array (VGA) : CRT 디스플레이를 위하여 1980대 후반 채택된 아날로그 기반 표준. 전기적 잡음, 영상왜곡, 표본화 오차 등의 문제를 갖고 있다.
 2. Digital Visual Interface (DVI) : LCD, 플라즈마 스크린 등의 Flat Display를 위한 디지털 기반 표준. 영상왜곡, 전기적 잡음 등을 피할 수 있다.
 3. Video In Video Out (VIVO) : TV, DVD 재생기, 비디오 녹화기 등을 위한 S-비디오, 복합 비디오, 컴포넌트 비디오를 위한 표준. 빨강, 파랑, 노상, 초록 등 여러 가지 색상으로 되어있던 케이블 이다.
 4. High-Definition Multimedia Interface (HDMI) : 2003년에 발표된 디지털 오디오/비디오 표준. HDCP 복사장지 기능을 제공한다.
 5. [Display Port](https://en.wikipedia.org/wiki/DisplayPort) : 2007년에 발표된 오디오/비디오 표준. 특허권 사용료 없음.
+
+그 외에 USB-C, Thunderbolt 등이 있다.
+
+### 출력 장치
+[출력 장치 (Output Device)](https://en.wikipedia.org/wiki/Output_device)
+
 
 ## 1.4.1 디스플레이 방식
 디스플레이에서 그림을 그리는 방식은 Raster와 Vector로 구분된다.
@@ -280,7 +327,7 @@ VSync 옵션은 GPU 설정 또는 게임/DVD플레이어 설정에 있다.
 
 ![[response_time_comparison.PNG]]
 
-참고3 : Ghosting, Smearing 문제는 응답 시간 뿐만이 아니라 주사 방식, 주사율, 패널 종류 등 여러 요인으로서 발생된다.
+참고3 : Ghosting, Smearing 문제는 응답 시간 뿐만이 아니라 주사 방식, 주사율, 패널 종류 등 여러 요인으로부터 발생된다.
 
 #### 색 재현율
 [색 재현율 (Color Gamut)](https://en.wikipedia.org/wiki/Gamut)은 모니터가 색을 얼마만큼 표현할 수 이는지 나타내는 수치이다.
