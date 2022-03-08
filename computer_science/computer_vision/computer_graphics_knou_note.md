@@ -18,8 +18,10 @@ edited: 2022-03-07
 2. 그래픽스 워크스테이션 (PC)
 3. 출력장치
 
+![[computer.PNG | 300]]
+
 ### 입력장치
-컴퓨터 그래픽스 시스템에서 [입력장치 (Input Device)]는 키보드, 마우스, 컨트롤러 등 PC에 연결되어 신호를 전송하는 장치를 뜻한다.
+컴퓨터 그래픽스 시스템에서 [입력장치 (Input Device)](https://en.wikipedia.org/wiki/Input_device)는 키보드, 마우스, 컨트롤러 등 PC에 연결되어 신호를 전송하는 장치를 뜻한다.
 
 ### 그래픽스 워크스테이션
 그래픽스 워크스테이션이라 쓰고, 컴퓨터(PC)라고 읽는다.
@@ -29,8 +31,8 @@ edited: 2022-03-07
 그래픽스 워크스테이션은 4가지로 구성되로 있다.
 1. 중앙처리장치 (CPU)
 2. 메모리 (RAM)
-3. 그래픽 카드
-4. [입출력 인터페이스](https://en.wikipedia.org/wiki/Audio_and_video_interfaces_and_connectors)
+3. [[#그래픽 카드]]
+4. [[#출력 인터페이스]]
 
 ![[knou_cg_pic1-14.jpg]]
 
@@ -95,7 +97,7 @@ GPU는 주로 그래픽 카드에 탑재되지만 일부 시스템에서는 CPU 
 
 디지털 디스플레이 장치가 대중화되며 아날로그 디스플레이 장치가 사라져 가고 있으며, 마찬가지로 RAMDAC도 같이 사라져 가고 있다.
 
-##### 출력 인터페이스
+#### 출력 인터페이스
 [출력 인터페이스](https://en.wikipedia.org/wiki/Audio_and_video_interfaces_and_connectors)는 그래픽 카드와 디스플레이 간을 연결하는 시스템/규격을 뜻 한다.
 
 가장 보편적인 연결 시스템은 다음과 같다.
@@ -115,14 +117,18 @@ GPU는 주로 그래픽 카드에 탑재되지만 일부 시스템에서는 CPU 
 뒤에 다룰 내용은 출력 장치의 동작 원리이며, 모니터를 위주로 내용을 설명할 것이다. 출력 장치를 "디스플레이" 또는 "모니터"라고 부른다.
 
 ## 1.4.1 디스플레이 방식
-디스플레이에서 그림을 그리는 방식은 Raster와 Vector로 구분된다.
+디스플레이에서 그림을 그리는 방식은 Vector와 Raster로 구분된다.
 
 ### Vector Display
+![[vector_monitor.PNG | 300]]
+
 [벡터 디스플레이 (Vector Display)](https://en.wikipedia.org/wiki/Vector_monitor)는 "전자빔으로 도형을 주사하여 원하는 그림을 그리는 방식"이라고 보통 설명되어 있다. 지정된 경로에 따라 라인을 그리는 방식으로 그냥 생각하면 될 듯 하다.
+
+![[vector_scan_01.PNG]]
 
 [벡터 그래픽스 (Vector Graphics)](https://en.wikipedia.org/wiki/Vector_graphics)는 벡터 디스플레이와 유사하되 디자인 (일러스트레이션) 분야에 사용되는 기술이기 때문에 헷갈리면 안 된다.
 
-벡터 디스플레이 방식에서는 그림을 그래픽스 명령들로 표현하며, 이를 Display List 또는 Display Program이라고 한다.
+벡터 디스플레이 방식에서는 그림을 그래픽스 명령들로 표현하며, 이를 [Display List](https://en.wikipedia.org/wiki/Display_list) 또는 Display Program이라고 한다.
 
 ![[knou_cg_pic1-15.jpg]]
 
@@ -135,13 +141,19 @@ Display List는 비디오 메모리에 저장되며, 이를 그래픽스 프로�
 1970년 이후에는 래스터 디스플레이가 대중적으로 사용됨으로 벡터 디스플레이는 더 이상 사용되지 않는다.
 
 ### Raster Display
-래스터 디스플레이 방식은 위에서 아래로 한 행씩, 왼쪽에서 오른쪽으로 스크린을 가로질러 그리는 방식이다.
+[래스터 디스플레이 (Raster Display)](https://en.wikipedia.org/wiki/Raster_scan) 방식은 위에서 아래로 한 행씩, 왼쪽에서 오른쪽으로 스크린을 가로질러 그리는 방식이다. 래스터 스캔 (Raster Scan)이라고도 불리운다.
+
+![[raster_scan_01.PNG]]
 
 디스플레이하고자 하는 그림은 빨강, 초록, 파랑(RGB)의 색 정보를 표현하는 비디오 신호로 전달된다.
 
 우리가 사용하는 대부분의 모니터는 래스터 방식을 사용한다고 보면 된다.
 
-화면에 그림을 그리는 수평선을 주사선(Scan Line)이라고 한다.
+#todo 정보가 명확하지 않다. 어떤곳에는 래스터 스캔은 CRT에만 사용된다고 하고, 다른데는 LCD에서도 사용한다고 하고.. 헷갈린다.
+
+#todo [Progressive Scan](https://en.wikipedia.org/wiki/Progressive_scan)하고 동일한 개념인 듯 한데.. 헷갈린다.
+
+화면에 그림을 그리는 수평선을 [주사선 (Scan Line)](https://en.wikipedia.org/wiki/Scan_line)이라고 한다.
 #todo 주사선 부분을 CRT에 할지 이 부분에 할지?
 
 #### 픽셀

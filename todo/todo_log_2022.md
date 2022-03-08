@@ -122,9 +122,28 @@ Use of backlinks is recommended for tasks that require further explanation.
 
 
 ## 2022-02-25
-### Work
+### Work (complete)
 - [x] 회사소개서 영문본 수정
-- [ ] 제품소개서 영문본 작성
+
+### Personal
+- [x] Prepare ingredients for Buffalo Wings
+    - [x] Chicken Wings
+    - [x] Paprika, Garlic Powder, Baking Powder
+    - [x] Oven Pan and Foil
+    - [x] Unsalted Butter
+    - [x] Oil Spray
+
+
+# 2022-03
+
+
+## 2022-03-08
+### Work
+- [ ] 감정 분류 데이터 수집 및 정제
+- [ ] 데이터 바우처 신청서 작성
+- [ ] 둥글 데이터 분석
+- [ ] 둥글 유저 분류 모델 수립
+- [ ] 클라우드 지원 신청서 작성
 
 ### Personal
 - [ ] 방통대 2022년 1학기 등록금 관련 업무
@@ -134,9 +153,5 @@ Use of backlinks is recommended for tasks that require further explanation.
 - [ ] Figure out what counts as "evidence" of meeting somebody (for fiance visa)
     - [ ] Contact people who has gone through this
     - [ ] Work on collage
-- [ ] Prepare ingredients for Buffalo Wings
-    - [x] Chicken Wings
-    - [x] Paprika, Garlic Powder, Baking Powder
-    - [ ] Oven Pan and Foil
-    - [ ] Unsalted Butter
-    - [x] Oil Spray
+- [ ] [[computer_graphics_knou_note|Computer Graphics Note]] 작성
+
