@@ -12,7 +12,7 @@ edited: 2022-03-07
 
 # 챕터 1
 
-## 1.3 컴퓨터 그래픽스 시스템 구성
+## 컴퓨터 그래픽스 시스템 구성
 컴퓨터 그래픽스 시스템은 3가지로 구성되어 있다.
 1. 입력장치
 2. 그래픽스 워크스테이션 (PC)
@@ -107,59 +107,96 @@ GPU는 주로 그래픽 카드에 탑재되지만 일부 시스템에서는 CPU 
 4. High-Definition Multimedia Interface (HDMI) : 2003년에 발표된 디지털 오디오/비디오 표준. HDCP 복사장지 기능을 제공한다.
 5. [Display Port](https://en.wikipedia.org/wiki/DisplayPort) : 2007년에 발표된 오디오/비디오 표준. 특허권 사용료 없음.
 
-그 외에 USB-C, Thunderbolt 등이 있다. 심지어는 [무선 디스플레이 (https://en.wikipedia.org/wiki/Miracast)]도 있다.
+그 외에 USB-C, Thunderbolt 등이 있다. 심지어는 [무선 디스플레이 (Miracast)](https://en.wikipedia.org/wiki/Miracast)]도 있다.
 
 ### 출력 장치
 컴퓨터 그래픽스에 있어서 [출력 장치 (Output Device)](https://en.wikipedia.org/wiki/Output_device)는 출력 인터페이스를 통해 컴퓨터로부터 받는 이미지 데이터를 인간이 볼 수 있는 이미지로 재현하는 장치를 뜻한다.
 
 기본적인 예시로 모니터, 프로젝터, 그리고 프린터가 있다.
 
-뒤에 다룰 내용은 출력 장치의 동작 원리이며, 모니터를 위주로 내용을 설명할 것이다. 출력 장치를 "디스플레이" 또는 "모니터"라고 부른다.
+컴퓨터 그래픽스 관련 노트에서는 출력 장치 또는 기술 관련해서는 모니터 위주로 설명할 것이다. 그리고 편의상 출력 장치를 "디스플레이" 또는 "모니터"라고 부른다.
 
-## 1.4.1 디스플레이 방식
-디스플레이에서 그림을 그리는 방식은 Vector와 Raster로 구분된다.
+## 그래픽스 출력 방식
+화면에 그림을 그리는 방식을 디스플레이 (Display) 또는 스캔 (Scan/Scanning)이라 부른다.
 
-### Vector Display
-![[vector_monitor.PNG | 300]]
+장치도 디스플레이, 기술도 디스플레이라고 하니 많이 헷갈린다. 심지어 인터넷에 나와있는 자료들도 단어들을 혼용한다. 따라서,이 문제를 해결하기 위해 용어 정의를 한다:
+1. 디스플레이 : 그림을 그리는 장치
+2. 스캔 : 그림을 읽거나, 전송하거나, 또는 그리는 방식
+3. 그래픽스 : 그림/이미지 (데이터)
+4. 컴퓨터 그래픽스 : 컴퓨터로 그림을 그리는 기술 분야
 
-[벡터 디스플레이 (Vector Display)](https://en.wikipedia.org/wiki/Vector_monitor)는 "전자빔으로 도형을 주사하여 원하는 그림을 그리는 방식"이라고 보통 설명되어 있다. 지정된 경로에 따라 라인을 그리는 방식으로 그냥 생각하면 될 듯 하다.
+스캔 (Scan)은 한글로 "주사"라고도 하지만, 되도록이면 그냥 스캔이라고 칭하겠다.
+
+일반적으로 "스캔"은 보통 촬영 (카메라, 스캐너 등 장치를 사용하여 현실의 객체를 기록/저장하는 행위)과 같은 개념으로 이해된다. 하지만 컴퓨터 그래픽스에 있어서 "스캔"은 이미지를 읽고, 신호로 변환하고, 전송하고, 그리고 그리는 것, 이 전체를 뜻한다.
+
+물론, 읽는 방식, 변환 방식, 전송 방식, 그리는 방식 각각에 사용되는 다양한 기술들도 있다. 스캔은 단순히, 이 모든 것의 틀이 되는 가장 큰 개념이라고 볼 수 있다.
+
+읽기/변환/전송/그리기, 이렇게 표현하기 번거롭기 떄문에, 편의를 위해 일단 스캔은 그림을 그리는 방식 또는 그래픽스 출력 방식이라고 표현한다.
+
+스캔은 두 가지 종류가 있다.
+1. 벡터 스캔
+2. 래스터 스캔
+
+### 벡터 스캔
+[벡터 스캔 (Vector Scan)](https://en.wikipedia.org/wiki/Vector_monitor)는 점 또는 라인으로 명령 집합(지정된 경로)에 따라 빛을 내어 그림을 그리는 방식이다. Random Scan이라고도 불리운다.
 
 ![[vector_scan_01.PNG]]
 
-[벡터 그래픽스 (Vector Graphics)](https://en.wikipedia.org/wiki/Vector_graphics)는 벡터 디스플레이와 유사하되 디자인 (일러스트레이션) 분야에 사용되는 기술이기 때문에 헷갈리면 안 된다.
+![[vector_monitor.PNG | 300]]
 
-벡터 디스플레이 방식에서는 그림을 그래픽스 명령들로 표현하며, 이를 [Display List](https://en.wikipedia.org/wiki/Display_list) 또는 Display Program이라고 한다.
+참고: [벡터 그래픽스 (Vector Graphics)](https://en.wikipedia.org/wiki/Vector_graphics)는 기본 도형으로 명령 집합에 따라 이미지를 그리는 방식으로, 벡터 스캔의 개념과 유사하되 디자인 (일러스트레이션) 분야에 사용되는 기술이기 때문에 헷갈리면 안 된다.
+
+벡터 스캔은 그림을 그래픽스 명령들로 표현하며, 이를 [Display List](https://en.wikipedia.org/wiki/Display_list) 또는 Display Program이라고 한다. 여기서 명령이란 좌표계에 위치(점)을 지정하거나 라인을 그리는 지시를 뜻한다.
 
 ![[knou_cg_pic1-15.jpg]]
 
-Display List는 비디오 메모리에 저장되며, 이를 그래픽스 프로세서가 초당 30회 이상 반복하여 디스플레이한다.
+벡터 스캔은 래스터 스캔과 달리 Aliasing 문제가 발생하지 않는 장점이 있어 설계도면을 그리는데 많이 사용되었다. 1970년 이후에는 래스터 스캔이 대중적으로 사용됨으로 벡터 스캔은 [오실로스코프 (Oscilloscope)](https://en.wikipedia.org/wiki/Oscilloscope)와 같은 특정 과학/의료/방위 기구들을 제외하고 더 이상 사용되지 않는다.
 
-비디오 메모리 사용량은 화면에 얼마나 많은 물체가 포함되는가에 따라 달라진다.
+주의 : 벡터 스캔은 벡터 디스플레이 또는 벡터 모니터라고도 불리운다.
 
-벡터 방식은 래스터 방식과 달리 Aliasing 문제가 발생하지 않는 장점이 있어 설계도면을 그리는데 많이 사용되었다.
+### 래스터 스캔
+[래스터 스캔 (Raster Scan)](https://en.wikipedia.org/wiki/Raster_scan)는 수많은 점으로 이루어진 그리드 형식의 사각형 화면에 왼쪽 상단부터 오른쪽 하단까지 지그재그 형식으로 각 점에 빛을 내는 방식이다.
 
-1970년 이후에는 래스터 디스플레이가 대중적으로 사용됨으로 벡터 디스플레이는 더 이상 사용되지 않는다.
-
-### Raster Display
-[래스터 디스플레이 (Raster Display)](https://en.wikipedia.org/wiki/Raster_scan) 방식은 위에서 아래로 한 행씩, 왼쪽에서 오른쪽으로 스크린을 가로질러 그리는 방식이다. 래스터 스캔 (Raster Scan)이라고도 불리운다.
+필요한 부분만 그리는 벡터 스캔과 달리, 래스터 스캔은 전체 화면을 그린다.
 
 ![[raster_scan_01.PNG]]
 
-디스플레이하고자 하는 그림은 빨강, 초록, 파랑(RGB)의 색 정보를 표현하는 비디오 신호로 전달된다.
+![[slowmo_raster_scan_half.gif]]
 
-우리가 사용하는 대부분의 모니터는 래스터 방식을 사용한다고 보면 된다.
+참고 1 : 우리가 일반적으로 사용하는 모니터는 래스터 스캔을 사용한다.
+참고 2 : 어떤 자료에는 래스터 스캔은 CRT에만 사용된다고 하고, 다른데는 LCD에서도 사용한다고 상반된 내용이 있다.
 
-#todo 정보가 명확하지 않다. 어떤곳에는 래스터 스캔은 CRT에만 사용된다고 하고, 다른데는 LCD에서도 사용한다고 하고.. 헷갈린다.
 
+#### 픽셀
+그리드 상의 각 점은 [픽셀 (Pixel)](https://en.wikipedia.org/wiki/Pixel) 또는 화소라 부른다. 각 픽셀의 밝기와 색상을 조절하여 그림을 그릴 수 있다.
+
+참고: 픽셀 값들은 화면에 그려지기 전에 [프레임 버퍼 (Frame Buffer)](https://en.wikipedia.org/wiki/Framebuffer)에 저장된다. 자세한 내용은 나중에 다루겠다.
+
+#todo 정보가 명확하지 않다. 
+
+#### 주사선
 #todo [Progressive Scan](https://en.wikipedia.org/wiki/Progressive_scan)하고 동일한 개념인 듯 한데.. 헷갈린다.
 
 화면에 그림을 그리는 수평선을 [주사선 (Scan Line)](https://en.wikipedia.org/wiki/Scan_line)이라고 한다.
 #todo 주사선 부분을 CRT에 할지 이 부분에 할지?
 
-#### 픽셀
-주사선에 그려지는 점들을 [화소 (픽셀, Pixel)](https://en.wikipedia.org/wiki/Pixel)이라고 한다. 각 픽셀의 밝기와 색상을 조절하여 그림을 구성한다.
+#todo https://en.wikipedia.org/wiki/Progressive_scan
 
-컬러 디스플레이에서 각 화소는 각각 R(빨강), G(초록), B(파랑) 색상을 갖는 부화소 (Subpixel) 3개로 구성된다.
+TV와 초기 모니터는 홀수 번쨰와 짝수 번쨰 주사선을 번갈아 주사하는 [비월주사 (Interlaced Scanning)](https://en.wikipedia.org/wiki/Interlaced_video)를 사용했다. 비월주사는 Frame Rate을 증가시키며 (실제로 증가하지 않되 증가된 것과 같이 인식된다) 대역폭(bandwidth)를 그대로 유지한다는 장점이 있다. 더불어, 움직이는 모션을 부드럽게 하며 Flicker를 줄여주는 효과가 있다. 하지만 Progressive Scan (모든 픽셀을 그리는 방식)과 비교하여 디테일이 부드럽지 못 하고 움직임 아티팩트 (Motion Artifact)가 생긴다는 단점이 있다.
+
+![[CRT_image_creation_animation.gif | 300]]
+
+[주사(Scan) 관련 추가 자료](https://lurkertech.com/lg/fields)
+
+
+#### 프레임
+프레임 (Frame)
+
+
+#### 컬러 모니터
+컬러 디스플레이에서 각 픽셀은 R(빨강), G(초록), 또는 B(파랑) 색상을 갖는 부화소 (Subpixel) 3개로 구성된다.
+
+참고: 프린터는 
 
 #todo Additive Color에 대해서 간단 내용 추가
 
@@ -167,10 +204,7 @@ Display List는 비디오 메모리에 저장되며, 이를 그래픽스 프로�
 
 ![[pixel_geometry.PNG | 300]]
 
-참고: 픽셀 값들은 화면에 그려지기 전에 [프레임 버퍼 (Frame Buffer)](https://en.wikipedia.org/wiki/Framebuffer)에 저장된다. 비디오 카드의 RAM이라고 생각하면 된다.
-
-
-## 1.4.2 디스플레이 장치
+## 1.4.2 디스플레이 종류
 그래픽 시스템에서 기본 출력장치이자 가장 일반적인 디스플레이 장치는 모니터다.
 
 ### 평판 디스플레이
@@ -215,12 +249,6 @@ CRT는 [전자총 (Electron Gun)](https://en.wikipedia.org/wiki/Electron_gun)과
 1초에 전자총이 전체 그림을 다시 그리는 횟수를 재생률 (Refresh Rate)이라고 하며, 이를 세는 단위로 Hertz를 사용한다.
 
 ![[Cathode_ray_Tube.png | 300]]
-
-TV와 초기 모니터는 홀수 번쨰와 짝수 번쨰 주사선을 번갈아 주사하는 [비월주사 (Interlaced Scanning)](https://en.wikipedia.org/wiki/Interlaced_video)를 사용했다. 비월주사는 Frame Rate을 증가시키며 (실제로 증가하지 않되 증가된 것과 같이 인식된다) 대역폭(bandwidth)를 그대로 유지한다는 장점이 있다. 더불어, 움직이는 모션을 부드럽게 하며 Flicker를 줄여주는 효과가 있다. 하지만 Progressive Scan (모든 픽셀을 그리는 방식)과 비교하여 디테일이 부드럽지 못 하고 움직임 아티팩트 (Motion Artifact)가 생긴다는 단점이 있다.
-
-![[CRT_image_creation_animation.gif | 300]]
-
-[주사(Scan) 관련 추가 자료](https://lurkertech.com/lg/fields)
 
 #### CRT의 장점
 1. 20,000 : 1 이상의 높은 명함 대비율. 이는 LCD나 플라즈마에 비하여 매우 높은 편이다.
@@ -422,5 +450,8 @@ source : [Digital World 839 - Computer Basics - 5 Different Types of Monitors](h
 - [Programmer's Guide to Video Systems - Lurker's Guide](https://lurkertech.com/lg/video-systems/)
 - [The Lurker's Guide](https://lurkertech.com/lg/)
 - [Dell사에서 알려주는 "모니터 선택하는 방법"](https://www.dell.com/learn/us/en/22/consumer/choose-a-monitor-all)
+- [티비를 슬로우 모션으로 보기](https://youtu.be/3BJU2drrtCM)
 
-[[samsung_monitor_S27R350_specs.jpg | 삼성 모니터 제품사양]]
+## 모니터 제품사양 예시
+삼성 모니터 LS27R350 - LED(LCD) Standard(일반) 27인치 2019년 Full HD 모니터
+![[samsung_monitor_S27R350_specs.jpg | 삼성 모니터 제품사양]]

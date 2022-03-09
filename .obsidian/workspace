@@ -75,14 +75,14 @@
             {
               "leaf": "74d15c5aa24b0dc5",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"ideas/personal_blog_ideas.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+              "state": "{\"type\":\"image\",\"state\":{\"file\":\"attachments/samsung_monitor_S27R350_specs.jpg\"}}",
+              "eState": "{}"
             },
             {
               "leaf": "74d15c5aa24b0dc5",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_knou_note.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":143.9855072463768}"
+              "eState": "{\"scroll\":444.14284852816525}"
             }
           ]
         }
@@ -204,9 +204,9 @@
   "active": "74d15c5aa24b0dc5",
   "lastOpenFiles": [
     "computer_science/computer_vision/computer_graphics_knou_note.md",
+    "attachments/samsung_monitor_S27R350_specs.jpg",
     "todo/todo_log_2022.md",
     "ideas/personal_blog_ideas.md",
-    "attachments/samsung_monitor_S27R350_specs.jpg",
     "todo/general_todos.md",
     "ideas/computer_graphics_ideas.md",
     "unsorted/international_travel_checklist.md",
