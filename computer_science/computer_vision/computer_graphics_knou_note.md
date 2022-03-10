@@ -3,12 +3,13 @@ aliases: [Computer Graphics Note]
 tags: [computer_science, computer_vision, computer_graphics, KNOU, study]
 status: ongoing
 created: 2022-03-02
-edited: 2022-03-07
+edited: 2022-03-10
 ---
 
 # Computer Graphics Note
 방통대 교과서에 있는 내용을 토대로 하되, 여러 부분을 수정/제거/추가한 노트.
-개인적으로 방통대 교과서는 정리가 잘 안 되어 있을 뿐만이 아니라 틀린 정보가 의외로 많다.
+
+개인적으로 느낀 바로, 방통대 교과서는 정리가 잘 안 되어 있을 뿐만이 아니라 틀린 정보가 많다.
 
 # 챕터 1
 
@@ -146,39 +147,46 @@ GPU는 주로 그래픽 카드에 탑재되지만 일부 시스템에서는 CPU 
 
 참고: [벡터 그래픽스 (Vector Graphics)](https://en.wikipedia.org/wiki/Vector_graphics)는 기본 도형으로 명령 집합에 따라 이미지를 그리는 방식으로, 벡터 스캔의 개념과 유사하되 디자인 (일러스트레이션) 분야에 사용되는 기술이기 때문에 헷갈리면 안 된다.
 
-벡터 스캔은 그림을 그래픽스 명령들로 표현하며, 이를 [Display List](https://en.wikipedia.org/wiki/Display_list) 또는 Display Program이라고 한다. 여기서 명령이란 좌표계에 위치(점)을 지정하거나 라인을 그리는 지시를 뜻한다.
+벡터 스캔은 그림(이미지 데이터)을 그래픽스 명령들로 표현하며, 이를 [Display List](https://en.wikipedia.org/wiki/Display_list) 또는 Display Program이라고 한다. 여기서 명령이란 좌표계에 위치(점)을 지정하거나 라인을 그리는 지시를 뜻한다.
 
 ![[knou_cg_pic1-15.jpg]]
 
 벡터 스캔은 래스터 스캔과 달리 Aliasing 문제가 발생하지 않는 장점이 있어 설계도면을 그리는데 많이 사용되었다. 1970년 이후에는 래스터 스캔이 대중적으로 사용됨으로 벡터 스캔은 [오실로스코프 (Oscilloscope)](https://en.wikipedia.org/wiki/Oscilloscope)와 같은 특정 과학/의료/방위 기구들을 제외하고 더 이상 사용되지 않는다.
 
+![[oscilloscope_animation_01.webp]]
+
 주의 : 벡터 스캔은 벡터 디스플레이 또는 벡터 모니터라고도 불리운다.
 
 ### 래스터 스캔
-[래스터 스캔 (Raster Scan)](https://en.wikipedia.org/wiki/Raster_scan)는 수많은 점으로 이루어진 그리드 형식의 사각형 화면에 왼쪽 상단부터 오른쪽 하단까지 지그재그 형식으로 각 점에 빛을 내는 방식이다.
+[래스터 스캔 (Raster Scan)](https://en.wikipedia.org/wiki/Raster_scan)은 수많은 점으로 이루어진 그리드 형식의 사각형 화면에 왼쪽 상단부터 오른쪽 하단까지 지그재그 형식에 순서대로 각 점에 빛을 내는 방식이다.
 
 필요한 부분만 그리는 벡터 스캔과 달리, 래스터 스캔은 전체 화면을 그린다.
+
+우리가 일반적으로 사용하는 모니터는 래스터 스캔을 사용한다.
 
 ![[raster_scan_01.PNG]]
 
 ![[slowmo_raster_scan_half.gif]]
 
-참고 1 : 우리가 일반적으로 사용하는 모니터는 래스터 스캔을 사용한다.
-참고 2 : 어떤 자료에는 래스터 스캔은 CRT에만 사용된다고 하고, 다른데는 LCD에서도 사용한다고 상반된 내용이 있다.
+참고: [래스터 그래픽스 (Raster Graphics)](https://en.wikipedia.org/wiki/Raster_graphics)는 래스터 스캔에 그려지는 그림을 뜻한다. 벡터 그래픽스와 같이 디자인 (일러스트레이션) 분야에 사용된다.
 
+참고 : 어떤 자료에는 래스터 스캔은 CRT에만 사용된다고 하고, 다른데는 LCD에서도 사용한다고 상반된 내용이 있다.
 
 #### 픽셀
-그리드 상의 각 점은 [픽셀 (Pixel)](https://en.wikipedia.org/wiki/Pixel) 또는 화소라 부른다. 각 픽셀의 밝기와 색상을 조절하여 그림을 그릴 수 있다.
+그리드 상의 각 점은 [픽셀 (Pixel)](https://en.wikipedia.org/wiki/Pixel) 또는 화소라 부른다. 각 픽셀의 밝기를 조절하여 그림을 그릴 수 있다.
+
+래스터 스캔은 그림(이미지 데이터)을 픽셀 값 목록으로 표현한다. 여기서 픽셀 값이란 빛의 강도를 뜻하며, 0~255 사이의 값이 사용된다. 픽셀로 색을 표현하기도 하며, 이 부분은 [[#컬러 모니터]]에 설명한다.
+
+![[lincoln_pixel_values.png]]
 
 참고: 픽셀 값들은 화면에 그려지기 전에 [프레임 버퍼 (Frame Buffer)](https://en.wikipedia.org/wiki/Framebuffer)에 저장된다. 자세한 내용은 나중에 다루겠다.
 
-#todo 정보가 명확하지 않다. 
-
 #### 주사선
-#todo [Progressive Scan](https://en.wikipedia.org/wiki/Progressive_scan)하고 동일한 개념인 듯 한데.. 헷갈린다.
+좌우로 그려진 한 행의 픽셀들을 [스캔 라인 (Scan Line)](https://en.wikipedia.org/wiki/Scan_line) 또는 주사선이라고 한다.
 
-화면에 그림을 그리는 수평선을 [주사선 (Scan Line)](https://en.wikipedia.org/wiki/Scan_line)이라고 한다.
-#todo 주사선 부분을 CRT에 할지 이 부분에 할지?
+#todo 스캔 라인 현상
+
+#todo [Progressive Scan](https://en.wikipedia.org/wiki/Progressive_scan)하고 동일한 개념인 듯 한데.. 헷갈린다.
 
 #todo https://en.wikipedia.org/wiki/Progressive_scan
 
@@ -196,13 +204,46 @@ TV와 초기 모니터는 홀수 번쨰와 짝수 번쨰 주사선을 번갈아 
 #### 컬러 모니터
 컬러 디스플레이에서 각 픽셀은 R(빨강), G(초록), 또는 B(파랑) 색상을 갖는 부화소 (Subpixel) 3개로 구성된다.
 
-참고: 프린터는 
-
-#todo Additive Color에 대해서 간단 내용 추가
+참고: 프린터는 CYMK
 
 색상을 구현하기 위해 각 부화소는 독립적으로 제어되며, 모니터의 용도에 따라 여러 가지 형태의 [화소 배열 (Pixel Geometry)](https://en.wikipedia.org/wiki/Pixel_geometry)로 배치된다. 특정 디스플레이의 화소 배열 형태를 알고 있다면, [부화소 렌더링 (Subpixel Rendering)]을 소프트웨어로 구현하여 모니터의 외견상 해상도를 향상시킬 수 있다.
 
 ![[pixel_geometry.PNG | 300]]
+
+##### 가산혼합과 감산혼합
+참고 : [빛 (Light)](https://en.wikipedia.org/wiki/Light)은 아주 복잡하다. 빛은 반사되고, 흡수되고, 통과되고, 왜곡되고 별별 특성을 다 갖고 있다. [색 (Color)](https://en.wikipedia.org/wiki/Color)은 빛에서 나오기 때문에, 색도 마찬가지로 복잡하다. 여기서 다루는 내용은 "내가 이해할 수 있는" 수준으로 간단하게 정리한 것이기 때문에, 좀 더 정확한 정보는 따로 리서치 해봐야 한다.
+
+![[light_dispersion_prism.PNG]]
+
+[가산혼합 (Additive Color)](https://en.wikipedia.org/wiki/Additive_color)은 3개 색을 혼합하여 모든 색을 구현하는 방식이다.
+
+가산 (Additive)의 의미는 빛이 없는 공간 (검은색)에 빛을 "더하여" 하얀색으로 만든다는 뜻이다. 다른 말로는, 검은색에 각 색을 "더하여" 여러 색을 구현한다는 뜻이다. 최종적으로 모든 색을 최대 비율로 더하면 하얀색이 나온다.
+
+가산혼합에 사용되는 색을 [원색 (Primary Color)](https://en.wikipedia.org/wiki/Primary_color)이라고 부르며, 서로 독립적인 색을 뜻한다 - 서로 독립적인 색은, 둘을 혼합해도 남은 셋째의 색을 만들 수 없다.
+
+가산혼합에 일반적으로 사용되는 원색은 RGB: Red, Green, Blue이다. 이 색들을 사용하는 가산혼합을 [RGB 색 모델](https://en.wikipedia.org/wiki/RGB_color_model)이라 부른다.
+
+모든 모니터/프로젝터는 RGB 색 모델을 사용한다.
+
+이론적으로 RGB가 아닌 다른 가산혼합 원색도 있다. 하지만 사람의 눈이 RGB에 가장 민감하게 반응하기 때문에 RGB가 사용된다.
+
+![[rgb_summation.webp]]
+
+[감산혼합 (Subtractive Color)](https://en.wikipedia.org/wiki/Subtractive_color)은 가산혼합과 마찬가지로 3개 색을 혼합하여 모든 색을 구현하는 방식이다.
+
+감산 (Subtractive)의 의미는 빛이 반사하는 공간 (하얀색)에 빛을 "빼서" 검은색으로 만든다는 뜻이다. 다른 말로는, 하얀색에 각 색을 "빼서" 여러 색을 구현한다는 뜻이다. 최종적으로 모든 색을 최대 비율로 빼면 검은색이 나온다.
+
+감산혼합에 일반적으로 사용되는 원색은 CMY: Cyan, Magenta, Yellow이다. 이 색들을 사용하는 감산혼합을 [CMY 색 모델](https://en.wikipedia.org/wiki/CMY_color_model)이라 부른다.
+
+모든 인쇄기는 CMY (정확히는 CMYK) 색 모델을 사용한다.
+
+마찬가지로 CMY가 아닌 다른 감산혼합 원색도 있지만, CMY가 "얕은 색"을 구현하기 제일 쉬운 조합이기 때문에 사용된다 (얕은 색에서 찐한 색으로 가는 것은 가능하지만, 그 반대는 불가능하다).
+
+#todo 모니터와 인쇄기
+
+![[cmyk_conversion.PNG]]
+
+![[color_mixes.png]]
 
 ## 1.4.2 디스플레이 종류
 그래픽 시스템에서 기본 출력장치이자 가장 일반적인 디스플레이 장치는 모니터다.
