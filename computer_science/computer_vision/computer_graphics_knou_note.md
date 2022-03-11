@@ -143,8 +143,6 @@ GPU는 주로 그래픽 카드에 탑재되지만 일부 시스템에서는 CPU 
 
 ![[vector_scan_01.PNG]]
 
-![[vector_monitor.PNG | 300]]
-
 참고: [벡터 그래픽스 (Vector Graphics)](https://en.wikipedia.org/wiki/Vector_graphics)는 기본 도형으로 명령 집합에 따라 이미지를 그리는 방식으로, 벡터 스캔의 개념과 유사하되 디자인 (일러스트레이션) 분야에 사용되는 기술이기 때문에 헷갈리면 안 된다.
 
 벡터 스캔은 그림(이미지 데이터)을 그래픽스 명령들로 표현하며, 이를 [Display List](https://en.wikipedia.org/wiki/Display_list) 또는 Display Program이라고 한다. 여기서 명령이란 좌표계에 위치(점)을 지정하거나 라인을 그리는 지시를 뜻한다.
@@ -166,8 +164,6 @@ GPU는 주로 그래픽 카드에 탑재되지만 일부 시스템에서는 CPU 
 
 ![[raster_scan_01.PNG]]
 
-![[slowmo_raster_scan_half.gif]]
-
 참고: [래스터 그래픽스 (Raster Graphics)](https://en.wikipedia.org/wiki/Raster_graphics)는 래스터 스캔에 그려지는 그림을 뜻한다. 벡터 그래픽스와 같이 디자인 (일러스트레이션) 분야에 사용된다.
 
 참고 : 어떤 자료에는 래스터 스캔은 CRT에만 사용된다고 하고, 다른데는 LCD에서도 사용한다고 상반된 내용이 있다.
@@ -175,30 +171,58 @@ GPU는 주로 그래픽 카드에 탑재되지만 일부 시스템에서는 CPU 
 #### 픽셀
 그리드 상의 각 점은 [픽셀 (Pixel)](https://en.wikipedia.org/wiki/Pixel) 또는 화소라 부른다. 각 픽셀의 밝기를 조절하여 그림을 그릴 수 있다.
 
+![[pixel_closeup.webp]]
+
 래스터 스캔은 그림(이미지 데이터)을 픽셀 값 목록으로 표현한다. 여기서 픽셀 값이란 빛의 강도를 뜻하며, 0~255 사이의 값이 사용된다. 픽셀로 색을 표현하기도 하며, 이 부분은 [[#컬러 모니터]]에 설명한다.
 
 ![[lincoln_pixel_values.png]]
 
 참고: 픽셀 값들은 화면에 그려지기 전에 [프레임 버퍼 (Frame Buffer)](https://en.wikipedia.org/wiki/Framebuffer)에 저장된다. 자세한 내용은 나중에 다루겠다.
 
-#### 주사선
+#### 스캔 라인
 좌우로 그려진 한 행의 픽셀들을 [스캔 라인 (Scan Line)](https://en.wikipedia.org/wiki/Scan_line) 또는 주사선이라고 한다.
 
-#todo 스캔 라인 현상
+![[slowmo_raster_scan_half.gif]]
+![[scanline_slowmo_mario.webp]]
 
-#todo [Progressive Scan](https://en.wikipedia.org/wiki/Progressive_scan)하고 동일한 개념인 듯 한데.. 헷갈린다.
+#### 이미지 vs. 프레임
+스캔 라인이 최상단에서 최하단까지 한번 지나가면 하나의 "이미지"가 보여진다. 하지만 여기서 편의상 이미지라 하는 것이고, 보다 명확한 용어가 없는 듯 하다. 워낙 이미지란 단어가 너무 다양하게 사용되서 헷갈린데, 어쩔수가 없다.
 
-#todo https://en.wikipedia.org/wiki/Progressive_scan
+[프레임 (Frame)](https://en.wikipedia.org/wiki/Film_frame)은 영상에 찍혀진 여러 정적 이미지 중 하나의 이미지를 뜻한다.
 
-TV와 초기 모니터는 홀수 번쨰와 짝수 번쨰 주사선을 번갈아 주사하는 [비월주사 (Interlaced Scanning)](https://en.wikipedia.org/wiki/Interlaced_video)를 사용했다. 비월주사는 Frame Rate을 증가시키며 (실제로 증가하지 않되 증가된 것과 같이 인식된다) 대역폭(bandwidth)를 그대로 유지한다는 장점이 있다. 더불어, 움직이는 모션을 부드럽게 하며 Flicker를 줄여주는 효과가 있다. 하지만 Progressive Scan (모든 픽셀을 그리는 방식)과 비교하여 디테일이 부드럽지 못 하고 움직임 아티팩트 (Motion Artifact)가 생긴다는 단점이 있다.
+화면의 그려지는 이미지와 콘텐츠의 프레임을 잘 구분해야 한다. 서로 비슷한 개념이며 상관 관계도 꽤 깊은 편이다. 관련된 자세한 내용은 [[#재생률]]에서 다룬다.
 
-![[CRT_image_creation_animation.gif | 300]]
+#### 순차 주사 vs. 비월 주사
+래스터 스캔은 순차 주사와 비월 주사로 구분된다.
+
+![[interlaced_progressive_comparison.png]]
+
+[순차 주사 (Progressive Scan)](https://en.wikipedia.org/wiki/Progressive_scan)는 화면의 최상단부터 최하단까지 프레임 전체를 전송하는 방식을 뜻하며, Non-interlaced Scan 이라고도 불린다.
+
+[비월 주사 (Interlaced Scan)](https://en.wikipedia.org/wiki/Interlaced_video)는 홀수 번째 주사선과 짝수 번째 주사선을 번갈아 프레임의 일부만 전송하는 방식을 뜻한다. 첫 번째 프레임에 홀수 번째 주사선만 그려 전송했다면, 다음 프레임은 짝수 번째 주사선만 그려 전송하고, 다음은 홀수, 다음은 짝수, 이런 식으로 번갈아 가며 전송한다.
+
+반쪽짜리 프레임을 [필드 (Field)](https://en.wikipedia.org/wiki/Field_(video))라고 한다.
+
+![[interlaced_scan.gif | 300]]
+
+비월 주사의 장점은:
+- 프레임의 일부만 보내기 때문에 데이터 용량이 작다. 순차 주사 영상에 비해 데이터 전송량이 절반이라 보면 된다.
+- 대역폭 (Bandwidth)를 크게 높일 필요없이 [프레임 레이트 (Frame Rate)](https://en.wikipedia.org/wiki/Frame_rate)를 높일 수 있다. 1초에 순차 조사 프레임 30개 보내기 충분한 네트워크에서 비월 주사 프레임을 60개를 보낼 수 있다는 뜻이다. 프레임 레이트가 높으면 움직임이 더 부드러워 보인다.
+- 대역폭 (Bandwidth)를 크게 높일 필요없이 [[#해상도]]를 높일 수 있다. 보다 큰 화면에서 영상을 즐길 수 있다.
+
+비월 주사의 단점은:
+- 순차 주사보다 선명도가 떨어진다.
+- [영상 압축 (Video Compression)](https://en.wikipedia.org/wiki/Video_coding_format)으로 인해 퀄리티가 많이 떨어질 수 있다.
+- Combing이라는 비월 주사 특유의 모션 에러 현상 (Motion Artifact)이 발생할 수 있다.
+
+2022년 기준 현재에는 대부분의 컴퓨터 모니터는 순차 주사 기반이다 - 
+
+옛날 방송사에서는 비월 주사 방식으로 영상을 전송했다. 현재 (2022년 기준) 일반 방송사들은 순차 주사 방식을 사용하지만, 스포츠 TV (ESPN)과 같은 프리미엄 채널 같은 경우 비월 주사 방식을 사용하기도 한다 - 일반 영상보다 해상도가 2배 이상 큰 영상을 
+
+옛날 방송 네트워크에서는 비월 주사 방식으로 영상을 전송했고, 이런 영상을 그리기 위해 비월 주사 전용 TV 디스플레이가 사용되었다. 하지만 현재 (2022년 기준) 방송 네트워크에선 순차 주사를 사용하고 있고, 대부분의 TV 디스플레이도 마찬가지로 순차 주사 전용으로 만들어진다. 순차 주사 전용 디스플레이로 비월 주사 영상을 그려야 한다면, 디스플레이 [deinterlacing](https://en.wikipedia.org/wiki/Deinterlacing) 기능이 지원되어야 한다.
+
 
 [주사(Scan) 관련 추가 자료](https://lurkertech.com/lg/fields)
-
-
-#### 프레임
-프레임 (Frame)
 
 
 #### 컬러 모니터
@@ -354,12 +378,12 @@ Aliasing 문제를 해결하기 위해 [Anti-Aliasing](https://en.wikipedia.org/
 
 참고: 아날로그인 CRT 모니터를 제외한 모든 모니터에는 최적의 해상도가 있다.
 
-#### 재생률 / 주사율
+#### 재생률
 [재생률 (Refresh Rate)](https://en.wikipedia.org/wiki/Refresh_rate)은 모니터가 화면에 1초 동안 이미지를 그리는 횟수를 뜻하며 Hz (Hertz) 단위로 센다.
 
 주사율 (Scan Rate)이라고도 불리운다.
 
-[Frame Rate](https://en.wikipedia.org/wiki/Frame_rate)도 마찬가지로 1초 동안 이미지를 그리는 횟수를 뜻하지만, 여기서 "그린다"는 것은 소프트웨어 / GPU가 이미지를 [렌더링 (Rendering)](https://en.wikipedia.org/wiki/Rendering_(computer_graphics))하는 것을 뜻한다.
+[프레임 레이트 (Frame Rate)](https://en.wikipedia.org/wiki/Frame_rate)도 마찬가지로 1초 동안 이미지를 그리는 횟수를 뜻하지만, 여기서 "그린다"는 것은 소프트웨어 / GPU가 이미지를 [렌더링 (Rendering)](https://en.wikipedia.org/wiki/Rendering_(computer_graphics))하는 것을 뜻한다.
 
 Refresh Rate과 Frame Rate를 혼동하면 안 된다.
 
