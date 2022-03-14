@@ -3,7 +3,7 @@ aliases: [Computer Graphics Note]
 tags: [computer_science, computer_vision, computer_graphics, KNOU, study]
 status: ongoing
 created: 2022-03-02
-edited: 2022-03-10
+edited: 2022-03-12
 ---
 
 # Computer Graphics Note
@@ -169,11 +169,11 @@ GPU는 주로 그래픽 카드에 탑재되지만 일부 시스템에서는 CPU 
 참고 : 어떤 자료에는 래스터 스캔은 CRT에만 사용된다고 하고, 다른데는 LCD에서도 사용한다고 상반된 내용이 있다.
 
 #### 픽셀
-그리드 상의 각 점은 [픽셀 (Pixel)](https://en.wikipedia.org/wiki/Pixel) 또는 화소라 부른다. 각 픽셀의 밝기를 조절하여 그림을 그릴 수 있다.
+그리드 상의 각 점은 [픽셀 (Pixel)](https://en.wikipedia.org/wiki/Pixel) 또는 화소라 부른다. 각 픽셀의 밝기를 조절하여 그림을 그릴 수 있다. 픽셀로 색을 표현하기도 하며, 이 부분은 [[#컬러 모니터]]에 설명한다.
 
 ![[pixel_closeup.webp]]
 
-래스터 스캔은 그림(이미지 데이터)을 픽셀 값 목록으로 표현한다. 여기서 픽셀 값이란 빛의 강도를 뜻하며, 0~255 사이의 값이 사용된다. 픽셀로 색을 표현하기도 하며, 이 부분은 [[#컬러 모니터]]에 설명한다.
+래스터 스캔은 그림(이미지 데이터)을 픽셀 값 목록으로 표현한다. 여기서 픽셀 값이란 빛의 강도를 뜻하며, 0~255 사이의 값이 사용된다.
 
 ![[lincoln_pixel_values.png]]
 
@@ -192,14 +192,18 @@ GPU는 주로 그래픽 카드에 탑재되지만 일부 시스템에서는 CPU 
 
 화면의 그려지는 이미지와 콘텐츠의 프레임을 잘 구분해야 한다. 서로 비슷한 개념이며 상관 관계도 꽤 깊은 편이다. 관련된 자세한 내용은 [[#재생률]]에서 다룬다.
 
+참고: 이미지 크기, 즉, 디스플레이 화면의 크기를 [[#해상도]]라고 한다.
+
 #### 순차 주사 vs. 비월 주사
 래스터 스캔은 순차 주사와 비월 주사로 구분된다.
 
 ![[interlaced_progressive_comparison.png]]
 
-[순차 주사 (Progressive Scan)](https://en.wikipedia.org/wiki/Progressive_scan)는 화면의 최상단부터 최하단까지 프레임 전체를 전송하는 방식을 뜻하며, Non-interlaced Scan 이라고도 불린다.
+[순차 주사 (Progressive Scan)](https://en.wikipedia.org/wiki/Progressive_scan)는 화면의 최상단부터 최하단까지 프레임 전체를 스캔하는 방식을 뜻하며, Non-interlaced Scan 이라고도 불린다.
 
-[비월 주사 (Interlaced Scan)](https://en.wikipedia.org/wiki/Interlaced_video)는 홀수 번째 주사선과 짝수 번째 주사선을 번갈아 프레임의 일부만 전송하는 방식을 뜻한다. 첫 번째 프레임에 홀수 번째 주사선만 그려 전송했다면, 다음 프레임은 짝수 번째 주사선만 그려 전송하고, 다음은 홀수, 다음은 짝수, 이런 식으로 번갈아 가며 전송한다.
+Reminder : 여기서 스캔 (Scan)은 이미지를 촬영, 전송, 또는 그리는 것을 뜻한다. 촬영되는 규격에 맞추어 전송이 되어야 하고, 전송 규격에 따라 그리는 것도 또한 맞춰저야 하기 때문이다.
+
+[비월 주사 (Interlaced Scan)](https://en.wikipedia.org/wiki/Interlaced_video)는 홀수 번째 주사선과 짝수 번째 주사선을 번갈아 프레임의 일부만 스캔하는 방식을 뜻한다. 첫 번째 프레임에 홀수 번째 주사선만 그려 스캔했다면, 다음 프레임은 짝수 번째 주사선만 그려 전송하고, 다음은 홀수, 다음은 짝수, 이런 식으로 번갈아 가며 스캔한다.
 
 반쪽짜리 프레임을 [필드 (Field)](https://en.wikipedia.org/wiki/Field_(video))라고 한다.
 
@@ -215,22 +219,24 @@ GPU는 주로 그래픽 카드에 탑재되지만 일부 시스템에서는 CPU 
 - [영상 압축 (Video Compression)](https://en.wikipedia.org/wiki/Video_coding_format)으로 인해 퀄리티가 많이 떨어질 수 있다.
 - Combing이라는 비월 주사 특유의 모션 에러 현상 (Motion Artifact)이 발생할 수 있다.
 
-2022년 기준 현재에는 대부분의 컴퓨터 모니터는 순차 주사 기반이다 - 
+참고 : [주사(Scan) 관련 추가 자료](https://lurkertech.com/lg/fields)
 
-옛날 방송사에서는 비월 주사 방식으로 영상을 전송했다. 현재 (2022년 기준) 일반 방송사들은 순차 주사 방식을 사용하지만, 스포츠 TV (ESPN)과 같은 프리미엄 채널 같은 경우 비월 주사 방식을 사용하기도 한다 - 일반 영상보다 해상도가 2배 이상 큰 영상을 
+##### HDTV
+[High-Definition Television (HDTV)](https://en.wikipedia.org/wiki/High-definition_television)은 "고화질" 영상을 시청할 수 있는 TV 방송과 수신기(TV 모니터)를 뜻한다.
 
-옛날 방송 네트워크에서는 비월 주사 방식으로 영상을 전송했고, 이런 영상을 그리기 위해 비월 주사 전용 TV 디스플레이가 사용되었다. 하지만 현재 (2022년 기준) 방송 네트워크에선 순차 주사를 사용하고 있고, 대부분의 TV 디스플레이도 마찬가지로 순차 주사 전용으로 만들어진다. 순차 주사 전용 디스플레이로 비월 주사 영상을 그려야 한다면, 디스플레이 [deinterlacing](https://en.wikipedia.org/wiki/Deinterlacing) 기능이 지원되어야 한다.
+2000년도에 지정된 기준으로, "고화질"은 밑에 3가지 [[#해상도]] + 주사 방식 조합을 뜻한다:
+1. 720p : 해상도 1280x720  + 순차 주사
+2. 1080i : 해상도 1920x1080  + 비월 주사
+3. 1080p : 해상도 1920x1080 + 순차 주사
 
-
-[주사(Scan) 관련 추가 자료](https://lurkertech.com/lg/fields)
-
+2022년 기준 현재, 고화질을 넘어선 "초고화질" 기술, [Ultra-High-Definition TV (UHDTV)](https://en.wikipedia.org/wiki/Ultra-high-definition_television)도 있다. 아직 대중화되지는 않았다.
 
 #### 컬러 모니터
-컬러 디스플레이에서 각 픽셀은 R(빨강), G(초록), 또는 B(파랑) 색상을 갖는 부화소 (Subpixel) 3개로 구성된다.
+컬러 디스플레이에서 픽셀은 RGB (빨강, 초록, 파랑) 색상을 갖는 [부화소 (Subpixel)](https://en.wikipedia.org/wiki/Pixel#Subpixels) 3개로 구성된다.
 
-참고: 프린터는 CYMK
+![[pixel_subpixel.PNG]]
 
-색상을 구현하기 위해 각 부화소는 독립적으로 제어되며, 모니터의 용도에 따라 여러 가지 형태의 [화소 배열 (Pixel Geometry)](https://en.wikipedia.org/wiki/Pixel_geometry)로 배치된다. 특정 디스플레이의 화소 배열 형태를 알고 있다면, [부화소 렌더링 (Subpixel Rendering)]을 소프트웨어로 구현하여 모니터의 외견상 해상도를 향상시킬 수 있다.
+색상을 구현하기 위해 각 부화소는 독립적으로 제어되며, 모니터의 용도에 따라 여러 가지 형태의 [화소 배열 (Pixel Geometry)](https://en.wikipedia.org/wiki/Pixel_geometry)로 배치된다. 특정 디스플레이의 화소 배열 형태를 알고 있다면, [부화소 렌더링 (Subpixel Rendering)](https://en.wikipedia.org/wiki/Subpixel_rendering)을 소프트웨어로 구현하여 모니터의 외견상 해상도를 향상시킬 수 있다.
 
 ![[pixel_geometry.PNG | 300]]
 
@@ -249,7 +255,7 @@ GPU는 주로 그래픽 카드에 탑재되지만 일부 시스템에서는 CPU 
 
 모든 모니터/프로젝터는 RGB 색 모델을 사용한다.
 
-이론적으로 RGB가 아닌 다른 가산혼합 원색도 있다. 하지만 사람의 눈이 RGB에 가장 민감하게 반응하기 때문에 RGB가 사용된다.
+이론적으로 RGB가 아닌 다른 가산혼합 원색도 있다. 하지만 사람은 RGB 색에 가장 민감하게 반응하기 때문에 RGB가 사용된다.
 
 ![[rgb_summation.webp]]
 
@@ -263,11 +269,11 @@ GPU는 주로 그래픽 카드에 탑재되지만 일부 시스템에서는 CPU 
 
 마찬가지로 CMY가 아닌 다른 감산혼합 원색도 있지만, CMY가 "얕은 색"을 구현하기 제일 쉬운 조합이기 때문에 사용된다 (얕은 색에서 찐한 색으로 가는 것은 가능하지만, 그 반대는 불가능하다).
 
-#todo 모니터와 인쇄기
+![[color_mixes.png]]
+
+참고: 모니터에 출력되는 색은 인쇄기로 출력된 색과 다르게 보일 수 있다. 서로 색 모델이 다를 뿐더러, 잉크 (Ink)의 한계가 있다. 인쇄기 출력물과 매칭되는 색을 봐야한다면, 포토샵 같은 디자인 전용 프로그램에서 보정을 해줘야 한다.
 
 ![[cmyk_conversion.PNG]]
-
-![[color_mixes.png]]
 
 ## 1.4.2 디스플레이 종류
 그래픽 시스템에서 기본 출력장치이자 가장 일반적인 디스플레이 장치는 모니터다.
@@ -275,12 +281,12 @@ GPU는 주로 그래픽 카드에 탑재되지만 일부 시스템에서는 CPU 
 ### 평판 디스플레이
 [평판 디스플레이 (Flat-Panel Display)](https://en.wikipedia.org/wiki/Flat-panel_display)는 부피가 얇고, 화면이 평평한 비디오 장치를 뜻한다. 한떄는 화면이 둥그런 CRT와 비교되어 이 단어에 큰 의미가 있었지만, 요즘에는 [곡면 디스플레이 (Curved Screen)](https://en.wikipedia.org/wiki/Curved_screen)를 제외한 모든 디스플레이가 평판 디스플레이기 때문에 그리 큰 의미가 없다.
 
-#### 방사성 vs. 비방사성
+### 방사성 vs. 비방사성
 [평판 디스플레이는 두 가지 부류로 나뉜다](https://siim.org/page/displays_chapter2).
 1. 방사성 (Emissive)
 2. 비방사성 (Nonemissive)
 
-방사성 디스플레이는 각 픽셀에서 다양한 강도와 색상의 빛을 발한다. 기본적으로 명암 대비율이 높은 편이며, 완벽한 검정 (True Black)을 구현한다. 더불어, 대부분의 방사성 디스플레이는 [램버시안 법칙](https://en.wikipedia.org/wiki/Lambert%27s_cosine_law)에 따라 각도와 관계없이 같은 밝기를 갖기 때문에 시야각 (Viewing Angle)이 넓다.
+방사성 디스플레이는 각 픽셀에서 다양한 강도와 색상의 빛을 발한다. 기본적으로 명암 대비율이 높은 편이며, 완벽한 검정 (True Black)을 구현한다. 더불어, 대부분의 방사성 디스플레이는 [램버시안 법칙](https://en.wikipedia.org/wiki/Lambert%27s_cosine_law)에 따라 각도와 관계없이 같은 밝기를 갖기 때문에 [[#시야각]]이 넓다.
 
 PDP, LED, OLED, FED 등이 모두 방사성 디스플레이다.
 ^ CRT도 방사성 디스플레이인지?
@@ -307,11 +313,7 @@ CRT는 [전자총 (Electron Gun)](https://en.wikipedia.org/wiki/Electron_gun)과
 
 > "Old cathode ray tube (CRT) televisions have an [electron gun](http://electronics.howstuffworks.com/question694.htm) which fires electrons at the back of the screen. And the screen is coated with _phosphors_ which emit light whenever struck by an electron." - Reddit
 
-음극선 (또는 전자빔, e-beam)은 디스플레이 방식에 따라 편향 시스템에 의해 제어되어 스크린 위에 그림을 출력한다.
-- 벡터 방식 : 디스플레이 리스트에 나열된 명령에 따라 전자빔을 제어하여 물체 단위로 디스플레이 한다.
-- 레스터 방식 : 주사선 단위로 전자빔을 제어한다.
-
-1초에 전자총이 전체 그림을 다시 그리는 횟수를 재생률 (Refresh Rate)이라고 하며, 이를 세는 단위로 Hertz를 사용한다.
+음극선 (또는 전자빔, e-beam)은 [[#그래픽스 출력 방식]]에 따라 편향 시스템으로 제어되어 스크린 위에 그림을 출력한다.
 
 ![[Cathode_ray_Tube.png | 300]]
 
@@ -340,23 +342,28 @@ LCD 디스플레이는 주변광 또는 내부 광원으로부터 나오는 빛�
 LCD 디스플레이의 일반적인 문제로 [불량화소 (Defective Pixel)](https://en.wikipedia.org/wiki/Defective_pixel)가 있다. 불량화소 유형 중 고착화소 (Stuck Pixel)은 화소가 항상 켜져 있는 현상이고, 죽은 화소 (Dead Pixel)은 화소가 항상 꺼저 있는 현상이다.
 
 ### 디스플레이 규격
-LCD 모니터의 규격을 규정하는 요소는 다음과 같다.
-1. 해상도 (Resolution)
-2. 도트 피치 (Dot Pitch)
-3. 반응시간 (Response Time)
-4. 재생률 (Refresh Rate)
-5. 지원 색상 (색 심도 Color Depth & 색 재현율 Color Gamut)
-6. 시야각 (Viewing Angle)
-7. 명암 대비 (Contrast Ratio)
-8. 종횡비 (Aspect Ratio)
+모니터의 규격을 규정하는 요소는 다음과 같다.
+1. 화면 사이즈
+2. 해상도
+3. 픽셀 밀도
+4. 응답 시간
+5. 재생률
+6. 밝기
+7. 명암 대비율
+8. 색 재현율
+9. 패널 종류
+10. 입출력 및 연결성
+11. 음향
 
-#### 도트 피치
-화소 간의 거리를 [도트 피치 (Dot Pitch)](https://en.wikipedia.org/wiki/Dot_pitch)라고 부르며, 이 거리가 가까울수록 스크린이 더욱 선명해진다. 대부분의 모니터는 0.28mm 또는 그 이하의 도트 피치를 갖는다.
+#### 화면 사이즈
+모니터 화면의 물리적 크기로 대각선 길이를 뜻하며, 주로 inch로 표현된다.
 
-피치값이 작으면 보다 선명한 영상을 표현할 수 있다 (해상도가 높아진다). 하지만 무조건 작다고 좋은 것은 아니다 - 시청 거리가 먼 경우 피치값이 낮아봤자 더 선명하게 보이는 것이 아니기 떄문에 돈만 낭비하는 꼴이된다.
+모니터 패키징/광고에 표시된 화면 사이즈는 정확한 사이즈는 아니다. 실제 사이즈와 아주 아주 미세한 차이가 있다. 실제 사이즈는 "액티스 디스플레이 사이즈"라고 불리우며, 제품사양에 명시되어 있다.
+
+모니터 화면에 따라 권장/적정 시청 거리가 있다 - 화면이 클 수록 시청 거리가 더 멀어야 한다.
 
 #### 해상도
-해상도 (Resolution)는 디스플레이 화면의 총 픽셀 수 (주사선 당 픽셀 수 x 주사선 수)를 뜻 한다. 수평과 수직의 크기 (픽셀 수)로 1920 x 1080 과 같은 포맷으로 표현된다.
+해상도 (Resolution)는 디스플레이 화면의 총 픽셀 수 (스캔 라인 픽셀 수 x 스캔 라인 수)를 뜻 한다. 수평과 수직의 크기 (픽셀 수)로 1920 x 1080 과 같은 포맷으로 표현된다.
 
 해상도가 높을수록 더욱 정교한 그림을 그릴 수 있다. 하지만, 그리려는 그림의 해상도가 모니터의 해상도보다 높은 경우, 이미지의 일부가 식별할 수 없게 되며 왜곡 현상이 일어난다. 이러한 현상을 [Aliasing](https://en.wikipedia.org/wiki/Aliasing)이라고 부른다 (정확히는 Spatial Aliasing이라고 부른다).
 
@@ -374,9 +381,21 @@ Aliasing 문제를 해결하기 위해 [Anti-Aliasing](https://en.wikipedia.org/
 
 ![[anti_aliasing_example_01.PNG]]
 
-참고: 비디오 메모리 사용량은 화면 해상도에 따라 고정된다.
+참고
+1. 비디오 메모리 사용량은 화면 해상도에 따라 고정된다.
+2. 아날로그인 CRT 모니터를 제외한 모든 모니터에는 최적의 해상도가 있다.
+3. 화면 사이즈가 크다고 해상도가 높은 것이 아니다. 화면 사이즈에 비해 해상도가 낮을수록 선명도가 떨어진다.
 
-참고: 아날로그인 CRT 모니터를 제외한 모든 모니터에는 최적의 해상도가 있다.
+#### 픽셀 밀도
+참고 : 픽셀은 논리적 픽셀 (Logical Pixel), 렌더 픽셀 (Rendered Pixel), 물리적 픽셀 (Physical Pixel)로 구분된다. 논리적 픽셀과 렌더 픽셀은 소프트웨어에서 다루는 가상의 픽셀을 뜻한다 ( #todo 자세한 내용은 나중에). 물리적 픽셀은 모니터 화면 (하드웨어)에 포함된 실제의 픽셀을 뜻한다. 여기서 다룰 내용은 물리적 픽셀을 위주로 설명된다.
+
+픽셀의 크기는 고정되어 있지 않다. 화면 사이즈와 해상도를 비례하여 픽셀의 크기와 픽셀 간의 거리가 정해진다.
+
+픽셀 간의 거리를 [도트 피치 (Dot Pitch)](https://en.wikipedia.org/wiki/Dot_pitch)라고 부른다.
+
+[픽셀 밀도 (Pixel Density)](https://en.wikipedia.org/wiki/Pixel_density)는 모니터 화면의 일정한 단위 면적에 포함된 픽셀의 비율을 뜻하며, Pixel Per Inch (1인치 당 픽셀 수) 또는 Pixels Per Centimetre (1cm 당 픽셀 수)로 표현된다.
+
+픽셀 크기와 도트 피치는 픽셀 밀도에 직접적인 영향을 준다. 픽셀 밀도가 높을 수록 더욱 상세한/선명한 이미지를 재현할 수 있지만, 특정 범위를 넘어서면 낭비이다. 일반 모니터는 화면 사이즈와 시청 거리를 고려하여 간접 픽셀이 인식되지 않을 수준의 픽셀 밀도를 갖춘다.
 
 #### 재생률
 [재생률 (Refresh Rate)](https://en.wikipedia.org/wiki/Refresh_rate)은 모니터가 화면에 1초 동안 이미지를 그리는 횟수를 뜻하며 Hz (Hertz) 단위로 센다.
