@@ -11,7 +11,12 @@ edited: 2022-03-12
 
 개인적으로 느낀 바로, 방통대 교과서는 정리가 잘 안 되어 있을 뿐만이 아니라 틀린 정보가 많다.
 
-# 챕터 1
+# 컴퓨터 그래픽스 하드웨어
+컴퓨터 그래픽스 시스템을 구성하는 하드웨어 요소들과 동작 원리를 알아본다.
+1. [[#컴퓨터 그래픽스 시스템 구성]]
+2. [[#그래픽스 출력 방식]]
+3. [[#디스플레이 종류]]
+4. [[#디스플레이 규격]]
 
 ## 컴퓨터 그래픽스 시스템 구성
 컴퓨터 그래픽스 시스템은 3가지로 구성되어 있다.
@@ -275,7 +280,7 @@ Reminder : 여기서 스캔 (Scan)은 이미지를 촬영, 전송, 또는 그리
 
 ![[cmyk_conversion.PNG]]
 
-## 1.4.2 디스플레이 종류
+## 디스플레이 종류
 그래픽 시스템에서 기본 출력장치이자 가장 일반적인 디스플레이 장치는 모니터다.
 
 ### 평판 디스플레이
@@ -339,30 +344,39 @@ CRT는 [전자총 (Electron Gun)](https://en.wikipedia.org/wiki/Electron_gun)과
 ### LCD 디스플레이
 LCD 디스플레이는 주변광 또는 내부 광원으로부터 나오는 빛을 막거나 통과시키도록 정렬될 수 있는 액정물질 (Liquid Crystal)을 조절하여 그림을 그린다.
 
+일반 LCD 모니터는 내부 광원으로 [형광등](https://en.wikipedia.org/wiki/Fluorescent_lamp)을 사용한다.
+
 LCD 디스플레이의 일반적인 문제로 [불량화소 (Defective Pixel)](https://en.wikipedia.org/wiki/Defective_pixel)가 있다. 불량화소 유형 중 고착화소 (Stuck Pixel)은 화소가 항상 켜져 있는 현상이고, 죽은 화소 (Dead Pixel)은 화소가 항상 꺼저 있는 현상이다.
 
-### 디스플레이 규격
-모니터의 규격을 규정하는 요소는 다음과 같다.
-1. 화면 사이즈
-2. 해상도
-3. 픽셀 밀도
-4. 응답 시간
-5. 재생률
-6. 밝기
-7. 명암 대비율
-8. 색 재현율
-9. 패널 종류
-10. 입출력 및 연결성
-11. 음향
+### LED 디스플레이
 
-#### 화면 사이즈
+### 플라즈마 디스플레이
+
+### OLED 디스플레이
+
+## 디스플레이 규격
+모니터의 규격을 규정하는 요소는 다음과 같다.
+1. [[#화면 사이즈]]
+2. [[#해상도]]
+3. [[#픽셀 밀도]]
+4. [[#응답 시간]]
+5. [[#재생률]]
+6. [[#색 재현율]]
+7. [[#밝기]]
+8. [[#명암 대비율]]
+9. [[#시야각]]
+10. [[#패널 종류]]
+11. 입출력 및 연결성
+12. 음향
+
+### 화면 사이즈
 모니터 화면의 물리적 크기로 대각선 길이를 뜻하며, 주로 inch로 표현된다.
 
 모니터 패키징/광고에 표시된 화면 사이즈는 정확한 사이즈는 아니다. 실제 사이즈와 아주 아주 미세한 차이가 있다. 실제 사이즈는 "액티스 디스플레이 사이즈"라고 불리우며, 제품사양에 명시되어 있다.
 
 모니터 화면에 따라 권장/적정 시청 거리가 있다 - 화면이 클 수록 시청 거리가 더 멀어야 한다.
 
-#### 해상도
+### 해상도
 해상도 (Resolution)는 디스플레이 화면의 총 픽셀 수 (스캔 라인 픽셀 수 x 스캔 라인 수)를 뜻 한다. 수평과 수직의 크기 (픽셀 수)로 1920 x 1080 과 같은 포맷으로 표현된다.
 
 해상도가 높을수록 더욱 정교한 그림을 그릴 수 있다. 하지만, 그리려는 그림의 해상도가 모니터의 해상도보다 높은 경우, 이미지의 일부가 식별할 수 없게 되며 왜곡 현상이 일어난다. 이러한 현상을 [Aliasing](https://en.wikipedia.org/wiki/Aliasing)이라고 부른다 (정확히는 Spatial Aliasing이라고 부른다).
@@ -386,7 +400,7 @@ Aliasing 문제를 해결하기 위해 [Anti-Aliasing](https://en.wikipedia.org/
 2. 아날로그인 CRT 모니터를 제외한 모든 모니터에는 최적의 해상도가 있다.
 3. 화면 사이즈가 크다고 해상도가 높은 것이 아니다. 화면 사이즈에 비해 해상도가 낮을수록 선명도가 떨어진다.
 
-#### 픽셀 밀도
+### 픽셀 밀도
 참고 : 픽셀은 논리적 픽셀 (Logical Pixel), 렌더 픽셀 (Rendered Pixel), 물리적 픽셀 (Physical Pixel)로 구분된다. 논리적 픽셀과 렌더 픽셀은 소프트웨어에서 다루는 가상의 픽셀을 뜻한다 ( #todo 자세한 내용은 나중에). 물리적 픽셀은 모니터 화면 (하드웨어)에 포함된 실제의 픽셀을 뜻한다. 여기서 다룰 내용은 물리적 픽셀을 위주로 설명된다.
 
 픽셀의 크기는 고정되어 있지 않다. 화면 사이즈와 해상도를 비례하여 픽셀의 크기와 픽셀 간의 거리가 정해진다.
@@ -397,7 +411,26 @@ Aliasing 문제를 해결하기 위해 [Anti-Aliasing](https://en.wikipedia.org/
 
 픽셀 크기와 도트 피치는 픽셀 밀도에 직접적인 영향을 준다. 픽셀 밀도가 높을 수록 더욱 상세한/선명한 이미지를 재현할 수 있지만, 특정 범위를 넘어서면 낭비이다. 일반 모니터는 화면 사이즈와 시청 거리를 고려하여 간접 픽셀이 인식되지 않을 수준의 픽셀 밀도를 갖춘다.
 
-#### 재생률
+### 응답 시간
+응답 시간, 또는 반응 시간 (Response Time)은 픽셀의 색상/밝기를 변화시키는 속도를 뜻한다.
+
+일반적으로 BTB (Black to Black) 테스트가 사용되며, Black (inactive) → White (active) → Black (active) 으로 변경하는데 걸리는 시간을 ms 단위로 측정한다.
+
+참고1 : 10 ms 정도는 사무용 또는 30 FPS 콘텐츠를 즐기는데 문제는 없지만, 60 FPS 이상의 경쟁 게임 (Competitive Gaming)에는 5ms 이하가 권장된다.
+
+때로는 GTG (Gray to Gray) 테스트가 사용되기도 한다. 극과 극으로 변화하는 BTB 테스트와는 달리, 검은색과 하얀색 사이의 회색 범위 내에 여러번 변화하여 변화할때 마다 걸리는 시간의 평균을 측정한다.
+
+참고2 : 검증된 것은 아니지만, GTG 테스트가 BTB 더 정확하다고 여겨지는 이유가 - 픽셀을 껐다 켰다 할때 변화 범위가 큼으로 높은 전압 (High Voltage)이 사용되어 변화 속도가 빠른 반면에, 픽셀을 켠 상태로 조금씩 변화하는 것은 낮은 전압 (Low Voltage)이 사용되어 변화 속도가 느리고, 컬러 TV의 특성상 픽셀은 하얀색/검은색으로 전환하는 것보다는 회색의 범위에 왔다갔다 하는 횟수가 많기 때문에 GTG 테스트가 실제 사용 환경에 더 유사하다는 것이다.
+
+응답 시간이 느린 경우, Ghosting 또는 Smearing 현상이 일어난다고 한다.
+- __Ghosting__ : 이전 프레임의 잔상이 보이는 현상. [Screen Burn-in](https://en.wikipedia.org/wiki/Screen_burn-in) 하고 혼동하면 안 된다.
+- __Smearing__ : 빠르게 움직이는 물체가 늘어나서 흐리게 보이는 현상.
+
+![[response_time_comparison.PNG]]
+
+참고 : Ghosting, Smearing 문제는 응답 시간 뿐만이 아니라 주사 방식, 주사율, 패널 종류 등 여러 요인으로부터 발생된다.
+
+### 재생률
 [재생률 (Refresh Rate)](https://en.wikipedia.org/wiki/Refresh_rate)은 모니터가 화면에 1초 동안 이미지를 그리는 횟수를 뜻하며 Hz (Hertz) 단위로 센다.
 
 주사율 (Scan Rate)이라고도 불리운다.
@@ -437,26 +470,7 @@ VSync 옵션은 GPU 설정 또는 게임/DVD플레이어 설정에 있다.
 참고1: https://blog.tommyzip.co.kr/report/g-sync-vesa-adaptive-sync-freesync/
 참고2: https://www.viewsonic.com/library/tech/explained/what-is-adaptive-sync
 
-#### 응답 시간
-응답 시간, 또는 반응 시간 (Response Time)은 픽셀의 색상이나 밝기를 변화시키는 속도를 뜻한다.
-
-일반적으로 BTB (Black to Black) 테스트가 사용되며, Black (inactive) → White (active) → Black (active) 으로 변경하는데 걸리는 시간을 ms 단위로 측정한다.
-
-참고1 : 10 ms 정도는 사무용 또는 30 FPS 콘텐츠를 즐기는데 문제는 없지만, 60 FPS 이상의 경쟁 게임 (Competitive Gaming)에는 5ms 이하가 권장된다.
-
-때로는 GTG (Gray to Gray) 테스트가 사용되기도 한다. 극과 극으로 변화하는 BTB 테스트와는 달리, 검은색과 하얀색 사이의 회색 범위 내에 여러번 변화하여 변화할때 마다 걸리는 시간의 평균을 측정한다.
-
-참고2 : 검증된 것은 아니지만, GTG 테스트가 BTB 더 정확하다고 여겨지는 이유가 - 픽셀을 껐다 켰다 할때 변화 범위가 큼으로 높은 전압 (High Voltage)이 사용되어 변화 속도가 빠른 반면에, 픽셀을 켠 상태로 조금씩 변화하는 것은 낮은 전압 (Low Voltage)이 사용되어 변화 속도가 느리고, 컬러 TV의 특성상 픽셀은 하얀색/검은색으로 전환하는 것보다는 회색의 범위에 왔다갔다 하는 횟수가 많기 때문에 GTG 테스트가 실제 사용 환경에 더 유사하다는 것이다.
-
-응답 시간이 느린 경우, Ghosting 또는 Smearing 현상이 일어난다고 한다.
-- __Ghosting__ : 이전 프레임의 잔상이 보이는 현상. [Screen Burn-in](https://en.wikipedia.org/wiki/Screen_burn-in) 하고 혼동하면 안 된다.
-- __Smearing__ : 빠르게 움직이는 물체가 늘어나서 흐리게 보이는 현상.
-
-![[response_time_comparison.PNG]]
-
-참고3 : Ghosting, Smearing 문제는 응답 시간 뿐만이 아니라 주사 방식, 주사율, 패널 종류 등 여러 요인으로부터 발생된다.
-
-#### 색 재현율
+### 색 재현율
 [색 재현율 (Color Gamut)](https://en.wikipedia.org/wiki/Gamut)은 모니터가 색을 얼마만큼 표현할 수 이는지 나타내는 수치이다.
 
 여기서 [색 (Color](https://en.wikipedia.org/wiki/Color)이란 아주 복잡한 개념이다.
@@ -470,7 +484,7 @@ VSync 옵션은 GPU 설정 또는 게임/DVD플레이어 설정에 있다.
 
 디자인, 포토그래피 등의 관련 업무를 하는 사람에게는 색 재현율이 중요하다. 모니터에 출력되는 색과 프린터에 출력되는 색이 다를 수도 있으며, 실제 눈으로 보는 색과 카메라에 찍히는 색이 다를 수도 있다. 그래픽 입출력 장치 간의 색 재현율 차이를 색 공간 기준으로 잘 매칭되는지 확인해야 한다.
 
-#### 밝기
+### 밝기
 [밝기 (Luminance)](https://en.wikipedia.org/wiki/Luminance)는 화면에 모든 픽셀을 켰을 경우 (하얀색 이미지를 그릴 경우) 측정된 빛의 강도를 뜻한다. 단위는 [cd/m² (Candela per square metre)](https://en.wikipedia.org/wiki/Candela_per_square_metre) 이되, _nit_ 으로 불리기도 한다 (1 nt = 1 cd/m²).
 
 밝기의 영어는 Brightness와 Luminance가 있다. Luminance는 특정 기구를 사용하여 측정된 빛의 강도로서 객관적 (Objective) 측정 값을 뜻하는 방면, Brightness는 인간이 느끼는 빛의 강도로서 주관적 (Subjective) 측정 값을 뜻한다. 하지만 많은 사람들은 이 차이를 이해하지 못하기 때문에, 대부분 Brightness라고 부르는 경향이 있다.
@@ -486,7 +500,7 @@ VSync 옵션은 GPU 설정 또는 게임/DVD플레이어 설정에 있다.
 참고2 : 갤럭시 S20 노트 울트라가 최대 밝기 1,342 nits 를 낸다고 한다. 직접 사용해보니, 해가 쨍쨍한 날 오후 2시 바깥에서 화면이 잘 보이긴 한다.
 참고3: 프로젝터는 [Lumens](https://en.wikipedia.org/wiki/Lumen_(unit)) 단위로 밝기를 측정한다.
 
-#### 명암 대비율
+### 명암 대비율
 [명암 대비율 (Contrast Ratio)](https://en.wikipedia.org/wiki/Contrast_ratio), 간단히 명암비라 부르며, 픽셀이 낼수 있는 빛의 강도 최대값과 최소값을 비교하는 값으로 n : n 포맷으로 표현한다 (e.g. 2,000 : 1)
 
 밝기와 마찬가지로 명암비 테스트 방식에 대한 표준이 없다.
@@ -495,7 +509,7 @@ VSync 옵션은 GPU 설정 또는 게임/DVD플레이어 설정에 있다.
 
 참고 : `500:1`은 봐줄만한 수준이고, `1,000 : 1 (Typical)` 이 2022년도 최신 모니터 보통 수준이라고 보면 될 듯 하다.
 
-#### 시야각
+### 시야각
 [시야각 (Viewing Angle)](https://en.wikipedia.org/wiki/Viewing_angle)은 화면 정면에서 회도, 색도, 감마 등이 특정 기준을 만족하는 상하좌우 방향의 범위를 의미한다.
 
 ![[viewing_angle.jpg]]
@@ -506,17 +520,17 @@ VSync 옵션은 GPU 설정 또는 게임/DVD플레이어 설정에 있다.
 
 시야각은 수직, 수평 각도(°)로 표현된다. 최대 시야각은 178°/178° 이다.
 
-주로 시야각은 [[#LCD 디스플레이]]에서 문제가 된다. #todo 패널 종류 - 시야각 관련 내용 링크.
+시야각은 [[#패널 종류]]에 큰 영향을 받는다.
 
-#### 패널 종류
-VA, IPS, 등등
+### 패널 종류
+#todo VA, IPS, 등등
 
 참고: "IPS와 VA의 차이"라는 주제의 그림이다. 코멘트를 읽어보니 동의하는 사람도 몇 있지만, 오히려 주사율이 너무 높아서 생기는 문제라고 주장하는 사람들도 있다.
 > ![[ips_va_panel_comparison.webp]]
 > -- 이미지 출처 : [Reddit](https://www.reddit.com/r/Monitors/comments/ls81ey/ips_versus_va_monitor_in_one_gif_black_smearing/)
 
 
-#### 모니터 비교 차트
+## 모니터 종류별 사양 비교 차트
 |      Monitor Type     |         **LCD**        |         **LED**        |           **OLED**           |         **Plasma**        |        **CRT**       |
 |:---------------------:|:----------------------:|:----------------------:|:----------------------------:|:-------------------------:|:--------------------:|
 |       Full Form       | Liquid Crystal Display |  Light Emitting Diode  | Organic Light Emitting Diode | PDP, Plasma Display Panel |   Cathode Ray Tube   |
@@ -539,3 +553,26 @@ source : [Digital World 839 - Computer Basics - 5 Different Types of Monitors](h
 ## 모니터 제품사양 예시
 삼성 모니터 LS27R350 - LED(LCD) Standard(일반) 27인치 2019년 Full HD 모니터
 ![[samsung_monitor_S27R350_specs.jpg | 삼성 모니터 제품사양]]
+
+# 컴퓨터 그래픽스 소프트웨어
+그래픽스 워크스테이션에서 디지털 이미지를 다루는 방법, 즉, 그래픽스 소프트웨어에 대하여 알아본다.
+
+## 컴퓨터 그래픽스 표현
+[그래픽스 (Graphics)](https://en.wikipedia.org/wiki/Graphics)는 컴퓨터 그래픽스 시스템에서 다루는 디지털 이미지를 뜻한다. 컴퓨터 과학 기준으로 [자료 구조 (Data Structure)](https://en.wikipedia.org/wiki/Data_structure)라 볼 수 있다.
+
+여기서 다룰 내용은 [[#래스터 스캔]] 기반 시스템에서 그래픽스를 표현하는 방식이다.
+
+그래픽스 표현 방식은 래스터와 벡터로 2가지로 나뉜다.
+
+### 래스터 그래픽스
+[래스터 그래픽스 (Raster Graphics)](https://en.wikipedia.org/wiki/Raster_graphics)는 사각형 그리드 형식의 틀에 [[#픽셀]]로 표현하는 방식 또는 이미지를 뜻한다.
+
+비트맵 이미지 (Bitmap Image)라고도 불리기도 한다 - [비트맵 (Bitmap)](https://en.wikipedia.org/wiki/Bitmap)은 디지털 이미지를 저장하는 메모리 저장 방식이다. 각 픽셀을 비트로
+
+편의상 래스터 이미지로 불리기도 한다.
+
+우리가 흔히 사용하는 `.jpg`, `.png`, `.gif` 이미지 파일 포맷이 래스터 그래픽스를 기반으로 한다.
+
+
+
+### 벡터 그래픽스
