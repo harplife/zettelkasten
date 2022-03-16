@@ -310,17 +310,17 @@ TV, 컴퓨터 모니터에 사용되는 LCD 디스플레이는 화면 뒤에 백
 ### CRT 디스플레이
 ![[crt_monitor.jpg | 300]]
 
-[음극선관 (Cathode Ray Tube: CRT)](https://en.wikipedia.org/wiki/Cathode-ray_tube)는 오랫동안 널리 사용되어 오던 디스플레이 장치이다. 하지만 현재 가볍고 큰 평판 디스플레이인 LCD, 플라즈마, OLED 등으로 빠르게 대체되고 있다.
+아주 간단하게 설명하자면, [음극선관 (Cathode Ray Tube: CRT)](https://en.wikipedia.org/wiki/Cathode-ray_tube)은 가느다란 광선으로 각 점을 빛내어 그림을 그리는 원리로 작동하는 모니터이다. [[#벡터 스캔]]과 [[#래스터 스캔]] 방식으로 둘 다 구현이 가능한 모니터이다.
 
-최초의 CRT는 1897년에 독일 물리학자 Ferdinand Braun이 발명했다. Western Electric의 Harry Weinhart와 John Johnson이 온음극 CRT를 개발함으로 1922년에 CRT가 상용화 되었따.
-
-CRT는 [전자총 (Electron Gun)](https://en.wikipedia.org/wiki/Electron_gun)과 [형광 스크린 (phosphor screen)](https://en.wikipedia.org/wiki/Phosphor)을 갖는 [진공관](https://en.wikipedia.org/wiki/Vacuum_tube)이며, 형광 스크린으로부터 방출되는 빛의 형태로 영상을 형성하는데, [음극선(Cathode Ray)](https://en.wikipedia.org/wiki/Cathode_ray)은 [전계나 자계](https://home.kepco.co.kr/kepco/KO/D/htmlView/KODBHP00302.do?menuCd=FN05040203)의 의해 편향되어 스크린상에서 원하는 위치로 밝은 점을 이동시킨다.
+좀 더 상세히 설명하자면, CRT는 [전자총 (Electron Gun)](https://en.wikipedia.org/wiki/Electron_gun)과 [형광 스크린 (phosphor screen)](https://en.wikipedia.org/wiki/Phosphor)을 갖는 [진공관](https://en.wikipedia.org/wiki/Vacuum_tube)이며, [음극선(Cathode Ray)](https://en.wikipedia.org/wiki/Cathode_ray)이 [전계나 자계](https://home.kepco.co.kr/kepco/KO/D/htmlView/KODBHP00302.do?menuCd=FN05040203)에 의해 편향되어 스크린상에서 원하는 위치로 밝은 점을 이동시켜 형광 스크린으로부터 방출되는 빛의 형태로 이미지를 형상시킨다.
 
 > "Old cathode ray tube (CRT) televisions have an [electron gun](http://electronics.howstuffworks.com/question694.htm) which fires electrons at the back of the screen. And the screen is coated with _phosphors_ which emit light whenever struck by an electron." - Reddit
 
 음극선 (또는 전자빔, e-beam)은 [[#그래픽스 출력 방식]]에 따라 편향 시스템으로 제어되어 스크린 위에 그림을 출력한다.
 
 ![[Cathode_ray_Tube.png | 300]]
+
+최초의 CRT는 1897년에 독일 물리학자 Ferdinand Braun이 발명했다. Western Electric의 Harry Weinhart와 John Johnson이 온음극 CRT를 개발함으로 1922년에 CRT가 상용화 되었다. 오랫동안 널리 사용되어 왔지만, 현재 가볍고 큰 평판 디스플레이인 LCD, 플라즈마, OLED 등으로 빠르게 대체되고 있다.
 
 #### CRT의 장점
 1. 20,000 : 1 이상의 높은 명함 대비율. 이는 LCD나 플라즈마에 비하여 매우 높은 편이다.
@@ -342,9 +342,9 @@ CRT는 [전자총 (Electron Gun)](https://en.wikipedia.org/wiki/Electron_gun)과
 7. 치명적인 내부 전압
 
 ### LCD 디스플레이
-LCD 디스플레이는 주변광 또는 내부 광원으로부터 나오는 빛을 막거나 통과시키도록 정렬될 수 있는 액정물질 (Liquid Crystal)을 조절하여 그림을 그린다.
+LCD 디스플레이는 주변광 또는 내부 광원으로부터 나오는 빛이 [[#픽셀]]에 닫거나 못 닫게 [액정물질 (Liquid Crystal)](https://en.wikipedia.org/wiki/Liquid_crystal)을 조절하는 원리로 작동되는 [[#래스터 스캔]] 기반 모니터이다.
 
-일반 LCD 모니터는 내부 광원으로 [형광등](https://en.wikipedia.org/wiki/Fluorescent_lamp)을 사용한다.
+일반 LCD 모니터는 내부 광원으로 [형광등](https://en.wikipedia.org/wiki/Fluorescent_lamp)을 사용한다. 내부 광원은 흔히 [백라이트 (Backlight)](https://en.wikipedia.org/wiki/Backlight)라고 한다.
 
 LCD 디스플레이의 일반적인 문제로 [불량화소 (Defective Pixel)](https://en.wikipedia.org/wiki/Defective_pixel)가 있다. 불량화소 유형 중 고착화소 (Stuck Pixel)은 화소가 항상 켜져 있는 현상이고, 죽은 화소 (Dead Pixel)은 화소가 항상 꺼저 있는 현상이다.
 
