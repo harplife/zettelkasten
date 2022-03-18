@@ -299,13 +299,7 @@ PDP, LED, OLED, FED 등이 모두 방사성 디스플레이다.
 비방사성 디스플레이는 광원(Light Source)에 흡수(Absorption), 반사(Reflection), 굴절(Refraction) 등의 광학적 효과를 사용하여 픽셀에 빛을 발한다.
 ^ 위 문구가 좀 헷갈릴 수 있는데, 이를 비유로 이해한다면 방사성 디스플레이는 각 픽셀에 전구가 있어 전구를 껐다 켰다 해서 픽셀로 그림을 그리는 반면, 비방사성 디스플레이는 각 픽셀에 광학적 효과를 내는 필터가 있어 픽셀에 비추는 빛을 통과시키거나 막아서 픽셀로 그림을 그린다. __한 마디로, 방사성 디스플레이는 픽셀 자체가 광원이고 비상사성 디스플레이는 다른 광원으로부터 픽셀을 비춘다.__
 
-비방사성 디스플레이에 가장 중요하고 유일한 예시로 LCD 디스플레이가 있다.
-
-계산기나 전자시계에 사용되는 LCD 디스플레이는 주변광/환경광 (Ambient Light)을 반사하여 그림을 그린다. 그래서 어두운 곳에서는 잘 안 보인다.
-
-TV, 컴퓨터 모니터에 사용되는 LCD 디스플레이는 화면 뒤에 백라이트 (Backlight)가 있다. 색상에 상관없이 백라이트는 항시 켜져있으며, 검은색을 구현할 때도 마찬가지 이다. 따라서, LCD 디스플레이는 명암 대비율이 낮은 편이다. 일반적으로 백라이트로 [형광등 (Fluorescent Light)](https://en.wikipedia.org/wiki/Fluorescent_lamp)를 사용한다.
-
-참고로, LED 디스플레이는 LCD 디스플레이에 속하며, 백라이트로 형광등 대신 LED를 사용한다. <-- 내가 헷갈리는 것은, 그러면 LED 디스플레이도 비방사성 디스플레이 속하지 않는가 이다.
+비방사성 디스플레이에 가장 중요하고 유일한 예시로 [[#LCD 디스플레이]]가 있다.
 
 ### CRT 디스플레이
 ![[crt_monitor.jpg | 300]]
@@ -320,7 +314,7 @@ TV, 컴퓨터 모니터에 사용되는 LCD 디스플레이는 화면 뒤에 백
 
 ![[Cathode_ray_Tube.png | 300]]
 
-최초의 CRT는 1897년에 독일 물리학자 Ferdinand Braun이 발명했다. Western Electric의 Harry Weinhart와 John Johnson이 온음극 CRT를 개발함으로 1922년에 CRT가 상용화 되었다. 오랫동안 널리 사용되어 왔지만, 현재 가볍고 큰 평판 디스플레이인 LCD, 플라즈마, OLED 등으로 빠르게 대체되고 있다.
+최초의 CRT는 1897년에 독일 물리학자 [Ferdinand Braun](https://en.wikipedia.org/wiki/Karl_Ferdinand_Braun)이 발명했다. [Western Electric](https://en.wikipedia.org/wiki/Western_Electric)의 Harry Weinhart와 [John Johnson](https://en.wikipedia.org/wiki/John_Bertrand_Johnson)이 온음극 CRT를 개발함으로 1922년에 CRT가 상용화 되었다. 오랫동안 널리 사용되어 왔지만, 현재 가볍고 큰 평판 디스플레이인 LCD, 플라즈마, OLED 등으로 빠르게 대체되고 있다.
 
 #### CRT의 장점
 1. 20,000 : 1 이상의 높은 명함 대비율. 이는 LCD나 플라즈마에 비하여 매우 높은 편이다.
@@ -344,7 +338,13 @@ TV, 컴퓨터 모니터에 사용되는 LCD 디스플레이는 화면 뒤에 백
 ### LCD 디스플레이
 LCD 디스플레이는 주변광 또는 내부 광원으로부터 나오는 빛이 [[#픽셀]]에 닫거나 못 닫게 [액정물질 (Liquid Crystal)](https://en.wikipedia.org/wiki/Liquid_crystal)을 조절하는 원리로 작동되는 [[#래스터 스캔]] 기반 모니터이다.
 
-일반 LCD 모니터는 내부 광원으로 [형광등](https://en.wikipedia.org/wiki/Fluorescent_lamp)을 사용한다. 내부 광원은 흔히 [백라이트 (Backlight)](https://en.wikipedia.org/wiki/Backlight)라고 한다.
+일반 LCD 모니터는 내부 광원으로 [형광등](https://en.wikipedia.org/wiki/Fluorescent_lamp)을 사용한다. 내부 광원은 흔히 [백라이트 (Backlight)](https://en.wikipedia.org/wiki/Backlight)라고 부른다.
+
+
+
+계산기나 전자시계에 사용되는 LCD 디스플레이는 주변광/환경광 (Ambient Light)을 반사하여 그림을 그린다. 그래서 어두운 곳에서는 잘 안 보인다.
+
+![[lcd_watch_face.PNG]]
 
 LCD 디스플레이의 일반적인 문제로 [불량화소 (Defective Pixel)](https://en.wikipedia.org/wiki/Defective_pixel)가 있다. 불량화소 유형 중 고착화소 (Stuck Pixel)은 화소가 항상 켜져 있는 현상이고, 죽은 화소 (Dead Pixel)은 화소가 항상 꺼저 있는 현상이다.
 
