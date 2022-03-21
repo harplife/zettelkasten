@@ -338,13 +338,18 @@ PDP, LED, OLED, FED 등이 모두 방사성 디스플레이다.
 ### LCD 디스플레이
 LCD 디스플레이는 주변광 또는 내부 광원으로부터 나오는 빛이 [[#픽셀]]에 닫거나 못 닫게 [액정물질 (Liquid Crystal)](https://en.wikipedia.org/wiki/Liquid_crystal)을 조절하는 원리로 작동되는 [[#래스터 스캔]] 기반 모니터이다.
 
-일반 LCD 모니터는 내부 광원으로 [형광등](https://en.wikipedia.org/wiki/Fluorescent_lamp)을 사용한다. 내부 광원은 흔히 [백라이트 (Backlight)](https://en.wikipedia.org/wiki/Backlight)라고 부른다.
+![[lcd_layers_02.jpg]]
 
+#### 백라이트
+LCD 모니터의 내부 광원을 [백라이트 (Backlight)](https://en.wikipedia.org/wiki/Backlight)라고 부른다. 일반 LCD 모니터 같은 경우 백라이트로 [형광등](https://en.wikipedia.org/wiki/Fluorescent_lamp)을 사용한다. 형광등이 아닌 LED를 백라이트로 사용하는 LCD 모니터가 있는데, 이를 [[#LED 디스플레이]]라고 한다.
 
+![[lcd_backlight_flo_open.PNG | 300]]
+
+#todo 라이트 유형에 따른 밝기 균일도? edge lighting인가 머시기인가
 
 계산기나 전자시계에 사용되는 LCD 디스플레이는 주변광/환경광 (Ambient Light)을 반사하여 그림을 그린다. 그래서 어두운 곳에서는 잘 안 보인다.
 
-![[lcd_watch_face.PNG]]
+![[lcd_watch_face.PNG | 200]]
 
 LCD 디스플레이의 일반적인 문제로 [불량화소 (Defective Pixel)](https://en.wikipedia.org/wiki/Defective_pixel)가 있다. 불량화소 유형 중 고착화소 (Stuck Pixel)은 화소가 항상 켜져 있는 현상이고, 죽은 화소 (Dead Pixel)은 화소가 항상 꺼저 있는 현상이다.
 
