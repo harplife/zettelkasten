@@ -281,20 +281,19 @@ Reminder : 여기서 스캔 (Scan)은 이미지를 촬영, 전송, 또는 그리
 ![[cmyk_conversion.PNG]]
 
 ## 디스플레이 종류
-그래픽 시스템에서 기본 출력장치이자 가장 일반적인 디스플레이 장치는 모니터다.
+그래픽 시스템에서 기본 출력장치이자 가장 일반적인 디스플레이 장치는 모니터다. 여기서 모니터는 TV 모니터, 컴퓨터 모니터를 주로 뜻한다.
 
 ### 평판 디스플레이
-[평판 디스플레이 (Flat-Panel Display)](https://en.wikipedia.org/wiki/Flat-panel_display)는 부피가 얇고, 화면이 평평한 비디오 장치를 뜻한다. 한떄는 화면이 둥그런 CRT와 비교되어 이 단어에 큰 의미가 있었지만, 요즘에는 [곡면 디스플레이 (Curved Screen)](https://en.wikipedia.org/wiki/Curved_screen)를 제외한 모든 디스플레이가 평판 디스플레이기 때문에 그리 큰 의미가 없다.
+[평판 디스플레이 (Flat-Panel Display)](https://en.wikipedia.org/wiki/Flat-panel_display)는 부피가 얇고, 화면이 평평한 비디오 장치를 뜻한다. 한때는 화면이 둥그런 CRT와 비교되어 이 단어에 큰 의미가 있었지만, 요즘에는 [곡면 디스플레이 (Curved Screen)](https://en.wikipedia.org/wiki/Curved_screen)를 제외한 모든 디스플레이가 평판 디스플레이기 때문에 그리 큰 의미가 없다.
 
 ### 방사성 vs. 비방사성
 [평판 디스플레이는 두 가지 부류로 나뉜다](https://siim.org/page/displays_chapter2).
 1. 방사성 (Emissive)
-2. 비방사성 (Nonemissive)
+2. 비방사성 (Nonemissive/Transmissive)
 
 방사성 디스플레이는 각 픽셀에서 다양한 강도와 색상의 빛을 발한다. 기본적으로 명암 대비율이 높은 편이며, 완벽한 검정 (True Black)을 구현한다. 더불어, 대부분의 방사성 디스플레이는 [램버시안 법칙](https://en.wikipedia.org/wiki/Lambert%27s_cosine_law)에 따라 각도와 관계없이 같은 밝기를 갖기 때문에 [[#시야각]]이 넓다.
 
-PDP, LED, OLED, FED 등이 모두 방사성 디스플레이다.
-^ CRT도 방사성 디스플레이인지?
+PDP, OLED, FED, 그리고 CRT 모두 방사성 디스플레이다.
 
 비방사성 디스플레이는 광원(Light Source)에 흡수(Absorption), 반사(Reflection), 굴절(Refraction) 등의 광학적 효과를 사용하여 픽셀에 빛을 발한다.
 ^ 위 문구가 좀 헷갈릴 수 있는데, 이를 비유로 이해한다면 방사성 디스플레이는 각 픽셀에 전구가 있어 전구를 껐다 켰다 해서 픽셀로 그림을 그리는 반면, 비방사성 디스플레이는 각 픽셀에 광학적 효과를 내는 필터가 있어 픽셀에 비추는 빛을 통과시키거나 막아서 픽셀로 그림을 그린다. __한 마디로, 방사성 디스플레이는 픽셀 자체가 광원이고 비상사성 디스플레이는 다른 광원으로부터 픽셀을 비춘다.__
@@ -304,7 +303,7 @@ PDP, LED, OLED, FED 등이 모두 방사성 디스플레이다.
 ### CRT 디스플레이
 ![[crt_monitor.jpg | 300]]
 
-아주 간단하게 설명하자면, [음극선관 (Cathode Ray Tube: CRT)](https://en.wikipedia.org/wiki/Cathode-ray_tube)은 가느다란 광선으로 각 점을 빛내어 그림을 그리는 원리로 작동하는 모니터이다. [[#벡터 스캔]]과 [[#래스터 스캔]] 방식으로 둘 다 구현이 가능한 모니터이다.
+아주 간단하게 설명하자면, [음극선관 (Cathode Ray Tube: CRT)](https://en.wikipedia.org/wiki/Cathode-ray_tube)은 가느다란 광선으로 점을 빛내어 그림을 그리는 원리로 작동하는 디스플레이 유형을 뜻한다. [[#벡터 스캔]]과 [[#래스터 스캔]] 방식으로 둘 다 구현이 가능한 모니터이다.
 
 좀 더 상세히 설명하자면, CRT는 [전자총 (Electron Gun)](https://en.wikipedia.org/wiki/Electron_gun)과 [형광 스크린 (phosphor screen)](https://en.wikipedia.org/wiki/Phosphor)을 갖는 [진공관](https://en.wikipedia.org/wiki/Vacuum_tube)이며, [음극선(Cathode Ray)](https://en.wikipedia.org/wiki/Cathode_ray)이 [전계나 자계](https://home.kepco.co.kr/kepco/KO/D/htmlView/KODBHP00302.do?menuCd=FN05040203)에 의해 편향되어 스크린상에서 원하는 위치로 밝은 점을 이동시켜 형광 스크린으로부터 방출되는 빛의 형태로 이미지를 형상시킨다.
 
@@ -314,50 +313,74 @@ PDP, LED, OLED, FED 등이 모두 방사성 디스플레이다.
 
 ![[Cathode_ray_Tube.png | 300]]
 
-최초의 CRT는 1897년에 독일 물리학자 [Ferdinand Braun](https://en.wikipedia.org/wiki/Karl_Ferdinand_Braun)이 발명했다. [Western Electric](https://en.wikipedia.org/wiki/Western_Electric)의 Harry Weinhart와 [John Johnson](https://en.wikipedia.org/wiki/John_Bertrand_Johnson)이 온음극 CRT를 개발함으로 1922년에 CRT가 상용화 되었다. 오랫동안 널리 사용되어 왔지만, 현재 가볍고 큰 평판 디스플레이인 LCD, 플라즈마, OLED 등으로 빠르게 대체되고 있다.
+흑백 모니터는 전자총이 1개로 구성되어 흰색의 음극선을 구현하지만, 색 모니터는 전자총이 3개로 빨강/초록/파랑 색의 음극선을 구현한다. 참고로, CRT는 [[#픽셀]]이란 개념이 없다 - CRT에 구현되는 "점"은 그리드 형식 화면의 물리적인 점이 아닌, 음극선이 그리는 빛의 점이다.
 
-#### CRT의 장점
-1. 20,000 : 1 이상의 높은 명함 대비율. 이는 LCD나 플라즈마에 비하여 매우 높은 편이다.
-2. 빠른 응답속도
-3. 넓은 범위의 색 재현성, 실제에 가까운 검정색의 재생
-4. 해상도와 무관하게 자연스러운 디스플레이 가능
-5. 0에 가까운 왜곡 (색, 포화도, 명암 대비, 명도)
-6. 우수한 시야각
-7. 입력 지연이 없다
-8. 오랜 기간동안 사용되어 증명된 신뢰성이 있다
+이론적으로, CRT 모니터는 픽셀이 없기 때문에 모든 해상도에 맞출수 있다고 하는데, 이것을 증명하는 자료는 없는 듯 하다.
 
-#### CRT의 단점
-1. 부피가 크고 무겁다
-2. 비평면 CRT에서 발생하는 기하학적 왜곡
-3. 최고 명도와 컬러 렌더링에 이르기까지 예열시간이 필요하다
-4. 전력 소모가 많다
-5. 습기에 취약하다
-6. 낮은 재생률의 경우 화면 깜빡임이 나타난다
-7. 치명적인 내부 전압
+최초의 CRT는 1897년에 독일 물리학자 [Ferdinand Braun](https://en.wikipedia.org/wiki/Karl_Ferdinand_Braun)이 발명했다. [Western Electric](https://en.wikipedia.org/wiki/Western_Electric)의 Harry Weinhart와 [John Johnson](https://en.wikipedia.org/wiki/John_Bertrand_Johnson)이 온음극 CRT를 개발함으로 1922년에 CRT가 상용화 되었다. 오랫동안 널리 사용되어 왔지만, 현재 가볍고 큰 평판 디스플레이인 LCD, 플라즈마, OLED 등으로 대체되었다.
+
+#### CRT의 장단점
+더 이상 판매하지도 않는데 굳이 이걸 따질 필요가 있나 싶지만, 그래도 CRT 모니터의 특성 때문에 덕후들이 찾는 경우가 있기 때문에 좀 관찰해본다.
+
+CRT 장점으로 기본적인 희소성이 있다. 특히나 고전게임 팬들은 고전게임과 고전모니터를 세트로 하고 싶어한다. 더불어, 대부분 고전게임은 CRT 모니터의 특성 - [Composite Artifact Color](https://en.wikipedia.org/wiki/Composite_artifact_colors) - 을 활용하여 색을 구현하기 때문에 [고전 게임이 CRT 모니터에서 더 좋아보이는 경우가 있다](https://www.reddit.com/r/bestof/comments/8aopqg/ddcno1_explains_why_retro_games_look_better_on/).
+
+[[#응답 시간]]과 [[#재생률]]이 엄청 빨라서 슈팅 게임하는 사람들이 찾는 경우도 있다는데... 프로면 그냥 고퀄 디지털 모니터 구매하는게 낳을듯?
+
+단점은 당연히, 덩치도 크고 전력소비도 크고, 터질 위험도 있고??!
+
+
 
 ### LCD 디스플레이
-LCD 디스플레이는 주변광 또는 내부 광원으로부터 나오는 빛이 [[#픽셀]]에 닫거나 못 닫게 [액정물질 (Liquid Crystal)](https://en.wikipedia.org/wiki/Liquid_crystal)을 조절하는 원리로 작동되는 [[#래스터 스캔]] 기반 모니터이다.
+![[old_dell_lcd_monitor.PNG | 300]]
+
+LCD 디스플레이는 주변광 또는 내부 광원으로부터 나오는 빛이 [[#픽셀]]에 닿거나 못 닿게 [액정물질 (Liquid Crystal)](https://en.wikipedia.org/wiki/Liquid_crystal)을 조절하는 원리로 작동하는 디스플레이 유형을 뜻한다.
 
 ![[lcd_layers_02.jpg]]
 
 #### 백라이트
-LCD 모니터의 내부 광원을 [백라이트 (Backlight)](https://en.wikipedia.org/wiki/Backlight)라고 부른다. 일반 LCD 모니터 같은 경우 백라이트로 [형광등](https://en.wikipedia.org/wiki/Fluorescent_lamp)을 사용한다. 형광등이 아닌 LED를 백라이트로 사용하는 LCD 모니터가 있는데, 이를 [[#LED 디스플레이]]라고 한다.
+LCD 디스플레이의 내부 광원을 [백라이트 (Backlight)](https://en.wikipedia.org/wiki/Backlight) 또는 BLU (Back Light Unit)라고 부른다. LCD 디스플레이는 백라이트 종류로 인해 분류된다.
 
-![[lcd_backlight_flo_open.PNG | 300]]
+![[led_backlight_flo_open.PNG]]
 
-#todo 라이트 유형에 따른 밝기 균일도? edge lighting인가 머시기인가
+##### CCFL BLU
+초기 LCD 모니터는 백라이트로 [형광등 (CCFL)](https://en.wikipedia.org/wiki/Fluorescent_lamp#Cold-cathode_fluorescent_lamps)을 사용했다. 2022년 기준 현재, 이런 모니터는 거의 찾을 수 없다.
 
+##### LED BLU
+백라이트로 CCFL을 대체하여 [LED (Light-Emitting Diode)](https://en.wikipedia.org/wiki/Light-emitting_diode)를 사용하게 되었으며, 요즘 대부분 LCD 모니터는 LED 백라이트를 사용한다.
+
+기술적 표현으로는 LCD LED BLU 또는 [LED-backlit LCD](https://en.wikipedia.org/wiki/LED-backlit_LCD)라고 한다. 일반적으로 그냥 LED 모니터라고도 하는데, 인터넷에 LED 모니터 검색하면 LCD 모니터, OLED 모니터, 또는 LED 정관판이 나온다.
+
+LED는 CCFL보다
+- [[#밝기]]와 [[#색 재현율]]이 높다
+- 더 얇다
+- 수명기간이 더 길다
+- 친환경성이 높다 (CCFL에는 수은이 있다)
+- 소비전력이 낮다
+- [[#응답 시간]]이 빠르다
+- 방열이 낮다
+- #todo 균일도 (Uniformity)가 높다
+
+##### NO BLU
 계산기나 전자시계에 사용되는 LCD 디스플레이는 주변광/환경광 (Ambient Light)을 반사하여 그림을 그린다. 그래서 어두운 곳에서는 잘 안 보인다.
 
 ![[lcd_watch_face.PNG | 200]]
 
+#### LCD의 장단점
+일반적으로 사용하기에 충분한 퀄리티이기 때문에 많이 사용된다.
+
 LCD 디스플레이의 일반적인 문제로 [불량화소 (Defective Pixel)](https://en.wikipedia.org/wiki/Defective_pixel)가 있다. 불량화소 유형 중 고착화소 (Stuck Pixel)은 화소가 항상 켜져 있는 현상이고, 죽은 화소 (Dead Pixel)은 화소가 항상 꺼저 있는 현상이다.
 
-### LED 디스플레이
+사양에 대한 비교는 [[#모니터 종류별 사양 비교 차트]] 참고.
+
+##### Direct Lit vs Edge Lit, Full Array
+
+
 
 ### 플라즈마 디스플레이
 
-### OLED 디스플레이
+### LED 디스플레이
+#### OLED 디스플레이
+#### MicroLED 디스플레이
 
 ## 디스플레이 규격
 모니터의 규격을 규정하는 요소는 다음과 같다.
@@ -491,6 +514,8 @@ VSync 옵션은 GPU 설정 또는 게임/DVD플레이어 설정에 있다.
 
 ### 밝기
 [밝기 (Luminance)](https://en.wikipedia.org/wiki/Luminance)는 화면에 모든 픽셀을 켰을 경우 (하얀색 이미지를 그릴 경우) 측정된 빛의 강도를 뜻한다. 단위는 [cd/m² (Candela per square metre)](https://en.wikipedia.org/wiki/Candela_per_square_metre) 이되, _nit_ 으로 불리기도 한다 (1 nt = 1 cd/m²).
+
+참고 : 일반적으로 "밝기"라 하지만, 기술적으로 "휘도"라고 부른다.
 
 밝기의 영어는 Brightness와 Luminance가 있다. Luminance는 특정 기구를 사용하여 측정된 빛의 강도로서 객관적 (Objective) 측정 값을 뜻하는 방면, Brightness는 인간이 느끼는 빛의 강도로서 주관적 (Subjective) 측정 값을 뜻한다. 하지만 많은 사람들은 이 차이를 이해하지 못하기 때문에, 대부분 Brightness라고 부르는 경향이 있다.
 
