@@ -317,18 +317,16 @@ PDP, OLED, FED, 그리고 CRT 모두 방사성 디스플레이다.
 
 이론적으로, CRT 모니터는 픽셀이 없기 때문에 모든 해상도에 맞출수 있다고 하는데, 이것을 증명하는 자료는 없는 듯 하다.
 
-최초의 CRT는 1897년에 독일 물리학자 [Ferdinand Braun](https://en.wikipedia.org/wiki/Karl_Ferdinand_Braun)이 발명했다. [Western Electric](https://en.wikipedia.org/wiki/Western_Electric)의 Harry Weinhart와 [John Johnson](https://en.wikipedia.org/wiki/John_Bertrand_Johnson)이 온음극 CRT를 개발함으로 1922년에 CRT가 상용화 되었다. 오랫동안 널리 사용되어 왔지만, 현재 가볍고 큰 평판 디스플레이인 LCD, 플라즈마, OLED 등으로 대체되었다.
+최초의 CRT는 1897년에 독일 물리학자 [Ferdinand Braun](https://en.wikipedia.org/wiki/Karl_Ferdinand_Braun)이 발명했다. [Western Electric](https://en.wikipedia.org/wiki/Western_Electric)의 Harry Weinhart와 [John Johnson](https://en.wikipedia.org/wiki/John_Bertrand_Johnson)이 온음극 CRT를 개발함으로 1922년에 CRT가 상용화 되었다. 오랫동안 널리 사용되어 왔지만, 가볍고 큰 [[#평판 디스플레이]] (LCD, 플라즈마, OLED 등)로 대체되어 2010년 이후부터 더 이상 제작/판매되고 있지 않다.
 
 #### CRT의 장단점
-더 이상 판매하지도 않는데 굳이 이걸 따질 필요가 있나 싶지만, 그래도 CRT 모니터의 특성 때문에 덕후들이 찾는 경우가 있기 때문에 좀 관찰해본다.
+더 이상 판매하지도 않는데 굳이 CRT의 장단점을 알아볼 필요가 있나 싶지만, 그래도 CRT 모니터의 특성 때문에 덕후들이 찾는 경우가 있기 때문에 좀 관찰해본다.
 
-CRT 장점으로 기본적인 희소성이 있다. 특히나 고전게임 팬들은 고전게임과 고전모니터를 세트로 하고 싶어한다. 더불어, 대부분 고전게임은 CRT 모니터의 특성 - [Composite Artifact Color](https://en.wikipedia.org/wiki/Composite_artifact_colors) - 을 활용하여 색을 구현하기 때문에 [고전 게임이 CRT 모니터에서 더 좋아보이는 경우가 있다](https://www.reddit.com/r/bestof/comments/8aopqg/ddcno1_explains_why_retro_games_look_better_on/).
+CRT의 장점은 기본적으로 희소성이 있다. 특히나 고전게임 팬들은 고전게임과 고전모니터를 세트로 하고 싶어한다. 더불어, 대부분 고전게임은 CRT 모니터의 특성 - [Composite Artifact Color](https://en.wikipedia.org/wiki/Composite_artifact_colors) - 을 활용하여 색을 구현하기 때문에 [고전 게임이 CRT 모니터에서 더 좋아보이는 경우가 있다](https://www.reddit.com/r/bestof/comments/8aopqg/ddcno1_explains_why_retro_games_look_better_on/).
 
 [[#응답 시간]]과 [[#재생률]]이 엄청 빨라서 슈팅 게임하는 사람들이 찾는 경우도 있다는데... 프로면 그냥 고퀄 디지털 모니터 구매하는게 낳을듯?
 
 단점은 당연히, 덩치도 크고 전력소비도 크고, 터질 위험도 있고??!
-
-
 
 ### LCD 디스플레이
 ![[old_dell_lcd_monitor.PNG | 300]]
