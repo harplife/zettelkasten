@@ -241,7 +241,7 @@ Reminder : 여기서 스캔 (Scan)은 이미지를 촬영, 전송, 또는 그리
 
 ![[pixel_subpixel.PNG]]
 
-색상을 구현하기 위해 각 부화소는 독립적으로 제어되며, 모니터의 용도에 따라 여러 가지 형태의 [화소 배열 (Pixel Geometry)](https://en.wikipedia.org/wiki/Pixel_geometry)로 배치된다. 특정 디스플레이의 화소 배열 형태를 알고 있다면, [부화소 렌더링 (Subpixel Rendering)](https://en.wikipedia.org/wiki/Subpixel_rendering)을 소프트웨어로 구현하여 모니터의 외견상 해상도를 향상시킬 수 있다.
+색을 구현하기 위해 각 부화소는 독립적으로 제어되며, 모니터의 용도에 따라 여러 가지 형태의 [화소 배열 (Pixel Geometry)](https://en.wikipedia.org/wiki/Pixel_geometry)로 배치된다. 특정 디스플레이의 화소 배열 형태를 알고 있다면, [부화소 렌더링 (Subpixel Rendering)](https://en.wikipedia.org/wiki/Subpixel_rendering)을 소프트웨어로 구현하여 모니터의 외견상 해상도를 향상시킬 수 있다.
 
 ![[pixel_geometry.PNG | 300]]
 
