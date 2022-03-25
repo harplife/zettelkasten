@@ -54,7 +54,7 @@
               "leaf": "b626d59c02eeb2b8",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"todo/todo_log_2022.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":151.15151515151516}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":0},\"to\":{\"line\":24,\"ch\":0}}}"
             }
           ]
         }
@@ -82,7 +82,7 @@
               "leaf": "74d15c5aa24b0dc5",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_knou_note.md\",\"mode\":\"preview\"}}",
-              "eState": "{\"scroll\":349.17391304347825}"
+              "eState": "{\"scroll\":289.5178518298342}"
             }
           ]
         }
