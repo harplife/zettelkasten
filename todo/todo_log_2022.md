@@ -125,7 +125,7 @@ Use of backlinks is recommended for tasks that require further explanation.
 ### Work (complete)
 - [x] 회사소개서 영문본 수정
 
-### Personal
+### Personal (complete)
 - [x] Prepare ingredients for Buffalo Wings
     - [x] Chicken Wings
     - [x] Paprika, Garlic Powder, Baking Powder
@@ -138,20 +138,28 @@ Use of backlinks is recommended for tasks that require further explanation.
 
 
 ## 2022-03-08
+### Work (complete)
+- [x] 클라우드 지원 신청서 작성
+
+### Personal (complete)
+- [x] 방통대 2022년 1학기 등록금 관련 업무
+    - [x] 등록금 납부
+    - [x] 회사 지원금 확인
+    - [x] 회사 지원금 기안서 작성
+
+
+
+## 2022-03-25
 ### Work
 - [ ] 감정 분류 데이터 수집 및 정제
 - [ ] 데이터 바우처 신청서 작성
 - [ ] 둥글 데이터 분석
 - [ ] 둥글 유저 분류 모델 수립
-- [ ] 클라우드 지원 신청서 작성
 
 ### Personal
-- [ ] 방통대 2022년 1학기 등록금 관련 업무
-    - [x] 등록금 납부
-    - [x] 회사 지원금 확인
-    - [ ] 회사 지원금 기안서 작성
 - [ ] Figure out what counts as "evidence" of meeting somebody (for fiance visa)
     - [ ] Contact people who has gone through this
     - [ ] Work on collage
 - [ ] [[computer_graphics_knou_note|Computer Graphics Note]] 작성
-
+- [x] KNOU 컴퓨터 그래픽스 출석 과제 작성 및 제출
+- [ ] Aliasing 관련 내용 노트 작성
