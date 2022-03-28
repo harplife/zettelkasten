@@ -160,6 +160,6 @@ Use of backlinks is recommended for tasks that require further explanation.
 - [ ] Figure out what counts as "evidence" of meeting somebody (for fiance visa)
     - [ ] Contact people who has gone through this
     - [ ] Work on collage
-- [ ] [[computer_graphics_knou_note|Computer Graphics Note]] 작성
+- [ ] [[computer_graphics_note_1|Computer Graphics Note]] 작성
 - [x] KNOU 컴퓨터 그래픽스 출석 과제 작성 및 제출
 - [ ] Aliasing 관련 내용 노트 작성

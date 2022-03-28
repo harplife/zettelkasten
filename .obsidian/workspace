@@ -47,7 +47,7 @@
             {
               "leaf": "b626d59c02eeb2b8",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_knou_note.md\",\"mode\":\"source\"}}",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_note_1.md\",\"mode\":\"source\"}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
             },
             {
@@ -65,24 +65,48 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "computer_science/computer_vision/computer_graphics_knou_note.md",
-            "mode": "preview"
+            "file": "computer_science/computer_vision/computer_graphics_note_2.md",
+            "mode": "source"
           }
         },
         "pane-relief:history-v1": {
-          "pos": 1,
+          "pos": 0,
           "stack": [
             {
               "leaf": "74d15c5aa24b0dc5",
               "group": null,
-              "state": "{\"type\":\"image\",\"state\":{\"file\":\"attachments/samsung_monitor_S27R350_specs.jpg\"}}",
-              "eState": "{}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_note_2.md\",\"mode\":\"source\"}}",
+              "eState": "{\"scroll\":11.767857104843976}"
             },
             {
               "leaf": "74d15c5aa24b0dc5",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_knou_note.md\",\"mode\":\"preview\"}}",
-              "eState": "{}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_note_1.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":583,\"ch\":52},\"to\":{\"line\":583,\"ch\":52}},\"scroll\":566.785696349585}"
+            },
+            {
+              "leaf": "74d15c5aa24b0dc5",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_note_2.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":0},\"to\":{\"line\":13,\"ch\":0}}}"
+            },
+            {
+              "leaf": "74d15c5aa24b0dc5",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_note_1.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":14},\"to\":{\"line\":9,\"ch\":14}}}"
+            },
+            {
+              "leaf": "74d15c5aa24b0dc5",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_note_2.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "74d15c5aa24b0dc5",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_note_1.md\",\"mode\":\"source\"}}",
+              "eState": "{\"scroll\":0}"
             }
           ]
         }
@@ -133,8 +157,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262,
-    "collapsed": true
+    "width": 262
   },
   "right": {
     "id": "f152d8fd8ec1f4e0",
@@ -150,7 +173,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer_science/computer_vision/computer_graphics_knou_note.md",
+                "file": "computer_science/computer_vision/computer_graphics_note_2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +209,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer_science/computer_vision/computer_graphics_knou_note.md"
+                "file": "computer_science/computer_vision/computer_graphics_note_2.md"
               }
             },
             "pane-relief:history-v1": {
@@ -203,7 +226,8 @@
   },
   "active": "74d15c5aa24b0dc5",
   "lastOpenFiles": [
-    "computer_science/computer_vision/computer_graphics_knou_note.md",
+    "computer_science/computer_vision/computer_graphics_note_2.md",
+    "computer_science/computer_vision/computer_graphics_note_1.md",
     "todo/todo_log_2022.md",
     "attachments/samsung_monitor_S27R350_specs.jpg",
     "ideas/personal_blog_ideas.md",
@@ -211,7 +235,6 @@
     "ideas/computer_graphics_ideas.md",
     "unsorted/international_travel_checklist.md",
     "unsorted/plot_temperature.md",
-    "ideas/obsidian_improvements.md",
-    "todo/todo_log_2021.md"
+    "ideas/obsidian_improvements.md"
   ]
 }
