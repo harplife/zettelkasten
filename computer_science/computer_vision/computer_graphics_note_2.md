@@ -17,16 +17,16 @@ edited: 2022-03-27
 ## 컴퓨터 그래픽스 표현
 [그래픽스 (Graphics)](https://en.wikipedia.org/wiki/Graphics)는 컴퓨터 그래픽스 시스템에서 다루는 디지털 이미지를 뜻한다. 컴퓨터 과학 기준으로 [자료 구조 (Data Structure)](https://en.wikipedia.org/wiki/Data_structure)라 볼 수 있다.
 
-여기서 다룰 내용은 [[#래스터 스캔]] 기반 시스템에서 그래픽스를 표현하는 방식이다.
+여기서 다룰 내용은 [[computer_graphics_note_1#래스터 스캔]] 기반 시스템에서 그래픽스를 표현하는 방식이다.
 
 그래픽스 표현 방식은 래스터와 벡터로 2가지로 나뉜다.
 
 ### 래스터 그래픽스
-[래스터 그래픽스 (Raster Graphics)](https://en.wikipedia.org/wiki/Raster_graphics)는 사각형 그리드 안에 [[computer_graphics_note_1#픽셀]]로 표현되는 방식 또는 이미지를 뜻한다.
+[래스터 그래픽스 (Raster Graphics)](https://en.wikipedia.org/wiki/Raster_graphics)는 사각형 그리드 안에 [[computer_graphics_note_1#픽셀]]로 표현되는 방식/이미지를 뜻한다.
 
-비트맵 이미지 (Bitmap Image)라고도 불리기도 한다 - [비트맵 (Bitmap)](https://en.wikipedia.org/wiki/Bitmap)은 디지털 이미지를 저장하는 메모리 저장 방식이다. 각 픽셀을 비트로
+편의상 래스터 그래픽스로 만들어진 이미지는 그냥 "래스터 이미지"라고 한다.
 
-편의상 래스터 이미지로 불리기도 한다.
+래스터 이미지는 비트맵 이미지 (Bitmap Image)라고 불리기도 한다 - [비트맵 (Bitmap)](https://en.wikipedia.org/wiki/Bitmap)은 래스터 이미지를 저장하는 메모리 저장 방식이다. #todo 더 자세히는 나중에.
 
 우리가 흔히 사용하는 `.jpg`, `.png`, `.gif` 이미지 파일 포맷이 래스터 그래픽스를 기반으로 한다.
 
