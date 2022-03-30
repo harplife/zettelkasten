@@ -76,13 +76,13 @@
               "leaf": "74d15c5aa24b0dc5",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_note_2.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":11.826086956521738}"
+              "eState": "{\"scroll\":35.34782608695652}"
             },
             {
               "leaf": "74d15c5aa24b0dc5",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_note_1.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":583,\"ch\":52},\"to\":{\"line\":583,\"ch\":52}},\"scroll\":566.785696349585}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_note_1.md\",\"mode\":\"preview\"}}",
+              "eState": "{\"scroll\":191.21672354948805}"
             },
             {
               "leaf": "74d15c5aa24b0dc5",
