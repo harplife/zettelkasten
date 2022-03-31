@@ -38,12 +38,89 @@ RGB 이미지에 [투명 (Transparency)](https://en.wikipedia.org/wiki/Transpare
 
 
 ### 이미지 파일 포맷
-[파일 포맷](https://en.wikipedia.org/wiki/File_format)은 정보를 비트로 표현하는 구성요소 및 구조의 표준을 뜻한다. 파일 포맷은 필수가 아니다 - [파일명 확장자](https://en.wikipedia.org/wiki/Filename_extension)가 없는 경우, 파일은 단순한 [문자열 데이터](https://en.wikipedia.org/wiki/Plain_text)로 처리된다.
+[파일 포맷](https://en.wikipedia.org/wiki/File_format)은 정보를 비트로 표현하는 구성요소 및 구조의 표준을 뜻한다.
+
+참고 : 파일 포맷은 필수가 아니다. [파일명 확장자](https://en.wikipedia.org/wiki/Filename_extension)가 없는 경우, 파일은 단순한 [문자열 데이터](https://en.wikipedia.org/wiki/Plain_text)로 처리된다.
+
+파일 포맷은 일반적으로 [Header](https://en.wikipedia.org/wiki/Header_(computing)), [Metadata](https://en.wikipedia.org/wiki/Metadata), [Payload](https://en.wikipedia.org/wiki/Payload_(computing))로 구성이 된다.
+
+간단히 설명하자면,
+- Header : 파일 포맷/버전을 명시한다.
+- Metadata : 파일 컨텐츠에 대한 정보를 명시한다. 예: 생성일, 생성자, 이미지 크기, 등
+- Payload/Body : 파일 컨텐츠, 즉, 파일의 주된 내용이다.
+
+파일 포맷에 관련하여 좀 더 자세한 사항은 밑에 자료들을 참고하는게 좋을 듯 하다.
+- [Endianness](https://en.wikipedia.org/wiki/Endianness)
+- [Chunk](https://en.wikipedia.org/wiki/Chunk_(information))
+- [Magic Number](https://en.wikipedia.org/wiki/Magic_number_(programming))
+- [Container Format](https://en.wikipedia.org/wiki/Container_format_(computing))
+- [Interchange File Format](https://en.wikipedia.org/wiki/Interchange_File_Format)
 
 [이미지 파일 포맷](https://en.wikipedia.org/wiki/Image_file_format)은 이미지(픽셀 행렬)와 이미지에 대한 정보(메타데이터)를 데이터(비트)로 표현하는 구성요소 및 구조의 표준을 뜻한다.
 
-https://en.wikipedia.org/wiki/BMP_file_format
+#### 래스터 이미지 파일 포맷
+[래스터 이미지 파일 포맷](https://en.wikipedia.org/wiki/Image_file_format#Raster_formats)은 말 그대로 래스터 이미지를 다루는 파일 포맷을 뜻 한다. 이미지 파일 포맷에 따라 이미지 처리, [이미지 압축](https://en.wikipedia.org/wiki/Image_compression), 픽셀 저장 방식 등에 차이가 있다.
 
-![[bmp_file_format_structure.svg]]
+참고 : [래스터 이미지에 대한 Adobe의 설명](https://www.adobe.com/creativecloud/file-types/image/raster.html)
 
-https://en.wikipedia.org/wiki/Generation_loss
+##### Raw Image File
+[Raw Image File](https://en.wikipedia.org/wiki/Raw_image_format)은 디지털 카메라에서 찍히고 전혀 가공되지 않은 이미지 스캔 데이터를 뜻한다.
+
+디지털 카메라의 작동 방식은 아주 복잡하니, 여기서 자세히 다루진 않겠다. 다만, 현실 세계의 영상을 RGB 색 공간으로 표현하기 위해 복잡한 이미지 스캔 방식과 [스캔된 이미지에 대한 여러 처리 방식](https://en.wikipedia.org/wiki/Digital_camera#Filter_mosaics,_interpolation,_and_aliasing)이 있다는 것을 인지해야 한다.
+
+Raw Image File은 카메라 브랜드마다 다른 파일 포맷으로 처리된다.
+- IIQ (Phase One)
+- 3FR (Hasselblad)
+- DCR, K25, KDC (Kodak)
+- CRW, CR2, CR3 (Canon)
+- .. 등등
+
+참고 : [Raw Image File에 대한 Adobe의 설명](https://www.adobe.com/creativecloud/file-types/image/raw.html)
+
+##### BMP
+[BMP (.bmp) 파일 포맷](https://en.wikipedia.org/wiki/BMP_file_format)은 마이크로소프트에서 개발한 래스터 이미지 파일 포맷이다. GIF와 함께 가장 오래된 이미지 파일 포맷이기도 하다 (1980년도 상용화).
+
+BMP는 bitmap의 약자이되, BMP는 파일 포맷이고 비트맵 이미지는 래스터 이미지를 뜻하니 서로 다르며 혼용되지 않아야 한다. 그리고 BMP는 범프 (Bump)라고 읽는다.
+
+BMP는 uncompressed (압축되지 않음)/lossless (무손실) 이미지 파일 포맷이다. 수정 후 저장할 때 마다 퀄리티가 저하되지 않는다.
+
+BMP는 인터넷용 또는 이미지 편집용으로 사용하기 적절하지 않기 때문에 거의 잊혀진 이미지 파일 포맷이다.
+
+참고 : [[bmp_file_format_structure.svg|BMP 구조]]
+
+##### GIF
+[GIF (Graphic Interchange Format)](https://en.wikipedia.org/wiki/GIF)은 1987년에 출시된 무손실 압축 (Lossless Compression) 이미지 파일 포맷이다.
+
+GIF에 사용된 무손실 압축 기술은 [LZW (Lempel-Ziv-Welch)](https://en.wikipedia.org/wiki/Lempel%E2%80%93Ziv%E2%80%93Welch)이다. 반복되는 단어들을 작은 크기의 코드로 변환하는 원리로 작동한다 (단어-코드 사전이 구축된다). #todo 사실 훨씬 복잡한 것 같은데, 나중에 자세히 다루겠다.
+
+LZW 알고리즘 예시 : UTF-8 (8 bit per character) 인코딩 텍스트 파일에 "엘레베이터"라는 단어를 코드 `10`으로 대체한다. 40 bit 크기의 문자열이 16 bit 크기의 문자열로 대체되며, 이 단어가 반복될 때 마다 24 bit를 아끼게 된다.
+
+반복되는 단어의 길이가 길 수록 LZW의 효율성이 높아진다 - 반대로, 단어가 짧을수록 효율성이 떨어진다.
+
+참고 : [Steve Wilhite](https://en.wikipedia.org/wiki/Steve_Wilhite)가 CompuServe에 있을때 GIF를 발명하였고, 이로서 2013년도에 Webby Award를 받았다. 안타깝게도 Steve는 2022년 3월 14일에 COVID-19로 인해 돌아가셨다 (74세).
+
+정확히 "압축"이라 표현되진 않지만, 이미지 데이터 크기를 줄이는 방법으로서 [색 양자화(Color Quantization)](https://en.wikipedia.org/wiki/Color_quantization)가 있다.
+
+[Palette](https://en.wikipedia.org/wiki/Palette_(computing))가 있다. 
+
+https://en.wikipedia.org/wiki/Colour_banding
+
+https://en.wikipedia.org/wiki/Dither
+
+https://dev.to/thejaredwilcurt/everything-you-need-to-know-about-making-animated-gifs-j2d
+
+https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001219439
+
+
+##### JPEG
+
+##### PNG
+
+##### WEBP
+https://developers.google.com/speed/webp/docs/riff_container
+
+#### 벡터 이미지 파일 포맷
+
+참고 : [벡터 이미지에 대한 Adobe의 설명](https://www.adobe.com/creativecloud/file-types/image/vector.html)
+
+- [SVG (.svg)](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics)

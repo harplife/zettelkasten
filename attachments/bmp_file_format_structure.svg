@@ -4,6 +4,7 @@
 	xmlns:xlink="http://www.w3.org/1999/xlink"
 	xml:space="preserve"
 	lang="en-US"
+  style="background-color: white"
 ><defs>
 	<style type="text/css">
 		text{ font-family: Arial, Helvetica, sans-serif; }

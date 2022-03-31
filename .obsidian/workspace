@@ -20,7 +20,7 @@
               "leaf": "a4940ab766116d74",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"todo/general_todos.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+              "eState": "{}"
             },
             {
               "leaf": "a4940ab766116d74",
@@ -54,7 +54,7 @@
               "leaf": "b626d59c02eeb2b8",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"todo/todo_log_2022.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":0},\"to\":{\"line\":24,\"ch\":0}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":176,\"ch\":95},\"to\":{\"line\":176,\"ch\":95}},\"scroll\":164.51953125}"
             }
           ]
         }
@@ -76,13 +76,13 @@
               "leaf": "74d15c5aa24b0dc5",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_note_2.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":35.34782608695652}"
+              "eState": "{\"scroll\":97.71739130434783}"
             },
             {
               "leaf": "74d15c5aa24b0dc5",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_note_1.md\",\"mode\":\"preview\"}}",
-              "eState": "{\"scroll\":191.21672354948805}"
+              "eState": "{\"scroll\":135.2608695652174}"
             },
             {
               "leaf": "74d15c5aa24b0dc5",
@@ -229,11 +229,11 @@
   "active": "74d15c5aa24b0dc5",
   "lastOpenFiles": [
     "computer_science/computer_vision/computer_graphics_note_2.md",
-    "computer_science/computer_vision/computer_graphics_note_1.md",
     "todo/todo_log_2022.md",
+    "todo/general_todos.md",
+    "computer_science/computer_vision/computer_graphics_note_1.md",
     "attachments/samsung_monitor_S27R350_specs.jpg",
     "ideas/personal_blog_ideas.md",
-    "todo/general_todos.md",
     "ideas/computer_graphics_ideas.md",
     "unsorted/international_travel_checklist.md",
     "unsorted/plot_temperature.md",

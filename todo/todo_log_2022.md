@@ -148,18 +148,31 @@ Use of backlinks is recommended for tasks that require further explanation.
     - [x] 회사 지원금 기안서 작성
 
 
-
 ## 2022-03-25
+### Personal (complete)
+- [x] KNOU 컴퓨터 그래픽스 출석 과제 작성 및 제출
+
+
+## 2022-03-30
+### Work (complete)
+- [x] 데이터바우처 신청서 작성
+
+
+## 2022-03-31
 ### Work
 - [ ] 감정 분류 데이터 수집 및 정제
-- [ ] 데이터 바우처 신청서 작성
 - [ ] 둥글 데이터 분석
 - [ ] 둥글 유저 분류 모델 수립
 
 ### Personal
+- [ ] Aliasing 관련 내용 노트 작성
 - [ ] Figure out what counts as "evidence" of meeting somebody (for fiance visa)
     - [ ] Contact people who has gone through this
     - [ ] Work on collage
-- [ ] [[computer_graphics_note_1|Computer Graphics Note]] 작성
-- [x] KNOU 컴퓨터 그래픽스 출석 과제 작성 및 제출
-- [ ] Aliasing 관련 내용 노트 작성
+- [ ] [[computer_graphics_note_1|Computer Graphics Note 1]] 작성
+- [ ] [[computer_graphics_note_2|Computer Graphics Note 2]] 작성
+- [ ] Write a note on [Frederick Winslow Taylor's Principles of Scientific Management](https://medium.com/accelerated-intelligence/in-1911-an-influential-expert-revealed-a-forgotten-science-of-how-to-be-50x-more-productive-8828f86eb1c9)
+- [ ] Write a note on [USA Census Visualizations](https://www.census.gov/library/visualizations.html)
+- [ ] Write a note on [Webby Awards](https://www.webbyawards.com/)
+    - [ ] Check out [other web related awards](https://en.wikipedia.org/wiki/List_of_web_awards)
+- [ ] 
