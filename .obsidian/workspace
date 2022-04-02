@@ -54,7 +54,29 @@
               "leaf": "b626d59c02eeb2b8",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"todo/todo_log_2022.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":176,\"ch\":95},\"to\":{\"line\":176,\"ch\":95}},\"scroll\":164.51953125}"
+              "eState": "{}"
+            }
+          ]
+        }
+      },
+      {
+        "id": "dcabd43347518c46",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "color_theory/color_theory_note_01.md",
+            "mode": "source"
+          }
+        },
+        "pane-relief:history-v1": {
+          "pos": 0,
+          "stack": [
+            {
+              "leaf": "dcabd43347518c46",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"color_theory/color_theory_note_01.md\",\"mode\":\"source\"}}",
+              "eState": "{\"scroll\":71}"
             }
           ]
         }
@@ -65,24 +87,24 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "computer_science/computer_vision/computer_graphics_note_2.md",
+            "file": "computer_science/computer_vision/computer_graphics_note_1.md",
             "mode": "source"
           }
         },
         "pane-relief:history-v1": {
-          "pos": 0,
+          "pos": 1,
           "stack": [
             {
               "leaf": "74d15c5aa24b0dc5",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_note_2.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":97.71739130434783}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"color_theory/color_theory_note_01.md\",\"mode\":\"source\"}}",
+              "eState": "{\"scroll\":null}"
             },
             {
               "leaf": "74d15c5aa24b0dc5",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_note_1.md\",\"mode\":\"preview\"}}",
-              "eState": "{\"scroll\":135.2608695652174}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_note_1.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":251,\"ch\":0},\"to\":{\"line\":251,\"ch\":0}},\"scroll\":243.19130434782608}"
             },
             {
               "leaf": "74d15c5aa24b0dc5",
@@ -174,7 +196,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer_science/computer_vision/computer_graphics_note_2.md",
+                "file": "color_theory/color_theory_note_01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +232,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer_science/computer_vision/computer_graphics_note_2.md"
+                "file": "color_theory/color_theory_note_01.md"
               }
             },
             "pane-relief:history-v1": {
@@ -226,17 +248,17 @@
     "width": 316.5,
     "collapsed": true
   },
-  "active": "74d15c5aa24b0dc5",
+  "active": "dcabd43347518c46",
   "lastOpenFiles": [
-    "computer_science/computer_vision/computer_graphics_note_2.md",
-    "todo/todo_log_2022.md",
-    "todo/general_todos.md",
+    "color_theory/color_theory_note_01.md",
+    "computer_science/computer_vision/yuv_color_encoding.md",
+    "computer_science/computer_vision/image_compression.md",
     "computer_science/computer_vision/computer_graphics_note_1.md",
-    "attachments/samsung_monitor_S27R350_specs.jpg",
-    "ideas/personal_blog_ideas.md",
-    "ideas/computer_graphics_ideas.md",
-    "unsorted/international_travel_checklist.md",
-    "unsorted/plot_temperature.md",
-    "ideas/obsidian_improvements.md"
+    "computer_science/computer_vision/color_image_pipepine.md",
+    "computer_science/computer_vision/color_filter_array.md",
+    "todo/todo_log_2022.md",
+    "computer_science/computer_vision/computer_graphics_note_2.md",
+    "todo/general_todos.md",
+    "attachments/samsung_monitor_S27R350_specs.jpg"
   ]
 }

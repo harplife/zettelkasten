@@ -12,25 +12,36 @@ edited: 2022-03-27
 개인적으로 느낀 바로, 방통대 교과서는 정리가 잘 안 되어 있을 뿐만이 아니라 틀린 정보가 많다.
 
 # 컴퓨터 그래픽스 소프트웨어
-그래픽스 워크스테이션에서 디지털 이미지를 다루는 방법, 즉, 그래픽스 소프트웨어에 대하여 알아본다.
+컴퓨터 그래픽스 시스템에서 영상 데이터가 어떻게 다루어 지는지 알아본다.
 
-## 컴퓨터 그래픽스 표현
-[그래픽스 (Graphics)](https://en.wikipedia.org/wiki/Graphics)는 컴퓨터 그래픽스 시스템에서 다루는 디지털 이미지를 뜻한다. 컴퓨터 과학 기준으로 [자료 구조 (Data Structure)](https://en.wikipedia.org/wiki/Data_structure)라 볼 수 있다.
+## 컴퓨터 그래픽스 이미지 처리 방식
+"이미지"라는 용어가 다양하게 사용되다 보니 컴퓨터 그래픽스에서 좀 헷갈린다. 영어는 그나마 좀 구분이 가능한데, 한국어는 구분이 더 어려운 것 같다. 따라서, 여기선 내 방식대로 용어 정의 한다!
+- 영상 : 하나 또는 여러 장면을 묘사하는 것 (정보)
+- 이미지 : 영상을 아날로그 또는 디지털 매체를 통해 표현하는 것
+- 이미지 데이터 : 디지털 이미지의 픽셀값 (또는 픽셀값을 저장한 비트)
 
-여기서 다룰 내용은 [[computer_graphics_note_1#래스터 스캔]] 기반 시스템에서 그래픽스를 표현하는 방식이다.
+[그래픽스 (Graphics)](https://en.wikipedia.org/wiki/Graphics)는 컴퓨터 그래픽스 시스템에서 디지털 이미지를 처리하는 방식을 뜻한다. 컴퓨터 과학 기준으로 [자료 구조 (Data Structure)](https://en.wikipedia.org/wiki/Data_structure)라 볼 수 있다.
 
-그래픽스 표현 방식은 래스터와 벡터로 2가지로 나뉜다.
+참고 1 : 여기서 "처리한다"는 전송, 표현, 저장 등을 뜻한다.
+
+참고 2 : 컴퓨터 그래픽스 시스템에서 처리된 이미지를 "그래픽스"라고도 한다. 그래픽스는.. 동명사라고 해야할까? 방식과 방식으로 처리된 것, 이 둘 다 뜻하는 것을 뭐라부를까?
+
+여기서 다룰 내용은 [[computer_graphics_note_1#래스터 스캔]] 기반 시스템의 그래픽스 이다.
+
+그래픽스는 래스터(Raster)와 벡터(Vector)로 2가지로 나뉜다.
 
 ### 래스터 그래픽스
-[래스터 그래픽스 (Raster Graphics)](https://en.wikipedia.org/wiki/Raster_graphics)는 이미지를 사각형 그리드 안의 여러 [[computer_graphics_note_1#픽셀]]로 표현 또는 저장하는 방식을 뜻한다. 다른 말로는, 이미지를 픽셀의 행렬로 표현하는 방식이라고 할 수 있다.
+[래스터 그래픽스 (Raster Graphics)](https://en.wikipedia.org/wiki/Raster_graphics)는 이미지를 사각형 그리드 안의 여러 [[computer_graphics_note_1#픽셀]]로 처리하는 방식을 뜻한다. 다른 말로는, 이미지를 픽셀의 행렬로 표현하는 방식이라고 할 수 있다.
 
-래스터 그래픽스 형식의 이미지를 래스터 그래픽스 이미지라 부르지만, 편의상 "래스터 이미지"라고 부른다.
+래스터 그래픽스 방식으로 처리된 이미지를 래스터 그래픽스 이미지라 부르지만, 편의상 "래스터 이미지"라고 부른다.
 
 래스터 이미지는 비트맵 이미지 (Bitmap Image)라고 불리기도 한다. [비트맵 (Bitmap)](https://en.wikipedia.org/wiki/Bitmap)은 정보를 비트 (Bit)로 매핑한다는 의미이며, 이미지를 저장하는 메모리 저장 방식이다.
 
 일반 래스터 이미지에 하나의 서브픽셀은 8-bit 데이터로 저장되며, 0~255 (256개) 사이의 숫자를 표현할 수 있다. 따라서, 픽셀은 3개의 서브픽셀 (RGB)로 구성되니 하나의 픽셀이 24-bit 데이터로 저장된다 (3 채널 RGB 이미지 경우).
 
-100 x 100 (픽셀) 크기의 24-bit 래스터 이미지는 대략 30 KB 량의 데이터로 볼 수 있다.
+참고 1 : 각 픽셀에 24-bit이 할당되는 것을 영어로 24-bit per pixel 이라고 한다.
+
+참고 2 : 100 x 100 (픽셀) 크기의 24-bit 래스터 이미지는 대략 30 KB 량의 데이터로 볼 수 있다.
 
 RGB 이미지에 [투명 (Transparency)](https://en.wikipedia.org/wiki/Transparency_(graphic)) 정보가 추가된 경우, 8-bit의 알파 채널 (Alpha Channel)로 저장되며, 이러한 이미지를 [RGBA](https://en.wikipedia.org/wiki/RGBA_color_model) 이미지라 부른다. 8-bit가 추가되었기 때문에 하나의 픽셀이 32-bit 데이터로 저장된다.
 
@@ -102,6 +113,8 @@ LZW 알고리즘 예시 : UTF-8 (8 bit per character) 인코딩 텍스트 파일
 정확히 "압축"이라 표현되진 않지만, 이미지 데이터 크기를 줄이는 방법으로서 [색 양자화(Color Quantization)](https://en.wikipedia.org/wiki/Color_quantization)가 있다.
 
 [Palette](https://en.wikipedia.org/wiki/Palette_(computing))가 있다. 
+
+![[color_depth_comparisons.PNG]]
 
 https://en.wikipedia.org/wiki/Colour_banding
 

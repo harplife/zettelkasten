@@ -1,0 +1,98 @@
+---
+aliases: [Color Theory Note 1]
+tags: [computer_vision, computer_graphics, color_theory, study]
+status: ongoing
+created: 2022-04-01
+edited: 2022-04-01
+---
+
+# Color Theory Note 1
+[빛 (Light)](https://en.wikipedia.org/wiki/Light)은 아주 복잡하다. 빛은 반사되고, 흡수되고, 통과되고, 왜곡되고 별별 특성을 다 갖고 있다. [색 (Color)](https://en.wikipedia.org/wiki/Color)은 빛에서 나오기 때문에, 색도 마찬가지로 복잡하다. 여기서 다루는 내용은 "내가 이해할 수 있는" 수준으로 간단하게 정리한 것이기 때문에, 좀 더 정확한 정보는 따로 리서치 해봐야 한다.
+
+![[light_dispersion_prism.PNG]]
+
+## Color Model
+[색 모델 (Color Model)](https://en.wikipedia.org/wiki/Color_model)은 색과 색들의 관계를 수학으로 표현하는 추상적 모델을 뜻한다. 이 뜻은, 색을 하나 또는 여러 숫자로 표현한다거나, 덧셈, 뺄셈 등 색들의 상호작용(혼합)으로 표현한다는 뜻이다.
+
+[색 공간 (Color Space)]는 색 모델을 시각화한 것으로 볼 수 있다. 주로 변수와 변수의 관계를 나타내는 좌표계로 표현된다. 색 모델과 색 공간은 결국엔 같은 것이니, 이 용어들은 자주 혼용된다.
+
+색 모델은 여러 개 있는데, 이 중에 제일 중요한 모델은
+1. CIE 1931 색 공간
+2. 가산혼합 색 모델
+3. 감산혼합 색 모델
+4. 원통좌표계 색 모델
+5. YUV 색 공간
+
+### CIE 1931 색 공간
+[CIE 1931 색 공간](https://en.wikipedia.org/wiki/CIE_1931_color_space)은 가시광선 (Visible Light)의 파장 (Wavelength)과 [삼색 자극값 (Tristimulus value)](https://en.wikipedia.org/wiki/CIE_1931_color_space#Tristimulus_values)의 관계를 정량적으로 표현한 최초의 색 공간이다.
+
+삼색 자극값은 인간의 눈에 가장 자극을 많이 주는 (눈의 반응이 가장 큰) 3가지 색 - 빨강, 초록, 파랑을 뜻 한다.
+
+[Color Appearance Model (CAM)](https://en.wikipedia.org/wiki/Color_appearance_model)
+
+![[CIE1931xy.svg]]
+
+참고 : 삼색 자극값은 
+
+참고 : [Luma](https://en.wikipedia.org/wiki/Luma_(video))
+
+참고 : https://stackoverflow.com/questions/596216/formula-to-determine-perceived-brightness-of-rgb-color
+
+![[gray_conversion_comparisons.png]]
+
+참고 : http://www.ktword.co.kr/test/view/view.php?no=3183
+
+#todo 더 자세한 사항은 나중에~
+
+### 가산혼합
+[가산혼합 (Additive Color)](https://en.wikipedia.org/wiki/Additive_color)은 3개 색을 혼합하여 모든 색을 구현하는 방식이다.
+
+가산 (Additive)의 의미는 빛이 없는 공간 (검은색)에 빛을 "더하여" 하얀색으로 만든다는 뜻이다. 다른 말로는, 검은색에 각 색을 "더하여" 여러 색을 구현한다는 뜻이다. 최종적으로 모든 색을 최대 비율로 더하면 하얀색이 나온다.
+
+가산혼합에 사용되는 색을 [원색 (Primary Color)](https://en.wikipedia.org/wiki/Primary_color)이라고 부르며, 서로 독립적인 색을 뜻한다 - 서로 독립적인 색은, 둘을 혼합해도 남은 셋째의 색을 만들 수 없다.
+
+#### RGB 색 모델
+가산혼합에 일반적으로 사용되는 원색은 RGB: Red, Green, Blue이다. 이 색들을 사용하는 가산혼합을 [RGB 색 모델](https://en.wikipedia.org/wiki/RGB_color_model)이라 부른다.
+
+모든 모니터/프로젝터는 RGB 색 모델을 사용한다.
+
+이론적으로 RGB가 아닌 다른 가산혼합 원색도 있다. 하지만 사람은 RGB 색에 가장 민감하게 반응하기 때문에 RGB가 사용된다.
+
+![[rgb_summation.webp]]
+
+### 감산혼합
+[감산혼합 (Subtractive Color)](https://en.wikipedia.org/wiki/Subtractive_color)은 가산혼합과 마찬가지로 3개 색을 혼합하여 모든 색을 구현하는 방식이다.
+
+감산 (Subtractive)의 의미는 빛이 반사하는 공간 (하얀색)에 빛을 "빼서" 검은색으로 만든다는 뜻이다. 다른 말로는, 하얀색에 각 색을 "빼서" 여러 색을 구현한다는 뜻이다. 최종적으로 모든 색을 최대 비율로 빼면 검은색이 나온다.
+
+#### CMY 색 모델
+감산혼합에 일반적으로 사용되는 원색은 CMY: Cyan, Magenta, Yellow이다. 이 색들을 사용하는 감산혼합을 [CMY 색 모델](https://en.wikipedia.org/wiki/CMY_color_model)이라 부른다.
+
+모든 인쇄기는 CMY (정확히는 CMYK) 색 모델을 사용한다.
+
+마찬가지로 CMY가 아닌 다른 감산혼합 원색도 있지만, CMY가 "얕은 색"을 구현하기 제일 쉬운 조합이기 때문에 사용된다 (얕은 색에서 찐한 색으로 가는 것은 가능하지만, 그 반대는 불가능하다).
+
+![[color_mixes.png]]
+
+참고: 모니터에 출력되는 색은 인쇄기로 출력된 색과 다르게 보일 수 있다. 서로 색 모델이 다를 뿐더러, 잉크 (Ink)의 한계가 있다. 인쇄기 출력물과 매칭되는 색을 봐야한다면, 포토샵 같은 디자인 전용 프로그램에서 보정을 해줘야 한다.
+
+![[cmyk_conversion.PNG]]
+
+### 원통좌표계 색 모델
+원통좌표계 (Cylindrical Coordinates)로 표현되는 색 모델이다.
+
+#### HSL & HSV
+[HSL & HSV 색 모델](https://en.wikipedia.org/wiki/HSL_and_HSV)은 
+
+### YUV 색 공간
+[YUV 색 공간](https://en.wikipedia.org/wiki/YUV)은 [휘도 (Luminance)](https://en.wikipedia.org/wiki/Relative_luminance)와 [색차 (Chrominance)](https://en.wikipedia.org/wiki/Chrominance)의 관계를 표현한다.
+
+참고 : 색에서 밝기만 따로 추출한게 휘도, 색상만 따로 추출한게 색차라고 볼 수 있다.
+
+![[YUV_UV_plane.svg]]
+
+![[luminance_chrominance_comparison.PNG]]
+
+#todo Luminance, Relative Luminance, Luma의 차이를 잘 모르겠다..
+
+[YCbCr 색 공간](https://en.wikipedia.org/wiki/YCbCr)
