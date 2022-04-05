@@ -3,7 +3,7 @@ aliases: [Color Theory Note 1]
 tags: [computer_vision, computer_graphics, color_theory, study]
 status: ongoing
 created: 2022-04-01
-edited: 2022-04-01
+edited: 2022-04-05
 ---
 
 # Color Theory Note 1
@@ -16,7 +16,7 @@ edited: 2022-04-01
 
 [색 공간 (Color Space)]는 색 모델을 시각화한 것으로 볼 수 있다. 주로 변수와 변수의 관계를 나타내는 좌표계로 표현된다. 색 모델과 색 공간은 결국엔 같은 것이니, 이 용어들은 자주 혼용된다.
 
-색 모델은 여러 개 있는데, 이 중에 제일 중요한 모델은
+색 모델은 여러 개 있는데, 이 중에 (내가 보기에) 제일 중요한 모델은 밑에와 같다.
 1. CIE 1931 색 공간
 2. 가산혼합 색 모델
 3. 감산혼합 색 모델
@@ -24,15 +24,24 @@ edited: 2022-04-01
 5. YUV 색 공간
 
 ### CIE 1931 색 공간
-[CIE 1931 색 공간](https://en.wikipedia.org/wiki/CIE_1931_color_space)은 가시광선 (Visible Light)의 파장 (Wavelength)과 [삼색 자극값 (Tristimulus value)](https://en.wikipedia.org/wiki/CIE_1931_color_space#Tristimulus_values)의 관계를 정량적으로 표현한 최초의 색 공간이다.
+[CIE 1931 색 공간](https://en.wikipedia.org/wiki/CIE_1931_color_space)은 가시광선 (Visible Light)의 파장 (Wavelength)과 삼색 자극값 (Tristimulus value)의 관계를 정량적으로 표현한 최초의 색 공간이다.
 
-삼색 자극값은 인간의 눈에 가장 자극을 많이 주는 (눈의 반응이 가장 큰) 3가지 색 - 빨강, 초록, 파랑을 뜻 한다.
+[삼색 자극값 (Tristimulus value)](https://en.wikipedia.org/wiki/CIE_1931_color_space#Tristimulus_values)은 인간의 눈이 3가지 색상 (빨강, 초록, 파랑)에 반응하는 자극 수준을 뜻한다.
 
-[Color Appearance Model (CAM)](https://en.wikipedia.org/wiki/Color_appearance_model)
+![[CIE1931XYZ_infographic.jpg]]
+
+https://blog.hunterlab.com/blog/color-measurement/understanding-tristimulus-values-taking-guesswork-color-measurement-instrumentation/
+
+참고 : 인간처럼 특별히 3가지 색상에 민감한 생체를 [trichromat](https://en.wikipedia.org/wiki/Trichromacy)이라 한다.
+
+![[spectral_sensitivity_of_human_eyes.svg]]
+
+일반적인 모니터로는 CIE 1931 색 공간의 전체 색들을 볼 수 가 없다. 현재 2022년 기준으로 CIE 1931 색 공간 전체를 보여줄 수 있는 모니터도 없다. 밑에 있는 그림은 단순히 이론적인 좌표계와 추론되는 색을 구현한 것으로, "잘만 보이는데 왜 못본다는 거지?"라는 오해를 하면 안 된다.
 
 ![[CIE1931xy.svg]]
 
-참고 : 삼색 자극값은 
+
+
 
 참고 : [Luma](https://en.wikipedia.org/wiki/Luma_(video))
 
