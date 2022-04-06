@@ -26,15 +26,31 @@ edited: 2022-04-05
 ### CIE 1931 색 공간
 [CIE 1931 색 공간](https://en.wikipedia.org/wiki/CIE_1931_color_space)은 가시광선 (Visible Light)의 파장 (Wavelength)과 삼색 자극값 (Tristimulus value)의 관계를 정량적으로 표현한 최초의 색 공간이다.
 
-[삼색 자극값 (Tristimulus value)](https://en.wikipedia.org/wiki/CIE_1931_color_space#Tristimulus_values)은 인간의 눈이 3가지 색상 (빨강, 초록, 파랑)에 반응하는 자극 수준을 뜻한다.
+CIE 1931 색 공간은 CIE RGB, CIE XYZ로 나뉘어 지는데, 일반적으로 CIE 1931 하면 CIE XYZ를 뜻한다. 여기서 다루는 내용도 XYZ를 기준으로 다룬다.
+
+[삼색 자극값 (Tristimulus value)](https://en.wikipedia.org/wiki/CIE_1931_color_space#Tristimulus_values)은 특정 색에 대하여 사람의 눈이 반응하는 수준을 뜻한다.
+
+_좀 더 정확히는_, 망막 (Retina)에 위치한 시세포 (Visual Cell) 중 색상을 구별하는 원추세포 (Cone Cell)는 <span style="background:blue;color:white;">파랑에 반응하는 S cell</span>, <span style="background:green;color:white;">초록에 반응하는 M cell</span>, 그리고 <span style="background:red;color:white;">빨강에 반응하는 L cell</span>로 구성되어 있으며, 특정 색이 각 원추 세포에 자극을 주는 수준을 측정한게 삼색 자극값이다.
+
+![[spectral_sensitivity_of_human_eyes.svg]]
+
+![[spectral_sensitivity_of_human_eyes_2.png]]
+
+http://www.ktword.co.kr/test/view/view.php?m_temp1=6210
+
+https://it-learning.tistory.com/entry/%EB%94%94%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4-%EA%B3%B5%ED%95%99-09Human-visual-systemRod-cell-Cone-cell
+
+http://hyperphysics.phy-astr.gsu.edu/hbase/vision/visioncon.html#c1
+
+http://hyperphysics.phy-astr.gsu.edu/hbase/vision/colviscon.html#c1
+
+CIE 1936 색 
 
 ![[CIE1931XYZ_infographic.jpg]]
 
 https://blog.hunterlab.com/blog/color-measurement/understanding-tristimulus-values-taking-guesswork-color-measurement-instrumentation/
 
 참고 : 인간처럼 특별히 3가지 색상에 민감한 생체를 [trichromat](https://en.wikipedia.org/wiki/Trichromacy)이라 한다.
-
-![[spectral_sensitivity_of_human_eyes.svg]]
 
 일반적인 모니터로는 CIE 1931 색 공간의 전체 색들을 볼 수 가 없다. 현재 2022년 기준으로 CIE 1931 색 공간 전체를 보여줄 수 있는 모니터도 없다. 밑에 있는 그림은 단순히 이론적인 좌표계와 추론되는 색을 구현한 것으로, "잘만 보이는데 왜 못본다는 거지?"라는 오해를 하면 안 된다.
 
