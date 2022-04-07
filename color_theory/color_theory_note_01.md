@@ -30,11 +30,21 @@ CIE 1931 색 공간은 CIE RGB, CIE XYZ로 나뉘어 지는데, 일반적으로 
 
 [삼색 자극값 (Tristimulus value)](https://en.wikipedia.org/wiki/CIE_1931_color_space#Tristimulus_values)은 특정 색에 대하여 사람의 눈이 반응하는 수준을 뜻한다.
 
-_좀 더 정확히는_, 망막 (Retina)에 위치한 시세포 (Visual Cell) 중 색상을 구별하는 원추세포 (Cone Cell)는 <span style="background:blue;color:white;">파랑에 반응하는 S cell</span>, <span style="background:green;color:white;">초록에 반응하는 M cell</span>, 그리고 <span style="background:red;color:white;">빨강에 반응하는 L cell</span>로 구성되어 있으며, 특정 색이 각 원추 세포에 자극을 주는 수준을 측정한게 삼색 자극값이다.
+_좀 더 정확히는_, 망막 (Retina)에 위치한 시세포 (Visual Cell) 중 색상을 구별하는 [원추세포 (Cone Cell)](https://en.wikipedia.org/wiki/Cone_cell)는 <span style="background:blue;color:white;">파랑에 반응하는 S-cone</span>, <span style="background:green;color:white;">초록에 반응하는 M-cone</span>, 그리고 <span style="background:red;color:white;">빨강에 반응하는 L-cone</span>로 구성되어 있으며, 특정 색이 각 원추 세포에 자극을 주는 수준을 측정한게 삼색 자극값이다.
 
-![[spectral_sensitivity_of_human_eyes.svg]]
+![[spectral_sensitivity_of_human_eyes_4.svg]]
 
-![[spectral_sensitivity_of_human_eyes_2.png]]
+삼색 자극값 관련한 참고 사항:
+1. 각 원추 세포는 어느 특정 색 하나를 구별하는게 아니다. 여러 색들을 감지하되, 다른 원추 세포에 비해 더 많이 자극을 받는 색이 있는 것이다.
+2. RGB 색 공간에서 원추 세포는 초록에 가장 반응이 크고, 다음은 빨강, 마지막으로 파랑이다. 하지만 현실 세계에서는 노랑-초록색에 가장 반응이 크다.
+3. "자극값"이란게, 어떤 단위의 값이라기 보다는 상대적 (Relative) 값이다.
+4. 사람마다 삼색 자극값은 다르다. 심지어 눈에는 여러 각도와 위치로 빛이 들어오며 각도와 위치에 따라 삼색 자극값이 상이하다. 따라서, CIE 1931 색 모델은 Standard Observer (표준 관측자?)를 정의하고 삼색 자극값을 측정하는 가이드를 제시한다 - 이를 [Metameric Color Matching](https://isle.hanover.edu/Ch06Color/Ch06ColorMatchExp.html)이라고 한다. 밑에 그림 참고!
+
+![[metameric_color_matching_experiment_setup.png]]
+
+![[metameric_color_matching_experiment_full_sweep.gif]]
+
+약간 뻘짓 한거 같은데, https://medium.com/hipster-color-science/a-beginners-guide-to-colorimetry-401f1830b65a <-- 이 글에 가면 CIE 1931 에 대하여 아주 완벽하게 설명해준다. 아직 완전히 이해하진 못 했는데, 좀 덜 피곤할때 흝어보면 좋겠다.
 
 http://www.ktword.co.kr/test/view/view.php?m_temp1=6210
 
