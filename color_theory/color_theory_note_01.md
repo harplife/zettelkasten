@@ -30,21 +30,46 @@ CIE 1931 색 공간은 CIE RGB, CIE XYZ로 나뉘어 지는데, 일반적으로 
 
 [삼색 자극값 (Tristimulus value)](https://en.wikipedia.org/wiki/CIE_1931_color_space#Tristimulus_values)은 특정 색에 대하여 사람의 눈이 반응하는 수준을 뜻한다.
 
-_좀 더 정확히는_, 망막 (Retina)에 위치한 시세포 (Visual Cell) 중 색상을 구별하는 [원추세포 (Cone Cell)](https://en.wikipedia.org/wiki/Cone_cell)는 <span style="background:blue;color:white;">파랑에 반응하는 S-cone</span>, <span style="background:green;color:white;">초록에 반응하는 M-cone</span>, 그리고 <span style="background:red;color:white;">빨강에 반응하는 L-cone</span>로 구성되어 있으며, 특정 색이 각 원추 세포에 자극을 주는 수준을 측정한게 삼색 자극값이다.
+_좀 더 정확히는_, 망막 (Retina)에 위치한 시세포 (Visual Cell) 중 색상을 구별하는 [원추세포 (Cone Cell)](https://en.wikipedia.org/wiki/Cone_cell)는 <span style="background:blue;color:white;">파랑에 반응하는 S-cone</span>, <span style="background:green;color:white;">초록에 반응하는 M-cone</span>, 그리고 <span style="background:red;color:white;">빨강에 반응하는 L-cone</span>, 이 3 종류로 구성되어 있으며, 특정 색이 각 원추 세포에 자극을 주는 수준을 측정한게 삼색 자극값이다.
 
 ![[spectral_sensitivity_of_human_eyes_4.svg]]
 
 삼색 자극값 관련한 참고 사항:
 1. 각 원추 세포는 어느 특정 색 하나를 구별하는게 아니다. 여러 색들을 감지하되, 다른 원추 세포에 비해 더 많이 자극을 받는 색이 있는 것이다.
-2. RGB 색 공간에서 원추 세포는 초록에 가장 반응이 크고, 다음은 빨강, 마지막으로 파랑이다. 하지만 현실 세계에서는 노랑-초록색에 가장 반응이 크다.
+2. RGB 색 공간에서 원추 세포는 초록에 가장 반응이 크고, 다음은 빨강, 마지막으로 파랑이다. 이 정보가 중요한 이유는, RGB 색 공간에서 [밝기 (Luminance)](https://en.wikipedia.org/wiki/Relative_luminance)를 추출할 때 이 정보를 기준으로 만들어진 공식을 사용하기 때문이다. 참고로, 현실 세계에서는 노랑-초록색에 가장 반응이 크다.
 3. "자극값"이란게, 어떤 단위의 값이라기 보다는 상대적 (Relative) 값이다.
-4. 사람마다 삼색 자극값은 다르다. 심지어 눈에는 여러 각도와 위치로 빛이 들어오며 각도와 위치에 따라 삼색 자극값이 상이하다. 따라서, CIE 1931 색 모델은 Standard Observer (표준 관측자?)를 정의하고 삼색 자극값을 측정하는 가이드를 제시한다 - 이를 [Metameric Color Matching](https://isle.hanover.edu/Ch06Color/Ch06ColorMatchExp.html)이라고 한다. 밑에 그림 참고!
+
+삼색 자극값을 구하기 위한 테스트를 [Metameric Color Matching (MCM)](https://isle.hanover.edu/Ch06Color/Ch06ColorMatchExp.html)이라고 한다. 테스트 방식을 간단히 설명하자면,
+1. 벽 앞에는 여러개의 조명들이 있고, 벽 뒤에는 관찰자 (Standard Observer)가 있다.
+2. 벽에는 구멍이 있어, 관찰자가 구멍을 통해 벽 앞을 바라볼 수 있다.
+3. 벽 앞에는 가운데 칸막이로 나누어진 두 공간이 있다. 한 공간에는 단색광 (Monochromatic Light)이 특정 색을 비추고 있고, 건너편 공간에는 빨강, 초록, 파랑 조명이 있어 혼합색을 만든다.
+4. 관찰자는 빨강, 초록, 파랑 조명의 강도를 조절하여 혼합색과 단색광의 특정 색을 최대한 매칭해본다.
+5. 매칭되면 빨강, 초록, 파랑 조명의 강도가 기록된다. 이 강도가 Tristimulus Value 다.
+
+참고 : RGB 값이 원추세포가 자극받는 값하고 잘 매칭된다는 이유로 MCM 테스트에서 RGB 조명을 사용했다. 삼색 자극값이 원추세포의 반응이다~라고 하는게, 사실 여기서 좀 애매해진다.
 
 ![[metameric_color_matching_experiment_setup.png]]
 
+사람마다 생체학적으로 좀 다르기 때문에, 삼색 자극값도 서로 미세한 차이가 보여진다. MCM 테스트는 실제로 여러 사람들을 대상으로 진행되고, 여러 결과를 취합하여 근사치 (Approximation)를 계산한다.
+
+위 연구를 실제 진행한 사례들로 1920년도 W. D. Wright 연구와 J. Guild 연구가 있다. 두 연구가 비슷한 시기에 해서 그런지 그냥 Wright-Guild 연구로 불리는 것 같다. 당시에는 관찰자의 시야각 (Field of View)을 10°로 해서 연구가 진행됬는데, 1955년도 Stiles and Burch 연구에서는 2°로 진행되었다.
+
+![[Stiles_and_Burch_49_trichromatic_observers_plot.png]]
+
+MSM는 색에 대하여 아주 중요한 두 가지를 증명한다:
+1. [조건 등색 (Metamerism)](https://en.wikipedia.org/wiki/Metamerism_(color)) : 광원, 관측자, 관측조건 차이에 따라 두 물체의 색이 같아 보이거나 달라 보이는 현상. 서로 다른 파장의 색을 혼합하여도 같은 색으로 인지되는 특성. [[#가산혼합]]의 기반이 된다. 위 그래프를 보면 실제로 RGB 값들이 겹치는 것을 볼 수 있다.
+2. __RGB의 한계__ : 사람이 볼 수 있는 색 중 RGB로 구현할 수 없는 색이 있다. 위 그래프를 보면 RGB 값이 음수로 가는 것을 볼 수 있다. 이 뜻은, 반대편 (단색광)에 RGB 조명을 추가해야만이 색들이 매칭될 수 있었다는 것이다.
+
 ![[metameric_color_matching_experiment_full_sweep.gif]]
 
+Tristimulus Value는 좀 거창한 정의를 가지고 있지만, 사실 그냥 특정 색에 대한 원색 (RGB)의 비율로 볼 수 있다.
+
+Wright-Guild 연구 결과는 CIE 1931 색 모델을 구축하는데 기반이 되었다.
+
+
 약간 뻘짓 한거 같은데, https://medium.com/hipster-color-science/a-beginners-guide-to-colorimetry-401f1830b65a <-- 이 글에 가면 CIE 1931 에 대하여 아주 완벽하게 설명해준다. 아직 완전히 이해하진 못 했는데, 좀 덜 피곤할때 흝어보면 좋겠다.
+
+unrelated: https://www.thenakedscientists.com/
 
 http://www.ktword.co.kr/test/view/view.php?m_temp1=6210
 
