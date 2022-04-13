@@ -31,13 +31,23 @@ edited: 2022-04-12
 ![[electromagnetic_spectrum.webp]]
 
 ### 단색광
-물리학에선 단일의 주파수로 진동하는 전자기파를 [Monochromatic Radiation](https://en.wikipedia.org/wiki/Monochromatic_radiation)이라 부른다. 따라서, 단일의 주파수로 진동하는 빛 또는 하나의 파장으로 대표되는 좁은 파장 범위에 포함되는 빛을 Monochromatic Light이라 부르며, 일반적으로는 [단색광 (Spectral Color)](https://en.wikipedia.org/wiki/Spectral_color)이라 부른다.
+물리학에선 단일의 주파수로 진동하는 전자기파를 [Monochromatic Radiation](https://en.wikipedia.org/wiki/Monochromatic_radiation)이라 부른다. 따라서, 단일의 주파수로 진동하는 빛 또는 하나의 파장으로 대표되는 좁은 파장 범위에 포함되는 빛을 __Monochromatic Light__이라 부르며, 일반적으로는 [단색광 (Spectral Color)](https://en.wikipedia.org/wiki/Spectral_color)이라 부른다.
 
 ![[visible_spectrum.svg]]
 
-무지개 색이 무엇이냐~하면 사실 이건 단색광을 말하는 것이다. [빨주노초파남보 (Roy G. Biv)](https://en.wikipedia.org/wiki/ROYGBIV)
+무지개 색이 무엇이냐~하면 단색광 색이 무엇인지 묻는거와 동일하다 (답은 [빨주노초파남보 (Roy G. Biv)](https://en.wikipedia.org/wiki/ROYGBIV) ㅋ).
+
+단색광은 사람이 볼 수 있는 모든 색이 포함된게 아니다. 하지만 어떻게 보면 단색광은 사람이 볼 수 있는 모든 색의 경계점이라 볼 수 있다 - 모든 색은 단색광의 조합으로 이루어진다고 생각하면 될 것 같다.
+
+완전한 단색광을 재현하는 것은 어렵다. 물리학적으로 단일 주파수의 전자기파를 만드는게 불가능하다 (시작과 끝이 있으면 단일이 아니래나 뭐래나).
 
 참고 자료 1 : [사이언스올 과학백과사전 - 단색광](https://www.scienceall.com/%EB%8B%A8%EC%83%89%EA%B4%91monochromatic-light-3/)
+
+## 인간 생체 관련 노트
+
+## 반사와 투사?
+
+https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=loveandpic&logNo=220356463987
 
 ## Color Model
 [색 모델 (Color Model)](https://en.wikipedia.org/wiki/Color_model)은 색과 색들의 관계를 수학으로 표현하는 추상적 모델을 뜻한다. 이 뜻은, 색을 하나 또는 여러 숫자로 표현한다거나, 덧셈, 뺄셈 등 색들의 상호작용(혼합)으로 표현한다는 뜻이다.

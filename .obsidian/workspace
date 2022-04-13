@@ -76,7 +76,7 @@
               "leaf": "dcabd43347518c46",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"color_theory/color_theory_note_01.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":33.06956521739131}"
+              "eState": "{\"scroll\":33.12173913043478}"
             }
           ]
         }
@@ -104,7 +104,7 @@
               "leaf": "74d15c5aa24b0dc5",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_note_1.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":251,\"ch\":0},\"to\":{\"line\":251,\"ch\":0}},\"scroll\":243.19130434782608}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":16},\"to\":{\"line\":18,\"ch\":16}}}"
             },
             {
               "leaf": "74d15c5aa24b0dc5",
@@ -251,9 +251,9 @@
   "active": "dcabd43347518c46",
   "lastOpenFiles": [
     "color_theory/color_theory_note_01.md",
+    "computer_science/computer_vision/computer_graphics_note_1.md",
     "computer_science/computer_vision/yuv_color_encoding.md",
     "computer_science/computer_vision/image_compression.md",
-    "computer_science/computer_vision/computer_graphics_note_1.md",
     "computer_science/computer_vision/color_image_pipepine.md",
     "computer_science/computer_vision/color_filter_array.md",
     "todo/todo_log_2022.md",
