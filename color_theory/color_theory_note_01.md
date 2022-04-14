@@ -3,7 +3,7 @@ aliases: [Color Theory Note 1]
 tags: [computer_vision, computer_graphics, color_theory, study]
 status: ongoing
 created: 2022-04-01
-edited: 2022-04-12
+edited: 2022-04-14
 ---
 
 # Color Theory Note 1
@@ -43,11 +43,36 @@ edited: 2022-04-12
 
 참고 자료 1 : [사이언스올 과학백과사전 - 단색광](https://www.scienceall.com/%EB%8B%A8%EC%83%89%EA%B4%91monochromatic-light-3/)
 
-## 인간 생체 관련 노트
+### 광원
+[광원 (Light Source)](https://en.wikipedia.org/wiki/Light#Light_sources)은 제 스스로 빛을 발하는 물체 또는 장치를 뜻한다.
+
+광원을 제대로 이해하기 위해서는 물체가 어떻게 빛을 발하는지 좀 이해해야 할 필요가 있다 - 특히 빛 중에 제일 대빵이라고 볼 수 있는 [태양광 (Sunlight)](https://en.wikipedia.org/wiki/Sunlight)을 이해해야 한다.
+
+우리는 어릴때 불 (Fire)과 태양 (Sun)을 보면서 "뜨거운 것은 밝게 빛난다"를 배운다. 좀 더 나아가, 토마스 에디슨 (Thomas Edison)의 발명품, [백열등 (Incandescent Light Bulb)](https://en.wikipedia.org/wiki/Incandescent_light_bulb)에 대하여 배우며 전기로 물체를 가열시키면 빛이 난다는 것을 배운다.
+
+열과 빛이 관련이 있다는 사실, 이 개념의 이름은 [흑체 복사](http://www.ktword.co.kr/test/view/view.php?m_temp1=3907) [(Blackbody Radiation)](https://en.wikipedia.org/wiki/Black-body_radiation)이다. 이 개념은 너무 어려워서 일단 필요한 것만 간단히 알아보면,
+1. 흑체 (Blackbody)는 모든 파장의 전자기파를 완전히 흡수하는 가상의 물체 (이상적인 물체)이다.
+2. 흑체 복사 (Blackbody Radiation)는 가열된 물체(흑체)에서 나오는 전자기파의 복사이다.
+3. 흑체 복사는 [열복사 (Thermal Radiation)](https://en.wikipedia.org/wiki/Thermal_radiation)이라 불리기도 한다.
+
+참고 : 태양 (Sun)은 거~의 흑체라고 한다.
+
+> ![[Color_temperature_black_body_800-12200K.svg]]
+> 우주에 빛나는 별들의 색 & 색 온도 (800 K ~ 12,200 K)
+
+많은 광원들 중 가장 중요한 것은 열 (Temperature)이다. 
+
+http://www.ccpo.odu.edu/SEES/ozone/class/Chap_4/4_6.htm
+https://ko.wikipedia.org/wiki/%EB%B9%9B
+[방전등](https://en.wikipedia.org/wiki/Gas-discharge_lamp)
+
 
 ## 반사와 투사?
 
 https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=loveandpic&logNo=220356463987
+
+## 인간 생체 관련 노트
+
 
 ## Color Model
 [색 모델 (Color Model)](https://en.wikipedia.org/wiki/Color_model)은 색과 색들의 관계를 수학으로 표현하는 추상적 모델을 뜻한다. 이 뜻은, 색을 하나 또는 여러 숫자로 표현한다거나, 덧셈, 뺄셈 등 색들의 상호작용(혼합)으로 표현한다는 뜻이다.
