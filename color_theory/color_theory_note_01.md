@@ -38,23 +38,25 @@ edited: 2022-04-14
 우리는 어릴때 불 (Fire)과 태양 (Sun)을 보면서 "뜨거운 것은 밝게 빛난다"를 배운다. 좀 더 나아가, 토마스 에디슨 (Thomas Edison)의 발명품, [백열등 (Incandescent Light Bulb)](https://en.wikipedia.org/wiki/Incandescent_light_bulb)에 대하여 배우며 전기로 물체를 가열시키면 빛이 난다는 것을 배운다.
 
 열과 빛이 관련이 있다는 사실, 이 개념은 [흑체 복사](http://www.ktword.co.kr/test/view/view.php?m_temp1=3907) [(Blackbody Radiation)](https://en.wikipedia.org/wiki/Black-body_radiation)로부터 비롯된다 (아마도). 흑체 복사에 대하여 설명하긴 너무 어려워서 일단 핵심 내용만 알아본다.
-1. 흑체 (Blackbody)는 모든 파장의 전자기파를 완전히 흡수하는 가상의 물체 (이상적인 물체)이다.
-2. 흑체 복사 (Blackbody Radiation)는 가열된 물체(흑체)에서 나오는 [전자기파](https://en.wikipedia.org/wiki/Electromagnetic_radiation)이다.
+1. 흑체 (Blackbody)는 모든 파장의 전자기파를 완전히 흡수하는 가상/이상의 물체이다. __밀도를 가진 모든 물체는 에너지를 흡수하고 방출한다. 모든 물체는 흑체이지만, 완벽한 흑체는 아니다.__ 완벽한 흑체는 이론적으로만 가능하기 때문에 가상/이상의 물체라고 하는 것이다.
+2. 흑체 복사 (Blackbody Radiation)는 가열된 흑체에서 나오는 [전자기파](https://en.wikipedia.org/wiki/Electromagnetic_radiation)이다.
 3. 흑체 복사는 [열복사 (Thermal Radiation)](https://en.wikipedia.org/wiki/Thermal_radiation)이라 불리기도 한다.
+4. 흑체 복사는 여러 범위의 주파수/파장으로서 이루어지며, (열이 충분히 높으면) 그 중 일부가 가시광선 영역에 있다. 온도에 따라서 색상 (Hue)도 변한다 - 그래서 광원의 색을 명시할 때 Kelvin (K) 단위의 [색 온도 (Color Temperature)](https://en.wikipedia.org/wiki/Color_temperatur)로 표현하게 된다.
 
 태양 (Sun)과 별들은 거~의 흑체라고 한다.
 
 > ![[Color_temperature_black_body_800-12200K.svg]]
 > 우주에 빛나는 별들의 색 & 색 온도 (800 K ~ 12,200 K)
 
-색 (Color)과 관련해서 흑체 복사를 알아야 하는 이유는,
-1. 인간의 눈은 태양광에 최적화가 되어있다. 눈과 빛의 상호작용을 이해하려면, 제일 궁합이 좋은 태양광 (정확히는 흑체 복사)의 특징을 알아야 한다.
-2. 흑체 복사의 색은 오직 온도 (Temperature)에 따라 결정된다. 따라서, 광원의 색을 표현할 때 [색 온도 (Color Temperature)](https://en.wikipedia.org/wiki/Color_temperatur)로 표현하게 된다 (단위 K, Kelvin).
-3. 완벽한 흑체가 아니더라도, 밀도를 가진 모든 물체는 열 에너지를 흡수하고 방출한다. 가열된 물체는 전자기파의 복사
+인간의 눈은 태양광에 최적화가 되어있다. 따라서, 어느 특정 물체의 색 (Color)을 볼때 태양광 또는 태양광에 가장 유사한 빛을 물체에 빛추어 보는게 제일 선호된다. 참고로, 색은 조건에 따라서 다르게 보일수 있기 때문에 ([[#메타메리즘]]), 어느 물체의 색을 구분할 때 최대한 일정한 환경, 즉, 일정한 광원을 사용하는게 좋다.
+
+참고 자료 : [키르히호프의 복사 법칙 (Kirchhoff's Law of Thermal Radiation)](https://en.wikipedia.org/wiki/Kirchhoff's_law_of_thermal_radiation)
 
 http://www.ccpo.odu.edu/SEES/ozone/class/Chap_4/4_6.htm
 https://ko.wikipedia.org/wiki/%EB%B9%9B
 [방전등](https://en.wikipedia.org/wiki/Gas-discharge_lamp)
+
+#### Standard Illuminant
 
 ### 단색광
 물리학에선 단일의 주파수로 진동하는 전자기파를 [Monochromatic Radiation](https://en.wikipedia.org/wiki/Monochromatic_radiation)이라 부른다. 따라서, 단일의 주파수로 진동하는 빛 또는 하나의 파장으로 대표되는 좁은 파장 범위에 포함되는 빛을 __Monochromatic Light__이라 부르며, 일반적으로는 [단색광 (Spectral Color)](https://en.wikipedia.org/wiki/Spectral_color)이라 부른다.
