@@ -1,4 +1,9 @@
 <svg width="605" height="115" xmlns="http://www.w3.org/2000/svg">
+ <style>
+  svg {background-color: black}
+  text {fill: white}
+  path {stroke: white}
+ </style>
  <linearGradient id="lgSpectrum">
   <stop id="s380nm" offset="0" style="stop-color:#020005;"/>
   <stop id="s385nm" offset="0.013514" style="stop-color:#020006;"/>
@@ -78,7 +83,7 @@
  </linearGradient>
  <g stroke="#000">
   <rect x="2.5" y="47" width="599" height="64" fill="url(#lgSpectrum)" stroke-linejoin="round"/>
-  <path d="M2.5 4V43m114 4V4m72 0V43m120 0V4m36 0V43m48 0V4m210 0V43" fill="none"/>
+  <path d="M2.5 4 V43 m114 0 V4 m72 0 V43 m120 0 V4 m36 0 V43 m48 0 V4 m210 0 V43"/>
  </g>
  <g font-family="FreeSans" font-size="20" text-anchor="middle">
   <text x="497.01" y="30.79">R</text>
