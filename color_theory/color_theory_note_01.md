@@ -39,7 +39,7 @@ edited: 2022-04-14
 ### 단색광
 물리학에선 단일 주파수 (Single Constant Frequency)로 진동하는 전자기파를 [Monochromatic Radiation](https://en.wikipedia.org/wiki/Monochromatic_radiation)이라 부른다. 따라서, 단일 주파수로 진동하는 빛 또는 단일 파장으로 대표되는 좁은 파장 범위에 포함되는 빛을 __Monochromatic Light__ 이라 부르며, 일반적으로는 [단색광 (Spectral Color)](https://en.wikipedia.org/wiki/Spectral_color)이라 부른다.
 
-무지개 색이 무엇이냐~하면 단색광 색이 무엇인지 묻는거와 동일하다. [빨주노초파남보 (Roy G. Biv)](https://en.wikipedia.org/wiki/ROYGBIV) 라고 답할 수 있지만, 사실 가시광선의 영역은 연속적이기 때문에 단색광은 무한 (infinity)개 있다. 더불어, 완전한 단색광을 재현하는 것은 어렵다 (이유는 양자역학에 관련된 것 같아서 이해하는 것을 포기했다).
+무지개 색이 무엇이냐~하면 단색광 색이 무엇인지 묻는거와 동일하다 - [빨주노초파남보 (Roy G. Biv)](https://en.wikipedia.org/wiki/ROYGBIV) 라고 답할 수 있지만, 사실 가시광선의 영역은 연속적이기 때문에 단색광은 무한 (infinity)개 있다. 더불어, 완전한 단색광을 재현하는 것은 어렵다 (이유는 양자역학에 관련된 것 같아서 이해하는 것을 포기했다).
 
 우리는 일반적으로 단색광을 7가지 색으로 분류한다 - 이는 1704년도에 출판된 [아이작 뉴턴 (Isaac Newton)](https://en.wikipedia.org/wiki/Isaac_Newton)의 책 [_Opticks_](https://en.wikipedia.org/wiki/Opticks) 에 명시된 [색 상환 (Color Cicle)](https://en.wikipedia.org/wiki/Color_wheel)으로부터 비롯되었다.
 
@@ -56,7 +56,7 @@ edited: 2022-04-14
 |<span style="color:red;">&block;</span> red      |       625~750       |       400~480       |
 > 단색광을 최대한 근접하게 (Approximation) 표현하여 사람이 구분할 수 있는 영역으로 나누어 보이는 색상들
 
-단색광은 사람이 볼 수 있는 모든 색이 포함된게 아니다. 하지만 어떻게 보면 단색광은 사람이 볼 수 있는 모든 색의 경계점이라 볼 수 있다 - 모든 색은 단색광의 조합으로 이루어진다고 생각하면 될 것 같다.
+단색광은 사람이 볼 수 있는 모든 색이 포함된게 아니다. 하지만 어떻게 보면 단색광은 사람이 볼 수 있는 모든 색의 경계점이라 볼 수 있다 - 모든 색은 단색광의 조합으로 이루어지기 때문이다.
 
 참고 자료 1 : [사이언스올 과학백과사전 - 단색광](https://www.scienceall.com/%EB%8B%A8%EC%83%89%EA%B4%91monochromatic-light-3/)
 

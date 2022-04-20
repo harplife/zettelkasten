@@ -66,7 +66,7 @@
           "type": "markdown",
           "state": {
             "file": "color_theory/color_theory_note_01.md",
-            "mode": "source"
+            "mode": "preview"
           }
         },
         "pane-relief:history-v1": {
@@ -75,8 +75,8 @@
             {
               "leaf": "dcabd43347518c46",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"color_theory/color_theory_note_01.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":39.028985507246375}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"color_theory/color_theory_note_01.md\",\"mode\":\"preview\"}}",
+              "eState": "{\"scroll\":44.73913043478261}"
             }
           ]
         }
