@@ -66,7 +66,7 @@
           "type": "markdown",
           "state": {
             "file": "color_theory/color_theory_note_01.md",
-            "mode": "preview"
+            "mode": "source"
           }
         },
         "pane-relief:history-v1": {
@@ -75,8 +75,8 @@
             {
               "leaf": "dcabd43347518c46",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"color_theory/color_theory_note_01.md\",\"mode\":\"preview\"}}",
-              "eState": "{\"scroll\":44.73913043478261}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"color_theory/color_theory_note_01.md\",\"mode\":\"source\"}}",
+              "eState": "{\"scroll\":41.03623188405797}"
             }
           ]
         }
@@ -251,12 +251,12 @@
   "active": "dcabd43347518c46",
   "lastOpenFiles": [
     "color_theory/color_theory_note_01.md",
+    "todo/todo_log_2022.md",
     "computer_science/computer_vision/computer_graphics_note_1.md",
     "computer_science/computer_vision/yuv_color_encoding.md",
     "computer_science/computer_vision/image_compression.md",
     "computer_science/computer_vision/color_image_pipepine.md",
     "computer_science/computer_vision/color_filter_array.md",
-    "todo/todo_log_2022.md",
     "computer_science/computer_vision/computer_graphics_note_2.md",
     "todo/general_todos.md",
     "attachments/samsung_monitor_S27R350_specs.jpg"

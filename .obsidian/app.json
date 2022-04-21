@@ -13,7 +13,8 @@
     "DreamWorks",
     "Wishlist",
     "Luminance",
-    "Subtractive"
+    "Subtractive",
+    "Illuminant"
   ],
   "legacyEditor": true,
   "livePreview": true,

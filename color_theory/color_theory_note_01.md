@@ -3,7 +3,7 @@ aliases: [Color Theory Note 1]
 tags: [computer_vision, computer_graphics, color_theory, study]
 status: ongoing
 created: 2022-04-01
-edited: 2022-04-14
+edited: 2022-04-21
 ---
 
 # Color Theory Note 1
@@ -20,6 +20,8 @@ edited: 2022-04-14
 색은 광원-물체-관찰자의 관계로 이루어지기 때문에, 색을 이해하려면 물리학, 화학, 생물학, 신경과학, 심리학 등 여러 분야에 이해도가 좀 있어야 된다.
 
 ![[relationship_of_color.png]]
+
+![[color_relationship.PNG]]
 
 여기서 다루는 내용은 "내가 이해할 수 있는" 수준으로 간단하게 정리한 것이기 때문에, 좀 더 정확한 정보는 따로 리서치 해봐야 한다.
 
@@ -43,7 +45,7 @@ edited: 2022-04-14
 
 우리는 일반적으로 단색광을 7가지 색으로 분류한다 - 이는 1704년도에 출판된 [아이작 뉴턴 (Isaac Newton)](https://en.wikipedia.org/wiki/Isaac_Newton)의 책 [_Opticks_](https://en.wikipedia.org/wiki/Opticks) 에 명시된 [색 상환 (Color Cicle)](https://en.wikipedia.org/wiki/Color_wheel)으로부터 비롯되었다.
 
-![[isaac_newton_opticks_color_circle.PNG]]
+![[isaac_newton_opticks_color_circle_cropped.png]]
 
 > | **color** | **Wavelength (nm)** | **Frequency (THz)** |
 |:---------:|:-------------------:|:-------------------:|
@@ -56,7 +58,15 @@ edited: 2022-04-14
 |<span style="color:red;">&block;</span> red      |       625~750       |       400~480       |
 > 단색광을 최대한 근접하게 (Approximation) 표현하여 사람이 구분할 수 있는 영역으로 나누어 보이는 색상들
 
-단색광은 사람이 볼 수 있는 모든 색이 포함된게 아니다. 하지만 어떻게 보면 단색광은 사람이 볼 수 있는 모든 색의 경계점이라 볼 수 있다 - 모든 색은 단색광의 조합으로 이루어지기 때문이다.
+단색광을 6개로 나누든 7개로 나누든, 몇개로 나누는 것은 크게 상관이 없다. 단색광의 주파수/파장 범위도 마찬가지다. 단지, 다른 사람이 표현하는 단색광이 내가 생각하는 단색광과 주파수/파장 범위에 있어 차이가 있을수도 있다는 것은 인지하면 좋을 것 같다.
+
+참고 : [남색 (Indigo)](https://en.wikipedia.org/wiki/Indigo)을 구분할 수 없는 사람이 꽤 있어서, 단색광 구분에 제외될 때 가 있다.
+
+![[visible_spectrum.svg]]
+
+단색광은 무엇보다 순수한/완전적인 (Pure) 색이기 때문에, 연구가치가 높다. 단색광으로부터 [[#메타메리즘]], [[#가산혼합]], [[#감산혼합]] 같은 이론들이 나온다.
+
+![[color_circle_rgb.svg | 300]]
 
 참고 자료 1 : [사이언스올 과학백과사전 - 단색광](https://www.scienceall.com/%EB%8B%A8%EC%83%89%EA%B4%91monochromatic-light-3/)
 
@@ -73,29 +83,82 @@ edited: 2022-04-14
 3. 흑체 복사는 [열복사 (Thermal Radiation)](https://en.wikipedia.org/wiki/Thermal_radiation)이라 불리기도 한다.
 4. 흑체 복사는 여러 범위의 주파수/파장으로서 이루어지며, (열이 충분히 높으면) 그 중 일부가 가시광선 영역에 있다. 온도에 따라서 색상 (Hue)도 변한다 - 그래서 광원의 색을 명시할 때 Kelvin (K) 단위의 [색 온도 (Color Temperature)](https://en.wikipedia.org/wiki/Color_temperatur)로 표현하게 된다.
 
-태양 (Sun)과 별들은 거~의 흑체라고 한다.
+불은 뜨거울수록 파랑색으로 변한다고 들었는데, 색 온도를 보면 딱 그 말이 떠오른다. 
 
 > ![[Color_temperature_black_body_800-12200K.svg]]
-> 우주에 빛나는 별들의 색 & 색 온도 (800 K ~ 12,200 K)
+> 800 K ~ 12,200 K 범위 내 색 온도에 따른 색상
 
-인간의 눈은 태양광에 최적화가 되어있다. 따라서, 어느 특정 물체의 색 (Color)을 볼때 태양광 또는 태양광에 가장 유사한 빛을 물체에 빛추어 보는게 제일 선호된다. 참고로, 색은 조건에 따라서 다르게 보일수 있기 때문에 ([[#메타메리즘]]), 어느 물체의 색을 구분할 때 최대한 일정한 환경, 즉, 일정한 광원을 사용하는게 좋다.
+태양 (Sun)과 별들은 거~의 완벽한 흑체라고 한다.
 
-참고 자료 : [키르히호프의 복사 법칙 (Kirchhoff's Law of Thermal Radiation)](https://en.wikipedia.org/wiki/Kirchhoff's_law_of_thermal_radiation)
+인간의 눈은 태양광에 최적화가 되어있다. 따라서, 어느 특정 물체의 색 (Color)을 볼때 태양광 또는 태양광에 가장 유사한 빛을 물체에 빛추어 보는게 제일 선호된다.
 
-http://www.ccpo.odu.edu/SEES/ozone/class/Chap_4/4_6.htm
-https://ko.wikipedia.org/wiki/%EB%B9%9B
+![[sunlight_spectrum_comparison_02.PNG]]
+
+[분광 분포 (Spectral Power Distribution)](https://en.wikipedia.org/wiki/Spectral_power_distribution)로 봤을때 가시광선 영역 전체가 연속적\*으로 이어진 빛을 [Full Spectrum Light (FSL)](https://en.wikipedia.org/wiki/Full-spectrum_light)이라고 한다. 한 마디로, FSL은 가시광선의 모든 색을 방출한다 - 이론적인 하얀색 (White)에 제일 가깝다고 보면 될 것 같다.
+
+\* 연속성 (Continuity) : 빛의 여러 주파수 사이에 급격한 하락이 없이 쭉 이어진다. 빛이 가시광선의 모든 주파수를 포함한다는 뜻이며, 그만큼 모든 색을 갖추고 있다.
+
+태양광이 FSL이다. 태양광은 모든 색을 연속적으로 방출한다. 특히나 오전 12시 태양광, 색온도 5000K 부근의 빛은 아주 균일\*해서 왕중왕 하얀색이라 볼 수 있다.
+
+![[color_temperature_spectral_distribution.png]]
+
+\* 균일성 (Uniformity) : 빛 안에 모든 색이 동등한 비율로 있어야 하얀색이 나온다. 좀 만 한 색으로 치우치면, 그 색의 특성이 띄어진다.
+
+분광 분포의 연속성과 균일성은 광원의 질 (Quality)로 이어진다. #todo 아직 완전히 정리되지는 않았지만, 질은 분명 색감 (색으로부터 받는 느낌)에 영향을 준다.
+
+어떤 물체를 태양광으로 비추어본 것과 형광등으로 비추어본 것에는 색에 아주 미세한 차이가 있겠지만, 태양광으로 비추어진 색이 훨씬 생생할 것이라 생각한다 (증명할 방법은.. 뭐, 없다).
+
+![[sun_vs_flourescent_spectrum_comparison.PNG]]
+
+태양광과 백열등은 흑체 복사 기반 광원에 속한다. 반면에, 형광등과 LED는 복사 기반 광언이 아니다. 광원은 꼭 흑체 복사 기반이어야 하는 것은 아니다. 단지, 색의 연구는 태양광이 기초가 되었기에 흑체 복사에 대한 이해가 중요할 뿐이다.
+
+참고 자료 1 : [키르히호프의 복사 법칙 (Kirchhoff's Law of Thermal Radiation)](https://en.wikipedia.org/wiki/Kirchhoff's_law_of_thermal_radiation)
+참고 자료 2 : [How objects emit radiation](http://www.ccpo.odu.edu/SEES/ozone/class/Chap_4/4_6.htm)
+
 [방전등](https://en.wikipedia.org/wiki/Gas-discharge_lamp)
 
-#### Standard Illuminant
+#### 표준 광원
+색은 조건에 따라 다르게 보일수 있기 때문에 ([[#메타메리즘]]), 물체의 색을 구분할 때 최대한 일정하고 적합한 환경을 구성하는게 중요하다. 대중적으로 많이 사용되는 광원이 주로 이 용도로 선택된다.
 
+[표준 광원 (Standard Illuminant)](https://en.wikipedia.org/wiki/Standard_illuminant)은 색을 기준으로 물체와 광원의 관계를 표준화하기 위해 사용되는 광원을 뜻한다. 간단하게, 물체의 색을 구분할 때 적합한 광원이라 볼 수 있다.
 
+표준광원은 어느 특정 브랜드, 모델을 확정지는게 아니다 - 표준광원은 이론적 (Theoretical)일 뿐이다. 한 마디로, "최대한 이 정도 수준의 광원을 사용하시오~"하는게 표준광원이라 볼 수 있다.
 
-## 반사와 투사?
+표준광원은 용도에 따라 여러 종류가 있다.
+
+1. _광원 A_ : 일반적으로 사용되는 백열등 (텅스텐 필라멘트, 색온도 2856 K)
+2. _광원 B_ : 대낮 태양의 평균 태양광 (색온도 4900 K)
+3. _광원 C_ : 흐른 하늘 낮의 평균 태양광 (색온도 6800 K)
+4. _광원 D 시리즈_ : 실제 대낮의 태양광을 측정하여 얻은 평균 직사량
+5. _광원 E_ : ??? 이해하는 것 포기
+6. _광원 F 시리즈_ : 일반적인 형광등 수준
+
+위 목록 외에 더 있음을 참고할 것. 시리즈는 해당 표준광원에 하위 카테고리가 있다는 뜻.
+
+참고 자료 1 : [정보통신기술용어해설 - 표준 광원](http://www.ktword.co.kr/test/view/view.php?m_temp1=4526)
+
+### 메타메리즘
+[메타메리즘 (Metamerism)](https://en.wikipedia.org/wiki/Metamerism_(color)) : 광원, 관측자, 관측조건 차이에 따라 두 물체의 색이 같아 보이거나 달라 보이는 현상을 뜻한다. 조건 등색으로 불리기도 한다.
+
+![[metamerism.PNG]]
+
+## 물체의 색
+[물체의 색](https://en.wikipedia.org/wiki/Color#Color_of_objects)
 
 https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=loveandpic&logNo=220356463987
 
 ## 인간 생체 관련 노트
 
+## 국제조명위원회
+[국제조명위원회 (CIE, Commission Internationale de l'Eclairage)](https://en.wikipedia.org/wiki/International_Commission_on_Illumination), 영어로는 _International Commission on Illumination_ 이라 불리는 단체는 "조명 과학/기술과 관련한 모든 문제에 대해 국제적 협력 및 정보의 교환을 위한 국제 기국"이다.
+
+[CIE 홈페이지](https://cie.co.at/)
+
+![[cie.png]]
+
+__CIE는 측광, 측색 등에 대한 표준과 측정 수단을 개발하고 결정하는 기관이다.__ CIE 측에서 발표한 표준의 대표적인 예시로 [[#CIE 1931 색 공간]]이 있다. 그 외에 [[#표준 광원]]도 CIE에서 관리한다.
+
+참고 자료 1 : [정보통신기술용어해설 - 국제조명위원회](http://www.ktword.co.kr/test/view/view.php?m_temp1=2643)
 
 ## Color Model
 [색 모델 (Color Model)](https://en.wikipedia.org/wiki/Color_model)은 색과 색들의 관계를 수학으로 표현하는 추상적 모델을 뜻한다. 이 뜻은, 색을 하나 또는 여러 숫자로 표현한다거나, 덧셈, 뺄셈 등 색들의 상호작용(혼합)으로 표현한다는 뜻이다.
@@ -135,14 +198,7 @@ RGB 색 공간 위주로 봤을때, 원추 세포는 초록에 가장 반응이 
 
 삼자극값을 좀 더 이해하려면, [[#메타메리즘]]
 
-#### 메타메리즘
-
-
-[메타메리즘 (Metamerism)](https://en.wikipedia.org/wiki/Metamerism_(color)) : 광원, 관측자, 관측조건 차이에 따라 두 물체의 색이 같아 보이거나 달라 보이는 현상을 뜻한다. 조건 등색으로 불리기도 한다.
-
-![[metamerism.PNG]]
-
-
+#### MCM
 [[#삼자극값]]을 구하기 위한 테스트를 [Metameric Color Matching (MCM)](https://isle.hanover.edu/Ch06Color/Ch06ColorMatchExp.html)이라고 한다. 테스트 방식을 간단히 설명하자면,
 1. 벽 앞에는 여러개의 조명들이 있고, 벽 뒤에는 __관찰자 (Standard Observer)__ 가 있다.
 2. 벽에는 구멍이 있어, 관찰자가 구멍을 통해 벽 앞을 바라볼 수 있다.
