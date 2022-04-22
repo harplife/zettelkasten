@@ -3,7 +3,7 @@ aliases: [Color Theory Note 1]
 tags: [computer_vision, computer_graphics, color_theory, study]
 status: ongoing
 created: 2022-04-01
-edited: 2022-04-21
+edited: 2022-04-22
 ---
 
 # Color Theory Note 1
@@ -98,15 +98,13 @@ edited: 2022-04-21
 
 \* 연속성 (Continuity) : 빛의 여러 주파수 사이에 급격한 하락이 없이 쭉 이어진다. 빛이 가시광선의 모든 주파수를 포함한다는 뜻이며, 그만큼 모든 색을 갖추고 있다.
 
-태양광이 FSL이다. 태양광은 모든 색을 연속적으로 방출한다. 특히나 오전 12시 태양광, 색온도 5000K 부근의 빛은 아주 균일\*해서 왕중왕 하얀색이라 볼 수 있다.
+태양광이 FSL이다. 태양광은 모든 색을 연속적으로 방출한다.
 
 ![[color_temperature_spectral_distribution.png]]
 
-\* 균일성 (Uniformity) : 빛 안에 모든 색이 동등한 비율로 있어야 하얀색이 나온다. 좀 만 한 색으로 치우치면, 그 색의 특성이 띄어진다.
+분광 분포의 연속성은 광원의 질 (Quality)로 이어진다. #todo 아직 완전히 정리되지는 않았지만, 질은 분명 색감 (색으로부터 받는 느낌)에 영향을 준다.
 
-분광 분포의 연속성과 균일성은 광원의 질 (Quality)로 이어진다. #todo 아직 완전히 정리되지는 않았지만, 질은 분명 색감 (색으로부터 받는 느낌)에 영향을 준다.
-
-어떤 물체를 태양광으로 비추어본 것과 형광등으로 비추어본 것에는 색에 아주 미세한 차이가 있겠지만, 태양광으로 비추어진 색이 훨씬 생생할 것이라 생각한다 (증명할 방법은.. 뭐, 없다).
+어떤 물체를 태양광으로 비추어본 것과 형광등으로 비추어본 것에는 색에 아주 미세한 차이가 있겠지만, 태양광으로 비추어진 색이 훨씬 생생 (Vibrant)할 것이라 생각한다 (증명할 방법은.. 뭐, 없다).
 
 ![[sun_vs_flourescent_spectrum_comparison.PNG]]
 
@@ -114,8 +112,6 @@ edited: 2022-04-21
 
 참고 자료 1 : [키르히호프의 복사 법칙 (Kirchhoff's Law of Thermal Radiation)](https://en.wikipedia.org/wiki/Kirchhoff's_law_of_thermal_radiation)
 참고 자료 2 : [How objects emit radiation](http://www.ccpo.odu.edu/SEES/ozone/class/Chap_4/4_6.htm)
-
-[방전등](https://en.wikipedia.org/wiki/Gas-discharge_lamp)
 
 #### 표준 광원
 색은 조건에 따라 다르게 보일수 있기 때문에 ([[#메타메리즘]]), 물체의 색을 구분할 때 최대한 일정하고 적합한 환경을 구성하는게 중요하다. 대중적으로 많이 사용되는 광원이 주로 이 용도로 선택된다.
@@ -137,15 +133,137 @@ edited: 2022-04-21
 
 참고 자료 1 : [정보통신기술용어해설 - 표준 광원](http://www.ktword.co.kr/test/view/view.php?m_temp1=4526)
 
-### 메타메리즘
+## 물체표면과 빛의 상호작용
+![[surface_effects_illumination.png]]
+
+빛은 투과 (Transmission), 반사 (Reflection), 흡수 (Absorption)라는 세 가지 중요한 성질을 갖는다.
+
+더 자세히 설명하기 전에 일단 빛에 대한 용어를 정의할 필요가 있다. 굳이 물리학적으로 복잡하게 정리하진 않는다 ㅎ.
+
+일단 앞으로 빛을 광선으로 표현한다 - [광선 (Ray)](https://en.wikipedia.org/wiki/Ray_(optics))는 빛의 이상적인 모델로서 에너지 흐름의 방향을 가르키는 선으로 표현되며, 실제 빛의 파면 (Wavefront)에 수직인 선을 선택함으로써 얻을 수 있다. 광선은 광학계를 통한 빛의 전달을 모델링하는데 사용된다.
+
+빛은 파동이기 때문에 모델링하기 엄청 번거롭다! 심지어 양자역학 (Quantum Mechanics)과 관련되어 빛이 [파동-입자 이중성](https://en.wikipedia.org/wiki/Wave%E2%80%93particle_duality)을 가진다고 하니, 이런걸 어떻게 모델링 할까? 결국엔 답은 아주 간단하게 선 하나 그리는 것이고, 그게 바로 광선이다.
+
+빛이 물체와 상호작용을 하기 전/후를 기준으로 광선은 세 가지로 분류된다.
+1. 입사
+2. 반사
+3. 투과
+
+![[plane_of_incidence.PNG]]
+
+입사파 (Incident Wave) 또는 __입사광선 (Incident Ray)__ 은 물체를 향해 다가가는 광선을 뜻한다.
+
+반사파 (Reflected Wave) 또는 __반사광선 (Reflected Ray)__ 은 물체 표면에 부딛혀 반사되어 나오는 광선을 뜻한다.
+
+투과파 (Transmitted Wave) 또는 __투과광선 (Transmitted Ray)__ 은 물체를 통과하는 빛을 뜻한다. __굴절파 (Refracted Wave)__ 라고 표현되기도 하는데, 이는 광선이  물체를 통과할 때 방향이 틀어진 광선을 뜻한다.
+
+![[mirror-absorb-reflect-transmit.png]]
+
+광선이 물체를 완전히 통과하지 못 하는 현상, 물질이 빛을 흡수하는 현상을 [[#흡광]]이라 한다.
+
+자료 정리 중 2022/04/22
+
+https://en.wikipedia.org/wiki/Reflectance | Reflectance - Wikipedia
+https://en.wikipedia.org/wiki/Transmittance | Transmittance - Wikipedia
+https://en.wikipedia.org/wiki/Absorption_(electromagnetic_radiation) | Absorption (electromagnetic radiation) - Wikipedia
+https://en.wikipedia.org/wiki/Color#Color_of_objects | Color - Wikipedia
+https://www.google.com/search?q=material+surface+light+interaction&rlz=1C1SQJL_koKR868KR868&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi5z_3rhqf3AhUPy4sBHQjnBuwQ_AUoAXoECAEQAw&biw=1258&bih=646&dpr=1#imgrc=3tEQikMxrWohAM | material surface light interaction - Google Search
+https://www.effinghamschools.com/cms/lib4/GA01000314/Centricity/Domain/702/573-579.pdf | 573-579.pdf
+https://slidetodoc.com/graphics-reflection-model-kucg-korea-ac-kr-graphics/ | Graphics Reflection Model kucg korea ac kr Graphics
+https://www.standardpro.com/what-is-specular-reflection/#:~:text=Light%20reflects%20on%20a%20surface,source%2C%20affect%20the%20secondary%20beam. | Reflection of light: What is specular reflection | Stanpro
+https://www.google.com/imgres?imgurl=http%3A%2F%2Felementalray.files.wordpress.com%2F2013%2F01%2Fdgs.png&imgrefurl=http%3A%2F%2Fm.blog.naver.com%2Fsspsos74%2F220015846279&tbnid=IqTjQBAEQH6QnM&vet=12ahUKEwivh-rBiqf3AhU1z4sBHTtvAr4QMygAegUIARC3AQ..i&docid=QnuuPKqOTzYI_M&w=1433&h=656&itg=1&q=Specular%2C%20diffuse%20reflection%2C%20and%20the%20degrees%20of%20reflection%20glossiness&ved=2ahUKEwivh-rBiqf3AhU1z4sBHTtvAr4QMygAegUIARC3AQ | Specular, diffuse reflection, and the degrees of reflection glossiness - Google Search
+https://substance3d.adobe.com/tutorials/courses/the-pbr-guide-part-1 | The PBR Guide - Part 1
+https://math.hws.edu/graphicsbook/c4/s1.html | Introduction to Computer Graphics, Section 4.1 -- Introduction to Lighting
+https://math.hws.edu/graphicsbook/ | Introduction to Computer Graphics -- Title Page
+http://modernistencaustic.com/portfolio-items/reflection-refraction/ | Reflection & refraction - Modernist Encaustic
+https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=loveandpic&logNo=220356463987 | 색상과_색채이론 기본 : 네이버 블로그
+
+https://www.handprint.com/HP/WCL/ | handprint : watercolors & watercolor painting
+https://www.handprint.com/HP/WCL/color4a.html#lightobject | handprint : colormaking attributes
+https://www.handprint.com/HP/WCL/wcolor.html | handprint : color theory
+https://www.handprint.com/HP/WCL/color18a.html | handprint : modern color theory (concepts)
+
+
+![[types_of_ray_on_reflection.svg]]
+
+참고 자료 1 : [삼성디스플레이 뉴스룸 : 재귀반사](https://news.samsungdisplay.com/29873)
+
+참고 자료 2 : [네이버 블로그 글 : 색상/색체 이론](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=loveandpic&logNo=220356463987)
+
+참고 자료 3 : [물체의 색](https://en.wikipedia.org/wiki/Color#Color_of_objects)
+
+참고 자료 4 : [정보통신기술용어해설 : 입사파, 반사파, 투과파](http://www.ktword.co.kr/test/view/view.php?m_temp1=3863)
+
+### Transmission
+투과 (Transmission)는 빛이 어떤 물체에 도달했을 때, 물체를 통과해서 완번히 벗어나는 것을 의미한다.
+
+### Reflection
+반사 (Reflection)는 빛이 물체의 표면을 통과하지 못하고 다른 방향으로 튕겨 나가는 것을 의미한다.
+
+![[types_of_reflection.png]]
+
+![[reflection_comparison_01.PNG]]
+
+https://en.wikipedia.org/wiki/Reflection_(physics)
+
+#### Specular Reflection
+
+#### Diffuse Reflection
+
+### 흡광
+[흡광 (Absorption)](https://en.wikipedia.org/wiki/Absorption_(electromagnetic_radiation))은 물체의 표면을 통과한 상태에서 결국 물체 자체를 벗어나지 못하는 현상을 의미한다.
+
+## 메타메리즘
 [메타메리즘 (Metamerism)](https://en.wikipedia.org/wiki/Metamerism_(color)) : 광원, 관측자, 관측조건 차이에 따라 두 물체의 색이 같아 보이거나 달라 보이는 현상을 뜻한다. 조건 등색으로 불리기도 한다.
 
 ![[metamerism.PNG]]
 
-## 물체의 색
-[물체의 색](https://en.wikipedia.org/wiki/Color#Color_of_objects)
+### MCM
+[[#삼자극값]]을 구하기 위한 테스트를 [Metameric Color Matching (MCM)](https://isle.hanover.edu/Ch06Color/Ch06ColorMatchExp.html)이라고 한다. 테스트 방식을 간단히 설명하자면,
+1. 벽 앞에는 여러개의 조명들이 있고, 벽 뒤에는 __관찰자 (Standard Observer)__ 가 있다.
+2. 벽에는 구멍이 있어, 관찰자가 구멍을 통해 벽 앞을 바라볼 수 있다.
+3. 벽 앞에는 가운데 칸막이로 나누어진 두 공간이 있다. 한 공간에는 [단색광 (Monochromatic Light)](https://en.wikipedia.org/wiki/Spectral_color)이 특정 색을 비추고 있고, 건너편 공간에는 빨강, 초록, 파랑 조명이 있어 혼합색을 만든다.
+4. 관찰자는 빨강, 초록, 파랑 조명의 강도를 조절하여 혼합색과 단색광의 특정 색을 최대한 매칭해본다.
+5. 매칭되면 빨강, 초록, 파랑 조명의 강도가 기록된다. 이 강도가 삼자극값이다.
 
-https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=loveandpic&logNo=220356463987
+사실 삼자극값은 MCM 테스트의 부산물이라고 볼 수 있다. MCM은 어느 물리적 객체의 색을 구분하기 위한 테스트이다. 예를 들어, 노란색 가방의 "노란색"과 바나나의 "노란색"이 같다/틀리다를 판단하기 위해, 각 객체를 동일한 하얀색 배경에 하얀색 빛 (표준 광원)
+
+참고 : RGB 값이 원추세포가 자극받는 값하고 잘 매칭된다는 이유로 MCM 테스트에서 RGB 조명을 사용했다. 삼자극값이 원추세포의 반응이다~라고 하는게, 사실 여기서 좀 애매해진다.
+
+![[metameric_color_matching_experiment_setup.png]]
+
+위 연구를 실제 진행한 사례들로 1920년도 W. D. Wright 연구와 J. Guild 연구가 있다. 두 연구가 비슷한 시기에 해서 그런지 그냥 Wright-Guild 연구로 불리는 것 같다. Wright-Guild 연구 결과는 CIE 1931 색 모델을 구축하는데 기반이 되었다.
+
+참고 : 1920년 Wright-Guild 연구는 관찰자의 시야각 (Field of View)을 2°로 해서 연구가 진행됬는데, 이 정도 시야각은 팔을 쭉 뻗고 보이는 엄지손가락 정도 크기라고 보면 된다. 이게 너무 작다고 여겨져, 1964년도에 10°(주먹만한 크기)로 변경했다고 한다 - [출처](https://www.konicaminolta.com/instruments/knowledge/color/part4/01.html).
+
+사람마다 생체학적으로 좀 다르기 때문에, 삼자극값도 서로 미세한 차이가 보여진다. MCM 테스트는 실제로 여러 사람들을 대상으로 진행되고, 여러 결과를 취합하여 근사치 (Approximation)를 계산한다.
+
+> ![[Stiles_and_Burch_49_trichromatic_observers_plot.png]]
+> 1955년 Stiles and Burch 연구 데이터를 기반으로 plot된 그래프
+
+MSM는 색에 대하여 아주 중요한 두 가지를 증명한다:
+1. 
+2. __RGB의 한계__ : 사람이 볼 수 있는 색 중 RGB로 구현할 수 없는 색이 있다. 위 그래프를 보면 RGB 값이 음수로 가는 것을 볼 수 있다. 이 뜻은, 반대편 (단색광)에 RGB 조명을 추가해야만이 색들이 매칭될 수 있었다는 것이다.
+
+![[metameric_color_matching_experiment_full_sweep.gif]]
+
+삼자극값은 좀 거창한 정의를 가지고 있지만, MCM 테스트를 이해하고 보면 삼자극값은 그냥 특정 색에 대한 원색 (RGB)의 비율로 볼 수 있다.
+
+서로 다른 파장의 색들을 혼합하여 다른 하나의 색을 구현하는 [[#가산혼합]]의 기반이 된다.
+
+참고 자료 1 : [색 매칭 웹 게임](https://color.method.ac/) - MCM하고 크게 관련 있는 것은 아닌데, 프로세스는 비슷하고 색 매칭하는게 얼마나 힘든지 알 수 있다 ㅋ
+
+### 가산혼합
+[가산혼합 (Additive Color)](https://en.wikipedia.org/wiki/Additive_color)은 3개 색을 혼합하여 모든 색을 구현하는 방식이다.
+
+가산 (Additive)의 의미는 빛이 없는 공간 (검은색)에 빛을 "더하여" 하얀색으로 만든다는 뜻이다. 다른 말로는, 검은색에 각 색을 "더하여" 여러 색을 구현한다는 뜻이다. 최종적으로 모든 색을 최대 비율로 더하면 하얀색이 나온다.
+
+가산혼합에 사용되는 색을 [원색 (Primary Color)](https://en.wikipedia.org/wiki/Primary_color)이라고 부르며, 서로 독립적인 색을 뜻한다 - 서로 독립적인 색은, 둘을 혼합해도 남은 셋째의 색을 만들 수 없다.
+
+### 감산혼합
+[감산혼합 (Subtractive Color)](https://en.wikipedia.org/wiki/Subtractive_color)은 가산혼합과 마찬가지로 3개 색을 혼합하여 모든 색을 구현하는 방식이다.
+
+감산 (Subtractive)의 의미는 빛이 반사하는 공간 (하얀색)에 빛을 "빼서" 검은색으로 만든다는 뜻이다. 다른 말로는, 하얀색에 각 색을 "빼서" 여러 색을 구현한다는 뜻이다. 최종적으로 모든 색을 최대 비율로 빼면 검은색이 나온다.
 
 ## 인간 생체 관련 노트
 
@@ -198,39 +316,6 @@ RGB 색 공간 위주로 봤을때, 원추 세포는 초록에 가장 반응이 
 
 삼자극값을 좀 더 이해하려면, [[#메타메리즘]]
 
-#### MCM
-[[#삼자극값]]을 구하기 위한 테스트를 [Metameric Color Matching (MCM)](https://isle.hanover.edu/Ch06Color/Ch06ColorMatchExp.html)이라고 한다. 테스트 방식을 간단히 설명하자면,
-1. 벽 앞에는 여러개의 조명들이 있고, 벽 뒤에는 __관찰자 (Standard Observer)__ 가 있다.
-2. 벽에는 구멍이 있어, 관찰자가 구멍을 통해 벽 앞을 바라볼 수 있다.
-3. 벽 앞에는 가운데 칸막이로 나누어진 두 공간이 있다. 한 공간에는 [단색광 (Monochromatic Light)](https://en.wikipedia.org/wiki/Spectral_color)이 특정 색을 비추고 있고, 건너편 공간에는 빨강, 초록, 파랑 조명이 있어 혼합색을 만든다.
-4. 관찰자는 빨강, 초록, 파랑 조명의 강도를 조절하여 혼합색과 단색광의 특정 색을 최대한 매칭해본다.
-5. 매칭되면 빨강, 초록, 파랑 조명의 강도가 기록된다. 이 강도가 삼자극값이다.
-
-사실 삼자극값은 MCM 테스트의 부산물이라고 볼 수 있다. MCM은 어느 물리적 객체의 색을 구분하기 위한 테스트이다. 예를 들어, 노란색 가방의 "노란색"과 바나나의 "노란색"이 같다/틀리다를 판단하기 위해, 각 객체를 동일한 하얀색 배경에 하얀색 빛 (표준 광원)
-
-참고 : RGB 값이 원추세포가 자극받는 값하고 잘 매칭된다는 이유로 MCM 테스트에서 RGB 조명을 사용했다. 삼자극값이 원추세포의 반응이다~라고 하는게, 사실 여기서 좀 애매해진다.
-
-![[metameric_color_matching_experiment_setup.png]]
-
-위 연구를 실제 진행한 사례들로 1920년도 W. D. Wright 연구와 J. Guild 연구가 있다. 두 연구가 비슷한 시기에 해서 그런지 그냥 Wright-Guild 연구로 불리는 것 같다. Wright-Guild 연구 결과는 CIE 1931 색 모델을 구축하는데 기반이 되었다.
-
-참고 : 1920년 Wright-Guild 연구는 관찰자의 시야각 (Field of View)을 2°로 해서 연구가 진행됬는데, 이 정도 시야각은 팔을 쭉 뻗고 보이는 엄지손가락 정도 크기라고 보면 된다. 이게 너무 작다고 여겨져, 1964년도에 10°(주먹만한 크기)로 변경했다고 한다 - [출처](https://www.konicaminolta.com/instruments/knowledge/color/part4/01.html).
-
-사람마다 생체학적으로 좀 다르기 때문에, 삼자극값도 서로 미세한 차이가 보여진다. MCM 테스트는 실제로 여러 사람들을 대상으로 진행되고, 여러 결과를 취합하여 근사치 (Approximation)를 계산한다.
-
-> ![[Stiles_and_Burch_49_trichromatic_observers_plot.png]]
-> 1955년 Stiles and Burch 연구 데이터를 기반으로 plot된 그래프
-
-MSM는 색에 대하여 아주 중요한 두 가지를 증명한다:
-1. 
-2. __RGB의 한계__ : 사람이 볼 수 있는 색 중 RGB로 구현할 수 없는 색이 있다. 위 그래프를 보면 RGB 값이 음수로 가는 것을 볼 수 있다. 이 뜻은, 반대편 (단색광)에 RGB 조명을 추가해야만이 색들이 매칭될 수 있었다는 것이다.
-
-![[metameric_color_matching_experiment_full_sweep.gif]]
-
-삼자극값은 좀 거창한 정의를 가지고 있지만, MCM 테스트를 이해하고 보면 삼자극값은 그냥 특정 색에 대한 원색 (RGB)의 비율로 볼 수 있다.
-
-서로 다른 파장의 색들을 혼합하여 다른 하나의 색을 구현하는 [[#가산혼합]]의 기반이 된다.
-
 #### 색 공간 시각화
 색 (Color)이란 개념적으로 [휘도 (Luminance)](https://en.wikipedia.org/wiki/Luminance)와 [색도 (Chromaticity)](https://en.wikipedia.org/wiki/Chromaticity)의 조합으로 이루어진다. 이 외에 파장 (Wavelength)도 포함된다. 삼자극값의 3개의 값에 3개의 색 정보까지, 이 모두를 하나의 좌표계에 그리는 것은 좀 복잡해지고 이해하기도 난잡해진다. CIE 1931 색 공간은 색의 관계를 이해하기에 필요한 정보만 따로 추출하여 2D 좌표계에 표현한 것이다.
 
@@ -273,12 +358,7 @@ https://blog.hunterlab.com/blog/color-measurement/understanding-tristimulus-valu
 
 #todo 더 자세한 사항은 나중에~
 
-### 가산혼합
-[가산혼합 (Additive Color)](https://en.wikipedia.org/wiki/Additive_color)은 3개 색을 혼합하여 모든 색을 구현하는 방식이다.
 
-가산 (Additive)의 의미는 빛이 없는 공간 (검은색)에 빛을 "더하여" 하얀색으로 만든다는 뜻이다. 다른 말로는, 검은색에 각 색을 "더하여" 여러 색을 구현한다는 뜻이다. 최종적으로 모든 색을 최대 비율로 더하면 하얀색이 나온다.
-
-가산혼합에 사용되는 색을 [원색 (Primary Color)](https://en.wikipedia.org/wiki/Primary_color)이라고 부르며, 서로 독립적인 색을 뜻한다 - 서로 독립적인 색은, 둘을 혼합해도 남은 셋째의 색을 만들 수 없다.
 
 #### RGB 색 모델
 가산혼합에 일반적으로 사용되는 원색은 RGB: Red, Green, Blue이다. 이 색들을 사용하는 가산혼합을 [RGB 색 모델](https://en.wikipedia.org/wiki/RGB_color_model)이라 부른다.
@@ -289,10 +369,6 @@ https://blog.hunterlab.com/blog/color-measurement/understanding-tristimulus-valu
 
 ![[rgb_summation.webp]]
 
-### 감산혼합
-[감산혼합 (Subtractive Color)](https://en.wikipedia.org/wiki/Subtractive_color)은 가산혼합과 마찬가지로 3개 색을 혼합하여 모든 색을 구현하는 방식이다.
-
-감산 (Subtractive)의 의미는 빛이 반사하는 공간 (하얀색)에 빛을 "빼서" 검은색으로 만든다는 뜻이다. 다른 말로는, 하얀색에 각 색을 "빼서" 여러 색을 구현한다는 뜻이다. 최종적으로 모든 색을 최대 비율로 빼면 검은색이 나온다.
 
 #### CMY 색 모델
 감산혼합에 일반적으로 사용되는 원색은 CMY: Cyan, Magenta, Yellow이다. 이 색들을 사용하는 감산혼합을 [CMY 색 모델](https://en.wikipedia.org/wiki/CMY_color_model)이라 부른다.
