@@ -9,6 +9,9 @@
 	 overflow="visible" enable-background="new 1 0.354 425 269" xml:space="preserve">
 <defs>
 </defs>
+<style>
+	svg {background-color: white}
+</style>
 <rect y="213.151" fill="#6DCFF6" width="426.896" height="56.693"/>
 <g>
 	<g>

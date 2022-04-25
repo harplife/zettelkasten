@@ -41,11 +41,13 @@ edited: 2022-04-22
 ### 단색광
 물리학에선 단일 주파수 (Single Constant Frequency)로 진동하는 전자기파를 [Monochromatic Radiation](https://en.wikipedia.org/wiki/Monochromatic_radiation)이라 부른다. 따라서, 단일 주파수로 진동하는 빛 또는 단일 파장으로 대표되는 좁은 파장 범위에 포함되는 빛을 __Monochromatic Light__ 이라 부르며, 일반적으로는 [단색광 (Spectral Color)](https://en.wikipedia.org/wiki/Spectral_color)이라 부른다.
 
-무지개 색이 무엇이냐~하면 단색광 색이 무엇인지 묻는거와 동일하다 - [빨주노초파남보 (Roy G. Biv)](https://en.wikipedia.org/wiki/ROYGBIV) 라고 답할 수 있지만, 사실 가시광선의 영역은 연속적이기 때문에 단색광은 무한 (infinity)개 있다. 더불어, 완전한 단색광을 재현하는 것은 어렵다 (이유는 양자역학에 관련된 것 같아서 이해하는 것을 포기했다).
+단색광이란 이름이 좀 어색한데, 그냥 "하나의 색"인 _단색_ 으로 이해해도 크게 문제 없을 듯 하다. 단색광은 그저 하나의 주파수가 하나의 색을 이룬다는 개념을 기준으로 하나의 색을 갖춘 빛이라 보면 된다.
 
-우리는 일반적으로 단색광을 7가지 색으로 분류한다 - 이는 1704년도에 출판된 [아이작 뉴턴 (Isaac Newton)](https://en.wikipedia.org/wiki/Isaac_Newton)의 책 [_Opticks_](https://en.wikipedia.org/wiki/Opticks) 에 명시된 [색 상환 (Color Cicle)](https://en.wikipedia.org/wiki/Color_wheel)으로부터 비롯되었다.
+우리는 일반적으로 단색광을 [빨주노초파남보 (Roy G. Biv)](https://en.wikipedia.org/wiki/ROYGBIV)와 같이 7가지 색으로 분류한다 - 이는 1704년도에 출판된 [아이작 뉴턴 (Isaac Newton)](https://en.wikipedia.org/wiki/Isaac_Newton)의 책 [_Opticks_](https://en.wikipedia.org/wiki/Opticks) 에 명시된 [색 상환 (Color Cicle)](https://en.wikipedia.org/wiki/Color_wheel)으로부터 비롯되었다.
 
 ![[isaac_newton_opticks_color_circle_cropped.png]]
+
+사실 가시광선의 영역은 연속적 (Continuous)이기 때문에 단색광은 무한 (infinity)개 있다. 더불어, 완전한 단색광을 재현하는 것은 어렵다 (이유는 양자역학에 관련된 것 같아서 이해하는 것을 포기했다). 우리는 색에 대한 소통을 위해 가시광선의 일부 영역들을 단색광으로 최대한 근접하게 (Approximation) 표현하여 구분할 뿐이다.
 
 > | **color** | **Wavelength (nm)** | **Frequency (THz)** |
 |:---------:|:-------------------:|:-------------------:|
@@ -56,7 +58,7 @@ edited: 2022-04-22
 |<span style="color:yellow;">&block;</span> yellow   |       565~590       |       510~530       |
 |<span style="color:orange;">&block;</span> orange   |       590~625       |       480~510       |
 |<span style="color:red;">&block;</span> red      |       625~750       |       400~480       |
-> 단색광을 최대한 근접하게 (Approximation) 표현하여 사람이 구분할 수 있는 영역으로 나누어 보이는 색상들
+
 
 단색광을 6개로 나누든 7개로 나누든, 몇개로 나누는 것은 크게 상관이 없다. 단색광의 주파수/파장 범위도 마찬가지다. 단지, 다른 사람이 표현하는 단색광이 내가 생각하는 단색광과 주파수/파장 범위에 있어 차이가 있을수도 있다는 것은 인지하면 좋을 것 같다.
 
@@ -85,8 +87,7 @@ edited: 2022-04-22
 
 불은 뜨거울수록 파랑색으로 변한다고 들었는데, 색 온도를 보면 딱 그 말이 떠오른다. 
 
-> ![[Color_temperature_black_body_800-12200K.svg]]
-> 800 K ~ 12,200 K 범위 내 색 온도에 따른 색상
+![[Color_temperature_black_body_800-12200K.svg]]
 
 태양 (Sun)과 별들은 거~의 완벽한 흑체라고 한다.
 
@@ -108,7 +109,9 @@ edited: 2022-04-22
 
 ![[sun_vs_flourescent_spectrum_comparison.PNG]]
 
-태양광과 백열등은 흑체 복사 기반 광원에 속한다. 반면에, 형광등과 LED는 복사 기반 광언이 아니다. 광원은 꼭 흑체 복사 기반이어야 하는 것은 아니다. 단지, 색의 연구는 태양광이 기초가 되었기에 흑체 복사에 대한 이해가 중요할 뿐이다.
+태양광과 백열등은 흑체 복사 기반 광원에 속한다. 반면에, 형광등과 LED는 복사 기반 광원이 아니다. 광원은 꼭 흑체 복사 기반이어야 하는 것은 아니다. 단지, 색의 연구는 태양광이 기초가 되었기에 흑체 복사에 대한 이해가 중요할 뿐이다.
+
+#todo 광원의 종류는 많은데, 굳이 이 섹션에서 다룰 필요는 없을 것 같다.
 
 참고 자료 1 : [키르히호프의 복사 법칙 (Kirchhoff's Law of Thermal Radiation)](https://en.wikipedia.org/wiki/Kirchhoff's_law_of_thermal_radiation)
 참고 자료 2 : [How objects emit radiation](http://www.ccpo.odu.edu/SEES/ozone/class/Chap_4/4_6.htm)
@@ -129,22 +132,26 @@ edited: 2022-04-22
 5. _광원 E_ : ??? 이해하는 것 포기
 6. _광원 F 시리즈_ : 일반적인 형광등 수준
 
-위 목록 외에 더 있음을 참고할 것. 시리즈는 해당 표준광원에 하위 카테고리가 있다는 뜻.
+위 목록 외에 더 있음을 참고해야 한다. 시리즈는 해당 표준광원에 하위 카테고리가 있다는 뜻이다.
 
 참고 자료 1 : [정보통신기술용어해설 - 표준 광원](http://www.ktword.co.kr/test/view/view.php?m_temp1=4526)
 
-## 물체표면과 빛의 상호작용
+## 물체와 빛의 상호작용
 ![[surface_effects_illumination.png]]
 
-빛은 투과 (Transmission), 반사 (Reflection), 흡수 (Absorption)라는 세 가지 중요한 성질을 갖는다.
+빛은 반사 (Reflection), 투과 (Transmission), 흡수 (Absorption)라는 세 가지 중요한 성질을 갖는다. 그 외에 굴절 (Refraction), 회절 (Diffraction), 산란 (Scattering), 분산 (Dispersion) 등이 있다.
+
+![[light_properties.png]]
 
 더 자세히 설명하기 전에 일단 빛에 대한 용어를 정의할 필요가 있다. 굳이 물리학적으로 복잡하게 정리하진 않는다 ㅎ.
 
-일단 앞으로 빛을 광선으로 표현한다 - [광선 (Ray)](https://en.wikipedia.org/wiki/Ray_(optics))는 빛의 이상적인 모델로서 에너지 흐름의 방향을 가르키는 선으로 표현되며, 실제 빛의 파면 (Wavefront)에 수직인 선을 선택함으로써 얻을 수 있다. 광선은 광학계를 통한 빛의 전달을 모델링하는데 사용된다.
+일단 앞으로 빛을 광선으로 표현한다 - [광선 (Ray)](https://en.wikipedia.org/wiki/Ray_(optics))은 빛의 이상적인 모델로서 에너지 흐름의 방향을 가르키는 선으로 표현되며, 실제 빛의 파면 (Wavefront)에 수직 (Perpendicular)인 선을 선택함으로써 얻을 수 있다. 광선은 광학계를 통한 빛의 전달을 모델링하는데 사용된다.
+
+![[wavefronts_and_ray.png]]
 
 빛은 파동이기 때문에 모델링하기 엄청 번거롭다! 심지어 양자역학 (Quantum Mechanics)과 관련되어 빛이 [파동-입자 이중성](https://en.wikipedia.org/wiki/Wave%E2%80%93particle_duality)을 가진다고 하니, 이런걸 어떻게 모델링 할까? 결국엔 답은 아주 간단하게 선 하나 그리는 것이고, 그게 바로 광선이다.
 
-빛이 물체와 상호작용을 하기 전/후를 기준으로 광선은 세 가지로 분류된다.
+물체와 상호작용을 하기 전/후를 기준으로 광선은 세 가지로 분류된다.
 1. 입사
 2. 반사
 3. 투과
@@ -157,48 +164,20 @@ edited: 2022-04-22
 
 투과파 (Transmitted Wave) 또는 __투과광선 (Transmitted Ray)__ 은 물체를 통과하는 빛을 뜻한다. __굴절파 (Refracted Wave)__ 라고 표현되기도 하는데, 이는 광선이  물체를 통과할 때 방향이 틀어진 광선을 뜻한다.
 
-![[mirror-absorb-reflect-transmit.png]]
+![[types_of_ray.svg]]
 
-광선이 물체를 완전히 통과하지 못 하는 현상, 물질이 빛을 흡수하는 현상을 [[#흡광]]이라 한다.
+용어를 정의했으니, 다시 돌아와서 반사, 투과, 흡수에 대해서 설명한다.
 
-자료 정리 중 2022/04/22
+반사, 투과, 흡수는 동시에 일어난다 - 빛에 대한 물질의 특성을 1이라고 표현한다면, `R(반사율) + A(흡수율) + T(투과율) = 1` 관계가 성립된다.
 
-https://en.wikipedia.org/wiki/Reflectance | Reflectance - Wikipedia
-https://en.wikipedia.org/wiki/Transmittance | Transmittance - Wikipedia
-https://en.wikipedia.org/wiki/Absorption_(electromagnetic_radiation) | Absorption (electromagnetic radiation) - Wikipedia
-https://en.wikipedia.org/wiki/Color#Color_of_objects | Color - Wikipedia
-https://www.google.com/search?q=material+surface+light+interaction&rlz=1C1SQJL_koKR868KR868&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi5z_3rhqf3AhUPy4sBHQjnBuwQ_AUoAXoECAEQAw&biw=1258&bih=646&dpr=1#imgrc=3tEQikMxrWohAM | material surface light interaction - Google Search
-https://www.effinghamschools.com/cms/lib4/GA01000314/Centricity/Domain/702/573-579.pdf | 573-579.pdf
-https://slidetodoc.com/graphics-reflection-model-kucg-korea-ac-kr-graphics/ | Graphics Reflection Model kucg korea ac kr Graphics
-https://www.standardpro.com/what-is-specular-reflection/#:~:text=Light%20reflects%20on%20a%20surface,source%2C%20affect%20the%20secondary%20beam. | Reflection of light: What is specular reflection | Stanpro
-https://www.google.com/imgres?imgurl=http%3A%2F%2Felementalray.files.wordpress.com%2F2013%2F01%2Fdgs.png&imgrefurl=http%3A%2F%2Fm.blog.naver.com%2Fsspsos74%2F220015846279&tbnid=IqTjQBAEQH6QnM&vet=12ahUKEwivh-rBiqf3AhU1z4sBHTtvAr4QMygAegUIARC3AQ..i&docid=QnuuPKqOTzYI_M&w=1433&h=656&itg=1&q=Specular%2C%20diffuse%20reflection%2C%20and%20the%20degrees%20of%20reflection%20glossiness&ved=2ahUKEwivh-rBiqf3AhU1z4sBHTtvAr4QMygAegUIARC3AQ | Specular, diffuse reflection, and the degrees of reflection glossiness - Google Search
-https://substance3d.adobe.com/tutorials/courses/the-pbr-guide-part-1 | The PBR Guide - Part 1
-https://math.hws.edu/graphicsbook/c4/s1.html | Introduction to Computer Graphics, Section 4.1 -- Introduction to Lighting
-https://math.hws.edu/graphicsbook/ | Introduction to Computer Graphics -- Title Page
-http://modernistencaustic.com/portfolio-items/reflection-refraction/ | Reflection & refraction - Modernist Encaustic
-https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=loveandpic&logNo=220356463987 | 색상과_색채이론 기본 : 네이버 블로그
+[[#광원]] 섹션에서 알아본 흑체 (Blackbody)는 반사율 0%, 투과율 0%, 흡수율 100% 인 이상적인 완전 물체로 `A = 1`이라 정의할 수 있다.
 
-https://www.handprint.com/HP/WCL/ | handprint : watercolors & watercolor painting
-https://www.handprint.com/HP/WCL/color4a.html#lightobject | handprint : colormaking attributes
-https://www.handprint.com/HP/WCL/wcolor.html | handprint : color theory
-https://www.handprint.com/HP/WCL/color18a.html | handprint : modern color theory (concepts)
+### 반사
+반사 (Reflection)는 광선이 물체의 표면을 통과하지 못하고 다른 방향으로 튕겨 나가는 현상을 의미한다.
 
+반사율은 물체 표면이 광선을 반사하는 수준을 뜻한다. 반사율이 높을수록 투과율, 흡수율이 낮아진다.
 
-![[types_of_ray_on_reflection.svg]]
-
-참고 자료 1 : [삼성디스플레이 뉴스룸 : 재귀반사](https://news.samsungdisplay.com/29873)
-
-참고 자료 2 : [네이버 블로그 글 : 색상/색체 이론](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=loveandpic&logNo=220356463987)
-
-참고 자료 3 : [물체의 색](https://en.wikipedia.org/wiki/Color#Color_of_objects)
-
-참고 자료 4 : [정보통신기술용어해설 : 입사파, 반사파, 투과파](http://www.ktword.co.kr/test/view/view.php?m_temp1=3863)
-
-### Transmission
-투과 (Transmission)는 빛이 어떤 물체에 도달했을 때, 물체를 통과해서 완번히 벗어나는 것을 의미한다.
-
-### Reflection
-반사 (Reflection)는 빛이 물체의 표면을 통과하지 못하고 다른 방향으로 튕겨 나가는 것을 의미한다.
+반사는 정반사 (Specular), 확산반사 (Diffuse), Glossy로 세 가지로 분류가 된다.
 
 ![[types_of_reflection.png]]
 
@@ -210,8 +189,46 @@ https://en.wikipedia.org/wiki/Reflection_(physics)
 
 #### Diffuse Reflection
 
-### 흡광
-[흡광 (Absorption)](https://en.wikipedia.org/wiki/Absorption_(electromagnetic_radiation))은 물체의 표면을 통과한 상태에서 결국 물체 자체를 벗어나지 못하는 현상을 의미한다.
+#### 반사에 대한 추가 정리
+
+https://lifeisforu.tistory.com/383
+
+
+2022 04 25 정리중
+
+http://occam.phps.kr/tt/268 | diffuse light - 산란광, 확산광, 난반사광, 분산광. :: 류광의 번역 이야기
+http://www.ktword.co.kr/test/view/view.php?no=3846 | 입사 반사 투과 흡수
+http://www.ktword.co.kr/test/view/view.php?no=1655 | 분산 [파동]
+https://en.wikipedia.org/wiki/Ray_(optics) | Ray (optics) - Wikipedia
+https://en.wikipedia.org/wiki/Specular_reflection | Specular reflection - Wikipedia
+https://www.standardpro.com/what-is-specular-reflection/#:~:text=Specular%20reflection%20is%20a%20type,into%20a%20single%20outgoing%20direction. | Reflection of light: What is specular reflection | Stanpro
+https://knowledge.autodesk.com/support/maya-lt/learn-explore/caas/CloudHelp/cloudhelp/2016/ENU/MayaLT/files/GUID-4556213A-C588-4D3C-B396-CCEB2BE2A798-htm.html | Types of reflection | Maya LT 2016 | Autodesk Knowledge Network
+https://knowledge.autodesk.com/support/maya-lt/learn-explore/caas/CloudHelp/cloudhelp/2016/ENU/MayaLT/files/GUID-9158B659-5CA0-413B-8AD6-194E35A10FD8-htm.html | Absorption, reflection, and refraction of light | Maya LT 2016 | Autodesk Knowledge Network
+https://www.google.com/search?q=specular+%EB%9C%BB&oq=specular+%EB%9C%BB&aqs=chrome..69i57j0i512l4j69i60l2j69i61.2292j0j7&sourceid=chrome&ie=UTF-8 | specular 뜻 - Google Search
+https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=aquare20&logNo=110077620097 | 조명의 6가지 성질( Specular, direct light, reflection, diffuse, specular reflection, specular light) : 네이버 블로그
+https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=mysky4you&logNo=10149032814#:~:text=Specular%20reflection%20%EC%9D%80%20%ED%91%9C%EB%A9%B4%EC%9C%BC%EB%A1%9C%EB%B6%80%ED%84%B0,%EB%B0%98%EC%82%AC%20%EB%B0%A9%ED%96%A5%EC%9C%BC%EB%A1%9C%20%EB%B0%98%EC%82%AC%EB%90%9C%EB%8B%A4. | 반사율 (specular, diffuse reflection) : 네이버 블로그
+https://lifeisforu.tistory.com/383 | [ PBR 이란 무엇인가 ] 16. Reflection 에 대한 잘못된 상식들
+
+
+
+### 투과
+투과 (Transmission)는 빛이 어떤 물체에 도달했을 때, 물체를 통과해서 완번히 벗어나는 것을 의미한다.
+
+#### Refraction
+
+#### Diffraction
+
+### 흡수
+[흡수/흡광 (Absorption)](https://en.wikipedia.org/wiki/Absorption_(electromagnetic_radiation))은 물체의 표면을 통과한 상태에서 결국 물체 자체를 벗어나지 못하는 현상을 의미한다.
+
+### 빛의 특성 참고자료
+참고 자료 1 : [삼성디스플레이 뉴스룸 : 재귀반사](https://news.samsungdisplay.com/29873)
+
+참고 자료 2 : [네이버 블로그 글 : 색상/색체 이론](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=loveandpic&logNo=220356463987)
+
+참고 자료 3 : [물체의 색](https://en.wikipedia.org/wiki/Color#Color_of_objects)
+
+참고 자료 4 : [정보통신기술용어해설 : 입사파, 반사파, 투과파](http://www.ktword.co.kr/test/view/view.php?m_temp1=3863)
 
 ## 메타메리즘
 [메타메리즘 (Metamerism)](https://en.wikipedia.org/wiki/Metamerism_(color)) : 광원, 관측자, 관측조건 차이에 따라 두 물체의 색이 같아 보이거나 달라 보이는 현상을 뜻한다. 조건 등색으로 불리기도 한다.
