@@ -17,6 +17,8 @@ edited: 2022-04-22
 
 여러 이름들이 있어서 좀 복잡한데, [Color Vision](https://en.wikipedia.org/wiki/Color_vision)이 그나마 좀 잘 검색되는 것 같다.
 
+왜 이렇게 이름들이 많은지.. 물리학 분야에 빛의 특성을 연구하는 필드를 [광학 (Optics)](https://en.wikipedia.org/wiki/Optics)이라 한다.
+
 색은 광원-물체-관찰자의 관계로 이루어지기 때문에, 색을 이해하려면 물리학, 화학, 생물학, 신경과학, 심리학 등 여러 분야에 이해도가 좀 있어야 된다.
 
 ![[relationship_of_color.png]]
@@ -36,7 +38,7 @@ edited: 2022-04-22
 
 가시광선의 파장 (Wavelength) 추정 범위 : 750 nm ~ 380 nm
 
-참고 : [적외선 (Infrared)](https://en.wikipedia.org/wiki/Infrared)과 [자외선 (Ultraviolet)](https://en.wikipedia.org/wiki/Ultraviolet)은 가시광선에 속하지 않지만 전용 기기를 사용하여 관측할 수 있다.
+참고 1 : [적외선 (Infrared)](https://en.wikipedia.org/wiki/Infrared)과 [자외선 (Ultraviolet)](https://en.wikipedia.org/wiki/Ultraviolet)은 가시광선에 속하지 않지만 특수 카메라를 사용하여 볼수가 있다.
 
 ### 단색광
 물리학에선 단일 주파수 (Single Constant Frequency)로 진동하는 전자기파를 [Monochromatic Radiation](https://en.wikipedia.org/wiki/Monochromatic_radiation)이라 부른다. 따라서, 단일 주파수로 진동하는 빛 또는 단일 파장으로 대표되는 좁은 파장 범위에 포함되는 빛을 __Monochromatic Light__ 이라 부르며, 일반적으로는 [단색광 (Spectral Color)](https://en.wikipedia.org/wiki/Spectral_color)이라 부른다.
@@ -139,7 +141,7 @@ edited: 2022-04-22
 ## 물체와 빛의 상호작용
 ![[surface_effects_illumination.png]]
 
-빛은 반사 (Reflection), 투과 (Transmission), 흡수 (Absorption)라는 세 가지 중요한 성질을 갖는다. 그 외에 굴절 (Refraction), 회절 (Diffraction), 산란 (Scattering), 분산 (Dispersion) 등이 있다.
+빛은 [[#반사]], 투과 (Transmission), 흡수 (Absorption)라는 세 가지 중요한 성질을 갖는다. 그 외에 굴절 (Refraction), 회절 (Diffraction), 산란 (Scattering), 분산 (Dispersion) 등이 있다.
 
 ![[light_properties.png]]
 
@@ -166,28 +168,38 @@ edited: 2022-04-22
 
 ![[types_of_ray.svg]]
 
-용어를 정의했으니, 다시 돌아와서 반사, 투과, 흡수에 대해서 설명한다.
-
-반사, 투과, 흡수는 동시에 일어난다 - 빛에 대한 물질의 특성을 1이라고 표현한다면, `R(반사율) + A(흡수율) + T(투과율) = 1` 관계가 성립된다.
-
-[[#광원]] 섹션에서 알아본 흑체 (Blackbody)는 반사율 0%, 투과율 0%, 흡수율 100% 인 이상적인 완전 물체로 `A = 1`이라 정의할 수 있다.
+용어를 정의했으니, 다시 돌아와서 반사, 투과, 흡수에 대해서 정리해본다.
 
 ### 반사
-반사 (Reflection)는 광선이 물체의 표면을 통과하지 못하고 다른 방향으로 튕겨 나가는 현상을 의미한다.
+[반사 (Reflection)](https://en.wikipedia.org/wiki/Reflection_(physics))는 광선이 물체의 표면에 도달하여 다른 방향으로 튕겨 나가는 현상을 의미한다. 빛이 빛의 파장 (Wavelength)보다 큰 장애물에 부닥칠 경우에 반사된다고 한다.
 
-반사율은 물체 표면이 광선을 반사하는 수준을 뜻한다. 반사율이 높을수록 투과율, 흡수율이 낮아진다.
+물체의 표면을 기준으로 수직선을 그린 것을 [법선 (Normal)](https://keystagewiki.com/index.php/Normal_(Physics))이라고 하면, 법선을 기준으로
+- 입사광선이 표면에 도달하는 각도를 __입사각 (Angle of Incidence, θᵢ)__ 이라 한다.
+- 반사광선이 표면에서 반사되어 나가는 각도를 __반사각 (Angle of Reflection, θᵣ)__ 이라 한다.
 
-반사는 정반사 (Specular), 확산반사 (Diffuse), Glossy로 세 가지로 분류가 된다.
+빛은 [반사의 법칙 (Law of Reflection)](https://www.physicsclassroom.com/class/refln/Lesson-1/The-Law-of-Reflection) 을 따른다 :
+1. 입사각과 반사각은 동일하다.
+2. 입사광선과 반사광선은 동일한 평면에 위치한다 ([Coplanar](https://en.wikipedia.org/wiki/Coplanarity)). 입사광선과 반사광선이 위치한 평면을 [입사면 (Plane of Incidence)](https://en.wikipedia.org/wiki/Plane_of_incidence)이라 한다.
 
-![[types_of_reflection.png]]
+![[law_of_reflection_3d.svg]]
+
+참고 : 음파 (Sound Wave)도 반사의 법칙을 따른다.
+
+반사율은 물체 표면에 광선이 반사되는 수준을 뜻한다.. 하지만, 이게 자세히 보니까 아주 아주 복잡하다. 반사율을 영어로 보면 Albedo, Reflectivity, Reflactance가 나오는데, 이게 각각 정의가 좀 다르면서 엄청 복잡하다!! #todo 반사율은 나중에 좀 더 삽질해본다.
+
+반사는 정반사와 확산반사, 이 두 가지로 분류가 된다.
 
 ![[reflection_comparison_01.PNG]]
 
-https://en.wikipedia.org/wiki/Reflection_(physics)
+#### 정반사
+[정반사 (Specular Reflection)](https://en.wikipedia.org/wiki/Specular_reflection)
 
-#### Specular Reflection
+거울반사 또는 경면반사로고도 부른다.
 
-#### Diffuse Reflection
+#### 확산반사
+[확산반사 (Diffuse Reflection)](https://en.wikipedia.org/wiki/Diffuse_reflection)
+
+난반사라고도 한다..
 
 #### 반사에 대한 추가 정리
 
@@ -220,6 +232,11 @@ https://lifeisforu.tistory.com/383 | [ PBR 이란 무엇인가 ] 16. Reflection 
 
 ### 흡수
 [흡수/흡광 (Absorption)](https://en.wikipedia.org/wiki/Absorption_(electromagnetic_radiation))은 물체의 표면을 통과한 상태에서 결국 물체 자체를 벗어나지 못하는 현상을 의미한다.
+
+### 반사, 투과, 흡수의 관계
+반사, 투과, 흡수는 동시에 일어난다 - 빛에 대한 물질의 특성을 1이라고 표현한다면, `R(반사율) + A(흡수율) + T(투과율) = 1` 관계가 성립된다.
+
+[[#광원]] 섹션에서 알아본 흑체 (Blackbody)는 반사율 0%, 투과율 0%, 흡수율 100% 인 이상적인 완전 물체로 `A = 1`이라 정의할 수 있다.
 
 ### 빛의 특성 참고자료
 참고 자료 1 : [삼성디스플레이 뉴스룸 : 재귀반사](https://news.samsungdisplay.com/29873)

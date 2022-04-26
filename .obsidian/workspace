@@ -60,28 +60,6 @@
         }
       },
       {
-        "id": "dcabd43347518c46",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "color_theory/color_theory_note_01.md",
-            "mode": "source"
-          }
-        },
-        "pane-relief:history-v1": {
-          "pos": 0,
-          "stack": [
-            {
-              "leaf": "dcabd43347518c46",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"color_theory/color_theory_note_01.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":167.78260869565182}"
-            }
-          ]
-        }
-      },
-      {
         "id": "74d15c5aa24b0dc5",
         "type": "leaf",
         "state": {
@@ -104,7 +82,7 @@
               "leaf": "74d15c5aa24b0dc5",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_note_1.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":16},\"to\":{\"line\":18,\"ch\":16}}}"
+              "eState": "{\"scroll\":7.695652173913043}"
             },
             {
               "leaf": "74d15c5aa24b0dc5",
@@ -129,6 +107,28 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_note_1.md\",\"mode\":\"source\"}}",
               "eState": "{\"scroll\":0}"
+            }
+          ]
+        }
+      },
+      {
+        "id": "87ea834a7b108cf6",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "color_theory/color_theory_note_01.md",
+            "mode": "source"
+          }
+        },
+        "pane-relief:history-v1": {
+          "pos": 0,
+          "stack": [
+            {
+              "leaf": "87ea834a7b108cf6",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"color_theory/color_theory_note_01.md\",\"mode\":\"source\"}}",
+              "eState": "{\"scroll\":166.8695652173913}"
             }
           ]
         }
@@ -248,17 +248,17 @@
     "width": 316.5,
     "collapsed": true
   },
-  "active": "dcabd43347518c46",
+  "active": "87ea834a7b108cf6",
   "lastOpenFiles": [
     "color_theory/color_theory_note_01.md",
-    "todo/todo_log_2022.md",
     "computer_science/computer_vision/computer_graphics_note_1.md",
+    "todo/todo_log_2022.md",
+    "careers/technical_director/shubha_jagannatha/shubha_jagannatha.md",
+    "careers/technical_director/shubha_jagannatha/about_the_author_shubha.md",
+    "careers/technical_director/gyedo_jeon.md",
+    "careers/technical_director/technial_director_for_pixar_animation_studios.md",
+    "careers/technical_director/shubha_jagannatha/thoughts_and_advices_from_Pixar_TD_shubha.md",
     "computer_science/computer_vision/yuv_color_encoding.md",
-    "computer_science/computer_vision/image_compression.md",
-    "computer_science/computer_vision/color_image_pipepine.md",
-    "computer_science/computer_vision/color_filter_array.md",
-    "computer_science/computer_vision/computer_graphics_note_2.md",
-    "todo/general_todos.md",
-    "attachments/samsung_monitor_S27R350_specs.jpg"
+    "computer_science/computer_vision/image_compression.md"
   ]
 }

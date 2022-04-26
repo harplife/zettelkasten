@@ -1,7 +1,8 @@
 ---
 aliases: [Who is Gyedo Jeon, Gyedo Jeon, Gyedo, Gyedo-nim]
-tags: [computer_science, computer_vision, animation, career, WHO-IS]
+tags: [computer_science, computer_vision, animation, career, technical_director, disney, WHO-IS]
 status: complete
+created: 2021-12-26
 edited: 2021-12-26
 ---
 

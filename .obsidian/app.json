@@ -14,7 +14,10 @@
     "Wishlist",
     "Luminance",
     "Subtractive",
-    "Illuminant"
+    "Illuminant",
+    "Pixar",
+    "denoising",
+    "Shader"
   ],
   "legacyEditor": true,
   "livePreview": true,
