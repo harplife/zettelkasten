@@ -66,7 +66,7 @@
           "type": "markdown",
           "state": {
             "file": "computer_science/computer_vision/computer_graphics_note_1.md",
-            "mode": "source"
+            "mode": "preview"
           }
         },
         "pane-relief:history-v1": {
@@ -81,8 +81,8 @@
             {
               "leaf": "74d15c5aa24b0dc5",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_note_1.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":7.695652173913043}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_note_1.md\",\"mode\":\"preview\"}}",
+              "eState": "{\"scroll\":554.6044869131699}"
             },
             {
               "leaf": "74d15c5aa24b0dc5",
@@ -128,7 +128,7 @@
               "leaf": "87ea834a7b108cf6",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"color_theory/color_theory_note_01.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":166.8695652173913}"
+              "eState": "{\"scroll\":397.536231884058}"
             }
           ]
         }

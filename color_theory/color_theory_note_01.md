@@ -192,12 +192,12 @@ edited: 2022-04-22
 ![[reflection_comparison_01.PNG]]
 
 #### 정반사
-[정반사 (Specular Reflection)](https://en.wikipedia.org/wiki/Specular_reflection)
+[정반사 (Specular Reflection)](https://en.wikipedia.org/wiki/Specular_reflection)는 거울처럼 매끈한 면을 경계로 일어나는 반사를 말한다. 거울반사 또는 경면반사로고도 부른다.
 
-거울반사 또는 경면반사로고도 부른다.
+
 
 #### 확산반사
-[확산반사 (Diffuse Reflection)](https://en.wikipedia.org/wiki/Diffuse_reflection)
+[확산반사 (Diffuse Reflection)](https://en.wikipedia.org/wiki/Diffuse_reflection)는 
 
 난반사라고도 한다..
 
