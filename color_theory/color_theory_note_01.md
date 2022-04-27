@@ -173,7 +173,9 @@ edited: 2022-04-22
 ### 반사
 [반사 (Reflection)](https://en.wikipedia.org/wiki/Reflection_(physics))는 광선이 물체의 표면에 도달하여 다른 방향으로 튕겨 나가는 현상을 의미한다. 빛이 빛의 파장 (Wavelength)보다 큰 장애물에 부닥칠 경우에 반사된다고 한다.
 
-물체의 표면을 기준으로 수직선을 그린 것을 [법선 (Normal)](https://keystagewiki.com/index.php/Normal_(Physics))이라고 하면, 법선을 기준으로
+왜 빛이 반사되는가? 빛이 어떻게 반사되는가? 반사의 원리는 진짜 너무 어렵다. 물리학적, 양자역학적, 화학적 작용 등등이 일어난다는 것을 대충 깨달았을때, 아~ 이건 무리다 싶었다. 여기서 내가 정리하고자 하는 것은 반사를 시각적으로 이해하기에 충분한 정보로 한정지어야 될 듯 싶다.
+
+물체의 표면을 기준으로 수직선을 그린 것을 [법선](https://keystagewiki.com/index.php/Normal_(Physics)) [(Normal)](https://en.wikipedia.org/wiki/Normal_(geometry))이라고 하면, 법선을 기준으로
 - 입사광선이 표면에 도달하는 각도를 __입사각 (Angle of Incidence, θᵢ)__ 이라 한다.
 - 반사광선이 표면에서 반사되어 나가는 각도를 __반사각 (Angle of Reflection, θᵣ)__ 이라 한다.
 
@@ -187,39 +189,63 @@ edited: 2022-04-22
 
 반사율은 물체 표면에 광선이 반사되는 수준을 뜻한다.. 하지만, 이게 자세히 보니까 아주 아주 복잡하다. 반사율을 영어로 보면 Albedo, Reflectivity, Reflactance가 나오는데, 이게 각각 정의가 좀 다르면서 엄청 복잡하다!! #todo 반사율은 나중에 좀 더 삽질해본다.
 
-반사는 정반사와 확산반사, 이 두 가지로 분류가 된다.
+반사는 정반사와 난반사, 이 두 가지로 분류가 된다.
 
 ![[reflection_comparison_01.PNG]]
 
 #### 정반사
 [정반사 (Specular Reflection)](https://en.wikipedia.org/wiki/Specular_reflection)는 거울처럼 매끈한 면을 경계로 일어나는 반사를 말한다. 거울반사 또는 경면반사로고도 부른다.
 
+정반사를 광선으로 모델링해보면 - 광원으로부터 서로 근접한 여러개의 광선이 같은 방향으로 나오고 이 광선들이 동일한 평평한 면에 부탁치면, 이 광선들의 입사각이 동일하게 되며, 마찬가지로 반사의 법칙에 따라 반사각이 동일하게 된다.
 
+어떤 물체에 거울처럼 다른 무언가가 비춰진다면 그게 정반사라 이해하면 된다. 그 무언가는 주변에 있는 물체라던지, 또는 물건을 비추는 광원이 될 수가 있다.
 
-#### 확산반사
-[확산반사 (Diffuse Reflection)](https://en.wikipedia.org/wiki/Diffuse_reflection)는 
+굳이 거울과 같이 주변 물체를 그대로 비추는게 아니더라도, 반짝거리는 것이 보이면 그것이 정반사라 이해하면 된다. #computer_graphics 분야에서는 이렇게 반짝거리는 부분을 [Specular Highlight](https://en.wikipedia.org/wiki/Specular_highlight)이라 부른다.
 
-난반사라고도 한다..
+![[specular_highlight_example_01.png]]
+
+완전히 정반사를 일으키는 물체는 없다 - 어디서 주워들은 말로는 우리가 평상시 사용하는 거울이 95% 정반사를 일으킨다고 한다.
+
+무조건 매끈한 면이라고 정반사가 일어나는 것은 아니다 - 아무리 매끈하다고, 대리석이 거울처럼 되는 것은 아니다. 애초에 "매끈하다"의 정의가 애매하다.
+
+#### 난반사
+[난반사 (Diffuse Reflection)](https://en.wikipedia.org/wiki/Diffuse_reflection)는 거친 (Rough) 면을 경계로 여러 방향으로 일어나는 반사를 말한다. 확산반사라고도 한다 (근데 어떤 자료에서는 확산반사하고 난반사가 다른 것처럼 여기기도 한다).
+
+참고 : 굳이 확산반사라 안하고 난반사라 한 이유는, "난장판"의 난(亂)이 더욱 직흥적이다 느껴서 그렇다.
+
+난반사 광선으로 모델링해보면 - 광원으로부터 서로 근접한 여러개의 광선이 같은 방향으로 나오고 이 광선들이 동일한 거친 면에 부탁치면, 이 광선들의 입사각이 서로 다르게 되며, 마찬가지로 반사의 법칙에 따라 반사각이 다르게 된다.
+
+참고 : 인터넷에 찾다보면 난반사는 반사의 법칙을 따르지 않는다는 설명이 있는데, 내가 보기엔 이건 틀린 정보인 것 같다.
+
+어떤 물체가 보인다 싶으면 이게 바로 난반사다. 난반사라고 어떤 특이한 반사 현상을 생각할 수 있는데, 사실 우리가 일반적으로 물체를 인식하는데 메인 역할을 하는게 난반사다.
+
+거친 면이라고 하지만 아주 아주 미세하게 거친 것을 뜻한다. 빛의 크기나 광선간의 거리를 재는 것은 거의 불가능하지만, 빛의 파장 (750 nm ~ 380 nm) 보다 작은 정도의 거침이 아닐까 싶다.
+
+참고 : [인간의 촉각은 13 nm 까지 인식이 가능하다.](https://www.nationalgeographic.com/culture/article/130912-tactile-touch-perception-nanometers-psychology-science)
+
+##### 산란
+[산란 (Scattering)](https://en.wikipedia.org/wiki/Scattering)은 전자기파가 진행하다가 만난 물체의 표면에서 물체의 특성에 따라 사방으로 전자기파가 퍼지는 특성을 뜻한다.
+
+산란은 사실 반사보다는 더 큰 개념이다. 난반사 섹션에 굳이 명시하는 이유는,
+1. 인터넷에서 산란하고 난반사를 헷갈리게 설명한다. 직사각형-정사각형 관계랑 비슷한데, 난반사는 산란에 속하지만 산란이 난반사인 것은 아니다.
+2. 산란이 난반사와 유사하게 보일수도 있다. 난반사는 물체의 표면에 의해 빛이 여러 방면으로 반사되는 현상인 반면, 산란은 빛이 표면을 통과하여 물질/물체 내에서 반사되어 표면 바깥으로 다시 보이는 현상이다.
+3. 위에 정반사에 대하여 알아볼때, 대리석이 아무리 매끈해도 거울처럼 되는거는 아니다라고 했었다. 산란의 정의에 "물체의 특성에 따라"라는 문구가 있는데, 아마 이게 연관된게 아닌가 싶다. "금속은 난반사를 하지 않는다"라는 주제로 좀 찾아보면 아주 재밌는 자료들이 나온다.. [참고 1](https://google.github.io/filament/Filament.html#materialsystem/dielectricsandconductors), [참고 2](https://physics.stackexchange.com/a/213535/333609)
+
+![[light_interface_interaction_models_diagram.png]]
+
+영자역학에 속한 [산란 이론 (Scattering Theory)](https://en.wikipedia.org/wiki/Scattering_theory)이란 것이 있다.. 이거 완전 클래스가 미쳤다.
+
+#todo 빛의 특성으로 큰 카타고리를 만들어서 정리해야 할 듯 싶다.
 
 #### 반사에 대한 추가 정리
 
+![[reflection_on_surface_comparison_01.png]]
+
+![[diagram_roughness.png]]
+
+![[5_lights.PNG]]
+
 https://lifeisforu.tistory.com/383
-
-
-2022 04 25 정리중
-
-http://occam.phps.kr/tt/268 | diffuse light - 산란광, 확산광, 난반사광, 분산광. :: 류광의 번역 이야기
-http://www.ktword.co.kr/test/view/view.php?no=3846 | 입사 반사 투과 흡수
-http://www.ktword.co.kr/test/view/view.php?no=1655 | 분산 [파동]
-https://en.wikipedia.org/wiki/Ray_(optics) | Ray (optics) - Wikipedia
-https://en.wikipedia.org/wiki/Specular_reflection | Specular reflection - Wikipedia
-https://www.standardpro.com/what-is-specular-reflection/#:~:text=Specular%20reflection%20is%20a%20type,into%20a%20single%20outgoing%20direction. | Reflection of light: What is specular reflection | Stanpro
-https://knowledge.autodesk.com/support/maya-lt/learn-explore/caas/CloudHelp/cloudhelp/2016/ENU/MayaLT/files/GUID-4556213A-C588-4D3C-B396-CCEB2BE2A798-htm.html | Types of reflection | Maya LT 2016 | Autodesk Knowledge Network
-https://knowledge.autodesk.com/support/maya-lt/learn-explore/caas/CloudHelp/cloudhelp/2016/ENU/MayaLT/files/GUID-9158B659-5CA0-413B-8AD6-194E35A10FD8-htm.html | Absorption, reflection, and refraction of light | Maya LT 2016 | Autodesk Knowledge Network
-https://www.google.com/search?q=specular+%EB%9C%BB&oq=specular+%EB%9C%BB&aqs=chrome..69i57j0i512l4j69i60l2j69i61.2292j0j7&sourceid=chrome&ie=UTF-8 | specular 뜻 - Google Search
-https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=aquare20&logNo=110077620097 | 조명의 6가지 성질( Specular, direct light, reflection, diffuse, specular reflection, specular light) : 네이버 블로그
-https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=mysky4you&logNo=10149032814#:~:text=Specular%20reflection%20%EC%9D%80%20%ED%91%9C%EB%A9%B4%EC%9C%BC%EB%A1%9C%EB%B6%80%ED%84%B0,%EB%B0%98%EC%82%AC%20%EB%B0%A9%ED%96%A5%EC%9C%BC%EB%A1%9C%20%EB%B0%98%EC%82%AC%EB%90%9C%EB%8B%A4. | 반사율 (specular, diffuse reflection) : 네이버 블로그
-https://lifeisforu.tistory.com/383 | [ PBR 이란 무엇인가 ] 16. Reflection 에 대한 잘못된 상식들
 
 
 

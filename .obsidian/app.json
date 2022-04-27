@@ -17,7 +17,9 @@
     "Illuminant",
     "Pixar",
     "denoising",
-    "Shader"
+    "Shader",
+    "Specular",
+    "png"
   ],
   "legacyEditor": true,
   "livePreview": true,
