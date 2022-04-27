@@ -81,9 +81,9 @@ edited: 2022-04-22
 
 우리는 어릴때 불 (Fire)과 태양 (Sun)을 보면서 "뜨거운 것은 밝게 빛난다"를 배운다. 좀 더 나아가, 토마스 에디슨 (Thomas Edison)의 발명품, [백열등 (Incandescent Light Bulb)](https://en.wikipedia.org/wiki/Incandescent_light_bulb)에 대하여 배우며 전기로 물체를 가열시키면 빛이 난다는 것을 배운다.
 
-열과 빛이 관련이 있다는 사실, 이 개념은 [흑체 복사](http://www.ktword.co.kr/test/view/view.php?m_temp1=3907) [(Blackbody Radiation)](https://en.wikipedia.org/wiki/Black-body_radiation)로부터 비롯된다 (아마도). 흑체 복사에 대하여 설명하긴 너무 어려워서 일단 핵심 내용만 알아본다.
-1. 흑체 (Blackbody)는 모든 파장의 전자기파를 완전히 흡수하는 가상/이상의 물체이다. __밀도를 가진 모든 물체는 에너지를 흡수하고 방출한다. 모든 물체는 흑체이지만, 완벽한 흑체는 아니다.__ 완벽한 흑체는 이론적으로만 가능하기 때문에 가상/이상의 물체라고 하는 것이다.
-2. 흑체 복사 (Blackbody Radiation)는 가열된 흑체에서 나오는 [전자기파](https://en.wikipedia.org/wiki/Electromagnetic_radiation)이다.
+열과 빛이 관련이 있다는 사실, 이 개념은 흑체 복사 (Blackbody Radiation)로부터 비롯된다 (아마도). 흑체 복사에 대하여 설명하긴 너무 어려워서 일단 핵심 내용만 알아본다.
+1. [흑체 (Blackbody)](https://en.wikipedia.org/wiki/Black_body)는 모든 파장의 전자기파를 완전히 흡수하는 가상/이상의 물체이다. __밀도를 가진 모든 물체는 에너지를 흡수하고 방출한다. 모든 물체는 흑체이지만, 완벽한 흑체는 아니다.__ 완벽한 흑체는 이론적으로만 가능하기 때문에 가상/이상의 물체라고 하는 것이다.
+2. [흑체 복사](http://www.ktword.co.kr/test/view/view.php?m_temp1=3907) [(Blackbody Radiation)](https://en.wikipedia.org/wiki/Black-body_radiation)는 가열된 흑체에서 나오는 [전자기파](https://en.wikipedia.org/wiki/Electromagnetic_radiation)이다.
 3. 흑체 복사는 [열복사 (Thermal Radiation)](https://en.wikipedia.org/wiki/Thermal_radiation)이라 불리기도 한다.
 4. 흑체 복사는 여러 범위의 주파수/파장으로서 이루어지며, (열이 충분히 높으면) 그 중 일부가 가시광선 영역에 있다. 온도에 따라서 색상 (Hue)도 변한다 - 그래서 광원의 색을 명시할 때 Kelvin (K) 단위의 [색 온도 (Color Temperature)](https://en.wikipedia.org/wiki/Color_temperatur)로 표현하게 된다.
 
@@ -113,13 +113,13 @@ edited: 2022-04-22
 
 태양광과 백열등은 흑체 복사 기반 광원에 속한다. 반면에, 형광등과 LED는 복사 기반 광원이 아니다. 광원은 꼭 흑체 복사 기반이어야 하는 것은 아니다. 단지, 색의 연구는 태양광이 기초가 되었기에 흑체 복사에 대한 이해가 중요할 뿐이다.
 
-#todo 광원의 종류는 많은데, 굳이 이 섹션에서 다룰 필요는 없을 것 같다.
+#todo [광원의 종류](https://en.wikipedia.org/wiki/List_of_light_sources)는 많은데, 굳이 이 섹션에서 다룰 필요는 없을 것 같다.
 
 참고 자료 1 : [키르히호프의 복사 법칙 (Kirchhoff's Law of Thermal Radiation)](https://en.wikipedia.org/wiki/Kirchhoff's_law_of_thermal_radiation)
 참고 자료 2 : [How objects emit radiation](http://www.ccpo.odu.edu/SEES/ozone/class/Chap_4/4_6.htm)
 
 #### 표준 광원
-색은 조건에 따라 다르게 보일수 있기 때문에 ([[#메타메리즘]]), 물체의 색을 구분할 때 최대한 일정하고 적합한 환경을 구성하는게 중요하다. 대중적으로 많이 사용되는 광원이 주로 이 용도로 선택된다.
+색은 조건에 따라 다르게 보일수 있기 때문에 ([[#메타메리즘]]), 물체의 색을 (전문적으로) 구분할 때 최대한 일정하고 적합한 환경을 구성하는게 중요하다. 대중적으로 많이 사용되는 광원이 주로 이 용도로 선택된다.
 
 [표준 광원 (Standard Illuminant)](https://en.wikipedia.org/wiki/Standard_illuminant)은 색을 기준으로 물체와 광원의 관계를 표준화하기 위해 사용되는 광원을 뜻한다. 간단하게, 물체의 색을 구분할 때 적합한 광원이라 볼 수 있다.
 
@@ -139,19 +139,20 @@ edited: 2022-04-22
 참고 자료 1 : [정보통신기술용어해설 - 표준 광원](http://www.ktword.co.kr/test/view/view.php?m_temp1=4526)
 
 ## 물체와 빛의 상호작용
-![[surface_effects_illumination.png]]
 
-빛은 [[#반사]], 투과 (Transmission), 흡수 (Absorption)라는 세 가지 중요한 성질을 갖는다. 그 외에 굴절 (Refraction), 회절 (Diffraction), 산란 (Scattering), 분산 (Dispersion) 등이 있다.
+빛은 [[#반사]], 투과 (Transmission), 흡수 (Absorption)라는 세 가지 중요한 성질을 갖는다. 그 외에 굴절 (Refraction), 회절 (Diffraction), [[#산란]], 분산 (Dispersion) 등이 있다.
+
+![[surface_effects_illumination.png]]
 
 ![[light_properties.png]]
 
 더 자세히 설명하기 전에 일단 빛에 대한 용어를 정의할 필요가 있다. 굳이 물리학적으로 복잡하게 정리하진 않는다 ㅎ.
 
-일단 앞으로 빛을 광선으로 표현한다 - [광선 (Ray)](https://en.wikipedia.org/wiki/Ray_(optics))은 빛의 이상적인 모델로서 에너지 흐름의 방향을 가르키는 선으로 표현되며, 실제 빛의 파면 (Wavefront)에 수직 (Perpendicular)인 선을 선택함으로써 얻을 수 있다. 광선은 광학계를 통한 빛의 전달을 모델링하는데 사용된다.
+일단 앞으로 빛을 광선으로 표현한다 - [광선 (Ray)](https://en.wikipedia.org/wiki/Ray_(optics))은 빛의 이상적인 모델로서 에너지 흐름의 방향을 가르키는 선으로 표현되며, 실제 빛의 [파면 (Wavefront)](https://en.wikipedia.org/wiki/Wavefront)에 수직 (Perpendicular)인 선을 선택함으로써 얻을 수 있다. 광선은 광학계 (Optical System)를 통한 빛의 전달을 모델링하는데 사용된다.
 
 ![[wavefronts_and_ray.png]]
 
-빛은 파동이기 때문에 모델링하기 엄청 번거롭다! 심지어 양자역학 (Quantum Mechanics)과 관련되어 빛이 [파동-입자 이중성](https://en.wikipedia.org/wiki/Wave%E2%80%93particle_duality)을 가진다고 하니, 이런걸 어떻게 모델링 할까? 결국엔 답은 아주 간단하게 선 하나 그리는 것이고, 그게 바로 광선이다.
+빛은 파동이기 때문에 모델링하기 엄청 번거롭다! 심지어 양자역학 (Quantum Mechanics)과 관련되어 빛이 [파동-입자 이중성 (Wave-Particle Duality)](https://en.wikipedia.org/wiki/Wave%E2%80%93particle_duality)을 가진다고 하니, 이런걸 어떻게 모델링 할까? 결국에 답은 아주 간단하게 선 하나 그리는 것이고, 그게 바로 광선이다.
 
 물체와 상호작용을 하기 전/후를 기준으로 광선은 세 가지로 분류된다.
 1. 입사
@@ -173,30 +174,52 @@ edited: 2022-04-22
 ### 반사
 [반사 (Reflection)](https://en.wikipedia.org/wiki/Reflection_(physics))는 광선이 물체의 표면에 도달하여 다른 방향으로 튕겨 나가는 현상을 의미한다. 빛이 빛의 파장 (Wavelength)보다 큰 장애물에 부닥칠 경우에 반사된다고 한다.
 
+![[cat-mirror.gif]]
+
 왜 빛이 반사되는가? 빛이 어떻게 반사되는가? 반사의 원리는 진짜 너무 어렵다. 물리학적, 양자역학적, 화학적 작용 등등이 일어난다는 것을 대충 깨달았을때, 아~ 이건 무리다 싶었다. 여기서 내가 정리하고자 하는 것은 반사를 시각적으로 이해하기에 충분한 정보로 한정지어야 될 듯 싶다.
 
+> ![[wave_reflection_animation.gif]]
+> 빛 파동의 반사 시뮬레이션 - [Ripple Tank Simulation](http://www.falstad.com/ripple/)
+
+#### 반사 모델링
+
+반사를 이해하려면 일단 간단한 모델링이 가능해야 한다.
+
 물체의 표면을 기준으로 수직선을 그린 것을 [법선](https://keystagewiki.com/index.php/Normal_(Physics)) [(Normal)](https://en.wikipedia.org/wiki/Normal_(geometry))이라고 하면, 법선을 기준으로
-- 입사광선이 표면에 도달하는 각도를 __입사각 (Angle of Incidence, θᵢ)__ 이라 한다.
-- 반사광선이 표면에서 반사되어 나가는 각도를 __반사각 (Angle of Reflection, θᵣ)__ 이라 한다.
+- 입사광선이 표면에 도달하는 각도를 __입사각 (Angle of Incidence)__ 이라 한다.
+- 반사광선이 표면에서 반사되어 나가는 각도를 __반사각 (Angle of Reflection)__ 이라 한다.
+
+입사광선과 반사광선은 동일한 평면 (Plane)에 위치하는데, 이 평면을 [입사면 (PoI, Plane of Incidence)](https://en.wikipedia.org/wiki/Plane_of_incidence)이라 한다.
+
+![[reflection_3d_model.svg]]
+
+#### 반사의 법칙
 
 빛은 [반사의 법칙 (Law of Reflection)](https://www.physicsclassroom.com/class/refln/Lesson-1/The-Law-of-Reflection) 을 따른다 :
 1. 입사각과 반사각은 동일하다.
-2. 입사광선과 반사광선은 동일한 평면에 위치한다 ([Coplanar](https://en.wikipedia.org/wiki/Coplanarity)). 입사광선과 반사광선이 위치한 평면을 [입사면 (Plane of Incidence)](https://en.wikipedia.org/wiki/Plane_of_incidence)이라 한다.
-
-![[law_of_reflection_3d.svg]]
+2. 입사광선과 반사광선은 동일한 평면에 위치한다 ([Coplanar](https://en.wikipedia.org/wiki/Coplanarity)).
 
 참고 : 음파 (Sound Wave)도 반사의 법칙을 따른다.
 
+#### 반사율
+
 반사율은 물체 표면에 광선이 반사되는 수준을 뜻한다.. 하지만, 이게 자세히 보니까 아주 아주 복잡하다. 반사율을 영어로 보면 Albedo, Reflectivity, Reflactance가 나오는데, 이게 각각 정의가 좀 다르면서 엄청 복잡하다!! #todo 반사율은 나중에 좀 더 삽질해본다.
+
+#### 반사의 종류
 
 반사는 정반사와 난반사, 이 두 가지로 분류가 된다.
 
 ![[reflection_comparison_01.PNG]]
 
-#### 정반사
+##### 정반사
 [정반사 (Specular Reflection)](https://en.wikipedia.org/wiki/Specular_reflection)는 거울처럼 매끈한 면을 경계로 일어나는 반사를 말한다. 거울반사 또는 경면반사로고도 부른다.
 
+> ![[chicago_the_bean.png]]
+> 시카고 (일리노이주, 미국)에 있는 _The Bean_ 이다.
+
 정반사를 광선으로 모델링해보면 - 광원으로부터 서로 근접한 여러개의 광선이 같은 방향으로 나오고 이 광선들이 동일한 평평한 면에 부탁치면, 이 광선들의 입사각이 동일하게 되며, 마찬가지로 반사의 법칙에 따라 반사각이 동일하게 된다.
+
+![[specular_reflection_diagram.png]]
 
 어떤 물체에 거울처럼 다른 무언가가 비춰진다면 그게 정반사라 이해하면 된다. 그 무언가는 주변에 있는 물체라던지, 또는 물건을 비추는 광원이 될 수가 있다.
 
@@ -208,38 +231,54 @@ edited: 2022-04-22
 
 무조건 매끈한 면이라고 정반사가 일어나는 것은 아니다 - 아무리 매끈하다고, 대리석이 거울처럼 되는 것은 아니다. 애초에 "매끈하다"의 정의가 애매하다.
 
-#### 난반사
+![[smooth_marble.png]]
+
+##### 난반사
 [난반사 (Diffuse Reflection)](https://en.wikipedia.org/wiki/Diffuse_reflection)는 거친 (Rough) 면을 경계로 여러 방향으로 일어나는 반사를 말한다. 확산반사라고도 한다 (근데 어떤 자료에서는 확산반사하고 난반사가 다른 것처럼 여기기도 한다).
 
 참고 : 굳이 확산반사라 안하고 난반사라 한 이유는, "난장판"의 난(亂)이 더욱 직흥적이다 느껴서 그렇다.
 
+"반사"라고 주변에 무언가가 비춰보여야 될 것 같은데, 그건 아니다. 정반사가 거울 같은 현상이라면, 난반사는 그 반대로 물체가 보이는 현상이다.
+
+> ![[wooden_ball.png | 300]]
+> Blender로 그려진 나무 공이다. 반짝임(정반사)가 매우 적어 난반사 예시로 보기 좋다.
+
 난반사 광선으로 모델링해보면 - 광원으로부터 서로 근접한 여러개의 광선이 같은 방향으로 나오고 이 광선들이 동일한 거친 면에 부탁치면, 이 광선들의 입사각이 서로 다르게 되며, 마찬가지로 반사의 법칙에 따라 반사각이 다르게 된다.
+
+![[diffuse_reflection_diagram.png]]
 
 참고 : 인터넷에 찾다보면 난반사는 반사의 법칙을 따르지 않는다는 설명이 있는데, 내가 보기엔 이건 틀린 정보인 것 같다.
 
-어떤 물체가 보인다 싶으면 이게 바로 난반사다. 난반사라고 어떤 특이한 반사 현상을 생각할 수 있는데, 사실 우리가 일반적으로 물체를 인식하는데 메인 역할을 하는게 난반사다.
+난반사가 "거친 면"에 발생한다고 하되, 아주 아주 미세하게 거친 것을 뜻한다. 빛의 크기나 광선간의 거리를 재는 것은 거의 불가능하지만, 빛의 파장 (750 nm ~ 380 nm) 보다 작은 정도의 거침이 아닐까 싶다.
 
-거친 면이라고 하지만 아주 아주 미세하게 거친 것을 뜻한다. 빛의 크기나 광선간의 거리를 재는 것은 거의 불가능하지만, 빛의 파장 (750 nm ~ 380 nm) 보다 작은 정도의 거침이 아닐까 싶다.
+![[microscopic_view_on_diffuse_reflection.png]]
 
 참고 : [인간의 촉각은 13 nm 까지 인식이 가능하다.](https://www.nationalgeographic.com/culture/article/130912-tactile-touch-perception-nanometers-psychology-science)
 
 ##### 산란
 [산란 (Scattering)](https://en.wikipedia.org/wiki/Scattering)은 전자기파가 진행하다가 만난 물체의 표면에서 물체의 특성에 따라 사방으로 전자기파가 퍼지는 특성을 뜻한다.
 
-산란은 사실 반사보다는 더 큰 개념이다. 난반사 섹션에 굳이 명시하는 이유는,
+산란은 사실 반사보다는 더 큰 개념이다. 반사 섹션에 굳이 명시하는 이유는,
 1. 인터넷에서 산란하고 난반사를 헷갈리게 설명한다. 직사각형-정사각형 관계랑 비슷한데, 난반사는 산란에 속하지만 산란이 난반사인 것은 아니다.
 2. 산란이 난반사와 유사하게 보일수도 있다. 난반사는 물체의 표면에 의해 빛이 여러 방면으로 반사되는 현상인 반면, 산란은 빛이 표면을 통과하여 물질/물체 내에서 반사되어 표면 바깥으로 다시 보이는 현상이다.
 3. 위에 정반사에 대하여 알아볼때, 대리석이 아무리 매끈해도 거울처럼 되는거는 아니다라고 했었다. 산란의 정의에 "물체의 특성에 따라"라는 문구가 있는데, 아마 이게 연관된게 아닌가 싶다. "금속은 난반사를 하지 않는다"라는 주제로 좀 찾아보면 아주 재밌는 자료들이 나온다.. [참고 1](https://google.github.io/filament/Filament.html#materialsystem/dielectricsandconductors), [참고 2](https://physics.stackexchange.com/a/213535/333609)
 
 ![[light_interface_interaction_models_diagram.png]]
 
+#computer_graphics 분야에서는 주로 [투명도 (Transparency/Translucency)](https://en.wikipedia.org/wiki/Transparency_and_translucency)와 관련해서 산란을 다루는 듯 싶다.
+
+![[sleeping_pikachu.png | 300]]
+
 영자역학에 속한 [산란 이론 (Scattering Theory)](https://en.wikipedia.org/wiki/Scattering_theory)이란 것이 있다.. 이거 완전 클래스가 미쳤다.
 
 #todo 빛의 특성으로 큰 카타고리를 만들어서 정리해야 할 듯 싶다.
 
 #### 반사에 대한 추가 정리
+일반적으로 정반사와 난반사는 같이 발생한다.
 
 ![[reflection_on_surface_comparison_01.png]]
+
+![[reflection_comparison_02.png]]
 
 ![[diagram_roughness.png]]
 

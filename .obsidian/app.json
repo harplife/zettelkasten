@@ -19,7 +19,8 @@
     "denoising",
     "Shader",
     "Specular",
-    "png"
+    "png",
+    "specular"
   ],
   "legacyEditor": true,
   "livePreview": true,
