@@ -276,6 +276,8 @@ edited: 2022-04-22
 #### 반사에 대한 추가 정리
 일반적으로 정반사와 난반사는 같이 발생한다.
 
+반사는 빛이 에너지를 모두 소모하기 전까지 계속 반사된다.
+
 ![[reflection_on_surface_comparison_01.png]]
 
 ![[reflection_comparison_02.png]]
