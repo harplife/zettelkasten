@@ -409,20 +409,29 @@ MSM는 색에 대하여 아주 중요한 두 가지를 증명한다:
 
 참고 자료 1 : [색 매칭 웹 게임](https://color.method.ac/) - MCM하고 크게 관련 있는 것은 아닌데, 프로세스는 비슷하고 색 매칭하는게 얼마나 힘든지 알 수 있다 ㅋ
 
-### 가산혼합
+### 혼합 색상
+https://en.wikipedia.org/wiki/Color_mixing
+
+#todo 혼합 색상 내용 넣고 원색 내용 여기로 옮기기
+
+#### 가산혼합
 [가산혼합 (Additive Color)](https://en.wikipedia.org/wiki/Additive_color)은 3개 색을 혼합하여 모든 색을 구현하는 방식이다.
 
 가산 (Additive)의 의미는 빛이 없는 공간 (검은색)에 빛을 "더하여" 하얀색으로 만든다는 뜻이다. 다른 말로는, 검은색에 각 색을 "더하여" 여러 색을 구현한다는 뜻이다. 최종적으로 모든 색을 최대 비율로 더하면 하얀색이 나온다.
 
 가산혼합에 사용되는 색을 [원색 (Primary Color)](https://en.wikipedia.org/wiki/Primary_color)이라고 부르며, 서로 독립적인 색을 뜻한다 - 서로 독립적인 색은, 둘을 혼합해도 남은 셋째의 색을 만들 수 없다.
 
-### 감산혼합
+#### 감산혼합
 [감산혼합 (Subtractive Color)](https://en.wikipedia.org/wiki/Subtractive_color)은 가산혼합과 마찬가지로 3개 색을 혼합하여 모든 색을 구현하는 방식이다.
 
 감산 (Subtractive)의 의미는 빛이 반사하는 공간 (하얀색)에 빛을 "빼서" 검은색으로 만든다는 뜻이다. 다른 말로는, 하얀색에 각 색을 "빼서" 여러 색을 구현한다는 뜻이다. 최종적으로 모든 색을 최대 비율로 빼면 검은색이 나온다.
 
-### 혼합 색상 예외
+#### 혼합 색상의 오해
 우리는 흔히 파란색과 노란색이 초록색을 만든다고 생각한다. 맞긴 맞을거다, 적어도 감산혼합에 있어서는..
+
+#todo 밑에 자료 위주로 다시 정리
+
+https://colourware.org/2018/05/18/why-yellow-and-blue-dont-make-green
 
 ![[blue_yellow_spin.webp]]
 
