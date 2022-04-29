@@ -27,7 +27,8 @@ edited: 2022-04-22
 
 여기서 다루는 내용은 "내가 이해할 수 있는" 수준으로 간단하게 정리한 것이기 때문에, 좀 더 정확한 정보는 따로 리서치 해봐야 한다.
 
-![[light_dispersion_prism.PNG]]
+> ![[light_dispersion_prism.PNG]]
+> 색 연구의 시작, [회절격자 (Diffraction Grating)](https://en.wikipedia.org/wiki/Diffraction_grating)
 
 ## 가시광선
 [가시광선 (Visible Light)](https://en.wikipedia.org/wiki/Visible_spectrum)은 사람의 눈에 보이는 [전자기파](https://en.wikipedia.org/wiki/Electromagnetic_spectrum)의 영역을 뜻한다.
@@ -45,6 +46,12 @@ edited: 2022-04-22
 
 단색광이란 이름이 좀 어색한데, 그냥 "하나의 색"인 _단색_ 으로 이해해도 크게 문제 없을 듯 하다. 단색광은 그저 하나의 주파수가 하나의 색을 이룬다는 개념을 기준으로 하나의 색을 갖춘 빛이라 보면 된다.
 
+우리가 일반적으로 보는 빛은 여러 주파수로 이루어져 있는 [다색광 (Polychromatic Light)](https://ballpen.blog/조명-다양한-용어-정리/#1__Monochromatic_light_and_Polychromatic_light)이다. 단색광에 제일 근접한 것은 [레이저 (Laser)](https://en.wikipedia.org/wiki/Laser)다.
+
+하나의 주파수가 하나의 색이라면, 여러 주파수면 여러 색이 보여야 한다는 생각이 들 수있다. 사실 여러 색이 "보여지고" 있는게 맞다. 단지, 사람에게는 여러 색이 완벽히 겹치면 하나의 색으로만 보인다. 이러한 색의 조합은 대부분 가시광선 영역에 있지만, 그렇지 않는 색들도 있다 - 이를 [특단색광 (Extra-Spectral Color)](https://en.wikipedia.org/wiki/Spectral_color#Extra-spectral_colors)이라 한다 (대표적인 예는 핑크색이다).
+
+그럼 단색광은 무슨 색일까?
+
 우리는 일반적으로 단색광을 [빨주노초파남보 (Roy G. Biv)](https://en.wikipedia.org/wiki/ROYGBIV)와 같이 7가지 색으로 분류한다 - 이는 1704년도에 출판된 [아이작 뉴턴 (Isaac Newton)](https://en.wikipedia.org/wiki/Isaac_Newton)의 책 [_Opticks_](https://en.wikipedia.org/wiki/Opticks) 에 명시된 [색 상환 (Color Cicle)](https://en.wikipedia.org/wiki/Color_wheel)으로부터 비롯되었다.
 
 ![[isaac_newton_opticks_color_circle_cropped.png]]
@@ -61,7 +68,6 @@ edited: 2022-04-22
 |<span style="color:orange;">&block;</span> orange   |       590~625       |       480~510       |
 |<span style="color:red;">&block;</span> red      |       625~750       |       400~480       |
 
-
 단색광을 6개로 나누든 7개로 나누든, 몇개로 나누는 것은 크게 상관이 없다. 단색광의 주파수/파장 범위도 마찬가지다. 단지, 다른 사람이 표현하는 단색광이 내가 생각하는 단색광과 주파수/파장 범위에 있어 차이가 있을수도 있다는 것은 인지하면 좋을 것 같다.
 
 참고 : [남색 (Indigo)](https://en.wikipedia.org/wiki/Indigo)을 구분할 수 없는 사람이 꽤 있어서, 단색광 구분에 제외될 때 가 있다.
@@ -69,8 +75,6 @@ edited: 2022-04-22
 ![[visible_spectrum.svg]]
 
 단색광은 무엇보다 순수한/완전적인 (Pure) 색이기 때문에, 연구가치가 높다. 단색광으로부터 [[#메타메리즘]], [[#가산혼합]], [[#감산혼합]] 같은 이론들이 나온다.
-
-![[color_circle_rgb.svg | 300]]
 
 참고 자료 1 : [사이언스올 과학백과사전 - 단색광](https://www.scienceall.com/%EB%8B%A8%EC%83%89%EA%B4%91monochromatic-light-3/)
 
