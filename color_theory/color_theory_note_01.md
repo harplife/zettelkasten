@@ -348,7 +348,9 @@ __빛에 비추어진 물체의 색은 물체로 인해 흡수되지 않고 투�
 
 결론적으로, 우리 눈에는 파란 빛이 노란 물체에 비추어 초록색을 띄운다고 인식하지만, 사실 초록 빛이 초록 물체에 비추어 초록색을 띄우고 있는 것이다.
 
-그러면, 초록 빛이 빨간 물체에 비추어진다면 무슨 색으로 보일까?
+노란 빛이 파란 물체에 비추어도 초록색이 보인다. #todo 그림에서는 이 경우, 훨씬 어두운 초록색이 보이는데, 이건 빛의 파장과 광도에 연관된게 아닐까 싶다.
+
+#todo 초록 빛이 빨간 물체에 비추어진다면 무슨 색으로 보일까? 단색광이면 그냥 검은색으로 보이겠지만, 노란색이 섞인 초록 대역 주파수들이 포함된 다색광이면 위에 이론에 따라서 노란색이 보일까? 
 
 빨간 빛이 노란 물체에 비추어지면 빨간색으로 보인다. 왜? 반대로, 노란 빛이 빨간 물체에 비추어지면, 주황으로 보인다.
 
@@ -364,6 +366,8 @@ __빛에 비추어진 물체의 색은 물체로 인해 흡수되지 않고 투�
 참고 자료 4 : [정보통신기술용어해설 : 입사파, 반사파, 투과파](http://www.ktword.co.kr/test/view/view.php?m_temp1=3863)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cv0bBfiCWAk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+https://ctsciencecenter.org/blog/science-at-play-change-the-color-of-the-world-around-you/
 
 ## 메타메리즘
 [메타메리즘 (Metamerism)](https://en.wikipedia.org/wiki/Metamerism_(color)) : 광원, 관측자, 관측조건 차이에 따라 두 물체의 색이 같아 보이거나 달라 보이는 현상을 뜻한다. 조건 등색으로 불리기도 한다.
