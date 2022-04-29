@@ -323,9 +323,9 @@ https://lifeisforu.tistory.com/383
 
 ![[colored_lights_on_colored_objects.PNG]]
 
-빨간 빛이 파란색 물체에 비추어지면, 빨간 색은 흡수되지만 반사될 색이 없다. 그러므로, 파란색 물체는 아무 색이 없는 검은색으로 비추어지게 된다.
+[[#단색광]] 위주로 봤을 때, 빨간 빛이 파란색 물체에 비추어지면, 빨간 색은 흡수되지만 반사될 색이 없다. 그러므로, 파란색 물체는 아무 색이 없는 검은색으로 비추어지게 된다.
 
-파란 빛이 노란색 물체에 비추어지면, 
+파란 빛이 노란색 물체에 비추어지면 초록색으로 보인다. 
 
 빛의 색에 따라 물체의 색이 달라보이는 현상, 이를 [[#메타메리즘]]이라 한다.
 
@@ -337,6 +337,8 @@ https://lifeisforu.tistory.com/383
 참고 자료 3 : [물체의 색](https://en.wikipedia.org/wiki/Color#Color_of_objects)
 
 참고 자료 4 : [정보통신기술용어해설 : 입사파, 반사파, 투과파](http://www.ktword.co.kr/test/view/view.php?m_temp1=3863)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cv0bBfiCWAk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## 메타메리즘
 [메타메리즘 (Metamerism)](https://en.wikipedia.org/wiki/Metamerism_(color)) : 광원, 관측자, 관측조건 차이에 따라 두 물체의 색이 같아 보이거나 달라 보이는 현상을 뜻한다. 조건 등색으로 불리기도 한다.
