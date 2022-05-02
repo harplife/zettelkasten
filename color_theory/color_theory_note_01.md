@@ -293,7 +293,9 @@ edited: 2022-04-22
 참고 자료 : [Reflection에 대한 잘못된 상식들](https://lifeisforu.tistory.com/383)
 
 ### 투과
-투과 (Transmission)는 빛이 어떤 물체에 도달했을 때, 물체를 통과해서 완번히 벗어나는 것을 의미한다.
+투과 (Transmission)는 빛이 물체를 통과하는 것을 뜻한다.
+
+![[light_transmission_example_01.webp]]
 
 투과의 원리는 끔찍하게도 복잡하다. 심지어 너무 복잡해서 wiki 페이지도 없다.
 
@@ -303,12 +305,18 @@ edited: 2022-04-22
 
 그러면 투과에 대해서 무엇을 이해해야 할까?
 
-#### 투명도
+일단 용어에 대해서 좀 정리해본다.
 
+__투과율__ 은 [Transmittance](https://en.wikipedia.org/wiki/Transmittance), [Transmissivity](https://www.collinsdictionary.com/de/worterbuch/englisch/transmissivity), 또는 [투과 계수 (Transmission Coefficient)](https://en.wikipedia.org/wiki/Transmission_coefficient#Optics)로 불린다.. 각 용어에 따라 정의가 다르긴 한데, 일단 여기선 넘어간다 ([참고 자료 1](https://www.swiftglass.com/blog/key-differences-transmission-transmittance-apply-application), [참고 자료 2](https://www.iesve.com/support/ve/knowledgebase_faq/faq/1282))
+
+Maya의 [투과율 조절 가이드](https://docs.arnoldrenderer.com/display/A5AFMUG/Transmission)를 참고해보면 좋을 것 같다.
 
 ![[maya_transmission_example.png]]
 
-#### Refraction
+
+
+#### 굴절
+Refraction
 
 #### Diffraction
 
@@ -383,6 +391,8 @@ RGB 기준으로 불투명 물체와 빛의 상호작용에 대한 식을 정의
 참고 자료 3 : [물체의 색](https://en.wikipedia.org/wiki/Color#Color_of_objects)
 
 참고 자료 4 : [정보통신기술용어해설 : 입사파, 반사파, 투과파](http://www.ktword.co.kr/test/view/view.php?m_temp1=3863)
+
+참고 자료 5 : [Sciencing - Search "light"](https://sciencing.com/search?google_kw=light)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cv0bBfiCWAk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

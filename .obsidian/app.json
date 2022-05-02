@@ -20,7 +20,8 @@
     "Shader",
     "Specular",
     "png",
-    "specular"
+    "specular",
+    "Transmissivity"
   ],
   "legacyEditor": true,
   "livePreview": true,
