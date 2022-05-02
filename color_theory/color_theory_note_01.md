@@ -313,7 +313,10 @@ Maya의 [투과율 조절 가이드](https://docs.arnoldrenderer.com/display/A5A
 
 ![[maya_transmission_example.png]]
 
-
+투과와 관련해서 물체의 특성을 가르킨다면, 투과율에 따라 사용되는 용어는 다음과 같다.
+- [투명 (Transparent)](https://en.wikipedia.org/wiki/Transparency_and_translucency) : 빛이 물체를 완전히 통과함 (투과율 1)
+- [반투명 (Translucent)](https://en.wikipedia.org/wiki/Transparency_and_translucency) : 빛이 물체를 일부 통과함 (0 < 투과율 < 1)
+- [불투명 (Opaque)](https://en.wikipedia.org/wiki/Opacity_(optics)) : 빛이 물체를 통과할 수 없음 (투과율 0)
 
 #### 굴절
 Refraction
