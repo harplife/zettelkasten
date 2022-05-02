@@ -144,7 +144,7 @@ edited: 2022-04-22
 
 ## 물체와 빛의 상호작용
 
-빛은 [[#반사]], 투과 (Transmission), 흡수 (Absorption)라는 세 가지 중요한 성질을 갖는다. 그 외에 굴절 (Refraction), 회절 (Diffraction), [[#산란]], 분산 (Dispersion) 등이 있다.
+빛은 [[#반사]], [[#투과]], 흡수 (Absorption)라는 세 가지 중요한 성질을 갖는다. 그 외에 굴절 (Refraction), 회절 (Diffraction), [[#산란]], 분산 (Dispersion) 등이 있다.
 
 ![[surface_effects_illumination.png]]
 
@@ -290,12 +290,12 @@ edited: 2022-04-22
 
 ![[5_lights.PNG]]
 
-https://lifeisforu.tistory.com/383
-
-
+참고 자료 : [Reflection에 대한 잘못된 상식들](https://lifeisforu.tistory.com/383)
 
 ### 투과
 투과 (Transmission)는 빛이 어떤 물체에 도달했을 때, 물체를 통과해서 완번히 벗어나는 것을 의미한다.
+
+
 
 #### Refraction
 
