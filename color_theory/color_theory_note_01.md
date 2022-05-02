@@ -299,7 +299,7 @@ edited: 2022-04-22
 
 투과의 원리는 끔찍하게도 복잡하다. 심지어 너무 복잡해서 wiki 페이지도 없다.
 
-그나마 "대충" 이해한 바로, 물체의 전자 (Electron)의 진동하는 수준과 빛의 파장 (Wavelength)과 관련되어 있다는 것이며, 충분히 진동하면 투과 (Transmission)이 되는 것이고, 그렇지 않으면 반사 (Reflection)되는 것이다.
+그나마 "대충" 이해한 바로, 물체의 전자 (Electron)의 진동하는 수준과 빛의 파장 (Wavelength)과 관련되어 있다는 것이며, 충분히 진동하면 투과 (Transmission)되는 것이고, 그렇지 않으면 반사 (Reflection)되는 것이다.
 
 이게 [파동-입자 이중성 (Wave-Particle Duality)](https://en.wikipedia.org/wiki/Wave%E2%80%93particle_duality)과 관련된 사항이니, 더 깊숙하게 이해하려는 것은 깨끗하게 포기한다!
 
