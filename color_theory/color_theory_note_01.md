@@ -394,6 +394,10 @@ RGB 기준으로 불투명 물체와 빛의 상호작용에 대한 식을 정의
 
 참고 자료 5 : [Sciencing - Search "light"](https://sciencing.com/search?google_kw=light)
 
+참고 자료 6 : [유리를 통과하는 빛은 느려지는가?](https://www.physlink.com/education/askexperts/ae217.cfm) - #todo 나중에 글이 없어질 수 있으니, 따로 글로 정리할 것.
+
+참고 자료 7 : [빛이 느려진다면 어떻게 보일까?](https://www.livescience.com/what-if-speed-of-light-slowed-down) - #todo 이걸 [게임](http://gamelab.mit.edu/games/a-slower-speed-of-light/)으로 구현한게 있으니, 나중에 해보자.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cv0bBfiCWAk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 https://ctsciencecenter.org/blog/science-at-play-change-the-color-of-the-world-around-you/
