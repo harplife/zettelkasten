@@ -295,6 +295,7 @@ edited: 2022-04-22
 ### 투과
 투과 (Transmission)는 빛이 어떤 물체에 도달했을 때, 물체를 통과해서 완번히 벗어나는 것을 의미한다.
 
+![[maya_transmission_example.png]]
 
 
 #### Refraction
