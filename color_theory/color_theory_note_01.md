@@ -269,7 +269,7 @@ edited: 2022-04-22
 
 ![[light_interface_interaction_models_diagram.png]]
 
-#computer_graphics 분야에서는 주로 [투명도 (Transparency/Translucency)](https://en.wikipedia.org/wiki/Transparency_and_translucency)와 관련해서 산란을 다루는 듯 싶다.
+#computer_graphics 분야에서는 주로 [[#투과]]와 관련해서 산란을 다루는 듯 싶다.
 
 ![[sleeping_pikachu.png | 300]]
 
@@ -280,7 +280,7 @@ edited: 2022-04-22
 #### 반사에 대한 추가 정리
 일반적으로 정반사와 난반사는 같이 발생한다.
 
-반사는 빛이 에너지를 모두 소모하기 전까지 계속 반사된다.
+밑에는 정반사와 난반사를 비교하는 그림들이다.
 
 ![[reflection_on_surface_comparison_01.png]]
 
@@ -314,14 +314,17 @@ Maya의 [투과율 조절 가이드](https://docs.arnoldrenderer.com/display/A5A
 ![[maya_transmission_example.png]]
 
 투과와 관련해서 물체의 특성을 가르킨다면, 투과율에 따라 사용되는 용어는 다음과 같다.
-- [투명 (Transparent)](https://en.wikipedia.org/wiki/Transparency_and_translucency) : 빛이 물체를 완전히 통과함 (투과율 1)
+- [투명 (Transparent)](https://en.wikipedia.org/wiki/Transparency_and_translucency) : 빛이 물체를 완전히 통과함 (투과율 1\*)
 - [반투명 (Translucent)](https://en.wikipedia.org/wiki/Transparency_and_translucency) : 빛이 물체를 일부 통과함 (0 < 투과율 < 1)
 - [불투명 (Opaque)](https://en.wikipedia.org/wiki/Opacity_(optics)) : 빛이 물체를 통과할 수 없음 (투과율 0)
+
+\* 말이 투과율 1이지, 실제로 완벽한 투과는 아니다.
 
 #### 굴절
 Refraction
 
-#### Diffraction
+#### 회절
+Diffraction
 
 ![[light_diffraction_example_01.PNG]]
 
