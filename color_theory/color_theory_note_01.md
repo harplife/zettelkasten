@@ -158,10 +158,10 @@ edited: 2022-04-22
 
 빛은 파동이기 때문에 모델링하기 엄청 번거롭다! 심지어 양자역학 (Quantum Mechanics)과 관련되어 빛이 [파동-입자 이중성 (Wave-Particle Duality)](https://en.wikipedia.org/wiki/Wave%E2%80%93particle_duality)을 가진다고 하니, 이런걸 어떻게 모델링 할까? 결국에 답은 아주 간단하게 선 하나 그리는 것이고, 그게 바로 광선이다.
 
-물체와 상호작용을 하기 전/후를 기준으로 광선은 세 가지로 분류된다.
+물체와 상호작용을 하기 전/후를 기준으로 광선은 3 가지로 분류된다.
 1. 입사
 2. 반사
-3. 투과
+3. 투과/굴절
 
 ![[plane_of_incidence.PNG]]
 
@@ -172,6 +172,8 @@ edited: 2022-04-22
 투과파 (Transmitted Wave) 또는 __투과광선 (Transmitted Ray)__ 은 물체를 통과하는 빛을 뜻한다. __굴절파 (Refracted Wave)__ 라고 표현되기도 하는데, 이는 광선이  물체를 통과할 때 방향이 틀어진 광선을 뜻한다.
 
 ![[types_of_ray.svg]]
+
+[창발광선 (Emergent Ray)](https://www.photonics.com/EDU/emergent_ray/d3818)은 물체를 통과하고 나오는 광선을 뜻한다. 일반적으로 사용되는 단어는 아닌 듯 싶은데, 가끔 [[#굴절]]과 관련되어 나올때가 있다.
 
 용어를 정의했으니, 다시 돌아와서 반사, 투과, 흡수에 대해서 정리해본다.
 
@@ -325,9 +327,18 @@ Maya의 [투과율 조절 가이드](https://docs.arnoldrenderer.com/display/A5A
 
 ![[refraction_diagram.svg]]
 
+![[refraction-of-light-through-a-rectangular-glass-slab.png]]
+https://byjus.com/physics/tracing-path-of-a-ray-of-light-passing-through-a-glass-slab/
+
+![[light_refraction_by_water.PNG]]
+https://flexbooks.ck12.org/cbook/ck-12-middle-school-physical-science-flexbook-2.0/section/19.7/primary/lesson/refraction-ms-ps/
+
 ![[light_refraction_by_glass.PNG]]
 
 ![[light_refraction_by_heat.PNG]]
+
+##### 굴절 법칙
+[Law of Refraction, 일반적으로 Snell's Law](https://en.wikipedia.org/wiki/Snell%27s_law)
 
 ### 흡수
 [흡수/흡광 (Absorption)](https://en.wikipedia.org/wiki/Absorption_(electromagnetic_radiation))은 물체의 표면을 통과한 상태에서 결국 물체 자체를 벗어나지 못하는 현상을 의미한다.
