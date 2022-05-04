@@ -323,13 +323,13 @@ Maya의 [투과율 조절 가이드](https://docs.arnoldrenderer.com/display/A5A
 #### 굴절
 Refraction
 
-#### 회절
+### 흡수
+[흡수/흡광 (Absorption)](https://en.wikipedia.org/wiki/Absorption_(electromagnetic_radiation))은 물체의 표면을 통과한 상태에서 결국 물체 자체를 벗어나지 못하는 현상을 의미한다.
+
+### 회절
 Diffraction
 
 ![[light_diffraction_example_01.PNG]]
-
-### 흡수
-[흡수/흡광 (Absorption)](https://en.wikipedia.org/wiki/Absorption_(electromagnetic_radiation))은 물체의 표면을 통과한 상태에서 결국 물체 자체를 벗어나지 못하는 현상을 의미한다.
 
 ### 반사, 투과, 흡수의 관계
 반사, 투과, 흡수는 동시에 일어나며 [보존 법칙 (Law of Conservation)](https://en.wikipedia.org/wiki/Conservation_law)에 따른다.
