@@ -325,6 +325,10 @@ Maya의 [투과율 조절 가이드](https://docs.arnoldrenderer.com/display/A5A
 
 ![[refraction_diagram.svg]]
 
+![[light_refraction_by_glass.PNG]]
+
+![[light_refraction_by_heat.PNG]]
+
 ### 흡수
 [흡수/흡광 (Absorption)](https://en.wikipedia.org/wiki/Absorption_(electromagnetic_radiation))은 물체의 표면을 통과한 상태에서 결국 물체 자체를 벗어나지 못하는 현상을 의미한다.
 
