@@ -321,7 +321,7 @@ Maya의 [투과율 조절 가이드](https://docs.arnoldrenderer.com/display/A5A
 \* 말이 투과율 1이지, 실제로 완벽한 투과는 아니다.
 
 #### 굴절
-Refraction
+[굴절 Refraction](https://en.wikipedia.org/wiki/Refraction)
 
 ### 흡수
 [흡수/흡광 (Absorption)](https://en.wikipedia.org/wiki/Absorption_(electromagnetic_radiation))은 물체의 표면을 통과한 상태에서 결국 물체 자체를 벗어나지 못하는 현상을 의미한다.
