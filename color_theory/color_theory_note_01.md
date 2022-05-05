@@ -333,19 +333,37 @@ Maya의 [투과율 조절 가이드](https://docs.arnoldrenderer.com/display/A5A
 
 ![[refraction_diagram.svg]]
 
+굴절로 인해 광선의 각도가 영향을 받은 수준을 굴절각 (Angle of Refraction)이라고 한다. 굴절각을 구하는 수식은 [스넬의 법칙 (Snell's Law)](https://en.wikipedia.org/wiki/Snell%27s_law)이라고 한다.
+
 굴절에 영향을 주는 요소는 3가지 이다.
 1. 물체의 밀도
 2. 입사각
 3. 파장
 
+##### 물체의 밀도에 따른 굴절
+빛이 밀도가 더 높은 물체의 표면을 넘어갈 경우, 광선의 방향은 법선 (Normal)에 더 가까워진다.
 
+![[refraction_less_dense_to_more_dense.png]]
 
-참고로, 굴절은 입사각이 0 (표면과 수직)이 아닌 경우에만 일어난다.
+빛이 밀도가 더 낮은 물체의 표면을 넘어갈 경우, 광선의 방향은 법선 (Normal)으로부터 더 멀어진다.
 
+![[refraction_more_dense_to_less_dense.png]]
 
-참고 : 물체의 밀도가 높을수록 빛의 속도가 낮아진다. 빛의 속도가 느려진다고 해도 파장/진동수에는 영향을 주지 않는다.
+물체의 밀도가 높을수록 물체를 투과하는 빛의 속도가 낮아지며, 낮아지는 수준을 [굴절율 (Refractive Index)]이라 한다.
 
+참고 : 빛의 속도가 느려진다고 해도 파장/진동수에는 영향을 주지 않는다.
 
+굴절율이 낮은 물체에서 높은 물체로 빛이 넘어갈 때 굴절각은 입사각보다 크다. 반대로, 굴절율이 높은 물체에서 낮은 물체로 빛이 넘어갈떄 굴절각은 입사각보다 작다.
+
+한 마디로, 밀도가 높을수록 굴절율이 높고, 굴절율이 높을 수록 굴절각도 높아진다.
+
+##### 입사각에 따른 굴절
+입사각이 0이면 굴절각도 0이다. 입사각이 높을수록 굴절각도 높아진다.
+
+##### 파장
+https://en.wikipedia.org/wiki/Dispersion_(optics) 참고
+
+##### 굴절 추가 정리
 
 ![[refraction-of-light-through-a-rectangular-glass-slab.png]]
 https://byjus.com/physics/tracing-path-of-a-ray-of-light-passing-through-a-glass-slab/
