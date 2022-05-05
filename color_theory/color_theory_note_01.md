@@ -273,8 +273,6 @@ edited: 2022-04-22
 
 #computer_graphics 분야에서는 주로 [[#투과]]와 관련해서 산란을 다루는 듯 싶다.
 
-![[sleeping_pikachu.png | 300]]
-
 영자역학에 속한 [산란 이론 (Scattering Theory)](https://en.wikipedia.org/wiki/Scattering_theory)이란 것이 있다.. 이거 완전 클래스가 미쳤다.
 
 #todo 빛의 특성으로 큰 카타고리를 만들어서 정리해야 할 듯 싶다.
@@ -305,6 +303,8 @@ edited: 2022-04-22
 
 이게 [파동-입자 이중성 (Wave-Particle Duality)](https://en.wikipedia.org/wiki/Wave%E2%80%93particle_duality)과 관련된 사항이니, 더 깊숙하게 이해하려는 것은 깨끗하게 포기한다!
 
+![[sleeping_pikachu.png | 300]]
+
 그러면 투과에 대해서 무엇을 이해해야 할까?
 
 일단 용어에 대해서 좀 정리해본다.
@@ -323,14 +323,27 @@ Maya의 [투과율 조절 가이드](https://docs.arnoldrenderer.com/display/A5A
 \* 말이 투과율 1이지, 실제로 완벽한 투과는 아니다.
 
 #### 굴절
-[굴절 Refraction](https://en.wikipedia.org/wiki/Refraction)
+[굴절 Refraction](https://en.wikipedia.org/wiki/Refraction)은 빛이 물체를 투과하면서 방향이 뒤틀려 보이는 현상을 뜻한다.
+
+![[light_refraction_by_water.PNG]]
+
+굴절은 물체의 표면에서만 일어나는 현상이다 - 보다 정확한 표현은, 굴절은 서로 밀도 (Density)가 다른 물체와 물체의 경계면에서만 일어나는 현상이다.
+
+굴절에 영향을 주는 요소는 3가지 이다.
+1. 물체의 밀도
+2. 입사각
+3. 파장
+
+
+
+참고 : 물체의 밀도가 높을수록 빛의 속도가 낮아진다. 빛의 속도가 느려진다고 해도 파장/진동수에는 영향을 주지 않는다.
 
 ![[refraction_diagram.svg]]
 
 ![[refraction-of-light-through-a-rectangular-glass-slab.png]]
 https://byjus.com/physics/tracing-path-of-a-ray-of-light-passing-through-a-glass-slab/
 
-![[light_refraction_by_water.PNG]]
+
 https://flexbooks.ck12.org/cbook/ck-12-middle-school-physical-science-flexbook-2.0/section/19.7/primary/lesson/refraction-ms-ps/
 
 ![[light_refraction_by_glass.PNG]]
