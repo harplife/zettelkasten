@@ -30,6 +30,8 @@ edited: 2022-04-22
 > ![[light_dispersion_prism.PNG]]
 > 색 연구의 시작, [회절격자 (Diffraction Grating)](https://en.wikipedia.org/wiki/Diffraction_grating)
 
+__주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖춘 것을 뜻하는 것보다는 그냥 어떤 것 (Thing)을 가리키는 용도로 사용된다. _매질/매개체 (Medium)_ 등 호환되는 단어로 사용한다.
+
 ## 가시광선
 [가시광선 (Visible Light)](https://en.wikipedia.org/wiki/Visible_spectrum)은 사람의 눈에 보이는 [전자기파](https://en.wikipedia.org/wiki/Electromagnetic_spectrum)의 영역을 뜻한다.
 
@@ -335,6 +337,7 @@ Maya의 [투과율 조절 가이드](https://docs.arnoldrenderer.com/display/A5A
 1. 물체의 밀도
 2. 입사각
 3. 파장
+
 
 
 참고로, 굴절은 입사각이 0 (표면과 수직)이 아닌 경우에만 일어난다.
