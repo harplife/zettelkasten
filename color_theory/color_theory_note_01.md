@@ -329,16 +329,20 @@ Maya의 [투과율 조절 가이드](https://docs.arnoldrenderer.com/display/A5A
 
 굴절은 물체의 표면에서만 일어나는 현상이다 - 보다 정확한 표현은, 굴절은 서로 밀도 (Density)가 다른 물체와 물체의 경계면에서만 일어나는 현상이다.
 
+![[refraction_diagram.svg]]
+
 굴절에 영향을 주는 요소는 3가지 이다.
 1. 물체의 밀도
 2. 입사각
 3. 파장
 
 
+참고로, 굴절은 입사각이 0 (표면과 수직)이 아닌 경우에만 일어난다.
+
 
 참고 : 물체의 밀도가 높을수록 빛의 속도가 낮아진다. 빛의 속도가 느려진다고 해도 파장/진동수에는 영향을 주지 않는다.
 
-![[refraction_diagram.svg]]
+
 
 ![[refraction-of-light-through-a-rectangular-glass-slab.png]]
 https://byjus.com/physics/tracing-path-of-a-ray-of-light-passing-through-a-glass-slab/
