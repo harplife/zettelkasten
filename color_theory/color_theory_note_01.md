@@ -324,7 +324,14 @@ Maya의 [투과율 조절 가이드](https://docs.arnoldrenderer.com/display/A5A
 
 \* 말이 투과율 1이지, 실제로 완벽한 투과는 아니다.
 
-#### 굴절
+### 흡수
+[흡수/흡광 (Absorption)](https://en.wikipedia.org/wiki/Absorption_(electromagnetic_radiation))은 빛이 물체로 인해 광도 (Luminous Intensity)가 줄어드는 현상을 뜻한다.
+
+개인적으로 흡수는 투과를 하며 일어나는 현상으로 오해를 했다 - 아마 반투명한 물체를 생각하면 흡수를 이해하기가 편리해서 그런듯 하다. 하지만 흡수는 반사, 투과와 같이 발생하는 현상이다. 이는 [[#반사 투과 흡수의 관계]] 섹션에서 좀 더 다루겠다.
+
+[감쇠 (Attenuation)](https://en.wikipedia.org/wiki/Attenuation)
+
+### 굴절
 [굴절 Refraction](https://en.wikipedia.org/wiki/Refraction)은 빛이 물체를 투과하면서 방향이 뒤틀려 보이는 현상을 뜻한다.
 
 ![[light_refraction_by_water.PNG]]
@@ -340,7 +347,7 @@ Maya의 [투과율 조절 가이드](https://docs.arnoldrenderer.com/display/A5A
 2. 입사각
 3. 파장
 
-##### 물체의 밀도에 따른 굴절
+#### 물체의 밀도에 따른 굴절
 빛이 밀도가 더 높은 물체의 표면을 넘어갈 경우, 광선의 방향은 법선 (Normal)에 더 가까워진다.
 
 ![[refraction_less_dense_to_more_dense.png]]
@@ -357,13 +364,13 @@ Maya의 [투과율 조절 가이드](https://docs.arnoldrenderer.com/display/A5A
 
 한 마디로, 밀도가 높을수록 굴절율이 높고, 굴절율이 높을 수록 굴절각도 높아진다.
 
-##### 입사각에 따른 굴절
+#### 입사각에 따른 굴절
 입사각이 0이면 굴절각도 0이다. 입사각이 높을수록 굴절각도 높아진다.
 
-##### 파장
+#### 파장
 https://en.wikipedia.org/wiki/Dispersion_(optics) 참고
 
-##### 굴절 추가 정리
+#### 굴절 추가 정리
 
 ![[refraction-of-light-through-a-rectangular-glass-slab.png]]
 https://byjus.com/physics/tracing-path-of-a-ray-of-light-passing-through-a-glass-slab/
@@ -375,11 +382,8 @@ https://flexbooks.ck12.org/cbook/ck-12-middle-school-physical-science-flexbook-2
 
 ![[light_refraction_by_heat.PNG]]
 
-##### 굴절 법칙
+#### 굴절 법칙
 [Law of Refraction, 일반적으로 Snell's Law](https://en.wikipedia.org/wiki/Snell%27s_law)
-
-### 흡수
-[흡수/흡광 (Absorption)](https://en.wikipedia.org/wiki/Absorption_(electromagnetic_radiation))은 물체의 표면을 통과한 상태에서 결국 물체 자체를 벗어나지 못하는 현상을 의미한다.
 
 ### 회절
 Diffraction
@@ -400,8 +404,10 @@ thin-film interference
 ### 물체와 빛의 상호작용 (정리)
 __빛에 비추어진 물체의 색은 물체로 인해 흡수되지 않고 투과 또는 반사된 광선의 색이라 볼 수 있다.__
 
-#### 불투명 물체와 빛의 상호작용
-투과율이 0%이기 때문에, 불투명 물체의 색은 오로지 반사된 광선의 색이다. 이 섹션에서는 흡수와 반수 위주로 정리해본다.
+#### 반사와 흡수의 관계
+반사와 흡수의 관계를 이해하기 위해서, 투과율이 0인 가상의 불투명 물체를 위주로 정리한다.
+
+투과율이 0이기 때문에, 불투명 물체의 색은 오로지 반사와 흡수된 빛의 색이다. 이 섹션에서는 흡수와 반수 위주로 정리해본다.
 
 빛에 여러 파장이 있다는 것을 고려하면, 하얀색 빛은 [[#단색광]]의 여러 광선으로 표현할 수 있다. RGB (빨강,초록,파랑)로 이루어진 하얀 빛이 하얀 물체, 빨간 물체, 초록 물체, 파란 물체, 그리고 검은 물체에 비추어진다 하면, 결과는 밑에 그림과 같다.
 
@@ -445,6 +451,14 @@ RGB 기준으로 불투명 물체와 빛의 상호작용에 대한 식을 정의
 빨간 빛이 노란 물체에 비추어지면 빨간색으로 보인다. 왜? 반대로, 노란 빛이 빨간 물체에 비추어지면, 주황으로 보인다.
 
 빛의 색에 따라 물체의 색이 달라보이는 현상, 이를 [[#메타메리즘]]이라 한다.
+
+#### 투과와 흡수의 관계
+투과와 흡수의 관계를 이해하기 위해서, 반사율이 0인 가상의 투명 물체를 위주로 정리한다.
+
+
+하얀 빛이 물체를 투과하며 빛에 아무런 손실이 없는 경우, 이는 흡수율 0인 상황이며 모
+
+
 
 ### 빛의 특성 참고자료
 참고 자료 1 : [삼성디스플레이 뉴스룸 : 재귀반사](https://news.samsungdisplay.com/29873)
