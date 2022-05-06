@@ -406,7 +406,9 @@ thin-film interference
 #### 레일리 산란
 [레일리 산란 (Rayleigh Scattering)](https://en.wikipedia.org/wiki/Rayleigh_scattering)은 빛의 파장보다 매우 작은 입자에 빛이 산란되어 일어나는 현상이다.
 
-하늘이 파란색으로 보이는 
+낮 하늘의 파란색과 저녁 노을이 진 하늘의 빨간색의 원인이 레일리 산란에 있다.
+
+
 
 #### 미 산란
 [미 산란 (Mie Scattering)](https://en.wikipedia.org/wiki/Mie_scattering)은 빛의 파장보다 크거나 비슷한 입자에 빛이 산란되어 일어나는 현상이다.
