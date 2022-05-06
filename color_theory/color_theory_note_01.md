@@ -313,6 +313,8 @@ Maya의 [투과율 조절 가이드](https://docs.arnoldrenderer.com/display/A5A
 ### 흡수
 [흡수/흡광 (Absorption)](https://en.wikipedia.org/wiki/Absorption_(electromagnetic_radiation))은 빛이 물체로 인해 광도 (Luminous Intensity)가 줄어드는 현상을 뜻한다.
 
+[[#광원]] 섹션에서 흑체 (Blackbody)에 대해 정리했었다 - 물체는 빛을 흡수하고 열을 낸다. 
+
 개인적으로 흡수는 투과를 하며 일어나는 현상으로 오해를 했다 - 아마 반투명한 물체를 생각하면 흡수를 이해하기가 편리해서 그런듯 하다. 하지만 흡수는 반사, 투과와 같이 발생하는 현상이다. 이는 [[#반사 투과 흡수의 관계]] 섹션에서 좀 더 다루겠다.
 
 [감쇠 (Attenuation)](https://en.wikipedia.org/wiki/Attenuation)
@@ -684,7 +686,7 @@ https://blog.hunterlab.com/blog/color-measurement/understanding-tristimulus-valu
 ![[CIE1931xy.svg]]
 
 
-
+https://en.wikipedia.org/wiki/Optical_phenomena
 
 참고 : [Luma](https://en.wikipedia.org/wiki/Luma_(video))
 
