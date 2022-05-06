@@ -319,15 +319,20 @@ Maya의 [투과율 조절 가이드](https://docs.arnoldrenderer.com/display/A5A
 
 흡수에 관련한 대표적인 예시는 검은색의 물체이다. [[#광원]] 섹션에 흑체 (Blackbody)에 대하여 정리했듯이, 완전한 검은 물체는 모든 빛을 흡수한다. 반대로, 하얀색 물체는 흡수율이 아주 낮다. 
 
-빛은 물체의 표면에서도 흡수되고, 물체를 투과하며 물체 안에서도 흡수된다.
-
-좀 더 자세한 사항은 [[#반사 투과 흡수의 관계]] 섹션에서 정리한다.
+빛은 물체의 표면에서도 흡수되고, 물체를 투과하며 물체 안에서도 흡수된다. 좀 더 자세한 사항은 [[#반사 투과 흡수의 관계]] 섹션에서 정리한다.
 
 [흡수율? 흡수도? 흡광도?](http://www.ktword.co.kr/word/abbr_view.php?m_temp1=5096) 흡수의 수준을 측정하는 단위를 뜻하는 용어가 무엇인지 많이 헷갈린다. 영어로는 [Absorbance/Optical Density](https://en.wikipedia.org/wiki/Absorbance), [Absorptance](https://en.wikipedia.org/wiki/Absorptance), [Absorptivity / Molar Attenuation Coefficient](https://en.wikipedia.org/wiki/Molar_attenuation_coefficient) 가 있는데 차이점을 이해하기 어렵다.
 
 위 용어들을 이해하기 위해서는 아마 감쇠의 관계를 정의하는 [비어-람베르트 법칙 (Beer-Lambert Law)](https://en.wikipedia.org/wiki/Molar_attenuation_coefficient)을 봐야 할 것 같다.
 
+`𝑨 = 𝜀𝓵𝑐`
 
+𝑨 : Absorbance
+𝜀 : Molar Attenuation Coefficient / Absorptivity
+𝓵 : Optical Path length
+𝑐 : [Molarity / Molar Concentration]
+
+대충 이해한 바로는, 최종 흡수된 수준은 물질의 흡수하는 성질, 빛이 투과하는 길이, 그리고 밀도(?)의 곱으로서 나온다는 것 같다.
 
 ### 굴절
 [굴절 Refraction](https://en.wikipedia.org/wiki/Refraction)은 빛이 물체를 투과하면서 방향이 뒤틀려 보이는 현상을 뜻한다.
