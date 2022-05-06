@@ -358,7 +358,7 @@ Maya의 [투과율 조절 가이드](https://docs.arnoldrenderer.com/display/A5A
 
 물체의 밀도가 높을수록 물체를 투과하는 빛의 속도가 느려지며, 느려지는 수준을 [굴절율 (Refractive Index)]이라 한다. 참고로, 빛의 속도가 느려진다고 해도 파장/진동수에는 영향을 주지 않는다.
 
-주의 : 보통 "빛의 속도가 느려진다"고 표현되는데, 사실 빛의 속도가 느려지는게 아니라 [위상 속도](http://www.ktword.co.kr/test/view/view.php?m_temp1=3793&id=1009) [(Phase Velocity)](https://en.wikipedia.org/wiki/Phase_velocity)가 느려지는 것이다. 다르게 말하면, 빛의 속도는 일정하되 빛이 전달되는 속도는 느려진다. 빛의 속도는 절대적이며, 불변하다. 빛이 물체를 투과하고 나온 창발광선을 보면, 창발광선의 속도는 입사광선의 속도와 동일하다.
+주의 : 보통 "빛의 속도가 느려진다"고 표현되는데, 사실 빛의 속도가 느려지는게 아니라 [위상 속도](http://www.ktword.co.kr/test/view/view.php?m_temp1=3793&id=1009) [(Phase Velocity)](https://en.wikipedia.org/wiki/Phase_velocity)가 느려지는 것이다. 다르게 말하면, 빛의 속도는 일정하되 빛이 전달되는 속도는 느려진다. 빛의 속도는 절대적이며, 불변하다. 빛이 물체를 투과하고 나온 창발광선의 속도는 입사광선의 속도와 동일하다.
 
 일반적으로 밀도가 높은 경우 굴절율이 높되, 항상 선형관계 (Linear Relationship)을 이루는 것은 아니다. 따라서, 굴절 또는 그 외의 현상에 대해서 설명할때 밀도 대신 굴절율 위주로 정리가 된다.
 
