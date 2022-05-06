@@ -128,7 +128,7 @@
               "leaf": "87ea834a7b108cf6",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"color_theory/color_theory_note_01.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":307.5652173913044}"
+              "eState": "{\"scroll\":303.9130434782609}"
             }
           ]
         }
@@ -245,8 +245,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 316.5,
-    "collapsed": true
+    "width": 316.5
   },
   "active": "87ea834a7b108cf6",
   "lastOpenFiles": [

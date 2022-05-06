@@ -21,7 +21,9 @@
     "Specular",
     "png",
     "specular",
-    "Transmissivity"
+    "Transmissivity",
+    "Absorptance",
+    "Absorptivity"
   ],
   "legacyEditor": true,
   "livePreview": true,
