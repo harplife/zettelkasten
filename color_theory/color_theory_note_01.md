@@ -263,6 +263,8 @@ __주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖�
 
 참고 : [인간의 촉각은 13 nm 까지 인식이 가능하다.](https://www.nationalgeographic.com/culture/article/130912-tactile-touch-perception-nanometers-psychology-science)
 
+"금속은 난반사를 하지 않는다"라는 주제로 좀 찾아보면 아주 재밌는 자료들이 나온다.. [참고 1](https://google.github.io/filament/Filament.html#materialsystem/dielectricsandconductors), [참고 2](https://physics.stackexchange.com/a/213535/333609)
+
 #### 반사에 대한 추가 정리
 일반적으로 정반사와 난반사는 같이 발생한다.
 
@@ -381,20 +383,33 @@ thin-film interference
 ![[light_diffraction_example_01.PNG]]
 
 ### 산란
-[산란 (Scattering)](https://en.wikipedia.org/wiki/Scattering)은 전자기파가 진행하다가 만난 물체의 표면에서 물체의 특성에 따라 사방으로 전자기파가 퍼지는 특성을 뜻한다.
+[산란 (Scattering)](https://en.wikipedia.org/wiki/Scattering)은 빛이 미세한 입자에 충돌하여 사방으로 퍼지는 현상을 뜻한다.
 
-산란은 사실 반사보다는 더 큰 개념이다. 반사 섹션에 굳이 명시하는 이유는,
-1. 인터넷에서 산란하고 난반사를 헷갈리게 설명한다. 심지어 오역으로 인해 난반사를 산란광이라고 부르는 자료도 몇 있다. 사실 산란-반사의 관계는 직사각형-정사각형 관계랑 비슷한데, 난반사는 산란에 속하지만 산란이 난반사인 것은 아니다.
-2. 산란이 난반사와 유사하게 보일수도 있다. 난반사는 물체의 표면에 의해 빛이 여러 방면으로 반사되는 현상인 반면, 산란은 빛이 표면을 통과하여 물질/물체 내에서 반사되어 표면 바깥으로 다시 보이는 현상이다.
-3. 위에 정반사에 대하여 알아볼때, 대리석이 아무리 매끈해도 거울처럼 되는거는 아니다라고 했었다. 산란의 정의에 "물체의 특성에 따라"라는 문구가 있는데, 아마 이게 연관된게 아닌가 싶다. "금속은 난반사를 하지 않는다"라는 주제로 좀 찾아보면 아주 재밌는 자료들이 나온다.. [참고 1](https://google.github.io/filament/Filament.html#materialsystem/dielectricsandconductors), [참고 2](https://physics.stackexchange.com/a/213535/333609)
+![[light_scattering_by_particle_size.PNG]]
+
+산란은 [[#반사]]의 상위 개념이라 볼 수 있다.  반사가 Macro 개념이면, 산란은 Micro 개념이라 할 수 있다. 표면 위에 발생하는 산란을 한정지으면 그것이 반사다. 하지만 산란은 반산 뿐만이 아니라, 물체를 [[#투과]]하면서도 발생되는 현상이다.
+
+빛을 쉽게 이해하고 싶을때는 반사와 투과만 모델링하지만, 좀 더 복잡하게는 산란과 함께 모델링 한다.
 
 ![[light_interface_interaction_models_diagram.png]]
 
-#computer_graphics 분야에서는 주로 [[#투과]]와 관련해서 산란을 다루는 듯 싶다.
+인터넷에서 산란하고 난반사를 헷갈리게 설명한다. 심지어 오역으로 인해 난반사를 산란광이라고 부르는 자료도 몇 있다. 사실 산란-반사의 관계는 직사각형-정사각형 관계랑 비슷한데, 난반사는 산란에 속하지만 산란이 난반사인 것은 아니다.
 
 영자역학에 속한 [산란 이론 (Scattering Theory)](https://en.wikipedia.org/wiki/Scattering_theory)이란 것이 있다.. 이거 완전 클래스가 미쳤다.
 
-#todo 빛의 특성으로 큰 카타고리를 만들어서 정리해야 할 듯 싶다.
+산란의 방향성은 Isotropic 와 Anisotropic 으로 분류된다. 사방으로 둥글게 퍼지는가, 아니면 앞쪽으로 퍼지는가의 차이인 듯 싶다.
+
+![[types_of_light_scattering.png]]
+
+산란의 종류 중 대표적인 것으로 레일리 산란와 미 산란이 있다.
+
+#### 레일리 산란
+[레일리 산란 (Rayleigh Scattering)](https://en.wikipedia.org/wiki/Rayleigh_scattering)은 빛의 파장보다 매우 작은 입자에 빛이 산란되어 일어나는 현상이다.
+
+하늘이 파란색으로 보이는 
+
+#### 미 산란
+[미 산란 (Mie Scattering)](https://en.wikipedia.org/wiki/Mie_scattering)은 빛의 파장보다 크거나 비슷한 입자에 빛이 산란되어 일어나는 현상이다.
 
 ### 반사, 투과, 흡수의 관계
 반사, 투과, 흡수는 동시에 일어나며 [보존 법칙 (Law of Conservation)](https://en.wikipedia.org/wiki/Conservation_law)에 따른다.
