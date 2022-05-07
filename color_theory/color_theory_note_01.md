@@ -144,8 +144,7 @@ __주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖�
 
 참고 자료 1 : [정보통신기술용어해설 - 표준 광원](http://www.ktword.co.kr/test/view/view.php?m_temp1=4526)
 
-## 물체와 빛의 상호작용
-
+## 빛의 특성
 빛은 [[#반사]], [[#투과]], 흡수 (Absorption)라는 세 가지 중요한 성질을 갖는다. 그 외에 굴절 (Refraction), 회절 (Diffraction), [[#산란]], 분산 (Dispersion) 등이 있다.
 
 ![[surface_effects_illumination.png]]
@@ -559,10 +558,10 @@ https://ctsciencecenter.org/blog/science-at-play-change-the-color-of-the-world-a
 #### 참고할 책
 [QED: The Strange Theory of Light and Matter _by Richard P.Feynman_](https://www.amazon.com/QED-Strange-Theory-Light-Matter-ebook/dp/B00BR40XJ6/ref=sr_1_1)
 
-### 물체의 특성
+## 물체의 특성
 물체는 빛과 관련해서 전도체와 유전체로 분류된다.
 
-#### 전도체의 특성
+### 전도체의 특성
 [전도체 (Electrical Conductor)](https://en.wikipedia.org/wiki/Electrical_conductor)는 전기가 통하는 물질이다. 대표적으로 [금속 (Metal)](https://en.wikipedia.org/wiki/Metal)이 전도체이다.
 
 [[#반사]] 섹션에서 정리했듯이, 모든 물체는 빛을 반사 한다. 하지만 전도체는 일반적인 물체보다 더욱 반사하는 특징이 있다. 정확한 이유는 너무 깊게 들어가는 것 같아서, [거울의 원리](https://www.scientificamerican.com/article/what-is-the-physical-proc/)를 설명하는 글에 일부를 가져온다.
@@ -579,7 +578,7 @@ https://ctsciencecenter.org/blog/science-at-play-change-the-color-of-the-world-a
 
 ![[reflection_on_gold.png]]
 
-#### 유전체의 특성
+### 유전체의 특성
 [유전체 (Dielectric)](https://en.wikipedia.org/wiki/Dielectric) 또는 [절연체 (Insulator)](https://en.wikipedia.org/wiki/Insulator_(electricity))는 전기가 통하지 않는 물질이다. 세라믹, 플라스틱, 유리, 고무 등이 유전체이다.
 
 
