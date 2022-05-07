@@ -311,7 +311,7 @@ Maya의 [투과율 조절 가이드](https://docs.arnoldrenderer.com/display/A5A
 \* 말이 투과율 1이지, 실제로 완벽한 투과는 아니다.
 
 ### 흡수
-[흡수/흡광 (Absorption)](https://en.wikipedia.org/wiki/Absorption_(electromagnetic_radiation))은 빛이 물체로 인해 광도 (Luminous Intensity)가 줄어드는 현상을 뜻한다.
+[흡수/흡광 (Absorption)](https://en.wikipedia.org/wiki/Absorption_(electromagnetic_radiation))은 빛이 물체로 인해 [광도 (Luminous Intensity)](https://en.wikipedia.org/wiki/Luminous_intensity)가 줄어드는 현상을 뜻한다.
 
 [감쇠 (Attenuation)](https://en.wikipedia.org/wiki/Attenuation)라고도 불린다.
 
@@ -320,6 +320,8 @@ Maya의 [투과율 조절 가이드](https://docs.arnoldrenderer.com/display/A5A
 흡수에 관련한 대표적인 예시는 검은색의 물체이다. [[#광원]] 섹션에 흑체 (Blackbody)에 대하여 정리했듯이, 완전한 검은 물체는 모든 빛을 흡수한다. 반대로, 하얀색 물체는 흡수율이 아주 낮다. 
 
 빛은 물체의 표면에서도 흡수되고, 물체를 투과하며 물체 안에서도 흡수된다. 좀 더 자세한 사항은 [[#반사 투과 흡수의 관계]] 섹션에서 정리한다.
+
+#computer_graphics 분야에서는 반사-흡수의 관계보다는 투과-흡수의 관계를 더 중요시 하는 듯 싶다.
 
 [흡수율? 흡수도? 흡광도?](http://www.ktword.co.kr/word/abbr_view.php?m_temp1=5096) 흡수의 수준을 측정하는 단위를 뜻하는 용어가 무엇인지 많이 헷갈린다. 영어로는 [Absorbance/Optical Density](https://en.wikipedia.org/wiki/Absorbance), [Absorptance](https://en.wikipedia.org/wiki/Absorptance), [Absorptivity / Molar Attenuation Coefficient](https://en.wikipedia.org/wiki/Molar_attenuation_coefficient) 가 있는데 차이점을 이해하기 어렵다.
 
