@@ -561,6 +561,8 @@ https://ctsciencecenter.org/blog/science-at-play-change-the-color-of-the-world-a
 ## 물체의 특성
 물체는 빛과 관련해서 전도체와 유전체로 분류된다.
 
+#todo 모든 물체가 전도체/유전체로 구분되는지는 모르겠다. 
+
 ### 전도체의 특성
 [전도체 (Electrical Conductor)](https://en.wikipedia.org/wiki/Electrical_conductor)는 전기가 통하는 물질이다. 대표적으로 [금속 (Metal)](https://en.wikipedia.org/wiki/Metal)이 전도체이다.
 
@@ -580,6 +582,9 @@ https://ctsciencecenter.org/blog/science-at-play-change-the-color-of-the-world-a
 
 ### 유전체의 특성
 [유전체 (Dielectric)](https://en.wikipedia.org/wiki/Dielectric) 또는 [절연체 (Insulator)](https://en.wikipedia.org/wiki/Insulator_(electricity))는 전기가 통하지 않는 물질이다. 세라믹, 플라스틱, 유리, 고무 등이 유전체이다.
+
+편의를 위해서 유전체는 일반적인 물체로 생각하는게 좋을 듯 하다. [[#반사]]에 대해서 정리한 내용도 유전체 위주로 이해하는게 좋다.
+
 
 
 
