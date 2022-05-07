@@ -556,10 +556,13 @@ Quora 답변에 의하면, __반사는 굴절율에 차이가 클 때 발생__ �
 
 https://ctsciencecenter.org/blog/science-at-play-change-the-color-of-the-world-around-you/
 
+#### 참고할 책
+[QED: The Strange Theory of Light and Matter _by Richard P.Feynman_](https://www.amazon.com/QED-Strange-Theory-Light-Matter-ebook/dp/B00BR40XJ6/ref=sr_1_1)
+
 ### 물체의 특성
 물체는 빛과 관련해서 전도체와 유전체로 분류된다.
 
-#### 금속의 특성
+#### 전도체의 특성
 [전도체 (Electrical Conductor)](https://en.wikipedia.org/wiki/Electrical_conductor)는 전기가 통하는 물질이다. 대표적으로 [금속 (Metal)](https://en.wikipedia.org/wiki/Metal)이 전도체이다.
 
 [[#반사]] 섹션에서 정리했듯이, 모든 물체는 빛을 반사 한다. 하지만 전도체는 일반적인 물체보다 더욱 반사하는 특징이 있다. 정확한 이유는 너무 깊게 들어가는 것 같아서, [거울의 원리](https://www.scientificamerican.com/article/what-is-the-physical-proc/)를 설명하는 글에 일부를 가져온다.
@@ -572,12 +575,14 @@ https://ctsciencecenter.org/blog/science-at-play-change-the-color-of-the-world-a
 
 [Quora 답변](https://www.quora.com/If-light-reflecting-off-a-mirror-is-due-to-photons-being-absorbed-and-radiated-by-electrons-in-the-reflective-material-why-do-the-photons-reflect-at-the-same-angle-at-which-they-strike-the-mirror-How-do-the/answer/Bill-Otto-5)에 의하면, __전자가 빛의 주파수와 동일하게 진동하여 그 빛을 반사하는게 아니라, 빛을 흡수하고 새로운 빛을 발산하는 것이다__.
 
-#todo 금속 자체의 색이 있어보이는 이유는 금속의 전자가 진동하는 주파수가 그 색의 주파수와 비슷하기 떄문이다 - 라고 생각드는데, 확인이 필요하다.
+#todo 금속 자체의 색이 있어보이는 이유는 금속의 전자가 진동하는 주파수가 그 색의 주파수와 비슷하거나, 또는 흡수하고 반사하는 수준이 주파수마다 다르기 떄문이다 - 라고 생각드는데, 확인이 필요하다.
 
 ![[reflection_on_gold.png]]
 
 #### 유전체의 특성
-[유전체 (Dielectric)](https://en.wikipedia.org/wiki/Dielectric) 또는 [절연체 (Insulator)](https://en.wikipedia.org/wiki/Insulator_(electricity))
+[유전체 (Dielectric)](https://en.wikipedia.org/wiki/Dielectric) 또는 [절연체 (Insulator)](https://en.wikipedia.org/wiki/Insulator_(electricity))는 전기가 통하지 않는 물질이다. 세라믹, 플라스틱, 유리, 고무 등이 유전체이다.
+
+
 
 ## 메타메리즘
 [메타메리즘 (Metamerism)](https://en.wikipedia.org/wiki/Metamerism_(color)) : 광원, 관측자, 관측조건 차이에 따라 두 물체의 색이 같아 보이거나 달라 보이는 현상을 뜻한다. 조건 등색으로 불리기도 한다.
