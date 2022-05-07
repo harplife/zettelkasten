@@ -562,7 +562,7 @@ https://ctsciencecenter.org/blog/science-at-play-change-the-color-of-the-world-a
 #### 금속의 특성
 [전도체 (Electrical Conductor)](https://en.wikipedia.org/wiki/Electrical_conductor)는 전기가 통하는 물질이다. 대표적으로 [금속 (Metal)](https://en.wikipedia.org/wiki/Metal)이 전도체이다.
 
-전도체는 빛을 "특이하게" 반사하는 특성이 있다.
+[[#반사]] 섹션에서 정리했듯이, 모든 물체는 빛을 반사 한다. 하지만 전도체는 일반적인 물체보다 더욱 반사하는 특징이 있다. 정확한 이유는 너무 깊게 들어가는 것 같아서, 
 
 #### 유전체의 특성
 [유전체 (Dielectric)](https://en.wikipedia.org/wiki/Dielectric) 또는 [절연체 (Insulator)](https://en.wikipedia.org/wiki/Insulator_(electricity))
