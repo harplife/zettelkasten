@@ -557,13 +557,15 @@ Quora 답변에 의하면, __반사는 굴절율에 차이가 클 때 발생__ �
 https://ctsciencecenter.org/blog/science-at-play-change-the-color-of-the-world-around-you/
 
 ### 물체의 특성
-물체는 빛과 관련해서 금속과 유전체로 분류된다.
+물체는 빛과 관련해서 전도체와 유전체로 분류된다.
 
 #### 금속의 특성
-[금속 (Metal)](https://en.wikipedia.org/wiki/Metal)은 [[#투과]]되는 빛을 모두 흡수한다.
+[전도체 (Electrical Conductor)](https://en.wikipedia.org/wiki/Electrical_conductor)는 전기가 통하는 물질이다. 대표적으로 [금속 (Metal)](https://en.wikipedia.org/wiki/Metal)이 전도체이다.
+
+전도체는 빛을 "특이하게" 반사하는 특성이 있다.
 
 #### 유전체의 특성
-[유전체 (Dielectric)](https://en.wikipedia.org/wiki/Dielectric)는 
+[유전체 (Dielectric)](https://en.wikipedia.org/wiki/Dielectric) 또는 [절연체 (Insulator)](https://en.wikipedia.org/wiki/Insulator_(electricity))
 
 ## 메타메리즘
 [메타메리즘 (Metamerism)](https://en.wikipedia.org/wiki/Metamerism_(color)) : 광원, 관측자, 관측조건 차이에 따라 두 물체의 색이 같아 보이거나 달라 보이는 현상을 뜻한다. 조건 등색으로 불리기도 한다.
