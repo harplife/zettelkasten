@@ -262,10 +262,10 @@ __주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖�
 
 참고 : [인간의 촉각은 13 nm 까지 인식이 가능하다.](https://www.nationalgeographic.com/culture/article/130912-tactile-touch-perception-nanometers-psychology-science)
 
-"금속은 난반사를 하지 않는다"라는 주제로 좀 찾아보면 아주 재밌는 자료들이 나온다.. [참고 1](https://google.github.io/filament/Filament.html#materialsystem/dielectricsandconductors), [참고 2](https://physics.stackexchange.com/a/213535/333609)
-
 #### 반사에 대한 추가 정리
 일반적으로 정반사와 난반사는 같이 발생한다.
+
+물질의 특성에 따라 반사하는게 다르다. 자세한 사항은 [[#물체의 특성]]에서 정리한다.
 
 밑에는 정반사와 난반사를 비교하는 그림들이다.
 
@@ -579,6 +579,8 @@ https://ctsciencecenter.org/blog/science-at-play-change-the-color-of-the-world-a
 #todo 금속 자체의 색이 있어보이는 이유는 금속의 전자가 진동하는 주파수가 그 색의 주파수와 비슷하거나, 또는 흡수하고 반사하는 수준이 주파수마다 다르기 떄문이다 - 라고 생각드는데, 확인이 필요하다.
 
 ![[reflection_on_gold.png]]
+
+"금속은 난반사를 하지 않는다"라는 주제로 좀 찾아보면 아주 재밌는 자료들이 나온다.. [참고 1](https://google.github.io/filament/Filament.html#materialsystem/dielectricsandconductors), [참고 2](https://physics.stackexchange.com/a/213535/333609)
 
 ### 유전체의 특성
 [유전체 (Dielectric)](https://en.wikipedia.org/wiki/Dielectric) 또는 [절연체 (Insulator)](https://en.wikipedia.org/wiki/Insulator_(electricity))는 전기가 통하지 않는 물질이다. 세라믹, 플라스틱, 유리, 고무 등이 유전체이다.
