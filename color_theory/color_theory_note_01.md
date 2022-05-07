@@ -587,7 +587,10 @@ https://ctsciencecenter.org/blog/science-at-play-change-the-color-of-the-world-a
 
 편의를 위해서 유전체는 일반적인 물체로 생각하는게 좋을 듯 하다. [[#반사]]에 대해서 정리한 내용도 유전체 위주로 이해하는게 좋다.
 
+#### 하위-표면 산란
+모든 유전체는 
 
+[하위-표면 산란 (Subsurface Scattering)](https://en.wikipedia.org/wiki/Subsurface_scattering)은 
 
 
 ## 메타메리즘
