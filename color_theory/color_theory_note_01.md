@@ -570,9 +570,11 @@ https://ctsciencecenter.org/blog/science-at-play-change-the-color-of-the-world-a
 
 동일하게 진동하는 것과 반사하는 것이 어떻게 관련되어 있는가?
 
-[Quora 답변](https://www.quora.com/If-light-reflecting-off-a-mirror-is-due-to-photons-being-absorbed-and-radiated-by-electrons-in-the-reflective-material-why-do-the-photons-reflect-at-the-same-angle-at-which-they-strike-the-mirror-How-do-the/answer/Bill-Otto-5)에 의하면, __전자가 주파수와 동일하게 진동하여 그 빛을 반사하는게 아니라, 빛을 흡수하고 새로운 빛을 발산하는 것이다__.
+[Quora 답변](https://www.quora.com/If-light-reflecting-off-a-mirror-is-due-to-photons-being-absorbed-and-radiated-by-electrons-in-the-reflective-material-why-do-the-photons-reflect-at-the-same-angle-at-which-they-strike-the-mirror-How-do-the/answer/Bill-Otto-5)에 의하면, __전자가 빛의 주파수와 동일하게 진동하여 그 빛을 반사하는게 아니라, 빛을 흡수하고 새로운 빛을 발산하는 것이다__.
 
-위 글을 읽고 나서 더 이해하게 되는 것은, 왜 금속
+#todo 금속 자체의 색이 있어보이는 이유는 금속의 전자가 진동하는 주파수가 그 색의 주파수와 비슷하기 떄문이다 - 라고 생각드는데, 확인이 필요하다.
+
+![[reflection_on_gold.png]]
 
 #### 유전체의 특성
 [유전체 (Dielectric)](https://en.wikipedia.org/wiki/Dielectric) 또는 [절연체 (Insulator)](https://en.wikipedia.org/wiki/Insulator_(electricity))
