@@ -566,7 +566,9 @@ https://ctsciencecenter.org/blog/science-at-play-change-the-color-of-the-world-a
 
 > "The oscillating electrical field in the incoming light wave produces a force on the charges inside the mirror. Most of the charges are either too heavy (as is true for the nuclei of the atoms) or too tightly bound (as is true for most of the electrons) to vibrate significantly in response to this field. The comparatively loosely held bonding electrons, along with the free electrons present in metals, can move in response to these electrical forces, however. These electrons oscillate at the same frequency as the incident light, which gives rise to the reflected wave." - Peter N. Saeta, 1999
 
-완전히 이해되는 것은 아닌데, 다른 글들을 참고해보면 비슷한 맥락이다 - 전도체는 
+완전히 이해되는 것은 아닌데, 다른 글들을 참고해보면 비슷한 맥락이다 - __전도체의 전자 (Electron)이 빛의 주파수와 동일하게 진동하여 빛을 반사한다__.
+
+
 
 #### 유전체의 특성
 [유전체 (Dielectric)](https://en.wikipedia.org/wiki/Dielectric) 또는 [절연체 (Insulator)](https://en.wikipedia.org/wiki/Insulator_(electricity))
