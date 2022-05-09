@@ -89,9 +89,10 @@ __주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖�
 
 열과 빛이 관련이 있다는 사실, 이 개념은 흑체 복사 (Blackbody Radiation)로부터 비롯된다 (아마도). 흑체 복사에 대하여 설명하긴 너무 어려워서 일단 핵심 내용만 알아본다.
 1. [흑체 (Blackbody)](https://en.wikipedia.org/wiki/Black_body)는 모든 파장의 전자기파를 완전히 흡수하는 가상/이상의 물체이다. __밀도를 가진 모든 물체는 에너지를 흡수하고 방출한다. 모든 물체는 흑체이지만, 완벽한 흑체는 아니다.__ 완벽한 흑체는 이론적으로만 가능하기 때문에 가상/이상의 물체라고 하는 것이다.
-2. [흑체 복사](http://www.ktword.co.kr/test/view/view.php?m_temp1=3907) [(Blackbody Radiation)](https://en.wikipedia.org/wiki/Black-body_radiation)는 가열된 흑체에서 나오는 [전자기파](https://en.wikipedia.org/wiki/Electromagnetic_radiation)이다.
-3. 흑체 복사는 [열복사 (Thermal Radiation)](https://en.wikipedia.org/wiki/Thermal_radiation)이라 불리기도 한다.
-4. 흑체 복사는 여러 범위의 주파수/파장으로서 이루어지며, (열이 충분히 높으면) 그 중 일부가 가시광선 영역에 있다. 온도에 따라서 색상 (Hue)도 변한다 - 그래서 광원의 색을 명시할 때 Kelvin (K) 단위의 [색 온도 (Color Temperature)](https://en.wikipedia.org/wiki/Color_temperatur)로 표현하게 된다.
+2. 흑체는 전자기파의 에너지를 열 에너지로 변환한다. 따라서, 흑체는 빛을 받으면 가열한다.
+3. [흑체 복사](http://www.ktword.co.kr/test/view/view.php?m_temp1=3907) [(Blackbody Radiation)](https://en.wikipedia.org/wiki/Black-body_radiation)는 가열된 흑체에서 나오는 [전자기파](https://en.wikipedia.org/wiki/Electromagnetic_radiation)이다.
+4. 흑체 복사는 [열복사 (Thermal Radiation)](https://en.wikipedia.org/wiki/Thermal_radiation)이라 불리기도 한다.
+5. 흑체 복사는 여러 범위의 주파수/파장으로서 이루어지며, (열이 충분히 높으면) 그 중 일부가 가시광선 영역에 있다. 온도에 따라서 색상 (Hue)도 변한다 - 그래서 광원의 색을 명시할 때 Kelvin (K) 단위의 [색 온도 (Color Temperature)](https://en.wikipedia.org/wiki/Color_temperatur)로 표현하게 된다.
 
 불은 뜨거울수록 파랑색으로 변한다고 들었는데, 색 온도를 보면 딱 그 말이 떠오른다. 
 
@@ -182,15 +183,21 @@ __주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖�
 ### 파동 전파
 [파동 전파 (Wave Propagation)](https://en.wikipedia.org/wiki/Wave_propagation)는 파동이 이동하는 모든 방식을 뜻한다. 빛은 입자이며 파동이니, 파동이 이동하는 방식을 이해해야 한다.
 
-아인슈타인이 정의한데로, 진공 (Vaccum)에 [빛의 속도](https://en.wikipedia.org/wiki/Speed_of_light)는 대략 300,000 km/s 이며, [특수 상대성 이론 (Special Relativity)](https://en.wikipedia.org/wiki/Special_relativity)에 있어 빛의 속도는 상수 (Constant)이다.
+아인슈타인이 정의한데로, 진공 (Vacuum)에 [빛의 속도](https://en.wikipedia.org/wiki/Speed_of_light)는 대략 300,000 km/s 이며, [특수 상대성 이론 (Special Relativity)](https://en.wikipedia.org/wiki/Special_relativity)에 있어 빛의 속도는 상수 (Constant)이다.
 
 진공은 빈 공간이고, 빛은 진동인데, 그럼 빈 공간에서 무엇이 진동하는 것일까?
 
 진공은 사실 "모든 것"이 비어있는게 아니다 - 세계 모든 곳에 [전자기장 (Electromagnetic Field)](https://en.wikipedia.org/wiki/Electromagnetic_field)이 존재하며, 진공에도 마찬가지로 전자기장이 존재한다. [[#가시광선]] 섹션에서 정리했듯이, 빛이 [전자기파 (Electromagnetic Radiation)](https://en.wikipedia.org/wiki/Electromagnetic_radiation)라는 것을 다시 상기해보면, 진공에서 빛은 전자기장의 변화 또는 진동이라고 볼 수 있다.
 
-참고 : 장 (field)은 사실 공간을 뜻한다. 전자기장은 공간의 특성이라 이해하는게 좋다. 전자기장이 존재하는 이유까지 따지게 되면, 빅뱅 이론까지 가버린다..
+참고 : 장 (field)은 사실 공간을 뜻한다. 전자기장은 공간의 특성이라 이해하는게 좋다. 전자기장이 존재하는 이유까지 따지게 되면, 빅뱅 이론까지 가버리기 때문에 여기서 멈춘다..
 
-그런데 빛이 물체를 통해 이동할 때는 아~주 복잡해진다. 애초에 빈 공간이 아닌데 어떻게 지나갈까?
+빛이 전자기장을 통해 이동한다면, 물체와 어떻게 상호작용을 할까?
+
+__모든 물체는 전자기파를 흡수 또는 방출한다.__
+
+[[#광원]] 섹션에서 정리할 때, 흑체 (Blackbody)는 빛을 모두 흡수하고 열을 방출하며, 가열된 흑체는 흑체 복사 (Blackbody Radiation)를 방출하며 빛을 낸다고 했다.
+
+
 
 처음에는 빛이 입자이며 아주 작기 때문에 입자와 입자 사이의 미세한 틈을 통해서 그냥 지나간다고 생각했다. 하지만 좀 더 찾아본 결과, 빛은 틈세를 통과하는게 아니라 물체의 입자를 통해 전달된다고 한다. 그러면 애초에 빛이 입자를 통해 전달되는 것이면, 진공에서 어떻게 이동하는 것인지??
 
