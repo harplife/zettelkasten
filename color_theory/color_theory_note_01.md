@@ -299,10 +299,12 @@ Maya의 [투과율 조절 가이드](https://docs.arnoldrenderer.com/display/A5A
 
 ![[maya_transmission_example.png]]
 
-#### 투명
-투과와 관련해서 물체의 특성을 가르킨다면, 투과율에 따라 사용되는 용어는 다음과 같다.
-- [투명 (Transparent)](https://en.wikipedia.org/wiki/Transparency_and_translucency) : 빛이 물체를 완전히 통과함 (투과율 1\*)
-- [반투명 (Translucent)](https://en.wikipedia.org/wiki/Transparency_and_translucency) : 빛이 물체를 일부 통과함 (0 < 투과율 < 1)
+#### 투명도
+빛이 투과한다는 것은 물체가 [투명 (Transparent)](https://en.wikipedia.org/wiki/Transparency_and_translucency)하다는 것과 동일하다.
+
+투과율/투명도에 따라 적용되는 용어는 다음과 같다.
+- 투명 : 빛이 물체를 완전히 통과함 (투과율 1\*)
+- 반투명 (Translucent) : 빛이 물체를 일부 통과함 (0 < 투과율 < 1)
 - [불투명 (Opaque)](https://en.wikipedia.org/wiki/Opacity_(optics)) : 빛이 물체를 통과할 수 없음 (투과율 0)
 
 \* 말이 투과율 1이지, 실제로 완벽한 투과는 아니다.
@@ -317,6 +319,8 @@ Maya의 [투과율 조절 가이드](https://docs.arnoldrenderer.com/display/A5A
 ![[refraction_diagram.svg]]
 
 굴절로 인해 광선의 각도가 영향을 받은 수준을 굴절각 (Angle of Refraction)이라고 한다. 굴절각을 구하는 수식은 [스넬의 법칙 (Snell's Law)](https://en.wikipedia.org/wiki/Snell%27s_law)이라고 한다.
+
+![[refraction-of-light-through-a-rectangular-glass-slab.png]]
 
 굴절에 영향을 주는 요소는 3가지 이다.
 1. 물체의 밀도
@@ -351,8 +355,6 @@ Maya의 [투과율 조절 가이드](https://docs.arnoldrenderer.com/display/A5A
 https://en.wikipedia.org/wiki/Dispersion_(optics) 참고
 
 ##### 굴절 추가 정리
-
-![[refraction-of-light-through-a-rectangular-glass-slab.png]]
 https://byjus.com/physics/tracing-path-of-a-ray-of-light-passing-through-a-glass-slab/
 
 
