@@ -190,7 +190,6 @@ __주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖�
 > 빛 파동의 반사 시뮬레이션 - [Ripple Tank Simulation](http://www.falstad.com/ripple/)
 
 #### 반사 모델링
-
 반사를 이해하려면 일단 간단한 모델링이 가능해야 한다.
 
 물체의 표면을 기준으로 수직선을 그린 것을 [법선](https://keystagewiki.com/index.php/Normal_(Physics)) [(Normal)](https://en.wikipedia.org/wiki/Normal_(geometry))이라고 하면, 법선을 기준으로
@@ -202,7 +201,6 @@ __주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖�
 ![[reflection_3d_model.svg]]
 
 #### 반사의 법칙
-
 빛은 [반사의 법칙 (Law of Reflection)](https://www.physicsclassroom.com/class/refln/Lesson-1/The-Law-of-Reflection) 을 따른다 :
 1. 입사각과 반사각은 동일하다.
 2. 입사광선과 반사광선은 동일한 평면에 위치한다 ([Coplanar](https://en.wikipedia.org/wiki/Coplanarity)).
@@ -210,11 +208,9 @@ __주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖�
 참고 : 음파 (Sound Wave)도 반사의 법칙을 따른다.
 
 #### 반사율
-
 반사율은 물체 표면에 광선이 반사되는 수준을 뜻한다.. 하지만, 이게 자세히 보니까 아주 아주 복잡하다. 반사율을 영어로 보면 Albedo, Reflectivity, Reflactance가 나오는데, 이게 각각 정의가 좀 다르면서 엄청 복잡하다!! #todo 반사율은 나중에 좀 더 삽질해본다.
 
 #### 반사의 종류
-
 반사는 정반사와 난반사, 이 두 가지로 분류가 된다.
 
 ![[reflection_comparison_01.PNG]]
@@ -281,27 +277,25 @@ __주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖�
 참고 자료 : [Reflection에 대한 잘못된 상식들](https://lifeisforu.tistory.com/383)
 
 ### 투과
-투과 (Transmission)는 빛이 물체를 통과하는 것을 뜻한다.
+투과 (Transmission)는 빛이 물체를 통과하는 현상을 뜻한다.
 
 ![[light_transmission_example_01.webp]]
 
-투과에 대한 정보가 의외로 없는데, 아마 이유는 빛이 이동하는 것 자체, 즉, [파동 전파 (Wave Propagation)](https://en.wikipedia.org/wiki/Wave_propagation)가 투과이기 때문일 것이다. 단지, 진공 (Vacuum)이 아닌 매게체 (Medium)을 통해 전파한다는 의미에서 "투과"라고 불리우는 것 같다.
+투과에 대한 정보가 의외로 없는데, 아마 이유는 빛이 이동하는 것 자체, 즉, [파동 전파 (Wave Propagation)](https://en.wikipedia.org/wiki/Wave_propagation)가 투과이기 때문일 것이다. 단지, 진공 (Vacuum)이 아닌 매개체 (Medium)을 통해 전파한다는 의미에서 "투과"라고 불리우는 것 같다.
 
-참고 : 진공도 매개체이긴 한데, 
+참고 : 진공도 개념적으로 매개체이긴 한데, 편의를 위해서 여기서 다루는 매개체는 입자로 체워져 있는 공간 또는 물체로 정의한다.
 
 투과 자체에 대한 정보는 많이 없다. 심지어 Wiki 페이지도 없다. 대신에, 투과와 마치 동의어로 여겨지는 [[#굴절]]에 대한 정보는 많다. 투과는 빛이 물체를 통과하는 현상을 뜻하고, 굴절은 빛이 물체를 투과하며 생기는 현상을 가르키는 듯 하다.
-
-![[sleeping_pikachu.png | 300]]
 
 #### 투과율
 __투과율__ 은 [Transmittance](https://en.wikipedia.org/wiki/Transmittance), [Transmissivity](https://www.collinsdictionary.com/de/worterbuch/englisch/transmissivity), 또는 [투과 계수 (Transmission Coefficient)](https://en.wikipedia.org/wiki/Transmission_coefficient#Optics)로 불린다.. 각 용어에 따라 정의가 다르긴 한데, 일단 여기선 넘어간다 ([참고 자료 1](https://www.swiftglass.com/blog/key-differences-transmission-transmittance-apply-application), [참고 자료 2](https://www.iesve.com/support/ve/knowledgebase_faq/faq/1282))
 
 Maya의 [투과율 조절 가이드](https://docs.arnoldrenderer.com/display/A5AFMUG/Transmission)를 참고해보면 좋을 것 같다.
 
-![[maya_transmission_example.png]]
-
-#### 투명도
+##### 투명도
 빛이 투과한다는 것은 물체가 [투명 (Transparent)](https://en.wikipedia.org/wiki/Transparency_and_translucency)하다는 것과 동일하다.
+
+![[maya_transmission_example.png]]
 
 투과율/투명도에 따라 적용되는 용어는 다음과 같다.
 - 투명 : 빛이 물체를 완전히 통과함 (투과율 1\*)
@@ -309,6 +303,8 @@ Maya의 [투과율 조절 가이드](https://docs.arnoldrenderer.com/display/A5A
 - [불투명 (Opaque)](https://en.wikipedia.org/wiki/Opacity_(optics)) : 빛이 물체를 통과할 수 없음 (투과율 0)
 
 \* 말이 투과율 1이지, 실제로 완벽한 투과는 아니다.
+
+![[sleeping_pikachu.png | 300]]
 
 #### 굴절
 [굴절 Refraction](https://en.wikipedia.org/wiki/Refraction)은 빛이 물체를 투과하면서 방향이 뒤틀려 보이는 현상을 뜻한다.
@@ -337,9 +333,9 @@ Maya의 [투과율 조절 가이드](https://docs.arnoldrenderer.com/display/A5A
 
 ![[refraction_more_dense_to_less_dense.png]]
 
-물체의 밀도가 높을수록 물체를 투과하는 빛의 속도가 느려지며, 느려지는 수준을 [굴절율 (Refractive Index)]이라 한다. 참고로, 빛의 속도가 느려진다고 해도 파장/진동수에는 영향을 주지 않는다.
+물체의 밀도가 높을수록 물체를 투과하는 빛의 속도가 느려지며\*, 느려지는 수준을 [굴절율 (Refractive Index)]이라 한다. 참고로, 빛의 속도가 느려진다고 해도 파장/진동수에는 영향을 주지 않는다.
 
-주의 : 보통 "빛의 속도가 느려진다"고 표현되는데, 사실 빛의 속도가 느려지는게 아니라 [위상 속도](http://www.ktword.co.kr/test/view/view.php?m_temp1=3793&id=1009) [(Phase Velocity)](https://en.wikipedia.org/wiki/Phase_velocity)가 느려지는 것이다. 다르게 말하면, 빛의 속도는 일정하되 빛이 전달되는 속도는 느려진다. 빛의 속도는 절대적이며, 불변하다. 빛이 물체를 투과하고 나온 창발광선의 속도는 입사광선의 속도와 동일하다. 이는 파동-입자 이중성과 관련되며, 내 생각에는 빛은 파동 안에 파동으로 생각하면 이해하기 더 쉽지 않을까 싶다.
+\* 주의 : 보통 "빛의 속도가 느려진다"고 표현되는데, 사실 빛의 속도가 느려지는게 아니라 [위상 속도](http://www.ktword.co.kr/test/view/view.php?m_temp1=3793&id=1009) [(Phase Velocity)](https://en.wikipedia.org/wiki/Phase_velocity)가 느려지는 것이다. 다르게 말하면, 빛의 속도는 일정하되 빛이 전달되는 속도는 느려진다. 빛의 속도는 절대적이며, 불변하다. 빛이 물체를 투과하고 나온 창발광선의 속도는 입사광선의 속도와 동일하다. 이는 [파동-입자 이중성](https://en.wikipedia.org/wiki/Wave%E2%80%93particle_duality)과 관련되며, 내 생각에는 빛은 파동 안에 파동으로 생각하면 이해하기 더 쉽지 않을까 싶다.
 
 ![[wave_packet_propagation.gif]]
 
