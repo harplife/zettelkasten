@@ -287,6 +287,10 @@ __주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖�
 
 투과 자체에 대한 정보는 많이 없다. 심지어 Wiki 페이지도 없다. 대신에, 투과와 마치 동의어로 여겨지는 [[#굴절]]에 대한 정보는 많다. 투과는 빛이 물체를 통과하는 현상을 뜻하고, 굴절은 빛이 물체를 투과하며 생기는 현상을 가르키는 듯 하다.
 
+투과의 원리에 대해서 좀 더 찾아본 결과, 그나마 "이해된다"고 생각되는 설명은 밑에와 같다.
+
+물체의 입자는 빛을 흡수하고, 진동하여 다시 빛을 낸다.
+
 #### 투과율
 __투과율__ 은 [Transmittance](https://en.wikipedia.org/wiki/Transmittance), [Transmissivity](https://www.collinsdictionary.com/de/worterbuch/englisch/transmissivity), 또는 [투과 계수 (Transmission Coefficient)](https://en.wikipedia.org/wiki/Transmission_coefficient#Optics)로 불린다.. 각 용어에 따라 정의가 다르긴 한데, 일단 여기선 넘어간다 ([참고 자료 1](https://www.swiftglass.com/blog/key-differences-transmission-transmittance-apply-application), [참고 자료 2](https://www.iesve.com/support/ve/knowledgebase_faq/faq/1282))
 
