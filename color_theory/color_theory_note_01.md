@@ -179,6 +179,19 @@ __주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖�
 
 [창발광선 (Emergent Ray)](https://www.photonics.com/EDU/emergent_ray/d3818)은 물체의 두 표면을 투과하고 나오는 광선을 뜻한다. 일반적으로 사용되는 단어는 아닌 듯 싶은데, 주로 [[#굴절]]과 관련되어 나올때가 있다.
 
+### 파동 전파
+[파동 전파 (Wave Propagation)](https://en.wikipedia.org/wiki/Wave_propagation)는 파동이 이동하는 모든 방식을 뜻한다. 빛은 입자이며 파동이니, 파동이 이동하는 방식을 이해해야 한다.
+
+진공 (Vacuum)에서 이동하는 빛은 그나마 간단하다. 아인슈타인이 정의한데로, 진공에 [빛의 속도](https://en.wikipedia.org/wiki/Speed_of_light)는 대략 300,000 km/s 이며, [특수 상대성 이론 (Special Relativity)](https://en.wikipedia.org/wiki/Special_relativity)에 있어 빛의 속도는 상수 (Constant)이다.
+
+그런데 빛이 물체를 통해 이동할 때는 아~주 복잡해진다. 애초에 빈 공간이 아닌데 어떻게 지나갈까?
+
+처음에는 빛이 입자이며 아주 작기 때문에 입자와 입자 사이의 미세한 틈을 통해서 그냥 지나간다고 생각했다. 하지만 좀 더 찾아본 결과, 빛은 틈세를 통과하는게 아니라 물체의 입자를 통해 전달된다고 한다.
+
+물체의 입자는 빛을 흡수하고, 진동하여 다시 빛을 낸다.
+
+![[molecular_vibration_by_photon.png]]
+
 ### 반사
 [반사 (Reflection)](https://en.wikipedia.org/wiki/Reflection_(physics))는 광선이 물체의 표면에 도달하여 다른 방향으로 튕겨 나가는 현상을 의미한다. 빛이 빛의 파장 (Wavelength)보다 큰 장애물에 부닥칠 경우에 반사된다고 한다.
 
@@ -286,10 +299,6 @@ __주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖�
 참고 : 진공도 개념적으로 매개체이긴 한데, 편의를 위해서 여기서 다루는 매개체는 입자로 체워져 있는 공간 또는 물체로 정의한다.
 
 투과 자체에 대한 정보는 많이 없다. 심지어 Wiki 페이지도 없다. 대신에, 투과와 마치 동의어로 여겨지는 [[#굴절]]에 대한 정보는 많다. 투과는 빛이 물체를 통과하는 현상을 뜻하고, 굴절은 빛이 물체를 투과하며 생기는 현상을 가르키는 듯 하다.
-
-투과의 원리에 대해서 좀 더 찾아본 결과, 그나마 "이해된다"고 생각되는 설명은 밑에와 같다.
-
-물체의 입자는 빛을 흡수하고, 진동하여 다시 빛을 낸다.
 
 #### 투과율
 __투과율__ 은 [Transmittance](https://en.wikipedia.org/wiki/Transmittance), [Transmissivity](https://www.collinsdictionary.com/de/worterbuch/englisch/transmissivity), 또는 [투과 계수 (Transmission Coefficient)](https://en.wikipedia.org/wiki/Transmission_coefficient#Optics)로 불린다.. 각 용어에 따라 정의가 다르긴 한데, 일단 여기선 넘어간다 ([참고 자료 1](https://www.swiftglass.com/blog/key-differences-transmission-transmittance-apply-application), [참고 자료 2](https://www.iesve.com/support/ve/knowledgebase_faq/faq/1282))
