@@ -284,26 +284,22 @@ __주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖�
 
 ![[light_transmission_example_01.webp]]
 
-투과에 대한 정보가 의외로 없는데, 아마 이유는 빛이 이동하는 것 자체, 즉, [파동 전파 (Wave Propagation)](https://en.wikipedia.org/wiki/Wave_propagation)가 투과이기 때문일 것이다. 단지, 진공 (Vacuum)이 아닌 매게체 (medium)을 통해 지나간다는 의미에서 "투과"라고 불리우는 것 같다.
+투과에 대한 정보가 의외로 없는데, 아마 이유는 빛이 이동하는 것 자체, 즉, [파동 전파 (Wave Propagation)](https://en.wikipedia.org/wiki/Wave_propagation)가 투과이기 때문일 것이다. 단지, 진공 (Vacuum)이 아닌 매게체 (Medium)을 통해 전파한다는 의미에서 "투과"라고 불리우는 것 같다.
+
+참고 : 진공도 매개체이긴 한데, 
 
 투과 자체에 대한 정보는 많이 없다. 심지어 Wiki 페이지도 없다. 대신에, 투과와 마치 동의어로 여겨지는 [[#굴절]]에 대한 정보는 많다. 투과는 빛이 물체를 통과하는 현상을 뜻하고, 굴절은 빛이 물체를 투과하며 생기는 현상을 가르키는 듯 하다.
 
-투과에 대하여 "대충" 이해한 바로, 물체의 전자 (Electron)의 진동하는 수준과 빛의 파장 (Wavelength)과 관련되어 있다는 것이며, 충분히 진동하면 투과 (Transmission)되는 것이고, 그렇지 않으면 반사 (Reflection)되는 것이다.
-
-이게 [파동-입자 이중성 (Wave-Particle Duality)](https://en.wikipedia.org/wiki/Wave%E2%80%93particle_duality)과 관련된 사항이니, 더 깊숙하게 이해하려는 것은 깨끗하게 포기한다!
-
 ![[sleeping_pikachu.png | 300]]
 
-그러면 투과에 대해서 무엇을 이해해야 할까?
-
-일단 용어에 대해서 좀 정리해본다.
-
+#### 투과율
 __투과율__ 은 [Transmittance](https://en.wikipedia.org/wiki/Transmittance), [Transmissivity](https://www.collinsdictionary.com/de/worterbuch/englisch/transmissivity), 또는 [투과 계수 (Transmission Coefficient)](https://en.wikipedia.org/wiki/Transmission_coefficient#Optics)로 불린다.. 각 용어에 따라 정의가 다르긴 한데, 일단 여기선 넘어간다 ([참고 자료 1](https://www.swiftglass.com/blog/key-differences-transmission-transmittance-apply-application), [참고 자료 2](https://www.iesve.com/support/ve/knowledgebase_faq/faq/1282))
 
 Maya의 [투과율 조절 가이드](https://docs.arnoldrenderer.com/display/A5AFMUG/Transmission)를 참고해보면 좋을 것 같다.
 
 ![[maya_transmission_example.png]]
 
+#### 투명
 투과와 관련해서 물체의 특성을 가르킨다면, 투과율에 따라 사용되는 용어는 다음과 같다.
 - [투명 (Transparent)](https://en.wikipedia.org/wiki/Transparency_and_translucency) : 빛이 물체를 완전히 통과함 (투과율 1\*)
 - [반투명 (Translucent)](https://en.wikipedia.org/wiki/Transparency_and_translucency) : 빛이 물체를 일부 통과함 (0 < 투과율 < 1)
