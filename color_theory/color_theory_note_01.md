@@ -286,9 +286,9 @@ __주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖�
 
 투과에 대한 정보가 의외로 없는데, 아마 이유는 빛이 이동하는 것 자체, 즉, [파동 전파 (Wave Propagation)](https://en.wikipedia.org/wiki/Wave_propagation)가 투과이기 때문일 것이다. 단지, 진공 (Vacuum)이 아닌 매게체 (medium)을 통해 지나간다는 의미에서 "투과"라고 불리우는 것 같다.
 
-투과의 wiki 페이지가 없는게, 
+투과 자체에 대한 정보는 많이 없다. 심지어 Wiki 페이지도 없다. 대신에, 투과와 마치 동의어로 여겨지는 [[#굴절]]에 대한 정보는 많다. 투과는 빛이 물체를 통과하는 현상을 뜻하고, 굴절은 빛이 물체를 투과하며 생기는 현상을 가르키는 듯 하다.
 
-그나마 "대충" 이해한 바로, 물체의 전자 (Electron)의 진동하는 수준과 빛의 파장 (Wavelength)과 관련되어 있다는 것이며, 충분히 진동하면 투과 (Transmission)되는 것이고, 그렇지 않으면 반사 (Reflection)되는 것이다.
+투과에 대하여 "대충" 이해한 바로, 물체의 전자 (Electron)의 진동하는 수준과 빛의 파장 (Wavelength)과 관련되어 있다는 것이며, 충분히 진동하면 투과 (Transmission)되는 것이고, 그렇지 않으면 반사 (Reflection)되는 것이다.
 
 이게 [파동-입자 이중성 (Wave-Particle Duality)](https://en.wikipedia.org/wiki/Wave%E2%80%93particle_duality)과 관련된 사항이니, 더 깊숙하게 이해하려는 것은 깨끗하게 포기한다!
 
