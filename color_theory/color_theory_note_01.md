@@ -182,11 +182,15 @@ __주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖�
 ### 파동 전파
 [파동 전파 (Wave Propagation)](https://en.wikipedia.org/wiki/Wave_propagation)는 파동이 이동하는 모든 방식을 뜻한다. 빛은 입자이며 파동이니, 파동이 이동하는 방식을 이해해야 한다.
 
-진공 (Vacuum)에서 이동하는 빛은 그나마 간단하다. 아인슈타인이 정의한데로, 진공에 [빛의 속도](https://en.wikipedia.org/wiki/Speed_of_light)는 대략 300,000 km/s 이며, [특수 상대성 이론 (Special Relativity)](https://en.wikipedia.org/wiki/Special_relativity)에 있어 빛의 속도는 상수 (Constant)이다.
+아인슈타인이 정의한데로, 진공 (Vaccum)에 [빛의 속도](https://en.wikipedia.org/wiki/Speed_of_light)는 대략 300,000 km/s 이며, [특수 상대성 이론 (Special Relativity)](https://en.wikipedia.org/wiki/Special_relativity)에 있어 빛의 속도는 상수 (Constant)이다.
+
+진공은 빈 공간이고, 빛은 진동인데, 그럼 빈 공간에서 무엇이 진동하는 것일까?
+
+진공은 사실 "모든 것"이 비어있는게 아니다 - 세계 모든 곳에 [전자기장 (Electromagnetic Field)](https://en.wikipedia.org/wiki/Electromagnetic_field)이 존재하며, 진공에도 마찬가지로 전자기장이 존재한다. [[#가시광선]] 섹션에서 정리했듯이, 빛이 [전자기파 (Electromagnetic Radiation)](https://en.wikipedia.org/wiki/Electromagnetic_radiation)라는 것을 다시 상기해보면, 진공에서 빛은 전자기장의 변화 또는 진동이라고 볼 수 있다.
 
 그런데 빛이 물체를 통해 이동할 때는 아~주 복잡해진다. 애초에 빈 공간이 아닌데 어떻게 지나갈까?
 
-처음에는 빛이 입자이며 아주 작기 때문에 입자와 입자 사이의 미세한 틈을 통해서 그냥 지나간다고 생각했다. 하지만 좀 더 찾아본 결과, 빛은 틈세를 통과하는게 아니라 물체의 입자를 통해 전달된다고 한다.
+처음에는 빛이 입자이며 아주 작기 때문에 입자와 입자 사이의 미세한 틈을 통해서 그냥 지나간다고 생각했다. 하지만 좀 더 찾아본 결과, 빛은 틈세를 통과하는게 아니라 물체의 입자를 통해 전달된다고 한다. 그러면 애초에 빛이 입자를 통해 전달되는 것이면, 진공에서 어떻게 이동하는 것인지??
 
 물체의 입자는 빛을 흡수하고, 진동하여 다시 빛을 낸다.
 
