@@ -284,7 +284,9 @@ __주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖�
 
 ![[light_transmission_example_01.webp]]
 
-투과의 원리는 끔찍하게도 복잡하다. 심지어 너무 복잡해서 wiki 페이지도 없다.
+투과에 대한 정보가 의외로 없는데, 아마 이유는 빛이 이동하는 것 자체, 즉, [파동 전파 (Wave Propagation)](https://en.wikipedia.org/wiki/Wave_propagation)가 투과이기 때문일 것이다. 단지, 진공 (Vacuum)이 아닌 매게체 (medium)을 통해 지나간다는 의미에서 "투과"라고 불리우는 것 같다.
+
+투과의 wiki 페이지가 없는게, 
 
 그나마 "대충" 이해한 바로, 물체의 전자 (Electron)의 진동하는 수준과 빛의 파장 (Wavelength)과 관련되어 있다는 것이며, 충분히 진동하면 투과 (Transmission)되는 것이고, 그렇지 않으면 반사 (Reflection)되는 것이다.
 
@@ -308,6 +310,64 @@ Maya의 [투과율 조절 가이드](https://docs.arnoldrenderer.com/display/A5A
 - [불투명 (Opaque)](https://en.wikipedia.org/wiki/Opacity_(optics)) : 빛이 물체를 통과할 수 없음 (투과율 0)
 
 \* 말이 투과율 1이지, 실제로 완벽한 투과는 아니다.
+
+#### 굴절
+[굴절 Refraction](https://en.wikipedia.org/wiki/Refraction)은 빛이 물체를 투과하면서 방향이 뒤틀려 보이는 현상을 뜻한다.
+
+![[light_refraction_by_water.PNG]]
+
+굴절은 물체의 표면에서만 일어나는 현상이다 - 보다 정확한 표현은, 굴절은 서로 밀도 (Density)가 다른 물체와 물체의 경계면에서만 일어나는 현상이다.
+
+![[refraction_diagram.svg]]
+
+굴절로 인해 광선의 각도가 영향을 받은 수준을 굴절각 (Angle of Refraction)이라고 한다. 굴절각을 구하는 수식은 [스넬의 법칙 (Snell's Law)](https://en.wikipedia.org/wiki/Snell%27s_law)이라고 한다.
+
+굴절에 영향을 주는 요소는 3가지 이다.
+1. 물체의 밀도
+2. 입사각
+3. 파장
+
+##### 물체의 밀도에 따른 굴절
+빛이 밀도가 더 높은 물체의 표면을 넘어갈 경우, 광선의 방향은 법선 (Normal)에 더 가까워진다.
+
+![[refraction_less_dense_to_more_dense.png]]
+
+빛이 밀도가 더 낮은 물체의 표면을 넘어갈 경우, 광선의 방향은 법선 (Normal)으로부터 더 멀어진다.
+
+![[refraction_more_dense_to_less_dense.png]]
+
+물체의 밀도가 높을수록 물체를 투과하는 빛의 속도가 느려지며, 느려지는 수준을 [굴절율 (Refractive Index)]이라 한다. 참고로, 빛의 속도가 느려진다고 해도 파장/진동수에는 영향을 주지 않는다.
+
+주의 : 보통 "빛의 속도가 느려진다"고 표현되는데, 사실 빛의 속도가 느려지는게 아니라 [위상 속도](http://www.ktword.co.kr/test/view/view.php?m_temp1=3793&id=1009) [(Phase Velocity)](https://en.wikipedia.org/wiki/Phase_velocity)가 느려지는 것이다. 다르게 말하면, 빛의 속도는 일정하되 빛이 전달되는 속도는 느려진다. 빛의 속도는 절대적이며, 불변하다. 빛이 물체를 투과하고 나온 창발광선의 속도는 입사광선의 속도와 동일하다. 이는 파동-입자 이중성과 관련되며, 내 생각에는 빛은 파동 안에 파동으로 생각하면 이해하기 더 쉽지 않을까 싶다.
+
+![[wave_packet_propagation.gif]]
+
+일반적으로 밀도가 높은 경우 굴절율이 높되, 항상 선형관계 (Linear Relationship)을 이루는 것은 아니다. 따라서, 굴절 또는 그 외의 현상에 대해서 설명할때 밀도 대신 굴절율 위주로 정리가 된다.
+
+굴절율이 낮은 물체에서 높은 물체로 빛이 넘어갈 때 굴절각은 입사각보다 크다. 반대로, 굴절율이 높은 물체에서 낮은 물체로 빛이 넘어갈떄 굴절각은 입사각보다 작다.
+
+한 마디로, 밀도가 높을수록 굴절율이 높고, 굴절율이 높을 수록 굴절각도 높아진다.
+
+##### 입사각에 따른 굴절
+입사각이 0이면 굴절각도 0이다. 입사각이 높을수록 굴절각도 높아진다.
+
+##### 파장
+https://en.wikipedia.org/wiki/Dispersion_(optics) 참고
+
+##### 굴절 추가 정리
+
+![[refraction-of-light-through-a-rectangular-glass-slab.png]]
+https://byjus.com/physics/tracing-path-of-a-ray-of-light-passing-through-a-glass-slab/
+
+
+https://flexbooks.ck12.org/cbook/ck-12-middle-school-physical-science-flexbook-2.0/section/19.7/primary/lesson/refraction-ms-ps/
+
+![[light_refraction_by_glass.PNG]]
+
+![[light_refraction_by_heat.PNG]]
+
+##### 굴절 법칙
+굴절 법칙은 입사각과 굴절각의 관계를 정의한 수식으로, Law of Refraction 또는 [Snell's Law](https://en.wikipedia.org/wiki/Snell%27s_law)로 불리운다.
 
 ### 흡수
 [흡수/흡광 (Absorption)](https://en.wikipedia.org/wiki/Absorption_(electromagnetic_radiation))은 빛이 물체로 인해 [광도 (Luminous Intensity)](https://en.wikipedia.org/wiki/Luminous_intensity)가 줄어드는 현상을 뜻한다.
@@ -334,64 +394,6 @@ Maya의 [투과율 조절 가이드](https://docs.arnoldrenderer.com/display/A5A
 𝑐 : [Molarity / Molar Concentration]
 
 대충 이해한 바로는, 최종 흡수된 수준은 물질의 흡수하는 성질, 빛이 투과하는 길이, 그리고 밀도(?)의 곱으로서 나온다는 것 같다.
-
-### 굴절
-[굴절 Refraction](https://en.wikipedia.org/wiki/Refraction)은 빛이 물체를 투과하면서 방향이 뒤틀려 보이는 현상을 뜻한다.
-
-![[light_refraction_by_water.PNG]]
-
-굴절은 물체의 표면에서만 일어나는 현상이다 - 보다 정확한 표현은, 굴절은 서로 밀도 (Density)가 다른 물체와 물체의 경계면에서만 일어나는 현상이다.
-
-![[refraction_diagram.svg]]
-
-굴절로 인해 광선의 각도가 영향을 받은 수준을 굴절각 (Angle of Refraction)이라고 한다. 굴절각을 구하는 수식은 [스넬의 법칙 (Snell's Law)](https://en.wikipedia.org/wiki/Snell%27s_law)이라고 한다.
-
-굴절에 영향을 주는 요소는 3가지 이다.
-1. 물체의 밀도
-2. 입사각
-3. 파장
-
-#### 물체의 밀도에 따른 굴절
-빛이 밀도가 더 높은 물체의 표면을 넘어갈 경우, 광선의 방향은 법선 (Normal)에 더 가까워진다.
-
-![[refraction_less_dense_to_more_dense.png]]
-
-빛이 밀도가 더 낮은 물체의 표면을 넘어갈 경우, 광선의 방향은 법선 (Normal)으로부터 더 멀어진다.
-
-![[refraction_more_dense_to_less_dense.png]]
-
-물체의 밀도가 높을수록 물체를 투과하는 빛의 속도가 느려지며, 느려지는 수준을 [굴절율 (Refractive Index)]이라 한다. 참고로, 빛의 속도가 느려진다고 해도 파장/진동수에는 영향을 주지 않는다.
-
-주의 : 보통 "빛의 속도가 느려진다"고 표현되는데, 사실 빛의 속도가 느려지는게 아니라 [위상 속도](http://www.ktword.co.kr/test/view/view.php?m_temp1=3793&id=1009) [(Phase Velocity)](https://en.wikipedia.org/wiki/Phase_velocity)가 느려지는 것이다. 다르게 말하면, 빛의 속도는 일정하되 빛이 전달되는 속도는 느려진다. 빛의 속도는 절대적이며, 불변하다. 빛이 물체를 투과하고 나온 창발광선의 속도는 입사광선의 속도와 동일하다. 이는 파동-입자 이중성과 관련되며, 내 생각에는 빛은 파동 안에 파동으로 생각하면 이해하기 더 쉽지 않을까 싶다.
-
-![[wave_packet_propagation.gif]]
-
-일반적으로 밀도가 높은 경우 굴절율이 높되, 항상 선형관계 (Linear Relationship)을 이루는 것은 아니다. 따라서, 굴절 또는 그 외의 현상에 대해서 설명할때 밀도 대신 굴절율 위주로 정리가 된다.
-
-굴절율이 낮은 물체에서 높은 물체로 빛이 넘어갈 때 굴절각은 입사각보다 크다. 반대로, 굴절율이 높은 물체에서 낮은 물체로 빛이 넘어갈떄 굴절각은 입사각보다 작다.
-
-한 마디로, 밀도가 높을수록 굴절율이 높고, 굴절율이 높을 수록 굴절각도 높아진다.
-
-#### 입사각에 따른 굴절
-입사각이 0이면 굴절각도 0이다. 입사각이 높을수록 굴절각도 높아진다.
-
-#### 파장
-https://en.wikipedia.org/wiki/Dispersion_(optics) 참고
-
-#### 굴절 추가 정리
-
-![[refraction-of-light-through-a-rectangular-glass-slab.png]]
-https://byjus.com/physics/tracing-path-of-a-ray-of-light-passing-through-a-glass-slab/
-
-
-https://flexbooks.ck12.org/cbook/ck-12-middle-school-physical-science-flexbook-2.0/section/19.7/primary/lesson/refraction-ms-ps/
-
-![[light_refraction_by_glass.PNG]]
-
-![[light_refraction_by_heat.PNG]]
-
-#### 굴절 법칙
-굴절 법칙은 입사각과 굴절각의 관계를 정의한 수식으로, Law of Refraction 또는 [Snell's Law](https://en.wikipedia.org/wiki/Snell%27s_law)로 불리운다.
 
 ### 회절
 Diffraction
