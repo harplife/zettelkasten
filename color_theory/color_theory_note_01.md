@@ -181,7 +181,7 @@ __주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖�
 [창발광선 (Emergent Ray)](https://www.photonics.com/EDU/emergent_ray/d3818)은 물체의 두 표면을 투과하고 나오는 광선을 뜻한다. 일반적으로 사용되는 단어는 아닌 듯 싶은데, 주로 [[#굴절]]과 관련되어 나올때가 있다.
 
 ### 파동 전파
-[파동 전파 (Wave Propagation)](https://en.wikipedia.org/wiki/Wave_propagation)는 파동이 이동하는 모든 방식을 뜻한다. 빛은 입자이며 파동이니, 파동이 이동하는 방식을 이해해야 한다.
+[파동 전파 (Wave Propagation)](https://en.wikipedia.org/wiki/Wave_propagation)는 파동이 이동하는 모든 방식을 뜻한다. 빛은 입자이며 파동이니, 파동이 이동하는 방식을 우선 정리해본다.
 
 아인슈타인이 정의한데로, 진공 (Vacuum)에 [빛의 속도](https://en.wikipedia.org/wiki/Speed_of_light)는 대략 300,000 km/s 이며, [특수 상대성 이론 (Special Relativity)](https://en.wikipedia.org/wiki/Special_relativity)에 있어 빛의 속도는 상수 (Constant)이다.
 
