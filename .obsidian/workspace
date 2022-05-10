@@ -134,7 +134,7 @@
               "leaf": "87ea834a7b108cf6",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"color_theory/color_theory_note_01.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":21},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+              "eState": "{\"scroll\":0}"
             }
           ]
         }
@@ -156,7 +156,7 @@
               "leaf": "7e9096f07dc4aa4c",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"color_theory/light_matter_interaction.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":36.31438127090301}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":42,\"ch\":396},\"to\":{\"line\":42,\"ch\":396}},\"scroll\":0}"
             }
           ]
         }
@@ -224,7 +224,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "color_theory/light_matter_interaction.md",
+                "file": "color_theory/color_theory_note_01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -260,7 +260,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "color_theory/light_matter_interaction.md"
+                "file": "color_theory/color_theory_note_01.md"
               }
             },
             "pane-relief:history-v1": {
@@ -275,10 +275,10 @@
     "direction": "horizontal",
     "width": 316.5
   },
-  "active": "7e9096f07dc4aa4c",
+  "active": "87ea834a7b108cf6",
   "lastOpenFiles": [
-    "color_theory/light_matter_interaction.md",
     "color_theory/color_theory_note_01.md",
+    "color_theory/light_matter_interaction.md",
     "computer_science/computer_vision/computer_graphics_note_1.md",
     "todo/todo_log_2022.md",
     "careers/technical_director/shubha_jagannatha/shubha_jagannatha.md",
