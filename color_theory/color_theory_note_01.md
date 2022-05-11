@@ -3,36 +3,53 @@ aliases: [Color Theory Note 1]
 tags: [computer_vision, computer_graphics, color_theory, study]
 status: ongoing
 created: 2022-04-01
-edited: 2022-04-22
+edited: 2022-05-11
 ---
 
 # Color Theory Note 1
-[색 (Color)](https://en.wikipedia.org/wiki/Color)은 무엇인가? 색은 어떻게 발생하는가? 색을 어떻게 구분하는가?
+[색 (Color)](https://en.wikipedia.org/wiki/Color)은 무엇인가? 색은 어떻게 발생하는가? 색을 어떻게 구분하는가? 색을 이해하기 위해서 어디서 부터 시작해야 할까? 색을 이해하기 위해서, 어떤 자료를 찾아봐야 할까?
 
-색을 연구하는 것을 색체 과학/공학 (Color Science)이라고 한다. 흔한 분야는 아니고, 디자인 분야하고 많이 헷갈린다 (마치 음향 공학처럼).
+아쉽게도 색에 대한 모든 정보를 한번에 정리하는 연구 분야가 없다 - 정확히는, 색과 관련된 연구분야는 많지만, 색에 관련된 정보를 하나의 분야로 정의하기는 어렵다.
 
-물리학에서 빛/색을 연구하는 분야를 Chromatic 으로 부른다. 근데 Chromatic은 음악 분야에 너무 많이 사용되는 단어라, 색과 관련된 Chromatic은 구글 검색에서도 잘 안 뜬다.
+색은 빛이고, 빛은 전자기파 (Electromagnetic Wave)이다. 색을 이해하기 위해서는 빛을 이해해야 하고, 빛을 이해하기 위해서는 전자기파를 이해해야 한다. 문제는 전자기파는 물리학, 화학, 천문학에서 다루는 주제이고, 심지어 아주 심오한 특수 상대성 이론과 양자역학과도 연결되어 있다.
 
-과학과 기술을 동원해 정량적으로 색을 측정하는 것을 [색 측정법 (Colorimetry)](https://en.wikipedia.org/wiki/Colorimetry)이라고 한다.
+더 나아가, 색은 사람의 지각 (Perception)과도 관련되어 있기 때문에, 생체학과 심리학과 연결되어 있다.
 
-여러 이름들이 있어서 좀 복잡한데, [Color Vision](https://en.wikipedia.org/wiki/Color_vision)이 그나마 좀 잘 검색되는 것 같다.
+"색을 연구하는 분야"라고 치면 나오는 결과는 밑에와 같다.
+1. 색체 과학 (Color Science) : 말 그대로 색을 연구하는 과학 분야인데, 흔한 분야는 아닌것 같다. 약간 음향공학과 같은 애매한 수준의 연구분야가 아닐까 싶다.
+2. Chromatics : 물리학에서 빛/색을 연구하는 하위분야인 듯 싶다. 근데 Chromatics은 음악 분야에 너무 많이 사용되는 용어라, 색과 관련된 Chromatic은 구글 검색에서도 잘 안 뜬다.
+3. [색 측정법 (Colorimetry)](https://en.wikipedia.org/wiki/Colorimetry) : 과학과 기술을 동원해 정량적으로 색을 측정하는 분야이다.
+4. [Color Vision](https://en.wikipedia.org/wiki/Color_vision) : 연구분야라고 하긴 어려운데, 의외로 위키에서 연결된 자료들이 많다.
+5. [분광학 (Spectroscopy)](https://en.wikipedia.org/wiki/Spectroscopy) : 빛과 물질 간의 상호작용을 연구하는 분야이다.
+6. [광학 (Optics)](https://en.wikipedia.org/wiki/Optics) : 빛의 성질 및 관련 현상을 연구하는 분야이다.
 
-왜 이렇게 이름들이 많은지.. 물리학 분야에 빛의 특성을 연구하는 필드를 [광학 (Optics)](https://en.wikipedia.org/wiki/Optics)이라 한다.
-
-색은 광원-물체-관찰자의 관계로 이루어지기 때문에, 색을 이해하려면 물리학, 화학, 생물학, 신경과학, 심리학 등 여러 분야에 이해도가 좀 있어야 된다.
+색을 어떤 구조로, 얼만큼 깊게 정리할지는 잘 모르겠다. 그나마 아는 것은, 색을 연구하기 위해서 빛-물체-사람과의 관계를 연구해야 한다는 것이다.
 
 ![[relationship_of_color.png]]
 
 ![[color_relationship.PNG]]
 
-여기서 다루는 내용은 "내가 이해할 수 있는" 수준으로 간단하게 정리한 것이기 때문에, 좀 더 정확한 정보는 따로 리서치 해봐야 한다.
+일단 색에 대한 정리로 크게 6가지로 구분하고 싶다.
+1. 색의 정의
+2. 빛의 특성
+3. 물체의 특성
+4. 생체의 특성
+5. 색 공간
+6. 색 연구의 역사
 
 > ![[light_dispersion_prism.PNG]]
 > 색 연구의 시작, [회절격자 (Diffraction Grating)](https://en.wikipedia.org/wiki/Diffraction_grating)
 
 __주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖춘 것을 뜻하는 것보다는 그냥 어떤 것 (Thing)을 가리키는 용도로 사용된다. _매질/매개체 (Medium)_ 등 호환되는 단어로 사용한다.
 
-## 가시광선
+## 색의 정의
+#todo 색은 빛-물체 상호작용으로부터 파생된 시지각적 특성 (Visual Perceptual Property)이다...라고 정의하면 될 듯 싶다. 아직 그리 마음에 드는 정의는 없는 듯 싶다.
+
+색은 빛으로부터 파생된다. [빛 (Light)](https://en.wikipedia.org/wiki/Light)은 눈으로 식별할 수 있는 [전자기파 (Electromagnetic Radiation)](https://en.wikipedia.org/wiki/Electromagnetic_radiation)이다.
+
+눈으로 식별 가능한 전자기파의 범위를 [[#가시광선]]이라고 한다.
+
+### 가시광선
 [가시광선 (Visible Light)](https://en.wikipedia.org/wiki/Visible_spectrum)은 사람의 눈에 보이는 [전자기파](https://en.wikipedia.org/wiki/Electromagnetic_spectrum)의 영역을 뜻한다.
 
 ![[electromagnetic_spectrum.webp]]
@@ -43,8 +60,8 @@ __주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖�
 
 참고 1 : [적외선 (Infrared)](https://en.wikipedia.org/wiki/Infrared)과 [자외선 (Ultraviolet)](https://en.wikipedia.org/wiki/Ultraviolet)은 가시광선에 속하지 않지만 특수 카메라를 사용하여 볼수가 있다.
 
-### 단색광
-물리학에선 단일 주파수 (Single Constant Frequency)로 진동하는 전자기파를 [Monochromatic Radiation](https://en.wikipedia.org/wiki/Monochromatic_radiation)이라 부른다. 따라서, 단일 주파수로 진동하는 빛 또는 단일 파장으로 대표되는 좁은 파장 범위에 포함되는 빛을 __Monochromatic Light__ 이라 부르며, 일반적으로는 [단색광 (Spectral Color)](https://en.wikipedia.org/wiki/Spectral_color)이라 부른다.
+#### 단색광
+물리학에서 단일 주파수 (Single Constant Frequency)로 진동하는 전자기파를 [단색 복사 (Monochromatic Radiation)](https://en.wikipedia.org/wiki/Monochromatic_radiation)라 부른다. 가시광선 영역에 단일 주파수로 진동하는 빛을 __단색광 (Monochromatic Light)__ 이라 부르며,  일반적으로 [Spectral Color](https://en.wikipedia.org/wiki/Spectral_color)로 불리는 경향이 있다.
 
 단색광이란 이름이 좀 어색한데, 그냥 "하나의 색"인 _단색_ 으로 이해해도 크게 문제 없을 듯 하다. 단색광은 그저 하나의 주파수가 하나의 색을 이룬다는 개념을 기준으로 하나의 색을 갖춘 빛이라 보면 된다.
 
@@ -52,7 +69,7 @@ __주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖�
 
 하나의 주파수가 하나의 색이라면, 여러 주파수면 여러 색이 보여야 한다는 생각이 들 수있다. 사실 여러 색이 "보여지고" 있는게 맞다. 단지, 사람에게는 여러 색이 완벽히 겹치면 하나의 색으로만 보인다. 이러한 색의 조합은 대부분 가시광선 영역에 있지만, 그렇지 않는 색들도 있다 - 이를 [특단색광 (Extra-Spectral Color)](https://en.wikipedia.org/wiki/Spectral_color#Extra-spectral_colors)이라 한다 (대표적인 예는 핑크색이다).
 
-그럼 단색광은 무슨 색일까?
+그럼 단색광에 무슨 색들이 속할까?
 
 우리는 일반적으로 단색광을 [빨주노초파남보 (Roy G. Biv)](https://en.wikipedia.org/wiki/ROYGBIV)와 같이 7가지 색으로 분류한다 - 이는 1704년도에 출판된 [아이작 뉴턴 (Isaac Newton)](https://en.wikipedia.org/wiki/Isaac_Newton)의 책 [_Opticks_](https://en.wikipedia.org/wiki/Opticks) 에 명시된 [색 상환 (Color Cicle)](https://en.wikipedia.org/wiki/Color_wheel)으로부터 비롯되었다.
 
@@ -126,6 +143,8 @@ __주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖�
 참고 자료 2 : [How objects emit radiation](http://www.ccpo.odu.edu/SEES/ozone/class/Chap_4/4_6.htm)
 
 #### 표준 광원
+#todo 메타메리즘 섹션으로 이동. 굳이 광원 관련 내용이라고 광원 밑에 있을 필요가 없다. 오히려 스토리 전개에 방해가 되는 듯 싶다.
+
 색은 조건에 따라 다르게 보일수 있기 때문에 ([[#메타메리즘]]), 물체의 색을 (전문적으로) 구분할 때 최대한 일정하고 적합한 환경을 구성하는게 중요하다. 대중적으로 많이 사용되는 광원이 주로 이 용도로 선택된다.
 
 [표준 광원 (Standard Illuminant)](https://en.wikipedia.org/wiki/Standard_illuminant)은 색을 기준으로 물체와 광원의 관계를 표준화하기 위해 사용되는 광원을 뜻한다. 간단하게, 물체의 색을 구분할 때 적합한 광원이라 볼 수 있다.
@@ -837,3 +856,9 @@ https://en.wikipedia.org/wiki/Optical_phenomena
 #todo Luminance, Relative Luminance, Luma의 차이를 잘 모르겠다..
 
 [YCbCr 색 공간](https://en.wikipedia.org/wiki/YCbCr)
+
+## 색의 역사
+
+https://youtube.com/playlist?list=PLepnjl2hm9tEauxnqXG8JjBR7Y3w-8nXg
+
+Early History of Spectroscopy: Astronomy 유투브 플레이리스트 참고
