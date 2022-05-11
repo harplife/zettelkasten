@@ -7,7 +7,7 @@ edited: 2022-04-22
 ---
 
 # Color Theory Note 1
-[빛 (Light)](https://en.wikipedia.org/wiki/Light)은 아주 복잡하다. 빛은 반사되고, 흡수되고, 통과되고, 왜곡되고 별별 특성을 다 갖고 있다. [색 (Color)](https://en.wikipedia.org/wiki/Color)은 빛에서 나오기 때문에, 색도 마찬가지로 복잡하다.
+[색 (Color)](https://en.wikipedia.org/wiki/Color)은 무엇인가? 색은 어떻게 발생하는가? 색을 어떻게 구분하는가?
 
 색을 연구하는 것을 색체 과학/공학 (Color Science)이라고 한다. 흔한 분야는 아니고, 디자인 분야하고 많이 헷갈린다 (마치 음향 공학처럼).
 
