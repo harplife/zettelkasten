@@ -260,6 +260,37 @@ __주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖�
 
 참고 : [[light_matter_interaction|빛-물질 상호작용]] 노트
 
+### 산란 반산 차이
+#todo 파동 전파에 광자-입자 상호작용 부분을 따로 빼서 설명하고, 이를 "산란"을 위주로 다시 설명하는게 좋을 듯 하다.
+
+광자-입자 상호작용에 있어, 
+1) 광자가 흡수되고 새로운 광자가 생성되는 현상을 [Inelastic Scattering](https://en.wikipedia.org/wiki/Inelastic_scattering) 이라고 한다.
+2) 광자가 흡수되지 않고 그대로 이동하거나 또는 튕겨나가 방향이 틀어지는 현상을 [Elastic Scattering](https://en.wikipedia.org/wiki/Elastic_scattering) 이라고 한다.
+
+반사하고 산란이 헷갈렸던 이유는, 반사와 산란이 다른 개념인지 같은 개념인지가 애매했기 때문이다. 하지만 다시 알아보니, 산란은 빛-물체 상호작용 전체를 뜻하는 아주 상위 개념인 것이다.
+
+참고
+- https://physics.stackexchange.com/a/578839
+- https://physics.stackexchange.com/a/485576
+
+#### Inelastic Scattering
+광자가 흡수되고 새로운 광자가 생성되는 현상을 [Inelastic Scattering](https://en.wikipedia.org/wiki/Inelastic_scattering) 이라고 한다. 
+
+정확히는, __Inelastic Scattering은 광자와 원자가 충돌함으로 광자의 에너지가 유지되지 않는 현상을 뜻한다.__ 광자의 에너지가 유지되지 않는 다는 것은, 광자의 에너지가 원자로 전해지거나 또는 원자의 에너지가 광자로 전해지는 것을 말한다 (광자의 에너지가 흡수되거나 증가된다).
+
+광자의 에너지가 흡수되는 경우,  원자 에너지 레벨과 광자 에너지의 차이로서 발생하는 결과가 다르다.
+1. 광자 에너지가 충분하여 원자 에너지 레벨이 올라가는 경우, 원자 에너지 레벨이 내려가며 새로운 광자가 방출된다.
+
+광자의 주파수가 원자의 고유 진동수와 일치하지 않는 경우 Elastic Scattering이 발생한다. 
+
+광자의 에너지가 흡수되는 경우,
+1. 하나의 광자가 새로 방출되거나,
+2. 흡수만 되거나,
+3. 
+
+#### Elastic Scattering
+
+
 ### 반사
 [반사(Reflection)](https://en.wikipedia.org/wiki/Reflection_(physics))는 광선이 물체의 표면에 도달하여 다른 방향으로 튕겨 나가는 현상을 의미한다. 더 자세하게는, 반사는 광선이 두 물체 사이의 경계선에 도달하여 이동하던 방향의 반대 방향으로 이동하는 현상을 의미한다.
 
