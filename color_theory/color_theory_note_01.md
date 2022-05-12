@@ -64,6 +64,15 @@ __주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖�
 
 참고 1 : [적외선 (Infrared)](https://en.wikipedia.org/wiki/Infrared)과 [자외선 (Ultraviolet)](https://en.wikipedia.org/wiki/Ultraviolet)은 가시광선에 속하지 않지만 특수 카메라를 사용하여 볼수가 있다.
 
+#### 광자
+[파동-입자 이중성 (Wave-Particle Duality)](https://en.wikipedia.org/wiki/Wave%E2%80%93particle_duality)에 의하면 빛은 파동 (Wave)이며 입자 (Particle)이다.
+
+빛 입자를 광자라고 한다. [광자 (Photon)](https://en.wikipedia.org/wiki/Photon)는 전자기 에너지의 묶음으로 모든 빛을 구성하는 [기본 입자 (Elementary Particle)](https://en.wikipedia.org/wiki/Elementary_particle)이다.
+
+#todo 광자하고 [파동 묶음 (Wave Packet)](https://en.wikipedia.org/wiki/Wave_packet) 관련되지 않는가 싶다.
+
+![[wave_packet_propagation.gif]]
+
 #### 단색광
 물리학에서 단일 주파수 (Single Constant Frequency)로 진동하는 전자기파를 [단색 복사 (Monochromatic Radiation)](https://en.wikipedia.org/wiki/Monochromatic_radiation)라 부른다. 가시광선 영역에 단일 주파수로 진동하는 빛을 __단색광 (Monochromatic Light)__ 이라 부르며,  일반적으로 [Spectral Color](https://en.wikipedia.org/wiki/Spectral_color)로 불리는 경향이 있다.
 
@@ -212,13 +221,15 @@ __주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖�
 
 진공은 사실 "모든 것"이 비어있는게 아니다 - 세계 모든 곳에 [전자기장 (Electromagnetic Field)](https://en.wikipedia.org/wiki/Electromagnetic_field)이 존재하며, 진공에도 마찬가지로 전자기장이 존재한다. [[#가시광선]] 섹션에서 정리했듯이, 빛이 [전자기파 (Electromagnetic Radiation)](https://en.wikipedia.org/wiki/Electromagnetic_radiation)라는 것을 다시 상기해보면, 진공에서 빛은 전자기장의 변화 또는 진동이라고 볼 수 있다.
 
+![[electromagnetic_wave.png]]
+
 참고 : 장 (field)은 사실 공간을 뜻한다. 전자기장이 "존재한다"기 보다는, __공간의 특성__ 이라 이해하는게 좋다. 좌표계 (Coordinate System)와 유사하다고 생각하면 될 것 같다. 전자기장이 있는 이유까지 따지게 되면, 빅뱅 이론까지 가버리기 때문에 여기서 멈춘다..
+
+참고 : 광자는 질량 (Mass)이 없기 때문에 거~의(?) 붕괴 (Decay)하지 않는다고 한다. 가시광선 광자는 $10^{18}$ 년 이상은 안정적일 것이라고 한다. - [소스](https://physics.aps.org/articles/v6/s96)
 
 빛이 전자기장을 통해 이동한다면, 물체와 어떻게 상호작용을 할까?
 
-일단 광자 (Photon)와 원자 (Atom)의 상호작용을 대충 알아본다.
-
-참고 : 광자는 전자기파를 입자로 표현한 것이다.
+일단 광자 (Photon)와 원자 (Atom)의 상호작용을 알아본다.
 
 광자가 원자와 충돌하면, 원자는 들뜬 상태 (Excited State)로 변한다. 들뜬 원자는 다시 바닥 상태 (Ground State)로 안정화하기 위해 진동을 하며, 이 진동이 열 에너지를 방출하거나 또는 광자를 방출한다.
 
@@ -403,9 +414,7 @@ Maya의 [투과율 조절 가이드](https://docs.arnoldrenderer.com/display/A5A
 
 물체의 밀도가 높을수록 물체를 투과하는 빛의 속도가 느려지며\*, 느려지는 수준을 [굴절율 (Refractive Index)]이라 한다. 참고로, 빛의 속도가 느려진다고 해도 파장/진동수에는 영향을 주지 않는다.
 
-\* 주의 : 보통 "빛의 속도가 느려진다"고 표현되는데, 사실 빛의 속도는 일정하되 빛이 전달되는 속도가 느려진다. 빛의 속도는 절대적이며, 불변하다. 빛이 물체를 투과하고 나온 창발광선의 속도는 입사광선의 속도와 동일하다. 이는 [파동-입자 이중성 (Wave-Particle Duality)](https://en.wikipedia.org/wiki/Wave%E2%80%93particle_duality)의 [파동 묶음 (Wave Packet)](https://en.wikipedia.org/wiki/Wave_packet) 관련되며, 빛이 물체를 통과할 때 하나의 묶음으로 전달된다고 생각하면 이해하기 더 쉽지 않을까 싶다.
-
-![[wave_packet_propagation.gif]]
+\* 주의 : 보통 "빛의 속도가 느려진다"고 표현되는데, 사실 빛의 속도는 일정하되 빛이 전달되는 속도가 느려진다. 빛의 속도는 절대적이며, 불변하다. 빛이 물체를 투과하고 나온 창발광선의 속도는 입사광선의 속도와 동일하다.
 
 일반적으로 밀도가 높은 경우 굴절율이 높되, 항상 선형관계 (Linear Relationship)을 이루는 것은 아니다. 따라서, 굴절 또는 그 외의 현상에 대해서 설명할때 밀도 대신 굴절율 위주로 정리가 된다.
 
