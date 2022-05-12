@@ -56,11 +56,13 @@ __주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖�
 ### 가시광선
 [가시광선(Visible Light)](https://en.wikipedia.org/wiki/Visible_spectrum)은 사람의 눈에 보이는 [전자기파](https://en.wikipedia.org/wiki/Electromagnetic_spectrum)의 영역을 뜻한다.
 
+"빛"이라고 하면 가시광선을 뜻한다고 생각하면 된다.
+
 ![[electromagnetic_spectrum.webp]]
 
-가시광선의 주파수(Frequency) 추정 범위 : $4 \times 10^{14}$ hz ~ $8 \times 10^{14}$ hz(400 THz ~ 800 THz)
+가시광선의 주파수(Frequency) 추정 범위는 $4 \times 10^{14}$ hz ~ $8 \times 10^{14}$ hz(400 THz ~ 800 THz) 이다.
 
-가시광선의 파장(Wavelength) 추정 범위 : 750 nm ~ 380 nm
+가시광선의 파장(Wavelength) 추정 범위는 750 nm ~ 380 nm 이다.
 
 참고 1 : [적외선(Infrared)](https://en.wikipedia.org/wiki/Infrared)과 [자외선(Ultraviolet)](https://en.wikipedia.org/wiki/Ultraviolet)은 가시광선에 속하지 않지만 특수 카메라를 사용하여 볼수가 있다.
 
