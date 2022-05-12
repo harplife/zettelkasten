@@ -3,7 +3,7 @@ aliases: [Color Theory Note 1]
 tags: [computer_vision, computer_graphics, color_theory, study]
 status: ongoing
 created: 2022-04-01
-edited: 2022-05-11
+edited: 2022-05-12
 ---
 
 # Color Theory Note 1
