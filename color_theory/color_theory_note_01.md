@@ -15,21 +15,23 @@ edited: 2022-05-11
 
 더 나아가, 색은 사람의 지각 (Perception)과도 관련되어 있기 때문에, 생체학과 심리학과 연결되어 있다.
 
-"색을 연구하는 분야"라고 치면 나오는 결과는 밑에와 같다.
-1. 색체 과학 (Color Science) : 말 그대로 색을 연구하는 과학 분야인데, 흔한 분야는 아닌것 같다. 약간 음향공학과 같은 애매한 수준의 연구분야가 아닐까 싶다.
+"색을 연구하는 분야"라고 검색하면 나오는 결과는 다양하다.
+1. 색체 과학 (Color Science) : 말 그대로 색을 연구하는 학문인데, 흔한 학문는 아닌것 같다. 약간 음향공학과 같은 애매한 수준의 학문이 아닐까 싶다.
 2. Chromatics : 물리학에서 빛/색을 연구하는 하위분야인 듯 싶다. 근데 Chromatics은 음악 분야에 너무 많이 사용되는 용어라, 색과 관련된 Chromatic은 구글 검색에서도 잘 안 뜬다.
-3. [색 측정법 (Colorimetry)](https://en.wikipedia.org/wiki/Colorimetry) : 과학과 기술을 동원해 정량적으로 색을 측정하는 분야이다.
+3. [색 측정법 (Colorimetry)](https://en.wikipedia.org/wiki/Colorimetry) : 과학과 기술을 동원해 정량적으로 색을 측정하는 학문이다.
 4. [Color Vision](https://en.wikipedia.org/wiki/Color_vision) : 연구분야라고 하긴 어려운데, 의외로 위키에서 연결된 자료들이 많다.
-5. [분광학 (Spectroscopy)](https://en.wikipedia.org/wiki/Spectroscopy) : 빛과 물질 간의 상호작용을 연구하는 분야이다.
-6. [광학 (Optics)](https://en.wikipedia.org/wiki/Optics) : 빛의 성질 및 관련 현상을 연구하는 분야이다.
+5. [분광학 (Spectroscopy)](https://en.wikipedia.org/wiki/Spectroscopy) : 빛과 물질 간의 상호작용을 연구하는 학문이다.
+6. [광학 (Optics)](https://en.wikipedia.org/wiki/Optics) : 빛의 성질 및 관련 현상을 연구하는 학문이다.
 
-색을 어떤 구조로, 얼만큼 깊게 정리할지는 잘 모르겠다. 그나마 아는 것은, 색을 연구하기 위해서 빛-물체-사람과의 관계를 연구해야 한다는 것이다.
+내가 정리하고자 하는 것이 어떤 학문과 일치하는지 모르겠다. 이 노트의 목표는 #computer_graphics 에 입문하기 위해 색에 대한 기초지식을 정리하되, 단순히 "빛은 흡수/반사/투과되며 사용되는 수식은 이거다"보다는 더 깊게 나아가고 싶다.
+
+기본적으로 색을 연구하기 위해서 빛-물체-사람과의 관계를 연구해야 한다. 정확히는, 각 요소의 상호작용에 있어 어떤 특성이 중요한지 알아봐야 한다.
 
 ![[relationship_of_color.png]]
 
 ![[color_relationship.PNG]]
 
-일단 색에 대한 정리로 크게 6가지로 구분하고 싶다.
+일단 색에 대한 정리는 크게 6가지로 구분한다.
 1. 색의 정의
 2. 빛의 특성
 3. 물체의 특성
@@ -41,6 +43,8 @@ edited: 2022-05-11
 > 색 연구의 시작, [회절격자 (Diffraction Grating)](https://en.wikipedia.org/wiki/Diffraction_grating)
 
 __주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖춘 것을 뜻하는 것보다는 그냥 어떤 것 (Thing)을 가리키는 용도로 사용된다. _매질/매개체 (Medium)_ 등 호환되는 단어로 사용한다.
+
+#todo 언젠가는 이 노트를 기준으로 사이트를 만들어 애니메이션 (WebGL)으로 설명하고 싶다.
 
 ## 색의 정의
 #todo 색은 빛-물체 상호작용으로부터 파생된 시지각적 특성 (Visual Perceptual Property)이다...라고 정의하면 될 듯 싶다. 아직 그리 마음에 드는 정의는 없는 듯 싶다.
@@ -171,7 +175,7 @@ __주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖�
 
 ![[light_properties.png]]
 
-더 자세히 설명하기 전에 일단 빛에 대한 용어를 정의할 필요가 있다. 굳이 물리학적으로 복잡하게 정리하진 않는다 ㅎ.
+빛의 특성에 대하여 더 자세히 정리하기 앞서 빛에 대한 이해를 보조하기 위한 모델링이 필요하다.
 
 ![[wavefronts_and_ray.png]]
 
@@ -193,24 +197,22 @@ __주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖�
 
 반사파 (Reflected Wave) 또는 __반사광선 (Reflected Ray)__ 은 물체 표면에 부딛혀 반사되어 나오는 광선을 뜻한다.
 
-투과파 (Transmitted Wave) 또는 __투과광선 (Transmitted Ray)__ 은 물체를 통과하는 빛을 뜻한다. __굴절파 (Refracted Wave)__ 라고 표현되기도 하는데, 이는 광선이  물체를 통과할 때 방향이 틀어진 광선을 뜻한다.
+투과파 (Transmitted Wave) 또는 __투과광선 (Transmitted Ray)__ 은 물체를 통과하는 빛을 뜻한다. __굴절광선 (Refracted Ray)__ 라고 표현되기도 하는데, 이는 광선이  물체를 통과할 때 방향이 틀어진 광선을 뜻한다.
 
 ![[types_of_ray.svg]]
 
 [창발광선 (Emergent Ray)](https://www.photonics.com/EDU/emergent_ray/d3818)은 물체의 두 표면을 투과하고 나오는 광선을 뜻한다. 일반적으로 사용되는 단어는 아닌 듯 싶은데, 주로 [[#굴절]]과 관련되어 나올때가 있다.
 
 ### 파동 전파
-[[light_matter_interaction|빛-물질 상호작용]] 참고.
-
 [파동 전파 (Wave Propagation)](https://en.wikipedia.org/wiki/Wave_propagation)는 파동이 이동하는 모든 방식을 뜻한다. 빛은 입자이며 파동이니, 파동이 이동하는 방식을 우선 정리해본다.
 
-아인슈타인이 정의한데로, 진공 (Vacuum)에 [빛의 속도](https://en.wikipedia.org/wiki/Speed_of_light)는 대략 300,000 km/s 이며, [특수 상대성 이론 (Special Relativity)](https://en.wikipedia.org/wiki/Special_relativity)에 있어 빛의 속도는 상수 (Constant)이다.
+아인슈타인이 정의한데로, 진공 (Vacuum)에 [빛의 속도](https://en.wikipedia.org/wiki/Speed_of_light)는 대략 300,000 km/s 이며, [특수 상대성 이론 (Special Relativity)](https://en.wikipedia.org/wiki/Special_relativity)에 따르면 빛의 속도는 상수 (Constant)이다.
 
 진공은 빈 공간이고, 빛은 진동인데, 그럼 빈 공간에서 무엇이 진동하는 것일까?
 
 진공은 사실 "모든 것"이 비어있는게 아니다 - 세계 모든 곳에 [전자기장 (Electromagnetic Field)](https://en.wikipedia.org/wiki/Electromagnetic_field)이 존재하며, 진공에도 마찬가지로 전자기장이 존재한다. [[#가시광선]] 섹션에서 정리했듯이, 빛이 [전자기파 (Electromagnetic Radiation)](https://en.wikipedia.org/wiki/Electromagnetic_radiation)라는 것을 다시 상기해보면, 진공에서 빛은 전자기장의 변화 또는 진동이라고 볼 수 있다.
 
-참고 : 장 (field)은 사실 공간을 뜻한다. 전자기장은 공간의 특성이라 이해하는게 좋다. 전자기장이 존재하는 이유까지 따지게 되면, 빅뱅 이론까지 가버리기 때문에 여기서 멈춘다..
+참고 : 장 (field)은 사실 공간을 뜻한다. 전자기장이 "존재한다"기 보다는, __공간의 특성__ 이라 이해하는게 좋다. 좌표계 (Coordinate System)와 유사하다고 생각하면 될 것 같다. 전자기장이 있는 이유까지 따지게 되면, 빅뱅 이론까지 가버리기 때문에 여기서 멈춘다..
 
 빛이 전자기장을 통해 이동한다면, 물체와 어떻게 상호작용을 할까?
 
@@ -242,6 +244,8 @@ __주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖�
 투과는 빛이 물체를 통해 "이동"하는 것처럼 묘시가 되는데, 빛이 진공간에서 전자기장을 통해 이동하는 것과 달리, 광자가 입자에 충돌하며 새로운 광자가 방출되고 다른 입자에 똑같이 반복하며 "전달"된다 (빛이 물체를 완전히 통과하거나 또는 완전히 흡수될때까지). 이는 마치 이어달리기 (Relay)와 유사하다.
 
 ![[relay_race.PNG]]
+
+참고 : [[light_matter_interaction|빛-물질 상호작용]] 노트
 
 ### 반사
 [반사 (Reflection)](https://en.wikipedia.org/wiki/Reflection_(physics))는 광선이 물체의 표면에 도달하여 다른 방향으로 튕겨 나가는 현상을 의미한다. 빛이 빛의 파장 (Wavelength)보다 큰 장애물에 부닥칠 경우에 반사된다고 한다.
