@@ -78,7 +78,9 @@ __주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖�
 #### 광자
 [파동-입자 이중성(Wave-Particle Duality)](https://en.wikipedia.org/wiki/Wave%E2%80%93particle_duality)에 의하면 빛은 파동(Wave)이며 입자(Particle)이다.
 
-빛 입자를 광자라고 한다. [광자(Photon)](https://en.wikipedia.org/wiki/Photon)는 전자기 에너지의 묶음으로 모든 빛을 구성하는 [기본 입자(Elementary Particle)](https://en.wikipedia.org/wiki/Elementary_particle)이다.
+빛 입자를 광자라고 한다. [광자(Photon)](https://en.wikipedia.org/wiki/Photon)는 전자기 에너지의 묶음이며, 모든 빛을 구성하는 [기본 입자(Elementary Particle)](https://en.wikipedia.org/wiki/Elementary_particle)이다.
+
+참고 : 기본 입자는 다른 입자를 구성하는 가장 기본이 되는 입자를 뜻한다. 가장 기본이 된다는 뜻은 다른 입자로서 구성이 되지 않는다는 것이다 (현재 파악된 바로는).
 
 #todo 광자하고 [파동 묶음(Wave Packet)](https://en.wikipedia.org/wiki/Wave_packet) 관련되지 않는가 싶다.
 
