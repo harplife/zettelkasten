@@ -47,7 +47,7 @@ __주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖�
 #todo 언젠가는 이 노트를 기준으로 사이트를 만들어 애니메이션(WebGL)으로 설명하고 싶다.
 
 ## 색 이론의 역사
-색 이론은 기원전 322년 아리스토텔레스(Aristotle)가 "색은 신이 천국에서부터 내려준 성스러운 광선이다"라고 주장한 것으로부터 시작된다.
+색 이론은 아리스토텔레스(Aristotle)가 "색은 신이 천국에서부터 내려준 성스러운 광선이다"라고 주장한 것으로부터 시작되고 그 뒤로 색 조합 등 여러 이론들이 나왔지만, 색 이론이 형식화되기 시작한 개기는 1704년도에 출판되었던 [아이작 뉴턴(Isaac Newton)](https://en.wikipedia.org/wiki/Isaac_Newton)의 책 [_Opticks_](https://en.wikipedia.org/wiki/Opticks)을 출판함으로 비롯된다.
 
 색에 대한 연구는 햇빛, 즉, [태양광(Sunlight)](https://en.wikipedia.org/wiki/Sunlight)과 [프리즘(Prism)](https://en.wikipedia.org/wiki/Prism)으로부터 시작된다.
 
