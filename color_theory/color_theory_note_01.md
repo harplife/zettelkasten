@@ -48,9 +48,9 @@ __주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖�
 ## 색 이론의 역사
 색 이론은 아리스토텔레스(Aristotle)가 "색은 신이 천국에서부터 내려준 성스러운 광선이다"라고 주장한 것으로부터 시작되고 그 뒤로 색 조합 등 여러 이론들이 나왔지만, 색 이론의 진정한 형식화는 1704년도에 출판되었던 [아이작 뉴턴(Isaac Newton)](https://en.wikipedia.org/wiki/Isaac_Newton)의 책 [_Opticks_](https://en.wikipedia.org/wiki/Opticks) 로부터 시작되었다.
 
-https://youtube.com/playlist?list=PLepnjl2hm9tEauxnqXG8JjBR7Y3w-8nXg
+[Early History of Spectroscopy: Astronomy 유투브 플레이리스트](https://youtube.com/playlist?list=PLepnjl2hm9tEauxnqXG8JjBR7Y3w-8nXg) 참고
 
-Early History of Spectroscopy: Astronomy 유투브 플레이리스트 참고
+https://www.pasco.com/resources/blog/243 참고
 
 ### 프리즘 실험
 프리즘 실험은 어두운 방에 작은 구멍을 통해 들어온 태양광을 가운데 프리즘에 비추고 그 반대편에 세워진 판자에 비추어진 색들을 연구하는 방식으로 진행된다.
@@ -85,7 +85,7 @@ Early History of Spectroscopy: Astronomy 유투브 플레이리스트 참고
 더 자세한 내용은 [[isaac_newton_color_experiment|아이작 뉴턴의 색 이론]]에 정리한다.
 
 ### 스펙트럼 선
-뉴턴의 발견은 사실 오랫동안 대중에 받아들여지지 못 했다. 그나마 
+뉴턴의 발견은 오랫동안 대중에 받아들여지지 못 했다. 
 
 ![[fraunhofer_lines.svg]]
 
