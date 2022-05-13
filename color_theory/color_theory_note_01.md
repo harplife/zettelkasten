@@ -59,7 +59,7 @@ https://www.pasco.com/resources/blog/243 참고
 
 ![[dispersive_prism_pretty_one.png]]
 
-과거에 프리즘 실험(또는 비슷한 실험)을 통해 가시광선을 연구하는 학문을 [분광학 (Spectroscopy)](https://en.wikipedia.org/wiki/Spectroscopy)이라 불렀다. 이후에 이 개념은 확장되어 물질과 전자기파의 상호작용 결과로 나온 전자기 스펙트럼\*을 파장 또는 주파수의 함수로서 측정하고 해석하는 학문으로 발전되었다.
+과거에 프리즘 실험(또는 비슷한 실험)을 통해 가시광선을 연구하는 학문을 [분광학 (Spectroscopy)](https://en.wikipedia.org/wiki/Spectroscopy)이라 불렀다. 이후에 이 개념은 확장되어 물질과 전자기파의 상호작용으로 나온 전자기 스펙트럼\*을 파장 또는 주파수의 함수로서 측정하고 해석하는 학문으로 발전되었다.
 
 \* [전자기 스펙트럼](https://en.wikipedia.org/wiki/Electromagnetic_spectrum) : 파장이나 주파수의 함수로 주어지는 반응 값을 도표로 나타낸 차트. __분광 분포도__ 라고도 한다.
 
@@ -68,6 +68,10 @@ https://www.pasco.com/resources/blog/243 참고
 ![[visible_spectrum_02.svg]]
 
 참고 : 전자기 스펙트럼을 측정하는 도구를 [분광기(Spectrometer)](https://en.wikipedia.org/wiki/Spectrometer)라고 한다. 분광계라고도 하는데, 차이가 있는지 모르겠다.
+
+#todo 누가 만듬?
+
+
 
 프리즘 실험을 통한 색의 연구는 화학, 천문학, 그리고 물리학의 발전에 큰 주축이 되었다.
 
@@ -264,12 +268,14 @@ https://www.pasco.com/resources/blog/243 참고
 
 [광선(Ray)](https://en.wikipedia.org/wiki/Ray_(optics))은 빛의 이상적인 모델로서 에너지 흐름의 방향을 가르키는 선으로 표현되며, 실제 빛의 [파면(Wavefront)](https://en.wikipedia.org/wiki/Wavefront)에 수직(Perpendicular)인 선을 선택함으로써 얻을 수 있다. 광선은 광학계(Optical System)를 통한 빛의 전달을 모델링하는데 사용된다.
 
-광선은 5 가지로 분류된다.
+광선은 7 가지로 분류된다.
 1. 입사
 2. 반사
 3. 투과
 4. 굴절
-5. 창발
+5. 발산
+6. 수렴
+7. 창발
 
 ![[plane_of_incidence.PNG]]
 
@@ -280,6 +286,8 @@ https://www.pasco.com/resources/blog/243 참고
 투과파(Transmitted Wave) 또는 __투과광선(Transmitted Ray)__ 은 물체를 통과하는 빛을 뜻한다. __굴절광선(Refracted Ray)__ 라고 표현되기도 하는데, 이는 광선이  물체를 통과할 때 방향이 틀어진 광선을 뜻한다.
 
 ![[types_of_ray.svg]]
+
+__발산 광선(Divergent Ray)__ 는 빛이 넓어지며 나가는 빛을 뜻한다. 반대로, __수렴 광선(Convergent Ray)__ 는 빛이 얇아지며 나가는 빛을 뜻한다.
 
 [창발광선(Emergent Ray)](https://www.photonics.com/EDU/emergent_ray/d3818)은 물체의 두 표면을 투과하고 나오는 광선을 뜻한다. 일반적으로 사용되는 단어는 아닌 듯 싶은데, 주로 [[#굴절]]과 관련되어 나올때가 있다.
 
