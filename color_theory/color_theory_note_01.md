@@ -59,11 +59,13 @@ Early History of Spectroscopy: Astronomy 유투브 플레이리스트 참고
 
 과거에 프리즘 실험(또는 비슷한 실험)을 통해 가시광선을 연구하는 학문을 [분광학 (Spectroscopy)](https://en.wikipedia.org/wiki/Spectroscopy)이라 불렀다. 이후에 이 개념은 확장되어 물질과 전자기파의 상호작용 결과로 나온 전자기 스펙트럼\*을 파장 또는 주파수의 함수로서 측정하고 해석하는 학문으로 발전되었다.
 
-\* [전자기 스펙트럼](https://en.wikipedia.org/wiki/Electromagnetic_spectrum) : 파장이나 주파수의 함수로 주어지는 반응 값을 도표로 나타낸 차트
+\* [전자기 스펙트럼](https://en.wikipedia.org/wiki/Electromagnetic_spectrum) : 파장이나 주파수의 함수로 주어지는 반응 값을 도표로 나타낸 차트. __분광 분포도__ 라고도 한다.
 
 참고 : 전자기 스펙트럼을 측정하는 도구를 [분광기(Spectrometer)](https://en.wikipedia.org/wiki/Spectrometer)라고 한다. 분광계라고도 하는데, 차이가 있는지 모르겠다.
 
 프리즘 실험을 통한 색의 연구는 화학, 천문학, 그리고 물리학의 발전에 큰 주축이 되었다.
+
+![[light_dispersion_prism.PNG]]
 
 ### 뉴턴의 발견
 17세기에 [광학(Optics)](https://en.wikipedia.org/wiki/Optics)은 고품질 현미경을 만들 정도로 잘 발달된 학문이였다. 프리즘(Prism)으로 태양빛을 굴절시켜 여러 색을 만들수있다는 것은 알고있었지만, 이 현상을 잘 이해한 것은 아니었다. 그 당시에는 하얀색이 가장 순수한 색이며, 물질로 인해 더렵혀짐(Contaminated)으로 다른 색으로 변한다고 믿었다.
@@ -87,9 +89,6 @@ Early History of Spectroscopy: Astronomy 유투브 플레이리스트 참고
 더 자세한 내용은 [[isaac_newton_color_experiment|아이작 뉴턴의 색 이론]]에 정리한다.
 
 색에 대한 연구는 햇빛, 즉, [태양광(Sunlight)](https://en.wikipedia.org/wiki/Sunlight)과 [프리즘(Prism)](https://en.wikipedia.org/wiki/Prism)으로부터 시작된다.
-
-> ![[light_dispersion_prism.PNG]]
-> 색 연구의 시작, [회절격자(Diffraction Grating)](https://en.wikipedia.org/wiki/Diffraction_grating)
 
 ### Absorption Lines
 뉴턴의 발견은 사실 오랫동안 대중에 받아들여지지 못 했다. 그나마 
