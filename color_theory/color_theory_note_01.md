@@ -134,6 +134,8 @@ __주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖�
 #### 태양광과 프리즘
 색에 대한 연구는 햇빛, 즉, [태양광(Sunlight)](https://en.wikipedia.org/wiki/Sunlight)과 [프리즘(Prism)](https://en.wikipedia.org/wiki/Prism)으로부터 시작된다.
 
+
+
 > ![[light_dispersion_prism.PNG]]
 > 색 연구의 시작, [회절격자(Diffraction Grating)](https://en.wikipedia.org/wiki/Diffraction_grating)
 
