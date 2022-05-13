@@ -49,9 +49,26 @@ __주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖�
 ## 색 이론의 역사
 색 이론은 아리스토텔레스(Aristotle)가 "색은 신이 천국에서부터 내려준 성스러운 광선이다"라고 주장한 것으로부터 시작되고 그 뒤로 색 조합 등 여러 이론들이 나왔지만, 색 이론의 진정한 형식화는 1704년도에 출판되었던 [아이작 뉴턴(Isaac Newton)](https://en.wikipedia.org/wiki/Isaac_Newton)의 책 [_Opticks_](https://en.wikipedia.org/wiki/Opticks)로부터 시작되었다.
 
-아이작 뉴턴은 
+17세기에 광학(Optics)은 고품질 현미경을 만들 정도로 잘 발달된 학문이였다. 프리즘(Prism)으로 태양빛을 굴절시켜 여러 색을 만들수있다는 것은 알지만, 이 현상을 잘 이해한 것은 아니었다. 그 당시에는 하얀색이 가장 순수한 색이며, 물질로 인해 더렵혀짐(Contaminated)으로 다른 색으로 변한다고 믿었다.
 
-[[isaac_newton_color_experiment|아이작 뉴턴의 색 이론]] 참고.
+### 프리즘 실험
+프리즘 실험은 어두운 방에 작은 구멍을 통해 들어온 태양광을 가운데 프리즘에 비추고 그 반대편에 세워진 판자에 비추어진 색들을 연구하는 방식으로 진행된다.
+
+![[dispersive_prism_experiment_painting.png]]
+
+17세기에 뉴턴은 프리즘 실험을 통해 하얀 색이 다른 색으로 변하는게 아니라, 하얀 색이 여러 색으로 구성되어 있음을 증명했다.
+
+당시에는 
+
+![[fraunhofer_lines.svg]]
+
+### 뉴턴의 발견
+
+뉴턴은 프리즘 실험을 통해 빛과 색에 대해 좀 더 이해하려 했고, 
+
+![[dispersive_prism_experiment_diagram_from_book.png]]
+
+더 자세한 내용은 [[isaac_newton_color_experiment|아이작 뉴턴의 색 이론]]에 정리한다.
 
 색에 대한 연구는 햇빛, 즉, [태양광(Sunlight)](https://en.wikipedia.org/wiki/Sunlight)과 [프리즘(Prism)](https://en.wikipedia.org/wiki/Prism)으로부터 시작된다.
 
