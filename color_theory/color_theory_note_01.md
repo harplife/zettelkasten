@@ -161,6 +161,8 @@ __주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖�
 
 #todo [광원의 종류](https://en.wikipedia.org/wiki/List_of_light_sources)는 많은데, 굳이 이 섹션에서 다룰 필요는 없을 것 같다.
 
+![[light_source_spectrums.png]]
+
 참고 자료 1 : [키르히호프의 복사 법칙(Kirchhoff's Law of Thermal Radiation)](https://en.wikipedia.org/wiki/Kirchhoff's_law_of_thermal_radiation)
 참고 자료 2 : [How objects emit radiation](http://www.ccpo.odu.edu/SEES/ozone/class/Chap_4/4_6.htm)
 
