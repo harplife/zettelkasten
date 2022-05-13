@@ -46,7 +46,7 @@ __주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖�
 #todo 언젠가는 이 노트를 기준으로 사이트를 만들어 애니메이션(WebGL)으로 설명하고 싶다.
 
 ## 색 이론의 역사
-색 이론은 아리스토텔레스(Aristotle)가 "색은 신이 천국에서부터 내려준 성스러운 광선이다"라고 주장한 것으로부터 시작되고 그 뒤로 색 조합 등 여러 이론들이 나왔지만, 색 이론의 진정한 형식화는 1704년도에 출판되었던 [아이작 뉴턴(Isaac Newton)](https://en.wikipedia.org/wiki/Isaac_Newton)의 책 [_Opticks_](https://en.wikipedia.org/wiki/Opticks)로부터 시작되었다.
+색 이론은 아리스토텔레스(Aristotle)가 "색은 신이 천국에서부터 내려준 성스러운 광선이다"라고 주장한 것으로부터 시작되고 그 뒤로 색 조합 등 여러 이론들이 나왔지만, 색 이론의 진정한 형식화는 1704년도에 출판되었던 [아이작 뉴턴(Isaac Newton)](https://en.wikipedia.org/wiki/Isaac_Newton)의 책 [_Opticks_](https://en.wikipedia.org/wiki/Opticks) 로부터 시작되었다.
 
 https://youtube.com/playlist?list=PLepnjl2hm9tEauxnqXG8JjBR7Y3w-8nXg
 
@@ -63,8 +63,10 @@ Early History of Spectroscopy: Astronomy 유투브 플레이리스트 참고
 
 참고 : 전자기 스펙트럼을 측정하는 도구를 [분광기(Spectrometer)](https://en.wikipedia.org/wiki/Spectrometer)라고 한다. 분광계라고도 하는데, 차이가 있는지 모르겠다.
 
+프리즘 실험을 통한 색의 연구는 화학, 천문학, 그리고 물리학의 발전에 큰 주축이 되었다.
+
 ### 뉴턴의 발견
-17세기에 광학(Optics)은 고품질 현미경을 만들 정도로 잘 발달된 학문이였다. 프리즘(Prism)으로 태양빛을 굴절시켜 여러 색을 만들수있다는 것은 알고있었지만, 이 현상을 잘 이해한 것은 아니었다. 그 당시에는 하얀색이 가장 순수한 색이며, 물질로 인해 더렵혀짐(Contaminated)으로 다른 색으로 변한다고 믿었다.
+17세기에 [광학(Optics)](https://en.wikipedia.org/wiki/Optics)은 고품질 현미경을 만들 정도로 잘 발달된 학문이였다. 프리즘(Prism)으로 태양빛을 굴절시켜 여러 색을 만들수있다는 것은 알고있었지만, 이 현상을 잘 이해한 것은 아니었다. 그 당시에는 하얀색이 가장 순수한 색이며, 물질로 인해 더렵혀짐(Contaminated)으로 다른 색으로 변한다고 믿었다.
 
 이러한 생각은 뉴턴의 프리즘 실험으로 인해 완전히 뒤집어졌다.
 
