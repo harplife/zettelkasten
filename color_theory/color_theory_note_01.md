@@ -84,7 +84,7 @@ Early History of Spectroscopy: Astronomy 유투브 플레이리스트 참고
 
 더 자세한 내용은 [[isaac_newton_color_experiment|아이작 뉴턴의 색 이론]]에 정리한다.
 
-### Absorption Lines
+### 스펙트럼 선
 뉴턴의 발견은 사실 오랫동안 대중에 받아들여지지 못 했다. 그나마 
 
 ![[fraunhofer_lines.svg]]
