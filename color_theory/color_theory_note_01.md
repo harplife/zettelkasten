@@ -1,12 +1,12 @@
 ---
-aliases: [Color Theory Note 1]
+aliases: [Color Theory, 색 이론]
 tags: [computer_vision, computer_graphics, color_theory, study]
 status: ongoing
 created: 2022-04-01
 edited: 2022-05-12
 ---
 
-# Color Theory Note 1
+# 색 이론
 [색(Color)](https://en.wikipedia.org/wiki/Color)은 무엇인가? 색은 어떻게 발생하는가? 색을 어떻게 구분하는가? 색을 이해하기 위해서 어디서 부터 시작해야 할까? 색을 이해하기 위해서, 어떤 자료를 찾아봐야 할까?
 
 아쉽게도 색에 대한 모든 정보를 한번에 정리하는 연구 분야가 없다 - 정확히는, 색과 관련된 연구분야는 많지만, 색에 관련된 정보를 하나의 분야로 정의하기는 어렵다.
@@ -31,14 +31,13 @@ edited: 2022-05-12
 
 ![[color_relationship.PNG]]
 
-일단 색에 대한 정리는 크게 7가지로 구분한다.
-1. 색 연구의 시작
+일단 색에 대한 정리는 크게 6가지로 구분한다.
+1. 색 이론의 역사
 2. 색의 정의
 3. 빛의 특성
 4. 물체의 특성
 5. 생체의 특성
 6. 색 공간
-7. 색 연구의 역사
 
 참고 : 색에 대한 정리를 하면서 듣기 좋은 곡, [Colors by Black Pumas](https://youtu.be/B7PnQBn5k_E)
 
@@ -49,14 +48,25 @@ __주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖�
 ## 색 이론의 역사
 색 이론은 아리스토텔레스(Aristotle)가 "색은 신이 천국에서부터 내려준 성스러운 광선이다"라고 주장한 것으로부터 시작되고 그 뒤로 색 조합 등 여러 이론들이 나왔지만, 색 이론의 진정한 형식화는 1704년도에 출판되었던 [아이작 뉴턴(Isaac Newton)](https://en.wikipedia.org/wiki/Isaac_Newton)의 책 [_Opticks_](https://en.wikipedia.org/wiki/Opticks)로부터 시작되었다.
 
-17세기에 광학(Optics)은 고품질 현미경을 만들 정도로 잘 발달된 학문이였다. 프리즘(Prism)으로 태양빛을 굴절시켜 여러 색을 만들수있다는 것은 알지만, 이 현상을 잘 이해한 것은 아니었다. 그 당시에는 하얀색이 가장 순수한 색이며, 물질로 인해 더렵혀짐(Contaminated)으로 다른 색으로 변한다고 믿었다.
+https://youtube.com/playlist?list=PLepnjl2hm9tEauxnqXG8JjBR7Y3w-8nXg
 
-이러한 생각은 뉴턴의 프리즘 실험으로 인해 완전히 뒤집어졌다.
+Early History of Spectroscopy: Astronomy 유투브 플레이리스트 참고
 
 ### 프리즘 실험
 프리즘 실험은 어두운 방에 작은 구멍을 통해 들어온 태양광을 가운데 프리즘에 비추고 그 반대편에 세워진 판자에 비추어진 색들을 연구하는 방식으로 진행된다.
 
 ![[dispersive_prism_experiment_painting.png]]
+
+과거에 프리즘 실험(또는 비슷한 실험)을 통해 가시광선을 연구하는 학문을 [분광학 (Spectroscopy)](https://en.wikipedia.org/wiki/Spectroscopy)이라 불렀다. 이후에 이 개념은 확장되어 물질과 전자기파의 상호작용 결과로 나온 전자기 스펙트럼\*을 파장 또는 주파수의 함수로서 측정하고 해석하는 학문으로 발전되었다.
+
+\* [전자기 스펙트럼](https://en.wikipedia.org/wiki/Electromagnetic_spectrum) : 파장이나 주파수의 함수로 주어지는 반응 값을 도표로 나타낸 차트
+
+참고 : 전자기 스펙트럼을 측정하는 도구를 [분광기(Spectrometer)](https://en.wikipedia.org/wiki/Spectrometer)라고 한다. 분광계라고도 하는데, 차이가 있는지 모르겠다.
+
+### 뉴턴의 발견
+17세기에 광학(Optics)은 고품질 현미경을 만들 정도로 잘 발달된 학문이였다. 프리즘(Prism)으로 태양빛을 굴절시켜 여러 색을 만들수있다는 것은 알고있었지만, 이 현상을 잘 이해한 것은 아니었다. 그 당시에는 하얀색이 가장 순수한 색이며, 물질로 인해 더렵혀짐(Contaminated)으로 다른 색으로 변한다고 믿었다.
+
+이러한 생각은 뉴턴의 프리즘 실험으로 인해 완전히 뒤집어졌다.
 
 뉴턴은 프리즘 실험을 통해 하얀 색이 다른 색으로 변하는게 아니라, 하얀 색이 여러 색으로 구성되어 있음을 증명했다. 더불어, 하얀 색으로부터 굴절된 색은 더 이상 굴절로 통해 다른 색으로 변하지 않으며, 이 색들을 조합하여 다른 색을 낼수 있음을 증명했다.
 
@@ -66,11 +76,7 @@ __주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖�
 
 뉴턴의 발견에 대해 더 자세한 내용은 [[isaac_newton_color_experiment|아이작 뉴턴의 색 이론]]에 정리한다.
 
-뉴턴의 발견은 사실 오랫동안 대중에 받아들여지지 못 했다. 그나마 
 
-![[fraunhofer_lines.svg]]
-
-### 뉴턴의 발견
 
 뉴턴은 프리즘 실험을 통해 빛과 색에 대해 좀 더 이해하려 했고, 
 
@@ -82,6 +88,14 @@ __주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖�
 
 > ![[light_dispersion_prism.PNG]]
 > 색 연구의 시작, [회절격자(Diffraction Grating)](https://en.wikipedia.org/wiki/Diffraction_grating)
+
+### Absorption Lines
+뉴턴의 발견은 사실 오랫동안 대중에 받아들여지지 못 했다. 그나마 
+
+![[fraunhofer_lines.svg]]
+
+### 여러 학문들의 발전
+태양광 대신에 물질을 태우며 발생되는 빛을 사용하여 프리즘 실험을 진행함으로서, 그 물질의 분광 분포도를 측정했다. 반대로, 분광 분포도를 기준으로 빛을 내는 물질의 성분을 구분할 수 있게 되었다.
 
 ## 색의 정의
 #todo 색은 빛-물체 상호작용으로부터 파생된 시지각적 특성(Visual Perceptual Property)이다...라고 정의하면 될 듯 싶다. 아직 그리 마음에 드는 정의는 없는 듯 싶다.
@@ -102,7 +116,7 @@ __주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖�
 
 참고 : 형광등은 자외선(Ultraviolet Light)을 방출하고, 등(Bulb) 안에 있는 물질(Phosphor)들이 자외선을 가시광선으로 변환한다.
 
-[가시광 스펙트럼(Visible Spectrum)](https://en.wikipedia.org/wiki/Visible_spectrum)은 [전자기파 스펙트럼](https://en.wikipedia.org/wiki/Electromagnetic_spectrum) 내에 가시광선의 영역을 뜻한다.
+[가시광 스펙트럼(Visible Spectrum)](https://en.wikipedia.org/wiki/Visible_spectrum)은 전자기 스펙트럼 내에 가시광선의 영역을 뜻한다.
 
 가시광선의 주파수(Frequency) 추정 범위는 $4 \times 10^{14}$ hz ~ $8 \times 10^{14}$ hz(400 THz ~ 800 THz) 이다.
 
@@ -974,9 +988,3 @@ https://en.wikipedia.org/wiki/Optical_phenomena
 #todo Luminance, Relative Luminance, Luma의 차이를 잘 모르겠다..
 
 [YCbCr 색 공간](https://en.wikipedia.org/wiki/YCbCr)
-
-## 색의 역사
-
-https://youtube.com/playlist?list=PLepnjl2hm9tEauxnqXG8JjBR7Y3w-8nXg
-
-Early History of Spectroscopy: Astronomy 유투브 플레이리스트 참고
