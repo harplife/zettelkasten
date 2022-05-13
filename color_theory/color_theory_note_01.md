@@ -31,19 +31,28 @@ edited: 2022-05-12
 
 ![[color_relationship.PNG]]
 
-일단 색에 대한 정리는 크게 6가지로 구분한다.
-1. 색의 정의
-2. 빛의 특성
-3. 물체의 특성
-4. 생체의 특성
-5. 색 공간
-6. 색 연구의 역사
+일단 색에 대한 정리는 크게 7가지로 구분한다.
+1. 색 연구의 시작
+2. 색의 정의
+3. 빛의 특성
+4. 물체의 특성
+5. 생체의 특성
+6. 색 공간
+7. 색 연구의 역사
 
 참고 : 색에 대한 정리를 하면서 듣기 좋은 곡, [Colors by Black Pumas](https://youtu.be/B7PnQBn5k_E)
 
 __주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖춘 것을 뜻하는 것보다는 그냥 어떤 것(Thing)을 가리키는 용도로 사용된다. _매질/매개체(Medium)_ 등 호환되는 단어로 사용한다.
 
 #todo 언젠가는 이 노트를 기준으로 사이트를 만들어 애니메이션(WebGL)으로 설명하고 싶다.
+
+## 색 이론의 역사
+색 이론은 기원전 322년 아리스토텔레스(Aristotle)가 "색은 신이 천국에서부터 내려준 성스러운 광선이다"라고 주장한 것으로부터 시작된다.
+
+색에 대한 연구는 햇빛, 즉, [태양광(Sunlight)](https://en.wikipedia.org/wiki/Sunlight)과 [프리즘(Prism)](https://en.wikipedia.org/wiki/Prism)으로부터 시작된다.
+
+> ![[light_dispersion_prism.PNG]]
+> 색 연구의 시작, [회절격자(Diffraction Grating)](https://en.wikipedia.org/wiki/Diffraction_grating)
 
 ## 색의 정의
 #todo 색은 빛-물체 상호작용으로부터 파생된 시지각적 특성(Visual Perceptual Property)이다...라고 정의하면 될 듯 싶다. 아직 그리 마음에 드는 정의는 없는 듯 싶다.
@@ -129,21 +138,11 @@ __주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖�
 
 참고 : 파장 또는 주파수를 가로축(x-axis), 빛의 강도를 세로축(y-axis)으로 빛의 분포를 표현한 그래프를 분광 분포라고 한다.
 
-단색광에 제일 근접한 것은 [레이저(Laser)](https://en.wikipedia.org/wiki/Laser)이다.
-
-#### 태양광과 프리즘
-색에 대한 연구는 햇빛, 즉, [태양광(Sunlight)](https://en.wikipedia.org/wiki/Sunlight)과 [프리즘(Prism)](https://en.wikipedia.org/wiki/Prism)으로부터 시작된다.
-
-
-
-> ![[light_dispersion_prism.PNG]]
-> 색 연구의 시작, [회절격자(Diffraction Grating)](https://en.wikipedia.org/wiki/Diffraction_grating)
-
-
-
-광원을 제대로 이해하기 위해서는 우선 물체가 어떻게 빛을 발하는지 좀 이해해야 할 필요가 있다 - 특히 빛 중에 제일 기초라고 볼 수 있는 을 이해해야 한다.
+#todo 자리 찾아주기 - > 단색광에 제일 근접한 것은 [레이저(Laser)](https://en.wikipedia.org/wiki/Laser)이다.
 
 #### 흑체
+광원을 제대로 이해하기 위해서는 우선 물체가 어떻게 빛을 발하는지 좀 이해해야 할 필요가 있다 - 특히 빛 중에 제일 기초라고 볼 수 있는 태양광을 이해해야 한다.
+
 우리는 어릴때 불(Fire)과 태양(Sun)을 보면서 "뜨거운 것은 밝게 빛난다"를 배운다. 좀 더 나아가, 토마스 에디슨(Thomas Edison)의 발명품, [백열등(Incandescent Light Bulb)](https://en.wikipedia.org/wiki/Incandescent_light_bulb)에 대하여 배우며 전기로 물체를 가열시키면 빛이 난다는 것을 배운다.
 
 열과 빛이 관련이 있다는 사실, 이 개념은 흑체 복사(Blackbody Radiation)로부터 비롯된다(아마도). 흑체 복사에 대하여 설명하긴 너무 어려워서 일단 핵심 내용만 알아본다.
