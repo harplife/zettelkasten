@@ -39,8 +39,7 @@ edited: 2022-05-12
 5. 색 공간
 6. 색 연구의 역사
 
-> ![[light_dispersion_prism.PNG]]
-> 색 연구의 시작, [회절격자(Diffraction Grating)](https://en.wikipedia.org/wiki/Diffraction_grating)
+참고 : 색에 대한 정리를 하면서 듣기 좋은 곡, [Colors by Black Pumas](https://youtu.be/B7PnQBn5k_E)
 
 __주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖춘 것을 뜻하는 것보다는 그냥 어떤 것(Thing)을 가리키는 용도로 사용된다. _매질/매개체(Medium)_ 등 호환되는 단어로 사용한다.
 
@@ -91,13 +90,13 @@ __주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖�
 
 단색광이란 이름이 좀 어색한데, 그냥 "하나의 색"인 _단색_ 으로 이해해도 크게 문제 없을 듯 하다. 단색광은 그저 하나의 주파수가 하나의 색을 이룬다는 개념을 기준으로 하나의 색을 갖춘 빛이라 보면 된다.
 
-우리가 일반적으로 보는 빛은 여러 주파수로 이루어져 있는 [다색광(Polychromatic Light)](https://ballpen.blog/조명-다양한-용어-정리/#1__Monochromatic_light_and_Polychromatic_light)이다. 단색광에 제일 근접한 것은 [레이저(Laser)](https://en.wikipedia.org/wiki/Laser)다.
+참고 : 우리가 일반적으로 보는 빛은 여러 주파수로 이루어져 있는 [다색광(Polychromatic Light)](https://ballpen.blog/조명-다양한-용어-정리/#1__Monochromatic_light_and_Polychromatic_light)이다.
 
 하나의 주파수가 하나의 색이라면, 여러 주파수면 여러 색이 보여야 한다는 생각이 들 수있다. 사실 여러 색이 "보여지고" 있는게 맞다. 단지, 사람에게는 여러 색이 완벽히 겹치면 하나의 색으로만 보인다. 이러한 색의 조합은 대부분 가시광선 영역에 있지만, 그렇지 않는 색들도 있다 - 이를 [특단색광(Extra-Spectral Color)](https://en.wikipedia.org/wiki/Spectral_color#Extra-spectral_colors)이라 한다 (대표적인 예는 핑크색이다).
 
 그럼 단색광에 무슨 색들이 속할까?
 
-우리는 일반적으로 단색광을 [빨주노초파남보(Roy G. Biv)](https://en.wikipedia.org/wiki/ROYGBIV)와 같이 7가지 색으로 분류한다 - 이는 1704년도에 출판된 [아이작 뉴턴(Isaac Newton)](https://en.wikipedia.org/wiki/Isaac_Newton)의 책 [_Opticks_](https://en.wikipedia.org/wiki/Opticks) 에 명시된 [색 상환(Color Cicle)](https://en.wikipedia.org/wiki/Color_wheel)으로부터 비롯되었다.
+우리는 일반적으로 단색광을 [빨주노초파남보(Roy G. Biv)](https://en.wikipedia.org/wiki/ROYGBIV)와 같이 7가지 색으로 분류한다 - 이는 1704년도에 출판된 [아이작 뉴턴(Isaac Newton)](https://en.wikipedia.org/wiki/Isaac_Newton)의 책 [_Opticks_](https://en.wikipedia.org/wiki/Opticks)에 명시된 [색 상환(Color Cicle)](https://en.wikipedia.org/wiki/Color_wheel)으로부터 비롯되었다.
 
 ![[isaac_newton_opticks_color_circle_cropped.png]]
 
@@ -121,7 +120,7 @@ __주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖�
 
 단색광은 무엇보다 순수한/완전적인(Pure) 색이기 때문에, 연구가치가 높다. 단색광으로부터 [[#메타메리즘]], [[#가산혼합]], [[#감산혼합]] 같은 이론들이 나온다.
 
-참고 자료 1 : [사이언스올 과학백과사전 - 단색광](https://www.scienceall.com/%EB%8B%A8%EC%83%89%EA%B4%91monochromatic-light-3/)
+참고 자료 : [사이언스올 과학백과사전 - 단색광](https://www.scienceall.com/%EB%8B%A8%EC%83%89%EA%B4%91monochromatic-light-3/)
 
 ### 광원
 [광원(Light Source)](https://en.wikipedia.org/wiki/Light#Light_sources)은 제 스스로 빛을 발하는 물체 또는 장치를 뜻한다.
@@ -130,8 +129,19 @@ __주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖�
 
 참고 : 파장 또는 주파수를 가로축(x-axis), 빛의 강도를 세로축(y-axis)으로 빛의 분포를 표현한 그래프를 분광 분포라고 한다.
 
-광원을 제대로 이해하기 위해서는 우선 물체가 어떻게 빛을 발하는지 좀 이해해야 할 필요가 있다 - 특히 빛 중에 제일 대빵이라고 볼 수 있는 [태양광(Sunlight)](https://en.wikipedia.org/wiki/Sunlight)을 이해해야 한다.
+단색광에 제일 근접한 것은 [레이저(Laser)](https://en.wikipedia.org/wiki/Laser)이다.
 
+#### 태양광과 프리즘
+색에 대한 연구는 햇빛, 즉, [태양광(Sunlight)](https://en.wikipedia.org/wiki/Sunlight)과 [프리즘(Prism)](https://en.wikipedia.org/wiki/Prism)으로부터 시작된다.
+
+> ![[light_dispersion_prism.PNG]]
+> 색 연구의 시작, [회절격자(Diffraction Grating)](https://en.wikipedia.org/wiki/Diffraction_grating)
+
+
+
+광원을 제대로 이해하기 위해서는 우선 물체가 어떻게 빛을 발하는지 좀 이해해야 할 필요가 있다 - 특히 빛 중에 제일 기초라고 볼 수 있는 을 이해해야 한다.
+
+#### 흑체
 우리는 어릴때 불(Fire)과 태양(Sun)을 보면서 "뜨거운 것은 밝게 빛난다"를 배운다. 좀 더 나아가, 토마스 에디슨(Thomas Edison)의 발명품, [백열등(Incandescent Light Bulb)](https://en.wikipedia.org/wiki/Incandescent_light_bulb)에 대하여 배우며 전기로 물체를 가열시키면 빛이 난다는 것을 배운다.
 
 열과 빛이 관련이 있다는 사실, 이 개념은 흑체 복사(Blackbody Radiation)로부터 비롯된다(아마도). 흑체 복사에 대하여 설명하긴 너무 어려워서 일단 핵심 내용만 알아본다.
@@ -166,7 +176,7 @@ __주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖�
 
 ![[sun_vs_flourescent_spectrum_comparison.PNG]]
 
-태양광과 백열등은 흑체 복사 기반 광원에 속한다. 반면에, 형광등과 LED는 복사 기반 광원이 아니다. 광원은 꼭 흑체 복사 기반이어야 하는 것은 아니다. 단지, 색의 연구는 태양광이 기초가 되었기에 흑체 복사에 대한 이해가 중요할 뿐이다.
+태양광과 백열등은 흑체 복사 기반 광원에 속한다. 반면에, 형광등과 LED는 흑체 복사 기반 광원이 아니다. 광원은 꼭 흑체 복사 기반이어야 하는 것은 아니다. 단지, 색의 연구는 태양광이 기초가 되었기에 흑체 복사에 대한 이해가 중요하다.
 
 #todo [광원의 종류](https://en.wikipedia.org/wiki/List_of_light_sources)는 많은데, 굳이 이 섹션에서 다룰 필요는 없을 것 같다.
 
