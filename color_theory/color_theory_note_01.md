@@ -122,18 +122,23 @@ __주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖�
 ### 광원
 [광원(Light Source)](https://en.wikipedia.org/wiki/Light#Light_sources)은 제 스스로 빛을 발하는 물체 또는 장치를 뜻한다.
 
-광원을 제대로 이해하기 위해서는 물체가 어떻게 빛을 발하는지 좀 이해해야 할 필요가 있다 - 특히 빛 중에 제일 대빵이라고 볼 수 있는 [태양광(Sunlight)](https://en.wikipedia.org/wiki/Sunlight)을 이해해야 한다.
+광원으로부터 나오는 빛은 색에 영향을 주기 때문에 광원이 무엇인지, 광원으로부터 나오는 빛의 [분광 분포(Spectral Power Distribution)](https://en.wikipedia.org/wiki/Spectral_power_distribution)가 어떻게 되는지 알아봐야 한다.
+
+참고 : 파장 또는 주파수를 가로축(x-axis), 빛의 강도를 세로축(y-axis)으로 빛의 분포를 표현한 그래프를 분광 분포라고 한다.
+
+광원을 제대로 이해하기 위해서는 우선 물체가 어떻게 빛을 발하는지 좀 이해해야 할 필요가 있다 - 특히 빛 중에 제일 대빵이라고 볼 수 있는 [태양광(Sunlight)](https://en.wikipedia.org/wiki/Sunlight)을 이해해야 한다.
 
 우리는 어릴때 불(Fire)과 태양(Sun)을 보면서 "뜨거운 것은 밝게 빛난다"를 배운다. 좀 더 나아가, 토마스 에디슨(Thomas Edison)의 발명품, [백열등(Incandescent Light Bulb)](https://en.wikipedia.org/wiki/Incandescent_light_bulb)에 대하여 배우며 전기로 물체를 가열시키면 빛이 난다는 것을 배운다.
 
 열과 빛이 관련이 있다는 사실, 이 개념은 흑체 복사(Blackbody Radiation)로부터 비롯된다(아마도). 흑체 복사에 대하여 설명하긴 너무 어려워서 일단 핵심 내용만 알아본다.
-1. [흑체(Blackbody)](https://en.wikipedia.org/wiki/Black_body)는 모든 파장의 전자기파를 완전히 흡수하는 가상/이상의 물체이다. __밀도를 가진 모든 물체는 에너지를 흡수하고 방출한다. 모든 물체는 흑체이지만, 완벽한 흑체는 아니다.__ 완벽한 흑체는 이론적으로만 가능하기 때문에 가상/이상의 물체라고 하는 것이다.
-2. 흑체는 전자기파의 에너지를 열 에너지로 변환한다. 따라서, 흑체는 빛을 받으면 가열한다.
-3. [흑체 복사](http://www.ktword.co.kr/test/view/view.php?m_temp1=3907) [(Blackbody Radiation)](https://en.wikipedia.org/wiki/Black-body_radiation)는 가열된 흑체에서 나오는 [전자기파](https://en.wikipedia.org/wiki/Electromagnetic_radiation)이다.
-4. 흑체 복사는 [열복사(Thermal Radiation)](https://en.wikipedia.org/wiki/Thermal_radiation)이라 불리기도 한다.
-5. 흑체 복사는 여러 범위의 주파수/파장으로서 이루어지며,(열이 충분히 높으면) 그 중 일부가 가시광선 영역에 있다. 온도에 따라서 색상(Hue)도 변한다 - 그래서 광원의 색을 명시할 때 Kelvin(K) 단위의 [색 온도(Color Temperature)](https://en.wikipedia.org/wiki/Color_temperatur)로 표현하게 된다.
+1. [흑체(Blackbody)](https://en.wikipedia.org/wiki/Black_body)는 모든 파장의 전자기파를 완전히 흡수하는 가상/이상의 물체이다. __밀도를 가진 모든 물체는 에너지를 흡수하고 방출한다.__
+2. __모든 물체는 흑체이지만, 완벽한 흑체는 아니다.__ 완벽한 흑체는 이론적으로만 가능하기 때문에 가상/이상의 물체라고 하는 것이다.
+3. 흑체는 전자기파의 에너지를 열 에너지로 변환한다. 따라서, 흑체는 빛을 받으면 가열한다.
+4. [흑체 복사](http://www.ktword.co.kr/test/view/view.php?m_temp1=3907) [(Blackbody Radiation)](https://en.wikipedia.org/wiki/Black-body_radiation)는 가열된 흑체에서 나오는 [전자기파](https://en.wikipedia.org/wiki/Electromagnetic_radiation)이다.
+5. 흑체 복사는 [열 복사(Thermal Radiation)](https://en.wikipedia.org/wiki/Thermal_radiation)이라 불리기도 한다.
+6. 흑체 복사는 여러 범위의 주파수/파장으로서 이루어지며,(열이 충분히 높으면) 그 중 일부가 가시광선 영역에 있다. 온도에 따라서 색상(Hue)도 변한다 - 그래서 광원의 색을 명시할 때 Kelvin(K) 단위의 [색 온도(Color Temperature)](https://en.wikipedia.org/wiki/Color_temperatur)로 표현하게 된다.
 
-불은 뜨거울수록 파랑색으로 변한다고 들었는데, 색 온도를 보면 딱 그 말이 떠오른다. 
+불은 뜨거울수록 파랑색으로 변한다고 들었는데, 색 온도 차트를 보면 딱 그 말이 맞다는 것을 볼 수 있다.
 
 ![[Color_temperature_black_body_800-12200K.svg]]
 
@@ -143,7 +148,7 @@ __주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖�
 
 ![[sunlight_spectrum_comparison_02.PNG]]
 
-[분광 분포(Spectral Power Distribution)](https://en.wikipedia.org/wiki/Spectral_power_distribution)로 봤을때 가시광선 영역 전체가 연속적\*으로 이어진 빛을 [Full Spectrum Light(FSL)](https://en.wikipedia.org/wiki/Full-spectrum_light)이라고 한다. 한 마디로, FSL은 가시광선의 모든 색을 방출한다 - 이론적인 하얀색(White)에 제일 가깝다고 보면 될 것 같다.
+분광분포로 봤을때 가시광선 영역 전체가 연속적\*으로 이어진 빛을 [Full Spectrum Light(FSL)](https://en.wikipedia.org/wiki/Full-spectrum_light)이라고 한다. 한 마디로, FSL은 가시광선의 모든 색을 방출한다 - 이론적인 하얀색(White)에 제일 가깝다고 보면 될 것 같다.
 
 \* 연속성(Continuity) : 빛의 여러 주파수 사이에 급격한 하락이 없이 쭉 이어진다. 빛이 가시광선의 모든 주파수를 포함한다는 뜻이며, 그만큼 모든 색을 갖추고 있다.
 
