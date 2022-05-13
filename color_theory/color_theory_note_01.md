@@ -85,7 +85,9 @@ https://www.pasco.com/resources/blog/243 참고
 더 자세한 내용은 [[isaac_newton_color_experiment|아이작 뉴턴의 색 이론]]에 정리한다.
 
 ### 스펙트럼 선
-뉴턴의 발견은 오랫동안 대중에 받아들여지지 못 했다. 거의 100년이 지나서야 [윌리엄 하이드 울러스턴(William Hyde Wollaston)](https://en.wikipedia.org/wiki/William_Hyde_Wollaston)이 뉴턴의 실험을 개선하고, 스펙트럼을 좀 더 자세히 볼 수 있게 되었다 - 이로서  
+뉴턴의 발견은 오랫동안 대중에 받아들여지지 못 했다. 거의 100년이 지나서야 [윌리엄 하이드 울러스턴(William Hyde Wollaston)](https://en.wikipedia.org/wiki/William_Hyde_Wollaston)이 뉴턴의 실험에 관심을 가지고, 뉴턴 프리즘 실험 구조에 렌즈를 추가하여 스펙트럼을 좀 더 자세히 볼 수 있게 개선했다. 이로서 윌리엄은 태양광 스펙트럼에 7개의 검은 선이 있다는 것을 발견했고, 이를 단순히 색을 구분하는 경계선이라고 발표했다.
+
+
 
 ![[fraunhofer_lines.svg]]
 
