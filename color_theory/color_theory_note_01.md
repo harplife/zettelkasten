@@ -78,17 +78,7 @@ Early History of Spectroscopy: Astronomy 유투브 플레이리스트 참고
 
 ![[isaac_newton_opticks_color_circle_cropped.png]]
 
-뉴턴의 발견에 대해 더 자세한 내용은 [[isaac_newton_color_experiment|아이작 뉴턴의 색 이론]]에 정리한다.
-
-
-
-뉴턴은 프리즘 실험을 통해 빛과 색에 대해 좀 더 이해하려 했고, 
-
-![[dispersive_prism_experiment_diagram_from_book.png]]
-
 더 자세한 내용은 [[isaac_newton_color_experiment|아이작 뉴턴의 색 이론]]에 정리한다.
-
-색에 대한 연구는 햇빛, 즉, [태양광(Sunlight)](https://en.wikipedia.org/wiki/Sunlight)과 [프리즘(Prism)](https://en.wikipedia.org/wiki/Prism)으로부터 시작된다.
 
 ### Absorption Lines
 뉴턴의 발견은 사실 오랫동안 대중에 받아들여지지 못 했다. 그나마 
@@ -149,7 +139,7 @@ Early History of Spectroscopy: Astronomy 유투브 플레이리스트 참고
 
 그럼 단색광에 무슨 색들이 속할까?
 
-우리는 일반적으로 단색광을 와 같이 7가지 색으로 분류한다 - 이는 1704년도에 출판된 [아이작 뉴턴(Isaac Newton)](https://en.wikipedia.org/wiki/Isaac_Newton)의 책 [_Opticks_](https://en.wikipedia.org/wiki/Opticks)에 명시된 [색 상환(Color Cicle)](https://en.wikipedia.org/wiki/Color_wheel)으로부터 비롯되었다.
+우리는 일반적으로 단색광을 와 같이 7가지 색으로 분류한다 - 이는 1704년도에 출판된 [아이작 뉴턴(Isaac Newton)](https://en.wikipedia.org/wiki/Isaac_Newton)의 책 [_Opticks_](https://en.wikipedia.org/wiki/Opticks) 에 명시된 [색 상환(Color Cicle)](https://en.wikipedia.org/wiki/Color_wheel)으로부터 비롯되었다.
 
 
 
