@@ -134,29 +134,7 @@
               "leaf": "87ea834a7b108cf6",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"color_theory/color_theory_note_01.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":35.869565217391305}"
-            }
-          ]
-        }
-      },
-      {
-        "id": "7e9096f07dc4aa4c",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "color_theory/light_matter_interaction.md",
-            "mode": "source"
-          }
-        },
-        "pane-relief:history-v1": {
-          "pos": 0,
-          "stack": [
-            {
-              "leaf": "7e9096f07dc4aa4c",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"color_theory/light_matter_interaction.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":30.838509316770185}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":50,\"ch\":0},\"to\":{\"line\":50,\"ch\":0}},\"scroll\":42.869565217391305}"
             }
           ]
         }
@@ -278,6 +256,7 @@
   "active": "87ea834a7b108cf6",
   "lastOpenFiles": [
     "color_theory/color_theory_note_01.md",
+    "color_theory/isaac_newton_color_experiment.md",
     "color_theory/light_matter_interaction.md",
     "computer_science/computer_vision/computer_graphics_note_1.md",
     "todo/todo_log_2022.md",
@@ -285,7 +264,6 @@
     "careers/technical_director/shubha_jagannatha/about_the_author_shubha.md",
     "careers/technical_director/gyedo_jeon.md",
     "careers/technical_director/technial_director_for_pixar_animation_studios.md",
-    "careers/technical_director/shubha_jagannatha/thoughts_and_advices_from_Pixar_TD_shubha.md",
-    "computer_science/computer_vision/yuv_color_encoding.md"
+    "careers/technical_director/shubha_jagannatha/thoughts_and_advices_from_Pixar_TD_shubha.md"
   ]
 }
