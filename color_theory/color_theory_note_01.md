@@ -49,14 +49,16 @@ __주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖�
 ## 색의 정의
 #todo 색은 빛-물체 상호작용으로부터 파생된 시지각적 특성(Visual Perceptual Property)이다...라고 정의하면 될 듯 싶다. 아직 그리 마음에 드는 정의는 없는 듯 싶다.
 
-색은 빛으로부터 파생된다. [빛(Light)](https://en.wikipedia.org/wiki/Light)은 눈으로 식별할 수 있는 [전자기파(Electromagnetic Radiation)](https://en.wikipedia.org/wiki/Electromagnetic_radiation)이다.
-
-눈으로 식별 가능한 전자기파의 범위를 [[#가시광선]]이라고 한다.
-
 ### 가시광선
-[가시광선(Visible Light)](https://en.wikipedia.org/wiki/Visible_spectrum)은 사람의 눈에 보이는 [전자기파](https://en.wikipedia.org/wiki/Electromagnetic_spectrum)의 영역을 뜻한다.
+우리가 흔히 생각하는 "빛"은 일상 생활에 "보이는 빛"이다. 빛은 보이는 빛과 보이지 않는 빛이 있고, 빛과 [전자기파(Electromagnetic Radiation)](https://en.wikipedia.org/wiki/Electromagnetic_radiation)는 동의어이다. "보이는 빛"은 사람의 눈에 보이는 전자기파로서 __가시광선__ 이라 불리운다.
 
-"빛"이라고 하면 가시광선을 뜻한다고 생각하면 된다.
+참고 : "보이지 않는 빛"은 적외선, 자외선 등 가시광선을 제외한 모든 전자기파이다.
+
+색은 빛으로부터 파생된다. 보다 정확히 표현하자면, 색은 빛과 물체의 상호작용으로서 방출된 가시광선이 사람의 눈으로서 인식되는 특성이다.
+
+위에 명시했듯이, 빛은 보이는 빛과 보이지 않는 빛이 있으며, 우리가 일반적으로 접하는 색은 보이는 빛과 물체의 상호작용으로 발생된 가시광선이다. 하지만, 보이지 않는 빛과 물체의 상호작용으로 발생되는 가시광선도 있다 (예: [형광(Fluorescence)](https://en.wikipedia.org/wiki/Fluorescence))
+
+[가시광 스펙트럼(Visible Spectrum)](https://en.wikipedia.org/wiki/Visible_spectrum)은 가시광선의 범위를 뜻한다. [전자기파 스펙트럼](https://en.wikipedia.org/wiki/Electromagnetic_spectrum)
 
 ![[electromagnetic_spectrum.webp]]
 
