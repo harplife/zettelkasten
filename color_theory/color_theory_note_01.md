@@ -56,9 +56,11 @@ __주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖�
 
 ![[dispersive_prism_experiment_painting.png]]
 
-17세기에 뉴턴은 프리즘 실험을 통해 하얀 색이 다른 색으로 변하는게 아니라, 하얀 색이 여러 색으로 구성되어 있음을 증명했다.
+17세기에 뉴턴은 프리즘 실험을 통해 하얀 색이 다른 색으로 변하는게 아니라, 하얀 색이 여러 색으로 구성되어 있음을 증명했다. 더불어, 하얀 색으로부터 굴절된 색은 더 이상 굴절로 통해 다른 색으로 변하지 않으며, 이 색들을 조합하여 다른 색을 낼수 있음을 증명했다.
 
-당시에는 
+판자에 비추어진 색에 검은선 6개가 보였었는데, 뉴턴은 그것이 단순히 색들을 나누는 경계선으로 생각했다. 뉴턴은 하얀색은 7가지 색,[빨주노초파남보(Roy G. Biv)](https://en.wikipedia.org/wiki/ROYGBIV)으로 구성되었다 하고, 이 색들을 "원색 (Primary Color)"이라 불렀다.
+
+![[isaac_newton_opticks_color_circle_cropped.png]]
 
 ![[fraunhofer_lines.svg]]
 
@@ -126,9 +128,9 @@ __주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖�
 
 그럼 단색광에 무슨 색들이 속할까?
 
-우리는 일반적으로 단색광을 [빨주노초파남보(Roy G. Biv)](https://en.wikipedia.org/wiki/ROYGBIV)와 같이 7가지 색으로 분류한다 - 이는 1704년도에 출판된 [아이작 뉴턴(Isaac Newton)](https://en.wikipedia.org/wiki/Isaac_Newton)의 책 [_Opticks_](https://en.wikipedia.org/wiki/Opticks)에 명시된 [색 상환(Color Cicle)](https://en.wikipedia.org/wiki/Color_wheel)으로부터 비롯되었다.
+우리는 일반적으로 단색광을 와 같이 7가지 색으로 분류한다 - 이는 1704년도에 출판된 [아이작 뉴턴(Isaac Newton)](https://en.wikipedia.org/wiki/Isaac_Newton)의 책 [_Opticks_](https://en.wikipedia.org/wiki/Opticks)에 명시된 [색 상환(Color Cicle)](https://en.wikipedia.org/wiki/Color_wheel)으로부터 비롯되었다.
 
-![[isaac_newton_opticks_color_circle_cropped.png]]
+
 
 사실 가시광선의 영역은 연속적(Continuous)이기 때문에 단색광은 무한(infinity)개 있다. 더불어, 완전한 단색광을 재현하는 것은 어렵다 (이유는 양자역학에 관련된 것 같아서 이해하는 것을 포기했다). 우리는 색에 대한 소통을 위해 가시광선의 일부 영역들을 단색광으로 최대한 근접하게(Approximation) 표현하여 구분할 뿐이다.
 
