@@ -102,12 +102,12 @@ https://www.pasco.com/resources/blog/243 참고
 
 ![[isaac_newton_opticks_color_circle_cropped.png]]
 
-더 자세한 내용은 [[isaac_newton_color_experiment|아이작 뉴턴의 색 이론]]에 정리한다.
+더 자세한 내용은 [[isaac_newton_color_theory|아이작 뉴턴의 색 이론]]에 정리한다.
 
 ### 스펙트럼 선
 뉴턴의 발견은 오랫동안 대중에 받아들여지지 못 했다. 거의 100년이 지나서야 (19세기) [윌리엄 하이드 울러스턴(William Hyde Wollaston, 1766-1828)](https://en.wikipedia.org/wiki/William_Hyde_Wollaston)이 뉴턴의 실험에 관심을 가지고, 뉴턴 프리즘 실험 구조에 렌즈를 추가하여 스펙트럼을 좀 더 자세히 볼 수 있게 개선했다. 이로서 윌리엄은 태양광 스펙트럼에 7개의 검은 선이 있다는 것을 발견했고, 이를 색을 구분하는 경계선이라고 발표했다.
 
-[요제프 폰 프라운호퍼(Joseph von Fraunhofer, 1787-1826)](https://en.wikipedia.org/wiki/Joseph_von_Fraunhofer)는 아주 솜씨가 좋은 유리 공예가(Glass Maker)였다. 더 좋은 렌즈를 만들고자 하는 목표로 프리즘 실험을 해보고, 프리즘 실험을 개선하여 첫 [분광기(Scpectrometer)](https://en.wikipedia.org/wiki/Optical_spectrometer)를 발명했다고 한다. 
+
 
 ![[fraunhofer_lines.svg]]
 
