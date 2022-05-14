@@ -17,10 +17,17 @@ edited: 2022-05-14
 
 더 좋은 렌즈를 만들고자 하는 목표로 프리즘 실험을 해보고, 프리즘 실험을 개선하여 첫 [분광기(Scpectrometer)](https://en.wikipedia.org/wiki/Optical_spectrometer)를 발명했다고 한다. 
 
+https://en.wikipedia.org/wiki/History_of_spectroscopy
+
+https://www.wikiwand.com/en/Joseph_von_Fraunhofer
+
 https://www2.hao.ucar.edu/Education/FamousSolarPhysicists/joseph-von-fraunhofe
 
 http://scihi.org/joseph-fraunhofer-solar-spectrum/
 
 https://onlinelibrary.wiley.com/doi/full/10.1002/andp.201400807
+
+https://en.wikipedia.org/wiki/Optical_spectrometer
+
 
 
