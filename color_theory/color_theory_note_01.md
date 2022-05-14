@@ -59,7 +59,9 @@ https://www.pasco.com/resources/blog/243 참고
 
 ![[dispersive_prism_pretty_one.png]]
 
-프리즘 실험에 사용되는 프리즘을 [분산 프리즘(Dispersive Prism)](https://en.wikipedia.org/wiki/Dispersive_prism)이라 부른다.
+프리즘 실험에 사용되는 프리즘을 [분산 프리즘(Dispersive Prism)](https://en.wikipedia.org/wiki/Dispersive_prism)이라 부른다. 분산 프리즘의 원리는 [[#굴절의 법칙]]을 따른다.
+
+![[dispersive_prism_refraction_diagram.png]]
 
 초기에 프리즘 실험의 목적은 빛을 [[#굴절]]시키는 유리를 연구하기 위해서였다. 멀리 있는 물체(예: 멀리서 오는 적, 하늘에 있는 별)를 관찰하기 위해 망원경(Telescope)이 필요했고, 망원경에는 빛을 굴절시킬 수 있는 유리가 있어야 했다. 한 마디로, 더 멀리 있는 물체를 더 자세히 관찰하기 위해서 빛을 더 굴절시키는 유리를 찾을 필요가 있었다. 그래서 프리즘 실험을 통해, 여러 종류의 유리를 실험해보며 높은 굴절율의 유리를 찾으려 했던 것이다.
 
@@ -67,7 +69,7 @@ https://www.pasco.com/resources/blog/243 참고
 
 시간이 지나며, 프리즘 실험을 통해 나온 색들 자체에 의미가 있다는 것이 발견되었고, 이것이 빛을 내는 물체([[#광원]])의 성분을 구분하는데 도움이 된다는 것이 발견되었다. 그리하여, 프리즘 실험을 통한 색의 연구는 화학, 천문학, 그리고 물리학의 발전에 큰 주축이 되었다.
 
-과거에 프리즘 실험(또는 비슷한 실험)을 통해 가시광선을 연구하는 학문을 [분광학 (Spectroscopy)](https://en.wikipedia.org/wiki/Spectroscopy)이라 불렀다. 이후에 이 개념은 확장되어 물질과 전자기파의 상호작용으로 나온 전자기 스펙트럼\*을 파장 또는 주파수의 함수로서 측정하고 해석하는 학문으로 발전되었다.
+과거에 프리즘 실험(또는 비슷한 실험)을 통해 가시광선을 연구하는 학문을 [분광학 (Spectroscopy)](https://en.wikipedia.org/wiki/Spectroscopy)이라 불렀다 ([참고](https://www.pasco.com/resources/blog/243)). 이후에 이 개념은 확장되어 물질과 전자기파의 상호작용으로 나온 전자기 스펙트럼\*을 파장 또는 주파수의 함수로서 측정하고 해석하는 학문으로 발전되었다.
 
 \* [전자기 스펙트럼](https://en.wikipedia.org/wiki/Electromagnetic_spectrum) : 파장이나 주파수의 함수로 주어지는 반응 값을 도표로 나타낸 차트. __분광 분포도__ 라고도 한다.
 
