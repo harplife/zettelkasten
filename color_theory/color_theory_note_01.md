@@ -69,9 +69,9 @@ https://www.pasco.com/resources/blog/243 참고
 
 참고 : 전자기 스펙트럼을 측정하는 도구를 [분광기(Spectrometer)](https://en.wikipedia.org/wiki/Spectrometer)라고 한다. 분광계라고도 하는데, 차이가 있는지 모르겠다.
 
-#todo 누가 만듬?
+유리나 물로 인해 빛이 굴절되는 것은 누구나 볼 수 있는 현상이다. [[#굴절의 법칙]]은 [빌러브로어트 스넬리우스(Willebrord Snellius, 1580-1626)](https://en.wikipedia.org/wiki/Willebrord_Snellius)가 발견했다고 스넬의 법칙(Snell's Law)라고 불리지만, 사실 이 원리는 훨씬 오래전인 984년에 [이븐 사흘(Ibn Sahl, 940-1000)]이 발견했었다.
 
-
+프리즘 실험과 같은 실험을 굴절 실험 또는 분산 실험이라고 한다. 
 
 프리즘 실험을 통한 색의 연구는 화학, 천문학, 그리고 물리학의 발전에 큰 주축이 되었다.
 
@@ -562,8 +562,8 @@ https://flexbooks.ck12.org/cbook/ck-12-middle-school-physical-science-flexbook-2
 
 ![[light_refraction_by_heat.PNG]]
 
-##### 굴절 법칙
-굴절 법칙은 입사각과 굴절각의 관계를 정의한 수식으로, Law of Refraction 또는 [Snell's Law](https://en.wikipedia.org/wiki/Snell%27s_law)로 불리운다.
+##### 굴절의 법칙
+굴절의 법칙은 입사각과 굴절각의 관계를 정의한 수식으로, Law of Refraction 또는 [Snell's Law](https://en.wikipedia.org/wiki/Snell%27s_law)로 불리운다.
 
 ### 흡수
 [흡수/흡광(Absorption)](https://en.wikipedia.org/wiki/Absorption_(electromagnetic_radiation))은 빛이 물체로 인해 [광도(Luminous Intensity)](https://en.wikipedia.org/wiki/Luminous_intensity)가 줄어드는 현상을 뜻한다.
