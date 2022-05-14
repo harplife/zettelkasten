@@ -46,18 +46,22 @@ __주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖�
 #todo 언젠가는 이 노트를 기준으로 사이트를 만들어 애니메이션(WebGL)으로 설명하고 싶다.
 
 ## 색 이론의 역사
-색 이론은 아리스토텔레스(Aristotle)가 "색은 신이 천국에서부터 내려준 성스러운 광선이다"라고 주장한 것으로부터 시작되고 그 뒤로 색 조합 등 여러 이론들이 나왔지만, 색 이론의 진정한 형식화는 1704년도에 출판되었던 [아이작 뉴턴(Isaac Newton)](https://en.wikipedia.org/wiki/Isaac_Newton)의 책 [_Opticks_](https://en.wikipedia.org/wiki/Opticks) 로부터 시작되었다.
+색 이론은 아리스토텔레스(Aristotle)가 "색은 신이 천국에서부터 내려준 성스러운 광선이다"라고 주장한 것으로부터 시작되고 그 뒤로 색 조합 등 여러 이론들이 나왔지만, 색 이론의 진정한 형식화는 1704년도에 출판되었던 [아이작 뉴턴(Isaac Newton, 1642-1727)](https://en.wikipedia.org/wiki/Isaac_Newton)의 책, [_Opticks_](https://en.wikipedia.org/wiki/Opticks) 로부터 시작되었다.
 
 [Early History of Spectroscopy: Astronomy 유투브 플레이리스트](https://youtube.com/playlist?list=PLepnjl2hm9tEauxnqXG8JjBR7Y3w-8nXg) 참고
 
 https://www.pasco.com/resources/blog/243 참고
 
 ### 프리즘 실험
-프리즘 실험은 어두운 방에 작은 구멍을 통해 들어온 태양광을 가운데 프리즘에 비추고 그 반대편에 세워진 판자에 비추어진 색들을 연구하는 방식으로 진행된다.
+프리즘 실험은 빛을 프리즘에 비추고 프리즘에서 분리되어 나온 색들을 연구하는 실험을 뜻한다. 정확히는, 어두운 방에 작은 구멍(Slit)을 통해 들어온 광선을 가운데 프리즘에 비추고 그 반대편에 세워진 판자에 비추어진 색들을 연구하는 실험이다.
 
 ![[dispersive_prism_experiment_painting.png]]
 
 ![[dispersive_prism_pretty_one.png]]
+
+초기에 프리즘 실험의 목적은 빛을 [[#굴절]]시키는 유리를 연구하기 위해서였다. 하늘에 있는 별을 관찰(천문학)하기 위해 망원경(Telescope)이 필요했고, 망원경에는 빛을 굴절시킬 수 있는 유리가 있어야 했다. 한 마디로, 별을 더 자세히 관찰하기 위해서 빛을 더 굴절시키는 유리를 찾을 필요가 있었다. 그래서 프리즘 실험을 통해, 여러 종류의 유리를 실험해보며 더 높은 굴절율의 유리를 찾으려 했던 것이다.
+
+시간이 지나며, 프리즘 실험을 통해 나온 색들 자체에 의미가 있다는 것이 발견되었고, 이것이 빛을 내는 물체([[#광원]])의 성분을 구분하는데 도움이 된다는 것이 발견되었다. 그리하여, 프리즘 실험을 통한 색의 연구는 화학, 천문학, 그리고 물리학의 발전에 큰 주축이 되었다.
 
 과거에 프리즘 실험(또는 비슷한 실험)을 통해 가시광선을 연구하는 학문을 [분광학 (Spectroscopy)](https://en.wikipedia.org/wiki/Spectroscopy)이라 불렀다. 이후에 이 개념은 확장되어 물질과 전자기파의 상호작용으로 나온 전자기 스펙트럼\*을 파장 또는 주파수의 함수로서 측정하고 해석하는 학문으로 발전되었다.
 
@@ -69,9 +73,7 @@ https://www.pasco.com/resources/blog/243 참고
 
 참고 : 전자기 스펙트럼을 측정하는 도구를 [분광기(Spectrometer)](https://en.wikipedia.org/wiki/Spectrometer)라고 한다. 분광계라고도 하는데, 차이가 있는지 모르겠다.
 
-유리나 물로 인해 빛이 굴절되는 것은 누구나 볼 수 있는 현상이다. [[#굴절의 법칙]]
-
-프리즘 실험을 통한 색의 연구는 화학, 천문학, 그리고 물리학의 발전에 큰 주축이 되었다.
+유리나 물로 인해 빛이 굴절되는 것은 누구나 볼 수 있는 현상이다. 누가 프리즘 실험을 처음 시작했는지는 모르지만, 프리즘 실험으로 잘 알려진 사람은 뉴턴이다.
 
 ### 뉴턴의 발견
 17세기에 [광학(Optics)](https://en.wikipedia.org/wiki/Optics)은 고품질 현미경을 만들 정도로 잘 발달된 학문이였다. 프리즘(Prism)으로 태양빛을 굴절시켜 여러 색을 만들수있다는 것은 알고있었지만, 이 현상을 잘 이해한 것은 아니었다. 그 당시에는 하얀색이 가장 순수한 색이며, 물질로 인해 더렵혀짐(Contaminated)으로 다른 색으로 변한다고 믿었다.
@@ -395,6 +397,10 @@ __발산 광선(Divergent Ray)__ 는 빛이 넓어지며 나가는 빛을 뜻한
 > ![[wave_reflection_animation.gif]]
 > 빛 파동의 반사 시뮬레이션 - [Ripple Tank Simulation](http://www.falstad.com/ripple/)
 
+반사의 법칙은 [유클리드(Euclid, 300 BC)](https://en.wikipedia.org/wiki/Euclid)가 일부 발견했고, [르네 데카르트(René Descartes)](https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes)가 [[#굴절의 법칙]]과 함께 반사의 법칙을 완성시켰다.
+
+참고 : 유클리드는 빛이 눈에서 발산된다고 믿었다..
+
 #### 반사의 종류
 반사는 정반사와 난반사, 이 두 가지로 분류가 된다.
 
@@ -563,9 +569,11 @@ https://flexbooks.ck12.org/cbook/ck-12-middle-school-physical-science-flexbook-2
 ##### 굴절의 법칙
 굴절의 법칙(Law of Refraction)은 입사각과 굴절각의 관계를 정의한 수식이다.
 
-굴절의 법칙은 [빌러브로어트 스넬리우스(Willebrord Snellius, 1580-1626)](https://en.wikipedia.org/wiki/Willebrord_Snellius)가 발견했다고 [스넬의 법칙(Snell's Law)]([스넬의 법칙(Snell's Law)](https://en.wikipedia.org/wiki/Snell%27s_law))이라고 불리지만, 당시에 [르네 데카르트(René Descartes)](https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes)도 이 사실을 발표했었기에 데카르트의 법칙(Descarte's Law)라고도 불리게 되었다. 관련해서 [[descartes_optics_harvard_jeffrey_mcdonough.pdf | 여러 드라마가 있었다]]고 하는데, 서로 독립적으로 발견한 것으로 인정되었다.
+굴절의 법칙은 [빌러브로어트 스넬리우스(Willebrord Snellius, 1580-1626)](https://en.wikipedia.org/wiki/Willebrord_Snellius)가 발견했다고 [스넬의 법칙(Snell's Law)]([스넬의 법칙(Snell's Law)](https://en.wikipedia.org/wiki/Snell%27s_law))이라고 불리지만, 당시에 [르네 데카르트(René Descartes)](https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes)도 이 사실을 발표했었기에 데카르트의 법칙(Descarte's Law)라고도 불리게 되었다. 관련해서 [[descartes_optics_harvard_jeffrey_mcdonough.pdf | 여러 드라마가 있었다]]고 하는데, 결국엔 서로 독립적으로 발견한 것으로 인정되었다.
 
-웃긴것은, 사실 이 원리는 훨씬 오래전인 984년에 [이븐 사흘(Ibn Sahl, 940-1000)]이 발견했었다. 누가 발견했건, 그냥 굴절의 법칙이라고 부르는게 좋을 것 같다.
+사실 이 원리는 훨씬 오래전에 [클라우디오스 프톨레마이오스(Claudius Ptolemy, 100-170 AD)](https://en.wikipedia.org/wiki/Ptolemy)가 일부 발견했었고, 984년에 [이븐 사흘(Ibn Sahl, 940-1000)]이 굴절의 법칙을 완성시켰다.
+
+누가 발견했건, 그냥 굴절의 법칙이라고 부르는게 좋을 것 같다.
 
 프리즘 실험과 같은 실험을 굴절 실험 또는 분산 실험이라고 한다. 
 
@@ -752,6 +760,8 @@ Quora 답변에 의하면, __반사는 굴절율에 차이가 클 때 발생__ �
 참고 자료 6 : [유리를 통과하는 빛은 느려지는가?](https://www.physlink.com/education/askexperts/ae217.cfm) - #todo 나중에 글이 없어질 수 있으니, 따로 글로 정리할 것.
 
 참고 자료 7 : [빛이 느려진다면 어떻게 보일까?](https://www.livescience.com/what-if-speed-of-light-slowed-down) - #todo 이걸 [게임](http://gamelab.mit.edu/games/a-slower-speed-of-light/)으로 구현한게 있으니, 나중에 해보자.
+
+참고 자료 8 : http://www.thestargarden.co.uk/Reflection-refraction-and-diffraction.html
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cv0bBfiCWAk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
