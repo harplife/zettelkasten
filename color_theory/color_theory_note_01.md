@@ -59,7 +59,11 @@ https://www.pasco.com/resources/blog/243 참고
 
 ![[dispersive_prism_pretty_one.png]]
 
-초기에 프리즘 실험의 목적은 빛을 [[#굴절]]시키는 유리를 연구하기 위해서였다. 하늘에 있는 별을 관찰(천문학)하기 위해 망원경(Telescope)이 필요했고, 망원경에는 빛을 굴절시킬 수 있는 유리가 있어야 했다. 한 마디로, 별을 더 자세히 관찰하기 위해서 빛을 더 굴절시키는 유리를 찾을 필요가 있었다. 그래서 프리즘 실험을 통해, 여러 종류의 유리를 실험해보며 더 높은 굴절율의 유리를 찾으려 했던 것이다.
+프리즘 실험에 사용되는 프리즘을 [분산 프리즘(Dispersive Prism)](https://en.wikipedia.org/wiki/Dispersive_prism)이라 부른다.
+
+초기에 프리즘 실험의 목적은 빛을 [[#굴절]]시키는 유리를 연구하기 위해서였다. 멀리 있는 물체(예: 멀리서 오는 적, 하늘에 있는 별)를 관찰하기 위해 망원경(Telescope)이 필요했고, 망원경에는 빛을 굴절시킬 수 있는 유리가 있어야 했다. 한 마디로, 더 멀리 있는 물체를 더 자세히 관찰하기 위해서 빛을 더 굴절시키는 유리를 찾을 필요가 있었다. 그래서 프리즘 실험을 통해, 여러 종류의 유리를 실험해보며 높은 굴절율의 유리를 찾으려 했던 것이다.
+
+![[dutch_telescope_1624.png]]
 
 시간이 지나며, 프리즘 실험을 통해 나온 색들 자체에 의미가 있다는 것이 발견되었고, 이것이 빛을 내는 물체([[#광원]])의 성분을 구분하는데 도움이 된다는 것이 발견되었다. 그리하여, 프리즘 실험을 통한 색의 연구는 화학, 천문학, 그리고 물리학의 발전에 큰 주축이 되었다.
 
@@ -74,6 +78,14 @@ https://www.pasco.com/resources/blog/243 참고
 참고 : 전자기 스펙트럼을 측정하는 도구를 [분광기(Spectrometer)](https://en.wikipedia.org/wiki/Spectrometer)라고 한다. 분광계라고도 하는데, 차이가 있는지 모르겠다.
 
 유리나 물로 인해 빛이 굴절되는 것은 누구나 볼 수 있는 현상이다. 누가 프리즘 실험을 처음 시작했는지는 모르지만, 프리즘 실험으로 잘 알려진 사람은 뉴턴이다.
+
+참고 : 프리즘 실험과 같은 실험을 [[#굴절]] 실험 또는 __분산(Dispersion)__ 실험이라고 한다. 
+
+[Pink Floyd](https://en.wikipedia.org/wiki/Pink_Floyd)의 [Dark Side of the Moon](https://en.wikipedia.org/wiki/The_Dark_Side_of_the_Moon) 앨범 커버에 그려진 것이 분산 프리즘이다. 빛은 프리즘 안에서부터 여러 색으로 분산되는데, 앨범 커버는 프리즘 반대 표면에서부터 분산되는 것으로 그려서 틀린 그림이라고 지적 받는다.
+
+그래도 [음악 앨범](https://music.youtube.com/playlist?list=OLAK5uy_mXoi-FuQb9Gw7Mguhdx5F4jltT0L1qOCw&feature=share)이 너무 좋아서 용서해준다.
+
+![[dark_side_of_the_moon_album_cover.png]]
 
 ### 뉴턴의 발견
 17세기에 [광학(Optics)](https://en.wikipedia.org/wiki/Optics)은 고품질 현미경을 만들 정도로 잘 발달된 학문이였다. 프리즘(Prism)으로 태양빛을 굴절시켜 여러 색을 만들수있다는 것은 알고있었지만, 이 현상을 잘 이해한 것은 아니었다. 그 당시에는 하얀색이 가장 순수한 색이며, 물질로 인해 더렵혀짐(Contaminated)으로 다른 색으로 변한다고 믿었다.
@@ -575,7 +587,7 @@ https://flexbooks.ck12.org/cbook/ck-12-middle-school-physical-science-flexbook-2
 
 누가 발견했건, 그냥 굴절의 법칙이라고 부르는게 좋을 것 같다.
 
-프리즘 실험과 같은 실험을 굴절 실험 또는 분산 실험이라고 한다. 
+참고 : [[brief_history_of_refraction.pdf | 굴절의 역사]]
 
 ### 흡수
 [흡수/흡광(Absorption)](https://en.wikipedia.org/wiki/Absorption_(electromagnetic_radiation))은 빛이 물체로 인해 [광도(Luminous Intensity)](https://en.wikipedia.org/wiki/Luminous_intensity)가 줄어드는 현상을 뜻한다.
