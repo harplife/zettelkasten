@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Basic//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-basic.dtd">
+<svg version="1.1" baseProfile="basic"
+	 id="svg2" inkscape:version="0.46+devel" sodipodi:version="0.32" sodipodi:docname="Linear_visible_spectrum.svg" inkscape:output_extension="org.inkscape.output.svg.inkscape" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="623.622px"
+	 height="170.079px" viewBox="-9.311 -27.54 623.622 170.079" xml:space="preserve">
+<linearGradient id="rect2383_2_" gradientUnits="userSpaceOnUse" x1="192.5186" y1="-853.0869" x2="652.6644" y2="-853.0869" gradientTransform="matrix(1.3103 0 0 -0.3394 -251.2234 -233.2811)">
+	<stop  offset="0" style="stop-color:#020005"/>
+	<stop  offset="0.0135" style="stop-color:#020006"/>
+	<stop  offset="0.027" style="stop-color:#030008"/>
+	<stop  offset="0.0405" style="stop-color:#04000A"/>
+	<stop  offset="0.0541" style="stop-color:#06000D"/>
+	<stop  offset="0.0676" style="stop-color:#080110"/>
+	<stop  offset="0.0811" style="stop-color:#0C0117"/>
+	<stop  offset="0.0946" style="stop-color:#11021F"/>
+	<stop  offset="0.1081" style="stop-color:#17032A"/>
+	<stop  offset="0.1216" style="stop-color:#1F053A"/>
+	<stop  offset="0.1351" style="stop-color:#25084B"/>
+	<stop  offset="0.1486" style="stop-color:#290A5C"/>
+	<stop  offset="0.1622" style="stop-color:#2B0E6F"/>
+	<stop  offset="0.1757" style="stop-color:#291380"/>
+	<stop  offset="0.1892" style="stop-color:#1F237B"/>
+	<stop  offset="0.2027" style="stop-color:#132E74"/>
+	<stop  offset="0.2162" style="stop-color:#09376C"/>
+	<stop  offset="0.2297" style="stop-color:#0A3E66"/>
+	<stop  offset="0.2432" style="stop-color:#0C4667"/>
+	<stop  offset="0.2568" style="stop-color:#0E4F6A"/>
+	<stop  offset="0.2703" style="stop-color:#10596C"/>
+	<stop  offset="0.2838" style="stop-color:#11636D"/>
+	<stop  offset="0.2973" style="stop-color:#146E6F"/>
+	<stop  offset="0.3108" style="stop-color:#177970"/>
+	<stop  offset="0.3243" style="stop-color:#178672"/>
+	<stop  offset="0.3378" style="stop-color:#1A9574"/>
+	<stop  offset="0.3514" style="stop-color:#1DA375"/>
+	<stop  offset="0.3649" style="stop-color:#1DB273"/>
+	<stop  offset="0.3784" style="stop-color:#20C070"/>
+	<stop  offset="0.3919" style="stop-color:#22CB6B"/>
+	<stop  offset="0.4054" style="stop-color:#21D662"/>
+	<stop  offset="0.4189" style="stop-color:#23E054"/>
+	<stop  offset="0.4324" style="stop-color:#36E842"/>
+	<stop  offset="0.4459" style="stop-color:#50ED28"/>
+	<stop  offset="0.4595" style="stop-color:#73EB22"/>
+	<stop  offset="0.473" style="stop-color:#8FE722"/>
+	<stop  offset="0.4865" style="stop-color:#A5E221"/>
+	<stop  offset="0.5" style="stop-color:#B9DC22"/>
+	<stop  offset="0.5135" style="stop-color:#CBD621"/>
+	<stop  offset="0.527" style="stop-color:#DCCE20"/>
+	<stop  offset="0.5405" style="stop-color:#ECC420"/>
+	<stop  offset="0.5541" style="stop-color:#F2B735"/>
+	<stop  offset="0.5676" style="stop-color:#F5AB42"/>
+	<stop  offset="0.5811" style="stop-color:#F69F49"/>
+	<stop  offset="0.5946" style="stop-color:#F7944B"/>
+	<stop  offset="0.6081" style="stop-color:#F98848"/>
+	<stop  offset="0.6216" style="stop-color:#FA7B42"/>
+	<stop  offset="0.6351" style="stop-color:#FB6C39"/>
+	<stop  offset="0.6486" style="stop-color:#FD5B2E"/>
+	<stop  offset="0.6622" style="stop-color:#FC471F"/>
+	<stop  offset="0.6757" style="stop-color:#F7300F"/>
+	<stop  offset="0.6892" style="stop-color:#EA220D"/>
+	<stop  offset="0.7027" style="stop-color:#D42215"/>
+	<stop  offset="0.7162" style="stop-color:#BF2318"/>
+	<stop  offset="0.7297" style="stop-color:#A92309"/>
+	<stop  offset="0.7432" style="stop-color:#981F07"/>
+	<stop  offset="0.7568" style="stop-color:#871B06"/>
+	<stop  offset="0.7703" style="stop-color:#771805"/>
+	<stop  offset="0.7838" style="stop-color:#671504"/>
+	<stop  offset="0.7973" style="stop-color:#591303"/>
+	<stop  offset="0.8108" style="stop-color:#4D1103"/>
+	<stop  offset="0.8243" style="stop-color:#420E02"/>
+	<stop  offset="0.8378" style="stop-color:#370C01"/>
+	<stop  offset="0.8514" style="stop-color:#2E0A01"/>
+	<stop  offset="0.8649" style="stop-color:#270801"/>
+	<stop  offset="0.8784" style="stop-color:#210600"/>
+	<stop  offset="0.8919" style="stop-color:#1E0400"/>
+	<stop  offset="0.9054" style="stop-color:#1A0300"/>
+	<stop  offset="0.9189" style="stop-color:#170200"/>
+	<stop  offset="0.9324" style="stop-color:#130100"/>
+	<stop  offset="0.9459" style="stop-color:#100100"/>
+	<stop  offset="0.9595" style="stop-color:#0C0100"/>
+	<stop  offset="0.973" style="stop-color:#080100"/>
+	<stop  offset="0.9865" style="stop-color:#060100"/>
+	<stop  offset="1" style="stop-color:#040100"/>
+</linearGradient>
+<rect id="rect2383_1_" x="3" y="24.257" fill="url(#rect2383_2_)" stroke="#000000" stroke-linecap="square" stroke-linejoin="round" width="599" height="64"/>
+<inkscape:perspective  id="perspective10" inkscape:vp_z="744.09448 : 526.18109 : 1" sodipodi:type="inkscape:persp3d" inkscape:vp_x="0 : 526.18109 : 1" inkscape:vp_y="0 : 1000 : 0" inkscape:persp3d-origin="372.04724 : 350.78739 : 1">
+	</inkscape:perspective>
+<text transform="matrix(0 -1 1 0 458.2695 117.9912)" font-family="'Helvetica'" font-size="14.1732">656</text>
+<text transform="matrix(0 -1 1 0 180.4165 118.0811)" font-family="'Helvetica'" font-size="14.1732">486</text>
+<rect x="222.182" y="106.991" fill="none" width="191.318" height="22"/>
+<text transform="matrix(1 0 0 1 222.1816 125.334)"><tspan x="0" y="0" font-family="'Helvetica'" font-size="19.8425">wavelength, </tspan><tspan x="111.411" y="0" font-family="'Helvetica'" font-size="25.5118">λ</tspan><tspan x="125.6" y="0" font-family="'Helvetica'" font-size="19.8425"> (nm)</tspan></text>
+<rect x="3" y="-15.992" fill="none" width="412.5" height="29.17"/>
+<text transform="matrix(1 0 0 1 3 4.3887)" font-family="'Helvetica'" font-size="28.3465">Hydrogen Absorption Spectrum</text>
+<text transform="matrix(0 -1 1 0 109.4165 117.9912)" font-family="'Helvetica'" font-size="14.1732">434</text>
+<text transform="matrix(0 -1 1 0 69.98 117.9912)" font-family="'Helvetica'" font-size="14.1732">410</text>
+<rect x="449.27" y="24.257" width="7" height="64"/>
+<rect x="171" y="24.257" width="7" height="64"/>
+<rect x="100" y="24.257" width="7" height="64"/>
+<rect x="62" y="24.257" stroke="#000000" width="7" height="64"/>
+</svg>

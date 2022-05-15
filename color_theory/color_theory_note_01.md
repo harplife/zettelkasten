@@ -102,7 +102,7 @@ https://www.pasco.com/resources/blog/243 참고
 
 ![[isaac_newton_opticks_color_circle_cropped.png]]
 
-더 자세한 내용은 [[isaac_newton_color_theory|아이작 뉴턴의 색 이론]]에 정리한다.
+#todo 더 자세한 내용은 [[isaac_newton_color_theory|아이작 뉴턴의 색 이론]]에 정리한다.
 
 ### 스펙트럼 선
 뉴턴의 발견 이후 색 이론은 큰 진전이 없었다. 거의 100년이 지나서야 (19세기) [윌리엄 하이드 울러스턴(William Hyde Wollaston, 1766-1828)](https://en.wikipedia.org/wiki/William_Hyde_Wollaston)이 뉴턴의 실험에 관심을 가지고, 뉴턴 프리즘 실험 구조에 렌즈를 추가하여 스펙트럼을 좀 더 자세히 볼 수 있게 개선했다. 이로서 울러스턴은 태양광 스펙트럼에 7개의 흑선이 있다는 것을 발견했고, 이를 색을 구분하는 경계선이라고 발표했다.
@@ -113,18 +113,18 @@ https://www.pasco.com/resources/blog/243 참고
 
 ![[fraunhofer_lines.svg]]
 
-더불어, 프라운호퍼는 태양과 광원(예: 행성, 가열된 금속, 촛불)의 스펙트럼을 비교하여 각 광원의 흑선들의 위치가 다르다는 것을 발견했고, 이 흑선들이 울러스턴이 말했던 "색의 경계선"이 아니라 빛을 발하는 광원의 특성이라는 이론을 제시하였다. 하지만 이 흑선이 의미하는 바가 정확히 무엇인지는 발견하지 못 했다.
+더불어, 프라운호퍼는 태양과 다른 광원(예: 행성, 가열된 금속, 촛불)의 스펙트럼을 비교하여 각 광원의 흑선들의 위치가 다르다는 것을 발견했고, 이 흑선들이 울러스턴이 말했던 "색의 경계선"이 아니라 빛을 발하는 광원의 특성이라는 이론을 제시하였다. 하지만 이 흑선이 의미하는 바가 정확히 무엇인지는 발견하지 못 했다.
 
-더 자세한 내용은 [[joseph_fraunhofer|프라운호퍼의 색 이론]]에 정리한다.
+#todo 더 자세한 내용은 [[joseph_fraunhofer|프라운호퍼의 색 이론]]에 정리한다.
 
 참고 : 현재로서 태양광 스펙트럼의 흑선은 약 25,000개 까지 발견되었다.
 
-[[#광원의 성분]]에서 더 자세히 설명하겠지만, 물질이 특정 색을 흡수한다는 사실을 발견하는데 흑선이 사용되었다. 흑선은 그래서 흡수선(Absorption Line)
-
-
+[[#광원의 성분]]에서 더 자세히 설명하겠지만, 흑선을 연구하는 과정에 물질이 특정 색을 흡수한다는 사실이 발견되었다. 흑선은 그래서 흡수선(Absorption Line)으로 불리게 되었다. 흡수선의 반대 개념으로 방출선(Emission Line)이 있으며, 이는 가열된 물질이 방출하는 특정 색을 표기하는데 사용된다. 흡수선과 방출선을 통틀어서 [스펙트럼 선(Spectral Line)](https://en.wikipedia.org/wiki/Spectral_line)이라 부른다. 스펙트럼에 흡수선을 사용하여 표기한 것을 [흡수 스펙트럼(Absorption Spectrum)](https://en.wikipedia.org/wiki/Absorption_spectroscopy#Absorption_spectrum)이라 부르며, 방출선을 사용한 스펙트럼은 [방출 스펙트럼(Emission Spectrum)](https://en.wikipedia.org/wiki/Emission_spectrum)이라 부른다.
 
 ### 광원의 성분
-빛을 내는 물체를 [[#광원]]이라고 한다. 19세기에 백열등(Incandescent Light)
+과학자들은 
+
+#todo 이건 사실 아주 역사가 길기 떄문에, 따른 노트로 정리한다.
 
 ### 여러 학문들의 발전
 태양광 대신에 물질을 태우며 발생되는 빛을 사용하여 프리즘 실험을 진행함으로서, 그 물질의 분광 분포도를 측정했다. 반대로, 분광 분포도를 기준으로 빛을 내는 물질의 성분을 구분할 수 있게 되었다.
