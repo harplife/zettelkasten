@@ -41,3 +41,7 @@ Newton thought that light was composed of extremely subtle "corpuscles," an idea
 뉴턴은 프리즘 실험 중 하얀색에서 분리되어 나온 색들을 또 다른 프리즘을 통해 다시 하나의 광선으로 합치는 실험을 했다.
 
 이 실험을 통해 하얀색으로부터 분리된 색들을 합치면 다시 하얀색이 나온다를 증명했고, 이 사실을 기반으로 하얀색은 여러 색으로 구성되었다는 이론을 내었다.
+
+뉴턴 실험과 아주 비슷한 실험
+
+![[very_cool_prism_experiment.png]]

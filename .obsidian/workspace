@@ -118,29 +118,23 @@
           "type": "markdown",
           "state": {
             "file": "color_theory/color_theory_note_01.md",
-            "mode": "preview"
+            "mode": "source"
           }
         },
         "pane-relief:history-v1": {
-          "pos": 2,
+          "pos": 1,
           "stack": [
             {
               "leaf": "87ea834a7b108cf6",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"color_theory/isaac_newton_color_theory.md\",\"mode\":\"source\"}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "87ea834a7b108cf6",
-              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"color_theory/joseph_fraunhofer.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":101}},\"scroll\":0}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":121},\"to\":{\"line\":17,\"ch\":49}},\"scroll\":8.499999972490166}"
             },
             {
               "leaf": "87ea834a7b108cf6",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"color_theory/color_theory_note_01.md\",\"mode\":\"preview\"}}",
-              "eState": "{\"scroll\":62.5823543772978}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"color_theory/color_theory_note_01.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":107,\"ch\":121},\"to\":{\"line\":107,\"ch\":121}},\"scroll\":124.89286126403775}"
             }
           ]
         }

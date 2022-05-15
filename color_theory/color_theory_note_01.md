@@ -96,18 +96,20 @@ https://www.pasco.com/resources/blog/243 참고
 
 뉴턴은 프리즘 실험을 통해 하얀 색이 다른 색으로 변하는게 아니라, 하얀 색이 여러 색으로 구성되어 있음을 증명했다. 더불어, 하얀 색으로부터 굴절된 색은 더 이상 굴절되지 않으며 (다른 색으로 분리되지 않으며), 이 색들을 조합하여 다른 색을 낼수 있음을 증명했다.
 
-뉴턴은 하얀색은 7가지 색,[빨주노초파남보(Roy G. Biv)](https://en.wikipedia.org/wiki/ROYGBIV)으로 구성되었다 하고, 이 색들을 "원색 (Primary Color)"이라 불렀다.
+뉴턴은 하얀색은 7가지 색, [빨주노초파남보(Roy G. Biv)](https://en.wikipedia.org/wiki/ROYGBIV)으로 구성되었다 하고, 이 색들을 "원색 (Primary Color)"이라 불렀다.
 
 ![[isaac_newton_opticks_color_circle_cropped.png]]
 
 더 자세한 내용은 [[isaac_newton_color_theory|아이작 뉴턴의 색 이론]]에 정리한다.
 
 ### 스펙트럼 선
-뉴턴이 프리즘 실험을 할 당시에는 
+뉴턴의 발견 이후 색 이론은 큰 진전이 없었다. 거의 100년이 지나서야 (19세기) [윌리엄 하이드 울러스턴(William Hyde Wollaston, 1766-1828)](https://en.wikipedia.org/wiki/William_Hyde_Wollaston)이 뉴턴의 실험에 관심을 가지고, 뉴턴 프리즘 실험 구조에 렌즈를 추가하여 스펙트럼을 좀 더 자세히 볼 수 있게 개선했다. 이로서 울러스턴은 태양광 스펙트럼에 7개의 흑선이 있다는 것을 발견했고, 이를 색을 구분하는 경계선이라고 발표했다.
 
-뉴턴의 발견은 오랫동안 대중에 받아들여지지 못 했다. 거의 100년이 지나서야 (19세기) [윌리엄 하이드 울러스턴(William Hyde Wollaston, 1766-1828)](https://en.wikipedia.org/wiki/William_Hyde_Wollaston)이 뉴턴의 실험에 관심을 가지고, 뉴턴 프리즘 실험 구조에 렌즈를 추가하여 스펙트럼을 좀 더 자세히 볼 수 있게 개선했다. 이로서 윌리엄은 태양광 스펙트럼에 7개의 검은 선이 있다는 것을 발견했고, 이를 색을 구분하는 경계선이라고 발표했다.
+[요제프 폰 프라운호퍼(Joseph von Fraunhofer, 1787-1826)](https://en.wikipedia.org/wiki/Joseph_von_Fraunhofer)는 프리즘 실험을 완전히 개선해서 첫 [분광기(Scpectrometer)](https://en.wikipedia.org/wiki/Optical_spectrometer)를 발명했다 - 덕분에, 스펙트럼을 훨씬 자세히 관찰할 수 있을 뿐더러, 색의 파장을 측정할 수 있게 되었다.
 
-[요제프 폰 프라운호퍼(Joseph von Fraunhofer, 1787-1826)](https://en.wikipedia.org/wiki/Joseph_von_Fraunhofer)는
+프라운호퍼는 분광기를 사용하여 울러스턴이 발견했던 흑선들을 확인해볼 수 있었고, 7개 뿐만이 아니라 수백개의 흑선이 있다는 것을 발견했다. 
+
+더 자세한 내용은 [[joseph_fraunhofer|프라운호퍼의 색 이론]]에 정리한다.
 
 ![[fraunhofer_lines.svg]]
 
