@@ -113,6 +113,10 @@ https://www.pasco.com/resources/blog/243 참고
 
 ![[fraunhofer_lines.svg]]
 
+#todo 밑에 내용 정리
+
+In 1756, Thomas Melvill observed the emission of distinct patterns of colour when salts were added to alcohol flames. By 1785, James Gregory discovered the principles of diffraction grating and American astronomer David Rittenhouse made the first engineered diffraction grating. In 1821, Joseph von Fraunhofer solidified this significant experimental leap of replacing a prism as the source of wavelength dispersion improving the spectral resolution and allowing for the dispersed wavelengths to be quantified. - https://en.wikipedia.org/wiki/Emission_spectrum#History
+
 더불어, 프라운호퍼는 태양과 다른 광원(예: 행성, 가열된 금속, 촛불)의 스펙트럼을 비교하여 각 광원의 흑선들의 위치가 다르다는 것을 발견했고, 이 흑선들이 울러스턴이 말했던 "색의 경계선"이 아니라 빛을 발하는 광원의 특성이라는 이론을 제시하였다. 하지만 이 흑선이 의미하는 바가 정확히 무엇인지는 발견하지 못 했다.
 
 #todo 더 자세한 내용은 [[joseph_fraunhofer|프라운호퍼의 색 이론]]에 정리한다.
@@ -122,12 +126,25 @@ https://www.pasco.com/resources/blog/243 참고
 [[#광원의 성분]]에서 더 자세히 설명하겠지만, 흑선을 연구하는 과정에 물질이 특정 색을 흡수한다는 사실이 발견되었다. 흑선은 그래서 흡수선(Absorption Line)으로 불리게 되었다. 흡수선의 반대 개념으로 방출선(Emission Line)이 있으며, 이는 가열된 물질이 방출하는 특정 색을 표기하는데 사용된다. 흡수선과 방출선을 통틀어서 [스펙트럼 선(Spectral Line)](https://en.wikipedia.org/wiki/Spectral_line)이라 부른다. 스펙트럼에 흡수선을 사용하여 표기한 것을 [흡수 스펙트럼(Absorption Spectrum)](https://en.wikipedia.org/wiki/Absorption_spectroscopy#Absorption_spectrum)이라 부르며, 방출선을 사용한 스펙트럼은 [방출 스펙트럼(Emission Spectrum)](https://en.wikipedia.org/wiki/Emission_spectrum)이라 부른다.
 
 ### 광원의 성분
-과학자들은 
+In 1835, Charles Wheatstone reported that different metals could be distinguished by bright lines in the emission spectra of their sparks, thereby introducing an alternative to flame spectroscopy. In 1849, J. B. L. Foucault experimentally demonstrated that absorption and emission lines at the same wavelength are both due to the same material, with the difference between the two originating from the temperature of the light source. In 1853, the Swedish physicist Anders Jonas Ångström presented observations and theories about gas spectra. Ångström postulated that an incandescent gas emits luminous rays of the same wavelength as those it can absorb. At the same time George Stokes and William Thomson (Kelvin) were discussing similar postulates. Ångström also measured the emission spectrum from hydrogen later labeled the Balmer lines. In 1854 and 1855, David Alter published observations on the spectra of metals and gases, including an independent observation of the Balmer lines of hydrogen.
+
+By 1859, Gustav Kirchhoff and Robert Bunsen noticed that several Fraunhofer lines (lines in the solar spectrum) coincide with characteristic emission lines identified in the spectra of heated elements. It was correctly deduced that dark lines in the solar spectrum are caused by absorption by chemical elements in the solar atmosphere.
+
+https://en.wikipedia.org/wiki/Emission_spectrum#History
+
+더 자세한 디테일은 https://en.wikipedia.org/wiki/History_of_spectroscopy 참고
+
+![[hydrogen_absorption_spectrum_and_intensity.png]]
+
+[How do scientists determine the chemical compositions of the planets and stars?](https://astronomy.com/magazine/ask-astro/2019/06/how-do-scientists-determine-the-chemical-compositions-of-the-planets-and-stars)
+
+![[spectroscopy_diagram.svg]]
+
+![[absorption_by_sodium_rich_atmosphere.png]]
+
+![[color_by_element_firework_edition.png]]
 
 #todo 이건 사실 아주 역사가 길기 떄문에, 따른 노트로 정리한다.
-
-### 여러 학문들의 발전
-태양광 대신에 물질을 태우며 발생되는 빛을 사용하여 프리즘 실험을 진행함으로서, 그 물질의 분광 분포도를 측정했다. 반대로, 분광 분포도를 기준으로 빛을 내는 물질의 성분을 구분할 수 있게 되었다.
 
 ## 색의 정의
 #todo 색은 빛-물체 상호작용으로부터 파생된 시지각적 특성(Visual Perceptual Property)이다...라고 정의하면 될 듯 싶다. 아직 그리 마음에 드는 정의는 없는 듯 싶다.
