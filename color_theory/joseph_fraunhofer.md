@@ -23,6 +23,8 @@ edited: 2022-05-14
 
 프라우호퍼 라인 (Absorption Line) 정리
 
+![[fraunhofer_lines_actual_work.png]]
+
 ![[fraunhofer_lines.svg]]
 
 https://en.wikipedia.org/wiki/History_of_spectroscopy

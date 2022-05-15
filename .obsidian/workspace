@@ -128,13 +128,13 @@
               "leaf": "87ea834a7b108cf6",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"color_theory/joseph_fraunhofer.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":121},\"to\":{\"line\":17,\"ch\":49}},\"scroll\":8.499999972490166}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":37},\"to\":{\"line\":25,\"ch\":37}},\"scroll\":8.499999972490166}"
             },
             {
               "leaf": "87ea834a7b108cf6",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"color_theory/color_theory_note_01.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":107,\"ch\":121},\"to\":{\"line\":107,\"ch\":121}},\"scroll\":124.89286126403775}"
+              "eState": "{\"scroll\":107.44642782575009}"
             }
           ]
         }
