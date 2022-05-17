@@ -23,7 +23,7 @@ edited: 2022-05-12
 5. [분광학(Spectroscopy)](https://en.wikipedia.org/wiki/Spectroscopy) : 빛과 물질 간의 상호작용을 연구하는 학문이다.
 6. [광학(Optics)](https://en.wikipedia.org/wiki/Optics) : 빛의 성질 및 관련 현상을 연구하는 학문이다.
 
-내가 정리하고자 하는 것이 어떤 학문과 일치하는지 모르겠다. 이 노트의 목표는 #computer_graphics 에 입문하기 위해 색에 대한 기초지식을 정리하되, 단순히 "빛은 흡수/반사/투과되며 사용되는 수식은 이거다"보다는 더 깊게 나아가고 싶다.
+내가 정리하고자 하는 것이 어떤 학문과 일치하는지 모르겠다. 이 노트의 목표는 #computer_graphics 에 입문하기 위해 색에 대한 기초지식을 정리하되, 단순히 "빛은 흡수/반사/투과되며 사용되는 수식은 이거다" 또는 "모니터는 RGB 모델을 사용한다"보다는 더 깊게 나아가고 싶다.
 
 기본적으로 색을 연구하기 위해서 빛-물체-사람과의 관계를 연구해야 한다. 정확히는, 각 요소의 상호작용에 있어 어떤 특성이 중요한지 알아봐야 한다.
 
@@ -48,7 +48,7 @@ __주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖�
 ## 색 이론의 역사
 색 이론은 아리스토텔레스(Aristotle)가 "색은 신이 천국에서부터 내려준 성스러운 광선이다"라고 주장한 것으로부터 시작되고 그 뒤로 색 조합 등 여러 이론들이 나왔지만, 색 이론의 진정한 형식화는 1704년도에 출판되었던 [아이작 뉴턴(Isaac Newton, 1642-1727)](https://en.wikipedia.org/wiki/Isaac_Newton)의 책, [_Opticks_](https://en.wikipedia.org/wiki/Opticks) 로부터 시작되었다.
 
-Newton is traditionally regarded as the founder of spectroscopy, but he was not the first scientist who studied and reported on the solar spectrum. The works of Athanasius Kircher (1646), Jan Marek Marci (1648), Robert Boyle (1664), and Francesco Maria Grimaldi (1665), predate Newton's optics experiments (1666–1672). - https://en.wikipedia.org/wiki/History_of_spectroscopy
+#todo 번역 및 정리 - Newton is traditionally regarded as the founder of spectroscopy, but he was not the first scientist who studied and reported on the solar spectrum. The works of Athanasius Kircher (1646), Jan Marek Marci (1648), Robert Boyle (1664), and Francesco Maria Grimaldi (1665), predate Newton's optics experiments (1666–1672). - https://en.wikipedia.org/wiki/History_of_spectroscopy
 
 [Early History of Spectroscopy: Astronomy 유투브 플레이리스트](https://youtube.com/playlist?list=PLepnjl2hm9tEauxnqXG8JjBR7Y3w-8nXg) 참고
 
@@ -73,9 +73,9 @@ https://www.pasco.com/resources/blog/243 참고
 
 유리나 물로 인해 빛이 굴절/분산되는 것은 누구나 볼 수 있는 현상이다. 정확히 누가 프리즘 실험을 처음 시작했는지는 모르지만, [[play_of_colors_history_of_prisms.pdf | 고대 로마 시절에서부터 분산 프리즘은 여러 색이 나오는 멋진 장난감]]에 불과했다. 그나마 17세기에 이르러 뉴턴의 발견으로 인해, 분산 프리즘을 이용해 유리의 굴절 특성을 좀 더 다양한 방면으로 연구할 수 있음을 알게되었다.
 
-시간이 지나며, 프리즘 실험을 통해 나온 색들 자체에 의미가 있다는 것이 발견되었고, 이것이 빛을 내는 물체([[#광원]])의 성분을 구분하는데 도움이 된다는 것이 발견되었다. 그리하여, 프리즘 실험을 통한 색의 연구는 화학, 천문학, 그리고 물리학 발전에 큰 주축이 되었다.
+시간이 지나며, 프리즘 실험을 기반으로한 여러 연구 결과로서 분산된 색들이 빛을 내는 물체([[#광원]])의 성분을 구분하는데 도움이 된다는 것이 발견되었다. 그리하여, 프리즘 실험을 통한 색의 연구는 화학, 천문학, 그리고 물리학 발전에 큰 주축이 되었다.
 
-과거에 프리즘 실험(또는 비슷한 실험)을 통해 가시광선을 연구하는 학문을 [분광학 (Spectroscopy)](https://en.wikipedia.org/wiki/Spectroscopy)이라 불렀다 ([참고](https://www.pasco.com/resources/blog/243)). 이후에 이 개념은 확장되어 물질과 전자기파의 상호작용으로 나온 전자기 스펙트럼\*을 파장 또는 주파수의 함수로서 측정하고 해석하는 학문으로 발전되었다.
+과거에 프리즘 실험(또는 비슷한 실험)을 통해 가시광선을 연구하는 학문을 [분광학 (Spectroscopy)](https://en.wikipedia.org/wiki/Spectroscopy)이라 불렀다 ([누가 분광학을 발명했는가?](https://www.pasco.com/resources/blog/243)). 이후에 이 개념은 확장되어 물질과 전자기파의 상호작용으로 나온 전자기 스펙트럼\*을 파장 또는 주파수의 함수로서 측정하고 해석하는 학문으로 발전되었다.
 
 \* [전자기 스펙트럼](https://en.wikipedia.org/wiki/Electromagnetic_spectrum) : 파장이나 주파수의 함수로 주어지는 반응 값을 도표로 나타낸 차트. __분광 분포도__ 라고도 한다.
 
@@ -92,11 +92,17 @@ https://www.pasco.com/resources/blog/243 참고
 ![[dark_side_of_the_moon_album_cover.png]]
 
 ### 뉴턴의 발견
-17세기에 [광학(Optics)](https://en.wikipedia.org/wiki/Optics)은 현미경(Microscope)을 만들 정도로 잘 발달된 학문이였다. 프리즘(Prism)으로 하얀빛을 굴절시켜 여러 색을 만들수있다는 것은 알고있었지만, 이 현상을 잘 이해한 것은 아니었다. 그 당시에는 하얀색이 가장 순수한 색이며, 물질로 인해 더렵혀짐(Contaminated)으로 다른 색으로 변한다고 믿었다.
+17세기에 [광학(Optics)](https://en.wikipedia.org/wiki/Optics)은 현미경(Microscope)을 만들 정도로 잘 발달된 학문이였다. 프리즘(Prism)으로 하얀빛을 굴절/분산시켜 여러 색을 만들수있다는 것은 알고있었지만, 이 현상을 잘 이해한 것은 아니었다. 그 당시에는 하얀색이 가장 순수한 색이며, 물질로 인해 더렵혀짐(Contaminated)으로 다른 색으로 변한다고 믿었다 (그것도 4대 고대 원소로 인해).
+
+![[avatar_four_elements.webp]]
+
+[눈깔 레이저빔 이론(Emissive Vision Theory)](https://en.wikipedia.org/wiki/Emission_theory_(vision)), 즉, 눈에서 광선이 나온다고 믿는 사람들도 있었다!  [눈에서 빔](https://namu.wiki/w/%EB%88%88%EC%97%90%EC%84%9C%20%EB%B9%94) 나무위키 글 읽는 재미도 있다.
+
+![[ultraman_eye_beam.webp]]
 
 이러한 생각은 뉴턴의 프리즘 실험으로 인해 완전히 뒤집어졌다.
 
-뉴턴은 프리즘 실험을 통해 하얀 색이 다른 색으로 변하는게 아니라, 하얀 색이 여러 색으로 구성되어 있음을 증명했다. 더불어, 하얀 색으로부터 굴절된 색은 더 이상 굴절되지 않으며 (다른 색으로 분리되지 않으며), 이 색들을 조합하여 다른 색을 낼수 있음을 증명했다.
+__뉴턴은 프리즘 실험을 통해 하얀 색이 다른 색으로 변하는게 아니라, 하얀 색이 여러 색으로 구성되어 있음을 발견했다.__ 특정 색들을 조합하여 다른 색을 낼수 있음을 증명했고, 분산된 모든 색을 다시 합치면 하얀색이 나온다는 것을 증명했다.
 
 뉴턴은 하얀색은 7가지 색, [빨주노초파남보(Roy G. Biv)](https://en.wikipedia.org/wiki/ROYGBIV)으로 구성되었다 하고, 이 색들을 "원색 (Primary Color)"이라 불렀다.
 
@@ -105,7 +111,7 @@ https://www.pasco.com/resources/blog/243 참고
 #todo 더 자세한 내용은 [[isaac_newton_color_theory|아이작 뉴턴의 색 이론]]에 정리한다.
 
 ### 스펙트럼 선
-뉴턴의 발견 이후 색 이론은 큰 진전이 없었다. 거의 100년이 지나서야 (19세기) [윌리엄 하이드 울러스턴(William Hyde Wollaston, 1766-1828)](https://en.wikipedia.org/wiki/William_Hyde_Wollaston)이 뉴턴의 실험에 관심을 가지고, 뉴턴 프리즘 실험 구조에 렌즈를 추가하여 스펙트럼을 좀 더 자세히 볼 수 있게 개선했다. 이로서 울러스턴은 태양광 스펙트럼에 7개의 흑선이 있다는 것을 발견했고, 이를 색을 구분하는 경계선이라고 발표했다.
+뉴턴의 발견 이후 색 이론은 한동안 큰 진전이 없었다. 거의 100년이 지나서야 (19세기) [윌리엄 하이드 울러스턴(William Hyde Wollaston, 1766-1828)](https://en.wikipedia.org/wiki/William_Hyde_Wollaston)이 뉴턴 프리즘 실험 구조에 렌즈를 추가하여 스펙트럼을 좀 더 자세히 볼 수 있게 개선했다. 울러스턴은 태양광 스펙트럼에 7개의 흑선이 있다는 것을 발견했고, 이를 색을 구분하는 경계선이라고 발표했다.
 
 [요제프 폰 프라운호퍼(Joseph von Fraunhofer, 1787-1826)](https://en.wikipedia.org/wiki/Joseph_von_Fraunhofer)는 유리 공예가(Glass Maker)로서 프리즘 실험을 통해 분산된 각 색으로서 여러 종류의 유리의 굴절 효과를 연구하고자 했고, 프리즘 실험을 완전히 개선해서 첫 [분광기(Scpectrometer)](https://en.wikipedia.org/wiki/Optical_spectrometer)를 발명했다 - 덕분에, 스펙트럼을 훨씬 자세히 관찰할 수 있을 뿐더러, 색의 파장을 측정할 수 있게 되었다.
 
@@ -113,9 +119,7 @@ https://www.pasco.com/resources/blog/243 참고
 
 ![[fraunhofer_lines.svg]]
 
-#todo 밑에 내용 정리
-
-In 1756, Thomas Melvill observed the emission of distinct patterns of colour when salts were added to alcohol flames. By 1785, James Gregory discovered the principles of diffraction grating and American astronomer David Rittenhouse made the first engineered diffraction grating. In 1821, Joseph von Fraunhofer solidified this significant experimental leap of replacing a prism as the source of wavelength dispersion improving the spectral resolution and allowing for the dispersed wavelengths to be quantified. - https://en.wikipedia.org/wiki/Emission_spectrum#History
+#todo 번역 및 정리 - In 1756, Thomas Melvill observed the emission of distinct patterns of colour when salts were added to alcohol flames. By 1785, James Gregory discovered the principles of diffraction grating and American astronomer David Rittenhouse made the first engineered diffraction grating. In 1821, Joseph von Fraunhofer solidified this significant experimental leap of replacing a prism as the source of wavelength dispersion improving the spectral resolution and allowing for the dispersed wavelengths to be quantified. - https://en.wikipedia.org/wiki/Emission_spectrum#History
 
 더불어, 프라운호퍼는 태양과 다른 광원(예: 행성, 가열된 금속, 촛불)의 스펙트럼을 비교하여 각 광원의 흑선들의 위치가 다르다는 것을 발견했고, 이 흑선들이 울러스턴이 말했던 "색의 경계선"이 아니라 빛을 발하는 광원의 특성이라는 이론을 제시하였다. 하지만 이 흑선이 의미하는 바가 정확히 무엇인지는 발견하지 못 했다.
 

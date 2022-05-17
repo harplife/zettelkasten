@@ -66,7 +66,7 @@
           "type": "markdown",
           "state": {
             "file": "computer_science/computer_vision/computer_graphics_note_1.md",
-            "mode": "preview"
+            "mode": "source"
           }
         },
         "pane-relief:history-v1": {
@@ -81,7 +81,7 @@
             {
               "leaf": "74d15c5aa24b0dc5",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_note_1.md\",\"mode\":\"preview\"}}",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_note_1.md\",\"mode\":\"source\"}}",
               "eState": "{}"
             },
             {
@@ -118,7 +118,7 @@
           "type": "markdown",
           "state": {
             "file": "color_theory/color_theory_note_01.md",
-            "mode": "preview"
+            "mode": "source"
           }
         },
         "pane-relief:history-v1": {
@@ -133,8 +133,8 @@
             {
               "leaf": "87ea834a7b108cf6",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"color_theory/color_theory_note_01.md\",\"mode\":\"preview\"}}",
-              "eState": "{}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"color_theory/color_theory_note_01.md\",\"mode\":\"source\"}}",
+              "eState": "{\"scroll\":103.69565217391305}"
             }
           ]
         }
@@ -256,10 +256,10 @@
   "active": "87ea834a7b108cf6",
   "lastOpenFiles": [
     "color_theory/color_theory_note_01.md",
+    "computer_science/computer_vision/computer_graphics_note_1.md",
     "color_theory/joseph_fraunhofer.md",
     "color_theory/isaac_newton_color_theory.md",
     "color_theory/light_matter_interaction.md",
-    "computer_science/computer_vision/computer_graphics_note_1.md",
     "todo/todo_log_2022.md",
     "careers/technical_director/shubha_jagannatha/shubha_jagannatha.md",
     "careers/technical_director/shubha_jagannatha/about_the_author_shubha.md",
