@@ -115,6 +115,8 @@ __뉴턴은 프리즘 실험을 통해 하얀 색이 다른 색으로 변하는�
 
 [요제프 폰 프라운호퍼(Joseph von Fraunhofer, 1787-1826)](https://en.wikipedia.org/wiki/Joseph_von_Fraunhofer)는 유리 공예가(Glass Maker)로서 프리즘 실험을 통해 분산된 각 색으로서 여러 종류의 유리의 굴절 효과를 연구하고자 했고, 1814년도에 프리즘 실험을 완전히 개선해서 첫 [분광기(Scpectrometer)](https://en.wikipedia.org/wiki/Optical_spectrometer)를 발명했다 - 덕분에, 스펙트럼을 훨씬 자세히 관찰할 수 있을 뿐더러, 색의 파장을 측정할 수 있게 되었다.
 
+#todo 분광기에 대해 다른 노트에 정리 - https://astro-canada.ca/les_spectrometres-spectrometers-eng
+
 프라운호퍼는 실험을 통해 울러스턴이 발견했던 흑선들을 확인해볼 수 있었고, 7개 뿐만이 아니라 수백개(570?)의 흑선이 있다는 것을 발견했다. 프라운호퍼는 이 흑선들을 일일이 그리는 노가다 정신을 보였다 (추후에 이 과정은 아주 체계적인 스펙트럼 연구 방식으로 인정되었다). 이 흑선들은 [프라운호퍼 선(Fraunhofer Line)](https://en.wikipedia.org/wiki/Fraunhofer_lines)이라 불린다.
 
 ![[fraunhofer_lines.svg]]
@@ -128,9 +130,12 @@ __뉴턴은 프리즘 실험을 통해 하얀 색이 다른 색으로 변하는�
 [[#광원의 성분]]에서 더 자세히 설명하겠지만, 흑선을 연구하는 과정에 물질이 특정 색을 흡수한다는 사실이 발견되었다. 흑선은 그래서 흡수선(Absorption Line)으로 불리게 되었다. 흡수선의 반대 개념으로 방출선(Emission Line)이 있으며, 이는 가열된 물질이 방출하는 특정 색을 표기하는데 사용된다. 흡수선과 방출선을 통틀어서 [스펙트럼 선(Spectral Line)](https://en.wikipedia.org/wiki/Spectral_line)이라 부른다. 스펙트럼에 흡수선을 사용하여 표기한 것을 [흡수 스펙트럼(Absorption Spectrum)](https://en.wikipedia.org/wiki/Absorption_spectroscopy#Absorption_spectrum)이라 부르며, 방출선을 사용한 스펙트럼은 [방출 스펙트럼(Emission Spectrum)](https://en.wikipedia.org/wiki/Emission_spectrum)이라 부른다.
 
 ### 회절 격자
+
+
+
 [이중 슬릿 실험(Double-Slit Experiment)](https://en.wikipedia.org/wiki/Double-slit_experiment)
 
-By 1785, James Gregory discovered the principles of diffraction grating and American astronomer David Rittenhouse made the first engineered diffraction grating. In 1821, Joseph von Fraunhofer solidified this significant experimental leap of replacing a prism as the source of wavelength dispersion improving the spectral resolution and allowing for the dispersed wavelengths to be quantified.
+By 1785, James Gregory discovered the principles of diffraction grating and American astronomer David Rittenhouse made the first engineered diffraction grating. In 1821, Joseph von Fraunhofer solidified this significant experimental leap of replacing a prism as the source of wavelength dispersion improving the spectral resolution and allowing for the dispersed wavelengths to be quantified. - https://en.wikipedia.org/wiki/Emission_spectrum#History
 
 
 
