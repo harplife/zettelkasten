@@ -102,6 +102,8 @@ https://www.pasco.com/resources/blog/243 참고
 
 이러한 생각은 뉴턴의 프리즘 실험으로 인해 완전히 뒤집어졌다.
 
+#todo 정리 - 뉴턴은 두 차례에 걸쳐 색 이론을 제시헀다. 1672년에 New Theory of Light and Colors, 1702년에 Optiks. - https://www.aaas.org/isaac-newton-and-problem-color#:~:text=Newton's%20crucial%20experiment%20was%20to,yielded%20again%20only%20blue%20light.
+
 __뉴턴은 프리즘 실험을 통해 하얀 색이 다른 색으로 변하는게 아니라, 하얀 색이 여러 색으로 구성되어 있음을 발견했다.__ 특정 색들을 조합하여 다른 색을 낼수 있음을 증명했고, 분산된 모든 색을 다시 합치면 하얀색이 나온다는 것을 증명했다.
 
 뉴턴은 하얀색은 7가지 색, [빨주노초파남보(Roy G. Biv)](https://en.wikipedia.org/wiki/ROYGBIV)으로 구성되었다 하고, 이 색들을 "원색 (Primary Color)"이라 불렀다.
@@ -130,7 +132,15 @@ __뉴턴은 프리즘 실험을 통해 하얀 색이 다른 색으로 변하는�
 [[#광원의 성분]]에서 더 자세히 설명하겠지만, 흑선을 연구하는 과정에 물질이 특정 색을 흡수한다는 사실이 발견되었다. 흑선은 그래서 흡수선(Absorption Line)으로 불리게 되었다. 흡수선의 반대 개념으로 방출선(Emission Line)이 있으며, 이는 가열된 물질이 방출하는 특정 색을 표기하는데 사용된다. 흡수선과 방출선을 통틀어서 [스펙트럼 선(Spectral Line)](https://en.wikipedia.org/wiki/Spectral_line)이라 부른다. 스펙트럼에 흡수선을 사용하여 표기한 것을 [흡수 스펙트럼(Absorption Spectrum)](https://en.wikipedia.org/wiki/Absorption_spectroscopy#Absorption_spectrum)이라 부르며, 방출선을 사용한 스펙트럼은 [방출 스펙트럼(Emission Spectrum)](https://en.wikipedia.org/wiki/Emission_spectrum)이라 부른다.
 
 ### 회절 격자
-[James Gregory(1638–1675)](https://en.wikipedia.org/wiki/James_Gregory_(mathematician)) observed the diffraction patterns caused by a bird feather, which was effectively the first diffraction grating (in a natural form) to be discovered, about a year after Isaac Newton's prism experiments.
+what is diffraction grating?
+- what is diffraction
+- what is grating
+
+https://en.wikipedia.org/wiki/Structural_coloration
+
+[James Gregory(1638–1675)](https://en.wikipedia.org/wiki/James_Gregory_(mathematician)) observed the diffraction patterns caused by a bird feather, which was effectively the first diffraction grating (in a natural form) to be discovered, about a year after Isaac Newton's prism experiments (1673, a year after publication of New Theory of Light and Colors).
+
+참고 : Gregory 하고 Newton 은 절친이었음.
 
 The first man-made diffraction grating was made around 1785 by Philadelphia inventor David Rittenhouse, who strung hairs between two finely threaded screws.
 
