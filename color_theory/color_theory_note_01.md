@@ -119,8 +119,6 @@ __뉴턴은 프리즘 실험을 통해 하얀 색이 다른 색으로 변하는�
 
 ![[fraunhofer_lines.svg]]
 
-#todo 번역 및 정리 - In 1756, Thomas Melvill observed the emission of distinct patterns of colour when salts were added to alcohol flames.  - https://en.wikipedia.org/wiki/Emission_spectrum#History
-
 더불어, 프라운호퍼는 태양과 다른 광원(예: 행성, 가열된 금속, 촛불)의 스펙트럼을 비교하여 각 광원의 흑선들의 위치가 다르다는 것을 발견했고, 이 흑선들이 울러스턴이 말했던 "색의 경계선"이 아니라 빛을 발하는 광원의 특성이라는 이론을 제시하였다. 하지만 이 흑선이 의미하는 바가 정확히 무엇인지는 발견하지 못 했다.
 
 #todo 더 자세한 내용은 [[joseph_fraunhofer|프라운호퍼의 색 이론]]에 정리한다.
@@ -137,6 +135,8 @@ By 1785, James Gregory discovered the principles of diffraction grating and Amer
 
 
 ### 광원의 성분
+#todo 번역 및 정리 - In 1756, Thomas Melvill observed the emission of distinct patterns of colour when salts were added to alcohol flames.  - https://en.wikipedia.org/wiki/Emission_spectrum#History
+
 In 1835, Charles Wheatstone reported that different metals could be distinguished by bright lines in the emission spectra of their sparks, thereby introducing an alternative to flame spectroscopy. In 1849, J. B. L. Foucault experimentally demonstrated that absorption and emission lines at the same wavelength are both due to the same material, with the difference between the two originating from the temperature of the light source. In 1853, the Swedish physicist Anders Jonas Ångström presented observations and theories about gas spectra. Ångström postulated that an incandescent gas emits luminous rays of the same wavelength as those it can absorb. At the same time George Stokes and William Thomson (Kelvin) were discussing similar postulates. Ångström also measured the emission spectrum from hydrogen later labeled the Balmer lines. In 1854 and 1855, David Alter published observations on the spectra of metals and gases, including an independent observation of the Balmer lines of hydrogen.
 
 By 1859, Gustav Kirchhoff and Robert Bunsen noticed that several Fraunhofer lines (lines in the solar spectrum) coincide with characteristic emission lines identified in the spectra of heated elements. It was correctly deduced that dark lines in the solar spectrum are caused by absorption by chemical elements in the solar atmosphere.
