@@ -111,15 +111,15 @@ __뉴턴은 프리즘 실험을 통해 하얀 색이 다른 색으로 변하는�
 #todo 더 자세한 내용은 [[isaac_newton_color_theory|아이작 뉴턴의 색 이론]]에 정리한다.
 
 ### 스펙트럼 선
-뉴턴의 발견 이후 색 이론은 한동안 큰 진전이 없었다. 거의 100년이 지나서야 (19세기) [윌리엄 하이드 울러스턴(William Hyde Wollaston, 1766-1828)](https://en.wikipedia.org/wiki/William_Hyde_Wollaston)이 뉴턴 프리즘 실험 구조에 렌즈를 추가하여 스펙트럼을 좀 더 자세히 볼 수 있게 개선했다. 울러스턴은 태양광 스펙트럼에 7개의 흑선이 있다는 것을 발견했고, 이를 색을 구분하는 경계선이라고 발표했다.
+뉴턴의 발견 이후 색 이론은 한동안 큰 진전이 없었다. 거의 100년이 지나서야 (1802년) [윌리엄 하이드 울러스턴(William Hyde Wollaston, 1766-1828)](https://en.wikipedia.org/wiki/William_Hyde_Wollaston)이 뉴턴 프리즘 실험 구조에 렌즈를 추가하여 스펙트럼을 좀 더 자세히 볼 수 있게 개선했다. 울러스턴은 태양광 스펙트럼에 7개의 흑선이 있다는 것을 발견했고, 이를 색을 구분하는 경계선이라고 발표했다.
 
-[요제프 폰 프라운호퍼(Joseph von Fraunhofer, 1787-1826)](https://en.wikipedia.org/wiki/Joseph_von_Fraunhofer)는 유리 공예가(Glass Maker)로서 프리즘 실험을 통해 분산된 각 색으로서 여러 종류의 유리의 굴절 효과를 연구하고자 했고, 프리즘 실험을 완전히 개선해서 첫 [분광기(Scpectrometer)](https://en.wikipedia.org/wiki/Optical_spectrometer)를 발명했다 - 덕분에, 스펙트럼을 훨씬 자세히 관찰할 수 있을 뿐더러, 색의 파장을 측정할 수 있게 되었다.
+[요제프 폰 프라운호퍼(Joseph von Fraunhofer, 1787-1826)](https://en.wikipedia.org/wiki/Joseph_von_Fraunhofer)는 유리 공예가(Glass Maker)로서 프리즘 실험을 통해 분산된 각 색으로서 여러 종류의 유리의 굴절 효과를 연구하고자 했고, 1814년도에 프리즘 실험을 완전히 개선해서 첫 [분광기(Scpectrometer)](https://en.wikipedia.org/wiki/Optical_spectrometer)를 발명했다 - 덕분에, 스펙트럼을 훨씬 자세히 관찰할 수 있을 뿐더러, 색의 파장을 측정할 수 있게 되었다.
 
 프라운호퍼는 실험을 통해 울러스턴이 발견했던 흑선들을 확인해볼 수 있었고, 7개 뿐만이 아니라 수백개(570?)의 흑선이 있다는 것을 발견했다. 프라운호퍼는 이 흑선들을 일일이 그리는 노가다 정신을 보였다 (추후에 이 과정은 아주 체계적인 스펙트럼 연구 방식으로 인정되었다). 이 흑선들은 [프라운호퍼 선(Fraunhofer Line)](https://en.wikipedia.org/wiki/Fraunhofer_lines)이라 불린다.
 
 ![[fraunhofer_lines.svg]]
 
-#todo 번역 및 정리 - In 1756, Thomas Melvill observed the emission of distinct patterns of colour when salts were added to alcohol flames. By 1785, James Gregory discovered the principles of diffraction grating and American astronomer David Rittenhouse made the first engineered diffraction grating. In 1821, Joseph von Fraunhofer solidified this significant experimental leap of replacing a prism as the source of wavelength dispersion improving the spectral resolution and allowing for the dispersed wavelengths to be quantified. - https://en.wikipedia.org/wiki/Emission_spectrum#History
+#todo 번역 및 정리 - In 1756, Thomas Melvill observed the emission of distinct patterns of colour when salts were added to alcohol flames.  - https://en.wikipedia.org/wiki/Emission_spectrum#History
 
 더불어, 프라운호퍼는 태양과 다른 광원(예: 행성, 가열된 금속, 촛불)의 스펙트럼을 비교하여 각 광원의 흑선들의 위치가 다르다는 것을 발견했고, 이 흑선들이 울러스턴이 말했던 "색의 경계선"이 아니라 빛을 발하는 광원의 특성이라는 이론을 제시하였다. 하지만 이 흑선이 의미하는 바가 정확히 무엇인지는 발견하지 못 했다.
 
@@ -128,6 +128,13 @@ __뉴턴은 프리즘 실험을 통해 하얀 색이 다른 색으로 변하는�
 참고 : 현재로서 태양광 스펙트럼의 흑선은 약 25,000개 까지 발견되었다.
 
 [[#광원의 성분]]에서 더 자세히 설명하겠지만, 흑선을 연구하는 과정에 물질이 특정 색을 흡수한다는 사실이 발견되었다. 흑선은 그래서 흡수선(Absorption Line)으로 불리게 되었다. 흡수선의 반대 개념으로 방출선(Emission Line)이 있으며, 이는 가열된 물질이 방출하는 특정 색을 표기하는데 사용된다. 흡수선과 방출선을 통틀어서 [스펙트럼 선(Spectral Line)](https://en.wikipedia.org/wiki/Spectral_line)이라 부른다. 스펙트럼에 흡수선을 사용하여 표기한 것을 [흡수 스펙트럼(Absorption Spectrum)](https://en.wikipedia.org/wiki/Absorption_spectroscopy#Absorption_spectrum)이라 부르며, 방출선을 사용한 스펙트럼은 [방출 스펙트럼(Emission Spectrum)](https://en.wikipedia.org/wiki/Emission_spectrum)이라 부른다.
+
+### 회절 격자
+[이중 슬릿 실험(Double-Slit Experiment)](https://en.wikipedia.org/wiki/Double-slit_experiment)
+
+By 1785, James Gregory discovered the principles of diffraction grating and American astronomer David Rittenhouse made the first engineered diffraction grating. In 1821, Joseph von Fraunhofer solidified this significant experimental leap of replacing a prism as the source of wavelength dispersion improving the spectral resolution and allowing for the dispersed wavelengths to be quantified.
+
+
 
 ### 광원의 성분
 In 1835, Charles Wheatstone reported that different metals could be distinguished by bright lines in the emission spectra of their sparks, thereby introducing an alternative to flame spectroscopy. In 1849, J. B. L. Foucault experimentally demonstrated that absorption and emission lines at the same wavelength are both due to the same material, with the difference between the two originating from the temperature of the light source. In 1853, the Swedish physicist Anders Jonas Ångström presented observations and theories about gas spectra. Ångström postulated that an incandescent gas emits luminous rays of the same wavelength as those it can absorb. At the same time George Stokes and William Thomson (Kelvin) were discussing similar postulates. Ångström also measured the emission spectrum from hydrogen later labeled the Balmer lines. In 1854 and 1855, David Alter published observations on the spectra of metals and gases, including an independent observation of the Balmer lines of hydrogen.
