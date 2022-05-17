@@ -130,7 +130,7 @@ __뉴턴은 프리즘 실험을 통해 하얀 색이 다른 색으로 변하는�
 [[#광원의 성분]]에서 더 자세히 설명하겠지만, 흑선을 연구하는 과정에 물질이 특정 색을 흡수한다는 사실이 발견되었다. 흑선은 그래서 흡수선(Absorption Line)으로 불리게 되었다. 흡수선의 반대 개념으로 방출선(Emission Line)이 있으며, 이는 가열된 물질이 방출하는 특정 색을 표기하는데 사용된다. 흡수선과 방출선을 통틀어서 [스펙트럼 선(Spectral Line)](https://en.wikipedia.org/wiki/Spectral_line)이라 부른다. 스펙트럼에 흡수선을 사용하여 표기한 것을 [흡수 스펙트럼(Absorption Spectrum)](https://en.wikipedia.org/wiki/Absorption_spectroscopy#Absorption_spectrum)이라 부르며, 방출선을 사용한 스펙트럼은 [방출 스펙트럼(Emission Spectrum)](https://en.wikipedia.org/wiki/Emission_spectrum)이라 부른다.
 
 ### 회절 격자
-James Gregory(1638–1675) observed the diffraction patterns caused by a bird feather, which was effectively the first diffraction grating (in a natural form) to be discovered, about a year after Isaac Newton's prism experiments.
+[James Gregory(1638–1675)](https://en.wikipedia.org/wiki/James_Gregory_(mathematician)) observed the diffraction patterns caused by a bird feather, which was effectively the first diffraction grating (in a natural form) to be discovered, about a year after Isaac Newton's prism experiments.
 
 The first man-made diffraction grating was made around 1785 by Philadelphia inventor David Rittenhouse, who strung hairs between two finely threaded screws.
 
