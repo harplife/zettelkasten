@@ -138,7 +138,11 @@ what is diffraction grating?
 
 https://en.wikipedia.org/wiki/Structural_coloration
 
-[James Gregory(1638–1675)](https://en.wikipedia.org/wiki/James_Gregory_(mathematician)) observed the diffraction patterns caused by a bird feather, which was effectively the first diffraction grating (in a natural form) to be discovered, about a year after Isaac Newton's prism experiments (1673, a year after publication of New Theory of Light and Colors).
+About a year after Isaac Newton's prism experiments (1673, a year after publication of New Theory of Light and Colors), Mathematician [James Gregory(1638–1675)](https://en.wikipedia.org/wiki/James_Gregory_(mathematician)) observed the diffraction patterns caused by a bird feather, which was effectively the first diffraction grating (in a natural form) to be discovered.
+
+![[diffraction_grating_on_feather.jpg]]
+
+![[diffraction_grating_on_feather_with_zoom.png]]
 
 참고 : Gregory 하고 Newton 은 절친이었음.
 
