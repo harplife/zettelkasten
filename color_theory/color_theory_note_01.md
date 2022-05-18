@@ -117,7 +117,7 @@ __뉴턴은 프리즘 실험을 통해 하얀 색이 다른 색으로 변하는�
 
 [요제프 폰 프라운호퍼(Joseph von Fraunhofer, 1787-1826)](https://en.wikipedia.org/wiki/Joseph_von_Fraunhofer)는 유리 공예가(Glass Maker)로서 프리즘 실험을 통해 분산된 각 색으로서 여러 종류의 유리의 굴절 효과를 연구하고자 했고, 1814년도에 프리즘 실험을 완전히 개선해서 첫 [분광기(Scpectrometer)](https://en.wikipedia.org/wiki/Optical_spectrometer)를 발명했다 - 덕분에, 스펙트럼을 훨씬 자세히 관찰할 수 있을 뿐더러, 색의 파장을 측정할 수 있게 되었다.
 
-참고 : 프라운호퍼는 프리즘 대신에 
+참고 : 프라운호퍼는 프리즘 대신에 [[#회절 격자]]를 사용했다고 한다.
 
 #todo 분광기에 대해 다른 노트에 정리 - https://astro-canada.ca/les_spectrometres-spectrometers-eng
 
@@ -125,7 +125,7 @@ __뉴턴은 프리즘 실험을 통해 하얀 색이 다른 색으로 변하는�
 
 ![[fraunhofer_lines.svg]]
 
-더불어, 프라운호퍼는 태양과 다른 광원(예: 행성, 가열된 금속, 촛불)의 스펙트럼을 비교하여 각 광원의 흑선들의 위치가 다르다는 것을 발견했고, 이 흑선들이 울러스턴이 말했던 "색의 경계선"이 아니라 빛을 발하는 광원의 특성이라는 이론을 제시하였다. 하지만 이 흑선이 의미하는 바가 정확히 무엇인지는 발견하지 못 했다.
+더불어, 프라운호퍼는 태양과 다른 광원(예: 행성, 가열된 금속, 불)의 스펙트럼을 비교하여 각 광원의 흑선들의 위치가 다르다는 것을 발견했고, 이 흑선들이 울러스턴이 말했던 "색의 경계선"이 아니라 빛을 발하는 광원의 특성이라는 이론을 제시하였다. 하지만 이 흑선이 의미하는 바가 정확히 무엇인지는 발견하지 못 했다.
 
 #todo 더 자세한 내용은 [[joseph_fraunhofer|프라운호퍼의 색 이론]]에 정리한다.
 
@@ -674,6 +674,8 @@ what is diffraction grating?
 - what is grating
 
 https://en.wikipedia.org/wiki/Structural_coloration
+
+#### 회절 격자
 
 About a year after Isaac Newton's prism experiments (1673, a year after publication of New Theory of Light and Colors), Mathematician [James Gregory(1638–1675)](https://en.wikipedia.org/wiki/James_Gregory_(mathematician)) observed the diffraction patterns caused by a bird feather, which was effectively the first diffraction grating (in a natural form) to be discovered.
 
