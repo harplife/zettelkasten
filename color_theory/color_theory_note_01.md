@@ -159,8 +159,11 @@ https://en.wikipedia.org/wiki/Emission_spectrum#History
 ### 파장 입자 이중성
 뉴턴은 빛이 입자라는 이론을 냈다.
 
+Christiaan Huygens는 빛이 파동이라는 이론을 냈다. 잘 받아들여지진 않았는데, Thomas Young이 Double Slit 실험을 하며 연구결과를 정리해서 완전히 confirm 되었다.
 
+나중에 빛이 파장이며 입자이다라는 이론이 나왔다. 이를 [파동-입자 이중성(Wave-Particle Duality)](https://en.wikipedia.org/wiki/Wave%E2%80%93particle_duality)라고 부른다.
 
+#todo 번역 및 정리 - On the basis of experimental evidence, German physicist Albert Einstein first showed (1905) that light, which had been considered a form of electromagnetic waves, must also be thought of as particle-like, localized in packets of discrete energy. The observations of the Compton effect (1922) by American physicist Arthur Holly Compton could be explained only if light had a wave-particle duality. French physicist Louis de Broglie proposed (1924) that electrons and other discrete bits of matter, which until then had been conceived only as material particles, also have wave properties such as wavelength and frequency. Later (1927) the wave nature of electrons was experimentally established by American physicists Clinton Davisson and Lester Germer and independently by English physicist George Paget Thomson. An understanding of the complementary relation between the wave aspects and the particle aspects of the same phenomenon was announced by Danish physicist Niels Bohr in 1928 (see complementarity principle).
 
 ## 색의 정의
 #todo 색은 빛-물체 상호작용으로부터 파생된 시지각적 특성(Visual Perceptual Property)이다...라고 정의하면 될 듯 싶다. 아직 그리 마음에 드는 정의는 없는 듯 싶다.
