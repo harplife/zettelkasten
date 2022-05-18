@@ -156,6 +156,12 @@ https://en.wikipedia.org/wiki/Emission_spectrum#History
 
 #todo 이건 사실 아주 역사가 길기 떄문에, 따른 노트로 정리한다.
 
+### 파장 입자 이중성
+뉴턴은 빛이 입자라는 이론을 냈다.
+
+
+
+
 ## 색의 정의
 #todo 색은 빛-물체 상호작용으로부터 파생된 시지각적 특성(Visual Perceptual Property)이다...라고 정의하면 될 듯 싶다. 아직 그리 마음에 드는 정의는 없는 듯 싶다.
 
