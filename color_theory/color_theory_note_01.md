@@ -143,8 +143,7 @@ __뉴턴은 프리즘 실험을 통해 하얀 색이 다른 색으로 변하는�
 
 [염(Salt)](https://en.wikipedia.org/wiki/Salt_(chemistry))은 산(Acid)의 음이온(Negative Ion)과 염기(Base)의 양이온(Positive Ion)이 정전기적 인력으로 결합하고 있는 이온성 화합물(Ionic Compound)을 말한다 - 쉽게 풀자면, __산과 염기의 중화 반응에 의해 생기는 화합물__ 이다. 우리가 잘 아는 염은 Sodium Chloride, 즉, 소금이다.
 
-> ![[copper_II_nitrate_salt.PNG]]
-> 질산 구리 (Copper II Nitrate) 가루
+![[colorful_high_purity_metal_salts.webp]]
 
 염의 중요성:
 1. 염은 결정화(Crystallization)될 수 있다.
