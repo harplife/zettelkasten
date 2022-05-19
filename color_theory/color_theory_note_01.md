@@ -138,22 +138,21 @@ __뉴턴은 프리즘 실험을 통해 하얀 색이 다른 색으로 변하는�
 
 [Thomas Melvill](https://en.wikipedia.org/wiki/Thomas_Melvill)
 1. started [Flame Test](https://en.wikipedia.org/wiki/Flame_test)
-2. 
 
 진행하기 전에 아주 잠깐 화학 레슨을 한다.
 
-[염(Salt)](https://en.wikipedia.org/wiki/Salt_(chemistry))은 산(Acid)의 음이온(Negative Ion)과 염기(Base)의 양이온(Positive Ion)이 정전기적 인력으로 결합하고 있는 이온성 화합물(Ionic Compound) 결정(Crystal)을 말한다 - 쉽게 풀자면, __산과 염기의 중화 반응에 의해 생기는 화합물__ 이다. 우리가 잘 아는 염은 Sodium Chloride, 즉, 소금이다.
+[염(Salt)](https://en.wikipedia.org/wiki/Salt_(chemistry))은 산(Acid)의 음이온(Negative Ion)과 염기(Base)의 양이온(Positive Ion)이 정전기적 인력으로 결합하고 있는 이온성 화합물(Ionic Compound)을 말한다 - 쉽게 풀자면, __산과 염기의 중화 반응에 의해 생기는 화합물__ 이다. 우리가 잘 아는 염은 Sodium Chloride, 즉, 소금이다.
 
-
+> ![[copper_II_nitrate_salt.PNG]]
+> 질산 구리 (Copper II Nitrate) 가루
 
 염의 중요성:
-1. 결정화된 염은 태우기 편하다.
-2. 특정 원소(Chemical Element)로 이루어진 염을 태우면 빛이 난다.
-3. 금속도 염으로 만들수있다 - 이를 금속염이라 부른다.
+1. 염은 결정화(Crystallization)될 수 있다.
+2. 결정화된 염은 태우기 편하다.
+3. 특정 원소(Chemical Element)로 이루어진 염을 태우면 빛이 난다.
+4. 금속도 염으로 만들수있다 - 이를 금속염이라 부른다.
 
-
-
-1756년도에 [Thomas Melvill](https://en.wikipedia.org/wiki/Thomas_Melvill)은 여러 종류의 염(Salt)를 태우며 
+1756년도에 [토마스 멜빌(Thomas Melvill)](https://en.wikipedia.org/wiki/Thomas_Melvill)은 알코올 램프로 여러 종류의 염(Salt)를 태우며 방출되는 빛을 사용한 프리즘 실험을 했다.
 
 
 불, 플라즈마, 또는 방전으로 인해 방출된 빛을 측정하고 연구하는 방식을 [원자 방출 분광법(Atomic Emission Spectroscopy)](https://en.wikipedia.org/wiki/Atomic_emission_spectroscopy)이라 부른다.
