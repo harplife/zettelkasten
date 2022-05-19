@@ -138,6 +138,11 @@ __뉴턴은 프리즘 실험을 통해 하얀 색이 다른 색으로 변하는�
 
 [Thomas Melvill](https://en.wikipedia.org/wiki/Thomas_Melvill)
 1. started [Flame Test](https://en.wikipedia.org/wiki/Flame_test)
+2. 
+
+what is salt?
+
+불, 플라즈마, 또는 방전으로 인해 방출된 빛을 측정하고 연구하는 방식을 [원자 방출 분광법(Atomic Emission Spectroscopy)](https://en.wikipedia.org/wiki/Atomic_emission_spectroscopy)이라 부른다.
 
 In 1835, Charles Wheatstone reported that different metals could be distinguished by bright lines in the emission spectra of their sparks, thereby introducing an alternative to flame spectroscopy. In 1849, J. B. L. Foucault experimentally demonstrated that absorption and emission lines at the same wavelength are both due to the same material, with the difference between the two originating from the temperature of the light source. In 1853, the Swedish physicist Anders Jonas Ångström presented observations and theories about gas spectra. Ångström postulated that an incandescent gas emits luminous rays of the same wavelength as those it can absorb. At the same time George Stokes and William Thomson (Kelvin) were discussing similar postulates. Ångström also measured the emission spectrum from hydrogen later labeled the Balmer lines. In 1854 and 1855, David Alter published observations on the spectra of metals and gases, including an independent observation of the Balmer lines of hydrogen.
 
