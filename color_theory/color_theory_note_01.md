@@ -115,7 +115,7 @@ __뉴턴은 프리즘 실험을 통해 하얀 색이 다른 색으로 변하는�
 ### 멜빌의 발견
 진행하기 전에 아주 잠깐 화학 레슨을 한다.
 
-[염(Salt)](https://en.wikipedia.org/wiki/Salt_(chemistry))은 산(Acid)의 음이온(Negative Ion)과 염기(Base)의 양이온(Positive Ion)이 정전기적 인력으로 결합하고 있는 이온성 화합물(Ionic Compound)을 말한다 - 쉽게 풀자면, __산과 염기의 중화 반응에 의해 생기는 화합물__ 이다. 우리가 잘 아는 염은 Sodium Chloride, 즉, 소금이다.
+[염(Salt)](https://en.wikipedia.org/wiki/Salt_(chemistry))은 산(Acid)의 음이온(Negative Ion)과 염기(Base)의 양이온(Positive Ion)이 정전기적 인력으로 결합하고 있는 이온성 화합물(Ionic Compound)을 말한다 - 쉽게 풀자면, __염은 산과 염기의 중화 반응에 의해 생기는 화합물__ 이다. 우리가 잘 아는 염은 Sodium Chloride, 즉, 소금이다.
 
 ![[colorful_high_purity_metal_salts.webp]]
 
@@ -137,12 +137,14 @@ __뉴턴은 프리즘 실험을 통해 하얀 색이 다른 색으로 변하는�
 > 하버드 과학 채널에서 올린 금속 불꽃 반응 실험 [유투브 영상](https://youtu.be/cBGTskrLn18)에 칼슘을 태워 방출된 빛(왼쪽)의 스펙트럼(오른쪽)을 관찰하는 장면
 
 멜빌의 발견은 세 가지 의미로서 색 이론, 화학, 그리고 천문학의 발전에 중추적 역할을 하였다.
-1. 색으로서 원소를 구분할 수 있다.
+1. 색으로서 물질의 성분(원소)을 구분할 수 있다.
 2. 색으로서 별(Star) 또는 별의 대기(Atmosphere)에 어떤 성분이 있는지 추측할 수 있다.
-3. 화학/천문학의 발전은 언제나 광학의 발전을 요구한다 (광학의 발전은 색 이론의 발전과 연결되어 있다).
+3. 화학/천문학의 발전은 언제나 광학/분광학의 발전을 요구한다 (광학의 발전은 색 이론의 발전과 연결되어 있다).
 
-### 스펙트럼 선
-뉴턴의 발견 이후 색 이론은 한동안 큰 진전이 없었다. 거의 100년이 지나서야 (1802년) [윌리엄 하이드 울러스턴(William Hyde Wollaston, 1766-1828)](https://en.wikipedia.org/wiki/William_Hyde_Wollaston)이 뉴턴 프리즘 실험 구조에 렌즈를 추가하여 스펙트럼을 좀 더 자세히 볼 수 있게 개선했다. 울러스턴은 태양광 스펙트럼에 7개의 흑선이 있다는 것을 발견했고, 이를 색을 구분하는 경계선이라고 발표했다.
+#### 스펙트럼 선
+멜빌은 스펙트럼에 보이는 검은 부분들이 무엇을 의미하는지 몰랐다. 더불어, 18세기에 사용되었던 프리즘과 렌즈는 스펙트럼을 자세히 연구하기에는 많이 부족했기 때문에 태양광에도 "검은 선"이 있다는 것을 인지하지 못 했다.
+
+1802년도에 [윌리엄 하이드 울러스턴(William Hyde Wollaston, 1766-1828)](https://en.wikipedia.org/wiki/William_Hyde_Wollaston)이 뉴턴 프리즘 실험 구조에 렌즈를 추가하여 스펙트럼을 좀 더 자세히 볼 수 있게 개선했다. 울러스턴은 태양광 스펙트럼에 7개의 흑선이 있다는 것을 발견했고, 이를 색을 구분하는 경계선이라고 발표했다.
 
 [요제프 폰 프라운호퍼(Joseph von Fraunhofer, 1787-1826)](https://en.wikipedia.org/wiki/Joseph_von_Fraunhofer)는 유리 공예가(Glass Maker)로서 프리즘 실험을 통해 분산된 각 색으로서 여러 종류의 유리의 굴절 효과를 연구하고자 했고, 1814년도에 프리즘 실험을 완전히 개선해서 첫 [분광기(Scpectrometer)](https://en.wikipedia.org/wiki/Optical_spectrometer)를 발명했다 - 덕분에, 스펙트럼을 훨씬 자세히 관찰할 수 있을 뿐더러, 색의 파장을 측정할 수 있게 되었다.
 
@@ -160,15 +162,12 @@ __뉴턴은 프리즘 실험을 통해 하얀 색이 다른 색으로 변하는�
 
 참고 : 현재로서 태양광 스펙트럼의 흑선은 약 25,000개 까지 발견되었다.
 
+#todo 멜빌의 발견과 프라운호퍼의 발견이 어떻게 연결됬는지, Foucault에 대한 내용 정리 - http://galileo.phys.virginia.edu/classes/252.old/spectra.html
+
+
 [[#광원의 성분]]에서 더 자세히 설명하겠지만, 흑선을 연구하는 과정에 물질이 특정 색을 흡수한다는 사실이 발견되었다. 흑선은 그래서 __흡수선(Absorption Line)__ 으로 불리게 되었다. 흡수선의 반대 개념으로 __방출선(Emission Line)__ 이 있으며, 이는 가열된 물질이 방출하는 특정 색을 표기하는데 사용된다. 흡수선과 방출선을 통틀어서 [스펙트럼 선(Spectral Line)](https://en.wikipedia.org/wiki/Spectral_line)이라 부른다. 스펙트럼에 흡수선을 사용하여 표기한 것을 [흡수 스펙트럼(Absorption Spectrum)](https://en.wikipedia.org/wiki/Absorption_spectroscopy#Absorption_spectrum)이라 부르며, 방출선을 사용한 스펙트럼은 [방출 스펙트럼(Emission Spectrum)](https://en.wikipedia.org/wiki/Emission_spectrum)이라 부른다.
 
-### 광원의 성분
-
-
-사실 이 내용은 
-
-[[#스펙트럼 선]] 섹션에 정리했듯이, 프라운호퍼는 
-
+#### 광원의 성분
 불, 플라즈마, 또는 방전으로 인해 방출된 빛을 측정하고 연구하는 방식을 [원자 방출 분광법(Atomic Emission Spectroscopy)](https://en.wikipedia.org/wiki/Atomic_emission_spectroscopy)이라 부른다.
 
 In 1835, Charles Wheatstone reported that different metals could be distinguished by bright lines in the emission spectra of their sparks, thereby introducing an alternative to flame spectroscopy. In 1849, J. B. L. Foucault experimentally demonstrated that absorption and emission lines at the same wavelength are both due to the same material, with the difference between the two originating from the temperature of the light source. In 1853, the Swedish physicist Anders Jonas Ångström presented observations and theories about gas spectra. Ångström postulated that an incandescent gas emits luminous rays of the same wavelength as those it can absorb. At the same time George Stokes and William Thomson (Kelvin) were discussing similar postulates. Ångström also measured the emission spectrum from hydrogen later labeled the Balmer lines. In 1854 and 1855, David Alter published observations on the spectra of metals and gases, including an independent observation of the Balmer lines of hydrogen.
