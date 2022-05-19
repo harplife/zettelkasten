@@ -140,7 +140,7 @@ __뉴턴은 프리즘 실험을 통해 하얀 색이 다른 색으로 변하는�
 1. started [Flame Test](https://en.wikipedia.org/wiki/Flame_test)
 2. 
 
-what is salt?
+[염(Salt)](https://en.wikipedia.org/wiki/Salt_(chemistry))은 산(Acid)의 음이온(Negative Ion)과 염기(Base)의 양이온(Positive Ion)이 정전기적 인력으로 결합하고 있는 이온성 화합물(Ionic Compound)을 말한다.
 
 불, 플라즈마, 또는 방전으로 인해 방출된 빛을 측정하고 연구하는 방식을 [원자 방출 분광법(Atomic Emission Spectroscopy)](https://en.wikipedia.org/wiki/Atomic_emission_spectroscopy)이라 부른다.
 
