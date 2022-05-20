@@ -58,6 +58,12 @@ __주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖�
 
 [버지니아 대학교 분광학 역사 정리 자료](http://galileo.phys.virginia.edu/classes/252.old/spectra.html) 참고
 
+[색의 철학](https://plato.stanford.edu/entries/color/)
+
+[시지각(Visual Perception)](https://en.wikipedia.org/wiki/Visual_perception) 참고
+
+참고 : [이븐 알하이삼(Ibn al-Haytham, 965-1040)](https://en.wikipedia.org/wiki/Ibn_al-Haytham), 라틴어로 알하젠(Alhazen)은 [광학의 아버지](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6074172/)라 불리우는 과학자로서 [광학책(Book of Optics)](https://en.wikipedia.org/wiki/Book_of_Optics)을 포함한 빛과 관련되어 여러 책을 작성하였다 - 특히 빛이 눈에서 나오는게 아니라 눈이 빛을 받아드리는 것이라는 Intromission Theory를 처음으로 주장했다는 것이 크다.
+
 ### 프리즘 실험
 프리즘 실험은 빛을 프리즘에 비추고 프리즘에서 분리되어 나온 색들을 연구하는 실험을 뜻한다. 정확히는, 어두운 방에 작은 구멍(Slit)을 통해 들어온 광선을 가운데 프리즘에 비추고 그 반대편에 세워진 판자에 비추어진 색들을 연구하는 실험이다.
 
@@ -146,7 +152,7 @@ __뉴턴은 프리즘 실험을 통해 하얀 색이 다른 색으로 변하는�
 
 __\*__ 어떤 자료에서는 1826년에 [윌리엄 탤벗](https://en.wikipedia.org/wiki/Henry_Fox_Talbot)이 원소에 특유의 스펙트럼이 있다는 것을 발견했다고 한다.
 
-__\*\*__ 1823년도에 [존 허셜(John Herschel)](https://en.wikipedia.org/wiki/John_Herschel)이 프리즘 실험으로 원소의 량을 측정하는 방안을 제시했다고 한다 - [_Transactions of the Royal Society of Edinburgh_, Vol. 9 (1823) Section 26 Page 445~460](https://babel.hathitrust.org/cgi/ssd?id=hvd.hwhq76;seq=515;num=445)
+__\*\*__ 1823년도에 [존 허셜(John Herschel)](https://en.wikipedia.org/wiki/John_Herschel)이 프리즘 실험으로 원소의 량을 측정하는 방안을 제시했다고 한다 - [_Transactions of the Royal Society of Edinburgh_, Vol. 9 (1823) Section 26 Page 445~460](https://babel.hathitrust.org/cgi/ssd?id=hvd.hwhq76;seq=515;num=445). 심지어 알코올 램프로 프리즘 실험을 처음으로 한게 허셜이다라는 [글](https://www.bwbtech.com/post/who-invented-the-flame-photometer)이 있다.
 
 참고 1 : 이 "특유의 스펙트럼"은 지문(Fingerprint)이라고도 불린다.
 
@@ -187,6 +193,11 @@ __\*\*__ 1823년도에 [존 허셜(John Herschel)](https://en.wikipedia.org/wiki
 [[#광원의 성분]]에서 더 자세히 설명하겠지만, 흑선을 연구하는 과정에 물질이 특정 색을 흡수한다는 사실이 발견되었다. 흑선은 그래서 __흡수선(Absorption Line)__ 으로 불리게 되었다. 흡수선의 반대 개념으로 __방출선(Emission Line)__ 이 있으며, 이는 가열된 물질이 방출하는 특정 색을 표기하는데 사용된다. 흡수선과 방출선을 통틀어서 [스펙트럼 선(Spectral Line)](https://en.wikipedia.org/wiki/Spectral_line)이라 부른다. 스펙트럼에 흡수선을 사용하여 표기한 것을 [흡수 스펙트럼(Absorption Spectrum)](https://en.wikipedia.org/wiki/Absorption_spectroscopy#Absorption_spectrum)이라 부르며, 방출선을 사용한 스펙트럼은 [방출 스펙트럼(Emission Spectrum)](https://en.wikipedia.org/wiki/Emission_spectrum)이라 부른다.
 
 #### 광원의 성분
+존 허셜 아버지 William Herschel
+- https://www.bwbtech.com/post/william-herschel-and-his-influence-on-the-history-of-the-flame-photometer
+- 
+
+
 불, 플라즈마, 또는 방전으로 인해 방출된 빛을 측정하고 연구하는 방식을 [원자 방출 분광법(Atomic Emission Spectroscopy)](https://en.wikipedia.org/wiki/Atomic_emission_spectroscopy)이라 부른다.
 
 In 1835, Charles Wheatstone reported that different metals could be distinguished by bright lines in the emission spectra of their sparks, thereby introducing an alternative to flame spectroscopy. In 1849, J. B. L. Foucault experimentally demonstrated that absorption and emission lines at the same wavelength are both due to the same material, with the difference between the two originating from the temperature of the light source. In 1853, the Swedish physicist Anders Jonas Ångström presented observations and theories about gas spectra. Ångström postulated that an incandescent gas emits luminous rays of the same wavelength as those it can absorb. At the same time George Stokes and William Thomson (Kelvin) were discussing similar postulates. Ångström also measured the emission spectrum from hydrogen later labeled the Balmer lines. In 1854 and 1855, David Alter published observations on the spectra of metals and gases, including an independent observation of the Balmer lines of hydrogen.
