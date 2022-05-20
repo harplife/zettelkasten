@@ -122,31 +122,19 @@
           }
         },
         "pane-relief:history-v1": {
-          "pos": 3,
+          "pos": 1,
           "stack": [
             {
               "leaf": "87ea834a7b108cf6",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"color_theory/thomas_melvill.md\",\"mode\":\"preview\"}}",
-              "eState": "{\"scroll\":26.51552795031056}"
-            },
-            {
-              "leaf": "87ea834a7b108cf6",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"color_theory/joseph_fraunhofer.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":13},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-            },
-            {
-              "leaf": "87ea834a7b108cf6",
-              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"color_theory/thomas_melvill.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
             },
             {
               "leaf": "87ea834a7b108cf6",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"color_theory/color_theory_note_01.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":119.1304347826087}"
+              "eState": "{\"scroll\":136.5}"
             }
           ]
         }
