@@ -188,7 +188,13 @@ __\*\*__ 1823년도에 [존 허셜(John Herschel)](https://en.wikipedia.org/wiki
 
 #todo 멜빌의 발견과 프라운호퍼의 발견이 어떻게 연결됬는지, Foucault에 대한 내용 정리 - http://galileo.phys.virginia.edu/classes/252.old/spectra.html
 
-[레옹 푸코(Léon Foucault)](https://en.wikipedia.org/wiki/L%C3%A9on_Foucault)는 탄소(Carbon) 아크 방전(Electric Arc)을 광원으로 사용하여 프리즘 실험을 진행했다.
+[레옹 푸코(Léon Foucault)](https://en.wikipedia.org/wiki/L%C3%A9on_Foucault)는 탄소(Carbon) 아크 방전(Electric Arc)을 광원으로 사용하여 프리즘 실험을 해보니 탄소 아크 방전의 스펙트럼에 밝은 노랑-주황색 선이 있다는 것을 관찰하였고, 이 선이 태양광 스펙트럼의 똑같은 부분에 흑선으로 보인다는 것을 보았다. #todo 이러저러 해서 광원이 방출하는 색이, 반대로 흡수할 수도 있다는 사실을 발견하였다.
+
+https://www.britannica.com/science/astronomy/The-rise-of-astrophysics
+
+http://galileo.phys.virginia.edu/classes/252.old/spectra.html
+
+
 
 ![[carbon_arc_light_diagram.PNG]]
 ![[carbon_arc_light_mov.webp]]
