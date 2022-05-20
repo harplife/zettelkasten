@@ -188,7 +188,7 @@ __\*\*__ 1823년도에 [존 허셜(John Herschel)](https://en.wikipedia.org/wiki
 
 #todo 멜빌의 발견과 프라운호퍼의 발견이 어떻게 연결됬는지, Foucault에 대한 내용 정리 - http://galileo.phys.virginia.edu/classes/252.old/spectra.html
 
-[레옹 푸코(Léon Foucault)](https://en.wikipedia.org/wiki/L%C3%A9on_Foucault)는 탄소(Carbon) 아크 방전(Electric Arc)을
+[레옹 푸코(Léon Foucault)](https://en.wikipedia.org/wiki/L%C3%A9on_Foucault)는 탄소(Carbon) 아크 방전(Electric Arc)을 광원으로 사용하여 프리즘 실험을 진행했다. 
 
 [[#광원의 성분]]에서 더 자세히 설명하겠지만, 흑선을 연구하는 과정에 물질이 특정 색을 흡수한다는 사실이 발견되었다. 흑선은 그래서 __흡수선(Absorption Line)__ 으로 불리게 되었다. 흡수선의 반대 개념으로 __방출선(Emission Line)__ 이 있으며, 이는 가열된 물질이 방출하는 특정 색을 표기하는데 사용된다. 흡수선과 방출선을 통틀어서 [스펙트럼 선(Spectral Line)](https://en.wikipedia.org/wiki/Spectral_line)이라 부른다. 스펙트럼에 흡수선을 사용하여 표기한 것을 [흡수 스펙트럼(Absorption Spectrum)](https://en.wikipedia.org/wiki/Absorption_spectroscopy#Absorption_spectrum)이라 부르며, 방출선을 사용한 스펙트럼은 [방출 스펙트럼(Emission Spectrum)](https://en.wikipedia.org/wiki/Emission_spectrum)이라 부른다.
 
