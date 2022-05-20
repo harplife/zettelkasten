@@ -52,7 +52,11 @@ __주의__ : 앞으로 사용되는 용어로 _물체_ 는 어떤 모형을 갖�
 
 [Early History of Spectroscopy: Astronomy 유투브 플레이리스트](https://youtube.com/playlist?list=PLepnjl2hm9tEauxnqXG8JjBR7Y3w-8nXg) 참고
 
-https://www.pasco.com/resources/blog/243 참고
+[Who discovered Spectroscopy?](https://www.pasco.com/resources/blog/243) 참고
+
+[분광학의 역사](https://www.spectroscopyonline.com/view/timeline-atomic-spectroscopy) 참고
+
+[버지니아 대학교 분광학 역사 정리 자료](http://galileo.phys.virginia.edu/classes/252.old/spectra.html) 참고
 
 ### 프리즘 실험
 프리즘 실험은 빛을 프리즘에 비추고 프리즘에서 분리되어 나온 색들을 연구하는 실험을 뜻한다. 정확히는, 어두운 방에 작은 구멍(Slit)을 통해 들어온 광선을 가운데 프리즘에 비추고 그 반대편에 세워진 판자에 비추어진 색들을 연구하는 실험이다.
@@ -129,7 +133,9 @@ __뉴턴은 프리즘 실험을 통해 하얀 색이 다른 색으로 변하는�
 
 멜빌은 처음에 (실수로?) 소금을 태웠을때 태양광의 무지개색 스펙트럼이 아닌, 유난히 노란색만 보이는 스펙트럼이 비추어지는 현상을 발견했다.
 
-다른 염들을 태워보니 각 물질에 따라 서로 다른 어두운 부분, 밝은 부분이 있다는 사실을 발견했다 - 이로서, 멜빌은 __원소에 특유의 스펙트럼이 있다__ 와 __프리즘 실험을 통해 화합물에 섞인 원소의 량을 측정할 수 있다__ 는 이론을 제시했다.
+다른 염들을 태워보니 각 물질에 따라 서로 다른 어두운 부분, 밝은 부분이 있다는 사실을 발견했다 - 이로서, 멜빌은 __원소에 특유의 스펙트럼이 있다__ 와 __프리즘 실험을 통해 화합물에 섞인 원소의 량을 측정할 수 있다\*__ 는 이론을 제시했다.
+
+\* 원소의 량 관련해서 멜빌이 제시했는지, [존 허셜(John Herschel)](https://en.wikipedia.org/wiki/John_Herschel)이 제시했는지 좀 확인이 잘 안 된다. 어쨋거나, 1823년도에 존 허셜이 이 사실을 발견한 것은 맞다. - [_Transactions of the Royal Society of Edinburgh_, Vol. 9 (1823) Section 26 Page 445~460](https://babel.hathitrust.org/cgi/ssd?id=hvd.hwhq76;seq=515;num=445)
 
 참고 : 이 "특유의 스펙트럼"은 지문(Fingerprint)이라고도 불린다.
 
