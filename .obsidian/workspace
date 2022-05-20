@@ -117,36 +117,36 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "color_theory/thomas_melvill.md",
+            "file": "color_theory/color_theory_note_01.md",
             "mode": "source"
           }
         },
         "pane-relief:history-v1": {
-          "pos": 0,
+          "pos": 3,
           "stack": [
             {
               "leaf": "87ea834a7b108cf6",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"color_theory/thomas_melvill.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":29.22826086956522}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"color_theory/thomas_melvill.md\",\"mode\":\"preview\"}}",
+              "eState": "{\"scroll\":26.51552795031056}"
             },
             {
               "leaf": "87ea834a7b108cf6",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"color_theory/joseph_fraunhofer.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":13},\"to\":{\"line\":0,\"ch\":0}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":13},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
             },
             {
               "leaf": "87ea834a7b108cf6",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"color_theory/thomas_melvill.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":null}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
             },
             {
               "leaf": "87ea834a7b108cf6",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"color_theory/color_theory_note_01.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":113.52173913043478}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":119.1304347826087}"
             }
           ]
         }
@@ -214,7 +214,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "color_theory/thomas_melvill.md",
+                "file": "color_theory/color_theory_note_01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -250,7 +250,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "color_theory/thomas_melvill.md"
+                "file": "color_theory/color_theory_note_01.md"
               }
             },
             "pane-relief:history-v1": {
@@ -267,9 +267,9 @@
   },
   "active": "87ea834a7b108cf6",
   "lastOpenFiles": [
+    "color_theory/color_theory_note_01.md",
     "color_theory/thomas_melvill.md",
     "color_theory/joseph_fraunhofer.md",
-    "color_theory/color_theory_note_01.md",
     "computer_science/computer_vision/computer_graphics_note_1.md",
     "color_theory/isaac_newton_color_theory.md",
     "color_theory/light_matter_interaction.md",
