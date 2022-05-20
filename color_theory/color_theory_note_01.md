@@ -133,18 +133,24 @@ __뉴턴은 프리즘 실험을 통해 하얀 색이 다른 색으로 변하는�
 
 멜빌은 처음에 (실수로?) 소금을 태웠을때 태양광의 무지개색 스펙트럼이 아닌, 유난히 노란색만 보이는 스펙트럼이 비추어지는 현상을 발견했다.
 
-다른 염들을 태워보니 각 물질에 따라 서로 다른 어두운 부분, 밝은 부분이 있다는 사실을 발견했다 - 이로서, 멜빌은 __원소에 특유의 스펙트럼이 있다__ 와 __프리즘 실험을 통해 화합물에 섞인 원소의 량을 측정할 수 있다\*__ 는 이론을 제시했다.
-
-\* 원소의 량 관련해서 멜빌이 제시했는지, [존 허셜(John Herschel)](https://en.wikipedia.org/wiki/John_Herschel)이 제시했는지 좀 확인이 잘 안 된다. 어쨋거나, 1823년도에 존 허셜이 이 사실을 발견한 것은 맞다. - [_Transactions of the Royal Society of Edinburgh_, Vol. 9 (1823) Section 26 Page 445~460](https://babel.hathitrust.org/cgi/ssd?id=hvd.hwhq76;seq=515;num=445)
-
-참고 : 이 "특유의 스펙트럼"은 지문(Fingerprint)이라고도 불린다.
-
 > ![[calcium_flame_test.PNG]]
 > 하버드 과학 채널에서 올린 금속 불꽃 반응 실험 [유투브 영상](https://youtu.be/cBGTskrLn18)에 칼슘을 태워 방출된 빛(왼쪽)의 스펙트럼(오른쪽)을 관찰하는 장면
 
-멜빌의 연구는 [불꽃 반응 실험(Flame Test)](https://en.wikipedia.org/wiki/Flame_test)의 시작이자 [원자 방출 분광법(Atomic Emission Spectroscopy)](https://en.wikipedia.org/wiki/Atomic_emission_spectroscopy)의 시작이였다.
+참고 : 멜빌의 연구는 [불꽃 반응 실험(Flame Test)](https://en.wikipedia.org/wiki/Flame_test)의 시작이자 [원자 방출 분광법(Atomic Emission Spectroscopy)](https://en.wikipedia.org/wiki/Atomic_emission_spectroscopy)의 시작이였다.
+
+다른 염들을 태워보니 각 물질에 따라 서로 다른 어두운 부분, 밝은 부분이 있다는 사실을 발견했다 - 이로서, 멜빌은 __원소에 특유의 스펙트럼이 있다\*__ 와 __프리즘 실험을 통해 화합물에 섞인 원소의 량을 측정할 수 있다\*\*__ 는 이론을 제시했다.
 
 ![[flame_test_multiple.PNG]]
+
+참고 : 멜빌의 발견은 대중에 잘 알려지지 않았다. 그래서 그런지 "분광학 역사" 자료들이 서로 다른 부분들이 좀 있다.
+
+__\*__ 어떤 자료에서는 1826년에 [윌리엄 탤벗](https://en.wikipedia.org/wiki/Henry_Fox_Talbot)이 원소에 특유의 스펙트럼이 있다는 것을 발견했다고 한다.
+
+__\*\*__ 1823년도에 [존 허셜(John Herschel)](https://en.wikipedia.org/wiki/John_Herschel)이 프리즘 실험으로 원소의 량을 측정하는 방안을 제시했다고 한다 - [_Transactions of the Royal Society of Edinburgh_, Vol. 9 (1823) Section 26 Page 445~460](https://babel.hathitrust.org/cgi/ssd?id=hvd.hwhq76;seq=515;num=445)
+
+참고 1 : 이 "특유의 스펙트럼"은 지문(Fingerprint)이라고도 불린다.
+
+참고 2 : 1556년도에 [게오르기우스 아그리콜라(Georgius Agricola)](https://en.wikipedia.org/wiki/Georgius_Agricola)가 광석을 태워서 나온 연기의 색으로 광석을 구분할 수 있다는 사실을 발견했다.
 
 더 자세한 사항은 [[thomas_melvill|멜빌의 분광학]]에 정리한다.
 
@@ -175,6 +181,8 @@ __뉴턴은 프리즘 실험을 통해 하얀 색이 다른 색으로 변하는�
 참고 : 현재로서 태양광 스펙트럼의 흑선은 약 25,000개 까지 발견되었다.
 
 #todo 멜빌의 발견과 프라운호퍼의 발견이 어떻게 연결됬는지, Foucault에 대한 내용 정리 - http://galileo.phys.virginia.edu/classes/252.old/spectra.html
+
+[레옹 푸코(Léon Foucault)](https://en.wikipedia.org/wiki/L%C3%A9on_Foucault)
 
 [[#광원의 성분]]에서 더 자세히 설명하겠지만, 흑선을 연구하는 과정에 물질이 특정 색을 흡수한다는 사실이 발견되었다. 흑선은 그래서 __흡수선(Absorption Line)__ 으로 불리게 되었다. 흡수선의 반대 개념으로 __방출선(Emission Line)__ 이 있으며, 이는 가열된 물질이 방출하는 특정 색을 표기하는데 사용된다. 흡수선과 방출선을 통틀어서 [스펙트럼 선(Spectral Line)](https://en.wikipedia.org/wiki/Spectral_line)이라 부른다. 스펙트럼에 흡수선을 사용하여 표기한 것을 [흡수 스펙트럼(Absorption Spectrum)](https://en.wikipedia.org/wiki/Absorption_spectroscopy#Absorption_spectrum)이라 부르며, 방출선을 사용한 스펙트럼은 [방출 스펙트럼(Emission Spectrum)](https://en.wikipedia.org/wiki/Emission_spectrum)이라 부른다.
 
