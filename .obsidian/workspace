@@ -118,7 +118,7 @@
           "type": "markdown",
           "state": {
             "file": "color_theory/color_theory_note_01.md",
-            "mode": "preview"
+            "mode": "source"
           }
         },
         "pane-relief:history-v1": {
@@ -127,14 +127,36 @@
             {
               "leaf": "87ea834a7b108cf6",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"color_theory/thomas_melvill.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/discrete_math/discrete_math_knou_note.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":null}"
             },
             {
               "leaf": "87ea834a7b108cf6",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"color_theory/color_theory_note_01.md\",\"mode\":\"preview\"}}",
-              "eState": "{}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"color_theory/color_theory_note_01.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":6},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+            }
+          ]
+        }
+      },
+      {
+        "id": "8ff724e1c66e69fe",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "computer_science/discrete_math/discrete_math_knou_note.md",
+            "mode": "source"
+          }
+        },
+        "pane-relief:history-v1": {
+          "pos": 0,
+          "stack": [
+            {
+              "leaf": "8ff724e1c66e69fe",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/discrete_math/discrete_math_knou_note.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":0},\"to\":{\"line\":7,\"ch\":0}}}"
             }
           ]
         }
@@ -202,7 +224,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "color_theory/color_theory_note_01.md",
+                "file": "computer_science/discrete_math/discrete_math_knou_note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -238,7 +260,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "color_theory/color_theory_note_01.md"
+                "file": "computer_science/discrete_math/discrete_math_knou_note.md"
               }
             },
             "pane-relief:history-v1": {
@@ -253,8 +275,9 @@
     "direction": "horizontal",
     "width": 316.5
   },
-  "active": "87ea834a7b108cf6",
+  "active": "8ff724e1c66e69fe",
   "lastOpenFiles": [
+    "computer_science/discrete_math/discrete_math_knou_note.md",
     "color_theory/color_theory_note_01.md",
     "color_theory/thomas_melvill.md",
     "color_theory/joseph_fraunhofer.md",
@@ -263,7 +286,6 @@
     "color_theory/light_matter_interaction.md",
     "todo/todo_log_2022.md",
     "careers/technical_director/shubha_jagannatha/shubha_jagannatha.md",
-    "careers/technical_director/shubha_jagannatha/about_the_author_shubha.md",
-    "careers/technical_director/gyedo_jeon.md"
+    "careers/technical_director/shubha_jagannatha/about_the_author_shubha.md"
   ]
 }
