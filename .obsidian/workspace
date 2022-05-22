@@ -134,7 +134,7 @@
               "leaf": "87ea834a7b108cf6",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"color_theory/color_theory_note_01.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":6},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":60},\"to\":{\"line\":11,\"ch\":60}},\"scroll\":0}"
             }
           ]
         }
@@ -156,7 +156,7 @@
               "leaf": "8ff724e1c66e69fe",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/discrete_math/discrete_math_knou_note.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":0},\"to\":{\"line\":7,\"ch\":0}}}"
+              "eState": "{\"scroll\":64.07164251982276}"
             }
           ]
         }

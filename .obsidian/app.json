@@ -23,7 +23,8 @@
     "specular",
     "Transmissivity",
     "Absorptance",
-    "Absorptivity"
+    "Absorptivity",
+    "Disjunction"
   ],
   "legacyEditor": true,
   "livePreview": true,
