@@ -24,7 +24,8 @@
     "Transmissivity",
     "Absorptance",
     "Absorptivity",
-    "Disjunction"
+    "Disjunction",
+    "Biconditional"
   ],
   "legacyEditor": true,
   "livePreview": true,
