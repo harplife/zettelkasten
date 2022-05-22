@@ -25,7 +25,8 @@
     "Absorptance",
     "Absorptivity",
     "Disjunction",
-    "Biconditional"
+    "Biconditional",
+    "contrapositive"
   ],
   "legacyEditor": true,
   "livePreview": true,
