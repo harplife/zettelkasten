@@ -180,6 +180,8 @@ Intro SKIP
 - `(𝑝∨𝑞)∨𝑟 ≡ 𝑝∨(𝑞∨𝑟)`
 - `(𝑝∧𝑞)∧𝑟 ≡ 𝑝∧(𝑞∧𝑟)`
 
+![[propositional_logic_distributive_property.svg]]
+
 #### 분배법칙
 - `𝑝∨(𝑞∧𝑟) ≡ (𝑝∨𝑞)∧(𝑝∨𝑟)`
 - `𝑝∧(𝑞∨𝑟) ≡ (𝑝∧𝑞)∨(𝑝∧𝑟)`
