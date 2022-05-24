@@ -26,8 +26,6 @@ Intro SKIP
 
 [진리값(Truth Value)](https://en.wikipedia.org/wiki/Truth_value) : 명제의 참(True)과 거짓(False). Logical Value라고도 한다.
 
-거짓은 **모순(Contradiction)**이라고도 불리운다.
-
 참의 기호는 `⊤`로 표기된다. 거짓의 기호는 `⊥`로 표기된다.
 
 latex:
@@ -291,8 +289,16 @@ https://en.wikipedia.org/wiki/Distributive_property#Propositional_logic
 ![[propositional_logic_distributive_property.svg]]
 
 #### 항등법칙
--  `𝑃∨F ≡ 𝑃` (x 곱하기 1은 x다)
--  `𝑃∧T ≡ 𝑃` (x 더하기 0은 x다)
+-  `𝑃∨F ≡ 𝑃` (x 더하기 0은 x다)
+-  `𝑃∧T ≡ 𝑃` (x 곱하기 1은 x다)
+
+### 항진명제
+항진명제(Tautology) : 항상 참인 명제.
+
+`𝑃∨~(𝑃∧𝑄)`
+
+### 모순명제
+모순명제(Contradiction) : 항상 거짓인 명제.
 
 
 
