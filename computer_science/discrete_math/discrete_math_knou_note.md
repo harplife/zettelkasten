@@ -146,9 +146,9 @@ latex:
 ### 조건명제
 **조건명제(Conditional Proposition)** : 명제 `𝑃`와 `𝑄`가 있을 때, 명제 `𝑃`가 명제 `𝑄`에 영향을 주는 관계를 조건명제라 한다. 논리연산자로 두 명제 사이에 `→`, `⇒`, 또는 `⊃`로 표현된다 (예: `𝑃 → 𝑄`).
 
-조건명제의 `𝑃`는 **전건(Antecedent)** 이라 불리운다.
+조건명제의 `𝑃`는 [전건(Antecedent)](https://en.wikipedia.org/wiki/Antecedent_(logic)) 이라 불리운다.
 
-조건명제의 `𝑄`는 **후건(Consequent)** 이라 불리운다.
+조건명제의 `𝑄`는 [후건(Consequent)](https://en.wikipedia.org/wiki/Consequent) 이라 불리운다.
 
 조건명제의 특징은 전건이 참이면 후건이 참이된다는 것을 **보장(Guarantee)** 한다는 것이다. 조건명제의 진리는 "이 보장이 지켜졌는가?"의 답으로 볼 수 있다. 따라서,
 1. 전건이 참이고 후건이 참이면 보장이 지켰기 때문에 조건명제는 참이된다.
@@ -165,7 +165,7 @@ latex:
 | F | F |   T   |
 > 조건명제 `𝑃 → 𝑄` 진리표
 
-조건명제를 "If .. Then ..(.. 이면 .. 이다)"로 읽는다. 이렇게 읽으면 마치 두 명제가 인과관계(Causality)를 가진 것 처럼 느껴진다. 하지만 조건명제는 인과관계를 말하는 것이 아니며, 결과를 뜻하는 것도 아니다 - 두 명제의 관계로서 도출될 수 있는 사실 (숨어있는 사실)이 조건명제며, 이를 **함의(Implication)** 라고도 한다.
+조건명제를 "If .. Then ..(.. 이면 .. 이다)"로 읽는다. 이렇게 읽으면 마치 두 명제가 인과관계(Causality)를 가진 것 처럼 느껴진다. 하지만 조건명제는 인과관계를 말하는 것이 아니며, 결과를 뜻하는 것도 아니다 - 두 명제의 관계로서 도출될 수 있는 사실 (숨어있는 사실)이 조건명제며, 이를 [함의(Implication)](https://www.britannica.com/topic/implication) 라고도 한다.
 
 참고 : 우리가 일반적으로 생각하는 인과관계는 [[#쌍조건명제]]와 더 가깝다.
 
@@ -257,15 +257,15 @@ https://en.wikipedia.org/wiki/Logical_equivalence
 https://en.wikipedia.org/wiki/Commutative_property#Propositional_logic
 
 논리곱의 교환성
-`𝑃∧𝑄 ≡ 𝑃∧𝑄`
+`𝑃∧𝑄 ≡ 𝑄∧𝑃`
 
 논리합의 교환성
 `𝑃∨𝑄 ≡ 𝑄∨𝑃`
 
-조건명제의 교환성 (aka **Law of Permutation**)
+함의의 교환성 ( #todo Law of Permutation이라고도 불린다?)
 `𝑃→(𝑄→𝑅) ≡ (𝑄→𝑃)→𝑅`
 
-쌍조건명제의 교환성 ()
+동치의 교환성 ()
 `𝑃↔𝑄 ≡ 𝑄↔𝑃`
 
 ![[propositional_logic_commutative_property.png]]
