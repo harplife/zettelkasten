@@ -11,7 +11,9 @@ edited: 2022-05-21
 ## Chapter 1
 Intro SKIP
 
-## Chapter 2
+## 명제 논리
+[명제 논리(Propositional Logic)](https://en.wikipedia.org/wiki/Propositional_calculus)
+
 ### 명제와 진리
 **명제(Proposition)** : 참과 거짓을 구별할 수 있는 문장이나 수학적 식.
 
@@ -270,21 +272,21 @@ https://en.wikipedia.org/wiki/Distributive_property#Propositional_logic
 
 
 
-## 벤 다이아그램
+### 벤 다이아그램
 논리와 집합 이론은 죽이 잘 맞는다. [[#Chapter 2]]에 정리한 내용들을 벤 다이아그램을 사용해서 정리해본다.
 
 https://betterinformatics.com/resources/inf1-cl/venn
 
 #todo logic_venn_diagram 폴더 내에 있는 캡처들 파워포인트로 수정해서 여기에 올림.
 
-### Hasse Diagram
+#### Hasse Diagram
 논리의 Hasse DIagram. 뭔가.. 보면은 이해될 것 같기도 하고..?
 
 https://en.wikipedia.org/wiki/Logical_connective
 
 ![[Logical_connectives_Hasse_diagram.svg]]
 
-# Resources
+### 명제 논리 참고 자료
 [Tutorial Point - 이산수학](https://www.tutorialspoint.com/discrete_mathematics/discrete_mathematics_propositional_logic.htm)
 
 [논리연산자 목록 1](http://discrete.openmathbooks.org/dmoi3/appendix-1.html)
@@ -294,3 +296,8 @@ https://en.wikipedia.org/wiki/Logical_connective
 [수학 알파벳 목록](https://en.wikipedia.org/wiki/Mathematical_Alphanumeric_Symbols)
 
 [나무위키 - 명제 논리](https://namu.wiki/w/%EB%AA%85%EC%A0%9C%20%EB%85%BC%EB%A6%AC)
+
+## 술어 논리
+[술어 논리(Predicate Logic)](https://en.wikipedia.org/wiki/First-order_logic)
+
+1차 논리(First-Order Logic) 또는 Quantificational Logic 이라고도 불린다.
