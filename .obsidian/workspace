@@ -155,8 +155,8 @@
             {
               "leaf": "8ff724e1c66e69fe",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/discrete_math/discrete_math_knou_note.md\",\"mode\":\"preview\"}}",
-              "eState": "{\"scroll\":19.67391304347826}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/discrete_math/discrete_math_knou_note.md\",\"mode\":\"source\"}}",
+              "eState": "{\"scroll\":146.768115942029}"
             }
           ]
         }
