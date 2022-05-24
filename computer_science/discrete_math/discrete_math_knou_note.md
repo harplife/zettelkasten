@@ -12,7 +12,7 @@ edited: 2022-05-21
 Intro SKIP
 
 ## 명제 논리
-[명제 논리(Propositional Logic)](https://en.wikipedia.org/wiki/Propositional_calculus)는 진실이 담긴 명제/문장들 간의 논리적 관계를 기계적으로 판단하는 학문이다.
+[명제 논리(Propositional Logic)](https://en.wikipedia.org/wiki/Propositional_calculus)는 진실이 담긴 명제/문장들 간의 관계를 기계적으로 판단하는 체계이다.
 
 문장 논리(Sentential Logic)라고 불리기도 한다.
 
