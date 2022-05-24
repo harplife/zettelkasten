@@ -16,7 +16,7 @@ Intro SKIP
 
 문장 논리(Sentential Logic)라고 불리기도 한다.
 
-### 명제와 진리
+### 명제와 진리값
 [명제(Proposition)](https://en.wikipedia.org/wiki/Proposition) : 참과 거짓을 구별할 수 있는 문장이나 수학적 식.
 
 명제 예시:
@@ -24,7 +24,15 @@ Intro SKIP
 2. "하루는 25시간이다"는 거짓이다.
 3. "차는 빠르다"는 명제가 아니다.
 
-**진리값(Truth Value)** : 명제의 참(True)과 거짓(False).
+[진리값(Truth Value)](https://en.wikipedia.org/wiki/Truth_value) : 명제의 참(True)과 거짓(False). Logical Value라고도 한다.
+
+거짓은 **모순(Contradiction)**이라고도 불리운다.
+
+참의 기호는 `⊤`로 표기된다. 거짓의 기호는 `⊥`로 표기된다.
+
+latex:
+- $\top$
+- $\bot$
 
 ### 논리연산
 **논리연산(Logical Operation)** : 명제들의 관계를 참과 거짓으로 나타내는 연산.
@@ -104,7 +112,7 @@ Intro SKIP
 > 부정 논리합 `𝑃 ↓ 𝑄` 진리표
 
 ### 논리곱
-**논리곱(Conjunction)** : 두 개의 명제 중 두 명제가 참일 경우 참이되고, 하나라도 거짓일 경우 거짓이 되는 논리연산. 논리연산자로 두 명제 사이에 `∧`, `·`, 또는 `&`로 표현된다 (예: `𝑃 ∧ 𝑄`). 
+[논리곱(Conjunction)](https://en.wikipedia.org/wiki/Logical_conjunction) : 두 개의 명제 중 두 명제가 참일 경우 참이되고, 하나라도 거짓일 경우 거짓이 되는 논리연산. 논리연산자로 두 명제 사이에 `∧`, `·`, 또는 `&`로 표현된다 (예: `𝑃 ∧ 𝑄`). 
 
 논리곱 연산을 "and (그리고)"로 읽는다. 명제 둘 다 진실되어야만이 연산 결과가 참이 된다. 차라리 "둘 다 가지고 있다"라고 이해하는게 더 편할 듯 싶다.
 
@@ -137,6 +145,8 @@ Intro SKIP
 
 ### 조건명제
 **조건명제(Conditional Proposition)** : 명제 `𝑃`와 `𝑄`가 있을 때, 명제 `𝑃`가 조건의 역할을 수행하고 명제 `𝑄`가 결론의 역할을 수행하는 경우, `𝑃`와 `𝑄`의 합정명제를 조건명제라 한다. 명제에 숨어있는 뜻이 암시된다는 의미에서  **함의/함축(Implication)** 라고 불리기도 한다. 논리연산자로 두 명제 사이에 `→`, `⇒`, 또는 `⊃`로 표현된다 (예: `𝑃 → 𝑄`).
+
+결로은 [논리적 귀결(Logical Consequence)](https://en.wikipedia.org/wiki/Logical_consequence)
 
 조건이 참인 경우, 결론도 마찬가지로 참이여만 논리연산의 결과가 참이 된다. 조건이 거짓인 경우, 결론의 진리값이 무엇이든 상관이 없다. 조건과 결론의 순서를 바꿀 수 없다.
 
@@ -298,6 +308,8 @@ https://en.wikipedia.org/wiki/Logical_connective
 [수학 알파벳 목록](https://en.wikipedia.org/wiki/Mathematical_Alphanumeric_Symbols)
 
 [나무위키 - 명제 논리](https://namu.wiki/w/%EB%AA%85%EC%A0%9C%20%EB%85%BC%EB%A6%AC)
+
+[명제 논리 Latex](https://www.geeksforgeeks.org/logic-notations-in-latex/?ref=lbp)
 
 ## 술어 논리
 [술어 논리(Predicate Logic)](https://en.wikipedia.org/wiki/First-order_logic)
