@@ -146,11 +146,9 @@ latex:
 ### 조건명제
 **조건명제(Conditional Proposition)** : 명제 `𝑃`와 `𝑄`가 있을 때, 명제 `𝑃`가 조건의 역할을 수행하고 명제 `𝑄`가 결론의 역할을 수행하는 경우, `𝑃`와 `𝑄`의 합정명제를 조건명제라 한다. 명제에 숨어있는 뜻이 암시된다는 의미에서  **함의/함축(Implication)** 라고 불리기도 한다. 논리연산자로 두 명제 사이에 `→`, `⇒`, 또는 `⊃`로 표현된다 (예: `𝑃 → 𝑄`).
 
-조건명제의 "조건"은 **전건(Antecedent)** 로 부른다.
+조건명제의 "조건"은 **전건(Antecedent)** 이라 불리운다.
 
-조건명제의 "결론"은 **후건(Consequent)** 로 부른다.
-
-결론은 [논리적 귀결(Logical Consequence)](https://en.wikipedia.org/wiki/Logical_consequence)
+조건명제의 "결론"은 **후건(Consequent)** 이라 불리운다.
 
 조건이 참인 경우, 결론도 마찬가지로 참이여만 논리연산의 결과가 참이 된다. 조건이 거짓인 경우, 결론의 진리값이 무엇이든 상관이 없다. 조건과 결론의 순서를 바꿀 수 없다.
 
@@ -165,6 +163,8 @@ latex:
 조건명제를 "If .. Then ..(.. 이면 .. 이다)"로 읽는다. 하지만 이런 자연어(Natural Language)로 조건명제를 이해하기에는 조건명제가 너무 반직관적이다. 예를 들어, "불 앞에 있어서 몸이 따뜻하다"라는 명제를 봤을떄, 실제로 불 앞에 있어서 몸이 따뜻하면 참이고, 몸이 따뜻하지 않으면 거짓이 된다. 그런데 불 앞에 있는게 아닌데도, 몸이 따뜻하던 말건 참이 된다 - 이걸 어떻게 받아들어야 할까? [Reddit 글](https://www.reddit.com/r/logic/comments/ni04fz/what_does_it_mean_for_a_material_conditional_to/)에 의하면 나만 이렇게 헷갈린게 아닌 듯 싶다.
 
 여러 자료에서는 조건명제를 인과관계(Causality)로 받아드리면 안 된다고 한다. 조건이 있으면 결론에 영향을 주지만, 조건이 없다면 결론은 상관없이 존재할 수도 있다고 생각하면 된다. 조건명제 `𝑃 → 𝑄` 대신  `~𝑃 ∨ 𝑄`로 생각하는게 더 이롭다 (이를 [[#논리적 동치]]라고 한다).
+
+
 
 우리가 일반적으로 생각하는 인과관계는 [[#쌍조건명제]]와 더 가깝다.
 
@@ -314,6 +314,8 @@ https://en.wikipedia.org/wiki/Logical_connective
 [나무위키 - 명제 논리](https://namu.wiki/w/%EB%AA%85%EC%A0%9C%20%EB%85%BC%EB%A6%AC)
 
 [명제 논리 Latex](https://www.geeksforgeeks.org/logic-notations-in-latex/?ref=lbp)
+
+[형식적 오류(Formal Fallacy)](https://en.wikipedia.org/wiki/Formal_fallacy) - just for fun
 
 ## 술어 논리
 [술어 논리(Predicate Logic)](https://en.wikipedia.org/wiki/First-order_logic)
