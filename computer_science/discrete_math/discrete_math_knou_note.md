@@ -39,8 +39,6 @@ latex:
 
 **논리 연산자(Logical Operator)** : 명제들의 관계를 나타내는 기호. 논리연산에 사용된다. **연결사(Connective)** 라고 부르기도 한다.
 
-[논리적 귀결(Logical Consequence)](https://en.wikipedia.org/wiki/Logical_consequence) : 논리 연산으로 나오는 결과. 명제와 명제가 이어지는 관계를 가리킨다.
-
 ### 합성명제와 진리표
 **합성명제(Compound Proposition)** : 하나 이상의 명제와 논리연산자들이 결합되어 만들어진 명제.
 
@@ -151,6 +149,8 @@ latex:
 조건명제의 "조건"은 **전건(Antecedent)** 이라 불리운다.
 
 조건명제의 "결론"은 **후건(Consequent)** 이라 불리운다.
+
+[논리적 귀결(Logical Consequence)](https://en.wikipedia.org/wiki/Logical_consequence) : 조건명제에서 최종적으로 나오는 결과(진리값). 명제와 명제가 이어지는 관계를 가리킨다 (두 명제로부터 나올수 있는 추론이라 볼 수 있다).
 
 조건이 참인 경우, 결론도 마찬가지로 참이여만 논리연산의 결과가 참이 된다. 조건이 거짓인 경우, 결론의 진리값이 무엇이든 상관이 없다. 조건과 결론의 순서를 바꿀 수 없다.
 
@@ -318,6 +318,8 @@ https://en.wikipedia.org/wiki/Logical_connective
 [명제 논리 Latex](https://www.geeksforgeeks.org/logic-notations-in-latex/?ref=lbp)
 
 [형식적 오류(Formal Fallacy)](https://en.wikipedia.org/wiki/Formal_fallacy) - just for fun
+
+[Deduction vs. Induction vs. Abduction](https://www.merriam-webster.com/words-at-play/deduction-vs-induction-vs-abduction) - just for fun too.
 
 ## 술어 논리
 [술어 논리(Predicate Logic)](https://en.wikipedia.org/wiki/First-order_logic)
