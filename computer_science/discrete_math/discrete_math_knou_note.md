@@ -17,7 +17,7 @@ Intro SKIP
 문장 논리(Sentential Logic)라고 불리기도 한다.
 
 ### 명제와 진리
-**명제(Proposition)** : 참과 거짓을 구별할 수 있는 문장이나 수학적 식.
+[명제(Proposition)](https://en.wikipedia.org/wiki/Proposition) : 참과 거짓을 구별할 수 있는 문장이나 수학적 식.
 
 명제 예시:
 1. "5 더하기 3은 8이다"는 참이다.
