@@ -264,7 +264,7 @@ https://en.wikipedia.org/wiki/Logical_equivalence
 #todo 위 법칙들에 대해 정리. 교과서 P.37 표 2-8 참고.
 
 #### 교환법칙
-[교환법칙 (Commutative Law)](https://en.wikipedia.org/wiki/Commutative_property#Propositional_logic)
+[교환법칙(Commutative Law)](https://en.wikipedia.org/wiki/Commutative_property#Propositional_logic)
 
 논리합의 교환성
 - `𝑃∨𝑄 ≡ 𝑄∨𝑃`
@@ -278,25 +278,49 @@ https://en.wikipedia.org/wiki/Logical_equivalence
 주의 : 위키에 3번째 교환법칙 예시는 좀 이상하니 일단 무시한다.
 
 #### 결합법칙
-[결합법칙 (Associative Law)]https://en.wikipedia.org/wiki/Associative_property#Propositional_logic
+[결합법칙(Associative Law)]https://en.wikipedia.org/wiki/Associative_property#Propositional_logic
 
 논리합의 결합성
 - `(𝑃∨𝑄)∨𝑅 ≡ 𝑃∨(𝑄∨𝑅)`
-- `𝑃∨(𝑄∨𝑅) ≡ (𝑃∨𝑄)∨𝑅`
 
 논리곱의 결합성
-- `(𝑃∧𝑄)∧𝑅 ≡ 𝑃∧(𝑄∧𝑅)`
 - `𝑃∧(𝑄∧𝑅) ≡ (𝑃∧𝑄)∧𝑅`
 
-![[propositional_logic_associative_property.png]]
-
 #### 분배법칙
-https://en.wikipedia.org/wiki/Distributive_property#Propositional_logic
+[분배 법칙(Distributive Law)](https://en.wikipedia.org/wiki/Distributive_property#Propositional_logic)
 
-- `𝑃∨(𝑄∧𝑅) ≡ (𝑃∨𝑄)∧(𝑃∨𝑅)`
+##### 논리곱의 분배성
+논리합(∨)에 대한 논리곱(∧)의 분배성
+(Distribution of Conjunction over Disjunction)
 - `𝑃∧(𝑄∨𝑅) ≡ (𝑃∧𝑄)∨(𝑃∧𝑅)`
 
-![[propositional_logic_distributive_property.svg]]
+논리곱(∧)에 대한 논리곱(∧)의 분배성
+(Distribution of Conjunction over Conjunction)
+- `𝑃∧(𝑄∧𝑅) ≡ (𝑃∧𝑄)∧(𝑃∧𝑅)`
+
+##### 논리합의 분배성
+논리곱(∧)에 대한 논리합(∨)의 분배성
+(Distribution of Disjunction over Conjunction)
+- `𝑃∨(𝑄∧𝑅) ≡ (𝑃∨𝑄)∧(𝑃∨𝑅)`
+
+논리합(∨)에 대한 논리합(∨)의 분배성
+(Distribution of Disjunction over Disjunction)
+- `𝑃∨(𝑄∨𝑅) ≡ (𝑃∨𝑄)∨(𝑃∨𝑅)`
+
+동치(↔)에 대한 논리합(∨)의 분배성
+(Distribution of Disjunction over Equivalence)
+- `𝑃∨(𝑄↔𝑅) ≡ (𝑃∨𝑄)↔(𝑃∨𝑅)`
+
+##### 함의의 분배성
+함의(→)에 대한 함의(→)의 분배성
+(Distribution of Implication)
+- `𝑃→(𝑄→𝑅) ≡ (𝑃→𝑄)→(𝑃→𝑅)`
+
+동치(↔)에 대한 함의(→)의 분배성
+- `𝑃→(𝑄↔𝑅) ≡ (𝑃→𝑄)↔(𝑃→𝑅)`
+
+논리곱(∧)에 대한 함의(→)의 분배성
+- `𝑃→(𝑄∧𝑅) ≡ (𝑃→𝑄)∧(𝑃→𝑅)`
 
 #### 항등법칙
 -  `𝑃∨F ≡ 𝑃` (x 더하기 0은 x다)
