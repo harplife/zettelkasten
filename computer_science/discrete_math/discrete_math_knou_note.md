@@ -212,9 +212,15 @@ https://en.wikipedia.org/wiki/Necessity_and_sufficiency
 3. "놀이공원에 아침 9시부터 10시 사이에 도착한 경우에만 놀이공원에 입장할 수 있다"는 참이다.
 
 ### 논리적 동치
-**논리적 동치(Logical Equivalence)** : 두 명제의 진리값이 항상 동일하다는 뜻. **동치관계** 라고 부르기도 한다. 쌍조건명제하고 연산은 동일하지만, 조건-결론 관점이 아닌 논리적 동등성 관점에서 명제들을 봤을 떄 논리적 동치 표현을 사용한다. 논리연산자로 두 명제 사이에 `≡`로 표현된다.
+**논리적 동치(Logical Equivalence)** : 두 명제의 진리값이 항상 동일하다는 뜻. **동치관계** 라고 부르기도 한다.
 
-논리적 동치를 ".. means the same as .."라고 읽는다. 한국어론 "..는 ..과 동일하다"라고 이해하면 된다.
+[[#쌍조건명제]]하고 연산은 동일하지만, 조건-결론 관점이 아닌 논리적 동등성 관점에서 명제들을 봤을 떄 논리적 동치 표현을 사용한다. 논리연산자로 두 명제 사이에 `≡`로 표현된다.
+
+논리적 동치를 ".. means the same as .."라고 읽는다. 한국어론 "..는 ..와 동일하다"라고 이해하면 된다.
+
+논리적 동치 예시:
+1. "비가 내린다"는 "비가 내린다"와 동일하다 (`𝑃 ≡ 𝑃`).
+2. "비가 내리고 날씨가 춥다"는 "날씨가 춥고 비가 내린다"와 동일하다 (`𝑃∧𝑄 ≡ 𝑄∧𝑃`).
 
 ### 조건명제의 변형
 **조건명제의 3가지 변형**:
@@ -236,7 +242,7 @@ https://en.wikipedia.org/wiki/Necessity_and_sufficiency
 
 조건명제 "영희가 서울에 있다면, 그녀는 한국에 있는 것이다"를 봤을떄, 대우인 "영희가 한국에 없다면, 그녀는 서울에 없는 것이다"가 성립된다.
 
-### 논리적 동치법칙
+### 논리적 동치 법칙
 https://en.wikipedia.org/wiki/Logical_equivalence
 
 동치관계를 증명하거나 복잡한 합성명제를 간단히 표시할 때 사용되는 여러 법칙이 있다.
@@ -256,7 +262,7 @@ https://en.wikipedia.org/wiki/Logical_equivalence
 #todo 위 법칙들에 대해 정리. 교과서 P.37 표 2-8 참고.
 
 #### 교환법칙
-https://en.wikipedia.org/wiki/Commutative_property#Propositional_logic
+[교환법칙 (Commutative Law)](https://en.wikipedia.org/wiki/Commutative_property#Propositional_logic)
 
 논리합의 교환성
 - `𝑃∨𝑄 ≡ 𝑄∨𝑃`
@@ -264,20 +270,22 @@ https://en.wikipedia.org/wiki/Commutative_property#Propositional_logic
 [논리곱의 교환성 (Commutativity of Conjunction)](https://en.wikipedia.org/wiki/Commutativity_of_conjunction)
 - `𝑃∧𝑄 ≡ 𝑄∧𝑃`
 
-함의의 교환성 ( #todo Law of Permutation)
-- `𝑃→(𝑄→𝑅) ≡ (𝑄→𝑃)→𝑅`
+~~함의의 교환성 ( #todo Law of Permutation)~~
+- ~~`𝑃→(𝑄→𝑅) ≡ (𝑄→𝑃)→𝑅`~~
 
 동치의 교환성 ( #todo complete commutative law of equivalence)
 - `𝑃↔𝑄 ≡ 𝑄↔𝑃`
-  
+
 #### 결합법칙
-https://en.wikipedia.org/wiki/Associative_property#Propositional_logic
+[결합법칙 (Associative Law)]https://en.wikipedia.org/wiki/Associative_property#Propositional_logic
 
 논리합의 결합성
+- `(𝑃∨𝑄)∨𝑅 ≡ 𝑃∨(𝑄∨𝑅)`
 - `𝑃∨(𝑄∨𝑅) ≡ (𝑃∨𝑄)∨𝑅`
 
-- `(𝑃∨𝑄)∨𝑅 ≡ 𝑃∨(𝑄∨𝑅)`
+논리곱의 결합성
 - `(𝑃∧𝑄)∧𝑅 ≡ 𝑃∧(𝑄∧𝑅)`
+- `𝑃∧(𝑄∧𝑅) ≡ (𝑃∧𝑄)∧𝑅`
 
 ![[propositional_logic_associative_property.png]]
 
