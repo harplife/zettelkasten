@@ -258,22 +258,23 @@ https://en.wikipedia.org/wiki/Logical_equivalence
 #### 교환법칙
 https://en.wikipedia.org/wiki/Commutative_property#Propositional_logic
 
-논리곱의 교환성
-`𝑃∧𝑄 ≡ 𝑄∧𝑃`
-
 논리합의 교환성
-`𝑃∨𝑄 ≡ 𝑄∨𝑃`
+- `𝑃∨𝑄 ≡ 𝑄∨𝑃`
 
-함의의 교환성 ( #todo Law of Permutation이라고도 불린다?)
-`𝑃→(𝑄→𝑅) ≡ (𝑄→𝑃)→𝑅`
+논리곱의 교환성
+- `𝑃∧𝑄 ≡ 𝑄∧𝑃`
 
-동치의 교환성 ()
-`𝑃↔𝑄 ≡ 𝑄↔𝑃`
+함의의 교환성 ( #todo Law of Permutation)
+- `𝑃→(𝑄→𝑅) ≡ (𝑄→𝑃)→𝑅`
 
-![[propositional_logic_commutative_property.png]]
-
+동치의 교환성 ( #todo complete commutative law of equivalence)
+- `𝑃↔𝑄 ≡ 𝑄↔𝑃`
+  
 #### 결합법칙
-https://en.wikipedia.org/wiki/Associative_property
+https://en.wikipedia.org/wiki/Associative_property#Propositional_logic
+
+논리합의 결합성
+- `𝑃∨(𝑄∨𝑅) ≡ (𝑃∨𝑄)∨𝑅`
 
 - `(𝑃∨𝑄)∨𝑅 ≡ 𝑃∨(𝑄∨𝑅)`
 - `(𝑃∧𝑄)∧𝑅 ≡ 𝑃∧(𝑄∧𝑅)`
