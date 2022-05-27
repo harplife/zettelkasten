@@ -177,6 +177,8 @@ latex:
 3. "1+3=4이면, 2x3=5이다" = 거짓
 4. "삼각형 내각의 합이 180도라면, 포도는 과일이다" = 참
 
+조건명제를 때로는 `~𝑃 ∨ 𝑄` 표현할 때가 있다. 이를 [[#논리적 동치]]라고 한다.
+
 #### 조건명제의 역설
 https://en.wikipedia.org/wiki/Paradoxes_of_material_implication
 
@@ -270,11 +272,10 @@ https://en.wikipedia.org/wiki/Logical_equivalence
 [논리곱의 교환성 (Commutativity of Conjunction)](https://en.wikipedia.org/wiki/Commutativity_of_conjunction)
 - `𝑃∧𝑄 ≡ 𝑄∧𝑃`
 
-~~함의의 교환성 ( #todo Law of Permutation)~~
-- ~~`𝑃→(𝑄→𝑅) ≡ (𝑄→𝑃)→𝑅`~~
-
 동치의 교환성 ( #todo complete commutative law of equivalence)
 - `𝑃↔𝑄 ≡ 𝑄↔𝑃`
+
+주의 : 위키에 3번째 교환법칙 예시는 좀 이상하니 일단 무시한다.
 
 #### 결합법칙
 [결합법칙 (Associative Law)]https://en.wikipedia.org/wiki/Associative_property#Propositional_logic
@@ -349,6 +350,8 @@ https://en.wikipedia.org/wiki/Logical_connective
 [형식적 오류(Formal Fallacy)](https://en.wikipedia.org/wiki/Formal_fallacy) - just for fun
 
 [Deduction vs. Induction vs. Abduction](https://www.merriam-webster.com/words-at-play/deduction-vs-induction-vs-abduction) - just for fun too.
+
+[Truth Table Generator - Stanford](https://web.stanford.edu/class/cs103/tools/truth-table-tool/)
 
 ## 술어 논리
 **술어(Predicate)** 는 문장을 구성하는 기본요소로서 **주어(Subject)** 의 동작, 상태, 성질에 대해 서술하는 말이다.
