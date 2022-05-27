@@ -261,7 +261,7 @@ https://en.wikipedia.org/wiki/Commutative_property#Propositional_logic
 논리합의 교환성
 - `𝑃∨𝑄 ≡ 𝑄∨𝑃`
 
-논리곱의 교환성
+[논리곱의 교환성 (Commutativity of Conjunction)](https://en.wikipedia.org/wiki/Commutativity_of_conjunction)
 - `𝑃∧𝑄 ≡ 𝑄∧𝑃`
 
 함의의 교환성 ( #todo Law of Permutation)
