@@ -7,12 +7,12 @@ edited: 2022-05-28
 ---
 
 # 명제 논리
-[명제 논리(Propositional Logic)](https://en.wikipedia.org/wiki/Propositional_calculus)는 진실이 담긴 명제/문장들 간의 관계를 기계적으로 판단하는 체계이다.
+[명제 논리(Propositional Logic)](https://en.wikipedia.org/wiki/Propositional_calculus)는 참 또는 거짓이 담긴 명제/문장들 간의 관계를 논리적으로 판단하는 체계이다.
 
-문장 논리(Sentential Logic)라고 불리기도 한다.
+문장 논리(Sentential Logic) 또는 Zeroth Order Logic이라고 불리기도 한다.
 
 ## 명제와 진리값
-[명제(Proposition)](https://en.wikipedia.org/wiki/Proposition) : 참과 거짓을 구별할 수 있는 문장이나 수학적 식.
+[명제(Proposition)](https://en.wikipedia.org/wiki/Proposition) : 참과 거짓을 구별할 수 있는 문장이나 수학적 식. 보다 쉽게 설명하면, 사람의 판단이나 주장을 담고 있는 말을 뜻한다.
 
 명제 예시:
 1. "5 더하기 3은 8이다"는 참이다.

@@ -156,7 +156,7 @@
               "leaf": "dde798afa5376477",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/discrete_math/propositional_logic.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":388.10714285714283}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":129},\"to\":{\"line\":14,\"ch\":129}},\"scroll\":4.217391304347826}"
             }
           ]
         }
@@ -178,7 +178,7 @@
               "leaf": "8ff724e1c66e69fe",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/discrete_math/discrete_math_knou_note.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":0},\"to\":{\"line\":18,\"ch\":0}},\"scroll\":0}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":28},\"to\":{\"line\":17,\"ch\":28}},\"scroll\":8.380952380952381}"
             },
             {
               "leaf": "8ff724e1c66e69fe",
