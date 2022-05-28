@@ -78,6 +78,8 @@ latex:
 #### 배타적 논리합
 [배타적 논리합(Exclusive Disjunction)](https://en.wikipedia.org/wiki/Exclusive_or) : 두 개의 명제 중 하나만 참인 경우 참이 되는 논리연산. 논리연산자로 두 명제 사이에 `⊕`, `⊻`, `≢`, 또는 `↮`로 표현된다 (예: `𝑃 ⊕ 𝑄`).
 
+![[exclusive_disjunction_venn_diagram.svg]]
+
 배타적 논리합을 "xor" 또는 "either .. or .."로 읽는다. 한국어로 표현하면 ".. 또는 .."이 되지 않을까 싶다.
 
 우리가 일반적으로 생각하는 "or (또는)", 즉, 둘 중 꼭 하나만 존재할 수 있는 상황이 배타적 논리합과 동일하다.
@@ -98,6 +100,8 @@ latex:
 
 #### 부정 논리합
 [부정 논리합(Negation of Disjunction)](https://en.wikipedia.org/wiki/Logical_NOR) : 논리합의 반대되는 논리연산으로, 하나의 명제라도 참이 있는 경우 연산 결과가 거짓이 된다. 논리연산자로 두 명제 사이에 `↓` 또는 `⊽`로 표현된다 (예: `𝑃 ↓ 𝑄`).
+
+![[negation_disjunction_venn_diagram.svg]]
 
 참고 : Joint Denial 로 불리기도 한다.
 
@@ -135,6 +139,8 @@ latex:
 #### 부정 논리곱
 [부정 논리곱(Negation of Conjunction)](https://en.wikipedia.org/wiki/Sheffer_stroke) : 논리곱의 반대되는 논리연산으로, 두 명제가 참이 되는 경우 연산 결과가 거짓이 된다. 논리연산자로 두 명제 사이에 `↑`, `⊼`, 또는 `|`로 표현된다 (예: `𝑃 ↑ 𝑄`).
 
+![[negation_conjunction_venn_diagram.svg]]
+
 참고 : Alternative Denial 로 불리기도 한다.
 
 부정 논리곱 연산을 "nand"로 읽는다. 한국어로 표현하기는 어렵다!!
@@ -148,7 +154,9 @@ latex:
 > 부정 논리곱 `𝑃 ↑ 𝑄` 진리표
 
 ### 조건명제
-**조건명제(Conditional Proposition)** : 명제 `𝑃`와 `𝑄`가 있을 때, 명제 `𝑃`가 명제 `𝑄`에 영향을 주는 관계를 조건명제라 한다. 논리연산자로 두 명제 사이에 `→`, `⇒`, 또는 `⊃`로 표현된다 (예: `𝑃 → 𝑄`).
+[조건명제(Conditional Proposition)](https://en.wikipedia.org/wiki/Material_conditional) : 명제 `𝑃`와 `𝑄`가 있을 때, 명제 `𝑃`가 명제 `𝑄`에 영향을 주는 관계를 조건명제라 한다. 논리연산자로 두 명제 사이에 `→`, `⇒`, 또는 `⊃`로 표현된다 (예: `𝑃 → 𝑄`).
+
+![[implication_venn_diagram.svg]]
 
 조건명제의 `𝑃`는 [전건(Antecedent)](https://en.wikipedia.org/wiki/Antecedent_(logic)) 이라 불리운다.
 
@@ -196,7 +204,9 @@ https://en.wikipedia.org/wiki/Necessity_and_sufficiency
 예를 들어, 조건이 "x = 2"라면, "x² = 4"가 결론이 되기에 충분하다고 볼 수 있다. 하지만 조건이 거짓이여도 결론은 참이 될 수 있다 (조건이 "x = -2"인 경우).
 
 #### 쌍조건명제
-**쌍조건명제(Biconditional Proposition)** : 조건과 결론이 양방향으로 이루어지는 조건명제를 뜻한다. 조건명제 "if P, then Q"가 있다면, 반대로 "if Q, then P"도 성립된다는 것이다. 조건-결론 관계에 있어 **동치(Equivalence)** 라고 불리기도 한다. 필요성과 충분성 둘 다 성립하다는 의미에 있어 쌍조건명제의 조건을 **필요충분조건** 이라 부른다. 논리연산자로 두 명제 사이에 `↔` 또는 `⇔`로 표현된다.
+[쌍조건명제(Biconditional Proposition)](https://en.wikipedia.org/wiki/Logical_biconditional) : 조건과 결론이 양방향으로 이루어지는 조건명제를 뜻한다. 조건명제 "if P, then Q"가 있다면, 반대로 "if Q, then P"도 성립된다는 것이다. 조건-결론 관계에 있어 **동치(Equivalence)** 라고 불리기도 한다. 필요성과 충분성 둘 다 성립하다는 의미에 있어 쌍조건명제의 조건을 **필요충분조건** 이라 부른다. 논리연산자로 두 명제 사이에 `↔` 또는 `⇔`로 표현된다.
+
+![[biconditional_venn_diagram.svg]]
 
 쌍조건명제에선 두 명제의 진리가 같은 경우에만 참이 나온다. [[#배타적 논리합]]의 반대로 볼 수 있다.
 
@@ -216,7 +226,7 @@ https://en.wikipedia.org/wiki/Necessity_and_sufficiency
 3. "놀이공원에 아침 9시부터 10시 사이에 도착한 경우에만 놀이공원에 입장할 수 있다"는 참이다.
 
 ### 논리적 동치
-**논리적 동치(Logical Equivalence)** : 두 명제의 진리값이 항상 동일하다는 뜻. **동치관계** 라고 부르기도 한다.
+[논리적 동치(Logical Equivalence)](https://en.wikipedia.org/wiki/Logical_equivalence) : 두 명제의 진리값이 항상 동일하다는 뜻. **동치관계** 라고 부르기도 한다.
 
 [[#쌍조건명제]]하고 연산은 동일하지만, 조건-결론 관점이 아닌 논리적 동등성 관점에서 명제들을 봤을 떄 논리적 동치 표현을 사용한다. 논리연산자로 두 명제 사이에 `≡`로 표현된다.
 
@@ -228,9 +238,9 @@ https://en.wikipedia.org/wiki/Necessity_and_sufficiency
 
 ### 조건명제의 변형
 **조건명제의 3가지 변형**:
-1. **역(Converse)** : 조건명제에서 명제의 위치를 바꾼 경우 (예: `𝑃 → 𝑄`의 역은 `𝑄 → 𝑃`이다).
-2. **이(Inverse)** : 조건명제에서 두 명제의 진리값이 반대가 되는 경우 (예:  `𝑃 → 𝑄`의 이는 `~𝑃 → ~𝑄`이다).
-3. **대우(Contrapositive)** : 조건명제에서 converse와 inverse 둘 다 적용되는 경우 (예: `𝑃 → 𝑄`의 대우는 `~𝑄 → ~𝑃`이다).
+1. [역(Converse)](https://en.wikipedia.org/wiki/Converse_(logic)) : 조건명제에서 명제의 위치를 바꾼 경우 (예: `𝑃 → 𝑄`의 역은 `𝑄 → 𝑃`이다).
+2. [이(Inverse)](https://en.wikipedia.org/wiki/Inverse_(logic)) : 조건명제에서 두 명제의 진리값이 반대가 되는 경우 (예:  `𝑃 → 𝑄`의 이는 `~𝑃 → ~𝑄`이다).
+3. [대우(Contrapositive)](https://en.wikipedia.org/wiki/Contraposition) : 조건명제에서 converse와 inverse 둘 다 적용되는 경우 (예: `𝑃 → 𝑄`의 대우는 `~𝑄 → ~𝑃`이다).
 
 > | 𝑃 | 𝑄 | ~𝑃 | ~𝑄 | 𝑃 → 𝑄 | 𝑄 → 𝑃 | ~𝑃 → ~𝑄 | ~𝑄 → ~𝑃 |
 |:-:|:-:|:--:|:--:|:-----:|:--------:|:-------:|:--------------:|

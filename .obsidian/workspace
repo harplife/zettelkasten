@@ -146,7 +146,7 @@
           "type": "markdown",
           "state": {
             "file": "computer_science/discrete_math/discrete_math_knou_note.md",
-            "mode": "preview"
+            "mode": "source"
           }
         },
         "pane-relief:history-v1": {
@@ -155,8 +155,8 @@
             {
               "leaf": "8ff724e1c66e69fe",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/discrete_math/discrete_math_knou_note.md\",\"mode\":\"preview\"}}",
-              "eState": "{\"scroll\":97.56521739130434}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/discrete_math/discrete_math_knou_note.md\",\"mode\":\"source\"}}",
+              "eState": "{\"scroll\":234.1304347826087}"
             }
           ]
         }
