@@ -156,7 +156,7 @@
               "leaf": "dde798afa5376477",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/discrete_math/propositional_logic.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":13},\"to\":{\"line\":2,\"ch\":30}}}"
+              "eState": "{\"scroll\":388.10714285714283}"
             }
           ]
         }
@@ -178,7 +178,7 @@
               "leaf": "8ff724e1c66e69fe",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/discrete_math/discrete_math_knou_note.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":13},\"to\":{\"line\":2,\"ch\":29}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":0},\"to\":{\"line\":18,\"ch\":0}},\"scroll\":0}"
             },
             {
               "leaf": "8ff724e1c66e69fe",
@@ -265,7 +265,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262
+    "width": 262,
+    "collapsed": true
   },
   "right": {
     "id": "f152d8fd8ec1f4e0",
@@ -281,7 +282,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer_science/discrete_math/propositional_logic.md",
+                "file": "computer_science/discrete_math/discrete_math_knou_note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -317,7 +318,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer_science/discrete_math/propositional_logic.md"
+                "file": "computer_science/discrete_math/discrete_math_knou_note.md"
               }
             },
             "pane-relief:history-v1": {
@@ -332,10 +333,10 @@
     "direction": "horizontal",
     "width": 316.5
   },
-  "active": "dde798afa5376477",
+  "active": "8ff724e1c66e69fe",
   "lastOpenFiles": [
-    "computer_science/discrete_math/propositional_logic.md",
     "computer_science/discrete_math/discrete_math_knou_note.md",
+    "computer_science/discrete_math/propositional_logic.md",
     "todo/todo_log_2022.md",
     "color_theory/color_theory_note_01.md",
     "todo/general_todos.md",

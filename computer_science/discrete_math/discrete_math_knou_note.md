@@ -8,16 +8,20 @@ edited: 2022-05-28
 
 # 이산수학 방통대 노트
 
-## Chapter 1
+# Chapter 1
 Intro SKIP
 
-## 명제 논리
+# 명제 논리
 [[propositional_logic]]
 
-## 술어 논리
-**술어(Predicate)** 는 문장을 구성하는 기본요소로서 **주어(Subject)** 의 동작, 상태, 성질에 대해 서술하는 말이다.
+# 술어 논리
+언어학(Linguistic)에 있어 문장은 주어와 술어로 이루어진다.
+- [주어(Subject)](https://en.wikipedia.org/wiki/Subject_(grammar))는 발언의 주제가 되는 것(Thing)이다.
+- [술어(Predicate)](https://en.wikipedia.org/wiki/Predicate_(grammar))는 주어의 동작, 상태, 성질에 대해 서술하는 설명(Description)이 된다.
 
-"A는 B이다" 또는 "A는 B가 아니다"에서 A를 "주어"라고 하고 B를 "술어"라고 한다.
+"나는 피자를 좋아한다"에서 "나"와 "피자"는 주어고, "좋아한다"는 술어이다.
+
+
 
 논리는 일반적으로 [[#명제 논리]]와 술어 논리로 구분한다.
 
