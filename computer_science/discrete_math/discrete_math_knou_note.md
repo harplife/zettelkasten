@@ -307,25 +307,20 @@ https://en.wikipedia.org/wiki/Logical_equivalence
 ##### 논리합의 분배성
 일반 수학과는 달리 명제논리에는 논리합을 기준으로 분배가 가능하다.
 
-논리곱(∧)에 대한 논리합(∨)의 분배성
-(Distribution of Disjunction over Conjunction)
-- `𝑃∨(𝑄∧𝑅) ≡ (𝑃∨𝑄)∧(𝑃∨𝑅)`
-
 논리합(∨)에 대한 논리합(∨)의 분배성
-(Distribution of Disjunction over Disjunction)
 - `𝑃∨(𝑄∨𝑅) ≡ (𝑃∨𝑄)∨(𝑃∨𝑅)`
 
+논리곱(∧)에 대한 논리합(∨)의 분배성
+- `𝑃∨(𝑄∧𝑅) ≡ (𝑃∨𝑄)∧(𝑃∨𝑅)`
+
 동치(↔)에 대한 논리합(∨)의 분배성
-(Distribution of Disjunction over Equivalence)
 - `𝑃∨(𝑄↔𝑅) ≡ (𝑃∨𝑄)↔(𝑃∨𝑅)`
 
 ##### 논리곱의 분배성
 논리합(∨)에 대한 논리곱(∧)의 분배성
-(Distribution of Conjunction over Disjunction)
 - `𝑃∧(𝑄∨𝑅) ≡ (𝑃∧𝑄)∨(𝑃∧𝑅)`
 
 논리곱(∧)에 대한 논리곱(∧)의 분배성
-(Distribution of Conjunction over Conjunction)
 - `𝑃∧(𝑄∧𝑅) ≡ (𝑃∧𝑄)∧(𝑃∧𝑅)`
 
 ##### 함의의 분배성
@@ -343,8 +338,57 @@ https://en.wikipedia.org/wiki/Logical_equivalence
 - `𝑃→(𝑄↔𝑅) ≡ (𝑃→𝑄)↔(𝑃→𝑅)`
 
 #### 항등법칙
+[항등법칙(Identity Law)](https://en.wikipedia.org/wiki/Identity_(mathematics)#Logic_and_universal_algebra)은 명제에 대한 연산의 결과가 명제와 동일하게 나올수 있음을 뜻한다.
+
 -  `𝑃∨F ≡ 𝑃` (x 더하기 0은 x다)
 -  `𝑃∧T ≡ 𝑃` (x 곱하기 1은 x다)
+
+#### 지배법칙
+지배법칙(Domination Laws)은 특정 조건에 따라 논리연산의 결과가 항상 참([[#항진명제]])이거나 항상 거짓([[#모순명제]])이 될 수 있음을 뜻한다.
+
+-  `𝑃∨T ≡ T` (논리합에서 항진면제는 "지배적"이다)
+-  `𝑃∧F ≡ F` (논리곱에서 모순명제는 "지배적"이다)
+
+#### 부정법칙
+부정법칙(Negation Law)은
+1. 진실의 부정이 거짓이고, 거짓의 부정이 진실됨을 뜻한다.
+2. 명제(𝑃)와 명제 부정(~𝑃)에 대한 연산이 항상 참이거나 항상 거짓될 수 있음을 뜻한다.
+
+- `~T=F`(진실이 아니면 거짓이다)
+- `~F=T`(거짓이 아니면 진실이다)
+- `𝑃∨~𝑃 ≡ T`(진실이거나 또는 진실이 아니다 = [[#항진명제]])
+- `𝑃∧~𝑃 ≡ F`(진실이고 진실이 아니다 = [[#모순명제]])
+
+#### 이중 부정법칙
+이중부정법칙(Double Negation Law)
+
+`~(~𝑃) ≡ 𝑃`(진실이 아닌게 아니면 진실이다)
+
+#### 멱등법칙
+멱등법칙(Idempotent Law)은 특정 조건에 따라 연산을 여러 번 적용하더라도 결과가 달라지지 않을 수 있음을 뜻한다.
+
+`𝑃∨𝑃 ≡ 𝑃`(비가 오거나 비가 오면 비가 온다)
+`𝑃∧𝑃 ≡ 𝑃`(비가 오고 비가 오면 비가 온다)
+
+참고 1 : `𝑃∨𝑃∨𝑃∨𝑃∨𝑃∨𝑃.. ≡ 𝑃`
+참고 2 : `𝑃→𝑃 ≡ T`, `𝑃↔𝑃 ≡ T` 
+
+#### 드 모르간 법칙
+[드 모르간 법칙(De Morgan's Law)](https://en.wikipedia.org/wiki/De_Morgan's_laws)
+
+- `~(𝑃∨𝑄) ≡ ~𝑃∧~𝑄`
+- `~(𝑃∧𝑄) ≡ ~𝑃∨~𝑄`
+
+노트 : 부정의 분배법칙이라고 해야 할까? 부정이 분배되면 논리곱/논리합이 반대된다.
+
+#### 흡수법칙
+[흡수법칙(Absorption Law)](https://en.wikipedia.org/wiki/Absorption_law)
+
+- `𝑃∨(𝑃∧𝑄) ≡ 𝑃∧(𝑃∨𝑄) ≡ 𝑃`
+
+#### 함축법칙
+
+#### 대우법칙
 
 ### 항진명제
 항진명제(Tautology) : 항상 참인 명제.
