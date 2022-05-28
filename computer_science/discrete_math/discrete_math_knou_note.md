@@ -251,7 +251,7 @@ https://en.wikipedia.org/wiki/Necessity_and_sufficiency
 > 조건명제 `𝑃 → 𝑄`의 inverse, converse, contrapositive 진리표
 
 위 진리표를 보면, 다음과 같은 사실을 알 수 있다.
-1. 명제와 대우는 동치관계이다.
+1. 명제와 대우는 동치관계이다 - [[#대우법칙]]
 2. 역과 이는 동치관계이다.
 
 조건명제 "영희가 서울에 있다면, 그녀는 한국에 있는 것이다"를 봤을떄, 대우인 "영희가 한국에 없다면, 그녀는 서울에 없는 것이다"가 성립된다.
@@ -270,8 +270,8 @@ https://en.wikipedia.org/wiki/Logical_equivalence
 8. 멱등법칙(Idempotent Law)
 9. 드 모르간 법칙(De Morgan's Law)
 10. 흡수법칙(Absorption Law)
-11. 함축법칙(Implication Law)
-12. 대우법칙(Contrapositive Law)
+11. 대우법칙(Contrapositive Law)
+12. 함축법칙(Implication Law)
 
 #todo 위 법칙들에 대해 정리. 교과서 P.37 표 2-8 참고.
 
@@ -342,7 +342,6 @@ https://en.wikipedia.org/wiki/Logical_equivalence
 - `𝑃→(𝑄∧𝑅) ≡ (𝑃→𝑄)∧(𝑃→𝑅)`
 
 함축(→)에 대한 함축(→)의 분배성
-(Distribution of Implication)
 - `𝑃→(𝑄→𝑅) ≡ (𝑃→𝑄)→(𝑃→𝑅)`
 
 동치(↔)에 대한 함축(→)의 분배성
@@ -406,7 +405,10 @@ If I have a Burger and (a Burger or Fish), then in any case I must have a Burger
 #### 대우법칙
 대우법칙 (Contrapositive Law)
 
+`𝑃→𝑄 ≡ ~𝑄→~𝑃`
 
+"길동이가 오렌지를 먹었다"는 "길동이가 과일을 먹었다"는 의미를 함축한다 (𝑃→𝑄).
+- 길동이가 과일을 먹지 않았다면, 길동이는 오렌지를 먹었을리가 없다 (~𝑄→~𝑃).
 
 #### 함축법칙
 함축법칙(Implication Law)
@@ -414,7 +416,6 @@ If I have a Burger and (a Burger or Fish), then in any case I must have a Burger
 `𝑃→𝑄 ≡ ~𝑃∨𝑄`
 
 "길동이가 오렌지를 먹었다"는 "길동이가 과일을 먹었다"는 의미를 함축한다 (𝑃→𝑄).
-- 길동이가 과일을 먹지 않았다면, 길동이는 오렌지를 먹었을리가 없다 (~𝑄→~𝑃).
 - 길동이가 오렌지를 먹지 않았다고, 길동이가 과일을 먹지 않았다는 것은 아니다. 길동이는 과일을 먹었거나 또는 안 먹었을 수도 있다 (~𝑃∨𝑄).
 
 ### 항진명제

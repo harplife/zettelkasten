@@ -145,7 +145,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "computer_science/discrete_math/discrete_math_knou_note.md",
+            "file": "computer_science/discrete_math/Untitled.md",
             "mode": "source"
           }
         },
@@ -155,8 +155,14 @@
             {
               "leaf": "8ff724e1c66e69fe",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/discrete_math/Untitled.md\",\"mode\":\"source\"}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "8ff724e1c66e69fe",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/discrete_math/discrete_math_knou_note.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":392.39130434782624}"
+              "eState": "{\"scroll\":0}"
             }
           ]
         }
@@ -207,8 +213,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262,
-    "collapsed": true
+    "width": 262
   },
   "right": {
     "id": "f152d8fd8ec1f4e0",
@@ -224,7 +229,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer_science/discrete_math/discrete_math_knou_note.md",
+                "file": "computer_science/discrete_math/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -260,7 +265,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer_science/discrete_math/discrete_math_knou_note.md"
+                "file": "computer_science/discrete_math/Untitled.md"
               }
             },
             "pane-relief:history-v1": {
@@ -277,6 +282,7 @@
   },
   "active": "8ff724e1c66e69fe",
   "lastOpenFiles": [
+    "computer_science/discrete_math/Untitled.md",
     "computer_science/discrete_math/discrete_math_knou_note.md",
     "todo/todo_log_2022.md",
     "color_theory/color_theory_note_01.md",
@@ -285,7 +291,6 @@
     "color_theory/joseph_fraunhofer.md",
     "computer_science/computer_vision/computer_graphics_note_1.md",
     "color_theory/isaac_newton_color_theory.md",
-    "color_theory/light_matter_interaction.md",
-    "careers/technical_director/shubha_jagannatha/shubha_jagannatha.md"
+    "color_theory/light_matter_interaction.md"
   ]
 }
