@@ -177,7 +177,7 @@ latex:
 | F | F |   T   |
 > 조건명제 `𝑃 → 𝑄` 진리표
 
-조건명제를 "If .. Then ..(.. 이면 .. 이다)"로 읽는다. 이렇게 읽으면 마치 두 명제가 인과관계(Causality)를 가진 것 처럼 느껴진다. 하지만 조건명제는 인과관계를 말하는 것이 아니며, 결과를 뜻하는 것도 아니다 - 두 명제의 관계로서 도출될 수 있는 사실 (숨어있는 사실)이 조건명제며, 이를 [함의(Implication)](https://www.britannica.com/topic/implication) 라고도 한다.
+조건명제를 "If .. Then ..(.. 이면 .. 이다)"로 읽는다. 이렇게 읽으면 마치 두 명제가 인과관계(Causality)를 가진 것 처럼 느껴진다. 하지만 조건명제는 인과관계를 말하는 것이 아니며, 결과를 뜻하는 것도 아니다 - 두 명제의 관계로서 도출될 수 있는 사실 (숨어있는 사실)이 조건명제며, 이를 [함축(Implication)](https://www.britannica.com/topic/implication) 라고도 한다.
 
 참고 : 우리가 일반적으로 생각하는 인과관계는 [[#쌍조건명제]]와 더 가깝다.
 
@@ -187,7 +187,7 @@ latex:
 3. "1+3=4이면, 2x3=5이다" = 거짓
 4. "삼각형 내각의 합이 180도라면, 포도는 과일이다" = 참
 
-조건명제를 때로는 `~𝑃 ∨ 𝑄` 표현할 때가 있다. 이를 [[#논리적 동치]]라고 한다.
+조건명제를 때로는 `~𝑃 ∨ 𝑄` 표현할 때가 있다. 이를 [[#함축법칙]]이라고 한다.
 
 #### 조건명제의 역설
 https://en.wikipedia.org/wiki/Paradoxes_of_material_implication
@@ -313,6 +313,12 @@ https://en.wikipedia.org/wiki/Logical_equivalence
 논리곱(∧)에 대한 논리합(∨)의 분배성
 - `𝑃∨(𝑄∧𝑅) ≡ (𝑃∨𝑄)∧(𝑃∨𝑅)`
 
+> "I have a Burger or (Fish and Chips)"
+> = (a) "I have a Burger or Fish" AND (b) "I have a Burger or Chips"
+> Case 1 : I have a Burger. (a) and (b) are both TRUE.
+> Case 2 : I have Fish and Chips. (a) and (b) are both TRUE.
+> (from [Stackoverflow 답변](https://math.stackexchange.com/a/484298))
+
 동치(↔)에 대한 논리합(∨)의 분배성
 - `𝑃∨(𝑄↔𝑅) ≡ (𝑃∨𝑄)↔(𝑃∨𝑅)`
 
@@ -320,21 +326,26 @@ https://en.wikipedia.org/wiki/Logical_equivalence
 논리합(∨)에 대한 논리곱(∧)의 분배성
 - `𝑃∧(𝑄∨𝑅) ≡ (𝑃∧𝑄)∨(𝑃∧𝑅)`
 
+> "I have a Burger with (Ketchup or Mustard)"
+> = (a) "I have a Burger with Ketchup" or (b) "I have a Burger with Mustard"
+> My burger must have at least one of the two condiments on it.
+> (from [Stackoverflow 답변](https://math.stackexchange.com/a/484298))
+
 논리곱(∧)에 대한 논리곱(∧)의 분배성
 - `𝑃∧(𝑄∧𝑅) ≡ (𝑃∧𝑄)∧(𝑃∧𝑅)`
 
-##### 함의의 분배성
-논리합(∨)에 대한 함의(→)의 분배성
+##### 함축의 분배성
+논리합(∨)에 대한 함축(→)의 분배성
 - `𝑃→(𝑄∨𝑅) ≡ (𝑃→𝑄)∨(𝑃→𝑅)`
 
-논리곱(∧)에 대한 함의(→)의 분배성
+논리곱(∧)에 대한 함축(→)의 분배성
 - `𝑃→(𝑄∧𝑅) ≡ (𝑃→𝑄)∧(𝑃→𝑅)`
 
-함의(→)에 대한 함의(→)의 분배성
+함축(→)에 대한 함축(→)의 분배성
 (Distribution of Implication)
 - `𝑃→(𝑄→𝑅) ≡ (𝑃→𝑄)→(𝑃→𝑅)`
 
-동치(↔)에 대한 함의(→)의 분배성
+동치(↔)에 대한 함축(→)의 분배성
 - `𝑃→(𝑄↔𝑅) ≡ (𝑃→𝑄)↔(𝑃→𝑅)`
 
 #### 항등법칙
@@ -384,11 +395,27 @@ https://en.wikipedia.org/wiki/Logical_equivalence
 #### 흡수법칙
 [흡수법칙(Absorption Law)](https://en.wikipedia.org/wiki/Absorption_law)
 
-- `𝑃∨(𝑃∧𝑄) ≡ 𝑃∧(𝑃∨𝑄) ≡ 𝑃`
+- `𝑃∨(𝑃∧𝑄) ≡ 𝑃`
+If I have a Burger or (a Burger with Cheese), then in any case I must have a Burger (though I can't say for certain whether it has cheese on it).
 
-#### 함축법칙
+- `𝑃∧(𝑃∨𝑄) ≡ 𝑃`
+If I have a Burger and (a Burger or Fish), then in any case I must have a Burger (the Fish is a Red Herring).
+
+설명은 [Stackoverflow 답변](https://math.stackexchange.com/a/484298)에서 가져왔음.
 
 #### 대우법칙
+대우법칙 (Contrapositive Law)
+
+
+
+#### 함축법칙
+함축법칙(Implication Law)
+
+`𝑃→𝑄 ≡ ~𝑃∨𝑄`
+
+"길동이가 오렌지를 먹었다"는 "길동이가 과일을 먹었다"는 의미를 함축한다 (𝑃→𝑄).
+- 길동이가 과일을 먹지 않았다면, 길동이는 오렌지를 먹었을리가 없다 (~𝑄→~𝑃).
+- 길동이가 오렌지를 먹지 않았다고, 길동이가 과일을 먹지 않았다는 것은 아니다. 길동이는 과일을 먹었거나 또는 안 먹었을 수도 있다 (~𝑃∨𝑄).
 
 ### 항진명제
 항진명제(Tautology) : 항상 참인 명제.
