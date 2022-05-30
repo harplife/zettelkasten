@@ -16,7 +16,7 @@ edited: 2022-03-27
 그래픽스는 래스터(Raster)와 벡터(Vector)로 2가지로 나뉜다.
 
 ### 래스터 그래픽스
-[래스터 그래픽스 (Raster Graphics)](https://en.wikipedia.org/wiki/Raster_graphics)는 이미지를 사각형 그리드 안의 여러 [[computer_graphics_note_1#픽셀]]로 처리하는 방식을 뜻한다. 다른 말로는, 이미지를 픽셀의 행렬로 표현하는 방식이라고 할 수 있다.
+[래스터 그래픽스 (Raster Graphics)](https://en.wikipedia.org/wiki/Raster_graphics)는 이미지를 사각형 그리드 안의 여러 [[computer_graphics#픽셀]]로 처리하는 방식을 뜻한다. 다른 말로는, 이미지를 픽셀의 행렬로 표현하는 방식이라고 할 수 있다.
 
 래스터 그래픽스 방식으로 처리된 이미지를 래스터 그래픽스 이미지라 부르지만, 편의상 "래스터 이미지"라고 부른다.
 
