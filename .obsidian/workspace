@@ -26,7 +26,7 @@
               "leaf": "87ea834a7b108cf6",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"color_theory/color_theory_note_01.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}},\"scroll\":4.304347826086957}"
+              "eState": "{}"
             }
           ]
         }
@@ -48,7 +48,7 @@
               "leaf": "74d15c5aa24b0dc5",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":20},\"to\":{\"line\":9,\"ch\":20}},\"scroll\":0}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":17},\"to\":{\"line\":12,\"ch\":17}}}"
             },
             {
               "leaf": "74d15c5aa24b0dc5",
@@ -206,7 +206,7 @@
               "leaf": "dde798afa5376477",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/discrete_math/propositional_logic.md\",\"mode\":\"preview\"}}",
-              "eState": "{\"scroll\":330}"
+              "eState": "{}"
             }
           ]
         }
@@ -386,11 +386,11 @@
   "active": "74d15c5aa24b0dc5",
   "lastOpenFiles": [
     "computer_science/computer_vision/computer_graphics.md",
-    "computer_science/computer_vision/computer_graphics_software.md",
+    "color_theory/color_theory_note_01.md",
     "computer_science/discrete_math/propositional_logic.md",
+    "computer_science/computer_vision/computer_graphics_software.md",
     "computer_science/computer_vision/computer_graphics_hardware.md",
     "computer_science/discrete_math/discrete_math_knou_note.md",
-    "color_theory/color_theory_note_01.md",
     "todo/todo_log_2022.md",
     "todo/general_todos.md",
     "color_theory/thomas_melvill.md",
