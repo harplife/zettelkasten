@@ -4,114 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "a4940ab766116d74",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "todo/general_todos.md",
-            "mode": "source"
-          }
-        },
-        "pane-relief:history-v1": {
-          "pos": 0,
-          "stack": [
-            {
-              "leaf": "a4940ab766116d74",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"todo/general_todos.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "a4940ab766116d74",
-              "group": null,
-              "state": "{\"type\":\"empty\",\"state\":{}}",
-              "eState": "{}"
-            }
-          ]
-        }
-      },
-      {
-        "id": "b626d59c02eeb2b8",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "todo/todo_log_2022.md",
-            "mode": "source"
-          }
-        },
-        "pane-relief:history-v1": {
-          "pos": 1,
-          "stack": [
-            {
-              "leaf": "b626d59c02eeb2b8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_note_1.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "b626d59c02eeb2b8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"todo/todo_log_2022.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            }
-          ]
-        }
-      },
-      {
-        "id": "74d15c5aa24b0dc5",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "computer_science/computer_vision/computer_graphics_note_1.md",
-            "mode": "source"
-          }
-        },
-        "pane-relief:history-v1": {
-          "pos": 1,
-          "stack": [
-            {
-              "leaf": "74d15c5aa24b0dc5",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"color_theory/color_theory_note_01.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":null}"
-            },
-            {
-              "leaf": "74d15c5aa24b0dc5",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_note_1.md\",\"mode\":\"source\"}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "74d15c5aa24b0dc5",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_note_2.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":0},\"to\":{\"line\":13,\"ch\":0}}}"
-            },
-            {
-              "leaf": "74d15c5aa24b0dc5",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_note_1.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":14},\"to\":{\"line\":9,\"ch\":14}}}"
-            },
-            {
-              "leaf": "74d15c5aa24b0dc5",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_note_2.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "74d15c5aa24b0dc5",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_note_1.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":0}"
-            }
-          ]
-        }
-      },
-      {
         "id": "87ea834a7b108cf6",
         "type": "leaf",
         "state": {
@@ -134,7 +26,165 @@
               "leaf": "87ea834a7b108cf6",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"color_theory/color_theory_note_01.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}},\"scroll\":4.304347826086957}"
+            }
+          ]
+        }
+      },
+      {
+        "id": "74d15c5aa24b0dc5",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "computer_science/computer_vision/computer_graphics_note_1.md",
+            "mode": "source"
+          }
+        },
+        "pane-relief:history-v1": {
+          "pos": 0,
+          "stack": [
+            {
+              "leaf": "74d15c5aa24b0dc5",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_note_1.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":0},\"to\":{\"line\":17,\"ch\":0}},\"scroll\":1.9130434782608696}"
+            },
+            {
+              "leaf": "74d15c5aa24b0dc5",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_hardware.md\",\"mode\":\"source\"}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "74d15c5aa24b0dc5",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_note_1.md\",\"mode\":\"source\"}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "74d15c5aa24b0dc5",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_hardware.md\",\"mode\":\"source\"}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "74d15c5aa24b0dc5",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_note_1.md\",\"mode\":\"source\"}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "74d15c5aa24b0dc5",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_software.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "74d15c5aa24b0dc5",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_note_1.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "74d15c5aa24b0dc5",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_software.md\",\"mode\":\"source\"}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "74d15c5aa24b0dc5",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_note_1.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "74d15c5aa24b0dc5",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_software.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "74d15c5aa24b0dc5",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_note_1.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "74d15c5aa24b0dc5",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_software.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "74d15c5aa24b0dc5",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_note_1.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "74d15c5aa24b0dc5",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_software.md\",\"mode\":\"source\"}}",
+              "eState": "{\"scroll\":0}"
+            },
+            {
+              "leaf": "74d15c5aa24b0dc5",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_note_1.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}},\"scroll\":7.695652173913043}"
+            },
+            {
+              "leaf": "74d15c5aa24b0dc5",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_software.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":0},\"to\":{\"line\":13,\"ch\":0}}}"
+            },
+            {
+              "leaf": "74d15c5aa24b0dc5",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_note_1.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":14},\"to\":{\"line\":9,\"ch\":14}}}"
+            },
+            {
+              "leaf": "74d15c5aa24b0dc5",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_software.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "74d15c5aa24b0dc5",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_note_1.md\",\"mode\":\"source\"}}",
+              "eState": "{\"scroll\":0}"
+            }
+          ]
+        }
+      },
+      {
+        "id": "a7b51e81055e1c79",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "computer_science/computer_vision/computer_graphics_software.md",
+            "mode": "source"
+          }
+        },
+        "pane-relief:history-v1": {
+          "pos": 0,
+          "stack": [
+            {
+              "leaf": "a7b51e81055e1c79",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_software.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":0},\"to\":{\"line\":7,\"ch\":0}},\"scroll\":0}"
+            },
+            {
+              "leaf": "a7b51e81055e1c79",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_hardware.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
             }
           ]
         }
@@ -146,7 +196,7 @@
           "type": "markdown",
           "state": {
             "file": "computer_science/discrete_math/propositional_logic.md",
-            "mode": "source"
+            "mode": "preview"
           }
         },
         "pane-relief:history-v1": {
@@ -155,8 +205,8 @@
             {
               "leaf": "dde798afa5376477",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/discrete_math/propositional_logic.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":129},\"to\":{\"line\":14,\"ch\":129}},\"scroll\":4.217391304347826}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/discrete_math/propositional_logic.md\",\"mode\":\"preview\"}}",
+              "eState": "{\"scroll\":330}"
             }
           ]
         }
@@ -178,7 +228,7 @@
               "leaf": "8ff724e1c66e69fe",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/discrete_math/discrete_math_knou_note.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+              "eState": "{\"scroll\":17.6231884057971}"
             },
             {
               "leaf": "8ff724e1c66e69fe",
@@ -282,7 +332,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer_science/discrete_math/discrete_math_knou_note.md",
+                "file": "computer_science/computer_vision/computer_graphics_software.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -318,7 +368,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer_science/discrete_math/discrete_math_knou_note.md"
+                "file": "computer_science/computer_vision/computer_graphics_software.md"
               }
             },
             "pane-relief:history-v1": {
@@ -333,17 +383,17 @@
     "direction": "horizontal",
     "width": 316.5
   },
-  "active": "8ff724e1c66e69fe",
+  "active": "a7b51e81055e1c79",
   "lastOpenFiles": [
+    "computer_science/computer_vision/computer_graphics_software.md",
+    "computer_science/computer_vision/computer_graphics_hardware.md",
+    "computer_science/computer_vision/computer_graphics_note_1.md",
     "computer_science/discrete_math/discrete_math_knou_note.md",
     "computer_science/discrete_math/propositional_logic.md",
-    "todo/todo_log_2022.md",
     "color_theory/color_theory_note_01.md",
+    "todo/todo_log_2022.md",
     "todo/general_todos.md",
     "color_theory/thomas_melvill.md",
-    "color_theory/joseph_fraunhofer.md",
-    "computer_science/computer_vision/computer_graphics_note_1.md",
-    "color_theory/isaac_newton_color_theory.md",
-    "color_theory/light_matter_interaction.md"
+    "color_theory/joseph_fraunhofer.md"
   ]
 }

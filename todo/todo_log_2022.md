@@ -170,7 +170,7 @@ Use of backlinks is recommended for tasks that require further explanation.
     - [ ] Contact people who has gone through this
     - [ ] Work on collage
 - [ ] [[computer_graphics_note_1|Computer Graphics Note 1]] 작성
-- [ ] [[computer_graphics_note_2|Computer Graphics Note 2]] 작성
+- [ ] [[computer_graphics_software|Computer Graphics Note 2]] 작성
 - [ ] Write a note on [Frederick Winslow Taylor's Principles of Scientific Management](https://medium.com/accelerated-intelligence/in-1911-an-influential-expert-revealed-a-forgotten-science-of-how-to-be-50x-more-productive-8828f86eb1c9)
 - [ ] Write a note on [USA Census Visualizations](https://www.census.gov/library/visualizations.html)
 - [ ] Write a note on [Webby Awards](https://www.webbyawards.com/)
