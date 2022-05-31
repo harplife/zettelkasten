@@ -200,9 +200,51 @@ OpenGL은 Cross Platform(다중 플랫폼 호환)이기 때문에 OpenGL 자체 
 1. [GLEW (OpenGL Extension Wrangler)](http://glew.sourceforge.net/)
 2. [GLEE (OpenGL Easy Extension)](https://www.opengl.org/sdk/libs/GLee/)
 
-방통대 교과서에서는 GLEW2를 사용하는 예시를 제공한다.
+방통대 교제에서는 GLEW2를 사용하는 예시를 제공한다.
 
 ### 윈도우 시스템 관리 라이브러리
 OpenGL 코어 라이브러리는 하드웨어 및 운영체제, [윈도 시스템](https://en.wikipedia.org/wiki/Windowing_system) 등 플랫폼에 독립적으로 설계되어 있기 때문에 입력 및 출력 루틴과 같은 연산이 기본 라이브러리에 포함되어 있지 않다. 대신, 각 시스템별로 OpenGL을 위한 윈도 시스템 라이브러리가 사용된다.
 
-예를 들어, X 윈도 시스템
+예를 들어, X 윈도 시스템의 경우 GLX (OpenGL Extension to X Window System)가 사용되며, Apple 시스템의 경우 AGL (AppleGL), Microsoft 윈도우 시스템에서는 WGL (Windows-to-OpenGL) 인터페이스가 제공된다.
+
+윈도 시스템마다 라이브러리들이 다르기 떄문에 장치에 독립적인 인터페이스의 필요성이 제기되어, [GLUT (OpenGL Utility Toolkit)](https://en.wikipedia.org/wiki/OpenGL_Utility_Toolkit)이 개발되었다.
+
+GLUT은 OpenGL 프로그램을 위해 운영체제와 시스템 수준의 I/O를 다루고, 윈도 정의/제어, 키보드/마우스 입력의 모니터링과 같은 함수를 제공한다. 더불어, 육면체, 구, Utah teapot과 같은 기하학 기본 요소를 그리기 위한 루틴도 제공하며, 제한적이기는 하지만 팝업 메뉴 생성 기능도 제공한다.
+
+GLUT의 두가지 목적은,
+1. 운영체제 간 이식이 가능한 코드의 생성을 허용
+2. OpenGL을 쉽게 배우게 보조
+
+하지만 현재 GLUT은 유지보수가 중단된 상태이며, [freeGLUT](https://en.wikipedia.org/wiki/FreeGLUT)으로 대체되었다.
+
+방통대 교제에서는 freeGLUT을 사용하는 예시를 제공한다.
+
+### OpenGL 함수 형태
+OpenGL의 명령어는 이름만 보면 대략 어떠한 작업을 수행하고, 몇 개의 인수를 가지며, 어떠한 형태의 인수를 갖는가를 알 수 있다.
+
+OpenGL 명렁어 구조는 밑에와 같다.
+`return_type <lib_prefix> FunctionName <arg_count><arg_type>{v}(<arguments>)`
+
+간단히 설명하자면,
+1. `return_type` : 함수를 수행한 후 되돌려 받는 데이터형
+2. `<lib_prefix>` : 함수 이름 앞에 붙이는 접두어로, 함수가 선언된 라이브러리를 표시한다.
+3. `FunctionName` : 명령어의 이름
+4. `<arg_count>` : 함수가 갖는 인수의 수
+5. `<arg_type>` : 인수의 데이터형
+6. `{v}` : 인수가 벡터인 경우 첨가
+
+OpenGL 코어 라이브러리의 함수는 접두사 `gl`로 시작하며, 명령어를 구성하는 단어의 첫 번쨰 문자는 대문자를 사용한다 (camelCase).
+
+예시 : `void glClear();`
+
+OpenGL 상수(CONST)의 정의는 접두사 `GL_`로 시작하고 모두 대문자로 표시하며, 여러 개의 단어로 구성될 떄 각 단어를 구별하기 위하여 밑줄을 사용한다.
+
+예시 : `glClear(GL_COLOR_BUFFER_BIT);`
+
+명령어 끝에 몇 가지 접미사(Suffix)가 추가되기도 한다.
+
+예시 : `void glUniform2f();`
+
+접미사 `2`는 2개의 인수를 갖는다는 의미를 가지며, `f`는 그 인수가 GLfloat형이라는 것을 의미한다.
+
+#### OpenGL 데이터 정의
