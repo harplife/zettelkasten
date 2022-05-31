@@ -176,4 +176,13 @@ PHIGS는 1990년도 후반까지 많이 사용되었다.
 1980년도 초기에 [SGI(Silicon Graphics Inc.)](https://en.wikipedia.org/wiki/Silicon_Graphics)사에서 개발한 IRIS GL은 그래픽스 개발자 사이에 널리 사용되는 패키지가 되어, 사실상의 그래픽스 표준이 되었다. 더불어, IRIS GL을 오픈소스 버전으로 변경하여 제공한 것이 [OpenGL](https://en.wikipedia.org/wiki/OpenGL)이다.
 
 ## OpenGL 프로그래밍
-OpenGL은 가장 널리 사용되
+OpenGL은 [크로노스 그룹(Khronos Group)](https://en.wikipedia.org/wiki/Khronos_Group)에서 관리하는 오픈소스 그래픽스 라이브러리 이다. 여러 프로그래밍 언어와 플랫폼에 호환된다는 큰 장점을 가지고 있다.
+
+OpenGL은 저수준의 절자척(Procedural) API이며, 장면(Scene)을 렌더링하기 위해 요구되는 정확한 단계를 프로그래머가 정확하게 규정하도록 요구한다. 프로그래머는 장면에 대하여 서술만 하고, 구체적인 렌더링은 라이브러리가 관리하는 서술적(Descriptive) API와 대조적이다.
+
+OpenGL은 가장 널리 사용되..었던 그래픽 라이브러리다. 2022년을 기준으로 현재 4년간 업데이트가 없다. OpenGL은 Ray Tracing이 안 된다는 큰 단점이 있으며, 이 단점을 보완하기 위해 [Vulkan](https://en.wikipedia.org/wiki/Vulkan)이 출시되었다.
+
+참고 : Vulkan은 AMD에서 개발하고 크로노스 그룹에 넘겨줬다.
+
+OpenGL을 배울 필요가 없을까? 딱히 그런것은 아니다 - OpenGL을 기반으로 만들어진 프로그램은 많고, 오랫동안 사용된 라이브러리이기 때문에 교육 자료 등 관련 자료가 많다. 그래픽스를 이해하기 위해 OpenGL을 배우는 것은 de facto standard 라고 볼 수 있다.
+
