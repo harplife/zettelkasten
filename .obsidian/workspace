@@ -48,7 +48,7 @@
               "leaf": "74d15c5aa24b0dc5",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":39.52173913043478}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":0},\"to\":{\"line\":25,\"ch\":0}},\"scroll\":9.91304347826087}"
             },
             {
               "leaf": "74d15c5aa24b0dc5",
@@ -178,7 +178,7 @@
               "leaf": "a7b51e81055e1c79",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_software.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":130,\"ch\":3},\"to\":{\"line\":130,\"ch\":3}},\"scroll\":119}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":132,\"ch\":15},\"to\":{\"line\":132,\"ch\":15}},\"scroll\":119}"
             },
             {
               "leaf": "a7b51e81055e1c79",
@@ -332,7 +332,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer_science/computer_vision/computer_graphics.md",
+                "file": "computer_science/computer_vision/computer_graphics_software.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -368,7 +368,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer_science/computer_vision/computer_graphics.md"
+                "file": "computer_science/computer_vision/computer_graphics_software.md"
               }
             },
             "pane-relief:history-v1": {
@@ -383,10 +383,10 @@
     "direction": "horizontal",
     "width": 316.5
   },
-  "active": "74d15c5aa24b0dc5",
+  "active": "a7b51e81055e1c79",
   "lastOpenFiles": [
-    "computer_science/computer_vision/computer_graphics.md",
     "computer_science/computer_vision/computer_graphics_software.md",
+    "computer_science/computer_vision/computer_graphics.md",
     "color_theory/color_theory.md",
     "computer_science/discrete_math/propositional_logic.md",
     "computer_science/computer_vision/computer_graphics_hardware.md",
