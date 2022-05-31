@@ -25,7 +25,7 @@ edited: 2022-05-30
 3.  디스플레이 시스템에서 이미지를 변환한다 (예: 스크린에 맞는 사이즈로 축소/확대).
 4.  디스플레이 시스템에서 이미지를 그린다.
 
-
+일반적으로 장면, 영상, 그림, 이미지의 차이는 애매하고 서로 많이 혼용된다.
 
 [그래픽스 (Graphics)](https://en.wikipedia.org/wiki/Graphics)는 컴퓨터 그래픽스 시스템에서 디지털 이미지를 처리하는 방식을 뜻한다. 컴퓨터 과학 기준으로 [자료 구조 (Data Structure)](https://en.wikipedia.org/wiki/Data_structure)라 볼 수 있다.
 
