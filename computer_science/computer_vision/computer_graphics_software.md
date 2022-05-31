@@ -178,7 +178,7 @@ PHIGS는 1990년도 후반까지 많이 사용되었다.
 ## OpenGL 프로그래밍
 OpenGL은 [크로노스 그룹(Khronos Group)](https://en.wikipedia.org/wiki/Khronos_Group)에서 관리하는 오픈소스 그래픽스 라이브러리 이다. 여러 프로그래밍 언어와 플랫폼에 호환된다는 큰 장점을 가지고 있다.
 
-OpenGL은 저수준의 절자척(Procedural) API이며, 장면(Scene)을 렌더링하기 위해 요구되는 정확한 단계를 프로그래머가 정확하게 규정하도록 요구한다. 프로그래머는 장면에 대하여 서술만 하고, 구체적인 렌더링은 라이브러리가 관리하는 서술적(Descriptive) API와 대조적이다.
+OpenGL은 장면을 렌더링하기 위해 요구되는 정확한 단계를 프로그래머가 정확하게 규정하도록 요구한다. 장면에 대하여 서술만 하고, 구체적인 렌더링은 라이브러리가 관리하는 방식과는 대조적이다. 이러한 설계는 프로그래머에게 [그래픽스 파이프라인(Graphics Pipeline)](https://en.wikipedia.org/wiki/Graphics_pipeline)에 대한 충분한 지식을 요구하기도 하지만, 새로운 렌더링 알고리즘을 구현할 수 있는 자유도 함께 주어진다.
 
 OpenGL은 가장 널리 사용되..었던 그래픽 라이브러리다. 2022년을 기준으로 현재 4년간 업데이트가 없다. OpenGL은 Ray Tracing이 안 된다는 큰 단점이 있으며, 이 단점을 보완하기 위해 [Vulkan](https://en.wikipedia.org/wiki/Vulkan)이 출시되었다.
 
@@ -186,3 +186,23 @@ OpenGL은 가장 널리 사용되..었던 그래픽 라이브러리다. 2022년�
 
 OpenGL을 배울 필요가 없을까? 딱히 그런것은 아니다 - OpenGL을 기반으로 만들어진 프로그램은 많고, 오랫동안 사용된 라이브러리이기 때문에 교육 자료 등 관련 자료가 많다. 그래픽스를 이해하기 위해 OpenGL을 배우는 것은 de facto standard 라고 볼 수 있다.
 
+### 셰이더
+초기 그래픽스 시스템은 사용자 제공 설정(user-provided configuration)으로 그래픽스 파이프라인을 제어하는 [고정 기능 파이프라인 (Fixed Function Pipeline)](https://www.khronos.org/opengl/wiki/Fixed_Function_Pipeline) 구조였다. 나중에는 사용자 제공 프로그램(user-provided program)으로 그래픽스 파이프라인을 제어하게 되었는데, 이 프로그램을 [셰이더(Shader)](https://en.wikipedia.org/wiki/Shader)라 부른다.
+
+#todo 셰이더에 대한 자세한 내용 추가
+
+셰이더를 작성하기 위한 [셰이딩 언어](https://en.wikipedia.org/wiki/Shading_language)가 여러 있는데, 이 중 OpenGL 전용 셰이딩 언어 [GLSL (OpenGL Shading Language)](https://en.wikipedia.org/wiki/OpenGL_Shading_Language)이 있다.
+
+### 확장 기능 관리 라이브러리
+OpenGL은 Cross Platform(다중 플랫폼 호환)이기 때문에 OpenGL 자체 코어(Core) 기능 외 각 그래픽스 하드웨어 공급업체 전용 기능(Vendor Specific Extension)들도 제공한다. 이러한 기능이 다수의 업체에 폭넓게 수용되면 EXT 확장 기능으로 인정되고, ARB(Architecture Review Board)에 승인 하에 ARB 확장 기능으로 인정된다. 이렇게 승인된 확장 기능 중 유용한 기능들은 다음 버전 OpenGL의 코어 기능으로 포함될 수 있다.
+
+프로그래머가 어떤 확장 기능을 사용할 수 있는지 관리하는 것은 어렵기 때문에, 이러한 어려움을 덜어주는 라이브러리들이 있다.
+1. [GLEW (OpenGL Extension Wrangler)](http://glew.sourceforge.net/)
+2. [GLEE (OpenGL Easy Extension)](https://www.opengl.org/sdk/libs/GLee/)
+
+방통대 교과서에서는 GLEW2를 사용하는 예시를 제공한다.
+
+### 윈도우 시스템 관리 라이브러리
+OpenGL 코어 라이브러리는 하드웨어 및 운영체제, [윈도 시스템](https://en.wikipedia.org/wiki/Windowing_system) 등 플랫폼에 독립적으로 설계되어 있기 때문에 입력 및 출력 루틴과 같은 연산이 기본 라이브러리에 포함되어 있지 않다. 대신, 각 시스템별로 OpenGL을 위한 윈도 시스템 라이브러리가 사용된다.
+
+예를 들어, X 윈도 시스템
