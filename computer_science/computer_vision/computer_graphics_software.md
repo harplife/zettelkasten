@@ -137,6 +137,8 @@ https://developers.google.com/speed/webp/docs/riff_container
 ## 그래픽스 라이브러리
 [그래픽스 라이브러리(Graphics Library, GL) ](https://en.wikipedia.org/wiki/Graphics_library) 또는 그래픽스 API는 프로그램이 하드웨어(CPU/GPU 등)에게 그림을 그리기 위한 명령을 보내는 소통을 보조해주는 라이브러리 이다.
 
+그래픽스 라이브러리라는 뜻으로 이름에 "GL"이 붙는 경우가 있다 (예: OpenGL).
+
 그래픽스 API는 직접 코딩을 하여 그래픽스 작업(또는 보조 소프트웨어 개발)을 할 수 있도록 그래픽스 함수를 제공한다. 그래픽스 API는 설계 및 렌더링 작업을 처리하기 위한 최적화된 함수를 제공하며, 이러한 함수들을 모아 그래픽스 소프트웨어를 개발할 수 있다.
 
 제일 잘 알려지고 많이 사용되는 그래픽스 API :
@@ -150,12 +152,28 @@ https://developers.google.com/speed/webp/docs/riff_container
 #### 저수준 그래픽스 API
 저수준 그래픽스 API (Low Level Graphics API)는 그림을 구성하는 점, 선, 다각형과 같은 그래픽스 기본 요소 및 이들에 대한 색상, 문양 등의 속성을 정의하고, 객체의 기하변환, 장면의 뷰잉 등 장면을 정의하여 이를 컴퓨터 화면에 표시하는 일련의 과정을 지시하는 함수들이 포함된다.
 
-GL, OpenGL, DirectX 등은 이러한 함수들을 제공한다.
-
 저수준 그래픽스 API를 이용하여 장면을 만들고자 할 때에는 장면 내에 물체를 구성하는 기본 요소들을 개별적으로 정의하고, 이들을 그리기 위한 세부적인 처리과정을 일일이 프로그램으로 작성해야 한다. 이러한 과정에서 아주 단순한 그림을 그리기 위해 방대한 프로그램을 작성해야 한다.
 
 #### 고수준 그래픽스 API
-고수준 그래픽스 API (High Level Graphics API)는 장면 묘사를 위주로 하는 기증
+고수준 그래픽스 API (High Level Graphics API)는 장면 묘사를 위주로 하는 기능을 제공한다. 이러한 기능들은 내부적으로 저수준 API를 이용하여 구현될 수 있다.
+
+고수준 그래픽스 API는 그래픽스 작업을 보다 단순하고 효율적으로 구현할 수 있도록 다양한 모형(큐브, 다각형, 재질, 카메라, 광원 등)을 제공하고, 이를 새로운 모형으로 쉽게 변형할 수 있게 한다. 장면의 구성은 이러한 모형들로 구성된 객체들을 계층적으로 조직화하여 처리한다.
 
 ### 그래픽스 API 목록
 https://en.wikipedia.org/wiki/List_of_3D_graphics_libraries
+
+### 그래픽스 표준
+[Graphical Kernel System (GKS)](https://en.wikipedia.org/wiki/Graphical_Kernel_System)은 저수준 컴퓨터 그래픽스를 위한 첫 ISO 표준으로 1977년에 소개되었다.
+
+GKS는 차트 그리기와 같은 작업에 적당한 2차원 벡터 그래픽스를 위한 그리기 도구들을 제공한다. 함수는 다른 프로그램 언어, 그래픽스 하드웨어로 쉽게 이식할 수 있도록 설계되어 있다. 따라서, GKS 기반 응용 프로그램은 여러 플랫폼에 쉽게 이식될 수 있다.
+
+GKS는 1980~1990년대 초기에 많이 사용되었다.
+
+[PHIGS(Programmer's Hierarchical Interactive Graphics Standard)](https://en.wikipedia.org/wiki/PHIGS)는 3차원 그래픽스 표준으로 1988년에 소개되었다. GKS를 확장한 것으로 계층적 객체 모델링, 색상지정, 표면 묘사 및 그림 조작능력이 강화되었다.
+
+PHIGS는 1990년도 후반까지 많이 사용되었다.
+
+1980년도 초기에 [SGI(Silicon Graphics Inc.)](https://en.wikipedia.org/wiki/Silicon_Graphics)사에서 개발한 IRIS GL은 그래픽스 개발자 사이에 널리 사용되는 패키지가 되어, 사실상의 그래픽스 표준이 되었다. 더불어, IRIS GL을 오픈소스 버전으로 변경하여 제공한 것이 [OpenGL](https://en.wikipedia.org/wiki/OpenGL)이다.
+
+## OpenGL 프로그래밍
+OpenGL은 가장 널리 사용되
