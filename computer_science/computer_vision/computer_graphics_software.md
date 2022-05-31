@@ -134,25 +134,28 @@ https://developers.google.com/speed/webp/docs/riff_container
 
 참고 : 방통대 교과서에는 "특수목적 패키지"라고 부르는데, 아무도 이런 식으로 부르지 않는다.
 
-## 그래픽스 API
-그래픽스 API는 프로그램이 하드웨어(CPU/GPU 등)에게 그림을 그리기 위한 명령을 보낼 수 있게 소통을 보조해주는 라이브러리 이다.
+## 그래픽스 라이브러리
+[그래픽스 라이브러리(Graphics Library, GL) ](https://en.wikipedia.org/wiki/Graphics_library) 또는 그래픽스 API는 프로그램이 하드웨어(CPU/GPU 등)에게 그림을 그리기 위한 명령을 보내는 소통을 보조해주는 라이브러리 이다.
 
 그래픽스 API는 직접 코딩을 하여 그래픽스 작업(또는 보조 소프트웨어 개발)을 할 수 있도록 그래픽스 함수를 제공한다. 그래픽스 API는 설계 및 렌더링 작업을 처리하기 위한 최적화된 함수를 제공하며, 이러한 함수들을 모아 그래픽스 소프트웨어를 개발할 수 있다.
 
-그래픽스 API의 예는 밑에와 같다.
-1. OpenGL
-2. Direct3D
-3. Metal
-4. Vulkan
+제일 잘 알려지고 많이 사용되는 그래픽스 API :
+1. [OpenGL](https://en.wikipedia.org/wiki/OpenGL)
+2. [DirectX](https://en.wikipedia.org/wiki/DirectX)
+3. [Vulkan](https://en.wikipedia.org/wiki/Vulkan)
 
+### 그래픽스 API 종류
 그래픽스 API는 저수준 그래픽스 API와 고수준 그래픽스 API로 구분된다.
 
-### 저수준 그래픽스 API
+#### 저수준 그래픽스 API
 저수준 그래픽스 API (Low Level Graphics API)는 그림을 구성하는 점, 선, 다각형과 같은 그래픽스 기본 요소 및 이들에 대한 색상, 문양 등의 속성을 정의하고, 객체의 기하변환, 장면의 뷰잉 등 장면을 정의하여 이를 컴퓨터 화면에 표시하는 일련의 과정을 지시하는 함수들이 포함된다.
 
 GL, OpenGL, DirectX 등은 이러한 함수들을 제공한다.
 
 저수준 그래픽스 API를 이용하여 장면을 만들고자 할 때에는 장면 내에 물체를 구성하는 기본 요소들을 개별적으로 정의하고, 이들을 그리기 위한 세부적인 처리과정을 일일이 프로그램으로 작성해야 한다. 이러한 과정에서 아주 단순한 그림을 그리기 위해 방대한 프로그램을 작성해야 한다.
 
-### 고수준 그래픽스 API
+#### 고수준 그래픽스 API
 고수준 그래픽스 API (High Level Graphics API)는 장면 묘사를 위주로 하는 기증
+
+### 그래픽스 API 목록
+https://en.wikipedia.org/wiki/List_of_3D_graphics_libraries

@@ -42,13 +42,19 @@
           }
         },
         "pane-relief:history-v1": {
-          "pos": 0,
+          "pos": 1,
           "stack": [
             {
               "leaf": "74d15c5aa24b0dc5",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_hardware.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":18},\"to\":{\"line\":11,\"ch\":18}},\"scroll\":0}"
+            },
+            {
+              "leaf": "74d15c5aa24b0dc5",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":27,\"ch\":43},\"to\":{\"line\":27,\"ch\":43}},\"scroll\":16.08695652173913}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":29,\"ch\":18},\"to\":{\"line\":29,\"ch\":56}},\"scroll\":32.130434782608695}"
             },
             {
               "leaf": "74d15c5aa24b0dc5",
@@ -178,7 +184,7 @@
               "leaf": "a7b51e81055e1c79",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_software.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":141.2173913043478}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":160,\"ch\":59},\"to\":{\"line\":160,\"ch\":59}},\"scroll\":143.08695652173913}"
             },
             {
               "leaf": "a7b51e81055e1c79",
@@ -332,7 +338,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer_science/computer_vision/computer_graphics_software.md",
+                "file": "computer_science/computer_vision/computer_graphics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -368,7 +374,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer_science/computer_vision/computer_graphics_software.md"
+                "file": "computer_science/computer_vision/computer_graphics.md"
               }
             },
             "pane-relief:history-v1": {
@@ -383,13 +389,13 @@
     "direction": "horizontal",
     "width": 316.5
   },
-  "active": "a7b51e81055e1c79",
+  "active": "74d15c5aa24b0dc5",
   "lastOpenFiles": [
-    "computer_science/computer_vision/computer_graphics_software.md",
     "computer_science/computer_vision/computer_graphics.md",
+    "computer_science/computer_vision/computer_graphics_hardware.md",
+    "computer_science/computer_vision/computer_graphics_software.md",
     "color_theory/color_theory.md",
     "computer_science/discrete_math/propositional_logic.md",
-    "computer_science/computer_vision/computer_graphics_hardware.md",
     "computer_science/discrete_math/discrete_math_knou_note.md",
     "todo/todo_log_2022.md",
     "todo/general_todos.md",
