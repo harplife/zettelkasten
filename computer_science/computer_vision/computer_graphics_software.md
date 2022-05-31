@@ -149,4 +149,7 @@ https://developers.google.com/speed/webp/docs/riff_container
 
 GL, OpenGL, DirectX 등은 이러한 함수들을 제공한다.
 
-저수준 그래픽스 API를 이용하여 그림을 그릴 시
+저수준 그래픽스 API를 이용하여 그림을 그릴 시 그림 내에 물체를 구성하는 기본 요소들을 개별적으로 정의하고, 이들을 그리기 위한 세부적인 처리과정을 일일이 프로그램으로 작성해야 한다. 이러한 과정에서 아주 단순한 그림을 그리는데도 방대한 프로그램을 작성해야 한다.
+
+#### 고수준 그래픽스 API
+고수준 그래픽스 API (High Level Graphics API)는 
