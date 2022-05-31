@@ -9,7 +9,7 @@ edited: 2022-03-27
 # 컴퓨터 그래픽스 소프트웨어
 컴퓨터 그래픽스 시스템에서 영상 데이터가 어떻게 다루어 지는지 알아본다.
 
-## 컴퓨터 그래픽스 이미지 처리 방식
+## 그래픽스 이미지
 여기서 다룰 내용은 [[computer_graphics_hardware#래스터 스캔]] 기반 시스템의 그래픽스 이다.
 
 그래픽스는 래스터(Raster)와 벡터(Vector)로 2가지로 나뉜다.
@@ -123,3 +123,11 @@ https://developers.google.com/speed/webp/docs/riff_container
 참고 : [벡터 이미지에 대한 Adobe의 설명](https://www.adobe.com/creativecloud/file-types/image/vector.html)
 
 - [SVG (.svg)](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics)
+
+## 그래픽스 소프트웨어
+디지털 이미지를 처리하기 위한 소프트웨어는 일반적으로 특수목적 그래픽스 패키지와 범용 그래픽스 API로 구분할 수 있다.
+
+### 특수목적 패키지
+이미지
+
+### 범용 그래픽스 API
