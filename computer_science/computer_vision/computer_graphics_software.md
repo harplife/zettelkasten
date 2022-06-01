@@ -133,7 +133,7 @@ https://developers.google.com/speed/webp/docs/riff_container
 #todo 3차원 그래픽스는 3차원 장면/모델의 정보를 담는 데이터 또는 프로젝트 파일로 저장된다?
 
 ### 3차원 모델
-[3차원 모델링(3D Modeling)](https://en.wikipedia.org/wiki/3D_modeling)은 특정 개체의 표면을 꼭짓점(Vertex)과 모서리(Edge)로 이루어진 다각형(Polygon)으로 3차원 좌표계에 표현하는 프로세스를 뜻하며, 3차원 모델(3D Model)은 그 프로세스의 결과물을 뜻한다.
+[3차원 모델링(3D Modeling)](https://en.wikipedia.org/wiki/3D_modeling)은 특정 개체의 표면을 [꼭지점(Vertex)](https://en.wikipedia.org/wiki/Vertex_(computer_graphics))과 모서리(Edge)로 이루어진 다각형(Polygon)으로 3차원 좌표계에 표현하는 프로세스를 뜻하며, 3차원 모델(3D Model)은 그 프로세스의 결과물을 뜻한다.
 
 ## 그래픽스 소프트웨어
 그래픽스 소프트웨어는 그래픽스 작업을 할 수 있도록 편리한 사용자 인터페이스 GUI를 제공하는 소프트웨어를 뜻한다.
@@ -348,7 +348,6 @@ OpenGL에서 사용하는 8가지 자료형을 밑에 표로 정리했다.
 참고자료 :
 1. [그래픽스 조명(Lighting)](https://en.wikipedia.org/wiki/Computer_graphics_lighting)
 
-### 셰이더 종류
 #todo [셰이더 종류](https://en.wikipedia.org/wiki/Shader#Types) 정리
 
 Geometry Shaders
@@ -357,11 +356,15 @@ Primitive and Mesh Shaders
 Ray Tracing Shaders
 Compute Shaders
 
-#### 픽셀 셰이더
+### 픽셀 셰이더
 #todo Pixel Shaders
 
-#### 꼭지점 셰이더
-그래픽스 분야에 있어 [꼭지점(Vertex)](https://en.wikipedia.org/wiki/Vertex_(computer_graphics))은 3
+### 꼭지점 셰이더
+꼭지점 셰이더(Vertex Shader)는 꼭지점의 3차원 좌표를 2차원 좌표로 변환하는데 사용된다.
 
-꼭짓점 셰이더(Vertex Shader)는 버퍼를 통해 전달되는 꼭짓점 및 관련 데이터에 대해 각각의 정점 단위로 
+꼭지점 셰이더로 3차원 모델의 위치, 움직임, 조명/그림자, 색 등을 조절할 수 있다.
+
+### 기하구조 셰이더
+Geometry Shader
+
 
