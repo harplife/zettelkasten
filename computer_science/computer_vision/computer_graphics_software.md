@@ -135,7 +135,9 @@ https://developers.google.com/speed/webp/docs/riff_container
 ### 3차원 모델
 [3차원 모델링(3D Modeling)](https://en.wikipedia.org/wiki/3D_modeling)은 특정 개체의 표면을 여러 다각형(Polygon)으로 3차원 좌표계에 표현하는 프로세스를 뜻하며, 3차원 모델(3D Model)은 그 프로세스의 결과물을 뜻한다.
 
-[꼭지점(Vertex)](https://en.wikipedia.org/wiki/Vertex_(computer_graphics)), 모서리(Edge), 그리고 표면(Face)으로 이루어진 
+![[polygon_mesh_overview.svg]]
+
+[정점(Vertex)](https://en.wikipedia.org/wiki/Vertex_(computer_graphics)), 모서리(Edge), 그리고 표면(Face)으로 이루어진 
 
 ## 그래픽스 소프트웨어
 그래픽스 소프트웨어는 그래픽스 작업을 할 수 있도록 편리한 사용자 인터페이스 GUI를 제공하는 소프트웨어를 뜻한다.
@@ -361,10 +363,10 @@ Compute Shaders
 ### 픽셀 셰이더
 #todo Pixel Shaders
 
-### 꼭지점 셰이더
-꼭지점 셰이더(Vertex Shader)는 꼭지점의 3차원 좌표를 2차원 좌표로 변환하는데 사용된다.
+### 정점 셰이더
+정점 셰이더(Vertex Shader)는 정점의 3차원 좌표를 2차원 좌표로 변환하는데 사용된다.
 
-꼭지점 셰이더로 3차원 모델의 위치, 움직임, 조명/그림자, 색 등을 조절할 수 있다.
+정점 셰이더로 3차원 모델의 위치, 움직임, 조명/그림자, 색 등을 조절할 수 있다.
 
 ### 테셀레이션 셰이더
 테셀레이션 셰이더(Tessellation Shader)
