@@ -281,7 +281,11 @@ OpenGL에서 사용하는 8가지 자료형을 밑에 표로 정리했다.
 
 조명(Lighting)에 관련하여 [Raytracing](https://en.wikipedia.org/wiki/Ray_tracing_(graphics)) 또는 [raycasting](https://en.wikipedia.org/wiki/Ray_casting)과는 프로세스가 다르다고 하는데, 자세한 사항은 나중에 알아보겠다.
 
-
+참고자료:
+1. [[graphics_pipeline_lecture_from_penn_university.pdf|Penn University 그래픽스 파이프라인 강의 자료]]
+2. [Vulkan 그래픽스 파이프라인 소개](https://vulkan-tutorial.com/Drawing_a_triangle/Graphics_pipeline_basics/Introduction)
+3. [크로노스 그룹 위키 : 렌더링 파이프라인 overview](https://www.khronos.org/opengl/wiki/Rendering_Pipeline_Overview)
+4. [OpenGL 버전별로 파이프라인 정리된 자료](http://romain.vergne.free.fr/teaching/IS/SI03-pipeline.html)
 
 ### 셰이더
 초기 그래픽스 시스템은 사용자 제공 설정(user-provided configuration)으로 그래픽스 파이프라인을 제어하는 [고정 기능 파이프라인 (Fixed Function Pipeline)](https://www.khronos.org/opengl/wiki/Fixed_Function_Pipeline) 구조였다. 나중에는 사용자 제공 프로그램(user-provided program)으로 그래픽스 파이프라인을 제어하게 되었는데, 이 프로그램을 [셰이더(Shader)](https://en.wikipedia.org/wiki/Shader)라 부른다.
