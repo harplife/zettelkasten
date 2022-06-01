@@ -137,13 +137,19 @@ https://developers.google.com/speed/webp/docs/riff_container
 
 ![[utah_teapot_wireframe.png]]
 
-3차원 모델링에서 사용되는 다각형은 삼각형(Tri, Triangle), 사각형(Quad, Quadrilateral), 그리고 N-각형(N-Gon)으로 구성된다.
-
-
+[다각형(Polygon)](https://en.wikipedia.org/wiki/Polygonal_modeling)은 [정점(Vertex)](https://en.wikipedia.org/wiki/Vertex_(computer_graphics)), 변(Edge), 그리고 표면(Face)으로 이루어진다. 그리고 다각형들이 모여 만들어진 망을 [다각형 메쉬(Polygon Mesh)](https://en.wikipedia.org/wiki/Polygon_mesh)라고 한다.
 
 ![[polygon_mesh_overview.svg]]
 
-[정점(Vertex)](https://en.wikipedia.org/wiki/Vertex_(computer_graphics)), 변(Edge), 그리고 표면(Face)으로 이루어진 
+![[polygon_mesh_vertex_edge_face_diagram.png]]
+
+3차원 모델링에서 사용되는 다각형은 삼각형(Tri, Triangle), 사각형(Quad, Quadrilateral), 그리고 N-각형(N-Gon)이 있다.
+
+참고 : 삼각형은 게임에, 사각형은 애니메이션에 많이 사용되는 것으로 알려진다. N-각형은 일러스트레이션이 아니면 거의 사용되지 않는 것으로 보인다 ([위키 참고](https://computergraphics.stackexchange.com/questions/5465/why-are-quads-used-in-filmmaking-and-triangle-in-gaming)).
+
+![[graphics_polygons.png]]
+
+
 
 ## 그래픽스 소프트웨어
 그래픽스 소프트웨어는 그래픽스 작업을 할 수 있도록 편리한 사용자 인터페이스 GUI를 제공하는 소프트웨어를 뜻한다.
