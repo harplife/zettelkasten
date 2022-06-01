@@ -186,13 +186,6 @@ OpenGL은 가장 널리 사용되..었던 그래픽 라이브러리다. 2022년�
 
 OpenGL을 배울 필요가 없을까? 딱히 그런것은 아니다 - OpenGL을 기반으로 만들어진 프로그램은 많고, 오랫동안 사용된 라이브러리이기 때문에 교육 자료 등 관련 자료가 많다. 그래픽스를 이해하기 위해 OpenGL을 배우는 것은 de facto standard 라고 볼 수 있다.
 
-### 셰이더
-초기 그래픽스 시스템은 사용자 제공 설정(user-provided configuration)으로 그래픽스 파이프라인을 제어하는 [고정 기능 파이프라인 (Fixed Function Pipeline)](https://www.khronos.org/opengl/wiki/Fixed_Function_Pipeline) 구조였다. 나중에는 사용자 제공 프로그램(user-provided program)으로 그래픽스 파이프라인을 제어하게 되었는데, 이 프로그램을 [셰이더(Shader)](https://en.wikipedia.org/wiki/Shader)라 부른다.
-
-#todo 셰이더에 대한 자세한 내용 추가
-
-셰이더를 작성하기 위한 [셰이딩 언어](https://en.wikipedia.org/wiki/Shading_language)가 여러 있는데, 이 중 OpenGL 전용 셰이딩 언어 [GLSL (OpenGL Shading Language)](https://en.wikipedia.org/wiki/OpenGL_Shading_Language)이 있다.
-
 ### 확장 기능 관리 라이브러리
 OpenGL은 Cross Platform(다중 플랫폼 호환)이기 때문에 OpenGL 자체 코어(Core) 기능 외 각 그래픽스 하드웨어 공급업체 전용 기능(Vendor Specific Extension)들도 제공한다. 이러한 기능이 다수의 업체에 폭넓게 수용되면 EXT 확장 기능으로 인정되고, ARB(Architecture Review Board)에 승인 하에 ARB 확장 기능으로 인정된다. 이렇게 승인된 확장 기능 중 유용한 기능들은 다음 버전 OpenGL의 코어 기능으로 포함될 수 있다.
 
@@ -219,7 +212,7 @@ GLUT의 두가지 목적은,
 
 방통대 교제에서는 freeGLUT을 사용하는 예시를 제공한다.
 
-### OpenGL 함수 형태
+### OpenGL 명령어 형태
 OpenGL의 명령어는 이름만 보면 대략 어떠한 작업을 수행하고, 몇 개의 인수를 가지며, 어떠한 형태의 인수를 갖는가를 알 수 있다.
 
 OpenGL 명렁어 구조는 밑에와 같다.
@@ -247,4 +240,36 @@ OpenGL 상수(CONST)의 정의는 접두사 `GL_`로 시작하고 모두 대문�
 
 접미사 `2`는 2개의 인수를 갖는다는 의미를 가지며, `f`는 그 인수가 GLfloat형이라는 것을 의미한다.
 
-#### OpenGL 데이터 정의
+일부 OpenGL 명령어는 이름 마지막 문자에 'v'를 붙이는 경우가 있는데, 이떄 'v'는 여러 개의 값으로 표현되는 데이터를 배열에 저장하여 하나의 인수로 전달한다는 것을 의미한다.
+
+예시 :
+```c
+// 일일이 여러 인수를 전달하는 경우
+GLfloat fData1 = 0.5f, fData2 = 1.0f;
+glUniform2f(vecLocation, fData1, fData2);
+
+// 배열로 여러 인수를 전달하는 경우
+GLfloat fVec[2] = {0.5f, 1.0f};
+glUniform2fv(vecLocation, fVec);
+```
+
+편의를 위해서 노트에서 접미사를 생략해서 설명할 수도 있다. 예를 들어, `glUniform2f()`와 `glUniform4fv()` 등을 따로 구분해서 설명하는 대신 `glUniform()`으로 설명한다. 하지만 OpenGL은 C 언어 라이브러리라는 사실을 기억하고 자료형이 명확하게 명시되는게 좋다는 것을 명심해야 한다.
+
+#### OpenGL 자료형
+OpenGL에서 사용하는 8가지 자료형을 밑에 표로 정리했다.
+
+|     **OpenGL DataType**    |    **C equivalent**    | **Suffix** |
+|:--------------------------:|:----------------------:|:----------:|
+| GLbyte                     | 8bit integer           |      b     |
+| GLshort                    | 16bit integer          |      s     |
+| GLint, GLsizei             | 32bit integer          |      i     |
+| GLfloat, GLclampf          | 32bit float            |      f     |
+| GLdouble, GLclampd         | 64bit float            |      d     |
+| GLubyte, GLboolean         | 8bit unsigned integer  |     ub     |
+| GLushort                   | 16bit unsigned integer |     us     |
+| GLuint, GLenum, GLbitfield | 32bit unsigned integer |     ui     |
+
+### 셰이더
+초기 그래픽스 시스템은 사용자 제공 설정(user-provided configuration)으로 그래픽스 파이프라인을 제어하는 [고정 기능 파이프라인 (Fixed Function Pipeline)](https://www.khronos.org/opengl/wiki/Fixed_Function_Pipeline) 구조였다. 나중에는 사용자 제공 프로그램(user-provided program)으로 그래픽스 파이프라인을 제어하게 되었는데, 이 프로그램을 [셰이더(Shader)](https://en.wikipedia.org/wiki/Shader)라 부른다.
+
+셰이더를 작성하기 위한 [셰이딩 언어](https://en.wikipedia.org/wiki/Shading_language)가 여러 있는데, 이 중 OpenGL 전용 셰이딩 언어 [GLSL (OpenGL Shading Language)](https://en.wikipedia.org/wiki/OpenGL_Shading_Language)이 있다.
