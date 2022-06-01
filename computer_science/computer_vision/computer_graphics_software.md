@@ -285,7 +285,7 @@ OpenGL에서 사용하는 8가지 자료형을 밑에 표로 정리했다.
 참고 : 영어 단어 Render는 렌더링 작업을 하라는 명령어 또는 렌더링 결과물을 뜻할 수 있고, Rendering은 이미지를 그리는 중 또는 그 프로세스를 뜻할 수 있다.
 
 렌더링과 관련된 요소는 밑에와 같다 ([위키 참고](https://en.wikipedia.org/wiki/Rendering_(computer_graphics)#Features)).
-- Shading
+- [Shading](https://en.wikipedia.org/wiki/Shading)
 - Texture Mapping
 - Bump Mapping
 - Fogging
@@ -297,15 +297,16 @@ OpenGL에서 사용하는 8가지 자료형을 밑에 표로 정리했다.
 - [[color_theory#회절|회절(Diffraction)]]
 - Indirect Illumination
 - Caustics
-- Depth of Field
+- [Depth of Field](https://en.wikipedia.org/wiki/Depth_of_field)/[Depth Perception](https://en.wikipedia.org/wiki/Depth_perception)
 - Motion Blur
 - Non-photorealistic Rendering
 
-### 조명과 카메라
-렌더링에 있어 
+### 렌더링 기술
+#todo Rasterization, Ray Casting, Ray Tracing에 대해 정리
 
-조명(Lighting)에 관련하여 [Raytracing](https://en.wikipedia.org/wiki/Ray_tracing_(graphics)) 또는 [raycasting](https://en.wikipedia.org/wiki/Ray_casting)과는 프로세스가 다르다고 하는데, 자세한 사항은 나중에 알아보겠다.
+[Raytracing](https://en.wikipedia.org/wiki/Ray_tracing_(graphics))
 
+[raycasting](https://en.wikipedia.org/wiki/Ray_casting)
 
 ### 그래픽스 파이프라인
 [그래픽스 파이프라인(Graphics Pipeline)](https://en.wikipedia.org/wiki/Graphics_pipeline)은 렌더링에 포함되는 여러 작업들을 순차적(Sequential)으로 정리한 개념적(Conceptual) 모델이다.
