@@ -333,7 +333,7 @@ OpenGL에서 사용하는 8가지 자료형을 밑에 표로 정리했다.
 1. 초기 OpenGL에는 텍스쳐, 조명 등에 관련된 수학 연산이 고정(hard-coded)되어 있어 지정된 파라미터로만 설정이 가능했다.
 2. 나중에는 이러한 수학 연산을 유저가 직접 프로그래밍 할 수 있도록 하였는데, 이러한 프로그램을 셰이더라고 한다.
 
-[셰이딩(Shading)](https://en.wikipedia.org/wiki/Shading)은 빛(Light), 어두움(Darkness), 그리고 색(Color)의 조합으로 3차원 모델에 대하여 적절한(현실 세계와 근접한) 깊이 지각(Depth Perception)을 구현하는 작업/알고리즘을 뜻한다.
+[셰이딩(Shading)](https://en.wikipedia.org/wiki/Shading)은 3차원 모델을 렌더링하기 위해서 빛(Light), 어두움(Darkness), 그리고 색(Color) 등의 조합 비율을 계산하는 작업/알고리즘을 뜻한다. 주로 현실 세계에 빛(Light)의 특성을 최대한 근접하게 묘사하기 위한 목표로 셰이딩이 사용되지만, 반대로 왜곡시켜 특이한 이펙트(Effect)를 만드는 경우도 있다.
 
 참고 : 다각형으로 만들어진 도형을 둥글게 보이도록 하는 목적으로도 셰이딩이 사용된다.
 
@@ -342,3 +342,4 @@ OpenGL에서 사용하는 8가지 자료형을 밑에 표로 정리했다.
 참고 : 셰이더(Shader)라는 단어는 1988년에 Pixar에서 출시한 RenderMan 인터페이스 사양설명서에 사용된 단어이다.
 
 셰이더를 작성하기 위한 [셰이딩 언어](https://en.wikipedia.org/wiki/Shading_language)가 여러 있는데, 이 중 OpenGL 전용 셰이딩 언어 [GLSL (OpenGL Shading Language)](https://en.wikipedia.org/wiki/OpenGL_Shading_Language)이 있다.
+
