@@ -137,7 +137,7 @@ https://developers.google.com/speed/webp/docs/riff_container
 
 ![[polygon_mesh_overview.svg]]
 
-[정점(Vertex)](https://en.wikipedia.org/wiki/Vertex_(computer_graphics)), 모서리(Edge), 그리고 표면(Face)으로 이루어진 
+[정점(Vertex)](https://en.wikipedia.org/wiki/Vertex_(computer_graphics)), 변(Edge), 그리고 표면(Face)으로 이루어진 
 
 ## 그래픽스 소프트웨어
 그래픽스 소프트웨어는 그래픽스 작업을 할 수 있도록 편리한 사용자 인터페이스 GUI를 제공하는 소프트웨어를 뜻한다.
