@@ -135,6 +135,10 @@ https://developers.google.com/speed/webp/docs/riff_container
 ### 3차원 모델
 [3차원 모델링(3D Modeling)](https://en.wikipedia.org/wiki/3D_modeling)은 특정 개체의 표면을 여러 다각형(Polygon)으로 3차원 좌표계에 표현하는 프로세스를 뜻하며, 3차원 모델(3D Model)은 그 프로세스의 결과물을 뜻한다.
 
+![[utah_teapot_wireframe.png]]
+
+3차원 모델링에서 사용되는 다각형은 
+
 ![[polygon_mesh_overview.svg]]
 
 [정점(Vertex)](https://en.wikipedia.org/wiki/Vertex_(computer_graphics)), 변(Edge), 그리고 표면(Face)으로 이루어진 
