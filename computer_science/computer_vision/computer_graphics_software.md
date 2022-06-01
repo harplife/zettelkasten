@@ -7,12 +7,12 @@ edited: 2022-06-01
 ---
 
 # 컴퓨터 그래픽스 소프트웨어
-컴퓨터 그래픽스 시스템에서 영상 데이터가 어떻게 다루어 지는지 알아본다.
+컴퓨터 그래픽스 시스템에서 소프트웨어를 통해 이미지에 대한 어떤 작업이 이루어지는지 알아본다.
 
-## 그래픽스 이미지
-여기서 다룰 내용은 [[computer_graphics_hardware#래스터 스캔]] 기반 시스템의 그래픽스 이다.
+여기서 다룰 내용은 [[computer_graphics_hardware#래스터 스캔|래스터 스캔 기반 그래픽스 시스템]]을 기준으로 한다.
 
-그래픽스는 래스터(Raster)와 벡터(Vector)로 2가지로 나뉜다.
+## 2차원 그래픽스
+2차원 그래픽스는 래스터(Raster)와 벡터(Vector)로 2가지로 나뉜다.
 
 ### 래스터 그래픽스
 [래스터 그래픽스 (Raster Graphics)](https://en.wikipedia.org/wiki/Raster_graphics)는 이미지를 사각형 그리드 안의 여러 [[computer_graphics#픽셀]]로 처리하는 방식을 뜻한다. 다른 말로는, 이미지를 픽셀의 행렬로 표현하는 방식이라고 할 수 있다.
@@ -128,6 +128,12 @@ https://developers.google.com/speed/webp/docs/riff_container
 참고 : [벡터 이미지에 대한 Adobe의 설명](https://www.adobe.com/creativecloud/file-types/image/vector.html)
 
 - [SVG (.svg)](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics)
+
+## 3차원 그래픽스
+#todo 3차원 그래픽스는 3차원 장면/모델의 정보를 담는 데이터 또는 프로젝트 파일로 저장된다?
+
+### 3차원 모델
+[3차원 모델링(3D Modeling)](https://en.wikipedia.org/wiki/3D_modeling)은 특정 개체의 표면을 꼭짓점(Vertex)과 모서리(Edge)로 이루어진 다각형(Polygon)으로 3차원 좌표계에 표현하는 프로세스를 뜻하며, 3차원 모델(3D Model)은 그 프로세스의 결과물을 뜻한다.
 
 ## 그래픽스 소프트웨어
 그래픽스 소프트웨어는 그래픽스 작업을 할 수 있도록 편리한 사용자 인터페이스 GUI를 제공하는 소프트웨어를 뜻한다.
@@ -277,6 +283,8 @@ OpenGL에서 사용하는 8가지 자료형을 밑에 표로 정리했다.
 
 ## 렌더링
 [렌더링(Rendering)](https://en.wikipedia.org/wiki/Rendering_(computer_graphics))은 그래픽스 시스템이 2차원/3차원 장면(Scene)을 2차원 화면(Screen)으로 구현하는 프로세스를 뜻한다.
+
+참고 : [3차원 렌더링](https://en.wikipedia.org/wiki/3D_rendering)
 
 2차원 장면으로부터 2차원 화면으로 렌더링하는 것은 간단하다 - 비율이 같은 경우 이미지 픽셀 위치와 값을 화면에 그대로 반영하면 되고, 비율이 다른 경우 확대/축소하여 근접한(Approximation) 픽셀을 화면에 반영하면 된다.
 
