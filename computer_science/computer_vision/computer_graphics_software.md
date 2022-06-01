@@ -273,9 +273,13 @@ OpenGL에서 사용하는 8가지 자료형을 밑에 표로 정리했다.
 ## 그래픽스 파이프라인
 [그래픽스 파이프라인(Graphics Pipeline)](https://en.wikipedia.org/wiki/Graphics_pipeline)은 그래픽스 시스템이 3차원 장면(Scene)을 2차원 화면(Screen)으로 렌더링하는 프로세스를 정리한 개념적 모델이다.
 
+렌더링 파이프라인(Rendering Pipeline)으로 불리기도 한다.
+
 하드웨어와 소프트웨어에 따라 그래픽스 처리 방식이 다름으로, 모든 상황에 통용되는 범용적인 그래픽스 파이프라인은 없다. 하지만, [[#그래픽스 라이브러리]]는 서로 유사한 그래픽스 파이프라인들을 단일화하여 제어하는 것을 목표로 개발되었고, 내부 하드웨어를 추상화하여 프로그래머가 직접 하드웨어를 제어할 필요를 제거했다.
 
-일반적인 그래픽스 파이프라인은 주로 [3차원 다각형 렌더링(3D Polygon Rendering)](https://en.wikipedia.org/wiki/Polygonal_modeling) 위주로 되어있다. 조명(Lighting)에 관련하여 [Raytracing](https://en.wikipedia.org/wiki/Ray_tracing_(graphics)) 또는 [raycasting](https://en.wikipedia.org/wiki/Ray_casting)과는 프로세스가 다르다고 하는데, 자세한 사항은 나중에 알아보겠다.
+일반적인 그래픽스 파이프라인은 주로 [3차원 다각형 렌더링(3D Polygon Rendering)](https://en.wikipedia.org/wiki/Polygonal_modeling) 위주로 되어있다.
+
+조명(Lighting)에 관련하여 [Raytracing](https://en.wikipedia.org/wiki/Ray_tracing_(graphics)) 또는 [raycasting](https://en.wikipedia.org/wiki/Ray_casting)과는 프로세스가 다르다고 하는데, 자세한 사항은 나중에 알아보겠다.
 
 
 
