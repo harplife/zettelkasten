@@ -282,7 +282,32 @@ OpenGL에서 사용하는 8가지 자료형을 밑에 표로 정리했다.
 
 3차원 장면에서 2차원 화면으로 렌더링하는 것은 좀 복잡해진다. 렌더링 작업에 3차원 모델, 조명, 물질 속성 (반짝임, 투명도, 텍스쳐 등), 카메라, 화면 비율, 이펙트 등이 고려가 되어야 하기 떄문이다. 
 
-## 그래픽스 파이프라인
+참고 : 영어 단어 Render는 렌더링 작업을 하라는 명령어 또는 렌더링 결과물을 뜻할 수 있고, Rendering은 이미지를 그리는 중 또는 그 프로세스를 뜻할 수 있다.
+
+렌더링과 관련된 요소는 밑에와 같다 ([위키 참고](https://en.wikipedia.org/wiki/Rendering_(computer_graphics)#Features)).
+- Shading
+- Texture Mapping
+- Bump Mapping
+- Fogging
+- Shadows
+- Soft Shadows
+- [[color_theory#반사|반사(Reflection)]]
+- [[color_theory#투과|투명도(Transparency/Translucency)]]
+- [[color_theory#굴절|굴절(Refraction)]]
+- [[color_theory#회절|회절(Diffraction)]]
+- Indirect Illumination
+- Caustics
+- Depth of Field
+- Motion Blur
+- Non-photorealistic Rendering
+
+### 조명과 카메라
+렌더링에 있어 
+
+조명(Lighting)에 관련하여 [Raytracing](https://en.wikipedia.org/wiki/Ray_tracing_(graphics)) 또는 [raycasting](https://en.wikipedia.org/wiki/Ray_casting)과는 프로세스가 다르다고 하는데, 자세한 사항은 나중에 알아보겠다.
+
+
+### 그래픽스 파이프라인
 [그래픽스 파이프라인(Graphics Pipeline)](https://en.wikipedia.org/wiki/Graphics_pipeline)은 렌더링에 포함되는 여러 작업들을 순차적(Sequential)으로 정리한 개념적(Conceptual) 모델이다.
 
 렌더링 파이프라인(Rendering Pipeline)으로 불리기도 한다.
@@ -293,8 +318,6 @@ OpenGL에서 사용하는 8가지 자료형을 밑에 표로 정리했다.
 
 > ![[opengl_v4_pipeline.png]]
 > OpenGL v4 그래픽스 파이프라인
-
-조명(Lighting)에 관련하여 [Raytracing](https://en.wikipedia.org/wiki/Ray_tracing_(graphics)) 또는 [raycasting](https://en.wikipedia.org/wiki/Ray_casting)과는 프로세스가 다르다고 하는데, 자세한 사항은 나중에 알아보겠다.
 
 참고자료:
 1. [[graphics_pipeline_lecture_from_penn_university.pdf|Penn University 그래픽스 파이프라인 강의 자료]]
