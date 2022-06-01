@@ -364,6 +364,9 @@ Compute Shaders
 
 꼭지점 셰이더로 3차원 모델의 위치, 움직임, 조명/그림자, 색 등을 조절할 수 있다.
 
+### 테셀레이션 셰이더
+테셀레이션 셰이더(Tessellation Shader)
+
 ### 기하구조 셰이더
 Geometry Shader
 
