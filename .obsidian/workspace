@@ -174,7 +174,7 @@
           "type": "markdown",
           "state": {
             "file": "computer_science/computer_vision/computer_graphics_software.md",
-            "mode": "source"
+            "mode": "preview"
           }
         },
         "pane-relief:history-v1": {
@@ -183,8 +183,8 @@
             {
               "leaf": "a7b51e81055e1c79",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_software.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":175.29347826086956}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_software.md\",\"mode\":\"preview\"}}",
+              "eState": "{\"scroll\":138.7514450867052}"
             },
             {
               "leaf": "a7b51e81055e1c79",
@@ -212,7 +212,7 @@
               "leaf": "dde798afa5376477",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/discrete_math/propositional_logic.md\",\"mode\":\"preview\"}}",
-              "eState": "{}"
+              "eState": "{\"scroll\":326.15110677083334}"
             }
           ]
         }
@@ -234,7 +234,7 @@
               "leaf": "8ff724e1c66e69fe",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/discrete_math/discrete_math_knou_note.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":17.6231884057971}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":7},\"to\":{\"line\":16,\"ch\":7}},\"scroll\":29.60714236327581}"
             },
             {
               "leaf": "8ff724e1c66e69fe",
@@ -392,11 +392,11 @@
   "active": "a7b51e81055e1c79",
   "lastOpenFiles": [
     "computer_science/computer_vision/computer_graphics_software.md",
+    "computer_science/discrete_math/propositional_logic.md",
+    "computer_science/discrete_math/discrete_math_knou_note.md",
     "computer_science/computer_vision/computer_graphics.md",
     "computer_science/computer_vision/computer_graphics_hardware.md",
     "color_theory/color_theory.md",
-    "computer_science/discrete_math/propositional_logic.md",
-    "computer_science/discrete_math/discrete_math_knou_note.md",
     "todo/todo_log_2022.md",
     "todo/general_todos.md",
     "color_theory/thomas_melvill.md",
