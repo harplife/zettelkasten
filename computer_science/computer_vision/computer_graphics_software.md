@@ -2,8 +2,8 @@
 aliases: [Computer Graphics Software, Display System Software, 컴퓨터 그래픽스 소프트웨어, 디스플레이 시스템 소프트웨어]
 tags: [computer_science, computer_vision, computer_graphics, KNOU, study, display, software]
 status: ongoing
-created: 2022-03-27
-edited: 2022-03-27
+created: 2022-05-30
+edited: 2022-06-01
 ---
 
 # 컴퓨터 그래픽스 소프트웨어
@@ -32,7 +32,7 @@ edited: 2022-03-27
 RGB 이미지에 [투명 (Transparency)](https://en.wikipedia.org/wiki/Transparency_(graphic)) 정보가 추가된 경우, 8-bit의 알파 채널 (Alpha Channel)로 저장되며, 이러한 이미지를 [RGBA](https://en.wikipedia.org/wiki/RGBA_color_model) 이미지라 부른다. 8-bit가 추가되었기 때문에 하나의 픽셀이 32-bit 데이터로 저장된다.
 
 ### 벡터 그래픽스
-
+#todo 벡터 그래픽스 정의
 
 ### 이미지 파일 포맷
 [파일 포맷](https://en.wikipedia.org/wiki/File_format)은 정보를 비트로 표현하는 구성요소 및 구조의 표준을 뜻한다.
@@ -112,13 +112,18 @@ https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArti
 
 
 ##### JPEG
+#todo JPEG 이미지 포맷 정리
 
 ##### PNG
+#todo PNG 이미지 포맷 정리
 
 ##### WEBP
+#todo WEBP 이미지 포맷 정리
+
 https://developers.google.com/speed/webp/docs/riff_container
 
 #### 벡터 이미지 파일 포맷
+#todo 벡터 이미지 포맷 정리
 
 참고 : [벡터 이미지에 대한 Adobe의 설명](https://www.adobe.com/creativecloud/file-types/image/vector.html)
 
@@ -270,14 +275,24 @@ OpenGL에서 사용하는 8가지 자료형을 밑에 표로 정리했다.
 | GLuint, GLenum, GLbitfield | 32bit unsigned integer |     ui     |
 
 
+## 렌더링
+[렌더링(Rendering)](https://en.wikipedia.org/wiki/Rendering_(computer_graphics))은 그래픽스 시스템이 2차원/3차원 장면(Scene)을 2차원 화면(Screen)으로 구현하는 프로세스를 뜻한다.
+
+2차원 장면으로부터 2차원 화면으로 렌더링하는 것은 간단하다 - 비율이 같은 경우 이미지 픽셀 위치와 값을 화면에 그대로 반영하면 되고, 비율이 다른 경우 확대/축소하여 근접한(Approximation) 픽셀을 화면에 반영하면 된다.
+
+3차원 장면에서 2차원 화면으로 렌더링하는 것은 좀 복잡해진다. 렌더링 작업에 3차원 모델, 조명, 물질 속성 (반짝임, 투명도, 텍스쳐 등), 카메라, 화면 비율, 이펙트 등이 고려가 되어야 하기 떄문이다. 
+
 ## 그래픽스 파이프라인
-[그래픽스 파이프라인(Graphics Pipeline)](https://en.wikipedia.org/wiki/Graphics_pipeline)은 그래픽스 시스템이 3차원 장면(Scene)을 2차원 화면(Screen)으로 렌더링하는 프로세스를 정리한 개념적 모델이다.
+[그래픽스 파이프라인(Graphics Pipeline)](https://en.wikipedia.org/wiki/Graphics_pipeline)은 렌더링에 포함되는 여러 작업들을 순차적(Sequential)으로 정리한 개념적(Conceptual) 모델이다.
 
 렌더링 파이프라인(Rendering Pipeline)으로 불리기도 한다.
 
 하드웨어와 소프트웨어에 따라 그래픽스 처리 방식이 다름으로, 모든 상황에 통용되는 범용적인 그래픽스 파이프라인은 없다. 하지만, [[#그래픽스 라이브러리]]는 서로 유사한 그래픽스 파이프라인들을 단일화하여 제어하는 것을 목표로 개발되었고, 내부 하드웨어를 추상화하여 프로그래머가 직접 하드웨어를 제어할 필요를 제거했다.
 
 일반적인 그래픽스 파이프라인은 주로 [3차원 다각형 렌더링(3D Polygon Rendering)](https://en.wikipedia.org/wiki/Polygonal_modeling) 위주로 되어있다.
+
+> ![[opengl_v4_pipeline.png]]
+> OpenGL v4 그래픽스 파이프라인
 
 조명(Lighting)에 관련하여 [Raytracing](https://en.wikipedia.org/wiki/Ray_tracing_(graphics)) 또는 [raycasting](https://en.wikipedia.org/wiki/Ray_casting)과는 프로세스가 다르다고 하는데, 자세한 사항은 나중에 알아보겠다.
 
