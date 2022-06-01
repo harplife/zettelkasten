@@ -137,7 +137,9 @@ https://developers.google.com/speed/webp/docs/riff_container
 
 ![[utah_teapot_wireframe.png]]
 
-3차원 모델링에서 사용되는 다각형은 
+3차원 모델링에서 사용되는 다각형은 삼각형(Tri, Triangle), 사각형(Quad, Quadrilateral), 그리고 N-각형(N-Gon)으로 구성된다.
+
+
 
 ![[polygon_mesh_overview.svg]]
 
