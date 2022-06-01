@@ -327,6 +327,18 @@ OpenGL에서 사용하는 8가지 자료형을 밑에 표로 정리했다.
 4. [OpenGL 버전별로 파이프라인 정리된 자료](http://romain.vergne.free.fr/teaching/IS/SI03-pipeline.html)
 
 ### 셰이더
-초기 그래픽스 시스템은 사용자 제공 설정(user-provided configuration)으로 그래픽스 파이프라인을 제어하는 [고정 기능 파이프라인 (Fixed Function Pipeline)](https://www.khronos.org/opengl/wiki/Fixed_Function_Pipeline) 구조였다. 나중에는 사용자 제공 프로그램(user-provided program)으로 그래픽스 파이프라인을 제어하게 되었는데, 이 프로그램을 [셰이더(Shader)](https://en.wikipedia.org/wiki/Shader)라 부른다.
+초기 그래픽스 시스템은 사용자 제공 설정(user-provided configuration)으로 그래픽스 파이프라인을 제어하는 [고정 기능 파이프라인 (Fixed Function Pipeline)](https://www.khronos.org/opengl/wiki/Fixed_Function_Pipeline) 구조였다. 나중에는 사용자 제공 프로그램(user-provided program)으로 그래픽스 파이프라인을 제어하게 되었는데, 이 프로그램을 셰이더(Shader)라 부른다.
+
+위 문단을 이해하기 쉽게 풀어본다.
+1. 초기 OpenGL에는 텍스쳐, 조명 등에 관련된 수학 연산이 고정(hard-coded)되어 있어 지정된 파라미터로만 설정이 가능했다.
+2. 나중에는 이러한 수학 연산을 유저가 직접 프로그래밍 할 수 있도록 하였는데, 이러한 프로그램을 셰이더라고 한다.
+
+[셰이딩(Shading)](https://en.wikipedia.org/wiki/Shading)은 빛(Light), 어두움(Darkness), 그리고 색(Color)의 조합으로 3차원 모델에 대하여 적절한(현실 세계와 근접한) 깊이 지각(Depth Perception)을 구현하는 작업/알고리즘을 뜻한다.
+
+참고 : 다각형으로 만들어진 도형을 둥글게 보이도록 하는 목적으로도 셰이딩이 사용된다.
+
+[셰이더(Shader)](https://en.wikipedia.org/wiki/Shader)는 셰이딩을 하는 프로그램이다.
+
+참고 : 셰이더(Shader)라는 단어는 1988년에 Pixar에서 출시한 RenderMan 인터페이스 사양설명서에 사용된 단어이다.
 
 셰이더를 작성하기 위한 [셰이딩 언어](https://en.wikipedia.org/wiki/Shading_language)가 여러 있는데, 이 중 OpenGL 전용 셰이딩 언어 [GLSL (OpenGL Shading Language)](https://en.wikipedia.org/wiki/OpenGL_Shading_Language)이 있다.
