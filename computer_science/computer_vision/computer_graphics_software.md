@@ -175,7 +175,7 @@ PHIGS는 1990년도 후반까지 많이 사용되었다.
 
 1980년도 초기에 [SGI(Silicon Graphics Inc.)](https://en.wikipedia.org/wiki/Silicon_Graphics)사에서 개발한 IRIS GL은 그래픽스 개발자 사이에 널리 사용되는 패키지가 되어, 사실상의 그래픽스 표준이 되었다. 더불어, IRIS GL을 오픈소스 버전으로 변경하여 제공한 것이 [OpenGL](https://en.wikipedia.org/wiki/OpenGL)이다.
 
-## OpenGL 프로그래밍
+## OpenGL 소개
 OpenGL은 [크로노스 그룹(Khronos Group)](https://en.wikipedia.org/wiki/Khronos_Group)에서 관리하는 오픈소스 그래픽스 라이브러리 이다. 여러 프로그래밍 언어와 플랫폼에 호환된다는 큰 장점을 가지고 있다.
 
 OpenGL은 장면을 렌더링하기 위해 요구되는 정확한 단계를 프로그래머가 정확하게 규정하도록 요구한다. 장면에 대하여 서술만 하고, 구체적인 렌더링은 라이브러리가 관리하는 방식과는 대조적이다. 이러한 설계는 프로그래머에게 [그래픽스 파이프라인(Graphics Pipeline)](https://en.wikipedia.org/wiki/Graphics_pipeline)에 대한 충분한 지식을 요구하기도 하지만, 새로운 렌더링 알고리즘을 구현할 수 있는 자유도 함께 주어진다.
@@ -268,6 +268,10 @@ OpenGL에서 사용하는 8가지 자료형을 밑에 표로 정리했다.
 | GLubyte, GLboolean         | 8bit unsigned integer  |     ub     |
 | GLushort                   | 16bit unsigned integer |     us     |
 | GLuint, GLenum, GLbitfield | 32bit unsigned integer |     ui     |
+
+
+## 그래픽스 파이프라인
+
 
 ### 셰이더
 초기 그래픽스 시스템은 사용자 제공 설정(user-provided configuration)으로 그래픽스 파이프라인을 제어하는 [고정 기능 파이프라인 (Fixed Function Pipeline)](https://www.khronos.org/opengl/wiki/Fixed_Function_Pipeline) 구조였다. 나중에는 사용자 제공 프로그램(user-provided program)으로 그래픽스 파이프라인을 제어하게 되었는데, 이 프로그램을 [셰이더(Shader)](https://en.wikipedia.org/wiki/Shader)라 부른다.
