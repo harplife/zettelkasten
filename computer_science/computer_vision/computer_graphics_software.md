@@ -147,7 +147,7 @@ https://developers.google.com/speed/webp/docs/riff_container
 
 3차원 모델링에서 사용되는 다각형은 삼각형(Tri, Triangle), 사각형(Quad, Quadrilateral), 그리고 N-각형(N-Gon)이 있다.
 
-참고 : 삼각형은 게임에, 사각형은 애니메이션에 많이 사용되는 것으로 알려진다. N-각형은 일러스트레이션이 아니면 거의 사용되지 않는 것으로 보인다 ([위키 참고](https://computergraphics.stackexchange.com/questions/5465/why-are-quads-used-in-filmmaking-and-triangle-in-gaming)).
+참고 : 삼각형은 게임에, 사각형은 애니메이션에 많이 사용되는 것으로 알려진다. N-각형은 일러스트레이션이 아니면 거의 사용되지 않는 것으로 보인다 ([SO 참고](https://computergraphics.stackexchange.com/questions/5465/why-are-quads-used-in-filmmaking-and-triangle-in-gaming)).
 
 ![[graphics_polygons.png]]
 
