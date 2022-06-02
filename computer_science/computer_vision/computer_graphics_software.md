@@ -147,7 +147,7 @@ https://developers.google.com/speed/webp/docs/riff_container
 
 3차원 모델링에서 사용되는 다각형은 삼각형(Tri, Triangle), 사각형(Quad, Quadrilateral), 그리고 N-각형(N-Gon)이 있다.
 
-참고 : 삼각형은 게임에, 사각형은 애니메이션에 많이 사용되는 것으로 알려진다. N-각형은 일러스트레이션이 아니면 거의 사용되지 않는 것으로 보인다 ([위키 참고](https://computergraphics.stackexchange.com/questions/5465/why-are-quads-used-in-filmmaking-and-triangle-in-gaming)).
+참고 : 삼각형은 게임에, 사각형은 애니메이션에 많이 사용되는 것으로 알려진다. N-각형은 일러스트레이션이 아니면 거의 사용되지 않는 것으로 보인다 ([SO 참고](https://computergraphics.stackexchange.com/questions/5465/why-are-quads-used-in-filmmaking-and-triangle-in-gaming)).
 
 ![[graphics_polygons.png]]
 
@@ -378,6 +378,7 @@ OpenGL에서 사용하는 8가지 자료형을 밑에 표로 정리했다.
 참고자료 :
 1. [그래픽스 조명(Lighting)](https://en.wikipedia.org/wiki/Computer_graphics_lighting)
 2. [learnopengl.com - Shaders](https://learnopengl.com/Getting-started/Shaders)
+3. [Cherno - How Shaders Work](https://youtu.be/5W7JLgFCkwI)
 
 #todo [셰이더 종류](https://en.wikipedia.org/wiki/Shader#Types) 정리
 
@@ -388,12 +389,21 @@ Ray Tracing Shaders
 Compute Shaders
 
 ### 픽셀 셰이더
-#todo Pixel Shaders
+#todo Pixel Shaders == fragment shader?
 
 ### 정점 셰이더
-[정점 셰이더(Vertex Shader)](https://www.khronos.org/opengl/wiki/Vertex_Shader)는 정점의 3차원 좌표를 2차원 좌표로 변환하는데 사용된다.
+[정점 셰이더(Vertex Shader)](https://www.khronos.org/opengl/wiki/Vertex_Shader)는 제일 처음으로 실행되는 셰이더로
+1. 버퍼에서 데이터를 가져오고,
+2. 정점의 3차원 좌표를 2차원 좌표로 변환한 다음
+3. 변환된 데이터를 다음 셰이더로 넘겨준다.
 
-정점 셰이더로 3차원 모델의 위치, 움직임, 조명/그림자, 색 등을 조절할 수 있다.
+정점의 위치를 움직이는 아주 간단한 셰이더로 볼 수 있지만, 정점의 위치를 움직임으로서 구현할 수 있는 이펙트는 아주 중요하고 다양하다.
+
+정점 셰이더를 사용한 이펙트를 예시로,
+- 거리감(Depth Perception)을 구현할 수 있다.
+- 액체의 물결(Ripple)을 구현할 수 있다.
+
+정점 셰이더는 각 정점에 대하여 한번씩 실행된다. 예를 들어, 3개의 정점이 있는 삼각형 모델이 있다면, 정점 셰이더는 3번 실행된다.
 
 ### 테셀레이션 셰이더
 [쪽매맞춤(Tessellation)](https://en.wikipedia.org/wiki/Tessellation)은 어떠한 표면을 도형으로 채우는 작업을 뜻한다.
@@ -404,3 +414,5 @@ Compute Shaders
 Geometry Shader
 
 
+### Fragment Shader
+Fragment Shader는 마지막에 실행되는 셰이더로 조명, 거리, 반사 등 여러 속성을 고려하여 픽셀의 색을 결정한다.
