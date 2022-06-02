@@ -32,7 +32,8 @@
     "Quantificational",
     "Photoshop",
     "Shaders",
-    "OpenGL"
+    "OpenGL",
+    "Wireframe"
   ],
   "legacyEditor": true,
   "livePreview": true,

@@ -137,7 +137,7 @@ https://developers.google.com/speed/webp/docs/riff_container
 
 ![[utah_teapot_wireframe.png]]
 
-[다각형(Polygon)](https://en.wikipedia.org/wiki/Polygonal_modeling)은 [정점(Vertex)](https://en.wikipedia.org/wiki/Vertex_(computer_graphics)), 변(Edge), 그리고 표면(Face)으로 이루어진다. 그리고 다각형들이 모여 만들어진 망을 [다각형 메쉬(Polygon Mesh)](https://en.wikipedia.org/wiki/Polygon_mesh)라고 한다.
+[다각형(Polygon)](https://en.wikipedia.org/wiki/Polygonal_modeling)은 [정점(Vertex)](https://en.wikipedia.org/wiki/Vertex_(computer_graphics)), 변(Edge), 그리고 표면(Face)으로 이루어진 도형을 뜻한다.
 
 참고 : 점, 선, 삼각형, 사각형 등 아주 간단한 기하학적(Geometrical) 도형을 [기본 도형(Primitive)](https://www.khronos.org/opengl/wiki/Primitive)이라고 한다. 정점, 변, 표면, 다각형 등이 기본 도형에 속한다.
 
@@ -150,6 +150,16 @@ https://developers.google.com/speed/webp/docs/riff_container
 참고 : 삼각형은 게임에, 사각형은 애니메이션에 많이 사용되는 것으로 알려진다. N-각형은 일러스트레이션이 아니면 거의 사용되지 않는 것으로 보인다 ([위키 참고](https://computergraphics.stackexchange.com/questions/5465/why-are-quads-used-in-filmmaking-and-triangle-in-gaming)).
 
 ![[graphics_polygons.png]]
+
+다각형들이 모여 만들어진 망을 [다각형 메쉬(Polygon Mesh)](https://en.wikipedia.org/wiki/Polygon_mesh) 또는 [토폴로지(Topology)](https://en.wikipedia.org/wiki/Topology)라고 한다.
+
+다각형 메쉬에 위치(Position) 정보가 추가되면 3차원 모델의 골격(Wireframe)이 만들어진다. 이를 [와이어프레임 모델(Wireframe Model)](https://en.wikipedia.org/wiki/Wire-frame_model)로 부르기도 한다.
+
+![[wireframe_model_overview.png]]
+
+와이어프레임 모델에 색/조명/그림자, 물질(Material) 속성, 또는 [텍스쳐 맵(Texture Map)](https://en.wikipedia.org/wiki/Texture_mapping)이 적용되면 3차원 모델이 완성된다.
+
+![[texture_mapping_example_01.webp]]
 
 3차원 모델들과 조명으로 채워진 3차원 공간을 3차원 장면(3D Scene)이라고 한다.
 
