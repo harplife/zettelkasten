@@ -149,6 +149,8 @@ https://developers.google.com/speed/webp/docs/riff_container
 
 ![[graphics_polygons.png]]
 
+3차원 모델들로 이루어진 장면을 3차원 장면(3D Scene)이라고 한다.
+
 ## 그래픽스 소프트웨어
 그래픽스 소프트웨어는 그래픽스 작업을 할 수 있도록 편리한 사용자 인터페이스 GUI를 제공하는 소프트웨어를 뜻한다.
 
