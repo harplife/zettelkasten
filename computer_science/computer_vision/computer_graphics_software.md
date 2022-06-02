@@ -388,7 +388,7 @@ Ray Tracing Shaders
 Compute Shaders
 
 ### 픽셀 셰이더
-#todo Pixel Shaders
+#todo Pixel Shaders == fragment shader?
 
 ### 정점 셰이더
 [정점 셰이더(Vertex Shader)](https://www.khronos.org/opengl/wiki/Vertex_Shader)는 정점의 3차원 좌표를 2차원 좌표로 변환하는데 사용된다.

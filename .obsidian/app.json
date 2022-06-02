@@ -33,7 +33,8 @@
     "Photoshop",
     "Shaders",
     "OpenGL",
-    "Wireframe"
+    "Wireframe",
+    "shader"
   ],
   "legacyEditor": true,
   "livePreview": true,
