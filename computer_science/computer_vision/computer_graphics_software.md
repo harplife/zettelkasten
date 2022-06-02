@@ -133,7 +133,7 @@ https://developers.google.com/speed/webp/docs/riff_container
 #todo 3차원 그래픽스는 3차원 장면/모델의 정보를 담는 데이터 또는 프로젝트 파일로 저장된다?
 
 ### 3차원 모델
-[3차원 모델링(3D Modeling)](https://en.wikipedia.org/wiki/3D_modeling)은 특정 개체의 표면을 여러 다각형(Polygon)으로 3차원 좌표계에 표현하는 프로세스를 뜻하며, 3차원 모델(3D Model)은 그 프로세스의 결과물을 뜻한다.
+[3차원 모델링(3D Modeling)](https://en.wikipedia.org/wiki/3D_modeling)은 특정 개체의 표면을 여러 다각형(Polygon)으로 3차원 좌표계에 표현하는 프로세스를 뜻하며, **3차원 모델(3D Model)** 은 그 프로세스의 결과물을 뜻한다.
 
 ![[utah_teapot_wireframe.png]]
 
