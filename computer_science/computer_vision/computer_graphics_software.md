@@ -176,7 +176,7 @@ https://developers.google.com/speed/webp/docs/riff_container
 참고 : 방통대 교과서에는 "특수목적 패키지"라고 부르는데, 아무도 이런 식으로 부르지 않는다.
 
 ## 그래픽스 라이브러리
-[그래픽스 라이브러리(Graphics Library, GL) ](https://en.wikipedia.org/wiki/Graphics_library) 또는 그래픽스 API는 프로그램이 하드웨어(CPU/GPU 등)에게 그림을 그리기 위한 명령을 보내는 소통을 보조해주는 라이브러리 이다.
+[그래픽스 라이브러리(Graphics Library, GL) ](https://en.wikipedia.org/wiki/Graphics_library) 또는 **그래픽스 API**는 프로그램이 하드웨어(CPU/GPU 등)에게 그림을 그리기 위한 명령을 보내는 소통을 보조해주는 라이브러리 이다.
 
 그래픽스 라이브러리라는 뜻으로 이름에 "GL"이 붙는 경우가 있다 (예: OpenGL).
 
@@ -217,7 +217,9 @@ PHIGS는 1990년도 후반까지 많이 사용되었다.
 1980년도 초기에 [SGI(Silicon Graphics Inc.)](https://en.wikipedia.org/wiki/Silicon_Graphics)사에서 개발한 IRIS GL은 그래픽스 개발자 사이에 널리 사용되는 패키지가 되어, 사실상의 그래픽스 표준이 되었다. 더불어, IRIS GL을 오픈소스 버전으로 변경하여 제공한 것이 [OpenGL](https://en.wikipedia.org/wiki/OpenGL)이다.
 
 ## OpenGL 소개
-OpenGL은 [크로노스 그룹(Khronos Group)](https://en.wikipedia.org/wiki/Khronos_Group)에서 관리하는 오픈소스 그래픽스 라이브러리 이다. 여러 프로그래밍 언어와 플랫폼에 호환된다는 큰 장점을 가지고 있다.
+OpenGL은 [크로노스 그룹(Khronos Group)](https://en.wikipedia.org/wiki/Khronos_Group)에서 관리하는 오픈소스 그래픽스 라이브러리\*다. 여러 프로그래밍 언어와 플랫폼에 호환된다는 큰 장점을 가지고 있다.
+
+\* 유투브 채널 Cherno에 의하면 OpenGL은 그래픽 라이브러리가 아닌 규격(Specification)에 더 가깝다고 한다 - 그 이유는 1) 어떤 그룹이 따로 라이브러리/API를 개발하는게 아니라, OpenGL 규격에 따라 GPU 제작업체에서 GPU에 명령을 내리는 기능을 제공하는 것이며, 2) OpenGL 라이브러리를 따로 다운로드 할 필요가 없기 때문이다.
 
 OpenGL은 장면을 렌더링하기 위해 요구되는 정확한 단계를 프로그래머가 정확하게 규정하도록 요구한다. 장면에 대하여 서술만 하고, 구체적인 렌더링은 라이브러리가 관리하는 방식과는 대조적이다. 이러한 설계는 프로그래머에게 [그래픽스 파이프라인(Graphics Pipeline)](https://en.wikipedia.org/wiki/Graphics_pipeline)에 대한 충분한 지식을 요구하기도 하지만, 새로운 렌더링 알고리즘을 구현할 수 있는 자유도 함께 주어진다.
 
@@ -236,7 +238,9 @@ OpenGL은 Cross Platform(다중 플랫폼 호환)이기 때문에 OpenGL 자체 
 
 방통대 교제에서는 GLEW2를 사용하는 예시를 제공한다.
 
-### 윈도우 시스템 관리 라이브러리
+### 윈도 시스템 관리 라이브러리
+주의 : 여기서 말하는 윈도(Window)는 Windows 운영체제를 말하는 것이 아니며, 화면에 그려지는 창(Window)를 말하는 것이다. #todo 윈도 시스템 관련해서 Visual C++ 자료 정리.
+
 OpenGL 코어 라이브러리는 하드웨어 및 운영체제, [윈도 시스템](https://en.wikipedia.org/wiki/Windowing_system) 등 플랫폼에 독립적으로 설계되어 있기 때문에 입력 및 출력 루틴과 같은 연산이 기본 라이브러리에 포함되어 있지 않다. 대신, 각 시스템별로 OpenGL을 위한 윈도 시스템 라이브러리가 사용된다.
 
 예를 들어, X 윈도 시스템의 경우 GLX (OpenGL Extension to X Window System)가 사용되며, Apple 시스템의 경우 AGL (AppleGL), Microsoft 윈도우 시스템에서는 WGL (Windows-to-OpenGL) 인터페이스가 제공된다.
@@ -388,11 +392,8 @@ Primitive and Mesh Shaders
 Ray Tracing Shaders
 Compute Shaders
 
-### 픽셀 셰이더
-#todo Pixel Shaders == fragment shader?
-
 ### 정점 셰이더
-[정점 셰이더(Vertex Shader)](https://www.khronos.org/opengl/wiki/Vertex_Shader)는 제일 처음으로 실행되는 셰이더로
+[정점 셰이더(Vertex Shader)](https://www.khronos.org/opengl/wiki/Vertex_Shader)는 OpenGL 파이프라인 기준으로 처음 실행되는 **필수** 셰이더로
 1. 버퍼에서 데이터를 가져오고,
 2. 정점의 3차원 좌표를 2차원 좌표로 변환한 다음
 3. 변환된 데이터를 다음 셰이더로 넘겨준다.
@@ -400,19 +401,36 @@ Compute Shaders
 정점의 위치를 움직이는 아주 간단한 셰이더로 볼 수 있지만, 정점의 위치를 움직임으로서 구현할 수 있는 이펙트는 아주 중요하고 다양하다.
 
 정점 셰이더를 사용한 이펙트를 예시로,
+- 카메라 뷰(Camera View)를 구현할 수 있다.
 - 거리감(Depth Perception)을 구현할 수 있다.
 - 액체의 물결(Ripple)을 구현할 수 있다.
 
 정점 셰이더는 각 정점에 대하여 한번씩 실행된다. 예를 들어, 3개의 정점이 있는 삼각형 모델이 있다면, 정점 셰이더는 3번 실행된다.
 
-### 테셀레이션 셰이더
-[쪽매맞춤(Tessellation)](https://en.wikipedia.org/wiki/Tessellation)은 어떠한 표면을 도형으로 채우는 작업을 뜻한다.
-
-테셀레이션 셰이더(Tessellation Shader)
-
 ### 기하구조 셰이더
 Geometry Shader
 
+### 테셀레이션 셰이더
+[테셀레이션(Tessellation)](https://en.wikipedia.org/wiki/Tessellation)은 여러 정점으로 이루어진 특정 영역 안에 작은 기본 도형으로 채우는 작업을 뜻한다.
+
+테셀레이션은 주로 모델의 품질을 높이는데 사용된다. 예를 들어,
+1. 곡선\*을 부드럽게 한다.
+2. 디테일을 더 선명하게 한다.
+3. 2번의 연장선으로, 거리감을 구현할 수 있다 (물체가 가까울수록 디테일이 선명하게 한다).
+
+\* 여기서 다루는 그래픽스는 다각형 모델을 기준으로 하며, 폴리곤은 점과 선으로만 구성되어 있기 때문에 실제 곡선이 없다. "곡선"을 구현하기 위해서 여러 다각형을 이어붙여야 하며, 다각형이 많을수록 더욱 부드러운 곡선을 구현할 수 있다.
+
+![[tessellation_defined_curves.webp]]
+
+![[tessellation_finer_details_by_closeness.webp]]
+
+#todo subdivision vs tessellation (pixar 자료 참고)
+
+테셀레이션 셰이더(Tessellation Shader)는 말 그대로 테셀레이션을 하는 셰이더다. 연산량이 많기 때문에 필수가 아닌 선택사항이다 - 온라인 렌더링(게임)에는 잘 사용되지 않으며, 오프라인 렌더링(영화/애니메이션)에 주로 사용된다.
+
+테셀레이션 셰이더를 동적으로 적용할 수 있으면 큰 장점이 된다. 예를 들어, 대부분이 평면인 정육면체의 각 표면에 사각형 하나를 사용한다고 볼때, 정육면체의 모서리가 만약 둥글다면, 그 둥근 모서리 부분에만 따로 테셀레이션을 적용하여 그 모서리가 부드럽게 처리할 수 있다.
+
+#todo 테셀레이션 셰이더는 2가지로 구분된다.
 
 ### Fragment Shader
 Fragment Shader는 마지막에 실행되는 셰이더로 조명, 거리, 반사 등 여러 속성을 고려하여 픽셀의 색을 결정한다.
