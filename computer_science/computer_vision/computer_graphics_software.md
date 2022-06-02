@@ -378,6 +378,7 @@ OpenGL에서 사용하는 8가지 자료형을 밑에 표로 정리했다.
 참고자료 :
 1. [그래픽스 조명(Lighting)](https://en.wikipedia.org/wiki/Computer_graphics_lighting)
 2. [learnopengl.com - Shaders](https://learnopengl.com/Getting-started/Shaders)
+3. [Cherno - How Shaders Work](https://youtu.be/5W7JLgFCkwI)
 
 #todo [셰이더 종류](https://en.wikipedia.org/wiki/Shader#Types) 정리
 
