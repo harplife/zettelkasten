@@ -31,7 +31,8 @@
     "Reddit",
     "Quantificational",
     "Photoshop",
-    "Shaders"
+    "Shaders",
+    "OpenGL"
   ],
   "legacyEditor": true,
   "livePreview": true,

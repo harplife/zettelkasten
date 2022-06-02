@@ -3,7 +3,7 @@ aliases: [Computer Graphics Software, Display System Software, 컴퓨터 그래�
 tags: [computer_science, computer_vision, computer_graphics, KNOU, study, display, software]
 status: ongoing
 created: 2022-05-30
-edited: 2022-06-01
+edited: 2022-06-02
 ---
 
 # 컴퓨터 그래픽스 소프트웨어
@@ -138,6 +138,8 @@ https://developers.google.com/speed/webp/docs/riff_container
 ![[utah_teapot_wireframe.png]]
 
 [다각형(Polygon)](https://en.wikipedia.org/wiki/Polygonal_modeling)은 [정점(Vertex)](https://en.wikipedia.org/wiki/Vertex_(computer_graphics)), 변(Edge), 그리고 표면(Face)으로 이루어진다. 그리고 다각형들이 모여 만들어진 망을 [다각형 메쉬(Polygon Mesh)](https://en.wikipedia.org/wiki/Polygon_mesh)라고 한다.
+
+참고 : 점, 선, 삼각형, 사각형 등 아주 간단한 기하학적(Geometrical) 도형을 [기본 도형(Primitive)](https://www.khronos.org/opengl/wiki/Primitive)이라고 한다. 정점, 변, 표면, 다각형 등이 기본 도형에 속한다.
 
 ![[polygon_mesh_overview.svg]]
 
@@ -365,6 +367,7 @@ OpenGL에서 사용하는 8가지 자료형을 밑에 표로 정리했다.
 
 참고자료 :
 1. [그래픽스 조명(Lighting)](https://en.wikipedia.org/wiki/Computer_graphics_lighting)
+2. [learnopengl.com - Shaders](https://learnopengl.com/Getting-started/Shaders)
 
 #todo [셰이더 종류](https://en.wikipedia.org/wiki/Shader#Types) 정리
 
@@ -378,11 +381,13 @@ Compute Shaders
 #todo Pixel Shaders
 
 ### 정점 셰이더
-정점 셰이더(Vertex Shader)는 정점의 3차원 좌표를 2차원 좌표로 변환하는데 사용된다.
+[정점 셰이더(Vertex Shader)](https://www.khronos.org/opengl/wiki/Vertex_Shader)는 정점의 3차원 좌표를 2차원 좌표로 변환하는데 사용된다.
 
 정점 셰이더로 3차원 모델의 위치, 움직임, 조명/그림자, 색 등을 조절할 수 있다.
 
 ### 테셀레이션 셰이더
+[쪽매맞춤(Tessellation)](https://en.wikipedia.org/wiki/Tessellation)은 어떠한 표면을 도형으로 채우는 작업을 뜻한다.
+
 테셀레이션 셰이더(Tessellation Shader)
 
 ### 기하구조 셰이더
