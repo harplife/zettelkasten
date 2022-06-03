@@ -422,13 +422,17 @@ Geometry Shader
 
 ![[tessellation_finer_details_by_closeness.webp]]
 
-#todo subdivision vs tessellation (pixar 자료 참고)
+참고 : [Kisti - 쪽매맞춤이란?](http://scent.kisti.re.kr/site/main/archive/article/math-%EB%B0%9C%EB%B0%91%EC%97%90-%EC%88%A8%EA%B2%A8-%EB%91%94-%EC%88%98%ED%95%99-%EA%BA%BC%EB%82%B4%EB%B3%B4%EA%B8%B0)
 
-테셀레이션 셰이더(Tessellation Shader)는 말 그대로 테셀레이션을 하는 셰이더다. 연산량이 많기 때문에 필수가 아닌 선택사항이다 - 온라인 렌더링(게임)에는 잘 사용되지 않으며, 오프라인 렌더링(영화/애니메이션)에 주로 사용된다.
+#todo subdivision vs tessellation ([Pixar 자료 참고](https://graphics.pixar.com/opensubdiv/docs/subdivision_surfaces.html))
 
-테셀레이션 셰이더를 동적으로 적용할 수 있으면 큰 장점이 된다. 예를 들어, 대부분이 평면인 정육면체의 각 표면에 사각형 하나를 사용한다고 볼때, 정육면체의 모서리가 만약 둥글다면, 그 둥근 모서리 부분에만 따로 테셀레이션을 적용하여 그 모서리가 부드럽게 처리할 수 있다.
+테셀레이션 셰이더(Tessellation Shader)는 말 그대로 테셀레이션을 하는 셰이더다. 연산량이 크며, 필수가 아닌 선택사항이다 - 온라인 렌더링(게임)에는 잘 사용되지 않으며, 오프라인 렌더링(영화/애니메이션)에 주로 사용된다.
 
-#todo 테셀레이션 셰이더는 2가지로 구분된다.
+테셀레이션 셰이더를 동적(Dynamic)으로 적용할 수 있으면 큰 장점이 된다. 예를 들어, 대부분이 평면인 정육면체의 각 표면에 사각형 하나를 사용한다고 볼때, 정육면체의 모서리가 만약 둥글다면, 그 둥근 모서리 부분에만 따로 테셀레이션을 적용하여 그 모서리가 부드럽게 처리할 수 있다.
+
+테셀레이션 셰이더는 2가지로 구분된다.
+
+
 
 ### Fragment Shader
 Fragment Shader는 마지막에 실행되는 셰이더로 조명, 거리, 반사 등 여러 속성을 고려하여 픽셀의 색을 결정한다.
