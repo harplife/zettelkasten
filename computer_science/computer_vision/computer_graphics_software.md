@@ -3,7 +3,7 @@ aliases: [Computer Graphics Software, Display System Software, 컴퓨터 그래�
 tags: [computer_science, computer_vision, computer_graphics, KNOU, study, display, software]
 status: ongoing
 created: 2022-05-30
-edited: 2022-06-02
+edited: 2022-06-03
 ---
 
 # 컴퓨터 그래픽스 소프트웨어
@@ -386,8 +386,6 @@ OpenGL에서 사용하는 8가지 자료형을 밑에 표로 정리했다.
 
 #todo [셰이더 종류](https://en.wikipedia.org/wiki/Shader#Types) 정리
 
-Geometry Shaders
-Tessellation Shaders
 Primitive and Mesh Shaders
 Ray Tracing Shaders
 Compute Shaders
