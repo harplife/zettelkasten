@@ -184,7 +184,7 @@
               "leaf": "03e892c310bf4234",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_hardware.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":171.81159420289856}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":183,\"ch\":0},\"to\":{\"line\":183,\"ch\":0}},\"scroll\":171.81159420289856}"
             }
           ]
         }
@@ -206,7 +206,7 @@
               "leaf": "a7b51e81055e1c79",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_software.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":539,\"ch\":28},\"to\":{\"line\":539,\"ch\":28}},\"scroll\":528.5797101449275}"
+              "eState": "{\"scroll\":525.5217391304348}"
             },
             {
               "leaf": "a7b51e81055e1c79",

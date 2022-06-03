@@ -531,10 +531,19 @@ TES의 결과값은 기하구조 셰이더(Geometry Shader) 또는 정점 후처
 정육각형이 있다면, 6개 표면을 모두 렌더링하는 대신 2차원 화면에 보이는 표면만 유지하고 나머지 표면을 제거한다.
 
 ### 래스터화
-[래스터화(Rasterization)](https://en.wikipedia.org/wiki/Rasterisation#3D_images)는 
+[래스터화(Rasterization)](https://en.wikipedia.org/wiki/Rasterisation#3D_images)는 정점 처리에서 정점 후처리까지 끝나고 화면 공간(Screen Space)과 매칭되어 최종적으로 정리된 모든 도형의 상태를 저장하는 작업이다.
+
+하나의 도형이 래스터화 되어 나온 것을 [조각(Fragment)](https://www.khronos.org/opengl/wiki/Fragment)이라고 한다. 이 조각은 색(Color)이 부여되어 픽셀(Pixel)로 변환되기 전 최종 데이터라고 볼 수 있다.
+
+참고 : 도형의 상태를 저장하는 행위/것을 샘플(Sample)이라고 하고, 이 저장된 샘플을 조각이라고 부르는 듯하다. #todo 아직 이 용어들의 차이가 불분명하다.
+
+래스터화 이전에 멀티샘플링을 적용할 수도 있다.
+
+#### 멀티샘플링
+[멀티샘플링(Multi-Sampling)](https://www.khronos.org/opengl/wiki/Multisampling)은 [에일리어싱(Aliasing)](https://en.wikipedia.org/wiki/Aliasing)을 처리하는 작업이다.
 
 ### 조각 셰이더
-조각 셰이더(Fragment Shader)는 조명, 거리, 반사 등 여러 속성을 고려하여 픽셀의 색을 결정한다.
+[조각 셰이더(Fragment Shader)](https://www.khronos.org/opengl/wiki/Fragment_Shader) 또는 **픽셀 셰이더(Pixel Shader)** 는 조명, 거리, 반사 등 여러 속성을 고려하여 조각의 색을 결정한다.
 
 ### Per-Sample Processing
 샘플 처리(Per-Sample Processing)
