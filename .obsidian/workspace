@@ -54,7 +54,7 @@
               "leaf": "74d15c5aa24b0dc5",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":22,\"ch\":95},\"to\":{\"line\":22,\"ch\":95}},\"scroll\":10.217391304347826}"
+              "eState": "{}"
             },
             {
               "leaf": "74d15c5aa24b0dc5",
@@ -168,6 +168,28 @@
         }
       },
       {
+        "id": "03e892c310bf4234",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "computer_science/computer_vision/computer_graphics_hardware.md",
+            "mode": "source"
+          }
+        },
+        "pane-relief:history-v1": {
+          "pos": 0,
+          "stack": [
+            {
+              "leaf": "03e892c310bf4234",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_hardware.md\",\"mode\":\"source\"}}",
+              "eState": "{\"scroll\":171.81159420289856}"
+            }
+          ]
+        }
+      },
+      {
         "id": "a7b51e81055e1c79",
         "type": "leaf",
         "state": {
@@ -184,7 +206,7 @@
               "leaf": "a7b51e81055e1c79",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_software.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":491.2173913043478}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":539,\"ch\":28},\"to\":{\"line\":539,\"ch\":28}},\"scroll\":528.5797101449275}"
             },
             {
               "leaf": "a7b51e81055e1c79",
@@ -392,10 +414,10 @@
   "active": "a7b51e81055e1c79",
   "lastOpenFiles": [
     "computer_science/computer_vision/computer_graphics_software.md",
+    "computer_science/computer_vision/computer_graphics_hardware.md",
+    "computer_science/computer_vision/computer_graphics.md",
     "computer_science/discrete_math/propositional_logic.md",
     "computer_science/discrete_math/discrete_math_knou_note.md",
-    "computer_science/computer_vision/computer_graphics.md",
-    "computer_science/computer_vision/computer_graphics_hardware.md",
     "color_theory/color_theory.md",
     "todo/todo_log_2022.md",
     "todo/general_todos.md",

@@ -498,13 +498,11 @@ TES의 결과값은 기하구조 셰이더(Geometry Shader) 또는 정점 후처
 
 참고 : 정점 처리가 끝나면 정점의 변환(Transform)은 모두 끝났다고 볼 수 있다.
 
-적용되는 사항들은
+정점 후처리 단계에 밑에와 같은 작업들이 포함된다.
 1. Primitive Assembly
 2. Transform Feedback
 3. Clipping
 4. Face Culling
-
-#todo 각 후처리 프로세스에 대한 자세한 정리는 나중에 한다.
 
 #### Primitive Assembly
 [기본 도형 조립(Primitive Assembly)](https://www.khronos.org/opengl/wiki/Primitive_Assembly)은 여러 도형들을 합치는 단계이다. 기하구조 셰이더하고 많이 유사한데, 기하구조 셰이더는 이펙트 또는 유저의 편의를 위해 사용되는 반면, 기본 도형 조립은 전체 3차 모델을 "조립"하는 필수적인 프로세스이다.
@@ -517,9 +515,20 @@ TES의 결과값은 기하구조 셰이더(Geometry Shader) 또는 정점 후처
 [변환 피드백(Transform Feedback)](https://www.khronos.org/opengl/wiki/Transform_Feedback)은 정점 처리가 끝난 데이터를 버퍼에 저장하는 단계이다.
 
 #### 클리핑
-[클리핑(Clipping)](https://www.khronos.org/opengl/wiki/Vertex_Post-Processing#Clipping)은 뷰 볼륨(View Volume)
+[클리핑(Clipping)](https://www.khronos.org/opengl/wiki/Vertex_Post-Processing#Clipping)은 뷰 볼륨(View Volume) 안에 들어온 도형들을 제외한 나머지 도형들을 제거하는 작업을 뜻 한다.
+
+뷰 볼륨은 "카메라"에 보이는 영역을 뜻 한다.
+
+#todo 뷰 볼륨을 이해하기 위해선 그래픽스에 사용되는 여러 [좌표계(Coordinate System)](https://learnopengl.com/Getting-started/Coordinate-Systems)을 알아야 하는데, 이 부분은 나중에 정리하겠다. 좌표계의 의한 [행렬 변환 자료](http://www.opengl-tutorial.org/beginners-tutorials/tutorial-3-matrices/) 참고. [3차원 투영(3D Projection)](https://en.wikipedia.org/wiki/3D_projection)과도 관련이 있으니 참고할 것.
 
 ![[computer_graphics_viewing.png]]
+
+참고 : 클리핑을 한국어로 번역하면 "오려내기"이다.
+
+#### 표면 컬링
+[표면 선별(Face Culling)](https://www.khronos.org/opengl/wiki/Face_Culling) 또는 가시성 선별(Visibility Culling)은 화면(카메라) 앞에 보이는 표면만 유지하고 뒤에 가려진 표면(후면부)들을 제거하는 작업을 뜻한다.
+
+정육각형이 있다면, 6개 표면을 모두 렌더링하는 대신 2차원 화면에 보이는 표면만 유지하고 나머지 표면을 제거한다.
 
 ### 래스터화
 래스터화(Rasterization)
