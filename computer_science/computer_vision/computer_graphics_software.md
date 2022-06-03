@@ -517,7 +517,9 @@ TES의 결과값은 기하구조 셰이더(Geometry Shader) 또는 정점 후처
 [변환 피드백(Transform Feedback)](https://www.khronos.org/opengl/wiki/Transform_Feedback)은 정점 처리가 끝난 데이터를 버퍼에 저장하는 단계이다.
 
 #### 클리핑
-[클리핑(Clipping)](https://www.khronos.org/opengl/wiki/Vertex_Post-Processing#Clipping)은 
+[클리핑(Clipping)](https://www.khronos.org/opengl/wiki/Vertex_Post-Processing#Clipping)은 뷰 볼륨(View Volume)
+
+![[computer_graphics_viewing.png]]
 
 ### 래스터화
 래스터화(Rasterization)
