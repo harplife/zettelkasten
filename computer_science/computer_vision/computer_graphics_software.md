@@ -135,11 +135,11 @@ https://developers.google.com/speed/webp/docs/riff_container
 ### 3차원 모델
 [3차원 모델링(3D Modeling)](https://en.wikipedia.org/wiki/3D_modeling)은 특정 개체의 표면을 여러 다각형(Polygon)으로 3차원 좌표계에 표현하는 프로세스를 뜻하며, **3차원 모델(3D Model)** 은 그 프로세스의 결과물을 뜻한다.
 
-![[utah_teapot_wireframe.png]]
+![[3d_model_utah_teapot.png]]
 
 [다각형(Polygon)](https://en.wikipedia.org/wiki/Polygonal_modeling)은 [정점(Vertex)](https://en.wikipedia.org/wiki/Vertex_(computer_graphics)), 변(Edge), 그리고 표면(Face)으로 이루어진 도형을 뜻한다.
 
-참고 : 점, 선, 삼각형, 사각형 등 아주 간단한 기하학적(Geometrical) 도형을 [기본 도형(Primitive)](https://www.khronos.org/opengl/wiki/Primitive)이라고 한다. 정점, 변, 표면, 다각형 등이 기본 도형에 속한다.
+참고 : 점, 선, 삼각형, 사각형 등 아주 간단한 기하학적(Geometrical) 도형을 [기본 도형(Primitive)](https://www.khronos.org/opengl/wiki/Primitive)이라고 한다.
 
 ![[polygon_mesh_overview.svg]]
 
@@ -163,7 +163,7 @@ https://developers.google.com/speed/webp/docs/riff_container
 
 3차원 모델들과 조명으로 채워진 3차원 공간을 3차원 장면(3D Scene)이라고 한다.
 
-![[graphics_3d_scene.webp]]
+![[3d_scene_utah_teapot.png]]
 
 ## 그래픽스 소프트웨어
 그래픽스 소프트웨어는 그래픽스 작업을 할 수 있도록 편리한 사용자 인터페이스 GUI를 제공하는 소프트웨어를 뜻한다.
@@ -314,6 +314,13 @@ OpenGL에서 사용하는 8가지 자료형을 밑에 표로 정리했다.
 | GLushort                   | 16bit unsigned integer |     us     |
 | GLuint, GLenum, GLbitfield | 32bit unsigned integer |     ui     |
 
+
+### OpenGL 기본 도형
+일반적으로 점, 선, 삼각형 등 가장 간단한 도형을 [기하학적 기본 도형(Geometric Primitives)](https://en.wikipedia.org/wiki/Geometric_primitive)이라고 한다.
+
+OpenGL에서 사용하는 기본 도형들은 밑에 그림을 참고한다.
+
+![[opengl_primitives.svg]]
 
 ## 렌더링
 [렌더링(Rendering)](https://en.wikipedia.org/wiki/Rendering_(computer_graphics))은 그래픽스 시스템이 2차원/3차원 장면(Scene)을 2차원 화면(Screen)으로 구현하는 프로세스를 뜻한다.
