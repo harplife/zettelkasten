@@ -543,7 +543,7 @@ TES의 결과값은 기하구조 셰이더(Geometry Shader) 또는 정점 후처
 [멀티샘플링(Multi-Sampling)](https://www.khronos.org/opengl/wiki/Multisampling)은 [에일리어싱(Aliasing)](https://en.wikipedia.org/wiki/Aliasing)을 처리하는 작업이다.
 
 ### 조각 셰이더
-[조각 셰이더(Fragment Shader)](https://www.khronos.org/opengl/wiki/Fragment_Shader) 또는 **픽셀 셰이더(Pixel Shader)** 는 조명, 거리, 반사 등 여러 속성을 고려하여 조각의 색을 결정한다.
+[조각 셰이더(Fragment Shader)](https://www.khronos.org/opengl/wiki/Fragment_Shader) 또는 **픽셀 셰이더(Pixel Shader)** 는 조명, 거리, 반사 등 여러 속성을 고려하여 조각의 색, 깊이, 
 
 ### Per-Sample Processing
 샘플 처리(Per-Sample Processing)
