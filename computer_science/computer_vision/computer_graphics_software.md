@@ -409,7 +409,7 @@ Compute Shaders
 Geometry Shader
 
 ### 테셀레이션 셰이더
-[테셀레이션(Tessellation)](https://en.wikipedia.org/wiki/Tessellation)은 여러 정점으로 이루어진 특정 영역(Patch) 안에 작은 기본 도형으로 채우는 작업을 뜻한다. 쉽게 이해하자면, 도형 안에 더 작은 도형들로 채우는 작업이다.
+[테셀레이션(Tessellation)](https://www.khronos.org/opengl/wiki/Tessellation)은 여러 정점으로 이루어진 특정 영역(Patch) 안에 작은 기본 도형으로 채우는 작업을 뜻한다. 쉽게 이해하자면, 도형 안에 더 작은 도형들로 채우는 작업이다.
 
 테셀레이션은 주로 모델의 품질을 높이는데 사용된다. 예를 들어,
 1. 곡선\*을 부드럽게 한다.
@@ -426,16 +426,18 @@ Geometry Shader
 
 #todo subdivision vs tessellation ([Pixar 자료 참고](https://graphics.pixar.com/opensubdiv/docs/subdivision_surfaces.html))
 
-테셀레이션 셰이더(Tessellation Shader)는 말 그대로 테셀레이션을 하는 셰이더다. 연산량이 크며, 필수가 아닌 선택사항이다 - 온라인 렌더링(게임)에는 잘 사용되지 않으며, 오프라인 렌더링(영화/애니메이션)에 주로 사용된다.
+**테셀레이션 셰이더(Tessellation Shader)** 는 말 그대로 테셀레이션을 하는 셰이더다. 연산량이 크며, 필수가 아닌 선택사항이다 - 온라인 렌더링(게임)에는 잘 사용되지 않으며, 오프라인 렌더링(영화/애니메이션)에 주로 사용된다.
 
 테셀레이션 셰이더를 동적(Dynamic)으로 적용할 수 있으면 큰 장점이 된다. 예를 들어, 대부분이 평면인 정육면체의 각 표면에 사각형 하나를 사용한다고 볼때, 정육면체의 모서리가 만약 둥글다면, 그 둥근 모서리 부분에만 따로 테셀레이션을 적용하여 그 모서리가 부드럽게 처리할 수 있다.
 
 테셀레이션 셰이더는 2가지로 구분된다.
-1. TCS (Tessellation Control Shader)
-2. TES (Tessellation Evaluation Shader)
+1. 테셀레이션 제어 셰이더
+2. 테셀레이션 평가 셰이더
+
+각 셰이더에 대하여 자세히 알아보기 전에, **테셀레이션 기본 도형 생성(Tessellation Primitive Generation, TPG)** 를 알아본다. TPG는 고정된 함수(Fixed Function)로서 
 
 #### 테셀레이션 제어 셰이더
-테셀레이션 제어 셰이더의 역할은 두 가지가 있다.
+[테셀레이션 제어 셰이더(Tessellation Control Shader, TCS)](https://www.khronos.org/opengl/wiki/Tessellation_Control_Shader)의 역할은 두 가지가 있다.
 1. 도형에 대한 테셀레이션을 얼만큼 적용할지 판단
 2. 입력 영역 데이터\*에 특수의 변환\*\*을 적용
 
@@ -443,10 +445,12 @@ Geometry Shader
 
 \*\* 여기서 특수의 변환이란, 입력 영역(Patch)의 사이즈를 변경하던가 또는 정점의 수를 늘리거나 줄이는 것을 뜻한다.
 
-테셀레이션 제어 셰이더는 선택사항이다. 활성화가 되지 않는 경우, 데이터는 [[#정점 셰이더]]에서 테셀레이션 **기본 도형 생성(Tessellation Primitive Generation)** 단계로 바로 전달된다 - 이 경우, 테셀레이션이 적용되는 정도는 기본값(Default Value)이 사용된다.
+테셀레이션 제어 셰이더는 선택사항이다.
+1. 활성화된 경우 : [[#정점 셰이더]]로부터 데이터를 전달받아 연산을 하고 출력값을  단계로 전달한다. 
+2. 비활성화된 경우 : 데이터는 [[#정점 셰이더]]에서 **테셀레이션 기본 도형 생성(Tessellation Primitive Generation)** 단계로 바로 전달된다 - 이 경우, 테셀레이션이 적용되는 정도는 기본값(Default Value)이 사용된다.
 
 #### 테셀레이션 평가 셰이더
-테셀레이션 평가 셰이더는 
+[테셀레이션 평가 셰이더(Tessellation Evaluation Shader, TES)](https://www.khronos.org/opengl/wiki/Tessellation_Evaluation_Shader)는 
 
 
 
