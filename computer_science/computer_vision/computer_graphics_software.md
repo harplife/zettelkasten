@@ -403,11 +403,9 @@ Compute Shaders
 정점의 위치를 움직이는 아주 간단한 셰이더로 볼 수 있지만, 정점의 위치를 움직임으로서 구현할 수 있는 이펙트는 아주 중요하고 다양하다.
 
 정점 셰이더를 사용한 이펙트를 예시로,
-- 카메라 뷰(Camera View)\*를 구현할 수 있다.
+- 카메라 뷰(Camera View)를 구현할 수 있다.
 - 거리감(Depth Perception)을 구현할 수 있다.
 - 액체의 물결(Ripple)을 구현할 수 있다.
-
-\* 
 
 정점 셰이더는 각 정점에 대하여 한번씩 실행된다. 예를 들어, 3개의 정점이 있는 삼각형 모델이 있다면, 정점 셰이더는 3번 실행된다.
 
@@ -466,7 +464,7 @@ TES가 활성화되어야 전체 테셀레이션이 활성화된다. TES가 비�
 TES의 결과값은 기하구조 셰이더(Geometry Shader) 또는 정점 후처리(Vertex Post-Processing)으로 전달된다.
 
 ### 기하구조 셰이더
-Geometry Shader
+[기하구조 셰이더(Geometry Shader)](https://www.khronos.org/opengl/wiki/Geometry_Shader)
 
 ### Fragment Shader
 Fragment Shader는 마지막에 실행되는 셰이더로 조명, 거리, 반사 등 여러 속성을 고려하여 픽셀의 색을 결정한다.
