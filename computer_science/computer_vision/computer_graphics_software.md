@@ -373,7 +373,7 @@ Ray Tracing Shaders
 Compute Shaders
 
 ## 그래픽스 파이프라인
-[그래픽스 파이프라인(Graphics Pipeline)](https://en.wikipedia.org/wiki/Graphics_pipeline)은 렌더링에 포함되는 여러 작업들을 순차적(Sequential)으로 정리한 개념적(Conceptual) 모델이다.
+[그래픽스 파이프라인(Graphics Pipeline)](https://www.khronos.org/opengl/wiki/Rendering_Pipeline_Overview)은 렌더링에 포함되는 여러 작업들을 순차적(Sequential)으로 정리한 개념적(Conceptual) 모델이다.
 
 렌더링 파이프라인(Rendering Pipeline)으로 불리기도 한다.
 
@@ -381,8 +381,10 @@ Compute Shaders
 
 일반적인 그래픽스 파이프라인은 주로 [3차원 다각형 렌더링(3D Polygon Rendering)](https://en.wikipedia.org/wiki/Polygonal_modeling) 위주로 되어있다.
 
-> ![[opengl_v4_pipeline.png]]
-> OpenGL v4 그래픽스 파이프라인
+이 섹션에서 파이프라인의 각 단계에 어떤 작업이 이루어지는지 간단히 알아본다.
+
+> ![[opengl_general_pipeline.PNG]]
+> 노란박스는 고정-기능(Fixed Function)을 뜻하고, 파란박스는 프로그래밍 가능한 기능(Programmable Function)을 뜻한다. 그리고 점선(Dotted Line)은 해당 기능이 선택사항임을 뜻한다.
 
 참고자료 :
 1. [[graphics_pipeline_lecture_from_penn_university.pdf|Penn University 그래픽스 파이프라인 강의 자료]]
@@ -390,20 +392,22 @@ Compute Shaders
 3. [크로노스 그룹 위키 : 렌더링 파이프라인 overview](https://www.khronos.org/opengl/wiki/Rendering_Pipeline_Overview)
 4. [OpenGL 버전별로 파이프라인 정리된 자료](http://romain.vergne.free.fr/teaching/IS/SI03-pipeline.html)
 
+### 정점 사양
+[정점 사양(Vertex Specification)](https://www.khronos.org/opengl/wiki/Vertex_Specification)는 파이프라인의 시작으로 기본 도형(Primitive)을 구성하는 정점(Vertex) 데이터를 준비하는 단계이다.
 
+준비된 정점 데이터는 정점 셰이더로 전달된다 (버퍼에 저장된다).
 
 ### 정점 셰이더
-[정점 셰이더(Vertex Shader)](https://www.khronos.org/opengl/wiki/Vertex_Shader)는 OpenGL 파이프라인 기준으로 처음 실행되는 **필수** 셰이더로
-1. 버퍼에서 데이터를 가져오고,
-2. 정점의 3차원 좌표를 2차원 좌표로 변환한 다음
-3. 변환된 데이터를 다음 셰이더로 넘겨준다.
+[정점 셰이더(Vertex Shader)](https://www.khronos.org/opengl/wiki/Vertex_Shader)는 정점의 3차원 좌표를 2차원 좌표로 변환하는 프로그램이다.
 
 정점의 위치를 움직이는 아주 간단한 셰이더로 볼 수 있지만, 정점의 위치를 움직임으로서 구현할 수 있는 이펙트는 아주 중요하고 다양하다.
 
 정점 셰이더를 사용한 이펙트를 예시로,
-- 카메라 뷰(Camera View)를 구현할 수 있다.
+- 카메라 뷰(Camera View)\*를 구현할 수 있다.
 - 거리감(Depth Perception)을 구현할 수 있다.
 - 액체의 물결(Ripple)을 구현할 수 있다.
+
+\* 
 
 정점 셰이더는 각 정점에 대하여 한번씩 실행된다. 예를 들어, 3개의 정점이 있는 삼각형 모델이 있다면, 정점 셰이더는 3번 실행된다.
 
