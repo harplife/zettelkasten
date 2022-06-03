@@ -430,27 +430,33 @@ Geometry Shader
 
 테셀레이션 셰이더를 동적(Dynamic)으로 적용할 수 있으면 큰 장점이 된다. 예를 들어, 대부분이 평면인 정육면체의 각 표면에 사각형 하나를 사용한다고 볼때, 정육면체의 모서리가 만약 둥글다면, 그 둥근 모서리 부분에만 따로 테셀레이션을 적용하여 그 모서리가 부드럽게 처리할 수 있다.
 
-테셀레이션 셰이더는 2가지로 구분된다.
+테셀레이션은 3단계로 나뉘어 순차적으로 진행된다.
 1. 테셀레이션 제어 셰이더
-2. 테셀레이션 평가 셰이더
-
-각 셰이더에 대하여 자세히 알아보기 전에, **테셀레이션 기본 도형 생성(Tessellation Primitive Generation, TPG)** 를 알아본다. TPG는 고정된 함수(Fixed Function)로서 
+2. 테셀레이션 기본 도형 생성
+3. 테셀레이션 평가 셰이더
 
 #### 테셀레이션 제어 셰이더
 [테셀레이션 제어 셰이더(Tessellation Control Shader, TCS)](https://www.khronos.org/opengl/wiki/Tessellation_Control_Shader)의 역할은 두 가지가 있다.
-1. 도형에 대한 테셀레이션을 얼만큼 적용할지 판단
+1. 도형에 적용할 테셀레이션 레벨(Tessellation Level)을 판단
 2. 입력 영역 데이터\*에 특수의 변환\*\*을 적용
 
 \* 입력 영역 데이터를 영어로 Input Patch Data라고 하는데, 셰이더에 들어오는 도형의 데이터라고 생각하면 된다.
 
 \*\* 여기서 특수의 변환이란, 입력 영역(Patch)의 사이즈를 변경하던가 또는 정점의 수를 늘리거나 줄이는 것을 뜻한다.
 
-테셀레이션 제어 셰이더는 선택사항이다.
-1. 활성화된 경우 : [[#정점 셰이더]]로부터 데이터를 전달받아 연산을 하고 출력값을  단계로 전달한다. 
-2. 비활성화된 경우 : 데이터는 [[#정점 셰이더]]에서 **테셀레이션 기본 도형 생성(Tessellation Primitive Generation)** 단계로 바로 전달된다 - 이 경우, 테셀레이션이 적용되는 정도는 기본값(Default Value)이 사용된다.
+TCS는 선택사항이다.
+1. 활성화된 경우 : [[#정점 셰이더]]로부터 데이터를 전달받아 연산을 하고 출력값을 TPG로 전달한다.
+2. 비활성화된 경우 : 데이터는 [[#정점 셰이더]]에서 TPG로 전달된다 - 이 경우, 테셀레이션 레벨은 기본값(Default Value)이 사용된다.
+
+#### 테셀레이션 기본 도형 생성
+[테셀레이션 기본 도형 생성(Tessellation Primitive Generation, TPG)](https://www.khronos.org/opengl/wiki/Tessellation#Tessellation_primitive_generation)는 고정된 함수(Fixed Function)로서 주어진 영역(Patch) 안에 몇 개의 정점을 추가/제거할지, 그리고 정점들을 이어서 어떤 기본 도형들을 구현할지 판단한다.
+
+테셀레이션 기본 도형에 대한 위치, 색, 등을 생성하는게 아니기 때문에 TPG가 작업하는 영역을 **추상 영역(Abstract Patch)** 으로 부른다.
+
+TPG는 [[#테셀레이션 평가 셰이더|TES]]가 활성화되는 경우 같이 활성화된다.
 
 #### 테셀레이션 평가 셰이더
-[테셀레이션 평가 셰이더(Tessellation Evaluation Shader, TES)](https://www.khronos.org/opengl/wiki/Tessellation_Evaluation_Shader)는 
+[테셀레이션 평가 셰이더(Tessellation Evaluation Shader, TES)](https://www.khronos.org/opengl/wiki/Tessellation_Evaluation_Shader)는 TPG로부터 전달받은 추상 
 
 
 
