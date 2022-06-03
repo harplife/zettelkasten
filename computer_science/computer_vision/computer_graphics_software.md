@@ -391,7 +391,7 @@ Compute Shaders
 이 섹션에서 파이프라인의 각 단계에 어떤 작업이 이루어지는지 간단히 알아본다.
 
 > ![[opengl_general_pipeline.PNG]]
-> 노란박스는 고정-기능(Fixed Function)을 뜻하고, 파란박스는 프로그래밍 가능한 기능(Programmable Function)을 뜻한다. 그리고 점선(Dotted Line)은 해당 기능이 선택사항임을 뜻한다.
+> 노란박스는 고정-함수(Fixed Function)을 뜻하고, 파란박스는 프로그래밍 가능한 기능(Programmable Function)을 뜻한다. 그리고 점선(Dotted Line)은 해당 기능이 선택사항임을 뜻한다.
 
 참고자료 :
 1. [[graphics_pipeline_lecture_from_penn_university.pdf|Penn University 그래픽스 파이프라인 강의 자료]]
@@ -457,7 +457,7 @@ TCS는 선택사항이다.
 2. 비활성화된 경우 : 데이터는 [[#정점 셰이더]]에서 TPG로 전달된다 - 이 경우, 테셀레이션 레벨은 기본값(Default Value)이 사용된다.
 
 #### 테셀레이션 기본 도형 생성
-[테셀레이션 기본 도형 생성(Tessellation Primitive Generation, TPG)](https://www.khronos.org/opengl/wiki/Tessellation#Tessellation_primitive_generation)는 고정된 함수(Fixed Function)로서 주어진 영역(Patch) 안에 몇 개의 정점을 추가/제거할지, 그리고 정점들을 이어서 어떤 기본 도형들을 구현할지 판단한다.
+[테셀레이션 기본 도형 생성(Tessellation Primitive Generation, TPG)](https://www.khronos.org/opengl/wiki/Tessellation#Tessellation_primitive_generation)는 고정 함수(Fixed Function)로서 주어진 영역(Patch) 안에 몇 개의 정점을 추가/제거할지, 그리고 정점들을 이어서 어떤 기본 도형들을 구현할지 판단한다.
 
 테셀레이션 기본 도형에 대한 위치, 색, 등을 생성하는게 아니기 때문에 TPG가 작업하는 영역을 **추상 영역(Abstract Patch)** 으로 부른다.
 
@@ -491,12 +491,33 @@ TES의 결과값은 기하구조 셰이더(Geometry Shader) 또는 정점 후처
 
 참고 자료 :
 - [Microsoft - 기하구조 셰이더 정리](https://docs.microsoft.com/en-us/windows/uwp/graphics-concepts/geometry-shader-stage--gs-)
+- [learnopengl.com - 기하구조 셰이더 정리 (코드 포함)](https://learnopengl.com/Advanced-OpenGL/Geometry-Shader)
 
 ### 정점 후처리
-정점 후처리(Vertex Post-Processing)
+[정점 후처리(Vertex Post-Processing)](https://www.khronos.org/opengl/wiki/Vertex_Post-Processing)는 정점 셰이더에서 기하구조 셰이더까지 [정점 처리(Vertex Processing)](https://www.khronos.org/opengl/wiki/Vertex_Processing) 작업이 끝난 후 각 정점에 대하여 여러 고정 함수가 적용되는 단계이다 - 데이터를 보기 좋게 연결하거나 잘라내는 작업과, 버퍼에 저장하는 작업을 할 수가 있다.
 
-### 도형 조립
-도형 조립(Primitive Assembly)
+참고 : 정점 처리가 끝나면 정점의 변환(Transform)은 모두 끝났다고 볼 수 있다.
+
+적용되는 사항들은
+1. Primitive Assembly
+2. Transform Feedback
+3. Clipping
+4. Face Culling
+
+#todo 각 후처리 프로세스에 대한 자세한 정리는 나중에 한다.
+
+#### Primitive Assembly
+[기본 도형 조립(Primitive Assembly)](https://www.khronos.org/opengl/wiki/Primitive_Assembly)은 여러 도형들을 합치는 단계이다. 기하구조 셰이더하고 많이 유사한데, 기하구조 셰이더는 이펙트 또는 유저의 편의를 위해 사용되는 반면, 기본 도형 조립은 전체 3차 모델을 "조립"하는 필수적인 프로세스이다.
+
+테셀레이션 또는 기하구조 셰이더가 활성화된 경우, 기본 도형 조립은 제한된(Limited) 형태로 진행된다.
+
+조립이 끝난 정점 데이터는 변환 피드백(Transform Feedback)으로 넘어간다. 기본 도형 조립에서 파이프라인을 중단시킬 수 있으며, 중단 시 바로 변환 피드백(Transform Feedback)으로 넘어간다.
+
+#### 변환 피드백
+[변환 피드백(Transform Feedback)](https://www.khronos.org/opengl/wiki/Transform_Feedback)은 정점 처리가 끝난 데이터를 버퍼에 저장하는 단계이다.
+
+#### 클리핑
+[클리핑(Clipping)](https://www.khronos.org/opengl/wiki/Vertex_Post-Processing#Clipping)은 
 
 ### 래스터화
 래스터화(Rasterization)
