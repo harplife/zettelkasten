@@ -34,7 +34,8 @@
     "Shaders",
     "OpenGL",
     "Wireframe",
-    "shader"
+    "shader",
+    "Rasterization"
   ],
   "legacyEditor": true,
   "livePreview": true,

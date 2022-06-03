@@ -409,7 +409,7 @@ Compute Shaders
 
 정점 셰이더는 각 정점에 대하여 한번씩 실행된다. 예를 들어, 3개의 정점이 있는 삼각형 모델이 있다면, 정점 셰이더는 3번 실행된다.
 
-### 테셀레이션 셰이더
+### 테셀레이션
 [테셀레이션(Tessellation)](https://www.khronos.org/opengl/wiki/Tessellation)은 여러 정점으로 이루어진 특정 영역(Patch) 안에 작은 기본 도형으로 채우는 작업을 뜻한다. 쉽게 이해하자면, 도형 안에 더 작은 도형들로 채우는 작업이다.
 
 테셀레이션은 주로 모델의 품질을 높이는데 사용된다. 예를 들어,
@@ -466,7 +466,19 @@ TES의 결과값은 기하구조 셰이더(Geometry Shader) 또는 정점 후처
 ### 기하구조 셰이더
 [기하구조 셰이더(Geometry Shader)](https://www.khronos.org/opengl/wiki/Geometry_Shader)는 하나 또는 서로 인접(Adjacent)한 여러 개의 기본 도형을 입력받아 하나 이상의 새로운 기본 도형을 출력하거나 또는 아예 출력하지 않는다.
 
+기하구조 셰이더는 정점 셰이더(또는 테셀레이션 셰이더)와 정점 후처리 사이에 적용될 수 있는 셰이더로, 선택사항이다.
 
+### 정점 후처리
+정점 후처리(Vertex Post-Processing)
 
-### Fragment Shader
-Fragment Shader는 마지막에 실행되는 셰이더로 조명, 거리, 반사 등 여러 속성을 고려하여 픽셀의 색을 결정한다.
+### 도형 조립
+도형 조립(Primitive Assembly)
+
+### 래스터화
+래스터화(Rasterization)
+
+### 조각 셰이더
+조각 셰이더(Fragment Shader)는 조명, 거리, 반사 등 여러 속성을 고려하여 픽셀의 색을 결정한다.
+
+### Per-Sample Processing
+샘플 처리(Per-Sample Processing)
