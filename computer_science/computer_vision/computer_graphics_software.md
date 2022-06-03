@@ -464,7 +464,9 @@ TES가 활성화되어야 전체 테셀레이션이 활성화된다. TES가 비�
 TES의 결과값은 기하구조 셰이더(Geometry Shader) 또는 정점 후처리(Vertex Post-Processing)으로 전달된다.
 
 ### 기하구조 셰이더
-[기하구조 셰이더(Geometry Shader)](https://www.khronos.org/opengl/wiki/Geometry_Shader)
+[기하구조 셰이더(Geometry Shader)](https://www.khronos.org/opengl/wiki/Geometry_Shader)는 하나 또는 서로 인접(Adjacent)한 여러 개의 기본 도형(Primitive)을 입력받아 하나 이상의 새로운 기본도형을 출력하거나 또는 아예 출력하지 않는다.
+
+
 
 ### Fragment Shader
 Fragment Shader는 마지막에 실행되는 셰이더로 조명, 거리, 반사 등 여러 속성을 고려하여 픽셀의 색을 결정한다.
