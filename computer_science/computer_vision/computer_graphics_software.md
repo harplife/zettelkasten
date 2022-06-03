@@ -531,7 +531,7 @@ TES의 결과값은 기하구조 셰이더(Geometry Shader) 또는 정점 후처
 정육각형이 있다면, 6개 표면을 모두 렌더링하는 대신 2차원 화면에 보이는 표면만 유지하고 나머지 표면을 제거한다.
 
 ### 래스터화
-래스터화(Rasterization)
+[래스터화(Rasterization)](https://en.wikipedia.org/wiki/Rasterisation#3D_images)는 
 
 ### 조각 셰이더
 조각 셰이더(Fragment Shader)는 조명, 거리, 반사 등 여러 속성을 고려하여 픽셀의 색을 결정한다.
