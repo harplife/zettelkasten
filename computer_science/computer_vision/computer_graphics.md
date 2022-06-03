@@ -103,3 +103,10 @@ edited: 2022-05-30
 - 표면 렌더링 개요
 - 조명 모델
 - 다각형 음영법
+
+
+# 참고자료
+- [Pixar 논문 모음](https://graphics.pixar.com/library/)
+- [OpenGL 교육 자료](https://learnopengl.com/)
+- [C++ 교육 자료](https://www.learncpp.com/)
+- [Microsoft - Direct X 교육 자료](https://docs.microsoft.com/en-us/windows/uwp/gaming/directx-programming)

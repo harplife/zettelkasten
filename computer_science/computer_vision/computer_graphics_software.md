@@ -393,6 +393,8 @@ Compute Shaders
 > ![[opengl_general_pipeline.PNG]]
 > 노란박스는 고정-함수(Fixed Function)을 뜻하고, 파란박스는 프로그래밍 가능한 기능(Programmable Function)을 뜻한다. 그리고 점선(Dotted Line)은 해당 기능이 선택사항임을 뜻한다.
 
+참고 : 셰이더 중 정점 셰이더와 조각 셰이더만 있어도 충분히 렌더링이 된다.
+
 참고자료 :
 1. [[graphics_pipeline_lecture_from_penn_university.pdf|Penn University 그래픽스 파이프라인 강의 자료]]
 2. [Vulkan 그래픽스 파이프라인 소개](https://vulkan-tutorial.com/Drawing_a_triangle/Graphics_pipeline_basics/Introduction)
@@ -543,7 +545,17 @@ TES의 결과값은 기하구조 셰이더(Geometry Shader) 또는 정점 후처
 [멀티샘플링(Multi-Sampling)](https://www.khronos.org/opengl/wiki/Multisampling)은 [에일리어싱(Aliasing)](https://en.wikipedia.org/wiki/Aliasing)을 처리하는 작업이다.
 
 ### 조각 셰이더
-[조각 셰이더(Fragment Shader)](https://www.khronos.org/opengl/wiki/Fragment_Shader) 또는 **픽셀 셰이더(Pixel Shader)** 는 조명, 거리, 반사 등 여러 속성을 고려하여 조각의 색, 깊이, 
+[조각 셰이더(Fragment Shader)](https://www.khronos.org/opengl/wiki/Fragment_Shader) 또는 **픽셀 셰이더(Pixel Shader)** 는 조명, 거리, 반사 등 여러 속성을 고려하여 조각의 색과 깊이(Depth) 값을 측정한다.
+
+#todo Stencil 값도 나온다는데, 이게 정확히 뭔지는 모르겠다. 이 [자료](https://heinleinsgame.tistory.com/25) 참고
+
+조각 셰이더는 선택사항이며, 조각 셰이더가 사용되지 않는 경우 색은 Undefined, 깊이는 기본 값이 사용된다고 한다.
+
+참고 : 조각 셰이더는 OpenGL 파이프라인 기준으로 마지막 셰이더이다.
 
 ### Per-Sample Processing
-샘플 처리(Per-Sample Processing)
+[Per-Sample Processing, PSP](https://www.khronos.org/opengl/wiki/Per-Sample_Processing)는 OpenGL 파이프라인의 마지막 단계로..
+
+#todo Per-Sample Processing 작업들 정리
+
+이 단계가 끝나면 프레임버퍼(Framebuffer)에 데이터가 전송된다.
