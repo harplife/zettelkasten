@@ -126,15 +126,17 @@ if (err != GLEW_OK) {
 
 참고 : 셰이더를 소스 프로그램에 직접 포함시킬 경우, 각 라인 끝에 newline(`\n`)을 입력해줘야 한다. 아주 귀찮은 작업이고 쉽게 잊을 수 있으니, 따로 파일에 작성하여 읽어오는게 권장된다.
 
+이 정점 셰이더 예시는 아주 간단한 프로그램으로 정점 위치를 줄이고 (도형의 크기를 줄이고) 결과를 고정변수에 담는 작업만 한다.
+
 ```cpp
 // 18 ~ 25행
 static const char* pVS =
 "#version 330\n"
-"layout (location = 0) in vec3 Position;\n"
+"layout (location = 0) in vec3 aPos;\n"
 "\n"
 "void main()\n"
 "{\n"
-"    gl_Position = vec4(Position*0.1, 1.0);\n"
+"    gl_Position = vec4(aPos*0.1, 1.0);\n"
 "}";
 ```
 
@@ -142,5 +144,14 @@ static const char* pVS =
 `#version 330` : C 언어와 유사하게 선행처리기 지시어 문장을 사용하는데, 이로서 GLSL의 버전을 명시한다. 여기선 GLSL 3.3버전을 사용한다.
 
 ##### 레이아웃 한정자
-`layout (location = 0) in vec3 Position` : [레이아웃 한정자(Layout Qualifier)](https://www.khronos.org/opengl/wiki/Layout_Qualifier_(GLSL))로서 
+`layout (location = 0) in vec3 Position` : [레이아웃 한정자(Layout Qualifier)](https://www.khronos.org/opengl/wiki/Layout_Qualifier_(GLSL))로서 OpenGL 프로그램으로부터 전달되는 정점 정보가 `vec3`\*로 표현되는 전역변수 `aPos`에 입력됨과 이 정보의 인덱스가 0번임을 알린다.
+
+\* `vec3` : [[computer_graphics_shader#셰이더 데이터 유형]]으로 3개의 `GLfloat` 값이 전달된다 - 이 값들은 각각 순서대로 x, y, z 좌표이다.
+
+#todo 레이아웃 한정자에 대해서 [[computer_graphics_shader|셰이더]]에 정리.
+
+##### 정점 정보 처리
+`gl_Position = vec4(aPos*0.1, 1.0)` : 메인 함수에서 `aPos`에 입력된 정점 좌표를 처리하여 `gl_Position`를 통해 다음 파이프라인 단계로 전달한다.
+
+`gl_Position`은 OpenGL로 미리 정의된 변수(Predefined Variable)이며, 정점의 위치 값을 가지고 파이프라인 사이에 전달되는 중요한 변수이다.
 

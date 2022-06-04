@@ -172,25 +172,65 @@
           }
         },
         "pane-relief:history-v1": {
-          "pos": 1,
+          "pos": 0,
           "stack": [
             {
               "leaf": "a7b51e81055e1c79",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/OpenGL/opengl_examples_knou.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":32,\"ch\":0},\"to\":{\"line\":32,\"ch\":0}},\"scroll\":23.228570774623332}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_software.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":368,\"ch\":60},\"to\":{\"line\":368,\"ch\":60}},\"scroll\":361.53569674492445}"
+            },
+            {
+              "leaf": "a7b51e81055e1c79",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_shader.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":5},\"to\":{\"line\":1,\"ch\":5}}}"
+            },
+            {
+              "leaf": "a7b51e81055e1c79",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_hardware.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "a7b51e81055e1c79",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_shader.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":15},\"to\":{\"line\":24,\"ch\":15}},\"scroll\":0}"
             },
             {
               "leaf": "a7b51e81055e1c79",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_software.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":371,\"ch\":113},\"to\":{\"line\":371,\"ch\":113}},\"scroll\":362.7857047830476}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":361,\"ch\":0},\"to\":{\"line\":361,\"ch\":0}},\"scroll\":338.46430274419004}"
             },
             {
               "leaf": "a7b51e81055e1c79",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_hardware.md\",\"mode\":\"source\"}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ce356a51170aeb3c",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "computer_science/computer_vision/computer_graphics_shader.md",
+            "mode": "source"
+          }
+        },
+        "pane-relief:history-v1": {
+          "pos": 0,
+          "stack": [
+            {
+              "leaf": "ce356a51170aeb3c",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_shader.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":26,\"ch\":0},\"to\":{\"line\":26,\"ch\":0}},\"scroll\":16.928571428571434}"
             }
           ]
         }
@@ -212,7 +252,7 @@
               "leaf": "55b7c2e1058af1b9",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/OpenGL/opengl_examples_knou.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":24.857142463022345}"
+              "eState": "{\"scroll\":122.39286146845136}"
             }
           ]
         }
@@ -334,14 +374,14 @@
   "active": "55b7c2e1058af1b9",
   "lastOpenFiles": [
     "computer_science/OpenGL/opengl_examples_knou.md",
+    "computer_science/computer_vision/computer_graphics_shader.md",
     "computer_science/computer_vision/computer_graphics_software.md",
+    "computer_science/computer_vision/computer_graphics_hardware.md",
+    "computer_science/computer_vision/color_filter_array.md",
     "computer_science/discrete_math/propositional_logic.md",
     "computer_science/discrete_math/discrete_math_knou_note.md",
     "computer_science/OpenGL/visual_studio_graphics_setup_w_freeglut_n_glew.md",
     "computer_science/computer_vision/computer_graphics.md",
-    "computer_science/computer_vision/computer_graphics_hardware.md",
-    "color_theory/color_theory.md",
-    "todo/todo_log_2022.md",
-    "todo/general_todos.md"
+    "color_theory/color_theory.md"
   ]
 }
