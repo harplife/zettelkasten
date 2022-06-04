@@ -205,14 +205,14 @@
             {
               "leaf": "a7b51e81055e1c79",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/OpenGL/visual_studio_graphics_setup_w_freeglut_n_glew.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/OpenGL/opengl_examples_knou.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":34,\"ch\":4},\"to\":{\"line\":34,\"ch\":4}},\"scroll\":23.228570774623332}"
             },
             {
               "leaf": "a7b51e81055e1c79",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_software.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":549.0714196392497}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":563,\"ch\":44},\"to\":{\"line\":563,\"ch\":44}},\"scroll\":234.48214071958927}"
             },
             {
               "leaf": "a7b51e81055e1c79",
@@ -224,12 +224,12 @@
         }
       },
       {
-        "id": "ffacba499c90f32c",
+        "id": "55b7c2e1058af1b9",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "computer_science/OpenGL/visual_studio_graphics_setup_w_freeglut_n_glew.md",
+            "file": "computer_science/OpenGL/opengl_examples_knou.md",
             "mode": "source"
           }
         },
@@ -237,10 +237,10 @@
           "pos": 0,
           "stack": [
             {
-              "leaf": "ffacba499c90f32c",
+              "leaf": "55b7c2e1058af1b9",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/OpenGL/visual_studio_graphics_setup_w_freeglut_n_glew.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":5.785714196915528}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/OpenGL/opengl_examples_knou.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":0},\"to\":{\"line\":16,\"ch\":0}}}"
             }
           ]
         }
@@ -388,7 +388,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer_science/OpenGL/visual_studio_graphics_setup_w_freeglut_n_glew.md",
+                "file": "computer_science/OpenGL/opengl_examples_knou.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -424,7 +424,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer_science/OpenGL/visual_studio_graphics_setup_w_freeglut_n_glew.md"
+                "file": "computer_science/OpenGL/opengl_examples_knou.md"
               }
             },
             "pane-relief:history-v1": {
@@ -439,17 +439,17 @@
     "direction": "horizontal",
     "width": 316.5
   },
-  "active": "ffacba499c90f32c",
+  "active": "55b7c2e1058af1b9",
   "lastOpenFiles": [
-    "computer_science/OpenGL/visual_studio_graphics_setup_w_freeglut_n_glew.md",
+    "computer_science/OpenGL/opengl_examples_knou.md",
     "computer_science/computer_vision/computer_graphics_software.md",
+    "computer_science/OpenGL/visual_studio_graphics_setup_w_freeglut_n_glew.md",
     "computer_science/computer_vision/computer_graphics.md",
     "computer_science/computer_vision/computer_graphics_hardware.md",
     "computer_science/discrete_math/propositional_logic.md",
     "computer_science/discrete_math/discrete_math_knou_note.md",
     "color_theory/color_theory.md",
     "todo/todo_log_2022.md",
-    "todo/general_todos.md",
-    "color_theory/thomas_melvill.md"
+    "todo/general_todos.md"
   ]
 }

@@ -1,11 +1,24 @@
+---
+aliases: [OpenGL 프로젝트 셋업 1, OpenGL Project Setup 1, GLEW 및 freeGLUT 연동, Setup using GLEW and freeGLUT]
+tags: [computer_science, computer_vision, computer_graphics, KNOU, study, display, settings, example]
+status: ongoing
+created: 2022-06-04
+edited: 2022-06-04
+---
+
 # GLEW 및 freeGLUT 연동
 이 가이드는 OpenGL 프로젝트를 만들기 위해 필요한 라이브러리(freeGLUT & GLEW)를 설치하고 Visual Studio에 연동하는 방안을 정리한다.
+
+freeGLUT은 윈도를 통한 사용자와의 인터페이스를 제공하기 위해 사용되는 라이브러리다. [[computer_graphics_software#윈도 시스템 관리 라이브러리]] 참고.
+
+GLEW는 OpenGL의 확장 기능을 관리하는 라이브러리다. [[computer_graphics_software#확장 기능 관리 라이브러리]] 참고.
 
 ## 설치
 각 링크로 부터 설치파일 다운로드
 - [freeGLUT 다운로드](https://www.transmissionzero.co.uk/software/freeglut-devel/)
 - [GLEW 다운로드](http://glew.sourceforge.net/)
 
+다운로드한 압축파일들을 풀어줌
 1. `C:\`에 `OpenGL` 폴더 생성
 2. `freeglut-MSVC-3.0.0-2.mp.zip` 압축 해제 -> `freeglut` 폴더가 나옴
 3. `glew-2.1.0-win32.zip` 압축 해제 -> `glew-2.1.0` 폴더가 나옴
@@ -57,7 +70,7 @@
 1. "Configuration Properties" 아래 "Linker" 아래 "Input" 클릭 $\rightarrow$ "Additional Dependencies" 오른쪽 입력칸에 `v` 버튼 클릭 $\rightarrow$ "Edit" 클릭하면 작은 창이 하나 뜸
 2. 상단 입력칸에 `freeglut.lib`와 `glew32.lib` 입력
 
-### 편의 설정
+### 개인 설정
 개인적으로 내가 원하는 설정
 1. "Solutions Explorer" 창에 "Show All Files" 옵션 클릭
 2. 프로젝트 아래 `src` 폴더 생성
@@ -69,3 +82,7 @@
 2. 교재 소스코드 중 `01_OpenGLSample` 폴더 내에 `OpenGLSample.cpp` 파일을 가져옴
 3. 코드에 `#define FREEGLUT_STATIC`과 `#define GLEW_STATIC`는 코멘트 `//` 처리되어야 함
 4. `F5` 눌러서 프로젝트 빌드 후 실행
+
+밑에와 같이 결과가 나와야 함.
+![[01_OpenGLSample_output_console.png]]
+![[01_OpenGLSample_output_window.png]]
