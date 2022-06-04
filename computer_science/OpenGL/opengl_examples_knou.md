@@ -89,13 +89,19 @@ glutCreateWindow("OpenGL Sample");
 - [OpenGL 설명](https://www.opengl.org/resources/libraries/glut/spec3/node16.html)
 
 #### GLEW 초기화
-`GLenum glutInit(int *argcp, char **argv)` : freeGLUT을 초기화하는 함수. 시작 전 최우선적으로 해줘야 함.
+`glutInit()` : GLEW를 초기화하는 함수. GLUT을 초기화한 후 불러줘야 함.
 ```cpp
-// 120행
-glutInit(&argc, argv);
+// 126 ~ 130행
+GLenum err = glewInit();
+if (err != GLEW_OK) {
+    cerr << "오류 - " << glewGetErrorString(err) << endl;
+    return 1;
+}
 ```
 
-#todo 이 초기화 함수는 명령행 인수도 처리할 수 있다?
+`glewInit()` 함수가 실행되면 GLEW가 제대로 초기화 됬는지 상태 코드를 리턴해준다. `GLEW_OK`면 제대로 초기화된 것이고, 아니면 에러다.
 
 참고 자료 :
 - [GLEW 기본 지식](http://glew.sourceforge.net/basic.html)
+
+### 셰이더 프로그램
