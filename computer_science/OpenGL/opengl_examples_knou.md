@@ -12,13 +12,13 @@ edited: 2022-06-04
 ## 프로젝트 설정
 [[visual_studio_graphics_setup_w_freeglut_n_glew|OpenGL 프로젝트 셋업 1]]
 
-## 간단한 삼각형 그리기
+## 간단한 2D 삼각형 그리기
 `01_OpenGLSample` 폴더 아래 `OpenGLSample.cpp`에 대해 정리한다.
 
 이 코드는 4가지 작업을 한다.
 1. OpenGL의 동작 환경을 준비한다 - OpenGL이 윈도 시스템을 통해 사용자와 상호작용할 수 있도록 준비하고, OpenGL의 기능을 활용할 수 있도록 준비한다.
-2. 셰이더의 프로그램을 준비한다.
-3. 그림을 생성하기 위한 준비를 한다. 그림을 구성하는 개체(삼각형)의 정점(Vertex) 데이터를 준비한다.
+2. 그림 그릴 모델을 준비한다 - 개체(삼각형)의 정점(Vertex) 데이터를 준비한다.
+3. 셰이더의 프로그램을 준비한다.
 4. 그림을 그린다 (렌더링).
 
 ### OpenGL 동작 환경 준비
@@ -118,6 +118,12 @@ if (err != GLEW_OK) {
 참고 자료 :
 - [GLEW 기본 지식](http://glew.sourceforge.net/basic.html)
 
+### 모델 데이터 준비
+그림 그리는 대상이 되늰 모델을 준비한다. 이 코드에서 그리는 도형은 2D 삼각형이다.
+
+삼각형을 그리려면 삼각형의 3개 정점의 속성(좌표, 색 등)을 정점 버퍼 객체(Vertex Buffer Object, VBO)에 저장하여 처리한다.
+
+
 ### 셰이더 프로그램밍
 이 코드에서는 [[computer_graphics_software#정점 셰이더]]와 [[computer_graphics_software#조각 셰이더]]가 사용된다.
 
@@ -144,14 +150,20 @@ static const char* pVS =
 `#version 330` : C 언어와 유사하게 선행처리기 지시어 문장을 사용하는데, 이로서 GLSL의 버전을 명시한다. 여기선 GLSL 3.3버전을 사용한다.
 
 ##### 레이아웃 한정자
-`layout (location = 0) in vec3 Position` : [레이아웃 한정자(Layout Qualifier)](https://www.khronos.org/opengl/wiki/Layout_Qualifier_(GLSL))로서 OpenGL 프로그램으로부터 전달되는 정점 정보가 `vec3`\*로 표현되는 전역변수 `aPos`에 입력됨과 이 정보의 인덱스가 0번임을 알린다.
+`layout (location = 0) in vec3 aPos` : [레이아웃 한정자(Layout Qualifier)](https://www.khronos.org/opengl/wiki/Layout_Qualifier_(GLSL))로서 OpenGL 프로그램으로부터 전달되는 정점 정보가 `vec3`\*로 표현되는 전역변수 `aPos`에 입력됨과 이 정보의 인덱스가 0번임을 알린다.
 
-\* `vec3` : [[computer_graphics_shader#셰이더 데이터 유형]]으로 3개의 `GLfloat` 값이 전달된다 - 이 값들은 각각 순서대로 x, y, z 좌표이다.
+\* `vec3` : [[computer_graphics_shader#셰이더 데이터 유형|OpenGL 데이터 유형]]으로 3개의 `GLfloat` 값이 전달된다 - 이 값들은 각각 순서대로 x, y, z 좌표이다.
 
 #todo 레이아웃 한정자에 대해서 [[computer_graphics_shader|셰이더]]에 정리.
 
 ##### 정점 정보 처리
 `gl_Position = vec4(aPos*0.1, 1.0)` : 메인 함수에서 `aPos`에 입력된 정점 좌표를 처리하여 `gl_Position`를 통해 다음 파이프라인 단계로 전달한다.
 
-`gl_Position`은 OpenGL로 미리 정의된 변수(Predefined Variable)이며, 정점의 위치 값을 가지고 파이프라인 사이에 전달되는 중요한 변수이다.
+`gl_Position`은
+1. OpenGL의 [[computer_graphics_shader#고정 변수|OpenGL 고정 변수]]이며, 정점의 위치 값을 가지고 파이프라인 사이에 전달되는 중요한 변수이다.
+2. 3차원 [동차좌표(Homogeneous Coordinates)](https://en.wikipedia.org/wiki/Homogeneous_coordinates)로 x, y, z 그리고 w([사양](https://en.wikipedia.org/wiki/Projective_geometry)) 좌표값들을 가진다.
 
+정점 위치값을 0.1로 곱한 이유는, 래스터화 단계에서 좌표를 `[-1, 1]` 사이에 있는 값으로만 처리되기 때문이다.
+
+#### 조각 셰이더
+hold on

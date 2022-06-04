@@ -32,5 +32,16 @@ Primitive and Mesh Shaders
 Ray Tracing Shaders
 Compute Shaders
 
-## 셰이더 데이터 유형
+## 데이터 유형
 https://www.khronos.org/opengl/wiki/Data_Type_(GLSL)
+
+## 고정 변수
+미리 정의된 변수(Predefined Variable) 또는 고정변수(Built-in Variable)
+
+https://www.khronos.org/opengl/wiki/Built-in_Variable_(GLSL)
+
+## 정점 사양정의
+[정점 사양정의(Vertex Specification)](https://www.khronos.org/opengl/wiki/Vertex_Specification)
+
+### 정점 버퍼 객체
+[정점 버퍼 객체(Vertex Buffer Object, VBO)](https://www.khronos.org/opengl/wiki/Vertex_Specification#Vertex_Buffer_Object)
