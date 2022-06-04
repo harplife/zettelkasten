@@ -25,77 +25,40 @@
 - `C:\OpenGL\glew-2.1.0\bin\Release\Win32\glew32.dll`
 
 ## 프로젝트 설정
+프로젝트 생성 후 속성 페이지 열기
 1. Visual Studio 열기 $\rightarrow$ "Create a new project" 클릭
-2. 프로젝트 유형 선택 ("Empty Project" 선택) 
-3. 프로젝트 이름 및 솔루션 이름 지정 (예: `GraphicsProject` - `Renderer`)
-4. 
+2. 프로젝트 유형 선택 ("Empty Project" 선택) $\rightarrow$ 프로젝트 이름 및 솔루션 이름 지정 (예: `GraphicsProject` - `Renderer`)
+3. C++ 파일 한개 생성 (C++에 대한 프로젝트 속성이 뜨게 하려면 필요)
+4. 프로젝트 속성 페이지를 연다 - "Project" 메뉴 $\rightarrow$  "Properties" 선택
 
-`프로젝트` 메뉴 $\rightarrow$  `속성` 선택하여 프로젝트의 속성 페이지를 연다.
+### 라이브러리 설정
+속성 페이지에서 라이브러리 설정 진행
+1. "Configuration Properties" 아래 "VC++ Directories" 클릭 $\rightarrow$ "Library Directories" 오른쪽 입력칸에 `v` 버튼 클릭 $\rightarrow$ "Edit" 클릭하면 작은 창이 하나 뜸
+2.  작은 창 상단에 "New Line" 버튼 클릭 $\rightarrow$ 라인 오른쪽 끝에 "..." 버튼 클릭
 
---> [구성 속성] -> [VC++ 디렉터리] -> [라이브러리 디렉터리]의 내용을 클릭한 후 우측의 [v]단추를 눌러 <편집...> 클릭
+**< 프로젝트가 x86(즉, Win32)용인 경우 >**
+3. `C:\OpenGL\freeglut\lib` 추가
+4.  `C:\OpenGL\glew-2.1.0\lib\Release\Win32` 추가
 
---> 디렉터리 입력 창을 클릭한 후 그 행의 우측 끝부분을 클릭하여 [...]을 클릭하면 디렉터리를 선택할 수 있음
+**< 프로젝트가 x64용인 경우 >**
+3. `C:\OpenGL\freeglut\lib\x64` 추가
+4. `C:\OpenGL\glew-2.1.0\lib\Release\x64` 추가
 
---> c:\OpenGL\freeglut\lib 디렉터리를 선택
-
---> 동일한 방법으로 c:\OpenGL\glew-2.1.0\lib\Release\Win32 디렉터리를 선택
-
-
-
-**주의 : 프로젝트가 x86(즉, Win32)용인 경우임 만일 x64용으로 플렛폼을 선택하였다면 위의 디렉토리 대신
-
-c:\OpenGL\freeglut\lib\x64와 c:\OpenGL\glew-2.1.0\lib\Release\x64 디렉터리를 선택함
-
-
-
-나. freeglut와 glew 헤더파일을 사용할 수 있도록 설정
-
-
-
-(가)와 동일한 속성 페이지에서
-
---> [구성 속성] -> [C/C++] -> [일반] -> [추가 포함 디렉토리] -> <편집...>
-
-   ※ 주의 : [구성 속성]에서 [C/C++]는 프로젝트에 C++ 소스파일이 한 개 이상 들어 있어야 보임
-
---> 디렉토리 입력 창을 클릭한 후 그 행의 우측 끝부분을 클릭하여 [...]을 클릭하면 디렉터리를 선택할 수 있음
-
---> c:\OpenGL\freeglut\include 디렉터리를 선택
-
---> 동일한 방법으로 c:\OpenGL\glew-2.1.0\include 선택
+### 헤더파일 설정
+속성 페이지에서 헤더파일 설정 진행
+1. "Configuration Properties" 아래 "C/C++" 아래 "General" 클릭 $\rightarrow$ "Additional Include Directories" 오른쪽 입력칸에 `v` 버튼 클릭 $\rightarrow$ "Edit" 클릭하면 작은 창이 하나 뜸
+2. 작은 창 상단에 "New Line" 버튼 클릭 $\rightarrow$ 라인 오른쪽 끝에 "..." 버튼 클릭
+3. `C:\OpenGL\freeglut\include` 추가
+4. `C:\OpenGL\glew-2.1.0\include` 추가
 
 
-
-다. freeglut와 glew 라이브러리를 사용할 수 있도록 설정
-
-
-
-(가)와 동일한 속성 페이지에서
-
---> [구성] -> [링커] -> [입력] -> [추가 종속성] -> <편집...>
-
---> 아래의 라이브러리 파일 이름을 입력
-
-freeglut.lib
-
-glew32.lib
+### 의존성 설정
+속성 페이지에서 freeGLUT & GLEW 라이브러리를 사용할 수 있도록 설정
+1. "Configuration Properties" 아래 "Linker" 아래 "Input" 클릭 $\rightarrow$ "Additional Dependencies" 오른쪽 입력칸에 `v` 버튼 클릭 $\rightarrow$ "Edit" 클릭하면 작은 창이 하나 뜸
+2. 상단 입력칸에 `freeglut.lib`와 `glew32.lib` 입력
 
 
-
-3. 프로젝트에서 소스파일을 작성한다.
-
-** 교재의 프로그램에서 다음 두 문장은 삭제(또는 //로 코멘트로 처리)하고 사용함
-
-
-
-  #define FREEGLUT_STATIC
-
-  #define GLEW_STATIC
-
-
-
-4. 프로젝트를 빌드한 후 실행한다.
-
-
-
-첨부파일 출처
+## 테스트
+1. 교재 소스코드 중 `01_OpenGLSample` 폴더 내에 `OpenGLSample.cpp` 파일을 가져옴
+2. 코드에 `#define FREEGLUT_STATIC`과 `#define GLEW_STATIC`는 코멘트 `//` 처리되어야 함
+3. `F5` 눌러서 프로젝트 빌드 후 실행
