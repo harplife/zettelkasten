@@ -154,8 +154,15 @@ static void InitVBOs()
 
 참고 : [OpenGL - glGenBuffers](https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGenBuffers.xhtml)
 
-`void glBindBuffer(GLenum target, GLuint buffer)` : 
+`void glBindBuffer(GLenum target, GLuint buffer)` : 생성된 버퍼의 목적을 정의하는 함수라고 볼 수 있다. `GL_ARRAY_BUFFER`는 정점 속성(Vertex Attributes)을 뜻하는 버퍼이며 고정변수이다 - #todo `VBO` 변수와 바인딩된다?
 
+참고 : [OpenGL - glBindBuffer](https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glBindBuffer.xhtml)
+
+`void glBufferData(GLenum target, GLsizeiptr size, const void * data, GLenum usage)` : 생성되고 바인딩까지한 버퍼 객체에 정점 데이터를 넣어준다.
+
+여기서 `usuage`는 버퍼 데이터의 용도를 GPU에게 힌트해주고, GPU는 이 힌트에 따라서 데이터의 Read & Write에 대한 최적화를 한다. `GL_STATIC_DRAW`은 데이터가 1번만 변환되고 자주 사용됨을 뜻한다.
+
+참고 : [OpenGL - glBufferData](https://www.khronos.org/registry/OpenGL-Refpages/es1.1/xhtml/glBufferData.xml)
 
 ### 셰이더 프로그램밍
 이 코드에서는 [[computer_graphics_software#정점 셰이더]]와 [[computer_graphics_software#조각 셰이더]]가 사용된다.
@@ -168,7 +175,6 @@ static void InitVBOs()
 이 정점 셰이더 예시는 아주 간단한 프로그램으로 정점 위치를 줄이고 (도형의 크기를 줄이고) 결과를 고정변수에 담는 작업만 한다.
 
 ```cpp
-// 18 ~ 25행
 static const char* pVS =
 "#version 330\n"
 "layout (location = 0) in vec3 aPos;\n"
