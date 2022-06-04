@@ -45,3 +45,5 @@ https://www.khronos.org/opengl/wiki/Built-in_Variable_(GLSL)
 
 ### 정점 버퍼 객체
 [정점 버퍼 객체(Vertex Buffer Object, VBO)](https://www.khronos.org/opengl/wiki/Vertex_Specification#Vertex_Buffer_Object)
+
+참고 : [버퍼 객체](https://www.khronos.org/opengl/wiki/Buffer_Object)에 지정된 값은 GPU 메모리에 저장된다.

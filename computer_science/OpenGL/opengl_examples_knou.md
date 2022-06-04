@@ -121,7 +121,9 @@ if (err != GLEW_OK) {
 ### 모델 데이터 준비
 그림 그리는 대상이 되늰 모델을 준비한다. 이 코드에서 그리는 도형은 2D 삼각형이다.
 
-삼각형을 그리려면 삼각형의 3개 정점의 속성(좌표, 색 등)을 정점 버퍼 객체(Vertex Buffer Object, VBO)에 저장하여 처리한다.
+삼각형을 그리려면 삼각형의 3개 정점의 속성(좌표, 색 등)을 [[computer_graphics_shader#정점 버퍼 객체|정점 버퍼 객체(VBO)]]에 저장하여 처리한다.
+
+`void glGenBuffers(GLsizei n, GLuint * buffers)` : 
 
 
 ### 셰이더 프로그램밍
