@@ -24,21 +24,21 @@ edited: 2022-06-04
 ### OpenGL 동작 환경 준비
 OpenGL 동작 환경 준비하기 앞서, freeGLUT과 GLEW를 사용하기 위한 헤더파일을 포함시킨다 (4, 5행은 정적 연결 라이브러리를 사용하게 한다).
 ```cpp
-// 6, 7행
 #include <gl/glew.h>
 #include <gl/freeglut.h>
 ```
 
-본격적인 OpenGL 동작 환경 준비는 메인 함수(118~142행) 안에서 진행된다.
+본격적인 OpenGL 동작 환경 준비는 `main()` 함수 안에서 진행된다.
 
 ```cpp
-// 120 ~ 130행
+// GLUT 초기화
 glutInit(&argc, argv);
 glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
 glutInitWindowPosition(50, 100);
 glutInitWindowSize(640, 480);
 glutCreateWindow("OpenGL Sample");
 
+// GLEW 초기화
 GLenum err = glewInit();
 if (err != GLEW_OK) {
     cerr << "오류 - " << glewGetErrorString(err) << endl;
@@ -49,9 +49,14 @@ if (err != GLEW_OK) {
 #### GLUT 초기화
 `void glutInit(int *argcp, char **argv)` : freeGLUT을 초기화하는 함수. 시작 전 최우선적으로 해줘야 함.
 ```cpp
-// 120행
-glutInit(&argc, argv);
+int main(int argc, char** argv)
+{
+    glutInit(&argc, argv);
+    // ..
+}
 ```
+
+#todo argc, argv 가 뭔지?
 
 #todo 이 초기화 함수는 명령행 인수도 처리할 수 있다?
 
@@ -61,7 +66,6 @@ glutInit(&argc, argv);
 #### 디스플레이 설정
 `void glutInitDisplayMode(unsigned int mode)` : 디스플레이 방식 옵션을 지정하는 함수. 
 ```cpp
-// 121행
 glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
 ```
 
@@ -82,7 +86,6 @@ glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
 `void glutInitWindowSize(int width, int height)` : 윈도의 크기를 지정한다.
 
 ```cpp
-// 122, 123행
 glutInitWindowPosition(50, 100);
 glutInitWindowSize(640, 480);
 ```
@@ -93,7 +96,6 @@ glutInitWindowSize(640, 480);
 #### 윈도 생성
 `int glutCreateWindow(char *name)` : 윈도를 생성하는 함수. 인수에 들어가는 문자열은 윈도의 제목 막대(Title Bar)에 들어간다.
 ```cpp
-// 124행
 glutCreateWindow("OpenGL Sample");
 ```
 
@@ -105,7 +107,6 @@ glutCreateWindow("OpenGL Sample");
 #### GLEW 초기화
 `glutInit()` : GLEW를 초기화하는 함수. GLUT을 초기화한 후 불러줘야 함.
 ```cpp
-// 126 ~ 130행
 GLenum err = glewInit();
 if (err != GLEW_OK) {
     cerr << "오류 - " << glewGetErrorString(err) << endl;
@@ -126,7 +127,6 @@ if (err != GLEW_OK) {
 
 이 코드는 삼각형의 3개 정점의 좌표를 [[computer_graphics_shader#정점 버퍼 객체|정점 버퍼 객체(VBO)]]에 저장하여 처리한다.
 ```cpp
-// 9 ~ 13행
 // 1) 3차원 좌표를 표현하기 위한 구조체 정의
 struct Vec3f {
     float x, y, z;
@@ -134,22 +134,19 @@ struct Vec3f {
     Vec3f(float _x, float _y, float _z) : x(_x), y(_y), z(_z) { }
 };
 
-// 15, 16행
 // 2) 정점 버퍼 객체 선언
-enum { TRIANGLE, N_VBOs };
-GLuint VBO[N_VBOs];
+unsigned int VBO;
 
-// 106 ~ 116행
 // 3) 정점 버퍼 객체 초기화
 static void InitVBOs()
 {
-    Vec3f Vertices[3]; // 삼각형 정점 데이터
+    Vec3f Vertices[3];
     Vertices[0] = Vec3f(-5.0f, -5.0f, 0.0f);
     Vertices[1] = Vec3f(5.0f, -5.0f, 0.0f);
     Vertices[2] = Vec3f(0.0f, 5.0f, 0.0f);
-    // 정점 버퍼 생성 및 정점 좌표 입력
-    glGenBuffers(N_VBOs, VBO);
-    glBindBuffer(GL_ARRAY_BUFFER, VBO[TRIANGLE]);
+    // 꼭짓점 버퍼를 생성하여 삼각형의 꼭짓점 좌표 전달
+    glGenBuffers(1, &VBO);
+    glBindBuffer(GL_ARRAY_BUFFER, VBO);
     glBufferData(GL_ARRAY_BUFFER, sizeof(Vertices), Vertices, GL_STATIC_DRAW);
 }
 ```
