@@ -232,7 +232,7 @@ OpenGL을 배울 필요가 없을까? 딱히 그런것은 아니다 - OpenGL을 
 ### 확장 기능 관리 라이브러리
 OpenGL은 Cross Platform(다중 플랫폼 호환)이기 때문에 OpenGL 자체 코어(Core) 기능 외 각 그래픽스 하드웨어 공급업체 전용 기능(Vendor Specific Extension)들도 제공한다. 이러한 기능이 다수의 업체에 폭넓게 수용되면 EXT 확장 기능으로 인정되고, ARB(Architecture Review Board)에 승인 하에 ARB 확장 기능으로 인정된다. 이렇게 승인된 확장 기능 중 유용한 기능들은 다음 버전 OpenGL의 코어 기능으로 포함될 수 있다.
 
-프로그래머가 어떤 확장 기능을 사용할 수 있는지 관리하는 것은 어렵기 때문에, 이러한 어려움을 덜어주는 라이브러리들이 있다.
+프로그래머가 어떤 확장 기능을 사용할 수 있는지 관리하는 것은 어렵기 때문에, 이러한 어려움을 덜어주는 [확장 기능 관리 라이브러리(OpenGL Loading Library)](https://www.khronos.org/opengl/wiki/OpenGL_Loading_Library)들이 있다.
 1. [GLEW (OpenGL Extension Wrangler)](http://glew.sourceforge.net/)
 2. [GLEE (OpenGL Easy Extension)](https://www.opengl.org/sdk/libs/GLee/)
 

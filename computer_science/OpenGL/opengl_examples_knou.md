@@ -31,8 +31,8 @@ freeGLUT과 GLEW를 사용하기 위한 헤더파일을 포함시킨다 (4, 5행
 
 **메인 함수는 118행에 시작된다.**
 
-#### 초기화
-`glutInit()` : freeGLUT을 초기화하는 함수. 시작 전 최우선적으로 해줘야 함.
+#### GLUT 초기화
+`void glutInit(int *argcp, char **argv)` : freeGLUT을 초기화하는 함수. 시작 전 최우선적으로 해줘야 함.
 ```cpp
 // 120행
 glutInit(&argc, argv);
@@ -44,13 +44,13 @@ glutInit(&argc, argv);
 - [OpenGL 설명](https://www.opengl.org/resources/libraries/glut/spec3/node10.html)
 
 #### 디스플레이 설정
-`glutInitDisplayMode()` : 디스플레이 방식 옵션을 지정하는 함수. 
+`void glutInitDisplayMode(unsigned int mode)` : 디스플레이 방식 옵션을 지정하는 함수. 
 ```cpp
 // 121행
 glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
 ```
 
-참고 : `|`는 논리합(`bitwise or`)이다 ([SO 참고](https://stackoverflow.com/a/17366923)). 한 마디로, 여러 
+참고 : `|`는 논리합(`bitwise or`)이다 ([SO 참고](https://stackoverflow.com/a/17366923)). #todo 인수(Argument)로 논리합 값을 받는게 자주 사용되나?
 
 위 코드는 하나의 재생 버퍼가 사용됨과 [[color_theory#RGB 색 모델]]이 사용됨을 지정한다. 원래 이 설정은 기본(Default)이다.
 
@@ -59,12 +59,43 @@ glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
 참고 자료 :
 - [OpenGL 설명](https://www.opengl.org/resources/libraries/glut/spec3/node12.html)
 
-#### 디스플레이 위치
-`glutInitWindowPosition()` : 윈도의 좌상단(Leftmost Upper Corner)의 초기위치를 지정하는 함수.
+#### 윈도 위치와 사이즈
+`void glutInitWindowPosition(int x, int y)` : 윈도의 좌상단(Leftmost Upper Corner)의 초기위치(x, y)를 지정하는 함수.
+
+이 함수는 정수(Integer)만 받으며 화면 좌상단 좌표(0, 0)로부터 픽셀 단위로 위치를 지정한다. 위 코드는 창의 위치를 좌표(50, 100)로 지정한다.
+
+`void glutInitWindowSize(int width, int height)` : 윈도의 크기를 지정한다.
 
 ```cpp
 // 122행
 glutInitWindowPosition(50, 100);
+// 123행
+glutInitWindowSize(640, 480);
 ```
 
-이 함수는 정수(Integer)만 받으며 스크린 좌상단 좌표(0, 0) 기준으로 
+참고 자료 :
+- [OpenGL 설명](https://www.opengl.org/resources/libraries/glut/spec3/node11.html)
+
+#### 윈도 생성
+`int glutCreateWindow(char *name)` : 윈도를 생성하는 함수. 인수에 들어가는 문자열은 윈도의 제목 막대(Title Bar)에 들어간다.
+```cpp
+// 124행
+glutCreateWindow("OpenGL Sample");
+```
+
+실제로 윈도가 화면에 그려지는 것은 아니다.
+
+참고 자료 :
+- [OpenGL 설명](https://www.opengl.org/resources/libraries/glut/spec3/node16.html)
+
+#### GLEW 초기화
+`void glutInit(int *argcp, char **argv)` : freeGLUT을 초기화하는 함수. 시작 전 최우선적으로 해줘야 함.
+```cpp
+// 120행
+glutInit(&argc, argv);
+```
+
+#todo 이 초기화 함수는 명령행 인수도 처리할 수 있다?
+
+참고 자료 :
+- [OpenGL 설명](https://www.opengl.org/resources/libraries/glut/spec3/node10.html)
