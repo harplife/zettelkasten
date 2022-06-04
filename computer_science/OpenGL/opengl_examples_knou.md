@@ -142,5 +142,5 @@ static const char* pVS =
 `#version 330` : C 언어와 유사하게 선행처리기 지시어 문장을 사용하는데, 이로서 GLSL의 버전을 명시한다. 여기선 GLSL 3.3버전을 사용한다.
 
 ##### 레이아웃 한정자
-
+`layout (location = 0) in vec3 Position` : 
 
