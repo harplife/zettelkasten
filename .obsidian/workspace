@@ -184,7 +184,7 @@
               "leaf": "a7b51e81055e1c79",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_software.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":254,\"ch\":0},\"to\":{\"line\":254,\"ch\":0}},\"scroll\":244.9285798072981}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":316,\"ch\":76},\"to\":{\"line\":316,\"ch\":76}},\"scroll\":298.4091122712193}"
             },
             {
               "leaf": "a7b51e81055e1c79",
@@ -212,7 +212,7 @@
               "leaf": "55b7c2e1058af1b9",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/OpenGL/opengl_examples_knou.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":70.31818178961093}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":88,\"ch\":11},\"to\":{\"line\":88,\"ch\":11}},\"scroll\":75.57142848627905}"
             }
           ]
         }
@@ -334,10 +334,10 @@
   "active": "55b7c2e1058af1b9",
   "lastOpenFiles": [
     "computer_science/OpenGL/opengl_examples_knou.md",
+    "computer_science/computer_vision/computer_graphics_software.md",
     "computer_science/discrete_math/propositional_logic.md",
     "computer_science/discrete_math/discrete_math_knou_note.md",
     "computer_science/OpenGL/visual_studio_graphics_setup_w_freeglut_n_glew.md",
-    "computer_science/computer_vision/computer_graphics_software.md",
     "computer_science/computer_vision/computer_graphics.md",
     "computer_science/computer_vision/computer_graphics_hardware.md",
     "color_theory/color_theory.md",

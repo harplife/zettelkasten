@@ -314,6 +314,7 @@ OpenGL에서 사용하는 8가지 자료형을 밑에 표로 정리했다.
 | GLushort                   | 16bit unsigned integer |     us     |
 | GLuint, GLenum, GLbitfield | 32bit unsigned integer |     ui     |
 
+그 외 자료형은 [OpenGL 자료형 링크](https://www.khronos.org/opengl/wiki/OpenGL_Type) 참고
 
 ### OpenGL 기본 도형
 일반적으로 점, 선, 삼각형 등 가장 간단한 도형을 [기하학적 기본 도형(Geometric Primitives)](https://en.wikipedia.org/wiki/Geometric_primitive)이라고 한다.
