@@ -121,17 +121,17 @@ if (err != GLEW_OK) {
 
 ### 모델 데이터 준비
 그림 그리는 대상이 되는 모델을 준비하기 위해 밑에와 같은 작업을 한다.
-1. 3차원 좌표를 표현하기 위한 구조체 정의
+1. 모델의 정점 데이터 준비
 2. 정점 버퍼 객체 선언
-3. 정점 버퍼 객체 초기화 (정덤 데이터 입력)
+3. 정점 버퍼 객체 초기화 (정점 데이터 입력)
 
 이 코드는 삼각형의 3개 정점의 좌표를 [[computer_graphics_shader#정점 버퍼 객체|정점 버퍼 객체(VBO)]]에 저장하여 처리한다.
 ```cpp
-// 1) 3차원 좌표를 표현하기 위한 구조체 정의
-struct Vec3f {
-    float x, y, z;
-    Vec3f() { }
-    Vec3f(float _x, float _y, float _z) : x(_x), y(_y), z(_z) { }
+// 1) 모델의 정점 데이터
+float vertices[] = {
+    -0.5f, -0.5f, 0.0f,
+     0.5f, -0.5f, 0.0f,
+     0.0f,  0.5f, 0.0f
 };
 
 // 2) 정점 버퍼 객체 선언
@@ -151,20 +151,13 @@ static void InitVBOs()
 }
 ```
 
-`Vec3f`는 3차원 좌표를 표현하기 위해 만든 구조체(Data Structure)로, 3개의 값을 저장하는 배열이다. 1개의 `Vec3f` 안에 3개의 `Vec3f`를 넣으면, 3x3 행렬(Matrix)가 된다. #todo C++로 자료구조 구현하는 방안을 좀 더 알아봐야겠다.
+`vertices`는 3x3 행렬로 3개의 정점의 3차원 좌표(x, y, z)를 가진다. #todo 여기서 값들이 `[-1, 1]`사이의 값들로 표현된다는 것을 참고한다 - 래스터화와 관련되어 있다.
 
-`TRIANGLE`의 값은 0으로, 그리려는 도형(삼각형)의 이름이 된다.
-
-`N_VBOs`의 값은 1로, 정점 버퍼 객체의 개수를 뜻한다.
-
-`VBO`는 
-
-#todo 왜 여기서 열거형(`enum`)으로 `TRIANGLE`과 `N_VBOs`를 정의했는지 모르겠다. 이거 때문에 엄청 헷갈린다.
-
-`void glGenBuffers(GLsizei n, GLuint * buffers)` : VBO의 핸들(Handle)을 생성하는 함수로서, `n`은 VBO 핸들의 개수, `buffers`는 VBO 핸들을 저장할 배열이다.
+`void glGenBuffers(GLsizei n, GLuint * buffers)` : VBO의 핸들(Handle)을 생성하는 함수로서, `n`은 VBO 핸들의 개수, `buffers`는 VBO 핸들을 저장할 배열이다. 여기서 1개의 버퍼를 생성해서 `VBO` 변수의 인덱스를 받게 해준다.
 
 참고 : [OpenGL - glGenBuffers](https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGenBuffers.xhtml)
 
+`void glBindBuffer(GLenum target, GLuint buffer)` : 
 
 
 ### 셰이더 프로그램밍
