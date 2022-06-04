@@ -121,36 +121,45 @@ if (err != GLEW_OK) {
 ### 모델 데이터 준비
 그림 그리는 대상이 되는 모델을 준비하기 위해 밑에와 같은 작업을 한다.
 1. 3차원 좌표를 표현하기 위한 구조체 정의
-2. 
+2. 정점 버퍼 객체 선언
+3. 정점 버퍼 객체 초기화 (정덤 데이터 입력)
 
+이 코드는 삼각형의 3개 정점의 좌표를 [[computer_graphics_shader#정점 버퍼 객체|정점 버퍼 객체(VBO)]]에 저장하여 처리한다.
 ```cpp
-// 9 ~ 16행
-struct Vec3f {	// 3차원 좌표를 표현하기 위한 구조체
+// 9 ~ 13행
+// 1) 3차원 좌표를 표현하기 위한 구조체 정의
+struct Vec3f {
     float x, y, z;
     Vec3f() { }
     Vec3f(float _x, float _y, float _z) : x(_x), y(_y), z(_z) { }
 };
 
+// 15, 16행
+// 2) 정점 버퍼 객체 선언
 enum { TRIANGLE, N_VBOs };
-GLuint VBO[N_VBOs];			// 꼭짓점 버퍼 객체
+GLuint VBO[N_VBOs];
 
 // 106 ~ 116행
+// 3) 정점 버퍼 객체 초기화
 static void InitVBOs()
 {
-    Vec3f Vertices[3];		//삼각형의 꼭짓점 좌표
+    Vec3f Vertices[3]; // 삼각형 정점 데이터
     Vertices[0] = Vec3f(-5.0f, -5.0f, 0.0f);
     Vertices[1] = Vec3f(5.0f, -5.0f, 0.0f);
     Vertices[2] = Vec3f(0.0f, 5.0f, 0.0f);
-    // 꼭짓점 버퍼를 생성하여 삼각형의 꼭짓점 좌표 전달
+    // 정점 버퍼 생성 및 정점 좌표 입력
     glGenBuffers(N_VBOs, VBO);
     glBindBuffer(GL_ARRAY_BUFFER, VBO[TRIANGLE]);
     glBufferData(GL_ARRAY_BUFFER, sizeof(Vertices), Vertices, GL_STATIC_DRAW);
 }
 ```
 
-삼각형을 그리려면 삼각형의 3개 정점의 속성(좌표, 색 등)을 [[computer_graphics_shader#정점 버퍼 객체|정점 버퍼 객체(VBO)]]에 저장하여 처리한다.
+`void glGenBuffers(GLsizei n, GLuint * buffers)` : VBO의 핸들(Handle)을 생성하는 함수로서, `n`은 VBO 핸들의 개수, `buffers`는 VBO 핸들을 저장할 배열이다.
 
-`void glGenBuffers(GLsizei n, GLuint * buffers)` : 
+
+
+참고 : [OpenGL - glGenBuffers](https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGenBuffers.xhtml)
+
 
 
 ### 셰이더 프로그램밍
