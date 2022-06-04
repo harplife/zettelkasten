@@ -12,18 +12,25 @@
 4. 두 폴더를 `C:\OpenGL\`로 옮겨줌
 
 ## DLL 설치
+방통대 교제에서 개발 PC 시스템 설정에 맞추어 하란 말이 없어서, 일단 밑에 둘 다 적용해줌.
+
+### 64 bit 시스템
 `C:\Windows\System32\` 경로로 밑에 두 파일을 복사해줌
 - `C:\OpenGL\freeglut\bin\x64\freeglut.dll`
 - `C:\OpenGL\glew-2.1.0\bin\Release\x64\glew32.dll`
 
+### 32 bit 시스템
 `C:\Windows\SysWOW64` 경로로 밑에 두 파일을 복사해줌
-- `C:\OpenGL\glew-2.1.0\bin\Release\Win32\glew32.dll`
 - `C:\OpenGL\freeglut\bin\freeglut.dll`
+- `C:\OpenGL\glew-2.1.0\bin\Release\Win32\glew32.dll`
 
 ## 프로젝트 설정
-1. 
+1. Visual Studio 열기 $\rightarrow$ "Create a new project" 클릭
+2. 프로젝트 유형 선택 ("Empty Project" 선택) 
+3. 프로젝트 이름 및 솔루션 이름 지정 (예: `GraphicsProject` - `Renderer`)
+4. 
 
-`프로젝트` 메뉴 $\rightarrow$  `속성` 선택(단축키 : Alt-F7)하여 프로젝트의 속성 페이지를 연다.
+`프로젝트` 메뉴 $\rightarrow$  `속성` 선택하여 프로젝트의 속성 페이지를 연다.
 
 --> [구성 속성] -> [VC++ 디렉터리] -> [라이브러리 디렉터리]의 내용을 클릭한 후 우측의 [v]단추를 눌러 <편집...> 클릭
 
