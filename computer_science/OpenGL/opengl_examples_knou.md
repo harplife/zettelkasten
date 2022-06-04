@@ -119,7 +119,34 @@ if (err != GLEW_OK) {
 - [GLEW 기본 지식](http://glew.sourceforge.net/basic.html)
 
 ### 모델 데이터 준비
-그림 그리는 대상이 되늰 모델을 준비한다. 이 코드에서 그리는 도형은 2D 삼각형이다.
+그림 그리는 대상이 되는 모델을 준비하기 위해 밑에와 같은 작업을 한다.
+1. 3차원 좌표를 표현하기 위한 구조체 정의
+2. 
+
+```cpp
+// 9 ~ 16행
+struct Vec3f {	// 3차원 좌표를 표현하기 위한 구조체
+    float x, y, z;
+    Vec3f() { }
+    Vec3f(float _x, float _y, float _z) : x(_x), y(_y), z(_z) { }
+};
+
+enum { TRIANGLE, N_VBOs };
+GLuint VBO[N_VBOs];			// 꼭짓점 버퍼 객체
+
+// 106 ~ 116행
+static void InitVBOs()
+{
+    Vec3f Vertices[3];		//삼각형의 꼭짓점 좌표
+    Vertices[0] = Vec3f(-5.0f, -5.0f, 0.0f);
+    Vertices[1] = Vec3f(5.0f, -5.0f, 0.0f);
+    Vertices[2] = Vec3f(0.0f, 5.0f, 0.0f);
+    // 꼭짓점 버퍼를 생성하여 삼각형의 꼭짓점 좌표 전달
+    glGenBuffers(N_VBOs, VBO);
+    glBindBuffer(GL_ARRAY_BUFFER, VBO[TRIANGLE]);
+    glBufferData(GL_ARRAY_BUFFER, sizeof(Vertices), Vertices, GL_STATIC_DRAW);
+}
+```
 
 삼각형을 그리려면 삼각형의 3개 정점의 속성(좌표, 색 등)을 [[computer_graphics_shader#정점 버퍼 객체|정점 버퍼 객체(VBO)]]에 저장하여 처리한다.
 
