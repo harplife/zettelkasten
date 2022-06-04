@@ -12,7 +12,7 @@ edited: 2022-06-04
 ## 프로젝트 설정
 [[visual_studio_graphics_setup_w_freeglut_n_glew|OpenGL 프로젝트 셋업 1]]
 
-## 샘플 1 정리
+## 간단한 삼각형 그리기
 `01_OpenGLSample` 폴더 아래 `OpenGLSample.cpp`에 대해 정리한다.
 
 이 코드는 4가지 작업을 한다.
@@ -22,14 +22,29 @@ edited: 2022-06-04
 4. 그림을 그린다 (렌더링).
 
 ### OpenGL 동작 환경 준비
-freeGLUT과 GLEW를 사용하기 위한 헤더파일을 포함시킨다 (4, 5행은 정적 연결 라이브러리를 사용하게 한다).
+OpenGL 동작 환경 준비하기 앞서, freeGLUT과 GLEW를 사용하기 위한 헤더파일을 포함시킨다 (4, 5행은 정적 연결 라이브러리를 사용하게 한다).
 ```cpp
 // 6, 7행
 #include <gl/glew.h>
 #include <gl/freeglut.h>
 ```
 
-**메인 함수는 118행에 시작된다.**
+본격적인 OpenGL 동작 환경 준비는 메인 함수(118~142행) 안에서 진행된다.
+
+```cpp
+// 120 ~ 130행
+glutInit(&argc, argv);
+glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
+glutInitWindowPosition(50, 100);
+glutInitWindowSize(640, 480);
+glutCreateWindow("OpenGL Sample");
+
+GLenum err = glewInit();
+if (err != GLEW_OK) {
+    cerr << "오류 - " << glewGetErrorString(err) << endl;
+    return 1;
+}
+```
 
 #### GLUT 초기화
 `void glutInit(int *argcp, char **argv)` : freeGLUT을 초기화하는 함수. 시작 전 최우선적으로 해줘야 함.
@@ -67,9 +82,8 @@ glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
 `void glutInitWindowSize(int width, int height)` : 윈도의 크기를 지정한다.
 
 ```cpp
-// 122행
+// 122, 123행
 glutInitWindowPosition(50, 100);
-// 123행
 glutInitWindowSize(640, 480);
 ```
 
@@ -104,4 +118,27 @@ if (err != GLEW_OK) {
 참고 자료 :
 - [GLEW 기본 지식](http://glew.sourceforge.net/basic.html)
 
-### 셰이더 프로그램
+### 셰이더 프로그램밍
+이 코드에서는 [[computer_graphics_software#정점 셰이더]]와 [[computer_graphics_software#조각 셰이더]]가 사용된다.
+
+#### 정점 셰이더
+이 코드에서는 정점 셰이더를 GLSL로 작성하였으며, 소스 프로그램에 직접 포함시켰다.
+
+참고 : 셰이더를 소스 프로그램에 직접 포함시킬 경우, 각 라인 끝에 newline(`\n`)을 입력해줘야 한다. 아주 귀찮은 작업이고 쉽게 잊을 수 있으니, 따로 파일에 작성하여 읽어오는게 권장된다.
+
+```cpp
+// 18 ~ 25행
+static const char* pVS =
+"#version 330\n"
+"layout (location = 0) in vec3 Position;\n"
+"\n"
+"void main()\n"
+"{\n"
+"    gl_Position = vec4(Position*0.1, 1.0);\n"
+"}";
+```
+
+##### 셰이더 언어 버전
+`#version 330` : C 언어와 유사하게 선행처리기 지시어 문장을 사용하는데, 이로서 GLSL의 버전을 명시한다. 여기선 GLSL 3.3버전을 사용한다.
+
+##### 정점 정보 선언

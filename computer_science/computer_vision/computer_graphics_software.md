@@ -369,6 +369,8 @@ OpenGL에서 사용하는 기본 도형들은 밑에 그림을 참고한다.
 
 셰이더를 작성하기 위한 [셰이딩 언어](https://en.wikipedia.org/wiki/Shading_language)가 여러 있는데, 이 중 OpenGL 전용 셰이딩 언어 [GLSL (OpenGL Shading Language)](https://en.wikipedia.org/wiki/OpenGL_Shading_Language)이 있다.
 
+셰이더 프로그램은 문자 배열에 넣어 OpenGL의 셰이더 컴파일 및 링크 함수 등을 이용하여 각 단계의 처리기에 전달되어야 한다. 소스 프로그램에 직접 포함시키기도 하지만, 주로 별도의 파일에 작성하여 읽어드린 후 처리한다.
+
 참고자료 :
 1. [그래픽스 조명(Lighting)](https://en.wikipedia.org/wiki/Computer_graphics_lighting)
 2. [learnopengl.com - Shaders](https://learnopengl.com/Getting-started/Shaders)
