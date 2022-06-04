@@ -140,18 +140,15 @@ unsigned int VBO;
 // 3) 정점 버퍼 객체 초기화
 static void InitVBOs()
 {
-    Vec3f Vertices[3];
-    Vertices[0] = Vec3f(-5.0f, -5.0f, 0.0f);
-    Vertices[1] = Vec3f(5.0f, -5.0f, 0.0f);
-    Vertices[2] = Vec3f(0.0f, 5.0f, 0.0f);
-    // 꼭짓점 버퍼를 생성하여 삼각형의 꼭짓점 좌표 전달
     glGenBuffers(1, &VBO);
     glBindBuffer(GL_ARRAY_BUFFER, VBO);
-    glBufferData(GL_ARRAY_BUFFER, sizeof(Vertices), Vertices, GL_STATIC_DRAW);
+    glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
 }
 ```
 
 `vertices`는 3x3 행렬로 3개의 정점의 3차원 좌표(x, y, z)를 가진다. #todo 여기서 값들이 `[-1, 1]`사이의 값들로 표현된다는 것을 참고한다 - 래스터화와 관련되어 있다.
+
+`VBO` : [[computer_graphics_shader#정점 버퍼 객체|정점 버퍼 객체]]가 될 변수이다. 이름이 어떻게 되는 상관은 없다 - 다만, OpenGL이 이 변수가 VBO라는 것을 모르기 때문에 이를 위해 따로 처리를 해줘야 한다.
 
 `void glGenBuffers(GLsizei n, GLuint * buffers)` : VBO의 핸들(Handle)을 생성하는 함수로서, `n`은 VBO 핸들의 개수, `buffers`는 VBO 핸들을 저장할 배열이다. 여기서 1개의 버퍼를 생성해서 `VBO` 변수의 인덱스를 받게 해준다.
 
