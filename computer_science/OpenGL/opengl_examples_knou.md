@@ -154,9 +154,17 @@ static void InitVBOs()
 }
 ```
 
+`Vec3f`는 3차원 좌표를 표현하기 위해 만든 구조체(Data Structure)로, 3개의 값을 저장하는 배열이다. 1개의 `Vec3f` 안에 3개의 `Vec3f`를 넣으면, 3x3 행렬(Matrix)가 된다. #todo C++로 자료구조 구현하는 방안을 좀 더 알아봐야겠다.
+
+`TRIANGLE`의 값은 0으로, 그리려는 도형(삼각형)의 이름이 된다.
+
+`N_VBOs`의 값은 1로, 정점 버퍼 객체의 개수를 뜻한다.
+
+`VBO`는 
+
+#todo 왜 여기서 열거형(`enum`)으로 `TRIANGLE`과 `N_VBOs`를 정의했는지 모르겠다. 이거 때문에 엄청 헷갈린다.
+
 `void glGenBuffers(GLsizei n, GLuint * buffers)` : VBO의 핸들(Handle)을 생성하는 함수로서, `n`은 VBO 핸들의 개수, `buffers`는 VBO 핸들을 저장할 배열이다.
-
-
 
 참고 : [OpenGL - glGenBuffers](https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGenBuffers.xhtml)
 
