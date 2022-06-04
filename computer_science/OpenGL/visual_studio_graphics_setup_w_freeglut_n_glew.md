@@ -28,8 +28,7 @@
 프로젝트 생성 후 속성 페이지 열기
 1. Visual Studio 열기 $\rightarrow$ "Create a new project" 클릭
 2. 프로젝트 유형 선택 ("Empty Project" 선택) $\rightarrow$ 프로젝트 이름 및 솔루션 이름 지정 (예: `GraphicsProject` - `Renderer`)
-3. C++ 파일 한개 생성 (C++에 대한 프로젝트 속성이 뜨게 하려면 필요)
-4. 프로젝트 속성 페이지를 연다 - "Project" 메뉴 $\rightarrow$  "Properties" 선택
+3. 프로젝트 속성 페이지를 연다 - "Project" 메뉴 $\rightarrow$  "Properties" 선택
 
 ### 라이브러리 설정
 속성 페이지에서 라이브러리 설정 진행
@@ -46,10 +45,11 @@
 
 ### 헤더파일 설정
 속성 페이지에서 헤더파일 설정 진행
-1. "Configuration Properties" 아래 "C/C++" 아래 "General" 클릭 $\rightarrow$ "Additional Include Directories" 오른쪽 입력칸에 `v` 버튼 클릭 $\rightarrow$ "Edit" 클릭하면 작은 창이 하나 뜸
-2. 작은 창 상단에 "New Line" 버튼 클릭 $\rightarrow$ 라인 오른쪽 끝에 "..." 버튼 클릭
-3. `C:\OpenGL\freeglut\include` 추가
-4. `C:\OpenGL\glew-2.1.0\include` 추가
+1. C++ 파일 한개 생성 (C++에 대한 프로젝트 속성이 뜨게 하려면 필요)
+2. 속성 페이지 "Configuration Properties" 아래 "C/C++" 아래 "General" 클릭 $\rightarrow$ "Additional Include Directories" 오른쪽 입력칸에 `v` 버튼 클릭 $\rightarrow$ "Edit" 클릭하면 작은 창이 하나 뜸
+3. 작은 창 상단에 "New Line" 버튼 클릭 $\rightarrow$ 라인 오른쪽 끝에 "..." 버튼 클릭
+4. `C:\OpenGL\freeglut\include` 추가
+5. `C:\OpenGL\glew-2.1.0\include` 추가
 
 
 ### 의존성 설정
@@ -57,8 +57,15 @@
 1. "Configuration Properties" 아래 "Linker" 아래 "Input" 클릭 $\rightarrow$ "Additional Dependencies" 오른쪽 입력칸에 `v` 버튼 클릭 $\rightarrow$ "Edit" 클릭하면 작은 창이 하나 뜸
 2. 상단 입력칸에 `freeglut.lib`와 `glew32.lib` 입력
 
+### 편의 설정
+개인적으로 내가 원하는 설정
+1. "Solutions Explorer" 창에 "Show All Files" 옵션 클릭
+2. 프로젝트 아래 `src` 폴더 생성
+3. 프로젝트 속성의 "General"에 "Output Directory" 값을 `$(SolutionDir)\bin\$(Platform)\$(Configuration)\`로 입력
+4. 프로젝트 속성에 "General"에 "Intermediate Directory" 값을 `$(SolutionDir)\bin\intermediates\$(Platform)\$(Configuration)\`로 입력
 
 ## 테스트
-1. 교재 소스코드 중 `01_OpenGLSample` 폴더 내에 `OpenGLSample.cpp` 파일을 가져옴
-2. 코드에 `#define FREEGLUT_STATIC`과 `#define GLEW_STATIC`는 코멘트 `//` 처리되어야 함
-3. `F5` 눌러서 프로젝트 빌드 후 실행
+1. 헤더파일 설정할 때 만들었던 
+2. 교재 소스코드 중 `01_OpenGLSample` 폴더 내에 `OpenGLSample.cpp` 파일을 가져옴
+3. 코드에 `#define FREEGLUT_STATIC`과 `#define GLEW_STATIC`는 코멘트 `//` 처리되어야 함
+4. `F5` 눌러서 프로젝트 빌드 후 실행
