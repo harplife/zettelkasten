@@ -1,12 +1,12 @@
 ---
-aliases: [방통대 OpenGL 코드 예시]
+aliases: [OpenGL 삼각형 그리기, 삼각형 그리기, Draw a Triangle with OpenGL]
 tags: [computer_science, computer_vision, computer_graphics, KNOU, study, display, settings, example]
 status: ongoing
 created: 2022-06-04
 edited: 2022-06-04
 ---
 
-# 방통대 OpenGL 코드 예시
+# OpenGL 삼각형 그리기
 [방통대 교재 코드 참고](https://professor.knou.ac.kr/bbs/brlee/2983/289896/artclView.do?layout=unknown)
 
 ## 프로젝트 설정
@@ -448,19 +448,62 @@ static void RenderCB()
 
 `glClear(GL_COLOR_BUFFER_BIT)` : `glClear`는 버퍼에 있는 값을 초기화할 떄 사용되는 함수이다. `GL_COLOR_BUFFER_BIT`는 색 버퍼(Color Buffer)를 초기화하라고 지정해준다.
 
-##### 버퍼 활성화
+##### 정점 속성 배열 활성화
 `glEnableVertexAttribArray(0)` : 지정 인덱스에 있는 정점 속성(Vertex Attributes) 배열을 활성화한다. 이 인덱스는 정점 셰이더의 [[#레이아웃 한정자]]로 지정했던 `location`값과 연결된다.
 
 소스 프로그램에서 사용할 좌표(`aPos`)의 인덱스가 `0`번이며, 이 인덱스에 해당되는 정점 버퍼(Vertex Buffer)를 셰이더가 사용할 수 있도록 허용해주는 것이다.
 
-기본적(Default)으로 모든 유저 기능(Client-side Capabilities)은 비활성화 되어있다. 이것을 활성화 해주면, 정점 속성 배열에 있는 값들이 
+기본적(Default)으로 모든 유저 기능(Client-side Capabilities)은 비활성화 되어있다. 이것을 활성화 해주면, 정점 속성 배열에 있는 값들이 렌더링할 때 사용될 수 있게 된다.
 
 참고 : [OpenGL - glEnableVertexAttribArray](https://www.khronos.org/registry/OpenGL-Refpages/gl2.1/xhtml/glEnableVertexAttribArray.xml)
+
+참고자료 :
+- [SO - Is it important to call glDisableVertexAttribArray()?](https://stackoverflow.com/a/12428035)
+- [SO - what exactly does glEnableVertexAttribArray do?](https://stackoverflow.com/a/7000331)
 
 ##### 버퍼 업데이트
 `glBindBuffer(GL_ARRAY_BUFFER, VBO)` : 정점이 새로 업데이트 되는 경우 정점 버퍼 객체를 버퍼에 다시 바인딩 해줘야 한다. 이 코드에서는 큰 의미는 없지만 나중에 여러 정점 버퍼 객체를 사용할 때 필수이다.
 
-##### 정점 속성 위치 지정
-`void glVertexAttribPointer(index, size, type, normalized, stride, pointer)` : 
+##### 정점 속성 배열 해석
+`void glVertexAttribPointer(index, size, type, normalized, stride, pointer)` : 지정된 인덱스(`index`)에 위치한 정점 속성 배열을 GPU가 읽을 때, 데이터를 몇 개씩 읽을지 (`size`), 어떤 유형의 데이터인지 (`type`), 정규화를 할지 (`normalized`), 다음 데이터가 어디에 위치하는지 (`stride`), 그리고 버퍼에서 어디서부터 읽어야할지 (`pointer`)를 지정해주는 함수이다.
 
-`glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 0, 0)` : 
+`glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 0, 0)`를 해석해보면,
+1. `0`번 인덱스(Location)에 위치한 정점 버퍼를 읽는 방식을 정의한다.
+2. 정점 좌표(x, y, z)만 다루기 때문에, 버퍼 데이터를 `3`개 단위로 읽는다.
+3. 읽는 데이터의 유형은 `GL_FLOAT`이다.
+4. 정규화는 하지 않는다 - `GL_FALSE`.
+5. 좌표(x, y, z) 데이터들 사이에는 `0`개씩 띄어져 있다\*.
+6. 좌표 데이터를 읽기 위해서 배열에 `0`번 인덱스부터 읽어오면 된다.
+
+\* 사실 좌표 값이 3개씩이라서, 좌표에서 좌표 사이의 거리는 3이라 볼 수 있다. 단지, 서로 값이 붙어있는 경우 0으로 지정해도 무방하다 (OpenGL에서 알아서 계산한다). 그래서 `0` 또는 `3 * sizeof(GL_FLOAT)`으로 지정할 수 있다.
+
+부연설명을 해본다. 만약 버퍼에 좌표(x, y, z) 뿐만이 아니라 다른 정보가 있다고 한다 - 예를 들어, 색의 정보(u, v)가 있다. 버퍼는  `xyzuvxyzuvxyzuv`처럼 된다. 좌표 정보는 버퍼의 0번에 시작해서 3개씩 읽어야 하고, 그 다음 좌표 정보는 5개 뒤에 있다. 색의 정보는 좌표 정보 뒤에서 부터 시작하기 때문에 3개 뒤에서부터 시작해서 2개씩 읽어야 하고, 마찬가지로 그 다음 색 정보는 5개 뒤에 있다. 밑에 그림 참고.
+
+![[glVertexAttribPointer_example.png]]
+
+참고 : [OpenGL - glVertexAttribPointer](https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glVertexAttribPointer.xhtml)
+
+##### 도형 렌더링
+`void glDrawArrays(GLenum mode, GLint first, GLsizei count)` : 정점들을 이어서 무슨 도형을 그리려는지 (`mode`), 첫 번째 정점의 인덱스 (`first`), 그리고 몇 개의 인덱스를 읽는지 (`count`)를 지정하는 함수이다.
+
+`glDrawArrays(GL_TRIANGLES, 0, 3)` : 이 코드에서 3개의 정점으로 삼각형을 그리려는 것이기 때문에 `GL_TRIANGLES`로 지정하였으며, `0`번 정점부터 읽어서 정점 총 `3`개를 읽는다고 알려준다.
+
+참고 : [OpenGL - glDrawArrays](https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glDrawArrays.xhtml)
+
+##### 정점 속성 배열 비활성화
+`glDisableVertexAttribArray(0)` : 렌더링이 끝난 정점 속성 배열은 비활성화 해줘야 한다. 비활성화 안 하고 작업하다 보면, 버퍼에 쓰레기가 차서 정점 속성 배열을 호출할 때 원하지 않는 현상(또는 에러)가 발생하기 때문이다.
+
+##### 렌더링 종료
+`void glFinish(void)` : 종료(Finish)라고 하지만 사실 이전까지 내린 명령어들이 모두 수행될 때까지 기다리게(Block)하는 함수이다.
+
+##### 콜백 함수 등록
+`glutDisplayFunc(RenderCB)` : 콜백 함수 `RenderCB()`를 등록하는 함수로서, 소스 프로그램 메인 함수 안에 [[#정점 버퍼 객체 등록]]과 [[#셰이더 프로그램 등록]] 이후에 호출해준다.
+
+#### 렌더 반복 루프 시작
+`glutMainLoop()` : OpenGL의 엔진을 실행하는 함수로 이벤트 처리(Event Processing)을 관리하는 루프를 시작한다. 소스 프로그램의 메인 함수에서 제일 끝에 위치해야 한다.
+
+`glutMainLoop`은 프로그램에서 최대 한번만 실행되며, 아무런 값을 리턴하지 않는다.
+
+`glutMainLoop`은 특정 이벤트가 발생하면 콜백 함수를 호출한다 (예: 윈도 리사이즈).
+
+애니메이션을 한다고 하면, 화면을 다시 그리는 이벤트를 프레임 속도에 맞게 매번 호출해주도록 코드를 작성해야 한다.

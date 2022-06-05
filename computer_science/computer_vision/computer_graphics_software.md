@@ -544,3 +544,7 @@ TES의 결과값은 기하구조 셰이더(Geometry Shader) 또는 정점 후처
 
 ## OpenGL 예시
 [[opengl_examples_knou|방통대 OpenGL 코드 예시]] 참고
+
+
+# 참고자료
+- https://kyoungwhankim.github.io/blog/opengl_triangle1/

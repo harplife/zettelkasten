@@ -50,6 +50,8 @@ https://www.khronos.org/opengl/wiki/Built-in_Variable_(GLSL)
 
 A Vertex Buffer Object (VBO) is a [memory buffer](https://www.khronos.org/opengl/wiki/Buffer_Objects "Buffer Objects") in the high speed memory of your video card designed to hold information about vertices. In our example we have two VBOs, one that describes the coordinates of our vertices and another that describes the color associated with each vertex. VBOs can also store information such as normals, texcoords, indicies, etc.
 
+https://stackoverflow.com/a/57258564
+
 ### 정점 배열 객체
 [정점 배열 객체(Vertex Array Object, VAO)](https://www.khronos.org/opengl/wiki/Vertex_Specification#Vertex_Array_Object)
 
