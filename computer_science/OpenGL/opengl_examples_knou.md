@@ -241,12 +241,11 @@ static const char* pFS =
 2. 셰이더 프로그램 등록
 
 #### 셰이더 추가
-이 코드에 작성된 `AddShader()` 함수는 5가지 작업을 한다.
-1. 빈(Empty) OpenGL 셰이더 객체 생성
-2. 셰이더 객채에 GLSL 소스 입력
-3. 셰이더 객체 컴파일
-4. 셰이더 컴파일 에러 핸들링
-5. 셰이더 프로그램에 셰이더 객체 등록
+이 코드에 작성된 `AddShader()` 함수는 4가지 작업을 한다.
+1. 빈(Empty) OpenGL 셰이더 생성
+2. 셰이더에 GLSL 소스 입력
+3. 셰이더 컴파일
+4. 셰이더 프로그램에 셰이더 등록
 
 ```cpp
 static void AddShader(GLuint shaderProg, const char* pShaderSrc, GLint ShaderType)
@@ -274,23 +273,24 @@ static void AddShader(GLuint shaderProg, const char* pShaderSrc, GLint ShaderTyp
 }
 ```
 
-##### 셰이더 객체 생성
+참고 : 여러 셰이더를 추가 해야하니 코드가 반복되지 않게 따로 `addShader()` 함수를 만든 것이다.
+
+##### 셰이더 생성
 `GLuint glCreateShader(GLenum shaderType)` : `shaderType`으로 지정된 셰이더 유형으로서 비어있는 OpenGL 셰이더 객체를 생성해주는 함수이다.
 
 참고 : [OpenGL - glCreateShader](https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glCreateShader.xhtml)
 
 ##### 셰이더 소스 입력
-`void glShaderSource(GLuint shader, GLsizei count, const GLchar **string, const GLint *length)` : OpenGL 셰이더 객체에 GLSL 소스를 입력해주는 함수이다.
+`void glShaderSource(GLuint shader, GLsizei count, const GLchar **string, const GLint *length)` : OpenGL 셰이더에 GLSL 소스를 입력해주는 함수이다.
 
 참고 : [OpenGL - glShaderSource](https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glShaderSource.xhtml)
 
-##### 셰이더 객체 컴파일
-`void glCompileShader(GLuint shader)` : GLSL 소스를 가진 OpenGL 셰이더 객체를 GPU에 컴파일하는 함수이다.
+##### 컴파일 및 에러 핸들링
+`void glCompileShader(GLuint shader)` : GLSL 소스를 가진 OpenGL 셰이더를 컴파일하는 함수이다.
 
 참고 : [OpenGL - glCompileShader](https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glCompileShader.xhtml)
 
-##### 셰이더 컴파일 에러 핸들링
-`void glGetShaderiv(GLuint shader, GLenum pname, GLint *params)` : 셰이더 객체의 정보를 가져오는 함수이다. `pname`은 셰이더 객체의 매개변수를 지정하는데 사용된다. `*params`는 요청했던 매개변수의 값을 저장하는 대상이 된다.
+`void glGetShaderiv(GLuint shader, GLenum pname, GLint *params)` : 셰이더의 정보를 가져오는 함수이다. `pname`은 셰이더의 매개변수를 지정하는데 사용된다. `*params`는 요청했던 매개변수의 값을 저장하는 대상이 된다.
 
 `glGetShaderiv(shader, GL_COMPILE_STATUS, &success)`에서 `GL_COMPILE_STATUS`는 셰이더의 컴파일 상태를 뜻한다. `success` 변수에 이 상태를 저장한다.
 
@@ -301,4 +301,111 @@ static void AddShader(GLuint shaderProg, const char* pShaderSrc, GLint ShaderTyp
 참고 : [OpenGL - glGetShaderInfoLog](https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGetShaderInfoLog.xhtml)
 
 ##### 셰이더 프로그램에 등록
-`void glAttachShader(GLuint program, GLuint shader)` : 셰이더 프로그램은 여러 셰이더를 담는 하나의 목록이라 볼 수 있다.
+`void glAttachShader(GLuint program, GLuint shader)` : [[computer_graphics_shader#셰이더 프로그램|셰이더 프로그램]]에 셰이더를 등록하는 함수이다.
+
+참고 : [OpenGL - glAttachShader](https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glAttachShader.xhtml)
+
+#### 셰이더 프로그램 추가
+이 코드에 작성된 `SetUpShaders()` 함수는 5가지 작업을 한다.
+1. 빈(Empty) OpenGL 셰이더 프로그램 생성
+2. 셰이더 프로그램에 셰이더 추가
+3. 링크 및 에러 핸들링
+4. 유효성 검사 및 에러 핸들링
+5. 셰이더 프로그램 설치
+
+```cpp
+static void SetUpShaders()
+{   // 셰이더 프로그램 객체 생성
+    GLuint shaderProg = glCreateProgram();
+    if (!shaderProg) {
+        cerr << "오류 - Shader 프로그램 생성" << endl;
+        exit(1);
+    }
+
+    // 꼭짓점 셰이더 및 프래그먼트 셰이더 적재
+    AddShader(shaderProg, pVS, GL_VERTEX_SHADER);
+    AddShader(shaderProg, pFS, GL_FRAGMENT_SHADER);
+
+    GLint success = 0;
+    GLchar errLog[256];
+
+    // 셰이더 프로그램 링크
+    glLinkProgram(shaderProg);
+    glGetProgramiv(shaderProg, GL_LINK_STATUS, &success);
+    if (!success) {
+        glGetProgramInfoLog(shaderProg, sizeof(errLog), NULL, errLog);
+        cerr << "오류 - Shader 프로그램 링크: " << errLog << endl;
+        exit(1);
+    }
+    // 프로그램 객체가 유효한지 검사
+    glValidateProgram(shaderProg);
+    glGetProgramiv(shaderProg, GL_VALIDATE_STATUS, &success);
+    if (!success) {
+        glGetProgramInfoLog(shaderProg, sizeof(errLog), NULL, errLog);
+        cerr << "Invalid shader program: " << errLog << endl;
+        exit(1);
+    }
+    // 현재 셰이더 프로그램 객체로 지정
+    glUseProgram(shaderProg);
+}
+```
+
+##### 셰이더 프로그램 생성
+`GLuint glCreateProgram(void)` : 비어있는 OpenGL 셰이더 프로그램 객체를 생성해주는 함수이다.
+
+참고 : [OpenGL - glCreateProgram](https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glCreateProgram.xhtml)
+
+##### 프로그램에 셰이더 등록
+[[#셰이더 추가]] 단계에서 정의했던 `AddShader()` 함수를 호출하여 정점 셰이더 `pVS`와 조각 셰이더 `pFS`를 프로그램에 등록한다.
+
+```cpp
+AddShader(shaderProg, pVS, GL_VERTEX_SHADER);
+AddShader(shaderProg, pFS, GL_FRAGMENT_SHADER);
+```
+
+`GL_VERTEX_SHADER`는 셰이더가 정점 셰이더임을 명시해준다.
+
+`GL_FRAGMENT_SHADER`는 셰이더가 조각 셰이더임을 명시해준다.
+
+##### 링크 및 에러 핸들링
+`void glLinkProgram(GLuint program)` : 셰이더 프로그램을 링크해주는 함수이다.
+
+#todo 링크에 대해서 자세히 정리.
+
+참고 : 링크까지 되면 각 셰이더의 실행 파일(Executable)이 생성되었다고 볼 수 있다.
+
+참고 : [OpenGL - glLinkProgram](https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glLinkProgram.xhtml)
+
+`void glGetProgramiv(GLuint program, GLenum pname, GLint *params)` : 셰이더 프로그램의 정보를 가져오는 함수이다. `pname`은 프로그램의 매개변수를 지정하는데 사용된다. `*params`는 요청했던 매개변수의 값을 저장하는 대상이 된다.
+
+`glGetProgramiv(shaderProg, GL_LINK_STATUS, &success)`에서 `GL_LINK_STATUS`는 프로그램의 링크 상태를 뜻한다. `success` 변수에 이 상태를 저장한다.
+
+참고 : [OpenGL - glGetProgramiv](https://www.khronos.org/registry/OpenGL-Refpages/es2.0/xhtml/glGetProgramiv.xml)
+
+`success`의 값이 `0`인 경우, `glGetProgramInfoLog()`로 자세한 에러 로그를 출력해볼 수 있다.
+
+참고 : [OpenGL - glGetProgramInfoLog](https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGetProgramInfoLog.xhtml)
+
+##### 유효성 검사 및 에러 핸들링
+`void glValidateProgram(GLuint program)` : 셰이더 프로그램에 유효성 검사를 하는 함수이다.
+
+#todo 유효성 검사에 대해서 자세히 정리
+
+참고 : [OpenGL - glValidateProgram](https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glValidateProgram.xhtml)
+
+`glGetProgramiv(shaderProg, GL_VALIDATE_STATUS, &success)`에서 `GL_VALIDATE_STATUS`는 프로그램의 유효성 상태를 뜻한다. `success` 변수에 이 상태를 저장한다.
+
+`success`의 값이 `0`인 경우, `glGetProgramInfoLog()`로 자세한 에러 로그를 출력해볼 수 있다.
+
+##### 셰이더 프로그램 설치
+`void glUseProgram(GLuint program)` : OpenGL에 셰이더 프로그램을 현행 렌더링 상태(Current Rendering State)에 설치해주는 함수이다. 파이프라인에 각 셰이더를 순서대로 설치해준다고 생각하면 될 듯하다.
+
+프로그램 객체가 사용되는 중 소프트웨어는 셰이더 추가/변경/삭제 등을 할 수 있으며, 이 작업은 현행 렌더링 상태에 설치된 셰이더 실행파일에 영향이 가지 않는다 - 프로그램을 다시 링크하면 현행 렌더링 상태에 새로 셰이더 실행파일이 설치된다. 링크가 실패한 경우, 기존 셰이더는 `glUseProgram`으로 직접 제거할 때까지 현행 렌더링 상태에 남는다.
+
+참고 : [OpenGL - glUseProgram](https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glUseProgram.xhtml)
+
+여기에도 에러 핸들링 해줘야 하는데, 이 코드에는 없다.
+
+셰이더 프로그램 설치까지 에러없이 실행된 경우, 셰이더는 
+
+### 
