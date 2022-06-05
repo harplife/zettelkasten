@@ -23,7 +23,7 @@ edited: 2022-06-04
 
 이 코드는 4가지 작업을 한다.
 1. 그림 그릴 모델을 준비한다 - 개체(삼각형)의 정점(Vertex) 데이터를 준비한다.
-2. 셰이더의 프로그램을 준비한다.
+2. 셰이더 프로그램을 준비한다.
 3. OpenGL의 동작 환경을 준비한다 - OpenGL이 윈도 시스템을 통해 사용자와 상호작용할 수 있도록 준비하고, OpenGL의 기능을 활용할 수 있도록 준비한다.
 4. 그림을 그린다 (렌더링).
 
@@ -141,8 +141,8 @@ static const char* pFS =
 
 #todo RGBA 모델 정리 ([[color_theory|색 이론]])
 
-### 셰이더 등록
-셰이더를 작성했으니, GPU에 등록해줘야 한다.
+### 셰이더 프로그램 준비
+셰이더를 작성했으니, GPU에 등록할 수 있도록 준비한다.
 
 이 코드에서는 셰이더를 GPU에 등록하는 프로세스를 두 가지로 나누었다.
 1. 셰이더 추가
@@ -317,13 +317,14 @@ AddShader(shaderProg, pFS, GL_FRAGMENT_SHADER);
 셰이더 프로그램 설치까지 에러없이 실행된 경우, 셰이더 등록이 완성되었음을 뜻한다.
 
 ### OpenGL 동작 환경 준비
-렌더링하기 앞서 우선 OpenGL 기능을
-본격적인 OpenGL 동작 환경 준비는 `main()` 함수 안에서 진행된다.
+렌더링하기 앞서 우선 OpenGL 라이브러리들을 초기화하고 그림을 그릴 화면(윈도)를 생성한다. OpenGL 동작 환경 준비는 `main()` 함수 안에서 진행된다.
 
 ```cpp
 // GLUT 초기화
 glutInit(&argc, argv);
 glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
+
+// 윈도 정의 및 생성
 glutInitWindowPosition(50, 100);
 glutInitWindowSize(640, 480);
 glutCreateWindow("OpenGL Sample");
@@ -410,5 +411,36 @@ if (err != GLEW_OK) {
 - [GLEW 기본 지식](http://glew.sourceforge.net/basic.html)
 
 ### 렌더링
-데이터와 셰이더 모두 준비되면 남은 것은 실제 그림을 그리는 것, 즉, [[computer_graphics_software#렌더링|렌더링]]이다.
+데이터, 셰이더, 그리고 동작 환경이 모두 준비되면 남은 것은 실제 그림을 그리는 것, 즉, [[computer_graphics_software#렌더링|렌더링]]이다.
 
+렌더링의 프로세스는 다음과 같다.
+1. 정점 버퍼 객체 등록
+2. 셰이더 프로그램 등록
+3. 렌더링 콜백함수 준비
+4. 렌더 반복 루프 시작
+
+#### 정점 버퍼 객체 등록
+[[#모델 데이터 준비]] 단계에서 정점 버퍼 객체를 생성하고 데이터를 넣어주는 함수 `InitVBOs()`를 준비했으니, 실제로 실행하도록 메인 함수에 [[#OpenGL 동작 환경 준비]] 코드 밑에 `InitVBOs()` 명령어를 넣어준다.
+
+#### 셰이더 프로그램 등록
+[[#셰이더 프로그램 준비]] 단계에서 셰이더 프로그램을 생성하고 셰이더를 설치하는 함수 `SetUpShaders()`를 준비했으니, 실제로 실행하도록 메인 함수에 [[#OpenGL 동작 환경 준비]] 코드 밑에 `SetUpShaders()` 명령어를 넣어준다.
+
+#### 렌더링 콜백함수 준비
+[[#OpenGL 동작 환경 준비]]에서 생성된 윈도를 실제로 그리는 함수를 준비해야 한다. 그림을 새로 그려야 할 때 (처음에 그릴때도 포함), OpenGL에서 이 함수를 호출한다 (이 함수는 콜백 함수이다).
+
+```cpp
+static void RenderCB()
+{
+    glClearColor(1.0f, 1.0f, 1.0f, 1.0f);
+    glClear(GL_COLOR_BUFFER_BIT);	// 백색으로 화면 지움
+
+    glEnableVertexAttribArray(0);
+    glBindBuffer(GL_ARRAY_BUFFER, VBO);
+    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 0, 0);
+    glDrawArrays(GL_TRIANGLES, 0, 3);
+    glDisableVertexAttribArray(0);
+    glFinish();
+}
+```
+
+`glClearColor(1.0f, 1.0f, 1.0f, 1.0f)` : 화면을 
