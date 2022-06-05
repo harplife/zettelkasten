@@ -48,8 +48,12 @@ https://www.khronos.org/opengl/wiki/Built-in_Variable_(GLSL)
 
 참고 : [버퍼 객체](https://www.khronos.org/opengl/wiki/Buffer_Object)에 지정된 값은 GPU 메모리에 저장된다.
 
+A Vertex Buffer Object (VBO) is a [memory buffer](https://www.khronos.org/opengl/wiki/Buffer_Objects "Buffer Objects") in the high speed memory of your video card designed to hold information about vertices. In our example we have two VBOs, one that describes the coordinates of our vertices and another that describes the color associated with each vertex. VBOs can also store information such as normals, texcoords, indicies, etc.
+
 ### 정점 배열 객체
-[정점 배열 객체(Vertex Array Object, VBO)](https://www.khronos.org/opengl/wiki/Vertex_Specification#Vertex_Array_Object)
+[정점 배열 객체(Vertex Array Object, VAO)](https://www.khronos.org/opengl/wiki/Vertex_Specification#Vertex_Array_Object)
+
+A Vertex Array Object (VAO) is an object which contains one or more Vertex Buffer Objects and is designed to store the information for a complete rendered object. In our example this is a diamond consisting of four vertices as well as a color for each vertex.
 
 ## 셰이더 프로그램
 셰이더 프로그램은 여러 셰이더를 링크(Link)해주고 파이프라인에 셰이더를 등록해주는 역할을 한다. 여기서 링크(Link)란 셰이더의 입출력값이 서로 전달될 수 있도록 해준다는 뜻이다.

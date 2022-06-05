@@ -449,8 +449,6 @@ static void RenderCB()
 `glClear(GL_COLOR_BUFFER_BIT)` : `glClear`는 버퍼에 있는 값을 초기화할 떄 사용되는 함수이다. `GL_COLOR_BUFFER_BIT`는 색 버퍼(Color Buffer)를 초기화하라고 지정해준다.
 
 ##### 버퍼 활성화
-VAO?
-
 `glEnableVertexAttribArray(0)` : 정점 속성 배열(Vertex Attribute Array)의 인덱스를 `0`으로 활성화한다. 이 인덱스는 정점 셰이더의 [[#레이아웃 한정자]]로 지정했던 `location`값과 연결된다.
 
 소스 프로그램에서 사용할 좌표(`aPos`)의 인덱스가 `0`번이며, 이 인덱스에 해당되는 정점 버퍼(Vertex Buffer)를 셰이더가 사용할 수 있도록 허용해주는 것이다.
