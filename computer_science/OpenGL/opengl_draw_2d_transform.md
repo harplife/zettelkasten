@@ -18,4 +18,6 @@ edited: 2022-06-06
 1. 기하변환행렬 준비
 
 ## 기하변환행렬 준비
+기하변환행렬(Transformation Matrix)은 정점좌표행렬(Vertex Coordinates Matrix)
+
 `gTransform.h`와 `gTransform.cpp` 코드에서 
