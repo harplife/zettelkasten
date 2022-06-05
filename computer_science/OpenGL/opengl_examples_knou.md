@@ -167,12 +167,12 @@ static void InitVBOs()
 ### 셰이더 프로그램밍
 이 코드에서는 [[computer_graphics_software#정점 셰이더]]와 [[computer_graphics_software#조각 셰이더]]가 사용된다.
 
-#### 정점 셰이더
-이 코드에서는 정점 셰이더를 GLSL로 작성하였으며, 소스 프로그램에 직접 포함시켰다.
+이 코드에서는 셰이더를 GLSL로 작성하였으며, 소스 프로그램에 직접 포함시켰다.
 
 참고 : 셰이더를 소스 프로그램에 직접 포함시킬 경우, 각 라인 끝에 newline(`\n`)을 입력해줘야 한다. 아주 귀찮은 작업이고 쉽게 잊을 수 있으니, 따로 파일에 작성하여 읽어오는게 권장된다.
 
-이 정점 셰이더 예시는 아주 간단한 프로그램으로 정점 위치를 줄이고 (도형의 크기를 줄이고) 결과를 고정변수에 담는 작업만 한다.
+#### 정점 셰이더
+이 정점 셰이더 예시는 아주 간단한 프로그램으로 정점 데이터를 전달해주는 작업만 한다.
 
 ```cpp
 static const char* pVS =
@@ -181,9 +181,11 @@ static const char* pVS =
 "\n"
 "void main()\n"
 "{\n"
-"    gl_Position = vec4(aPos*0.1, 1.0);\n"
+"    gl_Position = vec4(aPos.x, aPos.y, aPos.z, 1.0);\n"
 "}";
 ```
+
+정점 셰이더가 실행된 후 래스터화(Rasterization)이 진행된다.
 
 ##### 셰이더 언어 버전
 `#version 330` : C 언어와 유사하게 선행처리기 지시어 문장을 사용하는데, 이로서 GLSL의 버전을 명시한다. 여기선 GLSL 3.3버전을 사용한다.
@@ -191,18 +193,112 @@ static const char* pVS =
 ##### 레이아웃 한정자
 `layout (location = 0) in vec3 aPos` : [레이아웃 한정자(Layout Qualifier)](https://www.khronos.org/opengl/wiki/Layout_Qualifier_(GLSL))로서 OpenGL 프로그램으로부터 전달되는 정점 정보가 `vec3`\*로 표현되는 전역변수 `aPos`에 입력됨과 이 정보의 인덱스가 0번임을 알린다.
 
-\* `vec3` : [[computer_graphics_shader#셰이더 데이터 유형|OpenGL 데이터 유형]]으로 3개의 `GLfloat` 값이 전달된다 - 이 값들은 각각 순서대로 x, y, z 좌표이다.
+\* `vec3` : [[computer_graphics_shader#셰이더 데이터 유형|OpenGL 데이터 유형]]으로 3개의 `GLfloat` 값이 전달된다 - 이 값들은 각각 순서대로 x, y, z 좌표이다. [[#모델 데이터 준비]] 단계에서 정의했던 정점 버퍼 객체의 데이터가 `aPos`로 들어온다.
+
+참고 : 정점 셰이더는 정점의 개수만큼 실행된다. 그 말은, VBO 데이터의 한 행(Row)씩 처리된다는 것이다.
 
 #todo 레이아웃 한정자에 대해서 [[computer_graphics_shader|셰이더]]에 정리.
 
-##### 정점 정보 처리
-`gl_Position = vec4(aPos*0.1, 1.0)` : 메인 함수에서 `aPos`에 입력된 정점 좌표를 처리하여 `gl_Position`를 통해 다음 파이프라인 단계로 전달한다.
+##### 정점 위치 처리
+`gl_Position = vec4(aPos.x, aPos.y, aPos.z, 1.0)` : 메인 함수에서 `aPos`에 입력된 정점 좌표를 처리하여 `gl_Position`를 통해 다음 파이프라인 단계로 전달한다.
 
 `gl_Position`은
 1. OpenGL의 [[computer_graphics_shader#고정 변수|OpenGL 고정 변수]]이며, 정점의 위치 값을 가지고 파이프라인 사이에 전달되는 중요한 변수이다.
 2. 3차원 [동차좌표(Homogeneous Coordinates)](https://en.wikipedia.org/wiki/Homogeneous_coordinates)로 x, y, z 그리고 w([사양](https://en.wikipedia.org/wiki/Projective_geometry)) 좌표값들을 가진다.
 
-정점 위치값을 0.1로 곱한 이유는, 래스터화 단계에서 좌표를 `[-1, 1]` 사이에 있는 값으로만 처리되기 때문이다.
-
 #### 조각 셰이더
-hold on
+이 조각 셰이더 예시는 아주 간단한 프로그램으로 도형의 색만 정의해준다.
+
+```cpp
+static const char* pFS =
+"#version 330\n"
+"out vec4 FragColor;\n"
+"\n"
+"void main()\n"
+"{\n"
+"    FragColor = vec4(1.0, 0.0, 0.0, 1.0);\n"
+"}";
+```
+
+조각 셰이더는 정점 셰이더가 진행되고 래스터화(Rasterization)까지 된 후에 실행된다.
+
+##### 셰이더 언어 버전
+정점 셰이더와 마찬가지로 GLSL 3.3 버전이다.
+
+##### 출력 변수 선언
+`out vec4 FragColor` : `FragColor`는 도형의 색을 정의하게 될, 4개의 소수값을 받는  변수로서 선언된다. 여기서 `out`은 셰이더의 출력값(Output)임을 명시한다.
+
+##### 정점 색 처리
+`FragColor = vec4(1.0, 0.0, 0.0, 1.0)` : 메인 함수에서 도형의 색을 정의한다 - RGBA 모델을 사용하며, 불투명한 빨간색임을 알려준다.
+
+#todo RGBA 모델 정리 ([[color_theory|색 이론]])
+
+### 셰이더 등록
+셰이더를 작성했으니, GPU에 등록해줘야 한다.
+
+이 코드에서는 셰이더를 GPU에 등록하는 프로세스를 두 가지로 나누었다.
+1. 셰이더 추가
+2. 셰이더 프로그램 등록
+
+#### 셰이더 추가
+이 코드에 작성된 `AddShader()` 함수는 5가지 작업을 한다.
+1. 빈(Empty) OpenGL 셰이더 객체 생성
+2. 셰이더 객채에 GLSL 소스 입력
+3. 셰이더 객체 컴파일
+4. 셰이더 컴파일 에러 핸들링
+5. 셰이더 프로그램에 셰이더 객체 등록
+
+```cpp
+static void AddShader(GLuint shaderProg, const char* pShaderSrc, GLint ShaderType)
+{   // 셰이더 생성
+    GLuint shader = glCreateShader(ShaderType);
+    if (!shader) {
+        cerr << "오류 - Shader 생성(" << ShaderType << ")" << endl;
+        exit(0);
+    }
+    // 셰이더 컴파일
+    const GLchar* src[1] = { pShaderSrc };
+    const GLint len[1] = { strlen(pShaderSrc) };
+    glShaderSource(shader, 1, src, len);
+    glCompileShader(shader);
+    GLint success;
+    glGetShaderiv(shader, GL_COMPILE_STATUS, &success);
+    if (!success) {		// 컴파일 오류 발생
+        GLchar infoLog[256];
+        glGetShaderInfoLog(shader, 256, NULL, infoLog);
+        cerr << "오류 - Shader 컴파일(" << ShaderType << "): " << infoLog << endl;
+        exit(1);
+    }
+    // 셰이더 프로그램에 컴파일된 셰이더를 추가
+    glAttachShader(shaderProg, shader);
+}
+```
+
+##### 셰이더 객체 생성
+`GLuint glCreateShader(GLenum shaderType)` : `shaderType`으로 지정된 셰이더 유형으로서 비어있는 OpenGL 셰이더 객체를 생성해주는 함수이다.
+
+참고 : [OpenGL - glCreateShader](https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glCreateShader.xhtml)
+
+##### 셰이더 소스 입력
+`void glShaderSource(GLuint shader, GLsizei count, const GLchar **string, const GLint *length)` : OpenGL 셰이더 객체에 GLSL 소스를 입력해주는 함수이다.
+
+참고 : [OpenGL - glShaderSource](https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glShaderSource.xhtml)
+
+##### 셰이더 객체 컴파일
+`void glCompileShader(GLuint shader)` : GLSL 소스를 가진 OpenGL 셰이더 객체를 GPU에 컴파일하는 함수이다.
+
+참고 : [OpenGL - glCompileShader](https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glCompileShader.xhtml)
+
+##### 셰이더 컴파일 에러 핸들링
+`void glGetShaderiv(GLuint shader, GLenum pname, GLint *params)` : 셰이더 객체의 정보를 가져오는 함수이다. `pname`은 셰이더 객체의 매개변수를 지정하는데 사용된다. `*params`는 요청했던 매개변수의 값을 저장하는 대상이 된다.
+
+`glGetShaderiv(shader, GL_COMPILE_STATUS, &success)`에서 `GL_COMPILE_STATUS`는 셰이더의 컴파일 상태를 뜻한다. `success` 변수에 이 상태를 저장한다.
+
+참고 : [OpenGL - glGetShaderiv](https://www.khronos.org/registry/OpenGL-Refpages/es2.0/xhtml/glGetShaderiv.xml)
+
+`success`의 값이 `0`인 경우, `glGetShaderInfoLog()`로 자세한 에러 로그를 출력해볼 수 있다.
+
+참고 : [OpenGL - glGetShaderInfoLog](https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGetShaderInfoLog.xhtml)
+
+##### 셰이더 프로그램에 등록
+`void glAttachShader(GLuint program, GLuint shader)` : 셰이더 프로그램은 여러 셰이더를 담는 하나의 목록이라 볼 수 있다.
