@@ -38,4 +38,50 @@ struct Vec3f {	// 3차원 좌표를 표현하기 위한 구조체
 };
 ```
 
-`TransMat4f`는 4개의 소수값을 받는
+`TransMat4f`는 소수값 4x4 행렬(Matrix)로 3x3 행렬에 대한 변환 함수들을 제공하는 구조체이다.
+
+참고 : 변환행렬이 3x3이 아닌 4x4인 이유는 교재 5.2 "행렬표현과 동차좌표" (페이지 155)에 설명되어 있다 (설명이 개같아서 이해가 되는 것은 아니다 ㅋ).
+
+```cpp
+// gTransform.h
+class TransMat4f {
+    float   mat[4][4];
+public:
+    TransMat4f() {}
+    TransMat4f  operator * (const TransMat4f& m) const;
+    const TransMat4f&   operator *= (const TransMat4f& m);
+    void    identity();
+    void    translate(const Vec3f& d);
+    void    scale(const Vec3f& s);
+    void    rotateX(float theta);
+    void    rotateY(float theta);
+    void    rotateZ(float theta);
+    const   float*  getPMat() const { return &mat[0][0]; }
+};
+```
+
+`TransMat4f` 변환행렬이 제공하는 변환 함수들은 밑에와 같다.
+1. 항등함수(Identity)
+2. 이동(Translate)
+3. 크기 조절(Scale)
+4. 회전(Rotate)
+
+#### 항등함수
+항등함수(Identity Function) 또는 단위행렬(Identity Matrix)는 
+
+| 1 | 0 | 0 | 0 |
+| 0 | 1 | 0 | 0 |
+| 0 | 0 | 1 | 0 |
+| 0 | 0 | 0 | 1 |
+
+
+#### 이동
+Translate
+
+#### 크기 조절
+Scale
+
+#### 회전
+rotateX
+rotateY
+rotateZ
