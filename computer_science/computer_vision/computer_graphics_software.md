@@ -543,7 +543,8 @@ TES의 결과값은 기하구조 셰이더(Geometry Shader) 또는 정점 후처
 이 단계가 끝나면 프레임버퍼(Framebuffer)에 데이터가 전송된다.
 
 ## OpenGL 예시
-[[opengl_examples_knou|방통대 OpenGL 코드 예시]] 참고
+1. [[opengl_draw_2d_simple_triangle|OpenGL 2D 삼각형 그리기]] 참고
+2. 
 
 
 # 참고자료
