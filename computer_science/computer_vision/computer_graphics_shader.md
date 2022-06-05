@@ -48,6 +48,9 @@ https://www.khronos.org/opengl/wiki/Built-in_Variable_(GLSL)
 
 참고 : [버퍼 객체](https://www.khronos.org/opengl/wiki/Buffer_Object)에 지정된 값은 GPU 메모리에 저장된다.
 
+### 정점 배열 객체
+[정점 배열 객체(Vertex Array Object, VBO)](https://www.khronos.org/opengl/wiki/Vertex_Specification#Vertex_Array_Object)
+
 ## 셰이더 프로그램
 셰이더 프로그램은 여러 셰이더를 링크(Link)해주고 파이프라인에 셰이더를 등록해주는 역할을 한다. 여기서 링크(Link)란 셰이더의 입출력값이 서로 전달될 수 있도록 해준다는 뜻이다.
 
