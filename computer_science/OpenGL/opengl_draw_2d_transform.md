@@ -18,6 +18,12 @@ edited: 2022-06-06
 1. 기하변환행렬 준비
 
 ## 기하변환행렬 준비
-기하변환행렬(Transformation Matrix)은 정점좌표행렬(Vertex Coordinates Matrix)
+도형을 하나의 행렬(Matrix)로 볼 때, 도형의 행동(이동, 크기 조절, 회전 등)을 변환행렬(Transformation Matrix)과의 연산으로 표현할 수 있다.
 
-`gTransform.h`와 `gTransform.cpp` 코드에서 
+편의를 위해서, 도형의 행렬을 정점좌표행렬(Vertex Coordinates Matrix)라고 칭하고, 도형의 행동을 기하변환행렬(Geometric Transformation Matrix)이라 칭한다.
+
+OpenGL에서는 따로 도형 변환에 대한 기능을 제공하지 않는다. GLM (OpenGL Mathematics)라는 라이브러리를 사용하면 이 문제를 쉽게 해결하는데, 일단 여기선 도형 변환이 내부적으로 어떻게 적용되는지 보기 위해 각 도형 행동에 대한 변환행렬을 구현한다.
+
+`gTransform.h`와 `gTransform.cpp`는 변환행렬의 구조체와 각 행동에 대한 변환행렬을 정의한다.
+
+### 변환행렬 구조체
