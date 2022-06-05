@@ -432,7 +432,7 @@ if (err != GLEW_OK) {
 static void RenderCB()
 {
     glClearColor(1.0f, 1.0f, 1.0f, 1.0f);
-    glClear(GL_COLOR_BUFFER_BIT);	// 백색으로 화면 지움
+    glClear(GL_COLOR_BUFFER_BIT); // 백색으로 화면 지움
 
     glEnableVertexAttribArray(0);
     glBindBuffer(GL_ARRAY_BUFFER, VBO);
@@ -443,4 +443,22 @@ static void RenderCB()
 }
 ```
 
-`glClearColor(1.0f, 1.0f, 1.0f, 1.0f)` : 화면을 
+##### 버퍼 초기화
+`glClearColor(1.0f, 1.0f, 1.0f, 1.0f)` : 색 버퍼(Color Buffer)에 들어있는 값들을 초기화할 떄 사용되는 색을 지정한다 (RGBA). 이 경우 하얀색으로 지정한다.
+
+`glClear(GL_COLOR_BUFFER_BIT)` : `glClear`는 버퍼에 있는 값을 초기화할 떄 사용되는 함수이다. `GL_COLOR_BUFFER_BIT`는 색 버퍼(Color Buffer)를 초기화하라고 지정해준다.
+
+##### 버퍼 활성화
+VAO?
+
+`glEnableVertexAttribArray(0)` : 정점 속성 배열(Vertex Attribute Array)의 인덱스를 `0`으로 활성화한다. 이 인덱스는 정점 셰이더의 [[#레이아웃 한정자]]로 지정했던 `location`값과 연결된다.
+
+소스 프로그램에서 사용할 좌표(`aPos`)의 인덱스가 `0`번이며, 이 인덱스에 해당되는 정점 버퍼(Vertex Buffer)를 셰이더가 사용할 수 있도록 허용해주는 것이다.
+
+##### 버퍼 업데이트
+`glBindBuffer(GL_ARRAY_BUFFER, VBO)` : 정점이 새로 업데이트 되는 경우 정점 버퍼 객체를 버퍼에 다시 바인딩 해줘야 한다. 이 코드에서는 큰 의미는 없지만 나중에 여러 정점 버퍼 객체를 사용할 때 필수이다.
+
+##### 정점 속성 위치 지정
+`void glVertexAttribPointer(index, size, type, normalized, stride, pointer)` : 
+
+`glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 0, 0)` : 
