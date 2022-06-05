@@ -27,3 +27,15 @@ OpenGL에서는 따로 도형 변환에 대한 기능을 제공하지 않는다.
 `gTransform.h`와 `gTransform.cpp`는 변환행렬의 구조체와 각 행동에 대한 변환행렬을 정의한다.
 
 ### 변환행렬 구조체
+`vec3f`는 3개의 소수값을 받는 배열로 3차원 좌표를 표현하기 위한 구조체이다. 배열에 배열을 사용해서 3x3 행렬을 구현할 수 있다.
+
+```cpp
+struct Vec3f {	// 3차원 좌표를 표현하기 위한 구조체
+    float x, y, z;
+    Vec3f() {}
+    Vec3f(float _x, float _y, float _z) : 
+        x(_x), y(_y), z(_z) {}
+};
+```
+
+`TransMat4f`는 4개의 소수값을 받는
