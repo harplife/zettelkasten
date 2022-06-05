@@ -67,7 +67,7 @@ public:
 4. 회전(Rotate)
 
 #### 항등함수
-항등함수(Identity Function) 또는 단위행렬(Identity Matrix)는 
+항등함수(Identity Function) 또는 단위행렬(Identity Matrix)는 변환 함수를 만들때 사용된다. 
 
 | 1 | 0 | 0 | 0 |
 | 0 | 1 | 0 | 0 |
