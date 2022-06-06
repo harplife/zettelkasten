@@ -532,6 +532,6 @@ const TransMat4f& TransMat4f::operator *= (const TransMat4f& m) {
 2. 크기 변환
 3. 이동 변환
 
-위 변환들은 콜백이 한 번 호출될 때 마다 실행된다.
+위 변환들을 쉽게 보기 위해서
 
 ### 회전 변환
