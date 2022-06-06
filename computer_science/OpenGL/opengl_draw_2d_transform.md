@@ -30,11 +30,11 @@ edited: 2022-06-06
 // GeoTransform.cpp
 //삼각형의 꼭짓점 좌표 및 색
 Vertex Vertices[3] = {
-    {Vec3f(0.0f, 0.2f, 0.0f),
+    {Vec3f(0.0f, 0.3f, 0.0f),
      VecColor4f(1.0f, 0.0f, 0.0f, 1.0f)},
-    {Vec3f(-0.17f, -0.1f, 0.0f),
+    {Vec3f(-0.25f, -0.15f, 0.0f),
      VecColor4f(0.0f, 1.0f, 0.0f, 1.0f)},
-    {Vec3f(0.17f, -0.1f, 0.0f),
+    {Vec3f(0.25f, -0.15f, 0.0f),
      VecColor4f(0.0f, 0.0f, 1.0f, 1.0f)}
 };
 ```
@@ -601,3 +601,11 @@ sTrans.scale(Vec3f((s + 1.0f), (s + 1.0f), (s + 1.0f)));
 `s`값은 `[-1, 1]` 사이 값을 오간다. `s`값만 사용하는 경우 도형이 뒤집어 지는 재밌는 현상이 나오기 때문에, `s + 1.0f`를 해준다.
 
 ### 이동 변환 행렬 생성
+이동변환행렬을 만든다.
+```cpp
+// GeoTransform.cpp
+TransMat4f tTrans; // 변환행렬 생성
+// 크기변환행렬로 변형
+tTrans.translate(Vec3f(dx * 0.5f, dy * 0.5f, 0.0f));
+```
+
