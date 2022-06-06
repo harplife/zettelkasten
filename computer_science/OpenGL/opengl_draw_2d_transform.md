@@ -30,6 +30,7 @@ OpenGL에서는 따로 도형 변환에 대한 기능을 제공하지 않는다.
 `vec3f`는 3개의 소수값을 받는 배열로 3차원 좌표를 표현하기 위한 구조체이다. 배열에 배열을 사용해서 3x3 행렬을 구현할 수 있다.
 
 ```cpp
+// gTransform.h
 struct Vec3f {	// 3차원 좌표를 표현하기 위한 구조체
     float x, y, z;
     Vec3f() {}
@@ -61,15 +62,15 @@ public:
 ```
 
 `TransMat4f` 변환행렬이 제공하는 변환 함수들은 밑에와 같다.
-1. 단위행렬(Identity)
-2. 이동(Translate)
-3. 크기 조절(Scale)
-4. 회전(Rotate)
+1. 이동 변환(Translate)
+2. 크기 변환(Scale)
+3. 회전 변환(Rotate)
 
 #### 항등함수
-항등함수(Identity Function) 또는 단위행렬(Identity Matrix)는 변환 함수를 만들때 사용된다. 
+여기서 단위행렬(Identity Matrix)은 변환 함수를 만들때 사용된다. 
 
 ```cpp
+// gTransform.cpp
 void TransMat4f::identity() {
     memset(mat, 0, sizeof(mat));
     mat[0][0] = mat[1][1] = mat[2][2] = mat[3][3] = 1.0f;
@@ -78,17 +79,87 @@ void TransMat4f::identity() {
 
 위 코드는 밑에와 같은 행렬을 만들어준다.
 
-$\begin{bmatrix}x^` \\y^2 \\z^3 \\1 \end{bmatrix}$
+$\begin{bmatrix}1&0&0&0\\0&1&0&0\\0&0&1&0\\0&0&0&1\end{bmatrix}$
 
-$= \begin{bmatrix}1&0&0&0\\0&1&0&0\\0&0&1&0\\0&0&0&1\end{bmatrix}$
+#### 이동 변환
+이동 변환(Translate)은 각 좌표(x, y, z)에 특정 값($t$)을 더한 것과 같다.
 
-#### 이동
-Translate
+```cpp
+// gTransform.cpp
+void TransMat4f::translate(const Vec3f& d) {
+    identity();
+    mat[0][3] = d.x;
+    mat[1][3] = d.y;
+    mat[2][3] = d.z;
+}
+```
 
-#### 크기 조절
-Scale
+위 코드는 밑에와 같은 행렬을 만든다.
 
-#### 회전
+$\begin{bmatrix}1&0&0&t_{x}\\0&1&0&t_{y}\\0&0&1&t_{z}\\0&0&0&1\end{bmatrix}$
+
+정점 좌표 행렬에 대하여 이동 변환 행렬이 곱해지는 식은 밑에와 같이 표현된다.
+
+$\begin{bmatrix}x^{\prime}\\y^{\prime}\\z^{\prime}\\1\end{bmatrix} = \begin{bmatrix}1&0&0&t_{x}\\0&1&0&t_{y}\\0&0&1&t_{z}\\0&0&0&1\end{bmatrix}\begin{bmatrix}x\\y\\z\\1\end{bmatrix}$
+
+예시) 삼각형 정점 $v_{0}$의 좌표가 (3, 3, 3)이다. 삼각형을 x축 기준으로 1, y축 기준으로 2 이동하면 정점 $v_{0}$의 좌표가 어떻게 되는가?
+
+$\begin{bmatrix}1&0&0&1\\0&1&0&2\\0&0&1&0\\0&0&0&1\end{bmatrix}\begin{bmatrix}3\\3\\3\\1\end{bmatrix} = \begin{bmatrix}4\\5\\3\\1\end{bmatrix}$
+
+#### 크기 변환
+크기 변환(Scale)은 각 좌표(x, y, z)에 특정 값($s$)을 곱한 것과 같다 (한 마디로 스칼라 곱셈이다).
+
+```cpp
+// gTransform.cpp
+void TransMat4f::scale(const Vec3f& s) {
+    identity();
+    mat[0][0] = s.x;
+    mat[1][1] = s.y;
+    mat[2][2] = s.z;
+}
+```
+
+위 코드는 밑에와 같은 행렬을 만든다.
+
+$\begin{bmatrix}s_{x}&0&0&0\\0&s_{y}&0&0\\0&0&s_{z}&0\\0&0&0&1\end{bmatrix}$
+
+정점 좌표 행렬에 대하여 이동 변환 행렬이 곱해지는 식은 밑에와 같이 표현된다.
+
+$\begin{bmatrix}x^{\prime}\\y^{\prime}\\z^{\prime}\\1\end{bmatrix} = \begin{bmatrix}s_{x}&0&0&0\\0&s_{y}&0&0\\0&0&s_{z}&0\\0&0&0&1\end{bmatrix}\begin{bmatrix}x\\y\\z\\1\end{bmatrix}$
+
+예시) 삼각형 정점 $v_{0}$의 좌표가 (3, 3, 3)이다. 삼각형의 크기를 2배 늘리면 정점 $v_{0}$의 좌표가 어떻게 되는가?
+
+$\begin{bmatrix}2&0&0&0\\0&2&0&0\\0&0&2&0\\0&0&0&1\end{bmatrix}\begin{bmatrix}3\\3\\3\\1\end{bmatrix} = \begin{bmatrix}6\\6\\6\\1\end{bmatrix}$
+
+#### 회전 변환
+
+
+##### x축 회전변환
+회전 변환(Scale)은 각 좌표(x, y, z)에 특정 값($s$)을 곱한 것과 같다 (한 마디로 스칼라 곱셈이다).
+
+```cpp
+// gTransform.cpp
+void TransMat4f::scale(const Vec3f& s) {
+    identity();
+    mat[0][0] = s.x;
+    mat[1][1] = s.y;
+    mat[2][2] = s.z;
+}
+```
+
+위 코드는 밑에와 같은 행렬을 만든다.
+
+$\begin{bmatrix}s_{x}&0&0&0\\0&s_{y}&0&0\\0&0&s_{z}&0\\0&0&0&1\end{bmatrix}$
+
+정점 좌표 행렬에 대하여 이동 변환 행렬이 곱해지는 식은 밑에와 같이 표현된다.
+
+$\begin{bmatrix}x^{\prime}\\y^{\prime}\\z^{\prime}\\1\end{bmatrix} = \begin{bmatrix}s_{x}&0&0&0\\0&s_{y}&0&0\\0&0&s_{z}&0\\0&0&0&1\end{bmatrix}\begin{bmatrix}x\\y\\z\\1\end{bmatrix}$
+
+예시) 삼각형 정점 $v_{0}$의 좌표가 (3, 3, 3)이다. 삼각형의 크기를 2배 늘리면 정점 $v_{0}$의 좌표가 어떻게 되는가?
+
+$\begin{bmatrix}2&0&0&0\\0&2&0&0\\0&0&2&0\\0&0&0&1\end{bmatrix}\begin{bmatrix}3\\3\\3\\1\end{bmatrix} = \begin{bmatrix}6\\6\\6\\1\end{bmatrix}$
+
+
 rotateX
 rotateY
 rotateZ
