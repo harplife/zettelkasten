@@ -109,6 +109,8 @@ $\begin{bmatrix}1&0&0&1\\0&1&0&2\\0&0&1&0\\0&0&0&1\end{bmatrix}\begin{bmatrix}3\
 #### 크기 변환
 크기 변환(Scale)은 각 좌표(x, y, z)에 특정 값($s$)을 곱한 것과 같다 (한 마디로 스칼라 곱셈이다).
 
+참고 : 여기서 다룰 크기 변환은 원점(Origin)이 도형의 가운데, 즉, 각 정점으로부터 등거리(Equidistant)한 지점에 위치한다.
+
 ```cpp
 // gTransform.cpp
 void TransMat4f::scale(const Vec3f& s) {
@@ -132,32 +134,33 @@ $\begin{bmatrix}x^{\prime}\\y^{\prime}\\z^{\prime}\\1\end{bmatrix} = \begin{bmat
 $\begin{bmatrix}2&0&0&0\\0&2&0&0\\0&0&2&0\\0&0&0&1\end{bmatrix}\begin{bmatrix}3\\3\\3\\1\end{bmatrix} = \begin{bmatrix}6\\6\\6\\1\end{bmatrix}$
 
 #### 회전 변환
+여기서 다룰 회전 변환(Rotation)은 임의 방향의 축(회전축)을 중심으로 도형을 회전하는 방식을 뜻한다. 따라서, x축, y축, z축 회전변환 함수를 따로 작성해 줘야 한다.
 
+참고 : 회전각도가 양수인 경우 회전축을 중심으로 시계 반대 방향(Counter-Clock Wise)으로 회전한다.
 
 ##### x축 회전변환
-회전 변환(Scale)은 각 좌표(x, y, z)에 특정 값($s$)을 곱한 것과 같다 (한 마디로 스칼라 곱셈이다).
+x축 회전 변환(x-axis Rotation)은 x축을 중심으로 도형을 회전하는 방식이다.
 
 ```cpp
 // gTransform.cpp
-void TransMat4f::scale(const Vec3f& s) {
+void TransMat4f::rotateX(float theta) {
     identity();
-    mat[0][0] = s.x;
-    mat[1][1] = s.y;
-    mat[2][2] = s.z;
+    mat[1][1] = mat[2][2] = cos(theta);
+    mat[1][2] = -(mat[2][1] = sin(theta));
 }
 ```
 
 위 코드는 밑에와 같은 행렬을 만든다.
 
-$\begin{bmatrix}s_{x}&0&0&0\\0&s_{y}&0&0\\0&0&s_{z}&0\\0&0&0&1\end{bmatrix}$
+$\begin{bmatrix}1&0&0&0\\0&\cos\phi&-\sin\phi&0\\0&\sin\phi&\cos\phi&0\\0&0&0&1\end{bmatrix}$
 
 정점 좌표 행렬에 대하여 이동 변환 행렬이 곱해지는 식은 밑에와 같이 표현된다.
 
-$\begin{bmatrix}x^{\prime}\\y^{\prime}\\z^{\prime}\\1\end{bmatrix} = \begin{bmatrix}s_{x}&0&0&0\\0&s_{y}&0&0\\0&0&s_{z}&0\\0&0&0&1\end{bmatrix}\begin{bmatrix}x\\y\\z\\1\end{bmatrix}$
+$\begin{bmatrix}x^{\prime}\\y^{\prime}\\z^{\prime}\\1\end{bmatrix} = \begin{bmatrix}1&0&0&0\\0&\cos\phi&-\sin\phi&0\\0&\sin\phi&\cos\phi&0\\0&0&0&1\end{bmatrix}\begin{bmatrix}x\\y\\z\\1\end{bmatrix}$
 
-예시) 삼각형 정점 $v_{0}$의 좌표가 (3, 3, 3)이다. 삼각형의 크기를 2배 늘리면 정점 $v_{0}$의 좌표가 어떻게 되는가?
+예시) 삼각형 정점 $v_{0}$의 좌표가 (3, 3, 3)이다. 삼각형이 $90\degree$ 회전한다면, 정점 $v_{0}$의 좌표가 어떻게 되는가?
 
-$\begin{bmatrix}2&0&0&0\\0&2&0&0\\0&0&2&0\\0&0&0&1\end{bmatrix}\begin{bmatrix}3\\3\\3\\1\end{bmatrix} = \begin{bmatrix}6\\6\\6\\1\end{bmatrix}$
+$\begin{bmatrix}1&0&0&0\\0&\cos\phi&-\sin\phi&0\\0&\sin\phi&\cos\phi&0\\0&0&0&1\end{bmatrix}\begin{bmatrix}3\\3\\3\\1\end{bmatrix} = \begin{bmatrix}3\\3\cos\phi-3\sin\phi\\3\sin\phi+3\cos\phi\\1\end{bmatrix}$
 
 
 rotateX

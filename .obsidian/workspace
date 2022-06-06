@@ -230,7 +230,7 @@
               "leaf": "ce356a51170aeb3c",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_shader.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":0}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":151},\"to\":{\"line\":17,\"ch\":151}},\"scroll\":0}"
             }
           ]
         }
@@ -242,7 +242,7 @@
           "type": "markdown",
           "state": {
             "file": "computer_science/OpenGL/opengl_draw_2d_transform.md",
-            "mode": "source"
+            "mode": "preview"
           }
         },
         "pane-relief:history-v1": {
@@ -251,8 +251,8 @@
             {
               "leaf": "55b7c2e1058af1b9",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/OpenGL/opengl_draw_2d_transform.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":116.87096511676748}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/OpenGL/opengl_draw_2d_transform.md\",\"mode\":\"preview\"}}",
+              "eState": "{\"scroll\":143.56249979790303}"
             },
             {
               "leaf": "55b7c2e1058af1b9",
@@ -380,8 +380,8 @@
   "active": "55b7c2e1058af1b9",
   "lastOpenFiles": [
     "computer_science/OpenGL/opengl_draw_2d_transform.md",
-    "computer_science/OpenGL/opengl_draw_2d_simple_triangle.md",
     "computer_science/computer_vision/computer_graphics_shader.md",
+    "computer_science/OpenGL/opengl_draw_2d_simple_triangle.md",
     "computer_science/computer_vision/computer_graphics_software.md",
     "computer_science/computer_vision/computer_graphics_hardware.md",
     "computer_science/computer_vision/color_filter_array.md",
