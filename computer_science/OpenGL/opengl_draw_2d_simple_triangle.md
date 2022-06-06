@@ -9,7 +9,7 @@ edited: 2022-06-05
 # OpenGL 2D 삼각형 그리기
 [방통대 교재 코드 참고](https://professor.knou.ac.kr/bbs/brlee/2983/289896/artclView.do?layout=unknown)
 
-`01_OpenGLSample` 폴더 아래 `OpenGLSampleEdit.cpp`에 대해 정리한다.
+`01_OpenGLSample` 폴더 아래 `OpenGLSampleV2.cpp`에 대해 정리한다.
 
 참고 : 이해하기 쉽게 원본 `OpenGLSample.cpp`에 몇 가지 수정을 했다.
 

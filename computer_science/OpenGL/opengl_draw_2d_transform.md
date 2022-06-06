@@ -19,6 +19,24 @@ edited: 2022-06-06
 2. 변환을 위한 셰이더 준비
 3. 변환행렬 생성 및 전달
 
+## 모델 데이터
+이 프로그램은 (거의) 정사각형을 그린다. 첫 정점은 빨간색, 둘쨰는 초록색, 마지막은 파란색으로, 정점 사이 선의 색은 두 정점 색들의 그라디언트(Gradient)가 된다.
+
+참고: 정확히는 삼각형 도형이 아닌 삼각형으로 보이는 선 루프(`GL_LINE_LOOP`)와 점 리스트(`GL_POINTS`)를 그린다.
+
+```cpp
+// GeoTransform.cpp
+//삼각형의 꼭짓점 좌표 및 색
+Vertex Vertices[3] = {
+    {Vec3f(0.0f, 0.2f, 0.0f),
+     VecColor4f(1.0f, 0.0f, 0.0f, 1.0f)},
+    {Vec3f(-0.17f, -0.1f, 0.0f),
+     VecColor4f(0.0f, 1.0f, 0.0f, 1.0f)},
+    {Vec3f(0.17f, -0.1f, 0.0f),
+     VecColor4f(0.0f, 0.0f, 1.0f, 1.0f)}
+};
+```
+
 ## 변환행렬 준비
 도형을 하나의 행렬(Matrix)로 볼 때, 도형의 행동(이동, 크기 조절, 회전 등)을 변환행렬(Transformation Matrix)과의 연산으로 표현할 수 있다.
 
@@ -532,6 +550,31 @@ const TransMat4f& TransMat4f::operator *= (const TransMat4f& m) {
 2. 크기 변환
 3. 이동 변환
 
-위 변환들을 쉽게 보기 위해서
+변환행렬 연산은 렌더 콜백함수 `RenderCB()` 안에서 한다.
+
+위 변환들을 쉽게 보기 위해서 사인파(Sine Wave)를 모방하는 주기 함수(Periodic Function)을 사용한다 - 사인파는 `[-1, 1]` 사이의 값들을 오간다.
+
+사인파를 밑에와 같이 구현했다.
+```cpp
+// GeoTransform.cpp
+const   float   PI = 3.141593f;
+static  float   rot = 0.0f;
+if ((rot += 0.5) >= 360.0f)  rot = 0.0f;
+
+float   dx, dy, s;
+float   aRad = rot * PI / 180.0f;
+dx = cos(aRad) * 0.5f;
+dy = s = sin(aRad) * 0.5f;
+```
+
+회전각 `rot`는 콜백 함수가 불러질 때마다 0.5 값이 증가하여, 360도에 이르면 다시 0으로 시작되게 구현되어 있다.
+
+이 변화하는 회전각으로 Radian(`aRad`)를 구한 후, cosine 또는 sine에 넣어서 사인파를 구현할 수 있다. Sine은 0부터, Cosine은 1부터 시작한다.
+
+참고 : $Radian = \theta \times \pi \div 180$
+
+`[-1, 1]` 사이 값은 화면에 비해 너무 크기 때문에, `0.5`를 곱해서 반으로 줄였다.
 
 ### 회전 변환
+준비했던 [[#변환행렬 구조체]] `TransMat4f`로 `rTrans`라는 이름의 회전변환행렬을 만들어 준다. 그리고, 
+
