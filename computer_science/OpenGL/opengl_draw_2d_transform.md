@@ -65,6 +65,7 @@ public:
 1. 이동 변환(Translate)
 2. 크기 변환(Scale)
 3. 회전 변환(Rotate)
+4. 복합기하변환
 
 #### 항등함수
 여기서 단위행렬(Identity Matrix)은 변환 함수를 만들때 사용된다. 
