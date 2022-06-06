@@ -666,3 +666,8 @@ glUniformMatrix4fv(
 렌더링하는 방식은 기존에 [[opengl_draw_2d_simple_triangle|OpenGL 2D 삼각형 그리기]] 했던 방식과 유사하다. 그나마 다른 점은, `glutDisplayFunc(RenderCB);`에 추가로 `glutIdleFunc(RenderCB);`까지 해줬다는 것이다.
 
 `glutIdleFunc()` 함수는 창에 아무런 이벤트가 생기지 않을 동안 연속적으로 콜백함수를 부르는 역할을 한다. "완전한" 애니메이션으로 보기는 힘들다 - 창을 옮기거나 창 크기 조절 할 때 화면이 멈추는 것을 볼 수 있다.
+
+결과 :
+![[opengl_triangle_transformation.webp]]
+
+#todo 녹화가 이상하게 잘 안되는데 나중에 다시 시도.
