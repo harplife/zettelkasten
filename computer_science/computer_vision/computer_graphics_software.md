@@ -232,7 +232,7 @@ OpenGL을 배울 필요가 없을까? 딱히 그런것은 아니다 - OpenGL을 
 ### 확장 기능 관리 라이브러리
 OpenGL은 Cross Platform(다중 플랫폼 호환)이기 때문에 OpenGL 자체 코어(Core) 기능 외 각 그래픽스 하드웨어 공급업체 전용 기능(Vendor Specific Extension)들도 제공한다. 이러한 기능이 다수의 업체에 폭넓게 수용되면 EXT 확장 기능으로 인정되고, ARB(Architecture Review Board)에 승인 하에 ARB 확장 기능으로 인정된다. 이렇게 승인된 확장 기능 중 유용한 기능들은 다음 버전 OpenGL의 코어 기능으로 포함될 수 있다.
 
-프로그래머가 어떤 확장 기능을 사용할 수 있는지 관리하는 것은 어렵기 때문에, 이러한 어려움을 덜어주는 라이브러리들이 있다.
+프로그래머가 어떤 확장 기능을 사용할 수 있는지 관리하는 것은 어렵기 때문에, 이러한 어려움을 덜어주는 [확장 기능 관리 라이브러리(OpenGL Loading Library)](https://www.khronos.org/opengl/wiki/OpenGL_Loading_Library)들이 있다.
 1. [GLEW (OpenGL Extension Wrangler)](http://glew.sourceforge.net/)
 2. [GLEE (OpenGL Easy Extension)](https://www.opengl.org/sdk/libs/GLee/)
 
@@ -314,6 +314,7 @@ OpenGL에서 사용하는 8가지 자료형을 밑에 표로 정리했다.
 | GLushort                   | 16bit unsigned integer |     us     |
 | GLuint, GLenum, GLbitfield | 32bit unsigned integer |     ui     |
 
+그 외 자료형은 [OpenGL 자료형 링크](https://www.khronos.org/opengl/wiki/OpenGL_Type) 참고
 
 ### OpenGL 기본 도형
 일반적으로 점, 선, 삼각형 등 가장 간단한 도형을 [기하학적 기본 도형(Geometric Primitives)](https://en.wikipedia.org/wiki/Geometric_primitive)이라고 한다.
@@ -358,26 +359,7 @@ OpenGL에서 사용하는 기본 도형들은 밑에 그림을 참고한다.
 [raycasting](https://en.wikipedia.org/wiki/Ray_casting)
 
 ## 셰이더
-[셰이딩(Shading)](https://en.wikipedia.org/wiki/Shading)은 3차원 모델을 렌더링하기 위해서 빛(Light), 어두움(Darkness), 그리고 색(Color) 등의 조합 비율을 계산하는 작업/알고리즘을 뜻한다. 주로 현실 세계에 빛(Light)의 특성을 최대한 근접하게 묘사하기 위한 목표로 셰이딩이 사용되지만, 반대로 왜곡시켜 특이한 이펙트(Effect)를 만드는 경우도 있다.
-
-참고 : 다각형으로 만들어진 도형을 둥글게 보이도록 하는 목적으로도 셰이딩이 사용된다.
-
-초기 그래픽스 시스템에는 텍스쳐, 조명 등에 관련된 수학 연산(즉, 셰이딩)이 고정(hard-coded)되어 있어 지정된 파라미터로만 설정이 가능했다. 나중에는 이러한 수학 연산을 유저가 직접 작성한 프로그램으로 대체할 수 있도록 개선되었는데, 이러한 프로그램을 [셰이더(Shader)](https://en.wikipedia.org/wiki/Shader)라고 한다.
-
-참고 : 셰이더(Shader)라는 단어는 1988년에 Pixar에서 출시한 RenderMan 인터페이스 사양설명서에 사용된 단어이다.
-
-셰이더를 작성하기 위한 [셰이딩 언어](https://en.wikipedia.org/wiki/Shading_language)가 여러 있는데, 이 중 OpenGL 전용 셰이딩 언어 [GLSL (OpenGL Shading Language)](https://en.wikipedia.org/wiki/OpenGL_Shading_Language)이 있다.
-
-참고자료 :
-1. [그래픽스 조명(Lighting)](https://en.wikipedia.org/wiki/Computer_graphics_lighting)
-2. [learnopengl.com - Shaders](https://learnopengl.com/Getting-started/Shaders)
-3. [Cherno - How Shaders Work](https://youtu.be/5W7JLgFCkwI)
-
-#todo [셰이더 종류](https://en.wikipedia.org/wiki/Shader#Types) 정리
-
-Primitive and Mesh Shaders
-Ray Tracing Shaders
-Compute Shaders
+[[computer_graphics_shader|셰이더]] 참고
 
 ## 그래픽스 파이프라인
 [그래픽스 파이프라인(Graphics Pipeline)](https://www.khronos.org/opengl/wiki/Rendering_Pipeline_Overview)은 렌더링에 포함되는 여러 작업들을 순차적(Sequential)으로 정리한 개념적(Conceptual) 모델이다.
@@ -561,4 +543,9 @@ TES의 결과값은 기하구조 셰이더(Geometry Shader) 또는 정점 후처
 이 단계가 끝나면 프레임버퍼(Framebuffer)에 데이터가 전송된다.
 
 ## OpenGL 예시
-[방통대 교재 코드 참고](https://professor.knou.ac.kr/bbs/brlee/2983/289896/artclView.do?layout=unknown)
+1. [[opengl_draw_2d_simple_triangle|OpenGL 2D 삼각형 그리기]] 참고
+2. 
+
+
+# 참고자료
+- https://kyoungwhankim.github.io/blog/opengl_triangle1/

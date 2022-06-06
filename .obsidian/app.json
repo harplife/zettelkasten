@@ -35,7 +35,8 @@
     "OpenGL",
     "Wireframe",
     "shader",
-    "Rasterization"
+    "Rasterization",
+    "freeGLUT"
   ],
   "legacyEditor": true,
   "livePreview": true,
