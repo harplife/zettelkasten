@@ -628,6 +628,8 @@ TransMat4f tMat(rzTrans * sTrans * tTrans);
 ### 복합변환행렬 전달
 생성한 복합변환행렬을 정점 셰이더에 전달해준다. 정점 좌표 행렬과 복합변환행렬의 곱은 정점 셰이더에서 진행된다.
 
+참고 : 이 섹션은 [[#변환을 위한 셰이더 준비]] 섹션과 번갈아보면서 읽어보는게 좋을 듯 하다.
+
 `glUniformMatrix4fv` 함수는 유니폼 변수에 데이터를 전달해주는 함수이다. 
 
 ```cpp
@@ -641,6 +643,8 @@ void glUniformMatrix4fv(
 
 `location`은 유니폼 변수(변환행렬 변수)의 위치를 뜻하고, `count`는 데이터가 업데이트될 행렬의 개수, `transpose`는 보내는 데이터 행렬에 전치를 할 지에 대한 여부, 그리고 `value`는 보낼 데이터 행렬이 된다.
 
+참고 : [OpenGL - glUniformMatrix4fv](https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glUniform.xhtml)
+
 밑에 코드와 같이 `glUniformMatrix4fv`를 사용해서 복합변환행렬을 전달해준다.
 
 ```cpp
@@ -651,8 +655,9 @@ glUniformMatrix4fv(
 
 `uGTransLocation`은 [[#변환행렬 변수 위치 추적]] 섹션에서 정리했듯이, 변환행렬 변수의 위치를 뜻한다. 렌더링 단계에서 실제로 셰이더가 로딩되면 이 변수에 위치값이 들어간다.
 
-`transpose`를 한다는 의미로 `GL_TRUE`를 넣은 이유는, 정점 좌표 행렬이 실제 비디오 메모리에 있을 때 열 우선(Column-Major)
+#todo `transpose`를 한다는 의미로 `GL_TRUE`를 넣었다. 왠지는 잘 모르겠다.
 
-참고 : 헷갈리면 [[#변환을 위한 셰이더 준비]] 섹션을 다시 검토해보면 된다.
+변환행렬 구조체 `TransMat4f`에 `getPMat()` 함수는 변환행렬의 주소를 출력한다.
 
 ## 애니메이션
+렌더링하는 방식은 기존에 [[opengl_draw_2d_simple_triangle|OpenGL 2D 삼각형 그리기]] 했던 방식과 유사하다. 그나마 다른 점은, 
