@@ -14,6 +14,8 @@ edited: 2022-06-06
 2. `gTransform.cpp`
 3. `gTransform.h`
 
+`03_AntiAliasing` 폴더에 `AntiAlias.cpp` 코드를 이미 검토해봤다는 가정하에 설명을 진행한다. [[opengl_draw_2d_simple_triangle|OpenGL 2D 삼각형 그리기]] 내용만해도 충분하다.
+
 이 코드는 5가지 작업을 한다?
 1. 변환행렬 준비
 2. 변환을 위한 셰이더 준비
@@ -576,5 +578,7 @@ dy = s = sin(aRad) * 0.5f;
 `[-1, 1]` 사이 값은 화면에 비해 너무 크기 때문에, `0.5`를 곱해서 반으로 줄였다.
 
 ### 회전 변환
-준비했던 [[#변환행렬 구조체]] `TransMat4f`로 `rTrans`라는 이름의 회전변환행렬을 만들어 준다. 그리고, 
+z축 회전변환을 적용해본다.
+1. 준비했던 [[#변환행렬 구조체]] `TransMat4f`로 `rzTrans`라는 이름의 회전변환행렬을 만들어 준다 - `TransMat4f rzTrans;`
+2.  
 
