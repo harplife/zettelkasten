@@ -41,7 +41,7 @@ struct Vec3f {	// 3차원 좌표를 표현하기 위한 구조체
 
 `TransMat4f`는 소수값 4x4 행렬(Matrix)로 3x3 행렬에 대한 변환 함수들을 제공하는 구조체이다.
 
-참고 : 변환행렬이 3x3이 아닌 4x4인 이유는 교재 5.2 "행렬표현과 동차좌표" (페이지 155)에 설명되어 있다 (설명이 개같아서 이해가 되는 것은 아니다 ㅋ).
+참고 : 변환행렬이 3x3이 아닌 4x4인 이유는 교재 5.2 "행렬표현과 동차좌표" (p 155)에 설명되어 있다 (설명이 개같아서 이해가 되는 것은 아니다 ㅋ).
 
 ```cpp
 // gTransform.h
@@ -79,7 +79,14 @@ void TransMat4f::identity() {
 
 위 코드는 밑에와 같은 행렬을 만들어준다.
 
-$\begin{bmatrix}1&0&0&0\\0&1&0&0\\0&0&1&0\\0&0&0&1\end{bmatrix}$
+$$
+\begin{bmatrix}
+    1&0&0&0\\
+    0&1&0&0\\
+    0&0&1&0\\
+    0&0&0&1
+\end{bmatrix}
+$$
 
 #### 이동 변환
 이동 변환(Translate)은 각 좌표(x, y, z)에 특정 값($t$)을 더한 것과 같다.
@@ -96,15 +103,62 @@ void TransMat4f::translate(const Vec3f& d) {
 
 위 코드는 밑에와 같은 행렬을 만든다.
 
-$\begin{bmatrix}1&0&0&t_{x}\\0&1&0&t_{y}\\0&0&1&t_{z}\\0&0&0&1\end{bmatrix}$
+$$
+\begin{bmatrix}
+    1&0&0&t_{x}\\
+    0&1&0&t_{y}\\
+    0&0&1&t_{z}\\
+    0&0&0&1
+\end{bmatrix}
+$$
 
 정점 좌표 행렬에 대하여 이동 변환 행렬이 곱해지는 식은 밑에와 같이 표현된다.
 
-$\begin{bmatrix}x^{\prime}\\y^{\prime}\\z^{\prime}\\1\end{bmatrix} = \begin{bmatrix}1&0&0&t_{x}\\0&1&0&t_{y}\\0&0&1&t_{z}\\0&0&0&1\end{bmatrix}\begin{bmatrix}x\\y\\z\\1\end{bmatrix}$
+$$
+\begin{bmatrix}
+    x^{\prime}\\
+    y^{\prime}\\
+    z^{\prime}\\
+    1
+\end{bmatrix}
+=
+\begin{bmatrix}
+    1&0&0&t_{x}\\
+    0&1&0&t_{y}\\
+    0&0&1&t_{z}\\
+    0&0&0&1
+\end{bmatrix}
+\begin{bmatrix}
+    x\\
+    y\\
+    z\\
+    1
+\end{bmatrix}
+$$
 
 예시) 삼각형 정점 $v_{0}$의 좌표가 (3, 3, 3)이다. 삼각형을 x축 기준으로 1, y축 기준으로 2 이동하면 정점 $v_{0}$의 좌표가 어떻게 되는가?
 
-$\begin{bmatrix}1&0&0&1\\0&1&0&2\\0&0&1&0\\0&0&0&1\end{bmatrix}\begin{bmatrix}3\\3\\3\\1\end{bmatrix} = \begin{bmatrix}4\\5\\3\\1\end{bmatrix}$
+$$
+\begin{bmatrix}
+    1&0&0&1\\
+    0&1&0&2\\
+    0&0&1&0\\
+    0&0&0&1
+\end{bmatrix}
+\begin{bmatrix}
+    3\\
+    3\\
+    3\\
+    1
+\end{bmatrix}
+=
+\begin{bmatrix}
+    4\\
+    5\\
+    3\\
+    1
+\end{bmatrix}
+$$
 
 #### 크기 변환
 크기 변환(Scale)은 각 좌표(x, y, z)에 특정 값($s$)을 곱한 것과 같다 (한 마디로 스칼라 곱셈이다).
@@ -123,15 +177,62 @@ void TransMat4f::scale(const Vec3f& s) {
 
 위 코드는 밑에와 같은 행렬을 만든다.
 
-$\begin{bmatrix}s_{x}&0&0&0\\0&s_{y}&0&0\\0&0&s_{z}&0\\0&0&0&1\end{bmatrix}$
+$$
+\begin{bmatrix}
+    s_{x}&0&0&0\\
+    0&s_{y}&0&0\\
+    0&0&s_{z}&0\\
+    0&0&0&1
+\end{bmatrix}
+$$
 
-정점 좌표 행렬에 대하여 이동 변환 행렬이 곱해지는 식은 밑에와 같이 표현된다.
+정점 좌표 행렬에 대하여 크기 변환 행렬이 곱해지는 식은 밑에와 같이 표현된다.
 
-$\begin{bmatrix}x^{\prime}\\y^{\prime}\\z^{\prime}\\1\end{bmatrix} = \begin{bmatrix}s_{x}&0&0&0\\0&s_{y}&0&0\\0&0&s_{z}&0\\0&0&0&1\end{bmatrix}\begin{bmatrix}x\\y\\z\\1\end{bmatrix}$
+$$
+\begin{bmatrix}
+    x^{\prime}\\
+    y^{\prime}\\
+    z^{\prime}\\
+    1
+\end{bmatrix}
+=
+\begin{bmatrix}
+    s_{x}&0&0&0\\
+    0&s_{y}&0&0\\
+    0&0&s_{z}&0\\
+    0&0&0&1
+\end{bmatrix}
+\begin{bmatrix}
+    x\\
+    y\\
+    z\\
+    1
+\end{bmatrix}
+$$
 
 예시) 삼각형 정점 $v_{0}$의 좌표가 (3, 3, 3)이다. 삼각형의 크기를 2배 늘리면 정점 $v_{0}$의 좌표가 어떻게 되는가?
 
-$\begin{bmatrix}2&0&0&0\\0&2&0&0\\0&0&2&0\\0&0&0&1\end{bmatrix}\begin{bmatrix}3\\3\\3\\1\end{bmatrix} = \begin{bmatrix}6\\6\\6\\1\end{bmatrix}$
+$$
+\begin{bmatrix}
+    2&0&0&0\\
+    0&2&0&0\\
+    0&0&2&0\\
+    0&0&0&1
+\end{bmatrix}
+\begin{bmatrix}
+    3\\
+    3\\
+    3\\
+    1
+\end{bmatrix}
+=
+\begin{bmatrix}
+    6\\
+    6\\
+    6\\
+    1
+\end{bmatrix}
+$$
 
 #### 회전 변환
 여기서 다룰 회전 변환(Rotation)은 임의 방향의 축(회전축)을 중심으로 도형을 회전하는 방식을 뜻한다. 따라서, x축, y축, z축 회전변환 함수를 따로 작성해 줘야 한다.
@@ -152,17 +253,223 @@ void TransMat4f::rotateX(float theta) {
 
 위 코드는 밑에와 같은 행렬을 만든다.
 
-$\begin{bmatrix}1&0&0&0\\0&\cos\phi&-\sin\phi&0\\0&\sin\phi&\cos\phi&0\\0&0&0&1\end{bmatrix}$
+$$
+\begin{bmatrix}
+    1&0&0&0\\
+    0&\cos\phi&-\sin\phi&0\\
+    0&\sin\phi&\cos\phi&0\\
+    0&0&0&1
+\end{bmatrix}
+$$
 
-정점 좌표 행렬에 대하여 이동 변환 행렬이 곱해지는 식은 밑에와 같이 표현된다.
+정점 좌표 행렬에 대하여 회전 변환 행렬이 곱해지는 식은 밑에와 같이 표현된다.
 
-$\begin{bmatrix}x^{\prime}\\y^{\prime}\\z^{\prime}\\1\end{bmatrix} = \begin{bmatrix}1&0&0&0\\0&\cos\phi&-\sin\phi&0\\0&\sin\phi&\cos\phi&0\\0&0&0&1\end{bmatrix}\begin{bmatrix}x\\y\\z\\1\end{bmatrix}$
+$$
+\begin{bmatrix}
+    x^{\prime}\\
+    y^{\prime}\\
+    z^{\prime}\\
+    1
+\end{bmatrix}
+=
+\begin{bmatrix}
+    1&0&0&0\\
+    0&\cos\phi&-\sin\phi&0\\
+    0&\sin\phi&\cos\phi&0\\
+    0&0&0&1
+\end{bmatrix}
+\begin{bmatrix}
+    x\\
+    y\\
+    z\\
+    1
+\end{bmatrix}
+$$
 
-예시) 삼각형 정점 $v_{0}$의 좌표가 (3, 3, 3)이다. 삼각형이 $90\degree$ 회전한다면, 정점 $v_{0}$의 좌표가 어떻게 되는가?
+예시) 삼각형 정점 $v_{0}$의 좌표가 (3, 3, 3)이다. 삼각형이 x축 중심으로 $90\degree$ 회전한다면, 정점 $v_{0}$의 좌표가 어떻게 되는가?
 
-$\begin{bmatrix}1&0&0&0\\0&\cos\phi&-\sin\phi&0\\0&\sin\phi&\cos\phi&0\\0&0&0&1\end{bmatrix}\begin{bmatrix}3\\3\\3\\1\end{bmatrix} = \begin{bmatrix}3\\3\cos\phi-3\sin\phi\\3\sin\phi+3\cos\phi\\1\end{bmatrix}$
+$$
+\begin{bmatrix}
+    1&0&0&0\\
+    0&\cos\phi&-\sin\phi&0\\
+    0&\sin\phi&\cos\phi&0\\
+    0&0&0&1
+\end{bmatrix}
+\begin{bmatrix}
+    3\\
+    3\\
+    3\\
+    1
+\end{bmatrix}
+=
+\begin{bmatrix}
+    3\\
+    3\cos\phi-3\sin\phi\\
+    3\sin\phi+3\cos\phi\\
+    1
+\end{bmatrix}
+=
+\begin{bmatrix}
+    3\\
+    -4.03\\
+    1.34\\
+    1
+\end{bmatrix}
+$$
 
+##### y축 회전변환
+y축 회전 변환(y-axis Rotation)은 y축을 중심으로 도형을 회전하는 방식이다.
 
-rotateX
-rotateY
-rotateZ
+```cpp
+// gTransform.cpp
+void TransMat4f::rotateY(float theta) {
+    identity();
+    mat[0][0] = mat[2][2] = cos(theta);
+    mat[2][0] = -(mat[0][2] = sin(theta));
+}
+```
+
+위 코드는 밑에와 같은 행렬을 만든다.
+
+$$
+\begin{bmatrix}
+    \cos\phi&0&\sin\phi&0\\
+    0&1&0&0\\
+    -\sin\phi&0&\cos\phi&0\\
+    0&0&0&1
+\end{bmatrix}
+$$
+
+정점 좌표 행렬에 대하여 회전 변환 행렬이 곱해지는 식은 밑에와 같이 표현된다.
+
+$$
+\begin{bmatrix}
+    x^{\prime}\\
+    y^{\prime}\\
+    z^{\prime}\\
+    1
+\end{bmatrix}
+=
+\begin{bmatrix}
+    \cos\phi&0&\sin\phi&0\\
+    0&1&0&0\\
+    -\sin\phi&0&\cos\phi&0\\
+    0&0&0&1
+\end{bmatrix}
+\begin{bmatrix}
+    x\\
+    y\\
+    z\\
+    1
+\end{bmatrix}
+$$
+
+예시) 삼각형 정점 $v_{0}$의 좌표가 (3, 3, 3)이다. 삼각형이 y축 중심으로 $90\degree$ 회전한다면, 정점 $v_{0}$의 좌표가 어떻게 되는가?
+
+$$
+\begin{bmatrix}
+    \cos\phi&0&\sin\phi&0\\
+    0&1&0&0\\
+    -\sin\phi&0&\cos\phi&0\\
+    0&0&0&1
+\end{bmatrix}
+\begin{bmatrix}
+    3\\
+    3\\
+    3\\
+    1
+\end{bmatrix}
+=
+\begin{bmatrix}
+    3\cos\phi+3\sin\phi\\
+    3\\
+    -3\sin\phi+3\cos\phi\\
+    1
+\end{bmatrix}
+=
+\begin{bmatrix}
+    1.34\\
+    3\\
+    -4.03\\
+    1
+\end{bmatrix}
+$$
+
+##### z축 회전변환
+z축 회전 변환(z-axis Rotation)은 z축을 중심으로 도형을 회전하는 방식이다.
+
+```cpp
+// gTransform.cpp
+void TransMat4f::rotateZ(float theta) {
+    identity();
+    mat[0][0] = mat[1][1] = cos(theta);
+    mat[0][1] = -(mat[1][0] = sin(theta));
+}
+```
+
+위 코드는 밑에와 같은 행렬을 만든다.
+
+$$
+\begin{bmatrix}
+    \cos\phi&-\sin\phi&0&0\\
+    \sin\phi&\cos\phi&0&0\\
+    0&0&1&0\\
+    0&0&0&1
+\end{bmatrix}
+$$
+
+정점 좌표 행렬에 대하여 회전 변환 행렬이 곱해지는 식은 밑에와 같이 표현된다.
+
+$$
+\begin{bmatrix}
+    x^{\prime}\\
+    y^{\prime}\\
+    z^{\prime}\\
+    1
+\end{bmatrix}
+=
+\begin{bmatrix}
+    \cos\phi&-\sin\phi&0&0\\
+    \sin\phi&\cos\phi&0&0\\
+    0&0&1&0\\
+    0&0&0&1
+\end{bmatrix}
+\begin{bmatrix}
+    x\\
+    y\\
+    z\\
+    1
+\end{bmatrix}
+$$
+
+예시) 삼각형 정점 $v_{0}$의 좌표가 (3, 3, 3)이다. 삼각형이 z축 중심으로 $90\degree$ 회전한다면, 정점 $v_{0}$의 좌표가 어떻게 되는가?
+
+$$
+\begin{bmatrix}
+    \cos\phi&-\sin\phi&0&0\\
+    \sin\phi&\cos\phi&0&0\\
+    0&0&1&0\\
+    0&0&0&1
+\end{bmatrix}
+\begin{bmatrix}
+    3\\
+    3\\
+    3\\
+    1
+\end{bmatrix}
+=
+\begin{bmatrix}
+    3\cos\phi-3\sin\phi\\
+    3\sin\phi+3\cos\phi\\
+    3\\
+    1
+\end{bmatrix}
+=
+\begin{bmatrix}
+    -4.03\\
+    1.34\\
+    3\\
+    1
+\end{bmatrix}
+$$
+
