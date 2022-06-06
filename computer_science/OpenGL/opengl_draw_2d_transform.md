@@ -61,7 +61,7 @@ public:
 ```
 
 `TransMat4f` 변환행렬이 제공하는 변환 함수들은 밑에와 같다.
-1. 항등함수(Identity)
+1. 단위행렬(Identity)
 2. 이동(Translate)
 3. 크기 조절(Scale)
 4. 회전(Rotate)
@@ -69,11 +69,18 @@ public:
 #### 항등함수
 항등함수(Identity Function) 또는 단위행렬(Identity Matrix)는 변환 함수를 만들때 사용된다. 
 
-| 1 | 0 | 0 | 0 |
-| 0 | 1 | 0 | 0 |
-| 0 | 0 | 1 | 0 |
-| 0 | 0 | 0 | 1 |
+```cpp
+void TransMat4f::identity() {
+    memset(mat, 0, sizeof(mat));
+    mat[0][0] = mat[1][1] = mat[2][2] = mat[3][3] = 1.0f;
+}
+```
 
+위 코드는 밑에와 같은 행렬을 만들어준다.
+
+$\begin{bmatrix}x^` \\y^2 \\z^3 \\1 \end{bmatrix}$
+
+$= \begin{bmatrix}1&0&0&0\\0&1&0&0\\0&0&1&0\\0&0&0&1\end{bmatrix}$
 
 #### 이동
 Translate
