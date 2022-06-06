@@ -65,7 +65,7 @@ public:
 1. 이동 변환(Translate)
 2. 크기 변환(Scale)
 3. 회전 변환(Rotate)
-4. 복합기하변환
+4. 복합기하변환 - 행렬곱셈(Matrix Multiplication)
 
 #### 항등함수
 여기서 단위행렬(Identity Matrix)은 변환 함수를 만들때 사용된다. 
@@ -473,4 +473,37 @@ $$
     1
 \end{bmatrix}
 $$
+
+#### 복합 기하 변환
+변환 행렬 구조체에 대하여 곱셈(`*`) 연산자를 오버로딩(Overloading) 하였다 - 이는 행렬 곱셈이 일어날시 어떻게 연산이 일어날지 정의를 하는 것이며, 동시에 여러 변환 행렬을 합치는 방안을 제시한다.
+
+```cpp
+// gTransform.cpp
+TransMat4f TransMat4f::operator * (const TransMat4f& m) const {
+    TransMat4f   R;
+    for (int r = 0; r < 4; r++) {
+        for (int c = 0; c < 4; c++)
+            R.mat[r][c] = mat[r][0] * m.mat[0][c]
+            + mat[r][1] * m.mat[1][c]
+            + mat[r][2] * m.mat[2][c]
+            + mat[r][3] * m.mat[3][c];
+    }
+    return R;
+}
+
+const TransMat4f& TransMat4f::operator *= (const TransMat4f& m) {
+    TransMat4f  R;
+    for (int r = 0; r < 4; r++) {
+        for (int c = 0; c < 4; c++)
+            R.mat[r][c] = mat[r][0] * m.mat[0][c]
+            + mat[r][1] * m.mat[1][c]
+            + mat[r][2] * m.mat[2][c]
+            + mat[r][3] * m.mat[3][c];
+    }
+    memcpy_s(mat, sizeof(mat), R.mat, sizeof(mat));
+    return *this;
+}
+```
+
+#todo 행렬 곱셈의 코드 구현에 대한 자세한 설명은 일단 생략한다.
 
