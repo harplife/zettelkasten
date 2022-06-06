@@ -532,7 +532,7 @@ const TransMat4f& TransMat4f::operator *= (const TransMat4f& m) {
 #todo 행렬 곱셈의 코드 구현에 대한 자세한 설명은 일단 생략한다.
 
 ## 변환을 위한 셰이더 준비
-소스 프로그램에서 변환행열을 셰이더가 전달 받을 수 있도록 셰이더를 준비해준다.
+소스 프로그램에서 셰이더가 변환행열을 사용할 수 있도록 셰이더를 준비해준다.
 
 ### 변환행렬 변수 선언
 제일 먼저 변환행렬을 받는 셰이더는 정점 셰이더이기 때문에, 정점 셰이더에 변환행열을 받을 수 있도록 미리 변수를 준비해줘야 한다.
@@ -544,15 +544,19 @@ const TransMat4f& TransMat4f::operator *= (const TransMat4f& m) {
 ### 변환행렬 변수 위치 추적
 정점 셰이더에서 변환행렬 변수를 선언했으니, 이 변수의 위치(Location)가 어떻게 되는지 알아야 변환행렬을 넣어줄 수 있다. 그러기 위해선 일단 위치 값을 담을 전역변수로 `GLuint uGTransLocation`을 선언해줘야 한다.
 
-그 다음, `SetUpShaders()` 함수 안에 `glUsePorgram(shaderProg)`로 셰이더 프로그램 등록까지 끝난 후 유니폼 변수의 위치를 호출한다 - `uGTransLocation = glGetUniformLocation(shaderProg, "gTransform")`.
+그 다음, `SetUpShaders()` 함수 안에 `glUsePorgram(shaderProg)`로 셰이더 프로그램 등록까지 끝난 후 유니폼 변수의 위치를 호출할 수 있게 해준다 - `uGTransLocation = glGetUniformLocation(shaderProg, "gTransform")`.
 
 참고 : [OpenGL - glGetUniformLocation](https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGetUniformLocation.xhtml)
 
+### 변환행렬 연산
+정점 셰이더에 `layout (location = 0) in vec3 Position;`로 `Position` 변수로 정점 좌표를 받게 하고, 정점 셰이더 메인 함수 안에 `gl_Position = gTransform * vec4(Position, 1.0);`로 정점 좌표 행렬과 변환행렬의 곱셈 연산이 이루어지게 한다.
+
 ## 변환행렬 생성 및 전달
-이 프로그램에서는 3가지 변환을 한다.
+변환행렬을 우선 생성하고, 취합한 후 전달한다.
 1. 회전 변환
 2. 크기 변환
 3. 이동 변환
+4. 복합 변환
 
 변환행렬 연산은 렌더 콜백함수 `RenderCB()` 안에서 한다.
 
@@ -606,6 +610,49 @@ sTrans.scale(Vec3f((s + 1.0f), (s + 1.0f), (s + 1.0f)));
 // GeoTransform.cpp
 TransMat4f tTrans; // 변환행렬 생성
 // 크기변환행렬로 변형
-tTrans.translate(Vec3f(dx * 0.5f, dy * 0.5f, 0.0f));
+tTrans.translate(Vec3f(dx, dy, 0.0f));
 ```
 
+`dx` 값은 좌우로 도형을 오가게 한다. `dy`값은 상하로 도형을 오가게 한다.
+
+`dx`값은 1부터 밑으로 내려가는 것부터 시작하고, `dy`값은 0부터 위로 올라가는 것으로 시작한다 - 이 현상이 합쳐지면 도형이 마치 반시계반향으로 동그라미를 그리듯이 움직인다.
+
+### 복합변환행렬 생성
+회전변환행렬, 크기변환행렬, 이동변환행렬을 행렬 곱셈으로 합쳐준다.
+
+```cpp
+// GeoTransform.cpp
+TransMat4f tMat(rzTrans * sTrans * tTrans);
+```
+
+### 복합변환행렬 전달
+생성한 복합변환행렬을 정점 셰이더에 전달해준다. 정점 좌표 행렬과 복합변환행렬의 곱은 정점 셰이더에서 진행된다.
+
+`glUniformMatrix4fv` 함수는 유니폼 변수에 데이터를 전달해주는 함수이다. 
+
+```cpp
+void glUniformMatrix4fv(
+	GLint location,
+	GLsizei count,
+	GLboolean transpose,
+	const GLfloat *value
+);
+```
+
+`location`은 유니폼 변수(변환행렬 변수)의 위치를 뜻하고, `count`는 데이터가 업데이트될 행렬의 개수, `transpose`는 보내는 데이터 행렬에 전치를 할 지에 대한 여부, 그리고 `value`는 보낼 데이터 행렬이 된다.
+
+밑에 코드와 같이 `glUniformMatrix4fv`를 사용해서 복합변환행렬을 전달해준다.
+
+```cpp
+glUniformMatrix4fv(
+    uGTransLocation, 1, GL_TRUE, tMat.getPMat()
+);
+```
+
+`uGTransLocation`은 [[#변환행렬 변수 위치 추적]] 섹션에서 정리했듯이, 변환행렬 변수의 위치를 뜻한다. 렌더링 단계에서 실제로 셰이더가 로딩되면 이 변수에 위치값이 들어간다.
+
+`transpose`를 한다는 의미로 `GL_TRUE`를 넣은 이유는, 정점 좌표 행렬이 실제 비디오 메모리에 있을 때 열 우선(Column-Major)
+
+참고 : 헷갈리면 [[#변환을 위한 셰이더 준비]] 섹션을 다시 검토해보면 된다.
+
+## 애니메이션
