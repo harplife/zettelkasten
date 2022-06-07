@@ -23,4 +23,13 @@ vcpkg search glfw3
 vcpkg install opengl:x64-windows
 vcpkg install glfw3:x64-windows
 vcpkg install glad[gl-api-33]:x64-windows
+
+# visual studio에 연결
+vcpkg integrate install
 ```
+
+이거 자리 찾아주장~
+
+cherno는 glfw랑 glew쓰는 듯
+`vcpkg install glew:x64-windows`
+https://github.com/rajsahae/thecherno_opengl
