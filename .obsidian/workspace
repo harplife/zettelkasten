@@ -252,13 +252,13 @@
               "leaf": "55b7c2e1058af1b9",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/OpenGL/visual_studio_graphics_setup_w_glfw_n_glad.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":27,\"ch\":23},\"to\":{\"line\":27,\"ch\":23}},\"scroll\":0}"
             },
             {
               "leaf": "55b7c2e1058af1b9",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/OpenGL/visual_studio_graphics_setup_w_freeglut_n_glew.md\",\"mode\":\"preview\"}}",
-              "eState": "{\"scroll\":0}"
+              "eState": "{\"scroll\":63.89748915475817}"
             },
             {
               "leaf": "55b7c2e1058af1b9",
@@ -321,7 +321,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262
+    "width": 262,
+    "collapsed": true
   },
   "right": {
     "id": "f152d8fd8ec1f4e0",

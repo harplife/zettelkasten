@@ -23,4 +23,7 @@ vcpkg search glfw3
 vcpkg install opengl:x64-windows
 vcpkg install glfw3:x64-windows
 vcpkg install glad[gl-api-33]:x64-windows
+
+# visual studio에 연결
+vcpkg integrate install
 ```
