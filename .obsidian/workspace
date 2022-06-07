@@ -230,7 +230,7 @@
               "leaf": "ce356a51170aeb3c",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_shader.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":151},\"to\":{\"line\":17,\"ch\":151}},\"scroll\":0}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":30,\"ch\":26},\"to\":{\"line\":30,\"ch\":26}},\"scroll\":0}"
             }
           ]
         }
@@ -242,7 +242,7 @@
           "type": "markdown",
           "state": {
             "file": "computer_science/OpenGL/opengl_draw_2d_transform.md",
-            "mode": "source"
+            "mode": "preview"
           }
         },
         "pane-relief:history-v1": {
@@ -251,8 +251,8 @@
             {
               "leaf": "55b7c2e1058af1b9",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/OpenGL/opengl_draw_2d_transform.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/OpenGL/opengl_draw_2d_transform.md\",\"mode\":\"preview\"}}",
+              "eState": "{\"scroll\":624.9148936170212}"
             },
             {
               "leaf": "55b7c2e1058af1b9",
@@ -309,8 +309,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262,
-    "collapsed": true
+    "width": 262
   },
   "right": {
     "id": "f152d8fd8ec1f4e0",
@@ -380,8 +379,8 @@
   "active": "55b7c2e1058af1b9",
   "lastOpenFiles": [
     "computer_science/OpenGL/opengl_draw_2d_transform.md",
-    "computer_science/OpenGL/opengl_draw_2d_simple_triangle.md",
     "computer_science/computer_vision/computer_graphics_shader.md",
+    "computer_science/OpenGL/opengl_draw_2d_simple_triangle.md",
     "computer_science/computer_vision/computer_graphics_software.md",
     "computer_science/computer_vision/computer_graphics_hardware.md",
     "computer_science/computer_vision/color_filter_array.md",
