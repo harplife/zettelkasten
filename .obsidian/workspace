@@ -241,7 +241,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "computer_science/OpenGL/opengl_draw_2d_transform.md",
+            "file": "computer_science/OpenGL/visual_studio_graphics_setup_w_freeglut_n_glew.md",
             "mode": "preview"
           }
         },
@@ -251,8 +251,14 @@
             {
               "leaf": "55b7c2e1058af1b9",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/OpenGL/visual_studio_graphics_setup_w_freeglut_n_glew.md\",\"mode\":\"preview\"}}",
+              "eState": "{\"scroll\":41.08695652173913}"
+            },
+            {
+              "leaf": "55b7c2e1058af1b9",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/OpenGL/opengl_draw_2d_transform.md\",\"mode\":\"preview\"}}",
-              "eState": "{\"scroll\":624.9148936170212}"
+              "eState": "{\"scroll\":621.8913043478261}"
             },
             {
               "leaf": "55b7c2e1058af1b9",
@@ -309,7 +315,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262
+    "width": 262,
+    "collapsed": true
   },
   "right": {
     "id": "f152d8fd8ec1f4e0",
@@ -325,7 +332,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer_science/OpenGL/opengl_draw_2d_transform.md",
+                "file": "computer_science/OpenGL/visual_studio_graphics_setup_w_freeglut_n_glew.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -361,7 +368,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer_science/OpenGL/opengl_draw_2d_transform.md"
+                "file": "computer_science/OpenGL/visual_studio_graphics_setup_w_freeglut_n_glew.md"
               }
             },
             "pane-relief:history-v1": {
@@ -378,6 +385,7 @@
   },
   "active": "55b7c2e1058af1b9",
   "lastOpenFiles": [
+    "computer_science/OpenGL/visual_studio_graphics_setup_w_freeglut_n_glew.md",
     "computer_science/OpenGL/opengl_draw_2d_transform.md",
     "computer_science/computer_vision/computer_graphics_shader.md",
     "computer_science/OpenGL/opengl_draw_2d_simple_triangle.md",
@@ -386,7 +394,6 @@
     "computer_science/computer_vision/color_filter_array.md",
     "computer_science/discrete_math/propositional_logic.md",
     "computer_science/discrete_math/discrete_math_knou_note.md",
-    "computer_science/OpenGL/visual_studio_graphics_setup_w_freeglut_n_glew.md",
     "computer_science/computer_vision/computer_graphics.md"
   ]
 }
