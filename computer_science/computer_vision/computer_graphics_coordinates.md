@@ -9,9 +9,11 @@ edited: 2022-06-08
 # 뷰잉 및 투영
 컴퓨터 그래픽스에 있어 3D 모델을 "본다"는 것은 추상적으로만 존재하는 3D 모델을 현실 세계 2D 화면의 픽셀로서 사람이 인식할 수 있는 그림으로 재현한다는 의미로 해석된다 - 그리고 이 행위를 뷰잉(Viewing)이라고 한다.
 
-뷰잉(Viewing)을 실제로 구현하는 것을 [투영(Projection)](https://en.wikipedia.org/wiki/3D_projection)이라고 한다. 정확히는 그래픽 투영(Graphical Projection) 또는 3차원 투영(3D Projection)이라 부른다.
+뷰잉(Viewing)을 실제로 구현하는 것을 [투영(Projection)](https://en.wikipedia.org/wiki/3D_projection)이라고 한다 - 투영은 3D 모델을 2차원 평면에 그리는 기술이다.
 
-참고 : Projection은 투영, 사영, 또는 투상으로도 불린다.. - [정보통신기술용어해설](http://www.ktword.co.kr/test/view/view.php?m_temp1=4978)
+그래픽 투영(Graphical Projection) 또는 3차원 투영(3D Projection)이라 부르기도 하낟.
+
+참고 : Projection은 투영, 사영, 또는 투상으로도 번역된다.. - [정보통신기술용어해설](http://www.ktword.co.kr/test/view/view.php?m_temp1=4978)
 
 뷰잉은 말 그대로 보는 행위, 투영은 보이는 것을 그림으로 그리는 행위로 생각하면 될 것 같다.
 
