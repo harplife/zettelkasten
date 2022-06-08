@@ -15,3 +15,6 @@ edited: 2022-06-08
 5. Screen Space
 
 ## Local Space
+지역 공간(Local Space), 또는 객체 공간(Object Space)는 3D 좌표계에서 지역 원점(Origin)에 상대적인(Relative) 좌표로서 3D 물체를 표현한 것이다.
+
+중요한 것은 이 지역 공간이 개념적(Conceptual)인 가상 공간(Virtual Space)라는 것으로, 
