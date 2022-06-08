@@ -21,7 +21,7 @@ edited: 2022-06-08
 
 참고 : [단안단서(Monocular Vision)](https://en.wikipedia.org/wiki/Monocular_vision)
 
-여기서 깊이(Depth)는 
+물체와 물체로 상대적인 거리로 인해 사람은 물체들의 크기와 위치를 판단할 수 있다 - 크기와 위치의 종합적인 "감각"을 깊이 감각(Depth Perception)이라고 한다.
 
 뷰잉에 영향을 주는 요소로서, 사물과 눈(Eye) 사이 거리에 비례하여 사물이 커보이거나 작아보이는 현상, 즉, 사영(Projection)이 있다.
 
