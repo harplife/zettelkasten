@@ -51,7 +51,7 @@ edited: 2022-06-08
 
 편의를 위해서 이 면들을 시야(View)로 표현하겠다.
 
-다시점 투영은 앞면-옆면-위
+다시점 투영은 3개의 시야로 충분히 3D 물체를 
 
 다시점 투영을 기준으로 정사 투영은 Primary Views와 Auxiliary Views 나뉘며,
 1. Primary Views는 
