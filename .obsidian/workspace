@@ -242,7 +242,7 @@
           "type": "markdown",
           "state": {
             "file": "computer_science/OpenGL/opengl_draw_2d_transform.md",
-            "mode": "preview"
+            "mode": "source"
           }
         },
         "pane-relief:history-v1": {
@@ -251,8 +251,8 @@
             {
               "leaf": "4166d5a6a83cf0fe",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/OpenGL/opengl_draw_2d_transform.md\",\"mode\":\"preview\"}}",
-              "eState": "{\"scroll\":132.75000200954045}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/OpenGL/opengl_draw_2d_transform.md\",\"mode\":\"source\"}}",
+              "eState": "{\"scroll\":220.49067735180412}"
             },
             {
               "leaf": "4166d5a6a83cf0fe",
