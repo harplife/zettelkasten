@@ -10,12 +10,12 @@ edited: 2022-06-08
 컴퓨터 그래픽스에선 6가지 좌표계(Coordinate System)를 다룬다.
 1. Local Space (Object Space)
 2. World Space
-3. View Space (Eye Space, Camera Space)
+3. Camera Space (Eye Space,  View Space)
 4. Projection Space
 5. Clip Space
 6. Screen Space
 
-주의 : Clip Space와 Screen Space를 제외한 위 좌표계들은 개념적인(Conceptual) 요소로서, OpenGL에서 각 좌표계를 정의한 것은 아니다. GPU는 우리가 주는 정보를 그대로 구현할 뿐이다.
+주의 : Clip Space와 Screen Space를 제외한 위 좌표계들은 추상적인(Abstract) 요소로서, OpenGL에서 각 좌표계를 정의한 것은 아니다. GPU는 우리가 주는 정보를 그대로 구현할 뿐이다.
 
 ## Local Space
 지역 공간(Local Space)는 3D 좌표계에서 원점(Origin)에 상대적인(Relative) 좌표로서 3D 모델 정점의 위치를 표현한 것이다 - 각 3D 모델에 하나의 공간이 부여된다는 뜻이다.
@@ -28,15 +28,18 @@ edited: 2022-06-08
 
 3D 모델의 지역 좌표는 정점 셰이더에 입력되는 값이라 볼 수 있다.
 
-참고 : 특별한 이유가 있지 않는 이상, 지역 원점은 3D 모델의 가운데(에 근접한 위치)에 있다. 
+참고 : 특별한 이유가 있지 않는 이상, 지역 원점은 3D 모델의 가운데(에 근접한 위치)에 있다.
 
 ## World Space
 세계 공간(World Space)는 3D 좌표계에서 원점(Origin)에 상대적인(Relative) 좌표로서 3D 모델의 위치와 크기를 표현한 것이다 - 하나의 장면(Scene)에 대한 공간으로 볼 수 있고, 여러 모델이 세계 공간에 있을 수 있다.
 
 지구 위에 여러 국가가 있듯이, 세계 공간 위에 여러 지역 공간이 있다고 비유할 수 있다.
 
+세계 공간은 OpenGL이 구현하는게 아니라 소스 프로그램이 직접 구현하는 것이다. 정점 셰이더에서 정점 좌표를 받아 그대로 전달하거나, 또는 변환(이동, 크기, 회전)을 구현한 경우, 세계 공간을 구현했다고 생각하면 된다.
+
 참고 : 처음에 OpenGL을 시작할 때 삼각형 하나 그리는 것으로 시작한다. 정점 좌표에 아무런 변환이 없는 경우, 지역 공간과 세계 공간이 동일하다고 볼 수 있다.
 
-세계 공간은 OpenGL이 구현하는게 아니라 소스 프로그램이 직접 구현하는 것이다. 
+## Camera Space
+카메라 공간(Camera Space)은 
 
-## 
+참고 : Eye Space 또는 View Space라고도 불린다.
