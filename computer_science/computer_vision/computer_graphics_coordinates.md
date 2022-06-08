@@ -13,7 +13,7 @@ edited: 2022-06-08
 
 참고 : 간단히 투영이라 부르지만, 자세히는 그래픽 투영(Graphical Projection) 또는 3차원 투영(3D Projection)이라 부르기도 한다.
 
-뷰잉은 말 그대로 보는 행위, 투영은 보이는 것을 그림으로 그리는 행위로 생각하면 될 것 같다.
+뷰잉은 말 그대로 보는 행위, 투영은 보이는 것을 그림으로 그리는 행위로 생각하면 될 것 같다. 또는, 투영은 뷰잉을 하는 방식이 된다.
 
 ![[3d_projection_diagram.svg]]
 
@@ -72,7 +72,7 @@ edited: 2022-06-08
 #### 보조 시야
 보조 시야(Auxiliary Views)은 각 시야와 투영면과 평행하지 않게 투영됨을 뜻한다.
 
-
+https://en.wikipedia.org/wiki/Axonometric_projection
 
 단축(Foreshortening) 왜곡(Distortion)
 
