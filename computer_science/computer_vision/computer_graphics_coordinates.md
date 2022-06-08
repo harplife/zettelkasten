@@ -7,9 +7,23 @@ edited: 2022-06-08
 ---
 
 # 뷰잉 및 사영
-컴퓨터 그래픽스에 있어 3D 모델을 "본다"는 것은 추상적으로만 존재하는 3D 모델의 모형, 크기, 위치, 그리고 색상을 현실 세계 2D 화면의 픽셀로서 사람이 인식할 수 있는 모형, 크기, 위치, 그리고 색상을 구현한다는 의미로 해석된다 - 그리고 이 행위를 뷰잉(Viewing)이라고 한다.
+컴퓨터 그래픽스에 있어 3D 모델을 "본다"는 것은 추상적으로만 존재하는 3D 모델을 현실 세계 2D 화면의 픽셀로서 사람이 인식할 수 있는 그림으로 재현한다는 의미로 해석된다 - 그리고 이 행위를 뷰잉(Viewing)이라고 한다.
 
-현실 세계에서 사물과 눈(Eye) 사이 거리에 비례하여 사물이 커보이거나 작아보이는 현상이 있으며, 이를 사영(Projection)이라고 한다.
+뷰잉에 있어 사람의 시지각(Visual Perception)을 최대한 모방하기 위해서는 모형, 크기, 위치, 그리고 색상으로 현실적인 [시각단서(Visual Cue)](https://en.wikipedia.org/wiki/Sensory_cue#Visual_cues)를 구현해야 한다.
+
+#todo 시지각에 대한 자료 따로 정리
+
+시각단서 :
+1. [깊이(Depth)](https://en.wikipedia.org/wiki/Depth_perception)
+2. [움직임(Motion)](https://en.wikipedia.org/wiki/Motion_perception)
+3. [생물학적 움직임(Biological Motion)](https://en.wikipedia.org/wiki/Biological_motion)
+4. [대비(Contrast)](https://en.wikipedia.org/wiki/Contrast_(vision))
+
+참고 : [단안단서(Monocular Vision)](https://en.wikipedia.org/wiki/Monocular_vision)
+
+여기서 깊이(Depth)는 
+
+뷰잉에 영향을 주는 요소로서, 사물과 눈(Eye) 사이 거리에 비례하여 사물이 커보이거나 작아보이는 현상, 즉, 사영(Projection)이 있다.
 
 ![[camera_focal_length_distance_animation.gif]]
 
@@ -54,3 +68,8 @@ edited: 2022-06-08
 카메라 공간(Camera Space)은 
 
 참고 : Eye Space 또는 View Space라고도 불린다.
+
+
+
+
+# 시각단서
