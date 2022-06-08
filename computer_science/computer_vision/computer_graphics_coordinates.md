@@ -40,7 +40,7 @@ edited: 2022-06-08
 
 평행 투영은 투영선의 길이와 무관하게 평행해 보인다. 그 뜻은,  투영 평면이 아무리 멀리 또는 가까이 있다고 해도 투영된 도형의 크기는 변하지 않는 다는 뜻이다.
 
-평행 투영은 Orthographic Projection과 Oblique Projection으로 나뉜다.
+평행 투영은 정사 투영과 경사 투영으로 나뉜다.
 
 ### 정사 투영
 [정사 투영(Orthographic Projection)](https://en.wikipedia.org/wiki/Orthographic_projection)
