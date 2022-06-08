@@ -45,7 +45,7 @@ edited: 2022-06-08
 ### 정사 투영
 [정사 투영(Orthographic Projection)](https://en.wikipedia.org/wiki/Orthographic_projection)은 "정면을 바라본다"는 의미에서 투영선이 투영평면과 수직관계를 이루는 투영을 뜻한다.
 
-https://en.wikipedia.org/wiki/Multiview_orthographic_projection
+
 
 
 ### 경사 투영
