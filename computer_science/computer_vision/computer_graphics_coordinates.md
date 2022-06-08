@@ -35,6 +35,7 @@ edited: 2022-06-08
 ### 정사 투영
 [정사 투영(Orthographic Projection)](https://en.wikipedia.org/wiki/Orthographic_projection)
 
+
 ### 경사 투영
 [경사 투영(Oblique Projection)](https://en.wikipedia.org/wiki/Oblique_projection)
 
