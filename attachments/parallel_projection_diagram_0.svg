@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Creator: fig2dev Version 3.2 Patchlevel 5e -->
+
+<!-- CreationDate: Tue Apr 18 10:28:32 2017 -->
+
+<!-- Magnification: 1.050 -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="295.45044"
+   height="278.79587"
+   viewBox="873 1286 3991.4775 3706.2864"
+   id="svg3107"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="parallel-proj-def.svg"
+   style="background-color: white;"
+   >
+  <metadata
+     id="metadata3189">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3187" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1228"
+     inkscape:window-height="611"
+     id="namedview3185"
+     showgrid="false"
+     units="mm"
+     fit-margin-top="2"
+     fit-margin-left="2"
+     fit-margin-right="2"
+     fit-margin-bottom="2"
+     inkscape:zoom="1.4562626"
+     inkscape:cx="147.72522"
+     inkscape:cy="139.39793"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg3107" />
+  <g
+     style="fill:none;stroke-width:0.025in"
+     id="g3109"
+     transform="translate(40.738768,-49.378829)">
+    <!-- Line -->
+    <polygon
+       points="944,4960 944,4960 944,2834 2362,1417 2362,3543 "
+       style="fill:#ffd9cf;stroke:#000000;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter"
+       id="polygon3111" />
+    <!-- Line -->
+    <polyline
+       points="1467,3067 1670,3147 "
+       style="stroke:#000000;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter"
+       id="polyline3113" />
+    <!-- Line -->
+    <polyline
+       points="1455,3122 1657,3202 "
+       style="stroke:#000000;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter"
+       id="polyline3115" />
+    <!-- Line -->
+    <polyline
+       points="1688,3324 1890,3404 "
+       style="stroke:#000000;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter"
+       id="polyline3117" />
+    <!-- Line -->
+    <polyline
+       points="1675,3379 1878,3459 "
+       style="stroke:#000000;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter"
+       id="polyline3119" />
+    <!-- Circle -->
+    <circle
+       cx="2125"
+       cy="2125"
+       r="37"
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:8"
+       id="circle3121"
+       sodipodi:cx="2125"
+       sodipodi:cy="2125"
+       sodipodi:rx="37"
+       sodipodi:ry="37"
+       d="m 2162,2125 c 0,20.4345 -16.5655,37 -37,37 -20.4345,0 -37,-16.5655 -37,-37 0,-20.4345 16.5655,-37 37,-37 20.4345,0 37,16.5655 37,37 z" />
+    <!-- Circle -->
+    <circle
+       cx="2125"
+       cy="2598"
+       r="37"
+       style="fill:#0000ff;stroke:#0000ff;stroke-width:8"
+       id="circle3123"
+       sodipodi:cx="2125"
+       sodipodi:cy="2598"
+       sodipodi:rx="37"
+       sodipodi:ry="37"
+       d="m 2162,2598 c 0,20.4345 -16.5655,37 -37,37 -20.4345,0 -37,-16.5655 -37,-37 0,-20.4345 16.5655,-37 37,-37 20.4345,0 37,16.5655 37,37 z" />
+    <!-- Circle -->
+    <circle
+       cx="1889"
+       cy="2362"
+       r="37"
+       style="fill:#0000ff;stroke:#0000ff;stroke-width:8"
+       id="circle3125"
+       sodipodi:cx="1889"
+       sodipodi:cy="2362"
+       sodipodi:rx="37"
+       sodipodi:ry="37"
+       d="m 1926,2362 c 0,20.4345 -16.5655,37 -37,37 -20.4345,0 -37,-16.5655 -37,-37 0,-20.4345 16.5655,-37 37,-37 20.4345,0 37,16.5655 37,37 z" />
+    <!-- Circle -->
+    <circle
+       cx="1181"
+       cy="4015"
+       r="37"
+       style="fill:#0000ff;stroke:#0000ff;stroke-width:8"
+       id="circle3127"
+       sodipodi:cx="1181"
+       sodipodi:cy="4015"
+       sodipodi:rx="37"
+       sodipodi:ry="37"
+       d="m 1218,4015 c 0,20.4345 -16.5655,37 -37,37 -20.4345,0 -37,-16.5655 -37,-37 0,-20.4345 16.5655,-37 37,-37 20.4345,0 37,16.5655 37,37 z" />
+    <!-- Circle -->
+    <circle
+       cx="1429"
+       cy="4242"
+       r="37"
+       style="fill:#0000ff;stroke:#0000ff;stroke-width:8"
+       id="circle3129"
+       sodipodi:cx="1429"
+       sodipodi:cy="4242"
+       sodipodi:rx="37"
+       sodipodi:ry="37"
+       d="m 1466,4242 c 0,20.4345 -16.5655,37 -37,37 -20.4345,0 -37,-16.5655 -37,-37 0,-20.4345 16.5655,-37 37,-37 20.4345,0 37,16.5655 37,37 z" />
+    <!-- Line -->
+    <polyline
+       points="2131,2600 1422,4254 "
+       style="stroke:#0000ff;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter"
+       id="polyline3131" />
+    <!-- Line -->
+    <polyline
+       points="1884,2360 1175,4013 "
+       style="stroke:#0000ff;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter"
+       id="polyline3133" />
+    <!-- Line -->
+    <polyline
+       points="2362,4015 3779,2362 "
+       style="stroke:#0000ff;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter"
+       id="polyline3135" />
+    <!-- Line -->
+    <polyline
+       points="2827,4233 4251,2598 "
+       style="stroke:#0000ff;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter"
+       id="polyline3137" />
+    <!-- Line -->
+    <polyline
+       points="1907,2362 4724,2362 "
+       style="stroke:#000000;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter"
+       id="polyline3139" />
+    <!-- Arrowhead on XXXpoint 4724 2362 - 1874 2362-->
+    <polyline
+       points="2046 2314 1888 2362 2046 2409 "
+       style="stroke:#000000;stroke-width:8;stroke-miterlimit:8"
+       id="polyline3141" />
+    <!-- Line -->
+    <polyline
+       points="2143,2125 4724,2125 "
+       style="stroke:#000000;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter"
+       id="polyline3143" />
+    <!-- Arrowhead on XXXpoint 4724 2125 - 2110 2125-->
+    <polyline
+       points="2282 2078 2124 2125 2282 2173 "
+       style="stroke:#000000;stroke-width:8;stroke-miterlimit:8"
+       id="polyline3145" />
+    <!-- Line -->
+    <polyline
+       points="2143,2598 4724,2598 "
+       style="stroke:#000000;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter"
+       id="polyline3147" />
+    <!-- Arrowhead on XXXpoint 4724 2598 - 2110 2598-->
+    <polyline
+       points="2282 2551 2124 2598 2282 2645 "
+       style="stroke:#000000;stroke-width:8;stroke-miterlimit:8"
+       id="polyline3149" />
+    <!-- Line -->
+    <polyline
+       points="1198,4015 4724,4015 "
+       style="stroke:#000000;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter"
+       id="polyline3151" />
+    <!-- Arrowhead on XXXpoint 4724 4015 - 1165 4015-->
+    <polyline
+       points="1337 3968 1180 4015 1337 4062 "
+       style="stroke:#000000;stroke-width:8;stroke-miterlimit:8"
+       id="polyline3153" />
+    <!-- Line -->
+    <polyline
+       points="1435,4251 4724,4251 "
+       style="stroke:#000000;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter"
+       id="polyline3155" />
+    <!-- Arrowhead on XXXpoint 4724 4251 - 1401 4251-->
+    <polyline
+       points="1573 4204 1416 4251 1573 4299 "
+       style="stroke:#000000;stroke-width:8;stroke-miterlimit:8"
+       id="polyline3157" />
+    <!-- Line -->
+    <polyline
+       points="3656,3153 3703,3342 "
+       style="stroke:#000000;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter"
+       id="polyline3159" />
+    <!-- Line -->
+    <polyline
+       points="3166,2982 3213,3171 "
+       style="stroke:#000000;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter"
+       id="polyline3161" />
+    <!-- Line -->
+    <polyline
+       points="944,4960 944,2834 2362,1417 2362,1417 "
+       style="stroke:#000000;stroke-width:32;stroke-linecap:butt;stroke-linejoin:miter"
+       id="polyline3163" />
+    <!-- Text -->
+    <text
+       xml:space="preserve"
+       x="3306"
+       y="1950"
+       font-style="normal"
+       font-weight="normal"
+       font-size="227"
+       id="text3165"
+       style="font-size:227px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:Times">P</text>
+    <!-- Text -->
+    <text
+       xml:space="preserve"
+       x="2068"
+       y="1962"
+       font-style="normal"
+       font-weight="normal"
+       font-size="227"
+       id="text3167"
+       style="font-size:227px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:Times">P'</text>
+    <!-- Text -->
+    <g
+       transform="matrix(0.70710548,-0.70710808,0.70710808,0.70710548,1049,2593)"
+       id="g3169">
+      <text
+         xml:space="preserve"
+         x="0"
+         y="0"
+         font-style="normal"
+         font-weight="normal"
+         font-size="227"
+         id="text3171"
+         style="font-size:227px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:Times">image plane</text>
+    </g>
+    <!-- Text -->
+    <text
+       xml:space="preserve"
+       x="3070"
+       y="4535"
+       font-style="normal"
+       font-weight="normal"
+       font-size="227"
+       id="text3173"
+       style="font-size:227px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:Times">projection line</text>
+    <!-- Circle -->
+    <circle
+       cx="3307"
+       cy="2125"
+       r="37"
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:8"
+       id="circle3175"
+       sodipodi:cx="3307"
+       sodipodi:cy="2125"
+       sodipodi:rx="37"
+       sodipodi:ry="37"
+       d="m 3344,2125 c 0,20.4345 -16.5655,37 -37,37 -20.4345,0 -37,-16.5655 -37,-37 0,-20.4345 16.5655,-37 37,-37 20.4345,0 37,16.5655 37,37 z" />
+    <!-- Circle -->
+    <circle
+       cx="3779"
+       cy="2362"
+       r="37"
+       style="fill:#0000ff;stroke:#0000ff;stroke-width:8"
+       id="circle3177"
+       sodipodi:cx="3779"
+       sodipodi:cy="2362"
+       sodipodi:rx="37"
+       sodipodi:ry="37"
+       d="m 3816,2362 c 0,20.4345 -16.5655,37 -37,37 -20.4345,0 -37,-16.5655 -37,-37 0,-20.4345 16.5655,-37 37,-37 20.4345,0 37,16.5655 37,37 z" />
+    <!-- Circle -->
+    <circle
+       cx="4251"
+       cy="2598"
+       r="37"
+       style="fill:#0000ff;stroke:#0000ff;stroke-width:8"
+       id="circle3179"
+       sodipodi:cx="4251"
+       sodipodi:cy="2598"
+       sodipodi:rx="37"
+       sodipodi:ry="37"
+       d="m 4288,2598 c 0,20.4345 -16.5655,37 -37,37 -20.4345,0 -37,-16.5655 -37,-37 0,-20.4345 16.5655,-37 37,-37 20.4345,0 37,16.5655 37,37 z" />
+    <!-- Circle -->
+    <circle
+       cx="2834"
+       cy="4251"
+       r="37"
+       style="fill:#0000ff;stroke:#0000ff;stroke-width:8"
+       id="circle3181"
+       sodipodi:cx="2834"
+       sodipodi:cy="4251"
+       sodipodi:rx="37"
+       sodipodi:ry="37"
+       d="m 2871,4251 c 0,20.4345 -16.5655,37 -37,37 -20.4345,0 -37,-16.5655 -37,-37 0,-20.4345 16.5655,-37 37,-37 20.4345,0 37,16.5655 37,37 z" />
+    <!-- Circle -->
+    <circle
+       cx="2362"
+       cy="4015"
+       r="37"
+       style="fill:#0000ff;stroke:#0000ff;stroke-width:8"
+       id="circle3183"
+       sodipodi:cx="2362"
+       sodipodi:cy="4015"
+       sodipodi:rx="37"
+       sodipodi:ry="37"
+       d="m 2399,4015 c 0,20.4345 -16.5655,37 -37,37 -20.4345,0 -37,-16.5655 -37,-37 0,-20.4345 16.5655,-37 37,-37 20.4345,0 37,16.5655 37,37 z" />
+  </g>
+</svg>

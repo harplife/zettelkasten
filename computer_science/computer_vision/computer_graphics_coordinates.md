@@ -6,24 +6,44 @@ created: 2022-06-08
 edited: 2022-06-08
 ---
 
-# 뷰잉 및 사영
+# 뷰잉 및 투영
 컴퓨터 그래픽스에 있어 3D 모델을 "본다"는 것은 추상적으로만 존재하는 3D 모델을 현실 세계 2D 화면의 픽셀로서 사람이 인식할 수 있는 그림으로 재현한다는 의미로 해석된다 - 그리고 이 행위를 뷰잉(Viewing)이라고 한다.
 
-뷰잉(Viewing)을 실제로 구현하는 것을 [사영(Projection)](https://en.wikipedia.org/wiki/3D_projection)이라고 한다.
+뷰잉(Viewing)을 실제로 구현하는 것을 [투영(Projection)](https://en.wikipedia.org/wiki/3D_projection)이라고 한다. 정확히는 그래픽 투영(Graphical Projection) 또는 3차원 투영(3D Projection)이라 부른다.
 
-참고 : 정확히는 그래픽 사영(Graphical Projection) 또는 3차원 사영(3D Projection)이라 부른다.
+참고 : Projection은 투영, 사영, 또는 투상으로도 불린다.. - [정보통신기술용어해설](http://www.ktword.co.kr/test/view/view.php?m_temp1=4978)
 
-뷰잉은 말 그대로 보는 행위, 사영은 보이는 것을 그림으로 그리는 행위로 생각하면 될 것 같다.
+뷰잉은 말 그대로 보는 행위, 투영은 보이는 것을 그림으로 그리는 행위로 생각하면 될 것 같다.
 
-> ![[graphical_projection.svg]]
-> 사영을 수학적 다이어그램으로 표현한 그림
+투영은 [[#평행 투영]]과 [[#원근 투영]]으로 크게 두 가지로 분류되며, 각 투영 방식에 여러 종류의 투영이 있다.
+
+![[graphical_projections_all_types.svg]]
+
+## 평행 투영
+[평행 투영(Parallel Projection)](https://en.wikipedia.org/wiki/Parallel_projection)은 3차원 물체를 고정된 평면(Fixed Plane)에 투영할 때 투영선(Projection Line)이 서로 평행(Parallel)한 경우를 뜻한다.
+
+투영에 있어 고정된 평면을 [투영 평면(Projection Plane)](https://en.wikipedia.org/wiki/Projection_plane) 또는 [이미지 평면(Image Plane)](https://en.wikipedia.org/wiki/Image_plane)이라 부른다.
+
+투영선(Projection Line)은 3차원 공간의 정점에서 2차원 공간의 정점으로 바라보는 가시선(Line of Sight)으로 이해하면 된다.
+
+![[parallel_projection_diagram_0.svg]]
+
+평행 투영은 투영선의 길이와 무관하게 평행해 보인다. 그 뜻은,  투영 평면이 아무리 멀리 또는 가까이 있다고 해도 투영된 도형의 크기는 변하지 않는 다는 뜻이다.
+
+평행 투영은 Orthographic Projection과 Oblique Projection으로 나뉜다.
+
+### 정사 투영
+[정사 투영(Orthographic Projection)](https://en.wikipedia.org/wiki/Orthographic_projection)
+
+### 경사 투영
+[경사 투영(Oblique Projection)](https://en.wikipedia.org/wiki/Oblique_projection)
 
 
+## 원근 투영
 
-사영에 종류 중 [원근법(Perspective)](https://en.wikipedia.org/wiki/Perspective_(graphical))이 속한다.
+[원근법(Perspective)](https://en.wikipedia.org/wiki/Perspective_(graphical))이 속한다.
 
 ![[camera_focal_length_distance_animation.gif]]
-
 
 
 
