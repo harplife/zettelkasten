@@ -45,6 +45,12 @@ edited: 2022-06-08
 ### 정사 투영
 [정사 투영(Orthographic Projection)](https://en.wikipedia.org/wiki/Orthographic_projection)은 "정면을 바라본다"는 의미에서 투영선이 투영평면과 수직관계를 이루는 투영을 뜻한다.
 
+정사 투영을 설명하기 전에 **다시점 투영**을 우선 설명한다.
+
+[다시점 투영(Multiview Projection )](https://en.wikipedia.org/wiki/Multiview_orthographic_projection)이란 여러 개의 각도에서 물체를 바라본다(투영한다)는 뜻을 가지며, 정확히는 물체를 두르는 가상의 정육각형(Cube)을 그려서 물체를 바라보는 각도를 앞면, 뒷면, 왼쪽면, 오른쪽면, 윗면, 그리고 아랫면으로 정의하여 투영을 하는 방식이다.
+
+정사 투영은 다시점 투영을 기준으로 
+
 $$
 P
 =
