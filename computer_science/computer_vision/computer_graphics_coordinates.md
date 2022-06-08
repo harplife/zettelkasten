@@ -43,11 +43,20 @@ edited: 2022-06-08
 평행 투영은 정사 투영과 경사 투영으로 나뉜다.
 
 ### 정사 투영
-[정사 투영(Orthographic Projection)](https://en.wikipedia.org/wiki/Orthographic_projection)은 "정면을 바라본다"는 의미에서 투영선이 투영평면과 수직관계를 이루는 투영을 뜻한다.
+[정사 투영(Orthographic Projection)](https://en.wikipedia.org/wiki/Orthographic_projection)은 "정면을 바라본다"는 의미에서 투영선이 투영평면과 수직관계를 이루는 평행 투영을 뜻한다.
 
 정사 투영을 설명하기 전에 **다시점 투영**을 우선 설명한다.
 
-[다시점 투영(Multiview Projection )](https://en.wikipedia.org/wiki/Multiview_orthographic_projection)이란 여러 개의 각도에서 물체를 바라본다(투영한다)는 뜻을 가지며, 정확히는 물체를 두르는 가상의 정육각형(Cube)을 그려서 물체를 바라보는 각도를 앞면, 뒷면, 왼쪽면, 오른쪽면, 윗면, 그리고 아랫면으로 정의하여 투영을 하는 방식이다.
+[다시점 투영(Multiview Projection )](https://en.wikipedia.org/wiki/Multiview_orthographic_projection)이란 여러 개의 각도에서 물체를 바라본다(투영한다)는 뜻을 가지며, 정확히는 물체를 두르는 가상의 정육각형(Cube)을 그려서 물체를 바라보는 각도를 앞면, 뒷면, 왼쪽면, 오른쪽면, 윗면, 그리고 아랫면으로 정의하여 투영하는 방식이다.
+
+편의를 위해서 이 면들을 시야(View)로 표현하겠다.
+
+다시점 투영은 앞면-옆면-위
+
+다시점 투영을 기준으로 정사 투영은 Primary Views와 Auxiliary Views 나뉘며,
+1. Primary Views는 
+
+다시점 투영에 있어 물체를 윗면에서 바라보는 것을 설계도/배치도(Plan)이라고 하며, 옆면(앞/뒤/왼쪽/오른쪽)에서 보는 것을  입면도(Elevation)라고 한다. 
 
 정사 투영은 다시점 투영을 기준으로 
 
