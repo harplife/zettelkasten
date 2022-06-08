@@ -9,21 +9,18 @@ edited: 2022-06-08
 # 뷰잉 및 사영
 컴퓨터 그래픽스에 있어 3D 모델을 "본다"는 것은 추상적으로만 존재하는 3D 모델을 현실 세계 2D 화면의 픽셀로서 사람이 인식할 수 있는 그림으로 재현한다는 의미로 해석된다 - 그리고 이 행위를 뷰잉(Viewing)이라고 한다.
 
-뷰잉에 있어 사람의 시지각(Visual Perception)을 최대한 모방하기 위해서는 모형, 크기, 위치, 그리고 색상으로 현실적인 [시각단서(Visual Cue)](https://en.wikipedia.org/wiki/Sensory_cue#Visual_cues)를 구현해야 한다.
+뷰잉(Viewing)을 실제로 구현하는 것을 [사영(Projection)](https://en.wikipedia.org/wiki/3D_projection)이라고 한다.
 
-#todo 시지각에 대한 자료 따로 정리
+참고 : 정확히는 그래픽 사영(Graphical Projection) 또는 3차원 사영(3D Projection)이라 부른다.
 
-시각단서 :
-1. [깊이(Depth)](https://en.wikipedia.org/wiki/Depth_perception)
-2. [움직임(Motion)](https://en.wikipedia.org/wiki/Motion_perception)
-3. [생물학적 움직임(Biological Motion)](https://en.wikipedia.org/wiki/Biological_motion)
-4. [대비(Contrast)](https://en.wikipedia.org/wiki/Contrast_(vision))
+뷰잉은 말 그대로 보는 행위, 사영은 보이는 것을 그림으로 그리는 행위로 생각하면 될 것 같다.
 
-참고 : [단안단서(Monocular Vision)](https://en.wikipedia.org/wiki/Monocular_vision)
+> ![[graphical_projection.svg]]
+> 사영을 수학적 다이어그램으로 표현한 그림
 
-물체와 물체로 상대적인 거리로 인해 사람은 물체들의 크기와 위치를 판단할 수 있다 - 크기와 위치의 종합적인 "감각"을 깊이 감각(Depth Perception)이라고 한다.
 
-뷰잉에 영향을 주는 요소로서, 사물과 눈(Eye) 사이 거리에 비례하여 사물이 커보이거나 작아보이는 현상, 즉, 사영(Projection)이 있다.
+
+사영에 종류 중 [원근법(Perspective)](https://en.wikipedia.org/wiki/Perspective_(graphical))이 속한다.
 
 ![[camera_focal_length_distance_animation.gif]]
 
@@ -73,3 +70,14 @@ edited: 2022-06-08
 
 
 # 시각단서
+#todo 시지각에 대한 자료 따로 정리
+
+뷰잉에 있어 사람의 [시지각(Visual Perception)](https://en.wikipedia.org/wiki/Visual_perception)을 최대한 모방하기 위해서는 모형, 크기, 위치, 그리고 색상으로 현실적인 [시각단서(Visual Cue)](https://en.wikipedia.org/wiki/Sensory_cue#Visual_cues)를 구현해야 한다.
+
+시각단서 :
+1. [깊이(Depth)](https://en.wikipedia.org/wiki/Depth_perception)
+2. [움직임(Motion)](https://en.wikipedia.org/wiki/Motion_perception)
+3. [생물학적 움직임(Biological Motion)](https://en.wikipedia.org/wiki/Biological_motion)
+4. [대비(Contrast)](https://en.wikipedia.org/wiki/Contrast_(vision))
+
+참고 : [단안단서(Monocular Vision)](https://en.wikipedia.org/wiki/Monocular_vision)
