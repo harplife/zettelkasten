@@ -9,24 +9,32 @@ edited: 2022-06-08
 # 뷰잉 및 투영
 컴퓨터 그래픽스에 있어 3D 모델을 "본다"는 것은 추상적으로만 존재하는 3D 모델을 현실 세계 2D 화면의 픽셀로서 사람이 인식할 수 있는 그림으로 재현한다는 의미로 해석된다 - 그리고 이 행위를 뷰잉(Viewing)이라고 한다.
 
-뷰잉(Viewing)을 실제로 구현하는 것을 [투영(Projection)](https://en.wikipedia.org/wiki/3D_projection)이라고 한다 - 투영은 3D 모델을 2차원 평면에 그리는 기술이다.
+뷰잉(Viewing)을 실제로 구현하는 것을 [투영(Projection)](https://en.wikipedia.org/wiki/3D_projection)이라고 한다 - 투영은 3차원 모델을 2차원 평면에 그리는 기술이다.
 
-그래픽 투영(Graphical Projection) 또는 3차원 투영(3D Projection)이라 부르기도 하낟.
-
-참고 : Projection은 투영, 사영, 또는 투상으로도 번역된다.. - [정보통신기술용어해설](http://www.ktword.co.kr/test/view/view.php?m_temp1=4978)
+참고 : 간단히 투영이라 부르지만, 자세히는 그래픽 투영(Graphical Projection) 또는 3차원 투영(3D Projection)이라 부르기도 한다.
 
 뷰잉은 말 그대로 보는 행위, 투영은 보이는 것을 그림으로 그리는 행위로 생각하면 될 것 같다.
+
+![[3d_projection_diagram.svg]]
+
+3차원 모델이 투영되는 2차원 평면을 [투영 평면(Projection Plane)](https://en.wikipedia.org/wiki/Projection_plane) 또는 [이미지 평면(Image Plane)](https://en.wikipedia.org/wiki/Image_plane)이라 부른다.
+
+투영선(Projection Line)은 3차원 공간의 정점에서 2차원 공간의 정점으로 바라보는 가시선(Line of Sight)으로 이해하면 된다.
+
+참고 : Projection은 투영, 사영, 또는 투상으로도 번역된다.. - [정보통신기술용어해설](http://www.ktword.co.kr/test/view/view.php?m_temp1=4978)
 
 투영은 [[#평행 투영]]과 [[#원근 투영]]으로 크게 두 가지로 분류되며, 각 투영 방식에 여러 종류의 투영이 있다.
 
 ![[graphical_projections_all_types.svg]]
 
+투영은 가상의 "카메라"로 비유된다 - 3차원 공간에 물체와 카메라가 있다면, 카메라의 [시야각(Field of Vision)](https://en.wikipedia.org/wiki/Field_of_view)에 보이는 물체가 투영된 그림과 동일하다. 이러한 이유로, 투영을 설명할 때 카메라와 시야각 위주로 설명되는 경우가 많다.
+
+위와 같은 비유로 인해, 뷰잉과 투영은 서로 반대되는 개념으로도 이해될수있다 - 평면에서 물체를 바라보는 것을 뷰잉이라 하고, 물체에서 평면을 바라보는 것을 투영이라 할 수 있다. #todo 실제로 컴퓨터 그래픽스에서 카메라를 구현할 떄 투영 행렬의 역을 계산하여 구현하는 듯 싶다 - 어디서 주워들은 말이니까 confirm 필요.
+
+참고 : 컴퓨터 그래픽스에서는 투영을 기하변환(Geometrical Transformation)으로 구현한다.
+
 ## 평행 투영
-[평행 투영(Parallel Projection)](https://en.wikipedia.org/wiki/Parallel_projection)은 3차원 물체를 고정된 평면(Fixed Plane)에 투영할 때 투영선(Projection Line)이 서로 평행(Parallel)한 경우를 뜻한다.
-
-투영에 있어 고정된 평면을 [투영 평면(Projection Plane)](https://en.wikipedia.org/wiki/Projection_plane) 또는 [이미지 평면(Image Plane)](https://en.wikipedia.org/wiki/Image_plane)이라 부른다.
-
-투영선(Projection Line)은 3차원 공간의 정점에서 2차원 공간의 정점으로 바라보는 가시선(Line of Sight)으로 이해하면 된다.
+[평행 투영(Parallel Projection)](https://en.wikipedia.org/wiki/Parallel_projection)은 3차원 물체를 평면에 투영할 때 투영선(Projection Line)이 서로 평행(Parallel)한 경우를 뜻한다.
 
 ![[parallel_projection_diagram_0.svg]]
 
@@ -37,12 +45,16 @@ edited: 2022-06-08
 ### 정사 투영
 [정사 투영(Orthographic Projection)](https://en.wikipedia.org/wiki/Orthographic_projection)
 
+https://en.wikipedia.org/wiki/Multiview_orthographic_projection
+
 
 ### 경사 투영
 [경사 투영(Oblique Projection)](https://en.wikipedia.org/wiki/Oblique_projection)
 
 
 ## 원근 투영
+원근 투영은 원근법이 적용된 투영을 뜻한다.
+
 
 [원근법(Perspective)](https://en.wikipedia.org/wiki/Perspective_(graphical))이 속한다.
 
