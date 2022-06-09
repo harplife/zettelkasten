@@ -47,30 +47,32 @@ edited: 2022-06-08
 
 정사 투영을 설명하기 전에 **다시점 투영**을 우선 설명한다.
 
-[다시점 투영(Multiview Projection)](https://en.wikipedia.org/wiki/Multiview_orthographic_projection)이란 여러 개의 각도에서 물체를 바라본다(투영한다)는 뜻을 가지며, 정확히는 물체를 두르는 가상의 정육각형(Cube)을 그려서 물체를 바라보는 각도를 앞면, 뒷면, 왼쪽면, 오른쪽면, 윗면, 그리고 아랫면으로 정의하여 투영하는 방식이다.
+[다시점 투영(Multiview Projection)](https://en.wikipedia.org/wiki/Multiview_orthographic_projection)이란 여러 개의 각도에서 물체를 바라본다(투영한다)는 뜻을 가지며, 정확히는 물체를 두르는 가상의 정육각형(Cube)을 그려서 물체를 바라보는 각도를 정면, 저면(후면), 좌측면, 우측면, 평면(윗면), 그리고 저면(아랫면)으로 정의하여 투영하는 방식이다.
 
-편의를 위해서 이 면들을 시야(View)로 표현하겠다.
+편의를 위해서 이 면들을 뷰(View)로 표현하겠다.
 
-다시점 투영을 기준으로 정사 투영은 기본 시야와 보조 시야으로 나뉜다.
+다시점 투영을 기준으로 정사 투영은 기본 뷰와 보조 뷰으로 나뉜다.
 
-#### 기본 시야
-기본 시야(Primary Views)는 각 시야가 투영면과 평행하게 투영됨을 뜻한다.
+#### 기본 뷰
+기본 뷰(Primary Views)는 각 뷰가 투영면과 평행하게 투영됨을 뜻한다.
 
-참고 : 시야와 투명면 사이에 선을 그을때 그 선이 두 면과 수직관계를 이룬다는 뜻도 있다.
+참고 : 뷰와 투명면 사이에 선을 그을때 그 선이 두 면과 수직관계를 이룬다는 뜻도 있다.
 
-이 시야들을 나열하여 3D 물체를 표현할 수 있으며, 나열하는 순서에 따라 제1각법(First-angle) 또는 제3각법(Third-angle)으로 나뉜다.
+이 뷰들을 나열하여 3D 물체를 표현할 수 있으며, 나열하는 순서에 따라 제1각법(First-angle) 또는 제3각법(Third-angle)으로 나뉜다.
 
 ![[multiview_projection_1st_and_3rd_angle_comparison.png]]
 
-다시점 투영의 특징은 특정 3가지 시야으로 3D 물체에 대한 정보를 충분히 표현할 수 있다는 것이다. 이 3가지 시야은 밑에와 같다.
+다시점 투영의 특징은 특정 3가지 뷰으로 3D 물체에 대한 정보를 충분히 표현할 수 있다는 것이다. 이 3가지 뷰은 밑에와 같다.
 1. 물체를 윗면에서 바라보는 설계도/배치도(Plan)
 2. 물체를 옆면(앞/뒤/왼쪽/오른쪽)에서 보는 입면도(Elevation)
 3. 물체의 내면을 바라보는 단면도(Section)
 
-기본 시야의 장점은 3D 물체의 표면이 왜곡(Distortion)되어 표현되지 않는다는 것이다 - 더 자세한 사항은 보조 시야에서 다룬다.
+기본 뷰의 장점은 3D 물체의 표면이 왜곡(Distortion)되어 표현되지 않는다는 것이다 - 더 자세한 사항은 보조 뷰에서 다룬다.
 
-#### 보조 시야
-보조 시야(Auxiliary Views)은 각 시야와 투영면과 평행하지 않게 투영됨을 뜻한다.
+#### 보조 뷰
+보조 뷰(Auxiliary Views)은 각 뷰와 투영면과 평행하지 않게 투영됨을 뜻한다.
+
+[Axonometric Projection](https://en.wikipedia.org/wiki/Axonometric_projection)이라 불리기도 한다.
 
 https://en.wikipedia.org/wiki/Axonometric_projection
 
