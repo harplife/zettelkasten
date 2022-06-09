@@ -233,7 +233,7 @@ $$
 
 ![[camera_focal_length_distance_animation.gif]]
 
-
+평행 투영을 설명할 떄는 투영면 위주로 설명을 했지만, 원근 투영은 
 
 원근 투영의 뷰 볼륨은 밑에와 같이 생겼다. 사각뿔 절두체와 같이 생겼다고 뷰잉 프러스텀(Viewing Frustum)이라고 불리는 경우가 많다.
 
