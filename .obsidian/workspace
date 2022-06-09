@@ -230,7 +230,7 @@
               "leaf": "ce356a51170aeb3c",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_shader.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":0}"
+              "eState": "{}"
             }
           ]
         }
@@ -242,7 +242,7 @@
           "type": "markdown",
           "state": {
             "file": "computer_science/OpenGL/opengl_draw_2d_transform.md",
-            "mode": "source"
+            "mode": "preview"
           }
         },
         "pane-relief:history-v1": {
@@ -251,8 +251,8 @@
             {
               "leaf": "4166d5a6a83cf0fe",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/OpenGL/opengl_draw_2d_transform.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":234,\"ch\":5},\"to\":{\"line\":234,\"ch\":5}},\"scroll\":212.49999553817892}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/OpenGL/opengl_draw_2d_transform.md\",\"mode\":\"preview\"}}",
+              "eState": "{\"scroll\":292.68993562777365}"
             },
             {
               "leaf": "4166d5a6a83cf0fe",
@@ -280,7 +280,7 @@
               "leaf": "55b7c2e1058af1b9",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_coordinates.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+              "eState": "{\"scroll\":180.0476189989623}"
             },
             {
               "leaf": "55b7c2e1058af1b9",
@@ -427,8 +427,8 @@
   "lastOpenFiles": [
     "computer_science/computer_vision/computer_graphics_coordinates.md",
     "computer_science/OpenGL/opengl_draw_2d_transform.md",
-    "computer_science/OpenGL/opengl_draw_2d_simple_triangle.md",
     "computer_science/computer_vision/computer_graphics_shader.md",
+    "computer_science/OpenGL/opengl_draw_2d_simple_triangle.md",
     "computer_science/OpenGL/visual_studio_graphics_setup_w_glfw_n_glad.md",
     "computer_science/OpenGL/visual_studio_graphics_setup_w_freeglut_n_glew.md",
     "computer_science/computer_vision/computer_graphics_software.md",
