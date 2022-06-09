@@ -47,6 +47,8 @@ Vertex Vertices[3] = {
 
 OpenGL에서는 따로 도형 변환에 대한 기능을 제공하지 않는다. GLM (OpenGL Mathematics)라는 라이브러리를 사용하면 이 문제를 쉽게 해결하는데, 일단 여기선 도형 변환이 내부적으로 어떻게 적용되는지 보기 위해 각 도형 행동에 대한 변환행렬을 구현한다.
 
+#todo [변환행렬(Transformation Matrix)](https://en.wikipedia.org/wiki/Transformation_matrix) 노트 정리
+
 `gTransform.h`와 `gTransform.cpp`는 변환행렬의 구조체와 각 행동에 대한 변환행렬을 정의한다.
 
 참고 : 소스 프로그램에 `#include "gTransform.h"`를 해줄 것!
