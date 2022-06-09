@@ -233,11 +233,15 @@ $$
 
 ![[camera_focal_length_distance_animation.gif]]
 
-평행 투영을 설명할 떄는 투영면 위주로 설명을 했지만, 원근 투영은 
+원근 투영은 [시야각(Field of View)](https://en.wikipedia.org/wiki/Field_of_view)을 모방하여 물체를 바라보는 "눈"과 눈에 보이는 영역을 정의한다. 이 "눈"은 투영기준점(Projection Reference Point, PRP)이라 하며, 눈에 보이는 영역은 뷰 볼륨이 된다.
+
+참고 : https://www.cs.uic.edu/~jbell/CourseNotes/ComputerGraphics/Projections_Viewpoints.html
 
 원근 투영의 뷰 볼륨은 밑에와 같이 생겼다. 사각뿔 절두체와 같이 생겼다고 뷰잉 프러스텀(Viewing Frustum)이라고 불리는 경우가 많다.
 
 ![[perspective_projection_view_volume.png]]
+
+![[perspective_projection_view_volume_2.png]]
 
 원근 투영은 투명면으로부터 물체의 거리가 길수록 물체는 작아보이는 특성이 있으며, 투영선과 투영선이 만나는 지점으로부터 물체가 더 이상 보이지 않는 소실점(Vanishing Point)가 있다.
 
