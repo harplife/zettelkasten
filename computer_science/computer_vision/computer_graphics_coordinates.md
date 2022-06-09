@@ -145,7 +145,7 @@ $$
 \begin{bmatrix}
     x^{\prime}\\
     y^{\prime}\\
-    z^{\prime}\\
+    0\\
     1
 \end{bmatrix}
 =
@@ -162,6 +162,8 @@ $$
     1
 \end{bmatrix}
 $$
+
+
 
 ### 경사 투영
 [경사 투영(Oblique Projection)](https://en.wikipedia.org/wiki/Oblique_projection)

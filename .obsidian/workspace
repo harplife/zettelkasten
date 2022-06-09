@@ -252,7 +252,7 @@
               "leaf": "4166d5a6a83cf0fe",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/OpenGL/opengl_draw_2d_transform.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":236,\"ch\":2},\"to\":{\"line\":214,\"ch\":0}},\"scroll\":212.49999553817892}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":234,\"ch\":5},\"to\":{\"line\":234,\"ch\":5}},\"scroll\":212.49999553817892}"
             },
             {
               "leaf": "4166d5a6a83cf0fe",
@@ -270,7 +270,7 @@
           "type": "markdown",
           "state": {
             "file": "computer_science/computer_vision/computer_graphics_coordinates.md",
-            "mode": "preview"
+            "mode": "source"
           }
         },
         "pane-relief:history-v1": {
@@ -279,8 +279,8 @@
             {
               "leaf": "55b7c2e1058af1b9",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_coordinates.md\",\"mode\":\"preview\"}}",
-              "eState": "{\"scroll\":121.49999976158107}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_coordinates.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":164,\"ch\":0},\"to\":{\"line\":164,\"ch\":0}},\"scroll\":143.78571208885708}"
             },
             {
               "leaf": "55b7c2e1058af1b9",
