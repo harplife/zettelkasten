@@ -44,6 +44,8 @@ edited: 2022-06-08
 
 참고 : 뷰 볼륨은 하나의 물체를 두르거나, 또는 하나의 장면을 두를 수 있다. 프로그램이 정의하는 뷰 볼륨에 따라 물체/장면의 일부가 클리핑(Clipping)될 수 있다.
 
+뷰 볼륨은 
+
 ## 평행 투영
 [평행 투영(Parallel Projection)](https://en.wikipedia.org/wiki/Parallel_projection)은 3차원 물체를 평면에 투영할 때 투영선(Projection Line)이 서로 평행(Parallel)한 경우를 뜻한다.
 
