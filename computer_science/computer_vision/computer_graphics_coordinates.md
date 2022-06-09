@@ -201,7 +201,9 @@ $$
 $$
 
 ### 경사 투영
-[경사 투영(Oblique Projection)](https://en.wikipedia.org/wiki/Oblique_projection)
+[경사 투영(Oblique Projection)](https://en.wikipedia.org/wiki/Oblique_projection)은 "경사진 곳에서 물체를 바라본다"는 의미에서 투영선이 투영평면과 수직관계를 이루지 않는 평행 투영을 뜻한다.
+
+
 
 
 ## 원근 투영
