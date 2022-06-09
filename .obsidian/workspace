@@ -270,7 +270,7 @@
           "type": "markdown",
           "state": {
             "file": "computer_science/computer_vision/computer_graphics_coordinates.md",
-            "mode": "source"
+            "mode": "preview"
           }
         },
         "pane-relief:history-v1": {
@@ -279,8 +279,8 @@
             {
               "leaf": "55b7c2e1058af1b9",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_coordinates.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":0},\"to\":{\"line\":18,\"ch\":0}},\"scroll\":7.928571428571428}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_coordinates.md\",\"mode\":\"preview\"}}",
+              "eState": "{\"scroll\":40.660713036753314}"
             },
             {
               "leaf": "55b7c2e1058af1b9",
