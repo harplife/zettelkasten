@@ -63,7 +63,7 @@ edited: 2022-06-08
 다시점 투영을 기준으로 정사 투영은 기본 뷰와 보조 뷰으로 나뉜다.
 
 #### 기본 뷰
-기본 뷰(Primary Views)는 각 뷰가 투영면과 평행하게 투영됨을 뜻한다.
+기본 뷰(Primary Views)는 각 뷰가 투영면과 평행하게 투영됨을 뜻한다. 한 개의 투영면에 한 개의 뷰만 보인다.
 
 참고 : 뷰와 투명면 사이에 선을 그을때 그 선이 두 면과 수직관계를 이룬다는 뜻도 있다.
 
@@ -79,7 +79,7 @@ edited: 2022-06-08
 기본 뷰의 장점은 3D 물체의 표면이 왜곡(Distortion)되어 표현되지 않는다는 것이다 - 더 자세한 사항은 보조 뷰에서 다룬다.
 
 #### 보조 뷰
-보조 뷰(Auxiliary Views)은 각 뷰와 투영면과 평행하지 않게 투영됨을 뜻한다.
+보조 뷰(Auxiliary Views)은 각 뷰가 투영면과 평행하지 않게 투영됨을 뜻한다.
 
 [Axonometric Projection](https://en.wikipedia.org/wiki/Axonometric_projection)이라 불리기도 한다.
 
