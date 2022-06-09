@@ -169,8 +169,9 @@ $$
 ##### 보조 뷰 정사투영행렬
 보조 뷰 정사투영행렬은 기본 정사투영행렬에 [[opengl_draw_2d_transform#회전 변환|회전변환행렬]]을 곱한 것과 같다.
 
-밑에는 제1팔분공간에서 물체를 바라본 시점을 표현하는 정사투영행렬이다.
-$a$는 3차원 좌표, $b$는 투영된 2차원 좌표, $\alpha=\arcsin(\tan 30\degree)$, 그리고 $\beta=45\degree$ 이다.
+밑에는 제1팔분공간에서 물체를 바라본 시점을 표현하는 정사투영행렬이다. $a$는 3차원 좌표, $b$는 투영된 2차원 좌표, x축 회전각 $\alpha=\arcsin(\tan 30\degree)$, 그리고 y축 회전각 $\beta=45\degree$ 이다.
+
+![[first_octant_rotation_diagram.png]]
 
 ![[first_octant_rotation_matrix.svg]]
 
