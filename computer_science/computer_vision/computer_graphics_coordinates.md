@@ -67,6 +67,8 @@ edited: 2022-06-08
 
 참고 : 뷰와 투명면 사이에 선을 그을때 그 선이 두 면과 수직관계를 이룬다는 뜻도 있다.
 
+![[orthographic_projection_primary_view_elevation.png]]
+
 이 뷰들을 나열하여 3D 물체를 표현할 수 있으며, 나열하는 순서에 따라 제1각법(First-angle) 또는 제3각법(Third-angle)으로 나뉜다.
 
 ![[multiview_projection_1st_and_3rd_angle_comparison.png]]
@@ -82,6 +84,8 @@ edited: 2022-06-08
 보조 뷰(Auxiliary Views)은 각 뷰가 투영면과 평행하지 않게 투영됨을 뜻한다.
 
 [Axonometric Projection](https://en.wikipedia.org/wiki/Axonometric_projection)이라 불리기도 한다.
+
+![[orthographic_projection_aux_view_isometric.png]]
 
 https://en.wikipedia.org/wiki/Axonometric_projection
 
