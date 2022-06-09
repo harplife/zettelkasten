@@ -69,6 +69,9 @@ cssclass : "graphics-projection"
 
 정사 투영은 기본 뷰와 보조 뷰으로 나뉜다.
 
+참고 자료 :
+- [WebGL Orthographic Projection](http://learnwebgl.brown37.net/08_projections/projections_ortho.html)
+
 #### 기본 뷰
 기본 뷰(Primary Views)는 각 뷰가 투영면과 평행하게 투영됨을 뜻한다. 한 개의 투영면에 한 개의 뷰만 보인다. 기본 뷰는 뷰 볼륨의 면을 위주로 물체를 바라본다는 특징이 있다.
 
