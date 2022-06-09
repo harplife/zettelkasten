@@ -125,7 +125,7 @@ cssclass : "graphics-projection"
 #### 정사투영행렬
 투영을 한다는 것은 기하변환을 한다는 것과 동일하다. 따라서, 정점좌표행렬에 기하변환행렬을 곱하는 것은 투영행렬을 곱하는 것과 같음을 의미한다.
 
-`z=0`인 투영면을 기준으로 가장 기본적인 정사투영행렬은 밑에와 같다.
+`z=0`인 투영면을 기준으로 가장 기본적인 정사투영행렬은 밑에와 같다 (기본 뷰).
 
 참고 : 변환(행렬 곱)은 동치 행렬로 구현하는게 좋다.
 
@@ -165,6 +165,36 @@ $$
 $$
 
 정사투영행렬은 [[#뷰 볼륨 기준 투영행렬]]로 표현할 수 있다 - [[#뷰 볼륨 정사투영행렬]]을 참고한다.
+
+##### 보조 뷰 정사투영행렬
+보조 뷰 정사투영행렬은 기본 정사투영행렬에 [[opengl_draw_2d_transform#회전 변환|회전변환행렬]]을 곱한 것과 같다.
+
+밑에는 제1팔분공간에서 물체를 바라본 시점을 표현하는 정사투영행렬이다.
+$a$는 3차원 좌표, $b$는 투영된 2차원 좌표, $\alpha=\arcsin(\tan 30\degree)$, 그리고 $\beta=45\degree$ 이다.
+
+![[first_octant_rotation_matrix.svg]]
+
+$$
+\begin{bmatrix}
+    b_{x}\\
+    b_{y}\\
+    0\\
+    1
+\end{bmatrix}
+=
+\begin{bmatrix}
+    1&0&0&0\\
+    0&1&0&0\\
+    0&0&0&0\\
+    0&0&0&1
+\end{bmatrix}
+\begin{bmatrix}
+    c_{x}\\
+    c_{y}\\
+    c_{z}\\
+    1
+\end{bmatrix}
+$$
 
 ### 경사 투영
 [경사 투영(Oblique Projection)](https://en.wikipedia.org/wiki/Oblique_projection)
