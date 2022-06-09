@@ -233,7 +233,7 @@ $$
 
 ![[camera_focal_length_distance_animation.gif]]
 
-원근 투영은 [시야각(Field of View)](https://en.wikipedia.org/wiki/Field_of_view)을 모방하여 물체를 바라보는 "눈"과 눈에 보이는 영역을 정의한다. 이 "눈"은 투영기준점(Projection Reference Point, PRP)이라 하며, 눈에 보이는 영역은 뷰 볼륨이 된다.
+원근 투영은 [시야각(Field of View)](https://en.wikipedia.org/wiki/Field_of_view)을 모방하여 물체를 바라보는 "눈"과 눈에 보이는 영역을 정의한다. 이 "눈"은 투영기준점(Projection Reference Point, PRP)이라 하며, 눈에 보이는 영역은 뷰 볼륨이 된다. #todo 이 부분 자세히 수정
 
 참고 : https://www.cs.uic.edu/~jbell/CourseNotes/ComputerGraphics/Projections_Viewpoints.html
 
