@@ -22,7 +22,7 @@ cssclass : "graphics-projection"
 
 투영선(Projection Line)은 3차원 공간의 정점에서 2차원 공간의 정점으로 바라보는 가시선(Line of Sight)으로 이해하면 된다.
 
-참고 : Projection은 투영, 사영, 또는 투상으로도 번역된다.. - [정보통신기술용어해설](http://www.ktword.co.kr/test/view/view.php?m_temp1=4978)
+참고 : Projection은 투영, 사영, 또는 투상으로도 번역된다.. [정보통신기술용어해설](http://www.ktword.co.kr/test/view/view.php?m_temp1=4978). 심지어 투시라고도 불린다.
 
 투영은 [[#평행 투영]]과 [[#원근 투영]]으로 크게 두 가지로 분류되며, 각 투영 방식에 여러 종류의 투영이 있다.
 
@@ -231,8 +231,24 @@ $$
 ## 원근 투영
 원근 투영은 [원근법(Perspective)](https://en.wikipedia.org/wiki/Perspective_(graphical))이 적용된 투영을 뜻한다.
 
+원근 투영의 뷰 볼륨은 밑에와 같이 생겼다. 사각뿔 절두체와 같이 생겼다고 뷰잉 프러스텀(Viewing Frustum)이라고 불리는 경우가 많다.
+
+![[perspective_projection_view_volume.png]]
+
+3차원 물체에 원근 투영을 적용하면 밑에와 같이 보인다.
+
 ![[camera_focal_length_distance_animation.gif]]
 
+원근 투영은 투명면으로부터 물체의 거리가 길수록 물체는 작아보이는 특성이 있으며, 투영선과 투영선이 만나는 지점으로부터 물체가 더 이상 보이지 않는 소실점(Vanishing Point)가 있다.
+
+원근 투영은 주로 소실점의 개수를 기준으로 구분된다.
+- 1점 투시
+- 2점 투시
+- 3점 투시
+
+![[perspective_projections_and_vanishing_points.jpg]]
+
+이 외에 [곡선 원근법(Curvilinear Perspective)](https://en.wikipedia.org/wiki/Curvilinear_perspective)
 
 ## 뷰 볼륨 기준 투영행렬
 뷰 볼륨은 투영에 많은 영향을 준다. 뷰 볼륨에 대한 변환은 투영에 직접적인 영향을 준다.
