@@ -209,15 +209,15 @@ $$
 
 정육각형을 그릴떄 원근법(Perspective)을 무시하고 그냥 그린 그림하고 비슷하게 생겼다.
 
+경사 투영은 3가지로 분류된다.
+1. Cavalier Projection
+2. Cabinet Projection
+3. Military Projection
 
-
-
+#todo 경사 투영 자세히 정리
 
 ## 원근 투영
-원근 투영은 원근법이 적용된 투영을 뜻한다.
-
-
-[원근법(Perspective)](https://en.wikipedia.org/wiki/Perspective_(graphical))이 속한다.
+원근 투영은 [원근법(Perspective)](https://en.wikipedia.org/wiki/Perspective_(graphical))이 적용된 투영을 뜻한다.
 
 ![[camera_focal_length_distance_animation.gif]]
 
