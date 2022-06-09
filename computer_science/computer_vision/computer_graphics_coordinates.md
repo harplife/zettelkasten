@@ -204,6 +204,32 @@ P
 \end{bmatrix}
 $$
 
+정사투영행렬을 [[opengl_draw_2d_transform#크기 변환|크기변환행렬]]과 [[opengl_draw_2d_transform#이동 변환|이동변환행렬]]로 나누어 표현할 수 있다.
+
+$$
+S
+=
+\begin{bmatrix}
+    \frac{2}{right-left}&0&0&0\\
+    0&\frac{2}{top-bottom}&0&0\\
+    0&0&\frac{2}{far-near}&0\\
+    0&0&0&1
+\end{bmatrix}
+$$
+$$
+T
+=
+\begin{bmatrix}
+    1&0&0&-\frac{right+left}{2}\\
+    0&1&0&-\frac{top+bottom}{2}\\
+    0&0&-1&-\frac{far+near}{2}\\
+    0&0&0&1
+\end{bmatrix}
+$$
+$$
+P = ST
+$$
+
 # 공간
 뷰 볼륨은 하나의 3차원 공간이라 볼 수 있다 - 하나의 물체에 고유한 공간이 있을 수 있고, 여러 물체가 담긴 하나의 공간이 있을 수 있으며, 또는 여러 물체를 담는 공간을 담는 또 다른 공간이 있을 수 있다.
 
