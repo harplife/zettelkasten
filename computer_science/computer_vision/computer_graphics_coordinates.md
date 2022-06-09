@@ -97,6 +97,8 @@ cssclass : "graphics-projection"
 
 ![[orthographic_projection_aux_view_isometric.png]]
 
+![[orthographic_projection_aux_view_comparisons.png]]
+
 보조 뷰를 설명하기 앞서 단축(Foreshortening)에 대하여 잠시 설명한다. 뷰와 투영면이 평행하지 않으면 뷰는 왜곡(Distortion) 되어 보이며, 마찬가지로 도형도 왜곡되어 보인다.
 
 예를 들어, 물체가 정육각형인 경우 물체의 면과 투영면이 평행하지 않으면 물체의 면(사각형)이 왜곡되어 마름모(Rhombus) 또는 사다리꼴(Trapezoid) 처럼 보일 수 있다.
@@ -201,7 +203,12 @@ $$
 $$
 
 ### 경사 투영
-[경사 투영(Oblique Projection)](https://en.wikipedia.org/wiki/Oblique_projection)은 "경사진 곳에서 물체를 바라본다"는 의미에서 투영선이 투영평면과 수직관계를 이루지 않는 평행 투영을 뜻한다.
+[경사 투영(Oblique Projection)](https://en.wikipedia.org/wiki/Oblique_projection)은 "경사진 곳에서 물체를 바라본다"는 의미에서 투영선이 투영평면과 수직관계를 이루지 않는 평행 투영을 뜻한다. 
+
+![[oblique_projection_comparisons.png]]
+
+정육각형을 그릴떄 원근법(Perspective)을 무시하고 그냥 그린 그림하고 비슷하게 생겼다.
+
 
 
 
