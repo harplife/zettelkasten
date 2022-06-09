@@ -33,6 +33,15 @@ edited: 2022-06-08
 
 참고 : 컴퓨터 그래픽스에서는 투영을 기하변환(Geometrical Transformation)으로 구현한다.
 
+## 다시점 투영
+평행 투영과 원근 투영을 설명하기 앞서 다시점 투영을 설명한다.
+
+[다시점 투영(Multiview Projection)](https://en.wikipedia.org/wiki/Multiview_orthographic_projection)이란 여러 개의 각도에서 물체를 바라본다(투영한다)는 뜻을 가지며, 정확히는 물체를 두르는 가상의 육면체(Hexahedron)을 그려서 물체를 바라보는 각도를 정면, 저면(후면), 좌측면, 우측면, 평면(윗면), 그리고 저면(아랫면)으로 정의하여 투영하는 방식이다.
+
+이 면들을 뷰(View)라 부르며, 이 뷰들이 이루는 육면체를 뷰 볼륨(View Volume)이라한다.
+
+다시점 투영은 평행 투영과 원근 투영의 기반이 된다 - 뷰 볼륨을 기준으로 어느 뷰 또는 어느 각도에서 
+
 ## 평행 투영
 [평행 투영(Parallel Projection)](https://en.wikipedia.org/wiki/Parallel_projection)은 3차원 물체를 평면에 투영할 때 투영선(Projection Line)이 서로 평행(Parallel)한 경우를 뜻한다.
 
@@ -44,12 +53,6 @@ edited: 2022-06-08
 
 ### 정사 투영
 [정사 투영(Orthographic Projection)](https://en.wikipedia.org/wiki/Orthographic_projection)은 "정면을 바라본다"는 의미에서 투영선이 투영평면과 수직관계를 이루는 평행 투영을 뜻한다.
-
-정사 투영을 설명하기 전에 **다시점 투영**을 우선 설명한다.
-
-[다시점 투영(Multiview Projection)](https://en.wikipedia.org/wiki/Multiview_orthographic_projection)이란 여러 개의 각도에서 물체를 바라본다(투영한다)는 뜻을 가지며, 정확히는 물체를 두르는 가상의 정육각형(Cube)을 그려서 물체를 바라보는 각도를 정면, 저면(후면), 좌측면, 우측면, 평면(윗면), 그리고 저면(아랫면)으로 정의하여 투영하는 방식이다.
-
-편의를 위해서 이 면들을 뷰(View)로 표현하겠다.
 
 다시점 투영을 기준으로 정사 투영은 기본 뷰와 보조 뷰으로 나뉜다.
 
