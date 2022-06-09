@@ -224,20 +224,18 @@ $$
 
 떄로는 평행 투영을 밑에 그림과 같은 불가능 물체(Impossible Object)를 그리는데 사용되는 경우가 있다.
 
-![[Reutersvärd’s_triangle.svg]]
+![[Reutersvärd_triangle.svg]]
 
 불가능 물체를 사용한 게임들도 있다. #todo 내 폰에도 있는데, 이름이 뭐더라?
 
 ## 원근 투영
-원근 투영은 [원근법(Perspective)](https://en.wikipedia.org/wiki/Perspective_(graphical))이 적용된 투영을 뜻한다.
+원근 투영은 [원근법(Perspective)](https://en.wikipedia.org/wiki/Perspective_(graphical))이 적용된 투영을 뜻한다. 따라서, 원근 투영은 깊이(Depth)를 표현할 때 자주 사용된다.
+
+![[camera_focal_length_distance_animation.gif]]
 
 원근 투영의 뷰 볼륨은 밑에와 같이 생겼다. 사각뿔 절두체와 같이 생겼다고 뷰잉 프러스텀(Viewing Frustum)이라고 불리는 경우가 많다.
 
 ![[perspective_projection_view_volume.png]]
-
-3차원 물체에 원근 투영을 적용하면 밑에와 같이 보인다.
-
-![[camera_focal_length_distance_animation.gif]]
 
 원근 투영은 투명면으로부터 물체의 거리가 길수록 물체는 작아보이는 특성이 있으며, 투영선과 투영선이 만나는 지점으로부터 물체가 더 이상 보이지 않는 소실점(Vanishing Point)가 있다.
 
@@ -246,9 +244,9 @@ $$
 - 2점 투시
 - 3점 투시
 
-![[perspective_projections_and_vanishing_points.jpg]]
+![[perspective_projection_types.jpg]]
 
-이 외에 [곡선 원근법(Curvilinear Perspective)](https://en.wikipedia.org/wiki/Curvilinear_perspective)
+이 외에 [곡선 원근법(Curvilinear Perspective)](https://en.wikipedia.org/wiki/Curvilinear_perspective)이 있다.
 
 ## 뷰 볼륨 기준 투영행렬
 뷰 볼륨은 투영에 많은 영향을 준다. 뷰 볼륨에 대한 변환은 투영에 직접적인 영향을 준다.
