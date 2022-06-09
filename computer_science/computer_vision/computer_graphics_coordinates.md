@@ -4,6 +4,7 @@ tags: [computer_science, computer_vision, computer_graphics, study, display, pro
 status: ongoing
 created: 2022-06-08
 edited: 2022-06-08
+cssclass : "graphics-projection"
 ---
 
 # 뷰잉 및 투영
