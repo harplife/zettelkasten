@@ -194,16 +194,14 @@ $$
 뷰 볼륨을 기준으로 정사투영행렬을 밑에와 같이 표현할 수 있다.
 
 $$
-\begin{huge}
 P
 =
 \begin{bmatrix}
-    \frac{2}{right-left}&0&0&0\\
-    0&1&0&0\\
-    0&0&0&0\\
+    \frac{2}{right-left}&0&0&-\frac{right+left}{right-left}\\
+    0&\frac{2}{top-bottom}&0&-\frac{top+bottom}{top-bottom}\\
+    0&0&\frac{-2}{far-near}&-\frac{far+near}{far-near}\\
     0&0&0&1
 \end{bmatrix}
-\end{huge}
 $$
 
 # 공간
