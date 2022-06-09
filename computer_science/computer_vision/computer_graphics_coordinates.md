@@ -64,6 +64,8 @@ edited: 2022-06-08
 ### 정사 투영
 [정사 투영(Orthographic Projection)](https://en.wikipedia.org/wiki/Orthographic_projection)은 "정면을 바라본다"는 의미에서 투영선이 투영평면과 수직관계를 이루는 평행 투영을 뜻한다.
 
+참고 : 정사..라는 단어가 좀 그렇다. 직교 투영이라고도 불린다.
+
 정사 투영은 기본 뷰와 보조 뷰으로 나뉜다.
 
 #### 기본 뷰
@@ -87,26 +89,79 @@ edited: 2022-06-08
 #### 보조 뷰
 보조 뷰(Auxiliary Views)은 각 뷰가 투영면과 평행하지 않게 투영됨을 뜻한다.  한 개의 투영면에 3개의 뷰가 보인다. 보조 뷰는 뷰 볼륨의 정점을 위주로 물체를 바라본다는 특징이 있다.
 
-[Axonometric Projection](https://en.wikipedia.org/wiki/Axonometric_projection)이라 불리기도 한다.
+참고 : [Axonometric Projection](https://en.wikipedia.org/wiki/Axonometric_projection)이라 불리기도 한다.
 
 ![[orthographic_projection_aux_view_isometric.png]]
 
+보조 뷰를 설명하기 앞서 단축(Foreshortening)에 대하여 잠시 설명한다. 뷰와 투영면이 평행하지 않으면 뷰는 왜곡(Distortion) 되어 보이며, 마찬가지로 도형도 왜곡되어 보인다.
 
+예를 들어, 물체가 정육각형인 경우 물체의 면과 투영면이 평행하지 않으면 물체의 면(사각형)이 왜곡되어 마름모(Rhombus) 또는 사다리꼴(Trapezoid) 처럼 보일 수 있다.
 
-단축(Foreshortening) 왜곡(Distortion)
+이 왜곡되는 현상을 3차원 좌표계 축(Axis/Axes)의 [단축(Foreshortening)](https://en.wikipedia.org/wiki/Perspective_(graphical)#Foreshortening)이라 표현한다.
 
-#### 선형대수학적 표현
+하나의 뷰 볼륨 정점을 위주로 물체를 바라봤을 때, 3개 축의 단축 비율을 기준으로 보조 뷰가 3가지로 분류된다.
+1. 등각 투영
+2. 이각 투영
+3. 삼각 투영
+
+##### 등각 투영
+[등각 투영(Isometric Projection)](https://en.wikipedia.org/wiki/Isometric_projection)은 3개 축의 단축이 서로 동등한 경우를 뜻하며, 축과 축 사이의 각도가 120도를 이룬다.
+
+뷰 볼륨의 변(Edge) 길이가 서로 같은 비율을 유지하고 있으면 등각 투영이라 볼 수 있다.
+
+![[isometric_projection.png]]
+
+##### 이각 투영
+이각 투영(Dimetric Projection)은 2개 축의 단축만 동등하고 1개 축의 단축만 다른 경우를 뜻한다.
+
+![[dimetric_projection.png]]
+
+##### 삼각 투영
+삼각 투영(Trimetric Projection)은 각 축의 단축이 서로 다른 경우를 뜻한다.
+
+![[trimetric_projection.png]]
+
+#### 정사 투영 행렬
+투영을 한다는 것은 기하변환을 한다는 것과 동일하며, 이는 3D 물체에 대하여 기바변환행렬을 곱하는 것과 같다.
+
+`z=0`인 투영면을 기준으로 가장 기본적인 정사투영행렬은 밑에와 같다.
+
+참고 : 변환(행렬 곱)은 동치 행렬로 구현하는게 좋다.
 
 $$
 P
 =
 \begin{bmatrix}
-    1&0&0\\
-    0&1&0\\
-    0&0&0
+    1&0&0&0\\
+    0&1&0&0\\
+    0&0&0&0\\
+    0&0&0&1
 \end{bmatrix}
 $$
 
+정점 좌표 행렬에 대하여 정사투영행렬이 곱해지는 식은 밑에와 같이 표현된다.
+
+$$
+\begin{bmatrix}
+    x^{\prime}\\
+    y^{\prime}\\
+    z^{\prime}\\
+    1
+\end{bmatrix}
+=
+\begin{bmatrix}
+    1&0&0&0\\
+    0&1&0&0\\
+    0&0&0&0\\
+    0&0&0&1
+\end{bmatrix}
+\begin{bmatrix}
+    x\\
+    y\\
+    z\\
+    1
+\end{bmatrix}
+$$
 
 ### 경사 투영
 [경사 투영(Oblique Projection)](https://en.wikipedia.org/wiki/Oblique_projection)
