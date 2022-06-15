@@ -252,7 +252,7 @@
               "leaf": "4166d5a6a83cf0fe",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/OpenGL/opengl_draw_2d_transform.md\",\"mode\":\"preview\"}}",
-              "eState": "{\"scroll\":664.9285617726194}"
+              "eState": "{\"scroll\":0}"
             },
             {
               "leaf": "4166d5a6a83cf0fe",
@@ -270,7 +270,7 @@
           "type": "markdown",
           "state": {
             "file": "computer_science/computer_vision/computer_graphics_coordinates.md",
-            "mode": "source"
+            "mode": "preview"
           }
         },
         "pane-relief:history-v1": {
@@ -279,8 +279,8 @@
             {
               "leaf": "55b7c2e1058af1b9",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_coordinates.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":57.04347826086956}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_coordinates.md\",\"mode\":\"preview\"}}",
+              "eState": "{\"scroll\":314.0833333333333}"
             },
             {
               "leaf": "55b7c2e1058af1b9",

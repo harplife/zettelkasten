@@ -278,7 +278,7 @@ $$
 
 참고 : 축 기준 최소/최대 값으로 표현하지 않는 이유는 뷰 볼륨이 거꾸로 될 수도 있기 떄문이다.
 
-![[view_volume_frustrum.svg]]
+![[orthographic_projection_view_volume_diagram.png]]
 
 위 값들을 사용하여 구축한 정사투영행렬은 밑에와 같다.
 
@@ -322,7 +322,7 @@ $$
 지정된 뷰 볼륨 값에 따라 정사투영이 되는 도형이 변경되는 것을 이 [시뮬레이션](http://learnwebgl.brown37.net/08_projections/create_ortho/create_ortho.html)을 통해 직접 볼 수 있다.
 
 ### 뷰 볼륨 원근투영행렬
-
+![[perspective_projection_view_volume_diagram.png]]
 
 # 공간
 뷰 볼륨은 하나의 3차원 공간이라 볼 수 있다 - 하나의 물체에 고유한 공간이 있을 수 있고, 여러 물체가 담긴 하나의 공간이 있을 수 있으며, 또는 여러 물체를 담는 공간을 담는 또 다른 공간이 있을 수 있다.
