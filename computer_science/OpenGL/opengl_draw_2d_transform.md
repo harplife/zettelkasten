@@ -47,6 +47,8 @@ Vertex Vertices[3] = {
 
 OpenGL에서는 따로 도형 변환에 대한 기능을 제공하지 않는다. GLM (OpenGL Mathematics)라는 라이브러리를 사용하면 이 문제를 쉽게 해결하는데, 일단 여기선 도형 변환이 내부적으로 어떻게 적용되는지 보기 위해 각 도형 행동에 대한 변환행렬을 구현한다.
 
+#todo [변환행렬(Transformation Matrix)](https://en.wikipedia.org/wiki/Transformation_matrix) 노트 정리
+
 `gTransform.h`와 `gTransform.cpp`는 변환행렬의 구조체와 각 행동에 대한 변환행렬을 정의한다.
 
 참고 : 소스 프로그램에 `#include "gTransform.h"`를 해줄 것!
@@ -266,6 +268,8 @@ $$
 참고 : 회전 변환에 입력되는 회전값은 Radian이다.
 
 회전각도가 양수인 경우 회전축을 중심으로 시계 반대 방향(Counter-Clock Wise)으로 회전한다.
+
+회전 변환을 일으키는 행렬을 [회전 행렬(Rotation Matrix)](https://en.wikipedia.org/wiki/Rotation_matrix)이라고 한다.
 
 ##### x축 회전변환
 x축 회전 변환(x-axis Rotation)은 x축을 중심으로 도형을 회전하는 방식이다.

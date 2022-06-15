@@ -1,5 +1,8 @@
 {
   "baseFontSize": 16,
   "translucency": false,
-  "cssTheme": "Discordian"
+  "cssTheme": "Discordian",
+  "enabledCssSnippets": [
+    "big-math"
+  ]
 }
