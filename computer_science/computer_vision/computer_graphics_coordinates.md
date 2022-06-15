@@ -105,6 +105,8 @@ cssclass : "graphics-projection"
 
 이 왜곡되는 현상을 3차원 좌표계 축(Axis/Axes)의 [단축(Foreshortening)](https://en.wikipedia.org/wiki/Perspective_(graphical)#Foreshortening)이라 표현한다.
 
+![[foreshortening.png]]
+
 하나의 뷰 볼륨 정점을 위주로 물체를 바라봤을 때, 3개 축의 단축 비율을 기준으로 보조 뷰가 3가지로 분류된다.
 1. 등각 투영
 2. 이각 투영
