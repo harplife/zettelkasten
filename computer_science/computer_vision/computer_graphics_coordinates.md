@@ -41,7 +41,11 @@ cssclass : "graphics-projection"
 
 이 면들을 뷰(View)라 부르며, 이 뷰들이 이루는 육면체를 **뷰 볼륨(View Volume)** 이라한다.
 
+![[view_volume.png]]
+
 2차원 좌표계에 사분면(Quadrant)이 있듯이, 3차원 좌표계에는 [팔분공간(Octant)](https://en.wikipedia.org/wiki/Octant_(solid_geometry))가 있다. 뷰 볼륨을 구현하는 데 있어, 투영의 시점을 특정 팔분공간 안에 6개의 정점으로 정의할 수 있다.
+
+참고 : 컴퓨터 그래픽스 분야에는 일반적으로 뷰 볼륨을 제1 팔분공간으로 표현하는 듯 싶다만, confirm이 필요하다.
 
 ![[octant.svg]]
 
