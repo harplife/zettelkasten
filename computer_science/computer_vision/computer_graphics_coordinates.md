@@ -97,6 +97,8 @@ cssclass : "graphics-projection"
 
 ![[orthographic_projection_aux_view_isometric.png]]
 
+![[orthographic_projection_aux_view_comparisons_simple.png]]
+
 ![[orthographic_projection_aux_view_comparisons.png]]
 
 보조 뷰를 설명하기 앞서 단축(Foreshortening)에 대하여 잠시 설명한다. 뷰와 투영면이 평행하지 않으면 뷰는 왜곡(Distortion)되어 보이며, 마찬가지로 도형도 왜곡되어 보인다.
