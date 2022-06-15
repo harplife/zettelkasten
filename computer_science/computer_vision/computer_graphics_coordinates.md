@@ -91,7 +91,7 @@ cssclass : "graphics-projection"
 기본 뷰의 장점은 3D 물체의 표면이 왜곡(Distortion)되어 표현되지 않는다는 것이다 - 더 자세한 사항은 보조 뷰에서 다룬다.
 
 #### 보조 뷰
-보조 뷰(Auxiliary Views)은 각 뷰가 투영면과 평행하지 않게 투영됨을 뜻한다.  한 개의 투영면에 3개의 뷰가 보인다. 보조 뷰는 뷰 볼륨의 정점을 위주로 물체를 바라본다는 특징이 있다.
+보조 뷰(Auxiliary Views)은 각 뷰가 투영면과 평행하지 않게 투영됨을 뜻한다.  한 개의 투영면에 최대 3개의 뷰가 보인다. 보조 뷰는 뷰 볼륨의 정점을 위주로 물체를 바라본다는 특징이 있다.
 
 참고 : [Axonometric Projection](https://en.wikipedia.org/wiki/Axonometric_projection)이라 불리기도 한다.
 
@@ -99,7 +99,7 @@ cssclass : "graphics-projection"
 
 ![[orthographic_projection_aux_view_comparisons.png]]
 
-보조 뷰를 설명하기 앞서 단축(Foreshortening)에 대하여 잠시 설명한다. 뷰와 투영면이 평행하지 않으면 뷰는 왜곡(Distortion) 되어 보이며, 마찬가지로 도형도 왜곡되어 보인다.
+보조 뷰를 설명하기 앞서 단축(Foreshortening)에 대하여 잠시 설명한다. 뷰와 투영면이 평행하지 않으면 뷰는 왜곡(Distortion)되어 보이며, 마찬가지로 도형도 왜곡되어 보인다.
 
 예를 들어, 물체가 정육각형인 경우 물체의 면과 투영면이 평행하지 않으면 물체의 면(사각형)이 왜곡되어 마름모(Rhombus) 또는 사다리꼴(Trapezoid) 처럼 보일 수 있다.
 
