@@ -20,7 +20,7 @@ cssclass : "graphics-projection"
 
 3차원 모델이 투영되는 2차원 평면을 [투영 평면(Projection Plane)](https://en.wikipedia.org/wiki/Projection_plane) 또는 [이미지 평면(Image Plane)](https://en.wikipedia.org/wiki/Image_plane)이라 부른다.
 
-투영선(Projection Line)은 3차원 공간의 정점에서 2차원 공간의 정점으로 바라보는 가시선(Line of Sight)으로 이해하면 된다.
+**투영선(Projection Line)** 은 3차원 공간의 정점에서 2차원 공간의 정점으로 바라보는 가시선(Line of Sight)으로 이해하면 된다.
 
 참고 : Projection은 투영, 사영, 또는 투상으로도 번역된다.. [정보통신기술용어해설](http://www.ktword.co.kr/test/view/view.php?m_temp1=4978). 심지어 투시라고도 불린다.
 
