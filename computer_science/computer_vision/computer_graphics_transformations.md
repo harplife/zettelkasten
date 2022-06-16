@@ -169,8 +169,6 @@ V^{\prime} = T(d)V =
 \end{bmatrix}
 $$
 
-이동변환의 역(Inverse)은 $T^{-1}(d) = T(-d)$과 같다.
-
 ## 크기변환
 [크기변환(Scaling)](https://en.wikipedia.org/wiki/Scaling_(geometry))은 도형의 크기를 줄이거나 크게하는 함수를 뜻한다. 일반적으로 크기변환은 하나의 척도인자(Scale Factor)로 각 축에 대하여 균등(Uniform)/등방(Isotropic)하게 적용된다.
 
@@ -253,8 +251,6 @@ V^{\prime} = SV =
 \end{bmatrix}
 $$
 
-크기변환의 역(Inverse)은 $S^{-1}(a) = S(\frac{1}{a})$과 같다.
-
 ## 회전변환
 [회전변환(Rotation)](https://en.wikipedia.org/wiki/Rotation_(mathematics))은 도형을 특정 축에 대하여 주어진 각도 $\theta$ 만큼 반시계 방향(Counterclockwise)으로 회전한 것을 뜻한다. 따라서, x축 회전변환, y축 회전변환, 그리고 z축 회전변환으로 분류된다.
 
@@ -327,7 +323,7 @@ $$
 \end{bmatrix}
 $$
 
-
 ## 기울기변환
+
 
 ## 반사변환
