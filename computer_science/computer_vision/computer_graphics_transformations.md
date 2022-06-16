@@ -24,16 +24,35 @@ $f(cu)=cf(u)$
 선형변환은 선형대수학(Linear Algebra)의 메인이라고 볼 수 있지만, [[computer_graphics_software|컴퓨터 그래픽스 소프트웨어]]에 있어 아주 큰 부분을 차지한다.
 
 선형변환에는 여러 종류가 있는데, 여기서 대표적인 선형변환은 밑에와 같다.
-1. 이동변환(Translation)
-2. 크기변환(Dilation/Scaling)
-3. 회전변환(Rotation)
+1. 항등변환(Identity)
+2. 이동변환(Translate)
+3. 크기변환(Scale)
+4. 회전변환(Rotate)
+5. 기울기변환(Shear)
+6. 반사변환(Reflect)
+
+선형변환에 있어 단위정사각형(Unit Square)의 선들이 변환 후 선으로 유지되고 평행성(Parallelism)을 잃지 않는다면 그 변환은 
+
+위와 같은 선형변환들을 사용하여 Orthogonal Projection, Perspective Projection,  등을 구현할 수 있다.
 
 선형변환은 일반적으로 행렬(Matrix)로 표현된다.
 
-## 동차 좌표
+## 동차 좌표계
+#todo [동차 좌표계(Homogeneous Coordinates)](https://en.wikipedia.org/wiki/Homogeneous_coordinates)는.. 설명하긴 어렵지만, 일단 2차원 또는 3차원 좌표들에 대한 연산을 할 때 동차 좌표를 사용하면 훨씬 편해진다는 것만 일단 참고한다.
 
+3차원 공간에 정점(Vertex) $V(x,y,z)$의 좌표를 동차 좌표로 표현하면 밑에와 같다.
 
-## 어파인 변환
+$$
+V = 
+\begin{bmatrix}
+    x\\
+    y\\
+    z\\
+    1
+\end{bmatrix}
+$$
+
+## 항등변환
 
 
 ### 어파인 변환 차트
