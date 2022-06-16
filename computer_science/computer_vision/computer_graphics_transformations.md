@@ -31,11 +31,15 @@ $f(cu)=cf(u)$
 5. 기울기변환(Shear)
 6. 반사변환(Reflect)
 
-선형변환에 있어 단위정사각형(Unit Square)의 선들이 변환 후 선으로 유지되고 평행성(Parallelism)을 잃지 않는다면 그 변환은 
-
 위와 같은 선형변환들을 사용하여 Orthogonal Projection, Perspective Projection,  등을 구현할 수 있다.
 
 선형변환은 일반적으로 행렬(Matrix)로 표현된다.
+
+## 아핀 변환
+선형변환에 있어 단위정사각형(Unit Square)의 선들이 변환 후 선으로 유지되고 평행성(Parallelism)을 잃지 않는다면 그 변환은 [아핀 변환(Affine Transformation)](https://en.wikipedia.org/wiki/Affine_transformation)으로 구분될 수 있다. 이 [자료](https://hooni-playground.com/1271/)에 의하면, 아핀변환의 특수한 형태(Bias가 영벡터)가 선형변환이며, 선형변환은 아핀변환에 포함된다 (하지만 아핀변환은 비선형변환도 가능하다).
+
+### 어파인 변환 차트
+![[2d_affine_transformation.svg]]
 
 ## 동차 좌표계
 #todo [동차 좌표계(Homogeneous Coordinates)](https://en.wikipedia.org/wiki/Homogeneous_coordinates)는.. 설명하긴 어렵지만, 일단 2차원 또는 3차원 좌표들에 대한 연산을 할 때 동차 좌표를 사용하면 훨씬 편해진다는 것만 일단 참고한다.
@@ -53,7 +57,3 @@ V =
 $$
 
 ## 항등변환
-
-
-### 어파인 변환 차트
-![[2d_affine_transformation.svg]]
