@@ -255,6 +255,8 @@ $$
 크기변환의 역(Inverse)은 $S^{-1}(a) = S(\frac{1}{a})$과 같다.
 
 ## 회전변환
+[회전변환(Rotation)](https://en.wikipedia.org/wiki/Rotation_(mathematics))은 도형을 특정 축에 대하여 주어진 각도 $\theta$ 만큼 반시계 방향(Counterclockwise)으로 회전한 것을 뜻한다. 따라서, x축 회전변환, y축 회전변환, 그리고 z축 회전변환으로 분류된다.
+
 
 
 ## 기울기변환
