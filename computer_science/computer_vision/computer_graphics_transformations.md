@@ -42,7 +42,7 @@ $f(cu)=cf(u)$
 ![[2d_affine_transformation.svg]]
 
 ## 동차 좌표계
-#todo [동차 좌표계(Homogeneous Coordinates)](https://en.wikipedia.org/wiki/Homogeneous_coordinates)는.. 설명하긴 어렵지만, 일단 2차원 또는 3차원 좌표들에 대한 연산을 할 때 동차 좌표를 사용하면 훨씬 편해진다는 것만 일단 참고한다.
+#todo [동차 좌표계(Homogeneous Coordinates)](https://en.wikipedia.org/wiki/Homogeneous_coordinates)는.. 설명하긴 어렵지만, 일단 동차 좌표를 사용하면 2차원 또는 3차원 좌표들에 대한 변환을 모두 곱셈으로 표현할 수 있다는 장점이 있다.
 
 3차원 공간에 정점(Vertex) $V(x,y,z)$의 좌표를 동차 좌표로 표현하면 밑에와 같다.
 
@@ -57,3 +57,206 @@ V =
 $$
 
 ## 항등변환
+항등변환(Identity Transformation)은 출력값이 입력값과 동일하게 하는 함수로서, [항등행렬(Identity Matrix)](https://en.wikipedia.org/wiki/Identity_matrix) $I$에 대한 입력 행렬 $V$의 곱으로 이루어진다. 항등변환으로서 $V = V^{\prime}$가 이루어진다.
+
+$$
+V^{\prime} = VI = 
+\begin{bmatrix}
+    1&0&0&0\\
+    0&1&0&0\\
+    0&0&1&0\\
+    0&0&0&1
+\end{bmatrix}
+\begin{bmatrix}
+    x\\
+    y\\
+    z\\
+    1
+\end{bmatrix}
+=
+\begin{bmatrix}
+    x\\
+    y\\
+    z\\
+    1
+\end{bmatrix}
+= V
+$$
+
+항등변환은 다른 변환들에 기준이 된다. 프로그램적으로도 항등행렬을 우선 구성하고 항등행렬에 대하여 변환을 적용함으로서 변환을 누적시킨다.
+
+## 이동변환
+[이동변환(Translation)](https://en.wikipedia.org/wiki/Translation_(geometry))은 도형(점, 선, 등)의 위치를 움직이게 하는 함수이다.
+
+3차원 공간에 이동변환은 밑에와 같이 표현할 수 있다 (정점행렬 $V(x,y,z)$, 이동행렬 $T(d)$).
+
+$$
+V = 
+\begin{bmatrix}
+    x\\
+    y\\
+    z
+\end{bmatrix}, 
+T = 
+\begin{bmatrix}
+    d_{x}\\
+    d_{y}\\
+    d_{z}
+\end{bmatrix}
+$$
+
+$$
+V^{\prime} = V + T = 
+\begin{bmatrix}
+    x\\
+    y\\
+    z
+\end{bmatrix}
++
+\begin{bmatrix}
+    d_{x}\\
+    d_{y}\\
+    d_{z}
+\end{bmatrix}
+=
+\begin{bmatrix}
+    x + d_{x}\\
+    y + d_{y}\\
+    z + d_{z}
+\end{bmatrix}
+$$
+
+이동변환을 동차좌표계로 표현하면 밑에와 같다 (정점행렬 $V(x,y,z)$, 이동행렬 $T(d)$).
+
+$$
+V = 
+\begin{bmatrix}
+    x\\
+    y\\
+    z\\
+    1
+\end{bmatrix}, 
+T = 
+\begin{bmatrix}
+    d_{x}\\
+    d_{y}\\
+    d_{z}\\
+    1
+\end{bmatrix}
+$$
+
+$$
+V^{\prime} = T(d)V = 
+\begin{bmatrix}
+    1&0&0&d_{x}\\
+    0&1&0&d_{y}\\
+    0&0&1&d_{z}\\
+    0&0&0&1
+\end{bmatrix}
+\begin{bmatrix}
+    x\\
+    y\\
+    z\\
+    1
+\end{bmatrix}
+=
+\begin{bmatrix}
+    x + d_{x}\\
+    y + d_{y}\\
+    z + d_{z}\\
+    1
+\end{bmatrix}
+$$
+
+이동변환의 역(Inverse)은 $T^{-1}(d) = T(-d)$과 같다.
+
+## 크기변환
+[크기변환(Scaling)](https://en.wikipedia.org/wiki/Scaling_(geometry))은 도형의 크기를 줄이거나 크게하는 함수를 뜻한다. 일반적으로 크기변환은 하나의 척도인자(Scale Factor)로 각 축에 대하여 균등(Uniform)/등방(Isotropic)하게 적용된다.
+
+3차원 공간에 크기변환은 밑에와 같이 표현할 수 있다 (정점행렬 $V(x,y,z)$, 크기변환행렬 $S(a)$).
+
+$$
+V = 
+\begin{bmatrix}
+    x\\
+    y\\
+    z
+\end{bmatrix}, 
+S = 
+\begin{bmatrix}
+    a_{x}&0&0\\
+    0&a_{y}&0\\
+    0&0&a_{z}
+\end{bmatrix}
+$$
+
+$$
+V^{\prime} = SV = 
+\begin{bmatrix}
+    a_{x}&0&0\\
+    0&a_{y}&0\\
+    0&0&a_{z}
+\end{bmatrix}
+\begin{bmatrix}
+    x\\
+    y\\
+    z
+\end{bmatrix}
+=
+\begin{bmatrix}
+    a_{x}x\\
+    a_{y}y\\
+    a_{z}z
+\end{bmatrix}
+$$
+
+크기변환을 동차좌표계로 표현하면 밑에와 같다 (정점행렬 $V(x,y,z)$, 크기변환행렬 $S(a)$).
+
+$$
+V = 
+\begin{bmatrix}
+    x\\
+    y\\
+    z\\
+    1
+\end{bmatrix}, 
+S = 
+\begin{bmatrix}
+    a_{x}&0&0&0\\
+    0&a_{y}&0&0\\
+    0&0&a_{z}&0\\
+    0&0&0&1
+\end{bmatrix}
+$$
+
+$$
+V^{\prime} = SV = 
+\begin{bmatrix}
+    a_{x}&0&0&0\\
+    0&a_{y}&0&0\\
+    0&0&a_{z}&0\\
+    0&0&0&1
+\end{bmatrix}
+\begin{bmatrix}
+    x\\
+    y\\
+    z\\
+    1
+\end{bmatrix}
+=
+\begin{bmatrix}
+    a_{x}x\\
+    a_{y}y\\
+    a_{z}z\\
+    1
+\end{bmatrix}
+$$
+
+크기변환의 역(Inverse)은 $S^{-1}(a) = S(\frac{1}{a})$과 같다.
+
+## 회전변환
+
+
+## 기울기변환
+
+## 반사변환

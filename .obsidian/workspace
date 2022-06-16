@@ -156,7 +156,7 @@
               "leaf": "03e892c310bf4234",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_hardware.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":4},\"to\":{\"line\":9,\"ch\":4}}}"
+              "eState": "{}"
             }
           ]
         }
@@ -242,7 +242,7 @@
           "type": "markdown",
           "state": {
             "file": "computer_science/OpenGL/opengl_draw_2d_transform.md",
-            "mode": "source"
+            "mode": "preview"
           }
         },
         "pane-relief:history-v1": {
@@ -251,8 +251,8 @@
             {
               "leaf": "4166d5a6a83cf0fe",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/OpenGL/opengl_draw_2d_transform.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":116,\"ch\":2},\"to\":{\"line\":109,\"ch\":0}},\"scroll\":97.91304347826087}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/OpenGL/opengl_draw_2d_transform.md\",\"mode\":\"preview\"}}",
+              "eState": "{\"scroll\":57.371428571428574}"
             },
             {
               "leaf": "4166d5a6a83cf0fe",
@@ -280,7 +280,7 @@
               "leaf": "f1694a699526ee0f",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_transformations.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":44.028985507246375}"
+              "eState": "{\"scroll\":175.65217391304347}"
             }
           ]
         }
@@ -308,7 +308,7 @@
               "leaf": "55b7c2e1058af1b9",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_coordinates.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":302,\"ch\":32},\"to\":{\"line\":302,\"ch\":32}},\"scroll\":287.4782608695652}"
+              "eState": "{\"scroll\":296.17391304347825}"
             },
             {
               "leaf": "55b7c2e1058af1b9",
@@ -454,14 +454,14 @@
   "active": "f1694a699526ee0f",
   "lastOpenFiles": [
     "computer_science/computer_vision/computer_graphics_transformations.md",
-    "computer_science/OpenGL/opengl_draw_2d_transform.md",
     "computer_science/computer_vision/computer_graphics_coordinates.md",
+    "computer_science/OpenGL/opengl_draw_2d_transform.md",
+    "computer_science/computer_vision/computer_graphics_hardware.md",
     "computer_science/computer_vision/computer_graphics_shader.md",
     "computer_science/OpenGL/opengl_draw_2d_simple_triangle.md",
     "computer_science/OpenGL/visual_studio_graphics_setup_w_glfw_n_glad.md",
     "computer_science/OpenGL/visual_studio_graphics_setup_w_freeglut_n_glew.md",
     "computer_science/computer_vision/computer_graphics_software.md",
-    "computer_science/computer_vision/computer_graphics_hardware.md",
     "computer_science/computer_vision/color_filter_array.md"
   ]
 }
