@@ -4,6 +4,7 @@ tags: [computer_science, computer_vision, computer_graphics, study, display, pro
 status: ongoing
 created: 2022-06-16
 edited: 2022-06-16
+cssclass : "graphics-projection"
 ---
 
 # 선형변환
@@ -257,6 +258,74 @@ $$
 ## 회전변환
 [회전변환(Rotation)](https://en.wikipedia.org/wiki/Rotation_(mathematics))은 도형을 특정 축에 대하여 주어진 각도 $\theta$ 만큼 반시계 방향(Counterclockwise)으로 회전한 것을 뜻한다. 따라서, x축 회전변환, y축 회전변환, 그리고 z축 회전변환으로 분류된다.
 
+참고 : [회전변환행렬(Rotation Matrix)](https://en.wikipedia.org/wiki/Rotation_matrix)
+
+3차원 공간에 크기변환은 밑에와 같이 표현할 수 있다 (x축 회전변환행렬 $R_{x}(\theta)$, y축 회전변환행렬 $R_{y}(\theta)$, z축 회전변환행렬 $R_{z}(\theta)$).
+
+$$
+R_{x}(\theta) = 
+\begin{bmatrix}
+    1&0&0\\
+    0&\cos\theta&-\sin\theta\\
+    0&\sin\theta&\cos\theta
+\end{bmatrix}
+$$
+
+$$
+R_{y}(\theta) = 
+\begin{bmatrix}
+    \cos\theta&0&\sin\theta\\
+    0&1&0\\
+    -\sin\theta&0&\cos\theta
+\end{bmatrix}
+$$
+
+$$
+R_{z}(\theta) = 
+\begin{bmatrix}
+    \cos\theta&-\sin\theta&0\\
+    \sin\theta&\cos\theta&0\\
+    0&0&1
+\end{bmatrix}
+$$
+
+참고 : 동차행렬로 표현하려면 그냥 간단히 $w$값을 추가해서 4차원 행렬로 표현하면 된다.
+
+예시: 정점 행렬 $V(1,0,0)$에 대하여 z축 90도 회전변환 $R_{z}(90\degree)$을 한다면 식은 밑에와 같다.
+
+$$
+R_{z}(90\degree)V = 
+\begin{bmatrix}
+    \cos90\degree&-\sin90\degree&0\\
+    \sin90\degree&\cos90\degree&0\\
+    0&0&1
+\end{bmatrix}
+\begin{bmatrix}
+    1\\
+    0\\
+    0
+\end{bmatrix}
+$$
+
+$$
+=
+\begin{bmatrix}
+    0&-1&0\\
+    1&0&0\\
+    0&0&1
+\end{bmatrix}
+\begin{bmatrix}
+    1\\
+    0\\
+    0
+\end{bmatrix}
+=
+\begin{bmatrix}
+    0\\
+    1\\
+    0
+\end{bmatrix}
+$$
 
 
 ## 기울기변환
