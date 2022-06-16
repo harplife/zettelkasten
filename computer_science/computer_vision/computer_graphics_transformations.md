@@ -26,11 +26,11 @@ $f(cu)=cf(u)$
 
 선형변환에는 여러 종류가 있는데, 여기서 대표적인 선형변환은 밑에와 같다.
 1. 항등변환(Identity)
-2. 이동변환(Translate)
-3. 크기변환(Scale)
-4. 회전변환(Rotate)
-5. 기울기변환(Shear)
-6. 반사변환(Reflect)
+2. 이동변환(Translation)
+3. 크기변환(Scaling)
+4. 회전변환(Rotation)
+5. 전단변환(Shearing)
+6. 반사변환(Reflection)
 
 위와 같은 선형변환들을 사용하여 Orthogonal Projection, Perspective Projection,  등을 구현할 수 있다.
 
@@ -39,7 +39,7 @@ $f(cu)=cf(u)$
 ## 아핀 변환
 선형변환에 있어 단위정사각형(Unit Square)의 선들이 변환 후 선으로 유지되고 평행성(Parallelism)을 잃지 않는다면 그 변환은 [아핀 변환(Affine Transformation)](https://en.wikipedia.org/wiki/Affine_transformation)으로 구분될 수 있다. 이 [자료](https://hooni-playground.com/1271/)에 의하면, 아핀변환의 특수한 형태(Bias가 영벡터)가 선형변환이며, 선형변환은 아핀변환에 포함된다 (하지만 아핀변환은 비선형변환도 가능하다).
 
-### 어파인 변환 차트
+### 아핀 변환 차트
 ![[2d_affine_transformation.svg]]
 
 ## 동차 좌표계
@@ -89,7 +89,7 @@ $$
 ## 이동변환
 [이동변환(Translation)](https://en.wikipedia.org/wiki/Translation_(geometry))은 도형(점, 선, 등)의 위치를 움직이게 하는 함수이다.
 
-3차원 공간에 이동변환은 밑에와 같이 표현할 수 있다 (정점행렬 $V(x,y,z)$, 이동행렬 $T(d)$).
+3차원 공간에 이동변환은 밑에와 같이 표현할 수 있다 (정점행렬 $V(x,y,z)$, 이동변환행렬 $T(d)$).
 
 $$
 V = 
@@ -127,7 +127,7 @@ V^{\prime} = V + T =
 \end{bmatrix}
 $$
 
-이동변환을 동차좌표계로 표현하면 밑에와 같다 (정점행렬 $V(x,y,z)$, 이동행렬 $T(d)$).
+이동변환을 동차좌표계로 표현하면 밑에와 같다 (정점행렬 $V(x,y,z)$, 이동변환행렬 $T(d)$).
 
 $$
 V = 
@@ -323,7 +323,19 @@ $$
 \end{bmatrix}
 $$
 
-## 기울기변환
+## 전단변환
+[전단변환(Shearing)](https://en.wikipedia.org/wiki/Shear_mapping)은 도형을 특정 축 위주로 주어진 전단 인자(Shear Factor) 만큼 기울게 하는 함수이다.
 
+https://en.wikipedia.org/wiki/Shear_matrix
 
 ## 반사변환
+https://en.wikipedia.org/wiki/Householder_transformation
+
+https://en.wikipedia.org/wiki/Reflection_(mathematics)
+
+# 참고자료
+https://en.wikipedia.org/wiki/Transformation_matrix
+
+https://www3.ntu.edu.sg/home/ehchua/programming/opengl/CG_BasicsTheory.html
+
+https://math.hws.edu/graphicsbook/c3/s3.html

@@ -270,7 +270,7 @@
           "type": "markdown",
           "state": {
             "file": "computer_science/computer_vision/computer_graphics_transformations.md",
-            "mode": "source"
+            "mode": "preview"
           }
         },
         "pane-relief:history-v1": {
@@ -279,8 +279,8 @@
             {
               "leaf": "f1694a699526ee0f",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_transformations.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":262.82608695652175}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_transformations.md\",\"mode\":\"preview\"}}",
+              "eState": "{\"scroll\":286.7391304347826}"
             }
           ]
         }
