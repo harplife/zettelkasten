@@ -324,7 +324,7 @@ $$
 $$
 
 ## 전단변환
-[전단변환(Shearing)](https://en.wikipedia.org/wiki/Shear_mapping)은 도형을 특정 축 위주로 주어진 전단 인자(Shear Factor) 만큼 기울게 하는 함수이다.
+[전단변환(Shearing)](https://en.wikipedia.org/wiki/Shear_mapping)은 도형을 고정된 방향으로 기울게 하는 함수이다.
 
 https://en.wikipedia.org/wiki/Shear_matrix
 
