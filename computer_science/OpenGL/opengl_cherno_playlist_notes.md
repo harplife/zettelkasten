@@ -140,8 +140,12 @@ Front Buffer가 윈도우에 그려지는 동안, Back Buffer에는 그릴 그�
 `glfwTerminate()`는 GLFW를 종료하는 함수로, 윈도가 닫히며 렌더링 루프가 끝난 후 실행되어야 한다.
 
 ## Using Modern OpenGL in C++
+OpenGL 로딩 라이브러리에 대하여 알아보고, GLEW 라이브러리 활용하는 방법을 알아본다.
 
-
+- 플랫폼(Windows, Mac, Linux)마다 OpenGL 함수들이 정의된 공간이 다르다. 따라서, [OpenGL 로딩 라이브러리](https://www.khronos.org/opengl/wiki/OpenGL_Loading_Library)는 OpenGL 함수들이 정의된 공간에 대한 포인터들을 읽어옴으로서 개발자가 직접 OpenGL 함수들을 찾는 수고를 덜어준다.
+- OpenGL 로딩 라이브러리 중 [GLEW](http://glew.sourceforge.net/)가 있다.
+- Sidenote : I'm going to skip Project Setup part of the video. Refer instead to ![[visual_studio_graphics_setup_w_glfw_n_glad|OpenGL 프로젝트 셋업 2]] for using VCPKG to install GLFW and other libraries.
+- 
 
 ## Vertex Buffers and Drawing a Triangle in OpenGL
 OpenGL로 비디오 버퍼에 데이터를 넣는 방법과 삼각형을 그리는 방법을 본다.
