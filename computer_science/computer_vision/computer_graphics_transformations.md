@@ -147,7 +147,7 @@ T =
 $$
 
 $$
-V^{\prime} = T(d)V = 
+V^{\prime} = TV = 
 \begin{bmatrix}
     1&0&0&d_{x}\\
     0&1&0&d_{y}\\
