@@ -14,8 +14,30 @@ edited: 2022-06-17
 ## Welcome to OpenGL
 OpenGL이 무엇인지 소개한다.
 
+https://youtu.be/W3gAzLwfIP0
+분량 : 16분
+난이도 : 2/10
+코드 포함 : False
+
+- OpenGL is a graphics API.
+- OpenGL is a bunch of functions that we can call to do certain things with graphics.
+- OpenGL allows us to actually access our GPU.
+- OpenGL is just one of many api's that allows us to access the graphics card. There are others, such as Direct3D, Vulcan, and Metal.
+- OpenGL is not a library, an engine, or a framework.
+- OpenGL is a specification. It doesn't define any code, but instead defines what functions are needed, what they should do, what their parameters should be, and what the function should return.
+- You don't download OpenGL. Instead, you download a library that helps with using OpenGL functions.
+- OpenGL is implemented by GPU manufacturer, which means implementation of OpenGL may be different between GPUs.
+- OpenGL is cross-platform. But cross-platform doesn't mean it's best.
+- It's often best to choose the Graphics API specific to the OS. Also, using multiples of Graphics APIs is common.
+- Legacy OpenGL refers to OpenGL where every operations are fixed, and any modifications to the rendering were done by using presets.
+- Modern OpenGL refers to OpenGL where some operations are programmable. A program that controls how GPU renders an image is called a Shader.
+- Shaders work directly on GPU.
+
+
 ## Setting up OpenGL and Creating a Window in C++
 OpenGL 라이브러리를 하나 가져와서 창(윈도) 한 개를 여는 방법을 보여준다.
+
+
 
 ## Using Modern OpenGL in C++
 
