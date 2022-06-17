@@ -38,7 +38,6 @@ https://youtu.be/W3gAzLwfIP0
 OpenGL 라이브러리를 하나 가져와서 창(윈도) 한 개를 여는 방법을 보여준다.
 
 
-
 ## Using Modern OpenGL in C++
 
 ??
