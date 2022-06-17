@@ -28,3 +28,57 @@ OpenGL로 비디오 버퍼에 데이터를 넣는 방법과 삼각형을 그리�
 정점 속성들에 대하여 알아보고, Layout을 통해 어떻게 데이터가 전송되는지 알아본다.
 
 ## How Shaders Work in OpenGL
+셰이더에 대하여 알아본다.
+
+## Writing a Shader in OpenGL
+셰이더를 직접 구현해 본다.
+
+## How I Deal with Shaders in OpenGL
+Cherno가 셰이더를 다루는 방식을 알아본다.
+
+## Index Buffers in OpenGL
+인덱스 버퍼를 사용하여 여러 도형에 대한 데이터를 다루는 방법을 알아본다.
+
+## Dealing with Errors in OpenGL
+OpenGL은 에러를 알려주지 않는다. 그나마 버전 4.1 이후에는 에러를 알려주는 콜백 함수를 사용할 수 있지만, 그 이전 버전은 아예 그런것이 없다. 따라서, ASSERT를 구현하여 OpenGL 함수를 Wrap해주는 방안을 알아본다.
+
+## Uniforms in OpenGL
+셰이더의 입출력 값이 아닌, 단순히 전달되는 값인 Uniform에 대하여 알아본다.
+
+## Vertex Arrays in OpenGL
+
+## Abstracting OpenGL into Classes
+
+## Buffer Layout Abstraction in OpenGL
+
+## Shader Abstraction in OpenGL
+
+## Writing a Basic Renderer in OpenGL
+
+## Textures in OpenGL
+
+## Blending in OpenGL
+
+## Maths in OpenGL
+
+## Projection Matrices in OpenGL
+
+## Model View Projection Matrices in OpenGL
+
+## ImGui in OpenGL
+
+## Rendering Multiple Objects in OpenGL
+
+## Setting up a Test Framework for OpenGL
+
+## Creating Tests in OpenGL
+
+## Creating a Texture Test in OpenGL
+
+## How to make your UNIFORMS FASTER in OpenGL
+
+## Batch Rendering Introduction
+
+## Batch Rendering Color
+
+## Batch Rendering Textures
