@@ -314,7 +314,7 @@
               "leaf": "4e87394d1490ee8e",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/OpenGL/opengl_cherno_playlist_notes.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":144.25}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
             }
           ]
         }
