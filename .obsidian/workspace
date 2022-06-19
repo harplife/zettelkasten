@@ -307,14 +307,36 @@
             {
               "leaf": "4e87394d1490ee8e",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/OpenGL/visual_studio_graphics_setup_w_glfw_n_glad.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/languages/cpp/cpp_cherno_playlist_notes.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":3},\"to\":{\"line\":6,\"ch\":3}}}"
             },
             {
               "leaf": "4e87394d1490ee8e",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/OpenGL/opengl_cherno_playlist_notes.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":13},\"to\":{\"line\":14,\"ch\":0}},\"scroll\":0}"
+            }
+          ]
+        }
+      },
+      {
+        "id": "5ad15cae930edc73",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "computer_science/languages/cpp/cpp_cherno_playlist_notes.md",
+            "mode": "source"
+          }
+        },
+        "pane-relief:history-v1": {
+          "pos": 0,
+          "stack": [
+            {
+              "leaf": "5ad15cae930edc73",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/languages/cpp/cpp_cherno_playlist_notes.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":13},\"to\":{\"line\":19,\"ch\":13}}}"
             }
           ]
         }
@@ -434,7 +456,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer_science/OpenGL/opengl_cherno_playlist_notes.md",
+                "file": "computer_science/languages/cpp/cpp_cherno_playlist_notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -470,7 +492,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer_science/OpenGL/opengl_cherno_playlist_notes.md"
+                "file": "computer_science/languages/cpp/cpp_cherno_playlist_notes.md"
               }
             },
             "pane-relief:history-v1": {
@@ -485,8 +507,9 @@
     "direction": "horizontal",
     "width": 316.5
   },
-  "active": "4e87394d1490ee8e",
+  "active": "5ad15cae930edc73",
   "lastOpenFiles": [
+    "computer_science/languages/cpp/cpp_cherno_playlist_notes.md",
     "computer_science/OpenGL/opengl_cherno_playlist_notes.md",
     "computer_science/OpenGL/visual_studio_graphics_setup_w_glfw_n_glad.md",
     "computer_science/computer_vision/computer_graphics_coordinates.md",
@@ -495,7 +518,6 @@
     "computer_science/computer_vision/computer_graphics_hardware.md",
     "computer_science/computer_vision/computer_graphics_shader.md",
     "computer_science/OpenGL/opengl_draw_2d_simple_triangle.md",
-    "computer_science/OpenGL/visual_studio_graphics_setup_w_freeglut_n_glew.md",
-    "computer_science/computer_vision/computer_graphics_software.md"
+    "computer_science/OpenGL/visual_studio_graphics_setup_w_freeglut_n_glew.md"
   ]
 }
