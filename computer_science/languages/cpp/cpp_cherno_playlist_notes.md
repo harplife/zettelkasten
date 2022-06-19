@@ -16,10 +16,18 @@ C++이 무엇인지 소개한다.
 
 https://youtu.be/18c3MTX0PK0
 분량 : 7분
-난이도 : 2/10
+난이도 : 1/10
 코드 포함 : False
 
 - C++ is best for building fast and high performance programs
 - C++ is best for building programs that interact with hardware(s)
 - C++ is from early 80s
-- 
+
+## How to Setup C++ on Windows
+C++ 개발환경을 윈도우에 구축하는 방법을 알아본다.
+
+https://youtu.be/1OsGXuNA5cc
+분량 : 8분
+난이도 : 2/10
+코드 포함 : False
+
