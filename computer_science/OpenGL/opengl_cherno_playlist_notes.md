@@ -147,10 +147,11 @@ https://youtu.be/H2E3yO0J7TM
 난이도 : 3/10
 코드 포함 : True
 
-- 플랫폼(Windows, Mac, Linux)마다 OpenGL 함수들이 정의된 공간이 다르다. 따라서, [OpenGL 로딩 라이브러리](https://www.khronos.org/opengl/wiki/OpenGL_Loading_Library)는 OpenGL 함수들이 정의된 공간에 대한 포인터들을 읽어옴으로서 개발자가 직접 OpenGL 함수들을 찾는 수고를 덜어준다.
+- 플랫폼(Windows, Mac, Linux)마다 OpenGL 함수들이 정의된 공간이 다르다 (GPU 드라이버 DLL 파일 안에 있다). 따라서, [OpenGL 로딩 라이브러리](https://www.khronos.org/opengl/wiki/OpenGL_Loading_Library)는 OpenGL 함수들에 대한 포인터들을 읽어옴으로서 개발자가 직접 OpenGL 함수들을 찾는 수고를 덜어준다.
 - OpenGL 로딩 라이브러리 중 [GLEW](http://glew.sourceforge.net/)가 있다.
 - Sidenote : I'm going to skip Project Setup part of the video. Refer instead to ![[visual_studio_graphics_setup_w_glfw_n_glad|OpenGL 프로젝트 셋업 2]] for using VCPKG to install GLFW and other libraries.
-- 
+- Sidenote : vcpkg 사용하지 않고 직접 라이브러리를 연결하려면, 이 [가이드 영상](https://youtu.be/or1dAmUO8k0)을 참고.
+- GLEW 헤더를 include는 다른 OpenGL 라이브러리(예: GLFW)보다 우선적으로 선언되어야 한다.
 
 [코드](https://github.com/harplife/thecherno_opengl/blob/linux/ep03-modern-opengl/src/main.cpp)
 
