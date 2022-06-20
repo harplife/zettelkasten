@@ -17,7 +17,6 @@ OpenGL이 무엇인지 소개한다.
 https://youtu.be/W3gAzLwfIP0
 분량 : 16분
 난이도 : 2/10
-코드 포함 : False
 
 - OpenGL is a graphics API.
 - OpenGL is a bunch of functions that we can call to do certain things with graphics.
@@ -33,14 +32,13 @@ https://youtu.be/W3gAzLwfIP0
 - Modern OpenGL refers to OpenGL where some operations are programmable. A program that controls how GPU renders an image is called a Shader.
 - Shaders work directly on GPU.
 
-
 ## Setting up OpenGL and Creating a Window in C++
 OpenGL 라이브러리를 하나 가져와서 창(윈도) 한 개를 여는 방법을 보여준다.
 
 https://youtu.be/OR4fNpBjmq8
 분량 : 22분
 난이도 : 3/10
-코드 포함 : True
+코드 : [github](https://github.com/harplife/thecherno_opengl/blob/linux/ep02-window/main.cpp)
 
 - Managing a Window is generally done by using OS Window API. For example, Windows has [Win32](https://en.wikipedia.org/wiki/Windows_API) and Mac has [Cocoa](https://en.wikipedia.org/wiki/Cocoa_(API)).
 
@@ -54,7 +52,7 @@ https://youtu.be/OR4fNpBjmq8
 
 - Go to [GLFW Documentation](https://www.glfw.org/documentation.html) and copy&paste the example code.
 
-밑에서 부터는 실제로 [코드](https://github.com/harplife/thecherno_opengl/blob/linux/ep02-window/main.cpp)를 구현하는 부분이다.
+밑에서 부터는 실제로 코드를 구현하는 부분이다.
 
 ### GLFW 헤더 추가
 `#include <GLFW/glfw3.h>`
@@ -145,7 +143,7 @@ OpenGL 로딩 라이브러리에 대하여 알아보고, GLEW 라이브러리 �
 https://youtu.be/H2E3yO0J7TM
 분량 : 18분
 난이도 : 3/10
-코드 포함 : True
+코드 : [github](https://github.com/harplife/thecherno_opengl/blob/linux/ep03-modern-opengl/src/main.cpp)
 
 - 플랫폼(Windows, Mac, Linux)마다 OpenGL 함수들이 정의된 공간이 다르다 (GPU 드라이버 DLL 파일 안에 있다). 따라서, [OpenGL 로딩 라이브러리](https://www.khronos.org/opengl/wiki/OpenGL_Loading_Library)는 OpenGL 함수들에 대한 포인터들을 읽어옴으로서 개발자가 직접 OpenGL 함수들을 찾는 수고를 덜어준다.
 - OpenGL 로딩 라이브러리는 Modern OpenGL을 사용할 수 있게 해준다.
@@ -155,20 +153,55 @@ https://youtu.be/H2E3yO0J7TM
 - GLEW 헤더를 include는 다른 OpenGL 라이브러리(예: GLFW)보다 우선적으로 선언되어야 한다.
 - `glewInit()`으로 GLEW 라이브러리를 초기화 하려면, 우선 OpenGL Context가 생성되어야 한다.
 
-[코드](https://github.com/harplife/thecherno_opengl/blob/linux/ep03-modern-opengl/src/main.cpp)
-
 ## Vertex Buffers and Drawing a Triangle in OpenGL
 OpenGL로 비디오 버퍼에 데이터를 넣는 방법과 삼각형을 그리는 방법을 본다.
 
 https://youtu.be/0p9VxImr7Y0
 분량 : 20분
 난이도 : 3/10
-코드 포함 : True
+코드 : [github](https://github.com/harplife/thecherno_opengl/blob/linux/ep04-vertex-buffers/src/main.cpp)
 
 - A buffer refers to an array of memory in VRAM(Video RAM)
 - OpenGL operates as a State Machine. State Machine refers to an abstract device which  can be in one of defined states, depending on its previous condition and the present values of its inputs. In layman's terms, it has stages where it needs to advance in order to do a certain task.
-- 
+- Vertex Buffer is often dealt alongside to an Index Buffer, which will be covered later.
 
+### Generate a buffer
+```cpp
+unsigned int buffer;
+glGenBuffers(1, &buffer);
+```
+
+- First argument specifies how many buffers to generate.
+- Everything that is assigned with OpenGL gets an ID(Identifier), including a buffer. An ID is always an unsigned integer.
+- `glGenBuffers()` does not return an ID for the buffer. Instead, it takes the second argument, which is an unsigned int, and writes into its memory the ID of the buffer (that's why it takes a pointer).
+
+### Binding the buffer
+```cpp
+glBindBuffer(GL_ARRAY_BUFFER, buffer);
+```
+
+- `glBindBuffer()` puts a buffer in a ready state.
+- First argument specifies the purpose of the buffer.
+- `GL_ARRAY_BUFFER` is an OpenGL constant that says the buffer is just an array of memory.
+- The second argument takes the ID of the buffer that gets bind.
+
+### Put data in the buffer
+```cpp
+// a traingle with 3 vertices, in xy plane
+float positions[6] = {
+    -0.5f, -0.5f,
+     0.5f, -0.5f,
+     0.0f,  0.5f
+};
+
+glBufferData(GL_ARRAY_BUFFER, sizeof(float)*6, positions, GL_STATIC_DRAW);
+```
+
+- First argument specifies the purpose of the buffer (again?).
+- Second argument specifies the size of the data array. The size is in bytes (read the [docs](https://docs.gl/gl4/glBufferData).
+- Third argument takes in the data.
+- Fourth argument specifies the "usage" of the buffer. The frequency of access may be specified with **STREAM/STATIC/DYNAMIC**, and the nature of access may be specified with **DRAW/READ/COPY**.
+- The "usage" is a HINT that is passed to GPU for any possible optimization. It may or may not affect the performance.
 
 ## Vertex Attributes and Layouts in OpenGL
 정점 속성들에 대하여 알아보고, Layout을 통해 어떻게 데이터가 전송되는지 알아본다.
