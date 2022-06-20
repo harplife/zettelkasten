@@ -36,7 +36,8 @@
     "Wireframe",
     "shader",
     "Rasterization",
-    "freeGLUT"
+    "freeGLUT",
+    "Cherno"
   ],
   "legacyEditor": true,
   "livePreview": true,
