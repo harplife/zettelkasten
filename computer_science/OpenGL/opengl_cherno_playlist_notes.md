@@ -160,6 +160,16 @@ https://youtu.be/H2E3yO0J7TM
 ## Vertex Buffers and Drawing a Triangle in OpenGL
 OpenGL로 비디오 버퍼에 데이터를 넣는 방법과 삼각형을 그리는 방법을 본다.
 
+https://youtu.be/0p9VxImr7Y0
+분량 : 20분
+난이도 : 3/10
+코드 포함 : True
+
+- A buffer refers to an array of memory in VRAM(Video RAM)
+- OpenGL operates as a State Machine. State Machine refers to an abstract device which  can be in one of defined states, depending on its previous condition and the present values of its inputs. In layman's terms, it has stages where it needs to advance in order to do a certain task.
+- 
+
+
 ## Vertex Attributes and Layouts in OpenGL
 정점 속성들에 대하여 알아보고, Layout을 통해 어떻게 데이터가 전송되는지 알아본다.
 
