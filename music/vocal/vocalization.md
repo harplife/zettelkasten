@@ -14,21 +14,8 @@ https://en.wikipedia.org/wiki/Vocal_pedagogy
 ## 복식호흡
 [복식호흡(Diaphragmatic Breathing)](https://en.wikipedia.org/wiki/Diaphragmatic_breathing)
 
-## 발성의 종류
-참고: [발성의 종류 - 네이버 블로그 글](https://m.blog.naver.com/pbsangel78/220794099502)
-
+## 성구
 [성구(Vocal Register)](https://en.wikipedia.org/wiki/Vocal_register)는 성대가 특정한 방식으로 진동하며 내는 음조(Tone)의 범위를 뜻한다. 쉽게 이해하면, 성구는 **발성의 종류** 또는 **발성법**이라고 볼 수 있다.
-
-- 보컬 프라이(Vocal Fry)
-- 진성(Modal Voice)
-- 가성(Falsetto)
-- Whistle Register
-
-- 흉성
-- 두성
-- 비성
-
-발성은 일반적으로 진성, 가성, 흉성, 비성, 두성, 중성으로 분류된다.
 
 ### 보컬 프라이
 [보컬 프라이(Vocal Fry)](https://en.wikipedia.org/wiki/Vocal_fry_register)는 50Hz 이하에서 발생하는 소리로, 목이 좁고 성대접촉은 과한데 호흡압력이 약한 비정상적인 소리이다.
@@ -68,13 +55,19 @@ https://en.wikipedia.org/wiki/Vocal_pedagogy
 
 주의 : 고음을 낼때 가성을 피하라는 조언을 받아들이면 안 된다. 가성을 안 낼수가 없으며, 진성으로만 고음을 내려하면 성대가 다칠수 있다.
 
-### 비성
+## 성구전환
+하나의 성구로 저음, 중음, 고음 모두 낼 수가 없다. 저음에서 고음까지 발성하는 데 있어 여러 성구를 사용해야 한다. 성구에서 성구로 이어지게 하는 것을 [성구전환(Vocal Register Transition/Passaggio)](https://en.wikipedia.org/wiki/Passaggio)이라고 한다. 그리고, 성구전환이 되는 특정 음(Frequency)들이 있는데, 이 음들은 남성/여성에 따라 다르다.
 
-
-### 성구전환
-[성구전환(Vocal Register Transition/Passaggio)](https://en.wikipedia.org/wiki/Passaggio)
-
+### 남성 성구전환
 [남성 성구전환](https://en.wikipedia.org/wiki/Passaggio#Male_voices)
+
+1. Strohbass – F2 to C3
+2. Chest – C3 to G3
+3. Middle (or mixed) – G3 to G4
+4. Lower Middle – G3 to D4
+5. Upper Middle – D4 to G4
+6. Head – G4 to C5
+7. Falsetto – C5 to G5
 
 https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=bizmlab&logNo=220606986445
 
