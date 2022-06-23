@@ -17,7 +17,7 @@ https://en.wikipedia.org/wiki/Vocal_pedagogy
 ## 발성의 종류
 참고: [발성의 종류 - 네이버 블로그 글](https://m.blog.naver.com/pbsangel78/220794099502)
 
-[성구(Vocal Register)](https://en.wikipedia.org/wiki/Vocal_register)는 성대가 특정한 방식으로 진동하며 내는 음조(Tone)의 범위를 뜻한다. 쉽게 이해하면, 성구는 **발성의 종류**라고 볼 수 있다.
+[성구(Vocal Register)](https://en.wikipedia.org/wiki/Vocal_register)는 성대가 특정한 방식으로 진동하며 내는 음조(Tone)의 범위를 뜻한다. 쉽게 이해하면, 성구는 **발성의 종류** 또는 **발성법**이라고 볼 수 있다.
 
 - 보컬 프라이(Vocal Fry)
 - 진성(Modal Voice)
@@ -37,8 +37,15 @@ https://en.wikipedia.org/wiki/Vocal_pedagogy
 
 보컬 프라이는 일반적인 가창에 사용하는 경우는 드물다. 주로 저음을 내는 서브하모닉스 창법, 또는 스크리밍 창법에 사용된다.
 
+보컬 프라이는 미국 여성들이 사용하기도 한다.
+
 ### 흉성
-흉부(Chest)를 사용해서 
+[흉성(Chest Voice)](https://en.wikipedia.org/wiki/Chest_voice)은 성대의 전체 부분이 닿으며 내는 발성이다. 목소리가 흉부(Chest)에서부터 나오는 느낌이 나기 때문에 흉성이라 부르지만, 실제로 가슴에서 소리가 나오는 것은 아니다.
+
+흉성은 가창에 많이 사용된다.
+
+### 두성
+[두성(Head Voice)](https://en.wikipedia.org/wiki/Head_voice)은 성대의 상면 부분이 닿으며 내는 발성이다. 목소리가 마치 머리에서부터 나오는 느낌이 나기 때문에 두성이라 부르지만, 실제로 머리에서 소리가 나오는 것은 아니다.
 
 ### 진성과 가성
 [진성(Modal Voice)](https://en.wikipedia.org/wiki/Modal_voice) 은 발성의 과정에서 성대가 완전히 붙었다가 떨어지는 과정을 거치는 일반적인 소리이다.
