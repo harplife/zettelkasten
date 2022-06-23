@@ -410,7 +410,7 @@
               "leaf": "7bc7efa0ff4f03de",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"music/vocal/vocalization.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":10},\"to\":{\"line\":2,\"ch\":30}},\"scroll\":0}"
+              "eState": "{\"scroll\":8.380952380952381}"
             }
           ]
         }
