@@ -9,6 +9,8 @@ edited: 2022-06-23
 # 발성
 [발성(Vocalization)](https://namu.wiki/w/발성(음악))은 성대를 이용하여 소리를 내는 행위를 뜻한다.
 
+https://en.wikipedia.org/wiki/Vocal_pedagogy
+
 ## 복식호흡
 [복식호흡(Diaphragmatic Breathing)](https://en.wikipedia.org/wiki/Diaphragmatic_breathing)
 
@@ -17,7 +19,7 @@ edited: 2022-06-23
 
 [성구(Vocal Register)](https://en.wikipedia.org/wiki/Vocal_register)는 성대가 특정한 방식으로 진동하며 내는 음조(Tone)의 범위를 뜻한다. 쉽게 이해하면, 성구는 **발성의 종류**라고 볼 수 있다.
 
-- Vocal Fry
+- 보컬 프라이(Vocal Fry)
 - 진성(Modal Voice)
 - 가성(Falsetto)
 - Whistle Register
@@ -27,6 +29,16 @@ edited: 2022-06-23
 - 비성
 
 발성은 일반적으로 진성, 가성, 흉성, 비성, 두성, 중성으로 분류된다.
+
+### 보컬 프라이
+보컬 프라이(Vocal Fry)는 50Hz 이하에서 발생하는 소리로, 목이 좁고 성대접촉은 과한데 호흡압력이 약한 비정상적인 소리이다.
+
+보컬 프라이는 영화 주온에 나오는 귀신 소리, 즉, 마치 튀기는 듯한 목소리를 내는 발성이다.
+
+보컬 프라이는 일반적인 가창에 사용하는 경우는 드물다. 주로 저음을 내는 서브하모닉스 창법, 또는 스크리밍 창법에 사용된다.
+
+### 흉성
+흉부(Chest)를 사용해서 
 
 ### 진성과 가성
 [진성(Modal Voice)](https://en.wikipedia.org/wiki/Modal_voice) 은 발성의 과정에서 성대가 완전히 붙었다가 떨어지는 과정을 거치는 일반적인 소리이다.
