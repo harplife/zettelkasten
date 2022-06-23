@@ -252,7 +252,7 @@
               "leaf": "4166d5a6a83cf0fe",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/OpenGL/opengl_draw_2d_transform.md\",\"mode\":\"preview\"}}",
-              "eState": "{\"scroll\":57.371428571428574}"
+              "eState": "{}"
             },
             {
               "leaf": "4166d5a6a83cf0fe",
@@ -286,7 +286,7 @@
               "leaf": "f1694a699526ee0f",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_transformations.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":321.1304347826087}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":3},\"to\":{\"line\":10,\"ch\":3}}}"
             }
           ]
         }
@@ -314,7 +314,7 @@
               "leaf": "4e87394d1490ee8e",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/OpenGL/opengl_cherno_playlist_notes.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":207,\"ch\":0},\"to\":{\"line\":207,\"ch\":0}},\"scroll\":196.5}"
             }
           ]
         }
@@ -336,7 +336,7 @@
               "leaf": "5ad15cae930edc73",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/languages/cpp/cpp_cherno_playlist_notes.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":8},\"to\":{\"line\":8,\"ch\":8}}}"
+              "eState": "{\"scroll\":9.478260869565217}"
             }
           ]
         }
@@ -357,14 +357,14 @@
             {
               "leaf": "55b7c2e1058af1b9",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_transformations.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":null}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"music/vocal/vocalization.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
             },
             {
               "leaf": "55b7c2e1058af1b9",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_coordinates.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":9},\"to\":{\"line\":0,\"ch\":0}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":99},\"to\":{\"line\":10,\"ch\":99}}}"
             },
             {
               "leaf": "55b7c2e1058af1b9",
@@ -389,6 +389,28 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/OpenGL/opengl_draw_2d_simple_triangle.md\",\"mode\":\"source\"}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":39},\"to\":{\"line\":11,\"ch\":39}},\"scroll\":0}"
+            }
+          ]
+        }
+      },
+      {
+        "id": "7bc7efa0ff4f03de",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "music/vocal/vocalization.md",
+            "mode": "source"
+          }
+        },
+        "pane-relief:history-v1": {
+          "pos": 0,
+          "stack": [
+            {
+              "leaf": "7bc7efa0ff4f03de",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"music/vocal/vocalization.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":10},\"to\":{\"line\":2,\"ch\":30}},\"scroll\":0}"
             }
           ]
         }
@@ -456,7 +478,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer_science/OpenGL/opengl_cherno_playlist_notes.md",
+                "file": "music/vocal/vocalization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -492,7 +514,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer_science/OpenGL/opengl_cherno_playlist_notes.md"
+                "file": "music/vocal/vocalization.md"
               }
             },
             "pane-relief:history-v1": {
@@ -507,17 +529,17 @@
     "direction": "horizontal",
     "width": 316.5
   },
-  "active": "4e87394d1490ee8e",
+  "active": "7bc7efa0ff4f03de",
   "lastOpenFiles": [
-    "computer_science/OpenGL/opengl_cherno_playlist_notes.md",
-    "computer_science/languages/cpp/cpp_cherno_playlist_notes.md",
-    "computer_science/OpenGL/visual_studio_graphics_setup_w_glfw_n_glad.md",
+    "music/vocal/vocalization.md",
     "computer_science/computer_vision/computer_graphics_coordinates.md",
+    "computer_science/OpenGL/opengl_cherno_playlist_notes.md",
     "computer_science/computer_vision/computer_graphics_transformations.md",
     "computer_science/OpenGL/opengl_draw_2d_transform.md",
+    "computer_science/languages/cpp/cpp_cherno_playlist_notes.md",
+    "computer_science/OpenGL/visual_studio_graphics_setup_w_glfw_n_glad.md",
     "computer_science/computer_vision/computer_graphics_hardware.md",
     "computer_science/computer_vision/computer_graphics_shader.md",
-    "computer_science/OpenGL/opengl_draw_2d_simple_triangle.md",
-    "computer_science/OpenGL/visual_studio_graphics_setup_w_freeglut_n_glew.md"
+    "computer_science/OpenGL/opengl_draw_2d_simple_triangle.md"
   ]
 }
