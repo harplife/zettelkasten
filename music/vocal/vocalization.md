@@ -168,4 +168,9 @@ https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=bizmlab&logN
 [연구개, 경구개 활용하는 방법](https://singpraise.tistory.com/539)
 - [연구개(Soft Palate)](https://en.wikipedia.org/wiki/Soft_palate), [경구개(Hard Palate)](https://en.wikipedia.org/wiki/Hard_palate)
 - [유부트 영상 참고](https://www.youtube.com/watch?v=ZUjTklM5xIU)
-- 
+
+
+https://m.blog.naver.com/deepseadeer/220963937427
+
+
+https://m.blog.naver.com/deepseadeer/220955847235
