@@ -140,3 +140,7 @@ https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=bizmlab&logN
 한 음 끊임없이 부르기
 - 2022년 6월 22일 20초 달성
 - 2220년 6월 23일 26초 달성
+
+### 참고자료
+- https://m.blog.naver.com/odyssey527/221701097216
+- 

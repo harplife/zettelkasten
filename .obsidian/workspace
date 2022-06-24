@@ -336,7 +336,7 @@
               "leaf": "5ad15cae930edc73",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/languages/cpp/cpp_cherno_playlist_notes.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":9.478260869565217}"
+              "eState": "{}"
             }
           ]
         }
@@ -364,7 +364,7 @@
               "leaf": "55b7c2e1058af1b9",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_coordinates.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":99},\"to\":{\"line\":10,\"ch\":99}}}"
+              "eState": "{\"scroll\":54.69565217391305}"
             },
             {
               "leaf": "55b7c2e1058af1b9",
@@ -410,7 +410,7 @@
               "leaf": "7bc7efa0ff4f03de",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"music/vocal/vocalization.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+              "eState": "{\"scroll\":124.92307692307692}"
             }
           ]
         }
@@ -533,10 +533,10 @@
   "lastOpenFiles": [
     "music/vocal/vocalization.md",
     "computer_science/computer_vision/computer_graphics_coordinates.md",
+    "computer_science/languages/cpp/cpp_cherno_playlist_notes.md",
     "computer_science/OpenGL/opengl_cherno_playlist_notes.md",
     "computer_science/computer_vision/computer_graphics_transformations.md",
     "computer_science/OpenGL/opengl_draw_2d_transform.md",
-    "computer_science/languages/cpp/cpp_cherno_playlist_notes.md",
     "computer_science/OpenGL/visual_studio_graphics_setup_w_glfw_n_glad.md",
     "computer_science/computer_vision/computer_graphics_hardware.md",
     "computer_science/computer_vision/computer_graphics_shader.md",
