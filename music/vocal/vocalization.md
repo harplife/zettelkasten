@@ -142,5 +142,11 @@ https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=bizmlab&logN
 - 2220년 6월 23일 26초 달성
 
 ### 참고자료
-- https://m.blog.naver.com/odyssey527/221701097216
-- 
+[가성과 두성의 차이 구분하는 방법](https://m.blog.naver.com/odyssey527/221701097216)
+- N으로 시작하는 발음들은 후두를 상승시키지만 접촉력을 길러 성대 가장자리(엣지보이스) 소리를 연습하기에 좋은 발음이다.
+- G로 시작하는 발음들은 연구개(Soft Palate) 쪽에서 나게 되며 공명을 통해 성대가 잘 폐쇄되도록 도와주는 발음이다.
+- Mum 발음은 두성을 강조해주는 비음을 받침에도 사용해서 저음에서 고음까지 자연스러운 성구 전환을 도와줄 수 있으며 강하게 소리를 만드는데 도움이 된다.
+
+[두성하는 방법](http://vocalstar.co.kr/?p=1827)
+
+[연구개, 경구개 활용하는 방법](https://singpraise.tistory.com/539)
