@@ -11,6 +11,10 @@ edited: 2022-06-23
 
 https://en.wikipedia.org/wiki/Vocal_pedagogy
 
+https://voicefoundation.org/health-science/voice-disorders/anatomy-physiology-of-voice-production/the-voice-mechanism/
+![[three_voice_subsystems.PNG]]
+
+
 ## 복식호흡
 [복식호흡(Diaphragmatic Breathing)](https://en.wikipedia.org/wiki/Diaphragmatic_breathing)
 
@@ -148,5 +152,17 @@ https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=bizmlab&logN
 - Mum 발음은 두성을 강조해주는 비음을 받침에도 사용해서 저음에서 고음까지 자연스러운 성구 전환을 도와줄 수 있으며 강하게 소리를 만드는데 도움이 된다.
 
 [두성하는 방법](http://vocalstar.co.kr/?p=1827)
+- 성구전환(파사지오)가 되는 부분을 잘 파악하고 있어야 함.
+- 가성을 연습해야함.
+- 성대 클로징 연습을 해야함 ([영상 참고](https://youtu.be/lJeS0Wv7uqk)). 성대가 닫혀야 고음이 나옴.
+- 핫, 헛, 앗과 같은 짧게 스타카토 되는 소리를 낼때 성대가 닫힌 상태에서 압력을 조절할 수 있는 방식의 연습을 클로징 스타카토 트레이닝이라고 함.
+- 여러 음에서 클로징 스타카토 트레이닝을 해보고, 성구전환 부분에서도 해야 함.
+- 성구전환 부분 클로징 스타카토 트레이닝이 익숙해지면, 슬러(아~아)하면서 성구전환을 하는 연습을 해야 함.
+- 스케일 트레이닝은 스케일보다는 파사지오를 연습하는데 더 큰 의미가 있음.
+- 노래의 각 단어씩 클로징 방식으로 부르는 연습을 해야함.
+- 노래의 클라이막스(고음역이 나오는 부분)에 클로징 방식으로 부르는 연습을 해야함.
+- 노래의 한 절을 클로징 방식으로 부르는 연습을 해야함.
+- 옥타브 씩 점프해서 연습해봐야 함.
+- 결론: 성대가 닫히는 느낌을 잘 찾아봐야 함.
 
 [연구개, 경구개 활용하는 방법](https://singpraise.tistory.com/539)
