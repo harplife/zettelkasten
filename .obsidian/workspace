@@ -472,7 +472,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "obsidian",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
