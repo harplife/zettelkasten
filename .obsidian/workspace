@@ -404,13 +404,41 @@
           }
         },
         "pane-relief:history-v1": {
-          "pos": 0,
+          "pos": 1,
           "stack": [
             {
               "leaf": "7bc7efa0ff4f03de",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"muay_thai/learning_muay_thai.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "7bc7efa0ff4f03de",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"music/vocal/vocalization.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":124.92307692307692}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":72},\"to\":{\"line\":9,\"ch\":72}}}"
+            }
+          ]
+        }
+      },
+      {
+        "id": "0414f6ab570a55a8",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "muay_thai/learning_muay_thai.md",
+            "mode": "source"
+          }
+        },
+        "pane-relief:history-v1": {
+          "pos": 0,
+          "stack": [
+            {
+              "leaf": "0414f6ab570a55a8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"muay_thai/learning_muay_thai.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":23},\"to\":{\"line\":13,\"ch\":23}}}"
             }
           ]
         }
@@ -478,7 +506,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "music/vocal/vocalization.md",
+                "file": "muay_thai/learning_muay_thai.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -514,7 +542,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "music/vocal/vocalization.md"
+                "file": "muay_thai/learning_muay_thai.md"
               }
             },
             "pane-relief:history-v1": {
@@ -529,8 +557,9 @@
     "direction": "horizontal",
     "width": 316.5
   },
-  "active": "7bc7efa0ff4f03de",
+  "active": "0414f6ab570a55a8",
   "lastOpenFiles": [
+    "muay_thai/learning_muay_thai.md",
     "music/vocal/vocalization.md",
     "computer_science/computer_vision/computer_graphics_coordinates.md",
     "computer_science/languages/cpp/cpp_cherno_playlist_notes.md",
@@ -539,7 +568,6 @@
     "computer_science/OpenGL/opengl_draw_2d_transform.md",
     "computer_science/OpenGL/visual_studio_graphics_setup_w_glfw_n_glad.md",
     "computer_science/computer_vision/computer_graphics_hardware.md",
-    "computer_science/computer_vision/computer_graphics_shader.md",
-    "computer_science/OpenGL/opengl_draw_2d_simple_triangle.md"
+    "computer_science/computer_vision/computer_graphics_shader.md"
   ]
 }
