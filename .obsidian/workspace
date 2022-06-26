@@ -438,7 +438,7 @@
               "leaf": "0414f6ab570a55a8",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"muay_thai/learning_muay_thai.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+              "eState": "{}"
             }
           ]
         }
@@ -472,7 +472,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "obsidian",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -560,14 +560,14 @@
   "active": "0414f6ab570a55a8",
   "lastOpenFiles": [
     "muay_thai/learning_muay_thai.md",
-    "music/vocal/vocalization.md",
-    "computer_science/computer_vision/computer_graphics_coordinates.md",
-    "computer_science/languages/cpp/cpp_cherno_playlist_notes.md",
-    "computer_science/OpenGL/opengl_cherno_playlist_notes.md",
-    "computer_science/computer_vision/computer_graphics_transformations.md",
-    "computer_science/OpenGL/opengl_draw_2d_transform.md",
-    "computer_science/OpenGL/visual_studio_graphics_setup_w_glfw_n_glad.md",
-    "computer_science/computer_vision/computer_graphics_hardware.md",
-    "computer_science/computer_vision/computer_graphics_shader.md"
+    "zettelkasten/zettlekasten_fleeting_notes.md",
+    "README.md",
+    "zettelkasten/zettelkasten_templates.md",
+    "zettelkasten/zettelkasten_reference_notes.md",
+    "zettelkasten/zettelkasten_principles.md",
+    "zettelkasten/zettelkasten_permanent_notes.md",
+    "zettelkasten/zettelkasten_note_types.md",
+    "zettelkasten/zettelkasten_meaning.md",
+    "zettelkasten/zettelkasten_literature_notes.md"
   ]
 }
