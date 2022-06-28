@@ -18,6 +18,17 @@ https://voicefoundation.org/health-science/voice-disorders/anatomy-physiology-of
 ## 복식호흡
 [복식호흡(Diaphragmatic Breathing)](https://en.wikipedia.org/wiki/Diaphragmatic_breathing)
 
+가슴을 안 올리는 습관을 들이기는 힘들다. 오히려 가슴에 너무 신경씀으로 호흡이 불안정한 느낌이 든다.
+
+나에게 자연스럽게 느껴지는 복식호흡은,
+1. 갈비뼈 부분을 열어주고
+2. 배, 허리 전체를 채워주고
+3. 갈비뼈 부분을 좁혀주며 배도 같이 좁혀준다.
+
+머리 안에 그리는 그림은 밑에와 같다.
+
+
+
 ## 성구
 [성구(Vocal Register)](https://en.wikipedia.org/wiki/Vocal_register)는 성대가 특정한 방식으로 진동하며 내는 음조(Tone)의 범위를 뜻한다. 쉽게 이해하면, 성구는 **발성의 종류** 또는 **발성법**이라고 볼 수 있다.
 
