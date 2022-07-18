@@ -336,7 +336,7 @@
               "leaf": "5ad15cae930edc73",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/languages/cpp/cpp_cherno_playlist_notes.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":33},\"to\":{\"line\":21,\"ch\":33}}}"
             }
           ]
         }
@@ -364,7 +364,7 @@
               "leaf": "55b7c2e1058af1b9",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_coordinates.md\",\"mode\":\"source\"}}",
-              "eState": "{}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}}}"
             },
             {
               "leaf": "55b7c2e1058af1b9",
@@ -416,7 +416,7 @@
               "leaf": "7bc7efa0ff4f03de",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"music/vocal/vocalization.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":228,\"ch\":181},\"to\":{\"line\":228,\"ch\":181}},\"scroll\":215.7826086956523}"
+              "eState": "{}"
             }
           ]
         }
@@ -506,7 +506,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer_science/languages/cpp/cpp_cherno_playlist_notes.md",
+                "file": "music/vocal/vocalization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -542,7 +542,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer_science/languages/cpp/cpp_cherno_playlist_notes.md"
+                "file": "music/vocal/vocalization.md"
               }
             },
             "pane-relief:history-v1": {
@@ -557,12 +557,12 @@
     "direction": "horizontal",
     "width": 316.5
   },
-  "active": "5ad15cae930edc73",
+  "active": "7bc7efa0ff4f03de",
   "lastOpenFiles": [
-    "computer_science/languages/cpp/cpp_cherno_playlist_notes.md",
-    "computer_science/OpenGL/opengl_cherno_playlist_notes.md",
-    "computer_science/computer_vision/computer_graphics_coordinates.md",
     "music/vocal/vocalization.md",
+    "computer_science/languages/cpp/cpp_cherno_playlist_notes.md",
+    "computer_science/computer_vision/computer_graphics_coordinates.md",
+    "computer_science/OpenGL/opengl_cherno_playlist_notes.md",
     "muay_thai/learning_muay_thai.md",
     "zettelkasten/zettlekasten_fleeting_notes.md",
     "README.md",
