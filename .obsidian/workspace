@@ -416,7 +416,7 @@
               "leaf": "7bc7efa0ff4f03de",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"music/vocal/vocalization.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":270,\"ch\":33},\"to\":{\"line\":270,\"ch\":33}},\"scroll\":256.4347826086956}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":262,\"ch\":1},\"to\":{\"line\":262,\"ch\":1}},\"scroll\":256.4347826086956}"
             }
           ]
         }
@@ -438,7 +438,35 @@
               "leaf": "0414f6ab570a55a8",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"muay_thai/learning_muay_thai.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":4.304347826086957}"
+              "eState": "{\"scroll\":212.1818181818182}"
+            }
+          ]
+        }
+      },
+      {
+        "id": "dd87b955dd1e0ffb",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "KNOU/2022년_2학기_방통대_컴퓨터과학과_계획.md",
+            "mode": "source"
+          }
+        },
+        "pane-relief:history-v1": {
+          "pos": 0,
+          "stack": [
+            {
+              "leaf": "dd87b955dd1e0ffb",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"KNOU/2022년_2학기_방통대_컴퓨터과학과_계획.md\",\"mode\":\"source\"}}",
+              "eState": "{\"scroll\":14.304347826086957}"
+            },
+            {
+              "leaf": "dd87b955dd1e0ffb",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"KNOU/2022년_1학기_방통대_컴퓨터과학과_계획.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":68,\"ch\":0},\"to\":{\"line\":60,\"ch\":0}},\"scroll\":47.47826086956522}"
             }
           ]
         }
@@ -506,7 +534,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "muay_thai/learning_muay_thai.md",
+                "file": "KNOU/2022년_2학기_방통대_컴퓨터과학과_계획.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -542,7 +570,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "muay_thai/learning_muay_thai.md"
+                "file": "KNOU/2022년_2학기_방통대_컴퓨터과학과_계획.md"
               }
             },
             "pane-relief:history-v1": {
@@ -557,8 +585,10 @@
     "direction": "horizontal",
     "width": 316.5
   },
-  "active": "0414f6ab570a55a8",
+  "active": "dd87b955dd1e0ffb",
   "lastOpenFiles": [
+    "KNOU/2022년_2학기_방통대_컴퓨터과학과_계획.md",
+    "KNOU/2022년_1학기_방통대_컴퓨터과학과_계획.md",
     "muay_thai/learning_muay_thai.md",
     "music/vocal/vocalization.md",
     "computer_science/computer_vision/computer_graphics_coordinates.md",
@@ -566,8 +596,6 @@
     "computer_science/OpenGL/opengl_cherno_playlist_notes.md",
     "zettelkasten/zettlekasten_fleeting_notes.md",
     "README.md",
-    "zettelkasten/zettelkasten_templates.md",
-    "zettelkasten/zettelkasten_reference_notes.md",
-    "zettelkasten/zettelkasten_principles.md"
+    "zettelkasten/zettelkasten_templates.md"
   ]
 }
