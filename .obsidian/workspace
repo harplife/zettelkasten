@@ -364,7 +364,7 @@
               "leaf": "55b7c2e1058af1b9",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_coordinates.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}}}"
+              "eState": "{}"
             },
             {
               "leaf": "55b7c2e1058af1b9",
@@ -416,7 +416,7 @@
               "leaf": "7bc7efa0ff4f03de",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"music/vocal/vocalization.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":238,\"ch\":26},\"to\":{\"line\":238,\"ch\":26}},\"scroll\":228.02173913043478}"
             }
           ]
         }
@@ -560,8 +560,8 @@
   "active": "7bc7efa0ff4f03de",
   "lastOpenFiles": [
     "music/vocal/vocalization.md",
-    "computer_science/languages/cpp/cpp_cherno_playlist_notes.md",
     "computer_science/computer_vision/computer_graphics_coordinates.md",
+    "computer_science/languages/cpp/cpp_cherno_playlist_notes.md",
     "computer_science/OpenGL/opengl_cherno_playlist_notes.md",
     "muay_thai/learning_muay_thai.md",
     "zettelkasten/zettlekasten_fleeting_notes.md",
