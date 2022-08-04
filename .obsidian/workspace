@@ -438,7 +438,7 @@
               "leaf": "0414f6ab570a55a8",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"muay_thai/learning_muay_thai.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":212.1818181818182}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}},\"scroll\":22.869565217391305}"
             }
           ]
         }
@@ -460,7 +460,7 @@
               "leaf": "dd87b955dd1e0ffb",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"KNOU/2022년_2학기_방통대_컴퓨터과학과_계획.md\",\"mode\":\"source\"}}",
-              "eState": "{}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":73,\"ch\":8},\"to\":{\"line\":73,\"ch\":8}},\"scroll\":53.08695652173913}"
             },
             {
               "leaf": "dd87b955dd1e0ffb",
@@ -587,9 +587,9 @@
   },
   "active": "dd87b955dd1e0ffb",
   "lastOpenFiles": [
+    "muay_thai/learning_muay_thai.md",
     "KNOU/2022년_2학기_방통대_컴퓨터과학과_계획.md",
     "KNOU/2022년_1학기_방통대_컴퓨터과학과_계획.md",
-    "muay_thai/learning_muay_thai.md",
     "music/vocal/vocalization.md",
     "computer_science/computer_vision/computer_graphics_coordinates.md",
     "computer_science/languages/cpp/cpp_cherno_playlist_notes.md",
