@@ -442,34 +442,6 @@
             }
           ]
         }
-      },
-      {
-        "id": "dd87b955dd1e0ffb",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "KNOU/2022년_2학기_방통대_컴퓨터과학과_계획.md",
-            "mode": "source"
-          }
-        },
-        "pane-relief:history-v1": {
-          "pos": 0,
-          "stack": [
-            {
-              "leaf": "dd87b955dd1e0ffb",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"KNOU/2022년_2학기_방통대_컴퓨터과학과_계획.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":73,\"ch\":8},\"to\":{\"line\":73,\"ch\":8}},\"scroll\":53.08695652173913}"
-            },
-            {
-              "leaf": "dd87b955dd1e0ffb",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"KNOU/2022년_1학기_방통대_컴퓨터과학과_계획.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":68,\"ch\":0},\"to\":{\"line\":60,\"ch\":0}},\"scroll\":47.47826086956522}"
-            }
-          ]
-        }
       }
     ],
     "direction": "vertical"
@@ -534,7 +506,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KNOU/2022년_2학기_방통대_컴퓨터과학과_계획.md",
+                "file": "muay_thai/learning_muay_thai.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -570,7 +542,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KNOU/2022년_2학기_방통대_컴퓨터과학과_계획.md"
+                "file": "muay_thai/learning_muay_thai.md"
               }
             },
             "pane-relief:history-v1": {
@@ -585,10 +557,10 @@
     "direction": "horizontal",
     "width": 316.5
   },
-  "active": "dd87b955dd1e0ffb",
+  "active": "0414f6ab570a55a8",
   "lastOpenFiles": [
-    "muay_thai/learning_muay_thai.md",
     "KNOU/2022년_2학기_방통대_컴퓨터과학과_계획.md",
+    "muay_thai/learning_muay_thai.md",
     "KNOU/2022년_1학기_방통대_컴퓨터과학과_계획.md",
     "music/vocal/vocalization.md",
     "computer_science/computer_vision/computer_graphics_coordinates.md",
