@@ -39,8 +39,8 @@
     "freeGLUT",
     "Cherno"
   ],
-  "legacyEditor": true,
-  "livePreview": true,
+  "legacyEditor": false,
+  "livePreview": false,
   "showFrontmatter": false,
   "lineWrap": true
 }

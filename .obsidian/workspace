@@ -7,17 +7,27 @@
         "id": "237456629bfdd45f",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "todo/todo_application_project.md",
+            "mode": "source",
+            "source": true
+          }
         },
         "pane-relief:history-v1": {
-          "pos": 0,
+          "pos": 1,
           "stack": [
             {
               "leaf": "237456629bfdd45f",
               "group": null,
-              "state": "{\"type\":\"empty\",\"state\":{}}",
-              "eState": "{}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics.md\",\"mode\":\"source\",\"source\":true}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":10},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "237456629bfdd45f",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"todo/todo_application_project.md\",\"mode\":\"source\",\"source\":true}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
             }
           ]
         }
@@ -68,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262
+    "width": 262,
+    "collapsed": true
   },
   "right": {
     "id": "f152d8fd8ec1f4e0",
@@ -84,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "todo/todo_application_project.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +130,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "todo/todo_application_project.md"
+              }
             },
             "pane-relief:history-v1": {
               "pos": 0,
@@ -134,6 +148,8 @@
   },
   "active": "237456629bfdd45f",
   "lastOpenFiles": [
+    "computer_science/computer_vision/computer_graphics.md",
+    "todo/todo_application_project.md",
     "music/vocal/vocalization.md",
     "computer_science/computer_vision/computer_graphics_coordinates.md",
     "computer_science/languages/cpp/cpp_cherno_playlist_notes.md",
@@ -141,8 +157,6 @@
     "computer_science/computer_vision/computer_graphics_transformations.md",
     "computer_science/OpenGL/opengl_draw_2d_transform.md",
     "computer_science/computer_vision/computer_graphics_shader.md",
-    "computer_science/computer_vision/computer_graphics_software.md",
-    "computer_science/computer_vision/computer_graphics_hardware.md",
-    "computer_science/computer_vision/computer_graphics.md"
+    "computer_science/computer_vision/computer_graphics_software.md"
   ]
 }
