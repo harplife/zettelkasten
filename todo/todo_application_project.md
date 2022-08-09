@@ -48,10 +48,37 @@ Additional information for Sharing:
 3. Tasked To
 4. Deleted By
 
+## Note
+A **Note** can be attached to Task(s) to extend information about the Task. It speaks for itself.
+
+## File
+A **File** can be attached to Task(s) to extend information, and/or to extend management beyond the scope of the interface.
+
+For example, an Excel file can be attached to a task because it may be better suited for managing a task.
+
 ## Relationship
 A **Relationship** describes the hierarchy of a task to another.
 
 The relationship can be extended to File-Task, Note-Task, and etc.
+
+### Types
+
+#### Task to Task
+The Relationship between two tasks is Parent-to-Child.
+A Parent Task can have multiple Child Tasks. However, a Child Task cannot have multiple Parent Tasks.
+
+This helps breaking down a task into smaller tasks for efficient task handling.
+Also, this allows for "Project Management", where the 1st Level Parent Task is essentially the Project.
+There is no need to define a task as a project, as it is implied.
+
+If multiple Child Tasks exist under a Parent Task, then it is implied that those Child Tasks are related (siblings).
+
+If multiple Child Tasks are under different Parent Tasks but those Parent Tasks are on same level, then it is also implied that those Child Tasks are related (cousins).
+
+#### Note to Task
+The Relationship between a Note 
+
+#### File to Task
 
 ## Management
 A **Management** consists of
