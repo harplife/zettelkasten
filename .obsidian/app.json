@@ -42,5 +42,9 @@
   "legacyEditor": false,
   "livePreview": false,
   "showFrontmatter": false,
-  "lineWrap": true
+  "lineWrap": true,
+  "spellcheckLanguages": [
+    "ko",
+    "en-US"
+  ]
 }
