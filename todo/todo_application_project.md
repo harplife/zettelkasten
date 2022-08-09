@@ -48,8 +48,15 @@ Additional information for Sharing:
 3. Tasked To
 4. Deleted By
 
+### Check in
+Some tasks take over a day to complete. "Checking in" helps tracking whether a task has been looked at recently.
+
 ## Note
 A **Note** can be attached to Task(s) to extend information about the Task. It speaks for itself.
+
+Although Task itself has "Description" for additional information, a Note can go further by adding details to multiple tasks at once.
+
+It can serve also as a "Warning". For example, a Note can notify the critical change made by a certain Task to the Tasks that may be affected.
 
 ## File
 A **File** can be attached to Task(s) to extend information, and/or to extend management beyond the scope of the interface.
@@ -61,8 +68,7 @@ A **Relationship** describes the hierarchy of a task to another.
 
 The relationship can be extended to File-Task, Note-Task, and etc.
 
-### Types
-
+### Parent to Child
 #### Task to Task
 The Relationship between two tasks is Parent-to-Child.
 A Parent Task can have multiple Child Tasks. However, a Child Task cannot have multiple Parent Tasks.
@@ -75,13 +81,64 @@ If multiple Child Tasks exist under a Parent Task, then it is implied that those
 
 If multiple Child Tasks are under different Parent Tasks but those Parent Tasks are on same level, then it is also implied that those Child Tasks are related (cousins).
 
+#### Task and others
+Task cannot be in Parent-to-Child relationship with Note or File.
+
+### Attachment
 #### Note to Task
-The Relationship between a Note 
+Note is always an "Attachment" to a Task.
+
+A Note can be attached to multiple Tasks.
+
+Multiple Notes can be attached to a single Task.
 
 #### File to Task
+File is always an "Attachment" to a Task.
+
+A File can be attached to multiple Tasks.
+
+Multiple Files can be attached to a single Task.
+
+#### File and Note
+File(s) can be attached to a Note. Preferably, it should only be used to provide more detail about the Note.
+
+Note(s) cannot be attached to a File.
+
+### Warning
+- Task/Note/File cannot relate to itself
+- Task/Note/File cannot relate to duplicated targets
 
 ## Management
 A **Management** consists of
-1. CRUD of tasks and relations
+1. CRUD operations
+2. Overview
 
-### Types of Management
+### CRUD operations
+#### Task
+
+#### Note
+
+#### File
+
+### Overview
+#### Task Information
+Viewing information of a Task.
+- [[#Task#Metadata]]
+- Parent Task
+- List of Child Tasks
+- List of Notes
+- List of Files
+- Check-in Information
+
+#### Daily Tasks
+Viewing a list of Tasks that are
+1. not completed
+2. opted TRUE for SHOW_ON_DAILY
+3. (optional) repeat day == today
+
+
+
+#### Check in
+
+## ideas
+- #todo share_to_child option on any attachment(note/file) may be useful.
