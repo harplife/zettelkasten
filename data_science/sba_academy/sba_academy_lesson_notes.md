@@ -57,8 +57,27 @@ edited: 2022-08-13
 
 1. Scalable
 2. Fault Tolerant
-3. Variance
+3. Variety
 
+
+## 데이터 수집 기술
+- Flume
+- Kafka
+- Sqoop
+- Nifi
+- Flink
+- Splunk
+- Logstash
+- Fluentd
+
+## 데이터 정제 단계
+1. Identification
+2. Filtration
+3. Validation
+4. Noise Reduction
+5. Transformation
+6. Compression
+7. Integration
 
 ## 하둡
 ![[Hadoop_logo.svg]]
