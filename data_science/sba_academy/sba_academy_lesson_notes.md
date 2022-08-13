@@ -161,7 +161,22 @@ hdfs dfs -put \
 #### HDFS 파일 제거
 명령어 : `hdfs dfs -rm 경로/파일명`
 
+3개 파일들을 생성하고 HDFS에 업로드 해줌.
 
+`hdfs dfs -rm /user/student/MRtest/testfile1` 실행 시,
+1. 해당 파일이 제거됨.
+
+![[hadoop_rm_command_result_0.png]]
+
+`hdfs dfs -rm -skipTrash 경로/파일명` 실행 시 완전 삭제됨.
+#todo 그럼 완전 삭제 안 하면 유지되는 기간 또는 한계 사이즈는??
+
+`hdfs dfs -rm -r 경로` 실행 시 폴더와 안에 있는 파일 모두 삭제됨 (`rmdir`도 됨).
+
+`hdfs dfs -expunge` 실행 시 임시 삭제된 파일 모두 제거됨.
+
+#### HDFS NameNode Web UI
+`localhost:50070`으로 접속하여 HDFS를 모니터링 할 수 있다.
 
 ## 참고자료
 - [빅데이터 - 하둡, 하이브로 시작하기](https://wikidocs.net/book/2203)
