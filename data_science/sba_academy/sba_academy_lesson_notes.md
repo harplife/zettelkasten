@@ -221,10 +221,10 @@ MapReduce is a programming model
 DB에서 데이터를 가져와서 Hadoop 에 저장하는 작업을 하는 데이터 수집 시스템
 
 ### File Types
-- Hive tables
-- Avro / [Parquet (Apala)](https://en.wikipedia.org/wiki/Apache_Parquet) / Text / [ORC (Hive)](https://en.wikipedia.org/wiki/Apache_ORC)
-- HBase tables
-- Accumulo tables
+- [Hive tables](https://en.wikipedia.org/wiki/Apache_Hive)
+- [Avro](https://en.wikipedia.org/wiki/Apache_Avro) / [Parquet (Apala)](https://en.wikipedia.org/wiki/Apache_Parquet) / Text / [ORC (Hive)](https://en.wikipedia.org/wiki/Apache_ORC)
+- [HBase tables](https://en.wikipedia.org/wiki/Apache_HBase)
+- [Accumulo tables](https://en.wikipedia.org/wiki/Apache_Accumulo)
 
 ### Connector
 JDBC 사용
@@ -245,6 +245,11 @@ Default 옵션:
 - `import` 수행 시 HDFS의 Home 경로에 저장됨
 - 테이블명과 동일한 폴더가 생성됨
 - 테이블 데이터는 Plain Text로 쉼표(`,`)로 delimit되어 저장됨
+
+### Sqoop 실습
+[[sba_ingest_lab_1.pdf]] 가이드에서 Lab 1 세션을 진행해봄.
+
+
 
 ## Flume
 [Apache Flume](https://flume.apache.org/)
