@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "237456629bfdd45f",
+        "id": "b712c93616739712",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -15,25 +15,13 @@
           }
         },
         "pane-relief:history-v1": {
-          "pos": 1,
+          "pos": 0,
           "stack": [
             {
-              "leaf": "237456629bfdd45f",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"data_science/customer_retention_rate.md\",\"mode\":\"source\",\"source\":true}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "237456629bfdd45f",
+              "leaf": "b712c93616739712",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"data_science/sba_academy/sba_academy_lesson_notes.md\",\"mode\":\"source\",\"source\":true}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "237456629bfdd45f",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"todo/todo_application_project.md\",\"mode\":\"source\",\"source\":true}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":26},\"to\":{\"line\":0,\"ch\":0}}}"
+              "eState": "{\"scroll\":106.28653893103966}"
             }
           ]
         }
@@ -153,10 +141,10 @@
     "width": 316.5,
     "collapsed": true
   },
-  "active": "237456629bfdd45f",
+  "active": "b712c93616739712",
   "lastOpenFiles": [
-    "todo/todo_application_project.md",
     "data_science/sba_academy/sba_academy_lesson_notes.md",
+    "todo/todo_application_project.md",
     "data_science/customer_retention_rate.md",
     "computer_science/computer_vision/computer_graphics.md",
     "music/vocal/vocalization.md",
