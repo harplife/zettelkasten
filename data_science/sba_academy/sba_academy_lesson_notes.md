@@ -91,7 +91,7 @@ HDFS (Hadoop Distributed File System) : 하둡 플랫폼의 파일 분산 관리
 - 확장성 (Scalable)
 - 결함 허용 (Fault Tolerant)
 - 기본 운영 체계 파일 시스템 위에 탑재됨
-- 작은 파일보단 대용량 파일에 최적화됨 (100MB 이상)
+- 작은 파일보단 대용량 파일에 최적화됨 (100MB 이상) : 옵션이긴 하지만, 블록 사이즈 128 MB가 de facto standard 임
 - Write Once 방식으로 동작함 - 각 데이터가 IMMUTABLE 함
 - NameNode : 각 데이터 블록이 어느 파일이 일부이며 어느 위치에 저장되는지 등 관리하는 Master
 - DataNode : 데이터를 저장하는 블록, Slave/Worker로 본다
