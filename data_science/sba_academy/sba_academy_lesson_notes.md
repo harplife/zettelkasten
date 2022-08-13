@@ -97,14 +97,26 @@ HDFS (Hadoop Distributed File System) : 하둡 플랫폼의 파일 분산 관리
 - DataNode : 데이터를 저장하는 블록, Slave/Worker로 본다
 - [edit log 와 fsimage](https://eyeballs.tistory.com/255)
 - OLAP 에 최적화된 구조 - [OLAP vs. OLTP](https://jins-dev.tistory.com/entry/%EA%B0%84%EB%9E%B5%ED%95%98%EA%B2%8C-%EC%A0%95%EB%A6%AC%ED%95%B4%EB%B3%B4%EB%8A%94-OLTP-OLAP-%EC%9D%98-%EA%B0%9C%EB%85%90)
+- 각 블록은 중복 저장됨 (기본 3개)
+- NameNode는 2개 정도 사용 (좋은 사양의 컴퓨터를 사용)
 
 분산된 자료를 병렬적으로 처리하는 시스템이 Yarn과 MapReduce 임.
 
+#### HDFS 구조
+![[hdfsarchitecture.png]]
 
-참고자료
+#### 인터페이스
+
+- CLI interface
+- [HUE (Hadoop User Experience)](https://gethue.com/)
+    - https://docs.cloudera.com/documentation/enterprise/6/6.3/topics/hue.html
+- NameNode Web UI
+
+#### 참고자료
 1. https://www.ibm.com/topics/hdfs
 2. https://www.techtarget.com/searchdatamanagement/definition/Hadoop-Distributed-File-System-HDFS
 3. https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html
+4. https://docs.cloudera.com/runtime/7.2.10/hdfs-overview/topics/hdfs-introduction-hdfs.html
 
 ## 참고자료
 - [빅데이터 - 하둡, 하이브로 시작하기](https://wikidocs.net/book/2203)
