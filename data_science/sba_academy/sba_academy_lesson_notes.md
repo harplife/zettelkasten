@@ -130,6 +130,34 @@ HDFS (Hadoop Distributed File System) : 하둡 플랫폼의 파일 분산 관리
     3. ~/Scripts/start_all_services.sh
 5. [[hdfs_hands_on_lab1.pdf]] 가이드를 따라서 실습 진행 (5.6.3 전까지만)
 
+#### HDFS 폴더 및 파일 조회
+명령어 : `hdfs dfs -ls /경로`
+
+`hdfs dfs -ls /` 실행 시 `tmp`와 `user` 정보가 나옴.
+1. `tmp`는 모든 유저가 사용할 수 있는 경로
+2. `user`는 현재 접속된 유저가 사용할 수 있는 경로
+
+![[hadoop_ls_command_results.png]]
+
+#### HDFS 폴더 생성
+명령어 : `hdfs dfs -mkdir 폴더명`
+
+`hdfs dfs -mkdir MRtest` 실행 시
+1. `user/student/` 경로 안에 `MRtest`라는 폴더가 생김
+
+![[hadoop_mkdir_command_result.png]]
+
+#### HDFS 파일 업로드
+명령어 : `hdfs dfs -put 파일명 경로`
+
+밑에 명령어 실행 시,
+```bash
+hdfs dfs -put \
+/home/student/Data/alice_in_wonderland.txt \
+/user/student/MRtest
+```
+1. `MRtest` 경로 안에 `alice_in_wonderland.txt` 파일이 저장됨
+
 ## 참고자료
 - [빅데이터 - 하둡, 하이브로 시작하기](https://wikidocs.net/book/2203)
 - [쿠팡 데이터 플랫폼의 진화](https://medium.com/coupang-engineering/%EC%BF%A0%ED%8C%A1-%EB%8D%B0%EC%9D%B4%ED%84%B0-%ED%94%8C%EB%9E%AB%ED%8F%BC%EC%9D%98-%EC%A7%84%ED%99%94-26c827c1ec09)
