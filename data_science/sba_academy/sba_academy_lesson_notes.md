@@ -158,6 +158,11 @@ hdfs dfs -put \
 ```
 1. `MRtest` 경로 안에 `alice_in_wonderland.txt` 파일이 저장됨
 
+#### HDFS 파일 제거
+명령어 : `hdfs dfs -rm 경로/파일명`
+
+
+
 ## 참고자료
 - [빅데이터 - 하둡, 하이브로 시작하기](https://wikidocs.net/book/2203)
 - [쿠팡 데이터 플랫폼의 진화](https://medium.com/coupang-engineering/%EC%BF%A0%ED%8C%A1-%EB%8D%B0%EC%9D%B4%ED%84%B0-%ED%94%8C%EB%9E%AB%ED%8F%BC%EC%9D%98-%EC%A7%84%ED%99%94-26c827c1ec09)
