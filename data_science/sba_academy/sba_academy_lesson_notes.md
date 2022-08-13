@@ -120,10 +120,15 @@ HDFS (Hadoop Distributed File System) : 하둡 플랫폼의 파일 분산 관리
 
 
 ### 하둡 실습
-[[hdfs_hands_on_lab1.pdf]] 가이드를 따라서 실습 진행.
 
 1. 다른 구글 계정으로 로그인 - bd.multi.lab01 // global0810! // 복구계정 bd.multi.master@gmail.com
 2. 구글 리모트 데스크탑으로 접속 - 핀 번호 220810
+3. 로그인 student // student
+4. 터미널 열어서
+    1. mkdir work // cd work
+    2. cp ~/Data/alice_in_wonderland.txt .
+    3. ~/Scripts/start_all_services.sh
+5. [[hdfs_hands_on_lab1.pdf]] 가이드를 따라서 실습 진행 (5.6.3 전까지만)
 
 ## 참고자료
 - [빅데이터 - 하둡, 하이브로 시작하기](https://wikidocs.net/book/2203)
