@@ -220,6 +220,32 @@ MapReduce is a programming model
 
 DB에서 데이터를 가져와서 Hadoop 에 저장하는 작업을 하는 데이터 수집 시스템
 
+### File Types
+- Hive tables
+- Avro / [Parquet (Apala)](https://en.wikipedia.org/wiki/Apache_Parquet) / Text / [ORC (Hive)](https://en.wikipedia.org/wiki/Apache_ORC)
+- HBase tables
+- Accumulo tables
+
+### Connector
+JDBC 사용
+
+### 명령 예시
+1. 데이터베이스 목록 조회 : `sqoop list-databases`
+2. 데이터베이스에 테이블 목록 조회 : `sqoop list-tables`
+3. 데이터베이스의 모든 테이블 import : `sqoop import-all-tables`
+4. 데이터베이스에 특정 테이블 import : `sqoop import --table 테이블명`
+
+파라미터:
+- `--connect jdbc:mysql://호스트주소/데이터베이스명`
+- `--username 유저명`
+- `--password 비밀번호`
+- `--table 테이블명`
+
+Default 옵션:
+- `import` 수행 시 HDFS의 Home 경로에 저장됨
+- 테이블명과 동일한 폴더가 생성됨
+- 테이블 데이터는 Plain Text로 쉼표(`,`)로 delimit되어 저장됨
+
 ## Flume
 [Apache Flume](https://flume.apache.org/)
 
@@ -231,6 +257,8 @@ Tightly-Coupled Data Transfer
 
 ## Nifi
 [Apache Nifi](https://nifi.apache.org/)
+
+Flume과 비슷하되, Flume에서 제공하는 기능을 좀 더 간단한 인터페이스(Codeless)를 제공한다.
 
 ## Kafka
 [Apache Kafka](https://kafka.apache.org/)
