@@ -20,11 +20,18 @@ edited: 2022-08-13
 2022/08/10 수요일 (7:30~10:30) Zoom으로 첫 강의 진행함.
 - 빅데이터 처리 시스템에 대한 개념을 배움
 - Hadoop, Zookeeper 등이 무엇인지 간단하게 알아봄
+
+## 강의2
+2022/08/13 토요일 (10:00~18:00) SBA 아카데미 빌딩에서 진행함.
+- 빅데이터 처리 시스템에 대한 개념을 다시 정리
+- Hadoop, Yarn, MapReduce, Zookeeper 등이 무엇인지 간단하게 알아봄
+
+# 빅데이터
+
 - [데이터 레이크(Data Lake)](https://en.wikipedia.org/wiki/Data_lake) : a system or repository of data stored in its natural/raw format, usually object blobs or files
 - [데이터 웨어하우스(Data Warehouse)](https://en.wikipedia.org/wiki/Data_warehouse) : central repositories of integrated data from one or more disparate sources. They store current and historical data in one single place that are used for creating analytical reports for workers throughout the enterprise.
 
-
-### Big Data Pipieline
+## Big Data Pipeline
 1. Collect
     - Streaming & Data Flow
 2. Curate
@@ -36,16 +43,14 @@ edited: 2022-08-13
 5. Predict
     - Artificial Intelligence
 
-### 하둡
-![[Hadoop_logo.svg]]
 
-참고자료
-1. [빅데이터 - 하둡, 하이브로 시작하기](https://wikidocs.net/book/2203)
+1. 수집
+2. 정제
+3. 적재
+4. 분석
+5. 시각화
 
-### Hadoop Stack
-![[hadoop_stack_0.png]]
-
-### Data Processing
+## 데이터 처리의 요소
 1. 하둡
 2. 스파크
 3. NoSQL
@@ -53,6 +58,13 @@ edited: 2022-08-13
 1. Scalable
 2. Fault Tolerant
 3. Variance
+
+
+## 하둡
+![[Hadoop_logo.svg]]
+
+### Hadoop Stack
+![[hadoop_stack_0.png]]
 
 ### HDFS
 HDFS (Hadoop Distributed File System) : 하둡 플랫폼의 파일 분산 관리 시스템
@@ -75,5 +87,6 @@ HDFS (Hadoop Distributed File System) : 하둡 플랫폼의 파일 분산 관리
 2. https://www.techtarget.com/searchdatamanagement/definition/Hadoop-Distributed-File-System-HDFS
 3. https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html
 
-## 강의2
-2022/08/13 토요일 (10:00~18:00) SBA 아카데미 빌딩에서 진행함.
+## 참고자료
+- [빅데이터 - 하둡, 하이브로 시작하기](https://wikidocs.net/book/2203)
+- [쿠팡 데이터 플랫폼의 진화](https://medium.com/coupang-engineering/%EC%BF%A0%ED%8C%A1-%EB%8D%B0%EC%9D%B4%ED%84%B0-%ED%94%8C%EB%9E%AB%ED%8F%BC%EC%9D%98-%EC%A7%84%ED%99%94-26c827c1ec09)
