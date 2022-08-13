@@ -27,7 +27,7 @@
               "leaf": "237456629bfdd45f",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"data_science/sba_academy/sba_academy_lesson_notes.md\",\"mode\":\"source\",\"source\":true}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":26},\"to\":{\"line\":8,\"ch\":26}}}"
+              "eState": "{\"scroll\":18.68059207342763}"
             },
             {
               "leaf": "237456629bfdd45f",
@@ -84,7 +84,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262
+    "width": 262,
+    "collapsed": true
   },
   "right": {
     "id": "f152d8fd8ec1f4e0",
@@ -149,7 +150,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 316.5
+    "width": 316.5,
+    "collapsed": true
   },
   "active": "237456629bfdd45f",
   "lastOpenFiles": [
