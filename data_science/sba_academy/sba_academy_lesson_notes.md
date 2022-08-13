@@ -16,6 +16,10 @@ edited: 2022-08-13
 
 수요일 온라인 강의, 토요일 오프라인 강의
 
+강사진
+- [정진석 강사](https://www.linkedin.com/in/jinseok-jeong-a589341b/)
+- [박현우 강사](https://www.linkedin.com/in/henrypark)
+
 ## 강의 1
 2022/08/10 수요일 (7:30~10:30) Zoom으로 첫 강의 진행함.
 - 빅데이터 처리 시스템에 대한 개념을 배움
@@ -209,6 +213,31 @@ MapReduce is a programming model
     - Mapper의 중간 결과를 통합하고 정렬해서 Reducer에게 전달
 3. Reducer
     - Mapper 중간 결과로 최종 결과를 조합하여 저장
+
+
+## Sqoop
+[Apache Sqoop](https://attic.apache.org/projects/sqoop.html)
+
+DB에서 데이터를 가져와서 Hadoop 에 저장하는 작업을 하는 데이터 수집 시스템
+
+## Flume
+[Apache Flume](https://flume.apache.org/)
+
+Source, Channel, Sink로 데이터를 전달하는 에이전트, 여러 에이전트를 관리하는 데이터 수집 시스템
+
+Conveyer 벨트 방식으로 처리하는 시스템
+
+Tightly-Coupled Data Transfer
+
+## Nifi
+[Apache Nifi](https://nifi.apache.org/)
+
+## Kafka
+[Apache Kafka](https://kafka.apache.org/)
+
+Producer / Consumer 방식으로 .. 하는 데이터 수집 시스템
+
+Kafka만 잘하면 데이터 수집의 80%는 처리할 수 있다고 할 수 있다?
 
 ## 참고자료
 - [빅데이터 - 하둡, 하이브로 시작하기](https://wikidocs.net/book/2203)
