@@ -249,6 +249,19 @@ Default 옵션:
 ### Sqoop 실습
 [[sba_ingest_lab_1.pdf]] 가이드에서 Lab 1 세션을 진행해봄.
 
+1. 미리 설치된 MySQL 에 접속해보고 `show databases;`로 데이터베이스들 확인
+    ![[sba_mysql_show_databases_result.png]]
+2. `show tables;`로 테이블들 확인
+3. `desc 테이블명;`로 테이블 정보 확인
+    ![[sba_mysql_desc_tables_result.png]]
+4. `show * from authors;`
+    ![[sba_mysql_select_authors_result.png]]
+5. `sqoop help`로 도움말 확인
+6. `sqoop help import`로 import 명령어에 대한 도움말 확인
+7. `sqoop list-databases --connect jdbc:mysql://localhost --username student --password student`로 데이터베이스 목록 조회
+8. `sqoop list-tables --connect jdbc:mysql://localhost/labs --username student -P`로 테이블 목록 조회 (`-P`는 비밀번호 넣는 prompt를 뜨게함).
+9. `sqoop import-all-tables --connect jdbc:mysql://localhost/labs --username student --password student`는 모든 테이블들을 import 해줌.
+
 
 
 ## Flume
