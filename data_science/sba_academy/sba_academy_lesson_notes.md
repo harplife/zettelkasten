@@ -240,6 +240,7 @@ JDBC 사용
 - `--username 유저명`
 - `--password 비밀번호`
 - `--table 테이블명`
+- `--table authors --fields-terminated-by ','`
 
 Default 옵션:
 - `import` 수행 시 HDFS의 Home 경로에 저장됨
@@ -261,8 +262,14 @@ Default 옵션:
 7. `sqoop list-databases --connect jdbc:mysql://localhost --username student --password student`로 데이터베이스 목록 조회
 8. `sqoop list-tables --connect jdbc:mysql://localhost/labs --username student -P`로 테이블 목록 조회 (`-P`는 비밀번호 넣는 prompt를 뜨게함).
 9. `sqoop import-all-tables --connect jdbc:mysql://localhost/labs --username student --password student`는 모든 테이블들을 import 해줌.
+    - `authors_export`라는 테이블 때문에 import 도중 에러가 남 (고의라고 함).
+10. `sqoop import --connect jdbc:mysql://localhost/labs --username student --password student --table posts`로 테이블 하나를 지정해서 import 해줌.
+11. `hdfs dfs -ls /user/student/` 실행하면 HDFS에 `authors`와 `posts` 폴더들이 생성된 것을 확인할 수 있음.
+    - ![[sba_sqoop_import_table_hdfs_result.png]]
+12. `hdfs dfs -ls /user/student/테이블명`으로 각 테이블의 분리된(?) 데이터들을 볼 수 있음.
+13. `--table authors --fields-terminated-by ','` 지정해봐서 다른 곳에 import 해봄.
 
-
+#todo ingest_lab_1 가이드에 Lab1은 전체, Lab2는 1번까지, Lab3은 Kafka 부분만 해봐야함
 
 ## Flume
 [Apache Flume](https://flume.apache.org/)
