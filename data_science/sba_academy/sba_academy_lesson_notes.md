@@ -195,7 +195,20 @@ YARN을 통해 실행할 수 있는 프로그램/기능 :
 - Node Manager (NM) per node
 - Application Master (AM) per application
 
+## MapReduce
+MapReduce is a programming model
+- Record oriented data processing (Key and Value)
+- 병렬 분산 처리 방식
 
+### MapReduce 프로세스
+1. Mapper
+    - HDFS 블록으로 나누어 분산 처리
+    - 가능한 데이터를 가지고 있는 노드에서 Task 실행
+    - 수행 결과는 임시파일에 저장
+2. Shuffle and Sort
+    - Mapper의 중간 결과를 통합하고 정렬해서 Reducer에게 전달
+3. Reducer
+    - Mapper 중간 결과로 최종 결과를 조합하여 저장
 
 ## 참고자료
 - [빅데이터 - 하둡, 하이브로 시작하기](https://wikidocs.net/book/2203)
