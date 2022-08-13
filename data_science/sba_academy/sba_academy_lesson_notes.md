@@ -79,7 +79,7 @@ edited: 2022-08-13
 6. Compression
 7. Integration
 
-## 하둡
+## Hadoop
 ![[Hadoop_logo.svg]]
 
 ### Hadoop Stack
@@ -177,6 +177,25 @@ hdfs dfs -put \
 
 #### HDFS NameNode Web UI
 `localhost:50070`으로 접속하여 HDFS를 모니터링 할 수 있다.
+
+
+
+## YARN
+YARN (Yet Another Resource Negotiator) is a platform for managing resources in a Hadoop cluster.
+
+수행할 프로그램을 받아 자원을 할당하고, 실행시키고, 결과를 로그하는 시스템.
+
+YARN을 통해 실행할 수 있는 프로그램/기능 :
+- MapReduce
+- Spark (분산 메모리 처리 시스템)
+- Fez
+
+### Daemons
+- Resource Manager (RM) per cluster
+- Node Manager (NM) per node
+- Application Master (AM) per application
+
+
 
 ## 참고자료
 - [빅데이터 - 하둡, 하이브로 시작하기](https://wikidocs.net/book/2203)
