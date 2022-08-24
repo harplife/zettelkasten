@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "data_science/sba_academy/sba_academy_lesson_notes.md",
+            "file": "art/digital_art/digital_media_editing_knou.md",
             "mode": "source",
             "source": true
           }
@@ -20,8 +20,14 @@
             {
               "leaf": "b712c93616739712",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"art/digital_art/digital_media_editing_knou.md\",\"mode\":\"source\",\"source\":true}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":13},\"to\":{\"line\":8,\"ch\":13}}}"
+            },
+            {
+              "leaf": "b712c93616739712",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"data_science/sba_academy/sba_academy_lesson_notes.md\",\"mode\":\"source\",\"source\":true}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+              "eState": "{}"
             }
           ]
         }
@@ -72,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262,
-    "collapsed": true
+    "width": 262
   },
   "right": {
     "id": "f152d8fd8ec1f4e0",
@@ -89,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "data_science/sba_academy/sba_academy_lesson_notes.md",
+                "file": "art/digital_art/digital_media_editing_knou.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,8 +130,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "data_science/sba_academy/sba_academy_lesson_notes.md"
+                "file": "art/digital_art/digital_media_editing_knou.md"
               }
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            }
+          },
+          {
+            "id": "65c09b173479de66",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
             },
             "pane-relief:history-v1": {
               "pos": 0,
@@ -138,12 +155,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 316.5,
-    "collapsed": true
+    "width": 316.5
   },
   "active": "b712c93616739712",
   "lastOpenFiles": [
     "data_science/sba_academy/sba_academy_lesson_notes.md",
+    "art/digital_art/digital_media_editing_knou.md",
     "todo/todo_application_project.md",
     "data_science/customer_retention_rate.md",
     "computer_science/computer_vision/computer_graphics.md",
@@ -151,7 +168,6 @@
     "computer_science/computer_vision/computer_graphics_coordinates.md",
     "computer_science/languages/cpp/cpp_cherno_playlist_notes.md",
     "computer_science/OpenGL/opengl_cherno_playlist_notes.md",
-    "computer_science/computer_vision/computer_graphics_transformations.md",
-    "computer_science/OpenGL/opengl_draw_2d_transform.md"
+    "computer_science/computer_vision/computer_graphics_transformations.md"
   ]
 }
