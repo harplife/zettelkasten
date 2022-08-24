@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "art/digital_art/digital_media_editing_knou.md",
+            "file": "computer_science/cloud_computing/cloud_computing_knou.md",
             "mode": "source",
             "source": true
           }
@@ -20,8 +20,14 @@
             {
               "leaf": "b712c93616739712",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/cloud_computing/cloud_computing_knou.md\",\"mode\":\"source\",\"source\":true}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "b712c93616739712",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"art/digital_art/digital_media_editing_knou.md\",\"mode\":\"source\",\"source\":true}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":13},\"to\":{\"line\":8,\"ch\":13}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":11},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
             },
             {
               "leaf": "b712c93616739712",
@@ -94,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "art/digital_art/digital_media_editing_knou.md",
+                "file": "computer_science/cloud_computing/cloud_computing_knou.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "art/digital_art/digital_media_editing_knou.md"
+                "file": "computer_science/cloud_computing/cloud_computing_knou.md"
               }
             },
             "pane-relief:history-v1": {
@@ -159,15 +165,15 @@
   },
   "active": "b712c93616739712",
   "lastOpenFiles": [
-    "data_science/sba_academy/sba_academy_lesson_notes.md",
     "art/digital_art/digital_media_editing_knou.md",
+    "computer_science/cloud_computing/cloud_computing_knou.md",
+    "data_science/sba_academy/sba_academy_lesson_notes.md",
     "todo/todo_application_project.md",
     "data_science/customer_retention_rate.md",
     "computer_science/computer_vision/computer_graphics.md",
     "music/vocal/vocalization.md",
     "computer_science/computer_vision/computer_graphics_coordinates.md",
     "computer_science/languages/cpp/cpp_cherno_playlist_notes.md",
-    "computer_science/OpenGL/opengl_cherno_playlist_notes.md",
-    "computer_science/computer_vision/computer_graphics_transformations.md"
+    "computer_science/OpenGL/opengl_cherno_playlist_notes.md"
   ]
 }
