@@ -100,8 +100,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -233,13 +232,13 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "bf75dc1aaede36c2",
+  "active": "b712c93616739712",
   "lastOpenFiles": [
+    "computer_science/GUI/knou_visual_cpp_notes.md",
     "computer_science/computer_vision/computer_graphics.md",
     "computer_science/languages/cpp/knou_cpp_assignment.md",
     "computer_science/languages/cpp/cpp_style_guide.md",
     "computer_science/languages/cpp/cpp.md",
-    "computer_science/GUI/knou_visual_cpp_notes.md",
     "computer_science/computer_vision/computer_graphics_software.md",
     "KNOU/2021년_2학기_방통대_컴퓨터과학과_계획.md",
     "computer_science/cloud_computing/cloud_computing_knou.md",
