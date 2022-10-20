@@ -161,4 +161,60 @@ Windows에서 실행하는 윈도우 프로그램은 다음과 같은 특징을 
 - GDI는 모든 출력장치를 제어한다.
 
 ### WinAPI에서 사용하는 자료형
+밑에 표에 윈도우 프로그래밍에서 사용되는 기본 자료형이 명시되어 있다. `windows.h`라는 헤더 파일에서 `typedef`로 선언되어 있으며, 거의 모든 프로그램에서 표준 자료형처럼 사용되고 있다.
 
+| DataType     | Description               |
+| ------------ | ------------------------- |
+| BOOL/BOOLEAN | TRUE or FALSE             |
+| BYTE         | Byte(8 bit)               |
+| CALLBACK     | Defines CALLBACK function |
+| COLORREF     | RGB color value(32 bit)   |
+| DWORD        | 32 bit unsigned integer   |
+| HANDLE       | Defines handle            |
+| HBITMAP      | Bitmap Handle             |
+| HBRUSH       | Brush Handle              |
+| HCURSOR      | Cursor Handle             |
+| HDC          | DC Handle                 |
+| HFONT        | Font Handle               |
+| HICON        | Icon Handle               |
+| HMENU        | Menu Handle               |
+| HWND         | Window Handle             |
+| LONGLONG     | 64 bit signed integer     |
+| LPARAM       | 32 bit message parameter  |
+| LPCSTR       |                           |
+| LPCTSTR      |                           |
+| LPCWSTR      |                           |
+| LPSTR        |                           |
+| LPTSTR       |                           |
+| LPVOID       | void pointer              |
+| PCSTR        | Previous char pointer     |
+| PCTSTR       | Previous char pointer     |
+| TBYTE        | 2 Byte                    |
+| TCHAR        | UNICODE char              |
+| UINT         | Unsigned int              |
+| WCHAR        | UNICODE char              |
+| WORD         | 16 bit unsigned integer   |
+| WPARAM       | 32 bit message parameter  |
+| RECT         | Rectangle object          |
+| POINTS       | Point object              |
+| LRESULT      |                           |
+
+### 핸들
+- 핸들(Handle)이란 어떤 대상에 붙여진 번호로, 문법적으로 32 비트의 정수 값이다.
+- DOS 프로그램에서는 거의 유일하게 파일 핸들만이 사용되었다.
+- 윈도우 프로그램에서는 여러 종류의 핸들이 사용된다.
+- 모든 윈도우에는 윈도우 핸들(`hWnd`)이 붙여지며, 논리적 펜과 브러시에도 핸들을 붙여 관리한다.
+- 메모리를 할당할 때도 할당된 메모리 번지를 취급하기보다, 메모리 핸들을 사용한다.
+- 핸들을 자주 사용하는 이유는 대상을 구분하기 위해서이며, 핸들값으로 정수를 사용함으로 문자열을 사용하는 것보다 훨씬 속도가 빠르다.
+
+#### 핸들의 특징
+1. 핸들은 정수 값이며 대부분의 경우 32 비트로 구현된다. 핸들을 사용하는 목적은 오로지 구분을 위한 것이다.
+2. 핸들은 운영체제가 발급해 주며, 사용자는 발급된 핸들을 사용하기만 하면 된다. 예를 들어, 윈도우를 만들면 운영체제는 만들어진 윈도우에 핸들을 붙여준다. 사용자는 이 핸들을 잘 보관해 두었다가, 해당 윈도우를 다시 참조할 때 핸들을 사용하면 된다. 사용자가 직접 핸들을 만들지는 않는다.
+3. 같은 종류의 핸들끼리는 중복된 값을 갖지 않는다. 다른 종류의 핸들끼리는 중복된 값을 가질 수도 있다.
+4. 핸들의 실제 값이 무엇인지 몰라도 상관없다. 핸들은 단순한 이름표의 역할을 할 뿐으로, 핸들형 변수를 만들어 핸들을 대입받아 쓰고 난 후에는 버려도 된다.
+
+#### h 접두어
+- 윈도우에서 핸들은 예외 없이 접두어 `h`로 시작되며, 핸들값을 저장하기 위해 별도의 자료형까지 정의해 두고 있다.
+- `HWND`, `HPEN`, `HBRUSH`, `HDC` 등이 핸들을 담기 위한 자료형이며, 모두 `UNSIGNED INTEGER` 이다.
+
+### WinAPI 프로그램 흐름
