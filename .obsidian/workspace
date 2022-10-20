@@ -21,7 +21,7 @@
               "leaf": "b712c93616739712",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/GUI/knou_visual_cpp_notes.md\",\"mode\":\"source\",\"source\":true}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":0},\"to\":{\"line\":20,\"ch\":0}}}"
+              "eState": "{\"scroll\":28.496907216494847}"
             },
             {
               "leaf": "b712c93616739712",
@@ -211,7 +211,7 @@
     "direction": "horizontal",
     "width": 316.5
   },
-  "active": "19ce5a4d65676126",
+  "active": "b712c93616739712",
   "lastOpenFiles": [
     "computer_science/computer_vision/computer_graphics.md",
     "computer_science/languages/cpp/knou_cpp_assignment.md",
