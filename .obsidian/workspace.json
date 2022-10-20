@@ -1,0 +1,249 @@
+{
+  "main": {
+    "id": "37a7924f7df1dddc",
+    "type": "split",
+    "children": [
+      {
+        "id": "dcdb485218bf57bf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b712c93616739712",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "computer_science/GUI/knou_visual_cpp_notes.md",
+                "mode": "source",
+                "source": true
+              }
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "leaf": "b712c93616739712",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/GUI/knou_visual_cpp_notes.md\",\"mode\":\"source\",\"source\":true}}",
+                  "eState": "{\"scroll\":28.496907216494847}"
+                },
+                {
+                  "leaf": "b712c93616739712",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics.md\",\"mode\":\"source\",\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":8},\"to\":{\"line\":11,\"ch\":8}}}"
+                },
+                {
+                  "leaf": "b712c93616739712",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/languages/cpp/knou_cpp_assignment.md\",\"mode\":\"source\",\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":3},\"to\":{\"line\":5,\"ch\":3}}}"
+                },
+                {
+                  "leaf": "b712c93616739712",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/languages/cpp/cpp_style_guide.md\",\"mode\":\"source\",\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "leaf": "b712c93616739712",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/languages/cpp/cpp.md\",\"mode\":\"source\",\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "leaf": "b712c93616739712",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/GUI/knou_visual_cpp_notes.md\",\"mode\":\"source\",\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "leaf": "b712c93616739712",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/computer_vision/computer_graphics_software.md\",\"mode\":\"source\",\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":225.91919191919192}"
+                },
+                {
+                  "leaf": "b712c93616739712",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"KNOU/2021년_2학기_방통대_컴퓨터과학과_계획.md\",\"mode\":\"source\",\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":102.00159489633174}"
+                },
+                {
+                  "leaf": "b712c93616739712",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"computer_science/cloud_computing/cloud_computing_knou.md\",\"mode\":\"source\",\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}}}"
+                },
+                {
+                  "leaf": "b712c93616739712",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"art/digital_art/digital_media_editing_knou.md\",\"mode\":\"source\",\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":11},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "leaf": "b712c93616739712",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"data_science/sba_academy/sba_academy_lesson_notes.md\",\"mode\":\"source\",\"source\":true}}",
+                  "eState": "{}"
+                }
+              ]
+            }
+          },
+          {
+            "id": "bf75dc1aaede36c2",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.0.0"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2a56929e44600569",
+    "type": "split",
+    "children": [
+      {
+        "id": "e2c7375bbd152a7e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "19ce5a4d65676126",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            }
+          },
+          {
+            "id": "12efa4d7cc8b07c3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "visual",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 262
+  },
+  "right": {
+    "id": "f152d8fd8ec1f4e0",
+    "type": "split",
+    "children": [
+      {
+        "id": "80509ecd5229f2bb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "44fedb4924e97e68",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "computer_science/GUI/knou_visual_cpp_notes.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            }
+          },
+          {
+            "id": "22b2c060987a0027",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": true
+              }
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            }
+          },
+          {
+            "id": "15ca17ef343452c3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "computer_science/GUI/knou_visual_cpp_notes.md"
+              }
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            }
+          },
+          {
+            "id": "65c09b173479de66",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 316.5
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "bf75dc1aaede36c2",
+  "lastOpenFiles": [
+    "computer_science/computer_vision/computer_graphics.md",
+    "computer_science/languages/cpp/knou_cpp_assignment.md",
+    "computer_science/languages/cpp/cpp_style_guide.md",
+    "computer_science/languages/cpp/cpp.md",
+    "computer_science/GUI/knou_visual_cpp_notes.md",
+    "computer_science/computer_vision/computer_graphics_software.md",
+    "KNOU/2021년_2학기_방통대_컴퓨터과학과_계획.md",
+    "computer_science/cloud_computing/cloud_computing_knou.md",
+    "art/digital_art/digital_media_editing_knou.md",
+    "data_science/sba_academy/sba_academy_lesson_notes.md"
+  ]
+}

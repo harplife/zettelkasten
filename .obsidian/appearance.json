@@ -4,5 +4,6 @@
   "cssTheme": "Discordian",
   "enabledCssSnippets": [
     "big-math"
-  ]
+  ],
+  "accentColor": ""
 }
