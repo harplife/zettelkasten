@@ -100,7 +100,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -166,7 +167,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer_science/GUI/knou_visual_cpp_notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -201,9 +201,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "computer_science/GUI/knou_visual_cpp_notes.md"
-              }
+              "state": {}
             },
             "pane-relief:history-v1": {
               "pos": 0,
@@ -232,9 +230,10 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "b712c93616739712",
+  "active": "bf75dc1aaede36c2",
   "lastOpenFiles": [
     "computer_science/GUI/knou_visual_cpp_notes.md",
+    "todo/todo_log_2021.md",
     "computer_science/computer_vision/computer_graphics.md",
     "computer_science/languages/cpp/knou_cpp_assignment.md",
     "computer_science/languages/cpp/cpp_style_guide.md",
@@ -242,7 +241,6 @@
     "computer_science/computer_vision/computer_graphics_software.md",
     "KNOU/2021년_2학기_방통대_컴퓨터과학과_계획.md",
     "computer_science/cloud_computing/cloud_computing_knou.md",
-    "art/digital_art/digital_media_editing_knou.md",
-    "data_science/sba_academy/sba_academy_lesson_notes.md"
+    "art/digital_art/digital_media_editing_knou.md"
   ]
 }
