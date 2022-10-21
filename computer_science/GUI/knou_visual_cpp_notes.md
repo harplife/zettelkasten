@@ -412,14 +412,14 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT iMessage,
 }
 ```
 
-#### 헤더 파일
+### 헤더 파일
 ```C++
 #include <windows.h>
 ```
 
 - 윈도우 프로그램의 첫 줄은 대부분 이렇게 시작된다. `windows.h` 헤더 파일은 기본적인 자료 타입, API 함수 원형과 상수 등을 정의하며, 그 외 필요한 헤더 파일을 포함하고 있다.
 
-#### WinMain 함수
+### WinMain 함수
 ```C++
 int APIENTRY WinMain(HINSTANCE hInstance,
 	HINSTANCE hPrevInstance,
@@ -427,11 +427,34 @@ int APIENTRY WinMain(HINSTANCE hInstance,
 	int nCmdShow)
 ```
 
-- 윈도우 프로그램의 시작점(Entry Point)은 `main`이 아닌 `WinMain`이다. `APIENTRY` 지정자는 `_stdcall`형 호출규약을 사용한다는 뜻이다. `WinMain` 함수의 4개 매개변수의 의미는 밑에와 같다.
+- 윈도우 프로그램의 시작점(Entry Point)은 `main`이 아닌 `WinMain`이다.
+- `APIENTRY` 지정자는 `_stdcall`형 호출규약을 사용한다는 뜻이다.
+- `WinMain` 함수의 4개 매개변수의 의미는 밑에와 같다.
     - `hinstance` : 프로그램의 객체 핸들이다.
-    - `hPrevInstance` : 바로 앞에 실행된 현재 프로그램의 객체 핸들이다. 없을 경우에는 `NULL`이 되며, WIN32 에서는 항상 `NULL`이다. 호환성을 위해서만 존재하는 매개변수이다.
+    - `hPrevInstance` : 바로 앞에 실행된 현재 프로그램의 객체 핸들이다. 없을 경우에는 `NULL`이 되며, WIN32 에서는 항상 `NULL`이다. 호환성을 위해서 존재하는 매개변수이다.
     - `lpCmdLine` : 명령행으로 입력된 프로그램 매개변수이다. DOS의 `argv` 매개변수에 해당한다.
     - `nCmdShow` : 프로그램이 실행될 형태며 최소화, 보통 모양 등이 전달된다.
+- `hInstance` 외 매개변수는 잘 사용하지 않는다. 객체(Instance)는 클래스가 메모리에 실제로 구현된 실체를 의미한다. 윈도우 프로그램은 여러 개의 프로그램이 동시에 실행되는 멀티태스킹일 뿐만 아니라, 하나의 프로그램이 여러 번 실행될 수 있다. 실행되고 있는 각각의 프로그램을 프로그램 객체 또는 인스턴스라고 한다. `hInstance`는 프로그램 자체를 나타내는 핸들로 API 함수에서 수시로 사용된다.
+    - 위 소스코드에서는 `WinMain`의 매개변수로 전달된  `hInstance` 값을 전역변수 `g_hInst`에 저장해 두었다. 이는 `hInstance` 값을 `WinMain` 바깥에서도 사용할 수 있도록 하기 위함이다. 
+- 윈도우 클래스 이름을 저장하기 위해 문자열 형태(`LPCTSTR`) 전역변수 `lpszClass`에 값을 저장해 두었다.
 
-#### WndProc 함수
-- `LRESULT CALLBACK WndProc(..)` : 
+### WndProc 함수
+```C++
+LRESULT CALLBACK WndProc(HWND hWnd, UINT iMessage,
+	WPARAM wParam, LPARAM lParam)
+```
+
+- `WinMain`은 프로그램을 시작시키고 메인 윈도우를 만들지만 그 이외에 문자열 출력이나 차일드 윈도우 생성 등 실질적인 처리는 대부분 윈도우 프로시저 함수인 `WndProc`에서 이루어진다.
+- `WinMain` 함수의 소스코드 내용은 대체로 일정하지만 `WndProc`은 프로그램에 따라 달라진다. 그래서 소스코드를 분석할 때 주의 깊게 봐야 할 부분은 `WndProc` 함수이다.
+
+### WNDCLASS 구조체
+- 윈도우 클래스(`WNDCLASS`)에서 의미하는 '클래스'는 C++의 클래스와는 다른 개념으로, 윈도우 클래스는 윈도우의 특성을 정의한 구조체이다.
+- `WinMain` 함수에서 하는 가장 중요한 일은 윈도우를 만드는 일이다 - 윈도우가 존재해야 사용자로부터 입력을 받을 수 있고 출력을 보여 줄 수 있기 때문이다.
+- 윈도우를 만들려면 `WNDCLASS`를 먼저 등록한 후, `CreateWindow` 함수를 호출해야 한다.
+- 모든 윈도우는 `WNDCLASS`를 기반으로 만들어지며, `WNDCLASS`는 만들어질 윈도우의 여러 가지 특성을 정의한다.
+- `WNDCLASS`는 `windows.h`에 다음과 같이 정의되어 있는 구조체이다.
+  ```C++
+  typedef struct tag
+  ```
+
+#### style
