@@ -454,7 +454,19 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT iMessage,
 - 모든 윈도우는 `WNDCLASS`를 기반으로 만들어지며, `WNDCLASS`는 만들어질 윈도우의 여러 가지 특성을 정의한다.
 - `WNDCLASS`는 `windows.h`에 다음과 같이 정의되어 있는 구조체이다.
   ```C++
-  typedef struct tag
+  typedef struct tagWNDCLASS
+  {
+    UINT         style;
+    WNDPROC      lpfnWndProc;
+    int          cbClsExtra;
+    int          cbWndExtra;
+    HINSTANCE    hInstance;
+    HICON        hIcon;
+    HCURSOR      hCursor;
+    HBRUSH       hbrBackground;
+    LPCSTR       lpszMenuName;
+    LPCSTR       lpszClassName;
+  } WNDCLASS;
   ```
 
 #### style
