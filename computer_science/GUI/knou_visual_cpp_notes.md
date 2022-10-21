@@ -411,3 +411,27 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT iMessage,
 	return(DefWindowProc(hWnd, iMessage, wParam, lParam));
 }
 ```
+
+#### 헤더 파일
+```C++
+#include <windows.h>
+```
+
+- 윈도우 프로그램의 첫 줄은 대부분 이렇게 시작된다. `windows.h` 헤더 파일은 기본적인 자료 타입, API 함수 원형과 상수 등을 정의하며, 그 외 필요한 헤더 파일을 포함하고 있다.
+
+#### WinMain 함수
+```C++
+int APIENTRY WinMain(HINSTANCE hInstance,
+	HINSTANCE hPrevInstance,
+	LPSTR lpszCmdParam,
+	int nCmdShow)
+```
+
+- 윈도우 프로그램의 시작점(Entry Point)은 `main`이 아닌 `WinMain`이다. `APIENTRY` 지정자는 `_stdcall`형 호출규약을 사용한다는 뜻이다. `WinMain` 함수의 4개 매개변수의 의미는 밑에와 같다.
+    - `hinstance` : 프로그램의 객체 핸들이다.
+    - `hPrevInstance` : 바로 앞에 실행된 현재 프로그램의 객체 핸들이다. 없을 경우에는 `NULL`이 되며, WIN32 에서는 항상 `NULL`이다. 호환성을 위해서만 존재하는 매개변수이다.
+    - `lpCmdLine` : 명령행으로 입력된 프로그램 매개변수이다. DOS의 `argv` 매개변수에 해당한다.
+    - `nCmdShow` : 프로그램이 실행될 형태며 최소화, 보통 모양 등이 전달된다.
+
+#### WndProc 함수
+- `LRESULT CALLBACK WndProc(..)` : 

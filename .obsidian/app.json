@@ -40,7 +40,7 @@
     "Cherno"
   ],
   "legacyEditor": false,
-  "livePreview": false,
+  "livePreview": true,
   "showFrontmatter": false,
   "lineWrap": true,
   "spellcheckLanguages": [

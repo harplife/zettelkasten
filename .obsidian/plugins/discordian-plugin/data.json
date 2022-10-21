@@ -5,7 +5,7 @@
   "originalMarkings": false,
   "relationLinesPreview": true,
   "prettyTasksEditor": true,
-  "darkEnhance": false,
+  "darkEnhance": true,
   "fontSizeNotes": 14,
   "fontSizeFileExplorer": 14,
   "writerMode": false,
