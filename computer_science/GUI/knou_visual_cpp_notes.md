@@ -282,3 +282,38 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
 - 반면에, `CALLBACK` 함수는 응용 프로그램이 제공하지만, 프로그램이 아닌 운영체제가 필요할 때 호출한다.
 
 ## 메인 윈도우 생성 프로젝트
+- Win32 API 프로그래밍을 직접 해본다.
+    - 메인 윈도우를 생성하고 메인 윈도우에 문자열을 출력하는 프로젝트를 작성한다.
+    - 메인 윈도우에 차일드 윈도우를 추가하고 차일드 윈도우에 문자열을 출력한다.
+
+### 프로젝트 생성
+- 비주얼 스튜디오를 열고 `Create a new project`를 클릭한다.
+- 프로젝트 생성 창에서 `Windows Desktop Wizard`를 클릭하고 `Next`를 누른다.
+- 프로젝트 이름, 위치 등을 입력하고 `Create`을 누른다. 새로 뜨는 창에 Application Type에 `Desktop Application(.exe)`를 선택하고, 추가 옵션에 `Empty Project`를 선택한 후 `OK`를 누른다.
+  ![[visual_studio_new_project.png]]
+  ![[visual_studio_new_project_desktop_app.png]]
+
+### 소스 파일 추가
+- 프로그램을 작성하기 위해 프로젝트에 새로 소스 파일을 추가해야 한다.
+- `Solution Explorer` 창 안에 `Source Files`를 우클릭하고 `Add` -> `New Item`을 클릭한다.
+  ![[visual_studio_new_file.png]]
+- 파일 추가 창에서 `C++ File (.cpp)`을 선택하고 이름을 `helloAPI.cpp`로 입력한 다음 `Add`를 클릭하면 새로운 C++ 파일이 생성되고 창에 열린다.
+  ![[visual_studio_new_file_cpp.png]]
+- 아직 코드는 작성하지 않는다. 소스 코드는 1.3절에 있다.
+
+### UNICODE 문자집합 설정
+- 비주얼 스튜디오에 문자집합(Character Set)의 기본설정(Default)은 UNICODE이다.
+- 기존에 생성하였던 프로젝트의 문자집합 설정을 확인하기 위해 `Solution Explorer` 창 -> 프로젝트 우클릭 -> `Properties` 선택 -> `Advanced` 클릭 -> `Advanced Properties` 아래 `Character Set`의 값을 확인해보면 된다. `Use Unicode Character Set`라고 설정되어 있는 경우, UNICODE를 사용하고 있다는 것이다.
+  ![[visual_studio_project_character_set.png]]
+- 프로젝트 설정은 UNICODE로 되어있지만, 실제로 UNICODE를 사용하는 방법은 간단하지 않다.
+- C++을 만들 때 기본적인 명령어 대부분은 ASCII 코드를 기반으로 되어있으며, 이를 수정해서 UNICODE도 사용할 수 있도록 변경해야 한다. 특히 문자열이 들어가는 곳이라면 코드를 대부분 변경해 주어야 한다.
+- 윈도우 프로그래밍에서는  `char`가 직접적으로 쓰이지 않는다. `char`는 `TCHAR`로 사용하는데, `TCHAR`의 정의를 보면 다음과 같다.
+  ```C++
+  #ifdef UNICODE
+    typedef wchar_t TCHAR;
+  #else
+    typedef char TCHAR;
+  #endif
+  ```
+  만약 UNICODE를 사용한다면 `wchar_t`형의 `TCHAR`를 사용하고, UNICODE가 아니면 그냥 `char`를 사용한다는 뜻이다.
+- 
