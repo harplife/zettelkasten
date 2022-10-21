@@ -281,7 +281,7 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
     - 예를 들어, 운영체제의 `TextOut` 함수는 프로그램이 호출하면, 이를 수행하여 문자열을 출력한다. 
 - 반면에, `CALLBACK` 함수는 응용 프로그램이 제공하지만, 프로그램이 아닌 운영체제가 필요할 때 호출한다.
 
-## 메인 윈도우 생성 프로젝트
+## 프로젝트
 - Win32 API 프로그래밍을 직접 해본다.
     - 메인 윈도우를 생성하고 메인 윈도우에 문자열을 출력하는 프로젝트를 작성한다.
     - 메인 윈도우에 차일드 윈도우를 추가하고 차일드 윈도우에 문자열을 출력한다.
@@ -316,4 +316,30 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
   #endif
   ```
   만약 UNICODE를 사용한다면 `wchar_t`형의 `TCHAR`를 사용하고, UNICODE가 아니면 그냥 `char`를 사용한다는 뜻이다.
-- 
+- `char`와 관련된 자료형은 밑과 같다.
+    - `TCHAR` : `char`
+    - `LPSTR` :`char*`
+    - `LPCSTR` : `const char*`
+    - `LPWSTR` : `wchar_t*`
+    - `LPCWSTR` : `const wchar_t*`
+    - `LPCTSTR` : `const wchar_t*` or `const char*`
+- 약어는 다음과 같다.
+    - `W` : Wide char (16 bit)
+    - `T` : UNICODE or ASCII
+    - `C` : constant
+    - `LP` : Long Pointer
+    - `STR` : string
+- 문자열 함수는 밑과 같이 변경하여 UNICODE와 호환되게 할 수 있다.
+    - `strlen` -> `lstrlen`
+    - `strcpy` -> `lstrcpy`
+    - `strcat` -> `lstrcat`
+    - `strcmp` -> `lstrcmp`
+    - `sprintf` -> `wsprintf`
+- 비주얼 C++에서 UNICODE를 입력하려면 다음과 같은 매크로를 사용한다.
+    - `TEXT("text here")`
+    - `_T("text here")`
+    - `L"text here"`
+
+## 소스 코드
+메인 윈도우를 생성하는 소스 코드는 다음과 같다.
+
