@@ -163,6 +163,8 @@ Windows에서 실행하는 윈도우 프로그램은 다음과 같은 특징을 
 ### WinAPI에서 사용하는 자료형
 밑에 표에 윈도우 프로그래밍에서 사용되는 기본 자료형이 명시되어 있다. `windows.h`라는 헤더 파일에서 `typedef`로 선언되어 있으며, 거의 모든 프로그램에서 표준 자료형처럼 사용되고 있다.
 
+#todo 교과서에 있는 자료는 좀 그러니, 인터넷에서 정보를 찾아서 마저 표를 작성할 것.
+
 | DataType     | Description               |
 | ------------ | ------------------------- |
 | BOOL/BOOLEAN | TRUE or FALSE             |
@@ -316,6 +318,8 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
   #endif
   ```
   만약 UNICODE를 사용한다면 `wchar_t`형의 `TCHAR`를 사용하고, UNICODE가 아니면 그냥 `char`를 사용한다는 뜻이다.
+
+#### 문자열 자료형
 - `char`와 관련된 자료형은 밑과 같다.
     - `TCHAR` : `char`
     - `LPSTR` :`char*`
@@ -323,18 +327,23 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
     - `LPWSTR` : `wchar_t*`
     - `LPCWSTR` : `const wchar_t*`
     - `LPCTSTR` : `const wchar_t*` or `const char*`
-- 약어는 다음과 같다.
-    - `W` : Wide char (16 bit)
-    - `T` : UNICODE or ASCII
-    - `C` : constant
-    - `LP` : Long Pointer
-    - `STR` : string
+
+#### 문자열 자료형 접두사
+- `W` : Wide char (16 bit)
+- `T` : UNICODE or ASCII
+- `C` : constant
+- `LP` : Long Pointer
+- `STR` : string
+
+#### UNICODE 호환 문자열 함수
 - 문자열 함수는 밑과 같이 변경하여 UNICODE와 호환되게 할 수 있다.
     - `strlen` -> `lstrlen`
     - `strcpy` -> `lstrcpy`
     - `strcat` -> `lstrcat`
     - `strcmp` -> `lstrcmp`
     - `sprintf` -> `wsprintf`
+
+#### UNICODE 문자열 입력 매크로
 - 비주얼 C++에서 UNICODE를 입력하려면 다음과 같은 매크로를 사용한다.
     - `TEXT("text here")`
     - `_T("text here")`
@@ -470,3 +479,156 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT iMessage,
   ```
 
 #### style
+```C++
+int APIENTRY WinMain(..)
+{
+  ..
+  WNDCLASS WndClass;
+  WndClass.style = CS_HREDRAW | CS_VREDRAW;
+  ..
+}
+```
+
+- `WNDCLASS`의 `style`은 윈도우의 스타일을 정의한다. 즉, 윈도우가 어떤 형태를 가질 것 인가를 지정하는 멤버이다.
+- 가장 많이 사용하는 값이 `CS_HREDRAW`와 `CS_VREDRAW`이다. 이 두 값은 `OR` 연산자(`|`)로 연결하여 사용한다. 이 값들의 의미는 윈도우의 수직(또는 수평) 크기가 변할 경우 윈도우를 다시 그린다는 뜻이다.
+- 위 두 값 외에도 많은 값이 올 수 있다.
+
+#### lpfnWndProc
+```C++
+int APIENTRY WinMain(..)
+{
+  ..
+  WNDCLASS WndClass;
+  WndClass.lpfnWndProc = (WNDPROC)WndProc;
+  ..
+}
+```
+
+- `lpfnWndProc`은 윈도우의 메시지 핸들러 함수를 지정한다.
+- 메시지가 발생할 때마다 `lpfnWndProc`으로 지정한 함수가 호출되며, 이 함수가 모든 메시지를 처리한다.
+- 메시지 핸들러 함수의 이름은 임의로 정할 수 있지만, 거의 `WndProc`으로 정해져 있는 편이다.
+
+#### cbClsExtra/cbWndExtra
+```C++
+int APIENTRY WinMain(..)
+{
+  ..
+  WNDCLASS WndClass;
+  WndClass.cbClsExtra = 0;
+  WndClass.cbWndExtra = 0;
+  ..
+}
+```
+
+- 일종의 예약 영역이다.
+- Windows가 내부적으로 사용하며 매우 특수한 목적에 사용되는 여분의 공간이다.
+- 예약영역을 사용하지 않을 경우는 `0`으로 지정한다.
+
+#### hInstance
+```C++
+int APIENTRY WinMain(HINSTANCE hInstance, ..)
+{
+  ..
+  WNDCLASS WndClass;
+  WndClass.hInstance = hInstance;
+  ..
+}
+```
+
+- `hInstance`는 이 `WNDCLASS`를 사용하는 프로그램의 번호이며, 이 값은 `WinMain`의 매개변수로 전달된 `hInstance` 값을 그대로 대입해 주면 된다.
+
+#### hIcon
+```C++
+int APIENTRY WinMain(..)
+{
+  ..
+  WNDCLASS WndClass;
+  WndClass.hIcon = LoadIcon(NULL, IDI_APPLICATION);
+  ..
+}
+```
+
+- 윈도우가 최소화되었을 경우 출력될 아이콘을 `LoadIocn` 함수를 사용하여 지정한다.
+- 사용자가 직접 아이콘을 만들어 사용할 수도 있지만, Windows가 기본적으로 제공하는 아이콘을 사용할 수 있다.
+
+#### hCursor
+```C++
+int APIENTRY WinMain(..)
+{
+  ..
+  WNDCLASS WndClass;
+  WndClass.hCursor = LoadCursor(NULL, IDC_WAIT);
+  ..
+}
+```
+
+- 윈도우가 사용할 마우스 커서를 `LoadCursor` 함수를 사용하여 지정한다.
+- 사용자가 직접 커서를 만들어 사용할 수도 있지만, Windows가 기본적으로 제공하는 커서를 사용할 수 있다.
+
+#### hbrBackground
+```C++
+int APIENTRY WinMain(..)
+{
+  ..
+  WNDCLASS WndClass;
+  WndClass.hbrBackground = (HBRUSH)GetStockObject(WHITE_BRUSH);
+  ..
+}
+```
+
+- 윈도우의 배경색을 지정한다 - 정확히는, 윈도우의 배경색을 채색할 브러시를 지정하는 멤버이다.
+- `GetStockObject`라는 함수를 사용하여 윈도우에서 기본적으로 제공하는 브러시를 지정할 수 있다.
+- 지정할 수 있는 브러시는 여러 가지 종류가 있지만, 가장 일반적인 흰색 배경(`WHITE_BRUSH`)이 많이 사용된다.
+
+#### lpszMenuName
+```C++
+int APIENTRY WinMain(..)
+{
+  ..
+  WNDCLASS WndClass;
+  WndClass.lpszMenuName = NULL;
+  ..
+}
+```
+
+- 프로그램이 사용할 메뉴를 지정한다.
+- 메뉴는 프로그램 코드에서 만드는 것이 아니라, 리소스 에디터에 의해 별도로 만들어진 후 링크 시에 같이 합쳐진다.
+- 메뉴를 사용하지 않을 경우, 이 멤버에 `NULL` 값을 대입해 주면 된다.
+
+#### lpszClassName
+```C++
+LPCTSTR lpszClass = L"HelloAPI";
+
+int APIENTRY WinMain(..)
+{
+  ..
+  WNDCLASS WndClass;
+  WndClass.lpszClassName = lpszClass;
+  ..
+}
+```
+
+- 윈도우 클래스의 이름을 정의한다.
+- 여기서 지정한 이름은 `CreateWindow` 함수에 전달되며, `CreateWIndow` 함수는 윈도우 클래스에서 정의한 특성값을 참조하여 윈도우를 만든다.
+- 윈도우 클래스의 이름은 보통 실행 파일의 이름과 일치시켜 작성한다.
+
+### RegisterClass 함수
+```C++
+int APIENTRY WinMain(..)
+{
+  ..
+  WNDCLASS WndClass;
+  // 윈도우 클래스의 멤버들 모두 등록 후
+  RegisterClass(&WndClass);
+  ..
+}
+```
+
+- 정의된 `WndClass`를 등록하기 위해 `RegisterClass`에 매개변수로 `WndClass` 구조체의 번지를 넘겨주면 된다.
+  ```C++
+  ATOM RegisterClass(CONST WNDCLASS *lpWndClass);
+  ```
+
+### CreateWindow 함수
+- 윈도우 클래스를 등록한 후 등록된 윈도우 클래스를 기준으로 `CreateWindow` 함수를 사용하여 윈도우를 생성하면 된다.
+- 
