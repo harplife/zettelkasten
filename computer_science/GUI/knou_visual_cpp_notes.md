@@ -449,8 +449,7 @@ int APIENTRY WinMain(HINSTANCE hInstance,
 
 ### WndProc 함수
 ```C++
-LRESULT CALLBACK WndProc(HWND hWnd, UINT iMessage,
-	WPARAM wParam, LPARAM lParam)
+LRESULT CALLBACK WndProc(HWND hWnd, UINT iMessage, WPARAM wParam, LPARAM lParam)
 ```
 
 - `WinMain`은 프로그램을 시작시키고 메인 윈도우를 만들지만 그 이외에 문자열 출력이나 차일드 윈도우 생성 등 실질적인 처리는 대부분 윈도우 프로시저 함수인 `WndProc`에서 이루어진다.
@@ -465,16 +464,16 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT iMessage,
   ```C++
   typedef struct tagWNDCLASS
   {
-    UINT         style;
-    WNDPROC      lpfnWndProc;
-    int          cbClsExtra;
-    int          cbWndExtra;
-    HINSTANCE    hInstance;
-    HICON        hIcon;
-    HCURSOR      hCursor;
-    HBRUSH       hbrBackground;
-    LPCSTR       lpszMenuName;
-    LPCSTR       lpszClassName;
+      UINT         style;
+      WNDPROC      lpfnWndProc;
+      int          cbClsExtra;
+      int          cbWndExtra;
+      HINSTANCE    hInstance;
+      HICON        hIcon;
+      HCURSOR      hCursor;
+      HBRUSH       hbrBackground;
+      LPCSTR       lpszMenuName;
+      LPCSTR       lpszClassName;
   } WNDCLASS;
   ```
 
@@ -482,10 +481,10 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT iMessage,
 ```C++
 int APIENTRY WinMain(..)
 {
-  ..
-  WNDCLASS WndClass;
-  WndClass.style = CS_HREDRAW | CS_VREDRAW;
-  ..
+    ..
+    WNDCLASS WndClass;
+    WndClass.style = CS_HREDRAW | CS_VREDRAW;
+    ..
 }
 ```
 
@@ -497,10 +496,10 @@ int APIENTRY WinMain(..)
 ```C++
 int APIENTRY WinMain(..)
 {
-  ..
-  WNDCLASS WndClass;
-  WndClass.lpfnWndProc = (WNDPROC)WndProc;
-  ..
+    ..
+    WNDCLASS WndClass;
+    WndClass.lpfnWndProc = (WNDPROC)WndProc;
+    ..
 }
 ```
 
@@ -512,11 +511,11 @@ int APIENTRY WinMain(..)
 ```C++
 int APIENTRY WinMain(..)
 {
-  ..
-  WNDCLASS WndClass;
-  WndClass.cbClsExtra = 0;
-  WndClass.cbWndExtra = 0;
-  ..
+    ..
+    WNDCLASS WndClass;
+    WndClass.cbClsExtra = 0;
+    WndClass.cbWndExtra = 0;
+    ..
 }
 ```
 
@@ -528,10 +527,10 @@ int APIENTRY WinMain(..)
 ```C++
 int APIENTRY WinMain(HINSTANCE hInstance, ..)
 {
-  ..
-  WNDCLASS WndClass;
-  WndClass.hInstance = hInstance;
-  ..
+    ..
+    WNDCLASS WndClass;
+    WndClass.hInstance = hInstance;
+    ..
 }
 ```
 
@@ -541,10 +540,10 @@ int APIENTRY WinMain(HINSTANCE hInstance, ..)
 ```C++
 int APIENTRY WinMain(..)
 {
-  ..
-  WNDCLASS WndClass;
-  WndClass.hIcon = LoadIcon(NULL, IDI_APPLICATION);
-  ..
+    ..
+    WNDCLASS WndClass;
+    WndClass.hIcon = LoadIcon(NULL, IDI_APPLICATION);
+    ..
 }
 ```
 
@@ -555,10 +554,10 @@ int APIENTRY WinMain(..)
 ```C++
 int APIENTRY WinMain(..)
 {
-  ..
-  WNDCLASS WndClass;
-  WndClass.hCursor = LoadCursor(NULL, IDC_WAIT);
-  ..
+    ..
+    WNDCLASS WndClass;
+    WndClass.hCursor = LoadCursor(NULL, IDC_WAIT);
+    ..
 }
 ```
 
@@ -569,10 +568,10 @@ int APIENTRY WinMain(..)
 ```C++
 int APIENTRY WinMain(..)
 {
-  ..
-  WNDCLASS WndClass;
-  WndClass.hbrBackground = (HBRUSH)GetStockObject(WHITE_BRUSH);
-  ..
+    ..
+    WNDCLASS WndClass;
+    WndClass.hbrBackground = (HBRUSH)GetStockObject(WHITE_BRUSH);
+    ..
 }
 ```
 
@@ -584,10 +583,10 @@ int APIENTRY WinMain(..)
 ```C++
 int APIENTRY WinMain(..)
 {
-  ..
-  WNDCLASS WndClass;
-  WndClass.lpszMenuName = NULL;
-  ..
+    ..
+    WNDCLASS WndClass;
+    WndClass.lpszMenuName = NULL;
+    ..
 }
 ```
 
@@ -601,10 +600,10 @@ LPCTSTR lpszClass = L"HelloAPI";
 
 int APIENTRY WinMain(..)
 {
-  ..
-  WNDCLASS WndClass;
-  WndClass.lpszClassName = lpszClass;
-  ..
+    ..
+    WNDCLASS WndClass;
+    WndClass.lpszClassName = lpszClass;
+    ..
 }
 ```
 
@@ -616,11 +615,11 @@ int APIENTRY WinMain(..)
 ```C++
 int APIENTRY WinMain(..)
 {
-  ..
-  WNDCLASS WndClass;
-  // 윈도우 클래스의 멤버들 모두 등록 후
-  RegisterClass(&WndClass);
-  ..
+    ..
+    WNDCLASS WndClass;
+    // 윈도우 클래스의 멤버들 모두 등록 후
+    RegisterClass(&WndClass);
+    ..
 }
 ```
 
@@ -631,4 +630,43 @@ int APIENTRY WinMain(..)
 
 ### CreateWindow 함수
 - 윈도우 클래스를 등록한 후 등록된 윈도우 클래스를 기준으로 `CreateWindow` 함수를 사용하여 윈도우를 생성하면 된다.
-- 
+  ```C++
+  HWND CreateWindow(
+      lpszClassName,	//윈도우클래스 이름
+      lpszWindowName,	//윈도우타이틀
+      dwStyle,			//윈도우스타일
+      x, y,				//윈도우가 보일때 X Y좌표
+      nWidth, nHeight,	//윈도우의 폭과 높이
+      hWndParent,		//부모윈도우 핸들
+      hMenu,			//윈도우가 가지는 메뉴핸들
+      hInstance,		//인스턴스핸들
+      lpParam			//여분의 데이터
+  )
+  ```
+  - 예시 소스코드에는 밑과 같이 작성되어있다.
+  ```C++
+  LPCTSTR lpszClass = L"HelloAPI";
+  
+  int APIENTRY WinMain(..)
+  {
+      ..
+      hWnd = CreateWindow(
+        lpszClass,							//윈도우클래스 이름
+      	L"윈도우 프로그래밍",			    //윈도우타이틀
+      	WS_OVERLAPPEDWINDOW | WS_VISIBLE,   //윈도우스타일
+      	200, 200,							//윈도우가 보일때 X Y좌표
+      	600, 600,							//윈도우의 폭과 높이				
+      	(HWND)NULL,							//부모윈도우 핸들
+      	(HMENU)NULL,						//윈도우가 가지는 메뉴핸들
+      	hInstance,							//인스턴스핸들
+      	NULL);								//여분의 데이터
+      ..
+  }
+  ```
+
+#### lpszClassName
+- 생성하고자 하는 윈도우의 클래스를 지정하는 문자열이다.
+    - 앞에서 정의한 `WndClass.lpszClassName` 멤버의 값과 동일하게 입력하면 된다.
+    - 예시 소스코드에는 `lpszClass` 문자열 전역변수에 미리 윈도우클래스 이름을 저장해놨으니, 이 변수를 그대로 넘겨준다.
+
+#### lpszWindowName
