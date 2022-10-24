@@ -643,6 +643,8 @@ int APIENTRY WinMain(..)
       lpParam			//여분의 데이터
   )
   ```
+  - `CreateWindow` 함수는 윈도우에 관한 모든 정보를 메모리에 만든 후, 윈도우 핸들을 리턴값으로 넘겨준다. 넘겨지는 윈도우 핸들은 `hWnd`라는 지역변수에 저장되었다가 윈도우를 참조하는 모든 함수의 매개변수로 사용된다.
+  - `CreateWindow` 함수로 만든 윈도우는 어디까지나 메모리상에만 있을 뿐이며, 아직까지 화면에 출력되지 않는다.
   - 예시 소스코드에는 밑과 같이 작성되어있다.
   ```C++
   LPCTSTR lpszClass = L"HelloAPI";
@@ -692,4 +694,123 @@ int APIENTRY WinMain(..)
 - 부모 윈도우가 없을 경우에 `NULL`로 지정하면 된다.
 
 #### hMenu
+- 윈도우에서 사용할 메뉴의 핸들을 지정한다.
+- `WndClass`에도 메뉴를 지정하는 멤버가 있는데, `WndClass`의 메뉴는 그 윈도우 클래스를 기반으로 하는 모든 윈도우에서 사용되는 반면, `hMenu`로 지정한 메뉴는 `CreateWindow` 함수로 만들어지는 윈도우에서만 사용된다.
+- `WndClass`에서 지정한 메뉴를 그대로 사용하려면, `hMenu`의 값을 `NULL`로 지정하면 된다.
+- `WndClass`에서 지정한 메뉴 대신 다른 메뉴를 사용하려면, `hMenu`에 원하는 메뉴 핸들을 주면 된다.
+- 메뉴 없는 프로그램을 만들려면 `WndClass`와 `CreateWindow`에 메뉴를 지정하지 않으면 된다.
+
+#### hInstance
+- 윈도우를 만드는 주체, 즉, 프로그램의 핸들을 지정한다.
+- `WinMain`의 매개변수로 전달된 `hInstsance`를 대입해 주면 된다.
+
+#### lpParam
+- `CREATESTRUCT`라는 구조체의 번지이다.
+- #todo 특수한 목적에 사용된다. 보통은 `NULL` 값을 사용한다.
+
+### ShowWindow 함수
+- `CreateWindow` 함수로서 준비된 윈도우를 실제로 화면에 출력하려면 `ShowWindow` 함수를 사용해야 한다.
+  ```C++
+  BOOL ShowWindow(hWnd, nCmdShow);
+  ```
+- `hWnd` 매개변수는 화면으로 출력하고자 하는 윈도우의 핸들이며, `CreateWindow` 함수가 리턴한 핸들을 그대로 넘겨 받으면 된다.
+- `nCmdShow` 매개변수는 윈도우를 화면에 출력하는 방법을 지정하며, 다음과 같은 매크로 상수를 받는다.
+    - `SW_HIDE` : 윈도우를 숨긴다.
+    - `SW_MINIMIZE` : 윈도우를 최소화 시킨다.
+    - `SW_MAXIMIZE` : 윈도우를 최대화 시킨다.
+    - `SW_SHOW` : 윈도우를 활성화시켜 보여 준다.
+    - `SW_SHOWNORMAL` : 윈도우를 원래 크기와 위치로 보여 준다.
+- `nCmdShow` 매개변수에는 `WinMain` 함수의 매개변수로 전달된 `nCmdShow` 값을 그대로 넘겨주기만 하면 된다.
+- 예시 소스코드에는 밑과 같이 `ShowWindow` 함수를 호출한다.
+  ```C++
+  int APIENTRY WinMain(nCmdShow, ..)
+  {
+      ..
+      HWND hWnd;
+      hWnd = CreateWindow(..);
+      ShowWindow(hWnd, nCmdShow);
+      ..
+  }
+  ```
+- `ShowWindow` 함수까지 실행하면 화면에 윈도우가 출력된다. 이후부터는 메시지 루프가 시작되며, 프로그램이 사용자와 Windows 그리고 다른 프로그램과 정보를 교환하며 실행된다.
+  ![[visual_cpp_window_process.png]]
+
+### 메시지 루프
+- Windows를 **메시지 구동 시스템(Message Driven System)** 이라고 하는데, 이 점이 DOS와 가장 뚜렷한 대비를 이루는 특징이다. DOS에서는 프로그래머에 의해 미리 입력된 일련의 명령을 순서대로 실행하는 순차적 실행방법을 사용하는 반면, Windows에서는 프로그램의 실행순서가 명확하게 정해져 있지 않으며 상황에 따라 달라진다는 것이다. 여기서 말하는 "상황"이란, 바로 어떤 메시지가 주어졌는가를 뜻한다.
+- **메시지(Message)** : 사용자나 시스템 내부적인 동작에 의해 발생한 일체의 변화에 대한 정보를 뜻한다.
+    - 예를 들어, 사용자가 마우스의 버튼을 눌렀다거나, 키보드를 눌렀다거나, 윈도우가 최소화 되었다거나 하는 변화에 대한 정보가 메시지이다.
+    - 메시지가 발생하면 프로그램에서는 메시지가 어떤 정보를 담고 있는가를 분석하여, 어떤 루틴을 호출할 것인가를 결정한다. 즉, 순서를 따르지 않고 주어진 메시지에 대한 반응을 정의하는 방식으로 프로그램이 실행된다.
+- 윈도우 프로그램에서 메시지를 처리하는 부분을 **메시지 루프(Message Loop)** 라고 하며, 보통 `WinMain` 함수의 끝에 다음과 같은 형식으로 존재한다.
+  ```C++
+  int APIENTRY WinMain(..)
+  {
+      ..
+      MSG Message;
+      
+      while (GetMessage(&Message, 0, 0, 0)) {
+          TranslateMessage(&Message);
+          DispatchMessage(&Message);
+      }
+      
+      return Message.wParam;
+  }
+  ```
+- 메시지 루프에서 하는 일은 메시지를 꺼내고, 필요한 경우 형태를 조금 바꾼 후 응용 프로그램으로 메시지를 전달하는 것 뿐이다. 이 과정은 `WM_QUIT` 메시지가 전달될 때까지 (프로그램이 종료될 때까지) 반복된다.
+- 다르게 정리하면, 메시지 루프가 하는 일이란 메시지 큐에서 메시지를 꺼내서, 꺼낸 메시지를 메시지 핸들러 함수로 보내는 것이다.
+- 메시지 루프는 3개의 함수호출로 이루어져 있으며, 전체 루프는 `while`문으로 싸여 있다.
+
+#### GetMessage
+- `GetMessage` 함수는 시스템이 유지하는 메시지 큐에서 메시지를 읽어 들인다.
+  ```C++
+  BOOL GetMessage(LPMSG lpMsg, HWND hWnd, UINT wMsgFilterMin, UINT wMsgFilterMax);
+  ```
+- 읽어 들인 메시지는 첫 번째 매개변수가 지정하는 `MSG` 구조체에 저장된다.
+- 이 함수는 읽어들인 메시지가 프로그램을 종료하라는 `WM_QUIT`일 경우 `False`를 리턴한다. 그 외에 메시지에 대해서는 `True`를 리턴한다.
+- 프로그램이 종료되어 `WM_QUIT` 메시지가 읽혀질 때까지 전체 `while` 루프는 계속 실행된다.
+- #todo 나머지 3개의 매개변수는 읽어 들일 메시지의 범위를 지정하는데, 잘 사용되지 않으므로 일단 무시한다??
+
+#### TranslateMessage
+- `TranslateMessage` 함수는 키보드 입력 메시지를 가공하여 프로그램에서 쉽게 쓸 수 있도록 해준다.
+  ```C++
+  BOOL TranslateMessage(CONST MSG *lpMsg);
+  ```
+- `Windows`는 키보드의 어떤 키가 눌러졌다거나 떨어졌을 때 키보드 메시지를 발생시키는데, 이 함수는 눌림(`WM_KEYDOWN`)과 떨어짐(`WM_KEYUP`)이 연속적으로 발생할 때 문자가 입력되었다는 메시지(`WM_CHAR`)를 만드는 역할을 한다.
+- 예를 들어, `A`를 누른 후 `A`를 떼면, `A` 문자가 입력되었다는 메시지를 만들어낸다.
+
+#### DispatchMessage
+- `DispatchMessage` 함수는 시스템 메시지 큐에서 꺼낸 메시지를 프로그램의 메시지 핸들러 함수(`WndProc`)에 전달하는 역할을 가진다.
+- 이 함수에 의해 메시지가 프로그램으로 전달되며, 프로그램에서는 전달된 메시지를 점검하여 다음 동작을 결정하게 된다.
+
+#### MSG 구조체
+- 실제 메시지 처리는 메시지 핸들러 함수인 `WndProc`에서 수행한다.
+- 메시지는 시스템 변화에 대한 정보며, `MSG`라는 구조체에 보관된다. `MSG` 구조체는 다음과 같이 정의되어 있다.
+  ```C++
+  typedef struct tagMSG
+  {
+      HWNDh		Wnd;		// 메시지를 받을 윈도우 핸들
+      UINT		message;	// 메시지 종류
+      WPARAM	wParam;		// 32bit 값으로, 이벤트 메시지와 윈도우 ID 정보를 갖는다.
+      LPARAM	lParam;		// 32 bit 윈도우 핸들
+      DWORD		time;		// 메시지 발생 시간
+      POINT		pt;			// 메시지 발생 시 마우스 위치
+  } MSG;
+  ```
+
+#### 메시지 루프의 흐름
+- `messsage` 멤버를 읽음으로써 메시지 종류를 파악하며, `message` 값에 따라 프로그램의 반응이 달라진다.
+- `GetMessage` 함수는 읽은 메시지를 `MSG` 구조체에 대입해 주며, 이 구조체는 `DistpatchMessage` 함수에 의해 응용 프로그램의 메시지 핸들러 함수인 `WndProc`으로 전달된다.
+- 메시지 루프가 종료되면 프로그램은 마지막으로 `Message.wParam`을 리턴하고 종료한다. 이 값은 `WM_QUIT` 메시지로부터 전달된 코드이다.
+
+##### 메시지와 그 의미
+- 메시지는 실제로 하나의 정수값으로 표현된다.
+- 메시지의 종류는 다양하며 `windows.h` 헤더파일에 메시지별로 매크로 상수를 정의되어있다.
+- 메시지는 `WM_` 접두어로 시작된다.
+- `WM_QUIT` : 프로그램을 끝낼 때 발생하는 메시지
+- `WM_LBUTTONDOW` : 마우스 좌클릭 시 발생
+- `WM_CHAR` : 키보드 문자 입력 시 발생
+- `WM_PAINT` : 화면을 다시 그려야 할 필요가 있을 때 발생
+- `WM_DESTROY` : 윈도우가 메모리에서 파괴될 때 발생
+- `WM_CREATE` : 윈도우가 처음 만들어질 때 발생
+
+### 윈도우 프로시저
 - 
