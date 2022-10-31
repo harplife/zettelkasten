@@ -20,6 +20,16 @@
             }
           },
           {
+            "id": "63e6095f32f11bfb",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.0.3"
+              }
+            }
+          },
+          {
             "id": "bf75dc1aaede36c2",
             "type": "leaf",
             "state": {
@@ -29,7 +39,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -135,10 +146,7 @@
     "direction": "horizontal",
     "width": 316.5
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "b712c93616739712",
+  "active": "63e6095f32f11bfb",
   "lastOpenFiles": [
     "computer_science/GUI/knou_visual_cpp_notes.md",
     "todo/todo_log_2021.md",
