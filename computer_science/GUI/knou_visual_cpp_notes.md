@@ -866,6 +866,8 @@ int APIENTRY WinMain(..)
 	- 따라서, 윈도우 프로그램에서는 윈도우나 화면 또는 프린터에 출력하려면 각각 윈도우 DC, 화면 DC, 프린터 DC가 필요하다.
 - 윈도우 클라이언트 영역에 문자열을 출력하려면 `TextOut` Win32 API 함수를 사용하면 된다.
   ```C++
-  
+  BOOL TextOut(hdc, nXStart, nYStart, lpszString, cbString)
   ```
+	- 첫 번째 인자는 Device Context의 핸들인 `hdc`이다. 이 함수뿐만 아니라 화면에 무엇인가를 출력하는 모든 함수의 첫 번째 인수는 항상 `hdc`이다.
+	- `nXStart`, `hYStart`는 문자열이
 - 
