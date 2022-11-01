@@ -349,7 +349,7 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
     - `_T("text here")`
     - `L"text here"`
 
-## 소스 코드
+## 메인 윈도우 생성
 메인 윈도우를 생성하는 소스 코드는 다음과 같다.
 
 ```C++
@@ -836,7 +836,7 @@ int APIENTRY WinMain(..)
   	case Msg2:
   		// 처리 2
   		return 0;
-  	...
+  	..
   	case WM_DESTORY:
   		PostQuitMessage(0);
   		return 0;
@@ -868,6 +868,39 @@ int APIENTRY WinMain(..)
   ```C++
   BOOL TextOut(hdc, nXStart, nYStart, lpszString, cbString)
   ```
-	- 첫 번째 인자는 Device Context의 핸들인 `hdc`이다. 이 함수뿐만 아니라 화면에 무엇인가를 출력하는 모든 함수의 첫 번째 인수는 항상 `hdc`이다.
-	- `nXStart`, `hYStart`는 문자열이
-- 
+	- 첫 번째 인자는 Device Context의 핸들인 `hdc`이다. `TextOut` 함수를 포함해서 화면에 무언가를 출력하는 모든 함수의 첫 번째 인수는 항상 `hdc`이다.
+	- `nXStart`, `hYStart`는 문자열이 출력될 좌표이다.
+	- `lpszString`은 출력할 문자열을 담고 있는 문자열 포인터이다.
+	- `cbString`은 출력할 문자열의 길이 이다. `TextOut` 함수는  `NULL` 종료 문자열을 사용하지 않음으로, 문자열의 길이를 인수로 반드시 밝혀 주어야 한다.
+
+#### 문자열 출력 소스코드 예시
+```C++
+LRESULT CALLBACK WndProc(HWND hWnd, UINT iMessage, WPARAM wParam, LPARAM lParam) {
+	..
+	switch (iMessage) {
+		..
+    	case WM_PAINT:
+    	{
+    		PAINTSTRUCT ps;
+    		HDC hdc = BeginPaint(hWnd, &ps);
+    		TextOut(hdc, 100, 100, text, lstrlen(text));
+    		EndPaint(hWnd, &ps);
+    		return 0;
+    	}
+    	..
+	}
+	..
+}
+```
+
+- `WM_PAINT` 메시지는 윈도우에 무언가를 그리려고 할 때 발생되는 메시지이다.
+- 여기서 `PAINTSTRUCT`는 윈도우 클라이언트 영역에 무언가를 그리려고 할 때 필요한 정보를 담고 있는 구조체이다.
+	- 예: 핸들, 배경을 지울 것인지 여부, 클라이언트 영역 좌표 등
+- `BeginPaint()` 함수는 그리는데 필요한 정보를 `PAINTSTRCUT` 구조체에 넣어서 윈도우에 그릴 준비를 한 후, 리턴값으로 DC (Device Context) 핸들을 가져온다.
+- `TextOut()` 함수가 문자열을 출력한 후 `EndPaint()` 함수는 DC 핸들을 해제한다.
+- 출력방법을 정리하면 다음과 같다.
+	1. 운영체제에 DC를 요청한다.
+	2. 운영체제가 제공한 DC를 매개변수로 하는 API 함수를 호출하여 출력한다.
+	3. DC 사용이 끝났음을 운영체제에 알린다.
+
+## 차일드 윈도우 생성
