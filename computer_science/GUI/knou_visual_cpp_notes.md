@@ -405,17 +405,17 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT iMessage,
 {
 	LPCTSTR text = L"메인윈도우 생성";
 	switch (iMessage) {
-	case WM_PAINT:
-	{
-		PAINTSTRUCT ps;
-		HDC hdc = BeginPaint(hWnd, &ps);
-		TextOut(hdc, 100, 100, text, lstrlen(text));
-		EndPaint(hWnd, &ps);
-		return 0;
-	}
-	case WM_DESTROY:
-		PostQuitMessage(0);
-		return 0;
+    	case WM_PAINT:
+    	{
+    		PAINTSTRUCT ps;
+    		HDC hdc = BeginPaint(hWnd, &ps);
+    		TextOut(hdc, 100, 100, text, lstrlen(text));
+    		EndPaint(hWnd, &ps);
+    		return 0;
+    	}
+    	case WM_DESTROY:
+    		PostQuitMessage(0);
+    		return 0;
 	}
 	return(DefWindowProc(hWnd, iMessage, wParam, lParam));
 }
@@ -816,3 +816,40 @@ int APIENTRY WinMain(..)
 - 윈도우 프로시저(`WndProc`)는 메시지가 발생할 때 프로그램의 반응을 처리하는 일을 하는 메시지 핸들러 함수이다.
 - `WndProc`는 `WinMain`에서 호출하는 것이 아니라 Windows에 의해 호출된다.
 - `WinMain` 내의 메시지 루프는 메시지를 메시지 핸들러 함수로 보내 주기만 할 뿐이고, `WndProc`는 메시지가 입력되면 Windows에 의해 호출되어 메시지를 처리한다.
+- `WndProc`은 운영체제에 의해 호출되기 때문에 CALLBACK 함수라고도 한다.
+- `WndProc`의 매개변수는 모두 4개로, `MSG` 구조체의 멤버 4개와 동일하다.
+    - `hWnd`는 메시지를 받을 위도우의 핸들이다.
+    - `iMessage`는 어떤 종류의 메시지인가 (어떤 변화가 발생했는가)에 관한 정보를 가진다.
+    - `iMessage`의 값이 `WM_MOVE`이면 윈도우의 위치가 변경되었음을 알리는 것이고, `WM_DESTORY면` 윈도우가 파괴(종료)되었음을 알리는 것이다.
+    - `wParam`과 `lParam`은 메시지의 부가적인 정보를 가진다.
+        - 예를 들어, 마우스 버튼이 눌러졌다는 `WM_LBUTTONDOWN` 메시지가 입력되었다면 메시지가 발생한 당시에 마우스 버튼의 클릭된 위치, 키보드 상황 등의 정보를 가진다.
+        - `WM_CHAR` 메시지 발생시 어떤 키가 입력되었는가에 대한 정보를 가진다.
+
+#### 윈도우 프로시저 구조
+- `WndProc`의 구조는 다음과 같은 형태를 가진다. 메시지의 종류에 따라 다중 분기하여 메시지별로 처리를 진행한다.
+  ```C++
+  LRESULT CALLBACK WndProc(HWND hWnd, UINT iMessage, WPARAM wParam, LPARAM lParam) {
+  	switch (iMessage) {
+  	case Msg1:
+  		// 처리 1
+  		return 0;
+  	case Msg2:
+  		// 처리 2
+  		return 0;
+  	...
+  	case WM_DESTORY:
+  		PostQuitMessage(0);
+  		return 0;
+  	}
+  	return(DefWindowProc(hWnd, iMessage, wParam, lParam));
+  }
+  ```
+- `Msg1` 메시지가 전달되면 '처리 1'을 한 후 리턴하고, `Msg2` 메시지가 전달되면 '처리 2'를 한 후 리턴한다.
+- `case`문은 프로그램이 처리할 메시지의 수만큼 반복된다.
+- 제일 끝에 있는 `DefWindowProc` 함수는 `WndProc`에서 처리하지 않은 나머지 메시지에 관한 처리를 해준다.
+	- 예를 들어, 시스템 메뉴를 더블클릭하여 프로그램을 종료할 시 별도로 지정하지 않아도 `DefWindowProc` 함수에서 알아서 해준다.
+	- 윈도우의 이동이나 크기 변경 같은 기본적인 처리는 직접 해줄 필요 없이 `DefWindowProc`으로 넘기면 된다.
+- `WM_DESTORY` 메시지는 사용자가 시스템 메뉴를 더블클릭하거나 `[ALT + F4]`를 눌러 프로그램을 끝내려고 할 때 발생하는 메시지이다.
+	- `WndProc`에서 `WM_DESTORY` 메시지가 발생하면 `PostQuitMessage` 함수를 호출하여 `WM_QUIT` 메시지를 시스템 큐에 보낸다.
+	- `WM_QUIT` 메시지가 입력되면 메시지 루프의 `GetMessage` 함수 리턴값이 `False`가 되어 프로그램이 종료된다.
+- 

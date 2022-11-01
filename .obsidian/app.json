@@ -4,7 +4,7 @@
   "spellcheck": true,
   "vimMode": false,
   "showUnsupportedFiles": true,
-  "useTab": false,
+  "useTab": true,
   "spellcheckDictionary": [
     "computable",
     "chrominance",
