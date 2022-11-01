@@ -39,8 +39,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -146,7 +145,7 @@
     "direction": "horizontal",
     "width": 316.5
   },
-  "active": "63e6095f32f11bfb",
+  "active": "b712c93616739712",
   "lastOpenFiles": [
     "computer_science/GUI/knou_visual_cpp_notes.md",
     "todo/todo_log_2021.md",
