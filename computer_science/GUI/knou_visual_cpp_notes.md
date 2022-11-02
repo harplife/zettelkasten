@@ -910,5 +910,125 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT iMessage, WPARAM wParam, LPARAM lParam)
 - 밑에 코드는 메인 윈도우 안에 차일드 윈도우가 나타나도록 하는 소스코드 이다.
 
 ```C++
+#include <windows.h>
 
+LRESULT CALLBACK WndProc(HWND,UINT,WPARAM,LPARAM);
+LRESULT CALLBACK ChildWndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam);
+
+HINSTANCE g_hInst;
+LPCTSTR lpszClass = L"HelloAPI";
+LPCTSTR ChildClassName  = L"ChildWin";
+
+int APIENTRY WinMain(HINSTANCE hInstance,
+					 HINSTANCE hPrevInstance,
+					 LPSTR lpszCmdParam,
+					 int nCmdShow)
+{
+	HWND hWnd;
+	MSG Message;
+	WNDCLASS WndClass;
+	g_hInst=hInstance;
+	
+	WndClass.cbClsExtra=0;
+	WndClass.cbWndExtra=0;
+	WndClass.hbrBackground=(HBRUSH)GetStockObject(WHITE_BRUSH); 
+	WndClass.hCursor=LoadCursor(NULL,IDC_ARROW);    
+	WndClass.hIcon=LoadIcon(NULL,IDI_APPLICATION);
+	WndClass.hInstance=hInstance;
+	WndClass.lpfnWndProc=(WNDPROC)WndProc;
+	WndClass.lpszClassName=lpszClass;
+	WndClass.lpszMenuName=NULL;
+	WndClass.style=CS_HREDRAW | CS_VREDRAW;
+	RegisterClass(&WndClass);     //메인윈도우 클래스 등록
+
+	WndClass.lpfnWndProc =ChildWndProc;      //차일드 윈도우 프로시저
+	WndClass.lpszClassName =ChildClassName; //차일드 윈도우 클래스이름
+	RegisterClass(&WndClass); 
+
+	hWnd=CreateWindow(
+					lpszClass,							//윈도우클래스 이름
+					L"윈도우 프로그래밍",			    //윈도우타이틀
+					WS_OVERLAPPEDWINDOW | WS_VISIBLE,   //윈도우스타일
+					200, 200,							//윈도우가 보일때 X Y좌표
+					600, 600,							//윈도우의 폭과 높이				
+					(HWND)NULL,							//부모윈도우 핸들
+					(HMENU)NULL,						//윈도우가 가지는 메뉴핸들
+					hInstance,							//인스턴스핸들
+					NULL);								//여분의 데이터
+
+ 	   ShowWindow(hWnd,nCmdShow);
+	
+	while(GetMessage(&Message,0,0,0)) {
+		TranslateMessage(&Message);
+		DispatchMessage(&Message);
+	}
+	return Message.wParam;
+}
+
+LRESULT CALLBACK WndProc(HWND hWnd, UINT iMessage,
+						 WPARAM wParam, LPARAM lParam)
+{
+	LPCTSTR text = L"메인윈도우 생성";
+	switch(iMessage) {
+		case WM_PAINT:
+			{
+				PAINTSTRUCT ps;
+				HDC hdc = BeginPaint(hWnd, &ps);
+				TextOut(hdc,100, 100, text, lstrlen(text));
+				EndPaint(hWnd,&ps);
+				return 0;
+			}
+		case WM_CREATE:
+		{
+			HWND hChildWnd = CreateWindow( 
+				ChildClassName,     				// 차일드 윈도우 클래스 이름 
+				L"차일드 윈도우",            		// 윈도우 타이틀 
+				WS_OVERLAPPEDWINDOW | WS_CHILD,		// 윈도우  스타일 
+				150, 150,							// 윈도우 보일 때 x,y 좌표 
+				260, 200,							// 윈도우 width, height
+				hWnd,								// 부모 윈도우
+				(HMENU) 1000,						// 차일드 윈도우ID 
+				g_hInst,							// 인스턴스 핸들 
+				(LPVOID) NULL);						// 여분의 데이터
+
+			if (!hChildWnd) 	return -1;
+
+			ShowWindow(hChildWnd, SW_SHOW); 
+			return 0;
+		}
+		case WM_DESTROY:
+			PostQuitMessage(0);
+			return 0;
+		}
+	return(DefWindowProc(hWnd,iMessage,wParam,lParam));
+}
+LRESULT CALLBACK ChildWndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
+{
+	LPCTSTR text = L"차일드 윈도우생성";
+	switch(message)
+	{
+		case WM_PAINT:
+		{
+			PAINTSTRUCT ps;
+			HDC hdc = BeginPaint(hWnd,&ps);
+			TextOut(hdc,10, 10, text, lstrlen(text));
+			EndPaint(hWnd,&ps);
+			return 0;
+		}
+
+	}
+
+	return DefWindowProc(hWnd, message, wParam, lParam);
+}
 ```
+
+- 메인 윈도우는 부모 윈도우가 없는 최상위 윈도우지만, 차일드 윈도우(Child Window)는 부모 윈도우(Parent Window)에 포함되어 있으므로 부모 윈도우에서 만들어야 한다 - 그 말은, 부모 윈도우 프로시저 안에서 차일드 윈도우를 생성하는 함수들을 실행한다는 것이다.
+- 차일드 윈도우를 만드는 방법은 메인 윈도우와 마찬가지로 `RegisterClass()` 함수를 이용해서 윈도우 클래스를 등록하고, `Create()` 함수를 호출해서 윈도우를 생성하면 된다.
+
+### 차일드 윈도우 클래스 등록
+- 윈도우 클래스라는 용어에서 가리키는 클래스는 프로그래밍에서 말하는 클래스와는 다른 개념이다 - 윈도우 클래스는 윈도우의 특성을 정의한 구조체이다.
+- 윈도우 클래스는 부류 내지는 종류, 등급이라고 할 수 있다.
+- 메인 윈도우와 마찬가지로 `WinMain()` 함수에서 윈도우 클래스를 정의하면서 윈도우에 대한 속성들을 입력하고 `RegisterClass()` 함수로 정의된 윈도우 클래스를 등록한다.
+
+### 차일드 윈도우 프로시저 작성
+- 
