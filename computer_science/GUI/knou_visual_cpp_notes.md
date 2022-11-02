@@ -904,3 +904,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT iMessage, WPARAM wParam, LPARAM lParam)
 	3. DC 사용이 끝났음을 운영체제에 알린다.
 
 ## 차일드 윈도우 생성
+- 차일드 윈도우에는 두 가지 종류가 있다.
+	1. 버튼이나 콤보 박스와 같은 컨트롤 형태의 차일드 윈도우
+	2. 일반 윈도우 형태의 차일드 윈도우 (메인 윈도우 안에 또 다른 윈도우)
+- 
