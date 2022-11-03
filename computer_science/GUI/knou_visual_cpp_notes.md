@@ -349,7 +349,7 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
     - `_T("text here")`
     - `L"text here"`
 
-## 메인 윈도우 생성
+## 메인 윈도우
 메인 윈도우를 생성하는 소스 코드는 다음과 같다.
 
 ```C++
@@ -903,7 +903,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT iMessage, WPARAM wParam, LPARAM lParam)
 	2. 운영체제가 제공한 DC를 매개변수로 하는 API 함수를 호출하여 출력한다.
 	3. DC 사용이 끝났음을 운영체제에 알린다.
 
-## 차일드 윈도우 생성
+## 차일드 윈도우
 - 차일드 윈도우에는 두 가지 종류가 있다.
 	1. 버튼이나 콤보 박스와 같은 컨트롤 형태의 차일드 윈도우
 	2. 일반 윈도우 형태의 차일드 윈도우 (메인 윈도우 안에 또 다른 윈도우)
@@ -1015,20 +1015,21 @@ LRESULT CALLBACK ChildWndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lPa
 			EndPaint(hWnd,&ps);
 			return 0;
 		}
-
 	}
-
 	return DefWindowProc(hWnd, message, wParam, lParam);
 }
 ```
 
 - 메인 윈도우는 부모 윈도우가 없는 최상위 윈도우지만, 차일드 윈도우(Child Window)는 부모 윈도우(Parent Window)에 포함되어 있으므로 부모 윈도우에서 만들어야 한다 - 그 말은, 부모 윈도우 프로시저 안에서 차일드 윈도우를 생성하는 함수들을 실행한다는 것이다.
-- 차일드 윈도우를 만드는 방법은 메인 윈도우와 마찬가지로 `RegisterClass()` 함수를 이용해서 윈도우 클래스를 등록하고, `Create()` 함수를 호출해서 윈도우를 생성하면 된다.
+
+### 차일드 윈도우 프로시저 작성
+- 차일드 윈도우 프로시저를 `ChildWndProc()`라는 함수로서 정의한다. 차일드 윈도우 프로시저는 `WM_PAINT` 메시지로 문자열을 화면에 표출하는 기능을 구현하며, 그 외 모든 메시지는 `DefWindowProc()` 함수로서 Default값으로 처리한다.
 
 ### 차일드 윈도우 클래스 등록
 - 윈도우 클래스라는 용어에서 가리키는 클래스는 프로그래밍에서 말하는 클래스와는 다른 개념이다 - 윈도우 클래스는 윈도우의 특성을 정의한 구조체이다.
 - 윈도우 클래스는 부류 내지는 종류, 등급이라고 할 수 있다.
 - 메인 윈도우와 마찬가지로 `WinMain()` 함수에서 윈도우 클래스를 정의하면서 윈도우에 대한 속성들을 입력하고 `RegisterClass()` 함수로 정의된 윈도우 클래스를 등록한다.
 
-### 차일드 윈도우 프로시저 작성
+### 차일드 윈도우 생성
+- 차일드 윈도우는 메인 윈도우와 마찬가지로 `CreateWindow()` 함수를 사용해서 생성하면 된다.
 - 
