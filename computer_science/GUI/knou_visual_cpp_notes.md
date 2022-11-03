@@ -903,6 +903,9 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT iMessage, WPARAM wParam, LPARAM lParam)
 	2. 운영체제가 제공한 DC를 매개변수로 하는 API 함수를 호출하여 출력한다.
 	3. DC 사용이 끝났음을 운영체제에 알린다.
 
+### 메인 윈도우 생성 결과
+![[visual_cpp_chapter1_main_window.png]]
+
 ## 차일드 윈도우
 - 차일드 윈도우에는 두 가지 종류가 있다.
 	1. 버튼이나 콤보 박스와 같은 컨트롤 형태의 차일드 윈도우
@@ -983,7 +986,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT iMessage,
 			HWND hChildWnd = CreateWindow( 
 				ChildClassName,     				// 차일드 윈도우 클래스 이름 
 				L"차일드 윈도우",            		// 윈도우 타이틀 
-				WS_OVERLAPPEDWINDOW | WS_CHILD,		// 윈도우  스타일 
+				WS_OVERLAPPEDWINDOW | WS_CHILD,		// 윈도우 스타일 
 				150, 150,							// 윈도우 보일 때 x,y 좌표 
 				260, 200,							// 윈도우 width, height
 				hWnd,								// 부모 윈도우
@@ -1031,5 +1034,27 @@ LRESULT CALLBACK ChildWndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lPa
 - 메인 윈도우와 마찬가지로 `WinMain()` 함수에서 윈도우 클래스를 정의하면서 윈도우에 대한 속성들을 입력하고 `RegisterClass()` 함수로 정의된 윈도우 클래스를 등록한다.
 
 ### 차일드 윈도우 생성
-- 차일드 윈도우는 메인 윈도우와 마찬가지로 `CreateWindow()` 함수를 사용해서 생성하면 된다.
-- 
+- 차일드 윈도우는 메인 윈도우와 마찬가지로 `CreateWindow()` 함수를 사용해서 윈도우에 대한 정보가 담긴 윈도우 객체를 생성하고, `ShowWindow()` 함수로 화면에 차일드 윈도우를 그린다.
+  ![[visual_cpp_chapter1_child_window_spec.png]]
+- 차일드 윈도우의 생성은 메인 윈도우 프로시저 `WndProc()` 함수 안에서 구현되며, `hChildWnd` 변수 안에 차일드 윈도우의 핸들이 담긴다.
+- 차일드 윈도우는 캡션을 가지고 있고, 크기 조절도 가능하다. 메인 윈도우의 차일드로 존재한다는 것을 제외하고 메인 윈도우와 모두 같다.
+- 차일드 윈도우는 부모 윈도우 바깥으로 나갈 수 없다.
+
+### 차일드 윈도우 생성 결과
+![[visual_cpp_chapter1_child_window.png]]
+
+## 버튼 사용하기
+
+### 버튼 컨트롤
+- 윈도우는 화면에 그려지는 창 뿐만이 아니라 윈도우에 일정한 영역을 차지하며 자신의 고유 메시지를 처리하는 컨트롤(Control)도 포함한다.
+- 컨트롤은 독립적으로 사용될 수 없고, 반드시 차일드 윈도우로만 존재한다.
+- 컨트롤은 운영체제에서 제공해주기 때문에 별도로 윈도우 클래스를 만들 필요가 없다.
+- Windows에서 제공하는 컨트롤은 다음과 같다.
+	- button (버튼, 체크, 라디오)
+	- static (텍스트)
+	- scrollbar (스크롤바)
+	- edit (에디터)
+	- listbox (리스트 박스)
+	- combobox (콤보 박스)
+- 컨트롤은 `CreateWindow()` 함수의 첫 번째 매개변수로 운영체제에서 제공해준 컨트롤의 윈도우 클래스 이름만 지정함으로서 간단히 만들 수 있다.
+- `CreateWindow()` 함수는 `WM_CREATE` 메시지가 발생했을 때 호출되며, 이 함수가 호출됨으로 컨트롤이 생성된다.
