@@ -1353,4 +1353,30 @@ hChildWnd = CreateWindow(				// 버튼 컨트롤 차일드 윈도우 생성
 	- `CSDIDoc` : `CDoument`에서 상속받은 Document 클래
 - SDI 프로임워크 내의 클래스들의 관계를 그림으로 표현하면 다음과 같다.
   ![[visual_cpp_chapter2_mfc_sdi_framework.png]]
+
+### CSDIApp
+- Win32 API 프로그램은 반드시 `WinMain()` 함수를 가진다. 그러나 MFC를 이용하면 MFC가 `WinMain()`에 해당하는 기본적인 코드를 작성해서 제공한다 - 이 클래스가 바로 응용 프로그램 클래스인 `CWinApp` 클래스이다.
+- 프로그램이 시작되면서 `CWinApp` 클래스로부터 상속받은 응용 프로그램 클래스 `CSDIApp`의 객체가 생성되고, 프로그램을 초기화할 수 있도록 `CSDIApp::InitInstance()` 멤버 함수가 호출된다.
+- `InitInstance()` 함수가 하는 일은 응용 프로그램에서 사용할 클래스(`CMainFrame`, `CSDIDoc`, `CSDIView`)를 등록하고, 메인 윈도우인 `CMainFrame` 클래스의 객체를 생성한 다음, 메인 윈도우를 화면에 보여 주는 것이다.
+- 클래스 뷰 창에서 `CSDIApp`을 클릭하고 `InitInstance()`를 더블클릭하면 SDI.cpp 파일이 열리며 `InitInstance()` 함수가 정의되는 코드를 볼 수 있다.
+	- `SetRegistryKey()` 함수를 호출해서 응용 프로그램의 정보를 레지스트리에 저장할 수 있도록 레지스트리 키를 설정한다.
+	- `LoadStdProfileSettings()`은 가장 최근에 사용한(Most Recently Used, MRU) 파일의 목록을 가져오기 위해 INI 파일을 사용하기 위한 기능을 제공한다.
+	- 밑에 코드는 사용할 클래스들을 등록하는 부분이다. `CMainFrame`, `CSDIView`, `CSDIDoc` 클래스를 사용하기 위해 템플릿을 등록한다.
+	  ```C++
+	  CSingleDocTemplate* pDocTemplate;
+	  pDocTemplate = new CSingleDocTemplate(
+	  	  IDR_MAINFRAME,
+	  	  RUNTIME_CLASS(CSDIDoc),
+	  	  RUNTIME_CLASS(CMainFrame),       // main SDI frame window
+	  	  RUNTIME_CLASS(CSDIView));
+	  if (!pDocTemplate)
+	  	  return FALSE;
+	  AddDocTemplate(pDocTemplate);
+	  ```
+	- `ProcessShellCommand()` 함수는 `CSDIDoc` 클래스와 `CMainFrame` 클래스의 객체를 생성한 후, `CWinApp`의 멤버 데이터인 `m_pMainWnd`에 `CMainFrame`의 객체를 대입한다.
+	- 메인 윈도우 클래스 `m_pMainWnd`를 이용해서 메인 프레임 윈도우를 화면에 보인다 (`m_pMainWnd == ShowWindow()`).
+
+### CSDIView
+- View 윈도우는 메인 윈도우에서 생성하는 차일드 윈도우다.
+- 메인 윈도우가 생성될 때 `WM_CREATE` 메시지가 전달되면 `CMainFrame::OnCreate()` 함수가 호출되어 View 윈도우가 생성된다.
 - 
