@@ -9,6 +9,8 @@ edited: 2022-10-20
 # Visual Studio 설치 및 설정
 교과서에는 2019 버전 설치를 말하는데.. 일단 2022 버전으로 설치해서 진행할 것.
 
+주의 : "C++를 사용한 데스크톱 개발"을 선택한 후 설치 세부 정보 아래 추가 옵션들 모두 선택해줘야 함.
+
 ## 도움말 뷰어 설치
 오프라인 Visual C++ 도움말 설치. 기본적으로 온라인에서 매번 도움말을 호출해오지만, 도움말 뷰어에서 VC++ 도움말을 설치하면 오프라인 도움말을 불러옴으로 훨씬 빠름.
 
@@ -1265,7 +1267,7 @@ hChildWnd = CreateWindow(				// 버튼 컨트롤 차일드 윈도우 생성
 	- `LoadIcon()` 함수에 대한 [정보](https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-loadicona)
 	- `CreateSolidBrush()` 함수에 대한 [정보](https://learn.microsoft.com/en-us/windows/win32/api/wingdi/nf-wingdi-createsolidbrush)
 
-# 제2장 SDI 프로그램
+# 제2장 MFC 프로그래밍
 - WinAPI 외에 윈도우 프로그래밍을 할 수 있는 다른 방법으로는 MFC(Microsoft Foundation Class) 클래스 라이브러리(Class Library)를 사용하는 방법이 있다.
 - MFC는 WinAPI보다 훨씬 더 효율적이고 생산성 있게 프로그램을 개발할 수 있는 방법이다.
 - MFC에 클래스라는 용어에서 알 수 있듯이 MFC는 OOP(Object Oriented Programming)을 기반으로 한다. 클래스는 캡슐화, 정보은닉, 상속 등의 특징을 갖는다.
@@ -1287,3 +1289,23 @@ hChildWnd = CreateWindow(				// 버튼 컨트롤 차일드 윈도우 생성
 - SDI
 - MDI
 - 컨트롤
+
+## SDI 프로젝트
+- SDI, Single Document Interface : 메모장, 워드패드처럼 하나의 View 윈도우를 가진 프로그램이다.
+- MDI, Multiple Document Interface : 여러 개의 View 윈도우를 가진 프로그램으로, 거의 대부분 프로그램이 MDI이다.
+- Dialog 기본 프로그램 : 계산기 프로그램처럼 메인 윈도우가 다이얼로그 박스인 SDI 프로그램이다.
+
+### MFC 프로젝트 생성
+- Visual Studio -> 
+
+
+### MFC 응용 프로그램 마법사
+- 프로젝트 만들기를 진행하면 MFC 애플리케이션 설정창이 뜬다. 다음과 같이 옵션을 선택하고 진행한다.
+	1. 애플리케이션 종류 설정에 "애플리케이션 종류"는 "단일 문서"로 선택한다.
+		- 단일 문서, 즉, SDI 프로그램을 개발할 것임을 가리키는 것이다.
+	2. 애플리케이션 종류 설정에 "프로젝트 스타일"은 "MFC standard"로 선택한다.
+	3. 애플리케이션 종류 설정에 "비주얼 스타일 및 색"은 "Windows Native/Default"로 선택한다.
+	4. 애플리케이션 종류 설정에 "복합 문서 지원"은 "없음"으로 선택한다.
+		- SDI 프로그램은 복합 문서를 사용하지 않기 때문이다.
+	5. 
+- 
