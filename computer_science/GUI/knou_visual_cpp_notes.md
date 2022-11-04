@@ -1321,4 +1321,36 @@ hChildWnd = CreateWindow(				// 버튼 컨트롤 차일드 윈도우 생성
 
 ### SDI 프로그램의 구조
 - MFC 응용 프로그램 마법사로 생성한 SDI 프로그램은 기본적으로 여러 개의 윈도우으로 구성된다. 메인 윈도우가 있고 그 안에 툴바, 상태바, 그리고 View 윈도우가 있다.
+- 하나의 View 윈도우를 가지고 있으므로 SDI(Single Document Interface) 프로그램이라고 한다.
+- MFC는 우니도우의 모든 기능을 클래스로 구현해서 제공하고 있다.
+	- `CMainFrame`은 메인 윈도우를 나타내는 클래스다.
+	- `CSDIView`는 View 윈도우를 나타내는 클래스다.
+	- `CSDIDoc`은 데이터를 처리하고 저장하는 것을 담당하는 클래스다.
+	- `CSDIApp`은 전체 프로그램을 관리하는 클래스다.
+
+#### MFC가 생성한 소스 파일
+| Source File                | Description                                              |
+| -------------------------- | -------------------------------------------------------- |
+| SDI.vcxproj                | VC++ 프로젝트 정보를 포함하고 있는 프로젝트 파일         |
+| SDI.sln                    | 비주얼 스튜디오의 프로젝트 환경정보 파일로서 가장 메인임 |
+| SDI.h, SDI.cpp             | CSDIApp 클래스를 정의하고 구현한 프로그램의 메인 파일    |
+| MainFrame.h, MainFrame.cpp | CMainFrame 클래스 파일                                   |
+| SDIView.h, SDIView.cpp     | CSDIView 클래스 파일                                     |
+| SDIDoc.h, SDIDoc.cpp       | CSDIDoc 클래스 파일                                      |
+| StdAfx.h, StdAfx.cpp       | MFC를 사용하기 위한 기본 헤더 파일을 포함하는 파일       |
+| Resource.h                 | 리소스 ID 정의를 포함하고 있는 파일                      |
+| SDI.rc                     | 프로그램에서 사용하는 리소스가 정의된 파일               |
+| resSDI.ico                 | 아이콘 파일                                              |
+| resSDI.rc2                 | Visual C++에 의해 편집되지 않는 리소스를 포함함          |
+| resToolbar.bmp             | 툴바 이미지를 생성하는데 사용되는 그림 파일              |
+
+### 응용 프로그램 프레임워크
+- MFC는 응용 프로그램을 작성하기 위해 필요한 프레임워크를 제공한다.
+- MFC가 제공하는 SDI 프로그램의 응용 프로그램 프레임워크는 다음과 같다.
+	- `CSDIApp` : `CWinApp`에서 상속받은 응용 프로그램 클래스
+	- `CMainFrame` : `CFrameWnd`에서 상속받은 프레임 윈도우 클래스
+	- `CSDIView` : `CView`에서 상속받은 View 클래스
+	- `CSDIDoc` : `CDoument`에서 상속받은 Document 클래
+- SDI 프로임워크 내의 클래스들의 관계를 그림으로 표현하면 다음과 같다.
+  ![[visual_cpp_chapter2_mfc_sdi_framework.png]]
 - 
