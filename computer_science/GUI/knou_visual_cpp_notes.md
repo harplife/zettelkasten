@@ -1300,14 +1300,15 @@ hChildWnd = CreateWindow(				// 버튼 컨트롤 차일드 윈도우 생성
 
 ### MFC 응용 프로그램 마법사
 - 프로젝트 만들기를 진행하면 MFC 애플리케이션 설정창이 뜬다. 다음과 같이 옵션을 선택하고 진행한다.
-	1. 애플리케이션 종류 설정에 "애플리케이션 종류(Application Type)"는 "단일 문서(Single Document)"로 선택한다.
+	1. 애플리케이션 종류 설정에 "애플리케이션 종류(Application type)"는 "단일 문서(Single Document)"로 선택한다.
 		- 단일 문서, 즉, SDI 프로그램을 개발할 것임을 가리키는 것이다.
-	2. 애플리케이션 종류 설정에 "프로젝트 스타일(Project Style)"은 "MFC standard"로 선택한다.
-	3. 애플리케이션 종류 설정에 "비주얼 스타일 및 색(Visual Style and colors)"은 "Windows Native/Default"로 선택한다.
-	4. 애플리케이션 종류 설정에 "복합 문서 지원"은 "없음"으로 선택한다.
+	2. 애플리케이션 종류 설정에 "프로젝트 스타일(Project style)"은 "MFC standard"로 선택한다.
+	3. 애플리케이션 종류 설정에 "비주얼 스타일 및 색(Visual style and colors)"은 "Windows Native/Default"로 선택한다.
+	4. 애플리케이션 종류 설정에 "복합 문서 지원(Compound document support)"은 "없음(none)"으로 선택한다.
 		- SDI 프로그램은 복합 문서를 사용하지 않기 때문이다.
-	5. 문서 템플릿 속성 설정은 모두 Default 그대로 선택한다.
-	6. 사용자 인터페이스 기능 설정은 모두 Default 그대로 선택한다.
-	7. 고급 기능 설정은 건너뛴다.
-	8. 생성된 클래스 설정에서 "클래스 이름"은 "CSDIApp"으로 입력한다.
+	5. 애플리케이션 종류 설정 나머지는 모두 Default 그대로 선택한다.
+	6. 문서 템플릿 속성 설정은 모두 Default 그대로 선택한다.
+	7. 사용자 인터페이스 기능 설정은 모두 Default 그대로 선택한다.
+	8. 고급 기능 설정은 모두 Default 그대로 선택한다.
+	9. 생성된 클래스 설정은 모두 Default 그대로 선택한다.
 - 
