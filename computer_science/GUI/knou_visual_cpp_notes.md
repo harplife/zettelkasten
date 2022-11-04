@@ -1266,4 +1266,10 @@ hChildWnd = CreateWindow(				// 버튼 컨트롤 차일드 윈도우 생성
 	- `CreateSolidBrush()` 함수에 대한 [정보](https://learn.microsoft.com/en-us/windows/win32/api/wingdi/nf-wingdi-createsolidbrush)
 
 # 제2장 SDI 프로그램
-
+- WinAPI 외에 윈도우 프로그래밍을 할 수 있는 다른 방법으로는 MFC(Microsoft Foundation Class) 클래스 라이브러리(Class Library)를 사용하는 방법이 있다.
+- MFC는 WinAPI보다 훨씬 더 효율적이고 생산성 있게 프로그램을 개발할 수 있는 방법이다.
+- MFC에 클래스라는 용어에서 알 수 있듯이 MFC는 OOP(Object Oriented Programming)을 기반으로 한다. 클래스는 캡슐화, 정보은닉, 상속 등의 특징을 갖는다.
+- MFC는 윈도우 프로그래밍을 보다 쉽게 하기 위하여 WinAPI 함수들을 클래스들로 포장하여 구성한 클래스 라이브러리이다.
+- MFC에는 윈도우, DC, 펜, 브러시, 파일, 심지어 프로그램 그 자체까지도 객체로 정의되어 있다.
+	- 변수를 선언하는 것만으로도 객체를 쉽게 만들 수 있다. 예를 들어, 윈도우 하나를 만들기 위해 `CWnd ChildWnd;` 처럼 변수 선언만 하면 된다.
+- 
