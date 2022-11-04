@@ -1311,4 +1311,14 @@ hChildWnd = CreateWindow(				// 버튼 컨트롤 차일드 윈도우 생성
 	7. 사용자 인터페이스 기능 설정은 모두 Default 그대로 선택한다.
 	8. 고급 기능 설정은 모두 Default 그대로 선택한다.
 	9. 생성된 클래스 설정은 모두 Default 그대로 선택한다.
+- 위 설정을 선택하고 마침(Finish)를 누르면 프로젝트가 생성된다. 이 프로젝트는 바로 빌드가 가능하고, 아주 간단한 윈도우가 그려진다.
+  ![[visual_cpp_chapter2_mfc_sdi_base.png]]
+
+## SDI 기본 코드 이해하기
+- 프로젝트 내에 있는 파일 또는 클래스들을 관리하기 위해 Visual Studio는 "솔루션 탐색기(Solution Explorer)"와 "클래스 뷰(Class View)"를 제공한다.
+  ![[visual_cpp_chapter2_mfc_sdi_solution_explorer.png]]
+  ![[visual_cpp_chapter2_mfc_sdi_class_view.png]]
+
+### SDI 프로그램의 구조
+- MFC 응용 프로그램 마법사로 생성한 SDI 프로그램은 기본적으로 여러 개의 윈도우으로 구성된다. 메인 윈도우가 있고 그 안에 툴바, 상태바, 그리고 View 윈도우가 있다.
 - 
