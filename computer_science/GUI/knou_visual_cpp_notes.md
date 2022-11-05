@@ -1388,4 +1388,7 @@ hChildWnd = CreateWindow(				// 버튼 컨트롤 차일드 윈도우 생성
 
 ###  CWnd
 - MFC를 사용하는 프로그램에서 모든 윈도우는 `CWnd` 클래스에서 상속받는다. 즉, `CWnd` 클래스는 모든 윈도우의 기본 클래스가 된다.
+- [MFC Hierarchy Chart](https://learn.microsoft.com/en-us/cpp/mfc/hierarchy-chart)를 참고하여 MFC 내에 클래스 간의 상속 관계를 확인해볼 수 있다.
+
+## SDI 프로그램의 응용
 - 
