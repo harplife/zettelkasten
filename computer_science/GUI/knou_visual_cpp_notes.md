@@ -1395,4 +1395,5 @@ hChildWnd = CreateWindow(				// 버튼 컨트롤 차일드 윈도우 생성
 - Visual Studio에서 상단 메뉴 "프로젝트(Project)" -> "클래스 추가(Add class)"를 클릭하면 MFC 클래스 마법사 창이 뜬다.
 	- 클래스 이름은 `CChildWnd`로, 기본 클래스는 `CWnd`로 입력해서 진행한다.
 	  ![[visual_cpp_chapter2_mfc_sdi_add_class.png]]
-- 
+- 위와 같이 MFC 클래스 마법사로 클래스를 추가하면 `CWnd`에서 상속받은 `CChildWnd` 클래스가 `ChildWnd.h`와 `ChildWnd.cpp` 파일에 생성되고, `ChildWnd.cpp` 파일이 프로젝트에 포함된다.
+- 솔루션 탐색이 창에서 새로 생성된 `ChildWnd.cpp` 파일과 `ChildWnd.h` 파일
