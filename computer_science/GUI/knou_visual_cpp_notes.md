@@ -1309,10 +1309,13 @@ hChildWnd = CreateWindow(				// 버튼 컨트롤 차일드 윈도우 생성
 	5. 애플리케이션 종류 설정 나머지는 모두 Default 그대로 선택한다.
 	6. 문서 템플릿 속성 설정은 모두 Default 그대로 선택한다.
 	7. 사용자 인터페이스 기능 설정은 모두 Default 그대로 선택한다.
+		- 교재 예시는 뭔가 잘 못 된 듯. 사용자 인터페이스 기능 설정에서 "리본 사용(Use a ribbon)"을 사용해야 생성된 프로젝트에 리본 관련된 코드가 나옴.
 	8. 고급 기능 설정은 모두 Default 그대로 선택한다.
 	9. 생성된 클래스 설정은 모두 Default 그대로 선택한다.
 - 위 설정을 선택하고 마침(Finish)를 누르면 프로젝트가 생성된다. 이 프로젝트는 바로 빌드가 가능하고, 아주 간단한 윈도우가 그려진다.
   ![[visual_cpp_chapter2_mfc_sdi_base.png]]
+  밑에는 사용자 인터페이스 설정에 리본 사용을 선택한 결과이다.
+  ![[visual_cpp_chapter2_mfc_sdi_base_w_ribbon.png]]
 
 ## SDI 기본 코드 이해하기
 - 프로젝트 내에 있는 파일 또는 클래스들을 관리하기 위해 Visual Studio는 "솔루션 탐색기(Solution Explorer)"와 "클래스 뷰(Class View)"를 제공한다.
@@ -1381,4 +1384,8 @@ hChildWnd = CreateWindow(				// 버튼 컨트롤 차일드 윈도우 생성
 - 메인 윈도우가 생성될 때 `WM_CREATE` 메시지가 전달되면 `CMainFrame::OnCreate()` 함수가 호출되어 View 윈도우가 생성된다.
 - Visual Studio에 클래스 뷰 창에서 `CMainFrame`을 클릭하고 `OnCreate(..)`을 더블클릭하면 MainFrm.cpp 파일이 열리며 `OnCreate(..)` 함수가 정의되는 코드를 볼 수 있다.
 	- `CMainFrame`의 `OnCreate()`에서 부모 클래스인 `CFrameWnd`의 `OnCreate()`를 호출한다. `CFrameWnd::OnCreate()`에서는 `CSDIApp::InitInstance()`에서 등록한 템플릿에서 View 윈도우 클래스 `CSDIView` 정보를 얻어 내어 `CSDIView` 클래스의 객체를 생성해서 View 윈도우를 만든다.
-	- 
+	- 리본(메뉴)이나 상태바(Status Bar) 둘 다 차일드 윈도우이다.
+
+###  CWnd
+- MFC를 사용하는 프로그램에서 모든 윈도우는 `CWnd` 클래스에서 상속받는다. 즉, `CWnd` 클래스는 모든 윈도우의 기본 클래스가 된다.
+- 
