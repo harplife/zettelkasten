@@ -1390,5 +1390,9 @@ hChildWnd = CreateWindow(				// 버튼 컨트롤 차일드 윈도우 생성
 - MFC를 사용하는 프로그램에서 모든 윈도우는 `CWnd` 클래스에서 상속받는다. 즉, `CWnd` 클래스는 모든 윈도우의 기본 클래스가 된다.
 - [MFC Hierarchy Chart](https://learn.microsoft.com/en-us/cpp/mfc/hierarchy-chart)를 참고하여 MFC 내에 클래스 간의 상속 관계를 확인해볼 수 있다.
 
-## SDI 프로그램의 응용
+## 차일드 윈도우 만들기
+- `CWnd`에서 상속받은 클래스를 이용하여 View 윈도우의 차일드 윈도우가 만들어지는데, MFC 클래스 마법사를 이용하면 쉽게 만들 수 있다.
+- Visual Studio에서 상단 메뉴 "프로젝트(Project)" -> "클래스 추가(Add class)"를 클릭하면 MFC 클래스 마법사 창이 뜬다.
+	- 클래스 이름은 `CChildWnd`로, 기본 클래스는 `CWnd`로 입력해서 진행한다.
+	  ![[visual_cpp_chapter2_mfc_sdi_add_class.png]]
 - 
