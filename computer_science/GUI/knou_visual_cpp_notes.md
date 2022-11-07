@@ -1397,4 +1397,26 @@ hChildWnd = CreateWindow(				// 버튼 컨트롤 차일드 윈도우 생성
 	  ![[visual_cpp_chapter2_mfc_sdi_add_class.png]]
 - 위와 같이 MFC 클래스 마법사로 클래스를 추가하면 `CWnd`에서 상속받은 `CChildWnd` 클래스가 `CChildWnd.h`와 `CChildWnd.cpp` 파일에 생성되고, `CChildWnd.cpp` 파일이 프로젝트에 포함된다.
 - 솔루션 탐색 창에서 새로 생성된 `CChildWnd.cpp` 파일과 `CChildWnd.h` 파일을 확인할 수 있으며, 클래스 뷰 창에서 `CChildWnd` 클래스가 생성된 것을 확인할 수 있다.
-- `CChildWnd.h` 
+
+#todo 솔직히 이 섹션이 뭘 가르치는지 모르겠다. 교재에 제대로된 설명되 없고, 위 처럼해서 나온 결과가 무엇인지도 모르겠다. 이 교재를 만든 사람은 병신새끼인듯?
+
+## 메시지 핸들러 함수
+- 윈도우는 메시지 중심으로 동작한다. WinAPI 프로그램에서는 CALLBACK 함수에서 메시지가 처리되는 반면, MFC는 메시지 맵(Message Map)이라는 메시지 처리방법을 사용한다.
+	- 윈도우에 메시지가 전달되면 이 메시지는 메시지 맵을 찾아간다.
+	- 메시지 맵에는 모든 메시지를 처리할 수 있는 각각의 메시지 핸들러 함수가 정의되어 있다 - 이들은 윈도우 클래스의 멤버 함수 들이다.
+	- 예를 들어, `CSDIView`에 `WM_CREATE` 메세지가 전달되면 `CSDIView`의 메시지 맵에서 메시지 핸들러 함수를 찾아본다 - 그러면 메시지 핸들러 함수인 `CSDIView::OnCreate()` 함수가 호출되어 메시지가 처리된다.
+	- 따라서, MFC 프로그램에서는 CALLBACK 함수를 정의할 필요가 없다.
+	- 메시지와 메시지 핸들러 함수 예:
+		- `WM_CREATE` : `OnCreate()`
+		- `WM_SIZE` : `OnSize()`
+		- `WM_PAINT` : `OnPaint()`
+		- `WM_CLOSE` : `OnClose()`
+- `CChildWnd` 클래스를 이용해서 View 윈도우(`CSDIView`)에 차일드 윈도우를 만들어 본다 - 그러기 위해서 View 윈도우에 `WM_CREATE` 메시지 핸들러 함수 `OnCreate()`가 추가되어야 하며, 메시지 맵에도 이러한 내용이 있어야 한다.
+- 위 작업은 다음과 같이 하여 진행한다.
+	1. 속성 창을 연다 : Visual Studio 상단 메뉴 "보기" -> "다른 창" -> "속성 창"을 클릭
+	   ![[visual_studio_properties.png]]
+	2. Visual Studio의 속성 창 -> "메시지 버튼" 클릭 -> "추가" 클릭
+	   ![[visual_cpp_chapter2_mfc_sdi_genereate_oncreate.png]]
+	3. 생성된 코드 확인
+	   ![[visual_cpp_chapter2_mfc_sdi_genereate_oncreate_code.png]]
+- 을 열어서 메시지 핸들러 함수를 만들 수 있다.
