@@ -1418,5 +1418,7 @@ hChildWnd = CreateWindow(				// 버튼 컨트롤 차일드 윈도우 생성
 	2. Visual Studio의 속성 창 -> "메시지 버튼" 클릭 -> "추가" 클릭
 	   ![[visual_cpp_chapter2_mfc_sdi_genereate_oncreate.png]]
 	3. 생성된 코드 확인
+	   `SDIView.cpp`
 	   ![[visual_cpp_chapter2_mfc_sdi_genereate_oncreate_code.png]]
+	   
 - 을 열어서 메시지 핸들러 함수를 만들 수 있다.
