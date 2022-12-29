@@ -11,26 +11,11 @@
             "id": "16c64fdd9f42f991",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "math/chapter_p_exercises.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5edaa5e9f9048ff3",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.1.9"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -88,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "math/chapter_p_exercises.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,9 +99,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "math/chapter_p_exercises.md"
-              }
+              "state": {}
             }
           },
           {
