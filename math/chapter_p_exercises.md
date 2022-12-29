@@ -21,4 +21,104 @@
 20. $0.\overline{3}$
 21. $0.\overline{123}$
 22. $0.\overline{54}$
-23. 
+23. $-2.5 < 2$
+24. $-6 < -2.5$
+25. $-4>-8$
+26. $-3.5<1$
+27. $\frac{3}{2}<7$
+28. $1<\frac{16}{3}$
+29. $\frac{5}{6}>\frac{2}{3}$
+30. $-\frac{8}{7}<-\frac{3}{7}$
+31. (a) $x$ is less than or equal to $5$ (b) skip (c) unbounded
+32. (a) $x$ is greater than or equal to $-2$ (b) skip (c) unbounded
+33. (a) $x$ is less than $0$ (b) skip (c) unbounded
+34. (a) $x$ is greater than $3$ (b) skip (c) unbounded
+35. (a) a set of numbers greater than or equal to $4$ (b) skip (c) unbounded
+36. (a) a set of numbers less than $2$ (b) skip (c) unbounded
+37. (a) $x$ is greater than $-2$ and less than $2$ (b) skip (c) bounded
+38. (a) $x$ is greater than or equal to $0$ and less than or equal to $5$ (b) skip (c) bounded
+39. (a) $x$ is greater than or equal to $-1$ and less than $0$ (b) skip (c) bounded
+40. (a) $x$ is greater than $0$ and less than or equal to $6$ (b) skip (c) bounded
+41. (a) a set of numbers greater than or equal to $-2$ and less than $5$ (b) skip (c) bounded
+42. (a) a set of numbers greater than $-1$ and less than or equal to $2$ (b) skip (c) bounded
+43. $y \geq 0$
+44. $y \leq 25$
+45. $-2 < x \leq 4$
+46. $-6 \leq y < 0$
+47. $10 \leq t \leq 22$
+48. $-3 \leq k < 5$
+49. $W > 65$
+50. $2.5 \leq r \leq 5$
+51. $10$
+52. $0$
+53. $5$
+54. $3$
+55. $-1$
+56. $-6$
+57. $-1$
+58. $-9$
+59. $-1$
+60. $1$
+61. $>$
+62. $=$
+63. $=$
+64. $<$
+65. $=$
+66. $>$
+67. $51$
+68. $51$
+69. $\frac{5}{2}$
+70. $\frac{10}{4}$
+71. $\frac{128}{75}$
+72. $14.99$
+73. $|x-5| \leq 3$
+74. $|x+10| \geq 6$
+75. $|y| \geq 6$
+76. $|y-a| \leq 2$
+77. $179$
+78. $37$
+79. $656, 5635$
+80. $372, 470$
+81. $305, 1882$
+82. $38, 128.75$
+83. $1453.2, 107.4$
+84. $1722.0, 69.3$
+85. $2025.5, 236.3$
+86. $1853.4, 157.8$
+87. $1880.3, 412.7$
+88. $2407.3, 248.1$
+89. Variables : $7x$, Constants : $4$, Coefficients : $7$
+90. Variables : $6x^3, -5x$, Constants : $none$, Coefficients : $6, -5$
+91. Variables : $\sqrt{3}x^2, -8x$, Constants : $-11$, Coefficients : $\sqrt{3}, -8$
+92. Variables : $3\sqrt{3}x^2$, Constants : $1$, Coefficients : $3\sqrt{3}$
+93. Variables : $4x^3, \frac{x}{2}$, Constants : $-5$, Coefficients : $4, \frac{1}{2}$
+94. Variables : $3x^4, -\frac{x^2}{4}$, Constants : $none$, Coefficients : $3, -\frac{1}{4}$
+95. (a) $-10$ (b) $-6$
+96. (a) $30$ (b) $-12$
+97. (a) $14$ (b) $2$
+98. (a) $-10$ (b) $0$
+99. (a) Division by Zero (b) $0$
+100. (a) $\frac{1}{2}$ (b) Division by Zero
+101. Associative Property of Addition
+102. Multiplicative Inverse Property
+103. Multiplicative Inverse Property
+104. Additive Inverse Property
+105. Distributive Property
+106. Additive Identity Property
+107. Distributive Property and Multiplicative Identity Property
+108. Distributive Property
+109. Associative Property of Addition
+110. Associative Property of Multiplication
+111. Distributive Property
+112. Associative Property of Multiplication and Multiplicative Inverse Property
+113. $\frac{1}{2}$
+114. $\frac{2}{7}$
+115. $\frac{3}{8}$
+116. $\frac{59}{66}$
+117. $48$
+118. $-3$
+119. $\frac{5x}{12}$
+120. $\frac{5x}{27}$
+121. (a) Negative (b) Negative
+122. (a) Positive (b) Positive
+123. (a) $5, 10, 500, 50000, 5000000$ (b) 
