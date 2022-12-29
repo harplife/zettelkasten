@@ -11,6 +11,6 @@
   "writerMode": false,
   "paragraphFocusMode": false,
   "paragraphFocusFade": 75,
-  "flatAndyMode": true,
+  "flatAndyMode": false,
   "readableLength": 45
 }

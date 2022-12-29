@@ -3,5 +3,6 @@
   "hotkey-helper",
   "discordian-plugin",
   "obsidian-git",
-  "mathpad"
+  "mathpad",
+  "obsidian-pandoc"
 ]
