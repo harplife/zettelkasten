@@ -2,7 +2,7 @@
   "hideVault": true,
   "hideTitleBar": false,
   "hideStatusBar": true,
-  "originalMarkings": true,
+  "originalMarkings": false,
   "relationLinesPreview": true,
   "prettyTasksEditor": true,
   "darkEnhance": true,

@@ -130,4 +130,6 @@
 129. (a) No, the expressions will equal only if both $u$ and $v$ have the same sign (Positive or Negative), and not equal to each other if $u$ and $v$ have different signs from each other. (b) Yes, if the two expressions are not equal, that means precisely one of $u$ and $v$ is a negative number, which means $|u + v|$ will always be an absolute value of the result from a subtraction, whereas $|u| + |v|$ will always be an addition of two positive numbers.
 130. Yes, Nonnegative means any number greater than or equal to $0$. Positive means any number greater than $0$. In other words, $x \geq 0$ (nonnegative) is not the same thing as $x > 0$.
 131. Yes, $2$ is an even prime number because it is divisible by 1 and itself.
-132. 
+132. No, because a number cannot be both repeating and non-repeating.
+133. Yes, $|a|=-a$ if and only if $a=0$. Otherwise, no. Absolute value of a number is the distance between the number and the origin, and it will never be a negative value due to the fact that it is a distance without direction.
+134. I don't want to.
