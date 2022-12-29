@@ -121,4 +121,13 @@
 120. $\frac{5x}{27}$
 121. (a) Negative (b) Negative
 122. (a) Positive (b) Positive
-123. (a) $5, 10, 500, 50000, 5000000$ (b) 
+123. (a) $5, 10, 500, 50000, 5000000$ (b) it gets infinitely bigger?
+124. (a) $5, 0.5, 0.05, 0.0005, 0.00005$ (b) it approaches $0$
+125. True, $a$ is any positive number, $b$ is any negative number, however $-b$ is any positive number, ergo, the result of $a+(-b)$ has to be a positive number.
+126. False, $a$ is any positive number, $b$ is any negative number, a positive number multiplied by a negative number will always result with a negative number, ergo $ab < 0$.
+127. False, bigger denominator means smaller value, ergo $\frac{1}{a}>\frac{1}{b}$.
+128. False, Fractions may only Add or Subtract with Like Denominators. $\frac{a+b}{c}=\frac{a}{c}+\frac{b}{c}$ satisfies that condition, whereas $\frac{c}{a+b}=\frac{c}{a}+\frac{c}{b}$ does not.
+129. (a) No, the expressions will equal only if both $u$ and $v$ have the same sign (Positive or Negative), and not equal to each other if $u$ and $v$ have different signs from each other. (b) Yes, if the two expressions are not equal, that means precisely one of $u$ and $v$ is a negative number, which means $|u + v|$ will always be an absolute value of the result from a subtraction, whereas $|u| + |v|$ will always be an addition of two positive numbers.
+130. Yes, Nonnegative means any number greater than or equal to $0$. Positive means any number greater than $0$. In other words, $x \geq 0$ (nonnegative) is not the same thing as $x > 0$.
+131. Yes, $2$ is an even prime number because it is divisible by 1 and itself.
+132. 
