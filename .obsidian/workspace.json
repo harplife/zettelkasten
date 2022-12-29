@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5edaa5e9f9048ff3",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.9"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -145,7 +156,7 @@
       "mathpad:Open Mathpad": false
     }
   },
-  "active": "16c64fdd9f42f991",
+  "active": "227e6011dc684b16",
   "lastOpenFiles": [
     "muay_thai/learning_muay_thai.md",
     "math/chapter_p_exercises.md",
