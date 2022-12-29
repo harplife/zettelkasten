@@ -116,9 +116,17 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "227e6011dc684b16",
+            "type": "leaf",
+            "state": {
+              "type": "mathpad-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -133,10 +141,11 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
-      "zk-prefixer:Create new unique note": false
+      "zk-prefixer:Create new unique note": false,
+      "mathpad:Open Mathpad": false
     }
   },
-  "active": "16c64fdd9f42f991",
+  "active": "227e6011dc684b16",
   "lastOpenFiles": [
     "muay_thai/learning_muay_thai.md",
     "math/chapter_p_exercises.md",
