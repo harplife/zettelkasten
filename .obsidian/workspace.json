@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b712c93616739712",
+            "id": "16c64fdd9f42f991",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer_science/GUI/knou_visual_cpp_notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "baedbef5bc81fbd8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "travel/south_korea/20220108_trip_to_sokcho.md",
+                "file": "math/chapter_p_exercises.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "travel/south_korea/20220108_trip_to_sokcho.md",
+                "file": "math/chapter_p_exercises.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "travel/south_korea/20220108_trip_to_sokcho.md"
+                "file": "math/chapter_p_exercises.md"
               }
             }
           },
@@ -149,8 +136,10 @@
       "zk-prefixer:Create new unique note": false
     }
   },
-  "active": "baedbef5bc81fbd8",
+  "active": "16c64fdd9f42f991",
   "lastOpenFiles": [
+    "computer_science/linear_algebra/knou_la_class_note.md",
+    "travel/south_korea/20220108_trip_to_sokcho.md",
     "statistics/확률의_개념과_응용_KNOU.md",
     "computer_science/GUI/knou_visual_cpp_notes.md",
     "todo/todo_log_2021.md",
@@ -158,8 +147,6 @@
     "computer_science/languages/cpp/knou_cpp_assignment.md",
     "computer_science/languages/cpp/cpp_style_guide.md",
     "computer_science/languages/cpp/cpp.md",
-    "computer_science/computer_vision/computer_graphics_software.md",
-    "KNOU/2021년_2학기_방통대_컴퓨터과학과_계획.md",
-    "computer_science/cloud_computing/cloud_computing_knou.md"
+    "computer_science/computer_vision/computer_graphics_software.md"
   ]
 }
