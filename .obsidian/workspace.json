@@ -138,6 +138,8 @@
   },
   "active": "16c64fdd9f42f991",
   "lastOpenFiles": [
+    "muay_thai/learning_muay_thai.md",
+    "math/chapter_p_exercises.md",
     "computer_science/linear_algebra/knou_la_class_note.md",
     "travel/south_korea/20220108_trip_to_sokcho.md",
     "statistics/확률의_개념과_응용_KNOU.md",
@@ -145,8 +147,6 @@
     "todo/todo_log_2021.md",
     "computer_science/computer_vision/computer_graphics.md",
     "computer_science/languages/cpp/knou_cpp_assignment.md",
-    "computer_science/languages/cpp/cpp_style_guide.md",
-    "computer_science/languages/cpp/cpp.md",
-    "computer_science/computer_vision/computer_graphics_software.md"
+    "computer_science/languages/cpp/cpp_style_guide.md"
   ]
 }
