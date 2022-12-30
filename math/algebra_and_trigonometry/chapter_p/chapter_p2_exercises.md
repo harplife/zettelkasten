@@ -6,4 +6,7 @@
 5. Index, Radicand
 6. Simplest Form
 7. Like Radicals
-8. 
+8. Conjugate
+9. Rationalizing
+10. Exponent, Radical
+11. 
