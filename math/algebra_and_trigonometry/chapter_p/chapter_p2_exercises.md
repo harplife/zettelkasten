@@ -4,4 +4,6 @@
 3. Square Root
 4. Principal nth root
 5. Index, Radicand
-6. 
+6. Simplest Form
+7. Like Radicals
+8. 
