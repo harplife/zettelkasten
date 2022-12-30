@@ -11,8 +11,12 @@
             "id": "64a6c7258aee9ca2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "history/history_with_shelby.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "history/history_with_shelby.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "history/history_with_shelby.md"
+              }
             }
           },
           {
@@ -119,7 +126,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -138,7 +145,7 @@
       "mathpad:Open Mathpad": false
     }
   },
-  "active": "227e6011dc684b16",
+  "active": "64a6c7258aee9ca2",
   "lastOpenFiles": [
     "math/algebra_and_trigonometry/chapter_p/chapter_p_exercises.md",
     "muay_thai/learning_muay_thai.md",
