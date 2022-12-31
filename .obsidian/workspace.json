@@ -139,7 +139,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -158,7 +158,7 @@
       "mathpad:Open Mathpad": false
     }
   },
-  "active": "cb4d218e38208b0e",
+  "active": "227e6011dc684b16",
   "lastOpenFiles": [
     "math/algebra_and_trigonometry/chapter_p/chapter_p1_exercises.md",
     "math/algebra_and_trigonometry/chapter_p/chapter_p2_exercises.md",
