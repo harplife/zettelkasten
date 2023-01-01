@@ -8,7 +8,7 @@
 7. Like Radicals
 8. Conjugate
 9. Rationalizing
-10. Exponent, Radical
+10. Power, Index
 11. (a) $27$ (b) $81$
 12. (a) $125$ (b) $\frac{1}{9}$
 13. (a) $1$ (b) $-9$
