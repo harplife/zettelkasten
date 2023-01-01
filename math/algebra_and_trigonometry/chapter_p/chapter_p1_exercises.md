@@ -99,7 +99,7 @@
 98. (a) $-10$ (b) $0$
 99. (a) Division by Zero (b) $0$
 100. (a) $\frac{1}{2}$ (b) Division by Zero
-101. Associative Property of Addition
+101. Commutative Property of Addition
 102. Multiplicative Inverse Property
 103. Multiplicative Inverse Property
 104. Additive Inverse Property
@@ -108,9 +108,9 @@
 107. Distributive Property and Multiplicative Identity Property
 108. Distributive Property
 109. Associative Property of Addition
-110. Associative Property of Multiplication
+110. Associative Property of Multiplication AND commutative
 111. Distributive Property
-112. Associative Property of Multiplication and Multiplicative Inverse Property
+112. Associative Property of Multiplication and Multiplicative Inverse Property AND identity
 113. $\frac{1}{2}$
 114. $\frac{2}{7}$
 115. $\frac{3}{8}$
