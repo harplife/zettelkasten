@@ -1,6 +1,6 @@
 {
   "hideVault": true,
-  "hideTitleBar": false,
+  "hideTitleBar": true,
   "hideStatusBar": true,
   "originalMarkings": false,
   "relationLinesPreview": true,

@@ -47,10 +47,27 @@
 - **이산형 변수 (Discrete Variable)** : 취할 수 있는 값을 셀 수 있는 양적 변수.
 - 기술통계에서 경향성 (Tendency)과 변산도 (Variability)가 핵심이다.
 - **경향성 (Tendency)** : 데이터에서 중심이 되는 값들을 뜻한다. 대표값 (Representative Value) 또는 중심경향 (Central Tendency)으로 불리기도 한다. 경향성은 평균 (Mean), 중앙값 (Median), 그리고 최빈값 (Mode)으로 표현된다.
-- **변동/변산도 (Variability)** : 데이터에 각 값들의 차이를 표현하는 값을 뜻한다. 영어로 Spread, Scatter, 또는 Dispersion으로 불리기도 한다. 변산도는 최소/최대값, 범위 (Range), 사분위수(Quantile), 분산 (Variance), 편차 (Deviation), 분포 (Distribution), 비대칭도/왜도 (Skewness), 그리고 첨도 (Kurtosis)로 표현된다.
+- **변동/변산도 (Variability)** : 데이터에 각 값들의 차이를 표현하는 값을 뜻한다. 영어로 Variation, Spread, Scatter, 또는 Dispersion으로 불리기도 한다. 변산도는 최소/최대값, 범위 (Range), 사분위수(Quantile), 분산 (Variance), 편차 (Deviation), 분포 (Distribution), 비대칭도/왜도 (Skewness), 그리고 첨도 (Kurtosis)로 표현된다.
 - **도수분포표 (Frequency Table)** : 데이터에서 각 값의 출현빈도나 비슷한 값끼리 묶은 구간별로 관측된 데이터의 개수를 정리한 표.
 - **특이점 (Outlier)** : 대부분의 데이터로부터 멀리 떨어져 있는 관찰값. 딱히 고정된 값 또는 수식이 있는 것은 아니다.
-- 종 모양 분포 (Bell-Shaped Distribution) : 
+- **종 모양 분포 (Bell-Shaped Distribution)** : 데이터 분포(각 값/구간의 출현 빈도수/확률)를 그래프로 표현하였을 때, 전체 그래프 모형이 종 모양과 유사한 경우를 뜻한다. 이 때 그래프는 좌우 대칭 (Symmetry)이며, 가운데에 봉우리 (Peak)가 하나 있다. 대표값(평균, 중앙값, 최빈값)이 모두 가운데에 있는 값과 근접하다는 것이 특징이다. 확률을 표현하는 경우 정규 분포 (Normal Distribution) 또는 가우시안 분포 (Gaussian Distribution)로 불리기도 한다.
+- **쌍봉우리형 분포 (Bimodal Distribution)** : 데이터 분포를 그래프로 표현하였을 때, 전체 그래프 모형이 종 모양 분포와 유사하되, 가운데에 봉우리가 두 개 있는 경우를 뜻한다. 종 모양 분포와 마찬가지로 좌우 대칭이다. 데이터가 이러한 분포를 가진 경우, 평균/중앙값/최빈도가 데이터를 대표하기 적절하지 못 할 수 있다.
+- **치우친/기운 분포 (Skewed Distribution)** : 데이터 분포를 그래프로 표현하였을 때, 전체 그래프 모형이 좌우 대칭을 이루지 않고 한쪽으로 데이터가 크고 반대쪽이 작은 경우를 뜻한다. 데이터가 대부분 모여 있는 부분, 즉, 분포의 무게중심이 치우친 방향을 두고 왼쪽 또는 오른쪽으로 치우친 분포로 불린다. 하지만 영어로는 분포의 무게중심이 치우친 방향의 반대, 즉, 꼬리 (Tail)의 방향으로서 Left-Skewed 또는 Right-Skewed Distribution으로 부른다.
+- **균등분포 (Uniform Distribution)** : 데이터가 집중되지 않고 모두 비슷한 수준으로 고르게 퍼져 있는 분포를 뜻한다.
+- **평균 (Mean)** : 양적 변수의 분포의 균형을 이루는 무게중심의 위치에 해당하는 값.
+    - 평균은 모집단 평균 (Population Mean)과 표본 평균 (Sample Mean)으로 나누어 진다.
+    - 평균은 관찰값들의 합을 관찰값 개수로서 나누는 것으로 계산할 수 있다.
+    - 모집단 평균은 x-bar($\bar{x}$)로 표현되고, 표본 평균은 뮤(Mu, $\mu$)로 표현된다.
+- **모집단 평균 수식** : 모집단의 크기(관찰값의 개수)가 $n$인 데이터의 관찰값을 $x_1, x_2, \ldots, x_n$ 이라고 할 때, 모집단의 평균은 $\bar{x} = \frac{\sum_{i=1}^{n}x_i}{n}$ 이다.
+- **표본 평균 수식** : 표본의 크기(관찰값의 개수)가 $n$인 데이터의 관찰값을 $x_1, x_2, \ldots, x_n$ 이라고 할 때, 표본의 평균은 $\mu = \frac{\sum_{i=1}^{n}x_i}{n}$ 이다.
+- **편차 (Deviation)** : 관찰값에서 평균을 뺀 값. 관찰값과 평균 사이의 거리 (Distance)로 이해하면 된다.
+- **분산 (Variance)** : 편차 제곱의 평균. 편차의 경향을 파악하기 위해 편차의 평균을 구할 수 있는데, 일반적인 방법으로 평균을 구하는 경우, 편차의 값이 양수 또는 음수이기 때문에 값은 언제나 0이 된다. 따라서, 편차의 제곱을 구함으로서 양수/음수 문제를 해결한다. 하지만 완변한 "편차 평균"이라 보기는 힘들다.
+- **표준편차 (Standard Deviation)** : 데이터의 변산도(Variability/Spread), 즉, 데이터가 얼만큼 "퍼져있는지"를 측정하는데 일반적으로 사용되는 값이다. 진정한 편차의 평균이라 볼 수 있으며, 분산에 제곱근(Square Root)을 계산하면 구할 수 있다. 참고 : 어떠한 값의 제곱에 제곱근을 구하면 이 값의 절대값 (Absolute Value)이 구해진다 -> $|x| = \sqrt{x^2}$.
+- 표준편차 수식 : 표
+
+### 개인 노트
+- 
 
 ### 참고 자료
-- [w3schools statistics](https://www.w3schools.com/ai/ai_statistics.asp)
+- [w3schools ai statistics](https://www.w3schools.com/ai/ai_statistics.asp)
+- [w3schools descriptive statistics](https://www.w3schools.com/statistics/statistics_descriptive_statistics.php)
