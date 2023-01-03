@@ -62,11 +62,12 @@
 - **표본 평균 수식** : 표본의 크기(관찰값의 개수)가 $n$인 데이터의 관찰값을 $x_1, x_2, \ldots, x_n$ 이라고 할 때, 표본의 평균은 $\mu = \frac{\sum_{i=1}^{n}x_i}{n}$ 이다.
 - **편차 (Deviation)** : 관찰값에서 평균을 뺀 값. 관찰값과 평균 사이의 거리 (Distance)로 이해하면 된다.
 - **분산 (Variance)** : 편차 제곱의 평균. 편차의 경향을 파악하기 위해 편차의 평균을 구할 수 있는데, 일반적인 방법으로 평균을 구하는 경우, 편차의 값이 양수 또는 음수이기 때문에 값은 언제나 0이 된다. 따라서, 편차의 제곱을 구함으로서 양수/음수 문제를 해결한다. 하지만 완변한 "편차 평균"이라 보기는 힘들다.
-- **표준편차 (Standard Deviation)** : 데이터의 변산도(Variability/Spread), 즉, 데이터가 얼만큼 "퍼져있는지"를 측정하는데 일반적으로 사용되는 값이다. 진정한 편차의 평균이라 볼 수 있으며, 분산에 제곱근(Square Root)을 계산하면 구할 수 있다. 참고 : 어떠한 값의 제곱에 제곱근을 구하면 이 값의 절대값 (Absolute Value)이 구해진다 -> $|x| = \sqrt{x^2}$.
+- **표준편차 (Standard Deviation)** : 데이터의 변산도(Variability/Spread), 즉, 데이터가 얼만큼 "퍼져있는지"를 측정하는데 일반적으로 사용되는 값이다. 진정한 편차의 평균이라 볼 수 있으며, 분산에 제곱근(Square Root)을 계산하면 구할 수 있다.
+    - 참고 1 : 어떠한 값의 제곱에 제곱근을 구하면 이 값의 절대값 (Absolute Value)이 구해진다 -> $|x| = \sqrt{x^2}$.
+    - 참고 2 : 편차 절대값(편차 제곱 + 제곱근)의 합을 관찰값 크기로 나눈 것을 [Mean Absolute Deviation](https://byjus.com/maths/mean-absolute-deviation/)이라 부른다. MAD 대신 표준편차를 사용하는 이유는 
 - 표준편차 수식 : 표
 
-### 개인 노트
-- 
+
 
 ### 참고 자료
 - [w3schools ai statistics](https://www.w3schools.com/ai/ai_statistics.asp)
