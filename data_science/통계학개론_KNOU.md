@@ -39,3 +39,10 @@
 
 
 ## Chapter 2
+- 질적/범주형 변수 (Qualitative Variable) : 유한개의 범주 중 하나의 값을 취하는 변수.
+- 명목형 변수 (Nominal Variable) : 범주들에 의미 있는 순서를 정할 수 없는 질적 변수.
+- 순서형 변수 (Ordinal Variable) : 범주 간의 의미 있는 순서를 정할 수 있는 질적 변수.
+- 양적 변수 (Quantitative Variable) : 양적인 수치로 측정되는 변수.
+- 연속형 변수 (Continuous Variable) : 어떤 실수 구간 안의 모든 값을 가질 수 있는 양적 변수.
+- 이산형 변수 (Discrete Variable) : 취할 수 있는 값을 셀 수 있는 양적 변수.
+- 
