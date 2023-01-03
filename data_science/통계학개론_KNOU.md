@@ -4,8 +4,8 @@
 - **통계학**은 불확실한 현상을 이해하기 위해 데이터를 수집하고, 그 데이터가 가지고 있는 패턴을 요약, 분석하여 이로부터 불확실한 현상에 대한 결론을 찾는 학문이다.
 - **통계학의 역할**에는 데이터의 수집, 데이터의 요약, 추론이 있다.
 - **통계방법**은 기술통계와 추측통계로 나뉜다.
-- **기술통계 (Descriptive Statistics)** : 데이터를 수치나 표, 그래프 등으로 요약하여 데이터의 특징을 드러내는 통계 방법
-- **추측통계 (Inferential Statistics)** : 데이터를 이용하여 그 데이터가 대표하는 불확실한 전체에 관해 추측하고 그 추측의 신뢰성을 계량화하는 통계방법
+- **기술통계 (Descriptive Statistics)** : 데이터를 수치나 표, 그래프 등으로 요약하여 데이터의 특징을 드러내는 통계 방법.
+- **추측통계 (Inferential Statistics)** : 데이터를 이용하여 그 데이터가 대표하는 불확실한 전체에 관해 추측하고 그 추측의 신뢰성을 계량화하는 통계방법.
 - **단위 (Unit)** : 관측되는 개별 대상. 관측 단위 (Observational Unit), 개인 (Individual), 케이스 (Case) 등의 다양한 이름으로 불린다.
 - **변수 (Variable)** : 각 단위에 대해 관측되는 특성 (Characteristic, Feature). 필드 (Field) 등의 이름으로도 불린다.
 - **관찰값/관측치 (Observation)** : 각 단위로부터 관측한 특성의 값.
@@ -39,10 +39,18 @@
 
 
 ## Chapter 2
-- 질적/범주형 변수 (Qualitative Variable) : 유한개의 범주 중 하나의 값을 취하는 변수.
-- 명목형 변수 (Nominal Variable) : 범주들에 의미 있는 순서를 정할 수 없는 질적 변수.
-- 순서형 변수 (Ordinal Variable) : 범주 간의 의미 있는 순서를 정할 수 있는 질적 변수.
-- 양적 변수 (Quantitative Variable) : 양적인 수치로 측정되는 변수.
-- 연속형 변수 (Continuous Variable) : 어떤 실수 구간 안의 모든 값을 가질 수 있는 양적 변수.
-- 이산형 변수 (Discrete Variable) : 취할 수 있는 값을 셀 수 있는 양적 변수.
-- 
+- **질적/범주형 변수 (Qualitative Variable)** : 유한개의 범주 중 하나의 값을 취하는 변수.
+- **명목형 변수 (Nominal Variable)** : 범주들에 의미 있는 순서를 정할 수 없는 질적 변수.
+- **순서형 변수 (Ordinal Variable)** : 범주 간의 의미 있는 순서를 정할 수 있는 질적 변수.
+- **양적 변수 (Quantitative Variable)** : 양적인 수치로 측정되는 변수.
+- **연속형 변수 (Continuous Variable)** : 어떤 실수 구간 안의 모든 값을 가질 수 있는 양적 변수.
+- **이산형 변수 (Discrete Variable)** : 취할 수 있는 값을 셀 수 있는 양적 변수.
+- 기술통계에서 경향성 (Tendency)과 변산도 (Variability)가 핵심이다.
+- **경향성 (Tendency)** : 데이터에서 중심이 되는 값들을 뜻한다. 대표값 (Representative Value) 또는 중심경향 (Central Tendency)으로 불리기도 한다. 경향성은 평균 (Mean), 중앙값 (Median), 그리고 최빈값 (Mode)으로 표현된다.
+- **변동/변산도 (Variability)** : 데이터에 각 값들의 차이를 표현하는 값을 뜻한다. 영어로 Spread, Scatter, 또는 Dispersion으로 불리기도 한다. 변산도는 최소/최대값, 범위 (Range), 사분위수(Quantile), 분산 (Variance), 편차 (Deviation), 분포 (Distribution), 비대칭도/왜도 (Skewness), 그리고 첨도 (Kurtosis)로 표현된다.
+- **도수분포표 (Frequency Table)** : 데이터에서 각 값의 출현빈도나 비슷한 값끼리 묶은 구간별로 관측된 데이터의 개수를 정리한 표.
+- **특이점 (Outlier)** : 대부분의 데이터로부터 멀리 떨어져 있는 관찰값. 딱히 고정된 값 또는 수식이 있는 것은 아니다.
+- 종 모양 분포 (Bell-Shaped Distribution) : 
+
+### 참고 자료
+- [w3schools statistics](https://www.w3schools.com/ai/ai_statistics.asp)
