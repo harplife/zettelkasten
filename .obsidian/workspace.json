@@ -163,7 +163,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -182,7 +182,7 @@
       "mathpad:Open Mathpad": false
     }
   },
-  "active": "8adcd82b233d847b",
+  "active": "15ca17ef343452c3",
   "lastOpenFiles": [
     "data_science/sba_academy/sba_academy_lesson_notes.md",
     "math/algebra_and_trigonometry/chapter_p/chapter_p2_exercises.md",
