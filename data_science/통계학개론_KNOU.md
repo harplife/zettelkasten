@@ -157,7 +157,7 @@
   [1] "kim"
   ```
 
-### R로 막대그래프 그리기 (1)
+### ggplot 막대그래프 (1)
 - `ggplot2`는 [ The Grammar of Graphics](https://www.amazon.com/Grammar-Graphics-Statistics-Computing/dp/0387245448/ref=as_li_ss_tl) 라는 책을 기준으로 만들어진 데이터 시각화 패키지이다. R 자체에도 간단히 그래프를 그리는 함수들이 있지만, `ggplot2` 패키지를 사용하면 좀 더 상세하게, 멋지게 그릴 수 있다. 더 자세한 정보는 [패키지 공식 사이트](https://ggplot2.tidyverse.org/) 또는 [[ggplot2_cheatsheet.pdf]] 에서 찾아볼 수 있다.
 - `ggplot2` 패키지를 이용하여 그래프를 그릴 때는 `ggplot()+geom_<graph>()` 형태를 취해야 한다.
 - `ggplot2`가 제공하는 함수들은 공식 사이트 [Function Reference](https://ggplot2.tidyverse.org/reference/index.html) 에서 설명해준다.
@@ -189,7 +189,7 @@ ggplot(data=transp_df) + geom_bar(mapping=aes(x=fct_infreq(transp_data))) +
 ![[Pasted image 20230104115645.png]]
 
 
-### R로 막대그래프 그리기 (2)
+### ggplot 막대그래프 (2)
 - 이 예시는 `geom_bar()`에 기본적으로 제공하는 빈도수 계산을 무시하고, 직접 각 변수에 대한 값을 지정하는 방식으로 막대그래프를 출력한다.
 - `geom_bar()` 함수 안에 `stat='identity'` 를 지정함으로서 `mapping=aes(y=)` 에 지정된 값들로 막대그래프를 출력한다.
 
@@ -214,7 +214,7 @@ ggplot(data=df) +
 #### 출력 결과
 ![[Pasted image 20230104125719.png]]
 
-### R로 파이차트 그리기
+### ggplot 파이차트
 
 #### 소스코드
 ```R
@@ -242,8 +242,27 @@ ggplot(data=transp_df) +
 #### 출력 결과
 ![[Pasted image 20230104134645.png]]
 
-### R로 초간단 막대그래프
+### hist 함수 막대그래프
+- R에서 제공하는 built-in 함수 `hist()` 를 사용하여 막대그래프를 그릴 수 있다. 마찬가지로 빈도수는 자동으로 계산된다.
+- `set.seed(int)` 함수로 랜덤 시드를 지정해준다. 랜덤 시드를 지정해줌으로서 복제(Replicate)가 가능한 난수를 생성할 수 있다.
+- `runif(n, min, max)` 함수로 균등분포 난수를 생성할 수 있다. 또는, `rnorm(n, mean, sd)` 함수로 정규분포 난수를 생성할 수 있다.
+- `floor()` 함수는 벡터 안에 있는 값들을 내림 해주어 `int` 형식으로 변환해준다.
+- `hist()` 함수 안에 `breaks` 매개변수를 사용하여 x 값의 간격을 지정할 수 있다.
 
+#### 소스코드
+```R
+# 난수 시드 지정
+set.seed(420)
+
+# 데이터
+scores <- floor(runif(100, 1, 100))
+
+# 막대그래프 출력
+hist(scores)
+```
+
+#### 출력 결과
+![[Pasted image 20230104140010.png]]
 
 ### 참고 자료
 - [w3schools ai statistics](https://www.w3schools.com/ai/ai_statistics.asp)
