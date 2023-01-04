@@ -2,6 +2,7 @@
 
 - [R for Data Science](https://r4ds.had.co.nz/) 책이 무료로 웹사이트로 제공되니 꼭 참고할 것.
 - [CRAN Contributed Documentation](https://cran.r-project.org/other-docs.html) 에 무료 R 및 통계 교육 자료가 넘쳐있음.
+- [Probability Theory (Wiki)](https://en.wikipedia.org/wiki/Probability_theory) 에 여러가지 흩어보는 것도 좋을 듯.
 
 ## Chapter 1
 - **통계학**은 불확실한 현상을 이해하기 위해 데이터를 수집하고, 그 데이터가 가지고 있는 패턴을 요약, 분석하여 이로부터 불확실한 현상에 대한 결론을 찾는 학문이다.
