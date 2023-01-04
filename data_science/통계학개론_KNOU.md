@@ -1,6 +1,7 @@
 # 통계학개론
 
-#todo [R for Data Science](https://r4ds.had.co.nz/) 책이 무료로 웹사이트로 제공되니 꼭 참고할 것.
+- [R for Data Science](https://r4ds.had.co.nz/) 책이 무료로 웹사이트로 제공되니 꼭 참고할 것.
+- [CRAN Contributed Documentation](https://cran.r-project.org/other-docs.html) 에 무료 R 및 통계 교육 자료가 넘쳐있음.
 
 ## Chapter 1
 - **통계학**은 불확실한 현상을 이해하기 위해 데이터를 수집하고, 그 데이터가 가지고 있는 패턴을 요약, 분석하여 이로부터 불확실한 현상에 대한 결론을 찾는 학문이다.
@@ -157,7 +158,6 @@
   [1] "kim"
   ```
 - `fivenum(vector)` : 다섯수치요약 함수
-- 
 
 ### ggplot 막대그래프 (1)
 - `ggplot2`는 [ The Grammar of Graphics](https://www.amazon.com/Grammar-Graphics-Statistics-Computing/dp/0387245448/ref=as_li_ss_tl) 라는 책을 기준으로 만들어진 데이터 시각화 패키지이다. R 자체에도 간단히 그래프를 그리는 함수들이 있지만, `ggplot2` 패키지를 사용하면 좀 더 상세하게, 멋지게 그릴 수 있다. 더 자세한 정보는 [패키지 공식 사이트](https://ggplot2.tidyverse.org/) 또는 [[ggplot2_cheatsheet.pdf]] 에서 찾아볼 수 있다.
@@ -244,7 +244,7 @@ ggplot(data=transp_df) +
 #### 출력 결과
 ![[Pasted image 20230104134645.png]]
 
-### hist 함수 막대그래프
+### hist 함수
 - R에서 제공하는 built-in 함수 `hist()` 를 사용하여 막대그래프를 그릴 수 있다. 마찬가지로 빈도수는 자동으로 계산된다.
 - `set.seed(int)` 함수로 랜덤 시드를 지정해준다. 랜덤 시드를 지정해줌으로서 복제(Replicate)가 가능한 난수를 생성할 수 있다.
 - `runif(n, min, max)` 함수로 균등분포 난수를 생성할 수 있다. 또는, `rnorm(n, mean, sd)` 함수로 정규분포 난수를 생성할 수 있다.
@@ -266,7 +266,24 @@ hist(scores)
 #### 출력 결과
 ![[Pasted image 20230104140010.png]]
 
+### boxlplot 함수
+
+#### 소스코드
+```R
+age <- floor(runif(100, 20, 80))
+
+boxplot(age, ylab='Age')
+```
+
+#### 출력 결과
+![[Pasted image 20230104193513.png | 300]]
+
 ### 참고 자료
 - [w3schools ai statistics](https://www.w3schools.com/ai/ai_statistics.asp)
 - [w3schools descriptive statistics](https://www.w3schools.com/statistics/statistics_descriptive_statistics.php)
-- [byjus mean median mode](https://byjus.com/maths/mean-median-mode/) - shows advanced methods of calculating the measures of central tendency.
+- [byjus mean median mode](https://byjus.com/maths/mean-median-mode/) : shows advanced methods of calculating the measures of central tendency.
+- [dplyr 패키지](https://dplyr.tidyverse.org/) : 데이터 처리 전용 패키지
+
+## Chapter 3
+
+
