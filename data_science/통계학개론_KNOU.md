@@ -157,7 +157,7 @@
   [1] "kim"
   ```
 
-### R로 막대그래프 그리기
+### R로 막대그래프 그리기 (1)
 - `ggplot2`는 [ The Grammar of Graphics](https://www.amazon.com/Grammar-Graphics-Statistics-Computing/dp/0387245448/ref=as_li_ss_tl) 라는 책을 기준으로 만들어진 데이터 시각화 패키지이다. R 자체에도 간단히 그래프를 그리는 함수들이 있지만, `ggplot2` 패키지를 사용하면 좀 더 상세하게, 멋지게 그릴 수 있다. 더 자세한 정보는 [패키지 공식 사이트](https://ggplot2.tidyverse.org/) 또는 [[ggplot2_cheatsheet.pdf]] 에서 찾아볼 수 있다.
 - `ggplot2` 패키지를 이용하여 그래프를 그릴 때는 `ggplot()+geom_<graph>()` 형태를 취해야 한다.
 - `ggplot2`가 제공하는 함수들은 공식 사이트 [Function Reference](https://ggplot2.tidyverse.org/reference/index.html) 에서 설명해준다.
@@ -189,10 +189,29 @@ ggplot(data=transp_df) + geom_bar(mapping=aes(x=fct_infreq(transp_data))) +
 ![[Pasted image 20230104115645.png]]
 
 
-### R로 막대그래프 예시 2
+### R로 막대그래프 그리기 (2)
+- 
+
+#### 소스코드
+```R
+# 패키지
+library(ggplot2)
+
+# 데이터
+cats = c('underweight', 'normal', 'overweight', 'obese')
+weight_level <- factor(cats,levels=cats)
+weight_count <- c(6,69,27,13)
+weight_perc <- weight_count/sum(weight_count)*100
+df <- data.frame(weight_level, weight_count, weight_perc)
+
+# 그래프 출력
+ggplot(data=df) + 
+  geom_bar(mapping=aes(x=weight_level, y=weight_perc), stat='identity') +
+  xlab("Weight Levels") + ylab("Percentage (%)")
 ```
 
-```
+#### 출력 결과
+![[Pasted image 20230104125719.png]]
 
 ### 참고 자료
 - [w3schools ai statistics](https://www.w3schools.com/ai/ai_statistics.asp)
