@@ -156,6 +156,8 @@
   > df[1,1]
   [1] "kim"
   ```
+- `fivenum(vector)` : 다섯수치요약 함수
+- 
 
 ### ggplot 막대그래프 (1)
 - `ggplot2`는 [ The Grammar of Graphics](https://www.amazon.com/Grammar-Graphics-Statistics-Computing/dp/0387245448/ref=as_li_ss_tl) 라는 책을 기준으로 만들어진 데이터 시각화 패키지이다. R 자체에도 간단히 그래프를 그리는 함수들이 있지만, `ggplot2` 패키지를 사용하면 좀 더 상세하게, 멋지게 그릴 수 있다. 더 자세한 정보는 [패키지 공식 사이트](https://ggplot2.tidyverse.org/) 또는 [[ggplot2_cheatsheet.pdf]] 에서 찾아볼 수 있다.
