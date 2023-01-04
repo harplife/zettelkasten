@@ -286,5 +286,8 @@ boxplot(age, ylab='Age')
 - [dplyr 패키지](https://dplyr.tidyverse.org/) : 데이터 처리 전용 패키지
 
 ## Chapter 3
-- 통계적 실험 (Statistical Experiment)
+- 통계적 실험 (Statistical Experiment) : 주어진 조건 하에 가능한 모든 사건 중 특정 사건의 발생 가능성을 추정 가능토록 무한히 반복될 수 있는 절차. 확률적 실험으로도 불린다.
+- 
 
+### 참고자료
+- [확률론(Probability Theory) Wiki](https://en.wikipedia.org/wiki/Probability_theory)
