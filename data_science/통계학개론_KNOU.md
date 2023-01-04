@@ -1,5 +1,7 @@
 # 통계학개론
 
+#todo [R for Data Science](https://r4ds.had.co.nz/) 책이 무료로 웹사이트로 제공되니 꼭 참고할 것.
+
 ## Chapter 1
 - **통계학**은 불확실한 현상을 이해하기 위해 데이터를 수집하고, 그 데이터가 가지고 있는 패턴을 요약, 분석하여 이로부터 불확실한 현상에 대한 결론을 찾는 학문이다.
 - **통계학의 역할**에는 데이터의 수집, 데이터의 요약, 추론이 있다.
@@ -156,9 +158,13 @@
   ```
 
 ### R로 막대그래프 그리기
+- `ggplot2`는 [ The Grammar of Graphics](https://www.amazon.com/Grammar-Graphics-Statistics-Computing/dp/0387245448/ref=as_li_ss_tl) 라는 책을 기준으로 만들어진 데이터 시각화 패키지이다. R 자체에도 간단히 그래프를 그리는 함수들이 있지만, `ggplot2` 패키지를 사용하면 좀 더 상세하게, 멋지게 그릴 수 있다. 참고자료는 [패키지 공식 사이트](https://ggplot2.tidyverse.org/) 에서 찾아볼 수 있다.
+- [[data-visualization.pdf]] 에서 패키지 사용법을 쉽게 검토 해볼수 있다.
 - `ggplot2` 패키지를 이용하여 그래프를 그릴 때는 `ggplot()+geom_<graph>()` 형태를 취해야 한다.
-- `ggplot()` 함수 안에는 `data` 매개변수를 통해 그래프를 그릴 데이터를 받는다.
+- `ggplot2`가 제공하는 함수들은 공식 사이트 [Function Reference](https://ggplot2.tidyverse.org/reference/index.html) 에서 설명해준다.
+- `ggplot()` 함수는 그래프를 초기화한다. 다른 그림(레이어)가 그려질 캔버스(Canvas)를 준비한다고 생각하면 된다. 함수 안에 `data` 매개변수를 통해 그래프를 그릴 데이터를 받는다.
 - `geom` 함수에는 여러 종류가 있으며, 막대그래프를 그릴때는 `geom_bar()`를 사용한다.
+- 
 - `geom` 함수에 `mapping=aes(x=)` 
 
 #### 소스코드
