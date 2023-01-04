@@ -158,14 +158,16 @@
   ```
 
 ### R로 막대그래프 그리기
-- `ggplot2`는 [ The Grammar of Graphics](https://www.amazon.com/Grammar-Graphics-Statistics-Computing/dp/0387245448/ref=as_li_ss_tl) 라는 책을 기준으로 만들어진 데이터 시각화 패키지이다. R 자체에도 간단히 그래프를 그리는 함수들이 있지만, `ggplot2` 패키지를 사용하면 좀 더 상세하게, 멋지게 그릴 수 있다. 참고자료는 [패키지 공식 사이트](https://ggplot2.tidyverse.org/) 에서 찾아볼 수 있다.
-- [[data-visualization.pdf]] 에서 패키지 사용법을 쉽게 검토 해볼수 있다.
+- `ggplot2`는 [ The Grammar of Graphics](https://www.amazon.com/Grammar-Graphics-Statistics-Computing/dp/0387245448/ref=as_li_ss_tl) 라는 책을 기준으로 만들어진 데이터 시각화 패키지이다. R 자체에도 간단히 그래프를 그리는 함수들이 있지만, `ggplot2` 패키지를 사용하면 좀 더 상세하게, 멋지게 그릴 수 있다. 더 자세한 정보는 [패키지 공식 사이트](https://ggplot2.tidyverse.org/) 또는 [[ggplot2_cheatsheet.pdf]] 에서 찾아볼 수 있다.
 - `ggplot2` 패키지를 이용하여 그래프를 그릴 때는 `ggplot()+geom_<graph>()` 형태를 취해야 한다.
 - `ggplot2`가 제공하는 함수들은 공식 사이트 [Function Reference](https://ggplot2.tidyverse.org/reference/index.html) 에서 설명해준다.
 - `ggplot()` 함수는 그래프를 초기화한다. 다른 그림(레이어)가 그려질 캔버스(Canvas)를 준비한다고 생각하면 된다. 함수 안에 `data` 매개변수를 통해 그래프를 그릴 데이터를 받는다.
-- `geom` 함수에는 여러 종류가 있으며, 막대그래프를 그릴때는 `geom_bar()`를 사용한다.
-- 
-- `geom` 함수에 `mapping=aes(x=)` 
+- `geom` 함수에는 여러 종류가 있으며, 막대그래프를 그릴때는 `geom_bar()`를 사용한다 ([참고](https://ggplot2.tidyverse.org/reference/geom_bar.html)).
+- `geom_bar()` 함수는 제공된 데이터에 대하여 기본적으로 `stat_count()`를 사용함으로 각 변수에 대한 빈도수를 계산한다.
+- `forcats`는 범주형 데이터를 다루기 위한 함수들을 제공하는 패키지이다. 더 자세한 정보는 [패키지 공식 사이트](https://forcats.tidyverse.org/index.html) 또는 [[forcats_cheatsheet.pdf]] 에서 찾아볼 수 있다.
+- `forcats` 패키지가 제공하는 `fct_infreq()` 함수는 범주형 데이터에서 빈도수가 높은 순서대로 변수들(Levels)을 정렬한다.
+- `geom_bar()` 함수에 `mapping=aes()` 는 주어진 형식에 따라 데이터와 그래프를 매핑해준다. `aes(x=fct_infreq(transp_data))` 를 지정함으로서, 그래프의 X-Axis에 출력될 정보들이 매핑된다. `y` 매개변수는 직접 지정하지 않아도 기본적으로 `stat_count()`로 계산된 빈도수들에 따라 자동으로 그래프의 Y-Axis 출력될 정보들이 매핑된다.
+- `xlab()` 함수를 사용하여 그래프 X-Axis 라벨링(타이틀)을 지정할 수 있다.
 
 #### 소스코드
 ```R
@@ -186,6 +188,11 @@ ggplot(data=transp_df) + geom_bar(mapping=aes(x=fct_infreq(transp_data))) +
 #### 출력 결과
 ![[Pasted image 20230104115645.png]]
 
+
+### R로 막대그래프 예시 2
+```
+
+```
 
 ### 참고 자료
 - [w3schools ai statistics](https://www.w3schools.com/ai/ai_statistics.asp)
