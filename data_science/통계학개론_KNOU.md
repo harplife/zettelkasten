@@ -286,5 +286,5 @@ boxplot(age, ylab='Age')
 - [dplyr 패키지](https://dplyr.tidyverse.org/) : 데이터 처리 전용 패키지
 
 ## Chapter 3
-- 
+- 통계적 실험 (Statistical Experiment)
 
