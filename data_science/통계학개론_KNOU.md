@@ -299,3 +299,4 @@ boxplot(age, ylab='Age')
 
 ### 참고자료
 - [확률론(Probability Theory) Wiki](https://en.wikipedia.org/wiki/Probability_theory)
+- [데이터 사이언스 스쿨 - 수학 편](https://datascienceschool.net/02%20mathematics/00.00%20%EC%86%8C%EA%B0%9C%EC%9D%98%20%EA%B8%80.html)
