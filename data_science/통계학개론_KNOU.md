@@ -217,8 +217,33 @@ ggplot(data=df) +
 ### R로 파이차트 그리기
 
 #### 소스코드
+```R
+# 패키지
+library(ggplot2)
 
-#### 출력 결
+# 데이터
+transp_opts <- c('bicycle', 'bus', 'walking')
+transp_data <- sample(transp_opts, size=30, replace=T)
+transp_table <- table(transp_data)
+transp_names <- names(transp_table)
+transp_counts <- as.numeric(transp_table)
+
+transp_df <- data.frame(transportation=transp_names, count=transp_counts)
+
+# 그래프 출력
+ggplot(data=transp_df) +
+  geom_bar(
+    mapping=aes(x='',y=count, fill=transportation),
+    stat='identity'
+  ) +
+  coord_polar('y', start=0) + xlab('') + ylab('')
+```
+
+#### 출력 결과
+![[Pasted image 20230104134645.png]]
+
+### R로 초간단 막대그래프
+
 
 ### 참고 자료
 - [w3schools ai statistics](https://www.w3schools.com/ai/ai_statistics.asp)
