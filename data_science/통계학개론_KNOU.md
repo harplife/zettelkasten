@@ -156,9 +156,29 @@
   ```
 
 ### R로 막대그래프 그리기
+- `ggplot2` 패키지를 이용하여 그래프를 그릴 때는 `ggplot()+geom_<graph>()` 형태를 취해야 한다.
+- `ggplot()` 함수 안에는 `data` 매개변수를 통해 그래프를 그릴 데이터를 받는다.
+- `geom` 함수에는 여러 종류가 있으며, 막대그래프를 그릴때는 `geom_bar()`를 사용한다.
+- `geom` 함수에 `mapping=aes(x=)` 
+
+#### 소스코드
+```R
+# 패키지 로드
+library(ggplot2)
+library(forcats)
+
+# 데이터 입력
+transp_opts <- c('bicycle', 'bus', 'walking')
+transp_data <- sample(transp_opts, size=30, replace=T)
+transp_df <- data.frame(transp_data)
+
+# 막대그래프 출력
+ggplot(data=transp_df) + geom_bar(mapping=aes(x=fct_infreq(transp_data))) +
+  xlab("Transportation")
 ```
 
-```
+#### 출력 결과
+![[Pasted image 20230104115645.png]]
 
 
 ### 참고 자료
