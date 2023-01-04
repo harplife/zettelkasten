@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "math/algebra_and_trigonometry/chapter_p/chapter_p2_exercises.md",
+                "file": "data_science/통계학개론_KNOU.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "math/algebra_and_trigonometry/chapter_p/chapter_p2_exercises.md"
+                "file": "data_science/통계학개론_KNOU.md"
               }
             }
           },
@@ -170,10 +170,10 @@
       "mathpad:Open Mathpad": false
     }
   },
-  "active": "325360bd7a399887",
+  "active": "8adcd82b233d847b",
   "lastOpenFiles": [
-    "data_science/통계학개론_KNOU.md",
     "math/algebra_and_trigonometry/chapter_p/chapter_p2_exercises.md",
+    "data_science/통계학개론_KNOU.md",
     "math/algebra_and_trigonometry/chapter_p/chapter_p1_exercises.md",
     "data_science/sba_academy/sba_academy_lesson_notes.md",
     "math/algebra_and_trigonometry/chapter_p/algebra_and_trigonometry_chapter_p1.pdf",

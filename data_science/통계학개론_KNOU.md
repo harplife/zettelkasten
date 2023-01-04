@@ -96,8 +96,8 @@
 - `rep(element, n_reps)` : 지정된 값을 n번 반복하는 벡터를 생성하는 함수. 예: `fivetens <- rep(10,5)`.
 - 벡터 결합 : `c(v1,v2,..)` 함수를 사용하여 여러 벡터를 하나의 벡터로 결합할 수 있음.
 - 벡터 연산 : 길이가 동일한 벡터끼리 사칙연산(덧셈,뺄셈,나눗셈,곱셈)이 가능함. 예: `a+b, a-b, a/b, a*b`. 참고로 논리연산도 가능함.
-- `as.factor(data)` : 범주형 벡터 변환 함수. 예: `cat <- as.factor(1:4)`. 참고로 범주형 벡터는 사칙연산이 불가능함.
-- `as.character(data)` : 문자열 벡터 변환 함수. 예: `numchrs <- as.character(1:10)`. 참고로 문자열 벡터는 사칙연산이 불가능함.
+- `as.factor(vector)` : 범주형 벡터 변환 함수. 예: `cat <- as.factor(1:4)`. 참고로 범주형 벡터는 사칙연산이 불가능함.
+- `as.character(vector)` : 문자열 벡터 변환 함수. 예: `numchrs <- as.character(1:10)`. 참고로 문자열 벡터는 사칙연산이 불가능함.
 - `cbind(v1,v2,..)` : 여러 벡터를 각각의 열(column)로 합친 행렬을 생성함.
   ```r
   > a <- rep(10,5)
@@ -137,8 +137,28 @@
   [2,]   16   28
   ```
 - `solve(matrix)` : 입력된 행렬의 역행렬(Inverse Matrix)를 구하는 함수이다.
-- 
+- `data.frame(v1,v2,..)` : 데이터프레임을 생성하는 함수.
+  ```R
+  > name <- c('kim','lee','park','choi')
+  > age <- c(20, 32, 17, 51)
+  > sex <- as.factor(c('M','F','F','F'))
+  > df <- data.frame(name, age, sex)
+  > df
+    name age sex
+  1  kim  20   M
+  2  lee  32   F
+  3 park  17   F
+  4 choi  51   F
+  > df$name
+  [1] "kim"  "lee"  "park" "choi"
+  > df[1,1]
+  [1] "kim"
+  ```
 
+### R로 막대그래프 그리기
+```
+
+```
 
 
 ### 참고 자료
