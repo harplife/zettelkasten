@@ -190,7 +190,8 @@ ggplot(data=transp_df) + geom_bar(mapping=aes(x=fct_infreq(transp_data))) +
 
 
 ### R로 막대그래프 그리기 (2)
-- 
+- 이 예시는 `geom_bar()`에 기본적으로 제공하는 빈도수 계산을 무시하고, 직접 각 변수에 대한 값을 지정하는 방식으로 막대그래프를 출력한다.
+- `geom_bar()` 함수 안에 `stat='identity'` 를 지정함으로서 `mapping=aes(y=)` 에 지정된 값들로 막대그래프를 출력한다.
 
 #### 소스코드
 ```R
@@ -212,6 +213,12 @@ ggplot(data=df) +
 
 #### 출력 결과
 ![[Pasted image 20230104125719.png]]
+
+### R로 파이차트 그리기
+
+#### 소스코드
+
+#### 출력 결
 
 ### 참고 자료
 - [w3schools ai statistics](https://www.w3schools.com/ai/ai_statistics.asp)
