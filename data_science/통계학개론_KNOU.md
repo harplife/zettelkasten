@@ -296,7 +296,8 @@ boxplot(age, ylab='Age')
     - 피자 배달에 걸리는 시간을 알아보는 실험의 표본공간은 $0$보다 큰 모든 실수, 즉, $S=\set{(0,\infty)}$ 이다. 이러한 배달 시간 문제는 모두 연속형 표본공간을 갖는다. 참고로, 배달 시간이 20분 이내 걸릴 사건을 $A=\set{(0,20)}$와 같이 표현한다.
 - **확률 (Probability)** : 어떤 사건이 일어날 가능성을 0과 1 사이의 실수로 표시한 것..이라 간단하게 표현할 수 있지만, 실제로 확률의 "정의"라는 것은 [아주 심오한 토픽](https://en.wikipedia.org/wiki/Probability_interpretations)이다.
     - 지식, 경험, 통찰력, 정보에 입각하여 어떤 사건이 발생할 확률을 계산하는 것을 **주관적(Subjective) 확률**이라 볼 수 있다.
-    - 실제 실험을 통해 수학적으로 특정 사건의 발생 확률을 계산하는 것을 **객관적(Objective) 확률**이라 볼 수 있다.
+    - 고정된 조건 하에 규칙을 찾음으로서 발생 확률을 계산하는 것을 **객관적(Objective) 확률**이라 볼 수 있다.
+    - 논리적으로 생각하면 객관적 
     - 객관적 확률은 [빈도주의적 확률 (Frequentist Probability)](https://en.wikipedia.org/wiki/Frequentist_probability) 로 주로 불린다. 
 - 확률의 고전적 정의 (Classical Definition of Probability) : 
 
