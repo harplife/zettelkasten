@@ -310,6 +310,10 @@ boxplot(age, ylab='Age')
     - 주사위를 던질 때, 각 면이 나올 확률은 면 1개와 모든 면 6개의 비율로, $1/6\approx 17\%$ 이다. 짝수인 면이 나올 확률은 면3개(2,4,6)와 모든 면 6개의 비율로, $3/6=50\%$ 이다.
 - **확률의 상대도수적 정의** : 객관적 절차에 따라 실험을 무한번 반복 했을때 접근하는 상대도수(Relative Frequency)의 극한(Limit)이 확률이다. 여기서 상대도수는 특정 사건이 발생한 횟수와 모든 사건이 발생한 횟수의 비율이다. 사실상 방통대에서만 상대도수적 정의라고 하는 것 같다. 좀 더 정확한 이름은 [확률의 빈도주의적 정의](https://en.wikipedia.org/wiki/Frequentist_probability) 이다.
 - 확률의 공리적 정의 : 도대체 왜 이 빙신들은 이딴식으로 지식을 왜곡시키는지 모르겠다. 확률의 공리적 정의라는 것은 없다. 단지, 확률을 수학적으로 풀어나가기 위해 꼭 지켜져야 하는 틀이 있는데, 이것이 바로 확률의 공리라는 것이다. 공리(Axiom)란 증명할 수 없으나 옳다고 판단되는 명제(Proposition)이다. 이것에 대하여 밑에 더 설명한다.
+- [확률 공간 (Probability Space)](https://en.wikipedia.org/wiki/Probability_space) : 수학적으로 [공간(Space)](https://en.wikipedia.org/wiki/Space_(mathematics)) 이란 여러 원소와 특정 구조를 가진 집합(Set)을 뜻한다.  확률 공간은 다음과 같은 3가지 원소를 가진다.
+    1. **표본 공간 (Sample Space)** $\Omega$ : 가능한 모든 결과(outcome $\omega$)의 집합이다.
+    2. **사건 공간 (Event Space)** $F$ : 모든 사건(event $E$)의 집합이다. 여기서 사건은 표본 공간 안에 있는 특정 결과들의 집합이다.
+    3. **확률 함수 (Probability Function)** $P$ : 사건 공간 안에 있는 사건을 0과 1 사이의 값으로 매핑하는 함수이다. 어느 사건 $E$가 발생할 확률을 $P(E)$와 같이 표현한다.
 - [확률의 공리 (Probability Axioms)](https://en.wikipedia.org/wiki/Probability_axioms) : 
     1. First Axiom : Probability of any event $A$ is $P(A)\geq0$.
     2. Second Axiom : Probability of the sample space $S$ is $P(S)=1$.
