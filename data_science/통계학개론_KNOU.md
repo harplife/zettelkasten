@@ -314,9 +314,9 @@ boxplot(age, ylab='Age')
     1. **표본 공간 (Sample Space)** $\Omega$ : 가능한 모든 결과(outcome $\omega$)의 집합이다.
     2. **사건 공간 (Event Space)** $F$ : 모든 사건(event $E$)의 집합이다. 여기서 사건은 표본 공간 안에 있는 특정 결과들의 집합이다.
     3. **확률 함수 (Probability Function)** $P$ : 사건 공간 안에 있는 사건을 0과 1 사이의 값으로 매핑하는 함수이다. 어느 사건 $E$가 발생할 확률을 $P(E)$와 같이 표현한다.
-- [확률의 공리 (Probability Axioms)](https://en.wikipedia.org/wiki/Probability_axioms) : 
-    1. First Axiom : Probability of any event $A$ is $P(A)\geq0$.
-    2. Second Axiom : Probability of the sample space $S$ is $P(S)=1$.
+- [확률의 공리 (Probability Axioms)](https://en.wikipedia.org/wiki/Probability_axioms) : 확률 공간의 모든 원소는 밑에 3가지 공리를 따른다.
+    1. 공리 1 (First Axiom) : $P(E) \in \mathbb{R},\ P(E) \geq 0\ |\ \forall E \in F$ -> 사건 공간 안에 있는 모든 사건에 대하여, 사건의 확률은 음수가 아닌 실수(real number)이다. 때로는 $0 \leq P(E) \leq 1$으로 표현하는 경우도 있다.
+    2. 공리 2 (Second Axiom) : $P(\Omega)=1$ -> 
     3. Third Axiom : If $A_1, A_2, A_3, ..$ are disjoint events, then $P(A_1 \cup A_2 \cup A_3 \cup \ldots) = P(A_1) + P(A_2) + P(A_3) + \ldots$ .
 - 
 
