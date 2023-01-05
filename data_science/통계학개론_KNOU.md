@@ -305,8 +305,11 @@ boxplot(age, ylab='Age')
         - 사람 A가 감기 걸릴 확률을 구한다고 생각해본다. 일반적으로 "겨울에 쉽게 감기 걸린다"라는 정보가 있고, 현재 겨울이기 때문에 사람 A가 감기 걸릴 확률이 절반 이상이라 본다. 그런데 여기서 "비만인 사람은 감기에 더 쉽게 걸린다" 정보가 추가되고 사람 A가 비만인 경우, 사람 A가 감기 걸릴 확률은 기존에 생각했던 확률보다 더 높아진다. 이렇게 논리적 추론으로 계산한 확률이 주관적 확률이다 (정보와 확률을 실제로 수치화 했을때).
     - 주관적 확률, 객관적 확률 중 어느 하나가 더 좋다고 말할 수는 없다. 
     - 객관적 확률은 [빈도주의적 확률 (Frequentist Probability)](https://en.wikipedia.org/wiki/Frequentist_probability) 로 주로 불린다. 
-- 확률의 고전적 정의 (Classical Definition of Probability) : 표본공간의 모든 원소가 일어날 가능성이 같다고 하자. 사전 $A$가 발생할 확률은 이산형 표본공간의 경우에
-  $$P(A) = \frac{{len}}{}$$
+- 확률의 고전적 정의 (Classical Definition of Probability) : 표본공간의 모든 원소가 일어날 가능성이 같다고 하자.
+    - 사전 $A$가 발생할 확률은 이산형 표본공간의 경우에, 
+      $$P(A) = \frac{\# \ favorable \ outcomes}{total \ \# \ outcomes}$$
+    - 연속형 표본공간의 경우에,
+      $$P(A) = $$
 - 
 
 ### 참고자료
