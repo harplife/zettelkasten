@@ -309,7 +309,9 @@ boxplot(age, ylab='Age')
 - [확률의 고전적 정의 (Classical Definition of Probability)](https://en.wikipedia.org/wiki/Classical_definition_of_probability) : 일반적으로 사용되고 가장 간단한 객관적 확률 계산법으로서, 각 사건이 일어날 확률이 모두 균등하다는 가정 하에 특정 사건이 발생할 수 있는 조건의 개수와와 모든 조건의 개수의 비율로로 확률을 계산한다. 표본공간의 모든 원소가 일어날 가능성이 같다고 하자. 사전 $A$가 발생할 확률은 다음과 같다. $$P(A) = \frac{\# \ favorable \ outcomes}{total \ \# \ outcomes}$$
     - 주사위를 던질 때, 각 면이 나올 확률은 면 1개와 모든 면 6개의 비율로, $1/6\approx 17\%$ 이다. 짝수인 면이 나올 확률은 면3개(2,4,6)와 모든 면 6개의 비율로, $3/6=50\%$ 이다.
 - **확률의 상대도수적 정의** : 객관적 절차에 따라 실험을 무한번 반복 했을때 접근하는 상대도수(Relative Frequency)의 극한(Limit)이 확률이다. 여기서 상대도수는 특정 사건이 발생한 횟수와 모든 사건이 발생한 횟수의 비율이다. 사실상 방통대에서만 상대도수적 정의라고 하는 것 같다. 좀 더 정확한 이름은 [확률의 빈도주의적 정의](https://en.wikipedia.org/wiki/Frequentist_probability) 이다.
-- 확률의 공리적 정의 : 
+- 확률의 공리적 정의 : 도대체 왜 이 빙신들은 이딴식으로 지식을 왜곡시키는지 모르겠다. 확률의 공리적 정의라는 것은 없다. 단지, 확률을 수학적으로 풀어나가기 위해 꼭 지켜져야 하는 틀이 있는데, 이것이 바로 [확률의 공리 (Probability Axioms)](https://en.wikipedia.org/wiki/Probability_axioms) 라는 것이다. 공리(Axiom)란 증명할 수 없으나 옳다고 판단되는 명제(Proposition)이다. 확률의 공리는 3가지로 이루어진다.
+    1. First Axiom : 
+- 
 
 ### 참고자료
 - [확률론(Probability Theory) Wiki](https://en.wikipedia.org/wiki/Probability_theory)
