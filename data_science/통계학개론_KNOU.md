@@ -320,8 +320,8 @@ boxplot(age, ylab='Age')
     3. 공리 3 (Third Axiom) : $$if\ \bigcap\limits_{i=1}^{\infty} E_i=\varnothing,\ then\ P\Big(\bigcup\limits_{i=1}^{\infty} E_i \Big) = \sum_{i=1}^{\infty} P(E_i)$$ 모든 사건이 서로 배반(mutually exclusive)인 경우, 모든 사건 합집합의 확률은 모든 사건 확률의 합과 동일하다.
 - **순열** ([Permutation](https://en.wikipedia.org/wiki/Permutation)) : 집합의 원소를 정렬한 것. 집합은 여러 순열을 가질 수 있다.
     - 집합 전체에 대한 순열 : $n$개 원소를 가진 집합에 대하여 $n$개 전체에 대한 모든 순열의 개수는 [계승 (Factorial)](https://en.wikipedia.org/wiki/Factorial) 으로 구할 수 있으며, 이를 밑에와 같이 계산한다: $$n! = n \times (n-1) \times (n-2) \times \cdots \times 2 \times 1$$ 계승을 밑에와 같은 수식으로 표현할 수도 있다. $$n! = \prod_{i=1}^n$$ 계승의 특징은 이전 계승에 대하여 $n$를 곱하는 것으로도 계산할 수 있다는 것이다. $$n! = n \times (n-1)!$$
-    - 집합 일부에 대한 순열 : $n$개 원소를 가진 집합에서 $k$개 원소에 대한 모든 순열의 개수는 밑에 수식으로 구할 수 있다. $$\binom{n}{k} = \frac{n!}{k!(n-k)!}$$
-- 
+    - 집합 일부에 대한 순열 : $n$개 원소를 가진 집합에서 $k$개 원소에 대한 모든 순열의 개수는 밑에 수식으로 구할 수 있다. 
+- Combination : $$\binom{n}{k} = \frac{n!}{k!(n-k)!}$$
 
 ### 참고자료
 - [확률론(Probability Theory) Wiki](https://en.wikipedia.org/wiki/Probability_theory)
