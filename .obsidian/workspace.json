@@ -125,16 +125,6 @@
             }
           },
           {
-            "id": "15ca17ef343452c3",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "data_science/통계학개론_KNOU.md"
-              }
-            }
-          },
-          {
             "id": "65c09b173479de66",
             "type": "leaf",
             "state": {
@@ -148,6 +138,16 @@
             "state": {
               "type": "mathpad-view",
               "state": {}
+            }
+          },
+          {
+            "id": "15ca17ef343452c3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "data_science/통계학개론_KNOU.md"
+              }
             }
           }
         ],
@@ -170,7 +170,7 @@
       "mathpad:Open Mathpad": false
     }
   },
-  "active": "227e6011dc684b16",
+  "active": "15ca17ef343452c3",
   "lastOpenFiles": [
     "data_science/data-visualization.pdf",
     "data_science/통계학개론_KNOU.md",
