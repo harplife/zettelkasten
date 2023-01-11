@@ -151,7 +151,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -170,7 +170,7 @@
       "mathpad:Open Mathpad": false
     }
   },
-  "active": "8adcd82b233d847b",
+  "active": "227e6011dc684b16",
   "lastOpenFiles": [
     "data_science/data-visualization.pdf",
     "data_science/통계학개론_KNOU.md",
