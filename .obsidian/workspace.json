@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "game_dev/game_dev_random_notes.md",
+                "file": "game_dev/game_dev_notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "game_dev/game_dev_random_notes.md",
+                "file": "game_dev/game_dev_notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "game_dev/game_dev_random_notes.md"
+                "file": "game_dev/game_dev_notes.md"
               }
             }
           }
