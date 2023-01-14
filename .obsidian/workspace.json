@@ -151,7 +151,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -170,7 +170,7 @@
       "mathpad:Open Mathpad": false
     }
   },
-  "active": "227e6011dc684b16",
+  "active": "325360bd7a399887",
   "lastOpenFiles": [
     "data_science/통계학개론_KNOU.md",
     "game_dev/game_dev_notes.md",
