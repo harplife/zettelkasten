@@ -80,7 +80,7 @@
 79. (a) $2\sqrt{5}$ (b) $4\sqrt[3]{2}$
 80. (a) $\frac{2}{3}\sqrt[3]{2}$ (b) $\frac{5}{2}\sqrt{3}$
 81. (a) $6x\sqrt{2x}$ (b) $\frac{18\sqrt{z}}{z^2}$
-82. (a) $3y^2\sqrt{6x}$ (b) $\frac{4a^2\sqrt{2}}{b}$
+82. (a) $3y^2\sqrt{6x}$ (b) $\frac{4a^2\sqrt{2}}{|b|}$
 83. (a) $2x\sqrt[3]{2x^2}$ (b) $\frac{5x\sqrt{3}}{y^2}$
 84. (a) $x\sqrt[4]{3y^2}$ (b) $2x\sqrt[5]{5x^3z^4}$
 85. (a) $34\sqrt{2}$ (b) $22\sqrt{2}$
