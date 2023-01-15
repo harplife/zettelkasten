@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KNOU/2021년_2학기_방통대_컴퓨터과학과_계획.md",
+                "file": "KNOU/2023년_1학기_방통대_컴퓨터과학과_계획.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,12 +170,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KNOU/2021년_2학기_방통대_컴퓨터과학과_계획.md"
+                "file": "KNOU/2023년_1학기_방통대_컴퓨터과학과_계획.md"
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -194,8 +194,9 @@
       "mathpad:Open Mathpad": false
     }
   },
-  "active": "f687341ba315ca31",
+  "active": "227e6011dc684b16",
   "lastOpenFiles": [
+    "KNOU/2021년_2학기_방통대_컴퓨터과학과_계획.md",
     "KNOU/2023년_1학기_방통대_컴퓨터과학과_계획.md",
     "KNOU/2022년_2학기_방통대_컴퓨터과학과_계획.md",
     "math/algebra_and_trigonometry/chapter_p/chapter_p2_exercises.md",
@@ -204,7 +205,6 @@
     "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md",
     "data_science/통계학개론_KNOU.md",
     "game_dev/game_dev_notes.md",
-    "data_science/data-visualization.pdf",
-    "math/algebra_and_trigonometry/chapter_p/chapter_p1_exercises.md"
+    "data_science/data-visualization.pdf"
   ]
 }
