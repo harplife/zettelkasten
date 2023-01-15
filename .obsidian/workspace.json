@@ -32,6 +32,16 @@
             }
           },
           {
+            "id": "66385b23d4e6b2fd",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "math/algebra_and_trigonometry/chapter_p/algebra_and_trigonometry_chapter_p2.pdf"
+              }
+            }
+          },
+          {
             "id": "8adcd82b233d847b",
             "type": "leaf",
             "state": {
@@ -172,15 +182,15 @@
   },
   "active": "325360bd7a399887",
   "lastOpenFiles": [
+    "math/algebra_and_trigonometry/chapter_p/algebra_and_trigonometry_chapter_p2.pdf",
+    "math/algebra_and_trigonometry/chapter_p/chapter_p2_exercises.md",
     "math/algebra_and_trigonometry/chapter_p/chapter_p1_exercises_20221229.pdf",
     "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md",
-    "math/algebra_and_trigonometry/chapter_p/chapter_p2_exercises.md",
     "data_science/통계학개론_KNOU.md",
     "game_dev/game_dev_notes.md",
     "data_science/data-visualization.pdf",
     "math/algebra_and_trigonometry/chapter_p/chapter_p1_exercises.md",
     "data_science/sba_academy/sba_academy_lesson_notes.md",
-    "math/algebra_and_trigonometry/chapter_p/algebra_and_trigonometry_chapter_p1.pdf",
-    "history/history_with_shelby.md"
+    "math/algebra_and_trigonometry/chapter_p/algebra_and_trigonometry_chapter_p1.pdf"
   ]
 }
