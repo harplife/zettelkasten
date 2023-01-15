@@ -175,7 +175,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -194,11 +194,11 @@
       "mathpad:Open Mathpad": false
     }
   },
-  "active": "227e6011dc684b16",
+  "active": "ade188799281cf5a",
   "lastOpenFiles": [
-    "KNOU/2021년_2학기_방통대_컴퓨터과학과_계획.md",
-    "KNOU/2023년_1학기_방통대_컴퓨터과학과_계획.md",
     "KNOU/2022년_2학기_방통대_컴퓨터과학과_계획.md",
+    "KNOU/2023년_1학기_방통대_컴퓨터과학과_계획.md",
+    "KNOU/2021년_2학기_방통대_컴퓨터과학과_계획.md",
     "math/algebra_and_trigonometry/chapter_p/chapter_p2_exercises.md",
     "math/algebra_and_trigonometry/chapter_p/algebra_and_trigonometry_chapter_p2.pdf",
     "math/algebra_and_trigonometry/chapter_p/chapter_p1_exercises_20221229.pdf",
