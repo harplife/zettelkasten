@@ -6,7 +6,7 @@ edited: 2021-12-25
 ---
 
 # Software Engineer for DreamWorks
-(As seen on 2021/12/25, [job post](https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25354&siteid=5108&PageType=JobDetails&jobid=562509#jobDetails=562509_5108))
+As seen on 2021/12/25, [job post](https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25354&siteid=5108&PageType=JobDetails&jobid=562509#jobDetails=562509_5108) <-- link expired.
 
 ## Career Level
 Experienced

@@ -11,7 +11,7 @@ _synonymous_ : Graphics Engineer, Graphics Developer, Software Engineer (in Grap
 I'm not entirely sure the term _Graphics Programmer_ is commonly used in the CG industry.
 I've seen posts talking about what it is, but when I look up job posts, I hardly see anything titled as "Looking for Graphics Programmer".
 
-I think _Graphics Programmer_ is like an umbrella word for various job positions whose work relates to Comuter Graphics. Sort of like _3D Artist_, which covers _3D Animator_, _3D Modeller_, _3D Rigger_, and etc.
+I think _Graphics Programmer_ is like an umbrella word for various job positions whose work relates to Computer Graphics. Sort of like _3D Artist_, which covers _3D Animator_, _3D Modeller_, _3D Rigger_, and etc.
 
 (From here on, I shall refer to it as CG Programmer)
 

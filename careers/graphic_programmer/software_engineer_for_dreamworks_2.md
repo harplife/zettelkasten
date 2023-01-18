@@ -19,7 +19,7 @@ Experienced
 [Glendale, CA](https://goo.gl/maps/c1CWYwUvrrH1rrYy9)
 
 ## Job Summary
-DreamWorks Animation is looking for a software engineer to join the Production Software Rigging and Animation development team.  This team is responsible for Premo - the company's proprietary character animation and character rigging tool.
+DreamWorks Animation is looking for a software engineer to join the Production Software Rigging and Animation development team. This team is responsible for Premo - the company's proprietary character animation and character rigging tool.
 
 ## Responsibilities
 1. Work with technical leadership to design, build, and support new and existing capabilities and techniques related to character animation and rigging in a large-scale application
