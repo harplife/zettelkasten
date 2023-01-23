@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cs_programming/cs_learning_plan.md",
+                "file": "c_sharp/c_sharp_beginner_learning_plan.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cs_programming/cs_learning_plan.md",
+                "file": "c_sharp/c_sharp_beginner_learning_plan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cs_programming/cs_learning_plan.md"
+                "file": "c_sharp/c_sharp_beginner_learning_plan.md"
               }
             }
           }
@@ -153,7 +153,7 @@
     "KNOU/2023년_1학기_방통대_컴퓨터과학과_계획.md",
     "careers/graphic_programmer/software_engineer_for_dreamworks_2.md",
     "careers/graphic_programmer/software_engineer_for_dreamworks_1.md",
-    "cs_programming/cs_learning_plan.md",
+    "c_sharp/c_sharp_beginner_learning_plan.md",
     "math/algebra_and_trigonometry/chapter_p/chapter_p2_exercises.md",
     "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md",
     "KNOU/2022년_2학기_방통대_컴퓨터과학과_계획.md"
