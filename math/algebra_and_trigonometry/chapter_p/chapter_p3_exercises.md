@@ -30,9 +30,10 @@ Math the polynomial with its description.
 
 ### 15-18
 Write a polynomial that fits the description (there are many correct answers).
-15. A third-degree polynomial with leading coefficient $-2$
-16. A fifth-degree polynomial with leading coefficient $6$
-17. A fourth-degree binomial with a negative leading coefficient
-18. A third-degree binomial with an even leading coefficient
+15. A third-degree polynomial with leading coefficient $-2$ | $-2x^3+5$
+16. A fifth-degree polynomial with leading coefficient $6$ | $6x^5+3$
+17. A fourth-degree binomial with a negative leading coefficient | $-7x^4+1$
+18. A third-degree binomial with an even leading coefficient | $2x^3+9$
 
 ### 19-30
+(a) Write the polynomial
