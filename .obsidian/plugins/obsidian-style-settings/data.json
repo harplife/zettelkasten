@@ -12,5 +12,6 @@
   "obsidian-prism-theme@@h3-text-color-dt": "var(--color-orange-text)",
   "obsidian-prism-theme@@h4-text-color-dt": "var(--color-yellow-text)",
   "obsidian-prism-theme@@h5-text-color-dt": "var(--color-green-text)",
-  "obsidian-prism-theme@@h6-text-color-dt": "var(--color-mint-text)"
+  "obsidian-prism-theme@@h6-text-color-dt": "var(--color-mint-text)",
+  "obsidian-prism-theme@@file-line-width": 805
 }

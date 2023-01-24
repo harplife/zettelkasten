@@ -65,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#TODO",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,6 +88,16 @@
         "id": "80509ecd5229f2bb",
         "type": "tabs",
         "children": [
+          {
+            "id": "15ca17ef343452c3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md"
+              }
+            }
+          },
           {
             "id": "44fedb4924e97e68",
             "type": "leaf",
@@ -131,19 +141,23 @@
               "type": "mathpad-view",
               "state": {}
             }
-          },
-          {
-            "id": "15ca17ef343452c3",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md"
-              }
-            }
           }
         ],
         "currentTab": 4
+      },
+      {
+        "id": "baddb2b819dd740a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "27ce6da980886c10",
+            "type": "leaf",
+            "state": {
+              "type": "dictionary-view",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
