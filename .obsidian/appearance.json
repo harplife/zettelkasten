@@ -1,10 +1,10 @@
 {
-  "baseFontSize": 16,
+  "baseFontSize": 18,
   "translucency": false,
   "cssTheme": "Prism",
   "enabledCssSnippets": [
     "big-math"
   ],
   "accentColor": "",
-  "baseFontSizeAction": false
+  "baseFontSizeAction": true
 }
