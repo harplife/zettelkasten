@@ -41,7 +41,7 @@
   ],
   "legacyEditor": false,
   "livePreview": true,
-  "showFrontmatter": false,
+  "showFrontmatter": true,
   "lineWrap": true,
   "spellcheckLanguages": [
     "ko",
@@ -53,5 +53,7 @@
     "landscape": false,
     "margin": "2",
     "downscalePercent": 95
-  }
+  },
+  "showLineNumber": false,
+  "showInlineTitle": true
 }

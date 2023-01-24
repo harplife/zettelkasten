@@ -6,5 +6,6 @@
     "big-math"
   ],
   "accentColor": "",
-  "baseFontSizeAction": true
+  "baseFontSizeAction": true,
+  "showViewHeader": true
 }
