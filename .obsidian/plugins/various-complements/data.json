@@ -54,6 +54,46 @@
           "lastUpdated": 1674551352083
         }
       }
+    },
+    "polynomial": {
+      "polynomial": {
+        "currentFile": {
+          "count": 3,
+          "lastUpdated": 1674552985053
+        }
+      }
+    },
+    "15-18": {
+      "15-18": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1674552932432
+        }
+      }
+    },
+    "coefficient": {
+      "coefficient": {
+        "currentFile": {
+          "count": 3,
+          "lastUpdated": 1674553016498
+        }
+      }
+    },
+    "leading": {
+      "leading": {
+        "customDictionary": {
+          "count": 1,
+          "lastUpdated": 1674552988844
+        }
+      }
+    },
+    "binomial": {
+      "binomial": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1674553007784
+        }
+      }
     }
   }
 }

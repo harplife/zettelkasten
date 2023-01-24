@@ -35,7 +35,8 @@
               "pinned": true
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "c_sharp/c_sharp_beginner_learning_plan.md"
+                "file": "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md"
               }
             }
           },
@@ -103,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "c_sharp/c_sharp_beginner_learning_plan.md",
+                "file": "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,8 +142,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       },
       {
         "id": "baddb2b819dd740a",
@@ -175,11 +175,11 @@
       "mathpad:Open Mathpad": false
     }
   },
-  "active": "67de8349e219f263",
+  "active": "b63bb4c6a7a06ed5",
   "lastOpenFiles": [
+    "c_sharp/c_sharp_beginner_learning_plan.md",
     "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md",
     "careers/technical_director/croods_2_tds.md",
-    "c_sharp/c_sharp_beginner_learning_plan.md",
     "math/algebra_and_trigonometry/chapter_p/algebra_and_trigonometry_chapter_p3.pdf",
     "data_science/통계학개론_KNOU.md",
     "history/history_with_shelby.md",
