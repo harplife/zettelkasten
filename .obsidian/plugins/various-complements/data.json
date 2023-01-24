@@ -60,6 +60,10 @@
         "currentFile": {
           "count": 3,
           "lastUpdated": 1674552985053
+        },
+        "currentVault": {
+          "count": 2,
+          "lastUpdated": 1674555304373
         }
       }
     },
@@ -90,8 +94,24 @@
     "binomial": {
       "binomial": {
         "currentFile": {
+          "count": 2,
+          "lastUpdated": 1674555313357
+        }
+      }
+    },
+    "monomial": {
+      "monomial": {
+        "currentFile": {
           "count": 1,
-          "lastUpdated": 1674553007784
+          "lastUpdated": 1674555309613
+        }
+      }
+    },
+    "trinomial": {
+      "trinomial": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1674555318554
         }
       }
     }
