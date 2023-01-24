@@ -22,12 +22,12 @@
   "enableCurrentFileComplement": true,
   "currentFileMinNumberOfCharacters": 0,
   "onlyComplementEnglishOnCurrentFileComplement": false,
-  "enableCurrentVaultComplement": false,
+  "enableCurrentVaultComplement": true,
   "currentVaultMinNumberOfCharacters": 0,
   "includeCurrentVaultPathPrefixPatterns": "",
   "excludeCurrentVaultPathPrefixPatterns": "",
   "includeCurrentVaultOnlyFilesUnderCurrentDirectory": false,
-  "enableCustomDictionaryComplement": false,
+  "enableCustomDictionaryComplement": true,
   "customDictionaryPaths": "https://raw.githubusercontent.com/first20hours/google-10000-english/master/google-10000-english-no-swears.txt",
   "columnDelimiter": "Tab",
   "customDictionaryWordRegexPattern": "",
@@ -46,5 +46,14 @@
     "maxNumberOfHistoryToKeep": 0
   },
   "showLogAboutPerformanceInConsole": false,
-  "selectionHistoryTree": {}
+  "selectionHistoryTree": {
+    "descending": {
+      "descending": {
+        "customDictionary": {
+          "count": 1,
+          "lastUpdated": 1674551352083
+        }
+      }
+    }
+  }
 }
