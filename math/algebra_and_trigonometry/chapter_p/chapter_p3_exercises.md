@@ -9,8 +9,8 @@
 4. To add or subtract polynomials, add or subtract the **like terms** by adding their coefficients.
 5. The letters in "FOIL" stand for the following; **First**, **Outer**, **Inner**, and **Last**.
 
-(Note) Foil Method is used to find the product of two binomials.
-![[Pasted image 20230124182257.png | 500]]
+#### Note
+- Foil Method is used to find the product of two binomials. ![[Pasted image 20230124182257.png | 500]]
 
 ### 6-8
 	Math the special product form with its name (ref Page 30).
@@ -56,16 +56,56 @@
     - (a) Standard form : $-\frac{1}{2}x^5+14x$
     - (b) Fifth-degree polynomial with leading coefficient $-\frac{1}{2}$
     - (c) Binomial
-20. $2x^2-x+1$ || 
-21. $x^2-4-3x^4$ || 
-22. $7x$ || 
-23. $3-x^6$ || 
-24. $-y+25y^2+1$ || 
-25. $3$ || 
-26. $-8+t^2$ || 
-27. $1+6x^4-4x^5$ || 
-28. $3+2x$ || 
-29. $4x^3y$ || 
-30. $-x^5y+2x^2y^2+xy^4$ || 
+20. $2x^2-x+1$
+    - (a) Standard form : $2x^2-x+1$
+    - (b) Second-degree polynomial with leading coefficient $2$
+    - (c) Trinomial
+21. $x^2-4-3x^4$
+    - (a) Standard form : $-3x^4+x^2-4$
+    - (b) Fourth-degree polynomial with leading coefficient $-3$
+    - (c) Trinomial
+22. $7x$
+    - (a) Standard form : $7x$
+    - (b) First-degree polynomial with leading coefficient $7$
+    - (c) Monomial
+23. $3-x^6$
+    - (a) Standard form : $-x^6+3$
+    - (b) Sixth-degree polynomial with leading coefficient $-1$
+    - (c) Binomial
+24. $-y+25y^2+1$
+    - (a) Standard form : $25y^2 -y +1$
+    - (b) Second-degree polynomial with leading coefficient $25$
+    - (c) Trinomial
+25. $3$
+    - (a) Standard form : $3$
+    - (b) Zero-degree polynomial with leading coefficient $3$
+    - (c) Monomial
+26. $-8+t^2$
+    - (a) Standard form : $t^2-8$
+    - (b) Second-degree polynomial with leading coefficient $1$
+    - (c) Binomial
+27. $1+6x^4-4x^5$
+    - (a) Standard form : $-4x^5+6x^4+1$
+    - (b) Fifth-degree polynomial with leading coefficient $-4$
+    - (c) Trinomial
+28. $3+2x$
+    - (a) Standard form : $2x+3$
+    - (b) First-degree polynomial with leading coefficient $2$
+    - (c) Binomial
+29. $4x^3y$
+    - (a) Standard form : $4x^3y$
+    - (b) Fourth-degree polynomial with leading coefficient $4$
+    - (c) Monomial
+30. $-x^5y+2x^2y^2+xy^4$
+    - (a) Standard form : $-x^5y+xy^4+2x^2y^2$
+    - (b) Sixth-degree polynomial with leading coefficient $-1$
+    - (c) Trinomial
+
+#### Note
+- A constant term can be regarded as a coefficient because it can be thought of as a number multiplied by a variable with a power of two. For example, $8$ is the same thing as $8x^0$. The degree of this polynomial is $0$, and the coefficient is $8$ (as shown in Page 28).
+- For polynomials with more than one variable, the **degree of a term** is the sum of the exponents of the variables in the term. For example, in polynomial $3x^2y^5+8xy^3$, the first term $3x^2y^5$ has degree of $2+5=7$. The degree of the second term is $1+3=4$.
+- For polynomials with more than one variable, the **degree of the polynomial** is the highest degree of its terms. For instance, the degree of the polynomial $3x^2y^5+8xy^3$ is the degree of its first term, which is $7$.
+- For polynomials with more than one variable, the **leading coefficient** is the coefficient of the highest-degree term. For instance, the degree of leading coefficient polynomial $3x^2y^5+8xy^3$ is the coefficient of the first term, which is $3$.
 
 ### 31-36
+31. 

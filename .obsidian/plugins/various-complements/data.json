@@ -62,8 +62,8 @@
           "lastUpdated": 1674552985053
         },
         "currentVault": {
-          "count": 2,
-          "lastUpdated": 1674555304373
+          "count": 3,
+          "lastUpdated": 1674652087722
         }
       }
     },
@@ -78,8 +78,8 @@
     "coefficient": {
       "coefficient": {
         "currentFile": {
-          "count": 3,
-          "lastUpdated": 1674553016498
+          "count": 4,
+          "lastUpdated": 1674652091161
         }
       }
     },
@@ -128,6 +128,22 @@
         "customDictionary": {
           "count": 1,
           "lastUpdated": 1674635346773
+        }
+      }
+    },
+    "Standard": {
+      "Standard": {
+        "customDictionary": {
+          "count": 4,
+          "lastUpdated": 1674652391492
+        }
+      }
+    },
+    "Binomial": {
+      "Binomial": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1674652047231
         }
       }
     }
