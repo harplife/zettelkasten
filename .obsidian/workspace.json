@@ -38,17 +38,31 @@
           {
             "id": "188e8e9353e2913b",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md",
                 "mode": "source",
                 "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "1d9eff6c97510ab7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "art/photography_basics_and_beyond_coursera.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -98,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md"
+                "file": "art/photography_basics_and_beyond_coursera.md"
               }
             }
           }
@@ -172,7 +186,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md",
+                "file": "art/photography_basics_and_beyond_coursera.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -202,8 +216,9 @@
       "mathpad:Open Mathpad": false
     }
   },
-  "active": "188e8e9353e2913b",
+  "active": "1d9eff6c97510ab7",
   "lastOpenFiles": [
+    "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md",
     "KNOU/2023년_방통대/통계학개론_계획_23s1.md",
     "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md",
     "data_science/통계학개론_KNOU.md",
@@ -212,7 +227,6 @@
     "KNOU/2023년_방통대/졸업논문대체_관련_정보_23.md",
     "KNOU/2022년_방통대/컴퓨터과학과_계획_22s2.md",
     "KNOU/2021년_방통대/컴퓨터과학과_계획_21s2.md",
-    "KNOU/2021년_방통대/컴퓨터과학과_후기_21s2.md",
-    "KNOU/2022년_방통대/컴퓨터과학과_계획_22s1.md"
+    "KNOU/2021년_방통대/컴퓨터과학과_후기_21s2.md"
   ]
 }
