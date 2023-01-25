@@ -44,5 +44,5 @@ I'm hoping that I'd at least be able to finish 3rd semester by the time I have t
 - [ ] [[todo_computer_science_notes|Take Computer Science Notes]]
 
 ## Related
-- [[2021년_2학기_방통대_컴퓨터과학과_계획|방통대 컴퓨터과학과 데이터과학과 복수전공 계획 Overview]]
-- [[2022년_1학기_방통대_컴퓨터과학과_계획|방통대 컴퓨터과학과 데이터과학과 복수전공 계획 Part 1]]
+- [[컴퓨터과학과_계획_21s2|방통대 컴퓨터과학과 데이터과학과 복수전공 계획 Overview]]
+- [[컴퓨터과학과_계획_22s1|방통대 컴퓨터과학과 데이터과학과 복수전공 계획 Part 1]]

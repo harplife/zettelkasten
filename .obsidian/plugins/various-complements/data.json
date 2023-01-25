@@ -114,6 +114,22 @@
           "lastUpdated": 1674555318554
         }
       }
+    },
+    "statistics": {
+      "statistics": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1674635331561
+        }
+      }
+    },
+    "Information": {
+      "Information": {
+        "customDictionary": {
+          "count": 1,
+          "lastUpdated": 1674635346773
+        }
+      }
     }
   }
 }

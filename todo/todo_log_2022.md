@@ -48,13 +48,13 @@ Use of backlinks is recommended for tasks that require further explanation.
 
 ## 2022-01-18
 ### Personal (complete)
-- [x] Apply for _MAIN_ classes at KNOU for 2022 2nd Semester, following [[2022년_1학기_방통대_컴퓨터과학과_계획|방통대 컴퓨터과학과 계획 2022년 1학기 계획]]
+- [x] Apply for _MAIN_ classes at KNOU for 2022 2nd Semester, following [[컴퓨터과학과_계획_22s1|방통대 컴퓨터과학과 계획 2022년 1학기 계획]]
 - [x] Check S.Korea [Covid19 Travel Info Release](http://ncov.mohw.go.kr/duBoardList.do?brdId=2&brdGubun=23#)
 
 
 ## 2022-01-19
 ### Personal (complete)
-- [x] Apply for _Minor_ classes at KNOU for 2022 2nd Semester, following [[2022년_1학기_방통대_컴퓨터과학과_계획|방통대 컴퓨터과학과 계획 2022년 1학기 계획]]
+- [x] Apply for _Minor_ classes at KNOU for 2022 2nd Semester, following [[컴퓨터과학과_계획_22s1|방통대 컴퓨터과학과 계획 2022년 1학기 계획]]
 - [x] Reserve a PCR Test on 2/6
 
 
@@ -113,7 +113,7 @@ Use of backlinks is recommended for tasks that require further explanation.
 
 ## 2022-02-23
 ### Personal (complete)
-- [x] Print out Practice Tests for [[2022년_1학기_방통대_컴퓨터과학과_계획|1st Semester Classes]]
+- [x] Print out Practice Tests for [[컴퓨터과학과_계획_22s1|1st Semester Classes]]
 
 
 ## 2022-02-24
