@@ -53,9 +53,17 @@ The reasons why I want to learn this;
 - [American Society of Media Photographers](https://www.asmp.org/)
 - [Photo District News](https://pdnonline.com/)
 - [Professor Peter Glendinning's Website](https://peterglendinning.com/)
+- [Professor Peter Glendinning's Instagram](https://www.instagram.com/glendinn/)
 - [Professor Mark Sullivan's Flickr](https://www.flickr.com/photos/markvalentine)
 - [Professor Mark Sullivan's 500px](https://500px.com/p/markvalentine?view=photos)
 - [MSU Department of Art, Art History, & Design](https://art.msu.edu/)
+
+#### Basic Elements of Photography
+##### Camera and Lens
+- The word **Photograph** means *Light Writing*.
+- The word **Camera** means *Room*.
+- The word **Camera** originates from Latin *camera obscūra*, which is translated to **Dark Chamber**.
+- 
 
 ### Module 2
 
