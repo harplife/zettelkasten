@@ -127,7 +127,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       },
       {
         "id": "baddb2b819dd740a",
@@ -160,7 +161,7 @@
       "mathpad:Open Mathpad": false
     }
   },
-  "active": "67de8349e219f263",
+  "active": "227e6011dc684b16",
   "lastOpenFiles": [
     "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md",
     "c_sharp/c_sharp_beginner_learning_plan.md",
