@@ -48,7 +48,14 @@ The reasons why I want to learn this;
 **About this Module**
 	Welcome to the Module One of Course One, where we will begin our journey together to gain the knowledge and skills that will help you take control of your photography! The world of digital photography presents so many "tech" options that it can be quite confusing. Throughout this Course and Specialization, we will be sorting through the various functions, menus, and also the good old focus and exposure and camera craft aspects, so you can build a foundation for success. We'll start with some Basics, and keep building!
 
-
+#### Resources
+- [L'oeil de la photographie](https://loeildelaphotographie.com/en/)
+- [American Society of Media Photographers](https://www.asmp.org/)
+- [Photo District News](https://pdnonline.com/)
+- [Professor Peter Glendinning's Website](https://peterglendinning.com/)
+- [Professor Mark Sullivan's Flickr](https://www.flickr.com/photos/markvalentine)
+- [Professor Mark Sullivan's 500px](https://500px.com/p/markvalentine?view=photos)
+- [MSU Department of Art, Art History, & Design](https://art.msu.edu/)
 
 ### Module 2
 

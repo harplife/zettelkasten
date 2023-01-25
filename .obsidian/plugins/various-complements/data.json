@@ -194,6 +194,30 @@
           "lastUpdated": 1674682793975
         }
       }
+    },
+    "Resources": {
+      "Resources": {
+        "customDictionary": {
+          "count": 1,
+          "lastUpdated": 1674685225967
+        }
+      }
+    },
+    "Photographers": {
+      "Photographers": {
+        "customDictionary": {
+          "count": 1,
+          "lastUpdated": 1674685241878
+        }
+      }
+    },
+    "Newspapers": {
+      "Newspapers": {
+        "customDictionary": {
+          "count": 1,
+          "lastUpdated": 1674685250148
+        }
+      }
     }
   }
 }
