@@ -64,6 +64,7 @@ The reasons why I want to learn this;
 - The word **Camera** means *Room*.
 - The word **Camera** originates from Latin *camera obscūra*, which is translated to **Dark Chamber**.
 - A [*camera obscūra*](https://en.wikipedia.org/wiki/Camera_obscura) is a darkened room with a small hole or lens at one side through which an image is projected onto a wall or a table at the opposite side of the hole.
+  ![[Children-scene-camera-obscura-1887.webp|300]]
 - 
 
 ### Module 2
