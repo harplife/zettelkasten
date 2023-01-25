@@ -27,6 +27,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "KNOU/2023년_1학기_방통대_컴퓨터과학과_계획.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5344be7f122b04f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "KNOU/졸업논문대체_관련_정보.md",
                 "mode": "source",
                 "source": false
@@ -34,7 +46,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -182,8 +194,10 @@
       "mathpad:Open Mathpad": false
     }
   },
-  "active": "808d84a08cbe90cc",
+  "active": "5344be7f122b04f6",
   "lastOpenFiles": [
+    "KNOU/2023년_1학기_통계학개론_계획.md",
+    "KNOU/2023년_1학기_방통대_컴퓨터과학과_계획.md",
     "KNOU/졸업논문대체_관련_정보.md",
     "c_sharp/c_sharp_beginner_learning_plan.md",
     "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md",
@@ -191,8 +205,6 @@
     "math/algebra_and_trigonometry/chapter_p/algebra_and_trigonometry_chapter_p3.pdf",
     "data_science/통계학개론_KNOU.md",
     "history/history_with_shelby.md",
-    "careers/graphic_programmer/graphics_programmer.md",
-    "KNOU/2023년_1학기_방통대_컴퓨터과학과_계획.md",
-    "careers/graphic_programmer/software_engineer_for_dreamworks_2.md"
+    "careers/graphic_programmer/graphics_programmer.md"
   ]
 }
