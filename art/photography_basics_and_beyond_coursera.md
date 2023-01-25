@@ -9,6 +9,10 @@
 - Estimated learning time : 96 hours (6 months, 4 hours a week)
 - Prerequisite : None
 
+## Instructors
+- Peter Glendinning, MSU Professor - [MSU](https://people.cal.msu.edu/glendinn/), [Linkedin](https://www.linkedin.com/in/peter-glendinning-839432a/)
+- Mark Sullivan, MSU Professor - [MSU](https://www.music.msu.edu/faculty/profile/mark1), [Linkedin](https://www.linkedin.com/in/mark-valentine-sullivan-bb483717/)
+
 ## Course Description
 Whether your camera is a Smartphone or DSLR, a Compact or Mirrorless model, you will learn to gain control of exposure and understand fundamentals of composition, while exploring documentary and creative concepts to make the kinds of photographs you have always wanted.
 
@@ -24,3 +28,5 @@ This specialization is broken down into 5 courses,
 3. Principles of Photo Composition and Digital Image Post-Production
 4. Photography Techniques: Light, Content, and Sharing
 5. Photography Capstone Project
+
+Each course is broken down into 4 weeks. Each week consists of ~4 hours of materials, such as videos, readings, and assignments.
