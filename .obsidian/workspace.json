@@ -22,13 +22,13 @@
             }
           },
           {
-            "id": "188e8e9353e2913b",
+            "id": "21915bf84e37cf0d",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KNOU/2023년_방통대/통계학개론_계획_23s1.md",
+                "file": "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md",
                 "mode": "source",
                 "source": false
               },
@@ -36,12 +36,12 @@
             }
           },
           {
-            "id": "21915bf84e37cf0d",
+            "id": "188e8e9353e2913b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md",
+                "file": "KNOU/2023년_방통대/통계학개론_계획_23s1.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md"
+                "file": "KNOU/2023년_방통대/통계학개론_계획_23s1.md"
               }
             }
           }
@@ -184,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md",
+                "file": "KNOU/2023년_방통대/통계학개론_계획_23s1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -214,12 +214,12 @@
       "mathpad:Open Mathpad": false
     }
   },
-  "active": "15ca17ef343452c3",
+  "active": "188e8e9353e2913b",
   "lastOpenFiles": [
     "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md",
+    "KNOU/2023년_방통대/통계학개론_계획_23s1.md",
     "data_science/통계학개론_KNOU.md",
     "english/idioms/not_in_kansas_anymore.md",
-    "KNOU/2023년_방통대/통계학개론_계획_23s1.md",
     "c_sharp/c_sharp_beginner_learning_plan.md",
     "KNOU/2023년_방통대/졸업논문대체_관련_정보_23.md",
     "KNOU/2022년_방통대/컴퓨터과학과_계획_22s2.md",
