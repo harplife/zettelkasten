@@ -13,7 +13,7 @@
 - Peter Glendinning, MSU Professor - [MSU](https://people.cal.msu.edu/glendinn/), [Linkedin](https://www.linkedin.com/in/peter-glendinning-839432a/)
 - Mark Sullivan, MSU Professor - [MSU](https://www.music.msu.edu/faculty/profile/mark1), [Linkedin](https://www.linkedin.com/in/mark-valentine-sullivan-bb483717/)
 
-## Course Description
+## Description
 Whether your camera is a Smartphone or DSLR, a Compact or Mirrorless model, you will learn to gain control of exposure and understand fundamentals of composition, while exploring documentary and creative concepts to make the kinds of photographs you have always wanted.
 
 This Specialization covers a broad range of fundamental principles in photography, from camera control to principles of composition and creativity, providing you with a foundation for growth in making photographs you’ll be proud to share.
@@ -29,4 +29,35 @@ This specialization is broken down into 5 courses,
 4. Photography Techniques: Light, Content, and Sharing
 5. Photography Capstone Project
 
-Each course is broken down into 4 weeks. Each week consists of ~4 hours of materials, such as videos, readings, and assignments.
+Each course is broken down into 4 modules(weeks). Each module consists of ~4 hours of materials, such as videos, readings, and assignments.
+
+## Personal Motivation
+The reasons why I want to learn this;
+1. I'm interested in arts in general.
+2. I want to become good at photography.
+3. I want to take up photography as a hobby.
+4. I want to learn the technical aspects of photography.
+5. I believe this will give me a bit of insight into Computer Vision.
+6. I want to learn a subject that I'm not too serious about.
+
+## Course 1
+**About this Course**
+	Welcome to Course One of Photography Basics and Beyond: From Smartphone to DSLR! In these first 4 Modules you will gain the knowledge and the confidence that will help you make good choices as you consider qualities of the camera you own, and the qualities of the other types of digital cameras you might be considering. You will learn about the basic functions that most digital cameras have in common.  You will also go beyond the "technical" matters and learn about how you can make exciting pictures by emphasizing the aspects of Frame and Vantage Point to interpret old subjects in new ways.  Discovering accessories that photographers find useful, and the types of camera bags from mini to carry-on sized, is also in store for you.  You will also make your first photographs and, if you are a subscriber to the specialization, upload pictures to the web gallery and start interacting with your fellow learners in our "Gallery."  Let's get started with Module One!
+
+### Module 1
+**About this Module**
+	Welcome to the Module One of Course One, where we will begin our journey together to gain the knowledge and skills that will help you take control of your photography! The world of digital photography presents so many "tech" options that it can be quite confusing. Throughout this Course and Specialization, we will be sorting through the various functions, menus, and also the good old focus and exposure and camera craft aspects, so you can build a foundation for success. We'll start with some Basics, and keep building!
+
+
+
+### Module 2
+
+### Module 3
+
+### Module 4
+
+## Course 2
+
+## Course 3
+
+## Course 4
