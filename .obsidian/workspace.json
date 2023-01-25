@@ -91,7 +91,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "KNOU/졸업논문대체_관련_정보.md"
+              }
             }
           },
           {
@@ -100,6 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "KNOU/졸업논문대체_관련_정보.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +182,7 @@
       "mathpad:Open Mathpad": false
     }
   },
-  "active": "a850b9a0b8e8ec5a",
+  "active": "808d84a08cbe90cc",
   "lastOpenFiles": [
     "KNOU/졸업논문대체_관련_정보.md",
     "c_sharp/c_sharp_beginner_learning_plan.md",
