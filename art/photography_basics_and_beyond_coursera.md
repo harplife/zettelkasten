@@ -13,6 +13,14 @@
 - [Photograph - Wiki](https://en.wikipedia.org/wiki/Photograph)
 - [Photography - Wiki](https://en.wikipedia.org/wiki/Photography)
 - [History of Optics - Wiki](https://en.wikipedia.org/wiki/History_of_optics)
+- [Camera Lens - Wiki](https://en.wikipedia.org/wiki/Camera_lens)
+- [Gaussian Optics](https://en.wikipedia.org/wiki/Gaussian_optics)
+- [Cardinal Point](<https://en.wikipedia.org/wiki/Cardinal_point_(optics)>)
+- [Optical Properties](https://en.wikipedia.org/wiki/Optical_properties)
+
+### Related Topics
+- [[color_theory|Color Theory]]
+- [[computer_graphics|Computer Graphics]]
 
 ## Instructors
 - Peter Glendinning, MSU Professor - [MSU](https://people.cal.msu.edu/glendinn/), [Linkedin](https://www.linkedin.com/in/peter-glendinning-839432a/)
@@ -73,8 +81,9 @@ The reasons why I want to learn this;
 - In photography, the **Focal Plane** is the surface at which the image is projected onto. In optics, the [focal planes](<https://en.wikipedia.org/wiki/Cardinal_point_(optics)#Focal_and_afocal_systems,_focal_points>) (front and rear) are defined as the planes, perpendicular to the optic axis, which pass through the front and rear focal points.
 - A [lens](https://en.wikipedia.org/wiki/Lens) is used to collect more light rays (as compared to just a small pinhole) and to [focus](https://en.wikipedia.org/wiki/Focus_(optics)) the rays (bring the rays together), which effectively creates a higher resolution image.
 - **Out-of-Focus** means that the light rays haven't been brought back together properly at the focal plane.
-- In photography, the [Focal Length](https://en.wikipedia.org/wiki/Focal_length) (of an optical system) is a measurement of the distance from the optical center of the lens to the focal plane when the image is focused on infinity.
-- [Gaussian Optics](https://en.wikipedia.org/wiki/Gaussian_optics) - [Cardinal Point](<https://en.wikipedia.org/wiki/Cardinal_point_(optics)>) - 
+- In photography, the [Focal Length](https://en.wikipedia.org/wiki/Focal_length) (of an optical system) is a measurement of the distance from the optical center of the lens to the focal plane when the image is focused on infinity (infinity as in something really far away, like the Moon).
+- Cameras come with either a **fixed** focal length lens (e.g. 50mm), or with a **zoom** (variable focal length) lens (e.g. 15-30mm,25-75mm).
+- 
 
 ### Module 2
 
