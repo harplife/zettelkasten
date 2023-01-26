@@ -65,8 +65,11 @@ The reasons why I want to learn this;
 - The word **Camera** originates from Latin *camera obscūra*, which is translated to **Dark Chamber**.
 - A [*camera obscūra*](https://en.wikipedia.org/wiki/Camera_obscura) is a darkened room with a small hole or lens at one side through which an image is projected onto a wall or a table at the opposite side of the hole.
   ![[Children-scene-camera-obscura-1887.webp|300]]
-- A **lens** is used to collect more light rays (as compared to just a small pinhole) and to focus the rays (bring the rays together), which effectively creates a higher resolution image.
+- The **Focal Plane** is the surface at which the image is projected onto.
+- A **lens** is used to collect more light rays (as compared to just a small pinhole) and to [focus](https://en.wikipedia.org/wiki/Focus_(optics)) the rays (bring the rays together), which effectively creates a higher resolution image.
 - **Out-of-Focus** means that the light rays haven't been brought back together properly at the focal plane.
+- In photography, the [Focal Length](https://en.wikipedia.org/wiki/Focal_length) (of an optical system) is a measurement of the distance from the optical center of the lens to the focal plane when the image is focused on infinity.
+- Gaussian Optics - Cardinal Point - 
 
 ### Module 2
 
