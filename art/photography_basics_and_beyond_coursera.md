@@ -17,6 +17,9 @@
 - [Gaussian Optics](https://en.wikipedia.org/wiki/Gaussian_optics)
 - [Cardinal Point](<https://en.wikipedia.org/wiki/Cardinal_point_(optics)>)
 - [Optical Properties](https://en.wikipedia.org/wiki/Optical_properties)
+- [Pinhole Camera Model](https://en.wikipedia.org/wiki/Pinhole_camera_model)
+- [Graphical Projection/3D Projection](https://en.wikipedia.org/wiki/3D_projection)
+- [Visual Perception](https://en.wikipedia.org/wiki/Visual_perception)
 
 ### Related Topics
 - [[color_theory|Color Theory]]
@@ -83,7 +86,8 @@ The reasons why I want to learn this;
 - **Out-of-Focus** means that the light rays haven't been brought back together properly at the focal plane.
 - In photography, the [Focal Length](https://en.wikipedia.org/wiki/Focal_length) (of an optical system) is a measurement of the distance from the optical center of the lens to the focal plane when the image is focused on infinity (infinity as in something really far away, like the Moon).
 - Cameras come with either a **fixed** focal length lens (e.g. 50mm), or with a **zoom** (variable focal length) lens (e.g. 15-30mm,25-75mm).
-- 
+- [Field of View/Angle of View](https://en.wikipedia.org/wiki/Angle_of_view#Angle_of_view_in_photography) describes the angular extent of a given scene that is imaged by a camera. ![[Angle_of_view.svg]]
+- [Normal Lens](https://en.wikipedia.org/wiki/Normal_lens) is a lens that reproduces a field of view 
 
 ### Module 2
 
