@@ -9,6 +9,11 @@
 - Estimated learning time : 96 hours (6 months, 4 hours a week)
 - Prerequisite : None
 
+### Additional
+- [Photograph - Wiki](https://en.wikipedia.org/wiki/Photograph)
+- [Photography - Wiki](https://en.wikipedia.org/wiki/Photography)
+- [History of Optics - Wiki](https://en.wikipedia.org/wiki/History_of_optics)
+
 ## Instructors
 - Peter Glendinning, MSU Professor - [MSU](https://people.cal.msu.edu/glendinn/), [Linkedin](https://www.linkedin.com/in/peter-glendinning-839432a/)
 - Mark Sullivan, MSU Professor - [MSU](https://www.music.msu.edu/faculty/profile/mark1), [Linkedin](https://www.linkedin.com/in/mark-valentine-sullivan-bb483717/)
@@ -65,11 +70,11 @@ The reasons why I want to learn this;
 - The word **Camera** originates from Latin *camera obscūra*, which is translated to **Dark Chamber**.
 - A [*camera obscūra*](https://en.wikipedia.org/wiki/Camera_obscura) is a darkened room with a small hole or lens at one side through which an image is projected onto a wall or a table at the opposite side of the hole.
   ![[Children-scene-camera-obscura-1887.webp|300]]
-- The **Focal Plane** is the surface at which the image is projected onto.
-- A **lens** is used to collect more light rays (as compared to just a small pinhole) and to [focus](https://en.wikipedia.org/wiki/Focus_(optics)) the rays (bring the rays together), which effectively creates a higher resolution image.
+- In photography, the **Focal Plane** is the surface at which the image is projected onto. In optics, the [focal planes](<https://en.wikipedia.org/wiki/Cardinal_point_(optics)#Focal_and_afocal_systems,_focal_points>) (front and rear) are defined as the planes, perpendicular to the optic axis, which pass through the front and rear focal points.
+- A [lens](https://en.wikipedia.org/wiki/Lens) is used to collect more light rays (as compared to just a small pinhole) and to [focus](https://en.wikipedia.org/wiki/Focus_(optics)) the rays (bring the rays together), which effectively creates a higher resolution image.
 - **Out-of-Focus** means that the light rays haven't been brought back together properly at the focal plane.
 - In photography, the [Focal Length](https://en.wikipedia.org/wiki/Focal_length) (of an optical system) is a measurement of the distance from the optical center of the lens to the focal plane when the image is focused on infinity.
-- Gaussian Optics - Cardinal Point - 
+- [Gaussian Optics](https://en.wikipedia.org/wiki/Gaussian_optics) - [Cardinal Point](<https://en.wikipedia.org/wiki/Cardinal_point_(optics)>) - 
 
 ### Module 2
 
