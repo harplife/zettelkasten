@@ -3,7 +3,8 @@
   "translucency": false,
   "cssTheme": "Prism",
   "enabledCssSnippets": [
-    "big-math"
+    "big-math",
+    "images"
   ],
   "accentColor": "",
   "baseFontSizeAction": true,
