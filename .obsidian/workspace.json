@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "67de8349e219f263",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "c_sharp/c_sharp_beginner_learning_plan.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
             "id": "21915bf84e37cf0d",
             "type": "leaf",
             "pinned": true,
@@ -72,9 +58,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f4d56cb3000b41e9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "history/history_with_shelby.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -124,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md"
+                "file": "history/history_with_shelby.md"
               }
             }
           }
@@ -198,7 +196,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md",
+                "file": "history/history_with_shelby.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -228,17 +226,17 @@
       "mathpad:Open Mathpad": false
     }
   },
-  "active": "188e8e9353e2913b",
+  "active": "f4d56cb3000b41e9",
   "lastOpenFiles": [
-    "art/photography_basics_and_beyond_coursera.md",
-    "graphics/3d_영상_콘텐츠_제작자_양성_과정.md",
-    "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md",
-    "c_sharp/c_sharp_beginner_learning_plan.md",
-    "unsorted/humans_and_electricity.md",
     "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md",
+    "history/history_with_shelby.md",
+    "graphics/3d_영상_콘텐츠_제작자_양성_과정.md",
+    "art/photography_basics_and_beyond_coursera.md",
+    "c_sharp/c_sharp_beginner_learning_plan.md",
+    "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md",
+    "unsorted/humans_and_electricity.md",
     "color_theory/color_theory.md",
     "color_theory/light_matter_interaction.md",
-    "computer_science/computer_vision/computer_graphics.md",
-    "KNOU/2023년_방통대/통계학개론_계획_23s1.md"
+    "computer_science/computer_vision/computer_graphics.md"
   ]
 }
