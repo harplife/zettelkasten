@@ -13,7 +13,6 @@ The illustration below is an alternate representation of the GTS represented as 
 # Human Evolution
 [Human evolution](https://en.wikipedia.org/wiki/Human_evolution) is the evolutionary process within the history of primates that led to the emergence of Homo sapiens (aka Humans) as a distinct species of the [hominid (aka great apes)](https://en.wikipedia.org/wiki/Hominidae) family, which includes the great apes. This process involved the gradual development of traits such as human bipedalism and language, as well as interbreeding with other hominis, which indicate that human evolution was not linear but a web.
 
-
 # Human History
 Human History (aka World History) is the narrative of Humanity's past. Humanity's written history was preceded by its prehistory, beginning with the Paleolithic ("Old Stone Age") era.
 
