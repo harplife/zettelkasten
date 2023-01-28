@@ -17,8 +17,29 @@ The illustration below is an alternate representation of the GTS represented as 
 # Human History
 Human History (aka World History) is the narrative of Humanity's past. Humanity's written history was preceded by its prehistory, beginning with the Paleolithic ("Old Stone Age") era.
 
+Refer to [List of Time Periods](https://en.wikipedia.org/wiki/List_of_time_periods)
+
 ## Prehistory
 [Prehistory](https://en.wikipedia.org/wiki/Prehistory) (aka pre-literary history) is the period of human history between the use of the first stone tools by hominins and the beginning of Recorded History with the invention of writing systems.
+
+Refer to [Timeline of Prehistory](https://en.wikipedia.org/wiki/Timeline_of_prehistory)
+
+### Paleolithic
+
+### Mesolithic
+
+### Neolithic
+
+### Chalcolithic
+
+## Transitional History
+"Transitional History" is something I made up to describe the transition between the prehistory and the recorded history.
+
+### Bronze Age
+
+### Iron Age
+
+### Protohistory
 
 ## Recorded History
 Recorded History (aka Written History) describes the historical events that have been recorded in a written form or other documented communication which are subsequently evaluated by historians using the historical method.
@@ -26,6 +47,11 @@ Recorded History (aka Written History) describes the historical events that have
 ### Ancient History
 Ancient History is a time period from the [Beginning of Writing](https://en.wikipedia.org/wiki/History_of_writing) to [Late Antiquity](https://en.wikipedia.org/wiki/Late_antiquity).
 
+### Late Middle Ages
+
+### Early Modern History
+
+### Modern History
 
 ## Resources
 - [What Happed Before history? Human Origins | Kurzgesagt, Youtube](https://youtu.be/dGiQaabX3_o)
