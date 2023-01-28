@@ -1,5 +1,7 @@
 # Chapter P3 Exercises
 
+Exercises from [[algebra_and_trigonometry_chapter_p3.pdf|Algebra and Trigonometry Chapter P3 PDF]]
+
 ## Vocabulary
 ### 1-5
 	Fill in the blanks.
@@ -108,4 +110,51 @@
 - For polynomials with more than one variable, the **leading coefficient** is the coefficient of the highest-degree term. For instance, the degree of leading coefficient polynomial $3x^2y^5+8xy^3$ is the coefficient of the first term, which is $3$.
 
 ### 31-36
-31. 
+	Determine whether the expression is a polynomial. If so, write the polynomial in standard form.
+31. $2x-3x^3+8$ in standard form is $-3x^3+2x+8$.
+32. $5x^4-2x^2+x^{-2}$ is *not* a polynomial.
+33. $\frac{3x+4}{x}$ is *not* a polynomial.
+34. $\frac{x^2+2x-3}{2}$ is *not* a polynomial.
+35. $y^2-y^4+y^3$ in standard form is $-y^4+y^3+y^2$.
+36. $y^4-\sqrt{y}$ is *not* a polynomial.
+
+### 37-54
+	Perform the operation and write the result in standard form.
+37. $(6x+5)-(8x+15)$
+    - $-2x-10$
+38. $(2x^2+1) - (x^2-2x+1)$
+    - $x^2+2x$
+39. $-(t^3-1)+(6t^3-5t)$
+    - $5t^3-5t+1$
+40. $-(5x^2-1)-(-3x^2+5)$
+    - $-2x^2-4$
+41. $(15x^2-6)-(-8.3x^3-14.7x^2-17)$
+    - $8.3x^3+29.7x^2+11$
+42. $(15.6w^4-14w-17.4)-(16.9w^4-9.2w+13)$
+    - $-1.3w^4-4.8w-30.4$
+43. $5z-[3z-(10z+8)]$
+    - $12z+8$
+44. $(y^3+1)-[(y^2+1)+(3y-7)]$
+    - $y^3-y^2-3y+7$
+45. $3x(x^2-2x+1)$
+    - $3x^3-6x^2+3x$
+46. $y^2(4y^2+2y-3)$
+    - $4y^4+2y^3-3y^2$
+47. $-5z(3z-1)$
+    - $-15z^2+5z$
+48. $(-3x)(5x+2)$
+    - $-15x^2-6x$
+49. $(1-x^3)(4x)$
+    - $-4x^4+4x$
+50. $-4x(3-x^3)$
+    - $4x^4-12x$
+51. $(1.5t^2+5)(-3t)$
+    - $-4.5t^3-15t$
+52. $(2-3.5y)(2y^3)$
+    - $-7y^4+4y^3$
+53. $-2x(0.1x+17)$
+    - $-0.2x^2-34x$
+54. $6y(5-\frac{3}{8}y)$
+    - $-\frac{9}{4}y^2+30y = -2.25y^2+30y$
+
+### 55-62
