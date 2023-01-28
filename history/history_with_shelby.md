@@ -10,11 +10,22 @@ The illustration below is an alternate representation of the GTS represented as 
 
 ![[Geologic_Clock_with_events_and_periods.svg]]
 
-# Human Era
-The Holocene calendar, also known as the Holocene Era or Human Era (HE), is a year numbering system that adds exactly 
-
-## Human Evolution
+# Human Evolution
 [Human evolution](https://en.wikipedia.org/wiki/Human_evolution) is the evolutionary process within the history of primates that led to the emergence of Homo sapiens (aka Humans) as a distinct species of the [hominid (aka great apes)](https://en.wikipedia.org/wiki/Hominidae) family, which includes the great apes. This process involved the gradual development of traits such as human bipedalism and language, as well as interbreeding with other hominis, which indicate that human evolution was not linear but a web.
+
+
+# Human History
+Human History (aka World History) is the narrative of Humanity's past. Humanity's written history was preceded by its prehistory, beginning with the Paleolithic ("Old Stone Age") era.
+
+## Prehistory
+[Prehistory](https://en.wikipedia.org/wiki/Prehistory) (aka pre-literary history) is the period of human history between the use of the first stone tools by hominins and the beginning of Recorded History with the invention of writing systems.
+
+## Recorded History
+Recorded History (aka Written History) describes the historical events that have been recorded in a written form or other documented communication which are subsequently evaluated by historians using the historical method.
+
+### Ancient History
+Ancient History is a time period from the [Beginning of Writing](https://en.wikipedia.org/wiki/History_of_writing) to [Late Antiquity](https://en.wikipedia.org/wiki/Late_antiquity).
+
 
 ## Resources
 - [What Happed Before history? Human Origins | Kurzgesagt, Youtube](https://youtu.be/dGiQaabX3_o)
