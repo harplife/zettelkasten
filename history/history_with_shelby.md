@@ -10,8 +10,8 @@ The illustration below is an alternate representation of the GTS represented as 
 
 ![[Geologic_Clock_with_events_and_periods.svg]]
 
-# Human History
-
+# Human Era
+The Holocene calendar, also known as the Holocene Era or Human Era (HE), is a year numbering system that adds exactly 
 
 ## Human Evolution
 [Human evolution](https://en.wikipedia.org/wiki/Human_evolution) is the evolutionary process within the history of primates that led to the emergence of Homo sapiens (aka Humans) as a distinct species of the [hominid (aka great apes)](https://en.wikipedia.org/wiki/Hominidae) family, which includes the great apes. This process involved the gradual development of traits such as human bipedalism and language, as well as interbreeding with other hominis, which indicate that human evolution was not linear but a web.
