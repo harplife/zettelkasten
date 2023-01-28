@@ -1,5 +1,11 @@
 # History of Earth
+The [History of Earth](https://en.wikipedia.org/wiki/History_of_Earth) concerns the development of planet [Earth](https://en.wikipedia.org/wiki/Earth) from its formation to the present day, characterized by constant geological change and biological evolution.
 
+The [Geological Time Scale (GTS)](https://en.wikipedia.org/wiki/Geologic_time_scale) is a representation of time based on the rock record of Earth. It is a system of [chronological dating](https://en.wikipedia.org/wiki/Chronological_dating) that uses [chronostratigraphy](https://en.wikipedia.org/wiki/Chronostratigraphy) (the process of relating [strata](https://en.wikipedia.org/wiki/Stratum) to [time](https://en.wikipedia.org/wiki/Time)) and [geochronology](https://en.wikipedia.org/wiki/Geochronology) (scientific branch of geology that aims to determine the age of rocks).
+
+The illustration below is an alternate representation of the GTS represented as a clock. Ma stands for Megayear, which means a million years. Ga stands for Gigayear, which means a billion years.
+
+![[Geologic_Clock_with_events_and_periods.svg]]
 
 # Human History
 
