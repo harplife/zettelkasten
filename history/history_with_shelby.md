@@ -1,6 +1,8 @@
 # Big History
 [Big History](https://en.wikipedia.org/wiki/Big_History) is an academic discipline which examines history from the Big Bang to the present. Big History resists specialization, and searches for universal patterns or trends. It examines long time frames using a multidisciplinary approach based on combining numerous disciplines from science and the humanities, and explores human existence in the context of this bigger picture. It integrates studies of the cosmos, Earth, life, and humanity using empirical evidence to explore cause-and-effect relations.
 
+https://www.infoplease.com/history/ancient/45-billion-1-bc-world-history
+
 # History of Earth
 The [History of Earth](https://en.wikipedia.org/wiki/History_of_Earth) concerns the development of planet [Earth](https://en.wikipedia.org/wiki/Earth) from its formation to the present day, characterized by constant geological change and biological evolution.
 
