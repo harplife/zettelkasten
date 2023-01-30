@@ -19,7 +19,8 @@
                 "source": false
               },
               "pinned": true
-            }
+            },
+            "group": "2d86e342e83db64d"
           },
           {
             "id": "21915bf84e37cf0d",
@@ -48,8 +49,35 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "e074d637693ef59a",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0_dataview/status_query.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "83c154c5d0d8d54a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "art/photography_basics_and_beyond_coursera.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -99,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "goals/goal_bachelor_in_cs.md"
+                "file": "art/photography_basics_and_beyond_coursera.md"
               }
             }
           }
@@ -176,7 +204,8 @@
                 }
               },
               "pinned": true
-            }
+            },
+            "group": "2d86e342e83db64d"
           }
         ],
         "currentTab": 3
@@ -212,7 +241,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "goals/goal_bachelor_in_cs.md",
+                "file": "art/photography_basics_and_beyond_coursera.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,17 +271,17 @@
       "mathpad:Open Mathpad": false
     }
   },
-  "active": "929a08cac18cc2fa",
+  "active": "19ce5a4d65676126",
   "lastOpenFiles": [
+    "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md",
+    "0_dataview/metadata_template.md",
+    "0_dataview/status_query.md",
+    "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md",
+    "art/photography_basics_and_beyond_coursera.md",
+    "goals/goal_bachelor_in_cs.md",
     "articles/learn_faster_the_feynman_technique.md",
     "KNOU/2023년_방통대/졸업논문대체_관련_정보_23.md",
     "KNOU/졸업논문대체_자격증_목록.md",
-    "certifications/international_certification.md",
-    "certifications/national_certification.md",
-    "goals/goal_bachelor_in_cs.md",
-    "goals/goals.md",
-    "computer_science/computer_science.md",
-    "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md",
-    "todo/general_todos.md"
+    "certifications/international_certification.md"
   ]
 }

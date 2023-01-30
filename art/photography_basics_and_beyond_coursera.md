@@ -79,8 +79,7 @@ The reasons why I want to learn this;
 - The word **Photograph** means *Light Writing*.
 - The word **Camera** means *Room*.
 - The word **Camera** originates from Latin *camera obscūra*, which is translated to **Dark Chamber**.
-- A [*camera obscūra*](https://en.wikipedia.org/wiki/Camera_obscura) is a darkened room with a small hole or lens at one side through which an image is projected onto a wall or a table at the opposite side of the hole.
-  ![[Children-scene-camera-obscura-1887.webp|300]]
+- A [*camera obscūra*](https://en.wikipedia.org/wiki/Camera_obscura) is a darkened room with a small hole or lens at one side through which an image is projected onto a wall or a table at the opposite side of the hole. ![[Children-scene-camera-obscura-1887.webp|300]]
 - In photography, the **Focal Plane** is the surface at which the image is projected onto. In optics, the [focal planes](<https://en.wikipedia.org/wiki/Cardinal_point_(optics)#Focal_and_afocal_systems,_focal_points>) (front and rear) are defined as the planes, perpendicular to the optic axis, which pass through the front and rear focal points.
 - A [lens](https://en.wikipedia.org/wiki/Lens) is used to collect more light rays (as compared to just a small pinhole) and to [focus](https://en.wikipedia.org/wiki/Focus_(optics)) the rays (bring the rays together), which effectively creates a higher resolution image.
 - **Out-of-Focus** means that the light rays haven't been brought back together properly at the focal plane.
