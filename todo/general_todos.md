@@ -84,7 +84,6 @@ But for now, non-priority Todos are to be stored and organized here.
 
 
 ### Study
-- [ ] [[todo_computer_science_notes|Take Computer Science Notes]]
 - [ ] Find out the difference between [Signal Programming](https://en.wikipedia.org/wiki/Signal_programming) and [Event-Driven Programming](https://en.wikipedia.org/wiki/Event-driven_programming)
 - [ ] Work on Python Math Practice (on work computer, projects folder)
 - [ ] Work on Google Trends API (pytrends, on work computer, projects folder)

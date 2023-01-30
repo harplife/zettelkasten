@@ -36,7 +36,7 @@
             }
           },
           {
-            "id": "59444bf43f69fdd9",
+            "id": "4aa4b36a0cb514d0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -204,17 +204,17 @@
       "mathpad:Open Mathpad": false
     }
   },
-  "active": "59444bf43f69fdd9",
+  "active": "4aa4b36a0cb514d0",
   "lastOpenFiles": [
-    "KNOU/2023년_방통대/컴퓨터과학과_계획_23s2.md",
-    "goals/goal_bachelor_in_cs.md",
+    "todo/general_todos.md",
     "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md",
+    "todo/todo_computer_science_notes.md",
+    "goals/goal_bachelor_in_cs.md",
+    "KNOU/2023년_방통대/컴퓨터과학과_계획_23s2.md",
     "KNOU/2023년_방통대/1학기_과목/R컴퓨팅_계획_23s1.md",
     "KNOU/2023년_방통대/1학기_과목/확률의개념과응용_계획_23s1.md",
     "KNOU/2023년_방통대/1학기_과목/통계학개론_계획_23s1.md",
     "KNOU/2023년_방통대/1학기_과목/데이터베이스시스템_계획_23s1.md",
-    "KNOU/2023년_방통대/1학기_과목/디지털논리회로_계획_23s1.md",
-    "KNOU/2023년_방통대/1학기_과목/알고리즘_계획_23s1.md",
-    "KNOU/2023년_방통대/졸업논문대체_관련_정보_23.md"
+    "KNOU/2023년_방통대/1학기_과목/디지털논리회로_계획_23s1.md"
   ]
 }

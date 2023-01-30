@@ -29,22 +29,9 @@ Graduate after [[컴퓨터과학과_계획_23s2|the 2nd semester of 2023]].
 - I want to be paid more.
 - This is a stepping stone to reach my goal to become a [[technical_director|Technical Director]].
 
-## Plans
+## Plans and Reviews
 - [[컴퓨터과학과_계획_21s2]], [[컴퓨터과학과_후기_21s2]]
 - [[컴퓨터과학과_계획_22s1]]
 - [[컴퓨터과학과_계획_22s2]]
 - [[컴퓨터과학과_계획_23s1]]
 - [[컴퓨터과학과_계획_23s2]]
-
-## Concerns
-The timing is awful. I may be moving to USA after 2nd semester.
-Finals have to be taken at the desginated campus.
-Meaning, I may have to go back to S.Korea after each semester.
-I'm hoping that I'd at least be able to finish 3rd semester by the time I have to leave for USA.
-
-## TODO
-- [ ] [[todo_computer_science_notes|Take Computer Science Notes]]
-
-## Related
-- [[컴퓨터과학과_계획_21s2|방통대 컴퓨터과학과 데이터과학과 복수전공 계획 Overview]]
-- [[컴퓨터과학과_계획_22s1|방통대 컴퓨터과학과 데이터과학과 복수전공 계획 Part 1]]
