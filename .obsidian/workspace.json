@@ -8,6 +8,20 @@
         "type": "tabs",
         "children": [
           {
+            "id": "929a08cac18cc2fa",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "goals/goal_bachelor_in_cs.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
             "id": "21915bf84e37cf0d",
             "type": "leaf",
             "pinned": true,
@@ -19,18 +33,6 @@
                 "source": false
               },
               "pinned": true
-            }
-          },
-          {
-            "id": "929a08cac18cc2fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "certifications/knou_cs_approved_certifications.md",
-                "mode": "source",
-                "source": false
-              }
             }
           },
           {
@@ -47,8 +49,7 @@
               "pinned": true
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "certifications/knou_cs_approved_certifications.md"
+                "file": "goals/goal_bachelor_in_cs.md"
               }
             }
           }
@@ -187,9 +188,11 @@
           {
             "id": "4aa4b36a0cb514d0",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "graph",
-              "state": {}
+              "state": {},
+              "pinned": true
             }
           },
           {
@@ -209,7 +212,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "certifications/knou_cs_approved_certifications.md",
+                "file": "goals/goal_bachelor_in_cs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -239,17 +242,17 @@
       "mathpad:Open Mathpad": false
     }
   },
-  "active": "19ce5a4d65676126",
+  "active": "929a08cac18cc2fa",
   "lastOpenFiles": [
+    "articles/learn_faster_the_feynman_technique.md",
+    "KNOU/2023년_방통대/졸업논문대체_관련_정보_23.md",
+    "KNOU/졸업논문대체_자격증_목록.md",
+    "certifications/international_certification.md",
+    "certifications/national_certification.md",
     "goals/goal_bachelor_in_cs.md",
     "goals/goals.md",
     "computer_science/computer_science.md",
     "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md",
-    "todo/general_todos.md",
-    "todo/todo_computer_science_notes.md",
-    "KNOU/2023년_방통대/컴퓨터과학과_계획_23s2.md",
-    "KNOU/2023년_방통대/1학기_과목/R컴퓨팅_계획_23s1.md",
-    "KNOU/2023년_방통대/1학기_과목/확률의개념과응용_계획_23s1.md",
-    "KNOU/2023년_방통대/1학기_과목/통계학개론_계획_23s1.md"
+    "todo/general_todos.md"
   ]
 }
