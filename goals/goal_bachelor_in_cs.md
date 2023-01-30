@@ -6,9 +6,9 @@ edited: 2023-01-31
 ---
 
 # Get a Bachelor's Degree in Computer Science
-This is a goal that I started thinking of, once I hit the 1 year mark working as a programmer/data scientist. Back in 2020 December, I attempted to apply to KNOU for the 2021 spring semester, but failed to do so because transcripts from Webster did not arrive on time for registration, due to covid 19.
+This is a goal that I started thinking of, once I hit the 1 year mark working as a programmer/data scientist. Back in 2020 December, I attempted to apply to KNOU for the 2021 spring semester, but failed to do so because transcripts from Webster did not arrive on time for registration due to covid 19.
 
-I was able to register for the 2021 fall semester though, and began studying at September.
+I was able to register for the 2021 fall semester though, and began studying in September.
 
 ## Objective
 There is one ~~combined~~ objective.

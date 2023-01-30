@@ -33,7 +33,7 @@ Goals that may take a long time to achieve:
 - [ ] Own a car
 - [ ] Build an Audio Engineering Portfolio
 - [ ] Build a Technical Ear Training program (python web version)
-- [ ] Build a Tehcnical Ear Training program (pure frontend version)
+- [ ] Build a Technical Ear Training program (pure frontend version)
 - [ ] Build a C++ program that uses Kaldi
 
 ## Permanent Goals
