@@ -306,6 +306,22 @@
           "lastUpdated": 1675061202835
         }
       }
+    },
+    "Responsibilities": {
+      "Responsibilities": {
+        "customDictionary": {
+          "count": 1,
+          "lastUpdated": 1675067246797
+        }
+      }
+    },
+    "Skills": {
+      "proficiencies": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1675067851808
+        }
+      }
     }
   }
 }

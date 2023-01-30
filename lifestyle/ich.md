@@ -5,6 +5,8 @@ status: ongoing
 edited: 2021-10-13
 ---
 
+#todo move and merge this note to personal_zk
+
 # I think, therefore I am
 Everything is connected.
 To observe is to connect.
