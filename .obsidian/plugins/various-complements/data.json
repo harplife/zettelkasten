@@ -336,6 +336,10 @@
         "internalLink": {
           "count": 1,
           "lastUpdated": 1675118550679
+        },
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1675123020020
         }
       }
     },
@@ -344,6 +348,38 @@
         "customDictionary": {
           "count": 1,
           "lastUpdated": 1675118602329
+        }
+      }
+    },
+    "2023-01-31": {
+      "2023-01-31": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1675122962047
+        }
+      }
+    },
+    "animation": {
+      "animation": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1675123031599
+        }
+      }
+    },
+    "art": {
+      "art": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1675123033460
+        }
+      }
+    },
+    "people": {
+      "people": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1675123037146
         }
       }
     }

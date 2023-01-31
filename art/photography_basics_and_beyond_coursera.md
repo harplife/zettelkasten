@@ -1,3 +1,10 @@
+---
+aliases: [Photography Basics and Beyond]
+tags: [coursera, specialization, photography, art, study, free, computer_vision]
+status: ongoing
+created: 2023-01-25
+edited: 2023-01-31
+---
 
 # Photography Basics and Beyond
 

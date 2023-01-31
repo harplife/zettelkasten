@@ -1,3 +1,11 @@
+---
+aliases: [Croods 2 Technical Directors]
+tags: [technical_director, movie, croods, animation, art, career, people]
+status: ongoing
+created: 2023-01-21
+edited: 2023-01-31
+---
+
 # Croods 2 Technical Directors
 
 ## Full Cast and Crew
