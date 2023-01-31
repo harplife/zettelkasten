@@ -66,29 +66,19 @@
           {
             "id": "9ff84a8417a7fa89",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lifestyle/study.md",
+                "file": "graphics/3d_graphics_career_plan.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "bcabd8e0287f3bd9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1_unsorted/the_power_of_local_graph.md",
-                "mode": "source",
-                "source": false
-              }
+              },
+              "pinned": true
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -117,7 +107,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "proficiencies",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -138,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1_unsorted/the_power_of_local_graph.md"
+                "file": "graphics/3d_graphics_career_plan.md"
               }
             }
           }
@@ -186,7 +176,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "1_unsorted/the_power_of_local_graph.md",
+                "file": "graphics/3d_graphics_career_plan.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -249,7 +239,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1_unsorted/the_power_of_local_graph.md",
+                "file": "graphics/3d_graphics_career_plan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -279,17 +269,17 @@
       "mathpad:Open Mathpad": false
     }
   },
-  "active": "bcabd8e0287f3bd9",
+  "active": "9ff84a8417a7fa89",
   "lastOpenFiles": [
-    "lifestyle/study.md",
-    "goals/goal_master_in_cs.md",
-    "goals/goal_bachelor_in_cs.md",
+    "careers/technical_artist/3d_artist_to_software_engineer_blogpost.md",
+    "graphics/3d_graphics_career_plan.md",
+    "careers/technical_artist/ta_article_2.md",
+    "careers/technical_artist/ta_article_1.md",
+    "careers/technical_artist/technical_artist.md",
+    "graphics/3d_영상_콘텐츠_제작자_양성_과정.md",
     "lifestyle/central_node.md",
-    "computer_science/computer_science.md",
-    "lifestyle/health/health.md",
-    "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md",
-    "goals/goals.md",
-    "0_dataview/dataview.md",
-    "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md"
+    "lifestyle/study.md",
+    "1_unsorted/the_power_of_obsidian_local_graph.md",
+    "0_dataview/general_metadata_template.md"
   ]
 }

@@ -414,8 +414,8 @@
     "obsidian": {
       "obsidian": {
         "frontMatter": {
-          "count": 1,
-          "lastUpdated": 1675123681649
+          "count": 2,
+          "lastUpdated": 1675126301421
         }
       }
     },
@@ -520,6 +520,22 @@
         "currentVault": {
           "count": 1,
           "lastUpdated": 1675125977286
+        }
+      }
+    },
+    "tool": {
+      "tool": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1675126308665
+        }
+      }
+    },
+    "GAMEDESIGNING": {
+      "GAMEDESIGNING": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675127146730
         }
       }
     }
