@@ -118,8 +118,8 @@
     "statistics": {
       "statistics": {
         "frontMatter": {
-          "count": 1,
-          "lastUpdated": 1674635331561
+          "count": 3,
+          "lastUpdated": 1675124858086
         }
       }
     },
@@ -380,6 +380,126 @@
         "frontMatter": {
           "count": 1,
           "lastUpdated": 1675123037146
+        }
+      }
+    },
+    "study": {
+      "study": {
+        "frontMatter": {
+          "count": 5,
+          "lastUpdated": 1675124902338
+        }
+      }
+    },
+    "plan": {
+      "plan": {
+        "frontMatter": {
+          "count": 5,
+          "lastUpdated": 1675124904167
+        }
+      }
+    },
+    "database": {
+      "database": {
+        "frontMatter": {
+          "count": 2,
+          "lastUpdated": 1675124583966
+        }
+      }
+    },
+    "obsidian": {
+      "obsidian": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1675123681649
+        }
+      }
+    },
+    "plugin": {
+      "plugin": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1675123687136
+        }
+      }
+    },
+    "what-is": {
+      "what-is": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1675123985130
+        }
+      }
+    },
+    "KNOU": {
+      "KNOU": {
+        "frontMatter": {
+          "count": 5,
+          "lastUpdated": 1675124852051
+        }
+      }
+    },
+    "computer_science": {
+      "computer_science": {
+        "frontMatter": {
+          "count": 5,
+          "lastUpdated": 1675124853418
+        }
+      }
+    },
+    "data_science": {
+      "data_science": {
+        "frontMatter": {
+          "count": 3,
+          "lastUpdated": 1675124856075
+        }
+      }
+    },
+    "sql": {
+      "sql": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1675124586643
+        }
+      }
+    },
+    "algorithm": {
+      "algorithm": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1675124764926
+        }
+      }
+    },
+    "programming": {
+      "programming": {
+        "frontMatter": {
+          "count": 2,
+          "lastUpdated": 1675124859542
+        }
+      }
+    },
+    "math": {
+      "math": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1675124820841
+        }
+      }
+    },
+    "language": {
+      "language": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1675124891412
+        }
+      }
+    },
+    "career": {
+      "career": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1675124963323
         }
       }
     }

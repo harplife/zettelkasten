@@ -19,21 +19,6 @@
                 "source": false
               },
               "pinned": true
-            },
-            "group": "2d86e342e83db64d"
-          },
-          {
-            "id": "21915bf84e37cf0d",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
             }
           },
           {
@@ -51,17 +36,29 @@
             }
           },
           {
-            "id": "e074d637693ef59a",
+            "id": "21915bf84e37cf0d",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0_dataview/status_query.md",
+                "file": "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true
+            }
+          },
+          {
+            "id": "08a82167beba6cf3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "goals/goals.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -115,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0_dataview/status_query.md"
+                "file": "goals/goals.md"
               }
             }
           }
@@ -158,13 +155,12 @@
             }
           },
           {
-            "id": "a06eadf4088a7a22",
+            "id": "96b3986a5f1a95d9",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "goals/goal_bachelor_in_cs.md",
+                "file": "goals/goals.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -187,13 +183,11 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.6554983534946918,
+                  "scale": 1,
                   "close": true
                 }
-              },
-              "pinned": true
-            },
-            "group": "2d86e342e83db64d"
+              }
+            }
           }
         ],
         "currentTab": 3
@@ -229,7 +223,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0_dataview/status_query.md",
+                "file": "goals/goals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -259,17 +253,17 @@
       "mathpad:Open Mathpad": false
     }
   },
-  "active": "e074d637693ef59a",
+  "active": "96b3986a5f1a95d9",
   "lastOpenFiles": [
-    "careers/technical_director/croods_2_tds.md",
-    "0_dataview/status_query.md",
-    "0_dataview/metadata_template.md",
-    "art/photography_basics_and_beyond_coursera.md",
-    "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md",
-    "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md",
     "goals/goal_bachelor_in_cs.md",
-    "articles/learn_faster_the_feynman_technique.md",
-    "KNOU/2023년_방통대/졸업논문대체_관련_정보_23.md",
-    "KNOU/졸업논문대체_자격증_목록.md"
+    "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md",
+    "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md",
+    "goals/goals.md",
+    "goals/goal_master_in_cs.md",
+    "zettelkasten/what_is_zettelkasten.md",
+    "KNOU/2023년_방통대/1학기_과목/R컴퓨팅_계획_23s1.md",
+    "KNOU/2023년_방통대/1학기_과목/확률의개념과응용_계획_23s1.md",
+    "KNOU/2023년_방통대/1학기_과목/알고리즘_계획_23s1.md",
+    "KNOU/2023년_방통대/1학기_과목/디지털논리회로_계획_23s1.md"
   ]
 }

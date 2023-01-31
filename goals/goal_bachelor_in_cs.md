@@ -24,7 +24,7 @@ Graduate after [[컴퓨터과학과_계획_23s2|the 2nd semester of 2023]].
 
 ## Motivation
 - I want to just be able to say I've majored in Computer Science. I now understand just how much the society seeks credentials. It is a convenient method for people to evaluate professionals.
-- I want to work my way up through a Master's Degree, and eventually a Doctorate.
+- I want to work my way up through a [[goal_master_in_cs|Master's Degree]], and eventually a Doctorate.
 - In general, I want to learn. I want to hone my craft.
 - I want to be paid more.
 - This is a stepping stone to reach my goal to become a [[technical_director|Technical Director]].

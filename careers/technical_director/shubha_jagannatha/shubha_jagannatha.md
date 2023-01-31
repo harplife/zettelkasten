@@ -3,7 +3,7 @@ aliases: [Who is Shubha Jaganatha, Shubha Jaganatha, Shubha]
 tags: [computer_science, computer_vision, animation, career, technical_director, disney, pixar, WHO-IS]
 status: ongoing
 created: 2022-04-26
-edited: 2022-04-26
+edited: 2023-01-31
 ---
 
 # Shubha Jaganatha
@@ -23,7 +23,11 @@ https://shubhaja.medium.com/
 - 
 
 ### About Me
-[[about_the_author_shubha]]
+	Hi there! 👋
+	
+	I'm Shubha Jagannatha, a 22 year old engineer working as a Technical Director at Pixar Animation Studios. I recently graduated from UC Berkeley where I received both a bachelor's and master's in Electrical Engineering and Computer Sciences with a focus on Computer Graphics. I love learning about tech, especially the intersection of tech and the arts, and exploring everything that life has to offer.
+	
+	Feel free to check out my site to learn more — https://shubhaj.com/
 
 ## Education
 Shubha earned Bachelor's and Master's on __Electrical Engineering & Computer Sciences__ with a focus on __Computer Graphics & Vision__ from UC Berkeley (QS Ranking \#32) College of Engineering.

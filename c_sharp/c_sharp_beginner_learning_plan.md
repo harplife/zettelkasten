@@ -1,3 +1,11 @@
+---
+aliases: [C# Beginner Learning Plan]
+tags: [C#, programming, study, plan]
+status: ongoing
+created: 2023-01-25
+edited: 2023-01-31
+---
+
 # C# Beginner Learning Plan
 C# language is also called COOL, as in C-like Object Oriented Language.
 
