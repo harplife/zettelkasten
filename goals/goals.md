@@ -42,4 +42,3 @@ Goals that lasts indefinitely:
 - [ ] get fit #todo
 - [ ] get emotionally mature
 - [ ] get smart (as in study) #todo
-- [ ] 

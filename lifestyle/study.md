@@ -2,11 +2,23 @@
 aliases: [Study, Student, Knowledge, Learning]
 tags: [study, lifestyle]
 status: ongoing
-edited: 2021-10-12
+created: 2021-10-12
+edited: 2023-01-31
 ---
 
 # Study
-- I studied Audio Engineering. #todo
-- Now I am studying [[computer_science|Computer Science]].
-- I'm planning on studying [[data_science|Data Science]].
-- 
+
+## Audio Engineering
+
+
+## Computer Science
+- [[computer_science|Computer Science]]
+
+## Data Science
+- [[data_science|Data Science]]
+
+
+## Artificial Intelligence
+
+
+## Computer Graphics

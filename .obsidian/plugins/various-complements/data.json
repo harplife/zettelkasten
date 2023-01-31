@@ -356,6 +356,10 @@
         "frontMatter": {
           "count": 1,
           "lastUpdated": 1675122962047
+        },
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675125540435
         }
       }
     },
@@ -500,6 +504,22 @@
         "frontMatter": {
           "count": 1,
           "lastUpdated": 1675124963323
+        }
+      }
+    },
+    "Guide": {
+      "Guide": {
+        "customDictionary": {
+          "count": 1,
+          "lastUpdated": 1675125506715
+        }
+      }
+    },
+    "Compuer": {
+      "Compuer": {
+        "currentVault": {
+          "count": 1,
+          "lastUpdated": 1675125977286
         }
       }
     }

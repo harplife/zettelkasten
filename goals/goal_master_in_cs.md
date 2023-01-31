@@ -36,7 +36,7 @@ SIUE seems to be the optimal choice considering price and location. And honestly
 [PU Computer Science Department Page](https://www.cs.purdue.edu/)
 [PU Computer Graphics Department Page](https://polytechnic.purdue.edu/departments/computer-graphics-technology)
 
-I've seen this university mentioned from time to time, when searching for Compuer Science and Computer Graphics online. I think they might be more known for their aviation program, but I could be wrong.
+I've seen this university mentioned from time to time, when searching for Computer Science and Computer Graphics online. I think they might be more known for their aviation program, but I could be wrong.
 
 The school is located [here](https://goo.gl/maps/hraqEFeFGBkXRu148). If I were to study here, I'd need to live on campus or something.
 In fact, since the tution differs by a lot depending on residency, I might have to live here even before applying.
