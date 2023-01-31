@@ -70,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "graphics/3d_graphics_career_plan.md",
+                "file": "computer_graphics/cg_general_notes/3d_graphics_career_plan.md",
                 "mode": "source",
                 "source": false
               },
@@ -128,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "graphics/3d_graphics_career_plan.md"
+                "file": "computer_graphics/cg_general_notes/3d_graphics_career_plan.md"
               }
             }
           }
@@ -176,7 +176,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "graphics/3d_graphics_career_plan.md",
+                "file": "computer_graphics/cg_general_notes/3d_graphics_career_plan.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -239,7 +239,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "graphics/3d_graphics_career_plan.md",
+                "file": "computer_graphics/cg_general_notes/3d_graphics_career_plan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -271,15 +271,15 @@
   },
   "active": "9ff84a8417a7fa89",
   "lastOpenFiles": [
-    "careers/technical_artist/3d_artist_to_software_engineer_blogpost.md",
-    "graphics/3d_graphics_career_plan.md",
-    "careers/technical_artist/ta_article_2.md",
-    "careers/technical_artist/ta_article_1.md",
-    "careers/technical_artist/technical_artist.md",
-    "graphics/3d_영상_콘텐츠_제작자_양성_과정.md",
-    "lifestyle/central_node.md",
-    "lifestyle/study.md",
-    "1_unsorted/the_power_of_obsidian_local_graph.md",
-    "0_dataview/general_metadata_template.md"
+    "computer_graphics/cg_learn_notes/computer_graphics_software.md",
+    "computer_graphics/cg_general_notes/computer_graphics_big_picture.md",
+    "computer_graphics/cg_learn_notes/computer_graphics_overview.md",
+    "computer_graphics/cg_general_notes/3d_영상_콘텐츠_제작자_양성_과정.md",
+    "computer_graphics/Untitled.md",
+    "computer_graphics/cg_general_notes/3d_graphics_learning_plan.md",
+    "computer_graphics/cg_general_notes/3d_graphics_career_plan.md",
+    "computer_graphics/cg_general_notes/cg_industry.md",
+    "computer_graphics/cg_general_notes/game_cg_career.md",
+    "computer_graphics/cg_general_notes/animation_cg_career.md"
   ]
 }

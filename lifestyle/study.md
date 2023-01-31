@@ -22,3 +22,4 @@ edited: 2023-01-31
 
 
 ## Computer Graphics
+- [[computer_graphics_big_picture|Computer Graphics]]

@@ -30,7 +30,7 @@ edited: 2023-01-31
 
 ### Related Topics
 - [[color_theory|Color Theory]]
-- [[computer_graphics|Computer Graphics]]
+- [[computer_graphics_overview|Computer Graphics]]
 
 ## Instructors
 - Peter Glendinning, MSU Professor - [MSU](https://people.cal.msu.edu/glendinn/), [Linkedin](https://www.linkedin.com/in/peter-glendinning-839432a/)
