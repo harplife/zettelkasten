@@ -158,3 +158,12 @@ Exercises from [[algebra_and_trigonometry_chapter_p3.pdf|Algebra and Trigonometr
     - $-\frac{9}{4}y^2+30y = -2.25y^2+30y$
 
 ### 55-62
+	Perform the operation.
+55. Add $7x^3-2x^2+8$ and $-3x^3-4$
+56. Add $2x^5-3x^3+2x+3$ and $4x^3+x-6$
+57. Subtract $x-3$ from $5x^2-3x+8$
+58. Subtract $-t^4+0.5t^2-5.6$ from $0.6t^4-2t^2$
+59. Multiply $(x+7)$ and $(2x+3)$
+60. Multiply $(3x+1)$ and $(x-5)$
+61. Multiply $(x^2+2x+3)$ and $(x^2-2x+3)$
+62. Multiply $(x^2+x-4)$ and $(x^2-2x+1)$
