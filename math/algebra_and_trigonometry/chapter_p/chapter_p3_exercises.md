@@ -160,10 +160,36 @@ Exercises from [[algebra_and_trigonometry_chapter_p3.pdf|Algebra and Trigonometr
 ### 55-62
 	Perform the operation.
 55. Add $7x^3-2x^2+8$ and $-3x^3-4$
+    - $4x^3-2x^2+4$
 56. Add $2x^5-3x^3+2x+3$ and $4x^3+x-6$
+    - $2x^5+x^3+3x-3$
 57. Subtract $x-3$ from $5x^2-3x+8$
+    1. $(5x^2-3x+8)-(x-3)$
+    2. $5x^2-3x+8-x+3$
+    3. $5x^2-4x+11$
 58. Subtract $-t^4+0.5t^2-5.6$ from $0.6t^4-2t^2$
+    1. $(0.6t^4-2t^2)-(-t^4+0.5t^2-5.6)$
+    2. $0.6t^4-2t^2+t^4-0.5t^2+5.6$
+    3. $1.6t^4-2.5t^2+5.6$
 59. Multiply $(x+7)$ and $(2x+3)$
+    1. $(x+7)(2x+3)$
+    2. $x(2x+3)+7(2x+3)$
+    3. $2x^2+17x+21$
 60. Multiply $(3x+1)$ and $(x-5)$
+    1. $(3x+1)(x-5)$
+    2. $3x(x-5)+(x-5)$
+    3. $3x^2-14x-5$
 61. Multiply $(x^2+2x+3)$ and $(x^2-2x+3)$
+    1. $(x^2+2x+3)(x^2-2x+3)$
+    2. $x^2(x^2-2x+3)+2x(x^2-2x+3)+3(x^2-2x+3)$
+    3. $x^4-2x^3+3x^2+2x^3-4x^2+6x+3x^2-6x+9$
+    4. $x^4+2x^2+9$
 62. Multiply $(x^2+x-4)$ and $(x^2-2x+1)$
+    1. $(x^2+x-4)$$(x^2-2x+1)$
+    2. $x^2(x^2-2x+1)+x(x^2-2x+1)-4(x^2-2x+1)$
+    3. $x^4-2x^3+x^2+x^3-2x^2+x-4x^2+8x-4$
+    4. $x^4-x^3-5x^2+9x-4$
+
+### 63-100
+	Multiply or find the special product.
+63. 
