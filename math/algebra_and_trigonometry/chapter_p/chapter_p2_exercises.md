@@ -1,4 +1,9 @@
 # Chapter P2 Exercises
+
+Exercises from [[algebra_and_trigonometry_chapter_p2.pdf|Algebra and Trigonometry Chapter P2 PDF]]
+
+Previous exercise : [[chapter_p1_exercises|Chapter P1 Exercises]]
+
 1. Exponent, Base
 2. Scientific Notation
 3. Square Root

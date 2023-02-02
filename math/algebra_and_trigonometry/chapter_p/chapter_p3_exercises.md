@@ -2,6 +2,8 @@
 
 Exercises from [[algebra_and_trigonometry_chapter_p3.pdf|Algebra and Trigonometry Chapter P3 PDF]]
 
+Previous exercise : [[chapter_p2_exercises|Chapter P1 Exercises]]
+
 ## Vocabulary
 ### 1-5
 	Fill in the blanks.
@@ -192,4 +194,12 @@ Exercises from [[algebra_and_trigonometry_chapter_p3.pdf|Algebra and Trigonometr
 
 ### 63-100
 	Multiply or find the special product.
-63. 
+63. $(x+3)(x+4)$
+    - $x^2+7x+12$
+64. $(x-5)(x+10)$
+    - $x^2+5x-50$
+65. $(3x-5)(2x+1)$
+    - $6x^2-7x-5$
+66. $(7x-2)(4x-3)$
+    - $28x^2-29x+6$
+67. 

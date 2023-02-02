@@ -1,4 +1,7 @@
 # Chapter P1 Exercises
+
+Exercises from [[algebra_and_trigonometry_chapter_p1.pdf|Algebra and Trigonometry Chapter P1 PDF]]
+
 1. Rational
 2. Irrational
 3. Origin
