@@ -76,9 +76,21 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "e37805fc0e3e5397",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -269,17 +281,17 @@
       "mathpad:Open Mathpad": false
     }
   },
-  "active": "188e8e9353e2913b",
+  "active": "e37805fc0e3e5397",
   "lastOpenFiles": [
+    "history/history_with_shelby.md",
+    "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md",
     "computer_graphics/cg_general_notes/3d_graphics_career_plan.md",
     "math/algebra_and_trigonometry/chapter_p/chapter_p1_exercises.md",
-    "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md",
     "math/algebra_and_trigonometry/chapter_p/chapter_p2_exercises.md",
     "computer_graphics/cg_general_notes/computer_graphics_big_picture.md",
     "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md",
     "goals/goal_bachelor_in_cs.md",
     "computer_graphics/cg_learn_notes/computer_graphics_software.md",
-    "computer_graphics/cg_learn_notes/computer_graphics_overview.md",
-    "computer_graphics/cg_general_notes/3d_영상_콘텐츠_제작자_양성_과정.md"
+    "computer_graphics/cg_learn_notes/computer_graphics_overview.md"
   ]
 }
