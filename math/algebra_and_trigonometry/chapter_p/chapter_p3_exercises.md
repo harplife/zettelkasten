@@ -298,7 +298,7 @@ Previous exercise : [[chapter_p2_exercises|Chapter P1 Exercises]]
     - [ ] $2x^2+2x$
 98. $(2x-1)(x+3)+3(x+3)$
     - $(x+3)[(2x-1)+3]$
-    - $(x+3)(2x+2)$ <-- not sure if this makes sense??
+    - $(x+3)(2x+2)$
     - $x(2x+2)+3(2x+2)$
     - $2x^2+2x+6x+6$
     - [ ] $2x^2+8x+6$
