@@ -52,6 +52,8 @@ As of 2021, video game industry was worth 198 billion dollars, according to [Mor
    - Mainly developed games for Nintendo.
 8. Activision Blizzard
    - [Activision Blizzard, Inc.](https://en.wikipedia.org/wiki/Activision_Blizzard) - [Activision](https://en.wikipedia.org/wiki/Activision) merged with [Blizzard](https://en.wikipedia.org/wiki/Blizzard_Entertainment)
+   - TTM Revenue : <mark style="background: #BBFABBA6;">$7.36 billion</mark>
+   - [Microsoft Faces An Antitrust Warning From The EU Over Activision-Blizzard Deal](https://exputer.com/news/microsoft-antitrust-warning-eu/)
 9. 
 
 ## Film and Animation Industry
