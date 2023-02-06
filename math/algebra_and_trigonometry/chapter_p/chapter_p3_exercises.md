@@ -120,7 +120,7 @@ Previous exercise : [[chapter_p2_exercises|Chapter P1 Exercises]]
 33. $\frac{3x+4}{x}$
     - [ ] is *not* a polynomial.
 34. $\frac{x^2+2x-3}{2}$
-    - [ ] is *not* a polynomial.
+    - [x] is *not* a polynomial.
 35. $y^2-y^4+y^3$
     - [ ] in standard form is $-y^4+y^3+y^2$.
 36. $y^4-\sqrt{y}$
