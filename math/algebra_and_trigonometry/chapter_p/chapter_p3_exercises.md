@@ -315,13 +315,13 @@ Previous exercise : [[chapter_p2_exercises|Chapter P1 Exercises]]
 ### 101-104
 	Find the product (the expressions are not polynomials, but the formulas can still be used).
 101. $(\sqrt{x}+\sqrt{y})(\sqrt{x}-\sqrt{y})$
-     - $x+y$
+     - [ ] $x+y$
 102. $(5+\sqrt{x})(5-\sqrt{x})$
-     - $x+25$
+     - [ ] $x+25$
 103. $(x-\sqrt{5})^2$
-     - $x^2-10x+5$
+     - [ ] $x^2-10x+5$
 104. $(x+\sqrt{3})^2$
-     - $x^2+6x+3$
+     - [ ] $x^2+6x+3$
 
 ### 105
 **COST, REVENUE, AND PROFIT**
@@ -329,10 +329,10 @@ Previous exercise : [[chapter_p2_exercises|Chapter P1 Exercises]]
 - (a) Find the profit $P$ in terms of $x$.
     - $P=R-C$
     - $P(x)=95x-73x-25000$
-    - $P(x)=22x-25000$
+    - [ ] $P(x)=22x-25000$
 - (b) Find the profit obtained by selling $5,000$ MP3 players per week.
     - $P(5000)=22(5000)-25000$
-    - $P(5000)=85000$
+    - [ ] $P(5000)=85000$
 
 ### 106
 **COST, REVENUE, AND PROFIT**
@@ -340,15 +340,19 @@ Previous exercise : [[chapter_p2_exercises|Chapter P1 Exercises]]
 - (a) Find the profit $P$ in terms of $x$.
     - $P=R-C$
     - $P(x)=36x-12x-460$
-    - $P(x)=24x-460$
+    - [ ] $P(x)=24x-460$
 - (b) Find the profit obtained by selling $42$ hats per month.
     - $P(42)=24(42)-460$
-    - $P(42)=548$
+    - [ ] $P(42)=548$
 
 ### 107
 **COMPOUND INTEREST**
 	After $2$ years, an investment of \$$500$ compounded annually at an interest rate $r$ will yield an amount of $500(1+r)^2$.
 - (a) Write this polynomial in standard form.
-    - 
-- (b) Use a calculator to evaluate the polynomial for the values or r shown in the table.
+    - [ ] $500(r+1)^2$
+- (b) Use a calculator to evaluate the polynomial for the values of $r$ shown in the table. ![[Pasted image 20230207084549.png|500]]
+    - [ ] $525.3125, 530.45, 540.8, 546.0125, 551.25$
 - (c) What conclusion can you make from the table?
+    - 
+
+### 108
