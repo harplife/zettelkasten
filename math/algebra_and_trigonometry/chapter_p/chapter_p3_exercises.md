@@ -228,7 +228,7 @@ Previous exercise : [[chapter_p2_exercises|Chapter P1 Exercises]]
     - [ ] $8x^3-12x^2y+6xy^2-y^3$
 76. $(3x+2y)^3$
     - $27x^3+3(3x)^2(2y)+3(3x)(2y)^2+8y^3$
-    - [ ] $27x^3+52x^2y+36xy^2+8y^3$
+    - [ ] $27x^3+54x^2y+36xy^2+8y^3$
 77. $(4x^3-3)^2$
     - $16x^6-2(4x^3)(3)+9$
     - [ ] $16x^6-24x^3+9$
