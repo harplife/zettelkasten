@@ -38,15 +38,13 @@
           {
             "id": "188e8e9353e2913b",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md",
                 "mode": "source",
                 "source": false
-              },
-              "pinned": true
+              }
             }
           },
           {
@@ -64,18 +62,6 @@
             }
           },
           {
-            "id": "b7f187e0c6d0100d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "aafbd53339de0195",
             "type": "leaf",
             "state": {
@@ -88,7 +74,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -216,7 +202,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "baddb2b819dd740a",
@@ -279,12 +265,12 @@
       "mathpad:Open Mathpad": false
     }
   },
-  "active": "b7f187e0c6d0100d",
+  "active": "188e8e9353e2913b",
   "lastOpenFiles": [
+    "computer_graphics/cg_general_notes/computer_graphics_big_picture.md",
+    "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md",
     "computer_graphics/cg_general_notes/cg_industry.md",
     "computer_graphics/cg_general_notes/game_industry_overview.md",
-    "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md",
-    "computer_graphics/cg_general_notes/computer_graphics_big_picture.md",
     "computer_graphics/cg_general_notes/3d_graphics_learning_plan.md",
     "books/ebooks/Maya_3D_Character_Animation_Basic_Modeling.md",
     "careers/graphic_programmer/graphics_programmer_career_plan.md",
