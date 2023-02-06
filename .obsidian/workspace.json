@@ -74,6 +74,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "aafbd53339de0195",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "computer_graphics/cg_general_notes/game_industry_overview.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 4
@@ -269,15 +281,15 @@
   },
   "active": "b7f187e0c6d0100d",
   "lastOpenFiles": [
-    "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md",
+    "computer_graphics/cg_general_notes/game_industry_overview.md",
     "computer_graphics/cg_general_notes/cg_industry.md",
+    "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md",
     "computer_graphics/cg_general_notes/computer_graphics_big_picture.md",
     "computer_graphics/cg_general_notes/3d_graphics_learning_plan.md",
     "books/ebooks/Maya_3D_Character_Animation_Basic_Modeling.md",
     "careers/graphic_programmer/graphics_programmer_career_plan.md",
     "careers/graphic_programmer/graphics_programmer.md",
     "computer_graphics/cg_learn_notes/computer_graphics_overview.md",
-    "goals/goal_bachelor_in_cs.md",
-    "lifestyle/central_node.md"
+    "goals/goal_bachelor_in_cs.md"
   ]
 }

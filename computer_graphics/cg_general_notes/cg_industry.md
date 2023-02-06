@@ -17,51 +17,9 @@ sources:
 The [Video Game Industry](https://en.wikipedia.org/wiki/Video_game_industry) encompasses the development, marketing, and monetization of video games.
 
 ### Overview
-#### Economics
-As of **2018**, the global revenue estimate of the video game industry was <mark style="background: #BBFABBA6;">$140 billion</mark>, according to [wiki](https://en.wikipedia.org/wiki/Video_game_industry#Economics).
+[[game_industry_overview|Game Industry Overview]]
 
-As of **2021**, video game industry was worth <mark style="background: #BBFABBA6;">$198 billion</mark>, according to [Mordor Intelligence](https://www.mordorintelligence.com/industry-reports/global-gaming-market). Furthermore, they projected growth up to <mark style="background: #ABF7F7A6;">$340 billion</mark> by **2027**.
-
-##### Top Countries by Revenue
-(Based on data from [newzoo.com](https://newzoo.com/insights/rankings/top-10-countries-by-game-revenues))
-![[Pasted image 20230206162623.png]]
-
-Notes
-- Seems like China, USA, and Japan is way ahead than other countries.
-- Japan's game industry is nearly 3 times bigger than South Korea.
-
-#### Size
-In 2017 in USA (which at the time represented about 1/3 of the global video game market), the [Entertainment Software Association (ESA)](https://en.wikipedia.org/wiki/Entertainment_Software_Association) estimated that there were over 2,300 development companies and over 525 publishing companies. These companies in total had nearly 66,000 direct employees (source - wiki).
-
-#### Value Chain
-Traditionally, the video game industry has had six connected layers in its [value chain](https://en.wikipedia.org/wiki/Value_chain) based on the retail distribution of games (source - wiki):
-1. Game Development
-2. Publishing
-3. Distribution
-4. Retail
-5. Consumer
-6. Hardware platform
-
-As games have transitioned from the retail to more digital market, parts of this value chain have become redundant.
-
-#### Roles
-The development side of the industry is made up of six connected and distinctive layers (source - wiki):
-1. Capital and Publishing
-2. Product and Talent
-3. Production and Tools
-4. Distribution/Publishing
-5. Hardware/Software Platform
-6. End-User
-
-##### Disciplines
-- Game Programmer
-- Game Designer
-- Level Designer
-- Game Producer
-- Game Artist
-- Game Tester
-
-### Top Companies
+### Top Game Companies
 #### General
 ##### By Revenue
 [15 Biggest Video Game Companies In The World | Yahoo Finance (2022-11-26)](https://finance.yahoo.com/news/15-biggest-video-game-companies-121809876.html)
@@ -121,8 +79,13 @@ The development side of the industry is made up of six connected and distinctive
 ##### Other Lists
 - [48 Gaming Companies You Need to Know](https://builtin.com/gaming/gaming-companies)
 
-#### Top Game Developers
+#### Game Developers
+See [[game_industry_overview#Game Developer|Game Developer]] for definition.
 
+##### IGN Ranking
+[Top 50 Video Game Makers](https://www.ign.com/lists/video-game-makers)
+1. Nintendo Entertainment and Analysis Division (EAD)
+2. 
 
 ## Film and Animation Industry
 

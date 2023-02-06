@@ -578,6 +578,22 @@
           "lastUpdated": 1675666107977
         }
       }
+    },
+    "manufacturer": {
+      "manufacturer": {
+        "customDictionary": {
+          "count": 1,
+          "lastUpdated": 1675670191909
+        }
+      }
+    },
+    "Hasse": {
+      "Hasse": {
+        "currentVault": {
+          "count": 1,
+          "lastUpdated": 1675670715198
+        }
+      }
     }
   }
 }
