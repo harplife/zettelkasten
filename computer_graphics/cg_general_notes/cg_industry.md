@@ -22,6 +22,14 @@ As of **2018**, the global revenue estimate of the video game industry was <mark
 
 As of **2021**, video game industry was worth <mark style="background: #BBFABBA6;">$198 billion</mark>, according to [Mordor Intelligence](https://www.mordorintelligence.com/industry-reports/global-gaming-market). Furthermore, they projected growth up to <mark style="background: #ABF7F7A6;">$340 billion</mark> by **2027**.
 
+##### Top Countries by Revenue
+(Based on data from [newzoo.com](https://newzoo.com/insights/rankings/top-10-countries-by-game-revenues))
+![[Pasted image 20230206162623.png]]
+
+Notes
+- Seems like China, USA, and Japan is way ahead than other countries.
+- Japan's game industry is nearly 3 times bigger than South Korea.
+
 #### Size
 In 2017 in USA (which at the time represented about 1/3 of the global video game market), the [Entertainment Software Association (ESA)](https://en.wikipedia.org/wiki/Entertainment_Software_Association) estimated that there were over 2,300 development companies and over 525 publishing companies. These companies in total had nearly 66,000 direct employees (source - wiki).
 
