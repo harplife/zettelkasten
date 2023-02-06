@@ -76,7 +76,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md"
+                "file": "computer_graphics/cg_general_notes/cg_industry.md"
               }
             }
           }
@@ -174,7 +174,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md",
+                "file": "computer_graphics/cg_general_notes/cg_industry.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -237,7 +237,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md",
+                "file": "computer_graphics/cg_general_notes/cg_industry.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -267,8 +267,9 @@
       "mathpad:Open Mathpad": false
     }
   },
-  "active": "188e8e9353e2913b",
+  "active": "b7f187e0c6d0100d",
   "lastOpenFiles": [
+    "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md",
     "computer_graphics/cg_general_notes/cg_industry.md",
     "computer_graphics/cg_general_notes/computer_graphics_big_picture.md",
     "computer_graphics/cg_general_notes/3d_graphics_learning_plan.md",
@@ -277,7 +278,6 @@
     "careers/graphic_programmer/graphics_programmer.md",
     "computer_graphics/cg_learn_notes/computer_graphics_overview.md",
     "goals/goal_bachelor_in_cs.md",
-    "lifestyle/central_node.md",
-    "computer_graphics/cg_general_notes/3d_graphics_career_plan.md"
+    "lifestyle/central_node.md"
   ]
 }
