@@ -349,5 +349,6 @@ Previous exercise : [[chapter_p2_exercises|Chapter P1 Exercises]]
 **COMPOUND INTEREST**
 	After $2$ years, an investment of \$$500$ compounded annually at an interest rate $r$ will yield an amount of $500(1+r)^2$.
 - (a) Write this polynomial in standard form.
+    - 
 - (b) Use a calculator to evaluate the polynomial for the values or r shown in the table.
 - (c) What conclusion can you make from the table?
