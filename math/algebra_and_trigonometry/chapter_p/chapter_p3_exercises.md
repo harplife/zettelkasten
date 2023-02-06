@@ -267,7 +267,8 @@ Previous exercise : [[chapter_p2_exercises|Chapter P1 Exercises]]
 85. $[(x-3)+y]^2$
     - $(x-3)^2+2(x-3)(y)+y^2$
     - $x^2-6x+9+2xy-6xy+y^2$
-    - [ ] $x^2+y^2-4xy-6x+9$
+    - [x] $x^2+y^2-4xy-6x+9$
+    - [ ] 
 86. $[(x+1)-y]^2$
     - $(x+1)^2-2(x+1)(y)+y^2$
     - $x^2+2x+1-2xy-2y+y^2$
