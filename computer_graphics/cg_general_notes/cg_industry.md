@@ -30,7 +30,8 @@ As of 2021, video game industry was worth 198 billion dollars, according to [Mor
    - MS owns ZeniMax/Bethesda, Activision Blizzard, and several other studios - [source1](https://www.pcgamer.com/every-game-and-studio-microsoft-now-owns/), [source2](https://en.wikipedia.org/wiki/Xbox_Game_Studios#Subsidiaries_and_divisions)
 2. [NetEase, Inc.](https://en.wikipedia.org/wiki/NetEase)
    - TTM Revenue : $93.5 billion
-3. [Tencent Holdings Ltd.](https://en.wikipedia.org/wiki/Tencent)
+3. Tencent
+   - [Tencent Holdings Ltd.](https://en.wikipedia.org/wiki/Tencent) - Tencent Games
    - TTM Revenue : $83.6 billion
 4. Sony
    - [Sony Group Corporation](https://en.wikipedia.org/wiki/Sony) - [Sony Interactive Entertainment](https://en.wikipedia.org/wiki/Sony_Interactive_Entertainment) - [PlayStation Studios](https://en.wikipedia.org/wiki/PlayStation_Studios)
