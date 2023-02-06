@@ -64,18 +64,6 @@
             }
           },
           {
-            "id": "112ceba163110eae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "computer_science/how_quartz_watch_works.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "9ff84a8417a7fa89",
             "type": "leaf",
             "pinned": true,
@@ -90,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -140,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md"
+                "file": "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md"
               }
             }
           }
@@ -188,7 +176,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md",
+                "file": "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -251,7 +239,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md",
+                "file": "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -281,12 +269,12 @@
       "mathpad:Open Mathpad": false
     }
   },
-  "active": "188e8e9353e2913b",
+  "active": "21915bf84e37cf0d",
   "lastOpenFiles": [
     "computer_science/how_quartz_watch_works.md",
-    "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md",
-    "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md",
     "computer_graphics/cg_general_notes/3d_graphics_career_plan.md",
+    "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md",
+    "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md",
     "computer_graphics/cg_general_notes/computer_graphics_big_picture.md",
     "history/history_with_shelby.md",
     "math/algebra_and_trigonometry/chapter_p/chapter_p1_exercises.md",

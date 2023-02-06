@@ -121,6 +121,7 @@ Previous exercise : [[chapter_p2_exercises|Chapter P1 Exercises]]
     - [ ] is *not* a polynomial.
 34. $\frac{x^2+2x-3}{2}$
     - [x] is *not* a polynomial.
+    - [ ] $\frac{1}{2}x^2+x-\frac{3}{2}$
 35. $y^2-y^4+y^3$
     - [ ] in standard form is $-y^4+y^3+y^2$.
 36. $y^4-\sqrt{y}$
@@ -266,9 +267,11 @@ Previous exercise : [[chapter_p2_exercises|Chapter P1 Exercises]]
     - [ ] $x^2+9y^2-z^2-6xy$
 85. $[(x-3)+y]^2$
     - $(x-3)^2+2(x-3)(y)+y^2$
-    - $x^2-6x+9+2xy-6xy+y^2$
+    - $(x-3)^2+2y(x-3)+y^2$
+    - $(x-3)^2+2xy-6y+y^2$
+    - $x^2-6x+9+2xy-6y+y^2$
+    - [ ] $x^2+y^2+2xy-6y-6x+9$ <-- New Answer (2023-02-06)
     - [x] $x^2+y^2-4xy-6x+9$
-    - [ ] 
 86. $[(x+1)-y]^2$
     - $(x+1)^2-2(x+1)(y)+y^2$
     - $x^2+2x+1-2xy-2y+y^2$
