@@ -56,7 +56,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md",
+                "file": "computer_graphics/cg_general_notes/computer_graphics_big_picture.md",
                 "mode": "source",
                 "source": false
               },
@@ -64,21 +64,19 @@
             }
           },
           {
-            "id": "9ff84a8417a7fa89",
+            "id": "b7f187e0c6d0100d",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer_graphics/cg_general_notes/3d_graphics_career_plan.md",
+                "file": "computer_graphics/cg_general_notes/cg_industry.md",
                 "mode": "source",
                 "source": false
-              },
-              "pinned": true
+              }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -128,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md"
+                "file": "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md"
               }
             }
           }
@@ -176,7 +174,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md",
+                "file": "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -239,7 +237,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md",
+                "file": "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -269,17 +267,17 @@
       "mathpad:Open Mathpad": false
     }
   },
-  "active": "21915bf84e37cf0d",
+  "active": "188e8e9353e2913b",
   "lastOpenFiles": [
-    "computer_science/how_quartz_watch_works.md",
-    "computer_graphics/cg_general_notes/3d_graphics_career_plan.md",
-    "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md",
-    "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md",
+    "computer_graphics/cg_general_notes/cg_industry.md",
     "computer_graphics/cg_general_notes/computer_graphics_big_picture.md",
-    "history/history_with_shelby.md",
-    "math/algebra_and_trigonometry/chapter_p/chapter_p1_exercises.md",
-    "math/algebra_and_trigonometry/chapter_p/chapter_p2_exercises.md",
+    "computer_graphics/cg_general_notes/3d_graphics_learning_plan.md",
+    "books/ebooks/Maya_3D_Character_Animation_Basic_Modeling.md",
+    "careers/graphic_programmer/graphics_programmer_career_plan.md",
+    "careers/graphic_programmer/graphics_programmer.md",
+    "computer_graphics/cg_learn_notes/computer_graphics_overview.md",
     "goals/goal_bachelor_in_cs.md",
-    "computer_graphics/cg_learn_notes/computer_graphics_software.md"
+    "lifestyle/central_node.md",
+    "computer_graphics/cg_general_notes/3d_graphics_career_plan.md"
   ]
 }

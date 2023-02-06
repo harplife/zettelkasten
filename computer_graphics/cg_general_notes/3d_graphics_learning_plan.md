@@ -1,8 +1,16 @@
 
-# Learning
-## Roadmap
-
+# Learning 3D Graphics
 ## Objectives
+### Hard Skills
+- 3D Maya - [[Maya_3D_Character_Animation_Basic_Modeling]]
+
+### Soft Skills
+
+### Experience
+
+### Certificates
+
+## Roadmap
 
 ## Resources
 ### Accessible
