@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer_graphics/cg_general_notes/cg_industry.md",
+                "file": "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md",
                 "mode": "source",
                 "source": false
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer_graphics/cg_general_notes/cg_industry.md"
+                "file": "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md"
               }
             }
           }
@@ -186,7 +186,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "computer_graphics/cg_general_notes/cg_industry.md",
+                "file": "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -216,7 +216,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
         "id": "baddb2b819dd740a",
@@ -249,7 +249,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer_graphics/cg_general_notes/cg_industry.md",
+                "file": "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -281,8 +281,8 @@
   },
   "active": "b7f187e0c6d0100d",
   "lastOpenFiles": [
-    "computer_graphics/cg_general_notes/game_industry_overview.md",
     "computer_graphics/cg_general_notes/cg_industry.md",
+    "computer_graphics/cg_general_notes/game_industry_overview.md",
     "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md",
     "computer_graphics/cg_general_notes/computer_graphics_big_picture.md",
     "computer_graphics/cg_general_notes/3d_graphics_learning_plan.md",
