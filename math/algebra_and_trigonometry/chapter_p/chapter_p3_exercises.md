@@ -368,12 +368,23 @@ After $3$ years, an investment of \$$1200$ compounded annually at an interest ra
 ### 109
 **VOLUME OF A BOX**
 A take-out fast-food restaurant is constructing an open box by cutting squares from the corners of a piece of cardboard that is $18$ cm by $26$ cm (see figure). The edge of each cut-out square is $x$ cm.
-![[Pasted image 20230207091001.png]]
+![[Pasted image 20230207091001.png|500]]
 - (a) Find the volume of the box in terms of $x$.
-    - $V(x)=x(26-2x)(18-2x)$
+    - [ ] $V(x)=x(26-2x)(18-2x)$
 - (b) Find the volume when $x=1$,$x=2$, and $x=3$.
     - [ ] $V(1)=(26-2)(18-2)=384$
     - [ ] $V(2)=2(26-4)(18-4)=616$
-    - [ ] $V(3)=3(26-3)(18-3)=1035$
+    - [ ] $V(3)=3(26-6)(18-6)=720$
 
 ### 110
+**VOLUME OF A BOX**
+An overnight shipping company is designing a closed box by cutting along the solid lines and folding along the broken lines on the rectangular piece of corrugated cardboard shown in the figure. The length and width of the rectangle are $45$ cm and $15$ cm, respectively.
+![[Pasted image 20230207211834.png|500]]
+- (a) Find the volume of the shipping box in terms of $x$.
+    - [ ] $V(x)=x(45-3x)(15-2x)$
+- (b) Find the volume when $x=3$, $x=5$, and $x=7$.
+    - [ ] $V(3)=3(45-9)(15-6)=972$
+    - [ ] $V(5)=5(45-15)(15-10)=750$
+    - [ ] $V(7)=7(45-21)(15-14)=168$
+
+### 111

@@ -55,14 +55,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer_graphics/cg_general_notes/game_industry_overview.md",
+                "file": "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -91,7 +91,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "exercise",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -112,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "goals/goal_bachelor_in_cs.md"
+                "file": "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md"
               }
             }
           }
@@ -160,7 +160,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "goals/goal_bachelor_in_cs.md",
+                "file": "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -223,7 +223,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "goals/goal_bachelor_in_cs.md",
+                "file": "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -253,17 +253,17 @@
       "mathpad:Open Mathpad": false
     }
   },
-  "active": "929a08cac18cc2fa",
+  "active": "aafbd53339de0195",
   "lastOpenFiles": [
+    "computer_graphics/cg_general_notes/game_industry_overview.md",
     "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md",
+    "goals/goal_bachelor_in_cs.md",
     "computer_graphics/cg_general_notes/computer_graphics_big_picture.md",
     "computer_graphics/cg_general_notes/cg_industry.md",
-    "computer_graphics/cg_general_notes/game_industry_overview.md",
     "computer_graphics/cg_general_notes/3d_graphics_learning_plan.md",
     "books/ebooks/Maya_3D_Character_Animation_Basic_Modeling.md",
     "careers/graphic_programmer/graphics_programmer_career_plan.md",
     "careers/graphic_programmer/graphics_programmer.md",
-    "computer_graphics/cg_learn_notes/computer_graphics_overview.md",
-    "goals/goal_bachelor_in_cs.md"
+    "computer_graphics/cg_learn_notes/computer_graphics_overview.md"
   ]
 }
