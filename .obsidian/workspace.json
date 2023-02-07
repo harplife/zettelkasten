@@ -36,18 +36,6 @@
             }
           },
           {
-            "id": "188e8e9353e2913b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "21915bf84e37cf0d",
             "type": "leaf",
             "pinned": true,
@@ -74,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -124,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md"
+                "file": "goals/goal_bachelor_in_cs.md"
               }
             }
           }
@@ -172,7 +160,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md",
+                "file": "goals/goal_bachelor_in_cs.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -235,7 +223,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md",
+                "file": "goals/goal_bachelor_in_cs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -265,10 +253,10 @@
       "mathpad:Open Mathpad": false
     }
   },
-  "active": "188e8e9353e2913b",
+  "active": "929a08cac18cc2fa",
   "lastOpenFiles": [
-    "computer_graphics/cg_general_notes/computer_graphics_big_picture.md",
     "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md",
+    "computer_graphics/cg_general_notes/computer_graphics_big_picture.md",
     "computer_graphics/cg_general_notes/cg_industry.md",
     "computer_graphics/cg_general_notes/game_industry_overview.md",
     "computer_graphics/cg_general_notes/3d_graphics_learning_plan.md",

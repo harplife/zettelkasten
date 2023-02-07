@@ -325,7 +325,7 @@ Previous exercise : [[chapter_p2_exercises|Chapter P1 Exercises]]
 
 ### 105
 **COST, REVENUE, AND PROFIT**
-	An electronics manufacturer can produce and sell $x$ MP3 players per week. The total cost $C$ (in dollars) of producing $x$ MP3 players is $C=73x+25,000$, and the total revenue $R$ (in dollars) is $R=95x$.
+An electronics manufacturer can produce and sell $x$ MP3 players per week. The total cost $C$ (in dollars) of producing $x$ MP3 players is $C=73x+25,000$, and the total revenue $R$ (in dollars) is $R=95x$.
 - (a) Find the profit $P$ in terms of $x$.
     - $P=R-C$
     - $P(x)=95x-73x-25000$
@@ -336,7 +336,7 @@ Previous exercise : [[chapter_p2_exercises|Chapter P1 Exercises]]
 
 ### 106
 **COST, REVENUE, AND PROFIT**
-	An artisan can produce and sell $x$ hats per month. The total cost $C$ (in dollars) for producing $x$ hats is $C=460+12x$, and the total revenue $R$ (in dollars) is $R=36x$.
+An artisan can produce and sell $x$ hats per month. The total cost $C$ (in dollars) for producing $x$ hats is $C=460+12x$, and the total revenue $R$ (in dollars) is $R=36x$.
 - (a) Find the profit $P$ in terms of $x$.
     - $P=R-C$
     - $P(x)=36x-12x-460$
@@ -347,7 +347,7 @@ Previous exercise : [[chapter_p2_exercises|Chapter P1 Exercises]]
 
 ### 107
 **COMPOUND INTEREST**
-	After $2$ years, an investment of \$$500$ compounded annually at an interest rate $r$ will yield an amount of $500(1+r)^2$.
+After $2$ years, an investment of \$$500$ compounded annually at an interest rate $r$ will yield an amount of $500(1+r)^2$.
 - (a) Write this polynomial in standard form.
     - [ ] $500(r+1)^2$
 - (b) Use a calculator to evaluate the polynomial for the values of $r$ shown in the table. ![[Pasted image 20230207084549.png|500]]
@@ -357,7 +357,23 @@ Previous exercise : [[chapter_p2_exercises|Chapter P1 Exercises]]
 
 ### 108
 **COMPOUND INTEREST**
-	After $3$ years, an investment of \$$1200$ compounded annually at an interest rate $r$ will yield an amount of $1200(1+r)^3$.
-- (a)
-- (b)
-- (c)
+After $3$ years, an investment of \$$1200$ compounded annually at an interest rate $r$ will yield an amount of $1200(1+r)^3$.
+- (a) Write this polynomial in standard form.
+    - [ ] $1200(r+1)^3$
+- (b) Use a calculator to evaluate the polynomial for the values of $r$ shown in the table. ![[Pasted image 20230207090446.png|500]]
+    - [ ] $1273.4496, 1311.2724, 1330.46145, 1349.8368, 1369.39935$
+- (c) What conclusion can you make from the table?
+    - Be way of compound interest.
+
+### 109
+**VOLUME OF A BOX**
+A take-out fast-food restaurant is constructing an open box by cutting squares from the corners of a piece of cardboard that is $18$ cm by $26$ cm (see figure). The edge of each cut-out square is $x$ cm.
+![[Pasted image 20230207091001.png]]
+- (a) Find the volume of the box in terms of $x$.
+    - $V(x)=x(26-2x)(18-2x)$
+- (b) Find the volume when $x=1$,$x=2$, and $x=3$.
+    - [ ] $V(1)=(26-2)(18-2)=384$
+    - [ ] $V(2)=2(26-4)(18-4)=616$
+    - [ ] $V(3)=3(26-3)(18-3)=1035$
+
+### 110
