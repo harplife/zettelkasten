@@ -6,7 +6,7 @@ Previous exercise : [[chapter_p2_exercises|Chapter P1 Exercises]]
 
 ## Vocabulary
 ### 1-5
-	Fill in the blanks.
+Fill in the blanks.
 1. [ ] For the polynomial $a_{n}x^{n} + a_{n-1}x^{n-1}+\ldots+a_1x+a_0$ where $a_n\neq0$, the degree is $n$, the leading coefficient is $a_n$, and the constant term is $a_0$.
 2. [ ] A polynomial in $x$ in standard form is written with **descending** powers of $x$.
 3. [ ] A polynomial with one term is called a **monomials**, while a polynomial with two terms is called a **binomials**, and a polynomial with three terms is called a **trinomials**.
@@ -17,7 +17,7 @@ Previous exercise : [[chapter_p2_exercises|Chapter P1 Exercises]]
 - Foil Method is used to find the product of two binomials. ![[Pasted image 20230124182257.png | 500]]
 
 ### 6-8
-	Math the special product form with its name (ref Page 30).
+Math the special product form with its name (ref Page 30).
 6. $(u+v)(u-v)=u^2-v^2$
    - [ ] (c) The sum and difference of same terms
 7. $(u+v)^2 = u^2+2uv+v^2$
@@ -27,7 +27,7 @@ Previous exercise : [[chapter_p2_exercises|Chapter P1 Exercises]]
 
 ## Skills and Applications
 ### 9-14
-	Match the polynomial with its description.
+Match the polynomial with its description.
 9. A polynomial of degree $0$
    - [ ] (d) $12$
 10. A trinomial of degree $5$
@@ -42,7 +42,7 @@ Previous exercise : [[chapter_p2_exercises|Chapter P1 Exercises]]
     - [ ] (c) $x^3+3x^2+3x+1$
 
 ### 15-18
-	Write a polynomial that fits the description (there are many correct answers).
+Write a polynomial that fits the description (there are many correct answers).
 15. A third-degree polynomial with leading coefficient $-2$
     - [ ] $-2x^3+5$
 16. A fifth-degree polynomial with leading coefficient $6$
@@ -53,9 +53,9 @@ Previous exercise : [[chapter_p2_exercises|Chapter P1 Exercises]]
     - [ ] $2x^3+9$
 
 ### 19-30
-	(a) Write the polynomial in standard form.
-	(b) Identify the degree and leading coefficient of the polynomial.
-	(c) State whether the polynomial is a monomial, a binomial, or a trinomial.
+**(a)** Write the polynomial in standard form.
+**(b)** Identify the degree and leading coefficient of the polynomial.
+**(c)** State whether the polynomial is a monomial, a binomial, or a trinomial.
 19. $14x-\frac{1}{2}x^5$
     - [ ] (a) Standard form : $-\frac{1}{2}x^5+14x$
     - [ ] (b) Fifth-degree polynomial with leading coefficient $-\frac{1}{2}$
@@ -112,7 +112,7 @@ Previous exercise : [[chapter_p2_exercises|Chapter P1 Exercises]]
 - For polynomials with more than one variable, the **leading coefficient** is the coefficient of the highest-degree term. For instance, the degree of leading coefficient polynomial $3x^2y^5+8xy^3$ is the coefficient of the first term, which is $3$.
 
 ### 31-36
-	Determine whether the expression is a polynomial. If so, write the polynomial in standard form.
+Determine whether the expression is a polynomial. If so, write the polynomial in standard form.
 31. $2x-3x^3+8$
     - [ ] in standard form is $-3x^3+2x+8$.
 32. $5x^4-2x^2+x^{-2}$
@@ -128,7 +128,7 @@ Previous exercise : [[chapter_p2_exercises|Chapter P1 Exercises]]
     - [ ] is *not* a polynomial.
 
 ### 37-54
-	Perform the operation and write the result in standard form.
+Perform the operation and write the result in standard form.
 37. $(6x+5)-(8x+15)$
     - [ ] $-2x-10$
 38. $(2x^2+1) - (x^2-2x+1)$
@@ -167,7 +167,7 @@ Previous exercise : [[chapter_p2_exercises|Chapter P1 Exercises]]
     - [ ] $-\frac{9}{4}y^2+30y = -2.25y^2+30y$
 
 ### 55-62
-	Perform the operation.
+Perform the operation.
 55. Add $7x^3-2x^2+8$ and $-3x^3-4$
     - [ ] $4x^3-2x^2+4$
 56. Add $2x^5-3x^3+2x+3$ and $4x^3+x-6$
@@ -200,7 +200,7 @@ Previous exercise : [[chapter_p2_exercises|Chapter P1 Exercises]]
     - [ ] $x^4-x^3-5x^2+9x-4$
 
 ### 63-100
-	Multiply or find the special product.
+Multiply or find the special product.
 63. $(x+3)(x+4)$
     - [ ] $x^2+7x+12$
 64. $(x-5)(x+10)$
@@ -313,7 +313,7 @@ Previous exercise : [[chapter_p2_exercises|Chapter P1 Exercises]]
      - [ ] $x^4-y^4$
 
 ### 101-104
-	Find the product (the expressions are not polynomials, but the formulas can still be used).
+Find the product (the expressions are not polynomials, but the formulas can still be used).
 101. $(\sqrt{x}+\sqrt{y})(\sqrt{x}-\sqrt{y})$
      - [ ] $x+y$
 102. $(5+\sqrt{x})(5-\sqrt{x})$
@@ -388,3 +388,21 @@ An overnight shipping company is designing a closed box by cutting along the sol
     - [ ] $V(7)=7(45-21)(15-14)=168$
 
 ### 111
+**GEOMETRY**
+Find the area of the shaded region in each figure. Write your result as a polynomial in standard form.
+![[Pasted image 20230207213948.png|500]]
+- (a) $2x(2x+6)-x(x+4)$
+    - $4x^2+12x-x^2-4x$
+    - [ ] $3x^2+8x$
+- (b) $\frac{1}{2}(9x)(12x)-\frac{1}{2}(6x)(8x)$
+    - $54x^2-24x^2$
+    - [ ] $30x^2$
+- (c) $\frac{1}{2}(x+2)(5x)-\frac{1}{2}(x+1)(3x)$
+    - $\frac{1}{2}(5x^2+10x)-\frac{1}{2}(3x^2+3x)$
+    - $2.5x^2+5x-1.5x^2-1.5x$
+    - [ ] $x^2+3.5x$
+- (d) $\frac{1}{2}(3x+10)(x+6)$
+    - $\frac{1}{2}(3x^2+28x+60)$
+    - [ ] $1.5x^2+14x+30$
+
+### 112
