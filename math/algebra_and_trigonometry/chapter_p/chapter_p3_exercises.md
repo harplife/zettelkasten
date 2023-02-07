@@ -353,6 +353,11 @@ Previous exercise : [[chapter_p2_exercises|Chapter P1 Exercises]]
 - (b) Use a calculator to evaluate the polynomial for the values of $r$ shown in the table. ![[Pasted image 20230207084549.png|500]]
     - [ ] $525.3125, 530.45, 540.8, 546.0125, 551.25$
 - (c) What conclusion can you make from the table?
-    - 
+    - Be wary of compound interest.
 
 ### 108
+**COMPOUND INTEREST**
+	After $3$ years, an investment of \$$1200$ compounded annually at an interest rate $r$ will yield an amount of $1200(1+r)^3$.
+- (a)
+- (b)
+- (c)
