@@ -111,9 +111,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "computer_graphics/cg_general_notes/3d_영상_콘텐츠_제작자_양성_과정.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -160,7 +158,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "computer_graphics/cg_general_notes/3d_영상_콘텐츠_제작자_양성_과정.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -223,7 +220,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer_graphics/cg_general_notes/3d_영상_콘텐츠_제작자_양성_과정.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -253,8 +249,9 @@
       "mathpad:Open Mathpad": false
     }
   },
-  "active": "8d04bf1cfad0d697",
+  "active": "4aa4b36a0cb514d0",
   "lastOpenFiles": [
+    "computer_graphics/cg_general_notes/3d_영상_콘텐츠_제작자_양성_과정.md",
     "computer_graphics/cg_general_notes/computer_graphics_big_picture.md",
     "lifestyle/central_node.md",
     "goals/goal_bachelor_in_cs.md",
@@ -263,7 +260,6 @@
     "computer_graphics/cg_general_notes/game_industry_overview.md",
     "computer_graphics/cg_general_notes/cg_industry.md",
     "computer_graphics/cg_general_notes/3d_graphics_learning_plan.md",
-    "books/ebooks/Maya_3D_Character_Animation_Basic_Modeling.md",
-    "careers/graphic_programmer/graphics_programmer_career_plan.md"
+    "books/ebooks/Maya_3D_Character_Animation_Basic_Modeling.md"
   ]
 }
