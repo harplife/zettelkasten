@@ -55,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md",
+                "file": "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md",
                 "mode": "source",
                 "source": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md"
+                "file": "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md"
               }
             }
           }
@@ -160,7 +160,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md",
+                "file": "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -190,7 +190,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
         "id": "baddb2b819dd740a",
@@ -223,7 +223,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md",
+                "file": "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -253,8 +253,9 @@
       "mathpad:Open Mathpad": false
     }
   },
-  "active": "19ce5a4d65676126",
+  "active": "aafbd53339de0195",
   "lastOpenFiles": [
+    "lifestyle/central_node.md",
     "computer_graphics/cg_general_notes/game_industry_overview.md",
     "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md",
     "goals/goal_bachelor_in_cs.md",
@@ -263,7 +264,6 @@
     "computer_graphics/cg_general_notes/3d_graphics_learning_plan.md",
     "books/ebooks/Maya_3D_Character_Animation_Basic_Modeling.md",
     "careers/graphic_programmer/graphics_programmer_career_plan.md",
-    "careers/graphic_programmer/graphics_programmer.md",
-    "computer_graphics/cg_learn_notes/computer_graphics_overview.md"
+    "careers/graphic_programmer/graphics_programmer.md"
   ]
 }
