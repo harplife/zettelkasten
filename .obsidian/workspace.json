@@ -67,7 +67,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "zettelkasten/what_is_zettelkasten.md",
+                "file": "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md",
                 "mode": "source",
                 "source": false
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "zettelkasten/what_is_zettelkasten.md"
+                "file": "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md"
               }
             }
           }
@@ -172,7 +172,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "zettelkasten/what_is_zettelkasten.md",
+                "file": "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -202,7 +202,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
         "id": "baddb2b819dd740a",
@@ -235,7 +235,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "zettelkasten/what_is_zettelkasten.md",
+                "file": "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -267,15 +267,15 @@
   },
   "active": "f92a013b36c14cc0",
   "lastOpenFiles": [
-    "people/niklas_luhmann.md",
+    "computer_graphics/cg_general_notes/3d_graphics_career_plan.md",
     "zettelkasten/what_is_zettelkasten.md",
+    "people/niklas_luhmann.md",
     "computer_graphics/cg_general_notes/3d_영상_콘텐츠_제작자_양성_과정.md",
     "computer_graphics/cg_general_notes/computer_graphics_big_picture.md",
     "lifestyle/central_node.md",
     "goals/goal_bachelor_in_cs.md",
     "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md",
     "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md",
-    "computer_graphics/cg_general_notes/game_industry_overview.md",
-    "computer_graphics/cg_general_notes/cg_industry.md"
+    "computer_graphics/cg_general_notes/game_industry_overview.md"
   ]
 }
