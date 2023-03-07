@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md"
+                "file": "lifestyle/central_node.md"
               }
             }
           }
@@ -172,7 +172,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md",
+                "file": "lifestyle/central_node.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -235,7 +235,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md",
+                "file": "lifestyle/central_node.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -265,7 +265,7 @@
       "mathpad:Open Mathpad": false
     }
   },
-  "active": "f92a013b36c14cc0",
+  "active": "227e6011dc684b16",
   "lastOpenFiles": [
     "computer_graphics/cg_general_notes/3d_graphics_career_plan.md",
     "zettelkasten/what_is_zettelkasten.md",
