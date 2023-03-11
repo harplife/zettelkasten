@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KNOU/2023년_방통대/1학기_과목/데이터베이스시스템_계획_23s1.md"
+                "file": "lifestyle/central_node.md"
               }
             }
           }
@@ -184,7 +184,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "KNOU/2023년_방통대/1학기_과목/데이터베이스시스템_계획_23s1.md",
+                "file": "lifestyle/central_node.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -247,7 +247,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KNOU/2023년_방통대/1학기_과목/데이터베이스시스템_계획_23s1.md",
+                "file": "lifestyle/central_node.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
