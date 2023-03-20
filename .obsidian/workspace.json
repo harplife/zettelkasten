@@ -79,7 +79,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KNOU/2023년_방통대/1학기_과목/데이터베이스시스템_계획_23s1.md",
+                "file": "KNOU/2023년_방통대/1학기_과목/디지털논리회로_계획_23s1.md",
                 "mode": "source",
                 "source": false
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "exercise",
+                "query": "개괄적인",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KNOU/2023년_방통대/1학기_과목/데이터베이스시스템_계획_23s1.md"
+                "file": "KNOU/2023년_방통대/1학기_과목/디지털논리회로_계획_23s1.md"
               }
             }
           }
@@ -184,7 +184,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "KNOU/2023년_방통대/1학기_과목/데이터베이스시스템_계획_23s1.md",
+                "file": "KNOU/2023년_방통대/1학기_과목/디지털논리회로_계획_23s1.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -214,7 +214,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "baddb2b819dd740a",
@@ -247,7 +247,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KNOU/2023년_방통대/1학기_과목/데이터베이스시스템_계획_23s1.md",
+                "file": "KNOU/2023년_방통대/1학기_과목/디지털논리회로_계획_23s1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -277,13 +277,15 @@
       "mathpad:Open Mathpad": false
     }
   },
-  "active": "227e6011dc684b16",
+  "active": "fd4fd73053243ebd",
   "lastOpenFiles": [
+    "attachments/Pasted image 20230321064527.png",
+    "KNOU/2023년_방통대/1학기_과목/데이터베이스시스템_계획_23s1.md",
+    "KNOU/2023년_방통대/1학기_과목/디지털논리회로_계획_23s1.md",
     "lifestyle/central_node.md",
     "goals/goal_bachelor_in_cs.md",
     "computer_graphics/cg_general_notes/computer_graphics_big_picture.md",
     "computer_graphics/cg_general_notes/3d_영상_콘텐츠_제작자_양성_과정.md",
-    "KNOU/2023년_방통대/1학기_과목/데이터베이스시스템_계획_23s1.md",
     "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md",
     "KNOU/2023년_방통대/1학기_과목/R컴퓨팅_계획_23s1.md",
     "KNOU/2023년_방통대/1학기_과목/통계학개론_계획_23s1.md",
