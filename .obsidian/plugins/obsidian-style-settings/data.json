@@ -19,5 +19,12 @@
   "obsidian-prism-theme@@link-external-color-dt": "var(--color-pink-text-hsl)",
   "obsidian-prism-theme@@color-accent-base-dt": "#004898",
   "obsidian-prism-theme@@color-accent-tint-dt": "#E687F7",
-  "obsidian-prism-theme@@color-accent-text-dt": "#E9F3FF"
+  "obsidian-prism-theme@@color-accent-text-dt": "#E9F3FF",
+  "obsidian-prism-theme@@pt-font-slashed-zero": true,
+  "obsidian-prism-theme@@pt-font-alt-g": true,
+  "obsidian-prism-theme@@pt-font-alt-a": false,
+  "obsidian-prism-theme@@pt-fade-inactive-tabs": true,
+  "obsidian-prism-theme@@pt-disable-blur": false,
+  "obsidian-prism-theme@@pt-disable-mark-highlight-styling": true,
+  "obsidian-prism-theme@@pt-collapsed-pinned-tab": false
 }
