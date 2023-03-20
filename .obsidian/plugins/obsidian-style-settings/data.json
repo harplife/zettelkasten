@@ -26,5 +26,7 @@
   "obsidian-prism-theme@@pt-fade-inactive-tabs": true,
   "obsidian-prism-theme@@pt-disable-blur": false,
   "obsidian-prism-theme@@pt-disable-mark-highlight-styling": true,
-  "obsidian-prism-theme@@pt-collapsed-pinned-tab": false
+  "obsidian-prism-theme@@pt-collapsed-pinned-tab": false,
+  "obsidian-prism-theme@@pt-font-disable-ligatures": true,
+  "obsidian-prism-theme@@text-italic-bold-color-dt": "var(--color-yellow-text)"
 }
