@@ -4,7 +4,8 @@
   "cssTheme": "Prism",
   "enabledCssSnippets": [
     "big-math",
-    "images"
+    "images",
+    "tag-pills"
   ],
   "accentColor": "",
   "baseFontSizeAction": true,
