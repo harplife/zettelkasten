@@ -121,7 +121,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "개괄적인",
+                "query": "tag:#todo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,

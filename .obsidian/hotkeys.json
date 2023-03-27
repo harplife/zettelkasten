@@ -1,5 +1,5 @@
 {
-  "highlightr-plugin:Blue": [
+  "highlightr-plugin:Trippy": [
     {
       "modifiers": [
         "Mod",
@@ -8,5 +8,14 @@
       "key": "B"
     }
   ],
-  "highlightr-plugin:unhighlight": []
+  "highlightr-plugin:unhighlight": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "B"
+    }
+  ]
 }

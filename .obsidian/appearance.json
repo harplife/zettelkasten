@@ -5,7 +5,8 @@
   "enabledCssSnippets": [
     "big-math",
     "images",
-    "tag-pills"
+    "tag-pills",
+    "highlightr"
   ],
   "accentColor": "",
   "baseFontSizeAction": true,
