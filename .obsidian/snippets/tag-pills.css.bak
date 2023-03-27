@@ -1,6 +1,20 @@
 /*.cm-s-obsidian span.cm-hashtag-begin,*/
 /*.cm-s-obsidian span.cm-hashtag,*/
 /*.cm-s-obsidian span.cm-hashtag-end,*/
+cm-s-obsidian span.cm-hashtag {
+  background-color: var(--text-accent);
+  border: none;
+  color: blue;
+  font-size: 11px;
+  padding: 1px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0px 0px;
+  cursor: pointer;
+  border-radius: 14px;
+}
+
 .tag {
   background-color: var(--text-accent);
   border: none;
