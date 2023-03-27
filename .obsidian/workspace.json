@@ -116,12 +116,23 @@
             }
           },
           {
+            "id": "22b2c060987a0027",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
             "id": "12efa4d7cc8b07c3",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#todo",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -246,17 +257,6 @@
               "type": "graph",
               "state": {},
               "pinned": true
-            }
-          },
-          {
-            "id": "22b2c060987a0027",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "alphabetical",
-                "useHierarchy": true
-              }
             }
           },
           {

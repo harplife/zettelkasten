@@ -8,5 +8,7 @@
   "various-complements",
   "highlightr-plugin",
   "url-into-selection",
-  "dataview"
+  "dataview",
+  "obsidian-linter",
+  "tag-wrangler"
 ]
