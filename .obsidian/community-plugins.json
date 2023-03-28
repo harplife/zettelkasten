@@ -10,5 +10,6 @@
   "url-into-selection",
   "dataview",
   "obsidian-linter",
-  "tag-wrangler"
+  "tag-wrangler",
+  "obsidian-link-embed"
 ]
