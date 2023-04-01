@@ -38,11 +38,69 @@
         "type": "tabs",
         "children": [
           {
-            "id": "008e8bff5269b73a",
+            "id": "296401a28004626a",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
               "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "system",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"system.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}}}"
+                },
+                {
+                  "title": "analog_system",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"analog_system.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":80},\"to\":{\"line\":2,\"ch\":80}}}"
+                },
+                {
+                  "title": "system",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"system.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}}}"
+                },
+                {
+                  "title": "systematic_approach",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"systematic_approach.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":101},\"to\":{\"line\":3,\"ch\":101}}}"
+                },
+                {
+                  "title": "data_digital_analog_diff",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"data_digital_analog_diff.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":2},\"to\":{\"line\":3,\"ch\":2}}}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "analog_system.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0afc9ea37ccc66e2",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 1,
+              "stack": [
+                {
+                  "title": "data_digital_analog_diff",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"data_digital_analog_diff.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":30},\"to\":{\"line\":0,\"ch\":30}}}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
@@ -52,14 +110,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "system.md",
+                "file": "analog_digital_system_diff.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -72,14 +131,6 @@
         "id": "e2c7375bbd152a7e",
         "type": "tabs",
         "children": [
-          {
-            "id": "f646f3168015b781",
-            "type": "leaf",
-            "state": {
-              "type": "center-panes",
-              "state": {}
-            }
-          },
           {
             "id": "19ce5a4d65676126",
             "type": "leaf",
@@ -100,6 +151,77 @@
             }
           },
           {
+            "id": "2a292a21980dd16c",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "analog_digital_system_diff.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "12efa4d7cc8b07c3",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "22b2c060987a0027",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "8b59a79edfa1424c",
+        "type": "tabs",
+        "children": [
+          {
             "id": "96b3986a5f1a95d9",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -114,7 +236,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "KNOU/2023년_방통대/1학기_과목/디지털논리회로_계획_23s1.md",
+                "file": "analog_digital_system_diff.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -142,97 +264,8 @@
                 }
               }
             }
-          },
-          {
-            "id": "22b2c060987a0027",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "alphabetical",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "2a292a21980dd16c",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "KNOU/2023년_방통대/1학기_과목/디지털논리회로_계획_23s1.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": false
-              }
-            }
           }
         ]
-      },
-      {
-        "id": "8b59a79edfa1424c",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "27ce6da980886c10",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "dictionary-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "12efa4d7cc8b07c3",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
-          }
-        ],
-        "currentTab": 1
       },
       {
         "id": "0065a4e248a61faa",
@@ -253,8 +286,42 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KNOU/2023년_방통대/1학기_과목/디지털논리회로_계획_23s1.md"
+                "file": "analog_digital_system_diff.md"
               }
+            }
+          },
+          {
+            "id": "f646f3168015b781",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "center-panes",
+              "state": {}
+            }
+          },
+          {
+            "id": "27ce6da980886c10",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "dictionary-view",
+              "state": {}
             }
           }
         ]
@@ -285,10 +352,20 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "f92a013b36c14cc0",
+  "active": "0afc9ea37ccc66e2",
+  "ophidian:layout-settings": {
+    "pane-relief:focus-lock": true
+  },
   "lastOpenFiles": [
-    "system.md",
     "KNOU/2023년_방통대/1학기_과목/디지털논리회로_계획_23s1.md",
+    "analog_digital_system_diff.md",
+    "data_digital_analog_diff.md",
+    "analog_system.md",
+    "system.md",
+    "systematic_approach.md",
+    "digital_system.md",
+    "digital_data.md",
+    "analog_data.md",
     "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md",
     "computer_graphics/cg_general_notes/3d_영상_콘텐츠_제작자_양성_과정.md",
     "computer_graphics/cg_general_notes/computer_graphics_big_picture.md",
