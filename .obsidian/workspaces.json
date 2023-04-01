@@ -79,22 +79,9 @@
                     "source": false
                   }
                 }
-              },
-              {
-                "id": "fd4fd73053243ebd",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "KNOU/2023년_방통대/1학기_과목/디지털논리회로_계획_23s1.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
               }
             ],
-            "currentTab": 5
+            "currentTab": 4
           }
         ],
         "direction": "vertical"
@@ -154,9 +141,7 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {
-                    "file": "KNOU/2023년_방통대/1학기_과목/디지털논리회로_계획_23s1.md"
-                  }
+                  "state": {}
                 }
               }
             ]
@@ -203,7 +188,6 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "KNOU/2023년_방통대/1학기_과목/디지털논리회로_계획_23s1.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -238,7 +222,6 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "KNOU/2023년_방통대/1학기_과목/디지털논리회로_계획_23s1.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -254,11 +237,9 @@
               {
                 "id": "4aa4b36a0cb514d0",
                 "type": "leaf",
-                "pinned": true,
                 "state": {
                   "type": "graph",
-                  "state": {},
-                  "pinned": true
+                  "state": {}
                 }
               },
               {
@@ -267,7 +248,6 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "KNOU/2023년_방통대/1학기_과목/디지털논리회로_계획_23s1.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -298,7 +278,7 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "fd4fd73053243ebd",
+      "active": "4aa4b36a0cb514d0",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "/"
@@ -315,12 +295,51 @@
             "type": "tabs",
             "children": [
               {
-                "id": "fd4fd73053243ebd",
+                "id": "f92a013b36c14cc0",
                 "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
                     "file": "KNOU/2023년_방통대/1학기_과목/디지털논리회로_계획_23s1.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  },
+                  "pinned": true
+                }
+              }
+            ]
+          },
+          {
+            "id": "277ccf75112b0f8e",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "008e8bff5269b73a",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "system.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -341,8 +360,25 @@
             "type": "tabs",
             "children": [
               {
+                "id": "f646f3168015b781",
+                "type": "leaf",
+                "state": {
+                  "type": "center-panes",
+                  "state": {}
+                }
+              },
+              {
                 "id": "19ce5a4d65676126",
                 "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
                 "state": {
                   "type": "file-explorer",
                   "state": {
@@ -351,92 +387,21 @@
                 }
               },
               {
-                "id": "22b2c060987a0027",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "alphabetical",
-                    "useHierarchy": true
-                  }
-                }
-              },
-              {
-                "id": "12efa4d7cc8b07c3",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "",
-                    "matchingCase": false,
-                    "explainSearch": false,
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical"
-                  }
-                }
-              }
-            ]
-          },
-          {
-            "id": "0065a4e248a61faa",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "15ca17ef343452c3",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "KNOU/2023년_방통대/1학기_과목/디지털논리회로_계획_23s1.md"
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 262
-      },
-      "right": {
-        "id": "f152d8fd8ec1f4e0",
-        "type": "split",
-        "children": [
-          {
-            "id": "80509ecd5229f2bb",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "65c09b173479de66",
-                "type": "leaf",
-                "state": {
-                  "type": "advanced-tables-toolbar",
-                  "state": {}
-                }
-              },
-              {
-                "id": "227e6011dc684b16",
-                "type": "leaf",
-                "state": {
-                  "type": "mathpad-view",
-                  "state": {}
-                }
-              },
-              {
-                "id": "27ce6da980886c10",
-                "type": "leaf",
-                "state": {
-                  "type": "dictionary-view",
-                  "state": {}
-                }
-              },
-              {
                 "id": "96b3986a5f1a95d9",
                 "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "KNOU/2023년_방통대/1학기_과목/디지털논리회로_계획_23s1.md",
+                    "file": "system.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -466,14 +431,90 @@
                 }
               },
               {
+                "id": "22b2c060987a0027",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
                 "id": "2a292a21980dd16c",
                 "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "KNOU/2023년_방통대/1학기_과목/디지털논리회로_계획_23s1.md",
+                    "file": "system.md",
                     "linksCollapsed": false,
-                    "unlinkedCollapsed": true
+                    "unlinkedCollapsed": false
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "8b59a79edfa1424c",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "27ce6da980886c10",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "dictionary-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "12efa4d7cc8b07c3",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
                   }
                 }
               }
@@ -481,33 +522,25 @@
             "currentTab": 1
           },
           {
-            "id": "baddb2b819dd740a",
+            "id": "0065a4e248a61faa",
             "type": "tabs",
             "children": [
               {
-                "id": "4aa4b36a0cb514d0",
+                "id": "15ca17ef343452c3",
                 "type": "leaf",
-                "pinned": true,
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
                 "state": {
-                  "type": "graph",
-                  "state": {},
-                  "pinned": true
-                }
-              },
-              {
-                "id": "44fedb4924e97e68",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
+                  "type": "outline",
                   "state": {
-                    "file": "KNOU/2023년_방통대/1학기_과목/디지털논리회로_계획_23s1.md",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": false
+                    "file": "system.md"
                   }
                 }
               }
@@ -515,7 +548,15 @@
           }
         ],
         "direction": "horizontal",
-        "width": 362.5
+        "width": 262
+      },
+      "right": {
+        "id": "f152d8fd8ec1f4e0",
+        "type": "split",
+        "children": [],
+        "direction": "horizontal",
+        "width": 362.5,
+        "collapsed": true
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -531,7 +572,7 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "227e6011dc684b16",
+      "active": "008e8bff5269b73a",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "/"

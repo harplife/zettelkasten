@@ -17,5 +17,16 @@
       ],
       "key": "B"
     }
-  ]
+  ],
+  "pane-relief:maximize": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "X"
+    }
+  ],
+  "workspace:next-tab": [],
+  "workspace:previous-tab": []
 }
