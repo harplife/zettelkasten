@@ -25,7 +25,7 @@
   "descriptionOnSuggestion": "Short",
   "selectSuggestionKeys": "None",
   "additionalCycleThroughSuggestionsKeys": "None",
-  "disableUpDownKeysForCycleThroughSuggestionsKeys": false,
+  "disableUpDownKeysForCycleThroughSuggestionsKeys": true,
   "openSourceFileKey": "None",
   "propagateEsc": false,
   "enableCurrentFileComplement": true,
