@@ -111,6 +111,7 @@
   margin: 0 !important;
 }
 
+/* margins */
 .markdown-embed-content,
 { 
   max-height: unset;
@@ -118,6 +119,7 @@
   margin: 0;
   border: 0;
 }
+
 
 /* remove <br> between internal embeds */
 .markdown-preview-section div > br {

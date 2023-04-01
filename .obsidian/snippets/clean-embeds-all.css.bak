@@ -106,17 +106,23 @@
 /* unfortunately needs !important for some themes */
 .markdown-embed,
 .file-embed {
-  border: 1 !important;
+  border: none !important;
   padding: 0 !important;
   margin: 0 !important;
 }
 
+/* margins */
 .markdown-embed-content,
 { 
   max-height: unset;
   padding: 0 !important; /* !important for "Pisum" theme */
   margin: 0;
   border: 0;
+}
+
+.markdown-embed h2
+{
+	font-size: 0.8em;
 }
 
 /* remove <br> between internal embeds */
