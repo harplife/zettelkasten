@@ -38,10 +38,10 @@
               "pos": 1,
               "stack": [
                 {
-                  "title": "analog_data",
+                  "title": "overview_of_data",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"analog_data.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":0},\"to\":{\"line\":1,\"ch\":0}},\"scroll\":0}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"overview_of_data.md\",\"mode\":\"preview\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{}"
                 },
                 {
                   "state": "{}",
@@ -82,7 +82,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "277ccf75112b0f8e",
@@ -183,9 +183,31 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0389eb134b04401a",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "overview_of_data.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -232,7 +254,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "overview_of_system.md",
+                "file": "overview_of_data.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -282,8 +304,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "8b59a79edfa1424c",
@@ -304,7 +325,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "overview_of_system.md",
+                "file": "overview_of_data.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -354,7 +375,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "overview_of_system.md"
+                "file": "overview_of_data.md"
               }
             }
           },
@@ -420,20 +441,20 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "3b736807c1ff3591",
+  "active": "0389eb134b04401a",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "definition_of_system.md",
-    "overview_of_system.md",
-    "KNOU/2023년_방통대/1학기_과목/디지털논리회로_계획_23s1.md",
     "디지털논리회로_ch01.md",
+    "analog_data.md",
     "overview_of_data.md",
     "analog_system_problems.md",
+    "overview_of_system.md",
+    "definition_of_system.md",
+    "KNOU/2023년_방통대/1학기_과목/디지털논리회로_계획_23s1.md",
     "analog_system.md",
     "data_digital_analog_diff.md",
-    "analog_data.md",
     "systematic_approach.md",
     "digital_system.md",
     "digital_data.md",

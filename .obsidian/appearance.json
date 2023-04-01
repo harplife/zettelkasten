@@ -6,7 +6,8 @@
     "big-math",
     "images",
     "tag-pills",
-    "highlightr"
+    "highlightr",
+    "clean-embeds-all"
   ],
   "accentColor": "",
   "baseFontSizeAction": true,
