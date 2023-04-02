@@ -106,8 +106,31 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "944f04ba0ae9cd1d",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "overview_of_electronic_circuit.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -140,6 +163,32 @@
             }
           },
           {
+            "id": "8ca838d1eeaa5bf8",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "overview_of_electronic_circuit.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
             "id": "2a292a21980dd16c",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -154,7 +203,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "accumulation_of_errors_in_analog_system.md",
+                "file": "overview_of_electronic_circuit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -225,7 +274,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "accumulation_of_errors_in_analog_system.md",
+                "file": "overview_of_electronic_circuit.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -253,6 +302,23 @@
                 }
               }
             }
+          },
+          {
+            "id": "b652d94066112a10",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "mathpad-view",
+              "state": {}
+            }
           }
         ]
       },
@@ -275,7 +341,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "accumulation_of_errors_in_analog_system.md"
+                "file": "overview_of_electronic_circuit.md"
               }
             }
           },
@@ -322,42 +388,10 @@
   "right": {
     "id": "f152d8fd8ec1f4e0",
     "type": "split",
-    "children": [
-      {
-        "id": "0d7dc4b40b122606",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "8ca838d1eeaa5bf8",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "accumulation_of_errors_in_analog_system.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "b652d94066112a10",
-            "type": "leaf",
-            "state": {
-              "type": "mathpad-view",
-              "state": {}
-            }
-          }
-        ],
-        "currentTab": 1
-      }
-    ],
+    "children": [],
     "direction": "horizontal",
-    "width": 362.5
+    "width": 362.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -373,13 +407,14 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "fd161fdfbde2f5bf",
+  "active": "944f04ba0ae9cd1d",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "KNOU/2023년_방통대/1학기_과목/디지털논리회로_계획_23s1.md",
     "accumulation_of_errors_in_analog_system.md",
+    "overview_of_electronic_circuit.md",
+    "KNOU/2023년_방통대/1학기_과목/디지털논리회로_계획_23s1.md",
     "디지털논리회로_1장.md",
     "overview_of_system.md",
     "definition_of_systematic_approach.md",
@@ -408,7 +443,6 @@
     "computer_graphics/cg_general_notes/3d_graphics_career_plan.md",
     "zettelkasten/what_is_zettelkasten.md",
     "people/niklas_luhmann.md",
-    "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md",
-    "computer_graphics/cg_general_notes/game_industry_overview.md"
+    "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md"
   ]
 }
