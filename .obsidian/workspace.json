@@ -19,7 +19,6 @@
                 }
               ]
             },
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -27,8 +26,7 @@
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              },
-              "pinned": true
+              }
             }
           },
           {
@@ -53,28 +51,6 @@
               "type": "markdown",
               "state": {
                 "file": "디지털논리회로_1장.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cc601607c751e0ad",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "overview_of_data.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -111,58 +87,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "296401a28004626a",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "system",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"definition_of_system.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}}}"
-                },
-                {
-                  "title": "analog_system",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"analog_system.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":80},\"to\":{\"line\":2,\"ch\":80}}}"
-                },
-                {
-                  "title": "system",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"definition_of_system.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}}}"
-                },
-                {
-                  "title": "systematic_approach",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"systematic_approach.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":101},\"to\":{\"line\":3,\"ch\":101}}}"
-                },
-                {
-                  "title": "data_digital_analog_diff",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"data_digital_analog_diff.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":2},\"to\":{\"line\":3,\"ch\":2}}}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "analog_system.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "fd161fdfbde2f5bf",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -177,14 +101,37 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "analog_system_problems.md",
+                "file": "accumulation_of_errors_in_analog_system.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c4ef0227e3bde220",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "definition_of_systematic_approach.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -231,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "overview_of_data.md",
+                "file": "definition_of_systematic_approach.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -252,7 +199,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "digital_system",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -302,7 +249,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "overview_of_data.md",
+                "file": "definition_of_systematic_approach.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -352,7 +299,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "overview_of_data.md"
+                "file": "definition_of_systematic_approach.md"
               }
             }
           },
@@ -418,23 +365,24 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "cc601607c751e0ad",
+  "active": "c4ef0227e3bde220",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "디지털논리회로_1장.md",
-    "analog_system.md",
     "overview_of_system.md",
+    "definition_of_systematic_approach.md",
     "KNOU/2023년_방통대/1학기_과목/디지털논리회로_계획_23s1.md",
-    "definition_of_system.md",
-    "analog_system_problems.md",
+    "디지털논리회로_1장.md",
+    "디지털_시스템의_장점.md",
+    "accumulation_of_errors_in_analog_system.md",
+    "definition_of_digital_system.md",
+    "definition_of_analog_data.md",
+    "definition_of_analog_system.md",
     "overview_of_data.md",
-    "digital_data.md",
-    "analog_data.md",
+    "definition_of_digital_data.md",
+    "definition_of_system.md",
     "data_digital_analog_diff.md",
-    "systematic_approach.md",
-    "digital_system.md",
     "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md",
     "computer_graphics/cg_general_notes/3d_영상_콘텐츠_제작자_양성_과정.md",
     "computer_graphics/cg_general_notes/computer_graphics_big_picture.md",

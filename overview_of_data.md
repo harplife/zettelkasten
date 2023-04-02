@@ -1,6 +1,6 @@
 # 데이터의 개념
 
-## 데이터의 정의
+## 정의
 - #todo 데이터 정의 노트 생성
 
 ## 데이터 신호의 종류
@@ -8,8 +8,10 @@
 - ![[Pasted image 20230321072124.png]]
 
 ### 아날로그 데이터
-![[analog_data#Definition]]
+#### 정의
+![[definition_of_analog_data]]
 
 ### 디지털 데이터
-![[digital_data#Definition]]
+#### 정의
+![[definition_of_digital_data]]
 
