@@ -79,8 +79,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "277ccf75112b0f8e",
@@ -107,31 +106,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "c4ef0227e3bde220",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "definition_of_systematic_approach.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -178,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "definition_of_systematic_approach.md",
+                "file": "accumulation_of_errors_in_analog_system.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -249,7 +225,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "definition_of_systematic_approach.md",
+                "file": "accumulation_of_errors_in_analog_system.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -299,7 +275,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "definition_of_systematic_approach.md"
+                "file": "accumulation_of_errors_in_analog_system.md"
               }
             }
           },
@@ -346,10 +322,42 @@
   "right": {
     "id": "f152d8fd8ec1f4e0",
     "type": "split",
-    "children": [],
+    "children": [
+      {
+        "id": "0d7dc4b40b122606",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8ca838d1eeaa5bf8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "accumulation_of_errors_in_analog_system.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b652d94066112a10",
+            "type": "leaf",
+            "state": {
+              "type": "mathpad-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
     "direction": "horizontal",
-    "width": 362.5,
-    "collapsed": true
+    "width": 362.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -365,17 +373,17 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "c4ef0227e3bde220",
+  "active": "fd161fdfbde2f5bf",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "KNOU/2023년_방통대/1학기_과목/디지털논리회로_계획_23s1.md",
+    "accumulation_of_errors_in_analog_system.md",
+    "디지털논리회로_1장.md",
     "overview_of_system.md",
     "definition_of_systematic_approach.md",
-    "KNOU/2023년_방통대/1학기_과목/디지털논리회로_계획_23s1.md",
-    "디지털논리회로_1장.md",
     "디지털_시스템의_장점.md",
-    "accumulation_of_errors_in_analog_system.md",
     "definition_of_digital_system.md",
     "definition_of_analog_data.md",
     "definition_of_analog_system.md",
