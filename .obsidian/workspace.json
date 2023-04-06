@@ -8,6 +8,28 @@
         "type": "tabs",
         "children": [
           {
+            "id": "944f04ba0ae9cd1d",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "디지털논리회로_요약.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "f92a013b36c14cc0",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -28,66 +50,15 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "0afc9ea37ccc66e2",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 1,
-              "stack": [
-                {
-                  "title": "overview_of_data",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"overview_of_data.md\",\"mode\":\"preview\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{}"
-                },
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "디지털논리회로_1장.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "944f04ba0ae9cd1d",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "overview_of_electronic_circuit.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
-        "id": "277ccf75112b0f8e",
+        "id": "9ab4989ee9e155f9",
         "type": "tabs",
         "children": [
           {
-            "id": "fd161fdfbde2f5bf",
+            "id": "5b1c4a3ab0062cdb",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -101,7 +72,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "accumulation_of_errors_in_analog_system.md",
+                "file": "digital_system_design.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -155,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "accumulation_of_errors_in_analog_system.md",
+                "file": "디지털논리회로_요약.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "accumulation_of_errors_in_analog_system.md",
+                "file": "디지털논리회로_요약.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -252,7 +223,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "accumulation_of_errors_in_analog_system.md",
+                "file": "디지털논리회로_요약.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -319,7 +290,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "accumulation_of_errors_in_analog_system.md"
+                "file": "디지털논리회로_요약.md"
               }
             }
           },
@@ -385,19 +356,24 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "fd161fdfbde2f5bf",
+  "active": "944f04ba0ae9cd1d",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "KNOU/2023년_방통대/1학기_과목/디지털논리회로_계획_23s1.md",
+    "디지털논리회로_요약.md",
+    "digital_system_design.md",
+    "overview_of_system.md",
     "디지털논리회로_1장.md",
+    "디지털_시스템의_장점.md",
+    "overview_of_digital_system.md",
+    "overview_of_analog_system.md",
+    "overview_of_electronic_circuit.md",
+    "computer_graphics/cg_general_notes/3d_영상_콘텐츠_제작자_양성_과정.md",
+    "accumulation_of_errors_in_analog_system.md",
     "definition_of_analog_system.md",
     "definition_of_digital_system.md",
-    "KNOU/2023년_방통대/1학기_과목/디지털논리회로_계획_23s1.md",
-    "accumulation_of_errors_in_analog_system.md",
-    "디지털_시스템의_장점.md",
-    "overview_of_system.md",
-    "overview_of_electronic_circuit.md",
     "definition_of_systematic_approach.md",
     "definition_of_analog_data.md",
     "overview_of_data.md",
@@ -405,7 +381,6 @@
     "definition_of_system.md",
     "data_digital_analog_diff.md",
     "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md",
-    "computer_graphics/cg_general_notes/3d_영상_콘텐츠_제작자_양성_과정.md",
     "computer_graphics/cg_general_notes/computer_graphics_big_picture.md",
     "goals/goal_bachelor_in_cs.md",
     "lifestyle/central_node.md",
@@ -417,10 +392,6 @@
     "attachments/Pasted image 20230321064527.png",
     "KNOU/2023년_방통대/1학기_과목/데이터베이스시스템_계획_23s1.md",
     "KNOU/2023년_방통대/1학기_과목/R컴퓨팅_계획_23s1.md",
-    "KNOU/2023년_방통대/1학기_과목/통계학개론_계획_23s1.md",
-    "computer_graphics/cg_general_notes/3d_graphics_career_plan.md",
-    "zettelkasten/what_is_zettelkasten.md",
-    "people/niklas_luhmann.md",
-    "math/algebra_and_trigonometry/chapter_p/chapter_p3_exercises.md"
+    "KNOU/2023년_방통대/1학기_과목/통계학개론_계획_23s1.md"
   ]
 }

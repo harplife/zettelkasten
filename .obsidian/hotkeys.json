@@ -28,5 +28,33 @@
     }
   ],
   "workspace:next-tab": [],
-  "workspace:previous-tab": []
+  "workspace:previous-tab": [],
+  "workspaces-plus:save-workspace": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "S"
+    }
+  ],
+  "workspaces:open-modal": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "W"
+    }
+  ],
+  "workspace:close-window": [],
+  "workspace:close": [],
+  "workspaces:save-and-load": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "W"
+    }
+  ]
 }
