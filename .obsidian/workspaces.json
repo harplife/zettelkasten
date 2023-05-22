@@ -390,15 +390,26 @@
                     "source": false
                   }
                 }
-              }
-            ]
-          },
-          {
-            "id": "9ab4989ee9e155f9",
-            "type": "tabs",
-            "children": [
+              },
               {
-                "id": "5b1c4a3ab0062cdb",
+                "id": "5f2a37907f5f6a33",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              },
+              {
+                "id": "87c093f024361907",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -412,14 +423,15 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "digital_system_design.md",
+                    "file": "algorithms_panos_louridas.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -466,7 +478,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "디지털논리회로_요약.md",
+                    "file": "algorithms_panos_louridas.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -492,7 +504,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "디지털논리회로_요약.md",
+                    "file": "algorithms_panos_louridas.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": false
                   }
@@ -580,7 +592,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "디지털논리회로_요약.md",
+                    "file": "algorithms_panos_louridas.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -648,7 +660,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "디지털논리회로_요약.md"
+                    "file": "algorithms_panos_louridas.md"
                   }
                 }
               },
@@ -690,7 +702,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 262
+        "width": 262,
+        "collapsed": true
       },
       "right": {
         "id": "f152d8fd8ec1f4e0",
@@ -714,7 +727,7 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "944f04ba0ae9cd1d",
+      "active": "87c093f024361907",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": []
       }
