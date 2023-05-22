@@ -16,4 +16,13 @@ Algorithms by Panos Louridas
 	- [Clave](<https://en.wikipedia.org/wiki/Clave_(rhythm)>) is a rhythmic pattern used as a tool for temporal organization in Cuban music.
 	- [Godfried Toussaint](https://en.wikipedia.org/wiki/Godfried_Toussaint) (a Research Professor of Computer Science) made several mathematical analysis of clave and related African bell patterns using [Computational Geometry](https://en.wikipedia.org/wiki/Computational_geometry) and [Euclid's Algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm).
 	- "Distribution of Two Sets" problem can be solved with Euclid's Algorithm, an algorithm which is used to compute a [Greatest Common Divisor (GCD)](https://en.wikipedia.org/wiki/Greatest_common_divisor) of two integers. 
+
+## Problem 2 : Shortest Path
+- We want to find the shortest path from the upper-left corner of the grid to the lower-right corner, without visiting the same place twice.
+	- ![[11884_001_fig_003.jpg]] (3x3 grid)
+	- The length of each path is equal to the number of links between points on the grid.
+- One way to solve this problem is to "find all paths, measure how long each of them is, and pick up the shortest (or any of the shortest)".
+	- Solving 3x3 grid with this method gives us 12 total paths, with 5 paths of length 4 (shortest).
+	- 5x5 grid gives 8,512 paths. Larger grids gives exponentially bigger number of total paths.
+	- The procedure for enumerating all paths and picking the shortest one is **undoubtedly correct**, and will always give us the shortest path—or any of the shortest paths, if there are many equally short ones—yet it is definitely **impractical**.
 - 
