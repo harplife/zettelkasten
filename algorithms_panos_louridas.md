@@ -13,7 +13,7 @@ Algorithms by Panos Louridas
 	- ![[11884_e1_008.jpg]] (concatenate, final result)
 	- Not an even distribution, but it is distributed *as evenly as possible*.
 - "Distribution of Two Sets" is a pattern that is often explored in music (rhythm); it can be interpreted mathematically, which means it can be written as an algorithm.
-	- Clave is a rhythmic pattern used as a tool for temporal organization in Cuban music.
+	- [Clave](<https://en.wikipedia.org/wiki/Clave_(rhythm)>) is a rhythmic pattern used as a tool for temporal organization in Cuban music.
 	- [Godfried Toussaint](https://en.wikipedia.org/wiki/Godfried_Toussaint) (a Research Professor of Computer Science) made several mathematical analysis of clave and related African bell patterns using [Computational Geometry](https://en.wikipedia.org/wiki/Computational_geometry) and [Euclid's Algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm).
 	- "Distribution of Two Sets" problem can be solved with Euclid's Algorithm, an algorithm which is used to compute a [Greatest Common Divisor (GCD)](https://en.wikipedia.org/wiki/Greatest_common_divisor) of two integers. 
 - 
