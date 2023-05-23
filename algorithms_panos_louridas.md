@@ -122,4 +122,8 @@ Algorithms by Panos Louridas
 	- ![[11884_004_fig_017.jpg|400]] (buckets with the third msd)
 - Radix Sort is also useful for sorting strings (a sequence of alphanumeric characters).
 - The complexity of Radix Sort is $O(wn)$, where $w$ is the number of significant digits and $n$ is the number of items to sort.
-- 
+
+## Quicksort
+- [Quicksort | wiki](https://en.wikipedia.org/wiki/Quicksort) : A divide-and-conquer sorting algorithm that works by selecting a 'pivot' element from the array and partitioning the other elements into two sub-arrays according to whether they are less than or greater than the pivot.
+- It is sometimes called **Partition-Exchange Sort**.
+- ![[Sorting_quicksort_anim.gif]]
