@@ -94,4 +94,21 @@ Algorithms by Panos Louridas
 	- Basically, the algorithm calculates shortest path from a starting point to essentially all points.
 	- ![[rjwv8f4g.bmp]]
 	- The complexity of this algorithm is $O((m+n)\log n)$, where $m$ is the number of edges and $n$ is the number of nodes.
+
+## Selection Sort
+- [Selection Sort | wiki](https://en.wikipedia.org/wiki/Selection_sort) : A sorting algorithm that 1) finds a minimum/maximum value within an input list, 2) switches its place with the unsorted value on the farthest left (marking it as sorted), and 3) repeats the process with the list of remaining unsorted values as the new input list until all values are sorted.
+- This algorithm has time complexity of $O(n^2)$.
+- ![[Selection-Sort-Animation.gif]]
+
+## Insertion Sort
+- [Insertion Sort | wiki](https://en.wikipedia.org/wiki/Insertion_sort) : A sorting algorithm that builds the final sorted array one item at a time by comparisons.
+- This algorithm has time complexity of $O(n^2)$.
+- ![[Insertion-sort-example-300px.gif]]
+- Although Insertion Sort is simple and not as efficient as more advanced sorting algorithms, it has many advantages;
+	- Simple implementation : it can be written within 3 lines of C programming
+	- Adaptive : it benefits from pre-sortedness of the input sequence
+	- Stable : it does not change the relative order of elements with equal keys
+	- In-place : it only requires a constant amount of additional memory in space
+	- Online : it can sort a list as it receives it (it doesn't have to "know" all items to proceed)
+- People naturally use Insertion Sort when they sort a deck of cards.
 - 
