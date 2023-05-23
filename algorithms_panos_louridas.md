@@ -111,4 +111,15 @@ Algorithms by Panos Louridas
 	- In-place : it only requires a constant amount of additional memory in space
 	- Online : it can sort a list as it receives it (it doesn't have to "know" all items to proceed)
 - People naturally use Insertion Sort when they sort a deck of cards.
+
+## Radix Sort
+- [Radix Sort | wiki](https://en.wikipedia.org/wiki/Radix_sort) : A non-comparative sorting algorithm that works by distributing elements into buckets according to their radix (significant digit). If there are multiple significant digits, then the process is repeated for each significant digit while piling the buckets top-down left-right order;
+- It is also called **Bucket Sort** and **Digital Sort**.
+- Example of sorting integers
+	- ![[11884_004_fig_014.jpg|400]] (initial values)
+	- ![[11884_004_fig_015.jpg|400]] (buckets with the most significant digit)
+	- ![[11884_004_fig_016.jpg|400]] (buckets with the second msd)
+	- ![[11884_004_fig_017.jpg|400]] (buckets with the third msd)
+- Radix Sort is also useful for sorting strings (a sequence of alphanumeric characters).
+- The complexity of Radix Sort is $O(wn)$, where $w$ is the number of significant digits and $n$ is the number of items to sort.
 - 
