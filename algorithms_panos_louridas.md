@@ -29,4 +29,24 @@ Algorithms by Panos Louridas
 - The time required by an algorithm is related to its computational complexity. The computational complexity of an algorithm is the amount of resources it requires to run.
 - two main kinds of resources here: time, how long it takes, and space, how much storage it requires in terms of computer memory.
 	- The speed of a computer depends on the time it takes to execute basic operations. To get around such specificities, we instead choose to talk about the number of operations required to run an algorithm, not the actual time it takes on a specific computer to run these operations.
-- 
+
+## The Big O Notation
+- [Big O Notation | wiki](https://en.wikipedia.org/wiki/Big_O_notation) : a mathematical notation that describes the limiting behavior of a function when the argument tends towards a particular value or infinity.
+	- The letter O stands for *Ordnung*, which means the [Order of Approximation](https://en.wikipedia.org/wiki/Order_of_approximation).
+	- In Computer Science, big O notation is used to classify algorithms according to how their run time or space requirements grow as the input size grows.
+- [Table of Common Time Complexities | wiki](https://en.wikipedia.org/wiki/Time_complexity#Table_of_common_time_complexities)
+- Time == Complexity
+- $O(1)$, **Constant Time** : The complexity notation used for algorithms that run in no more than constant time, no matter the input. It is the "fastest".
+- $O(n)$, **Linear Time** : The complexity notation used for algorithms that run in unordered sequence - the time required to find a particular one in them will not be more than a multiple of the number of items.
+- $O(n^2)$ , **Quadratic Time** : The complexity notation used for algorithms that multiply two $n$ digit numbers using long multiplication - the time required for the multiplication will not be more than a multiple of the square of the size of the numbers.
+- $O(\log_{2}n)$, **Logarithmic Time** : The complexity notation used for algorithms that solve a problem by splitting it in two equal smaller problems (*Divide and Conquer*, aka *Binary Search*); most efficient way to search for something in a sorted group of items is denoted with this notation, and it is the 2nd fastest (first being Constant Time).
+	- $\log_{2}n$ is referred to as [Binary Logarithm](https://en.wikipedia.org/wiki/Binary_logarithm), which is the [inverse function](https://en.wikipedia.org/wiki/Inverse_function) of the [Power of Two](https://en.wikipedia.org/wiki/Power_of_two) function.
+		- #개인노트 the first application of binary logarithms was in Music Theory, by Leonhard Euler who discovered that the binary logarithm of a frequency ratio of two musical tones gives the number of octaves by which the tones differ.
+		- In this book, the notation is written as $\lg n$
+- $O(n\log_{2}n)$, **Loglinear/Linearithmic Time** : The complexity notation used for algorithms that have combined linear and logarithmic time, where their time grows by $n$ multiplied by its logarithm - the best algorithms for sorting (putting items in order) have this complexity.
+	- An algorithm that sorts a list of items by comparing each item with all other items has time complexity of $O(n^2)$. Compared to that, $O(n\log_{2}n)$ is considerably better. In fact, it is the fastest possible for a comparison sort.
+	- Fast Fourier transform has Loglinear Complexity.
+- $O(n^k)$, **Polynomial Time** : The complexity notation used for algorithms where their time grows by $n$ raised to a constant power $k$. This complexity is considered efficient - except when $k$ is too big.
+	- Not sure why, but the notation used in wiki is $2^{O(\log n)} = \textrm{poly}(n)$ .
+- $O(k^n)$, **Exponential Time (with linear exponent)** : not much explanation here
+- $O(n!)$, **Factorial Time** : 
