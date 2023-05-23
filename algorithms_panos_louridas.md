@@ -77,6 +77,7 @@ Algorithms by Panos Louridas
 
 ## Greedy Algorithm
 - The "Algorithm" that was used to solve the "Scheduling a Tournament Problem" is referred to as **Greedy Algorithm**, which is an algorithm that solves a problem by finding the best solution at *each stage* instead of an optimal solution in general.
+- [Greedy Algorithm | wiki](https://en.wikipedia.org/wiki/Greedy_algorithm) : any algorithm that follows the problem-solving heuristic of making the locally optimal choice at each stage.
 - Greedy Algorithms are useful when there is a choice to make at each stage, and the choice depends on "what looks best now".
 - Strategies that guide our choices in the evolution of an algorithm are called **Heuristics**.
 - "What looks best now" may not really be the best strategy, as it could lead to a trap later down the line.
@@ -89,5 +90,8 @@ Algorithms by Panos Louridas
 ## Shortest Path
 - ![[11884_002_fig_010.jpg]]
 - Finding the shortest path from A to F using a greedy heuristic would result with a path A-C-E-F with the length of 8. It is not the shortest path.
-- One of the algorithms used to find the shortest path is called [Dijkstra's Algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm).
+- One of the algorithms used to find the shortest path is called [Dijkstra's Algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm), which works by 1) picking an unvisited vertex with the lowest distance (from the starting point), 2) calculating the distance through it to each unvisited neighbor, and 3) updating the neighbor's distance if smaller value is calculated.
+	- Basically, the algorithm calculates shortest path from a starting point to essentially all points.
+	- ![[rjwv8f4g.bmp]]
+	- The complexity of this algorithm is $O((m+n)\log n)$, where $m$ is the number of edges and $n$ is the number of nodes.
 - 
