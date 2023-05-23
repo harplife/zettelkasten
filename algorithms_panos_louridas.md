@@ -86,3 +86,7 @@ Algorithms by Panos Louridas
 	- One advantage of this algorithm is that it is an **Online Algorithm**, which is an algorithm that works even if the inputs are not known at the start but instead arrive on the scene as it progresses. The algorithm does not need to know all the edges at the start because it works on one edge at a time.
 		- If players sign up after the scheduling has already begun, the algorithm has no problem scheduling the "late" participants.
 
+## Shortest Path
+- ![[11884_002_fig_010.jpg]]
+- Finding the shortest path from A to F using a greedy heuristic would result with a path A-C-E-F with the length of 8. It is not the shortest path.
+- One of the algorithms used to find the shortest path is called **Dijkstra's Algorithm**. It uses an idea called Relaxation, 
