@@ -79,8 +79,11 @@ Algorithms by Panos Louridas
 - The "Algorithm" that was used to solve the "Scheduling a Tournament Problem" is referred to as **Greedy Algorithm**, which is an algorithm that solves a problem by finding the best solution at *each stage* instead of an optimal solution in general.
 - Greedy Algorithms are useful when there is a choice to make at each stage, and the choice depends on "what looks best now".
 - Strategies that guide our choices in the evolution of an algorithm are called **Heuristics**.
+
+## Hill Climbing Approach
 - "What looks best now" may not really be the best strategy, as it could lead to a trap later down the line.
 	- Example : imagine climbing a mountain. The greedy heuristic would be to "select the steepest path at each point". This does not always lead to the top, as it could lead to a plateau where there isn't any other steep path available.
 		- This example is referred to as **Hill Climbing Approach**. The plateau is referred to as Local Optimum (the trap), and the top is referred to as Global Optimum (the highest peak).
+- The greedy algorithm that was used to solve the "Scheduling a Tournament Problem" is not guaranteed to give the optimal solution - that is, the solution requiring the *smallest* number of days.
 - 
 
