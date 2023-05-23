@@ -1,7 +1,7 @@
 # Algorithms
 Algorithms by Panos Louridas
 
-## Problem 1 : Distribution of Two Sets
+## Problem : Distribution of Two Sets
 - Suppose we have two sets of objects; our goal is to spread the objects of one of the two sets (a set of X's) as evenly as possible among the objects of the other set (a set of O's).
 - Case 1 (division w/o remainder) : If we have 3 X's and 9 O's, then we can place 1 X and 3 O and repeat 3 times; as such, we get an even distribution of two sets `XOOOXOOOXOOO`.
 	- 9 divided by 3 is 3. So, we can place 3 O's for each X
@@ -68,4 +68,19 @@ Algorithms by Panos Louridas
 - A graph is said to have a **Cycle** when it is possible to start from a node, traverse edges, and come back to the same node. Such a graph is referred to as **Cyclic Graph**.
 - A graph without a cycle is called an **Acyclic Graph**.
 - **Directed Acyclic Graphs (dags)** have many uses, such as using them to represent priorities between tasks, dependency relations, prerequisites, and other similar arrangements.
+
+## Problem : Scheduling a Tournament
+- Suppose you are organizing a tournament in which the contestants will compete in pairs, so we’ll have a series of matches. We have **eight contestants**, and **each contestant will play four matches**. Our problem is how to schedule the tournament. We want to schedule the matches so that **each contestant plays only one match per day**.
+- This problem is solved by 1) take a match that hasn't been scheduled (stop if all matches are scheduled), and 2) schedule the match on the earliest day so that neither of the two players has another match on that day, and return to step 1.
+- ![[11884_002_fig_008.jpg]]
+- This kind of problem is referred to as the **Edge Coloring Problem**, which is a problem that asks us to assign colors to edges so that no two adjacent edges have the same color.
+
+## Greedy Algorithm
+- The "Algorithm" that was used to solve the "Scheduling a Tournament Problem" is referred to as **Greedy Algorithm**, which is an algorithm that solves a problem by finding the best solution at *each stage* instead of an optimal solution in general.
+- Greedy Algorithms are useful when there is a choice to make at each stage, and the choice depends on "what looks best now".
+- Strategies that guide our choices in the evolution of an algorithm are called **Heuristics**.
+- "What looks best now" may not really be the best strategy, as it could lead to a trap later down the line.
+	- Example : imagine climbing a mountain. The greedy heuristic would be to "select the steepest path at each point". This does not always lead to the top, as it could lead to a plateau where there isn't any other steep path available.
+		- This example is referred to as **Hill Climbing Approach**. The plateau is referred to as Local Optimum (the trap), and the top is referred to as Global Optimum (the highest peak).
 - 
+
