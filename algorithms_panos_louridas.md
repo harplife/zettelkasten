@@ -61,8 +61,11 @@ Algorithms by Panos Louridas
 	- Leonhard Euler said "NOPE", and explained it with *GRAPH*, making Euler the first to recognize graphs as a structure and explore their properties.
 		- ![[11884_002_fig_002.jpg]]
 		- ![[11884_002_fig_003.jpg]] (A graph consisting of Nodes/Vertices and Edges/Links)
-- A **path** in a graph is a sequence of edges that connect a sequence of nodes.
+- A **Path** in a graph is a sequence of edges that connect a sequence of nodes.
 - **Eulerian Path (Eulerian Walk)** : a trail through a graph such that each edge is visited exactly once.
 - The Königsberg Bridge Problem is a problem that requires finding a Eulerian Path.
 - **Circuit (Tour)** refers to a closed path where the path ends where it starts.
+- A graph is said to have a **Cycle** when it is possible to start from a node, traverse edges, and come back to the same node. Such a graph is referred to as **Cyclic Graph**.
+- A graph without a cycle is called an **Acyclic Graph**.
+- **Directed Acyclic Graphs (dags)** have many uses, such as using them to represent priorities between tasks, dependency relations, prerequisites, and other similar arrangements.
 - 
