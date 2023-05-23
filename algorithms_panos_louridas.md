@@ -89,4 +89,5 @@ Algorithms by Panos Louridas
 ## Shortest Path
 - ![[11884_002_fig_010.jpg]]
 - Finding the shortest path from A to F using a greedy heuristic would result with a path A-C-E-F with the length of 8. It is not the shortest path.
-- One of the algorithms used to find the shortest path is called **Dijkstra's Algorithm**. It uses an idea called Relaxation, 
+- One of the algorithms used to find the shortest path is called [Dijkstra's Algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm).
+- 
