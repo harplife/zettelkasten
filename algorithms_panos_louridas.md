@@ -48,5 +48,21 @@ Algorithms by Panos Louridas
 	- Fast Fourier transform has Loglinear Complexity.
 - $O(n^k)$, **Polynomial Time** : The complexity notation used for algorithms where their time grows by $n$ raised to a constant power $k$. This complexity is considered efficient - except when $k$ is too big.
 	- Not sure why, but the notation used in wiki is $2^{O(\log n)} = \textrm{poly}(n)$ .
-- $O(k^n)$, **Exponential Time (with linear exponent)** : not much explanation here
-- $O(n!)$, **Factorial Time** : 
+- $O(k^n)$, **Exponential Time (with linear exponent)** : Not much explanation here, other than the fact any algorithm with this complexity is very expensive. Exponential growth is just nuts.
+- $O(n!)$, **Factorial Time** : Factorial Growth is even worse than Exponential Growth because it is the product of all the natural numbers up to and INCLUDING that number.
+	- This complexity occurs in a problem called **Traveling Salesman Problem** - which asks "if we have a list of cities and the distances between each pair of them, what is the shortest possible route that one should take to visit each city once and return to the origin city"; the simplest and the obvious way to solve it is to examine every possible path, and it runs on Factorial Time.
+	- There aren't any practical way to solve the Traveling Salesman Problem, and problems that does not have any practical algorithm to solve them are said to be **intractable**.
+	- The only way to solve any intractable problem in an acceptable time is **Approximation**.
+- ![[11884_e1_181.jpg]]
+
+## Graphs
+- **Königsberg Bridge Problem** : Is it possible to make a tour of the city crossing all 7 bridges exactly once?
+	- ![[11884_002_fig_001.jpg]]
+	- Leonhard Euler said "NOPE", and explained it with *GRAPH*, making Euler the first to recognize graphs as a structure and explore their properties.
+		- ![[11884_002_fig_002.jpg]]
+		- ![[11884_002_fig_003.jpg]] (A graph consisting of Nodes/Vertices and Edges/Links)
+- A **path** in a graph is a sequence of edges that connect a sequence of nodes.
+- **Eulerian Path (Eulerian Walk)** : a trail through a graph such that each edge is visited exactly once.
+- The Königsberg Bridge Problem is a problem that requires finding a Eulerian Path.
+- **Circuit (Tour)** refers to a closed path where the path ends where it starts.
+- 
