@@ -202,3 +202,18 @@ Algorithms by Panos Louridas
 1. Form the Google matrix of the graph.
 2. Start with initial pagerank estimates, giving a pagerank of  $1/n$ to each page, where $n$ is the total number of pages.
 3. Apply the power method, multiplying the pagerank vector by the Google matrix until the values of the pagerank vector converge.
+
+## Neural Network
+
+### Activation Function
+- Step
+	- ![[11884_006_fig_004.jpg]]
+	- A neuron that uses the step function is called a **Perceptron**.
+- Sigmoid
+	- ![[11884_006_fig_005.jpg]]
+- Tanh
+	- ![[11884_006_fig_006.jpg]]
+- Rectifier
+	- ![[11884_006_fig_007.jpg]]
+	- Neurons are often referred to as Units, and a neuron using the Rectifier is called ReLU (Rectified Linear Unit).
+- 
