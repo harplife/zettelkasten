@@ -193,7 +193,8 @@ Algorithms by Panos Louridas
 ### Google Matrix
 - Aside from Dangling Nodes, the Power Method can also fail when some nodes are excluded from a group of nodes, meaning that there aren't outgoing links coming out from the group of nodes. Those excluded nodes ends up with 0 importance.
 - ![[11884_005_fig_005.jpg]] (Nodes 1 and 4 are excluded)
-- ![[11884_e1_357.jpg]] (Hyperlink Matrix, $S$)
+- ![[11884_e1_357.jpg]] ($S$ matrix)
+	- Once the solution to the Dangling Nodes problem is applied to the Hyperlink Matrix, the resulting matrix is referred to as $S$ matrix.
 - The solution to this problem is to modify the solution to the Dangling Nodes. That is, instead of just converting a zero vector to a vector that sums up to 1, increase the zero entries in a vector by some value and decrease the non-zero entries so that the whole row sums up to 1. The converted matrix is referred to as the **Google Matrix**.
 	- ![[11884_e1_370.jpg]]
 
