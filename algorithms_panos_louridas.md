@@ -126,4 +126,8 @@ Algorithms by Panos Louridas
 ## Quicksort
 - [Quicksort | wiki](https://en.wikipedia.org/wiki/Quicksort) : A divide-and-conquer sorting algorithm that works by selecting a 'pivot' element from the array and partitioning the other elements into two sub-arrays according to whether they are less than or greater than the pivot.
 - It is sometimes called **Partition-Exchange Sort**.
+- Non-deterministic : Quicksort degenerates into Selection Sort if the minimum value was chosen for pivot instead of at random. It is important that the pivot is chosen at random. However, this means that the run time is not always the same.
 - ![[Sorting_quicksort_anim.gif]]
+
+## Merge Sort
+- 
