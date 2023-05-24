@@ -151,5 +151,8 @@ Algorithms by Panos Louridas
 		- Let $r$ be Rank (importance), $P$ be Page, and $i$ be the number of Page.
 			- $r(P_{3})$ is the importance of Page 3.
 			- $r(P_{3}) = \frac{r(P_{2})}{2} + \frac{r(P_{4})}{2} + \frac{r(P_{5})}{3}$
+		- Assume all of the pages start out with equal significance (of 1), and distribute the value to its votes (edges have fraction of its initial value, leaving nodes with 0).
+			- ![[11884_005_fig_002.jpg]]
+			- $r(P_{3}) = \frac{1}{2} + \frac{1}{2} + \frac{1}{3} = \frac{4}{3}$
 			- 
 
