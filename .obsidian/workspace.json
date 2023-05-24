@@ -89,9 +89,31 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3b80f99c47371928",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "knou_algorithm.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -138,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "algorithms_panos_louridas.md",
+                "file": "knou_algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +186,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "algorithms_panos_louridas.md",
+                "file": "knou_algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -252,7 +274,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "algorithms_panos_louridas.md",
+                "file": "knou_algorithm.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -320,7 +342,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "algorithms_panos_louridas.md"
+                "file": "knou_algorithm.md"
               }
             }
           },
@@ -387,8 +409,10 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "87c093f024361907",
+  "active": "3b80f99c47371928",
   "lastOpenFiles": [
+    "knou_algorithm.md",
+    "algorithms_panos_louridas.md",
     "attachments/11884_006_fig_004.jpg",
     "attachments/11884_006_fig_007.jpg",
     "attachments/11884_006_fig_006.jpg",
@@ -399,8 +423,6 @@
     "attachments/11884_e1_341.jpg",
     "attachments/11884_e1_340.jpg",
     "attachments/11884_e1_316.jpg",
-    "attachments/11884_e1_313.jpg",
-    "algorithms_panos_louridas.md",
     "디지털논리회로_요약.md",
     "KNOU/2023년_방통대/1학기_과목/디지털논리회로_계획_23s1.md",
     "digital_system_design.md",

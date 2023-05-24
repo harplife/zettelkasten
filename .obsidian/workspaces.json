@@ -429,9 +429,31 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "3b80f99c47371928",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "knou_algorithm.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 3
+            "currentTab": 4
           }
         ],
         "direction": "vertical"
@@ -478,7 +500,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "algorithms_panos_louridas.md",
+                    "file": "knou_algorithm.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -504,7 +526,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "algorithms_panos_louridas.md",
+                    "file": "knou_algorithm.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": false
                   }
@@ -592,7 +614,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "algorithms_panos_louridas.md",
+                    "file": "knou_algorithm.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -660,7 +682,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "algorithms_panos_louridas.md"
+                    "file": "knou_algorithm.md"
                   }
                 }
               },
@@ -727,7 +749,7 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "87c093f024361907",
+      "active": "3b80f99c47371928",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": []
       }
