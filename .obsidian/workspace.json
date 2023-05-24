@@ -362,7 +362,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262
+    "width": 262,
+    "collapsed": true
   },
   "right": {
     "id": "f152d8fd8ec1f4e0",
@@ -386,19 +387,19 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "b652d94066112a10",
+  "active": "87c093f024361907",
   "lastOpenFiles": [
+    "attachments/11884_005_fig_001.jpg",
+    "attachments/Merge_sort_algorithm_diagram.svg",
+    "attachments/11884_004_fig_041.jpg",
+    "attachments/11884_004_fig_040.jpg",
+    "attachments/Merge-sort-example-300px.gif",
     "attachments/Sorting_quicksort_anim.gif",
     "attachments/11884_004_fig_017.jpg",
     "attachments/11884_004_fig_016.jpg",
     "attachments/11884_004_fig_015.jpg",
     "attachments/11884_004_fig_014.jpg",
     "attachments/Insertion-sort-example-300px.gif",
-    "attachments/Selection-Sort-Animation.gif",
-    "attachments/pg58fu7n.bmp",
-    "attachments/rjwv8f4g.bmp",
-    "attachments/11884_002_fig_010.jpg",
-    "attachments/11884_002_fig_008.jpg",
     "algorithms_panos_louridas.md",
     "디지털논리회로_요약.md",
     "KNOU/2023년_방통대/1학기_과목/디지털논리회로_계획_23s1.md",

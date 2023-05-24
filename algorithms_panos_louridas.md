@@ -130,7 +130,26 @@ Algorithms by Panos Louridas
 - ![[Sorting_quicksort_anim.gif]]
 
 ## Merge Sort
+- [Merge Sort | wiki](https://en.wikipedia.org/wiki/Merge_sort) : A comparison-based divide-and-conquer sorting algorithm that works by 1) divide the unsorted list into $n$ sublists containing one item (a list of one item is considered sorted), and 2) repeatedly merge sublists (by comparing items between two adjacent lists) to produce new sorted sublists until there is only one sublist remaining.
+	1. ![[11884_004_fig_040.jpg]]
+	2. ![[11884_004_fig_041.jpg]]
+- Complexity of $O(n\log n)$.
+- ![[Merge_sort_algorithm_diagram.svg|300]]
+- ![[Merge-sort-example-300px.gif]]
 
 ## PageRank
-
+- finding the importance of each web page based on two basic principles:
+	1. The importance of a web page depends on the significance of the web pages that link to it—that is, on the importance of its backlinks.
+	2. A web page divides its importance evenly over the web pages to which it links.
+- ![[11884_005_fig_001.jpg]]
+	- Find the importance of Page 3
+		- Its backlinks are 2, 4, and 5
+		- Take each backlinks and assume we know their own significance
+		- Page 2 divides its importance over Pages 3 and 5. Therefore, Page 2 gives half its importance to Page 3.
+		- Page 4 divides its importance over Pages 3 and 1. Therefore, Page 4 gives half its importance to Page 3.
+		- Page 5 divides its importance over Pages 2, 3, and 4. Therefore, Page 5 gives a third of its importance to Page 3.
+		- Let $r$ be Rank (importance), $P$ be Page, and $i$ be the number of Page.
+			- $r(P_{3})$ is the importance of Page 3.
+			- $r(P_{3}) = \frac{r(P_{2})}{2} + \frac{r(P_{4})}{2} + \frac{r(P_{5})}{3}$
+			- 
 
