@@ -130,4 +130,7 @@ Algorithms by Panos Louridas
 - ![[Sorting_quicksort_anim.gif]]
 
 ## Merge Sort
-- 
+
+## PageRank
+
+
