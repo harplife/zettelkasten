@@ -138,6 +138,7 @@ Algorithms by Panos Louridas
 - ![[Merge-sort-example-300px.gif]]
 
 ## PageRank
+### Power Method
 - finding the importance of each web page based on two basic principles:
 	1. The importance of a web page depends on the significance of the web pages that link to it—that is, on the importance of its backlinks.
 	2. A web page divides its importance evenly over the web pages to which it links.
@@ -167,5 +168,7 @@ Algorithms by Panos Louridas
 		- ![[Pasted image 20230524110439.png|300]]
 		- The result of sixth voting round is the same as the seventh. Voting stops here.
 		- the Pages are ranked according to their importance - 3, 2, 5, 1, and 4.
-	- 
 
+### Dangling Nodes
+- Power Method can fail when a Page does not have any outgoing links, meaning it does not distribute its importance to any other Pages; a Page like this is called a Dangling Node, and it eventually causes all pagerank values to vanish.
+- 
