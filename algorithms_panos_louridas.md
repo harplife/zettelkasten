@@ -154,5 +154,18 @@ Algorithms by Panos Louridas
 		- Assume all of the pages start out with equal significance (of 1), and distribute the value to its votes (edges have fraction of its initial value, leaving nodes with 0).
 			- ![[11884_005_fig_002.jpg]]
 			- $r(P_{3}) = \frac{1}{2} + \frac{1}{2} + \frac{1}{3} = \frac{4}{3}$
-			- 
+	- Find the importance of all Pages
+		- $r(P_{1}) = \frac{5}{6}$
+		- $r(P_{2}) = \frac{8}{6}$
+		- $r(P_{3}) = \frac{8}{6}$
+		- $r(P_{4}) = \frac{4}{6}$
+		- $r(P_{5}) = \frac{5}{6}$
+	- Repeat the vote and distribution of importance with the current importance
+		- ex. Page 3 gives $\frac{4}{3}\times\frac{1}{3}=\frac{4}{9}$ to Pages 1, 4, and 5
+		- Repeated enough times, importance will remain the same (as shown in example below).
+	- Instead of initial importance of 1, start with 0.2 (1 divided by 5). Repeat the vote and distribution six times.
+		- ![[Pasted image 20230524110439.png|300]]
+		- The result of sixth voting round is the same as the seventh. Voting stops here.
+		- the Pages are ranked according to their importance - 3, 2, 5, 1, and 4.
+	- 
 
