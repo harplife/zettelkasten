@@ -138,6 +138,7 @@ Algorithms by Panos Louridas
 - ![[Merge-sort-example-300px.gif]]
 
 ## PageRank
+- [Page Rank | wiki](https://en.wikipedia.org/wiki/PageRank)
 ### Power Method
 - finding the importance of each web page based on two basic principles:
 	1. The importance of a web page depends on the significance of the web pages that link to it—that is, on the importance of its backlinks.
@@ -168,7 +169,35 @@ Algorithms by Panos Louridas
 		- ![[Pasted image 20230524110439.png|300]]
 		- The result of sixth voting round is the same as the seventh. Voting stops here.
 		- the Pages are ranked according to their importance - 3, 2, 5, 1, and 4.
+- The graph can be represented as a matrix, which allows for further mathematical operations.
+	- ![[11884_005_fig_003.jpg]] (Adjacency Matrix)
+	- ![[11884_e1_312.jpg]] (Pagerank Vector)
+	- ![[11884_e1_313.jpg]] (Hyperlink Matrix)
+	- First Column == $r(P_{1})$ == Pagerank Vector $\times$ Hyperlink Matrix (Column 0)
+		- ![[11884_e1_316.jpg]]
+	- Let $\pi_{i}$ be the Pagerank Vector at iteration $i$, and $H$ be the Hyperlink Matrix.
+		- $\pi_{i}=\pi_{i-1} \times H$
+			- $\pi_{2}=\pi_{1} \times H$
+			- ![[11884_e1_340.jpg]]
+			- ![[11884_e1_341.jpg]]
+		- As in every iteration, we multiply the result of the previous iteration by the hyperlink matrix, and in the end this is a series of products of the successive estimates of the pagerank vector by the hyperlink matrix.
+		- this is equivalent to multiplying the initial pagerank vector with increasing powers of the hyperlink matrix.
+		- this **method of calculating successive approximations** is called the [Power Method/Power Iteration](https://en.wikipedia.org/wiki/Power_iteration).
 
 ### Dangling Nodes
 - Power Method can fail when a Page does not have any outgoing links, meaning it does not distribute its importance to any other Pages; a Page like this is called a Dangling Node, and it eventually causes all pagerank values to vanish.
-- 
+- In such case, the solution is to assume this Dangling Node gave its importance to every pages (including itself).
+- The distributed importance by voting can be interpreted as a probability that a user chooses one of the outgoing links. This user is referred to as **Surfer**.
+- The solution to the Dangling Node is referred to as **Random Surfer**, to signify the fact that the surfer can teleport anywhere even if it is trapped in a page with no way out.
+
+### Google Matrix
+- Aside from Dangling Nodes, the Power Method can also fail when some nodes are excluded from a group of nodes, meaning that there aren't outgoing links coming out from the group of nodes. Those excluded nodes ends up with 0 importance.
+- ![[11884_005_fig_005.jpg]] (Nodes 1 and 4 are excluded)
+- ![[11884_e1_357.jpg]] (Hyperlink Matrix, $S$)
+- The solution to this problem is to modify the solution to the Dangling Nodes. That is, instead of just converting a zero vector to a vector that sums up to 1, increase the zero entries in a vector by some value and decrease the non-zero entries so that the whole row sums up to 1. The converted matrix is referred to as the **Google Matrix**.
+	- ![[11884_e1_370.jpg]]
+
+### The Full Definition of PageRank
+1. Form the Google matrix of the graph.
+2. Start with initial pagerank estimates, giving a pagerank of  $1/n$ to each page, where $n$ is the total number of pages.
+3. Apply the power method, multiplying the pagerank vector by the Google matrix until the values of the pagerank vector converge.

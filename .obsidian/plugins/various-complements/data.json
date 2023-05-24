@@ -63,35 +63,11 @@
   "disableOnMobile": false,
   "showLogAboutPerformanceInConsole": false,
   "selectionHistoryTree": {
-    "데이터베이스시스템_계획_23s1": {
-      "데이터베이스시스템_계획_23s1": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1679348855344
-        }
-      }
-    },
-    "Ram": {
-      "Ram": {
+    "excluded": {
+      "excluded": {
         "customDictionary": {
           "count": 1,
-          "lastUpdated": 1679349210249
-        }
-      }
-    },
-    "flexibility": {
-      "flexibility": {
-        "customDictionary": {
-          "count": 1,
-          "lastUpdated": 1679351390460
-        }
-      }
-    },
-    "system": {
-      "system": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1680360850192
+          "lastUpdated": 1684898172087
         }
       }
     }
