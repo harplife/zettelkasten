@@ -1,5 +1,11 @@
 # Algorithms
-Algorithms by Panos Louridas
+- Title : Algorithms by Panos Louridas
+- Started : 2023-05-22
+- Finished : 2023-05-24
+
+> [!review]
+> This book is "good" in a sense that you can get a feeling of how an algorithm forms and how/why it evolves. However, the book only covers basic algorithms and only conceptual understanding of the algorithms; it does not cover in detail how an algorithm can be implemented.
+> tl;dr - this is not a textbook on Algorithms, as it is more like a persuasive essay to convince people to appreciate algorithms.
 
 ## Problem : Distribution of Two Sets
 - Suppose we have two sets of objects; our goal is to spread the objects of one of the two sets (a set of X's) as evenly as possible among the objects of the other set (a set of O's).
@@ -216,4 +222,3 @@ Algorithms by Panos Louridas
 - Rectifier
 	- ![[11884_006_fig_007.jpg]]
 	- Neurons are often referred to as Units, and a neuron using the Rectifier is called ReLU (Rectified Linear Unit).
-- 
