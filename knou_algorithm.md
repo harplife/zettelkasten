@@ -221,7 +221,17 @@
 > - $E(G_{2}) = {(1,2), (1,3), (2,4), (3,5)}$
 > - $E(G_{3}) = {<1,2>, <1,3>, <1,4>, <2,3>, <2,4>, <4,3>}$
 
-
+- 두 정점 $u$, $v$ 사이에 간선이 있으면 정점 $u$ 와 $v$ 는 **인접(Adjacent)** 한다고 하며, 해당 간선은 정점 u 와 v 에 **부수(Incident)** 되었다고 한다.
+- **부분 그래프(Subgraph)** : $V(G^{\prime}) \subseteq V(G)$ 이고 $V(G^{\prime}) \subseteq V(G)$ 인 그래프 $G^{\prime}$ 를 그래프 $G$ 의 부분 그래프라고 한다.
+	- 정리하자면, 그래프 $G^{\prime}$ 의 정점과 간선이 그래프 $G$ 의 정점과 간선의 **부분 집합(Subset)** 이라면 그래프 $G^{\prime}$ 는 그래프 $G$ 의 부분 그래프이다.
+- 그래프에서 정점 $v_{1}$ 부터 정점 $v_{n}$ 까지 연결된 정점의 순서 리스트 $v_{1}, v_{2}, \cdots, v_{n}$ 는 두 정점 사이의 **경로(Path)** 라고 부르며, 이때 경로에 존재하는 간선의 개수를 경로의 **길이(Length)** 라고 한다.
+	- #wiki A Walk is a finite/infinite sequence of edges which joins a sequence of vertices.
+		- #wiki A Trail is a walk in which all edges are distinct.
+			- #wiki A Path is a trail in which all vertices (and therefore also all edges) are distinct.
+- 한 정점에 부수된 간선의 수를 **차수(Degree)** 라 하며, 방향 그래프에서는 정점으로 들어오는 간선의 수를 **진입 차수(In-Degree)** 라 하고, 그 정점에서 나가는 간선의 수를 **진출 차수(Out-Degree)** 라고 한다.
+- 한 경로에서 처음과 마지막 정점을 제외한 모든 정점이 서로 다른 경로를 **단순 경로(Simple Path)** 라고 한다.
+- 처음과 마지막 정점이 같은 단순 경로를 **사이클(Cycle)** 이라 하며, 경로의 길이가 $1$ 인 사이클을 **루프(Loop)** 라고 한다.
+- 무방향 그래프 G 에서 서로 다른 정점 u, v 의 모든 쌍에 대해서 
 
 
 
