@@ -122,6 +122,20 @@
 - **트리(Tree)** 는 **노드(Node)** 라고 하는 정보 항목이 **간선(Edge)** 으로 연결되어 계층적 구조를 이루는 비선형 자료구조로서, 다음 조건을 만족하는 하나 이상의 노드로 구성된 유한집합 $T$를 의미한다.
 	- <mark class="hltr-trippy">조건 1)</mark> $T$의 원소 가운데 단 하나의 **루트(Root)** 노드가 존재한다.
 	- <mark class="hltr-trippy">조건 2)</mark> 루트 노드를 제외한 나머지 노드는 $n$개($n \geq 0$)의 서로 분리된 부분 집합 $T_{1}, T_{2}, \cdots, T_{n}$ 으로 나누어지며, 각 $T_{i}$ 는 트리가 된다. 이때 각 $T_{i}$ 를 트리 $T$ 의 **서브트리(Subtree)** 라고 한다.
+
+> [!info]- Wiki definition of Tree
+> A [Tree](<https://en.wikipedia.org/wiki/Tree_(graph_theory)>) is an undirected graph $G$ that satisfies any of the following equivalent conditions:
+> - $G$ is connected and acyclic (contains no cycles).
+> - $G$ is acyclic, and a simple cycle is formed if any edge is added to $G$.
+> - $G$ is connected, but would become disconnected if any single edge is removed from $G$.
+> - $G$ is connected and the 3-vertex complete graph $K_{3}$ is not a [minor](https://en.wikipedia.org/wiki/Graph_minor) of $G$.
+> - Any two vertices in $G$ can be connected by a unique simple path.
+> 
+> If G has finitely many vertices (say $n$ of them), then the above statements are also equivalent to any of the following conditions:
+> - $G$ is connected and has $n-1$ edges.
+> - $G$ is connected, and every subgraph of $G$ includes at least one vertex with zero or one incident edges ([1-degenerate](<https://en.wikipedia.org/wiki/Degeneracy_(graph_theory)>)).
+> - $G$ has no simple cycles and has $n-1$ edges.
+
 - 노드가 가진 서브트리의 개수를 해당 노드의 **차수(Degree)** 또는 **분기수** 라고 한다.
 - 차수가 $0$인 노드를 **리프 노드(Leaf Node)** 또는 **단말 노드(Terminal Node)** 라고 한다.
 - 단말 노드 이외의 나머지 노드를 **비단말 노드(Nonterminal Node)** 라고 한다.
@@ -145,9 +159,40 @@
 > - 높이/깊이 : 4
 > - 숲 : 트리에서 루트 노드 A 를 제거하면 3개의 트리로 이루어진 숲이 생긴다.
 
-- **순서 트리(Ordered Tree)** 는 트리에서 노드의 배열 순서, 특히 레벨이 같은 노드의 좌우 위치가 중요한 의미를 갖는 트리이며, 그 반대를 **비순서 트리(Unordered Tree)** 라고 한다.
+- #wiki A **Rooted Tree** is a tree in which one vertex has been designated the root.
+- [순서 트리(Ordered Tree)](<https://en.wikipedia.org/wiki/Tree_(graph_theory)#Plane_tree>) 는 트리에서 노드의 배열 순서, 특히 레벨이 같은 노드의 좌우 위치가 중요한 의미를 갖는 트리이며, 그 반대를 **비순서 트리(Unordered Tree)** 라고 한다.
+	- #wiki An **Ordered Tree** is a rooted tree in which an ordering is specified for the children of each vertex.
+		- This is also called a **Plane Tree** because an ordering of the children is equivalent to an embedding of the tree in the place, with the root at the top and the children of each vertex lower than that vertex. Given an embedding of a rooted tree in the plane, if one fixes a direction of children (left-to-right), then an embedding gives an ordering of the children. Conversely, given an ordered tree, and conventionally drawing the root at the top, then the child vertices in an ordered tree can be drawn left-to-right, yielding an essentially unique planar embedding.
 - 트리의 구조는 동일하나 각 노드의 내용이 다른 두 개의 트리는 **서로 닮았다**고 하며, 반면에 구조가 동일하며 동일한 위치에 동일한 내용을 가진 트리를 **대등한 트리**라고 한다.
-- 이진 트리(Binary Tree)
+- [이진 트리(Binary Tree)](https://en.wikipedia.org/wiki/Binary_tree) 는 각 노드의 차수가 $2$ 이하인 순서 트리이다.
+	- 일반 트리에는 최소 한 개 이상의 노드가 있어야 하지만, 이진 트리에서 0개의 노드를 가진 공백도 포함된다.
+	- 이진 트리는 순서 트리에 속하며, 자식의 순서를 구분하여 왼쪽 서브트리와 오른쪽 서브트리로 나눈다.
+	- 이진 트리는 스레드 이진 트리, 힙, 이진 탐색 트리와 같이 다양한 형태로 여러 응용 영역에서 사용되는 매우 중요한 트리 구조이다.
+
+> [!important] 이진 트리의 특성
+> - 레벨 $i$ 에서의 최대 노드의 수는 $2^{i}$ 이다. 단, $i \geq \theta$.
+> - 높이가 $h$ 인 이진 트리가 가질 수 있는 최대 노드의 수는 $2^{h}-1$ 이다. 단, $h \geq 1$.
+> - 차수가 $2$ 인 노드 개수를 $n_{2}$ 라고 하면, 단말 노드의 개수는 $n_{0} = n_{2}+1$ 이다.
+
+(트리의 높이를 $h$, 단말 노드의 총 개수를 $n_{0}$ 으로 표기함)
+- **전 이진 트리 (Full Binary Tree)** : 모든 노드의 차수가 $0$ 또는 $2$ 인 이진 트리.
+	- 전 이진 트리의 비단말 노드의 개수는 $n_{0}-1$ 이다.
+	- 전 이진 트리의 노드의 개수는 $2h+1$ 에서 $2^{h+1}-1$ 사이의 값을 가진다.
+	- ![[Pasted image 20230525114940.png|300]]
+		- 비단말 노드 개수 = $6 - 1 = 5$
+- **포화 이진 트리 (Perfect Binary Tree)** : 모든 리프 노드의 레벨이 같은 전 이진 트리.
+	- 포화 이진 트리의 노드의 개수는 $2^{h}-1 == 2n_{0}-1$ 이다.
+	- 포화 이진 트리의 단말 노드의 개수는 $2^{h-1}$, 비단말 노드의 개수는 $n_{0}-1$ 이다.
+	- ![[Pasted image 20230525114925.png|300]]
+		- 노드 개수 = $2^{4} - 1 = 2(8) - 1 = 15$
+		- 단말 노드 개수 = $2^{4-1} = 8$
+		- 비단말 노드 개수 = $2^{4-1}-1 = 7$
+- **완전 이진 트리 (Complete Binary Tree)** : 트리의 최대 레벨이 $l$ 일 때, 레벨 $l-1$ 까지 포화 이진 트리를 형성하고, 레벨 $l$ 에서 왼쪽 가장자리에서 오른쪽 방향으로 중간에 빈자리 없이 리프 노드로 채워진 이진 트리.
+	- 완전 이진 트리의 노드의 개수는 $2^{h-1}$ 에서 $2^{h}-1$ 사이의 값을 가진다.
+	- ![[Pasted image 20230525115000.png|300]]
+- **균형 이진 트리 (Balanced Binary Tree)** : 모든 노드에서 왼쪽 서브트리의 높이와 오른쪽 서브트리의 높이의 차이가 최대 $1$ 인 이진 트리.
+	- 균형 트리의 노드의 총 개수를 $n$ 일 때, 트리의 높이는 $\lfloor \log_{2}n\rfloor + 1$  이다.
+	- ![[Pasted image 20230525115012.png|300]]
 
 ### 1.3 알고리즘의 설계
 ### 1.4 알고리즘의 분석
