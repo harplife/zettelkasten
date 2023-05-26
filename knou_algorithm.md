@@ -318,7 +318,16 @@ BinarySearch (A[], Left, Right, x) {
 > [!info] 알고리즘 수행 시간 계산 예시
 
 ```C
-SumAverage(A[], n) {}
+SumAverage(A[], n) {
+	sum = 0;
+	i = 0;
+	while (i<n) {
+		sum = sum + A[i];
+		i = i+1;
+	}
+	average = sum / n;
+	print sum, average;
+}
 ```
 
 ### 1.5 점근성능
