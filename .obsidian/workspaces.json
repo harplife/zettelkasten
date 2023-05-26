@@ -96,7 +96,29 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "knou_algorithm.md",
+                    "file": "knou_algorithm_notes.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "aa1a553b0453c57a",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "knou_algorithm_quiz.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -104,7 +126,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 4
           }
         ],
         "direction": "vertical"
@@ -120,6 +142,15 @@
               {
                 "id": "19ce5a4d65676126",
                 "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
                 "state": {
                   "type": "file-explorer",
                   "state": {
@@ -130,6 +161,15 @@
               {
                 "id": "22b2c060987a0027",
                 "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
                 "state": {
                   "type": "tag",
                   "state": {
@@ -141,6 +181,15 @@
               {
                 "id": "12efa4d7cc8b07c3",
                 "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
                 "state": {
                   "type": "search",
                   "state": {
@@ -156,6 +205,15 @@
               {
                 "id": "9054b5e11b58f0d9",
                 "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
                 "state": {
                   "type": "bookmarks",
                   "state": {}
@@ -164,6 +222,15 @@
               {
                 "id": "86bff414d2d51e56",
                 "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
                 "state": {
                   "type": "center-panes",
                   "state": {}
@@ -178,10 +245,19 @@
               {
                 "id": "15ca17ef343452c3",
                 "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "knou_algorithm.md"
+                    "file": "knou_algorithm_quiz.md"
                   }
                 }
               }
@@ -202,6 +278,15 @@
               {
                 "id": "65c09b173479de66",
                 "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
                 "state": {
                   "type": "advanced-tables-toolbar",
                   "state": {}
@@ -210,6 +295,15 @@
               {
                 "id": "227e6011dc684b16",
                 "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
                 "state": {
                   "type": "mathpad-view",
                   "state": {}
@@ -218,6 +312,15 @@
               {
                 "id": "27ce6da980886c10",
                 "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
                 "state": {
                   "type": "dictionary-view",
                   "state": {}
@@ -226,10 +329,19 @@
               {
                 "id": "96b3986a5f1a95d9",
                 "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "knou_algorithm.md",
+                    "file": "knou_algorithm_quiz.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -261,10 +373,19 @@
               {
                 "id": "2a292a21980dd16c",
                 "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "knou_algorithm.md",
+                    "file": "knou_algorithm_quiz.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -280,6 +401,15 @@
               {
                 "id": "4aa4b36a0cb514d0",
                 "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
                 "state": {
                   "type": "graph",
                   "state": {}
@@ -288,10 +418,19 @@
               {
                 "id": "44fedb4924e97e68",
                 "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "knou_algorithm.md",
+                    "file": "knou_algorithm_quiz.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -322,7 +461,7 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "b0f12c78da4f6368",
+      "active": "aa1a553b0453c57a",
       "ophidian:layout-settings": {
         "pane-relief:focus-lock": true
       },
