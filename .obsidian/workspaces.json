@@ -82,7 +82,7 @@
                 }
               },
               {
-                "id": "8d04bf1cfad0d697",
+                "id": "b0f12c78da4f6368",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -96,70 +96,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "computer_graphics/cg_general_notes/3d_영상_콘텐츠_제작자_양성_과정.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "f92a013b36c14cc0",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "3ac6536171057277",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "release-notes",
-                  "state": {
-                    "currentVersion": "1.2.7"
-                  }
-                }
-              },
-              {
-                "id": "1f4fa99fd71c920e",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "conflict-files-obsidian-git.md",
+                    "file": "knou_algorithm.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -167,7 +104,7 @@
                 }
               }
             ],
-            "currentTab": 6
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -244,7 +181,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "conflict-files-obsidian-git.md"
+                    "file": "knou_algorithm.md"
                   }
                 }
               }
@@ -292,7 +229,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "conflict-files-obsidian-git.md",
+                    "file": "knou_algorithm.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -315,7 +252,7 @@
                       "repelStrength": 10,
                       "linkStrength": 1,
                       "linkDistance": 250,
-                      "scale": 0.6554983534946917,
+                      "scale": 0.42967809143425173,
                       "close": true
                     }
                   }
@@ -327,14 +264,14 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "conflict-files-obsidian-git.md",
+                    "file": "knou_algorithm.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 3
           },
           {
             "id": "baddb2b819dd740a",
@@ -354,7 +291,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "conflict-files-obsidian-git.md",
+                    "file": "knou_algorithm.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -385,7 +322,7 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "1f4fa99fd71c920e",
+      "active": "b0f12c78da4f6368",
       "ophidian:layout-settings": {
         "pane-relief:focus-lock": true
       },
