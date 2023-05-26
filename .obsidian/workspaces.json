@@ -124,9 +124,28 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "3ac6536171057277",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "release-notes",
+                  "state": {
+                    "currentVersion": "1.2.7"
+                  }
+                }
               }
             ],
-            "currentTab": 3
+            "currentTab": 5
           }
         ],
         "direction": "vertical"
@@ -174,6 +193,22 @@
                     "sortOrder": "alphabetical"
                   }
                 }
+              },
+              {
+                "id": "9054b5e11b58f0d9",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {}
+                }
+              },
+              {
+                "id": "86bff414d2d51e56",
+                "type": "leaf",
+                "state": {
+                  "type": "center-panes",
+                  "state": {}
+                }
               }
             ]
           },
@@ -187,7 +222,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "computer_graphics/cg_general_notes/3d_영상_콘텐츠_제작자_양성_과정.md"
+                    "file": "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md"
                   }
                 }
               }
@@ -235,7 +270,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "computer_graphics/cg_general_notes/3d_영상_콘텐츠_제작자_양성_과정.md",
+                    "file": "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -270,14 +305,14 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "computer_graphics/cg_general_notes/3d_영상_콘텐츠_제작자_양성_과정.md",
+                    "file": "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 1
           },
           {
             "id": "baddb2b819dd740a",
@@ -297,7 +332,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "computer_graphics/cg_general_notes/3d_영상_콘텐츠_제작자_양성_과정.md",
+                    "file": "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -328,14 +363,12 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "8d04bf1cfad0d697",
+      "active": "3ac6536171057277",
       "ophidian:layout-settings": {
         "pane-relief:focus-lock": true
       },
       "workspaces-plus:settings-v1": {
-        "explorerFoldState": [
-          "/"
-        ]
+        "explorerFoldState": []
       }
     },
     "디지털논리회로": {
@@ -708,5 +741,5 @@
       }
     }
   },
-  "active": "디지털논리회로"
+  "active": "general"
 }
