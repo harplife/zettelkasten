@@ -141,9 +141,31 @@
                 "currentVersion": "1.2.7"
               }
             }
+          },
+          {
+            "id": "1f4fa99fd71c920e",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -220,7 +242,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -268,7 +290,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md",
+                "file": "conflict-files-obsidian-git.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -303,7 +325,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -330,7 +352,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -361,11 +383,24 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "3ac6536171057277",
+  "active": "1f4fa99fd71c920e",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "knou_algorithm.md",
+    "attachments/rjwv8f4g.bmp",
+    "attachments/Sorting_quicksort_anim.gif",
+    "attachments/Selection-Sort-Animation.gif",
+    "attachments/Pasted image 20230525203833.png",
+    "attachments/Pasted image 20230525203817.png",
+    "attachments/Pasted image 20230525202238.png",
+    "attachments/Pasted image 20230525153737.png",
+    "attachments/Pasted image 20230525150807.png",
+    "attachments/Pasted image 20230525150536.png",
+    "attachments/Pasted image 20230525115012.png",
+    "algorithms_panos_louridas.md",
     "computer_graphics/cg_general_notes/3d_영상_콘텐츠_제작자_양성_과정.md",
     "digital_system_design.md",
     "디지털논리회로_요약.md",
@@ -388,15 +423,6 @@
     "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md",
     "computer_graphics/cg_general_notes/computer_graphics_big_picture.md",
     "goals/goal_bachelor_in_cs.md",
-    "lifestyle/central_node.md",
-    "attachments/Pasted image 20230331072053.png",
-    "attachments/Pasted image 20230329071413.jpg",
-    "attachments/Pasted image 20230328105731.jpg",
-    "attachments/Pasted image 20230321072124.png",
-    "attachments/Pasted image 20230321065418.png",
-    "attachments/Pasted image 20230321064527.png",
-    "KNOU/2023년_방통대/1학기_과목/데이터베이스시스템_계획_23s1.md",
-    "KNOU/2023년_방통대/1학기_과목/R컴퓨팅_계획_23s1.md",
-    "KNOU/2023년_방통대/1학기_과목/통계학개론_계획_23s1.md"
+    "lifestyle/central_node.md"
   ]
 }
