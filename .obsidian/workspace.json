@@ -384,8 +384,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262,
-    "collapsed": true
+    "width": 262
   },
   "right": {
     "id": "f152d8fd8ec1f4e0",
@@ -409,8 +408,9 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "3b80f99c47371928",
+  "active": "b652d94066112a10",
   "lastOpenFiles": [
+    "attachments/Pasted image 20230525210029.png",
     "attachments/Pasted image 20230525203833.png",
     "attachments/Pasted image 20230525203817.png",
     "attachments/Pasted image 20230525202238.png",
@@ -423,7 +423,6 @@
     "attachments/Pasted image 20230525114925.png",
     "algorithms_panos_louridas.md",
     "knou_algorithm.md",
-    "attachments/Pasted image 20230525095727.png",
     "디지털논리회로_요약.md",
     "KNOU/2023년_방통대/1학기_과목/디지털논리회로_계획_23s1.md",
     "digital_system_design.md",
