@@ -102,6 +102,28 @@
             }
           },
           {
+            "id": "985aae9c9063a874",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "knou_algorithm_summary.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "aa1a553b0453c57a",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -255,7 +277,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "knou_algorithm_quiz.md"
+                "file": "knou_algorithm_summary.md"
               }
             }
           }
@@ -339,7 +361,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "knou_algorithm_quiz.md",
+                "file": "knou_algorithm_summary.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -383,7 +405,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "knou_algorithm_quiz.md",
+                "file": "knou_algorithm_summary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -428,7 +450,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "knou_algorithm_quiz.md",
+                "file": "knou_algorithm_summary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -459,12 +481,13 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "aa1a553b0453c57a",
+  "active": "985aae9c9063a874",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
     "knou_algorithm_notes.md",
+    "knou_algorithm_summary.md",
     "knou_algorithm_quiz.md",
     "attachments/Pasted image 20230527092519.png",
     "attachments/Pasted image 20230527084940.png",
