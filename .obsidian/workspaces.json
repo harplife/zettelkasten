@@ -148,7 +148,7 @@
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 5
           }
         ],
         "direction": "vertical"
@@ -279,7 +279,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "knou_algorithm_summary.md"
+                    "file": "knou_algorithm_quiz.md"
                   }
                 }
               }
@@ -363,7 +363,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "knou_algorithm_summary.md",
+                    "file": "knou_algorithm_quiz.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -407,7 +407,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "knou_algorithm_summary.md",
+                    "file": "knou_algorithm_quiz.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -452,7 +452,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "knou_algorithm_summary.md",
+                    "file": "knou_algorithm_quiz.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -483,7 +483,7 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "985aae9c9063a874",
+      "active": "aa1a553b0453c57a",
       "ophidian:layout-settings": {
         "pane-relief:focus-lock": true
       },

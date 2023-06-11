@@ -146,7 +146,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -277,7 +277,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "knou_algorithm_summary.md"
+                "file": "knou_algorithm_quiz.md"
               }
             }
           }
@@ -361,7 +361,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "knou_algorithm_summary.md",
+                "file": "knou_algorithm_quiz.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -405,7 +405,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "knou_algorithm_summary.md",
+                "file": "knou_algorithm_quiz.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -450,7 +450,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "knou_algorithm_summary.md",
+                "file": "knou_algorithm_quiz.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -481,17 +481,25 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "985aae9c9063a874",
+  "active": "aa1a553b0453c57a",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "knou_algorithm_notes.md",
+    "attachments/Pasted image 20230611115458.png",
+    "attachments/Pasted image 20230611114820.png",
+    "attachments/Pasted image 20230611114319.png",
+    "attachments/Pasted image 20230611114118.png",
+    "attachments/Pasted image 20230611114012.png",
+    "attachments/Pasted image 20230611113618.png",
+    "attachments/Pasted image 20230611113048.png",
+    "attachments/Pasted image 20230611112644.png",
+    "attachments/Pasted image 20230611111358.png",
     "knou_algorithm_summary.md",
+    "knou_algorithm_notes.md",
     "knou_algorithm_quiz.md",
     "attachments/Pasted image 20230527092519.png",
     "attachments/Pasted image 20230527084940.png",
-    "attachments/Pasted image 20230527084343.png",
     "computer_graphics/cg_general_notes/computer_graphics_big_picture.md",
     "algorithms_panos_louridas.md",
     "Insertion-sort-example-300px.gif.md",
@@ -500,13 +508,6 @@
     "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md",
     "11884_005_fig_002.jpg.md",
     "conflict-files-obsidian-git.md",
-    "attachments/rjwv8f4g.bmp",
-    "attachments/Sorting_quicksort_anim.gif",
-    "attachments/Selection-Sort-Animation.gif",
-    "attachments/Pasted image 20230525203833.png",
-    "attachments/Pasted image 20230525203817.png",
-    "attachments/Pasted image 20230525202238.png",
-    "attachments/Pasted image 20230525153737.png",
     "digital_system_design.md",
     "디지털논리회로_요약.md",
     "KNOU/2023년_방통대/1학기_과목/디지털논리회로_계획_23s1.md",
@@ -520,7 +521,6 @@
     "definition_of_analog_system.md",
     "definition_of_digital_system.md",
     "definition_of_systematic_approach.md",
-    "definition_of_analog_data.md",
-    "overview_of_data.md"
+    "definition_of_analog_data.md"
   ]
 }
