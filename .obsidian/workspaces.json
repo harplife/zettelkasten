@@ -331,8 +331,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 262,
-        "collapsed": true
+        "width": 262
       },
       "right": {
         "id": "f152d8fd8ec1f4e0",
@@ -529,6 +528,9 @@
         }
       },
       "active": "5d50cda9b2fb8287",
+      "ophidian:layout-settings": {
+        "pane-relief:focus-lock": false
+      },
       "workspaces-plus:settings-v1": {
         "explorerFoldState": []
       }
