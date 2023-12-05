@@ -43,10 +43,7 @@
   "livePreview": true,
   "showFrontmatter": true,
   "lineWrap": true,
-  "spellcheckLanguages": [
-    "ko",
-    "en-US"
-  ],
+  "spellcheckLanguages": null,
   "pdfExportSettings": {
     "includeName": false,
     "pageSize": "Letter",
