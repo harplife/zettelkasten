@@ -168,9 +168,31 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "5d50cda9b2fb8287",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "KNOU_머신러닝_정리_20231205_memorize.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 6
+            "currentTab": 7
           }
         ],
         "direction": "vertical"
@@ -301,7 +323,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "KNOU_머신러닝_정리_20231205.md"
+                    "file": "KNOU_머신러닝_정리_20231205_memorize.md"
                   }
                 }
               }
@@ -386,7 +408,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "KNOU_머신러닝_정리_20231205.md",
+                    "file": "KNOU_머신러닝_정리_20231205_memorize.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -430,7 +452,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "KNOU_머신러닝_정리_20231205.md",
+                    "file": "KNOU_머신러닝_정리_20231205_memorize.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -475,7 +497,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "KNOU_머신러닝_정리_20231205.md",
+                    "file": "KNOU_머신러닝_정리_20231205_memorize.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -506,7 +528,7 @@
           "mathpad:Open Mathpad": false
         }
       },
-      "active": "50533879cce1dcfb",
+      "active": "5d50cda9b2fb8287",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": []
       }

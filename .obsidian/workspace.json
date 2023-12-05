@@ -166,9 +166,31 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5d50cda9b2fb8287",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "KNOU_머신러닝_정리_20231205_memorize.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -299,7 +321,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KNOU_머신러닝_정리_20231205.md"
+                "file": "KNOU_머신러닝_정리_20231205_memorize.md"
               }
             }
           }
@@ -384,7 +406,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "KNOU_머신러닝_정리_20231205.md",
+                "file": "KNOU_머신러닝_정리_20231205_memorize.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -428,7 +450,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KNOU_머신러닝_정리_20231205.md",
+                "file": "KNOU_머신러닝_정리_20231205_memorize.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -473,7 +495,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KNOU_머신러닝_정리_20231205.md",
+                "file": "KNOU_머신러닝_정리_20231205_memorize.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -504,10 +526,11 @@
       "mathpad:Open Mathpad": false
     }
   },
-  "active": "50533879cce1dcfb",
+  "active": "5d50cda9b2fb8287",
   "lastOpenFiles": [
-    "knou_algorithm_quiz.md",
     "KNOU_머신러닝_정리_20231205.md",
+    "KNOU_머신러닝_정리_20231205_memorize.md",
+    "knou_algorithm_quiz.md",
     "attachments/Pasted image 20230611131507.png",
     "attachments/Pasted image 20230611115458.png",
     "attachments/Pasted image 20230611114820.png",
@@ -540,7 +563,6 @@
     "accumulation_of_errors_in_analog_system.md",
     "definition_of_analog_system.md",
     "definition_of_digital_system.md",
-    "definition_of_systematic_approach.md",
-    "definition_of_analog_data.md"
+    "definition_of_systematic_approach.md"
   ]
 }
