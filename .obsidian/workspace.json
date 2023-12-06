@@ -188,9 +188,31 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "edbd44143311bba4",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JE_01.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -321,7 +343,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KNOU_머신러닝_정리_20231205.md"
+                "file": "JE_01.md"
               }
             }
           }
@@ -405,7 +427,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "KNOU_머신러닝_정리_20231205.md",
+                "file": "JE_01.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -449,7 +471,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KNOU_머신러닝_정리_20231205.md",
+                "file": "JE_01.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -494,7 +516,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KNOU_머신러닝_정리_20231205.md",
+                "file": "JE_01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -525,11 +547,13 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "50533879cce1dcfb",
+  "active": "edbd44143311bba4",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": false
   },
   "lastOpenFiles": [
+    "filter_bubble.md",
+    "JE_01.md",
     "KNOU_머신러닝_정리_20231205_memorize.md",
     "KNOU_머신러닝_정리_20231205.md",
     "knou_algorithm_quiz.md",
@@ -563,8 +587,6 @@
     "overview_of_analog_system.md",
     "overview_of_electronic_circuit.md",
     "accumulation_of_errors_in_analog_system.md",
-    "definition_of_analog_system.md",
-    "definition_of_digital_system.md",
-    "definition_of_systematic_approach.md"
+    "definition_of_analog_system.md"
   ]
 }
