@@ -522,12 +522,12 @@
           "command-palette:Open command palette": false,
           "markdown-importer:Open format converter": false,
           "workspaces:Manage workspace layouts": false,
-          "workspaces-plus:Manage workspaces": false,
           "table-editor-obsidian:Advanced Tables Toolbar": false,
-          "mathpad:Open Mathpad": false
+          "mathpad:Open Mathpad": false,
+          "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "5d50cda9b2fb8287",
+      "active": "227e6011dc684b16",
       "ophidian:layout-settings": {
         "pane-relief:focus-lock": false
       },
