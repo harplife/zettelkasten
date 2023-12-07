@@ -188,31 +188,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "edbd44143311bba4",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JE_01.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -343,7 +321,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JE_01.md"
+                "file": "KNOU_머신러닝_정리_20231205_memorize.md"
               }
             }
           }
@@ -427,7 +405,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "JE_01.md",
+                "file": "KNOU_머신러닝_정리_20231205_memorize.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -471,7 +449,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JE_01.md",
+                "file": "KNOU_머신러닝_정리_20231205_memorize.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -516,7 +494,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JE_01.md",
+                "file": "KNOU_머신러닝_정리_20231205_memorize.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -547,15 +525,15 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "227e6011dc684b16",
+  "active": "5d50cda9b2fb8287",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": false
   },
   "lastOpenFiles": [
-    "filter_bubble.md",
-    "JE_01.md",
-    "KNOU_머신러닝_정리_20231205_memorize.md",
     "KNOU_머신러닝_정리_20231205.md",
+    "KNOU_머신러닝_정리_20231205_memorize.md",
+    "JE_01.md",
+    "filter_bubble.md",
     "knou_algorithm_quiz.md",
     "attachments/Pasted image 20230611131507.png",
     "attachments/Pasted image 20230611115458.png",
