@@ -321,7 +321,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KNOU_머신러닝_정리_20231205.md"
+                "file": "lifestyle/central_node.md"
               }
             }
           }
@@ -405,7 +405,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "KNOU_머신러닝_정리_20231205.md",
+                "file": "lifestyle/central_node.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -449,7 +449,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KNOU_머신러닝_정리_20231205.md",
+                "file": "lifestyle/central_node.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -494,7 +494,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KNOU_머신러닝_정리_20231205.md",
+                "file": "lifestyle/central_node.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
