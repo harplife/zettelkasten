@@ -190,9 +190,31 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "1e4184bd9260a7e5",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "image_representation.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 6
+            "currentTab": 8
           }
         ],
         "direction": "vertical"
@@ -323,7 +345,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "KNOU_머신러닝_정리_20231205.md"
+                    "file": "image_representation.md"
                   }
                 }
               }
@@ -407,7 +429,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "KNOU_머신러닝_정리_20231205.md",
+                    "file": "image_representation.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -451,7 +473,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "KNOU_머신러닝_정리_20231205.md",
+                    "file": "image_representation.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -496,7 +518,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "KNOU_머신러닝_정리_20231205.md",
+                    "file": "image_representation.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -527,7 +549,7 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "227e6011dc684b16",
+      "active": "1e4184bd9260a7e5",
       "ophidian:layout-settings": {
         "pane-relief:focus-lock": false
       },
