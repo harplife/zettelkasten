@@ -547,13 +547,14 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "227e6011dc684b16",
+  "active": "1e4184bd9260a7e5",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": false
   },
   "lastOpenFiles": [
-    "KNOU_머신러닝_정리_20231205_memorize.md",
+    "신의_마법사.md",
     "image_representation.md",
+    "KNOU_머신러닝_정리_20231205_memorize.md",
     "KNOU_머신러닝_정리_20231205.md",
     "lifestyle/central_node.md",
     "goals/goal_bachelor_in_cs.md",
@@ -586,7 +587,6 @@
     "overview_of_system.md",
     "디지털논리회로_1장.md",
     "디지털_시스템의_장점.md",
-    "overview_of_digital_system.md",
-    "overview_of_analog_system.md"
+    "overview_of_digital_system.md"
   ]
 }
