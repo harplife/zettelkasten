@@ -345,7 +345,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "image_representation.md"
+                    "file": "lifestyle/central_node.md"
                   }
                 }
               }
@@ -429,7 +429,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "image_representation.md",
+                    "file": "lifestyle/central_node.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -473,7 +473,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "image_representation.md",
+                    "file": "lifestyle/central_node.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -518,7 +518,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "image_representation.md",
+                    "file": "lifestyle/central_node.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -549,7 +549,7 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "1e4184bd9260a7e5",
+      "active": "227e6011dc684b16",
       "ophidian:layout-settings": {
         "pane-relief:focus-lock": false
       },
@@ -927,5 +927,4 @@
       }
     }
   },
-  "active": "general"
-}
+  "active": "ge
