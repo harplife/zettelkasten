@@ -343,7 +343,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "lifestyle/central_node.md"
+                "file": "image_representation.md"
               }
             }
           }
@@ -427,7 +427,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "lifestyle/central_node.md",
+                "file": "image_representation.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -471,7 +471,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "lifestyle/central_node.md",
+                "file": "image_representation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -516,7 +516,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "lifestyle/central_node.md",
+                "file": "image_representation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -552,11 +552,11 @@
     "pane-relief:focus-lock": false
   },
   "lastOpenFiles": [
+    "lifestyle/central_node.md",
     "신의_마법사.md",
     "image_representation.md",
     "KNOU_머신러닝_정리_20231205_memorize.md",
     "KNOU_머신러닝_정리_20231205.md",
-    "lifestyle/central_node.md",
     "goals/goal_bachelor_in_cs.md",
     "knou_algorithm_notes.md",
     "JE_01.md",
