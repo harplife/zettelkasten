@@ -345,7 +345,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "lifestyle/central_node.md"
+                    "file": "image_representation.md"
                   }
                 }
               }
@@ -429,7 +429,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "lifestyle/central_node.md",
+                    "file": "image_representation.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -473,7 +473,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "lifestyle/central_node.md",
+                    "file": "image_representation.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -518,7 +518,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "lifestyle/central_node.md",
+                    "file": "image_representation.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
