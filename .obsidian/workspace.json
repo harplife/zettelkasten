@@ -212,7 +212,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -322,7 +322,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "0065a4e248a61faa",
@@ -343,7 +344,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "lifestyle/central_node.md"
+                "file": "knou_algorithm_notes.md"
               }
             }
           }
@@ -351,7 +352,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262
+    "width": 230.5
   },
   "right": {
     "id": "f152d8fd8ec1f4e0",
@@ -427,7 +428,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "lifestyle/central_node.md",
+                "file": "knou_algorithm_notes.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -471,7 +472,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "lifestyle/central_node.md",
+                "file": "knou_algorithm_notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -516,7 +517,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "lifestyle/central_node.md",
+                "file": "knou_algorithm_notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -547,17 +548,15 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "227e6011dc684b16",
-  "ophidian:layout-settings": {
-    "pane-relief:focus-lock": false
-  },
+  "active": "b0f12c78da4f6368",
   "lastOpenFiles": [
+    "computer_graphics/cg_general_notes/computer_graphics_big_picture.md",
+    "goals/goal_bachelor_in_cs.md",
     "lifestyle/central_node.md",
-    "신의_마법사.md",
     "image_representation.md",
+    "신의_마법사.md",
     "KNOU_머신러닝_정리_20231205_memorize.md",
     "KNOU_머신러닝_정리_20231205.md",
-    "goals/goal_bachelor_in_cs.md",
     "knou_algorithm_notes.md",
     "JE_01.md",
     "filter_bubble.md",
@@ -573,7 +572,6 @@
     "attachments/Pasted image 20230611112644.png",
     "attachments/Pasted image 20230611111358.png",
     "knou_algorithm_summary.md",
-    "computer_graphics/cg_general_notes/computer_graphics_big_picture.md",
     "algorithms_panos_louridas.md",
     "Insertion-sort-example-300px.gif.md",
     "11884_e1_004.jpg.md",
