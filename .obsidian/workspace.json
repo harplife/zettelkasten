@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "08a82167beba6cf3",
+            "id": "3565833ba7980081",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -23,196 +23,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lifestyle/central_node.md",
+                "file": "study_LearnOpenGL.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "pinned": true
-            }
-          },
-          {
-            "id": "929a08cac18cc2fa",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "goals/goal_bachelor_in_cs.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "21915bf84e37cf0d",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "computer_graphics/cg_general_notes/computer_graphics_big_picture.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "b0f12c78da4f6368",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "knou_algorithm_notes.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "985aae9c9063a874",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "knou_algorithm_summary.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aa1a553b0453c57a",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "knou_algorithm_quiz.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "50533879cce1dcfb",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "KNOU_머신러닝_정리_20231205.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5d50cda9b2fb8287",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "KNOU_머신러닝_정리_20231205_memorize.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1e4184bd9260a7e5",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "image_representation.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -344,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "knou_algorithm_notes.md"
+                "file": "study_LearnOpenGL.md"
               }
             }
           }
@@ -352,7 +171,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 230.5
+    "width": 230.5,
+    "collapsed": true
   },
   "right": {
     "id": "f152d8fd8ec1f4e0",
@@ -428,7 +248,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "knou_algorithm_notes.md",
+                "file": "study_LearnOpenGL.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -472,7 +292,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "knou_algorithm_notes.md",
+                "file": "study_LearnOpenGL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -517,7 +337,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "knou_algorithm_notes.md",
+                "file": "study_LearnOpenGL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -532,7 +352,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 362.5
+    "width": 362.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -548,19 +369,21 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "b0f12c78da4f6368",
+  "active": "3565833ba7980081",
   "lastOpenFiles": [
     "computer_graphics/cg_general_notes/computer_graphics_big_picture.md",
     "goals/goal_bachelor_in_cs.md",
     "lifestyle/central_node.md",
+    "study_LearnOpenGL.md",
     "image_representation.md",
-    "신의_마법사.md",
     "KNOU_머신러닝_정리_20231205_memorize.md",
     "KNOU_머신러닝_정리_20231205.md",
+    "knou_algorithm_quiz.md",
+    "knou_algorithm_summary.md",
     "knou_algorithm_notes.md",
+    "신의_마법사.md",
     "JE_01.md",
     "filter_bubble.md",
-    "knou_algorithm_quiz.md",
     "attachments/Pasted image 20230611131507.png",
     "attachments/Pasted image 20230611115458.png",
     "attachments/Pasted image 20230611114820.png",
@@ -571,7 +394,6 @@
     "attachments/Pasted image 20230611113048.png",
     "attachments/Pasted image 20230611112644.png",
     "attachments/Pasted image 20230611111358.png",
-    "knou_algorithm_summary.md",
     "algorithms_panos_louridas.md",
     "Insertion-sort-example-300px.gif.md",
     "11884_e1_004.jpg.md",
@@ -584,7 +406,6 @@
     "KNOU/2023년_방통대/1학기_과목/디지털논리회로_계획_23s1.md",
     "overview_of_system.md",
     "디지털논리회로_1장.md",
-    "디지털_시스템의_장점.md",
-    "overview_of_digital_system.md"
+    "디지털_시스템의_장점.md"
   ]
 }
