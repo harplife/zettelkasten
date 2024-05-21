@@ -106,8 +106,8 @@
 - Project Libraries Configuration:
 	1. Right-click the project name in the solution explorer, and then click on `properties` on the right click menu.
 	2. On the Property Pages window, select `VC++ Directories`.
-	3. Edit `Library Directories` to add `/lib` folder and `/include` folder.
-	   ![[Pasted image 20240521105817.png]]
+	3. Edit `Library Directories` to add `/lib` folder. Edit `Include Directories` to add `/include` folder.
+	   ![[Pasted image 20240521121331.png]]
 	4. Under `Linker` > `Input`, edit `Additional Dependencies` by adding `glfw3.lib`.
 	   ![[Pasted image 20240521110212.png]]
 
@@ -130,9 +130,97 @@
 	- Under Options, check Generate a loader
 	- Click *Generate* to produce library files
 - Download the zip file. It should contain `/include` folder and `/src` folder.
-- Inside `/include` folder, there should be `glad` folder and `KHR` folder.
+- Inside `/include` folder, there should be `glad` folder and `KHR` folder. Move them to the `C://cpp_libraries/include` folder.
+- Inside `/src` folder, there is `glad.c` file. Copy & paste this to the project folder. Then, add it to the `Source Files` on Visual Studio.
+- Create a file and name it `Main.cpp`. Type `#include <glad/glad.h>` and build. There should be no errors.
+
+### Additional Resources
+- Official GLFW Guide : https://www.glfw.org/docs/latest/window_guide.html
+- http://www.opengl-tutorial.org/miscellaneous/building-your-own-c-application/
+- http://wiki.codeblocks.org/index.php?title=Using_GLFW_with_Code::Blocks
+- http://www.cmake.org/runningcmake/
+- Writing a build system under Linux : https://learnopengl.com/demo/autotools_tutorial.txt
+- Polytonic/Glitter (a simple boilerplate project) : https://github.com/Polytonic/Glitter
 
 ## Hello Window
+- This chapter will cover writing a code to open a simple application window.
+- In `Main.cpp` file, add the following directives to the top.
+
+```C++
+#include<iostream>
+#include<glad/glad.h>
+#include<GLFW/glfw3.h>
+using namespace std;
+```
+
+- It is important to include GLAD before other header files that require OpenGL (like GLFW).
+- Create the `main` function where GLFW window will be instantiated.
+
+```C++
+int main()
+{
+	glfwInit();
+	glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
+	glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
+	glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
+
+	return 0;
+}
+```
+
+- `glfwInit()` : initializes GLFW library, which must be done before anything else.
+- `glfwWindowHint()` : used to configure GLFW.
+	- First argument sets the option to be configured.
+	- Second argument sets the (integer) value of the option.
+	- GLFW's options and values are prefixed with `GLFW_`.
+	- A list of all the possible options and its corresponding values can be found at [GLFW's Window Handling Documentation](https://www.glfw.org/docs/latest/window.html#window_hints).
+	- `GLFW_CONTEXT_VERSION_MAJOR` & `*_MINOR` : the option to set the version of the OpenGL that is being used. Setting it to 3 and 3 indicates that the version is `3.3`.
+	- `GLFW_OPENGL_PROFILE` : the option to set the profile between Immediate Mode and Core Profile. In this case, use `GLFW_OPENGL_CORE_PROFILE` to set its value to core profile.
+- Create a window object. This window object holds all the windowing data and is required by most of GLFW's other functions.
+
+```C++
+// settings
+const unsigned int SCR_WIDTH = 800;
+const unsigned int SCR_HEIGHT = 600;
+
+int main()
+{
+//..
+	GLFWwindow* window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "LearnOpenGL", NULL, NULL);
+	if (window == NULL)
+	{
+		cerr << "Failed to create GLFW window" << endl;
+		glfwTerminate();
+		return -1;
+	}
+	glfwMakeContextCurrent(window);
+//..
+}
+```
+
+- `glfwCreateWindow()` : creates a window object and its associated context.
+	- First & second argument sets the window's width and height.
+	- Third argument sets the window's title.
+	- Fourth & fifth argument is ignored for now.
+	- The function returns a `GLFWwindow` object, which is needed for other GLFW operations.
+- `glfwTerminate()` : once GLFW is initialized, it needs to be terminated once operations are done.
+- `glfwMakeContextCurrent()` : sets the context as the main context on the current thread.
+
+### GLAD
+- GLAD manages function pointers for OpenGL, so it nees to be initialized before any OpenGL function is called.
+
+```C++
+int main()
+{
+//..
+	if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress))
+	{
+		cerr << "Failed to initialize GLAD" << endl;
+		return -1;
+	}
+//..
+}
+```
 
 ## Hello Triangle
 
