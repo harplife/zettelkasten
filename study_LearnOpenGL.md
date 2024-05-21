@@ -222,6 +222,14 @@ int main()
 }
 ```
 
+- `glfwGetProcAddress` : the function to load the address of the OpenGL function pointers (which is OS-specific).
+- `gladLoadGLLoader()` : initializes GLAD with the address function.
+
+### Viewport
+- **Window** : this is the area on the world coordinate selected for display. The window helps to determine the section of the viewport to be displayed.
+- **Viewport** : this is the area on the device coordinate where graphics are to be displayed.
+- Once GLFW and GLAD libraries are initialized, 
+
 ## Hello Triangle
 
 ## Shaders
