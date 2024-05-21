@@ -51,6 +51,41 @@
 - [OpenGL specifications and extensions (Khronos Registry)](https://registry.khronos.org/OpenGL/index_gl.php)
 
 ## Creating a Window
+- First thing to do before drawing anything with OpenGL is to create an OpenGL context and an application window to draw in.
+	- These are operations that are specific per operating system, and OpenGL itself does not provide these operations.
+	- It is up to the developers to create a window, define a context, and handle user input.
+- There are a few libraries that provide such functionalities, some specifically aimed at OpenGL.
+	- Some of the more popular libraries are GLUT, SDL, SFML and GLFW.
+- GLFW library is used on the LearnOpenGL course.
+
+### GLFW
+- GLFW is a library specifically targeted at OpenGL.
+- GLFW provides the bare necessities required for rendering to the screen, such as creating an OpenGL context, defining window parameters, and handling user input.
+
+### Building GLFW
+- Download GLFW (64-bit) source code from http://www.glfw.org/download.html
+- Although GLFW does come pre-compiled, it is better to compile in the system for better compatibility.
+- The items that are to be used are:
+	- The resulting library from compilation
+	- The `include` folder
+- Before any compilation can be done, a conversion is required because the project/solution files may not be compatible with other people's set up. CMake is the tool that is used to convert other people's project files to the 
+
+#### CMake
+- CMake is a tool that can generate project/solution files of the user's choice from a collection of source code files using pre-defined CMake scripts.
+- Download CMake from http://www.cmake.org/cmake/resources/software.html
+- Build GLFW:
+	1. Extract GLFW source code zip file.
+	2. Open CMake
+	3. Choose the root folder of GLFW source code as the source code folder.
+	4. Create a few folder `build` inside the root folder, and select it as the build target folder.
+	5. Click the Configure button, then choose the generator (an IDE of choice, Visual Studio) on the configure window.
+	6. Click Finish to configure.
+	7. Leave the options as default, then click Generate to compile.
+	8. Check to see that the resulting project files are created inside the build folder.
+
+#### Compilation
+- A project file `GLFW.sln` can be found inside the build folder.
+- 
 
 ## Hello Window
 
