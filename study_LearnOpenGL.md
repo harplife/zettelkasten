@@ -87,6 +87,10 @@
 
 #### Compilation
 - Once the project files are converted using CMake, a project file `GLFW.sln` can be found inside the build folder. Open it with Visual Studio and proceed to build (compile).
+- Compiled library `glfw3.lib` can be found in `build/src/Debug` folder.
+- There are two approaches to using third party libraries:
+	- Add the library to the IDE's `/lib` folder.
+	- (Recommended) Set a location where all the header files/libraries from third party libraries are to be stored at.
 - 
 
 ## Hello Window
