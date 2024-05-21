@@ -229,8 +229,11 @@ int main()
 - **Window** : a rectangular area that defines which portion of the data is viewed on the screen.
 - **Viewport** : a rectangular area that defines where the data is positioned.
 - Window and Viewport are almost synonyous to each other. An image is "drawn" on Viewport, and the drawn image on the Viewport is then displayed on the Window.
+- Note that there can be multiple viewports on a window. Each of these viewports can draw the same image with different projections.
 - Once GLFW and GLAD libraries are initialized, a Viewport can be set by calling the function `glViewport(0, 0, width, height)`.
-	- First & second argument sets the location of the lower left corner of the window.
+	- First & second argument sets the location of viewport in respect to the window.
+	- Third & fourth argument sets the width and height of the viewport.
+- 
 
 ## Hello Triangle
 
