@@ -226,9 +226,11 @@ int main()
 - `gladLoadGLLoader()` : initializes GLAD with the address function.
 
 ### Viewport
-- **Window** : this is the area on the world coordinate selected for display. The window helps to determine the section of the viewport to be displayed.
-- **Viewport** : this is the area on the device coordinate where graphics are to be displayed.
-- Once GLFW and GLAD libraries are initialized, 
+- **Window** : a rectangular area that defines which portion of the data is viewed on the screen.
+- **Viewport** : a rectangular area that defines where the data is positioned.
+- Window and Viewport are almost synonyous to each other. An image is "drawn" on Viewport, and the drawn image on the Viewport is then displayed on the Window.
+- Once GLFW and GLAD libraries are initialized, a Viewport can be set by calling the function `glViewport(0, 0, width, height)`.
+	- First & second argument sets the location of the lower left corner of the window.
 
 ## Hello Triangle
 
