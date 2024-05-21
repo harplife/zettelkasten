@@ -83,6 +83,8 @@
 	7. Leave the options as default, then click Generate to compile.
 	8. Check to see that the resulting project files are created inside the build folder.
 
+![[Pasted image 20240521103035.png]]
+
 #### Compilation
 - Once the project files are converted using CMake, a project file `GLFW.sln` can be found inside the build folder. Open it with Visual Studio and proceed to build (compile).
 - 
