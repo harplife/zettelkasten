@@ -68,12 +68,12 @@
 - The items that are to be used are:
 	- The resulting library from compilation
 	- The `include` folder
-- Before any compilation can be done, a conversion is required because the project/solution files may not be compatible with other people's set up. CMake is the tool that is used to convert other people's project files to the 
+- Not everyone uses the same setups for their project, which means that the project/solution files need to be converted to match the setup it is to be used in. CMake is the tool that is used specifically for that purpose.
 
 #### CMake
 - CMake is a tool that can generate project/solution files of the user's choice from a collection of source code files using pre-defined CMake scripts.
 - Download CMake from http://www.cmake.org/cmake/resources/software.html
-- Build GLFW:
+- Convert GLFW project files using CMake:
 	1. Extract GLFW source code zip file.
 	2. Open CMake
 	3. Choose the root folder of GLFW source code as the source code folder.
@@ -84,7 +84,7 @@
 	8. Check to see that the resulting project files are created inside the build folder.
 
 #### Compilation
-- A project file `GLFW.sln` can be found inside the build folder.
+- Once the project files are converted using CMake, a project file `GLFW.sln` can be found inside the build folder. Open it with Visual Studio and proceed to build (compile).
 - 
 
 ## Hello Window
