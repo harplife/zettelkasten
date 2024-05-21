@@ -50,13 +50,14 @@
 - [OpenGL Official Website](https://www.opengl.org/)
 - [OpenGL specifications and extensions (Khronos Registry)](https://registry.khronos.org/OpenGL/index_gl.php)
 
-## Creating a Window
+## Setting Up Libraries
 - First thing to do before drawing anything with OpenGL is to create an OpenGL context and an application window to draw in.
 	- These are operations that are specific per operating system, and OpenGL itself does not provide these operations.
 	- It is up to the developers to create a window, define a context, and handle user input.
 - There are a few libraries that provide such functionalities, some specifically aimed at OpenGL.
 	- Some of the more popular libraries are GLUT, SDL, SFML and GLFW.
 - GLFW library is used on the LearnOpenGL course.
+- Additionally, GLAD library is used to locate OpenGL functions.
 
 ### GLFW
 - GLFW is a library specifically targeted at OpenGL.
@@ -115,7 +116,21 @@
 - Add `opengl32.lib` to the linker settings.
 
 ### GLAD
-- 
+- Different GPUs come with different versions of OpenGL drivers, which means location of most of its functions is not known at compile-time and needs to be queried at run-time.
+- It is the task of the developer to retrieve the location of the functions that they need, and store them in function pointers for later use.
+- Retrieving those locations is OS-specific, and it can get rather complex and cumbersome to locate functions and store them in function pointers.
+- GLAD library simplifies the process of locating/storing OpenGL functions.
+
+#### Setting up GLAD
+- Go to http://glad.dav1d.de/
+	- Set Language to C++
+	- Set Specification to OpenGL
+	- Set API gl to Version 3.3
+	- Set Profile to Core
+	- Under Options, check Generate a loader
+	- Click *Generate* to produce library files
+- Download the zip file. It should contain `/include` folder and `/src` folder.
+- Inside `/include` folder, there should be `glad` folder and `KHR` folder.
 
 ## Hello Window
 
