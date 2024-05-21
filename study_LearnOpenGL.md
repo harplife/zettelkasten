@@ -90,7 +90,31 @@
 - Compiled library `glfw3.lib` can be found in `build/src/Debug` folder.
 - There are two approaches to using third party libraries:
 	- Add the library to the IDE's `/lib` folder.
-	- (Recommended) Set a location where all the header files/libraries from third party libraries are to be stored at.
+	- (Recommended) Set a location (i.e. `C://cpp_libraries`) where all the header files/libraries from third party libraries are to be stored at. Create `/include` folder and `/lib` folder.
+- Move files from GLFW's `/include` folder to third party libaries `/include` folder.
+- Move `glfw3.lib` to third party libraries `/lib` folder.
+
+### First Project
+- Create an empty project with Visual Studio.
+- Make sure the debug mode is set to `x64`.
+
+### Linking
+- In order for the project to use GLFW, the library needs to be linked with the project.
+- This can be done by specifying `glfw3.lib` in the linker settings.
+	- The project does not yet know where to find `glfw3.lib` because third party libraries are stored in a different directory. This directory needs to be added to the project first.
+- Project Libraries Configuration:
+	1. Right-click the project name in the solution explorer, and then click on `properties` on the right click menu.
+	2. On the Property Pages window, select `VC++ Directories`.
+	3. Edit `Library Directories` to add `/lib` folder and `/include` folder.
+	   ![[Pasted image 20240521105817.png]]
+	4. Under `Linker` > `Input`, edit `Additional Dependencies` by adding `glfw3.lib`.
+	   ![[Pasted image 20240521110212.png]]
+
+#### OpenGL library on Windows
+- On Windows, `opengl32.lib` comes with the Microsoft SDK (which is installed by default with VS).
+- Add `opengl32.lib` to the linker settings.
+
+### GLAD
 - 
 
 ## Hello Window
