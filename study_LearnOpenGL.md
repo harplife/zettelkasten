@@ -233,7 +233,90 @@ int main()
 - Once GLFW and GLAD libraries are initialized, a Viewport can be set by calling the function `glViewport(0, 0, width, height)`.
 	- First & second argument sets the location of viewport in respect to the window.
 	- Third & fourth argument sets the width and height of the viewport.
-- 
+
+#### Resize
+- A custom callback function can be defined to resize the viewport when the window is resized.
+
+```C++
+void framebuffer_size_callback(GLFWwindow* window, int width, int height)
+{
+	glViewport(0, 0, width, height);
+}
+```
+
+- The custom callback function is then registered with `glfwSetFramebufferSizeCallback(window, framebuffer_size_callback)`.
+	- Callback functions are registered after the window is created and before the render loop is initiated (which will be covered next).
+
+### Render Loop
+- A loop ("Render Loop") is required to repeatly draw an image until the program has been explicitly told to stop.
+- A very simple render loop:
+
+```C++
+int main()
+{
+//..
+	while (!glfwWindowShouldClose(window))
+	{
+		glfwSwapBuffers(window);
+		glfwPollEvents();
+	}
+//..
+}
+```
+
+- `glfwWindowShouldClose()` : checks at the start of each loop iteration if GLFW has been instructed to close. If so, the function returns true and the render loop stops running.
+- `glfwSwapBuffers()` : swaps the color buffer (a large 2D buffer that contains color values for each pixel in the window) that is used to render to during this render iteration, and show it as output to the screen.
+- `glfwPollEvents()` : checks if any events are triggered (like keyboard/mouse input), updates the window state, and calls the corresponding callback functions.
+- **Double Buffer** : when an application draws in a single buffer, the resulting image may display flickering issues. This is because the resulting output image is not drawn in an instant but drawn pixel by pixel (usually from left to right, top to bottom) instead, which causes unintended artifacts. To circumvent these issues, windowing applications apply a double buffer for rendering.
+	- The front buffer contains the render complete image that is shown at the screen.
+	- The back buffer contains the image that is being drawn by the rendering commands.
+	- As soon as all the rendering commands are finished, the buffers are then swapped. In the end, the screen only shows the render complete images, effectively removing all the aforementioned artifacts.
+- Once all operations are done and the window is closed, GLFW needs to be terminated by calling `glfwTerminate()`.
+- At this point, the program is ready to be compiled. The compiled program outputs a simple window with a black image.
+#### Input
+- A simple input function can be used to close the application with an `ESC` key:
+
+```C++
+void processInput(GLFWwindow* window)
+{
+	if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
+		glfwSetWindowShouldClose(window, true);
+}
+```
+
+- `glfwGetKey()` : a function that checks whether a specified key is pressed. First argument is the window, and the second argument is the key. If the user presses the key, the function returns `GLFW_PRESSS`. Otherwise, it returns `GLFW_RELEASE`.
+- `glfwSetWindowShouldClose()` : sets the state of the window to close. First argument is the window, and the second argument is the boolean value. If the second argument is set to `true`, then calling the function `glfwWindowShouldClose()` will return true. In this case, the render loop will stop.
+- **Frame** : an iteration of the render loop.
+- By inserting the `processInput()` function inside the render loop, the program checks at every frame if the `ESC` key is pressed and react accordingly.
+
+#### Rendering
+- In a typical rendering program, the screen's color buffer needs to be cleared at the start of every frame, otherwise the results from the previous frame would be visible.
+- The screen's color buffer can be cleared by calling `glClear(GL_COLOR_BUFFER_BIT)`.
+	- There are other bits, such as `GL_DEPTH_BUFFER_BIT` and `GL_STENCIL_BUFFER_BIT`. For now, only the color buffer will be cleared.
+- Normally the screen will clear with the default color of black, but the color to clear the screen can be set by calling `glClearColor(r, g, b, a)` before `glClear()`. Each argument can accept a value between `0.0` and `1.0`.
+- Note that `glClearColor()` is a **state-setting function**, and `glClear()` is a **state-using function**.
+- Putting it all together, the render loop code looks like this:
+
+```C++
+int main()
+{
+//..
+	while (!glfwWindowShouldClose(window))
+	{
+		processInput(window);
+		
+		glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
+		glClear(GL_COLOR_BUFFER_BIT);
+
+		glfwSwapBuffers(window);
+		glfwPollEvents();
+	}
+//..
+}
+```
+
+### Source Code
+Refer to [[cpp_hello_window_code]]
 
 ## Hello Triangle
 
