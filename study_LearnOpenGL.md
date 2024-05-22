@@ -344,13 +344,41 @@ Refer to [[cpp_hello_window_code]]
 - In the first part of the Graphics Pipeline, the vertex shader takes a single vertex as an input.
 - The main purpose of the **Vertex Shader** is to transform 3D coordinates into different 3D coordinates (more on this later).
 	- The vertex shader allows for some basic processing on the vertex attributes.
-- The output of the Vertex Shader is *optionally* passed to the **Geomertry Shader**.
+- The output of the Vertex Shader is *optionally* passed to the **Geometry Shader**.
 	- The Geometry Shader has the ability to generate other shapes by emitting new vertices to form new (or other) primitive(s). For example, it can generate two triangles out of one triangle.
 	- The Geometry Shader takes a collection of vertices (that form a primitive) as input.
 	- (note) The Geometry Shader is useful to implement [Shadow Volume](https://developer.nvidia.com/gpugems/gpugems/part-ii-lighting-and-shadows/chapter-9-efficient-shadow-volume-rendering).
 - The **Primitive Assembly** stage takes all the vertices from the vertex (or geometry) shader as input, and then assembles all the point(s) in the primitive shape given.
-	- (note) The purpose of Primitive Assembly step is to convert a vertex stream into a sequence of base primitives (base primtivies being lines, triangles, rectangles, and etc.). For example, a sequence of 12 vertices generate 11 line (base) primitives. A sequence of 3 vertices can produce a triangle primitive as well.
-- The output of the Primitives Assembly stage is then passed on to the Rasterization Stage, where it maps 
+	- (note) The purpose of Primitive Assembly step is to convert a vertex stream into a sequence of base primitives (base primitives being lines, triangles, rectangles, and etc.). For example, a sequence of 12 vertices generate 11 line (base) primitives. A sequence of 3 vertices can produce a triangle primitive as well.
+- The output of the Primitives Assembly stage is then passed on to the **Rasterization Stage**, where it maps the resulting primitive(s) to the corresponding pixels on the screen.
+- The result of the Rasterization Stage is the data required for OpenGL to render a single pixel, and it is referred to as a **Fragment**.
+- The resulting Fragments from the Rasterization Stage goes through **Clipping**, where it discards all fragments that are outside of the "view".
+- The Fragments are then sent to **Fragment Shader**, where the final color of a pixel is calculated.
+	- This is usually the stage where all the advanced OpenGL effects occur. The Fragment Shader contains data about the 3D scene that it can use to calculate the final pixel color (like lights, shadows, color of the lights and so on).
+- The final object will then pass through **Alpha Test and Blending stage**, where the following occurs:
+	1. the corresponding depth/stencil value of the Fragment is evaluated to determine whether the fragment is front or behind other objects. If a fragment is behind a non-transparent object, the fragment is discarded.
+	2. the corresponding alpha value (opacity) of the Fragment is evaluated, and then blends the Fragment with other objects as needed.
+- There are other stages other than the 6 stages mentioned above, such as the Tessellation Stage and the Transform Feedback Loop. This will be covered later.
+- In modern OpenGL, the developer is required to define at least a vertex shader and a fragment shader, as there are no default vertex/fragment shaders on the GPU.
+
+### Vertex Input
+- OpenGL is a 3D graphics library, so all coordinates that are specified in OpenGL are in 3D.
+- OpenGL only processes 3D coordinates that are in **Normalized Device Coordinates (NDC)**, which means the coordinates must be within a specific range between `-1.0` and `1.0` on all 3 axes.
+	- All coordinates outside this region will not be displayed on screen.
+- For the purpose of rendering a single triangle, a total of three vertices with each vertex having a 3D coordinate must be defined in NDCs as a `float array`.
+
+```C++
+// Three vertices for a single triangle,
+// with coordinates x, y, z (depth)
+float vertices[] = {
+	-0.5f, -0.5f, 0.0f,
+	0.5f, -0.5f, 0.0f,
+	0.0f, 0.5f, 0.0f
+}
+```
+
+![[ndc.png]]
+
 
 ## Shaders
 
@@ -358,7 +386,7 @@ Refer to [[cpp_hello_window_code]]
 
 ## Transformations
 
-## Cooridnate Systems
+## Coordinate Systems
 
 ## Camera
 
