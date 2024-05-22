@@ -340,9 +340,10 @@ Refer to [[cpp_hello_window_code]]
 - In the first part of the Graphics Pipeline, the vertex shader takes a single vertex as an input.
 - The main purpose of the **Vertex Shader** is to transform 3D coordinates into different 3D coordinates (more on this later).
 	- The vertex shader allows for some basic processing on the vertex attributes.
-- The output of the Vertex Shader is optionally passed to the **Geomertry Shader**.
+- The output of the Vertex Shader is *optionally* passed to the **Geomertry Shader**.
 	- The Geometry Shader takes a collection of vertices (that form a primitive) as input.
 	- The Geometry Shader has the ability to generate other shapes by emitting new vertices to form new (or other) primitive(s).
+	- (note) The Geometry Shader is useful to implement [Shadow Volume](https://developer.nvidia.com/gpugems/gpugems/part-ii-lighting-and-shadows/chapter-9-efficient-shadow-volume-rendering).
 - 
 
 ## Shaders
