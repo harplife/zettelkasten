@@ -331,6 +331,18 @@ Refer to [[cpp_hello_window_code]]
 - Shaders are configurable by the developer, which allows for custom shaders to replace the existing default shaders.
 	- This gives more fine-grained control over specific parts of the pipeline.
 - Shaders are written in the OpenGL Shading Language (GLSL).
+- Abstract representation of all the stages of the Graphics Pipeline:
+  ![[opengl_graphics_pipeline.png]]
+- **Vertex** (**Vertices** in plural) : a data structure that describes certain attributes, like the position of a point in 2D/3D space, or multiple point on a surface. Vertices play a crucial role in creating and manipulating shapes and paths in graphics software. They are the fundamental units used to define the structure of 3D models.
+- **Vertex Data** : the information associated with each vertex, which can include the position of the vertex in 2D/3D space, color, texture coordinates, normal vectors, tangent vectors, and more. The vertex data is crucial for setting out how everything will look.
+- **Vertex Attributes** : an input variable to a shader that is supplied with per-vertex data.
+- (note) a vertex is a dot, a vertex data is information on the dot, and a vertex attribute is a variable that corresponds to an element of information.
+- In the first part of the Graphics Pipeline, the vertex shader takes a single vertex as an input.
+- The main purpose of the **Vertex Shader** is to transform 3D coordinates into different 3D coordinates (more on this later).
+	- The vertex shader allows for some basic processing on the vertex attributes.
+- The output of the Vertex Shader is optionally passed to the **Geomertry Shader**.
+	- The Geometry Shader takes a collection of vertices (that form a primitive) as input.
+	- The Geometry Shader has the ability to generate other shapes by emitting new vertices to form new (or other) primitive(s).
 - 
 
 ## Shaders
