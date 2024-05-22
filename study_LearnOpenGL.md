@@ -363,8 +363,11 @@ Refer to [[cpp_hello_window_code]]
 
 ### Vertex Input
 - OpenGL is a 3D graphics library, so all coordinates that are specified in OpenGL are in 3D.
+- (note) **Screen Space Coordinates**, aka **Device Coordinates**, is a coordinate system where a point is described as coordinates in range between (0, 0) and (width, height) of the window.
+	- Coordinate (0, 0) is at the top-left corner of the window.
 - OpenGL only processes 3D coordinates that are in **Normalized Device Coordinates (NDC)**, which means the coordinates must be within a specific range between `-1.0` and `1.0` on all 3 axes.
 	- All coordinates outside this region will not be displayed on screen.
+	- (note) NDC == range (0,0) ~ (width, height) converted to range (-1, 1) ~ (1, -1).
 - For the purpose of rendering a single triangle, a total of three vertices with each vertex having a 3D coordinate must be defined in NDCs as a `float array`.
 
 ```C++
@@ -379,6 +382,7 @@ float vertices[] = {
 
 ![[ndc.png]]
 
+- In order to send the Vertex Data (of a single triangle) to the Vertex Shader as input, 
 
 ## Shaders
 
