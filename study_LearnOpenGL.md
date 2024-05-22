@@ -319,6 +319,14 @@ int main()
 Refer to [[cpp_hello_window_code]]
 
 ## Hello Triangle
+- In OpenGL, everything is in 3D space. However, the screen/window is a 2D array of pixels, which means a large part of OpenGL's work is about transforming all 3D coordinates to pixels that fit on the screen.
+- The Graphics Pipeline of OpenGL manages the process of transforming 3D coordinates to 2D pixels. It can be divided into two large parts:
+	- Transforming 3D coordinates into 2D coordinates
+	- Transforming the 2D coordinates into actual colored pixels.
+- The Graphics Pipeline takes as input a sec of 3D coordinates and transforms these to colred 2D pixels on the screen.
+- The Graphics Piepline can be divided into several steps where each step requires the output of the previous step as its input.
+	- All of these steps are highly specialized, and can easily be executed in parallel.
+	- Because of their parallel nature, 
 
 ## Shaders
 
