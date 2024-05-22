@@ -337,13 +337,18 @@ Refer to [[cpp_hello_window_code]]
 - **Vertex Data** : the information associated with each vertex, which can include the position of the vertex in 2D/3D space, color, texture coordinates, normal vectors, tangent vectors, and more. The vertex data is crucial for setting out how everything will look.
 - **Vertex Attributes** : an input variable to a shader that is supplied with per-vertex data.
 - (note) a vertex is a dot, a vertex data is information on the dot, and a vertex attribute is a variable that corresponds to an element of information.
+- In order for OpenGL to know what to make of a collectino of coordinates (and color values), OpenGL requires a hint on the type of render to form with the data.
+	- The hint indicates whether the data be rendered as a collection of points, a collection of triangles, or a long line. These hints are called **Primitives**. 
+	- Primitives are given to OpenGL while calling any of the drawing commands.
+	- Some of the primitives are `GL_POINTS`, `GL_TRIANGLES`, and `GL_LINE_STRIP`.
 - In the first part of the Graphics Pipeline, the vertex shader takes a single vertex as an input.
 - The main purpose of the **Vertex Shader** is to transform 3D coordinates into different 3D coordinates (more on this later).
 	- The vertex shader allows for some basic processing on the vertex attributes.
 - The output of the Vertex Shader is *optionally* passed to the **Geomertry Shader**.
+	- The Geometry Shader has the ability to generate other shapes by emitting new vertices to form new (or other) primitive(s). For example, it can generate two triangles out of one triangle.
 	- The Geometry Shader takes a collection of vertices (that form a primitive) as input.
-	- The Geometry Shader has the ability to generate other shapes by emitting new vertices to form new (or other) primitive(s).
 	- (note) The Geometry Shader is useful to implement [Shadow Volume](https://developer.nvidia.com/gpugems/gpugems/part-ii-lighting-and-shadows/chapter-9-efficient-shadow-volume-rendering).
+- The **Primitive Assembly** stage takes all the vertices from the vertex (or geometry) shader as input, and then assembles all the point(s) in the primitive shape given.
 - 
 
 ## Shaders
