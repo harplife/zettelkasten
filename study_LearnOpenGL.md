@@ -326,7 +326,12 @@ Refer to [[cpp_hello_window_code]]
 - The Graphics Pipeline takes as input a sec of 3D coordinates and transforms these to colred 2D pixels on the screen.
 - The Graphics Piepline can be divided into several steps where each step requires the output of the previous step as its input.
 	- All of these steps are highly specialized, and can easily be executed in parallel.
-	- Because of their parallel nature, 
+	- Because of the parallel nature of the Graphics pipeline, GPUs of today have thousands of small processing cores to quickly process data within the Graphics Pipeline.
+	- The processing cores run small programs, known as **Shaders**, on the GPU for each step of the pipeline.
+- Shaders are configurable by the developer, which allows for custom shaders to replace the existing default shaders.
+	- This gives more fine-grained control over specific parts of the pipeline.
+- Shaders are written in the OpenGL Shading Language (GLSL).
+- 
 
 ## Shaders
 
