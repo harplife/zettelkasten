@@ -337,8 +337,8 @@ Refer to [[cpp_hello_window_code]]
 - **Vertex Data** : the information associated with each vertex, which can include the position of the vertex in 2D/3D space, color, texture coordinates, normal vectors, tangent vectors, and more. The vertex data is crucial for setting out how everything will look.
 - **Vertex Attributes** : an input variable to a shader that is supplied with per-vertex data.
 - (note) a vertex is a dot, a vertex data is information on the dot, and a vertex attribute is a variable that corresponds to an element of information.
-- In order for OpenGL to know what to make of a collectino of coordinates (and color values), OpenGL requires a hint on the type of render to form with the data.
-	- The hint indicates whether the data be rendered as a collection of points, a collection of triangles, or a long line. These hints are called **Primitives**. 
+- In order for OpenGL to know what to make of a collection of coordinates (and color values), OpenGL requires a hint on the type of render to form with the data.
+	- The hint indicates whether the data be rendered as a collection of points, a collection of triangles, or a long line. These hints are called **Primitives**.
 	- Primitives are given to OpenGL while calling any of the drawing commands.
 	- Some of the primitives are `GL_POINTS`, `GL_TRIANGLES`, and `GL_LINE_STRIP`.
 - In the first part of the Graphics Pipeline, the vertex shader takes a single vertex as an input.
@@ -349,7 +349,8 @@ Refer to [[cpp_hello_window_code]]
 	- The Geometry Shader takes a collection of vertices (that form a primitive) as input.
 	- (note) The Geometry Shader is useful to implement [Shadow Volume](https://developer.nvidia.com/gpugems/gpugems/part-ii-lighting-and-shadows/chapter-9-efficient-shadow-volume-rendering).
 - The **Primitive Assembly** stage takes all the vertices from the vertex (or geometry) shader as input, and then assembles all the point(s) in the primitive shape given.
-- 
+	- (note) The purpose of Primitive Assembly step is to convert a vertex stream into a sequence of base primitives (base primtivies being lines, triangles, rectangles, and etc.). For example, a sequence of 12 vertices generate 11 line (base) primitives. A sequence of 3 vertices can produce a triangle primitive as well.
+- The output of the Primitives Assembly stage is then passed on to the Rasterization Stage, where it maps 
 
 ## Shaders
 
