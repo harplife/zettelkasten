@@ -429,7 +429,7 @@ void main()
 - `layout (location = 0)` : this is a layout qualifier that specifies the location of the input variable. The number `0` is the location index.
 - `in vec3 aPos` : this declares an input variable `aPos` for the shader. The `in` keyword means it's an input to the shader. `vec3` is the type of the variable.
 - `gl_Position` is a pre-defined variable of type `vec4` with the components being x, y, z, and w. The x, y, and z components represent the position of the vertex in 3D space, while the w component is used for perspective division.
-- The source code for the Vertex Shader must be wrapped in a string in order to be stored onto the GPU.
+- The source code for the Vertex Shader must be passed onto the GPU as a C-style string `const char*`. This is basically a pointer to the character array.
 	- (note) 
 - 
 
