@@ -392,9 +392,44 @@ float vertices[] = {
 	- `void glGenBuffers(GLsizei n, GLuint *buffers)` : returns `n` buffer object names in `buffers`. In other words, `n` number of buffer object names will be generated, and then the array `buffers` will be populated by those names.
 	- `void glBindBuffer(GLenum target, GLuint buffer)` : bind a named buffer object. In other words, buffer object names `buffer` (which are generated with `glGenBuffers()`) will be bound to a buffer object `target`. At this point, the state of the buffer object is set to "current" and it is ready to allocate GPU memory for vertex input.
 	- `void glBufferData(GLenum target, GLsizeiptr size, const GLvoid *data, GLenum usage)` : creates and initializes a buffer object's data store. In other words, the buffer object `target` will allocate GPU's memory of specific `size` (in bytes), store `data` in the buffer, and "expect" the buffer to be used for some `usuage` (for optimization).
+- Example of setting up Vertex Input:
+
+```C++
+// one buffer name
+unsigned int VBO;
+glGenBuffers(1, &VBO);
+
+// one buffer name bound to an array buffer
+glBindBuffer(GL_ARRAY_BUFFER, VBO);
+
+// vertex data is stored on the named array buffer, expected to be drawn
+glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC DRAW)
+```
 
 ### Vertex Shader
 - Once a vertex data is ready, it goes through the Vertex Shader. The Vertex Shader is written in GLSL (OpenGL Shading Language).
+- (note) a Shader is a type of program that runs on GPU. Just like a vertex data that is stored on GPU, a shader is also stored on GPU.
+- Example vertex shader written in GLSL:
+
+```C
+#version 330 core
+layout (location = 0) in vec3 aPos;
+
+void main()
+{
+	gl_Position = vec4(aPos.x, aPos.y, aPos.z, 1.0);
+}
+```
+
+- GLSL is similar to C language.
+- Each shader begins with a declaration of its version; `#version 330 core`.
+	- It indicates that the OpenGL 3.3 Core Profile is being used.
+- GLSL has a vector datatype that contains 1 to 4 floats based on its postfix digit.
+	- `vec3` means it is a vector type that contains 3 floats (for x, y, z in this case).
+- `layout (location = 0)` : this is a layout qualifier that specifies the location of the input variable. The number `0` is the location index.
+- `in vec3 aPos` : this declares an input variable `aPos` for the shader. The `in` keyword means it's an input to the shader. `vec3` is the type of the variable.
+- `gl_Position` is a pre-defined variable of type `vec4` with the components being x, y, z, and w. The x, y, and z components represent the position of the vertex in 3D space, while the w component is used for perspective division.
+- 
 
 ## Shaders
 
