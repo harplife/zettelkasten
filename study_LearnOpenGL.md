@@ -390,7 +390,7 @@ float vertices[] = {
 	- (note) rendering from a large chunk of data stored on the GPU is much faster than receiving a stream of data one vertex at a time from the CPU.
 - The allocated memory on the GPU is managed by **Vertex Buffer Object (VBO)** which provides methods for uploading Vertex Data to GPU.
 	- `void glGenBuffers(GLsizei n, GLuint *buffers)` : returns `n` buffer object names in `buffers`. In other words, `n` number of buffer object names will be generated, and then the array `buffers` will be populated by those names.
-	- `void glBindBuffer(GLenum target, GLuint buffer)` : bind a named buffer object.
+	- `void glBindBuffer(GLenum target, GLuint buffer)` : bind a named buffer object. In other words, buffer object names `buffer` (which are generated with `glGenBuffers()`) will be bound to a buffer object `target`.
 	- 
 - 
 
