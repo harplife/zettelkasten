@@ -430,7 +430,35 @@ void main()
 - `in vec3 aPos` : this declares an input variable `aPos` for the shader. The `in` keyword means it's an input to the shader. `vec3` is the type of the variable.
 - `gl_Position` is a pre-defined variable of type `vec4` with the components being x, y, z, and w. The x, y, and z components represent the position of the vertex in 3D space, while the w component is used for perspective division.
 - The source code for the Vertex Shader must be passed onto the GPU as a C-style string `const char*`. This is basically a pointer to the character array.
-	- (note) 
+- (note) Loading shaders from external files is a common practice in larger OpenGL projects. Below is an example code for loading shaders:
+
+```C++
+#include <fstream>
+#include <sstream>
+#include <string>
+
+std::string LoadShader(const std::string& filepath)
+{
+    std::ifstream shaderFile(filepath);
+    std::stringstream shaderStream;
+
+    // Read file's buffer contents into streams
+    shaderStream << shaderFile.rdbuf();
+
+    // close file handlers
+    shaderFile.close();
+
+    // Convert stream into string
+    return shaderStream.str();
+}
+
+// Usage:
+std::string vertexShaderSource = LoadShader("path/to/your/vertex_shader.glsl");
+std::string fragmentShaderSource = LoadShader("path/to/your/fragment_shader.glsl");
+
+```
+
+- Shaders are typically loaded during the initialization of the graphics program (during runtime). The shader files are read, compiled, and linked into a shader program that can be used to render graphics.
 - 
 
 ## Shaders
