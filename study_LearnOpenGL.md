@@ -386,7 +386,10 @@ float vertices[] = {
 	1. Allocating memory on the GPU where the Vertex Data will be stored,
 	2. Configuring how OpenGL should interpret the memory, and
 	3. Specifying how to send the data to the GPU
-- The allocated memory on the GPU is managed by Vertex Buffer Objects (VBO),
+- The **Vertex Buffer** is the allocated memory on the GPU that can store a large number of vertices.
+	- (note) rendering from a large chunk of data stored on the GPU is much faster than receiving a stream of data one vertex at a time from the CPU.
+- The allocated memory on the GPU is managed by **Vertex Buffer Object (VBO)** which provides methods for uploading Vertex Data to GPU.
+- 
 
 ## Shaders
 
