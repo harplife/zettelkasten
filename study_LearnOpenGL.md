@@ -382,7 +382,11 @@ float vertices[] = {
 
 ![[ndc.png]]
 
-- In order to send the Vertex Data (of a single triangle) to the Vertex Shader as input, 
+- Sending the Vertex Data (of a single triangle) to the Vertex Shader is done by:
+	1. Allocating memory on the GPU where the Vertex Data will be stored,
+	2. Configuring how OpenGL should interpret the memory, and
+	3. Specifying how to send the data to the GPU
+- The allocated memory on the GPU is managed by Vertex Buffer Objects (VBO),
 
 ## Shaders
 
