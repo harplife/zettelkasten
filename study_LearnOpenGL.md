@@ -460,9 +460,29 @@ std::string fragmentShaderSource = LoadShader("path/to/your/fragment_shader.glsl
 
 ### Compiling a Shader
 - Shaders are typically loaded during the initialization of the graphics program (during runtime). The shader files are read, compiled, and linked into a shader program that can be used to render graphics.
-- `GLuint glCreateShader(GLenum shaderType)` : creates an empty shader object and returns a non-zero value by which it can be referenced.
+- <mark class="hltr-trippy">function</mark> `GLuint glCreateShader(GLenum shaderType)` <mark class="hltr-trippy">:</mark> creates an empty shader object and returns a non-zero value by which it can be referenced.
 	- `shaderType` can be `GL_VERTEX_SHADER`, `GL_GEOMETRY_SHADER`, or `GL_FRAGMENT_SHADER`.
-- 
+	- example : `GLuint vertexShader = glCreateShader(GL_VERTEX_SHADER);`
+- <mark class="hltr-trippy">function</mark> `void glShaderSource(GLuint shader, GLsizei count, const GLchar **string, const GLint *length)` <mark class="hltr-trippy">:</mark> sets the source code in shader with the source code provided by the `string`.
+	- example : `glShaderSource(vertexShader, 1, &vertexShaderSource, NULL);`
+	- OpenGL copies the shader source code strings when `glShaderSource` is called, which means an application may free its copy of the source code strings immediately after the function returns.
+- <mark class="hltr-trippy">function</mark> `void glCompileShader(GLuint shader)` <mark class="hltr-trippy">:</mark>  compiles the source code strings that have been stored in the shader object specified by `shader`.
+	- example : `glCompileShader(vertexShader);`
+- Check for compilation error:
+
+```C++
+int success;
+char infoLog[512];
+glGetShaderiv(vertexShader, GL_COMPILE_STATUS, &success);
+
+if(!success)
+{
+	glGetShaderInfoLog(vertexShader, 512, NULL, infoLog);
+	std::cout << "ERROR::SHADER::VERTEX::COMPILATION_FAILED\n" << infoLog << std::endl;
+}
+```
+
+
 
 
 

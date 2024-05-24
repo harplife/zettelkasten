@@ -30,6 +30,28 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "218e57254332c0a8",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "computer_science/OpenGL/opengl_draw_2d_simple_triangle.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -371,12 +393,13 @@
   },
   "active": "3565833ba7980081",
   "lastOpenFiles": [
+    "computer_science/OpenGL/opengl_draw_2d_simple_triangle.md",
+    "study_LearnOpenGL.md",
     "attachments/ndc.png",
     "attachments/opengl_graphics_pipeline.png",
     "attachments/gf3m104d.bmp",
     "attachments/gp2y9p55.bmp",
     "cpp_hello_window_code.md",
-    "study_LearnOpenGL.md",
     "attachments/Pasted image 20240521121331.png",
     "attachments/Pasted image 20240521110212.png",
     "attachments/Pasted image 20240521105817.png",
@@ -395,7 +418,6 @@
     "filter_bubble.md",
     "attachments/Pasted image 20230611131507.png",
     "attachments/Pasted image 20230611115458.png",
-    "attachments/Pasted image 20230611114820.png",
     "algorithms_panos_louridas.md",
     "Insertion-sort-example-300px.gif.md",
     "11884_e1_004.jpg.md",

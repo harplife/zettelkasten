@@ -825,8 +825,31 @@
                   },
                   "pinned": true
                 }
+              },
+              {
+                "id": "218e57254332c0a8",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "computer_science/OpenGL/opengl_draw_2d_simple_triangle.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -958,7 +981,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "study_LearnOpenGL.md"
+                    "file": "computer_science/OpenGL/opengl_draw_2d_simple_triangle.md"
                   }
                 }
               }
@@ -1043,7 +1066,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "study_LearnOpenGL.md",
+                    "file": "computer_science/OpenGL/opengl_draw_2d_simple_triangle.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -1087,7 +1110,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "study_LearnOpenGL.md",
+                    "file": "computer_science/OpenGL/opengl_draw_2d_simple_triangle.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1132,7 +1155,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "study_LearnOpenGL.md",
+                    "file": "computer_science/OpenGL/opengl_draw_2d_simple_triangle.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1164,8 +1187,8 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "3565833ba7980081",
-      "mtime": "2024-05-22T16:29:29-05:00",
+      "active": "218e57254332c0a8",
+      "mtime": "2024-05-24T10:02:44-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": []
       }
