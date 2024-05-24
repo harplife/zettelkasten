@@ -458,7 +458,10 @@ std::string fragmentShaderSource = LoadShader("path/to/your/fragment_shader.glsl
 
 ```
 
+### Compiling a Shader
 - Shaders are typically loaded during the initialization of the graphics program (during runtime). The shader files are read, compiled, and linked into a shader program that can be used to render graphics.
+- `GLuint glCreateShader(GLenum shaderType)` : creates an empty shader object and returns a non-zero value by which it can be referenced.
+	- `shaderType` can be `GL_VERTEX_SHADER`, `GL_GEOMETRY_SHADER`, or `GL_FRAGMENT_SHADER`.
 - 
 
 
