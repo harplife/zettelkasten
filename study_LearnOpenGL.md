@@ -461,6 +461,8 @@ std::string fragmentShaderSource = LoadShader("path/to/your/fragment_shader.glsl
 - Shaders are typically loaded during the initialization of the graphics program (during runtime). The shader files are read, compiled, and linked into a shader program that can be used to render graphics.
 - 
 
+
+
 ## Shaders
 
 ## Textures
