@@ -571,7 +571,7 @@ glEnableVertexAttribArray(0);
 	- `GLenum type` : specifies the type of the data; float values is indicated with `GL_FLOAT`.
 	- `GLboolean normalized` : specifies whether the data should be normalized, but only if the data is an integer. If this is set to `GL_TRUE`, the integer data is normalized (0~1, or -1~1). In the case of the float data, `GL_FALSE` will suffice.
 	- `GLsizei stride` : specifies the interval between the sets of data. For example, a 3D positional data is a set of 3 float values, therefore the interval between each data is the size of 3 float values (in this case, 4 bytes times 3 == 12 bytes).
-	- `const GLvoid *pointer` : 
+	- `const GLvoid *pointer` : specifies the offset where the Vertex Attribute begins in the buffer. Normally the data is at the start of the data array, therefore the value is `0`. Because there is some complex system involved with the offset (will be discussed later), the value needs to be casted as a void pointer.
 - 
 
 ## Shaders
