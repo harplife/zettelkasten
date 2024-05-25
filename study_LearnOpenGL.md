@@ -572,7 +572,8 @@ glEnableVertexAttribArray(0);
 	- `GLboolean normalized` : specifies whether the data should be normalized, but only if the data is an integer. If this is set to `GL_TRUE`, the integer data is normalized (0~1, or -1~1). In the case of the float data, `GL_FALSE` will suffice.
 	- `GLsizei stride` : specifies the interval between the sets of data. For example, a 3D positional data is a set of 3 float values, therefore the interval between each data is the size of 3 float values (in this case, 4 bytes times 3 == 12 bytes).
 	- `const GLvoid *pointer` : specifies the offset where the Vertex Attribute begins in the buffer. Normally the data is at the start of the data array, therefore the value is `0`. Because there is some complex system involved with the offset (will be discussed later), the value needs to be casted as a void pointer.
-- Once the instruction to interpret the Vertex Data is given to OpenGL via `glVertexAttribPointer()` function, the Vertex Attribute needs to be enabled with `glEnableVertexAttribArray(location)` function.
+- Once the instruction to interpret the Vertex Data is given to OpenGL via `glVertexAttribPointer()` function, the Vertex Attribute needs to be enabled with `glEnableVertexAttribArray(index)` function. `index` is the index of the Vertex Attribute, which in this case is `0`.
+- So far, the Vertex Data is in the buffer, and OpenGL is instructed to parse the Vertex Attributes from the data. This process is to be repeated every time an object is drawn, which is rather repetitive if there are multiple Vertex Attributes and multiple shapes to draw. The way to save the state configuration is to use VAO.
 
 ## Shaders
 
