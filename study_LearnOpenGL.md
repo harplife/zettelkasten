@@ -565,14 +565,14 @@ glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
 glEnableVertexAttribArray(0);
 ```
 
-- `void glVertexAttribPointer(index, size, type, normalized, stride, *pointer)` : specifies the location and data format of the array (of generic vertex attributes) at `index` to use when rendering.
+- <mark class="hltr-trippy">function</mark> `void glVertexAttribPointer(index, size, type, normalized, stride, *pointer)` <mark class="hltr-trippy">:</mark> specifies the location and data format of the array (of generic vertex attributes) at `index` to use when rendering.
 	- `GLuint index` : specifies which Vertex Attribute is to be configured. This value should match the location of the `position` Vertex Attribute in the Vertex Shader - `layout (location = 0)`. 
 	- `GLint size` : specifies the number of components in the Vertex Attribute. For example, if the Vertex Attribute is a `vec3`, then the `size` should be set to 3.
 	- `GLenum type` : specifies the type of the data; float values is indicated with `GL_FLOAT`.
 	- `GLboolean normalized` : specifies whether the data should be normalized, but only if the data is an integer. If this is set to `GL_TRUE`, the integer data is normalized (0~1, or -1~1). In the case of the float data, `GL_FALSE` will suffice.
 	- `GLsizei stride` : specifies the interval between the sets of data. For example, a 3D positional data is a set of 3 float values, therefore the interval between each data is the size of 3 float values (in this case, 4 bytes times 3 == 12 bytes).
 	- `const GLvoid *pointer` : specifies the offset where the Vertex Attribute begins in the buffer. Normally the data is at the start of the data array, therefore the value is `0`. Because there is some complex system involved with the offset (will be discussed later), the value needs to be casted as a void pointer.
-- 
+- Once the instruction to interpret the Vertex Data is given to OpenGL via `glVertexAttribPointer()` function, the Vertex Attribute needs to be enabled with `glEnableVertexAttribArray(location)` function.
 
 ## Shaders
 
