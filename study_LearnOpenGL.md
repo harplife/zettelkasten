@@ -482,10 +482,90 @@ if(!success)
 }
 ```
 
-
 ### Fragment Shader
+- The Fragment Shader is all about calculating the color output of the pixels.
+- The Fragment Shader source code:
+
+```C
+#version 330 core
+out vec4 FragColor;
+
+void main()
+{
+	FragColor = vec4(1.0f, 0.5f, 0.2f, 1.0f);
+}
+```
+
+- The Fragment Shader only requires one output variable; a vector of size 4 that defines the final color output.
+- The output values of the Fragment Shader is declared with the `out` keyword, with variable name `FragColor`.
+- The color output is in `RGBA` format, with values between `0` and `1`.
+- The process for compiling a fragment shader is similar to the Vertex Shader, and the only difference is the `GL_FRAGMENT_SHADER` constant as the shader type.
+- Compile code:
+
+```C++
+unsigned int fragmentShader;
+fragmentShader = glCreateShader(GL_FRAGMENT_SHADER);
+glShaderSource(fragmentShader, 1, &fragmentShaderSource, NULL);
+glCompileShader(fragmentShader);
+```
+
+- Once all the shaders are compiled, both the shader objects are ready to be linked to a shader program.
+
+### Shader Program
+- A **Shader Program** object is the final linked version of multiple shaders combined.
+- To use the compiled shaders, they must be linked to a shader program object.
+- The Shader Program then must be activated when rendering objects.
+- When linking the shaders into a program, it links the output of each shader to the inputs of the next shader. This is where linking errors will occur if outputs and their corresponding inputs do not match.
+- Creating a Shader Program & linking the shaders:
+
+```C++
+unsigned int shaderProgram;
+shaderProgram = glCreateShader();
+
+glAttachShader(shaderProgram, vertexShader);
+glAttachShader(shaderProgram, fragmentShader);
+glLinkProgram(shaderProgram);
+```
+
+- Checking for errors:
+
+```C++
+glGetProgramiv(shaderProgram, GL_LINK_STATUS, &success);
+if(!success) {
+	glGetProgramInfoLog(shaderProgram, 512, NULL, infoLog);
+	//...
+}
+```
 
 
+- The Shader Program can then be activated by `glUseProgram(ShaderProgram);`.
+- Once the Shader Program object is activated, every shader and rendering call afterwards will use this program object (and thus the shaders).
+- Once the shader objects are linked to the program object, they are no longer needed. They can be deleted by:
+
+```C++
+glDeleteShader(vertexShader);
+glDeleteShader(fragmentShader);
+```
+
+- The last step before rendering is to link the Vertex Attributes.
+
+### Linking Vertex Attributes
+- While the Vertex Shader provides great flexibility by allowing devs to specify any input (in the form of Vertex Attribs), it comes with a bit of complexity as the connection between input data and the vertex attributes need to be manually specified.
+- As of now (following the guide for code), the vertex buffer data is formatted as follows:
+	- ![[vertex_attribute_pointer.png]]
+	- There are three vertices, each of the vertex with a position in 3D coordinates.
+	- Each position is composed of 3 values (x, y, z).
+	- Each positional value is stored as 32-bit (4 byte) floating point value.
+	- The values are tightly packed in the array, meaning that there is no space (or other values) between each set of 3 values.
+	- The first value in the data is at the beginning of the buffer (no offset).
+- With the format in mind, OpenGL is to be instructed to interpret the Vertex Data (per Vertex Attribute). Like so:
+
+```C++
+glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
+glEnableVertexAttribArray(0);
+```
+
+- 
 
 ## Shaders
 
