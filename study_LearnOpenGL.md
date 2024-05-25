@@ -575,6 +575,9 @@ glEnableVertexAttribArray(0);
 - Once the instruction to interpret the Vertex Data is given to OpenGL via `glVertexAttribPointer()` function, the Vertex Attribute needs to be enabled with `glEnableVertexAttribArray(index)` function. `index` is the index of the Vertex Attribute, which in this case is `0`.
 - So far, the Vertex Data is in the buffer, and OpenGL is instructed to parse the Vertex Attributes from the data. This process is to be repeated every time an object is drawn, which is rather repetitive if there are multiple Vertex Attributes and multiple shapes to draw. The way to save the state configuration is to use VAO.
 
+### Vertex Array Object
+- A Vertex Array Object (VAO) can be
+
 ## Shaders
 
 ## Textures
