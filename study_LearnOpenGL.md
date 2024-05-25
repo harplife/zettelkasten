@@ -565,6 +565,13 @@ glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
 glEnableVertexAttribArray(0);
 ```
 
+- `void glVertexAttribPointer(index, size, type, normalized, stride, *pointer)` : specifies the location and data format of the array (of generic vertex attributes) at `index` to use when rendering.
+	- `GLuint index` : specifies which Vertex Attribute is to be configured. This value should match the location of the `position` Vertex Attribute 
+	- `GLint size` : 
+	- `GLenum type` : 
+	- `GLboolean normalized` : 
+	- `GLsizei stride` : 
+	- `const GLvoid *pointer` : 
 - 
 
 ## Shaders
