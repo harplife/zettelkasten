@@ -576,7 +576,8 @@ glEnableVertexAttribArray(0);
 - So far, the Vertex Data is in the buffer, and OpenGL is instructed to parse the Vertex Attributes from the data. This process is to be repeated every time an object is drawn, which is rather repetitive if there are multiple Vertex Attributes and multiple shapes to draw. The way to save the state configuration is to use VAO.
 
 ### Vertex Array Object
-- A Vertex Array Object (VAO) is an object that contains one or more VBOs, and is designed to store the information for a complete rendered object. The main purpose of VAOs is to 
+- A **Vertex Array Object (VAO)** is an object that contains one or more VBOs, and is designed to store the information for a complete rendered object. The main purpose of VAOs is to simplify the rendering process by saving buffer and attribute configurations.
+- Core OpenGL requires that VAO is used - if a VAO is not bound, OpenGL will most likely refuse to draw.
 - 
 
 ## Shaders
