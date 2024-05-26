@@ -586,21 +586,28 @@ glEnableVertexAttribArray(0);
 - Example VAO code:
 
 ```C++
+// 1. create VAO
 unsigned int VAO;
 glGenVertexArray(1, &VAO);
 
-// 1. bind Vertex Array Object
+// 2. bind Vertex Array Object
 glBindVertexArray(VAO);
-// 2. copy our vertices array in a buffer for OpenGL to use
+// 3. copy our vertices array in a buffer for OpenGL to use
 glBindBuffer(GL_ARRAY_BUFFER, VBO);
 glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
-// 3. then set our vertex attributes pointers
+// 4. then set our vertex attributes pointers
 glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
 glEnableVertexAttribArray(0);
 
-// 4. draw the object (in render loop)
+// 5. draw the object (in render loop)
 glUseProgram(shaderProgram);
+
+// 6. unbind VAO
+glBindVertexArray(0);
 ```
+
+### Render
+- `glDrawArrays` function is called to draw primitives using the current active shader, the 
 
 ## Shaders
 
