@@ -612,7 +612,10 @@ glBindVertexArray(0);
 	- `GLenum mode` : specifies what kind of primitives to render.
 	- `GLint first` : specifies the starting index in the enabled arrays.
 	- `GLsizei count` : specifies the number of indices to be rendered.
-- 
+- Example : `glDrawArrays(GL_TRIANGLES, 0, 3)`
+
+### Source Code
+
 
 ## Shaders
 
