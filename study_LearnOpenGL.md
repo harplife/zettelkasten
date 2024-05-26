@@ -578,7 +578,29 @@ glEnableVertexAttribArray(0);
 ### Vertex Array Object
 - A **Vertex Array Object (VAO)** is an object that contains one or more VBOs, and is designed to store the information for a complete rendered object. The main purpose of VAOs is to simplify the rendering process by saving buffer and attribute configurations.
 - Core OpenGL requires that VAO is used - if a VAO is not bound, OpenGL will most likely refuse to draw.
-- 
+- A Vertex Array Object stores the following:
+	- Calls to `glEnableVertexAttribArray` or `glDisableVertexAttribArray`
+	- VA configurations via `glVertexAttribPointer`
+	- VBOs associated with VAs by calls to `glVertexAttribPointer`
+- In order to use a VAO, an ID must be generated and then be bound to a VAO. Then the VA configurations are set to the VAO, which is then enabled for use.
+- Example VAO code:
+
+```C++
+unsigned int VAO;
+glGenVertexArray(1, &VAO);
+
+// 1. bind Vertex Array Object
+glBindVertexArray(VAO);
+// 2. copy our vertices array in a buffer for OpenGL to use
+glBindBuffer(GL_ARRAY_BUFFER, VBO);
+glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
+// 3. then set our vertex attributes pointers
+glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
+glEnableVertexAttribArray(0);
+
+// 4. draw the object (in render loop)
+glUseProgram(shaderProgram);
+```
 
 ## Shaders
 
