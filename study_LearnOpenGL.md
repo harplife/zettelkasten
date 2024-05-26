@@ -607,7 +607,8 @@ glBindVertexArray(0);
 ```
 
 ### Render
-- `glDrawArrays` function is called to draw primitives using the current active shader, the 
+- `glDrawArrays` function is called to draw primitives using the current active shader, the previously defined VA configs, and with the VBO's Vertex Data.
+- <mark class="hltr-trippy">function</mark> `void glDrawArrays(GLenum mode, GLint first, GLsizei count)` <mark class="hltr-trippy">:</mark> render primitives from array data.
 
 ## Shaders
 
