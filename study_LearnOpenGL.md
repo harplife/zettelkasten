@@ -676,6 +676,7 @@ glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
 
 - A VAO stores the last EBO that gets bound while the VAO is bound.
 - A VAO stores the `glBindBUffer()` calls when the target is `GL_ELEMENT_ARRAY_BUFFER`. This also means it stores its unbind calls; be sure not to unbind the EBO before unbinding VAO, otherwise the VAO won't have an EBO configured.
+- ![[vertex_array_objects_ebo.png]]
 - The resulting initialization and drawing code now looks something like this:
 
 ```C++
