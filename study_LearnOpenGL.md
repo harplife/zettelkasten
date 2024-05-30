@@ -724,6 +724,13 @@ glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
 glBindVertexArray(0);
 ```
 
+### Wireframe Mode
+- By default, OpenGL renders primitives by filling the shapes with color. This can be changed to **Wireframe Mode**, where shapes are not filled and only the lines are shown.
+- <mark class="hltr-trippy">function</mark> `void glPolygonMode(GLenum face, GLenum mode)` <mark class="hltr-trippy">:</mark> select a polygon rasterization mode.
+	- `GLenum face` : specifies the polygons that mode applies to. Must be `GL_FRONT_AND_BACK` for front and back facing polygons.
+	- `GLenum mode` : specifies how polygons will be rasterized. Accepted values are `GL_POINT`, `GL_LINE`, and `GL_FILL`.
+- 
+
 ## Shaders
 
 ## Textures
