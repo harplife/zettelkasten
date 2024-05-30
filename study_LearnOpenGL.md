@@ -749,7 +749,7 @@ void processInput(GLFWwindow* window)
 ```
 
 ### Side note : De-allocation
-- Although calling `glfwTerminate()` frees 
+- Although calling `glfwTerminate()` frees up all the resources, it's generally a good practice to de-allocate the resources explicitly, especially in a case where 
 
 ## Shaders
 
