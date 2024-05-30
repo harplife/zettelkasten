@@ -32,6 +32,28 @@
             }
           },
           {
+            "id": "64324d79cb20d521",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "cpp_hello_triangle_code.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "218e57254332c0a8",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -53,7 +75,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -185,7 +208,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study_LearnOpenGL.md"
+                "file": "cpp_hello_triangle_code.md"
               }
             }
           }
@@ -270,7 +293,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "study_LearnOpenGL.md",
+                "file": "cpp_hello_triangle_code.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -314,7 +337,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study_LearnOpenGL.md",
+                "file": "cpp_hello_triangle_code.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -359,7 +382,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study_LearnOpenGL.md",
+                "file": "cpp_hello_triangle_code.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -391,12 +414,12 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "3565833ba7980081",
+  "active": "64324d79cb20d521",
   "lastOpenFiles": [
+    "study_LearnOpenGL.md",
     "attachments/vertex_array_objects_ebo.png",
     "computer_science/OpenGL/opengl_draw_2d_simple_triangle.md",
     "cpp_hello_window_code.md",
-    "study_LearnOpenGL.md",
     "cpp_hello_triangle_code.md",
     "attachments/vertex_attribute_pointer.png",
     "attachments/ndc.png",
@@ -419,7 +442,6 @@
     "신의_마법사.md",
     "JE_01.md",
     "filter_bubble.md",
-    "attachments/Pasted image 20230611131507.png",
     "algorithms_panos_louridas.md",
     "Insertion-sort-example-300px.gif.md",
     "11884_e1_004.jpg.md",
