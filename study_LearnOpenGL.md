@@ -340,7 +340,7 @@ Refer to [[cpp_hello_window_code]]
 - In order for OpenGL to know what to make of a collection of coordinates (and color values), OpenGL requires a hint on the type of render to form with the data.
 	- The hint indicates whether the data be rendered as a collection of points, a collection of triangles, or a long line. These hints are called **Primitives**.
 	- Primitives are given to OpenGL while calling any of the drawing commands.
-	- Some of the primitives are `GL_POINTS`, `GL_TRIANGLES`, and `GL_LINE_STRIP`.
+	- Some of the primitives are `GL_POINTS`, `GL_LINE_STRIP`, and `GL_TRIANGLES`.
 - In the first part of the Graphics Pipeline, the vertex shader takes a single vertex as an input.
 - The main purpose of the **Vertex Shader** is to transform 3D coordinates into different 3D coordinates (more on this later).
 	- The vertex shader allows for some basic processing on the vertex attributes.
@@ -615,7 +615,10 @@ glBindVertexArray(0);
 - Example : `glDrawArrays(GL_TRIANGLES, 0, 3)`
 
 ### Source Code
+Refer to [[cpp_hello_triangle_code]]
 
+## Hello Rectangle
+- Drawing shapes that are more complex than triangles require 
 
 ## Shaders
 
