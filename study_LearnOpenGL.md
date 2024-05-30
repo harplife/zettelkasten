@@ -652,8 +652,34 @@ unsigned int indices[] = {  // note that we start from 0!
 };
 ```
 
-- 
+- Using EBO is similar to VBO, where an index for EBO is generated, which is then bound to a buffer, and then lastly the data (indices) are uploaded.
 
+```C++
+unsigned int EBO;
+glGenBuffers(1, &EBO);
+
+glBindBUffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
+glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW);
+```
+
+- <mark class="hltr-trippy">function</mark> `void glDrawElements(mode, count, type, indices)` <mark class="hltr-trippy">:</mark> render primitives from array data. Used instead of `glDrawArrays` when EBO is used.
+	- `GLenum mode` : specifies what kind of primitives to render. In this case, `GL_TRIANGLES`.
+	- `GLsizei count` : specifies the number of *elements* to be rendered. This includes the duplicate vertices; since a rectangle is drawn with two triangles (of 3 points), the count is 6.
+	- `GLenum type` : specifies the type of the values in indices. Most commonly `GL_UNSIGEND_INT`.
+	- `const GLvoid *indices` : specifies an offset of the first index in the array in the data store of the buffer currently bound to the `GL_ELEMENT_ARRAY_BUFFER` target.
+
+```C++
+// ..
+glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
+```
+
+- A VAO stores the last EBO that gets bound while the VAO is bound.
+- A VAO stores the `glBindBUffer()` calls when the target is `GL_ELEMENT_ARRAY_BUFFER`. This also means it stores its unbind calls; be sure not to unbind the EBO before unbinding VAO, otherwise the VAO won't have an EBO configured.
+- The resulting initialization and drawing code now looks something like this:
+
+```C++
+
+```
 
 ## Shaders
 
