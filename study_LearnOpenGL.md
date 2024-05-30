@@ -748,6 +748,9 @@ void processInput(GLFWwindow* window)
 }
 ```
 
+### Side note : De-allocation
+- Although calling `glfwTerminate()` frees 
+
 ## Shaders
 
 ## Textures
