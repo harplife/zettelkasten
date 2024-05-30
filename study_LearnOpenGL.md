@@ -618,7 +618,42 @@ glBindVertexArray(0);
 Refer to [[cpp_hello_triangle_code]]
 
 ## Hello Rectangle
-- Drawing shapes that are more complex than triangles require 
+- Drawing shapes that are more complex than triangles, such as a rectangle, requires breaking them down into base primitives. For example, a rectangle is drawn with two triangles.
+- When complex shapes are broken down into simpler shapes, some of the vertices are reused. For example, a rectangle that is broken down into two triangles have 4 vertices, 2 of which are shared between the triangles.
+- In order to keep track of the vertices that are reused, **indexed drawing** comes into play.
+- An **Element Buffer Object (EBO)** is a type of buffer that allows vertices to be reused in order to create multiple primitives. It is also known as **Index Buffer Object (IBO)**. Basically, it is a buffer that holds an array of indices that keeps track of the arrangement of the vertices.
+- A rectangle (w/ two triangles) without EBO will have 6 vertices, like so:
+
+```C++
+float vertices[] = {
+    // first triangle
+     0.5f,  0.5f, 0.0f,  // top right
+     0.5f, -0.5f, 0.0f,  // bottom right
+    -0.5f,  0.5f, 0.0f,  // top left 
+    // second triangle
+     0.5f, -0.5f, 0.0f,  // bottom right
+    -0.5f, -0.5f, 0.0f,  // bottom left
+    -0.5f,  0.5f, 0.0f   // top left
+};
+```
+
+- With the use of EBO, the rectangle is drawn with 4 vertices, like so:
+
+```C++
+float vertices[] = {
+     0.5f,  0.5f, 0.0f,  // top right
+     0.5f, -0.5f, 0.0f,  // bottom right
+    -0.5f, -0.5f, 0.0f,  // bottom left
+    -0.5f,  0.5f, 0.0f   // top left 
+};
+unsigned int indices[] = {  // note that we start from 0!
+    0, 1, 3,   // first triangle
+    1, 2, 3    // second triangle
+};
+```
+
+- 
+
 
 ## Shaders
 
