@@ -749,7 +749,22 @@ void processInput(GLFWwindow* window)
 ```
 
 ### Side note : De-allocation
-- Although calling `glfwTerminate()` frees up all the resources, it's generally a good practice to de-allocate the resources explicitly, especially in a case where 
+- Although calling `glfwTerminate()` frees up all the resources, it's generally a good practice to de-allocate the resources explicitly, especially in a case where some of the resources are *not* managed by GLFW.
+
+```C++
+// optional: de-allocate all resources
+glDeleteVertexArrays(1, &VAO);
+glDeleteBuffers(1, &VBO);
+glDeleteBuffers(1, &EBO);
+glDeleteProgram(shaderProgram);
+```
+
+### Additional Resources
+- http://antongerdelan.net/opengl/hellotriangle.html : Anton Gerdelan's take on rendering the first triangle.
+- https://open.gl/drawing : Alexander Overvoorde's take on rendering the first triangle.
+- http://antongerdelan.net/opengl/vertexbuffers.html : some extra insights into vertex buffer objects.
+- https://learnopengl.com/In-Practice/Debugging : there are a lot of steps involved in this chapter; if you're stuck it may be worthwhile to read a bit on debugging in OpenGL (up until the debug output section).
+
 
 ## Shaders
 
