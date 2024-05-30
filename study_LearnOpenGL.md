@@ -543,6 +543,7 @@ if(!success) {
 - Once the shader objects are linked to the program object, they are no longer needed. They can be deleted by:
 
 ```C++
+// common practice, frees up space
 glDeleteShader(vertexShader);
 glDeleteShader(fragmentShader);
 ```
