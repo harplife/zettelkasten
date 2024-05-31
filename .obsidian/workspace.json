@@ -30,53 +30,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "64324d79cb20d521",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "cpp_hello_triangle_code.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "218e57254332c0a8",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "computer_science/OpenGL/opengl_draw_2d_simple_triangle.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -208,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cpp_hello_triangle_code.md"
+                "file": "study_LearnOpenGL.md"
               }
             }
           }
@@ -293,7 +248,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "cpp_hello_triangle_code.md",
+                "file": "study_LearnOpenGL.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -337,7 +292,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cpp_hello_triangle_code.md",
+                "file": "study_LearnOpenGL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -382,7 +337,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cpp_hello_triangle_code.md",
+                "file": "study_LearnOpenGL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -414,13 +369,14 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "64324d79cb20d521",
+  "active": "3565833ba7980081",
   "lastOpenFiles": [
+    "cpp_hello_window_code.md",
+    "cpp_hello_rectangle_code.md",
+    "computer_science/OpenGL/opengl_draw_2d_simple_triangle.md",
+    "cpp_hello_triangle_code.md",
     "study_LearnOpenGL.md",
     "attachments/vertex_array_objects_ebo.png",
-    "computer_science/OpenGL/opengl_draw_2d_simple_triangle.md",
-    "cpp_hello_window_code.md",
-    "cpp_hello_triangle_code.md",
     "attachments/vertex_attribute_pointer.png",
     "attachments/ndc.png",
     "attachments/opengl_graphics_pipeline.png",

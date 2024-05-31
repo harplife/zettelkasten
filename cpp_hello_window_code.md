@@ -1,9 +1,9 @@
 This is boilerplate code to create a simple window with OpenGL, as per the guide [[study_LearnOpenGL]].
 
 ```C++
-#include<iostream>
-#include<glad/glad.h>
-#include<GLFW/glfw3.h>
+#include <iostream>
+#include <glad/glad.h>
+#include <GLFW/glfw3.h>
 using namespace std;
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);

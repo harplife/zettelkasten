@@ -766,7 +766,12 @@ glDeleteProgram(shaderProgram);
 - https://learnopengl.com/In-Practice/Debugging : there are a lot of steps involved in this chapter; if you're stuck it may be worthwhile to read a bit on debugging in OpenGL (up until the debug output section).
 
 ### Source Code
+Refer to [[cpp_hello_rectangle_code]]
 
+### Exercises
+- Draw 2 triangles using a single call to `glDrawArrays`
+- Draw 2 triangles using 2 separate calls to `glDrawArrays`
+- Draw 2 triangles of different color by using 2 separate fragment shaders.
 
 ## Shaders
 
