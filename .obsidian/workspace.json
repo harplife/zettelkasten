@@ -30,8 +30,31 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "83780f759d31a96e",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "opengl_code_guide.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -163,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study_LearnOpenGL.md"
+                "file": "opengl_code_guide.md"
               }
             }
           }
@@ -248,7 +271,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "study_LearnOpenGL.md",
+                "file": "opengl_code_guide.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -292,7 +315,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study_LearnOpenGL.md",
+                "file": "opengl_code_guide.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -337,7 +360,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study_LearnOpenGL.md",
+                "file": "opengl_code_guide.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -369,13 +392,14 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "3565833ba7980081",
+  "active": "83780f759d31a96e",
   "lastOpenFiles": [
+    "study_LearnOpenGL.md",
+    "opengl_code_guide.md",
     "cpp_hello_window_code.md",
     "cpp_hello_rectangle_code.md",
     "computer_science/OpenGL/opengl_draw_2d_simple_triangle.md",
     "cpp_hello_triangle_code.md",
-    "study_LearnOpenGL.md",
     "attachments/vertex_array_objects_ebo.png",
     "attachments/vertex_attribute_pointer.png",
     "attachments/ndc.png",
@@ -405,7 +429,6 @@
     "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md",
     "11884_005_fig_002.jpg.md",
     "conflict-files-obsidian-git.md",
-    "digital_system_design.md",
-    "디지털논리회로_요약.md"
+    "digital_system_design.md"
   ]
 }
