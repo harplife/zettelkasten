@@ -69,8 +69,8 @@
 	- Although `gladLoadGL()` does the job, it is recommended in the GLAD documentation to use the address function provided by the windowing library (GLFW).
 - <mark class="hltr-trippy">function</mark> `GLuint glCreateShader(shaderType)` : creates an empty shader object and returns a non-zero value by which it can be referenced.
 	- **param** `GLenum shaderType` : Specifies the type of shader to be created. Must be one of `GL_VERTEX_SHADER`, `GL_GEOMETRY_SHADER`, or `GL_FRAGMENT_SHADER`.
-- function void glShaderSource(shader ,count, string, length)
-	- param GLuint shader
-	- param GLsizei count
-	- param const GLchar \*\*string
-	- param const GLint \*length
+- <mark class="hltr-trippy">function</mark> `void glShaderSource(shader, count, string, length)`
+	- **param** GLuint shader
+	- **param** GLsizei count
+	- **param** const GLchar \*\*string
+	- **param** const GLint \*length
