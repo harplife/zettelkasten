@@ -37,5 +37,15 @@
 	- This function does not check whether the specified hint values are valid. If you set hints to invalid values this will instead be reported by the next call to `glfwCreateWindow`.
 	- Some hints are platform specific. These may be set on any platform, but they will only affect their specific platform (other platforms will ignore them). Setting these hints does not require platform specific headers or functions.
 	- Window hints need to be set before the creation of the window & context. They function as additional arguments to `glfwCreateWindow`.
-	- Notable Hints : `GLFW_CONTEXT_VERSION_MAJOR`, `GLFW_CONTEXT_VERSION_MINOR`, `GLFW_OPENGL_PROFILE`
+	- Notable Hints :
+		- `GLFW_CONTEXT_VERSION_MAJOR` : version of the OpenGL to use. Major just means the first digit of the version (i.e. 1 if 1.0).
+		- `GLFW_CONTEXT_VERSION_MINOR` : version of the OpenGL to use. Minor means the first decimal digit of the version (i.e. 0 if 1.0).
+		- `GLFW_OPENGL_PROFILE` : profile of the OpenGL to use. The corresponding value for the modern OpenGL (3.3 and up) must be `GLFW_OPENGL_CORE_PROFILE`.
 - <mark class="hltr-trippy">function</mark> `GLFWwindow* glfwCreateWindow(width, height, title, monitor, share)` : creates a window and its associated OpenGL context.
+	- **param** `int width` : the desired width (in screen coordinates) of the window.
+	- **param** `int height` : the desired height (in screen coordinates) of the window.
+	- **param** `const char* title` : the initial window title (in UTF-8 encode).
+	- **param** `GLFWmonitor* monitor` : the monitor to use for full screen mode, or `NULL` for windowed mode.
+	- **param** `GLFWwindow* share` : the window whose context to share resources with, or `NULL` to not share resources.
+	- 
+- 
