@@ -65,4 +65,6 @@
 - <mark class="hltr-trippy">function</mark> `void glViewport(x, y, width, height)` : specifies the affine transformation of x and y from normalized device coordinates to window coordinates.
 	- **param** `GLint x, y` : specify the lower left corner of the viewport rectangle, in pixels. The initial value is (0, 0).
 	- **param** `GLsizei width, height` : specify the width and height of the viewport. When a GL context is first attached to a window, width and height are set to the dimensions of that window.
+- <mark class="hltr-trippy">function</mark> `int gladLoadGLLoader((GLADloadproc)glfwGetProcAddress)` : initializes the GLAD library and loads the function that reads the address of an OpenGL function.
+	- Although `gladLoadGL()` does the job, it is recommended in the GLAD documentation to use the address function provided by the windowing library (GLFW).
 - 

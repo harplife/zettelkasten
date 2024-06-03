@@ -114,7 +114,7 @@
 #### OpenGL library on Windows
 - On Windows, `opengl32.lib` comes with the Microsoft SDK (which is installed by default with VS).
 - Add `opengl32.lib` to the linker settings.
-- (note) according to this [SO answer](https://stackoverflow.com/a/63121201), linking `opengl32.lib` is not necessary because GLAD loads it during runtime.
+- (note) according to this [SO answer](https://stackoverflow.com/a/63121201), linking `opengl32.lib` may not be necessary because GLAD loads it during runtime. However, there are conflicting information that says not linking may result in errors during compilation - so, let's just link it to be safe.
 
 ### GLAD
 - Different GPUs come with different versions of OpenGL drivers, which means location of most of its functions is not known at compile-time and needs to be queried at run-time.
@@ -225,6 +225,7 @@ int main()
 
 - `glfwGetProcAddress` : the function to load the address of the OpenGL function pointers (which is OS-specific).
 - `gladLoadGLLoader()` : initializes GLAD with the address function.
+- GLAD does have a built-in loader which can be called with `gladLoadGL()`, but the documentation recommends that the windowing library (such as GLFW) be used instead.
 
 ### Viewport
 - **Window** : a rectangular area that defines which portion of the data is viewed on the screen.
