@@ -114,7 +114,7 @@
 #### OpenGL library on Windows
 - On Windows, `opengl32.lib` comes with the Microsoft SDK (which is installed by default with VS).
 - Add `opengl32.lib` to the linker settings.
-- (note) according to this [SO answer](https://stackoverflow.com/a/63121201), linking `opengl32.lib` is not necessary because 
+- (note) according to this [SO answer](https://stackoverflow.com/a/63121201), linking `opengl32.lib` is not necessary because GLAD loads it during runtime.
 
 ### GLAD
 - Different GPUs come with different versions of OpenGL drivers, which means location of most of its functions is not known at compile-time and needs to be queried at run-time.
