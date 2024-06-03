@@ -48,4 +48,10 @@
 	- **param** `GLFWmonitor* monitor` : the monitor to use for full screen mode, or `NULL` for windowed mode.
 	- **param** `GLFWwindow* share` : the window whose context to share resources with, or `NULL` to not share resources.
 	- The function returns the handle of the created window if successful, otherwise `NULL` (errors must be queried).
-- 
+	- Successful creation of window does *not* change which context is current.
+- <mark class="hltr-trippy">function</mark> `void glfwMakeContextCurrent(window)` : makes the OpenGL context of the specified window current on the calling thread.
+	- **param** `GLFWwindow* window` : the window whose context to make current. Pass `NULL` to detach the current context.
+	- A context must only be made current on a single thread at a time, and each thread can have only a single current context at a time. Making a context current detaches any previously current context on the calling thread.
+	- When moving a context between threads, it must be detached on the old thread before making it current on the new one.
+	- By default, making a context non-current implicitly forces a pipeline flush.
+	- 
