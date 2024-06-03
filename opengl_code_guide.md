@@ -55,4 +55,8 @@
 	- When moving a context between threads, it must be detached on the old thread before making it current on the new one.
 	- By default, making a context non-current implicitly forces a pipeline flush.
 	- Specifying a window without a context will generate a `GLFW_NO_WINDOW_CONTEXT` error.
+	- For more info on context, refer to https://www.glfw.org/docs/latest/context_guide.html
+- <mark class="hltr-trippy">function</mark> `GLFWframebuffersizefun glfwSetFramebufferSizeCallback(window, callback)` : sets the framebuffer resize callback of the specified window, which is called when the framebuffer of the specified window is resized.
+	- **param** `GLFWwindow* window` : the window whose callback to set.
+	- **param** `GLFWframebuffersizefun callback` : the new callback, or `NULL` to remove the currently set callback.
 	- 
