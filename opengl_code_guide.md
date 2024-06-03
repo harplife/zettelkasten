@@ -59,4 +59,4 @@
 - <mark class="hltr-trippy">function</mark> `GLFWframebuffersizefun glfwSetFramebufferSizeCallback(window, callback)` : sets the framebuffer resize callback of the specified window, which is called when the framebuffer of the specified window is resized.
 	- **param** `GLFWwindow* window` : the window whose callback to set.
 	- **param** `GLFWframebuffersizefun callback` : the new callback, or `NULL` to remove the currently set callback.
-	- 
+	- This function is primarily used to 
