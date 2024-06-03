@@ -53,8 +53,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -186,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "opengl_code_guide.md"
+                "file": "study_LearnOpenGL.md"
               }
             }
           }
@@ -271,7 +270,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "opengl_code_guide.md",
+                "file": "study_LearnOpenGL.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -315,7 +314,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "opengl_code_guide.md",
+                "file": "study_LearnOpenGL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -360,7 +359,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "opengl_code_guide.md",
+                "file": "study_LearnOpenGL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -392,10 +391,10 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "83780f759d31a96e",
+  "active": "3565833ba7980081",
   "lastOpenFiles": [
-    "study_LearnOpenGL.md",
     "opengl_code_guide.md",
+    "study_LearnOpenGL.md",
     "cpp_hello_window_code.md",
     "cpp_hello_rectangle_code.md",
     "computer_science/OpenGL/opengl_draw_2d_simple_triangle.md",
