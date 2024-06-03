@@ -246,9 +246,12 @@ void framebuffer_size_callback(GLFWwindow* window, int width, int height)
 
 - The custom callback function is then registered with `glfwSetFramebufferSizeCallback(window, framebuffer_size_callback)`.
 	- Callback functions are registered after the window is created and before the render loop is initiated (which will be covered next).
+- A **Framebuffer** is a portion of RAM that contains a bitmap driving a video display. It's essentially a memory buffer containing data representing all the pixels in a complete video frame. Modern GPUs contain framebuffer circuitry in their cores.
+	- There can be multiple framebuffers in memory at the same time; a **Front Buffer** that's currently displayed, and a **Back Buffer** that is being prepared.
+	- The size of the Framebuffer determines the resolution and maximum colors that can be shown. The information in the buffer typically consists of color values for every pixel to be shown on the display. The total amount of memory required for the Framebuffer depends on the resolution of the output signal, and on the color depth or palette size.
 
 ### Render Loop
-- A loop ("Render Loop") is required to repeatly draw an image until the program has been explicitly told to stop.
+- A loop ("Render Loop") is required to repeatedly draw an image until the program has been explicitly told to stop.
 - A very simple render loop:
 
 ```C++
