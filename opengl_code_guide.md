@@ -8,7 +8,7 @@
 6. Create Window & Context
 7. Set up Window Resize callback
 8. Initialize GLAD
-9. Write Shader Files (vertext & fragment)
+9. Write Shader Files (vertex & fragment)
 10. Load and build shaders
 11. Link shaders
 12. Build a shader program & delete shaders
@@ -24,12 +24,21 @@
 
 ## Functions & Variables
 - <mark class="hltr-trippy">function</mark> `int glfwInit()` : initializes the GLFW library. Returns `GLFW_TRUE` (1) if successful, else `GLFW_FALSE` (0).
+	- The initialization checks what features are available on the machine, enumerates monitors, initializes the timer, and performs any required platform-specific initialization.
+	- Most of the functions from the library will fail (`GLFW_NOT_INITIALIZED` error) if they are called before the initialization; only a handful, such as `glfwGetVersion`, may be called before the init.
+	- If this function fails, it calls `glfwTerminate` before returning. If it succeeds, `glfwTerminate` should be called before the application exits.
+	- Additional calls to this function after successful initialization but before termination will return `GLFW_TRUE` immediately.
+	- 
+	- For more information on initialization, refer to https://www.glfw.org/docs/latest/intro_guide.html#intro_init
+	- 
 - <mark class="hltr-trippy">function</mark> `void glfwWindowHint(hint, value)` : sets hints for the next call to `glfwCreateWindow`.
 	- **param** `int hint` : the window hint to set
 	- **param** `int value` : the new value of the window hint
+	- [Window Creation Hints](https://www.glfw.org/docs/latest/window_guide.html#window_hints) affect the window, framebuffer, or context. These are set to their default each time the library is initialized with `glfwinit`.
 	- Only integer value hints can be set with this function. String value hints are set with `glfwWindowHintString`.
 	- This function does not check whether the specified hint values are valid. If you set hints to invalid values this will instead be reported by the next call to `glfwCreateWindow`.
 	- Some hints are platform specific. These may be set on any platform, but they will only affect their specific platform (other platforms will ignore them). Setting these hints does not require platform specific headers or functions.
-	- [Window Creation Hints](https://www.glfw.org/docs/latest/window_guide.html#window_hints)
+	- Window hints need to be set before the creation of the window & context. They function as additional arguments to `glfwCreateWindow`.
+	- 
 	- Notable Hints : `GLFW_CONTEXT_VERSION_MAJOR`, `GLFW_CONTEXT_VERSION_MINOR`, `GLFW_OPENGL_PROFILE`
 - <mark class="hltr-trippy">function</mark> `GLFWwindow* glfwCreateWindow(width, height, title, monitor, share)` : creates a window and its associated OpenGL context.
