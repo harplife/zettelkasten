@@ -47,5 +47,5 @@
 	- **param** `const char* title` : the initial window title (in UTF-8 encode).
 	- **param** `GLFWmonitor* monitor` : the monitor to use for full screen mode, or `NULL` for windowed mode.
 	- **param** `GLFWwindow* share` : the window whose context to share resources with, or `NULL` to not share resources.
-	- 
+	- The function returns the handle of the created window if successful, otherwise `NULL` (errors must be queried).
 - 
