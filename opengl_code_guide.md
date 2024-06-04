@@ -77,4 +77,7 @@
 	- OpenGL copies the shader source code strings when `glShaderSource` is called, so an application may free its copy of the source code strings immediately after the function returns.
 - function `void glCompileShader(shader)` : compiles the source code strings that have been stored in the shader object specified by `shader`.
 	- param `GLuint shader` : specifies the shader object to be compiled.
-	- The compilation status will be stored as part of the shader object's state. This value will be set to `GL_TRUE` if the shader was compiled without errors and is ready for use, and `GL_FALSE` otherwise. It can be queried by calling `glGetShader` with arguments `shader` and `GL_COMPILE_STATUS`.
+	- The compilation status will be stored as part of the shader object's state. This value will be set to `GL_TRUE` if the shader was compiled without errors and is ready for use, and `GL_FALSE` otherwise. It can be queried by calling `glGetShaderiv`.
+- function void glGetShaderiv(shader, pname, params) : returns in `params` the value of a parameter for a specific shader object.
+	- param GLuint shader
+	- 
