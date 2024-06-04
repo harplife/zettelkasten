@@ -69,8 +69,9 @@
 	- Although `gladLoadGL()` does the job, it is recommended in the GLAD documentation to use the address function provided by the windowing library (GLFW).
 - <mark class="hltr-trippy">function</mark> `GLuint glCreateShader(shaderType)` : creates an empty shader object and returns a non-zero value by which it can be referenced.
 	- **param** `GLenum shaderType` : Specifies the type of shader to be created. Must be one of `GL_VERTEX_SHADER`, `GL_GEOMETRY_SHADER`, or `GL_FRAGMENT_SHADER`.
-- <mark class="hltr-trippy">function</mark> `void glShaderSource(shader, count, string, length)`
-	- **param** GLuint shader
-	- **param** GLsizei count
-	- **param** const GLchar \*\*string
-	- **param** const GLint \*length
+- <mark class="hltr-trippy">function</mark> `void glShaderSource(shader, count, string, length)` : sets the source code in `shader` to the source code in the array of strings specified by `string`.
+	- **param** `GLuint shader` : specifies the handle of the shader object whose source code is to be replaced.
+	- **param** `GLsizei count` : specifies the number of elements in the `string` and `length` arrays.
+	- **param** `const GLchar **string` : specifies an array of pointers to strings containing the source code to be loaded into the shader. (note) reason for double pointers is because `string` is
+	- **param** `const GLint *length` : specifies an array of string lengths. If `NULL`, each string is assumed to be null terminated. Otherwise, it points to an array containing a string length for each of the corresponding elements of `string`.
+	- 
