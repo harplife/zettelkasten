@@ -72,6 +72,6 @@
 - <mark class="hltr-trippy">function</mark> `void glShaderSource(shader, count, string, length)` : sets the source code in `shader` to the source code in the array of strings specified by `string`.
 	- **param** `GLuint shader` : specifies the handle of the shader object whose source code is to be replaced.
 	- **param** `GLsizei count` : specifies the number of elements in the `string` and `length` arrays.
-	- **param** `const GLchar **string` : specifies an array of pointers to strings containing the source code to be loaded into the shader. (note) reason for double pointers is because `string` is
+	- **param** `const GLchar **string` : specifies an array of pointers to strings containing the source code to be loaded into the shader. (note) reason for double pointers is because `string` is an array of char arrays.
 	- **param** `const GLint *length` : specifies an array of string lengths. If `NULL`, each string is assumed to be null terminated. Otherwise, it points to an array containing a string length for each of the corresponding elements of `string`.
 	- 
