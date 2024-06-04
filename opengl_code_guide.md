@@ -75,4 +75,6 @@
 	- **param** `const GLchar **string` : specifies an array of pointers to strings containing the source code to be loaded into the shader. (note) reason for double pointers is because `string` is an array of char arrays.
 	- **param** `const GLint *length` : specifies an array of string lengths. If `NULL`, each string is assumed to be null terminated. Otherwise, it points to an array containing a string length for each of the corresponding elements of `string`.
 	- OpenGL copies the shader source code strings when `glShaderSource` is called, so an application may free its copy of the source code strings immediately after the function returns.
-- 
+- function `void glCompileShader(shader)` : compiles the source code strings that have been stored in the shader object specified by `shader`.
+	- param `GLuint shader` : specifies the shader object to be compiled.
+	- The compilation status will be stored as part of the shader object's state. This value will be set to `GL_TRUE` if the shader was compiled without errors and is ready for use, and `GL_FALSE` otherwise. It can be queried by calling `glGetShader` with arguments `shader` and `GL_COMPILE_STATUS`.
