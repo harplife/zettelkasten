@@ -26,24 +26,9 @@
   "showIndexingStatus": true,
   "descriptionOnSuggestion": "Short",
   "hotkeys": {
-    "select": [
-      {
-        "modifiers": [],
-        "key": "Enter"
-      }
-    ],
-    "up": [
-      {
-        "modifiers": [],
-        "key": "ArrowUp"
-      }
-    ],
-    "down": [
-      {
-        "modifiers": [],
-        "key": "ArrowDown"
-      }
-    ],
+    "select": [],
+    "up": [],
+    "down": [],
     "select 1st": [],
     "select 2nd": [],
     "select 3rd": [],
