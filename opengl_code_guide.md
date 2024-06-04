@@ -70,8 +70,9 @@
 - <mark class="hltr-trippy">function</mark> `GLuint glCreateShader(shaderType)` : creates an empty shader object and returns a non-zero value by which it can be referenced.
 	- **param** `GLenum shaderType` : Specifies the type of shader to be created. Must be one of `GL_VERTEX_SHADER`, `GL_GEOMETRY_SHADER`, or `GL_FRAGMENT_SHADER`.
 - <mark class="hltr-trippy">function</mark> `void glShaderSource(shader, count, string, length)` : sets the source code in `shader` to the source code in the array of strings specified by `string`.
-	- **param** `GLuint shader` : specifies the handle of the shader object whose source code is to be replaced.
+	- **param** `GLuint shader` : specifies the handle of the shader object whose source code is to be replaced. Meaning, it takes the output of the `glCreateShader` as input.
 	- **param** `GLsizei count` : specifies the number of elements in the `string` and `length` arrays.
 	- **param** `const GLchar **string` : specifies an array of pointers to strings containing the source code to be loaded into the shader. (note) reason for double pointers is because `string` is an array of char arrays.
 	- **param** `const GLint *length` : specifies an array of string lengths. If `NULL`, each string is assumed to be null terminated. Otherwise, it points to an array containing a string length for each of the corresponding elements of `string`.
-	- 
+	- OpenGL copies the shader source code strings when `glShaderSource` is called, so an application may free its copy of the source code strings immediately after the function returns.
+- 
