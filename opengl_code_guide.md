@@ -115,4 +115,10 @@
 	- **param** `GLenum pname` : specifies the object parameter.
 	- **param** `GLint *params` : returns the requested object parameter.
 	- There are many parameters that can be checked with this function; refer to https://docs.gl/gl3/glGetProgram
-- 
+- <mark class="hltr-trippy">function</mark> `void glGetProgramInfoLog(program, maxLength, length, infoLog)` : returns the information log for the specified program object.
+	- **param** `GLuint program` : specifies the program object whose information log is to be queried.
+	- **param** `GLsizei maxLength` : specifies the size of the character buffer for storing the returned information log.
+	- **param** `GLsizei *length` : returns the length of the string returned in `infoLog` (excluding the null terminator). `NULL` can be passed in if the length of the returned string is not required.
+	- **param** `GLchar *infoLog` : specifies an array of characters that is used to return the information log. The string will be null terminated.
+	- The size of the buffer required to store the returned information log can be obtained by calling `glGetProgramiv` with the value `GL_INFO_LOG_LENGTH`.
+	- 
