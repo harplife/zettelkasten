@@ -102,11 +102,15 @@
 	- Any operations can be performed on a shader object regardless of the attachment to a program object. It is permissible to attach a shader object without source code to a program object (also extends to non-compiled shader object).
 	- A shader object can be attached to more than one program object.
 	- If a shader object is deleted while it is attached to a program object, it will be flagged for deletion; the deletion will not occur until `glDetachShader` is called to detach it from all program objects to which it is attached.
-- function void glLinkProgram(program) : links the program object specified by `program`.
-	- param GLuint program : specifies the handle of the program object to be linked.
+- <mark class="hltr-trippy">function</mark> `void glLinkProgram(program)` : links the program object specified by `program`.
+	- **param** `GLuint program` : specifies the handle of the program object to be linked.
 	- During the linking stage, any shader object that is attached to `program` will be used to create an executable that will run on the programmable processor (of their own type).
-	- If the specified program object is already currently in use (as a result of a previous call to `glUseProgram`), a successful link operation will install the generated executable(s) as part of the current rendering state. The executable(s) and associated state will remain part of the current state until a subsequent call to `glUseProgram` removes it from use, or another linking is done successfully (if relink is not successful, then the executable(s) will remain).
+	- If the specified program object is already currently in use (as a result of a previous call to `glUseProgram`), a successful link operation will install the generated executable(s) as part of the current rendering state.
 	- As a result of a successful link operation, all active user-defined uniform variables belonging to `program` will be initialized to `0`. Each of the program object's active uniform variables will be assigned to a location that can be queried by calling `glGetUniformLocation`. Also, any active user-defined attribute variables that have not been bound to a generic vertex attribute index will be bound to one at this time.
 	- The status of the link operation will be stored as a part of the program object's state. This value will be set to `GL_TRUE` if the program object was linked without errors and is ready for use, and `GL_FALSE` otherwise. It can be queried by calling `glGetProgram` with arguments `program` and `GL_LINK_STATUS`.
+	- If the link operation is unsuccessful, any information about a previous link operation on `program` is lost (i.e. a failed link does not restore the old state of `program`).
 	- Linking of a program object can fail for a number of reasons; refer to https://docs.gl/gl3/glLinkProgram
-	- 
+- <mark class="hltr-trippy">function</mark> `void glGetProgramiv(program, pname, params)` : returns in `params` the value of a parameter for a specific program object.
+	- **param** `GLuint program` : specifies the program object to be queried.
+	- **param** `GLenum pname` : specifies the object parameter.
+	- **param** `GLint *params` : returns the requested object parameter.
