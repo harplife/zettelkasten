@@ -90,8 +90,16 @@
 	- **param** `GLchar *infoLog` : specifies an array of characters that is used to return the information log. The string that is returned will be null terminated.
 	- The information log for a shader object is a string that may contain diagnostic messages, warning messages, and other information about the last compile operation. Note that the different OpenGL implementations may produce different information logs.
 	- The size of the buffer required to store the returned information log can be obtained by calling `glGetShaderiv` with the value `GL_INFO_LOG_LENGTH`.
-- function `GLuint glCreateProgram()` : creates an empty program object and returns a non-zero value by which it can be referenced.
+- <mark class="hltr-trippy">function</mark> `GLuint glCreateProgram()` : creates an empty program object and returns a non-zero value by which it can be referenced.
 	- A program object is an object to which shader objects can be attached.
-	- The function provides a mechanism to specify the shader objects that will be linked to create a program.
+	- The function provides a mechanism to specify the shader objects that will be linked to create a program. For example, a vertex shader and a fragment shader will be linked once they are both attached to the same program.
 	- The function provides a means for checking the compatibility of the shaders that will be used to create a program (for instance, checking the compatibility between a vertex shader and a fragment shader).
-	- 
+	- One or more executables are created in a program object by attaching shader objects to it with `glAttachShader`, compiling the shader objects with `glCompileShader`, and linking the program object with `glLinkProgram`. These executables are made part of current state when `glUseProgram` is called.
+	- This function returns `0` if an error occurs creating the program object.
+- <mark class="hltr-trippy">function</mark> `void glAttachShader(program, shader)` : attaches a shader object to a program object.
+	- **param** `GLuint program` : specifies the program object to which a shader object will be attached.
+	- **param** `GLuint shader` : specifies the shader object that is to be attached.
+	- Any operations can be performed on a shader object regardless of the attachment to a program object. It is permissible to attach a shader object without source code to a program object (also extends to non-compiled shader object).
+	- A shader object can be attached to more than one program object.
+	- If a shader object is deleted while it is attached to a program object, it will be flagged for deletion; the deletion will not occur until `glDetachShader` is called to detach it from all program objects to which it is attached.
+- function void glLinkProgram(program) : links the program object specified by `program`.
