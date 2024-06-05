@@ -83,3 +83,9 @@
 	- **param** `GLenum pname` : specifies the object parameter. Accepted symbolic names are `GL_SHADER_TYPE`, `GL_DELETE_STATUS`, `GL_COMPILE_STATUS`, `GL_INFO_LOG_LENGTH`, and `GL_SHADER_SOURCE_LENGTH`.
 	- **param** `GLint *params` : returns the requested object parameter.
 	- Status of the shader compilation can be queried by calling this function with `pname` set to `GL_COMPILE_STATUS`. `params` will return with either `GL_TRUE` (1) or `GL_FALSE` (0).
+- <mark class="hltr-trippy">function</mark> `void glGetShaderInfoLog(shader, maxLength, length, infoLog)` : returns the information log for the specified shader object.
+	- **param** `GLuint shader` : specifies the shader object whose information log is to be queried.
+	- **param** `GLsizei maxLength` : specifies the size of the character buffer for storing the returned information log.
+	- **param** `GLsizei *length` : returns the length of the string returned in `infoLog` (excluding the null terminator).
+	- **param** `GLchar *infoLog` : specifies an array of characters that is used to return the information log.
+	- 
