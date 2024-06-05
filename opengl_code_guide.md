@@ -88,4 +88,10 @@
 	- **param** `GLsizei maxLength` : specifies the size of the character buffer for storing the returned information log.
 	- **param** `GLsizei *length` : returns the length of the string returned in `infoLog` (excluding the null terminator). If the length of the returned string is not required, a value of `NULL` can be passed in.
 	- **param** `GLchar *infoLog` : specifies an array of characters that is used to return the information log. The string that is returned will be null terminated.
+	- The information log for a shader object is a string that may contain diagnostic messages, warning messages, and other information about the last compile operation. Note that the different OpenGL implementations may produce different information logs.
+	- The size of the buffer required to store the returned information log can be obtained by calling `glGetShaderiv` with the value `GL_INFO_LOG_LENGTH`.
+- function `GLuint glCreateProgram()` : creates an empty program object and returns a non-zero value by which it can be referenced.
+	- A program object is an object to which shader objects can be attached.
+	- The function provides a mechanism to specify the shader objects that will be linked to create a program.
+	- The function provides a means for checking the compatibility of the shaders that will be used to create a program (for instance, checking the compatibility between a vertex shader and a fragment shader).
 	- 
