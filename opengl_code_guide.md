@@ -120,5 +120,6 @@
 	- **param** `GLsizei maxLength` : specifies the size of the character buffer for storing the returned information log.
 	- **param** `GLsizei *length` : returns the length of the string returned in `infoLog` (excluding the null terminator). `NULL` can be passed in if the length of the returned string is not required.
 	- **param** `GLchar *infoLog` : specifies an array of characters that is used to return the information log. The string will be null terminated.
+	- The information log for a program object is a string that may contain diagnostic messages, warning messages, and other information about the last compile operation. Note that the different OpenGL implementations may produce different information logs.
 	- The size of the buffer required to store the returned information log can be obtained by calling `glGetProgramiv` with the value `GL_INFO_LOG_LENGTH`.
-	- 
+- <mark class="hltr-trippy">function</mark> `void glDeleteShader(shader)`
