@@ -87,5 +87,5 @@
 	- **param** `GLuint shader` : specifies the shader object whose information log is to be queried.
 	- **param** `GLsizei maxLength` : specifies the size of the character buffer for storing the returned information log.
 	- **param** `GLsizei *length` : returns the length of the string returned in `infoLog` (excluding the null terminator).
-	- **param** `GLchar *infoLog` : specifies an array of characters that is used to return the information log.
+	- **param** `GLchar *infoLog` : specifies an array of characters that is used to return the information log. The string that is returned will be null terminated.
 	- 
