@@ -122,4 +122,4 @@
 	- **param** `GLchar *infoLog` : specifies an array of characters that is used to return the information log. The string will be null terminated.
 	- The information log for a program object is a string that may contain diagnostic messages, warning messages, and other information about the last compile operation. Note that the different OpenGL implementations may produce different information logs.
 	- The size of the buffer required to store the returned information log can be obtained by calling `glGetProgramiv` with the value `GL_INFO_LOG_LENGTH`.
-- <mark class="hltr-trippy">function</mark> `void glDeleteShader(shader)`
+- <mark class="hltr-trippy">function</mark> `void glDeleteShader(shader)` : frees the memory and invalidates the name associated with the shader object specified by `shader`. In other words, it deletes a shader object.
