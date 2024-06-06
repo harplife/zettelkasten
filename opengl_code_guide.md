@@ -131,6 +131,17 @@
 	- **param** `GLuint *arrays` : specifies an array in which the generated vertex array object names are stored.
 	- There is no guarantee that the names form a contiguous set of integers.
 	- It is guaranteed that none of the returned names was in use immediately before the call. They are also not returned by subsequent calls, unless they are first deleted with `glDeleteVertexArrays`.
-- <mark class="hltr-trippy">function</mark> `void glGenBuffers(n, buffers)` : 
-	- **param** `GLsizei n`
-	- **param** `GLuint *buffers`
+- <mark class="hltr-trippy">function</mark> `void glBindVertexArray(array)` : binds the vertex array object with name `array`.
+	- **param** `GLuint array` : specifies the name of the vertex array to bind.
+	- VAO must be bound first before VBO and EBO can be bound.
+	- VAO acquires state and type when they are first bound.
+- <mark class="hltr-trippy">function</mark> `void glGenBuffers(n, buffers)` : returns `n` buffer object names in `buffers`. In other words, it generate buffer object names.
+	- **param** `GLsizei n` : specifies the number of buffer object names to be generated.
+	- **param** `GLuint *buffers` : specifies an array in which the generated buffer object names are stored.
+	- There is no guarantee that the names form a contiguous set of integers.
+	- It is guaranteed that none of the returned names was in use immediately before the call. They are also not returned by subsequent calls, unless they are first deleted with `glDeleteBuffers`.
+	- No buffer objects are associated with the returned buffer object names until they are first bound by calling `glbindBuffer`.
+	- This function should be used to generate VBO & EBO names.
+- function `void glBindBuffer(target, buffer)`
+	- param `GLenum target`
+	- param `GLuint buffer`
