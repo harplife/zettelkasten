@@ -142,6 +142,6 @@
 	- It is guaranteed that none of the returned names was in use immediately before the call. They are also not returned by subsequent calls, unless they are first deleted with `glDeleteBuffers`.
 	- No buffer objects are associated with the returned buffer object names until they are first bound by calling `glbindBuffer`.
 	- This function should be used to generate VBO & EBO names.
-- function `void glBindBuffer(target, buffer)`
-	- param `GLenum target`
-	- param `GLuint buffer`
+- <mark class="hltr-trippy">function</mark> `void glBindBuffer(target, buffer)`
+	- **param** `GLenum target`
+	- **param** `GLuint buffer`
