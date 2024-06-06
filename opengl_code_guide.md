@@ -123,3 +123,12 @@
 	- The information log for a program object is a string that may contain diagnostic messages, warning messages, and other information about the last compile operation. Note that the different OpenGL implementations may produce different information logs.
 	- The size of the buffer required to store the returned information log can be obtained by calling `glGetProgramiv` with the value `GL_INFO_LOG_LENGTH`.
 - <mark class="hltr-trippy">function</mark> `void glDeleteShader(shader)` : frees the memory and invalidates the name associated with the shader object specified by `shader`. In other words, it deletes a shader object.
+	- **param** `GLuint shader` : specifies the shader object to be deleted.
+	- If a shader object to be deleted is attached to a program object, it will be flagged for deletion, but it will not be deleted until it is no longer attached to any program object.
+	- To determine whether an object has been flagged for deletion, call `glGetShaderiv` with arguments `shader` and `GL_DELETE_STATUS`.
+- <mark class="hltr-trippy">function</mark> `void glGenVertexArrays(n, arrays)` : generate vertex array object names.
+	- **param** `GLsizei n` : specifies the number of vertex array object names to generate.
+	- **param** `GLuint *arrays` : specifies an array in which the generated vertex array object names are stored.
+	- There is no guarantee that the names form a contiguous set of integers.
+	- It is guaranteed that none of the returned names was in use immediately before the call. They are also not returned by subsequent calls, unless they are first deleted with `glDeleteVertexArrays`.
+- 
