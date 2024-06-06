@@ -131,4 +131,6 @@
 	- **param** `GLuint *arrays` : specifies an array in which the generated vertex array object names are stored.
 	- There is no guarantee that the names form a contiguous set of integers.
 	- It is guaranteed that none of the returned names was in use immediately before the call. They are also not returned by subsequent calls, unless they are first deleted with `glDeleteVertexArrays`.
-- 
+- <mark class="hltr-trippy">function</mark> `void glGenBuffers(n, buffers)` : 
+	- **param** `GLsizei n`
+	- **param** `GLuint *buffers`
