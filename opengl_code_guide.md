@@ -142,6 +142,12 @@
 	- It is guaranteed that none of the returned names was in use immediately before the call. They are also not returned by subsequent calls, unless they are first deleted with `glDeleteBuffers`.
 	- No buffer objects are associated with the returned buffer object names until they are first bound by calling `glbindBuffer`.
 	- This function should be used to generate VBO & EBO names.
-- <mark class="hltr-trippy">function</mark> `void glBindBuffer(target, buffer)`
-	- **param** `GLenum target`
-	- **param** `GLuint buffer`
+- <mark class="hltr-trippy">function</mark> `void glBindBuffer(target, buffer)` : binds a buffer object to the specified buffer binding point.
+	- **param** `GLenum target` : specifies the target to which the buffer object is bound. Basically, it sets the type of buffer to use, such as `GL_ARRAY_BUFFER`, `GL_ELEMENT_ARRAY_BUFFER`, and etc.
+	- **param** `GLuint buffer` : specifies the name of a buffer object (i.e. the buffer object names from `glGenBuffers`).
+	- `buffer` set to `0` effectively unbinds any buffer object previously bound, and restores client memory usage for that buffer object target.
+	- Buffer object names and the corresponding buffer object contents are local to the shared object space of the current GL rendering context; two rendering contexts share buffer object names only if they explicitly enable sharing between context through the appropriate GL windows interfaces functions.
+	- The state of a buffer object immediately after it is first bound is an unmapped zero-sized memory buffer with `GL_READ_WRITE` access and `GL_STATIC_DRAW` usage.
+	- GL operations on the target to which it is bound affect the bound buffer object, and queries of the target to which it is bound return state from the bound buffer object.
+	- This function should be used to bind VBO & EBO names.
+- 
