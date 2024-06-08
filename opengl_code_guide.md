@@ -149,5 +149,13 @@
 	- Buffer object names and the corresponding buffer object contents are local to the shared object space of the current GL rendering context; two rendering contexts share buffer object names only if they explicitly enable sharing between context through the appropriate GL windows interfaces functions.
 	- The state of a buffer object immediately after it is first bound is an unmapped zero-sized memory buffer with `GL_READ_WRITE` access and `GL_STATIC_DRAW` usage.
 	- GL operations on the target to which it is bound affect the bound buffer object, and queries of the target to which it is bound return state from the bound buffer object.
+	- A buffer object binding created with this function remains active until a different buffer object name is bound to the same target, or until the bound buffer object is deleted with `glDeleteBuffers`.
 	- This function should be used to bind VBO & EBO names.
-- 
+- function `void glBufferData(target, size, data, usage)` : creates a new data store for the buffer object currently bound to `target`.
+	- param `GLenum target` : specifies the target buffer object.
+	- param `GLsizeiptr size` : specifies the size in bytes of the buffer object's new data store.
+	- param `const GLvoid *data` : specifies a pointer to data that will be copied into the data store for initialization, or `NULL` if no data is to be copied.
+	- param `GLenum usage` : specifies the expected usage pattern of the data store; such as `GL_STATIC_DRAW`, `GL_DYNAMIC_DRAW`, and etc.
+	- `usuage` enables the GL implementation to make more intelligent decisions that may significantly impact buffer object performance. However, it does not constrain the actual usage of the data store.
+	- `usuage` can be broken down into two parts: first, the frequency of access (static/dynamic/stream), and second, the nature of that access (read/copy/draw).
+	- 
