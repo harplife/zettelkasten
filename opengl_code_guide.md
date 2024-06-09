@@ -169,5 +169,5 @@
 	- **param** `GLenum target` : specifies the target buffer object.
 	- **param** `GLenum value` : specifies the name of a buffer object parameter, such as `GL_BUFFER_ACCESS`, `GL_BUFFER_MAPPED`, `GL_BUFFER_SIZE`, and `GL_BUFFER_USAGE`.
 	- **param** `GLint* data` : returns the requested parameter.
-	- 
+	- This function is useful to 
 - 
