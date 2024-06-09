@@ -169,5 +169,5 @@
 	- **param** `GLenum target` : specifies the target buffer object.
 	- **param** `GLenum value` : specifies the name of a buffer object parameter, such as `GL_BUFFER_ACCESS`, `GL_BUFFER_MAPPED`, `GL_BUFFER_SIZE`, and `GL_BUFFER_USAGE`.
 	- **param** `GLint* data` : returns the requested parameter.
-	- This function is useful to check whether the data 
+	- This function is useful to check whether a buffer object has been loaded with data successfully. This is done so by specifying `value` as `GL_BUFFER_SIZE` (which returns the size of the data inside the buffer object) and then comparing the returned value with the size of the data.
 - 
