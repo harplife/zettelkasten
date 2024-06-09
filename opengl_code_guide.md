@@ -165,8 +165,8 @@
 		- `READ` : the data store contents are modified by reading data from the GL, and used to return that data when queried by the application.
 		- `COPY` : the data store contents are modified by reading data from the GL, and used as the source for GL drawing and image specification commands.
 	- Sometimes it can be better to use `glBufferSubData` instead to update data to a data store. `glBufferSubData` allows updating a subset of a data store, which can be more efficient than updating the whole data. Also, it doesn't have to allocate memory each time it updates data.
-- function `void glGetBufferParameteriv(target, value, data)`
-	- param `GLenum target`
-	- param `GLenum value`
-	- param `GLint* data`
+- <mark class="hltr-trippy">function</mark> `void glGetBufferParameteriv(target, value, data)` : return parameters of a bu
+	- **param** `GLenum target`
+	- **param** `GLenum value`
+	- **param** `GLint* data`
 - 
