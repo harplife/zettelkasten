@@ -151,11 +151,19 @@
 	- GL operations on the target to which it is bound affect the bound buffer object, and queries of the target to which it is bound return state from the bound buffer object.
 	- A buffer object binding created with this function remains active until a different buffer object name is bound to the same target, or until the bound buffer object is deleted with `glDeleteBuffers`.
 	- This function should be used to bind VBO & EBO names.
-- function `void glBufferData(target, size, data, usage)` : creates a new data store for the buffer object currently bound to `target`.
-	- param `GLenum target` : specifies the target buffer object.
-	- param `GLsizeiptr size` : specifies the size in bytes of the buffer object's new data store.
-	- param `const GLvoid *data` : specifies a pointer to data that will be copied into the data store for initialization, or `NULL` if no data is to be copied.
-	- param `GLenum usage` : specifies the expected usage pattern of the data store; such as `GL_STATIC_DRAW`, `GL_DYNAMIC_DRAW`, and etc.
+- <mark class="hltr-trippy">function</mark> `void glBufferData(target, size, data, usage)` : creates a new data store for the buffer object currently bound to `target`.
+	- **param** `GLenum target` : specifies the target buffer object.
+	- **param** `GLsizeiptr size` : specifies the size in bytes of the buffer object's new data store.
+	- **param** `const GLvoid *data` : specifies a pointer to data that will be copied into the data store for initialization, or `NULL` if no data is to be copied.
+	- **param** `GLenum usage` : specifies the expected usage pattern of the data store; such as `GL_STATIC_DRAW`, `GL_DYNAMIC_DRAW`, and etc.
 	- `usuage` enables the GL implementation to make more intelligent decisions that may significantly impact buffer object performance. However, it does not constrain the actual usage of the data store.
 	- `usuage` can be broken down into two parts: first, the frequency of access (static/dynamic/stream), and second, the nature of that access (read/copy/draw).
-	- 
+		- `STREAM` : the data store contents will be modified once and used at most a few times.
+		- `STATIC` : the data store contents will be modified once and used many times.
+		- `DYNAMIC` : the data store contents will be modified repeatedly and used many times.
+		- `DRAW` : the data store contents are modified by the application, and used as the source for GL drawing and image specification commands.
+		- `READ` : the data store contents are modified by reading data from the GL, and used to return that data when queried by the application.
+		- `COPY` : the data store contents are modified by reading data from the GL, and used as the source for GL drawing and image specification commands.
+	- Sometimes it can be better to use `glBufferSubData` instead to update data to a data store. `glBufferSubData` allows updating a subset of a data store, which can be more efficient than updating the whole data. Also, it doesn't have to allocate memory each time it updates data.
+- 
+- 
