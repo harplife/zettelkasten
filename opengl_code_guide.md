@@ -171,6 +171,7 @@
 	- **param** `GLint* data` : returns the requested parameter.
 	- This function is useful to check whether a buffer object has been loaded with data successfully. This is done so by specifying `value` as `GL_BUFFER_SIZE` (which returns the size of the data inside the buffer object) and then comparing the returned value with the size of the data.
 	- Unlike shader or program, there isn't a function like `glShaderInfoLog` to get detailed information about errors that occur with buffer objects. It's important to utilize other methods to keep the application bug free.
-- function `GLenum glGetError()` : returns the value of the error flag.
+- <mark class="hltr-trippy">function</mark> `GLenum glGetError()` : returns the value of the error flag.
 	- Each detectable error is assigned a numeric code and symbolic name. When an error occurs, the error flag is set to the appropriate error code value - no other errors are recorded until `glGetError` is called, the error code is returned, and the flag is reset to `GL_NO_ERROR`.
-	- There are several error flags
+	- There may be several error flags; `glGetError` should always be called in a loop, until it returns `GL_NO_ERROR`.
+- 
