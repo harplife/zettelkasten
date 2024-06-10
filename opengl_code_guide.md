@@ -174,10 +174,11 @@
 - <mark class="hltr-trippy">function</mark> `GLenum glGetError()` : returns the value of the error flag.
 	- Each detectable error is assigned a numeric code and symbolic name. When an error occurs, the error flag is set to the appropriate error code value - no other errors are recorded until `glGetError` is called, the error code is returned, and the flag is reset to `GL_NO_ERROR`.
 	- There may be several error flags; `glGetError` should always be called in a loop, until it returns `GL_NO_ERROR`.
-- function `void glVertexAttribPointer(index, size, type, normalized, stride, pointer)` : specifies the location and data format of an array of generic vertex attributes.
-	- param `GLuint index`
-	- param `GLint size`
-	- param `GLenum type`
-	- param `GLboolean normalized`
-	- param `GLsizei stride`
-	- param `const GLvoid *pointer`
+- <mark class="hltr-trippy">function</mark> `void glVertexAttribPointer(index, size, type, normalized, stride, pointer)` : specifies the location and data format of an array of generic vertex attributes.
+	- **param** `GLuint index` : specifies the index of the generic vertex attribute to be modified.
+	- **param** `GLint size` : specifies the number of components (between 1~4) per generic vertex attribute. For example, a 3D coordinate consists of 3 components.
+	- **param** `GLenum type` : specifies the data type of each component in the array, such as `GL_FLOAT`, `GL_INT`, and etc.
+	- **param** `GLboolean normalized` : specifies whether fixed-point data values should be normalized (`GL_TRUE`) or converted directly as fixed-point values (`GL_FALSE`) when they are accessed.
+	- **param** `GLsizei stride` : specifies the byte offset between consecutive generic vertex attributes. If set to `0`, the generic vertex attributes are understood to be tightly packed in the array.
+	- **param** `const GLvoid *pointer` : specifies a offset of the first component of the first generic vertex attribute in the array in the data store of the buffer currently bound to the `GL_ARRAY_BUFFER` target.
+	- 
