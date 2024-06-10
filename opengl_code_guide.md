@@ -135,6 +135,7 @@
 	- **param** `GLuint array` : specifies the name of the vertex array to bind.
 	- VAO must be bound first before VBO and EBO can be bound.
 	- VAO acquires state and type when they are first bound.
+	- Passing `0` as argument unbinds the currently bound VAO. Sometimes it's good practice to unbind before the render loop to prevent further modification, but it comes with a small performance cost.
 - <mark class="hltr-trippy">function</mark> `void glGenBuffers(n, buffers)` : returns `n` buffer object names in `buffers`. In other words, it generate buffer object names.
 	- **param** `GLsizei n` : specifies the number of buffer object names to be generated.
 	- **param** `GLuint *buffers` : specifies an array in which the generated buffer object names are stored.
@@ -145,7 +146,7 @@
 - <mark class="hltr-trippy">function</mark> `void glBindBuffer(target, buffer)` : binds a buffer object to the specified buffer binding point.
 	- **param** `GLenum target` : specifies the target to which the buffer object is bound. Basically, it sets the type of buffer to use, such as `GL_ARRAY_BUFFER`, `GL_ELEMENT_ARRAY_BUFFER`, and etc.
 	- **param** `GLuint buffer` : specifies the name of a buffer object (i.e. the buffer object names from `glGenBuffers`).
-	- `buffer` set to `0` effectively unbinds any buffer object previously bound, and restores client memory usage for that buffer object target. It's best practice to unbind 
+	- `buffer` set to `0` effectively unbinds any buffer object previously bound, and restores client memory usage for that buffer object target. Sometimes it's good practice to unbind VBOs to prevent further modification, but it comes with small performance cost.
 	- Buffer object names and the corresponding buffer object contents are local to the shared object space of the current GL rendering context; two rendering contexts share buffer object names only if they explicitly enable sharing between context through the appropriate GL windows interfaces functions.
 	- The state of a buffer object immediately after it is first bound is an unmapped zero-sized memory buffer with `GL_READ_WRITE` access and `GL_STATIC_DRAW` usage.
 	- GL operations on the target to which it is bound affect the bound buffer object, and queries of the target to which it is bound return state from the bound buffer object.
@@ -186,4 +187,6 @@
 	- **param** `GLuint index` : specifies the index of the generic vertex attribute to be enabled.
 	- Once enabled, the values in the generic vertex attribute array will be accessed and used for rendering when calls are made to vertex array commands.
 	- Enabling/disabling the generic vertex attribute is necessary in order to select which attribute is used for rendering, as opposed to using all (max 16) attributes which aren't necessary and will slow down rendering.
-- 
+- function `int glfwWindowShouldClose(window)` : returns the value of the close flag of the specified window.
+	- param `GLFWwindow* window` : the window to query.
+	- 
