@@ -145,7 +145,7 @@
 - <mark class="hltr-trippy">function</mark> `void glBindBuffer(target, buffer)` : binds a buffer object to the specified buffer binding point.
 	- **param** `GLenum target` : specifies the target to which the buffer object is bound. Basically, it sets the type of buffer to use, such as `GL_ARRAY_BUFFER`, `GL_ELEMENT_ARRAY_BUFFER`, and etc.
 	- **param** `GLuint buffer` : specifies the name of a buffer object (i.e. the buffer object names from `glGenBuffers`).
-	- `buffer` set to `0` effectively unbinds any buffer object previously bound, and restores client memory usage for that buffer object target.
+	- `buffer` set to `0` effectively unbinds any buffer object previously bound, and restores client memory usage for that buffer object target. It's best practice to unbind 
 	- Buffer object names and the corresponding buffer object contents are local to the shared object space of the current GL rendering context; two rendering contexts share buffer object names only if they explicitly enable sharing between context through the appropriate GL windows interfaces functions.
 	- The state of a buffer object immediately after it is first bound is an unmapped zero-sized memory buffer with `GL_READ_WRITE` access and `GL_STATIC_DRAW` usage.
 	- GL operations on the target to which it is bound affect the bound buffer object, and queries of the target to which it is bound return state from the bound buffer object.
@@ -174,11 +174,16 @@
 - <mark class="hltr-trippy">function</mark> `GLenum glGetError()` : returns the value of the error flag.
 	- Each detectable error is assigned a numeric code and symbolic name. When an error occurs, the error flag is set to the appropriate error code value - no other errors are recorded until `glGetError` is called, the error code is returned, and the flag is reset to `GL_NO_ERROR`.
 	- There may be several error flags; `glGetError` should always be called in a loop, until it returns `GL_NO_ERROR`.
-- <mark class="hltr-trippy">function</mark> `void glVertexAttribPointer(index, size, type, normalized, stride, pointer)` : specifies the location and data format of an array of generic vertex attributes.
+- <mark class="hltr-trippy">function</mark> `void glVertexAttribPointer(index, size, type, normalized, stride, pointer)` : specifies the location and data format of an array of generic vertex attributes. It is basically an instruction on how to interpret the data.
 	- **param** `GLuint index` : specifies the index of the generic vertex attribute to be modified.
 	- **param** `GLint size` : specifies the number of components (between 1~4) per generic vertex attribute. For example, a 3D coordinate consists of 3 components.
 	- **param** `GLenum type` : specifies the data type of each component in the array, such as `GL_FLOAT`, `GL_INT`, and etc.
 	- **param** `GLboolean normalized` : specifies whether fixed-point data values should be normalized (`GL_TRUE`) or converted directly as fixed-point values (`GL_FALSE`) when they are accessed.
 	- **param** `GLsizei stride` : specifies the byte offset between consecutive generic vertex attributes. If set to `0`, the generic vertex attributes are understood to be tightly packed in the array.
 	- **param** `const GLvoid *pointer` : specifies a offset of the first component of the first generic vertex attribute in the array in the data store of the buffer currently bound to the `GL_ARRAY_BUFFER` target.
-	- 
+	- When a generic vertex attribute array is specified, all of its arguments are saved as vertex array state, in addition to the current vertex array buffer object binding.
+- <mark class="hltr-trippy">function</mark> `void glEnableVertexAttribArray(index)` : enables the generic vertex attribute array.
+	- **param** `GLuint index` : specifies the index of the generic vertex attribute to be enabled.
+	- Once enabled, the values in the generic vertex attribute array will be accessed and used for rendering when calls are made to vertex array commands.
+	- Enabling/disabling the generic vertex attribute is necessary in order to select which attribute is used for rendering, as opposed to using all (max 16) attributes which aren't necessary and will slow down rendering.
+- 
