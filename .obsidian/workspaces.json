@@ -103,7 +103,8 @@
                   "state": {}
                 }
               }
-            ]
+            ],
+            "currentTab": 2
           },
           {
             "id": "0065a4e248a61faa",
@@ -259,7 +260,7 @@
         }
       },
       "active": "83780f759d31a96e",
-      "mtime": "2024-06-11T13:49:12-05:00",
+      "mtime": "2024-06-11T15:12:27-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "Dictionary"

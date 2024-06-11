@@ -214,4 +214,8 @@
 	- **param** `GLenum type` : specifies the type of the values in `indices`. Must be one of `GL_UNSIGNED_BYTE`, `GL_UNSIGNED_SHORT`, or `GL_UNSIGNED_INT`.
 	- **param** `const GLvoid *indices` : specifies an offset of the first index in the array in the data store of the buffer currently bound to the `GL_ELEMENT_ARRAY_BUFFER` target.
 	- VAOs must be bound before this function is called.
+- <mark class="hltr-trippy">function</mark> `void glfwSwapBuffers(window)` : swaps the front and back buffers of the specified window.
+	- **param** `GLFWwindow* window` : specifies the window whose buffers to swap.
+	- Double buffers & swapping is necessary in order to prevent artifacts that occur with single buffer.
+- <mark class="hltr-trippy">function</mark> `void glfwPollEvents()` : processes only those events that have already been received and then returns immediately. Processing events will cause the window and input callbacks associated with those events to be called.
 - 
