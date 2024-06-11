@@ -194,8 +194,12 @@
 	- **param** `GLFWwindow* window` : specifies the window whose close flag to change.
 	- **param** `int value` : specifies the new value to set to the close flag.
 	- The close flag value can be set to `GLFW_TRUE` or `GLFW_FALSE`. `1` or `0` works as well.
-- function `int glfwGetKey(window, key)` : returns the last state reported for the specified key to the specified window. The returned state is either `GLFW_PRESS` or `GLFW_RELEASE`.
-	- param `GLFWwindow* window` : specifies the window to get key input from.
-	- param `int key` : specifies the key to query.
-	- The US keyboard layout is used. Key 
+- <mark class="hltr-trippy">function</mark> `int glfwGetKey(window, key)` : returns the last state reported for the specified key to the specified window. The returned state is either `GLFW_PRESS` or `GLFW_RELEASE`.
+	- **param** `GLFWwindow* window` : specifies the window to get key input from.
+	- **param** `int key` : specifies the key to query.
+	- The US keyboard layout is used for key input. The keys include `GLFW_KEY_ESCAPE` for ESC, `GLFW_KEY_A` for A, `GLFW_KEY_0` for 0, and etc. For the complete list of keys, refer to https://www.glfw.org/docs/latest/group__keys.html
+	- Once a key is pressed, the function will return `GLFW_PRESS`.
 	- Do not use this function to implement text input.
+- <mark class="hltr-trippy">function</mark> `void glClearColor(red, green, blue, alpha)` : specifies the RGBA values used by `glClear` to clear the color buffers.
+	- **param** `GLclampf red/green/blue/alpha` : RGBA values that are clamped to the range $[0,1]$.
+- function `void glClear(mask)` : sets the bitplane area (buffers) of the window to values previously selected by `glClearColor`, `glClearDepth`, and `glClearStencil`.

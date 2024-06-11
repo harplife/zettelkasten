@@ -164,8 +164,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "0065a4e248a61faa",
@@ -194,8 +193,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 230.5,
-    "collapsed": true
+    "width": 230.5
   },
   "right": {
     "id": "f152d8fd8ec1f4e0",
@@ -394,6 +392,7 @@
   },
   "active": "83780f759d31a96e",
   "lastOpenFiles": [
+    "Dictionary",
     "study_LearnOpenGL.md",
     "opengl_code_guide.md",
     "cpp_hello_window_code.md",
@@ -428,7 +427,6 @@
     "computer_graphics/cg_general_notes/3d_영상_콘텐츠_제작자_양성_과정.md",
     "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md",
     "11884_005_fig_002.jpg.md",
-    "conflict-files-obsidian-git.md",
-    "digital_system_design.md"
+    "conflict-files-obsidian-git.md"
   ]
 }

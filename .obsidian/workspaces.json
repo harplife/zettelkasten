@@ -166,8 +166,7 @@
                   "state": {}
                 }
               }
-            ],
-            "currentTab": 2
+            ]
           },
           {
             "id": "0065a4e248a61faa",
@@ -196,8 +195,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 230.5,
-        "collapsed": true
+        "width": 230.5
       },
       "right": {
         "id": "f152d8fd8ec1f4e0",
@@ -394,8 +392,8 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "83780f759d31a96e",
-      "mtime": "2024-06-08T06:46:54-05:00",
+      "active": "19ce5a4d65676126",
+      "mtime": "2024-06-11T10:54:39-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": []
       }
