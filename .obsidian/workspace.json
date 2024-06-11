@@ -385,13 +385,14 @@
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
       "workspaces:Manage workspace layouts": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "mathpad:Open Mathpad": false,
-      "workspaces-plus:Manage workspaces": false
+      "workspaces-plus:Manage workspaces": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "83780f759d31a96e",
+  "active": "15ca17ef343452c3",
   "lastOpenFiles": [
+    "Dictionary/graphics",
     "Dictionary",
     "study_LearnOpenGL.md",
     "opengl_code_guide.md",
