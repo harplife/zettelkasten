@@ -207,5 +207,9 @@
 - <mark class="hltr-trippy">function</mark> `void glUseProgram(program)` : installs the program object as part of current rendering state.
 	- **param** `GLuint program` : specifies the handle of the program object whose executables are to be used as part of current rendering state.
 	- One or more executables are created in a program object by successfully attaching shader objects to it with `glAttachShader`, successfully compiling the shader objects with `glCompileShader`, and successfully linking the program object with `glLinkProgram`.
-	- 
+- <mark class="hltr-trippy">function</mark> `void glDrawElements(mode, count, type, indices)` : renders primitives from array data.
+	- **param** `GLenum mode` : specifies the kind of primitives to render, such as `GL_POINTS`, `GL_LINES`, `GL_TRIANGLES`, and etc.
+	- **param** `GLsizei count` : specifies the number of elements to be rendered.
+	- **param** `GLenum type` : specifies the type of the values in `indices`. Must be one of `GL_UNSIGNED_BYTE`, `GL_UNSIGNED_SHORT`, or `GL_UNSIGNED_INT`.
+	- **param** `const GLvoid *indices` : specifies an offset of the first index in the array in the data store of the buffer currently bound to the `GL_ELEMENT_ARRAY_BUFFER` target.
 - 
