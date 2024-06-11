@@ -188,10 +188,14 @@
 	- Once enabled, the values in the generic vertex attribute array will be accessed and used for rendering when calls are made to vertex array commands.
 	- Enabling/disabling the generic vertex attribute is necessary in order to select which attribute is used for rendering, as opposed to using all (max 16) attributes which aren't necessary and will slow down rendering.
 - <mark class="hltr-trippy">function</mark> `int glfwWindowShouldClose(window)` : returns the value of the close flag of the specified window.
-	- **param** `GLFWwindow* window` : the window to query.
+	- **param** `GLFWwindow* window` : specifies the window to query from.
 	- The output of this function is ultimately the condition for the render loop; that is, the render loop should run as long as the close flag's value is not true.
 - <mark class="hltr-trippy">function</mark> `void glfwSetWindowShouldClose(window, value)` : sets the value of the close flag of the specified window.
 	- **param** `GLFWwindow* window` : specifies the window whose close flag to change.
 	- **param** `int value` : specifies the new value to set to the close flag.
 	- The close flag value can be set to `GLFW_TRUE` or `GLFW_FALSE`. `1` or `0` works as well.
-- 
+- function `int glfwGetKey(window, key)` : returns the last state reported for the specified key to the specified window. The returned state is either `GLFW_PRESS` or `GLFW_RELEASE`.
+	- param `GLFWwindow* window` : specifies the window to get key input from.
+	- param `int key` : specifies the key to query.
+	- The US keyboard layout is used. Key 
+	- Do not use this function to implement text input.
