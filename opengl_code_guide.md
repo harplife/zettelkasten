@@ -189,4 +189,9 @@
 	- Enabling/disabling the generic vertex attribute is necessary in order to select which attribute is used for rendering, as opposed to using all (max 16) attributes which aren't necessary and will slow down rendering.
 - <mark class="hltr-trippy">function</mark> `int glfwWindowShouldClose(window)` : returns the value of the close flag of the specified window.
 	- **param** `GLFWwindow* window` : the window to query.
+	- The output of this function is ultimately the condition for the render loop; that is, the render loop should run as long as the close flag's value is not true.
+- <mark class="hltr-trippy">function</mark> `void glfwSetWindowShouldClose(window, value)` : sets the value of the close flag of the specified window.
+	- **param** `GLFWwindow* window` : specifies the window whose close flag to change.
+	- **param** `int value` : specifies the new value to set to the close flag.
+	- The close flag value can be set to `GLFW_TRUE` or `GLFW_FALSE`. `1` or `0` works as well.
 - 
