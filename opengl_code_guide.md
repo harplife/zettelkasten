@@ -219,5 +219,5 @@
 	- Double buffers & swapping is necessary in order to prevent artifacts that occur with single buffer.
 - <mark class="hltr-trippy">function</mark> `void glfwPollEvents()` : processes only those events that have already been received and then returns immediately. Processing events will cause the window and input callbacks associated with those events to be called.
 	- When the function is called, it processes all window event messages that the OS has accumulated so far for all windows in the process. These events include things like key presses, mouse movement, window resizing, and so on.
-	- Most often the function is placed inside the rendering loop. This means that events such as keyboard presses and mouse clicks will only get handled as often as the frame is updated. If the frame rate is lower, events will be processed slower.
+	- Most often the function is placed inside the rendering loop. This means that events such as keyboard presses and mouse clicks will only get handled as often as the frame is updated. If the frame rate is lower, events will be processed slower. One way to solve this problem is to move the rendering to another thread.
 - 
