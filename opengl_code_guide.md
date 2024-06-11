@@ -187,6 +187,7 @@
 	- **param** `GLuint index` : specifies the index of the generic vertex attribute to be enabled.
 	- Once enabled, the values in the generic vertex attribute array will be accessed and used for rendering when calls are made to vertex array commands.
 	- Enabling/disabling the generic vertex attribute is necessary in order to select which attribute is used for rendering, as opposed to using all (max 16) attributes which aren't necessary and will slow down rendering.
+	- Do *NOT* disable the vertex attribute arrays if VAO is being used, as VAOs encapsulates them.
 - <mark class="hltr-trippy">function</mark> `int glfwWindowShouldClose(window)` : returns the value of the close flag of the specified window.
 	- **param** `GLFWwindow* window` : specifies the window to query from.
 	- The output of this function is ultimately the condition for the render loop; that is, the render loop should run as long as the close flag's value is not true.
