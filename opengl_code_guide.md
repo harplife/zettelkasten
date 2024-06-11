@@ -202,4 +202,7 @@
 	- Do not use this function to implement text input.
 - <mark class="hltr-trippy">function</mark> `void glClearColor(red, green, blue, alpha)` : specifies the RGBA values used by `glClear` to clear the color buffers.
 	- **param** `GLclampf red/green/blue/alpha` : RGBA values that are clamped to the range $[0,1]$.
-- function `void glClear(mask)` : sets the bitplane area (buffers) of the window to values previously selected by `glClearColor`, `glClearDepth`, and `glClearStencil`.
+- <mark class="hltr-trippy">function</mark> `void glClear(mask)` : sets the bitplane area (buffer) of the window to values previously selected by `glClearColor`, `glClearDepth`, and `glClearStencil`.
+	- **param** `GLbitfield mask` : specifies the mask to be cleared. There are three masks that can be selected - `GL_COLOR_BUFFER`, `GL_DEPTH_BUFFER`, and `GL_STENCIL_BUFFER_BIT`.
+	- 
+- 

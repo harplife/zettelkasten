@@ -23,9 +23,9 @@
   ],
   "phrasePatternsToSuppressTrigger": [],
   "noAutoFocusUntilCycle": false,
-  "showMatchStrategy": true,
-  "showComplementAutomatically": true,
-  "showIndexingStatus": true,
+  "showMatchStrategy": false,
+  "showComplementAutomatically": false,
+  "showIndexingStatus": false,
   "descriptionOnSuggestion": "Short",
   "hotkeys": {
     "select": [],
@@ -50,13 +50,13 @@
   "currentFileMinNumberOfCharacters": 0,
   "onlyComplementEnglishOnCurrentFileComplement": false,
   "excludeCurrentFileWordPatterns": [],
-  "enableCurrentVaultComplement": true,
+  "enableCurrentVaultComplement": false,
   "currentVaultMinNumberOfCharacters": 0,
   "includeCurrentVaultPathPrefixPatterns": "",
   "excludeCurrentVaultPathPrefixPatterns": "",
   "includeCurrentVaultOnlyFilesUnderCurrentDirectory": false,
   "excludeCurrentVaultWordPatterns": [],
-  "enableCustomDictionaryComplement": true,
+  "enableCustomDictionaryComplement": false,
   "customDictionaryPaths": "https://raw.githubusercontent.com/first20hours/google-10000-english/master/google-10000-english-no-swears.txt",
   "columnDelimiter": "Tab",
   "customDictionaryWordRegexPattern": "",
@@ -74,7 +74,7 @@
     "after": ""
   },
   "frontMatterKeyForExclusionInternalLink": "",
-  "enableFrontMatterComplement": true,
+  "enableFrontMatterComplement": false,
   "frontMatterComplementMatchStrategy": "inherit",
   "insertCommaAfterFrontMatterCompletion": false,
   "intelligentSuggestionPrioritization": {
@@ -84,12 +84,5 @@
     "maxNumberOfHistoryToKeep": 0
   },
   "disableOnMobile": false,
-  "showLogAboutPerformanceInConsole": false,
-  "insertAfterCompletion": false,
-  "selectionHistoryTree": {},
-  "useCommonPrefixCompletionOfSuggestion": false,
-  "selectSuggestionKeys": "None",
-  "additionalCycleThroughSuggestionsKeys": "None",
-  "disableUpDownKeysForCycleThroughSuggestionsKeys": true,
-  "openSourceFileKey": "None"
+  "showLogAboutPerformanceInConsole": false
 }

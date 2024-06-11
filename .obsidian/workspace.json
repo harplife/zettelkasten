@@ -10,15 +10,6 @@
           {
             "id": "3565833ba7980081",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "pinned": true,
             "state": {
               "type": "markdown",
@@ -34,15 +25,6 @@
           {
             "id": "83780f759d31a96e",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "markdown",
               "state": {
@@ -52,28 +34,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "5bcbc1bad4252c37",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.3"
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -89,15 +52,6 @@
           {
             "id": "19ce5a4d65676126",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "file-explorer",
               "state": {
@@ -108,15 +62,6 @@
           {
             "id": "22b2c060987a0027",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "tag",
               "state": {
@@ -128,15 +73,6 @@
           {
             "id": "12efa4d7cc8b07c3",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "search",
               "state": {
@@ -152,15 +88,6 @@
           {
             "id": "9054b5e11b58f0d9",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "bookmarks",
               "state": {}
@@ -169,15 +96,6 @@
           {
             "id": "86bff414d2d51e56",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "center-panes",
               "state": {}
@@ -192,15 +110,6 @@
           {
             "id": "15ca17ef343452c3",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "outline",
               "state": {
@@ -225,15 +134,6 @@
           {
             "id": "65c09b173479de66",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {}
@@ -242,49 +142,14 @@
           {
             "id": "227e6011dc684b16",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "mathpad-view",
               "state": {}
             }
           },
           {
-            "id": "27ce6da980886c10",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "dictionary-view",
-              "state": {}
-            }
-          },
-          {
             "id": "96b3986a5f1a95d9",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "localgraph",
               "state": {
@@ -320,15 +185,6 @@
           {
             "id": "2a292a21980dd16c",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "outgoing-link",
               "state": {
@@ -337,9 +193,17 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "c513c08b64ec3a16",
+            "type": "leaf",
+            "state": {
+              "type": "dictionary-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       },
       {
         "id": "baddb2b819dd740a",
@@ -348,15 +212,6 @@
           {
             "id": "4aa4b36a0cb514d0",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "graph",
               "state": {}
@@ -365,15 +220,6 @@
           {
             "id": "44fedb4924e97e68",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "backlink",
               "state": {
@@ -392,7 +238,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 362.5
+    "width": 362.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -408,12 +255,12 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "5bcbc1bad4252c37",
+  "active": "83780f759d31a96e",
   "lastOpenFiles": [
+    "opengl_code_guide.md",
+    "study_LearnOpenGL.md",
     "Dictionary/graphics",
     "Dictionary",
-    "study_LearnOpenGL.md",
-    "opengl_code_guide.md",
     "cpp_hello_window_code.md",
     "cpp_hello_rectangle_code.md",
     "computer_science/OpenGL/opengl_draw_2d_simple_triangle.md",

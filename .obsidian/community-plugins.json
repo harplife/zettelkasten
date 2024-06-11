@@ -4,8 +4,6 @@
   "obsidian-git",
   "mathpad",
   "obsidian-style-settings",
-  "obsidian-dictionary-plugin",
-  "various-complements",
   "highlightr-plugin",
   "url-into-selection",
   "dataview",
@@ -13,6 +11,5 @@
   "tag-wrangler",
   "obsidian-link-embed",
   "workspaces-plus",
-  "pane-relief",
-  "koncham-workspace"
+  "various-complements"
 ]
