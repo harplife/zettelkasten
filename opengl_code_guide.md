@@ -212,4 +212,5 @@
 	- **param** `GLsizei count` : specifies the number of elements to be rendered.
 	- **param** `GLenum type` : specifies the type of the values in `indices`. Must be one of `GL_UNSIGNED_BYTE`, `GL_UNSIGNED_SHORT`, or `GL_UNSIGNED_INT`.
 	- **param** `const GLvoid *indices` : specifies an offset of the first index in the array in the data store of the buffer currently bound to the `GL_ELEMENT_ARRAY_BUFFER` target.
+	- VAOs must be bound before this function is called.
 - 
