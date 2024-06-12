@@ -189,6 +189,7 @@
 	- **param** `GLsizei stride` : specifies the byte offset between consecutive generic vertex attributes. If set to `0`, the generic vertex attributes are understood to be tightly packed in the array.
 	- **param** `const GLvoid *pointer` : specifies a offset of the first component of the first generic vertex attribute in the array in the data store of the buffer currently bound to the `GL_ARRAY_BUFFER` target.
 	- When a generic vertex attribute array is specified, all of its arguments are saved as vertex array state, in addition to the current vertex array buffer object binding.
+	- The `index` should match the location specified in GLSL shader using the `lyaout (location = x)` qualifier.
 - <mark class="hltr-trippy">function</mark> `void glEnableVertexAttribArray(index)` : enables the generic vertex attribute array.
 	- **param** `GLuint index` : specifies the index of the generic vertex attribute to be enabled.
 	- Once enabled, the values in the generic vertex attribute array will be accessed and used for rendering when calls are made to vertex array commands.
