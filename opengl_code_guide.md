@@ -233,7 +233,7 @@
 	- If there are multiple windows, `glfwDestroyWindow` can be used to destroy only certain window.
 
 ## Data Types
-- `GLint` : 
+- `GLint` : signed, 2's complement binary integer
 - `GLsizei`
 - `GLuint`
 - `GLenum`
