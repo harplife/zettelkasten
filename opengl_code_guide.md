@@ -22,7 +22,10 @@
 20. Clean up
 21. Define the previously declared functions
 
-## Functions & Variables
+## Libraries
+- GLAD : 
+
+## Functions
 - <mark class="hltr-trippy">function</mark> `int glfwInit()` : initializes the GLFW library. Returns `GLFW_TRUE` (1) if successful, else `GLFW_FALSE` (0).
 	- The initialization checks what features are available on the machine, enumerates monitors, initializes the timer, and performs any required platform-specific initialization.
 	- Most of the functions from the library will fail (`GLFW_NOT_INITIALIZED` error) if they are called before the initialization; only a handful, such as `glfwGetVersion`, may be called before the init.
@@ -220,4 +223,10 @@
 - <mark class="hltr-trippy">function</mark> `void glfwPollEvents()` : processes only those events that have already been received and then returns immediately. Processing events will cause the window and input callbacks associated with those events to be called.
 	- When the function is called, it processes all window event messages that the OS has accumulated so far for all windows in the process. These events include things like key presses, mouse movement, window resizing, and so on.
 	- Most often the function is placed inside the rendering loop. This means that events such as keyboard presses and mouse clicks will only get handled as often as the frame is updated. If the frame rate is lower, events will be processed slower. One way to solve this problem is to move the rendering to another thread.
-- 
+	- Functions such as `glfwGetKey` will return the result of this function, which are the updated states of events.
+- <mark class="hltr-trippy">function</mark> `void glfwTerminate()` : destroys all remaining windows, frees any allocated resources and sets the library to an uninitialized state.
+	- It's important to delete VAO, VBO, EBO, and shader programs to free allocated resources. This function implicitly does the job.
+	- Allocated resources can be freed explicitly using functions such as `glDeleteVertexArrays`, `glDeleteBuffers`, and `glDeleteProgram`.
+	- If there are multiple windows, `glfwDestroyWindow` can be used to destroy only certain window.
+
+## Data Types
