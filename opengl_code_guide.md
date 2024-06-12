@@ -236,11 +236,11 @@
 ## Data Types
 OpenGL has a number of pre-defined `types` that should be available to various bindings. These are useful for ensuring cross-platform portability, since all platforms will use well-defined size for the parameters.
 
-- `GLint` : signed, 2's complement binary integer
-- `GLsizei`
-- `GLuint`
-- `GLenum`
-- `GLchar`
+- `GLint` : 32-bit signed 2's complement binary integer
+- `GLsizei` : 32-bit non-negative binary integer (mainly used to indicate size)
+- `GLuint` : 32-bit unsigned binary integer
+- `GLenum` : 32-bit enumerator value
+- `GLchar` : 
 - `GLsizeiptr`
 - `GLvoid`
 - `GLboolean`
