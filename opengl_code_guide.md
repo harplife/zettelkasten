@@ -237,12 +237,12 @@
 OpenGL has a number of pre-defined `types` that should be available to various bindings. These are useful for ensuring cross-platform portability, since all platforms will use well-defined size for the parameters.
 
 - `GLint` : 32-bit signed 2's complement binary integer
-- `GLsizei` : 32-bit non-negative binary integer (mainly used to indicate size)
+- `GLsizei` : 32-bit non-negative binary integer (mainly used to indicate size). It is functionally equivalent to `GLuint`.
 - `GLuint` : 32-bit unsigned binary integer
 - `GLenum` : 32-bit enumerator value
-- `GLchar` : ??
-- `GLsizeiptr` : 
-- `GLvoid`
-- `GLboolean`
-- `GLclampf`
-- `GLbitfield`
+- `GLchar` : C-style char that stores a single character. In the context of C-style strings, a C-style char array is used to represent a string; which is essentially an array of `char` where the end of the string is marked by a null terminator `\0`. For example, `"Hello"` is represented as `{'H','e','l','l','o','\0'}`
+- `GLsizeiptr` : (ptrbits) non-negative binary integer (mainly used to indicate memory offsets and ranges)
+- `GLvoid` : 
+- `GLboolean` : a boolean value that is either `GL_TRUE` for 1, or `GL_FALSE` for 0.
+- `GLclampf` : 32-bit floating-point value. It is essentially the same as `GLfloat`, but the typename conveys that the value will be clamped to `[0, 1]` range by the function that uses it.
+- `GLbitfield` : 32-bit bitfield value.
