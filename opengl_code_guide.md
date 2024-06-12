@@ -23,7 +23,8 @@
 21. Define the previously declared functions
 
 ## Libraries
-- GLAD : 
+- GLAD : a library that manages function pointers for OpenGL.
+- GLFW : 
 
 ## Functions
 - <mark class="hltr-trippy">function</mark> `int glfwInit()` : initializes the GLFW library. Returns `GLFW_TRUE` (1) if successful, else `GLFW_FALSE` (0).
