@@ -240,8 +240,8 @@ OpenGL has a number of pre-defined `types` that should be available to various b
 - `GLsizei` : 32-bit non-negative binary integer (mainly used to indicate size)
 - `GLuint` : 32-bit unsigned binary integer
 - `GLenum` : 32-bit enumerator value
-- `GLchar` : 
-- `GLsizeiptr`
+- `GLchar` : ??
+- `GLsizeiptr` : 
 - `GLvoid`
 - `GLboolean`
 - `GLclampf`
