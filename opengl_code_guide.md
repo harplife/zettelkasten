@@ -23,10 +23,16 @@
 21. Define the previously declared functions
 
 ## Libraries
+### OpenGL Specific Library
 - **GLAD** : a library for managing function pointers for OpenGL.
 	- `#include <glad/glad.h>`
 - **GLFW** : a library for creating and managing windows and contexts, as well as handling user input and events.
 	- `#include <GLFW/glfw3.h>`
+
+### C++ Standard Library
+- `iostream` : a library that provides functionality for input/output (I/O) operations, such as `cout`, `cerr`, and etc.
+- `fstream` : a library that provides functionality for file input/output operations, such as opening/closing files, and reading/writing files.
+- `sstream` : a library that provides functionality for manipulating strings as if they were input/output streams.
 
 ## Functions
 - <mark class="hltr-trippy">function</mark> `int glfwInit()` : initializes the GLFW library. Returns `GLFW_TRUE` (1) if successful, else `GLFW_FALSE` (0).
