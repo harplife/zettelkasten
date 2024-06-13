@@ -73,6 +73,7 @@
 	- **param** `GLFWwindow* window` : the window whose callback to set.
 	- **param** `GLFWframebuffersizefun callback` : the new callback, or `NULL` to remove the currently set callback.
 	- This function is primarily used to handle window resizing events. It sets the callback function for framebuffer size changes, which occur when a window is resized.
+	- `GLFWframebuffersizefun` function is a `void` function. There is no return for this function, and neither does the callback function.
 	- While it's most commonly used to resize the viewport, it can also be used for other tasks that need to be performed when the window size changes. For example, repositioning the UI elements when the window is resized can be handled in the framebuffer size callback.
 	- The callback function must have the function signature `GLFWframebuffersizefun`, which expects `GLFWwindow* window`, `GLsizei width`, and `GLsizei height` as its parameters.
 - <mark class="hltr-trippy">function</mark> `void glViewport(x, y, width, height)` : specifies the affine transformation of x and y from normalized device coordinates to window coordinates.
