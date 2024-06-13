@@ -33,6 +33,7 @@
 - `iostream` : a library that provides functionality for input/output (I/O) operations, such as `cout`, `cerr`, and etc.
 - `fstream` : a library that provides functionality for file input/output operations, such as opening/closing files, and reading/writing files.
 - `sstream` : a library that provides functionality for manipulating strings as if they were input/output streams.
+- `string` : a library that provides functionality for manipulating string of characters.
 
 ## Functions
 - <mark class="hltr-trippy">function</mark> `int glfwInit()` : initializes the GLFW library. Returns `GLFW_TRUE` (1) if successful, else `GLFW_FALSE` (0).
