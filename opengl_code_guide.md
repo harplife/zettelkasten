@@ -195,7 +195,7 @@
 	- **param** `GLint size` : specifies the number of components (between 1~4) per generic vertex attribute. For example, a 3D coordinate consists of 3 components.
 	- **param** `GLenum type` : specifies the data type of each component in the array, such as `GL_FLOAT`, `GL_INT`, and etc.
 	- **param** `GLboolean normalized` : specifies whether fixed-point data values should be normalized (`GL_TRUE`) or converted directly as fixed-point values (`GL_FALSE`) when they are accessed.
-	- **param** `GLsizei stride` : specifies the byte offset between consecutive generic vertex attributes. If set to `0`, the generic vertex attributes are understood to be tightly packed in the array.
+	- **param** `GLsizei stride` : specifies the byte offset between consecutive generic vertex attributes. For example, a position attribute that contains X, Y, Z coordinate as float values would have a stride equal to `3 * sizeof(float)`.
 	- **param** `const GLvoid *pointer` : specifies a offset of the first component of the first generic vertex attribute in the array in the data store of the buffer currently bound to the `GL_ARRAY_BUFFER` target.
 	- When a generic vertex attribute array is specified, all of its arguments are saved as vertex array state, in addition to the current vertex array buffer object binding.
 	- The `index` should match the location specified in GLSL shader using the `lyaout (location = x)` qualifier.
@@ -226,7 +226,7 @@
 	- One or more executables are created in a program object by successfully attaching shader objects to it with `glAttachShader`, successfully compiling the shader objects with `glCompileShader`, and successfully linking the program object with `glLinkProgram`.
 - <mark class="hltr-trippy">function</mark> `void glDrawElements(mode, count, type, indices)` : renders primitives from array data.
 	- **param** `GLenum mode` : specifies the kind of primitives to render, such as `GL_POINTS`, `GL_LINES`, `GL_TRIANGLES`, and etc.
-	- **param** `GLsizei count` : specifies the number of elements to be rendered.
+	- **param** `GLsizei count` : specifies the number of elements to be rendered. Note that this is the number of all vertices (including all the duplicates).
 	- **param** `GLenum type` : specifies the type of the values in `indices`. Must be one of `GL_UNSIGNED_BYTE`, `GL_UNSIGNED_SHORT`, or `GL_UNSIGNED_INT`.
 	- **param** `const GLvoid *indices` : specifies an offset of the first index in the array in the data store of the buffer currently bound to the `GL_ELEMENT_ARRAY_BUFFER` target.
 	- VAOs must be bound before this function is called.
