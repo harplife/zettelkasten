@@ -211,6 +211,9 @@
 	- **param** `GLFWwindow* window` : specifies the window whose close flag to change.
 	- **param** `int value` : specifies the new value to set to the close flag.
 	- The close flag value can be set to `GLFW_TRUE` or `GLFW_FALSE`. `1` or `0` works as well.
+- <mark class="hltr-trippy">function</mark> `void glPolygonMode(face, mode)` : selects a polygon rasterization mode.
+	- **param** `GLenum face` : specifies the polygons that `mode` applies to. Must be `GL_FRONT_AND_BACK` for front and back facing polygon.
+	- **param** `GLenum mode` : specifies how polygons will be rasterized. Accepted values are `GL_FILL`, `GL_LINE`, and `GL_POINT`. The default rasterization mode is `GL_FILL`.
 - <mark class="hltr-trippy">function</mark> `int glfwGetKey(window, key)` : returns the last state reported for the specified key to the specified window. The returned state is either `GLFW_PRESS` or `GLFW_RELEASE`.
 	- **param** `GLFWwindow* window` : specifies the window to get key input from.
 	- **param** `int key` : specifies the key to query.
