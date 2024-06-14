@@ -220,7 +220,7 @@
 - <mark class="hltr-trippy">function</mark> `void glClearColor(red, green, blue, alpha)` : specifies the RGBA values used by `glClear` to clear the color buffers.
 	- **param** `GLclampf red/green/blue/alpha` : RGBA values that are clamped to the range $[0,1]$.
 - <mark class="hltr-trippy">function</mark> `void glClear(mask)` : sets the bitplane area (buffer) of the window to values previously selected by `glClearColor`, `glClearDepth`, and `glClearStencil`.
-	- **param** `GLbitfield mask` : specifies the mask to be cleared. There are three masks that can be selected - `GL_COLOR_BUFFER`, `GL_DEPTH_BUFFER`, and `GL_STENCIL_BUFFER_BIT`.
+	- **param** `GLbitfield mask` : specifies the mask to be cleared. There are three masks that can be selected - `GL_COLOR_BUFFER_BIT`, `GL_DEPTH_BUFFER_BIT`, and `GL_STENCIL_BUFFER_BIT`.
 - <mark class="hltr-trippy">function</mark> `void glUseProgram(program)` : installs the program object as part of current rendering state.
 	- **param** `GLuint program` : specifies the handle of the program object whose executables are to be used as part of current rendering state.
 	- One or more executables are created in a program object by successfully attaching shader objects to it with `glAttachShader`, successfully compiling the shader objects with `glCompileShader`, and successfully linking the program object with `glLinkProgram`.
