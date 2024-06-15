@@ -779,6 +779,32 @@ Refer to [[cpp_hello_rectangle_code]]
 - Draw 2 triangles of different color by using 2 separate fragment shaders.
 
 ## Shaders
+### GLSL
+- Shaders are written in the C-like language GLSL.
+- GLSL is tailored for use with graphics and contains useful features specifically targeted at vector and matrix manipulation.
+- Shaders always begin with a version declaration, followed by a list of input and output variables, uniforms and its `main` function.
+- Each shader's entry point is at its `main` function where input variables are processed and the results are stored in its output variables.
+- A shader typically has the following structure:
+
+```C++
+#version version_number
+in type in_variable_name;
+in type in_variable_name;
+
+out type out_variable_name;
+  
+uniform type uniform_name;
+  
+void main()
+{
+  // process input(s) and do some weird graphics stuff
+  ...
+  // output processed stuff to output variable
+  out_variable_name = weird_stuff_we_processed;
+}
+```
+
+- 
 
 ## Textures
 
