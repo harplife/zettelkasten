@@ -258,3 +258,7 @@ OpenGL has a number of pre-defined `types` that should be available to various b
 - `GLboolean` : a boolean value that is either `GL_TRUE` for 1, or `GL_FALSE` for 0.
 - `GLclampf` : 32-bit floating-point value. It is essentially the same as `GLfloat`, but the typename conveys that the value will be clamped to `[0, 1]` range by the function that uses it.
 - `GLbitfield` : 32-bit bitfield value.
+
+
+## Source Code
+Refer to [[opengl_code_guide_source_code]]

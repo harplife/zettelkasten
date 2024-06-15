@@ -25,6 +25,7 @@
           {
             "id": "83780f759d31a96e",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -32,11 +33,11 @@
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "pinned": true
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -114,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "opengl_code_guide.md"
+                "file": "study_LearnOpenGL.md"
               }
             }
           }
@@ -155,7 +156,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "opengl_code_guide.md",
+                "file": "study_LearnOpenGL.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -190,7 +191,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "opengl_code_guide.md",
+                "file": "study_LearnOpenGL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -225,7 +226,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "opengl_code_guide.md",
+                "file": "study_LearnOpenGL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -257,9 +258,10 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "83780f759d31a96e",
+  "active": "3565833ba7980081",
   "lastOpenFiles": [
     "opengl_code_guide.md",
+    "opengl_code_guide_source_code.md",
     "study_LearnOpenGL.md",
     "Dictionary/graphics",
     "Dictionary",
