@@ -815,7 +815,12 @@ glGetIntegerv(GL_MAX_VERTEX_ATTRIBS, &nrAttributes);
 cout << nrAttributes << endl;
 ```
 
+#### GLSL Data Types
+- GLSL has most of the default basic types, such as `int`, `float`, `double`, `uint`, and `bool`.
+- GLSL also features two container types, such as `vectors` and `matrices`.
 
+##### Vectors
+- 
 
 
 ## Textures
