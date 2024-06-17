@@ -820,8 +820,34 @@ cout << nrAttributes << endl;
 - GLSL also features two container types, such as `vectors` and `matrices`.
 
 ##### Vectors
-- 
+- A **vector** in GLSL is a 2 to 4 component container for any of the basic types. It can take the following form (`n` represents the number of components):
+	- `vecn` : the default vector of `n` floats.
+	- `bvecn` : a vector of `n` booleans.
+	- `ivecn` : a vector of `n` integers.
+	- `uvecn` : a vector of `n` unsigned integers.
+	- `dvecn` : a vector of `n` double components.
+- Throughout the guide, a vector is `vecn` unless explicitly stated otherwise.
+- Components of a vector can be accessed via `vec.x` where `x` is the first component of the vector. The first, second, third, and fourth component is accessed with `.x`, `.y`, `.z` and `.w` respectively.
+- Components of a vector can also be accessed with `rgba` for colors, and `stpq` for texture coordinates.
+- The vector datatype allows for flexible component selection called `swizzling`, which is best explained by this example:
 
+```C
+vec2 someVec;
+vec4 differentVec = someVec.xyxx;
+vec3 anotehrVec = differentVec.zyw;
+vec4 otherVec = someVec.xxxx + anotherVec.yxzy;
+```
+
+- Any combination of up to 4 letters can be used to create a new vector (of the same type) as long as the original vector has those components.
+- Vectors can be passed as arguments to different vector constructor calls, reducing the number of arguments required:
+
+```C
+vec2 vect = vec2(0.5, 0.7);
+vec4 result = vec4(vect, 0.0, 0.0);
+vec4 otherResult = vec4(result.xyz, 1.0);
+```
+
+- 
 
 ## Textures
 
