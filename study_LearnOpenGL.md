@@ -806,7 +806,8 @@ void main()
 
 - Each input variable inside the Vertex Shader is known as Vertex Attribute.
 - The maximum number of Vertex Attributes are limited by the GPU.
-- 
+- OpenGL guarantees there are always at least 16 Vertex Attributes with 4 components available.
+- Some hardware may allow for more which you can retrieve by querying `GL_MAX_VERTEX_ATTRIBS`.
 
 ## Textures
 
