@@ -852,6 +852,7 @@ vec4 otherResult = vec4(result.xyz, 1.0);
 - The Vertex Shader differs from other shaders in the sense that it receives its input straight from the Vertex Data. The Vertex Shader thus requires an extra layout specification for its inputs so it can be linked to the Vertex Data.
 - It is possible to omit the layout (`location = 0`) specifier and query for the attribute location via `glGetAttribLocation`. However, it's easier and saves some work for the dev and OpenGL to just set them in the Vertex Shader.
 - The Fragment Shader requires a `vec4` output variable because its main function is to generate a final output color.
+- In order to send data from one shader to another, an output needs to be declared in the sending shader and similar input needs to be declared in the receiving shader. When the types and the names are equal on both shaders, OpenGL will link those variables together (which is done when linking a program object).
 - 
 
 ## Textures
