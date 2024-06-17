@@ -889,6 +889,7 @@ void main()
 - Uniforms are implicitly constant within the shader. Attempting to change them with shader code will result in a compiler error. Similarly, a uniform variable cannot be passed as an `out` or `inout` parameter to a function.
 - If a uniform variable is declared in both the Vertex Shader and the Fragment Shader, the types must be consistent. For example, you cannot have `uniform int x;` in the Vertex Shader and `uniform float x;` in the Fragment Shader.
 - To declare a uniform variable, the `uniform` keyword is added before the type and the name (i.e. `uniform vec4 vertexColor`).
+- WARNING : a declared uniform variable that is not used anywhere in the GLSL code will be silently removed during compilation, which may cause several frustrating errors.
 - 
 
 ## Textures
