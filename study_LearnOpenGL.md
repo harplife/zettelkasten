@@ -856,6 +856,7 @@ vec4 otherResult = vec4(result.xyz, 1.0);
 - In order to send data from one shader to another, an output needs to be declared in the sending shader and similar input needs to be declared in the receiving shader. When the types and the names are equal on both shaders, OpenGL will link those variables together (which is done when linking a program object).
 - An example code of sending data from the Vertex Shader to the Fragment Shader:
 
+Vertex Shader
 ```C
 #version 330 core
 layout (locatino = 0) in vec3 aPos;
@@ -869,6 +870,7 @@ void main()
 }
 ```
 
+Fragment Shader
 ```C
 #version 330 core
 out vec4 FragColor;
@@ -881,7 +883,13 @@ void main()
 }
 ```
 
-
+### Uniforms
+- **Uniforms** are another way to pass data from the application (CPU) to the shaders (GPU).
+- Uniforms are global, meaning that a uniform variable is unique per shader program object, and can be accessed from any shader at any stage in the shader program.
+- Uniforms are implicitly constant within the shader. Attempting to change them with shader code will result in a compiler error. Similarly, a uniform variable cannot be passed as an `out` or `inout` parameter to a function.
+- If a uniform variable is declared in both the Vertex Shader and the Fragment Shader, the types must be consistent. For example, you cannot have `uniform int x;` in the Vertex Shader and `uniform float x;` in the Fragment Shader.
+- To declare a uniform variable, the `uniform` keyword is added before the type and the name (i.e. `uniform vec4 vertexColor`).
+- 
 
 ## Textures
 
