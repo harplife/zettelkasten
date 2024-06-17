@@ -815,11 +815,11 @@ glGetIntegerv(GL_MAX_VERTEX_ATTRIBS, &nrAttributes);
 cout << nrAttributes << endl;
 ```
 
-#### GLSL Data Types
+### GLSL Data Types
 - GLSL has most of the default basic types, such as `int`, `float`, `double`, `uint`, and `bool`.
 - GLSL also features two container types, such as `vectors` and `matrices`.
 
-##### Vectors
+#### Vectors
 - A **vector** in GLSL is a 2 to 4 component container for any of the basic types. It can take the following form (`n` represents the number of components):
 	- `vecn` : the default vector of `n` floats.
 	- `bvecn` : a vector of `n` booleans.
@@ -847,6 +847,8 @@ vec4 result = vec4(vect, 0.0, 0.0);
 vec4 otherResult = vec4(result.xyz, 1.0);
 ```
 
+### Ins and Outs
+- GLSL defined the `in` and `out` keywords specifically for inputs and outputs of a shader.
 - 
 
 ## Textures
