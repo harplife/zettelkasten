@@ -851,9 +851,35 @@ vec4 otherResult = vec4(result.xyz, 1.0);
 - GLSL defined the `in` and `out` keywords specifically for inputs and outputs of a shader.
 - The Vertex Shader differs from other shaders in the sense that it receives its input straight from the Vertex Data. The Vertex Shader thus requires an extra layout specification for its inputs so it can be linked to the Vertex Data.
 - It is possible to omit the layout (`location = 0`) specifier and query for the attribute location via `glGetAttribLocation`. However, it's easier and saves some work for the dev and OpenGL to just set them in the Vertex Shader.
-- The Fragment Shader requires a `vec4` output variable because its main function is to generate a final output color.
+- The Vertex Shader expects a `vec4` variable `gl_Position` to be defined inside the shader in order to set the position of the vertices.
+- The Fragment Shader expects a `vec4` output variable because its main function is to generate a final output color. For OpenGL 3.0 and beyond, the variable name does not matter.
 - In order to send data from one shader to another, an output needs to be declared in the sending shader and similar input needs to be declared in the receiving shader. When the types and the names are equal on both shaders, OpenGL will link those variables together (which is done when linking a program object).
-- 
+- An example code of sending data from the Vertex Shader to the Fragment Shader:
+
+```C
+#version 330 core
+layout (locatino = 0) in vec3 aPos;
+
+out vec4 VertexColor;
+
+void main()
+{
+	gl_Position = vec4(aPos, 1.0);
+	vertexColor = vec4(0.5, 0.0, 0.0, 1.0);
+}
+```
+
+```C
+#version 330 core
+out vec4 FragColor;
+
+in vec4 vertexColor;
+
+void main()
+{
+	FragColor = vertexColor;
+}
+```
 
 ## Textures
 
