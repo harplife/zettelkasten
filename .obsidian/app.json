@@ -52,5 +52,6 @@
     "downscalePercent": 95
   },
   "showLineNumber": false,
-  "showInlineTitle": true
+  "showInlineTitle": false,
+  "showRibbon": true
 }

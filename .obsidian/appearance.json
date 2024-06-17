@@ -7,7 +7,8 @@
     "images",
     "tag-pills",
     "highlightr",
-    "clean-embeds-all"
+    "clean-embeds-all",
+    "general"
   ],
   "accentColor": "",
   "baseFontSizeAction": true,
