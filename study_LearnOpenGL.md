@@ -890,10 +890,7 @@ void main()
 - If a uniform variable is declared in both the Vertex Shader and the Fragment Shader, the types must be consistent. For example, you cannot have `uniform int x;` in the Vertex Shader and `uniform float x;` in the Fragment Shader.
 - To declare a uniform variable, the `uniform` keyword is added before the type and the name (i.e. `uniform vec4 vertexColor`).
 - <mark class="hltr-red">WARNING</mark> : a declared uniform variable that is not used anywhere in the GLSL code will be silently removed during compilation, which may cause several frustrating errors.
-- A uniform variable's location/index can be set the same way as the Vertex Attribute (for example, `layout(location = 2) uniform mat4 modelToWorldMatrix;`). However, they do not share locations.
-- <mark class="hltr-red">WARNING</mark> : it is illegal to assign the same uniform location to two uniforms in the same program, even if those two uniforms have the same name and type.
-- The maximum number of available locations within a single program is `GL_MAX_UNIFORM_LOCATIONS`, which will be at least 1024 locations.
-- If the location of a uniform variable is not set explicitly, it will be set automatically. The location can be queried in the OpenGL code via `glGetUniformLocation(program, variable)`.
+- The `layout` qualifier for uniforms is *NOT* available for OpenGL version 3.3. It is only available 4.3 and upwards. In other words, location of a uniform variable cannot be explicitly set, and therefore the location must be queried using `glGetUniformLocation(program, variable)`.
 - Defining a uniform variable isn't usually done inside a shader - it is common to set a uniform variable's value inside OpenGL code using `glUniform(location, *)`.
 	- OpenGL does not have native support for function overloading, so the same function name with different postfix are used to match the type and the number of components of the uniform variable. For example, the value of a uniform variable with an array of four floats is set by `glUniform4f`.
 		- postfix `f` : the function expects a float as its value
@@ -909,11 +906,11 @@ Fragment Shader
 #version 330 core
 out vec4 FragColor;
 
-lyaout(location = 2) uniform vec4 ourColor;
+uniform vec4 vertexColor;
 
 void main()
 {
-	FragColor = ourColor;
+	FragColor = vertexColor;
 }
 ```
 
@@ -921,9 +918,8 @@ OpenGL Code
 ```C++
 // inside render loop
 float timeValue = glfwGetTime();
-float greenValue = (sin(timeValue) /2.0f) + 0.5f;
-//int vertexColorLocation = glGetUniforLocation(shaderProgram, "ourColor");
-int vertexColorLocation = 2;
+float greenValue = (sin(timeValue)/2.0f) + 0.5f;
+int vertexColorLocation = glGetUniformLocation(shaderProgram, "vertexColor");
 glUseProgram(shaderProgram)
 glUniform4f(vertexColorLocation, 0.0f, greenValue, 0.0f, 1.0f);
 ```
