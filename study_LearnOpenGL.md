@@ -899,7 +899,7 @@ void main()
 		- postfix `3f` : 3 floats
 		- postfix `fv` : a float vector/array (this pretty much works for any `#f` postfixes).
 - Updating a uniform variable requires that the program is used first (by calling `glUseProgram`).
-- Example of setting up a uniform variable, `ourColor`:
+- Example of setting up a uniform variable `vetexColor`:
 
 Fragment Shader
 ```C
@@ -923,6 +923,8 @@ int vertexColorLocation = glGetUniformLocation(shaderProgram, "vertexColor");
 glUseProgram(shaderProgram)
 glUniform4f(vertexColorLocation, 0.0f, greenValue, 0.0f, 1.0f);
 ```
+
+- Above code results with
 
 ## Textures
 
