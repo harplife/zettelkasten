@@ -37,7 +37,8 @@
               "pinned": true
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -115,7 +116,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study_LearnOpenGL.md"
+                "file": "opengl_code_guide.md"
               }
             }
           }
@@ -156,7 +157,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "study_LearnOpenGL.md",
+                "file": "opengl_code_guide.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -191,7 +192,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study_LearnOpenGL.md",
+                "file": "opengl_code_guide.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -226,7 +227,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study_LearnOpenGL.md",
+                "file": "opengl_code_guide.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -258,11 +259,11 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "3565833ba7980081",
+  "active": "83780f759d31a96e",
   "lastOpenFiles": [
+    "study_LearnOpenGL.md",
     "opengl_code_guide.md",
     "opengl_code_guide_source_code.md",
-    "study_LearnOpenGL.md",
     "Dictionary/graphics",
     "Dictionary",
     "cpp_hello_window_code.md",

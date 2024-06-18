@@ -894,7 +894,14 @@ void main()
 - <mark class="hltr-red">WARNING</mark> : it is illegal to assign the same uniform location to two uniforms in the same program, even if those two uniforms have the same name and type.
 - The maximum number of available locations within a single program is `GL_MAX_UNIFORM_LOCATIONS`, which will be at least 1024 locations.
 - If the location of a uniform variable is not set explicitly, it will be set automatically. The location can be queried in the OpenGL code via `glGetUniformLocation(program, variable)`.
-- 
+- Defining a uniform variable isn't usually done inside a shader - it is common to set a uniform variable's value inside OpenGL code using `glUniform(location, *)`.
+	- OpenGL does not have native support for function overloading, so the same function name with different postfix are used to match the type and the number of components of the uniform variable. For example, the value of a uniform variable with an array of four floats is set by `glUniform4f`.
+		- postfix `f` : the function expects a float as its value
+		- postfix `i` : the function expect an integer as its value
+		- postfix `ui` : unsigned integer
+		- postfix `3f` : 3 floats
+		- postfix `fv` : a float vector/array (this pretty much works for any `#f` postfixes).
+- Updating a uniform variable requires that the program is used first (by calling `glUseProgram`).
 - Example of setting up a uniform variable, `ourColor`:
 
 Fragment Shader
@@ -902,7 +909,8 @@ Fragment Shader
 #version 330 core
 out vec4 FragColor;
 
-uniform vec4 ourColor;
+lyaout(location = 2) uniform vec4 ourColor;
+
 void main()
 {
 	FragColor = ourColor;
