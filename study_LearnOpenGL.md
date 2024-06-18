@@ -890,7 +890,7 @@ void main()
 - If a uniform variable is declared in both the Vertex Shader and the Fragment Shader, the types must be consistent. For example, you cannot have `uniform int x;` in the Vertex Shader and `uniform float x;` in the Fragment Shader.
 - To declare a uniform variable, the `uniform` keyword is added before the type and the name (i.e. `uniform vec4 vertexColor`).
 - <mark class="hltr-red">WARNING</mark> : a declared uniform variable that is not used anywhere in the GLSL code will be silently removed during compilation, which may cause several frustrating errors.
-- 
+- A uniform variable's location/index can be set the same way as the Vertex Attribute. 
 
 ## Textures
 
