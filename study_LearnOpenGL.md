@@ -893,7 +893,30 @@ void main()
 - A uniform variable's location/index can be set the same way as the Vertex Attribute (for example, `layout(location = 2) uniform mat4 modelToWorldMatrix;`). However, they do not share locations.
 - <mark class="hltr-red">WARNING</mark> : it is illegal to assign the same uniform location to two uniforms in the same program, even if those two uniforms have the same name and type.
 - The maximum number of available locations within a single program is `GL_MAX_UNIFORM_LOCATIONS`, which will be at least 1024 locations.
+- If the location of a uniform variable is not set explicitly, it will be set automatically. The location can be queried in the OpenGL code via `glGetUniformLocation(program, variable)`.
 - 
+- Example of setting up a uniform variable, `ourColor`:
+
+Fragment Shader
+```C
+#version 330 core
+out vec4 FragColor;
+
+uniform vec4 ourColor;
+void main()
+{
+	FragColor = ourColor;
+}
+```
+
+OpenGL Code
+```C++
+float timeValue = glfwGetTime();
+float greenValue = (sin(timeValue) /2.0f) + 0.5f;
+int vertexColorLocation = glGetUniforLocation(shaderProgram, "ourColor");
+glUseProgram(shaderProgram)
+glUniform4f(vertexColorLocation, 0.0f, greenValue, 0.0f, 1.0f);
+```
 
 ## Textures
 
