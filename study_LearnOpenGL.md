@@ -890,7 +890,10 @@ void main()
 - If a uniform variable is declared in both the Vertex Shader and the Fragment Shader, the types must be consistent. For example, you cannot have `uniform int x;` in the Vertex Shader and `uniform float x;` in the Fragment Shader.
 - To declare a uniform variable, the `uniform` keyword is added before the type and the name (i.e. `uniform vec4 vertexColor`).
 - <mark class="hltr-red">WARNING</mark> : a declared uniform variable that is not used anywhere in the GLSL code will be silently removed during compilation, which may cause several frustrating errors.
-- A uniform variable's location/index can be set the same way as the Vertex Attribute. 
+- A uniform variable's location/index can be set the same way as the Vertex Attribute (for example, `layout(location = 2) uniform mat4 modelToWorldMatrix;`). However, they do not share locations.
+- <mark class="hltr-red">WARNING</mark> : it is illegal to assign the same uniform location to two uniforms in the same program, even if those two uniforms have the same name and type.
+- The maximum number of available locations within a single program is `GL_MAX_UNIFORM_LOCATIONS`, which will be at least 1024 locations.
+- 
 
 ## Textures
 
