@@ -929,7 +929,33 @@ glUniform4f(vertexColorLocation, 0.0f, greenValue, 0.0f, 1.0f);
 - Above code results with the shape(s) flashing green.
 
 ### Multiple Attributes
-- 
+- This section covers a way to set up multiple Vertex Attributes so that each vertex has position data and color data.
+- A triangle Vertex Data that includes both the position and color of each vertices:
+
+```C++
+float vertices[] = {
+    // positions         // colors
+     0.5f, -0.5f, 0.0f,  1.0f, 0.0f, 0.0f,   // bottom right
+    -0.5f, -0.5f, 0.0f,  0.0f, 1.0f, 0.0f,   // bottom left
+     0.0f,  0.5f, 0.0f,  0.0f, 0.0f, 1.0f    // top 
+};
+```
+
+- Set up `in` variable in Vertex Shader to accept color data:
+
+```C
+#version 330 core
+layout (location = 0) in vec3 aPos;
+layout (location = 1) in vec3 aColor;
+
+out vec3 vectorColor;
+
+void main()
+{
+	gl_Position = vec4(aPos, 1.0);
+	vectorColor = aColor;
+}
+```
 
 ## Textures
 
