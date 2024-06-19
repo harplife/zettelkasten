@@ -930,6 +930,7 @@ glUniform4f(vertexColorLocation, 0.0f, greenValue, 0.0f, 1.0f);
 
 ### Multiple Attributes
 - This section covers a way to set up multiple Vertex Attributes so that each vertex has position data and color data.
+- ![[vertex_attribute_pointer_interleaved.png]]
 - A triangle Vertex Data that includes both the position and color of each vertices:
 
 ```C++
@@ -941,7 +942,7 @@ float vertices[] = {
 };
 ```
 
-- Set up `in` variable in Vertex Shader to accept color data:
+- Set up Vertex Shader to accept color data:
 
 ```C
 #version 330 core
@@ -955,6 +956,35 @@ void main()
 	gl_Position = vec4(aPos, 1.0);
 	vectorColor = aColor;
 }
+```
+
+- Set up Fragment Shader to accept color data:
+
+```C
+#version 330 core
+out vec4 FragColor;
+in vec3 vectorColor;
+
+void main()
+{
+	FragColor = vec4(vectorColor, 1.0);
+}
+```
+
+- Re-configure the Vertex Attribute Pointers:
+
+```C++
+GLsizei stride = 6 * sizeof(float); // X,Y,Z,R,G,B -> 6 floats
+unsigned int colorOffset = 3 * sizeof(float);
+
+// Position
+glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, stride, (void*)0);
+glEnableVertexAttribArray(0);
+
+// Color
+glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, stride, (void*)colorOffset);
+glEnableVertexAttribArray(0);
+
 ```
 
 ## Textures
