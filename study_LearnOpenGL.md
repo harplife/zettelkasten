@@ -918,13 +918,14 @@ OpenGL Code
 ```C++
 // inside render loop
 float timeValue = glfwGetTime();
-float greenValue = (sin(timeValue)/2.0f) + 0.5f;
+float greenValue = (sin(timeValue)/2.0f) + 0.5f; // sine returns value -1~1
 int vertexColorLocation = glGetUniformLocation(shaderProgram, "vertexColor");
 glUseProgram(shaderProgram)
 glUniform4f(vertexColorLocation, 0.0f, greenValue, 0.0f, 1.0f);
 ```
 
-- Above code results with
+- Above code results with the shape(s) flashing green.
+- 
 
 ## Textures
 
