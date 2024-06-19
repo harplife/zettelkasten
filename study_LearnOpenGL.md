@@ -983,9 +983,13 @@ glEnableVertexAttribArray(0);
 
 // Color
 glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, stride, (void*)colorOffset);
-glEnableVertexAttribArray(0);
+glEnableVertexAttribArray(1);
 
 ```
+
+- Above code results with a triangle with each corner red, green, and blue (with gradient colors filled in).
+- Fragment Shader interpolates the color of the vertices in order to color the pixels in between. This process is referred to as **Fragment Interpolation**.
+- 
 
 ## Textures
 
