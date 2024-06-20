@@ -989,9 +989,20 @@ glEnableVertexAttribArray(1);
 
 - Above code results with a triangle with each corner red, green, and blue (with gradient colors filled in).
 - Fragment Shader interpolates the color of the vertices in order to color the pixels in between. This process is referred to as **Fragment Interpolation**.
-- 
+
+### Custom Shaders
+- Skipping the custom shader part since this mostly deals with abstracting shader related work into a class. Refer to https://learnopengl.com/Getting-started/Shaders
+- Main source code : [[opengl_custom_shader_main]]
+- Shader class source code : [[opengl_custom_shader_class]]
 
 ## Textures
+- A texture is a 2D image used to add detail to an object.
+- Textures can also be used to store a large collection of arbitrary data to send to the shaders. This will be discussed later on.
+- Following image will be used as a texture for the guide:
+	- ![[opengl_texture_wall.jpg|150]]
+  - **Texture Coordinate** is used to match each vertex to the part of the texture it corresponds to. In other words, each vertex should have a texture coordinate associated with them that specifies what part of the texture image to sample from.
+	  - ![[tex_coords.png]]
+  - When a texture is supplied and each vertex has its own texture coordinate,
 
 ## Transformations
 

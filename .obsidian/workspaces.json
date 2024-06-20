@@ -25,6 +25,32 @@
                 }
               },
               {
+                "id": "7ed37904da334703",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "opengl_custom_shader_main.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "c18ffbc20fc5c0d0",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "opengl_custom_shader_class.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
                 "id": "83780f759d31a96e",
                 "type": "leaf",
                 "pinned": true,
@@ -261,7 +287,7 @@
         }
       },
       "active": "3565833ba7980081",
-      "mtime": "2024-06-19T02:56:25-05:00",
+      "mtime": "2024-06-20T15:49:15-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "Dictionary"

@@ -23,6 +23,32 @@
             }
           },
           {
+            "id": "7ed37904da334703",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "opengl_custom_shader_main.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c18ffbc20fc5c0d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "opengl_custom_shader_class.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "83780f759d31a96e",
             "type": "leaf",
             "pinned": true,
@@ -260,8 +286,12 @@
   },
   "active": "3565833ba7980081",
   "lastOpenFiles": [
-    "opengl_code_guide.md",
+    "attachments/tex_coords.png",
+    "attachments/opengl_texture_wall.jpg",
+    "opengl_custom_shader_main.md",
+    "opengl_custom_shader_class.md",
     "study_LearnOpenGL.md",
+    "opengl_code_guide.md",
     "attachments/vertex_attribute_pointer_interleaved.png",
     "opengl_code_guide_source_code.md",
     "Dictionary/graphics",
@@ -278,7 +308,6 @@
     "attachments/gp2y9p55.bmp",
     "attachments/Pasted image 20240521121331.png",
     "attachments/Pasted image 20240521110212.png",
-    "attachments/Pasted image 20240521105817.png",
     "computer_graphics/cg_general_notes/computer_graphics_big_picture.md",
     "goals/goal_bachelor_in_cs.md",
     "lifestyle/central_node.md",
@@ -294,8 +323,6 @@
     "algorithms_panos_louridas.md",
     "Insertion-sort-example-300px.gif.md",
     "11884_e1_004.jpg.md",
-    "computer_graphics/cg_general_notes/3d_영상_콘텐츠_제작자_양성_과정.md",
-    "KNOU/2023년_방통대/컴퓨터과학과_계획_23s1.md",
-    "11884_005_fig_002.jpg.md"
+    "computer_graphics/cg_general_notes/3d_영상_콘텐츠_제작자_양성_과정.md"
   ]
 }
