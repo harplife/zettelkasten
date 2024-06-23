@@ -1006,7 +1006,12 @@ glEnableVertexAttribArray(1);
   - Retrieving the texture color using texture coordinates is called **Sampling**.
   - Texture Coordinate starts at (0, 0) for the lower left corner of a texture image, and ends at (1, 1) for the upper right corner of a texture image. 
   - ![[tex_coords.png]]
-  - 
+
+### Texture Wrapping
+- If coordinates outside the (0, 0) ~ (1, 1) is specified, texture image is drawn in one of four ways:
+	- GL_REPEAT : repeats the texture image. It is the default behavior.
+	- GL_MIRRORED_REPEAT : repeats the image but image is mirrored with each repeat.
+	- GL_CLAMP_TO_EDGE : 
 
 ## Transformations
 
