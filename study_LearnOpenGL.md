@@ -1008,10 +1008,16 @@ glEnableVertexAttribArray(1);
   - ![[tex_coords.png]]
 
 ### Texture Wrapping
-- If coordinates outside the (0, 0) ~ (1, 1) is specified, texture image is drawn in one of four ways:
-	- GL_REPEAT : repeats the texture image. It is the default behavior.
-	- GL_MIRRORED_REPEAT : repeats the image but image is mirrored with each repeat.
-	- GL_CLAMP_TO_EDGE : 
+- If coordinates outside the (0, 0) ~ (1, 1) are specified, texture image is drawn in one of four ways:
+	- `GL_REPEAT` : repeats the texture image. It is the default behavior.
+	- `GL_MIRRORED_REPEAT` : repeats the image but image is mirrored with each repeat.
+	- `GL_CLAMP_TO_EDGE` : edge of the image is stretched to the edge of the coordinates.
+	- `GL_CLAMP_TO_BORDER` : coordinates outside of the range are given a user-specified border color.
+- ![[texture_wrapping.png]]
+- Each of the aforementioned options can be set per coordinate axis `(s, t, r)` with the `glTexParameter*` function.
+	- `glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_MIRRORED_REPEAT);`
+	- `glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_MIRRORED_REPEAT);`
+- 
 
 ## Transformations
 
