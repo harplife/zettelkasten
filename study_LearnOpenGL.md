@@ -3,15 +3,15 @@
 ### What is OpenGL
 - OpenGL is a specification that is developed and maintained by the Khronos Group.
 	- Even though OpenGL is mainly considered an API, OpenGL itself does not provide any functions.
-- The OpenGL specificaton specifies exactly what the result/output of each funtion should be and how it should perform.
+- The OpenGL specification specifies exactly what the result/output of each function should be and how it should perform.
 - It is up to the developers *implementing* this spec to come up with a solution of how this function should operate (in other words, it's up to GPU to provide functionalities as according to this spec).
 - Since the OpenGL spec does not give implementation details, the actual developed versions of OpenGL are allowed to have different implementations, as long as their results comply with the spec.
-- The people develping the actual OpenGL libraries are usually the GPU manufacturrs. Each GPU supports specific versions of OpenGL. Because different versions of OpenGL exists for different GPUs, it is the fault of the GPU manufacturers if OpenGL behaves in a way that it shouldn't.
+- The people developing the actual OpenGL libraries are usually the GPU manufacturers. Each GPU supports specific versions of OpenGL. Because different versions of OpenGL exists for different GPUs, it is the fault of the GPU manufacturers if OpenGL behaves in a way that it shouldn't.
 
 ### Core-Profile vs Immediate Mode
-- Immediate Mode (aka Fixed Function Pipeline) is an old way to develope with OpenGL.
+- Immediate Mode (aka Fixed Function Pipeline) is an old way to develop with OpenGL.
 	- Immediate Mode abstracted a lot of the actual operations of OpenGL. While it is easy to learn, it is harder to grasp how OpenGL actually operates.
-	- Most of the functionalitiy of OpenGL was hidden inside the library and developers did not have much control over how OpenGL does its calculations.
+	- Most of the functionality of OpenGL was hidden inside the library and developers did not have much control over how OpenGL does its calculations.
 	- The Immediate Mode is easy to use and to understand, but it is also extremely inefficient.
 	- The Immediate Mode is deprecated from version 3.2 onwards.
 - Core-Profile is replaced Immediate Mode and it is much more flexible and efficient.
@@ -25,7 +25,7 @@
 
 ### Extensions
 - A great feature of OpenGL is its support of extensions.
-- Whenever a grphics company comes up with a new technique or a new large optimization for rendering, this is often found in an extension implemented in the drivers.
+- Whenever a graphics company comes up with a new technique or a new large optimization for rendering, this is often found in an extension implemented in the drivers.
 - If the hardware an application runs on supports such an extension, the developer can use the functionality provided by the extension for more advanced/efficient graphics.
 	- This way, a graphics developer can still use these new rendering techniques without having to wait for OpenGL to include the functionality in its future versions, simply by checking if the extension is supported by the GPU.
 - The developer has to query whether any of these extensions are available before using them (or use an OpenGL extension library).
