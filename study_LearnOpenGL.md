@@ -1001,8 +1001,12 @@ glEnableVertexAttribArray(1);
 - Following image will be used as a texture for the guide:
 	- ![[opengl_texture_wall.jpg|150]]
   - **Texture Coordinate** is used to match each vertex to the part of the texture it corresponds to. In other words, each vertex should have a texture coordinate associated with them that specifies what part of the texture image to sample from.
-	  - ![[tex_coords.png]]
-  - When a texture is supplied and each vertex has its own texture coordinate,
+  - When a texture is supplied and each vertex has its own texture coordinate, fragment interpolation fills the rest of the shape with the texture.
+  - 2D Texture Coordinate ranges from 0 to 1 in the x and y axis.
+  - Retrieving the texture color using texture coordinates is called **Sampling**.
+  - Texture Coordinate starts at (0, 0) for the lower left corner of a texture image, and ends at (1, 1) for the upper right corner of a texture image. 
+  - ![[tex_coords.png]]
+  - 
 
 ## Transformations
 
