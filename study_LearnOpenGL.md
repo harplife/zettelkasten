@@ -1033,6 +1033,8 @@ glTexParameterfv(GL_TEXTURE_2D, GL_TEXTURE_BORDER_COLOR, borderColor);
 ### Texture Filtering
 - Texture Coordinates do not depend on resolution but can be any floating point value, thus OpenGL has to figure out which texture pixel (aka **Texel**) to map the texture coordinate to. This becomes especially important if a low resolution texture is given to a very large object.
 - **Texture Filtering** is a method of sampling that decides the color at the given Texture Coordinate based on the Texels that surround it. There are several types of Texture Filtering, such as Nearest-Neighbor Filtering, Bilinear Filtering, Mipmapping, Anisotropic Filtering, and more.
+	- **Filtering** refers to the process of determining the color of a pixel based on its surrounding Texels.
+	- **Interpolation** is a technique used in the filtering process which involves calculating intermediate values between two points based on the values at those points. In the context of Texture Filtering, interpolation is used to determine the color of a pixel based on the colors of its surrounding Texels.
 - **Nearest-Neighbor Filtering** (`GL_NEAREST`) : the simplest method of texture filtering that uses the Texel nearest to the Texture Coordinate as the sampled color. It is the default method.
 	- ![[filter_nearest.png]]
 - **Bilinear Filtering** (`GL_LINEAR`) : the method that takes an interpolated value from the Texture Coordinate's neighboring Texels, approximating a color between them. The smaller the distance from the Texture Coordinate to a Texel's center, the more that Texel's color contributes to the sampled color. This results in a smoother appearance than Nearest-Neighbor Filtering.
@@ -1049,8 +1051,14 @@ glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
 #### Mipmaps
 - **Mipmaps** is a collection of images of the same texture in sequential order where each subsequent texture is smaller than the previous one.
 - A fragment would have too many Texels to sample from when a high resolution image is used for an object that is far away. This results with visible artifacts and waste of memory bandwidth. Mipmaps is used to prevent this problem by supplying a smaller image when the object is further away.
-- `glGenerateMipmap` is used to generate mipmaps in OpenGL (detail about the function call later).
-- Switching between mipmaps during rendering may show some artifacts like sharp edges
+- `glGenerateMipmap` is used to generate Mipmaps in OpenGL (detail about the function call later).
+- Switching between Mipmap levels during rendering may show some artifacts like Aliasing, Texture Shimmering, and Texture Popping. Texture Mapping is necessary for Mipmapping in order to prevent these artifacts and provide smooth transition between Mipmap levels.
+- There are four Mipmap Texture Mapping options:
+	- `GL_NEAREST_MIPMAP_NEAREST` : takes the nearest Mipmap level to match the pixel size, and uses nearest neighbor interpolation for texture sampling.
+	- `GL_LINEAR_MIPMAP_NEAREST` : takes the nearest Mipmap level to match the pixel size, and samples that level using linear interpolation.
+	- `GL_NEAREST_MIPMAP_LINEAR` : linearly interpolates between the two mipmaps that most closely match the size of a pixel, and samples the interpolated level via nearest neighbor interpolation.
+	- `GL_LINEAR_MIPMAP_LINEAR` : linearly interpolates between the two closest mipmaps, and samples the interpolated level via linear interpolation.
+- 
 
 ## Transformations
 
