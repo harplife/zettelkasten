@@ -1049,7 +1049,7 @@ glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
 
 
 #### Mipmaps
-
+- 
 
 ## Transformations
 
