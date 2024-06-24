@@ -1018,7 +1018,14 @@ glEnableVertexAttribArray(1);
 	- `glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_MIRRORED_REPEAT);`
 	- `glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_MIRRORED_REPEAT);`
 - `GL_TEXTURE_2D` specifies that the texture is a 2D image.
-- If `GL_CLMAP_TO_BORDER` is chosen, the border color
+- If `GL_CLMAP_TO_BORDER` is chosen, the border color can be set with `glTexParameter*`, like so:
+
+```C++
+float borderColor[] = {1.0f, 1.0f, 0.0f, 1.0f};
+glTexParameterfv(GL_TEXTURE_2D, GL_TEXTURE_BORDER_COLOR, borderColor);
+```
+
+- 
 
 ## Transformations
 
