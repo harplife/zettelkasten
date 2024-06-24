@@ -1025,6 +1025,9 @@ float borderColor[] = {1.0f, 1.0f, 0.0f, 1.0f};
 glTexParameterfv(GL_TEXTURE_2D, GL_TEXTURE_BORDER_COLOR, borderColor);
 ```
 
+
+### Texture Filtering
+- Texture Coordinates do not depend on resolution but can be any floating point value, thus OpenGL has to figure out which texture pixel (aka **texel**) to map the texture coordinate to. This becomes especially important if a low resolution texture is given to a very large object.
 - 
 
 ## Transformations
