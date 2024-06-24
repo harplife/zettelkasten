@@ -1014,9 +1014,14 @@ glEnableVertexAttribArray(1);
 	- `GL_CLAMP_TO_EDGE` : edge of the image is stretched to the edge of the coordinates.
 	- `GL_CLAMP_TO_BORDER` : coordinates outside of the range are given a user-specified border color.
 - ![[texture_wrapping.png]]
-- Each of the aforementioned options can be set per coordinate axis `(s, t, r)` with the `glTexParameter*` function.
-	- `glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_MIRRORED_REPEAT);`
-	- `glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_MIRRORED_REPEAT);`
+- Each of the aforementioned options can be set per coordinate axis `(s, t, r)` with the `glTexParameter*` function:
+
+
+```C++
+glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_MIRRORED_REPEAT);
+glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_MIRRORED_REPEAT);
+```
+
 - `GL_TEXTURE_2D` specifies that the texture is a 2D image.
 - If `GL_CLMAP_TO_BORDER` is chosen, the border color can be set with `glTexParameter*`, like so:
 
@@ -1027,8 +1032,24 @@ glTexParameterfv(GL_TEXTURE_2D, GL_TEXTURE_BORDER_COLOR, borderColor);
 
 
 ### Texture Filtering
-- Texture Coordinates do not depend on resolution but can be any floating point value, thus OpenGL has to figure out which texture pixel (aka **texel**) to map the texture coordinate to. This becomes especially important if a low resolution texture is given to a very large object.
-- 
+- Texture Coordinates do not depend on resolution but can be any floating point value, thus OpenGL has to figure out which texture pixel (aka **Texel**) to map the texture coordinate to. This becomes especially important if a low resolution texture is given to a very large object.
+- **Texture Filtering** is a method of sampling that decides the color at the given Texture Coordinate based on the Texels that surround it. There are several types of Texture Filtering, such as Nearest-Neighbor Filtering, Bilinear Filtering, Mipmapping, Anisotropic Filtering, and more.
+- **Nearest-Neighbor Filtering** (`GL_NEAREST`) : the simplest method of texture filtering that uses the Texel nearest to the Texture Coordinate as the sampled color. It is the default method.
+	- ![[filter_nearest.png]]
+- **Bilinear Filtering** (`GL_LINEAR`) : the method that takes an interpolated value from the Texture Coordinate's neighboring Texels, approximating a color between them. The smaller the distance from the Texture Coordinate to a Texel's center, the more that Texel's color contributes to the sampled color. This results in a smoother appearance than Nearest-Neighbor Filtering.
+	- ![[filter_linear.png]]
+- ![[texture_filtering.png]]
+- `GL_NEAREST` results in a blocked patterns where the pixels that from the texture is clear, while `GL_LINEAR` produces a smoother pattern where the individual pixels are less visible. Although `GL_LINEAR` produces a more realistic output, `GL_NEAREST` can be chosen for the 8-bit aesthetics.
+- Texture Filtering can be set for magnifying and minifying operations (scaling up or down) via `glTexParameter*`. For example, `GL_NEAREST` can be set for when textures are minified and `GL_LINEAR` can be set for when textures are magnified:
+
+```C++
+glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);
+glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+```
+
+
+#### Mipmaps
+
 
 ## Transformations
 
