@@ -1049,6 +1049,8 @@ glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
 
 
 #### Mipmaps
+- **Mipmaps** is a collection of images of the same texture in sequential order where each subsequent texture is smaller than the previous one.
+- A fragment would have too many Texels to sample from when a high resolution image is used for an object that is far away. This results with visible artifacts and waste of memory bandwidth. Mipmaps is used to prevent this problem by supplying a smaller image when the object is further away.
 - 
 
 ## Transformations
