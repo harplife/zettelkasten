@@ -1030,7 +1030,6 @@ float borderColor[] = {1.0f, 1.0f, 0.0f, 1.0f};
 glTexParameterfv(GL_TEXTURE_2D, GL_TEXTURE_BORDER_COLOR, borderColor);
 ```
 
-
 ### Texture Filtering
 - Texture Coordinates do not depend on resolution but can be any floating point value, thus OpenGL has to figure out which texture pixel (aka **Texel**) to map the texture coordinate to. This becomes especially important if a low resolution texture is given to a very large object.
 - **Texture Filtering** is a method of sampling that decides the color at the given Texture Coordinate based on the Texels that surround it. There are several types of Texture Filtering, such as Nearest-Neighbor Filtering, Bilinear Filtering, Mipmapping, Anisotropic Filtering, and more.
@@ -1046,7 +1045,6 @@ glTexParameterfv(GL_TEXTURE_2D, GL_TEXTURE_BORDER_COLOR, borderColor);
 glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);
 glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
 ```
-
 
 #### Mipmaps
 - **Mipmaps** is a collection of images of the same texture in sequential order where each subsequent texture is smaller than the previous one.
