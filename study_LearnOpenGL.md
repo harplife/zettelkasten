@@ -1075,7 +1075,39 @@ glTexParamteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
 - A common mistake is setting the Mipmap Filtering on the magnifying operation. Doing so will generate `GL_INVALID_ENUM` error.
 
 ### Loading and Creating Textures
-- OpenGL (GLAD & GLFW) does not provide functionalities to read & convert image files. 
+#### Image Loading Library
+- OpenGL (GLAD & GLFW) does not provide functionalities to read & convert image files. For the purpose of the guide, [a single header image loading library](https://github.com/nothings/stb/blob/master/stb_image.h) by Sean Barret will be used.
+- Once the header file is downloaded, following preprocessors need to be added:
+
+```C++
+#define STB_IMAGE_IMPLEMENTATION
+#include "stb_image.h"
+```
+
+- By defining `STB_IAMGE_IMPLEMENTATION`, the preprocessor modifies the header file such that it only contains the relevant definition source code, effectively turning the header file into a `.cpp` file.
+- With the image loading library ready, following image `container.jpg` will be loaded: 
+  ![[container.jpg|100]]
+- To load an image, `stbi_load` function is used, like so:
+
+```C++
+// nrChannels -> number of color channels
+int width, height, nrChannels;
+// image file is loaded as bytes
+unsigned char *data = stbi_load("container.jpg", &width, &height, &nrChannels, 0);
+```
+
+#### Generating a Texture
+- Like any objects in OpenGL, an ID must be generated, the ID must be bound to an object, and then the object must be filled with the image data:
+
+```C++
+unsigned int texture;
+glGenTextures(1, &texture);
+glBindTexture(GL_TEXTURE_2D, texture);
+glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_RGB, GL_UNSIGNED_BYTE, data);
+glGeneratedMipmap(GL_TEXTURE_2D);
+```
+
+- 
 
 ## Transformations
 
