@@ -1111,11 +1111,11 @@ glGeneratedMipmap(GL_TEXTURE_2D);
 - <mark class="hltr-trippy">function</mark> `void glTexImage2D(target, level, internalFormat, width, height, border, format, type, data)` : specifies a 2D texture image.
 	- param `GLenum target` : specifies the target texture. Ranges from `GL_TEXTURE_2D` to `GL_PROXY_TEXTURE_CUBE_MAP`. More info [here](https://docs.gl/gl3/glTexImage2D).
 	- param `GLint level` : specifies the level-of-detail number. Level `0` is the base image level. Level `n` is the *n* th mipmap reduction image.
-	- param `GLint internalFormat`
-	- param `GLsizei width`
-	- param `GLsizei height`
-	- param `GLint border`
-	- param `GLenum format`
+	- param `GLint internalFormat` : specifies the number of color components in the texture. Commonly used ones are `GL_RGB`, `GL_RGBA`, `GL_LUMINANCE`, and `GL_LUMINANCE_ALPHA`. The choice of internal format can depend on specific needs, such as the supported image format, the level of control over the image loading process, and the hardware capabilities of the target platform.
+	- param `GLsizei width` : specifies the width of the texture image.
+	- param `GLsizei height` : specifies the height of the texture image.
+	- param `GLint border` : must be set to `0`. This part of the function became deprecated since version 3.0, and will generate an error if set other than 0.
+	- param `GLenum format` : specifies the format of the pixel data.
 	- param `GLenum type`
 	- param `const GLvoid * data`
 
