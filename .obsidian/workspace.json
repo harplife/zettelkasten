@@ -286,6 +286,7 @@
   },
   "active": "3565833ba7980081",
   "lastOpenFiles": [
+    "attachments/vertex_attribute_pointer_interleaved_textures.png",
     "attachments/container.jpg",
     "attachments/texture_filtering.png",
     "attachments/filter_linear.png",
@@ -307,7 +308,6 @@
     "cpp_hello_triangle_code.md",
     "attachments/vertex_array_objects_ebo.png",
     "attachments/vertex_attribute_pointer.png",
-    "attachments/ndc.png",
     "computer_graphics/cg_general_notes/computer_graphics_big_picture.md",
     "goals/goal_bachelor_in_cs.md",
     "lifestyle/central_node.md",

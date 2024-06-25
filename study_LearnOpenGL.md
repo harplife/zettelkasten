@@ -11,6 +11,8 @@
 - Learn GUI Programming - preferably Qt + OpenGL
 - Learn GPU Programming - preferably OpenCL + OpenGL
 - Learn Raytracing
+- Learn Computer Vision - preferably OpenCV
+- Learn Machine Learning - library undecided
 
 ## OpenGL
 ### What is OpenGL
@@ -1123,7 +1125,49 @@ glGeneratedMipmap(GL_TEXTURE_2D);
 	- param `GLenum format` : specifies the format of the pixel data. In other words, it describes the number and the order of color components of the data that is being passed to the function.
 	- param `GLenum type` : specifies the data type of the pixel data. Commonly used one is `GL_UNSIGNED_BYTE`.
 	- param `const GLvoid * data` : specifies a pointer to the image data in memory.
-	- 
+	- Calling this function converts the original texture image to the image format that OpenGL can use (which is indicated by `internalFormat`).
+- After the texture and its corresponding mipmaps are generated, it is good practice to free the image memory with `stbi_image_free(data);`.
+- Putting it all together, the process of loading image should look like this:
+
+```C++
+unsigned int texture;
+glGenTextures(1, &texture);
+glBindTexture(GL_TEXTURE_2D, texture);
+// set the texture wrapping/filtering options (on the currently bound texture object)
+glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);	
+glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
+glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR_MIPMAP_LINEAR);
+glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+// load and generate the texture
+int width, height, nrChannels;
+unsigned char *data = stbi_load("container.jpg", &width, &height, &nrChannels, 0);
+if (data)
+{
+    glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_RGB, GL_UNSIGNED_BYTE, data);
+    glGenerateMipmap(GL_TEXTURE_2D);
+}
+else
+{
+    std::cout << "Failed to load texture" << std::endl;
+}
+stbi_image_free(data);
+```
+
+### Applying Textures
+- The Vertex Data should now include position, color, and texture coordinate for each vertex, like so:
+
+```C++
+float vertices[] = {
+    // positions          // colors           // texture coords
+     0.5f,  0.5f, 0.0f,   1.0f, 0.0f, 0.0f,   1.0f, 1.0f,   // top right
+     0.5f, -0.5f, 0.0f,   0.0f, 1.0f, 0.0f,   1.0f, 0.0f,   // bottom right
+    -0.5f, -0.5f, 0.0f,   0.0f, 0.0f, 1.0f,   0.0f, 0.0f,   // bottom left
+    -0.5f,  0.5f, 0.0f,   1.0f, 1.0f, 0.0f,   0.0f, 1.0f    // top left 
+};
+```
+
+- ![[vertex_attribute_pointer_interleaved_textures.png]]
+- The changes in Vertex Attributes must be applied to the `glVertexAttribPointer`
 
 ## Transformations
 
