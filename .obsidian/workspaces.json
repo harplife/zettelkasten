@@ -25,6 +25,16 @@
                 }
               },
               {
+                "id": "121cb292192de587",
+                "type": "leaf",
+                "state": {
+                  "type": "release-notes",
+                  "state": {
+                    "currentVersion": "1.6.5"
+                  }
+                }
+              },
+              {
                 "id": "7ed37904da334703",
                 "type": "leaf",
                 "state": {
@@ -65,7 +75,8 @@
                   "pinned": true
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -269,8 +280,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 362.5,
-        "collapsed": true
+        "width": 362.5
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -286,8 +296,8 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "3565833ba7980081",
-      "mtime": "2024-06-24T23:34:52-05:00",
+      "active": "121cb292192de587",
+      "mtime": "2024-06-25T13:22:20-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "Dictionary"
