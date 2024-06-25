@@ -1058,7 +1058,17 @@ glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
 	- `GL_LINEAR_MIPMAP_NEAREST` : takes the nearest Mipmap level to match the pixel size, and samples that level using linear interpolation.
 	- `GL_NEAREST_MIPMAP_LINEAR` : linearly interpolates between the two mipmaps that most closely match the size of a pixel, and samples the interpolated level via nearest neighbor interpolation.
 	- `GL_LINEAR_MIPMAP_LINEAR` : linearly interpolates between the two closest mipmaps, and samples the interpolated level via linear interpolation.
-- 
+- The Texture Filtering for the Mipmap is applied onto the minifying operation with `glTexParameter*`, like so:
+
+```C++
+glTexPrameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR_MIPMAP_LINEAR);
+glTexParamteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+```
+
+- A common mistake is setting the Mipmap Filtering on the magnifying operation. Doing so will generate `GL_INVALID_ENUM` error.
+
+### Loading and Creating Textures
+- OpenGL does not
 
 ## Transformations
 
