@@ -1108,7 +1108,16 @@ glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_RGB, GL_UNSIGNED_BYT
 glGeneratedMipmap(GL_TEXTURE_2D);
 ```
 
-- 
+- <mark class="hltr-trippy">function</mark> `void glTexImage2D(target, level, internalFormat, width, height, border, format, type, data)` : specifies a 2D texture image.
+	- param `GLenum target` : specifies the target texture. Ranges from `GL_TEXTURE_2D` to `GL_PROXY_TEXTURE_CUBE_MAP`. More info [here](https://docs.gl/gl3/glTexImage2D).
+	- param `GLint level` : specifies the level-of-detail number. Level `0` is the base image level. Level `n` is the *n* th mipmap reduction image.
+	- param `GLint internalFormat`
+	- param `GLsizei width`
+	- param `GLsizei height`
+	- param `GLint border`
+	- param `GLenum format`
+	- param `GLenum type`
+	- param `const GLvoid * data`
 
 ## Transformations
 
