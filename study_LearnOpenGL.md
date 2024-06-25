@@ -1,4 +1,11 @@
 # Getting Started
+Learning Goal:
+- Learn Graphics Pipeline.
+- Learn how to make a graphics program with OpenGL.
+- Learn how to make a game engine with OpenGL.
+- Make a simple 3D editor.
+- Implement one of Pixar's researches.
+
 ## OpenGL
 ### What is OpenGL
 - OpenGL is a specification that is developed and maintained by the Khronos Group.
