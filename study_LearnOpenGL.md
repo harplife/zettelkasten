@@ -1103,7 +1103,6 @@ unsigned char *data = stbi_load("container.jpg", &width, &height, &nrChannels, 0
 unsigned int texture;
 glGenTextures(1, &texture);
 glBindTexture(GL_TEXTURE_2D, texture);
-// 
 glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_RGB, GL_UNSIGNED_BYTE, data);
 glGeneratedMipmap(GL_TEXTURE_2D);
 ```
@@ -1111,13 +1110,14 @@ glGeneratedMipmap(GL_TEXTURE_2D);
 - <mark class="hltr-trippy">function</mark> `void glTexImage2D(target, level, internalFormat, width, height, border, format, type, data)` : specifies a 2D texture image.
 	- param `GLenum target` : specifies the target texture. Ranges from `GL_TEXTURE_2D` to `GL_PROXY_TEXTURE_CUBE_MAP`. More info [here](https://docs.gl/gl3/glTexImage2D).
 	- param `GLint level` : specifies the level-of-detail number. Level `0` is the base image level. Level `n` is the *n* th mipmap reduction image.
-	- param `GLint internalFormat` : specifies the number of color components in the texture. Commonly used ones are `GL_RGB`, `GL_RGBA`, `GL_LUMINANCE`, and `GL_LUMINANCE_ALPHA`. The choice of internal format can depend on specific needs, such as the supported image format, the level of control over the image loading process, and the hardware capabilities of the target platform.
+	- param `GLint internalFormat` : specifies the number of color components in the texture. This parameter tells OpenGL how to store the texture data internally. Commonly used ones are `GL_RGB`, `GL_RGBA`, `GL_LUMINANCE`, and `GL_LUMINANCE_ALPHA`. The choice of internal format can depend on specific needs, such as the supported image format, the level of control over the image loading process, and the hardware capabilities of the target platform.
 	- param `GLsizei width` : specifies the width of the texture image.
 	- param `GLsizei height` : specifies the height of the texture image.
 	- param `GLint border` : must be set to `0`. This part of the function became deprecated since version 3.0, and will generate an error if set other than 0.
-	- param `GLenum format` : specifies the format of the pixel data.
-	- param `GLenum type`
-	- param `const GLvoid * data`
+	- param `GLenum format` : specifies the format of the pixel data. In other words, it describes the number and the order of color components of the data that is being passed to the function.
+	- param `GLenum type` : specifies the data type of the pixel data. Commonly used one is `GL_UNSIGNED_BYTE`.
+	- param `const GLvoid * data` : specifies a pointer to the image data in memory.
+	- 
 
 ## Transformations
 
