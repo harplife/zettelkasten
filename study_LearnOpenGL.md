@@ -1167,7 +1167,15 @@ float vertices[] = {
 ```
 
 - ![[vertex_attribute_pointer_interleaved_textures.png]]
-- The changes in Vertex Attributes must be applied to the `glVertexAttribPointer`
+- The new vertex attribute must be added with the `glVertexAttribPointer` as well:
+
+```C++
+glVertexAttribPointer(2, 2, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void*)(6 * sizeof(float)));
+glEnableVertexAttribArray(2); 
+```
+
+- Make sure the stride is set correctly with the other vertex attributes (such as position and color).
+- 
 
 ## Transformations
 
