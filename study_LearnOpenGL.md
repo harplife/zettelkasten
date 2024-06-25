@@ -1068,7 +1068,7 @@ glTexParamteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
 - A common mistake is setting the Mipmap Filtering on the magnifying operation. Doing so will generate `GL_INVALID_ENUM` error.
 
 ### Loading and Creating Textures
-- OpenGL does not provide
+- OpenGL (GLAD & GLFW) does not provide functionalities to read & convert image files. 
 
 ## Transformations
 
