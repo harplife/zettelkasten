@@ -1,10 +1,16 @@
 # Getting Started
-Learning Goal:
+## PERSONAL NOTES
+### Learning Goal
 - Learn Graphics Pipeline.
 - Learn how to make a graphics program with OpenGL.
 - Learn how to make a game engine with OpenGL.
 - Make a simple 3D editor.
 - Implement one of Pixar's researches.
+
+### Future Plans
+- Learn GUI Programming - preferably Qt + OpenGL
+- Learn GPU Programming - preferably OpenCL + OpenGL
+- Learn Raytracing
 
 ## OpenGL
 ### What is OpenGL
