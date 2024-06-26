@@ -1257,7 +1257,13 @@ Refer to [[opengl_texture_code]]
 - Displaying a vector in formula is generally displayed as follows:
 
 $$
-\bar{v} = x y z
+\newcommand\mymat[1]{\begin{bmatrix*}[r]#1\end{bmatrix*}}
+
+u = \mymat{1\\-1\\0}, v = \mymat{0\\1\\-1}
+$$
+
+$$
+\bar{v} = \begin{bmatrix*}1\\2\end{bmatrix*}
 $$
 ### Vectors
 - A vector has a direction and a magnitude (aka strength or length).
