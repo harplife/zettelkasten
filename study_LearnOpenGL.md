@@ -433,11 +433,11 @@ glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC DRAW)
 
 ```C
 #version 330 core
-layout (location = 0) in vec3 aPos;
+layout (location = 0) in vec3 a_pos;
 
 void main()
 {
-	gl_Position = vec4(aPos.x, aPos.y, aPos.z, 1.0);
+	gl_Position = vec4(a_pos.x, a_pos.y, a_pos.z, 1.0);
 }
 ```
 
@@ -447,7 +447,7 @@ void main()
 - GLSL has a vector datatype that contains 1 to 4 floats based on its postfix digit.
 	- `vec3` means it is a vector type that contains 3 floats (for x, y, z in this case).
 - `layout (location = 0)` : this is a layout qualifier that specifies the location of the input variable. The number `0` is the location index.
-- `in vec3 aPos` : this declares an input variable `aPos` for the shader. The `in` keyword means it's an input to the shader. `vec3` is the type of the variable.
+- `in vec3 a_pos` : this declares an input variable `a_pos` for the shader. The `in` keyword means it's an input to the shader. `vec3` is the type of the variable.
 - `gl_Position` is a pre-defined variable of type `vec4` with the components being x, y, z, and w. The x, y, and z components represent the position of the vertex in 3D space, while the w component is used for perspective division.
 - The source code for the Vertex Shader must be passed onto the GPU as a C-style string `const char*`. This is basically a pointer to the character array.
 - (note) Loading shaders from external files is a common practice in larger OpenGL projects. Below is an example code for loading shaders:
@@ -508,16 +508,16 @@ if(!success)
 
 ```C
 #version 330 core
-out vec4 FragColor;
+out vec4 f_color;
 
 void main()
 {
-	FragColor = vec4(1.0f, 0.5f, 0.2f, 1.0f);
+	f_color = vec4(1.0f, 0.5f, 0.2f, 1.0f);
 }
 ```
 
 - The Fragment Shader only requires one output variable; a vector of size 4 that defines the final color output.
-- The output values of the Fragment Shader is declared with the `out` keyword, with variable name `FragColor`.
+- The output values of the Fragment Shader is declared with the `out` keyword, with variable name `f_color`.
 - The color output is in `RGBA` format, with values between `0` and `1`.
 - The process for compiling a fragment shader is similar to the Vertex Shader, and the only difference is the `GL_FRAGMENT_SHADER` constant as the shader type.
 - Compile code:
@@ -874,27 +874,27 @@ vec4 otherResult = vec4(result.xyz, 1.0);
 Vertex Shader
 ```C
 #version 330 core
-layout (locatino = 0) in vec3 aPos;
+layout (locatino = 0) in vec3 a_pos;
 
-out vec4 VertexColor;
+out vec4 v_color;
 
 void main()
 {
-	gl_Position = vec4(aPos, 1.0);
-	vertexColor = vec4(0.5, 0.0, 0.0, 1.0);
+	gl_Position = vec4(a_pos, 1.0);
+	v_color = vec4(0.5, 0.0, 0.0, 1.0);
 }
 ```
 
 Fragment Shader
 ```C
 #version 330 core
-out vec4 FragColor;
+in vec4 v_color;
 
-in vec4 vertexColor;
+out vec4 f_color;
 
 void main()
 {
-	FragColor = vertexColor;
+	f_color = v_color;
 }
 ```
 
@@ -903,7 +903,7 @@ void main()
 - Uniforms are global, meaning that a uniform variable is unique per shader program object, and can be accessed from any shader at any stage in the shader program.
 - Uniforms are implicitly constant within the shader. Attempting to change them with shader code will result in a compiler error. Similarly, a uniform variable cannot be passed as an `out` or `inout` parameter to a function.
 - If a uniform variable is declared in both the Vertex Shader and the Fragment Shader, the types must be consistent. For example, you cannot have `uniform int x;` in the Vertex Shader and `uniform float x;` in the Fragment Shader.
-- To declare a uniform variable, the `uniform` keyword is added before the type and the name (i.e. `uniform vec4 vertexColor`).
+- To declare a uniform variable, the `uniform` keyword is added before the type and the name (i.e. `uniform vec4 v_color`).
 - <mark class="hltr-red">WARNING</mark> : a declared uniform variable that is not used anywhere in the GLSL code will be silently removed during compilation, which may cause several frustrating errors.
 - The `layout` qualifier for uniforms is *NOT* available for OpenGL version 3.3. It is only available 4.3 and upwards. In other words, location of a uniform variable cannot be explicitly set, and therefore the location must be queried using `glGetUniformLocation(program, variable)`.
 - Defining a uniform variable isn't usually done inside a shader - it is common to set a uniform variable's value inside OpenGL code using `glUniform(location, *)`.
@@ -919,13 +919,13 @@ void main()
 Fragment Shader
 ```C
 #version 330 core
-out vec4 FragColor;
+out vec4 f_color;
 
-uniform vec4 vertexColor;
+uniform vec4 v_color;
 
 void main()
 {
-	FragColor = vertexColor;
+	f_color = v_color;
 }
 ```
 
@@ -936,9 +936,9 @@ glUseProgram(shaderProgram);
 
 float timeValue = glfwGetTime();
 float greenValue = (sin(timeValue)/2.0f) + 0.5f; // sine returns value -1~1
-int vertexColorLocation = glGetUniformLocation(shaderProgram, "vertexColor");
+int v_colorLocation = glGetUniformLocation(shaderProgram, "v_color");
 
-glUniform4f(vertexColorLocation, 0.0f, greenValue, 0.0f, 1.0f);
+glUniform4f(v_colorLocation, 0.0f, greenValue, 0.0f, 1.0f);
 ```
 
 - Above code results with the shape(s) flashing green.
@@ -961,15 +961,15 @@ float vertices[] = {
 
 ```C
 #version 330 core
-layout (location = 0) in vec3 aPos;
-layout (location = 1) in vec3 aColor;
+layout (location = 0) in vec3 a_pos;
+layout (location = 1) in vec3 a_color;
 
-out vec3 vectorColor;
+out vec3 v_color;
 
 void main()
 {
-	gl_Position = vec4(aPos, 1.0);
-	vectorColor = aColor;
+	gl_Position = vec4(a_pos, 1.0);
+	v_color = a_color;
 }
 ```
 
@@ -977,12 +977,12 @@ void main()
 
 ```C
 #version 330 core
-out vec4 FragColor;
-in vec3 vectorColor;
+in vec3 v_color;
+out vec4 f_color;
 
 void main()
 {
-	FragColor = vec4(vectorColor, 1.0);
+	f_color = vec4(v_color, 1.0);
 }
 ```
 
@@ -1179,15 +1179,23 @@ glEnableVertexAttribArray(2);
 
 ```C++
 #version 330 core
-layout (location = 0) in vec3 aPos;
-layout (location = 1) in vec3 aColor;
-layout (location = 2) in vec2 aTexCoord;
+layout (location = 0) in vec3 a_pos;
+layout (location = 1) in vec3 a_color;
+layout (location = 2) in vec2 a_texCoord;
 
-out vec3 fragColor;
-out vec2 textureCoord;
+out vec3 v_color;
+out vec2 v_texCoord;
 
-
+void main()
+{
+	gl_Position = vec4(a_pos, 1.0);
+	v_color = a_color;
+	v_texCoord = a_textCoord;
+}
 ```
+
+- The Fragment Shader should then accept the `v_texCoord` variable as its input.
+- For the Fragment Shader to gain access to the texture 
 
 ## Transformations
 
