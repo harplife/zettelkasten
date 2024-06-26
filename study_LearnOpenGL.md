@@ -1085,6 +1085,7 @@ glTexParamteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
 ### Loading and Creating Textures
 #### Image Loading Library
 - OpenGL (GLAD & GLFW) does not provide functionalities to read & convert image files. For the purpose of the guide, [a single header image loading library](https://github.com/nothings/stb/blob/master/stb_image.h) by Sean Barret will be used.
+	- #todo try out OpenImageIO. I feel like I've seen it being used in Houdini.
 - Once the header file is downloaded, following preprocessors need to be added:
 
 ```C++
@@ -1110,7 +1111,8 @@ unsigned char *data = stbi_load("container.jpg", &width, &height, &nrChannels, 0
 - The main purpose of Texture Units is to allow multiple textures to be used in shaders. In other words, each Texture Unit corresponds to a single texture.
 - A Texture Unit can be set current with a call to `glActiveTexture`. The proper way to set the active Texture Unit is with the value `GL_TEXTURE0 + i`, where `i` is the texture unit index (starting at `0`).
 	- Although there is `GL_TEXTURE1` and so on, the symbolic constant is only supplied up to 31. Number of textures that can be loaded is up to the GPU (`GL_MAX_TEXTURE_IMAGE_UNITS`).
-- There are various ways to get around the maximum number of texture units, such as 
+- There are various ways to get around the maximum number of texture units, such as Texture Atlas.
+	- Texture Atlas is an image containing multiple sub-images that can be used as a way to supply multiple textures with only a single texture unit. It is efficient in an application where many small textures are used frequently, as it reduces both the disk I/O overhead and the context switch overhead.
 
 #### Generating a Texture
 - Like any objects in OpenGL, an ID must be generated, the ID must be bound to an object, and then the object must be filled with the image data:
