@@ -1252,7 +1252,13 @@ Refer to [[opengl_texture_code]]
 
 ## Transformations
 - Because an object in a Graphics program is basically an array of data, it can be represented as a matrix; which means that all transformation in regards to an object involves some kind of matrix operations.
+- If a vector has 2 dimensions, it represents a direction on a plane. When it has 3, it can represent any direction in 3D world.
+- Generally, a vector is described as a character symbol with a little bar on top, like $\bar{v}$.
+- Displaying a vector in formula is generally displayed as follows:
 
+$$
+\bar{v} = x y z
+$$
 ### Vectors
 - A vector has a direction and a magnitude (aka strength or length).
 - 

@@ -49,8 +49,22 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "79c66fc300f551eb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "computer_graphics/cg_learn_notes/computer_graphics_transformations.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -128,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study_LearnOpenGL.md"
+                "file": "computer_graphics/cg_learn_notes/computer_graphics_transformations.md"
               }
             }
           }
@@ -169,7 +183,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "study_LearnOpenGL.md",
+                "file": "computer_graphics/cg_learn_notes/computer_graphics_transformations.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -204,7 +218,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study_LearnOpenGL.md",
+                "file": "computer_graphics/cg_learn_notes/computer_graphics_transformations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -239,7 +253,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study_LearnOpenGL.md",
+                "file": "computer_graphics/cg_learn_notes/computer_graphics_transformations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -271,12 +285,12 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "3565833ba7980081",
+  "active": "79c66fc300f551eb",
   "lastOpenFiles": [
+    "study_LearnOpenGL.md",
     "attachments/Pasted image 20240626173535.png",
     "opengl_texture_code.md",
     "cpp_hello_rectangle_code.md",
-    "study_LearnOpenGL.md",
     "opengl_code_guide.md",
     "opengl_custom_shader_main.md",
     "opengl_custom_shader_class.md",
@@ -295,7 +309,6 @@
     "cpp_hello_window_code.md",
     "computer_science/OpenGL/opengl_draw_2d_simple_triangle.md",
     "cpp_hello_triangle_code.md",
-    "attachments/vertex_array_objects_ebo.png",
     "computer_graphics/cg_general_notes/computer_graphics_big_picture.md",
     "goals/goal_bachelor_in_cs.md",
     "lifestyle/central_node.md",
