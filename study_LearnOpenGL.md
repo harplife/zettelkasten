@@ -1111,10 +1111,11 @@ unsigned char *data = stbi_load("container.jpg", &width, &height, &nrChannels, 0
 - The main purpose of Texture Units is to allow multiple textures to be used in shaders. In other words, each Texture Unit corresponds to a single texture.
 - A Texture Unit can be set current with a call to `glActiveTexture`. The proper way to set the active Texture Unit is with the value `GL_TEXTURE0 + i`, where `i` is the texture unit index (starting at `0`).
 	- Although there is `GL_TEXTURE1` and so on, the symbolic constant is only supplied up to 31. Number of textures that can be loaded is up to the GPU (`GL_MAX_TEXTURE_IMAGE_UNITS`).
+- A Texture Unit is, in a way, a location of an active texture. `GL_TEXTURE0` indicates a texture at location `0`.
+	- This location will be assigned as a value to a Uniform via `glUniform1i`, then be fed to `texture` function inside Fragment Shader. Specifics will be discussed later.
 - Once a Texture Unit is active, operations such as `glBindTexture` can follow.
 - There are various ways to get around the maximum number of texture units, such as Texture Atlas.
 	- **Texture Atlas** is an image containing multiple sub-images that can be used as a way to supply multiple textures with only a single texture unit. It is efficient in an application where many small textures are used frequently, as it reduces both the disk I/O overhead and the context switch overhead.
-- 
 
 #### Generating a Texture
 - Like any objects in OpenGL, an ID must be generated, the ID must be bound to an object, and then the object must be filled with the image data:
@@ -1122,6 +1123,7 @@ unsigned char *data = stbi_load("container.jpg", &width, &height, &nrChannels, 0
 ```C++
 unsigned int texture;
 glGenTextures(1, &texture);
+
 glActiveTexture(GL_TEXTURE0);
 glBindTexture(GL_TEXTURE_2D, texture);
 // image data loaded with stbi_load
@@ -1149,6 +1151,8 @@ if (data)
 ```C++
 unsigned int texture;
 glGenTextures(1, &texture);
+
+glActiveTexture(GL_TEXTURE0);
 glBindTexture(GL_TEXTURE_2D, texture);
 // set the texture wrapping/filtering options (on the currently bound texture object)
 glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);	
@@ -1169,8 +1173,6 @@ else
 }
 stbi_image_free(data);
 ```
-
-
 
 ### Applying Textures
 - The Vertex Data should now include position, color, and texture coordinate for each vertex, like so:
@@ -1214,7 +1216,30 @@ void main()
 ```
 
 - The Fragment Shader should then accept the `v_texCoord` variable as its input.
-- For the Fragment Shader to gain access to the texture 
+- The Texture Object is passed to the Fragment Shader via a Uniform that has a data type `sampler*`. A postfix for that data type is set according to the dimension (e.g. `sampler2D`).
+- All in all, the fragment shader should look like this:
+
+```C
+#version 330 core
+in vec3 v_color;
+in vec2 v_texCoord;
+
+uniform sampler2D texture0;
+
+out vec4 f_color;
+
+void main()
+{
+	f_color = texture(texture0, v_texCoord);
+}
+```
+
+- The texture location is passed to the Uniform `texture0`:
+
+```C++
+// make sure shaders are activated beforehand
+glUniform1i(glGetUniformLocation(fragmentShader, "texture0"), 0);
+```
 
 ## Transformations
 
