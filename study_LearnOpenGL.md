@@ -1153,6 +1153,9 @@ else
 stbi_image_free(data);
 ```
 
+### Texture Units
+- 
+
 ### Applying Textures
 - The Vertex Data should now include position, color, and texture coordinate for each vertex, like so:
 
