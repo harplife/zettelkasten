@@ -1111,8 +1111,10 @@ unsigned char *data = stbi_load("container.jpg", &width, &height, &nrChannels, 0
 - The main purpose of Texture Units is to allow multiple textures to be used in shaders. In other words, each Texture Unit corresponds to a single texture.
 - A Texture Unit can be set current with a call to `glActiveTexture`. The proper way to set the active Texture Unit is with the value `GL_TEXTURE0 + i`, where `i` is the texture unit index (starting at `0`).
 	- Although there is `GL_TEXTURE1` and so on, the symbolic constant is only supplied up to 31. Number of textures that can be loaded is up to the GPU (`GL_MAX_TEXTURE_IMAGE_UNITS`).
+- Once a Texture Unit is active, operations such as `glBindTexture` can follow.
 - There are various ways to get around the maximum number of texture units, such as Texture Atlas.
-	- Texture Atlas is an image containing multiple sub-images that can be used as a way to supply multiple textures with only a single texture unit. It is efficient in an application where many small textures are used frequently, as it reduces both the disk I/O overhead and the context switch overhead.
+	- **Texture Atlas** is an image containing multiple sub-images that can be used as a way to supply multiple textures with only a single texture unit. It is efficient in an application where many small textures are used frequently, as it reduces both the disk I/O overhead and the context switch overhead.
+- 
 
 #### Generating a Texture
 - Like any objects in OpenGL, an ID must be generated, the ID must be bound to an object, and then the object must be filled with the image data:
@@ -1122,8 +1124,12 @@ unsigned int texture;
 glGenTextures(1, &texture);
 glActiveTexture(GL_TEXTURE0);
 glBindTexture(GL_TEXTURE_2D, texture);
-glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_RGB, GL_UNSIGNED_BYTE, data);
-glGeneratedMipmap(GL_TEXTURE_2D);
+// image data loaded with stbi_load
+if (data)
+{
+	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_RGB, GL_UNSIGNED_BYTE, data);
+	glGenerateMipmap(GL_TEXTURE_2D);
+}
 ```
 
 - <mark class="hltr-trippy">function</mark> `void glTexImage2D(target, level, internalFormat, width, height, border, format, type, data)` : specifies a 2D texture image.
