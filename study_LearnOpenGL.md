@@ -1251,7 +1251,11 @@ Refer to [[opengl_texture_code]]
 ![[Pasted image 20240626173535.png]]
 
 ## Transformations
+- Because an object in a Graphics program is basically an array of data, it can be represented as a matrix; which means that all transformation in regards to an object involves some kind of matrix operations.
 
+### Vectors
+- A vector has a direction and a magnitude (aka strength or length).
+- 
 
 ## Coordinate Systems
 
