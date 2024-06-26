@@ -1149,29 +1149,29 @@ if (data)
 - Putting it all together, the process of loading image should look like this:
 
 ```C++
-unsigned int texture;
-glGenTextures(1, &texture);
+unsigned int texture0;
+glGenTextures(1, &texture0);
 
 glActiveTexture(GL_TEXTURE0);
-glBindTexture(GL_TEXTURE_2D, texture);
+glBindTexture(GL_TEXTURE_2D, texture0);
 // set the texture wrapping/filtering options (on the currently bound texture object)
 glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);	
 glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
 glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR_MIPMAP_LINEAR);
 glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
 // load and generate the texture
-int width, height, nrChannels;
-unsigned char *data = stbi_load("container.jpg", &width, &height, &nrChannels, 0);
-if (data)
+int txWidth, txHeight, txChannels;
+unsigned char *imgData = stbi_load("container.jpg", &txWidth, &txHeight, &txChannels, 0);
+if (imgData)
 {
-    glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_RGB, GL_UNSIGNED_BYTE, data);
+    glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, txWidth, txHeight, 0, GL_RGB, GL_UNSIGNED_BYTE, imgData);
     glGenerateMipmap(GL_TEXTURE_2D);
 }
 else
 {
     std::cout << "Failed to load texture" << std::endl;
 }
-stbi_image_free(data);
+stbi_image_free(imgData);
 ```
 
 ### Applying Textures
@@ -1202,27 +1202,27 @@ glEnableVertexAttribArray(2);
 #version 330 core
 layout (location = 0) in vec3 a_pos;
 layout (location = 1) in vec3 a_color;
-layout (location = 2) in vec2 a_texCoord;
+layout (location = 2) in vec2 a_txCoord;
 
 out vec3 v_color;
-out vec2 v_texCoord;
+out vec2 v_txCoord;
 
 void main()
 {
 	gl_Position = vec4(a_pos, 1.0);
 	v_color = a_color;
-	v_texCoord = a_textCoord;
+	v_txCoord = a_txCoord;
 }
 ```
 
-- The Fragment Shader should then accept the `v_texCoord` variable as its input.
+- The Fragment Shader should then accept the `v_txCoord` variable as its input.
 - The Texture Object is passed to the Fragment Shader via a Uniform that has a data type `sampler*`. A postfix for that data type is set according to the dimension (e.g. `sampler2D`).
 - All in all, the fragment shader should look like this:
 
 ```C
 #version 330 core
 in vec3 v_color;
-in vec2 v_texCoord;
+in vec2 v_txCoord;
 
 uniform sampler2D texture0;
 
@@ -1230,7 +1230,7 @@ out vec4 f_color;
 
 void main()
 {
-	f_color = texture(texture0, v_texCoord);
+	f_color = texture(texture0, v_txCoord);
 }
 ```
 
