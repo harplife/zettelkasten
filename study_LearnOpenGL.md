@@ -1,4 +1,6 @@
 # Getting Started
+Following the guide https://learnopengl.com
+
 ## PERSONAL NOTES
 ### Learning Goal
 - Learn Graphics Pipeline.
@@ -1244,7 +1246,9 @@ glUniform1i(glGetUniformLocation(fragmentShader, "texture0"), 0);
 ```
 
 ### Source Code
+Refer to [[opengl_texture_code]]
 
+![[Pasted image 20240626173535.png]]
 
 ## Transformations
 

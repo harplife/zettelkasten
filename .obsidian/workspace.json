@@ -23,6 +23,19 @@
             }
           },
           {
+            "id": "c8ae4f2652609291",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "opengl_texture_code.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "83780f759d31a96e",
             "type": "leaf",
             "pinned": true,
@@ -260,10 +273,13 @@
   },
   "active": "3565833ba7980081",
   "lastOpenFiles": [
-    "opengl_custom_shader_main.md",
-    "opengl_custom_shader_class.md",
+    "attachments/Pasted image 20240626173535.png",
+    "opengl_texture_code.md",
+    "cpp_hello_rectangle_code.md",
     "study_LearnOpenGL.md",
     "opengl_code_guide.md",
+    "opengl_custom_shader_main.md",
+    "opengl_custom_shader_class.md",
     "attachments/vertex_attribute_pointer_interleaved_textures.png",
     "attachments/container.jpg",
     "attachments/texture_filtering.png",
@@ -277,7 +293,6 @@
     "Dictionary/graphics",
     "Dictionary",
     "cpp_hello_window_code.md",
-    "cpp_hello_rectangle_code.md",
     "computer_science/OpenGL/opengl_draw_2d_simple_triangle.md",
     "cpp_hello_triangle_code.md",
     "attachments/vertex_array_objects_ebo.png",
@@ -295,7 +310,6 @@
     "filter_bubble.md",
     "algorithms_panos_louridas.md",
     "Insertion-sort-example-300px.gif.md",
-    "11884_e1_004.jpg.md",
-    "computer_graphics/cg_general_notes/3d_영상_콘텐츠_제작자_양성_과정.md"
+    "11884_e1_004.jpg.md"
   ]
 }
