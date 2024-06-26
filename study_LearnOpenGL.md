@@ -1107,8 +1107,10 @@ unsigned char *data = stbi_load("container.jpg", &width, &height, &nrChannels, 0
 #### Texture Units
 - A Texture Unit is a component of GPU that handles everything related to textures. It's responsible for loading texture data, processing it, and sending it to the shader.
 - Each Texture Unit can have one texture of each type bound to it at a time. When a texture is bound to a Texture Unit, all subsequent texture operations on that type of texture are performed on the texture that's bound to the current unit.
-- The main purpose of Texture Units is to allow multiple textures to be used in shaders. In other words, each Texture Unit corresponds to a single texture and holds its location.
+- The main purpose of Texture Units is to allow multiple textures to be used in shaders. In other words, each Texture Unit corresponds to a single texture.
 - A Texture Unit can be set current with a call to `glActiveTexture`. The proper way to set the active Texture Unit is with the value `GL_TEXTURE0 + i`, where `i` is the texture unit index (starting at `0`).
+	- Although there is `GL_TEXTURE1` and so on, the symbolic constant is only supplied up to 31. Number of textures that can be loaded is up to the GPU (`GL_MAX_TEXTURE_IMAGE_UNITS`).
+- There are various ways to get around the maximum number of texture units, such as 
 
 #### Generating a Texture
 - Like any objects in OpenGL, an ID must be generated, the ID must be bound to an object, and then the object must be filled with the image data:
