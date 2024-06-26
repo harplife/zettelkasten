@@ -1100,9 +1100,9 @@ glTexParamteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
 
 ```C++
 // nrChannels -> number of color channels
-int width, height, nrChannels;
+int txWidth, txHeight, txChannels;
 // image file is loaded as bytes
-unsigned char *data = stbi_load("container.jpg", &width, &height, &nrChannels, 0);
+unsigned char *data = stbi_load("container.jpg", &txWidth, &txHeight, &txChannels, 0);
 ```
 
 #### Texture Units
