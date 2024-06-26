@@ -1175,7 +1175,19 @@ glEnableVertexAttribArray(2);
 ```
 
 - Make sure the stride is set correctly with the other vertex attributes (such as position and color).
-- 
+- The Vertex Shader should be modified to accept the Texture Coordinates as a Vertex Attribute, and then forward the coordinates to the Fragment Shader:
+
+```C++
+#version 330 core
+layout (location = 0) in vec3 aPos;
+layout (location = 1) in vec3 aColor;
+layout (location = 2) in vec2 aTexCoord;
+
+out vec3 fragColor;
+out vec2 textureCoord;
+
+
+```
 
 ## Transformations
 
