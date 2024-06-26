@@ -1263,6 +1263,9 @@ $$
 - A vector has a direction and a magnitude (aka strength or length).
 - 
 
+### Personal Notes
+![[2d_affine_transformation.svg]]
+
 ## Coordinate Systems
 
 ## Camera

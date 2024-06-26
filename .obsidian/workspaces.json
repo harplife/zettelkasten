@@ -51,22 +51,8 @@
                   },
                   "pinned": true
                 }
-              },
-              {
-                "id": "79c66fc300f551eb",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "computer_graphics/cg_learn_notes/computer_graphics_transformations.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
               }
-            ],
-            "currentTab": 3
+            ]
           }
         ],
         "direction": "vertical"
@@ -144,7 +130,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "computer_graphics/cg_learn_notes/computer_graphics_transformations.md"
+                    "file": "study_LearnOpenGL.md"
                   }
                 }
               }
@@ -185,7 +171,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "computer_graphics/cg_learn_notes/computer_graphics_transformations.md",
+                    "file": "study_LearnOpenGL.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -220,7 +206,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "computer_graphics/cg_learn_notes/computer_graphics_transformations.md",
+                    "file": "study_LearnOpenGL.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -255,7 +241,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "computer_graphics/cg_learn_notes/computer_graphics_transformations.md",
+                    "file": "study_LearnOpenGL.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -287,8 +273,8 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "79c66fc300f551eb",
-      "mtime": "2024-06-26T18:24:08-05:00",
+      "active": "3565833ba7980081",
+      "mtime": "2024-06-26T18:29:34-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "Dictionary"

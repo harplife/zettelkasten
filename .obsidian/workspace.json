@@ -49,22 +49,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "79c66fc300f551eb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "computer_graphics/cg_learn_notes/computer_graphics_transformations.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -142,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer_graphics/cg_learn_notes/computer_graphics_transformations.md"
+                "file": "study_LearnOpenGL.md"
               }
             }
           }
@@ -183,7 +169,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "computer_graphics/cg_learn_notes/computer_graphics_transformations.md",
+                "file": "study_LearnOpenGL.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -218,7 +204,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computer_graphics/cg_learn_notes/computer_graphics_transformations.md",
+                "file": "study_LearnOpenGL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -253,7 +239,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer_graphics/cg_learn_notes/computer_graphics_transformations.md",
+                "file": "study_LearnOpenGL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -285,13 +271,16 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "79c66fc300f551eb",
+  "active": "3565833ba7980081",
   "lastOpenFiles": [
+    "opengl_code_guide.md",
+    "books/ebooks/8일간의_선형대수학.md",
+    "computer_science/linear_algebra/knou_la_class_note.md",
+    "computer_graphics/cg_learn_notes/computer_graphics_transformations.md",
     "study_LearnOpenGL.md",
     "attachments/Pasted image 20240626173535.png",
     "opengl_texture_code.md",
     "cpp_hello_rectangle_code.md",
-    "opengl_code_guide.md",
     "opengl_custom_shader_main.md",
     "opengl_custom_shader_class.md",
     "attachments/vertex_attribute_pointer_interleaved_textures.png",
@@ -321,8 +310,6 @@
     "신의_마법사.md",
     "JE_01.md",
     "filter_bubble.md",
-    "algorithms_panos_louridas.md",
-    "Insertion-sort-example-300px.gif.md",
-    "11884_e1_004.jpg.md"
+    "algorithms_panos_louridas.md"
   ]
 }
