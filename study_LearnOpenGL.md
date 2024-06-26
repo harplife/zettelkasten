@@ -1237,7 +1237,9 @@ void main()
 - The texture location is passed to the Uniform `texture0`:
 
 ```C++
-// make sure shaders are activated beforehand
+// make sure shader program is ready
+glUseProgram(shaderProgram);
+
 glUniform1i(glGetUniformLocation(fragmentShader, "texture0"), 0);
 ```
 
