@@ -1330,6 +1330,16 @@ $$
 	- Bump Mapping and Normal Mapping
 	- Transformations
 
+### Vector Multiplications
+- There are two types of vector multiplications - Dot Product and Cross Product.
+
+#### Dot Product
+- Dot Product is denoted as $\bar{v} \cdot \bar{k}$
+- 
+
+#### Cross Product
+- Cross Product is denoted as $\bar{v}\times{k}$
+
 ### Personal Notes
 ![[2d_affine_transformation.svg]]
 
