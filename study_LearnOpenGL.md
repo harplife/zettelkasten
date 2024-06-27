@@ -1280,6 +1280,44 @@ $$
 ### Vector Negation
 - Negating a vector (flipping its positive/negative sign) results in a vector in the reversed direction. It is equivalent to a scalar multiplication with `-1`.
 
+### Component-wise Operations
+- Addition/subtraction of two vectors is defined as component-wise addition/subtraction, where each component of one vector is added/subtracted to the same component of the other vector. For example:
+
+$$
+\newcommand\mymat[1]{\begin{bmatrix*}[r]#1\end{bmatrix*}}
+
+\begin{gathered}
+\bar{v} = \mymat{1\\2\\3}, \bar{k} = \mymat{4\\5\\6}\\
+\bar{v} + \bar{k} \rightarrow \mymat{1+4\\2+5\\3+6}
+=
+\mymat{5\\7\\9}
+\end{gathered}
+$$
+
+- For vectors $\bar{v}=(4,2)$ and $\bar{k}=(1,2)$, vector addition $\bar{v}+\bar{k}$ can be visualized like this:
+  ![[vectors_addition.png]]
+
+### Magnitude/Length
+- In order to calculate the magnitude (aka length) of a vector, 
+- A vector forms a triangle when its individual `x` and `y` component as two sides of a triangle:
+  ![[vectors_triangle.png]]
+- the **Pythagoras Theorem** can be used to calculate the magnitude (which is represented as the hypotenuse of the triangle):
+
+$$
+||\bar{v}|| = \sqrt{x^2 + y^2}
+$$
+
+- The magnitude of vector $\bar{v} = (4, 2)$ can be calculated like so:
+
+$$
+||\bar{v}|| = \sqrt{4^2 + 2^2} = \sqrt{20} = 4.47
+$$
+
+### Unit Vector
+- A Unit Vector is a special type of vector that has magnitude of $1$.
+- A Unit Vector can be represented as a letter with a hat : $\hat{n}$
+- 
+
 ### Personal Notes
 ![[2d_affine_transformation.svg]]
 

@@ -273,6 +273,8 @@
   },
   "active": "3565833ba7980081",
   "lastOpenFiles": [
+    "attachments/vectors_triangle.png",
+    "attachments/vectors_addition.png",
     "opengl_code_guide.md",
     "books/ebooks/8일간의_선형대수학.md",
     "computer_science/linear_algebra/knou_la_class_note.md",
@@ -291,7 +293,6 @@
     "attachments/texture_wrapping.png",
     "attachments/tex_coords.png",
     "attachments/opengl_texture_wall.jpg",
-    "attachments/vertex_attribute_pointer_interleaved.png",
     "opengl_code_guide_source_code.md",
     "Dictionary/graphics",
     "Dictionary",
@@ -309,7 +310,6 @@
     "knou_algorithm_notes.md",
     "신의_마법사.md",
     "JE_01.md",
-    "filter_bubble.md",
-    "algorithms_panos_louridas.md"
+    "filter_bubble.md"
   ]
 }
