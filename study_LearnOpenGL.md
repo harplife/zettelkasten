@@ -1314,9 +1314,10 @@ $$
 $$
 
 ### Unit Vector
-- A Unit Vector is a special type of vector that has magnitude of $1$.
-- A Unit Vector can be represented as a letter with a hat : $\hat{n}$
-- 
+- Unit Vector is a special type of vector that has magnitude of $1$.
+- Unit Vector is useful to denote direction of a vector.
+- Unit Vector can be represented as a letter with a hat : $\hat{n}$
+- Normalizing a vector is a process of converting a vector into a Unit Vector, which is done by dividing the vector by its own magnitude.
 
 ### Personal Notes
 ![[2d_affine_transformation.svg]]
