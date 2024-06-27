@@ -1252,6 +1252,9 @@ Refer to [[opengl_texture_code]]
 
 ## Transformations
 - Because an object in a Graphics program is basically an array of data, it can be represented as a matrix; which means that all transformation in regards to an object involves some kind of matrix operations.
+
+### Vectors
+- A vector has a direction and a magnitude (aka strength or length).
 - If a vector has 2 dimensions, it represents a direction on a plane. When it has 3, it can represent any direction in 3D world.
 - Generally, a vector is described as a character symbol with a little bar on top, like $\bar{v}$.
 - Displaying a vector in a formula:
@@ -1263,11 +1266,19 @@ $$
 $$
 
 - When the vector's origin is set to `(0, 0, 0)`, then the point has both a direction and a position which makes it a **Position Vector**.
-- 
 
-### Vectors
-- A vector has a direction and a magnitude (aka strength or length).
-- 
+### Scalar Vector Operations
+- A scalar is a single digit. When adding/subtracting/multiplying or dividing a vector with a scalar, the operation is applied to each element of the vector.
+- A scalar addition would look like this:
+
+$$
+\newcommand\mymat[1]{\begin{bmatrix*}[r]#1\end{bmatrix*}}
+
+\mymat{1\\2\\3} + x \rightarrow \mymat{1\\2\\3} + \mymat{x\\x\\x} = \mymat{1+x\\2+x\\3+x}
+$$
+
+### Vector Negation
+- Negating a vector (flipping its positive/negative sign) results in a vector in the reversed direction. It is equivalent to a scalar multiplication with `-1`.
 
 ### Personal Notes
 ![[2d_affine_transformation.svg]]
