@@ -1314,10 +1314,21 @@ $$
 $$
 
 ### Unit Vector
-- Unit Vector is a special type of vector that has magnitude of $1$.
-- Unit Vector is useful to denote direction of a vector.
+- **Unit Vector** is a special type of vector that has magnitude of $1$, which is to say that it is a vector used to denote direction.
 - Unit Vector can be represented as a letter with a hat : $\hat{n}$
-- Normalizing a vector is a process of converting a vector into a Unit Vector, which is done by dividing the vector by its own magnitude.
+- **Normalizing** a vector is a process of converting a vector into a Unit Vector, which is done by dividing the vector by its own magnitude:
+
+$$
+\hat{n} = \frac{\bar{v}}{||v||}
+$$
+
+- Normalized vectors are widely used in computer graphics for various purposes:
+	- Lighting and Reflections
+	- Surface Normals
+	- Force Directions
+	- Data Preprocessing
+	- Bump Mapping and Normal Mapping
+	- Transformations
 
 ### Personal Notes
 ![[2d_affine_transformation.svg]]
