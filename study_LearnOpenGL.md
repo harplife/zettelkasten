@@ -1335,13 +1335,13 @@ $$
 
 #### Dot Product
 - Dot Product is denoted as $\bar{v} \cdot \bar{k}$
-- The dot product of two vectors is equal to the scalar product of their lengths times the cosine of the angle $\theta$ between them:
+- The dot product of two vectors is equal to the product of their magnitudes and the cosine of the angle between them:
 
 $$
 \bar{v}\cdot\bar{k} = ||\bar{v}||\cdot||\bar{k}||\cdot\cos{\theta}
 $$
 
-- 
+- The above property is often used to find the angle between two vectors.
 
 #### Cross Product
 - Cross Product is denoted as $\bar{v}\times{k}$
