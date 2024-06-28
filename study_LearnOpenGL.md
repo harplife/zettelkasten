@@ -1341,7 +1341,11 @@ $$
 \bar{v}\cdot\bar{k} = ||\bar{v}||\cdot||\bar{k}||\cdot\cos{\theta}
 $$
 
-- The above property is often used to find the angle between two vectors.
+- The above property is often used to find the angle between two vectors:
+
+$$
+\hat{v}\cdot\hat{k} = 1\cdot1\cdot\cos{\theta} = \cos{\theta}
+$$
 
 #### Cross Product
 - Cross Product is denoted as $\bar{v}\times{k}$
