@@ -1351,8 +1351,21 @@ $$
 	- Orthogonal : the angle between the two vectors is 90 degrees. Cosine of 90 degrees is 1.
 	- Parallel : the angle between the two vectors is 0 degrees. Cosine of 0 degrees is 0.
 	- Opposite : the angle between the two vectors is 180 degrees. Cosine of 180 degrees is -1.
+- The cosine factor is crucial because it captures the directional relationship between the two vectors.
 - The dot product is a component-wise multiplication where each component is multiplied by its corresponding component and the results are all added together. In a way, it is a matrix-vertex multiplication.
-- 
+- Example of the dot product of two vectors when they are both unit vectors:
+$$
+\newcommand\mymat[1]{\begin{bmatrix*}[r]#1\end{bmatrix*}}
+
+\begin{gathered}
+\bar{v} = \mymat{0.6\\-0.8\\0}, \bar{k} = \mymat{0\\1\\0}\\
+\bar{v} \cdot \bar{k} \rightarrow \mymat{0.6 & -0.8 & 0} \times \mymat{0 \\ 1 \\ 0}\\
+= (0.6*0) + (-0.8*1) + (0*0)\\
+= -0.8
+\end{gathered}
+$$
+
+- To calculate the degree between both these  unit vectors, the inverse of the cosine function $\arccos{\theta}$ 
 
 #### Cross Product
 - Cross Product is denoted as $\bar{v}\times{k}$
