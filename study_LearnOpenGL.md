@@ -1365,10 +1365,12 @@ $$
 \end{gathered}
 $$
 
-- To calculate the degree between both these  unit vectors, the inverse of the cosine function $\arccos{\theta}$ 
+- To calculate the degree between both these  unit vectors, the inverse of the cosine function $\arccos$ ($\cos^{-1}$) is used.
+	- For above example, $\arccos{(-0.8)} = 143.1$
 
 #### Cross Product
 - Cross Product is denoted as $\bar{v}\times{k}$
+- 
 
 ### Personal Notes
 ![[2d_affine_transformation.svg]]
