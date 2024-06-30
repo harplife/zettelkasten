@@ -1348,7 +1348,9 @@ $$
 $$
 
 - Above formula is useful to test if the two vectors are Orthogonal or Parallel to each other.
-	- Cosine of 90 degrees = 1, cosine of 0 degrees = 0
+	- Orthogonal : the angle between the two vectors is 90 degrees. Cosine of 90 degrees is 1.
+	- Parallel : the angle between the two vectors is 0 degrees. Cosine of 0 degrees is 0.
+	- Opposite : the angle between the two vectors is 180 degrees. Cosine of 180 degrees is -1.
 - The dot product is a component-wise multiplication where each component is multiplied by its corresponding component and the results are all added together. In a way, it is a matrix-vertex multiplication.
 - 
 
