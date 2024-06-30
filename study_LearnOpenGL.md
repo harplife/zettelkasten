@@ -1370,7 +1370,9 @@ $$
 
 #### Cross Product
 - Cross Product is denoted as $\bar{v}\times{k}$
-- The Cross Product is only defined in 3D space.
+- The Cross Product is only defined in 3D space. It takes two non-parallel vectors as input and produces a third vector that is orthogonal to both the input vectors.
+	- ![[vectors_crossproduct.png]]
+- 
 
 ### Personal Notes
 ![[2d_affine_transformation.svg]]
