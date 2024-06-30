@@ -1341,12 +1341,15 @@ $$
 \bar{v}\cdot\bar{k} = ||\bar{v}||\cdot||\bar{k}||\cdot\cos{\theta}
 $$
 
-- The dot product of two vectors are reduced to the cosine of the angle $\theta$ When both vectors are unit vectors (length of 1), 
+- Above formula gets reduced down to the cosine of the angle $\theta$ between them when both vectors are unit vectors (length of 1):
 
 $$
 \hat{v}\cdot\hat{k} = 1\cdot1\cdot\cos{\theta} = \cos{\theta}
 $$
 
+- Above formula is useful to test if the two vectors are Orthogonal or Parallel to each other.
+	- Cosine of 90 degrees = 1, cosine of 0 degrees = 0
+- The dot product is a component-wise multiplication where each component is multiplied by its corresponding component and the results are all added together. In a way, it is a matrix-vertex multiplication.
 - 
 
 #### Cross Product
