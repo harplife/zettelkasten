@@ -1370,7 +1370,7 @@ $$
 
 #### Cross Product
 - Cross Product is denoted as $\bar{v}\times{k}$
-- 
+- The Cross Product is only defined in 3D space.
 
 ### Personal Notes
 ![[2d_affine_transformation.svg]]
