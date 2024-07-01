@@ -1374,23 +1374,6 @@ $$
 	- **Backface Culling** : The backface culling is an optimization technique that avoids rendering polygons facing away from the viewer. This is determined using the dot product between the view direction and the polygon's normal.
 	- **Collision Detection** : The dot product can be used to determine whether two objects are moving towards each other.
 
-
-#### Determinant (Personal Note)
-- In Linear Algebra, the Determinant is a special number that can be calculated from a square matrix (i.e. 2x2 matrix, 3x3, etc). It is denoted as $det(A)$ or $|A|$.
-- The Determinant of a 2x2 matrix is computed as follows:
-
-$$
-\newcommand\mymat[1]{\begin{bmatrix*}[r]#1\end{bmatrix*}}
-
-\begin{gathered}
-A = \mymat{a & b\\c & d}\\
-det(A) = ad - bc
-\end{gathered}
-$$
-
-- ![[Pasted image 20240701161459.png | 3blue1brown Essence of Linear Algebra]]
-- 
-
 #### Cross Product
 - Cross Product is denoted as $\bar{v}\times\bar{k}$
 - The Cross Product is only defined in 3D space. It takes two non-parallel vectors as input and produces a third vector that is orthogonal to both the input vectors.
@@ -1421,12 +1404,29 @@ $$
 \end{gathered}
 $$
 
-- 
 - The Cross Product has several important applications in Computer Graphics:
 	- **Calculating Surface Normals** : The cross product is used to calculate the normal of a surface. Given two vectors that lie on the surface (for example, two sides of a triangle), the cross product of these vectors gives a vector that is perpendicular to the surface. This is particularly useful in lighting calculations, where the normal of a surface determines how it reflects light.
 	- **Calculating the Area of a Parallelogram** : The magnitude of the cross product of two vectors gives the area of the parallelogram that the vectors span. This can be useful in collision detection and physics simulations.
 	- **Determining the Orientation of Points** : In computational geometry, the cross product can help determine the clockwise or counterclockwise orientation of a set of points.
 	- **Computing Torque** : In physics-based animation and game physics, the cross product is used to compute torque, which is a measure of the force that can cause an object to rotate about an axis.
+
+#### Determinant (Personal Note)
+- In Linear Algebra, the Determinant is a special number that can be calculated from a square matrix (i.e. 2x2 matrix, 3x3, etc). It is denoted as $det(A)$ or $|A|$.
+- The Determinant of a 2x2 matrix is computed as follows:
+
+$$
+\newcommand\mymat[1]{\begin{bmatrix*}[r]#1\end{bmatrix*}}
+
+\begin{gathered}
+A = \mymat{a & b\\c & d}\\
+det(A) = ad - bc
+\end{gathered}
+$$
+
+- ![[Pasted image 20240701161459.png | 3blue1brown Essence of Linear Algebra]]
+- The Cross Product is related to Determinant in a way:
+	- ![[Pasted image 20240701173920.png]]
+	- Refer to [Cross products in the light of linear transformation | Essence of Linear Algebra | 3Blue1Brown](https://youtu.be/BaM7OCEm3G0?si=ruhkTtVkDCGa9aPI) for more info.
 
 ### Personal Notes
 ![[2d_affine_transformation.svg]]
