@@ -1392,11 +1392,36 @@ $$
 - 
 
 #### Cross Product
-- Cross Product is denoted as $\bar{v}\times{k}$
+- Cross Product is denoted as $\bar{v}\times\bar{k}$
 - The Cross Product is only defined in 3D space. It takes two non-parallel vectors as input and produces a third vector that is orthogonal to both the input vectors.
 	- ![[vectors_crossproduct.png]]
-- The Cross Product is also equal to the area of parallelogram.
-	- ![[Pasted image 20240701150638.png|300]]
+	- The direction of the resulting vector will always follow the right-hand rule.
+	  ![[Pasted image 20240701162831.png|150]]
+- The Cross Product is computed as follows:
+
+$$
+\newcommand\mymat[1]{\begin{bmatrix*}[r]#1\end{bmatrix*}}
+
+\begin{gathered}
+\bar{v} = \mymat{v_x \\ v_y \\ v_z}, \bar{w} = \mymat{w_x \\ w_y \\ w_z}\\
+\bar{v}\times\bar{w} \rightarrow \mymat{v_x\\v_y\\v_z} \times \mymat{w_x \\ w_y \\ w_z}
+= \mymat{v_yw_z-w_yv_z \\ v_zw_x-w_zv_x \\ v_xw_y - w_xv_y}
+\end{gathered}
+$$
+
+- (example) given that $\bar{v}$ is a vector that sits along Z-axis and $\bar{w}$ is a vector that sits along Y-axis, the cross product of these two vectors is a vector that sits along X-axis in a negative direction:
+
+$$
+\newcommand\mymat[1]{\begin{bmatrix*}[r]#1\end{bmatrix*}}
+
+\begin{gathered}
+\bar{v} = \mymat{0\\0\\2}, \bar{w} = \mymat{0\\2\\0}\\
+\bar{v}\times\bar{w} \rightarrow \mymat{0\\0\\2} \times \mymat{0\\2\\0}
+= \mymat{-4\\0\\0}
+\end{gathered}
+$$
+
+- 
 - The Cross Product has several important applications in Computer Graphics:
 	- **Calculating Surface Normals** : The cross product is used to calculate the normal of a surface. Given two vectors that lie on the surface (for example, two sides of a triangle), the cross product of these vectors gives a vector that is perpendicular to the surface. This is particularly useful in lighting calculations, where the normal of a surface determines how it reflects light.
 	- **Calculating the Area of a Parallelogram** : The magnitude of the cross product of two vectors gives the area of the parallelogram that the vectors span. This can be useful in collision detection and physics simulations.
