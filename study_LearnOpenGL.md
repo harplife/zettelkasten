@@ -1378,7 +1378,8 @@ $$
 - Cross Product is denoted as $\bar{v}\times{k}$
 - The Cross Product is only defined in 3D space. It takes two non-parallel vectors as input and produces a third vector that is orthogonal to both the input vectors.
 	- ![[vectors_crossproduct.png]]
-- 
+- The Cross Product is also equal to the area of parallelogram.
+	- ![[Pasted image 20240701150638.png|300]]
 - The Cross Product has several important applications in Computer Graphics:
 	- **Calculating Surface Normals** : The cross product is used to calculate the normal of a surface. Given two vectors that lie on the surface (for example, two sides of a triangle), the cross product of these vectors gives a vector that is perpendicular to the surface. This is particularly useful in lighting calculations, where the normal of a surface determines how it reflects light.
 	- **Calculating the Area of a Parallelogram** : The magnitude of the cross product of two vectors gives the area of the parallelogram that the vectors span. This can be useful in collision detection and physics simulations.
