@@ -1370,15 +1370,16 @@ $$
 - The Dot Product has several important applications in Computer Graphics:
 	- **Cosine of the Angle Between Two Vectors**
 	- **Projection** : The dot product can be used to project one vector onto another. This is useful in various algorithms, such as calculating the reflection of a light ray off a surface.
-	- **Surface Normal and Lighting**
-	- **Backface Culling**
-	- **Collision Detection**
+	- **Surface Normal and Lighting** : The dot product is used in lighting calculations. For instance, in the Phong lighting model, the dot product between the light direction and the surface normal vector is used to determine the intensity of the light on the surface.
+	- **Backface Culling** : The backface culling is an optimization technique that avoids rendering polygons facing away from the viewer. This is determined using the dot product between the view direction and the polygon's normal.
+	- **Collision Detection** : The dot product can be used to determine whether two objects are moving towards each other.
 
 #### Cross Product
 - Cross Product is denoted as $\bar{v}\times{k}$
 - The Cross Product is only defined in 3D space. It takes two non-parallel vectors as input and produces a third vector that is orthogonal to both the input vectors.
 	- ![[vectors_crossproduct.png]]
-- 
+- The Cross Product has several important applications in Computer Graphics:
+	- Calculating Surface Normals : The cross product is used to calculate the normal of a surface.
 
 ### Personal Notes
 ![[2d_affine_transformation.svg]]
