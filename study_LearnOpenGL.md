@@ -1374,6 +1374,23 @@ $$
 	- **Backface Culling** : The backface culling is an optimization technique that avoids rendering polygons facing away from the viewer. This is determined using the dot product between the view direction and the polygon's normal.
 	- **Collision Detection** : The dot product can be used to determine whether two objects are moving towards each other.
 
+
+#### Determinant (Personal Note)
+- In Linear Algebra, the Determinant is a special number that can be calculated from a square matrix (i.e. 2x2 matrix, 3x3, etc). It is denoted as $det(A)$.
+- The Determinant of a 2x2 matrix is computed as follows:
+
+$$
+\newcommand\mymat[1]{\begin{bmatrix*}[r]#1\end{bmatrix*}}
+
+\begin{gathered}
+A = \mymat{a & b\\c & d}\\
+det(A) = ad - bc
+\end{gathered}
+$$
+
+- ![[Pasted image 20240701161459.png | 3blue1brown Essence of Linear Algebra]]
+- 
+
 #### Cross Product
 - Cross Product is denoted as $\bar{v}\times{k}$
 - The Cross Product is only defined in 3D space. It takes two non-parallel vectors as input and produces a third vector that is orthogonal to both the input vectors.
