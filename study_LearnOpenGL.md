@@ -1428,6 +1428,45 @@ $$
 	- ![[Pasted image 20240701173920.png]]
 	- Refer to [Cross products in the light of linear transformation | Essence of Linear Algebra | 3Blue1Brown](https://youtu.be/BaM7OCEm3G0?si=ruhkTtVkDCGa9aPI) for more info.
 
+### Matrices
+- A **Matrix** is a rectangular array of numbers/symbols/expressions.
+- Each individual item in a matrix is called an **element** of the matrix.
+- Matrices are indexed by $(i, j)$ where $i$ is the row and $j$ is the column.
+- When a matrix is referred to as a 2x3 (2 by 3) matrix, it means it has 2 rows and 3 columns.
+
+$$
+\newcommand\mymat[1]{\begin{bmatrix*}[r]#1\end{bmatrix*}}
+
+\begin{gathered}
+A = \mymat{1&2&3\\4&5&6}\\
+\end{gathered}
+$$
+
+#### Addition and Subtraction
+- Matrix addition and subtraction between two matrices is done on a per-element basis.
+
+$$
+\newcommand\mymat[1]{\begin{bmatrix*}[r]#1\end{bmatrix*}}
+
+\begin{gathered}
+\mymat{1&2\\3&4} + \mymat{5&6\\7&8} = \mymat{6&8\\10&12}
+\end{gathered}
+$$
+
+#### Scalar Products
+- A matrix-scalar product multiplies each element of the matrix by a scalar.
+
+$$
+\newcommand\mymat[1]{\begin{bmatrix*}[r]#1\end{bmatrix*}}
+
+\begin{gathered}
+2\cdot\mymat{1&2\\3&4} = \mymat{2&4\\6&8}
+\end{gathered}
+$$
+
+#### Matrix-Matrix Multiplication
+- 
+
 ### Personal Notes
 ![[2d_affine_transformation.svg]]
 
