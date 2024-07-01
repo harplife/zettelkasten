@@ -1376,7 +1376,7 @@ $$
 
 
 #### Determinant (Personal Note)
-- In Linear Algebra, the Determinant is a special number that can be calculated from a square matrix (i.e. 2x2 matrix, 3x3, etc). It is denoted as $det(A)$.
+- In Linear Algebra, the Determinant is a special number that can be calculated from a square matrix (i.e. 2x2 matrix, 3x3, etc). It is denoted as $det(A)$ or $|A|$.
 - The Determinant of a 2x2 matrix is computed as follows:
 
 $$
