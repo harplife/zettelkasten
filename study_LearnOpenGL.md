@@ -1367,7 +1367,12 @@ $$
 
 - To calculate the degree between both these  unit vectors, the inverse of the cosine function $\arccos$ ($\cos^{-1}$) is used.
 	- For above example, $\arccos{(-0.8)} = 143.1$
-- The Dot Product has several important
+- The Dot Product has several important applications in Computer Graphics:
+	- **Cosine of the Angle Between Two Vectors**
+	- **Projection** : The dot product can be used to project one vector onto another. This is useful in various algorithms, such as calculating the reflection of a light ray off a surface.
+	- **Surface Normal and Lighting**
+	- **Backface Culling**
+	- **Collision Detection**
 
 #### Cross Product
 - Cross Product is denoted as $\bar{v}\times{k}$
