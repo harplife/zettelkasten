@@ -1565,7 +1565,21 @@ $$
 $$
 
 #### Rotation
+- Rotation is a type of transformation where a vector is moved along a circular path as defined by an angle, a rotation axis, and the center of rotation.
+- Rotation around the X-axis given any vector $(x, y, z)$:
 
+$$
+\newcommand\mymat[1]{\begin{bmatrix*}[r]#1\end{bmatrix*}}
+
+\mymat{
+1 & 0 & 0 & 0\\
+0 & \cos\theta & -\sin\theta & 0
+}
+\cdot
+\mymat{x\\y\\z\\1}
+=
+\mymat{x+T_x\\y+T_y\\z+T_z\\1}
+$$
 
 ### Personal Notes
 
