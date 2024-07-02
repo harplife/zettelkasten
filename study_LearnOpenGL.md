@@ -1492,7 +1492,17 @@ $$
 - A vector is essentially a Nx1 matrix where N is the number of components in the vector (aka N-dimensional vector).
 - The multiplication between a vector and a matrix is a simple matrix multiplication, as long as the number of rows in the vector matches with the number of columns in the matrix.
 - Matrix-Vector Multiplication is important because multiplying a vector with a matrix means *transforming* that vector. Due to the nature of computer graphics, a vector is often used to represent various attributes of a vertex (position, color, etc) and a matrix is often used to apply some kind of change to those attributes.
-- Most of the transformations discussed further on will describe 3D transformations. The transformation matrix is described in 4D space. The fourth element $w$ is used as *padding*, which is necessary for certain transforms (such as translation).
+- Most of the transformations discussed further on will describe 3D transformations. The transformation matrix is described in 4D space. The fourth element $w$ is used as *padding*, which is necessary for certain transforms (such as translation). Search for "Homogeneous Coordinates" for more info.
+
+>[!important]
+>In computer graphics, implementing translation with matrix multiplication instead of vector addition has several advantages:
+>1. **Uniformity**: Using matrices allows us to represent different types of transformations (like translation, scaling, rotation, and even perspective projection) in a uniform way. This means we can combine multiple transformations into a single matrix and apply them all at once to a set of points or a whole scene.
+>2. **Efficiency**: When multiple transformations need to be applied, it's more efficient to combine them into one matrix and perform a single matrix multiplication, rather than applying each transformation individually.
+>3. **Homogeneous Coordinates**: Matrix transformations work well with homogeneous coordinates, which are commonly used in 3D graphics. Homogeneous coordinates allow us to represent 3D transformations and even projective transformations as 4x4 matrices. This wouldn't be possible with simple vector addition.
+>4. **Hardware Optimization**: Graphics hardware is often optimized for matrix operations, making them faster than equivalent operations implemented separately.
+>5. **Interpolation**: Matrices are also useful for interpolating between transformations, which is a common operation in animation.
+>
+>So, while vector addition is a simpler operation and works fine for simple translations, using matrix multiplication for transformations provides greater flexibility, efficiency, and compatibility with graphics hardware and software.
 
 #### Identity Matrix
 - Simplest form of transformation matrix is the **Identity Matrix**, where multiplying a vector by the matrix applies no changes to the vector and therefore the result is the same vector.
