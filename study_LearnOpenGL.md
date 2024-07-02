@@ -1573,13 +1573,66 @@ $$
 
 \mymat{
 1 & 0 & 0 & 0\\
-0 & \cos\theta & -\sin\theta & 0
+0 & \cos\theta & -\sin\theta & 0\\
+0 & \sin\theta & \cos\theta & 0\\
+0&0&0&1
 }
 \cdot
 \mymat{x\\y\\z\\1}
 =
-\mymat{x+T_x\\y+T_y\\z+T_z\\1}
+\mymat{
+x \\
+\cos\theta \cdot y - \sin\theta \cdot z\\
+\sin\theta \cdot y + \cos\theta \cdot z\\
+1
+}
 $$
+
+- Rotation around the Y-axis given any vector $(x, y, z)$:
+
+$$
+\newcommand\mymat[1]{\begin{bmatrix*}[r]#1\end{bmatrix*}}
+
+\mymat{
+\cos\theta & 0 & \sin\theta & 0\\
+0 & 1 & 0 & 0\\
+-\sin\theta & 0 & \cos\theta & 0\\
+0&0&0&1
+}
+\cdot
+\mymat{x\\y\\z\\1}
+=
+\mymat{
+\cos\theta \cdot x + \sin\theta \cdot z\\
+y\\
+-\sin\theta \cdot x + \cos\theta \cdot z\\
+1
+}
+$$
+
+- Rotation around the Z-axis given any vector $(x, y, z)$:
+
+$$
+\newcommand\mymat[1]{\begin{bmatrix*}[r]#1\end{bmatrix*}}
+
+\mymat{
+\cos\theta & -\sin\theta & 0 & 0\\
+\sin\theta & \cos\theta & 0 & 0\\
+0 & 0 & 1 & 0\\
+0&0&0&1
+}
+\cdot
+\mymat{x\\y\\z\\1}
+=
+\mymat{
+\cos\theta \cdot x - \sin\theta \cdot y\\
+\sin\theta \cdot x + \cos\theta \cdot y\\
+z\\
+1
+}
+$$
+
+- 
 
 ### Personal Notes
 
