@@ -273,6 +273,8 @@
   },
   "active": "3565833ba7980081",
   "lastOpenFiles": [
+    "attachments/Matrix_multiplication_diagram_2.svg",
+    "attachments/matrix_multiplication.png",
     "attachments/Pasted image 20240701173920.png",
     "attachments/Pasted image 20240701162831.png",
     "attachments/Pasted image 20240701161459.png",
@@ -291,8 +293,6 @@
     "opengl_custom_shader_main.md",
     "opengl_custom_shader_class.md",
     "attachments/vertex_attribute_pointer_interleaved_textures.png",
-    "attachments/container.jpg",
-    "attachments/texture_filtering.png",
     "opengl_code_guide_source_code.md",
     "Dictionary/graphics",
     "Dictionary",

@@ -1466,9 +1466,24 @@ $$
 
 #### Matrix-Matrix Multiplication
 - Matrix multiplication basically means to follow a set of pre-defined rules under few restrictions:
+	- Each row of the left-hand matrix is matched with each column of the right-hand matrix, where multiplication of each element is added up and placed at the corresponding row-column of the resulting matrix.
+	  ![[Matrix_multiplication_diagram_2.svg]]
 	- The number of columns on the left-hand side matrix must equal to the number of rows on the right-hand matrix.
 	- Matrix multiplication is not commutative. $A\cdot B \neq B \cdot A$
-	- 
+- Example of a matrix multiplication of 3x3 matrices:
+
+$$
+\newcommand\mymat[1]{\begin{bmatrix*}[r]#1\end{bmatrix*}}
+
+\begin{gathered}
+\mymat{A_1&A_2&A_3\\A_4&A_5&A_6\\A_7&A_8&A_9} \cdot \mymat{B_1&B_2&B_3\\B_4&B_5&B_6\\B_7&B_8&B_9}\\
+= \mymat{
+A_1B_1 + A_2B_4 + A_3B_7 & A_1B_2 + A_2B_5 + A_3B_8 & A_1B_3 + A_2B_6 + A_3B_9 \\
+A_4B_1 + A_5B_4 + A_6B_7 & A_4B_2 + A_5B_5 + A_6B_8 & A_4B_3 + A_5B_6 + A_6B_9 \\
+A_7B_1 + A_8B_4 + A_9B_7 & A_7B_2 + A_8B_5 + A_9B_8 & A_7B_3 + A_8B_6 + A_9B_9 
+}
+\end{gathered}
+$$
 
 ### Personal Notes
 ![[2d_affine_transformation.svg]]
