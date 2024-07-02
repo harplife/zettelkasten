@@ -1488,6 +1488,9 @@ $$
 ### Matrix-Vector Multiplication
 - A vector is essentially a Nx1 matrix where N is the number of components in the vector (aka N-dimensional vector).
 - The multiplication between a vector and a matrix is a simple matrix multiplication, as long as the number of rows in the vector matches with the number of columns in the matrix.
+- Matrix-Vector Multiplication is important because multiplying a vector with a matrix means *transforming* that vector. Due to the nature of computer graphics, a vector is often used to represent various attributes of a vertex (position, color, etc) and a matrix is often used to apply some kind of change to those attributes.
+
+#### Identity Matrix
 
 ### Personal Notes
 ![[2d_affine_transformation.svg]]
