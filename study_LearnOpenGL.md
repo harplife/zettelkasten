@@ -1465,7 +1465,10 @@ $$
 $$
 
 #### Matrix-Matrix Multiplication
-- 
+- Matrix multiplication basically means to follow a set of pre-defined rules under few restrictions:
+	- The number of columns on the left-hand side matrix must equal to the number of rows on the right-hand matrix.
+	- Matrix multiplication is not commutative. $A\cdot B \neq B \cdot A$
+	- 
 
 ### Personal Notes
 ![[2d_affine_transformation.svg]]
