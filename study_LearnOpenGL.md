@@ -1632,7 +1632,7 @@ z\\
 }
 $$
 
-- 
+- Although Matrix Multiplication allows for applying several transformations at the same time by combining matrices, it is not recommended to do so with rotations as it introduces a problem called Gimbal Lock.
 
 ### Personal Notes
 
