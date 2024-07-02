@@ -1507,7 +1507,7 @@ $$
 - The Identity Matrix is usually a starting point for generating other transformation matrices. It is also a useful matrix for proving theorems and solving linear equations.
 
 #### Scaling
-- 
+- Scaling is a type of transformation where a vector's components are increased/decreased. 
 
 ### Personal Notes
 ![[2d_affine_transformation.svg]]
