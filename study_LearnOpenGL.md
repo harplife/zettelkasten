@@ -1535,7 +1535,7 @@ $$
 - When the scaling factor is the same for each axis, it is referred to as **Uniform Scale**. If not, it is referred to as **Non-Uniform Scale**.
 
 #### Translation
-- Translation is a type of transformation where a vector is moved along one or more axis.
+- Translation is a type of transformation where a vector is moved along one or more axis. This can be achieved with a simple vector addition, but it can also be accomplished 
 
 ### Personal Notes
 
