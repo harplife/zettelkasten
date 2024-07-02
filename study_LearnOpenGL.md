@@ -1492,6 +1492,7 @@ $$
 - A vector is essentially a Nx1 matrix where N is the number of components in the vector (aka N-dimensional vector).
 - The multiplication between a vector and a matrix is a simple matrix multiplication, as long as the number of rows in the vector matches with the number of columns in the matrix.
 - Matrix-Vector Multiplication is important because multiplying a vector with a matrix means *transforming* that vector. Due to the nature of computer graphics, a vector is often used to represent various attributes of a vertex (position, color, etc) and a matrix is often used to apply some kind of change to those attributes.
+- Most of the transformations discussed further on will describe 3D transformations. The transformation matrix is described in 4D space. The fourth element $w$ is used as *padding*, which is necessary for certain transforms (such as translation).
 
 #### Identity Matrix
 - Simplest form of transformation matrix is the **Identity Matrix**, where multiplying a vector by the matrix applies no changes to the vector and therefore the result is the same vector.
@@ -1507,7 +1508,34 @@ $$
 - The Identity Matrix is usually a starting point for generating other transformation matrices. It is also a useful matrix for proving theorems and solving linear equations.
 
 #### Scaling
-- Scaling is a type of transformation where a vector's components are increased/decreased by multiplication.
+- Scaling is a type of transformation where a vector is expanded/reduced along x and/or y-axis. The generic 3D scaling looks like this:
+
+$$
+\newcommand\mymat[1]{\begin{bmatrix*}[r]#1\end{bmatrix*}}
+
+\mymat{S_x & 0 & 0 & 0 \\ 0 & S_y & 0 & 0 \\ 0 & 0 & S_z & 0 \\ 0&0&0&1}
+\cdot
+\mymat{x\\y\\z\\1}
+=
+\mymat{S_x \cdot x \\ S_y \cdot y \\ S_z \cdot z \\ 1}
+$$
+
+- For example, scaling a vector $\bar{v}=(2,3,0)$ so that it is expanded by 2 along x-axis and reduced by 2 along y-axis looks like this (ignoring $w$ for now):
+
+$$
+\newcommand\mymat[1]{\begin{bmatrix*}[r]#1\end{bmatrix*}}
+
+\begin{gather}
+\mymat{2&0&0\\0&0.5&0\\0&0&1} \cdot \mymat{2\\3\\0}
+=
+\mymat{4\\1.5\\0}
+\end{gather}
+$$
+
+- When the scaling factor is the same for each axis, it is referred to as **Uniform Scale**. If not, it is referred to as **Non-Uniform Scale**.
+
+#### Translation
+- 
 
 ### Personal Notes
 
