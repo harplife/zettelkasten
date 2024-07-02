@@ -2,7 +2,10 @@
 Following the guide https://learnopengl.com
 
 ## PERSONAL NOTES
-### Learning Goal
+### Real Tangible Goals
+- Make a Sound Wave Simulator - perhaps implementing raytracing onto sound?
+
+### Learning Goals
 - Learn Graphics Pipeline.
 - Learn how to make a graphics program with OpenGL.
 - Learn how to make a game engine with OpenGL.
@@ -1491,6 +1494,20 @@ $$
 - Matrix-Vector Multiplication is important because multiplying a vector with a matrix means *transforming* that vector. Due to the nature of computer graphics, a vector is often used to represent various attributes of a vertex (position, color, etc) and a matrix is often used to apply some kind of change to those attributes.
 
 #### Identity Matrix
+- Simplest form of transformation matrix is the **Identity Matrix**, where multiplying a vector by the matrix applies no changes to the vector and therefore the result is the same vector.
+
+$$
+\newcommand\mymat[1]{\begin{bmatrix*}[r]#1\end{bmatrix*}}
+
+\begin{gathered}
+\mymat{1&0&0&0\\0&1&0&0\\0&0&1&0\\0&0&0&1} \cdot \mymat{1\\2\\3\\4} = \mymat{1\\2\\3\\4}
+\end{gathered}
+$$
+
+- The Identity Matrix is usually a starting point for generating other transformation matrices. It is also a useful matrix for proving theorems and solving linear equations.
+
+#### Scaling
+- 
 
 ### Personal Notes
 ![[2d_affine_transformation.svg]]
