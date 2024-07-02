@@ -1485,6 +1485,10 @@ A_7B_1 + A_8B_4 + A_9B_7 & A_7B_2 + A_8B_5 + A_9B_8 & A_7B_3 + A_8B_6 + A_9B_9
 \end{gathered}
 $$
 
+### Matrix-Vector Multiplication
+- A vector is essentially a Nx1 matrix where N is the number of components in the vector (aka N-dimensional vector).
+- The multiplication between a vector and a matrix is a simple matrix multiplication, as long as the number of rows in the vector matches with the number of columns in the matrix.
+
 ### Personal Notes
 ![[2d_affine_transformation.svg]]
 
