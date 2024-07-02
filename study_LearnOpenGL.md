@@ -1518,7 +1518,8 @@ $$
 - The Identity Matrix is usually a starting point for generating other transformation matrices. It is also a useful matrix for proving theorems and solving linear equations.
 
 #### Scaling
-- Scaling is a type of transformation where a vector is expanded/reduced along one or more axis. The generic 3D scaling looks like this:
+- Scaling is a type of transformation where a vector is expanded/reduced along one or more axis.
+- A scaling matrix on any vector $(x, y, z)$ is defined as:
 
 $$
 \newcommand\mymat[1]{\begin{bmatrix*}[r]#1\end{bmatrix*}}
@@ -1545,7 +1546,25 @@ $$
 - When the scaling factor is the same for each axis, it is referred to as **Uniform Scale**. If not, it is referred to as **Non-Uniform Scale**.
 
 #### Translation
-- Translation is a type of transformation where a vector is moved along one or more axis. This can be achieved with a simple vector addition, but it can also be accomplished 
+- Translation is a type of transformation where a vector is moved along one or more axis. This can be achieved with a simple vector addition, but it is more common to implement this with a matrix multiplication.
+- A translation matrix on any vector $(x, y, z)$ is defined as:
+
+$$
+\newcommand\mymat[1]{\begin{bmatrix*}[r]#1\end{bmatrix*}}
+
+\mymat{
+1&0&0&T_x\\
+0&1&0&T_y\\
+0&0&1&T_z\\
+0&0&0&1
+}
+\cdot
+\mymat{x\\y\\z\\1}
+=
+\mymat{x+T_x\\y+T_y\\z+T_z\\1}
+$$
+
+
 
 ### Personal Notes
 
