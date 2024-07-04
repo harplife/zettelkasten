@@ -1634,6 +1634,20 @@ $$
 
 - Although Matrix Multiplication allows for applying several transformations at the same time by combining matrices, it is not recommended to do so with rotations as it introduces a problem called Gimbal Lock.
 
+#### Combining Matrices
+- One of the major advantages of using matrix for transformation comes from the fact that matrix transformations can be combined into one matrix, making it so that it only takes one transformation to apply multiple.
+- Example of Translation + Scale:
+
+$$
+\newcommand\mymat[1]{\begin{bmatrix*}[r]#1\end{bmatrix*}}
+
+\begin{gathered}
+\mymat{1&0&0&1\\0&1&0&2\\0&0&1&3\\0&0&0&1} \cdot \mymat{2&0&0&0\\0&2&0&0\\0&0&2&0\\0&0&0&1}
+=
+\mymat{2&0&0&1\\0&2&0&2\\0&0&2&3\\0&0&0&1}
+\end{gathered}
+$$
+
 ### Personal Notes
 
 Affine Transformations
