@@ -1642,11 +1642,16 @@ $$
 \newcommand\mymat[1]{\begin{bmatrix*}[r]#1\end{bmatrix*}}
 
 \begin{gathered}
+T_1 \cdot T_2 = T_3 \\
 \mymat{1&0&0&1\\0&1&0&2\\0&0&1&3\\0&0&0&1} \cdot \mymat{2&0&0&0\\0&2&0&0\\0&0&2&0\\0&0&0&1}
 =
-\mymat{2&0&0&1\\0&2&0&2\\0&0&2&3\\0&0&0&1}
+\mymat{2&0&0&1\\0&2&0&2\\0&0&2&3\\0&0&0&1}\\
+T_3(\bar{v}) = \mymat{2&0&0&1\\0&2&0&2\\0&0&2&3\\0&0&0&1}
+\cdot \mymat{x\\y\\z\\1} = \mymat{2x+1\\2y+2\\2z+3\\1}
 \end{gathered}
 $$
+
+- Note that matrix multiplication is not commutative, which means their order is important.
 
 ### Personal Notes
 
