@@ -1656,6 +1656,11 @@ $$
 	- For example, if translation is applied before scale, the translation matrix would also scale (which may not be an intended).
 
 ### Transformation In Practice
+- OpenGL does not have any form of matrix or vector knowledge built in, so mathematics classes and functions have to be defined separately. It is best to use pre-made mathematics libraries such as GLM.
+
+#### GLM
+- GLM (Open**GL M**athematics) is a header-only library that's specifically made for math operations for OpenGL.
+- GLM can be downloaded from 
 
 
 ### Personal Notes
