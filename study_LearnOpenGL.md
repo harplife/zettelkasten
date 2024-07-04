@@ -1652,6 +1652,11 @@ T_3(\bar{v}) = \mymat{2&0&0&1\\0&2&0&2\\0&0&2&3\\0&0&0&1}
 $$
 
 - Note that matrix multiplication is not commutative, which means their order is important.
+- It is advised to first do scaling operations, then rotations, and lastly translations when combining matrices. Otherwise, they may (negatively) affect each other.
+	- For example, if translation is applied before scale, the translation matrix would also scale (which may not be an intended).
+
+### Transformation In Practice
+
 
 ### Personal Notes
 
