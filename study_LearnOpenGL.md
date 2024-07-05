@@ -1670,7 +1670,39 @@ $$
 #include <glm/gtc/type_ptr.hpp>
 ```
 
+- Example of translation with GLM (should print out `2101`):
 
+$$
+\newcommand\mymat[1]{\begin{bmatrix*}[r]#1\end{bmatrix*}}
+
+\begin{gather}
+\bar{v} = \mymat{1\\0\\0\\1},
+T = \mymat{
+1&0&0&1\\
+0&1&0&1\\
+0&0&1&0\\
+0&0&0&1
+}\\
+T \cdot \bar{v} =
+\mymat{
+1&0&0&1\\
+0&1&0&1\\
+0&0&1&0\\
+0&0&0&1
+} \cdot \mymat{1\\0\\0\\1} =
+\mymat{2\\1\\0\\1}
+\end{gather}
+$$
+
+```C++
+glm::vec4 vec(1.0f, 0.0f, 0.0f, 1.0f);
+glm::mat4 trans = glm::mat4(1.0f);
+trans = glm::translate(trans, glm::vec3(1.0f, 1.0f, 0.0f));
+vec = trans * vec;
+cout << vec.x << vec.y << vec.z << vec.w << endl;
+```
+
+- 
 
 
 ### Personal Notes
