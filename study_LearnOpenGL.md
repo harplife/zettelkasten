@@ -1702,6 +1702,7 @@ vec = trans * vec;
 cout << vec.x << vec.y << vec.z << vec.w << endl;
 ```
 
+- GLM provides its built-in data types such as `vec4` and `mat4`.
 - 
 
 
