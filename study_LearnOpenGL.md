@@ -1245,7 +1245,7 @@ void main()
 // make sure shader program is ready
 glUseProgram(shaderProgram);
 
-glUniform1i(glGetUniformLocation(fragmentShader, "texture0"), 0);
+glUniform1i(glGetUniformLocation(shaderProgram, "texture0"), 0);
 ```
 
 ### Source Code
@@ -1722,7 +1722,7 @@ glm::mat4 trans = glm::mat4(1.0f);
 trans = glm::rotate(trans, glm::radians(90.0f), glm::vec3(0.0, 0.0, 1.0));
 trans = glm::scale(trans, glm::vec3(0.5, 0.5, 0.5));
 
-GLuint transformLoc = glGetUniformLocation(vertexShader, "transform");
+GLuint transformLoc = glGetUniformLocation(shaderProgram, "transform");
 glUniformMatrix4fv(transformLoc, 1, GL_FALSE, glm::value_ptr(trans));
 ```
 
