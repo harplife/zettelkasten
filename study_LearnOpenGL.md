@@ -1713,6 +1713,38 @@ cout << vec.x << vec.y << vec.z << vec.w << endl;
 #### Passing Transformation Matrix to Shader
 - Matrix transformations are best done on shaders (GPU) where it is designed to handle these types of computations efficiently.
 - Transformation Matrix can be passed to shaders via Uniform.
+- Example of applying matrix transformation:
+
+OpenGL code
+```C++
+// prepare transformation matrix
+glm::mat4 trans = glm::mat4(1.0f);
+trans = glm::rotate(trans, glm::radians(90.0f), glm::vec3(0.0, 0.0, 1.0));
+trans = glm::scale(trans, glm::vec3(0.5, 0.5, 0.5));
+
+GLuint transformLoc = glGetUniformLocation(vertexShader, "transform");
+glUniformMatrix4fv(transformLoc, 1, GL_FALSE, glm::value_ptr(trans));
+```
+
+Vertex Shader
+```C
+#version 330 core
+layout (location = 0) in vec3 a_pos;
+layout (location = 1) in vec3 a_color;
+layout (location = 2) in vec2 a_txCoord;
+
+out vec3 v_color;
+out vec2 v_txCoord;
+
+uniform mat4 transform;
+
+void main()
+{
+	gl_Position = transform * vec4(a_pos, 1.0);
+	v_color = a_color;
+	v_txCoord = a_txCoord;
+}
+```
 
 
 ### Personal Notes
