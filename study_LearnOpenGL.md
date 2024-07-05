@@ -1711,7 +1711,8 @@ cout << vec.x << vec.y << vec.z << vec.w << endl;
 - As covered previously, transformation is applied to a vector via matrix multiplication.
 
 #### Passing Transformation Matrix to Shader
-- Transformation Matrix can be passed to shaders via Uniform. 
+- Matrix transformations are best done on shaders (GPU) where it is designed to handle these types of computations efficiently.
+- Transformation Matrix can be passed to shaders via Uniform.
 
 
 ### Personal Notes
