@@ -1695,15 +1695,20 @@ T \cdot \bar{v} =
 $$
 
 ```C++
+// vector pointing along x-axis
 glm::vec4 vec(1.0f, 0.0f, 0.0f, 1.0f);
 glm::mat4 trans = glm::mat4(1.0f);
+// moving the vector by 1 on x-axis and by 1 on y-axis
 trans = glm::translate(trans, glm::vec3(1.0f, 1.0f, 0.0f));
 vec = trans * vec;
+// should return 2101
 cout << vec.x << vec.y << vec.z << vec.w << endl;
 ```
 
 - GLM provides its built-in data types such as `vec4` and `mat4`.
-- 
+- `glm::mat4(1.0f)` returns an identity matrix (all 1's diagonally). It's always good to start out with an identity matrix and combine transform matrices on top of it.
+- `glm::translate` translates the given matrix by the given translation vector, then returns a new transformation matrix with the matrix transformation applied.
+- As covered previously, transformation is applied to a vector via matrix multiplication.
 
 
 ### Personal Notes
