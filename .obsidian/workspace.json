@@ -260,6 +260,8 @@
   },
   "active": "3565833ba7980081",
   "lastOpenFiles": [
+    "attachments/Pasted image 20240705120039.png",
+    "attachments/Pasted image 20240705115947.png",
     "opengl_texture_code.md",
     "study_LearnOpenGL.md",
     "opengl_code_guide.md",
@@ -276,7 +278,6 @@
     "books/ebooks/8일간의_선형대수학.md",
     "computer_science/linear_algebra/knou_la_class_note.md",
     "computer_graphics/cg_learn_notes/computer_graphics_transformations.md",
-    "attachments/Pasted image 20240626173535.png",
     "cpp_hello_rectangle_code.md",
     "opengl_custom_shader_main.md",
     "opengl_custom_shader_class.md",
@@ -296,7 +297,6 @@
     "knou_algorithm_summary.md",
     "knou_algorithm_notes.md",
     "신의_마법사.md",
-    "JE_01.md",
-    "filter_bubble.md"
+    "JE_01.md"
   ]
 }

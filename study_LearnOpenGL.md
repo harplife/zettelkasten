@@ -1717,11 +1717,14 @@ cout << vec.x << vec.y << vec.z << vec.w << endl;
 
 OpenGL code
 ```C++
-// prepare transformation matrix
-glm::mat4 trans = glm::mat4(1.0f);
-trans = glm::rotate(trans, glm::radians(90.0f), glm::vec3(0.0, 0.0, 1.0));
-trans = glm::scale(trans, glm::vec3(0.5, 0.5, 0.5));
-
+// Matrix Transformation
+// TIP: order matters. Rotate -> Scale -> Translate
+//-------------------------------------------------------------------------
+glm::mat4 trans(1.0f);
+trans = glm::rotate(trans, glm::radians(90.0f), glm::vec3(0.0f, 0.0f, 1.0f));
+trans = glm::scale(trans, glm::vec3(0.5f, 0.5f, 0.5f));
+trans = glm::translate(trans, glm::vec3(0.1f, 0.1f, 0.0f));
+cout << trans << endl;
 GLuint transformLoc = glGetUniformLocation(shaderProgram, "transform");
 glUniformMatrix4fv(transformLoc, 1, GL_FALSE, glm::value_ptr(trans));
 ```
@@ -1745,6 +1748,14 @@ void main()
 	v_txCoord = a_txCoord;
 }
 ```
+
+Before:
+![[Pasted image 20240705115947.png|300]]
+
+After:
+![[Pasted image 20240705120039.png|300]]
+
+#### Transformation With Key Input
 
 
 ### Personal Notes
