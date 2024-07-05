@@ -1756,7 +1756,7 @@ After:
 ![[Pasted image 20240705120039.png|300]]
 
 #### Transformation With Key Input
-
+- 
 
 ### Personal Notes
 
