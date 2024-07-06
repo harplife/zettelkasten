@@ -1789,6 +1789,7 @@ glfwSetKeyCallback(window, keyCallback);
 Refer to [[opengl_transform_code]]
 
 ### Personal Notes
+#todo make 3D Matrix Transformations Cheatsheet
 
 2D Affine Transformations
 ![[2d_affine_transformation.svg]]
