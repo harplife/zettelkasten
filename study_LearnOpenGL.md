@@ -1756,7 +1756,33 @@ After:
 ![[Pasted image 20240705120039.png|300]]
 
 #### Transformation With Key Input
-- 
+- Previously, `glfwGetKey` was used to check for keyboard input and apply changes to the application (such as changing Polygon Mode with 1~3 keys). This time, `glfwSetKeyCallback` will be used instead.
+- `glfwSetKeyCallback` registers a custom callback function, and passes several parameters such as `window`, `key`, `scancode`, `action`, and `mods`.
+- The parameter `action` is used to check if key press is `GLFW_PRESS`, `GLFW_RELEASE`, or `GLFW_REPEAT`.
+- The parameter `key` is used to check which key is being pressed, like `GLFW_KEY_W`.
+- Using `glfwSetKeyCallback` to move vertices with `WASD` keys:
+
+```C++
+void keyCallback(GLFWwindow* window, int key, int scancode, int action, int mods)
+{
+	float speed = 0.05f;
+
+	if (action == GLFW_PRESS || action == GLFW_REPEAT)
+	{
+		if (key == GLFW_KEY_W)
+			transform = glm::translate(transform, glm::vec3(0.0f, speed, 0.0f));
+		else if (key == GLFW_KEY_S)
+			transform = glm::translate(transform, glm::vec3(0.0f, -speed, 0.0f));
+		else if (key == GLFW_KEY_A)
+			transform = glm::translate(transform, glm::vec3(-speed, 0.0f, 0.0f));
+		else if (key == GLFW_KEY_D)
+			transform = glm::translate(transform, glm::vec3(speed, 0.0f, 0.0f));
+	}
+}
+
+// inside render loop
+
+```
 
 ### Personal Notes
 
