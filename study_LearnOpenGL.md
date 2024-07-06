@@ -1763,6 +1763,7 @@ After:
 - Using `glfwSetKeyCallback` to move vertices with `WASD` keys:
 
 ```C++
+// assuming transform matrix is all set up
 void keyCallback(GLFWwindow* window, int key, int scancode, int action, int mods)
 {
 	float speed = 0.05f;
@@ -1780,13 +1781,16 @@ void keyCallback(GLFWwindow* window, int key, int scancode, int action, int mods
 	}
 }
 
-// inside render loop
-
+// inside main function
+glfwSetKeyCallback(window, keyCallback);
 ```
+
+### Source Code
+Refer to [[opengl_transform_code]]
 
 ### Personal Notes
 
-Affine Transformations
+2D Affine Transformations
 ![[2d_affine_transformation.svg]]
 
 ## Coordinate Systems
