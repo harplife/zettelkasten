@@ -1832,7 +1832,8 @@ Refer to [[opengl_transform_code]]
 		- ![[Frustum.png]]
 		- ![[Cube_clipping.svg]]
 	- Similarly to Clipping, **Culling** is a process that determines whether a polygon inside the frustum is rendered. **Back-Face Culling** excludes polygons that are not directly facing the camera. **Z-Culling (aka Occlusion Culling)** excludes polygons that are hidden by other polygons in front.
-	- 
+	- Once clipping and culling is finalized, everything inside the frustum is drawn onto a 2D plane. This is called **Projection**. There are different ways to project a 3D object onto a 2D plane, which will be discussed further later on.
+- U
 
 ## Camera
 
