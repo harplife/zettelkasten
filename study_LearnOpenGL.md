@@ -1795,7 +1795,39 @@ Refer to [[opengl_transform_code]]
 ![[2d_affine_transformation.svg]]
 
 ## Coordinate Systems
+- Big part of graphics programming is dealing with coordinate systems. So far, we've only dealt with 3D coordinates as if we were dealing with 2D coordinates - drawing only 2D triangles that fit inside the 2D rectangle area (that is Normalized Device Coordinates). In this chapter, we'll deal with actual 3D coordinate systems, what they all mean, and how to convert from one coordinate system to another.
 
+>[!important]
+>In the context of computer graphics and mathematics, a **coordinate system** and a **space** are related concepts, but they are not exactly the same.
+>
+>A **coordinate system** is a method for identifying each point uniquely in a space with a set of numerical coordinates. It's a way of defining where something is in relation to everything else. For example, in a 2D coordinate system, you might describe a point as (x, y). In a 3D coordinate system, a point could be described as (x, y, z).
+>
+>On the other hand, a **space** refers to the area or volume within which things exist and move. In computer graphics, we often talk about different types of spaces, each with its own coordinate system:
+>
+>- **Model Space**: This is where the vertices of a model are defined. The origin (0, 0, 0) is typically at the center of the model, and the coordinates of the vertices are relative to this origin.
+>
+>- **World Space**: After a model is placed in a scene, its vertices are in world space. The coordinates are now relative to a fixed point in the scene, usually chosen as the world origin.
+>
+>- **View Space** (or Camera Space): This is the world as seen from the camera's point of view. The origin is now at the camera, and everything in the world is defined relative to the camera.
+>
+>- **Clip Space**: After the view space coordinates are transformed by the projection matrix, they are in clip space. In this space, everything that is visible on screen is within a cube that goes from -1 to +1 in all three dimensions.
+>
+>- **Screen Space**: Finally, the coordinates are mapped to screen space, where each coordinate corresponds to a pixel on the screen.
+>
+>So, in summary, a **space** is a context in which objects exist and move, and a **coordinate system** is a way of describing positions within that space. Each space in a graphics application typically has its own coordinate system associated with it.
+
+- As mentioned in previous chapter, the final product of render is drawn using Normalized Device Coordinates. With NDC, coordinates on each axis ranges from `-1.0` to `1.0`. When a coordinate is within that range, it is said to be within a **screen space**. When coordinates go beyond that range, it is quite literally off the screen, and will not be rendered.
+- There are five spaces that are most common and important when it comes to graphics programming; Local Space, World Space, View Space, Clip Space, and Screen Space.
+
+### The Global Picture
+- Several transformation matrices are used to convert the coordinates from one space to the next. The most important are the Model Matrix, the View Matrix, and the Projection Matrix.
+- Vertices of an object are first conceived in **Local Space (aka Object Space, or Model Space)**. The Local Coordinate of each vertex is set relative to the center of the object itself, as the center of the object is the origin $(0, 0, 0)$.
+	- What matters in this space is the general shape of the object.
+- Using the Model Matrix, the Local Coordinates are converted to the World Coordinates (coordinates in World Space). The object is now inside an abstract world among other objects, with its coordinates relative to the world origin.
+	- What matters in this space is where the object is placed in this world.
+- Using the View Matrix, the World Coordinates are converted to the View Coordinates (coordinates in View Space). This is where Camera is introduced, and all coordinates are relative to the camera.
+	- What matters in this space is how the object is being viewed by the camera.
+- Using the Projection Matrix, the View Coordinates are converted to the Clip Coordinates (coordinates in Clip Space). This is where 
 
 ## Camera
 
