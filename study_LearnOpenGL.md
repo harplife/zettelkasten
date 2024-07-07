@@ -1820,8 +1820,10 @@ Refer to [[opengl_transform_code]]
 - There are five spaces that are most common and important when it comes to graphics programming; Local Space, World Space, View Space, Clip Space, and Screen Space.
 
 ### The Global Picture
+![[coordinate_systems.png]]
+
 - Several transformation matrices are used to convert the coordinates from one space to the next. The most important are the Model Matrix, the View Matrix, and the Projection Matrix.
-- Vertices of an object are first conceived in **Local Space (aka Object Space, or Model Space)**. The Local Coordinate of each vertex is set relative to the center of the object itself, as the center of the object is the origin $(0, 0, 0)$.
+- Vertices of an object are first defined in **Local Space (aka Object Space, or Model Space)**. The Local Coordinate of each vertex is set relative to the center of the object itself, as the center of the object is the origin $(0, 0, 0)$.
 	- What matters in this space is the general shape of the object.
 - Using the **Model Matrix**, the Local Coordinates are converted to the World Coordinates (coordinates in World Space). The object is now inside an abstract world among other objects, with its coordinates relative to the world origin.
 	- What matters in this space is where the object is placed in this world.
@@ -1833,7 +1835,10 @@ Refer to [[opengl_transform_code]]
 		- ![[Cube_clipping.svg]]
 	- Similarly to Clipping, **Culling** is a process that determines whether a polygon inside the frustum is rendered. **Back-Face Culling** excludes polygons that are not directly facing the camera. **Z-Culling (aka Occlusion Culling)** excludes polygons that are hidden by other polygons in front.
 	- Once clipping and culling is finalized, everything inside the frustum is drawn onto a 2D plane. This is called **Projection**. There are different ways to project a 3D object onto a 2D plane, which will be discussed further later on.
-- U
+- Finally, the coordinates are mapped to Screen Space, where the Clip Coordinates are transformed to the range defined by `glViewport` (the window size).
+
+### Local Space
+
 
 ## Camera
 
