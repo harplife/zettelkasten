@@ -1837,7 +1837,8 @@ Refer to [[opengl_transform_code]]
 	- Once clipping and culling is finalized, everything inside the frustum is drawn onto a 2D plane. This is called **Projection**. There are different ways to project a 3D object onto a 2D plane, which will be discussed further later on.
 - Finally, the coordinates are mapped to Screen Space, where the Clip Coordinates are transformed to the range defined by `glViewport` (the window size).
 
-### Local Space
+### Projection
+
 
 
 ## Camera
