@@ -1831,7 +1831,7 @@ Refer to [[opengl_transform_code]]
 	- A **frustum** (aka cube), a shape in the form of a pyramid with a cut-off top, represents the area a camera can see. Any object that is outside this frustum is **clipped**, which means they are partially rendered or not rendered at all.
 		- ![[Frustum.png]]
 		- ![[Cube_clipping.svg]]
-	- 
+	- Similarly to clipping, culling is a technique to any part of the object that is within the frustum but is not facing the camera is
 
 ## Camera
 
