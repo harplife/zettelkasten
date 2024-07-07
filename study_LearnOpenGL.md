@@ -1826,8 +1826,9 @@ Refer to [[opengl_transform_code]]
 - Using the Model Matrix, the Local Coordinates are converted to the World Coordinates (coordinates in World Space). The object is now inside an abstract world among other objects, with its coordinates relative to the world origin.
 	- What matters in this space is where the object is placed in this world.
 - Using the View Matrix, the World Coordinates are converted to the View Coordinates (coordinates in View Space). This is where Camera is introduced, and all coordinates are relative to the camera.
-	- What matters in this space is how the object is being viewed by the camera.
-- Using the Projection Matrix, the View Coordinates are converted to the Clip Coordinates (coordinates in Clip Space). This is where 
+	- What matters in this space is where the object is located relative to the camera.
+- Using the Projection Matrix, the View Coordinates are converted to the Clip Coordinates (coordinates in Clip Space). This is where clipping and projection is introduced.
+	- Everything that is within view of the Camera is 
 
 ## Camera
 
