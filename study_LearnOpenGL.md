@@ -1823,11 +1823,14 @@ Refer to [[opengl_transform_code]]
 - Several transformation matrices are used to convert the coordinates from one space to the next. The most important are the Model Matrix, the View Matrix, and the Projection Matrix.
 - Vertices of an object are first conceived in **Local Space (aka Object Space, or Model Space)**. The Local Coordinate of each vertex is set relative to the center of the object itself, as the center of the object is the origin $(0, 0, 0)$.
 	- What matters in this space is the general shape of the object.
-- Using the Model Matrix, the Local Coordinates are converted to the World Coordinates (coordinates in World Space). The object is now inside an abstract world among other objects, with its coordinates relative to the world origin.
+- Using the **Model Matrix**, the Local Coordinates are converted to the World Coordinates (coordinates in World Space). The object is now inside an abstract world among other objects, with its coordinates relative to the world origin.
 	- What matters in this space is where the object is placed in this world.
-- Using the View Matrix, the World Coordinates are converted to the View Coordinates (coordinates in View Space). This is where Camera is introduced, and all coordinates are relative to the camera.
+- Using the **View Matrix**, the World Coordinates are converted to the View Coordinates (coordinates in View Space). This is where Camera is introduced, and all coordinates are relative to the camera.
 	- What matters in this space is where the object is located relative to the camera.
-- Using the Projection Matrix, the View Coordinates are converted to the Clip Coordinates (coordinates in Clip Space). This is where clipping and projection is introduced.
+- Using the **Projection Matrix**, the View Coordinates are converted to the Clip Coordinates (coordinates in Clip Space). This is where clipping, culling, and projection is introduced.
+	- A **frustum** (aka cube), a shape in the form of a pyramid with a cut-off top, represents the area a camera can see. Any object that is outside this frustum is **clipped**, which means they are partially rendered or not rendered at all.
+		- ![[Frustum.png]]
+		- ![[Cube_clipping.svg]]
 	- 
 
 ## Camera
