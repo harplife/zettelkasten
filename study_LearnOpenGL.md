@@ -1848,16 +1848,14 @@ Refer to [[opengl_transform_code]]
 - Parallel Projection is a type of projection where the lines of projection remain parallel. It preserves the relative proportions of objects, meaning distance from the camera does not affect the shape of object (no depth).
 	- ![[parallel_projection_diagram_0.svg]]
 - Because Parallel Projection preserves the relative proportions of objects, it is used in technical and engineering fields to produce scale drawings of 3D objects.
-- Orthographic Projection is a type of Parallel Projection where the projection lines are perpendicular (orthogonal) to the projection plane.
+- Orthographic Projection is a type of Parallel Projection where the projection lines are perpendicular (orthogonal) to the projection plane. The frustum becomes more like a cube.
 	- ![[orthographic_projection_view_volume_diagram.png]]
-- Orthographic Projection directly maps all coordinates inside the frustum to Normalized Device Coordinates without any special side effects since it won't touch the `w` component of the transformed vector (`w` component remains equal to `1.0`).
-	- This part will be better understood with Perspective Division
 - 
 
 #### Perspective Projection
 
 #### Perspective Division
-
+- Orthographic Projection directly maps all coordinates inside the frustum to Normalized Device Coordinates without any special side effects since it won't touch the `w` component of the transformed vector (`w` component remains equal to `1.0`).
 
 ## Camera
 
