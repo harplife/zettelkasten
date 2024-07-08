@@ -1850,7 +1850,7 @@ Refer to [[opengl_transform_code]]
 - Because Parallel Projection preserves the relative proportions of objects, it is used in technical and engineering fields to produce scale drawings of 3D objects.
 - Orthographic Projection is a type of Parallel Projection where the projection lines are perpendicular (orthogonal) to the projection plane. The frustum becomes more like a cube.
 	- ![[orthographic_projection_view_volume_diagram.png]]
-- 
+- GLM provides its built-in function `glm::ortho` to create an orthographic projection matrix.
 
 #### Perspective Projection
 
