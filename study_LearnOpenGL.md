@@ -1838,7 +1838,7 @@ Refer to [[opengl_transform_code]]
 - Finally, the coordinates are mapped to Screen Space, where the Clip Coordinates are transformed to the range defined by `glViewport` (the window size).
 
 ### Projection
-- Projection is a process of converting 3D coordinates to 2D coordinates.
+- Projection is a general term that refers to the process of mapping 3D points in a space onto a 2D plane.
 
 
 ## Camera
