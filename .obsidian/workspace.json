@@ -36,6 +36,16 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "211303f190dfefdc",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "attachments/graphical_projections_all_types.svg"
+              }
+            }
           }
         ]
       }
@@ -260,21 +270,20 @@
   },
   "active": "3565833ba7980081",
   "lastOpenFiles": [
+    "attachments/graphical_projections_all_types.svg",
+    "study_LearnOpenGL.md",
+    "attachments/3d_projection_diagram.svg",
     "attachments/coordinate_systems.png",
     "attachments/Frustum.png",
     "attachments/Cube_clipping.svg",
     "opengl_transform_code.md",
     "opengl_code_guide.md",
     "opengl_texture_code.md",
-    "study_LearnOpenGL.md",
     "attachments/Pasted image 20240705120039.png",
     "attachments/Pasted image 20240705115947.png",
     "attachments/Matrix_multiplication_diagram_2.svg",
     "attachments/matrix_multiplication.png",
     "attachments/Pasted image 20240701173920.png",
-    "attachments/Pasted image 20240701162831.png",
-    "attachments/Pasted image 20240701161459.png",
-    "attachments/Pasted image 20240701150638.png",
     "books/ebooks/8일간의_선형대수학.md",
     "computer_science/linear_algebra/knou_la_class_note.md",
     "computer_graphics/cg_learn_notes/computer_graphics_transformations.md",

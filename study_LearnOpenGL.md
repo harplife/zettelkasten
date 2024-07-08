@@ -1838,8 +1838,18 @@ Refer to [[opengl_transform_code]]
 - Finally, the coordinates are mapped to Screen Space, where the Clip Coordinates are transformed to the range defined by `glViewport` (the window size).
 
 ### Projection
-- Projection is a general term that refers to the process of mapping 3D points in a space onto a 2D plane. The simplest 
+- Projection is a general term that refers to the process of mapping 3D points in a space onto a 2D plane. There are two main types of projections used in Computer Graphics; Parallel Projection and Perspective Projection.
 
+![[3d_projection_diagram.svg]]
+
+![[graphical_projections_all_types.svg]]
+
+#### Parallel Projection
+- Parallel Projection is a type of projection where the lines of projection remain parallel. It preserves the relative proportions of objects, meaning distance from the camera does not affect the shape of object (no depth).
+- ![[parallel_projection_diagram_0.svg]]
+- Because Parallel Projection preserves the relative proportions of objects, it is used in technical and engineering fields to produce scale drawings of 3D objects.
+- Orthographic Projection is a type of Parallel Projection where the projection lines are perpendicular (orthogonal) to the projection plane.
+- ![[orthographic_projection_view_volume_diagram.png]]
 
 ## Camera
 
