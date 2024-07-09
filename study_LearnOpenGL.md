@@ -1564,6 +1564,8 @@ $$
 \mymat{x+T_x\\y+T_y\\z+T_z\\1}
 $$
 
+- Translation can be thought of as "Applying shear into higher dimension".
+
 #### Rotation
 - Rotation is a type of transformation where a vector is moved along a circular path as defined by an angle, a rotation axis, and the center of rotation.
 - Rotation around the X-axis given any vector $(x, y, z)$:
