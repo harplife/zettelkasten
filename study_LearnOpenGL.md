@@ -1564,7 +1564,7 @@ $$
 \mymat{x+T_x\\y+T_y\\z+T_z\\1}
 $$
 
-- Translation can be thought of as "Applying shear into higher dimension".
+- Translation can be thought of as "Applying shear into higher dimension, and then projecting the result back to the original dimension". Refer to [The True Power of the Matrix | Computerphile](https://youtu.be/vQ60rFwh2ig?si=MCvDV96yO8LP6OOV).
 
 #### Rotation
 - Rotation is a type of transformation where a vector is moved along a circular path as defined by an angle, a rotation axis, and the center of rotation.
