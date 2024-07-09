@@ -1863,7 +1863,9 @@ glm::ortho(left, right, bottom, top, zNear, zFar);
 #### Perspective Projection
 - **Perspective** is an approximate representation, generally on a flat surface, of an image as it is seen by the eye. The most characteristic features of perspective are that objects appear smaller as their distance from their observer increases, and that they are subject to foreshortening.
 	- **Foreshortening** describes an effect where an object's dimensions parallel to the line of sight appear shorter than its dimensions perpendicular to the line of sight.
-- 
+
+
+![[perspective_projection_view_volume_diagram.png]]
 
 #### Perspective Division
 - Orthographic Projection directly maps all coordinates inside the frustum to Normalized Device Coordinates without any special side effects since it won't touch the `w` component of the transformed vector (`w` component remains equal to `1.0`).
