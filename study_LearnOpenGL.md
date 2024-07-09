@@ -1661,6 +1661,7 @@ $$
 #### GLM
 - GLM (Open**GL M**athematics) is a header-only library that's specifically made for math operations for OpenGL.
 - GLM can be downloaded from https://github.com/g-truc/glm (look for releases)
+- GLM [Getting Started](https://github.com/g-truc/glm/blob/master/manual.md#section1)
 - Once downloaded, copy & paste the root folder `glm` over to `includes` directory.
 - Most of GLM's functionalities can be found in 3 header files:
 
