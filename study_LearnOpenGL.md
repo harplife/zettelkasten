@@ -1851,9 +1851,17 @@ Refer to [[opengl_transform_code]]
 - Because Parallel Projection preserves the relative proportions of objects, it is used in technical and engineering fields to produce scale drawings of 3D objects.
 - Orthographic Projection is a type of Parallel Projection where the projection lines are perpendicular (orthogonal) to the projection plane. The frustum becomes more like a cube.
 	- ![[orthographic_projection_view_volume_diagram.png]]
-- GLM provides its built-in function `glm::ortho` to create an orthographic projection matrix.
+- GLM provides its built-in function `glm::ortho` to create an orthographic projection matrix:
+
+```C++
+glm::ortho(left, right, bottom, top, zNear, zFar);
+```
+
+- First and second parameters specify the left and right coordinate of the frustum. Third and fourth specify the bottom and top part of the frustum. Basically, first through fourth describe a rectangle.
+- Fifth and sixth parameter specify the distance between the near and far plane.
 
 #### Perspective Projection
+- 
 
 #### Perspective Division
 - Orthographic Projection directly maps all coordinates inside the frustum to Normalized Device Coordinates without any special side effects since it won't touch the `w` component of the transformed vector (`w` component remains equal to `1.0`).
