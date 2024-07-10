@@ -1872,7 +1872,13 @@ glm::ortho(left, right, bottom, top, zNear, zFar);
 	- Field of View is the angular extent of the observable world that is seen at any given moment. Note that the wider the angle, the more of the world that is observed and the smaller the objects within.
 	- Normalization refers to conversion of the coordinates to values within `-1` to `1` range. Perspective Division is responsible for this calculation (covered in further discussion).
 - The calculation of Perspective Projection is not covered in this guide; Refer to [The Math behind (most) 3D games - Perspective Projection | Brendan Galea | Youtube](https://youtu.be/U0_ONQQ5ZNM?si=iITjfz8plq-BM7p5) for a good explanation.
-- 
+	- ![[Pasted image 20240710144749.png]]
+- GLM provides its built-in function `glm::perspective` to create an orthographic projection matrix:
+
+```C++
+
+glm::perspective();
+```
 
 #### Perspective Division
 - Orthographic Projection directly maps all coordinates inside the frustum to Normalized Device Coordinates without any special side effects since it won't touch the `w` component of the transformed vector (`w` component remains equal to `1.0`).
