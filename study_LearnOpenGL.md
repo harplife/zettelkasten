@@ -1876,11 +1876,11 @@ glm::ortho(left, right, bottom, top, zNear, zFar);
 - GLM provides its built-in function `glm::perspective` to create an orthographic projection matrix:
 
 ```C++
-float fovy = glm::radians(45.0f); // vertical fov
-float aspect = static_cat<float>SCR_WIDTH / static_cast<float>SCR_HEIGHT;
+float fovy = 45.0f;
+float aspect = static_cast<float>(SCR_WIDTH) / static_cast<float>(SCR_HEIGHT);
 float zNear = 0.1f;
 float zFar = 100.0f;
-glm::mat4 proj = glm::perspective(fovy, aspect, zNear, zFar);
+glm::mat4 proj = glm::perspective(glm::radians(fovy), aspect, zNear, zFar);
 ```
 
 - Note that `fovy` variable sets only the vertical FOV for the perspective projection. The horizontal FOV is derived based on the aspect ratio.
