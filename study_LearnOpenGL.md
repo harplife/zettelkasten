@@ -1867,7 +1867,7 @@ glm::ortho(left, right, bottom, top, zNear, zFar);
 	- **Foreshortening** describes an effect where an object's dimensions parallel to the line of sight appear shorter than its dimensions perpendicular to the line of sight.
 - **Perspective Projection** is a type of projection where the lines of projection converge at a single point called the center of projection (camera). It is used to create a sense of depth and three-dimensionality on a 2D plane (screen).
 	- ![[perspective_projection_view_volume_diagram.png]]
-- 
+- There are three
 
 #### Perspective Division
 - Orthographic Projection directly maps all coordinates inside the frustum to Normalized Device Coordinates without any special side effects since it won't touch the `w` component of the transformed vector (`w` component remains equal to `1.0`).
