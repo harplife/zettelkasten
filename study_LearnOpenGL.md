@@ -1871,6 +1871,7 @@ glm::ortho(left, right, bottom, top, zNear, zFar);
 	- Aspect refers to the ratio between screen's height and width.
 	- Field of View is the angular extent of the observable world that is seen at any given moment. Note that the wider the angle, the more of the world that is observed and the smaller the objects within.
 	- Normalization refers to conversion of the coordinates to values within `-1` to `1` range. Perspective Division is responsible for this calculation (covered in further discussion).
+- The calculation of Perspective Projection is not covered in this guide; Refer to [The Math behind (most) 3D games - Perspective Projection | Brendan Galea | Youtube](https://youtu.be/U0_ONQQ5ZNM?si=iITjfz8plq-BM7p5) for a good explanation.
 - 
 
 #### Perspective Division
