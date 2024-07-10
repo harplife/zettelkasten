@@ -1868,7 +1868,7 @@ glm::ortho(left, right, bottom, top, zNear, zFar);
 - **Perspective Projection** is a type of projection where the lines of projection converge at a single point called the center of projection (camera). It is used to create a sense of depth and three-dimensionality on a 2D plane (screen).
 	- ![[perspective_projection_view_volume_diagram.png]]
 - The easiest way to simulate depth is to divide X and Y coordinate by Z - further a vertex is, the higher the Z value, which also means that the result of division is smaller.
-	- 
+	- It's impossible to divide XY coordinates by Z coordinate with matrix multiplication.
 - There are several things to account for in Perspective Projection - Aspect, Field of Vision, and Normalization.
 	- Aspect refers to the ratio between screen's height and width.
 	- Field of View is the angular extent of the observable world that is seen at any given moment. Note that the wider the angle, the more of the world that is observed and the smaller the objects within.
