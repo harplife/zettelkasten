@@ -2037,7 +2037,7 @@ $$
 \end{gather}
 $$
 
-- From the look of the Projection Matrix, it seems that XY coordinates are scaled up, 
+- (exercise) make necessary changes to the `keyCallback` function so the 3D model can be moved forward and backward on Z-axis.
 
 #### Maintaining Aspect Ratio
 - 
