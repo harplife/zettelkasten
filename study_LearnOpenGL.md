@@ -260,13 +260,13 @@ int main()
 - A custom callback function can be defined to resize the viewport when the window is resized.
 
 ```C++
-void framebuffer_size_callback(GLFWwindow* window, int width, int height)
+void framebufferSizeCallback(GLFWwindow* window, int width, int height)
 {
 	glViewport(0, 0, width, height);
 }
 ```
 
-- The custom callback function is then registered with `glfwSetFramebufferSizeCallback(window, framebuffer_size_callback)`.
+- The custom callback function is then registered with `glfwSetFramebufferSizeCallback(window, framebufferSizeCallback)`.
 	- Callback functions are registered after the window is created and before the render loop is initiated (which will be covered next).
 - A **Framebuffer** is a portion of RAM that contains a bitmap driving a video display. It's essentially a memory buffer containing data representing all the pixels in a complete video frame. Modern GPUs contain framebuffer circuitry in their cores.
 	- There can be multiple framebuffers in memory at the same time; a **Front Buffer** that's currently displayed, and a **Back Buffer** that is being prepared.
@@ -2040,7 +2040,11 @@ $$
 - (exercise) make necessary changes to the `keyCallback` function so the 3D model can be moved forward and backward on Z-axis.
 
 #### Maintaining Aspect Ratio
-- 
+- As it is now, the Perspective Matrix is using the aspect ratio of the initial window width and height. This creates an issue where  the rendered scene (and the objects within) gets distorted when the window is resized (causing the aspect ratio to change).
+- One way to fix the aspect ratio issue is to define two variables that represent width and height, have them so that the `framebufferSizeCallback` function assigns new values to them when the window is resized, and then using the aspect ratio between the two for the Perspective Projection.
+
+### More 3D
+- This time we'll deal with a cube instead of a plane. To render a cube, a total of 36 vertices (6 faces * 2 triangles * 3 vertices) are needed.
 
 ## Camera
 
