@@ -2043,6 +2043,9 @@ $$
 - As it is now, the Perspective Matrix is using the aspect ratio of the initial window width and height. This creates an issue where  the rendered scene (and the objects within) gets distorted when the window is resized (causing the aspect ratio to change).
 - One way to fix the aspect ratio issue is to define two variables that represent width and height, have them so that the `framebufferSizeCallback` function assigns new values to them when the window is resized, and then using the aspect ratio between the two for the Perspective Projection.
 
+#### Source Code
+Refer to [[opengl_perspective_code]]
+
 ### More 3D
 - This time we'll deal with a cube instead of a plane. To render a cube, a total of 36 vertices (6 faces * 2 triangles * 3 vertices) are needed.
 

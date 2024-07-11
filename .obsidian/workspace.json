@@ -36,16 +36,6 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "211303f190dfefdc",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "attachments/graphical_projections_all_types.svg"
-              }
-            }
           }
         ]
       }
@@ -270,20 +260,20 @@
   },
   "active": "3565833ba7980081",
   "lastOpenFiles": [
+    "opengl_code_guide.md",
+    "attachments/graphical_projections_all_types.svg",
+    "opengl_perspective_code.md",
+    "opengl_transform_code.md",
+    "study_LearnOpenGL.md",
     "attachments/Pasted image 20240710221653.png",
     "attachments/geo-lefthand-vs-righthand.png",
     "attachments/coordinate_systems_right_handed.png",
     "attachments/Pasted image 20240710211141.png",
     "attachments/Pasted image 20240710204719.png",
     "attachments/Pasted image 20240710144749.png",
-    "attachments/graphical_projections_all_types.svg",
-    "study_LearnOpenGL.md",
     "attachments/3d_projection_diagram.svg",
     "attachments/coordinate_systems.png",
     "attachments/Frustum.png",
-    "attachments/Cube_clipping.svg",
-    "opengl_transform_code.md",
-    "opengl_code_guide.md",
     "opengl_texture_code.md",
     "books/ebooks/8일간의_선형대수학.md",
     "computer_science/linear_algebra/knou_la_class_note.md",
@@ -306,7 +296,6 @@
     "knou_algorithm_quiz.md",
     "knou_algorithm_summary.md",
     "knou_algorithm_notes.md",
-    "신의_마법사.md",
-    "JE_01.md"
+    "신의_마법사.md"
   ]
 }

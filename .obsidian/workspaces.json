@@ -38,16 +38,6 @@
                   },
                   "pinned": true
                 }
-              },
-              {
-                "id": "211303f190dfefdc",
-                "type": "leaf",
-                "state": {
-                  "type": "image",
-                  "state": {
-                    "file": "attachments/graphical_projections_all_types.svg"
-                  }
-                }
               }
             ]
           }
@@ -271,7 +261,7 @@
         }
       },
       "active": "3565833ba7980081",
-      "mtime": "2024-07-10T20:48:21-05:00",
+      "mtime": "2024-07-11T16:17:32-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "Dictionary"
