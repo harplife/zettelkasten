@@ -2109,8 +2109,12 @@ float vertices[] = {
 - OpenGL stores all its depth information in a **Z-Buffer (aka Depth Buffer)**, which is automatically created by the windowing system (GLFW).
 	- It stores depth values as 16, 24, or 32 bit floats, with most systems using a depth buffer with a precision of 24 bits.
 - Every fragment has a depth value. This value is either computed by the Fragment Shader (if it writes to `gl_FragDepth`), or is the window-space Z coordinate computed as the output of the Vertex Post-Processing steps.
-- Depth Testing is the process where OpenGL tests the depth value of a fragment against the content of the depth buffer. Meaning, if
-- Depth Testing is disabled by default, so `glEnable(GL_DEPTH_TEST)` must be called in order to enable it.
+- Depth Buffer stores the depth value of each fragment based on its position in the viewport.
+- **Depth Test** is the process where OpenGL tests the depth value of a fragment against the content of the depth buffer. When a fragment is processed, its depth value is compared with the existing value at the same position in the depth buffer; if the new fragment's depth value is less (indicating it is closer to the camera), it passes the Depth Test and its depth value is stored in the depth buffer (replacing the old value).
+	- If the Depth Test fails, the fragment is discarded.
+- Depth Test is disabled by default, so `glEnable(GL_DEPTH_TEST)` must be called in order to enable it.
+	- If Depth Test is enabled, the Depth Buffer should be cleared before each frame using `glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT)`.
+- Most GPUs support a feature called Early Depth Testing; this allows the Depth Test to run before the Fragment Shader runs. If a fragment isn't going to be visible, it can be prematurely discarded.
 - 
 
 ## Camera
