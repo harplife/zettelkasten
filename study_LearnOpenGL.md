@@ -1941,9 +1941,11 @@ glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 - The 3D model is placed in the View Space by multiplying the World Coordinate with a View Matrix.
 
 >[!important] Right-Handed System
->By convention, OpenGL is a right-handed system - meaning `+x` points to right, `+y` points to up, and `+z` is backwards (towards the camera, per se).
+>By convention, OpenGL is a right-handed system; meaning `+x` points to right, `+y` points to up, and `+z` is towards the camera.
 >![[coordinate_systems_right_handed.png]]
->
+>The handed-ness is better explained with this image:
+>![[geo-lefthand-vs-righthand.png]]
+>Note that other computer graphics libraries and applications may use Left-Handed System. For example, DirectX uses Left-Handed System.
 
 - We'll move the "camera" slightly backwards so that the camera isn't sitting right on top of the 3D model; the camera's default position is at the origin `(0,0,0)`, facing `-z` direction.
 - Note that moving the camera backwards is the equivalent to moving the entire scene forward.
