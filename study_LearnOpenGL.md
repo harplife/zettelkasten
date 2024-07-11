@@ -2047,7 +2047,66 @@ $$
 Refer to [[opengl_perspective_code]]
 
 ### More 3D
-- This time we'll deal with a cube instead of a plane. To render a cube, a total of 36 vertices (6 faces * 2 triangles * 3 vertices) are needed.
+- This time we'll deal with a cube instead of a plane. To render a cube, a total of 36 vertices (6 faces * 2 triangles * 3 vertices) are needed:
+
+```C++
+float vertices[] = {
+	// positions          // texture coords
+	-0.5f, -0.5f, -0.5f,  0.0f, 0.0f,
+	 0.5f, -0.5f, -0.5f,  1.0f, 0.0f,
+	 0.5f,  0.5f, -0.5f,  1.0f, 1.0f,
+	 0.5f,  0.5f, -0.5f,  1.0f, 1.0f,
+	-0.5f,  0.5f, -0.5f,  0.0f, 1.0f,
+	-0.5f, -0.5f, -0.5f,  0.0f, 0.0f,
+
+	-0.5f, -0.5f,  0.5f,  0.0f, 0.0f,
+	 0.5f, -0.5f,  0.5f,  1.0f, 0.0f,
+	 0.5f,  0.5f,  0.5f,  1.0f, 1.0f,
+	 0.5f,  0.5f,  0.5f,  1.0f, 1.0f,
+	-0.5f,  0.5f,  0.5f,  0.0f, 1.0f,
+	-0.5f, -0.5f,  0.5f,  0.0f, 0.0f,
+
+	-0.5f,  0.5f,  0.5f,  1.0f, 0.0f,
+	-0.5f,  0.5f, -0.5f,  1.0f, 1.0f,
+	-0.5f, -0.5f, -0.5f,  0.0f, 1.0f,
+	-0.5f, -0.5f, -0.5f,  0.0f, 1.0f,
+	-0.5f, -0.5f,  0.5f,  0.0f, 0.0f,
+	-0.5f,  0.5f,  0.5f,  1.0f, 0.0f,
+
+	 0.5f,  0.5f,  0.5f,  1.0f, 0.0f,
+	 0.5f,  0.5f, -0.5f,  1.0f, 1.0f,
+	 0.5f, -0.5f, -0.5f,  0.0f, 1.0f,
+	 0.5f, -0.5f, -0.5f,  0.0f, 1.0f,
+	 0.5f, -0.5f,  0.5f,  0.0f, 0.0f,
+	 0.5f,  0.5f,  0.5f,  1.0f, 0.0f,
+
+	-0.5f, -0.5f, -0.5f,  0.0f, 1.0f,
+	 0.5f, -0.5f, -0.5f,  1.0f, 1.0f,
+	 0.5f, -0.5f,  0.5f,  1.0f, 0.0f,
+	 0.5f, -0.5f,  0.5f,  1.0f, 0.0f,
+	-0.5f, -0.5f,  0.5f,  0.0f, 0.0f,
+	-0.5f, -0.5f, -0.5f,  0.0f, 1.0f,
+
+	-0.5f,  0.5f, -0.5f,  0.0f, 1.0f,
+	 0.5f,  0.5f, -0.5f,  1.0f, 1.0f,
+	 0.5f,  0.5f,  0.5f,  1.0f, 0.0f,
+	 0.5f,  0.5f,  0.5f,  1.0f, 0.0f,
+	-0.5f,  0.5f,  0.5f,  0.0f, 0.0f,
+	-0.5f,  0.5f, -0.5f,  0.0f, 1.0f
+};
+```
+
+- Note that the Vertex Attributes consists only of position and texture coordinates. Also, there aren't any indices this time.
+	- EBO is NOT used in this case.
+	- Attribute Vertex Pointer should be set accordingly - meaning, the stride and the offsets should be adjusted.
+	- `glDrawArrays` is used instead of `glDrawElements` <-- failure to change this caused the program to freeze.
+- The result:
+	- ![[Pasted image 20240711163447.png|300]]
+- Note that the result image above shows an issue: some sides of the cubes are being drawn over other sides of the cube. This happens because when OpenGL draws the model triangle-by-triangle (fragment-by-fragment) in sequence, and so whatever gets drawn later overwrites any pixel color that is already there.
+	- The solution to the above problem is z-buffer.
+
+#### Z-Buffer
+- 
 
 ## Camera
 
