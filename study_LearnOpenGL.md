@@ -1889,8 +1889,28 @@ glm::mat4 proj = glm::perspective(glm::radians(fovy), aspect, zNear, zFar);
 
 #### Perspective Division
 - `w` component of 4D vector coordinate serves more purpose than assisting with translation (moving vertex) - it is also used to apply Perspective Division.
-- Perspective Division is the final step in Graphics Pipeline where XYZ coordinates are divided by `w`. In essence, if `w = z`
+- Perspective Division is the final step in Graphics Pipeline where XYZ coordinates are divided by `w`. It is done automatically by the OpenGL.
+- In essence, the simplest form of perspective projection will be applied when Perspective Division occurs and `w = z`:
+
+$$
+\newcommand\mymat[1]{\begin{bmatrix*}[r]#1\end{bmatrix*}}
+
+\begin{gather}
+\mymat{1&0&0&0\\0&1&0&0\\0&0&1&0\\0&0&1&0} \cdot \mymat{x\\y\\z\\1} = \mymat{x\\y\\z\\z}\\
+\mymat{x\\y\\z\\z} \div z = \mymat{x/z\\y/z\\1\\1}
+\end{gather}
+$$
+
 - Orthographic Projection directly maps all coordinates inside the frustum to Normalized Device Coordinates without any special side effects since it won't touch the `w` component of the transformed vector (`w` component remains equal to `1.0`).
+
+### Putting it all together
+- All in all, a Vertex Coordinate is transformed to Clip Coordinate through various transformation matrix multiplication:
+
+$$
+V_{clip} = M_{projection} \cdot M_{view} \cdot M_{model} \cdot V_{local}
+$$
+
+- Note that the order of matrix multiplication matters - it is not commutative, and it is in reverse.
 
 ## Camera
 
