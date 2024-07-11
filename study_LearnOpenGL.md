@@ -2022,6 +2022,25 @@ void main()
 ```
 
 - ![[Pasted image 20240710221653.png|300]]
+- As a note, `projection` outputs a matrix (aspect 1:1) like below:
+
+$$
+\newcommand\mymat[1]{\begin{bmatrix*}[r]#1\end{bmatrix*}}
+
+\begin{gather}
+\mymat{
+	2.414 & 0.000 & 0.000 & 0.000 \\
+	0.000 & 2.414 & 0.000 & 0.000 \\
+	0.000 & 0.000 & -1.002 & -0.200 \\
+	0.000 & 0.000 & -1.000 & 0.000
+}
+\end{gather}
+$$
+
+- 
+
+#### Maintaining Aspect Ratio
+- 
 
 ## Camera
 
