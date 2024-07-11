@@ -1924,6 +1924,7 @@ $$
 - For now, we'll rotate the 3D model on the x-axis so that it looks like it's laying on the floor.
 - Code as follows:
 
+OpenGL Code
 ```C++
 // Model Matrix
 glm::mat4 model(1.0f);
@@ -1934,7 +1935,27 @@ GLuint modelLoc = glGetUniformLocation(shaderProgram, "model");
 glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 ```
 
-- Make sure the uniform variable `model` is declared in the Vertex Shader.
+Vertex Shader
+```C
+#version 330 core
+layout (location = 0) in vec3 a_pos;
+layout (location = 1) in vec3 a_color;
+layout (location = 2) in vec2 a_txCoord;
+
+uniform mat4 transform;
+uniform mat4 model;
+
+out vec3 v_color;
+out vec2 v_txCoord;
+
+void main()
+{
+	gl_Position = transform * model * vec4(a_pos, 1.0f);
+	v_color = a_color;
+	v_txCoord = a_txCoord;
+}
+```
+
 - ![[Pasted image 20240710211141.png|300]]
 
 #### View Space
@@ -1951,6 +1972,20 @@ glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 - We'll move the "camera" slightly backwards so that the camera isn't sitting right on top of the 3D model; the camera's default position is at the origin `(0,0,0)`, facing `-z` direction.
 - Note that moving the camera `+z` direction is the equivalent to moving the entire scene `-z` direction.
 - Code as follows:
+
+```C++
+glm::mat4 view(1.0f);
+view = glm::translate(view, glm::vec3(0.0f, 0.0f, -3.0f));
+
+GLuint viewLoc = glGetUniformLocation(shaderProgram, "view");
+glUniformMatrix4fv(viewLoc, 1, GL_FALSE, glm::value_ptr(view));
+```
+
+- Make sure to declare uniform variable `view` in the Vertex Shader, and multiply `view` to the coordinate (left to `model`).
+- Because OpenGL only renders coordinates within `-1` and `1` range, the render will result in a blank scene. Projection will help with this issue.
+
+#### Clip Space
+- The last thing to do is to define the Projection Matrix:
 
 
 
