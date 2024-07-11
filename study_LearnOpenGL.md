@@ -2106,8 +2106,12 @@ float vertices[] = {
 	- The solution to the above problem is z-buffer.
 
 #### Z-Buffer
-- OpenGL stores all its depth information in a **Z-Buffer (aka Depth Buffer)**. The depth is stored within each fragment.
-- OpenGL automatically initiates Depth Testing, which is a process of 
+- OpenGL stores all its depth information in a **Z-Buffer (aka Depth Buffer)**, which is automatically created by the windowing system (GLFW).
+	- It stores depth values as 16, 24, or 32 bit floats, with most systems using a depth buffer with a precision of 24 bits.
+- Every fragment has a depth value. This value is either computed by the Fragment Shader (if it writes to `gl_FragDepth`), or is the window-space Z coordinate computed as the output of the Vertex Post-Processing steps.
+- Depth Testing is the process where OpenGL tests the depth value of a fragment against the content of the depth buffer. Meaning, if
+- Depth Testing is disabled by default, so `glEnable(GL_DEPTH_TEST)` must be called in order to enable it.
+- 
 
 ## Camera
 
