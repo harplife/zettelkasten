@@ -1987,7 +1987,41 @@ glUniformMatrix4fv(viewLoc, 1, GL_FALSE, glm::value_ptr(view));
 #### Clip Space
 - The last thing to do is to define the Projection Matrix:
 
+OpenGL Code
+```C++
+float fovy = 45.0f;
+float aspect = static_cast<float>(SCR_WIDTH) / static_cast<float>(SCR_HEIGHT);
+float zNear = 0.1f;
+float zFar = 100.0f;
+glm::mat4 projection = glm::perspective(glm::radians(fovy), aspect, zNear, zFar);
+GLuint projectionLoc = glGetUniformLocation(shaderProgram, "projection");
+glUniformMatrix4fv(projectionLoc, 1, GL_FALSE, glm::value_ptr(projection));
+```
 
+Vertex Shader
+```C
+#version 330 core
+layout (location = 0) in vec3 a_pos;
+layout (location = 1) in vec3 a_color;
+layout (location = 2) in vec2 a_txCoord;
+
+uniform mat4 transform;
+uniform mat4 model;
+uniform mat4 view;
+uniform mat4 projection;
+
+out vec3 v_color;
+out vec2 v_txCoord;
+
+void main()
+{
+	gl_Position = projection * transform * view * model * vec4(a_pos, 1.0f);
+	v_color = a_color;
+	v_txCoord = a_txCoord;
+}
+```
+
+- ![[Pasted image 20240710221653.png|300]]
 
 ## Camera
 
