@@ -1946,9 +1946,13 @@ glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 >The handed-ness is better explained with this image:
 >![[geo-lefthand-vs-righthand.png]]
 >Note that other computer graphics libraries and applications may use Left-Handed System. For example, DirectX uses Left-Handed System.
+>Another thing to note is that OpenGL switches from Right to Left-Handed System when coordinates are converted to Normalized Device Coordinates.
 
 - We'll move the "camera" slightly backwards so that the camera isn't sitting right on top of the 3D model; the camera's default position is at the origin `(0,0,0)`, facing `-z` direction.
-- Note that moving the camera backwards is the equivalent to moving the entire scene forward.
+- Note that moving the camera `+z` direction is the equivalent to moving the entire scene `-z` direction.
+- Code as follows:
+
+
 
 ## Camera
 
