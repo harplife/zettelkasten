@@ -1911,6 +1911,15 @@ V_{clip} = M_{projection} \cdot M_{view} \cdot M_{model} \cdot V_{local}
 $$
 
 - Note that the order of matrix multiplication matters - it is not commutative, and it is in reverse.
+- The Clip Coordinate is then assigned to `gl_Position` in the Vertex Shader, and then OpenGL will automatically perform Perspective Division and clipping.
+- For the rest of the guide, transformation matrix for each space will be implemented in code.
+
+#### Local Space
+- For now, we have a flat plane (made up of two triangles) as a model.
+
+
+![[Pasted image 20240710204719.png]]
+
 
 ## Camera
 
