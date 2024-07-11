@@ -2106,7 +2106,8 @@ float vertices[] = {
 	- The solution to the above problem is z-buffer.
 
 #### Z-Buffer
-- 
+- OpenGL stores all its depth information in a **Z-Buffer (aka Depth Buffer)**. The depth is stored within each fragment.
+- OpenGL automatically initiates Depth Testing, which is a process of 
 
 ## Camera
 
