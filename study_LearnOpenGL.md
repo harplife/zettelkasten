@@ -1915,11 +1915,38 @@ $$
 - For the rest of the guide, transformation matrix for each space will be implemented in code.
 
 #### Local Space
-- For now, we have a flat plane (made up of two triangles) as a model.
+- Start off with, we have a flat plane (made up of two triangles) as a 3D model.
+- ![[Pasted image 20240710204719.png|300]]
 
+#### World Space
+- The 3D model is placed in the World Space by multiplying the Local Coordinate with a Model Matrix.
+- The Model Matrix consists of translations, scaling, and/or rotations.
+- For now, we'll rotate the 3D model on the x-axis so that it looks like it's laying on the floor.
+- Code as follows:
 
-![[Pasted image 20240710204719.png]]
+```C++
+// Model Matrix
+glm::mat4 model(1.0f);
+model = glm::rotate(model, glm::radians(-55.0f), glm::vec3(1.0f, 0.0f, 0.0f));
 
+// Pass Model Matrix via uniform
+GLuint modelLoc = glGetUniformLocation(shaderProgram, "model");
+glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+```
+
+- Make sure the uniform variable `model` is declared in the Vertex Shader.
+- ![[Pasted image 20240710211141.png|300]]
+
+#### View Space
+- The 3D model is placed in the View Space by multiplying the World Coordinate with a View Matrix.
+
+>[!important] Right-Handed System
+>By convention, OpenGL is a right-handed system - meaning `+x` points to right, `+y` points to up, and `+z` is backwards (towards the camera, per se).
+>![[coordinate_systems_right_handed.png]]
+>
+
+- We'll move the "camera" slightly backwards so that the camera isn't sitting right on top of the 3D model; the camera's default position is at the origin `(0,0,0)`, facing `-z` direction.
+- Note that moving the camera backwards is the equivalent to moving the entire scene forward.
 
 ## Camera
 
