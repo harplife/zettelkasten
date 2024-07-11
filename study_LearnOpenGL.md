@@ -2115,7 +2115,8 @@ float vertices[] = {
 - Depth Test is disabled by default, so `glEnable(GL_DEPTH_TEST)` must be called in order to enable it.
 	- If Depth Test is enabled, the Depth Buffer should be cleared before each frame using `glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT)`.
 - Most GPUs support a feature called Early Depth Testing; this allows the Depth Test to run before the Fragment Shader runs. If a fragment isn't going to be visible, it can be prematurely discarded.
-- 
+- The result:
+	- ![[Pasted image 20240711172419.png|300]]
 
 ## Camera
 
