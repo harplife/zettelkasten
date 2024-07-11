@@ -2037,7 +2037,7 @@ $$
 \end{gather}
 $$
 
-- 
+- From the look of the Projection Matrix, it seems that XY coordinates are scaled up, 
 
 #### Maintaining Aspect Ratio
 - 
