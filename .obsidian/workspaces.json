@@ -38,6 +38,19 @@
                   },
                   "pinned": true
                 }
+              },
+              {
+                "id": "8aed98b625940a69",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "study_LearnOpenGL_CoordinateSystems.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
               }
             ]
           }
@@ -261,7 +274,7 @@
         }
       },
       "active": "3565833ba7980081",
-      "mtime": "2024-07-11T23:18:48-05:00",
+      "mtime": "2024-07-12T14:36:43-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "Dictionary"

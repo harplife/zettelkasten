@@ -2231,23 +2231,24 @@ glm::vec3 cubePositions[] = {
 };
 
 //inside render loop
-glBindVertexArray(VAO);
-for(unsigned int i = 0; i < 10; i++)
+for (unsigned int i = 0; i < 10; i++)
 {
-    glm::mat4 model = glm::mat4(1.0f);
-    model = glm::translate(model, cubePositions[i]);
-    float angle = 20.0f * i; 
-    model = glm::rotate(model, glm::radians(angle), glm::vec3(1.0f, 0.3f, 0.5f));
-    ourShader.setMat4("model", model);
+	model = glm::mat4(1.0f);
+	model = glm::translate(model, cubePositions[i]);
+	glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 
-    glDrawArrays(GL_TRIANGLES, 0, 36);
+	glDrawArrays(GL_TRIANGLES, 0, 36);
 }
 ```
 
+- Code result:
+	- ![[Pasted image 20240712142858.png|300]]
 - The issue with the way multiple objects are drawn following the code above is that it is difficult to move each model separately.
+	- With the current setup (`model` being initialized outside `main`), `model` has to be reset to an identity matrix, otherwise the value accumulates and it gets thrown off the screen.
 	- There is a way to draw multiple copies of the same object in one draw call - `instancing`. This will be covered later on.
 
-
+### Source Code
+Refer to [[opengl_cube_code]]
 
 ## Camera
 
