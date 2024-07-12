@@ -49,6 +49,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6fa8bf4521b9ce49",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "study_LearnOpenGL_OpenGL.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -254,7 +267,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 362.5
+    "width": 362.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -272,10 +286,11 @@
   },
   "active": "3565833ba7980081",
   "lastOpenFiles": [
+    "study_LearnOpenGL_OpenGL.md",
+    "study_LearnOpenGL.md",
     "opengl_code_guide.md",
     "study_LearnOpenGL_Camera.md",
     "attachments/camera_axes.png",
-    "study_LearnOpenGL.md",
     "study_LearnOpenGL_Textures.md",
     "study_LearnOpenGL_CoordinateSystems.md",
     "study_LearnOpenGL_Transformations.md",

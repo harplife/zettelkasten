@@ -51,6 +51,19 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "6fa8bf4521b9ce49",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "study_LearnOpenGL_OpenGL.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
               }
             ]
           }
@@ -256,7 +269,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 362.5
+        "width": 362.5,
+        "collapsed": true
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -273,7 +287,7 @@
         }
       },
       "active": "3565833ba7980081",
-      "mtime": "2024-07-12T15:58:40-05:00",
+      "mtime": "2024-07-12T16:34:03-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "Dictionary"
