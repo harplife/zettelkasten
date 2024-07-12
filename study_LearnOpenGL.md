@@ -2119,7 +2119,8 @@ float vertices[] = {
 	- ![[Pasted image 20240711172419.png|300]]
 
 #### Adjusting Control
-- So far `transform` is being used to manipulate the model. It wasn't until I tried implementing the rotation that I realized the order where `transofrm` comes in matters, and that there can be transform for the model itself, and then transform for the camera. So, instead of using `transform`, I may need to directly manipulate `model` and `view`.
+- So far `transform` is being used to manipulate the model. It wasn't until I tried implementing the rotation that I realized the order where `transform` comes in matters, and that there can be transform for the model itself, and then transform for the camera. So, instead of using `transform`, I may need to directly manipulate `model` and `view`.
+- To clean up the code a little, replaced all the `if else` statements with `switch case` statements in `keyCallback` function:
 
 ## Camera
 
