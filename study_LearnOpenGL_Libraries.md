@@ -1,5 +1,5 @@
 
-## Setting Up Libraries
+# Setting Up Libraries
 - First thing to do before drawing anything with OpenGL is to create an OpenGL context and an application window to draw in.
 	- These are operations that are specific per operating system, and OpenGL itself does not provide these operations.
 	- It is up to the developers to create a window, define a context, and handle user input.
@@ -8,11 +8,11 @@
 - GLFW library is used on the LearnOpenGL course.
 - Additionally, GLAD library is used to locate OpenGL functions.
 
-### GLFW
+## GLFW
 - GLFW is a library specifically targeted at OpenGL.
 - GLFW provides the bare necessities required for rendering to the screen, such as creating an OpenGL context, defining window parameters, and handling user input.
 
-### Building GLFW
+## Building GLFW
 - Download GLFW (64-bit) source code from http://www.glfw.org/download.html
 - Although GLFW does come pre-compiled, it is better to compile in the system for better compatibility.
 - The items that are to be used are:
@@ -20,7 +20,7 @@
 	- The `include` folder
 - Not everyone uses the same setups for their project, which means that the project/solution files need to be converted to match the setup it is to be used in. CMake is the tool that is used specifically for that purpose.
 
-#### CMake
+### CMake
 - CMake is a tool that can generate project/solution files of the user's choice from a collection of source code files using pre-defined CMake scripts.
 - Download CMake from http://www.cmake.org/cmake/resources/software.html
 - Convert GLFW project files using CMake:
@@ -35,7 +35,7 @@
 
 ![[Pasted image 20240521103035.png]]
 
-#### Compilation
+### Compilation
 - Once the project files are converted using CMake, a project file `GLFW.sln` can be found inside the build folder. Open it with Visual Studio and proceed to build (compile).
 - Compiled library `glfw3.lib` can be found in `build/src/Debug` folder.
 - There are two approaches to using third party libraries:
@@ -44,11 +44,11 @@
 - Move files from GLFW's `/include` folder to third party libaries `/include` folder.
 - Move `glfw3.lib` to third party libraries `/lib` folder.
 
-### First Project
+## First Project
 - Create an empty project with Visual Studio.
 - Make sure the debug mode is set to `x64`.
 
-### Linking
+## Linking
 - In order for the project to use GLFW, the library needs to be linked with the project.
 - This can be done by specifying `glfw3.lib` in the linker settings.
 	- The project does not yet know where to find `glfw3.lib` because third party libraries are stored in a different directory. This directory needs to be added to the project first.
@@ -60,18 +60,18 @@
 	4. Under `Linker` > `Input`, edit `Additional Dependencies` by adding `glfw3.lib`.
 	   ![[Pasted image 20240521110212.png]]
 
-#### OpenGL library on Windows
+### OpenGL library on Windows
 - On Windows, `opengl32.lib` comes with the Microsoft SDK (which is installed by default with VS).
 - Add `opengl32.lib` to the linker settings.
 - (note) according to this [SO answer](https://stackoverflow.com/a/63121201), linking `opengl32.lib` may not be necessary because GLAD loads it during runtime. However, there are conflicting information that says not linking may result in errors during compilation - so, let's just link it to be safe.
 
-### GLAD
+## GLAD
 - Different GPUs come with different versions of OpenGL drivers, which means location of most of its functions is not known at compile-time and needs to be queried at run-time.
 - It is the task of the developer to retrieve the location of the functions that they need, and store them in function pointers for later use.
 - Retrieving those locations is OS-specific, and it can get rather complex and cumbersome to locate functions and store them in function pointers.
 - GLAD library simplifies the process of locating/storing OpenGL functions.
 
-#### Setting up GLAD
+### Setting up GLAD
 - Go to http://glad.dav1d.de/
 	- Set Language to C++
 	- Set Specification to OpenGL
@@ -84,7 +84,7 @@
 - Inside `/src` folder, there is `glad.c` file. Copy & paste this to the project folder. Then, add it to the `Source Files` on Visual Studio.
 - Create a file and name it `Main.cpp`. Type `#include <glad/glad.h>` and build. There should be no errors.
 
-### Additional Resources
+## Additional Resources
 - Official GLFW Guide : https://www.glfw.org/docs/latest/window_guide.html
 - http://www.opengl-tutorial.org/miscellaneous/building-your-own-c-application/
 - http://wiki.codeblocks.org/index.php?title=Using_GLFW_with_Code::Blocks

@@ -49,22 +49,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "1dcf8ceffd74cdf7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "study_LearnOpenGL_Libraries.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -142,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study_LearnOpenGL_Libraries.md"
+                "file": "study_LearnOpenGL_Camera.md"
               }
             }
           }
@@ -183,7 +170,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "study_LearnOpenGL_Libraries.md",
+                "file": "study_LearnOpenGL_Camera.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -218,7 +205,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study_LearnOpenGL_Libraries.md",
+                "file": "study_LearnOpenGL_Camera.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -253,7 +240,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study_LearnOpenGL_Libraries.md",
+                "file": "study_LearnOpenGL_Camera.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -285,15 +272,19 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "1dcf8ceffd74cdf7",
+  "active": "80912e786d8c7f91",
   "lastOpenFiles": [
-    "study_LearnOpenGL_Camera.md",
-    "study_LearnOpenGL_OpenGL.md",
     "study_LearnOpenGL.md",
+    "study_LearnOpenGL_Camera.md",
+    "study_LearnOpenGL_Shaders.md",
+    "study_LearnOpenGL_Textures.md",
+    "study_LearnOpenGL_HelloRectangle.md",
+    "study_LearnOpenGL_HelloTriangle.md",
+    "study_LearnOpenGL_HelloWindow.md",
     "study_LearnOpenGL_Libraries.md",
+    "study_LearnOpenGL_OpenGL.md",
     "opengl_code_guide.md",
     "attachments/camera_axes.png",
-    "study_LearnOpenGL_Textures.md",
     "study_LearnOpenGL_CoordinateSystems.md",
     "study_LearnOpenGL_Transformations.md",
     "opengl_cube_code.md",
@@ -320,10 +311,6 @@
     "Dictionary",
     "cpp_hello_window_code.md",
     "computer_science/OpenGL/opengl_draw_2d_simple_triangle.md",
-    "cpp_hello_triangle_code.md",
-    "computer_graphics/cg_general_notes/computer_graphics_big_picture.md",
-    "goals/goal_bachelor_in_cs.md",
-    "lifestyle/central_node.md",
-    "image_representation.md"
+    "cpp_hello_triangle_code.md"
   ]
 }
