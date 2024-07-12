@@ -22,6 +22,10 @@ Following the guide https://learnopengl.com
 ## OpenGL
 ![[study_LearnOpenGL_OpenGL]]
 
+
+## Setting Up Libraries
+![[study_LearnOpenGL_Libraries]]
+
 ## Hello Window
 - This chapter will cover writing a code to open a simple application window.
 - In `Main.cpp` file, add the following directives to the top.

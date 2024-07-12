@@ -51,19 +51,20 @@
             }
           },
           {
-            "id": "6fa8bf4521b9ce49",
+            "id": "1dcf8ceffd74cdf7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study_LearnOpenGL_OpenGL.md",
+                "file": "study_LearnOpenGL_Libraries.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -141,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study_LearnOpenGL.md"
+                "file": "study_LearnOpenGL_Libraries.md"
               }
             }
           }
@@ -182,7 +183,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "study_LearnOpenGL.md",
+                "file": "study_LearnOpenGL_Libraries.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -217,7 +218,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study_LearnOpenGL.md",
+                "file": "study_LearnOpenGL_Libraries.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -252,7 +253,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study_LearnOpenGL.md",
+                "file": "study_LearnOpenGL_Libraries.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -284,12 +285,13 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "3565833ba7980081",
+  "active": "1dcf8ceffd74cdf7",
   "lastOpenFiles": [
+    "study_LearnOpenGL_Camera.md",
     "study_LearnOpenGL_OpenGL.md",
     "study_LearnOpenGL.md",
+    "study_LearnOpenGL_Libraries.md",
     "opengl_code_guide.md",
-    "study_LearnOpenGL_Camera.md",
     "attachments/camera_axes.png",
     "study_LearnOpenGL_Textures.md",
     "study_LearnOpenGL_CoordinateSystems.md",
@@ -322,7 +324,6 @@
     "computer_graphics/cg_general_notes/computer_graphics_big_picture.md",
     "goals/goal_bachelor_in_cs.md",
     "lifestyle/central_node.md",
-    "image_representation.md",
-    "KNOU_머신러닝_정리_20231205_memorize.md"
+    "image_representation.md"
   ]
 }
