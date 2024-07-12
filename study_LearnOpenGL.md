@@ -2120,7 +2120,99 @@ float vertices[] = {
 
 #### Adjusting Control
 - So far `transform` is being used to manipulate the model. It wasn't until I tried implementing the rotation that I realized the order where `transform` comes in matters, and that there can be transform for the model itself, and then transform for the camera. So, instead of using `transform`, I may need to directly manipulate `model` and `view`.
-- To clean up the code a little, replaced all the `if else` statements with `switch case` statements in `keyCallback` function:
+- To clean up the code a little, replaced all the `if else` statements with `switch case` statements in `keyCallback` function.
+- The code now:
+
+```C++
+void keyCallback(GLFWwindow* window, int key, int scancode, int action, int mods)
+{
+	float speed = 0.05f;
+
+	if (action == GLFW_PRESS || action == GLFW_REPEAT)
+	{
+		if (modelMode)
+		{
+			switch (key)
+			{
+				case GLFW_KEY_Q:
+					model = glm::translate(model, glm::vec3(0.0f, 0.0f, -speed));
+					break;
+				case GLFW_KEY_E:
+					model = glm::translate(model, glm::vec3(0.0f, 0.0f, speed));
+					break;
+				case GLFW_KEY_A:
+					model = glm::translate(model, glm::vec3(-speed, 0.0f, 0.0f));
+					break;
+				case GLFW_KEY_D:
+					model = glm::translate(model, glm::vec3(speed, 0.0f, 0.0f));
+					break;
+				case GLFW_KEY_W:
+					model = glm::translate(model, glm::vec3(0.0f, speed, 0.0f));
+					break;
+				case GLFW_KEY_S:
+					model = glm::translate(model, glm::vec3(0.0f, -speed, 0.0f));
+					break;
+				case GLFW_KEY_UP:
+					model = glm::rotate(model, glm::radians(-3.0f), glm::vec3(1.0f, 0.0f, 0.0f));
+					break;
+				case GLFW_KEY_DOWN:
+					model = glm::rotate(model, glm::radians(3.0f), glm::vec3(1.0f, 0.0f, 0.0f));
+					break;
+				case GLFW_KEY_LEFT:
+					model = glm::rotate(model, glm::radians(3.0f), glm::vec3(0.0f, 1.0f, 0.0f));
+					break;
+				case GLFW_KEY_RIGHT:
+					model = glm::rotate(model, glm::radians(-3.0f), glm::vec3(0.0f, 1.0f, 0.0f));
+					break;
+			}
+		}
+		else
+		{
+			// TODO: moving the camera seems a little off right now
+			switch (key)
+			{
+			case GLFW_KEY_Q:
+				view = glm::translate(view, glm::vec3(0.0f, 0.0f, -speed));
+				break;
+			case GLFW_KEY_E:
+				view = glm::translate(view, glm::vec3(0.0f, 0.0f, speed));
+				break;
+			case GLFW_KEY_A:
+				view = glm::translate(view, glm::vec3(-speed, 0.0f, 0.0f));
+				break;
+			case GLFW_KEY_D:
+				view = glm::translate(view, glm::vec3(speed, 0.0f, 0.0f));
+				break;
+			case GLFW_KEY_W:
+				view = glm::translate(view, glm::vec3(0.0f, speed, 0.0f));
+				break;
+			case GLFW_KEY_S:
+				view = glm::translate(view, glm::vec3(0.0f, -speed, 0.0f));
+				break;
+			case GLFW_KEY_UP:
+				view = glm::rotate(view, glm::radians(-3.0f), glm::vec3(1.0f, 0.0f, 0.0f));
+				break;
+			case GLFW_KEY_DOWN:
+				view = glm::rotate(view, glm::radians(3.0f), glm::vec3(1.0f, 0.0f, 0.0f));
+				break;
+			case GLFW_KEY_LEFT:
+				view = glm::rotate(view, glm::radians(3.0f), glm::vec3(0.0f, 1.0f, 0.0f));
+				break;
+			case GLFW_KEY_RIGHT:
+				view = glm::rotate(view, glm::radians(-3.0f), glm::vec3(0.0f, 1.0f, 0.0f));
+				break;
+			}
+		}
+	}
+}
+```
+
+- Make sure to initialize `model` and `view` outside `main` function. Also, assign the values to the uniform variables accordingly inside the render loop.
+
+#### More Cubes
+- A way to draw multiple cubes is to draw the same model multiple times all in a single frame - by calling `glDrawArrays` in a loop (inside a render loop). Follow the procedure:
+	- Define a list of different positions for cubes to be in - `cubePositions`.
+	- Inside render loop, make a `for` loop that iterates the content of the `cubePositions` and translate 
 
 ## Camera
 
