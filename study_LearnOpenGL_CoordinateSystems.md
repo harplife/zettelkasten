@@ -1,4 +1,4 @@
-## Coordinate Systems
+# Coordinate Systems
 - Big part of graphics programming is dealing with coordinate systems. So far, we've only dealt with 3D coordinates as if we were dealing with 2D coordinates - drawing only 2D triangles that fit inside the 2D rectangle area (that is Normalized Device Coordinates). In this chapter, we'll deal with actual 3D coordinate systems, what they all mean, and how to convert from one coordinate system to another.
 
 >[!important]
@@ -23,7 +23,7 @@
 - As mentioned in previous chapter, the final product of render is drawn using Normalized Device Coordinates. With NDC, coordinates on each axis ranges from `-1.0` to `1.0`. When a coordinate is within that range, it is said to be within a **screen space**. When coordinates go beyond that range, it is quite literally off the screen, and will not be rendered.
 - There are five spaces that are most common and important when it comes to graphics programming; Local Space, World Space, View Space, Clip Space, and Screen Space.
 
-### The Global Picture
+## The Global Picture
 ![[coordinate_systems.png]]
 
 - Several transformation matrices are used to convert the coordinates from one space to the next. The most important are the Model Matrix, the View Matrix, and the Projection Matrix.
@@ -41,14 +41,14 @@
 	- Once clipping and culling is finalized, everything inside the frustum is drawn onto a 2D plane. This is called **Projection**. There are different ways to project a 3D object onto a 2D plane, which will be discussed further later on.
 - Finally, the coordinates are mapped to Screen Space, where the Clip Coordinates are transformed to the range defined by `glViewport` (the window size).
 
-### Projection
+## Projection
 - **Projection** is a general term that refers to the process of mapping 3D points in a space onto a 2D plane. There are two main types of projections used in Computer Graphics; Parallel Projection and Perspective Projection.
 
 ![[3d_projection_diagram.svg]]
 
 ![[graphical_projections_all_types.svg]]
 
-#### Parallel Projection
+### Parallel Projection
 - **Parallel Projection** is a type of projection where the lines of projection remain parallel. It preserves the relative proportions of objects, meaning distance from the camera does not affect the shape of object (no depth).
 	- ![[parallel_projection_diagram_0.svg]]
 - Because Parallel Projection preserves the relative proportions of objects, it is used in technical and engineering fields to produce scale drawings of 3D objects.
@@ -63,7 +63,7 @@ glm::ortho(left, right, bottom, top, zNear, zFar);
 - First and second parameters specify the left and right coordinate of the frustum. Third and fourth specify the bottom and top part of the frustum. Basically, first through fourth describe a rectangle.
 - Fifth and sixth parameter specify the distance between the near and far plane.
 
-#### Perspective Projection
+### Perspective Projection
 - **Perspective** is an approximate representation, generally on a flat surface, of an image as it is seen by the eye. The most characteristic features of perspective are that objects appear smaller as their distance from their observer increases, and that they are subject to foreshortening.
 	- **Foreshortening** describes an effect where an object's dimensions parallel to the line of sight appear shorter than its dimensions perpendicular to the line of sight.
 - **Perspective Projection** is a type of projection where the lines of projection converge at a single point called the center of projection (camera). It is used to create a sense of depth and three-dimensionality on a 2D plane (screen).
@@ -88,7 +88,7 @@ glm::mat4 proj = glm::perspective(glm::radians(fovy), aspect, zNear, zFar);
 
 - Note that `fovy` variable sets only the vertical FOV for the perspective projection. The horizontal FOV is derived based on the aspect ratio.
 
-#### Perspective Division
+### Perspective Division
 - `w` component of 4D vector coordinate serves more purpose than assisting with translation (moving vertex) - it is also used to apply Perspective Division.
 - Perspective Division is the final step in Graphics Pipeline where XYZ coordinates are divided by `w`. It is done automatically by the OpenGL.
 - In essence, the simplest form of perspective projection will be applied when Perspective Division occurs and `w = z`:
@@ -104,7 +104,7 @@ $$
 
 - Orthographic Projection directly maps all coordinates inside the frustum to Normalized Device Coordinates without any special side effects since it won't touch the `w` component of the transformed vector (`w` component remains equal to `1.0`).
 
-### Putting it all together
+## Putting it all together
 - All in all, a Vertex Coordinate is transformed to Clip Coordinate through various transformation matrix multiplication:
 
 $$
@@ -115,11 +115,11 @@ $$
 - The Clip Coordinate is then assigned to `gl_Position` in the Vertex Shader, and then OpenGL will automatically perform Perspective Division and clipping.
 - For the rest of the guide, transformation matrix for each space will be implemented in code.
 
-#### Local Space
+### Local Space
 - Start off with, we have a flat plane (made up of two triangles) as a 3D model.
 - ![[Pasted image 20240710204719.png|300]]
 
-#### World Space
+### World Space
 - The 3D model is placed in the World Space by multiplying the Local Coordinate with a Model Matrix.
 - The Model Matrix consists of translations, scaling, and/or rotations.
 - For now, we'll rotate the 3D model on the x-axis so that it looks like it's laying on the floor.
@@ -159,7 +159,7 @@ void main()
 
 - ![[Pasted image 20240710211141.png|300]]
 
-#### View Space
+### View Space
 - The 3D model is placed in the View Space by multiplying the World Coordinate with a View Matrix.
 
 >[!important] Right-Handed System
@@ -185,7 +185,7 @@ glUniformMatrix4fv(viewLoc, 1, GL_FALSE, glm::value_ptr(view));
 - Make sure to declare uniform variable `view` in the Vertex Shader, and multiply `view` to the coordinate (left to `model`).
 - Because OpenGL only renders coordinates within `-1` and `1` range, the render will result in a blank scene. Projection will help with this issue.
 
-#### Clip Space
+### Clip Space
 - The last thing to do is to define the Projection Matrix:
 
 OpenGL Code
@@ -240,14 +240,14 @@ $$
 
 - (exercise) make necessary changes to the `keyCallback` function so the 3D model can be moved forward and backward on Z-axis.
 
-#### Maintaining Aspect Ratio
+### Maintaining Aspect Ratio
 - As it is now, the Perspective Matrix is using the aspect ratio of the initial window width and height. This creates an issue where  the rendered scene (and the objects within) gets distorted when the window is resized (causing the aspect ratio to change).
 - One way to fix the aspect ratio issue is to define two variables that represent width and height, have them so that the `framebufferSizeCallback` function assigns new values to them when the window is resized, and then using the aspect ratio between the two for the Perspective Projection.
 
-#### Source Code
+### Source Code
 Refer to [[opengl_perspective_code]]
 
-### More 3D
+## More 3D
 - This time we'll deal with a cube instead of a plane. To render a cube, a total of 36 vertices (6 faces * 2 triangles * 3 vertices) are needed:
 
 ```C++
@@ -306,7 +306,7 @@ float vertices[] = {
 - Note that the result image above shows an issue: some sides of the cubes are being drawn over other sides of the cube. This happens because when OpenGL draws the model triangle-by-triangle (fragment-by-fragment) in sequence, and so whatever gets drawn later overwrites any pixel color that is already there.
 	- The solution to the above problem is z-buffer.
 
-#### Z-Buffer
+### Z-Buffer
 - OpenGL stores all its depth information in a **Z-Buffer (aka Depth Buffer)**, which is automatically created by the windowing system (GLFW).
 	- It stores depth values as 16, 24, or 32 bit floats, with most systems using a depth buffer with a precision of 24 bits.
 - Every fragment has a depth value. This value is either computed by the Fragment Shader (if it writes to `gl_FragDepth`), or is the window-space Z coordinate computed as the output of the Vertex Post-Processing steps.
@@ -319,7 +319,7 @@ float vertices[] = {
 - The result:
 	- ![[Pasted image 20240711172419.png|300]]
 
-#### Adjusting Control
+### Adjusting Control
 - So far `transform` is being used to manipulate the model. It wasn't until I tried implementing the rotation that I realized the order where `transform` comes in matters, and that there can be transform for the model itself, and then transform for the camera. So, instead of using `transform`, I may need to directly manipulate `model` and `view`.
 - To clean up the code a little, replaced all the `if else` statements with `switch case` statements in `keyCallback` function.
 - The code now:
@@ -410,7 +410,7 @@ void keyCallback(GLFWwindow* window, int key, int scancode, int action, int mods
 
 - Make sure to initialize `model` and `view` outside `main` function. Also, assign the values to the uniform variables accordingly inside the render loop.
 
-#### More Cubes
+### More Cubes
 - A way to draw multiple cubes is to draw the same model multiple times all in a single frame - by calling `glDrawArrays` in a loop (inside a render loop). Follow the procedure:
 	- Define a list of different positions for cubes to be in - `cubePositions`.
 	- Inside render loop, make a `for` loop that iterates the content of the `cubePositions` and translate each model (with model matrix initialized) accordingly.
@@ -448,5 +448,5 @@ for (unsigned int i = 0; i < 10; i++)
 	- With the current setup (`model` being initialized outside `main`), `model` has to be reset to an identity matrix, otherwise the value accumulates and it gets thrown off the screen.
 	- There is a way to draw multiple copies of the same object in one draw call - `instancing`. This will be covered later on.
 
-### Source Code
+## Source Code
 Refer to [[opengl_cube_code]]
