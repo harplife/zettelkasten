@@ -2244,6 +2244,11 @@ for(unsigned int i = 0; i < 10; i++)
 }
 ```
 
+- The issue with the way multiple objects are drawn following the code above is that it is difficult to move each model separately.
+	- There is a way to draw multiple copies of the same object in one draw call - `instancing`. This will be covered later on.
+
+
+
 ## Camera
 
 ## Review
