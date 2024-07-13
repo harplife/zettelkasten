@@ -20,4 +20,4 @@ glm::vec3 cameraPos = glm::vec3(0.0f, 0.0f, 3.0f);
 
 ### 2. Camera Direction
 - Another vector is required to represent the Camera's direction. For now, the Camera will be set to point to the origin of the scene `(0,0,0)`.
-- Subtracting the camera's Position Vector from the Scene's Origin Vector results in the Direction Vector (for the Camera).
+- Subtracting the camera's Position Vector from the Scene's Origin Vector results in the Direction Vector (for the Camera). The Direction Vector needs to be
