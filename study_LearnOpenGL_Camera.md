@@ -12,3 +12,12 @@
 - All in all, a Camera's own coordinate system will be created with 3 perpendicular unit axes with the Camera's position as the origin.
 
 ### 1. Camera Position
+- Previously, objects in the scene were pushed back to simulate a camera. This time a vector will be used to represent the Camera's position in World Space, like so:
+
+```C++
+glm::vec3 cameraPos = glm::vec3(0.0f, 0.0f, 3.0f);
+```
+
+### 2. Camera Direction
+- Another vector is required to represent the Camera's direction. For now, the Camera will be set to point to the origin of the scene `(0,0,0)`.
+- 
