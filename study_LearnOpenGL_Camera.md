@@ -20,5 +20,17 @@ glm::vec3 cameraPos = glm::vec3(0.0f, 0.0f, 3.0f);
 
 ### 2. Camera Direction
 - Another vector is required to represent the Camera's direction. For now, the Camera will be set to look at the origin of the scene `(0,0,0)`.
-- (personal note) the website "explains" a concept called a Direction Vector; but it does not make any sense.
+- The Camera's Direction Vector can be produced by subtracting the Camera Position Vector by the Target Vector (the Origin).
+	- In this case, `(0,0,3)` subtracted by `(0,0,0)` is `(0,0,3)`.
+- Once it is normalized, it becomes a unit vector that holds only the direction.
+- The code:
+
+```C++
+glm::vec3 cameraTarget = glm::vec3(0.0f, 0.0f, 0.0f);
+glm::vec3 cameraDirection = glm::normalize(cameraPos - cameraTarget);
+```
+
+- Note that the Direction Vector points toward positive Z-axis. Not sure how it works just yet (and the website does a poor job at explaining it), but it will be reversed by the OpenGL later on.
+
+### 3. Right Axis
 - 
