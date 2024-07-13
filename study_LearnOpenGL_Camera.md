@@ -33,4 +33,11 @@ glm::vec3 cameraDirection = glm::normalize(cameraPos - cameraTarget);
 - Note that the Direction Vector points toward positive Z-axis. Not sure how it works just yet (and the website does a poor job at explaining it), but it will be reversed by the OpenGL later on.
 
 ### 3. Right Axis
-- 
+- Along with Direction Vector, another vector that is needed to define a camera is a Right Vector, which represents the positive X-axis of the Camera Space.
+- In order to get a Right Vector, first specify an "up" vector that points upwards in World Space `(0,1,0)`, and then do a cross product on the "up" vector and the Direction Vector.
+	- Note that "up" vector is not referring to the Camera's Up Vector.
+- Code as follows:
+
+```C++
+
+```
