@@ -36,8 +36,43 @@ glm::vec3 cameraDirection = glm::normalize(cameraPos - cameraTarget);
 - Along with Direction Vector, another vector that is needed to define a camera is a Right Vector, which represents the positive X-axis of the Camera Space.
 - In order to get a Right Vector, first specify an "up" vector that points upwards in World Space `(0,1,0)`, and then do a cross product on the "up" vector and the Direction Vector.
 	- Note that "up" vector is not referring to the Camera's Up Vector.
+- The result of a cross product is a vector perpendicular to both vectors. In this case, it produces a vector that points in the positive X-axis.
 - Code as follows:
 
 ```C++
-
+glm::vec3 up = glm::vec3(0.0f, 1.0f, 0.0f);
+glm::vec3 cameraRight = glm::normalize(glm::cross(up, cameraDirection));
 ```
+
+### 4. Up Axis
+- Camera's Up Vector is the cross product between the Direction Vector and the Right Vector:
+
+```C++
+// cross product of unit vectors is a unit vector
+glm::vec3 cameraUp = glm::cross(cameraDirection, cameraRight);
+```
+
+
+- Setting up Camera's Z-axis (Camera Direction), X-axis (Right Vector), and Y-axis (Up Vector) is related to the Gram-Schmidt Process.
+
+>[!important] The Gram-Schmidt Process
+>The Gram-Schmidt process is a mathematical algorithm that transforms a set of vectors into an orthogonal or orthonormal basis¹. It's a fundamental tool in many areas of mathematics and physics, including computer graphics¹³. Here are some of its key applications in computer graphics:
+>
+>1. **Generating Orthogonal Bases**: In computer graphics, we often need to work with bases that are orthogonal (i.e., the vectors are at right angles to each other) for more efficient computations in rendering pipelines³. The Gram-Schmidt process can transform any set of linearly independent vectors into an orthonormal set¹, which is very useful for this purpose.
+>
+>2. **Preservation of Span**: The process preserves the span of the original vectors. In other words, any vector that could be created through linear combinations of the original set can also be created from the orthonormal set produced by the process¹. This is important in computer graphics where transformations and projections are commonly used.
+>
+>3. **Efficient Computations**: The resulting set of orthonormal vectors can serve as a basis for the subspace they span. This means they are linearly independent and can represent any vector in the subspace through linear combinations¹. This property is useful in many graphics algorithms where we need to perform computations in a certain basis.
+>
+>4. **Signal Processing**: In signal processing, which is often used in computer graphics for tasks like texture mapping and digital image processing, the Gram-Schmidt process is used to orthogonalize signals to remove redundancy and noise³.
+>
+>In summary, the Gram-Schmidt process is a powerful tool in computer graphics, helping to simplify computations and provide geometric insights in vector spaces¹. I hope this helps! 😊
+>
+>원본: Copilot과의 대화, 2024. 7. 13.
+>(1) The Gram-Schmidt Process-Definition, Applications and Examples - The Story of Mathematics. https://www.storyofmathematics.com/gram-schmidt-process/.
+>(2) Gram-Schmidt Process Definition | DeepAI. https://deepai.org/machine-learning-glossary-and-terms/gram-schmidt-process.
+>(3) 그람-슈미트 과정(Gram-Schmidt Orthogonalization Process) : 네이버 블로그. https://m.blog.naver.com/qio910/221778224660.
+>(4) Gram Schmidt Process: A Brief Explanation - Programmathically. https://programmathically.com/gram-schmidt-process/.
+>(5) CPU vs. GPU - Performance comparison for the Gram-Schmidt algorithm | The ... - Springer. https://link.springer.com/article/10.1140/epjst/e2012-01638-7.
+
+## Look At
