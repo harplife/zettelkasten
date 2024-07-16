@@ -76,3 +76,24 @@ glm::vec3 cameraUp = glm::cross(cameraDirection, cameraRight);
 >(5) CPU vs. GPU - Performance comparison for the Gram-Schmidt algorithm | The ... - Springer. https://link.springer.com/article/10.1140/epjst/e2012-01638-7.
 
 ## Look At
+- Putting the Right Vector $R$, the Up Vector $U$, the Direction Vector $D$, and the Position Vector $P$ together, something called a **LookAt matrix** can be made.
+
+$$
+\newcommand\mymat[1]{\begin{bmatrix*}[r]#1\end{bmatrix*}}
+
+\begin{gathered}
+\text{LookAt} =
+\mymat{
+	R_x & R_y & R_Z & 0\\
+	UUU0\\
+	DDD0\\
+	0001
+} \cdot
+\mymat{
+	100-P\\
+	010-P\\
+	001-P\\
+	0001
+}
+\end{gathered}
+$$
