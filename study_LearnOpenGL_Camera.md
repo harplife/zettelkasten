@@ -141,3 +141,7 @@ glm::vec3 cameraTarget(0.0f, 0.0f, 0.0f);
 glm::vec3 cameraUp(0.0f, 1.0f, 0.0f);
 glm::mat4 view = glm::lookAt(cameraPosition, cameraTarget, cameraUp);
 ```
+
+- The result:
+
+![[OpenGL Application 2024-07-16 16-45-39.mp4]]
