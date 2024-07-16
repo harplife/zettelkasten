@@ -136,6 +136,8 @@ view = glm::translate(view, glm::vec3(0.0f, 0.0f, -3.0f));
 const float radius = 10.0f;
 float camX = sin(glfwGetTime()) * radius;
 float camZ = cos(glfwGetTime()) * radius;
-glm::vec3 cameraPosition = 
-glm::mat4 view = glm::lookAt();
+glm::vec3 cameraPosition(camX, 0.0f, camZ);
+glm::vec3 cameraTarget(0.0f, 0.0f, 0.0f);
+glm::vec3 cameraUp(0.0f, 1.0f, 0.0f);
+glm::mat4 view = glm::lookAt(cameraPosition, cameraTarget, cameraUp);
 ```
