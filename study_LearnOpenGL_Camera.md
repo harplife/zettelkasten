@@ -76,7 +76,7 @@ glm::vec3 cameraUp = glm::cross(cameraDirection, cameraRight);
 >(5) CPU vs. GPU - Performance comparison for the Gram-Schmidt algorithm | The ... - Springer. https://link.springer.com/article/10.1140/epjst/e2012-01638-7.
 
 ## Look At
-- Putting the Right Vector $R$, the Up Vector $U$, the Direction Vector $D$, and the Position Vector $P$ together, something called a **LookAt matrix** can be made.
+- Putting the Right Vector $R$, the Up Vector $U$, the Direction Vector $D$, and the Position Vector $P$ together, something called a **LookAt Matrix** can be made.
 
 $$
 \newcommand\mymat[1]{\begin{bmatrix*}[r]#1\end{bmatrix*}}
@@ -98,4 +98,44 @@ $$
 \end{gathered}
 $$
 
-- 
+- LookAt Matrix is a View Matrix that *looks* at a given target.
+- GLM library provides a function that returns a LookAt Matrix when Position Vector, Target Vector, and Up Vector (world space) is given:
+
+```C++
+glm::vec3 cameraPosition(0.0f, 0.0f, 3.0f);
+glm::vec3 cameraTarget(0.0f, 0.0f, 0.0f);
+glm::vec3 cameraUp(0.0f, 1.0f, 0.0f);
+glm::mat4 view = glm::lookAt(cameraPosition, cameraTarget, cameraUp);
+```
+
+- The `view`:
+
+$$
+\newcommand\mymat[1]{\begin{bmatrix*}[r]#1\end{bmatrix*}}
+
+\begin{gathered}
+\mymat{
+	1 & 0 & 0 & 0\\
+	0 & 1 & 0 & 0\\
+	0 & 0 & 1 & -3\\
+	0 & 0 & 0 & 1
+}
+\end{gathered}
+$$
+
+- As it is, the LookAt Matrix is the same as the View Matrix made previously:
+
+```C++
+glm::mat4 view(1.0f);
+view = glm::translate(view, glm::vec3(0.0f, 0.0f, -3.0f));
+```
+
+- However, the LookAt Matrix can be more versatile, in terms of usuage:
+
+```C++
+const float radius = 10.0f;
+float camX = sin(glfwGetTime()) * radius;
+float camZ = cos(glfwGetTime()) * radius;
+glm::vec3 cameraPosition = 
+glm::mat4 view = glm::lookAt();
+```
