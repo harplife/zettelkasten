@@ -130,9 +130,10 @@ glm::mat4 view(1.0f);
 view = glm::translate(view, glm::vec3(0.0f, 0.0f, -3.0f));
 ```
 
-- However, the LookAt Matrix can be more versatile, in terms of usuage:
+- However, the LookAt Matrix can be more versatile in terms of usuage:
 
 ```C++
+// inside render loop
 const float radius = 10.0f;
 float camX = sin(glfwGetTime()) * radius;
 float camZ = cos(glfwGetTime()) * radius;
@@ -142,6 +143,5 @@ glm::vec3 cameraUp(0.0f, 1.0f, 0.0f);
 glm::mat4 view = glm::lookAt(cameraPosition, cameraTarget, cameraUp);
 ```
 
-- The result:
+- The result: [[OpenGL Application 2024-07-16 16-45-39.mp4]]
 
-![[OpenGL Application 2024-07-16 16-45-39.mp4]]

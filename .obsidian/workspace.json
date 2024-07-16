@@ -38,7 +38,7 @@
             }
           },
           {
-            "id": "80912e786d8c7f91",
+            "id": "91b523803e335c80",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -272,14 +272,15 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "80912e786d8c7f91",
+  "active": "91b523803e335c80",
   "lastOpenFiles": [
+    "study_LearnOpenGL.md",
+    "opengl_code_guide.md",
     "attachments/OpenGL Application 2024-07-16 16-45-39.mp4",
-    "study_LearnOpenGL_CoordinateSystems.md",
     "study_LearnOpenGL_Camera.md",
+    "study_LearnOpenGL_CoordinateSystems.md",
     "opengl_cube_code.md",
     "attachments/Pasted image 20240716070850.png",
-    "study_LearnOpenGL.md",
     "study_LearnOpenGL_Transformations.md",
     "study_LearnOpenGL_Shaders.md",
     "study_LearnOpenGL_Textures.md",
@@ -288,7 +289,6 @@
     "study_LearnOpenGL_HelloWindow.md",
     "study_LearnOpenGL_Libraries.md",
     "study_LearnOpenGL_OpenGL.md",
-    "opengl_code_guide.md",
     "attachments/camera_axes.png",
     "opengl_perspective_code.md",
     "attachments/Pasted image 20240712142858.png",
