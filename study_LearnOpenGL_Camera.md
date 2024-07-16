@@ -85,12 +85,12 @@ $$
 \text{LookAt} =
 \mymat{
 	R_x & R_y & R_Z & 0\\
-	UUU0\\
-	DDD0\\
-	0001
+	U_x & U_y & U_z & 0\\
+	D_x & D_y & D_z & 0\\
+	0 & 0 & 0 & 1
 } \cdot
 \mymat{
-	100-P\\
+	1 & 0& 0 & -P_x\\
 	010-P\\
 	001-P\\
 	0001
