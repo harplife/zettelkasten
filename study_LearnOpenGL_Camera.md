@@ -148,15 +148,16 @@ glm::mat4 view = glm::lookAt(cameraPosition, cameraTarget, cameraUp);
 - By using the LookUp Matrix/Function, it is easier to manipulate the camera in such a way that it is no longer necessary to "imagine" a camera.
 
 ## Camera Control
-- Here's an example of moving the Camera forward a little bit:
+- Instead of rotating Camera around while locking onto a target, the Camera can be set up so that it moves around while facing forward:
 
 ```C++
 glm::vec3 cameraPosition(0.0f, 0.0f, 3.0f);
 glm::vec3 cameraFront(0.0f, 0.0f, -1.0f);
 glm::vec3 cameraUp(0.0f, 1.0f, 0.0f);
-glm::mat4 view = glm::lookAt(cameraPos, cameraPos + cameraFront, cameraUp);
+glm::mat4 view = glm::lookAt(cameraPosition, cameraPosition + cameraFront, cameraUp);
 ```
 
+- Note that instead of `cameraTarget` 
 - Cross Product of `CameraFront` and `cameraUp` yields an orthogonal vector between the two - meaning, a vector pointing left or right can be made (be sure to normalize):
 
 ```C++
@@ -181,12 +182,16 @@ void keyCallback(GLFWwindow* window, int key, int scancode, int action, int mods
 		{
 			case GLFW_KEY_W:
 				cameraPosition += cameraFront * speed;
+				break;
 			case GLFW_KEY_S:
 				cameraPosition -= cameraFront * speed;
+				break;
 			case GLFW_KEY_D:
 				cameraPosition += cameraRight * speed;
+				break;
 			case GLFW_KEY_A:
 				cameraPosition -= cameraRight * speed;
+				break;
 		}
 	}
 }
