@@ -203,7 +203,7 @@ glm::mat4 view = glm::lookAt(cameraPosition, cameraPosition + cameraFront, camer
 ### Movement Speed
 - As of now, the speed at which the Camera moves is set to `0.05` and it is processed for each frame inside the render loop. The problem with this set up is that different computers have different processing powers, which means that a computer with higher processing power renders more frames per second - thereby also processing speed more often (and faster).
 	- For example, if there's a computer that renders at 60 FPS and another at 30 FPS, the 60 FPS computer will process key input twice as fast as the 30 FPS one - not to mention move the camera twice as far (if the key is on repeat).
-- Graphics applications and games usually keep track of the time it took to render the last frame - in a variable called `deltatime`:
+- Graphics applications and games usually keep track of the time it took to render the last frame - in a variable called `deltaTime`:
 
 ```C++
 float deltaTime = 0.0f;
@@ -212,3 +212,7 @@ float currentFrame = glfwGetTime();
 deltaTime = currentFrame - lastFrame;
 lastFrame = currentFrame;
 ```
+
+- Graphics application can make up for the difference in Render/Processing Rate by multiplying the Camera speed by `deltaTime`; making the Camera speed proportional to the Frame Rate.
+	- For example, 30 FPS computer would have a delta time of $\frac{1}{30}$ second, and 60 FPS computer would have a delta time of $\frac{1}{60}$ second. 
+- 
