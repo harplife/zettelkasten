@@ -206,6 +206,7 @@ glm::mat4 view = glm::lookAt(cameraPosition, cameraPosition + cameraFront, camer
 - Graphics applications and games usually keep track of the time it took to render the last frame - in a variable called `deltaTime`:
 
 ```C++
+// inside render loop
 float deltaTime = 0.0f;
 float lastFrame = 0.0f;
 float currentFrame = glfwGetTime();
@@ -214,5 +215,7 @@ lastFrame = currentFrame;
 ```
 
 - Graphics application can make up for the difference in Render/Processing Rate by multiplying the Camera speed by `deltaTime`; making the Camera speed proportional to the Frame Rate.
-	- For example, 30 FPS computer would have a delta time of $\frac{1}{30}$ second, and 60 FPS computer would have a delta time of $\frac{1}{60}$ second. 
+	- For example, 30 FPS computer would have a delta time of $\frac{1}{30}$ second, and 60 FPS computer would have a delta time of $\frac{1}{60}$ second. If the Camera's speed is set to 3, then 30 FPS computer would move 0.1 per Frame, whereas 60 FPS computer would move 0.05 per Frame - in the end, the Camera would move 6 per second on either of the computers.
+	- In code, `float speed = 3.0f * deltaTime;`
+- The concept of using Delta Time is called **Variable Time Step**. While this can make the game feel smooth and responsive, it can lead to inconsistent game behavior if the Frame Rate varies significantly.
 - 
