@@ -192,6 +192,8 @@ void processInput(GLFWwindow* window)
 glm::mat4 view = glm::lookAt(cameraPosition, cameraPosition + cameraFront, cameraUp);
 ```
 
+- #todo write a note about processing key input via callback (and why not to do it)
+
 ### Movement Speed
 - As of now, the speed at which the Camera moves is set to `0.05` and it is processed for each frame inside the render loop. The problem with this set up is that different computers have different processing powers, which means that a computer with higher processing power renders more frames per second - thereby also processing speed more often (and faster).
 	- For example, if there's a computer that renders at 60 FPS and another at 30 FPS, the 60 FPS computer will process key input twice as fast as the 30 FPS one - not to mention move the camera twice as far (if the key is on repeat).
