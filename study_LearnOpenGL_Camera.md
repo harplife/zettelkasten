@@ -152,5 +152,7 @@ glm::mat4 view = glm::lookAt(cameraPosition, cameraTarget, cameraUp);
 
 ```C++
 glm::vec3 cameraPosition(0.0f, 0.0f, 3.0f);
-glm::vec3 cameraForward()
+glm::vec3 cameraFront(0.0f, 0.0f, -1.0f);
+glm::vec3 cameraUp(0.0f, 1.0f, 0.0f);
+glm::mat4 view = glm::lookAt(cameraPos, cameraPos + cameraFront, cameraUp);
 ```
