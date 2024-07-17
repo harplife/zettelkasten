@@ -157,7 +157,7 @@ glm::vec3 cameraUp(0.0f, 1.0f, 0.0f);
 glm::mat4 view = glm::lookAt(cameraPosition, cameraPosition + cameraFront, cameraUp);
 ```
 
-- Note that instead of `cameraTarget` 
+- Note that instead of `cameraTarget` which was set to the Origin is now `cameraPosition + cameraFront`; this sets up so that the camera always faces forward even if the camera's position has changed.
 - Cross Product of `CameraFront` and `cameraUp` yields an orthogonal vector between the two - meaning, a vector pointing left or right can be made (be sure to normalize):
 
 ```C++
@@ -195,4 +195,10 @@ void keyCallback(GLFWwindow* window, int key, int scancode, int action, int mods
 		}
 	}
 }
+
+// inside render loop
+glm::mat4 view = glm::lookAt(cameraPosition, cameraPosition + cameraFront, cameraUp);
 ```
+
+### Movement Speed
+- 
