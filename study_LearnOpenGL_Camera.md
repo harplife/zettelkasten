@@ -144,4 +144,13 @@ glm::mat4 view = glm::lookAt(cameraPosition, cameraTarget, cameraUp);
 ```
 
 - The result: [[OpenGL Application 2024-07-16 16-45-39.mp4]]
+	- The Camera is rotating around the origin while maintaining its focus on the target (origin).
+- By using the LookUp Matrix/Function, it is easier to manipulate the camera in such a way that it is no longer necessary to "imagine" a camera.
 
+## Camera Control
+- Here's an example of how to move the Camera forward:
+
+```C++
+glm::vec3 cameraPosition(0.0f, 0.0f, 3.0f);
+glm::vec3 cameraForward()
+```
