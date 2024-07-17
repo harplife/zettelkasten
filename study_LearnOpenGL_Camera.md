@@ -148,11 +148,35 @@ glm::mat4 view = glm::lookAt(cameraPosition, cameraTarget, cameraUp);
 - By using the LookUp Matrix/Function, it is easier to manipulate the camera in such a way that it is no longer necessary to "imagine" a camera.
 
 ## Camera Control
-- Here's an example of how to move the Camera forward:
+- Here's an example of moving the Camera forward a little bit:
 
 ```C++
 glm::vec3 cameraPosition(0.0f, 0.0f, 3.0f);
 glm::vec3 cameraFront(0.0f, 0.0f, -1.0f);
 glm::vec3 cameraUp(0.0f, 1.0f, 0.0f);
 glm::mat4 view = glm::lookAt(cameraPos, cameraPos + cameraFront, cameraUp);
+```
+
+- Cross Product of `CameraFront` and `cameraUp` yields an orthogonal vector between the two - meaning, a vector pointing left or right can be made:
+
+```C++
+glm::vec3 cameraRight = glm::cross(cameraFront, cameraUp);
+```
+
+- Using the knowledge above, the Camera can move front/back/left/right using the WASD key:
+
+```C++
+glm::vec3 cameraPosition(0.0f, 0.0f, 3.0f);
+glm::vec3 cameraFront(0.0f, 0.0f, -1.0f);
+glm::vec3 cameraUp(0.0f, 1.0f, 0.0f);
+glm::mat4 view(1.0f);
+
+void keyCallback(GLFWwindow* window, int key, int scancode, int action, int mods)
+{
+	float speed = 0.05f;
+
+	if (action == GLFW_PRESS || action == GLFW_REPEAT)
+	{
+	}
+}
 ```
