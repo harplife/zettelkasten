@@ -157,10 +157,10 @@ glm::vec3 cameraUp(0.0f, 1.0f, 0.0f);
 glm::mat4 view = glm::lookAt(cameraPos, cameraPos + cameraFront, cameraUp);
 ```
 
-- Cross Product of `CameraFront` and `cameraUp` yields an orthogonal vector between the two - meaning, a vector pointing left or right can be made:
+- Cross Product of `CameraFront` and `cameraUp` yields an orthogonal vector between the two - meaning, a vector pointing left or right can be made (be sure to normalize):
 
 ```C++
-glm::vec3 cameraRight = glm::cross(cameraFront, cameraUp);
+glm::vec3 cameraRight = glm::normalize(glm::cross(cameraFront, cameraUp));
 ```
 
 - Using the knowledge above, the Camera can move front/back/left/right using the WASD key:
@@ -169,7 +169,7 @@ glm::vec3 cameraRight = glm::cross(cameraFront, cameraUp);
 glm::vec3 cameraPosition(0.0f, 0.0f, 3.0f);
 glm::vec3 cameraFront(0.0f, 0.0f, -1.0f);
 glm::vec3 cameraUp(0.0f, 1.0f, 0.0f);
-glm::mat4 view(1.0f);
+glm::vec3 cameraRight = glm::normalize(glm::cross(cameraFront, cameraUp));
 
 void keyCallback(GLFWwindow* window, int key, int scancode, int action, int mods)
 {
@@ -177,6 +177,17 @@ void keyCallback(GLFWwindow* window, int key, int scancode, int action, int mods
 
 	if (action == GLFW_PRESS || action == GLFW_REPEAT)
 	{
+		switch (key)
+		{
+			case GLFW_KEY_W:
+				cameraPosition += cameraFront * speed;
+			case GLFW_KEY_S:
+				cameraPosition -= cameraFront * speed;
+			case GLFW_KEY_D:
+				cameraPosition += cameraRight * speed;
+			case GLFW_KEY_A:
+				cameraPosition -= cameraRight * speed;
+		}
 	}
 }
 ```
