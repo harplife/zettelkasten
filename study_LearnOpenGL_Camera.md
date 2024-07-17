@@ -167,33 +167,25 @@ glm::vec3 cameraRight = glm::normalize(glm::cross(cameraFront, cameraUp));
 - Using the knowledge above, the Camera can move front/back/left/right using the WASD key:
 
 ```C++
+// outside main
 glm::vec3 cameraPosition(0.0f, 0.0f, 3.0f);
 glm::vec3 cameraFront(0.0f, 0.0f, -1.0f);
 glm::vec3 cameraUp(0.0f, 1.0f, 0.0f);
 glm::vec3 cameraRight = glm::normalize(glm::cross(cameraFront, cameraUp));
 
-void keyCallback(GLFWwindow* window, int key, int scancode, int action, int mods)
+void processInput(GLFWwindow* window)
 {
-	float speed = 0.05f;
+	// ..
 
-	if (action == GLFW_PRESS || action == GLFW_REPEAT)
-	{
-		switch (key)
-		{
-			case GLFW_KEY_W:
-				cameraPosition += cameraFront * speed;
-				break;
-			case GLFW_KEY_S:
-				cameraPosition -= cameraFront * speed;
-				break;
-			case GLFW_KEY_D:
-				cameraPosition += cameraRight * speed;
-				break;
-			case GLFW_KEY_A:
-				cameraPosition -= cameraRight * speed;
-				break;
-		}
-	}
+	float speed = 3.0f * deltaTime;
+	if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS)
+		cameraPosition += speed * cameraFront;
+	if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS)
+		cameraPosition -= speed * cameraFront;
+	if (glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS)
+		cameraPosition -= glm::normalize(glm::cross(cameraFront, cameraUp)) * speed;
+	if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS)
+		cameraPosition += glm::normalize(glm::cross(cameraFront, cameraUp)) * speed;
 }
 
 // inside render loop
