@@ -229,7 +229,12 @@ lastFrame = currentFrame;
 >- The Callback function receives several parameters that are convenient to use.
 >- The Callback function seems to work alongside the Render Loop, not inside; meaning it's not blocked by any of the processes that happen inside the Render Loop.
 >- The Callback function seems to run only when there's a key input, whereas `glfwGetKey` runs and checks for every keys (that are set).
+>
+>However, it turns out the `glfwSetKeyCallback` has some disadvantages over `glfwGetKey`:
+>- The frequency at which the callback function is checked is not determined by OpenGL itself, but by the underlying operating system's event handling. Meaning, movement by key input could differ by machines' spec, regardless of the Render Rate.
+>- Since the callback function is not tied to the Render Loop, it's difficult to apply Variable Time Step. In fact, when I tried with the callback function, the movement did not seem smooth at all.
 
+- WASD key movement implementation with `glfwGetKey` (replacing the callback function):
 
 ```C++
 void processInput(GLFWwindow* window)
@@ -247,3 +252,4 @@ void processInput(GLFWwindow* window)
 		cameraPosition += glm::normalize(glm::cross(cameraFront, cameraUp)) * speed;
 }
 ```
+
