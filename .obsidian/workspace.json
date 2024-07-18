@@ -49,22 +49,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "133aa45094b1b96c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "study_LearnOpenGL_Transformations.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -142,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study_LearnOpenGL_Transformations.md"
+                "file": "study_LearnOpenGL_Camera.md"
               }
             }
           }
@@ -183,7 +170,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "study_LearnOpenGL_Transformations.md",
+                "file": "study_LearnOpenGL_Camera.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -218,7 +205,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study_LearnOpenGL_Transformations.md",
+                "file": "study_LearnOpenGL_Camera.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -253,7 +240,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study_LearnOpenGL_Transformations.md",
+                "file": "study_LearnOpenGL_Camera.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -285,10 +272,10 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "133aa45094b1b96c",
+  "active": "91b523803e335c80",
   "lastOpenFiles": [
-    "study_LearnOpenGL_Camera.md",
     "study_LearnOpenGL_Transformations.md",
+    "study_LearnOpenGL_Camera.md",
     "study_LearnOpenGL.md",
     "attachments/camera_pitch_yaw_roll.png",
     "attachments/OpenGL Application 2024-07-18 10-37-58.mp4",

@@ -267,3 +267,10 @@ void processInput(GLFWwindow* window)
 
 
 #todo thought: instead of messing with sin & cos, couldn't I just use GLM's matrix rotation?
+((df))
+(::)
+
+`(::);`
+`glm::rotate(trans, glm::radians(90.0f));`
+`trans = glm::rotate(trans, glm::radians(90.0f), glm::vec3(0.0f, 0.0f, 1.0f));`
+`trans = glm::rotate(trans, glm::radians(90.0f), glm::vec3(0.0f, 0.0f, 1.0f));`
