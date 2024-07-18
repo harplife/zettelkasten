@@ -264,4 +264,6 @@ void processInput(GLFWwindow* window)
 - **Pitch** : the angle that depicts looking up or down; a rotation on X-axis.
 - **Yaw** : the angle that depicts looking left or right; a rotation on Y-axis.
 - **Roll** : the angle that depicts leaning left or right; a rotation on Z-axis.
-- 
+
+
+#todo thought: instead of messing with sin & cos, couldn't I just use GLM's matrix rotation?
