@@ -224,6 +224,12 @@ lastFrame = currentFrame;
 	- In code, `float speed = 3.0f * deltaTime;`
 - The concept of using Delta Time is called **Variable Time Step**. While this can make the game feel smooth and responsive, it can lead to inconsistent game behavior if the Frame Rate varies significantly.
 
+>[!important] (personal note) `glfwSetKeyCallback` vs. `glfwGetKey`
+>So far I've deviated from the guide a little bit by using the `glfwSetKeyCallback` function instead of the `glfwGetKey` for the Key Input Processing. The main reasons why I did that:
+>- The Callback function receives several parameters that are convenient to use.
+>- The Callback function seems to work alongside the Render Loop, not inside; meaning it's not blocked by any of the processes that happen inside the Render Loop.
+>- The Callback function seems to run only when there's a key input, whereas `glfwGetKey` runs and checks for every keys (that are set).
+
 
 ```C++
 void processInput(GLFWwindow* window)
