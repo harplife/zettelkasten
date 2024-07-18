@@ -173,26 +173,35 @@ glm::vec3 cameraFront(0.0f, 0.0f, -1.0f);
 glm::vec3 cameraUp(0.0f, 1.0f, 0.0f);
 glm::vec3 cameraRight = glm::normalize(glm::cross(cameraFront, cameraUp));
 
-void processInput(GLFWwindow* window)
-{
-	// ..
 
+void keyCallback(GLFWwindow* window, int key, int scancode, int action, int mods)
+{
 	float speed = 3.0f * deltaTime;
-	if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS)
-		cameraPosition += speed * cameraFront;
-	if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS)
-		cameraPosition -= speed * cameraFront;
-	if (glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS)
-		cameraPosition -= glm::normalize(glm::cross(cameraFront, cameraUp)) * speed;
-	if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS)
-		cameraPosition += glm::normalize(glm::cross(cameraFront, cameraUp)) * speed;
+	cout << speed << endl;
+
+	if (action == GLFW_PRESS || action == GLFW_REPEAT)
+	{
+		switch (key)
+		{
+			case GLFW_KEY_W:
+				cameraPosition += cameraFront * speed;
+				break;
+			case GLFW_KEY_S:
+				cameraPosition -= cameraFront * speed;
+				break;
+			case GLFW_KEY_D:
+				cameraPosition += cameraRight * speed;
+				break;
+			case GLFW_KEY_A:
+				cameraPosition -= cameraRight * speed;
+				break;
+		}
+	}
 }
 
 // inside render loop
 glm::mat4 view = glm::lookAt(cameraPosition, cameraPosition + cameraFront, cameraUp);
 ```
-
-- #todo write a note about processing key input via callback (and why not to do it)
 
 ### Movement Speed
 - As of now, the speed at which the Camera moves is set to `0.05` and it is processed for each frame inside the render loop. The problem with this set up is that different computers have different processing powers, which means that a computer with higher processing power renders more frames per second - thereby also processing speed more often (and faster).
@@ -214,4 +223,21 @@ lastFrame = currentFrame;
 	- For example, 30 FPS computer would have a delta time of $\frac{1}{30}$ second, and 60 FPS computer would have a delta time of $\frac{1}{60}$ second. If the Camera's speed is set to 3, then 30 FPS computer would move 0.1 per Frame, whereas 60 FPS computer would move 0.05 per Frame - in the end, the Camera would move 3 per second on either of the computers.
 	- In code (inside `keyCallback` function), `float speed = 3.0f * deltaTime;`
 - The concept of using Delta Time is called **Variable Time Step**. While this can make the game feel smooth and responsive, it can lead to inconsistent game behavior if the Frame Rate varies significantly.
-- 
+
+
+```C++
+void processInput(GLFWwindow* window)
+{
+	// ..
+
+	float speed = 3.0f * deltaTime;
+	if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS)
+		cameraPosition += speed * cameraFront;
+	if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS)
+		cameraPosition -= speed * cameraFront;
+	if (glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS)
+		cameraPosition -= glm::normalize(glm::cross(cameraFront, cameraUp)) * speed;
+	if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS)
+		cameraPosition += glm::normalize(glm::cross(cameraFront, cameraUp)) * speed;
+}
+```
