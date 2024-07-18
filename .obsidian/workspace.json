@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study_LearnOpenGL_Camera.md"
+                "file": "study_LearnOpenGL_Transformations.md"
               }
             }
           }
@@ -183,7 +183,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "study_LearnOpenGL_Camera.md",
+                "file": "study_LearnOpenGL_Transformations.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -218,7 +218,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study_LearnOpenGL_Camera.md",
+                "file": "study_LearnOpenGL_Transformations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -253,7 +253,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study_LearnOpenGL_Camera.md",
+                "file": "study_LearnOpenGL_Transformations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -285,11 +285,11 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "91b523803e335c80",
+  "active": "133aa45094b1b96c",
   "lastOpenFiles": [
+    "study_LearnOpenGL_Camera.md",
     "study_LearnOpenGL_Transformations.md",
     "study_LearnOpenGL.md",
-    "study_LearnOpenGL_Camera.md",
     "attachments/camera_pitch_yaw_roll.png",
     "attachments/OpenGL Application 2024-07-18 10-37-58.mp4",
     "attachments/OpenGL Application 2024-07-16 16-45-39.mp4",
