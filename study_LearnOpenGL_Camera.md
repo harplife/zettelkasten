@@ -253,3 +253,15 @@ void processInput(GLFWwindow* window)
 }
 ```
 
+- Result: [[OpenGL Application 2024-07-18 10-37-58.mp4]]
+
+## Camera Rotations
+- The `cameraFront` vector is the key to implement camera rotations.
+
+### Euler Angles
+- **Euler Angles** are 3 values that can represent any rotations in 3D; Pitch, Yaw, and Roll.
+- ![[camera_pitch_yaw_roll.png]]
+- **Pitch** : the angle that depicts looking up or down; a rotation on X-axis.
+- **Yaw** : the angle that depicts looking left or right; a rotation on Y-axis.
+- **Roll** : the angle that depicts leaning left or right; a rotation on Z-axis.
+- 
