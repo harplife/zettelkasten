@@ -279,7 +279,7 @@ $$
 - Since `cameraFront` is a Unit Vector with length of 1, change in vector coordinate can be represented as $(\cos{\theta}, \sin{\theta})$.
 - In case of Yaw, the Direction Vector would be represented as $(\cos{\theta}, 1, \sin{\theta})$.
 	- ![[camera_yaw.png]]
-- Finding Direction Vector in code:
+- Direction Vector with Yaw in code:
 
 ```C++
 float yaw = 30;
@@ -288,6 +288,8 @@ direction.x = cos(glm::radians(yaw));
 direction.z = sin(glm::radians(yaw));
 ```
 
+- Similarly with Yaw, the Direction Vector for Pitch would be represented as $(1, )$
+	- ![[camera_pitch.png]]
 
 #todo thought: instead of messing with sin & cos, couldn't I just use GLM's matrix rotation?
 
