@@ -276,7 +276,8 @@ $$
 \end{gather}
 $$
 
-- Since `cameraFront` is a Unit Vector with length of 1, change in vector coordinate can be represented as $(\cos{\theta}, \sin{\theta})$.
+- Since `cameraFront` is a Unit Vector with length of 1, change in vector coordinate can be represented as $(\cos{\theta}, \sin{\theta})$ on a simple 2D coordinate. However, in 3D coordinate system, things get a little complicated.
+- Note that Pitch and Yaw are used to represent a Spherical Coordinate system, which will then be converted to a Cartesian Coordinate System. Also, Roll is ignored for now (not so necessary for Camera Rotations).
 - In case of Yaw, the Direction Vector would be represented as $(\cos{\theta}, 1, \sin{\theta})$.
 	- ![[camera_yaw.png]]
 - Direction Vector with Yaw in code:
@@ -288,8 +289,30 @@ direction.x = cos(glm::radians(yaw));
 direction.z = sin(glm::radians(yaw));
 ```
 
-- Similarly with Yaw, the Direction Vector for Pitch would be represented as $(1, )$
+- In the case of Pitch though, the Direction Vector is a bit different - $(\cos{\phi},\sin{\phi},\cos{\phi})$
 	- ![[camera_pitch.png]]
+	- Reason why Pitch affects X coordinate even though it rotates around X-axis is because Matrix Multiplication is non-commutative, therefore the Rotations (based on Euler Angles) have hierarchy - meaning, Yaw is applied first and then the Pitch is applied.
+	- It's easier to understand when Yaw is 90 degrees. The Camera is looking along X-axis. Applying pitch (a rotation around X-axis) without accounting for X coordinate will only result with the Camera rolling side to side instead of looking up and down.
+- Putting it all together, the conversion from Spherical Coordinates (Pitch and Yaw) to Cartesian Coordinates is done using these formulas:
+
+$$
+\begin{aligned}
+x &= r * \sin{\theta} * \cos{\phi}\\
+y &= r * \sin{\theta} * \sin{\phi}\\
+z &= r * \cos{\theta}
+\end{aligned}
+$$
+
+- Direction Vector with Pitch & Yaw in code:
+
+```C++
+float yaw = 30;
+float pitch = 30;
+glm::vec3 direction;
+direction.x = cos(glm::radians(yaw)) * cos(glm::radians(pitch));
+direction.y = sin(glm::radians(pitch));
+direction.z = sin(glm::radians(yaw)) * cos(glm::radians(pitch));
+```
 
 #todo thought: instead of messing with sin & cos, couldn't I just use GLM's matrix rotation?
 
