@@ -313,9 +313,17 @@ glm::vec3 direction;
 direction.x = cos(glm::radians(yaw)) * cos(glm::radians(pitch));
 direction.y = sin(glm::radians(pitch));
 direction.z = sin(glm::radians(yaw)) * cos(glm::radians(pitch));
+cameraFront = glm::normalize(direction);
 ```
 
-- 
+- It's common practice to limit Yaw to -89 ~ 89 degrees because normally a Camera doesn't need to be flipped.
+
+```C++
+if (pitch > 89.9f)
+	pitch = 89.0f;
+if (pitch < -89.0f)
+	pitch = 89.0f;
+```
 
 #todo thought: instead of messing with sin & cos, couldn't I just use GLM's matrix rotation?
 
