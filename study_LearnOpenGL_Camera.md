@@ -264,6 +264,29 @@ void processInput(GLFWwindow* window)
 - **Pitch** : the angle that depicts looking up or down; a rotation on X-axis.
 - **Yaw** : the angle that depicts looking left or right; a rotation on Y-axis.
 - **Roll** : the angle that depicts leaning left or right; a rotation on Z-axis.
+- A bit of Trigonometry is useful for establishing direction:
+
+$$
+\begin{gather}
+\sin{\theta} = \frac{y}{\bar{v}}\\
+\cos{\theta} = \frac{x}{\bar{v}}\\
+\text{let } \bar{v} = 1,\\
+\sin{\theta} = y\\
+\cos{\theta} = x
+\end{gather}
+$$
+
+- Since `cameraFront` is a Unit Vector with length of 1, change in vector coordinate can be represented as $(\cos{\theta}, \sin{\theta})$.
+- In case of Yaw, the Direction Vector would be represented as $(\cos{\theta}, 1, \sin{\theta})$.
+	- ![[camera_yaw.png]]
+- Finding Direction Vector in code:
+
+```C++
+float yaw = 30;
+glm::vec3 direction;
+direction.x = cos(glm::radians(yaw));
+direction.z = sin(glm::radians(yaw));
+```
 
 
 #todo thought: instead of messing with sin & cos, couldn't I just use GLM's matrix rotation?
