@@ -315,6 +315,8 @@ direction.y = sin(glm::radians(pitch));
 direction.z = sin(glm::radians(yaw)) * cos(glm::radians(pitch));
 ```
 
+- 
+
 #todo thought: instead of messing with sin & cos, couldn't I just use GLM's matrix rotation?
 
 `trans = glm::rotate(trans, glm::radians(90.0f), glm::vec3(0.0f, 0.0f, 1.0f));`
