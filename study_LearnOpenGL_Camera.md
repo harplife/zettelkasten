@@ -325,9 +325,73 @@ if (pitch < -89.0f)
 	pitch = 89.0f;
 ```
 
+- #todo It's important to update cameraRight and cameraUp
+- #todo previous sections need fix; using worldUp, and calculating cameraRight and cameraUp
 
-#todo thought: instead of messing with sin & cos, couldn't I just use GLM's matrix rotation?
+### Camera Vectors Update
+- Set up a function that updates camera vectors based on changes to Pitch and Yaw:
 
-`cameraFront = glm::rotate(front, glm::radians(pitch), cameraRight);`
+```C++
+// outside main
+float pitch = 0.0f;
+float yaw = -90.0f;
+glm::vec3 worldUp(0.0f, 1.0f, 0.0f);
+glm::vec3 cameraPosition(0.0f, 0.0f, 3.0f);
+glm::vec3 cameraFront(0.0f, 0.0f, -1.0f);
+glm::vec3 cameraRight = glm::normalize(glm::cross(cameraFront, worldUp));
+glm::vec3 cameraUp = glm::normalize(glm::cross(cameraRight, cameraFront));
+
+void updateCameraVectors()
+{
+	cameraFront.x = cos(glm::radians(yaw)) * cos(glm::radians(pitch));
+	cameraFront.y = sin(glm::radians(pitch));
+	cameraFront.z = sin(glm::radians(yaw)) * cos(glm::radians(pitch));
+	cameraFront = glm::normalize(cameraFront);
+	cameraRight = glm::normalize(glm::cross(cameraFront, worldUp));
+	cameraUp = glm::normalize(glm::cross(cameraRight, cameraFront));
+}
+```
+
+- Pitch and Yaw can be adjusted via keyboard input or mouse input.
+
+### Keyboard Input
+- Have a keyboard input setup so that WASD keys controls camera rotations and direction keys control movement:
+
+```C++
+void processInput(GLFWwindow* window)
+{
+	float speed = 3.0f * deltaTime;
+	if (glfwGetKey(window, GLFW_KEY_UP) == GLFW_PRESS)
+		cameraPosition += speed * cameraFront;
+	if (glfwGetKey(window, GLFW_KEY_DOWN) == GLFW_PRESS)
+		cameraPosition -= speed * cameraFront;
+	if (glfwGetKey(window, GLFW_KEY_LEFT) == GLFW_PRESS)
+		cameraPosition -= glm::normalize(glm::cross(cameraFront, cameraUp)) * speed;
+	if (glfwGetKey(window, GLFW_KEY_RIGHT) == GLFW_PRESS)
+		cameraPosition += glm::normalize(glm::cross(cameraFront, cameraUp)) * speed;
+
+	float rotationSpeed = speed * 10;
+	if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS)
+	{
+		pitch += rotationSpeed;
+		updateCameraVectors();
+	}
+	if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS)
+	{
+		pitch -= rotationSpeed;
+		updateCameraVectors();
+	}
+	if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS)
+	{
+		yaw += rotationSpeed;
+		updateCameraVectors();
+	}
+	if (glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS)
+	{
+		yaw -= rotationSpeed;
+		updateCameraVectors();
+	}
+}
+```
 
 ### Mouse Input
