@@ -52,7 +52,6 @@ glm::vec3 cameraRight = glm::normalize(glm::cross(up, cameraDirection));
 glm::vec3 cameraUp = glm::cross(cameraDirection, cameraRight);
 ```
 
-
 - Setting up Camera's Z-axis (Camera Direction), X-axis (Right Vector), and Y-axis (Up Vector) is related to the Gram-Schmidt Process.
 
 >[!important] The Gram-Schmidt Process
@@ -130,7 +129,7 @@ glm::mat4 view(1.0f);
 view = glm::translate(view, glm::vec3(0.0f, 0.0f, -3.0f));
 ```
 
-- However, the LookAt Matrix can be more versatile in terms of usuage:
+- However, the LookAt Matrix can be more versatile in terms of usage:
 
 ```C++
 // inside render loop
@@ -146,6 +145,27 @@ glm::mat4 view = glm::lookAt(cameraPosition, cameraTarget, cameraUp);
 - The result: [[OpenGL Application 2024-07-16 16-45-39.mp4]]
 	- The Camera is rotating around the origin while maintaining its focus on the target (origin).
 - By using the LookUp Matrix/Function, it is easier to manipulate the camera in such a way that it is no longer necessary to "imagine" a camera.
+- A simplified version of what the `glm::lookAt` function might look like:
+
+```C++
+glm::mat4 lookAt(glm::vec3 position, glm::vec3 target, glm::vec3 worldUp) {
+    // 1. Calculate the direction vector
+    glm::vec3 direction = glm::normalize(position - target);
+    // 2. Calculate the right vector
+    glm::vec3 right = glm::normalize(glm::cross(worldUp, direction));
+    // 3. Calculate the camera's up vector
+    glm::vec3 cameraUp = glm::cross(direction, right);
+
+    // Create the view matrix
+    glm::mat4 view(1.0f);
+    view[0] = glm::vec4(right, 0.0f);
+    view[1] = glm::vec4(cameraUp, 0.0f);
+    view[2] = glm::vec4(direction, 0.0f);
+    view[3] = glm::vec4(-glm::dot(right, position), -glm::dot(cameraUp, position), -glm::dot(direction, position), 1.0f);
+
+    return view;
+}
+```
 
 ## Camera Control
 - Instead of rotating Camera around while locking onto a target, the Camera can be set up so that it moves around while facing forward:
