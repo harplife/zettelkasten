@@ -325,6 +325,7 @@ if (pitch < -89.0f)
 	pitch = 89.0f;
 ```
 
+
 #todo thought: instead of messing with sin & cos, couldn't I just use GLM's matrix rotation?
 
 `cameraFront = glm::rotate(front, glm::radians(pitch), cameraRight);`
