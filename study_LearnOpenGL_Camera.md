@@ -18,8 +18,9 @@
 glm::vec3 cameraPos = glm::vec3(0.0f, 0.0f, 3.0f);
 ```
 
-### 2. Camera Direction
+### 2. Camera Direction (Front Vector)
 - Another vector is required to represent the Camera's direction. For now, the Camera will be set to look at the origin of the scene `(0,0,0)`.
+	- Another way to understand Camera's Direction is to refer to it as Camera's Front, as in its front facing direction.
 - The Camera's Direction Vector can be produced by subtracting the Camera Position Vector by the Target Vector (the Origin).
 	- In this case, `(0,0,3)` subtracted by `(0,0,0)` is `(0,0,3)`.
 - Once it is normalized, it becomes a unit vector that holds only the direction.
@@ -32,19 +33,18 @@ glm::vec3 cameraDirection = glm::normalize(cameraPos - cameraTarget);
 
 - Note that the Direction Vector points toward positive Z-axis. Not sure how it works just yet (and the website does a poor job at explaining it), but it will be reversed by the OpenGL later on.
 
-### 3. Right Axis
+### 3. Right Vector
 - Along with Direction Vector, another vector that is needed to define a camera is a Right Vector, which represents the positive X-axis of the Camera Space.
-- In order to get a Right Vector, first specify an "up" vector that points upwards in World Space `(0,1,0)`, and then do a cross product on the "up" vector and the Direction Vector.
-	- Note that "up" vector is not referring to the Camera's Up Vector.
+- In order to get a Right Vector, first specify a vector `worldUp` that points upwards in World Space, and then do a cross product on the `worldUp` vector and the Direction Vector.
 - The result of a cross product is a vector perpendicular to both vectors. In this case, it produces a vector that points in the positive X-axis.
 - Code as follows:
 
 ```C++
-glm::vec3 up = glm::vec3(0.0f, 1.0f, 0.0f);
+glm::vec3 worldUp = glm::vec3(0.0f, 1.0f, 0.0f);
 glm::vec3 cameraRight = glm::normalize(glm::cross(up, cameraDirection));
 ```
 
-### 4. Up Axis
+### 4. Up Vector
 - Camera's Up Vector is the cross product between the Direction Vector and the Right Vector:
 
 ```C++
