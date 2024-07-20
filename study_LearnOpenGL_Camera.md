@@ -289,7 +289,7 @@ direction.x = cos(glm::radians(yaw));
 direction.z = sin(glm::radians(yaw));
 ```
 
-- Note that Yaw is given a default value of -90 degrees, so that the Direction Vector faces -Z axis.
+- Note that Yaw is given a default value of -90 degrees, so that the Direction Vector faces -Z axis instead of +X axis.
 - In the case of Pitch though, the Direction Vector is a bit different - $(\cos{\phi},\sin{\phi},\cos{\phi})$
 	- ![[camera_pitch.png]]
 	- Reason why Pitch affects X coordinate even though it rotates around X-axis is because Matrix Multiplication is non-commutative, therefore the Rotations (based on Euler Angles) have hierarchy - meaning, Yaw is applied first and then the Pitch is applied.
