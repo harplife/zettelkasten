@@ -28,7 +28,7 @@ glm::vec3 cameraPos = glm::vec3(0.0f, 0.0f, 3.0f);
 
 ```C++
 glm::vec3 cameraTarget = glm::vec3(0.0f, 0.0f, 0.0f);
-glm::vec3 cameraDirection = glm::normalize(cameraPos - cameraTarget);
+glm::vec3 cameraFront = glm::normalize(cameraPos - cameraTarget);
 ```
 
 - Note that the Direction Vector points toward positive Z-axis. Not sure how it works just yet (and the website does a poor job at explaining it), but it will be reversed by the OpenGL later on.
@@ -41,7 +41,7 @@ glm::vec3 cameraDirection = glm::normalize(cameraPos - cameraTarget);
 
 ```C++
 glm::vec3 worldUp = glm::vec3(0.0f, 1.0f, 0.0f);
-glm::vec3 cameraRight = glm::normalize(glm::cross(up, cameraDirection));
+glm::vec3 cameraRight = glm::normalize(glm::cross(worldUp, cameraFront));
 ```
 
 ### 4. Up Vector
@@ -49,7 +49,7 @@ glm::vec3 cameraRight = glm::normalize(glm::cross(up, cameraDirection));
 
 ```C++
 // cross product of unit vectors is a unit vector
-glm::vec3 cameraUp = glm::cross(cameraDirection, cameraRight);
+glm::vec3 cameraUp = glm::cross(cameraFront, cameraRight);
 ```
 
 - Setting up Camera's Z-axis (Camera Direction), X-axis (Right Vector), and Y-axis (Up Vector) is related to the Gram-Schmidt Process.
