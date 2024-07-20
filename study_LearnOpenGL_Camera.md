@@ -327,6 +327,6 @@ if (pitch < -89.0f)
 
 #todo thought: instead of messing with sin & cos, couldn't I just use GLM's matrix rotation?
 
-`trans = glm::rotate(trans, glm::radians(90.0f), glm::vec3(0.0f, 0.0f, 1.0f));`
+`cameraFront = glm::rotate(front, glm::radians(pitch), cameraRight);`
 
 ### Mouse Input
