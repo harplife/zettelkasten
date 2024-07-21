@@ -450,9 +450,21 @@ float xPosLast = SCR_WIDTH/2;
 float yPosLast = SCR_HEIGHT/2;
 // cursor-to-rotation scaling
 float sensitivity = 0.1f;
+// mouse movement jump prevention
+bool firstMouse = true;
+
+// GLFW initialization
+glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
 
 void mouseCallback(GLFWwindow* window, double xPos, double yPos)
 {
+	if (firstMouse)
+	{
+		xPosLast = xPos;
+		yPosLast = yPos;
+		firstMouse = false;
+	}
+
 	float xOffset = xPos - xPosLast;
 	float yOffset = yPosLast - yPos;
 	xPosLast = xPos;
@@ -466,9 +478,14 @@ void mouseCallback(GLFWwindow* window, double xPos, double yPos)
 
 	updateCameraVectors();
 }
+
+glfwSetCursorPosCallback(window, mouseCallback);
 ```
 
 - Note that the cursor positions are in Screen Coordinates, meaning that X coordinate is `0` at left edge of the screen and Y coordinate is `0` at top edge of the screen.
 - Note that the `yOffset` is reversed in order to match the orientation with the Cartesian Coordinates (upward movement should be positive).
+- Note that initial values for `xPosLast` and `yPosLast` do NOT correctly represent the position of the cursor when it's first captured.
+	- This will cause a jump when the cursor is captured for the first time and the offset is calculated from the initial values of `xPosLast` and `yPosLast`.
+	- The boolean variable `firstMouse` is used to indicate whether a mouse position is captured for the first time; if so, `xPosLast` and `yPosLast` is set to the correct position of the cursor. Lastly, the `firstMouse` is set to `false`.
 
 - #todo continuous rotation by offsetting via difference from center to current mouse position?
