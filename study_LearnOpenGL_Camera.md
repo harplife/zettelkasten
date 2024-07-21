@@ -346,9 +346,6 @@ if (pitch < -89.0f)
 	pitch = 89.0f;
 ```
 
-- #todo It's important to update cameraRight and cameraUp
-- #todo previous sections need fix; using worldUp, and calculating cameraRight and cameraUp
-
 ### Camera Vectors Update
 - Set up a function that updates camera vectors based on changes to Pitch and Yaw:
 
@@ -374,6 +371,7 @@ void updateCameraVectors()
 ```
 
 - Pitch and Yaw can be adjusted via keyboard input or mouse input.
+- It's important to update `cameraRight` and `cameraUp` whenever `cameraFront` is updated.
 
 ### Keyboard Input
 - Have a keyboard input setup so that WASD keys controls camera rotations and direction keys control movement:
@@ -416,3 +414,9 @@ void processInput(GLFWwindow* window)
 ```
 
 ### Mouse Input
+- In order to use a mouse to control rotational movement of the Camera, the horizontal movement of the mouse has to be converted to the angle of the Yaw, just as the vertical movement has to be converted to the Pitch.
+	- A way to do this is to store the last frame's mouse positions and calculate the difference in the current frame. The difference is then multiplied by sensitivity, which is then added/subtracted to the angles.
+- `glfwSetInputMode` function can be used to indicate to GLFW that the cursor is to be captured, and that it should be hidden from view.
+	- Capturing a cursor means that, once the application has focus, the cursor stays within the center of the window.
+	- `glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);`
+- 
