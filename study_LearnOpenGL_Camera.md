@@ -448,14 +448,27 @@ void processInput(GLFWwindow* window)
 // initial cursor positions
 float xPosLast = SCR_WIDTH/2;
 float yPosLast = SCR_HEIGHT/2;
+// cursor-to-rotation scaling
+float sensitivity = 0.1f;
 
 void mouseCallback(GLFWwindow* window, double xPos, double yPos)
 {
 	float xOffset = xPos - xPosLast;
 	float yOffset = yPosLast - yPos;
+	xPosLast = xPos;
+	yPosLast = yPos;
+
+	xOffset *= sensitivity;
+	yOffset *= sensitivity;
+
+	yaw += xOffset;
+	pitch += yOffset;
+
+	updateCameraVectors();
 }
 ```
 
 - Note that the cursor positions are in Screen Coordinates, meaning that X coordinate is `0` at left edge of the screen and Y coordinate is `0` at top edge of the screen.
+- Note that the `yOffset` is reversed in order to match the orientation with the Cartesian Coordinates (upward movement should be positive).
 
 - #todo continuous rotation by offsetting via difference from center to current mouse position?
