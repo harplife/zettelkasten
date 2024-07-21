@@ -423,3 +423,34 @@ void processInput(GLFWwindow* window)
 - `glfwSetCursorPosCallback` is very much similar to `glfwSetKeyCallback`, where instead of keyboard input, it is the change in cursor position that triggers the callback function. It is up to the event handling of the OS how often the callback function is called upon continuous input.
 	- The callback function must have parameters `GLFWwindow* window`, `double xPos`, and `double yPos`; the current mouse position on the window is passed through these parameters.
 - `glfwGetCursorPos(GLFWwindow* window, double* xPos, double* yPos)` simply returns the current position of the cursor when the function is called. The continuous input is limited by the Render Rate.
+
+>[!important] `glfwSetCursorPosCallback` vs. `glfwGetCursorPos`
+>The choice between `glfwGetCursorPos` and `glfwSetCursorPosCallback` depends on the structure of your program and the specific needs of your application.
+>
+>- **glfwGetCursorPos**: This function is used when you want to **poll** the cursor position, meaning you want to check the cursor's position at specific points in your code. This is typically done in your main loop. This can be useful when you need to know the cursor's position even when it's not moving, or when you want to control exactly when and how often the cursor's position is checked.
+>
+>- **glfwSetCursorPosCallback**: This function is used when you want to use **event-driven** programming, meaning you want a certain function (the callback) to be called automatically whenever the cursor moves. This can be useful when you need to perform an action immediately in response to the cursor moving, or when you want to keep your main loop clean and delegate the handling of cursor movement to a separate part of your code.
+>
+>Here are some scenarios where one might be preferred over the other:
+>
+>- If your application needs to react immediately to mouse movements (for example, in a first-person shooter game where the camera direction is controlled by the mouse), using `glfwSetCursorPosCallback` would likely be more appropriate. The callback function will be triggered as soon as the mouse moves, allowing for responsive and smooth camera control.
+>
+>- If your application only occasionally needs to check the mouse position (for example, in a strategy game where the mouse is used to select units by clicking), using `glfwGetCursorPos` in your main loop might be more suitable. This way, you're only checking the mouse position when you need to, reducing unnecessary computations.
+>
+>- If your application has a complex main loop and you want to keep the code clean and modular, using `glfwSetCursorPosCallback` might be beneficial. You can encapsulate the logic for handling mouse movement in the callback function, keeping it separate from the rest of your code.
+>
+>In conclusion, the choice between `glfwGetCursorPos` and `glfwSetCursorPosCallback` depends on the specifics of your application and your preferred coding style. Both methods have their uses, and it's not uncommon to see both used in a single application for different purposes
+
+- For now, `glfwSetCursorPosCallback` is going to be used to control the Camera rotations with the mouse. The code:
+
+```C++
+// global variables
+// initial cursor positions
+float xPosLast = SCR_WIDTH/2;
+float yPosLast = SCR_HEIGHT/2;
+
+void mouseCallback(GLFWwindow* window, double xPos, double yPos)
+{
+	float xOffset = xPos - 
+}
+```
