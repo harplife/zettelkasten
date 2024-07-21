@@ -419,4 +419,7 @@ void processInput(GLFWwindow* window)
 - `glfwSetInputMode` function can be used to indicate to GLFW that the cursor is to be captured, and that it should be hidden from view.
 	- Capturing a cursor means that, once the application has focus, the cursor stays within the center of the window.
 	- `glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);`
-- 
+- There are two ways to query mouse position: `glfwSetCursorPosCallback` and `glfwGetCursorPos`.
+- `glfwSetCursorPosCallback` is very much similar to `glfwSetKeyCallback`, where instead of keyboard input, it is the change in cursor position that triggers the callback function. It is up to the event handling of the OS how often the callback function is called upon continuous input.
+	- The callback function must have parameters `GLFWwindow* window`, `double xPos`, and `double yPos`; the current mouse position on the window is passed through these parameters.
+- `glfwGetCursorPos(GLFWwindow* window, double* xPos, double* yPos)` simply returns the current position of the cursor when the function is called. The continuous input is limited by the Render Rate.
