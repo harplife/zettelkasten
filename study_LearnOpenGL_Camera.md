@@ -451,6 +451,11 @@ float yPosLast = SCR_HEIGHT/2;
 
 void mouseCallback(GLFWwindow* window, double xPos, double yPos)
 {
-	float xOffset = xPos - 
+	float xOffset = xPos - xPosLast;
+	float yOffset = yPosLast - yPos;
 }
 ```
+
+- Note that the cursor positions are in Screen Coordinates, meaning that X coordinate is `0` at left edge of the screen and Y coordinate is `0` at top edge of the screen.
+
+- #todo continuous rotation by offsetting via difference from center to current mouse position?
