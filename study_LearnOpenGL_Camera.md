@@ -489,3 +489,10 @@ glfwSetCursorPosCallback(window, mouseCallback);
 	- The boolean variable `firstMouse` is used to indicate whether a mouse position is captured for the first time; if so, `xPosLast` and `yPosLast` is set to the correct position of the cursor. Lastly, the `firstMouse` is set to `false`.
 
 - #todo continuous rotation by offsetting via difference from center to current mouse position?
+
+### Source Code
+Refer to [[opengl_camera_movement_code]]
+
+## Mouse Scroll to Zoom
+- Implementing Camera Zoom is simply done by adjusting the FOV (`fovy`) in the Perspective Projection Matrix (`glm::perspective`).
+- `glfwSetScrollCallback` registers a Callback function and supplies it with 

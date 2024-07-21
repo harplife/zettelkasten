@@ -1,6 +1,6 @@
-This is an example code to draw a simple cube with OpenGL, as per the guide [[study_LearnOpenGL]].
+This is an example code to implement camera & movement with OpenGL, as per the guide [[study_LearnOpenGL]].
 
-OpenGL Code
+OpenGL code
 ```C++
 #include <iostream>
 #include <fstream>
@@ -25,13 +25,36 @@ const char* SCR_TITLE = "OpenGL Application";
 
 glm::mat4 model(1.0f);
 glm::mat4 view(1.0f);
-bool modelMode = true;
+
+// Camera Movement Variables
+float pitch = 0.0f;
+float yaw = -90.0f;
+glm::vec3 worldUp(0.0f, 1.0f, 0.0f);
+glm::vec3 cameraPosition(0.0f, 0.0f, 3.0f);
+glm::vec3 cameraFront(0.0f, 0.0f, -1.0f);
+glm::vec3 cameraRight = glm::normalize(glm::cross(cameraFront, worldUp));
+glm::vec3 cameraUp = glm::normalize(glm::cross(cameraRight, cameraFront));
+
+// Cursor Movement Variables
+float xPosLast = SCR_WIDTH / 2;
+float yPosLast = SCR_HEIGHT / 2;
+float sensitivity = 0.1f;
+bool firstMouse = true;
+
+float deltaTime = 0.0f;
+float lastFrame = 0.0f;
+unsigned int frameCount = 0;
+float deltaTimeTotal = 0.0f;
+float deltaTimeAvg = 0.0f;
+float frameRate = 0.0f;
 
 void framebufferSizeCallback(GLFWwindow* window, GLsizei width, GLsizei height);
 GLuint buildShader(GLenum shaderType, string filename);
 GLuint allocateBuffer(GLenum bufferTarget, const void* bufferData, unsigned int dataSize, GLenum bufferUsuage);
 void processInput(GLFWwindow* window);
 void keyCallback(GLFWwindow* window, int key, int scancode, int action, int mods);
+void updateCameraVectors();
+void mouseCallback(GLFWwindow* window, double xPos, double yPos);
 
 int main()
 {
@@ -63,6 +86,7 @@ int main()
 	glfwMakeContextCurrent(window);
 
 	glfwSetFramebufferSizeCallback(window, framebufferSizeCallback);
+	glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
 
 	if (!gladLoadGLLoader((GLADloadproc)(glfwGetProcAddress)))
 	{
@@ -251,7 +275,7 @@ int main()
 	//model = glm::rotate(model, glm::radians(-55.0f), glm::vec3(1.0f, 0.0f, 0.0f));
 	GLuint modelLoc = glGetUniformLocation(shaderProgram, "model");
 
-	view = glm::translate(view, glm::vec3(0.0f, 0.0f, -3.0f));
+	//view = glm::translate(view, glm::vec3(0.0f, 0.0f, -3.0f));
 	GLuint viewLoc = glGetUniformLocation(shaderProgram, "view");
 
 	float fovy = 45.0f;
@@ -262,11 +286,21 @@ int main()
 	GLuint projectionLoc = glGetUniformLocation(shaderProgram, "projection");
 
 	glfwSetKeyCallback(window, keyCallback);
+	glfwSetCursorPosCallback(window, mouseCallback);
 
 	// Render Loop
 	//-------------------------------------------------------------------------
 	while (!glfwWindowShouldClose(window))
 	{
+		float currentFrame = static_cast<float>(glfwGetTime());
+		deltaTime = currentFrame - lastFrame;
+		lastFrame = currentFrame;
+
+		frameCount += 1;
+		deltaTimeTotal += deltaTime;
+		deltaTimeAvg = deltaTimeTotal / frameCount;
+		frameRate = 1 / deltaTimeAvg;
+
 		processInput(window);
 
 		glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
@@ -275,8 +309,10 @@ int main()
 		glUseProgram(shaderProgram);
 
 		//glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
-		glUniformMatrix4fv(viewLoc, 1, GL_FALSE, glm::value_ptr(view));
 		glUniformMatrix4fv(projectionLoc, 1, GL_FALSE, glm::value_ptr(projection));
+
+		glm::mat4 view = glm::lookAt(cameraPosition, cameraPosition + cameraFront, cameraUp);
+		glUniformMatrix4fv(viewLoc, 1, GL_FALSE, glm::value_ptr(view));
 
 		for (unsigned int i = 0; i < 10; i++)
 		{
@@ -400,92 +436,96 @@ void processInput(GLFWwindow* window)
 		glPolygonMode(GL_FRONT_AND_BACK, GL_POINT);
 	}
 
-	if (glfwGetKey(window, GLFW_KEY_M) == GLFW_PRESS)
+	float speed = 3.0f * deltaTime;
+	if (glfwGetKey(window, GLFW_KEY_UP) == GLFW_PRESS)
+		cameraPosition += speed * cameraFront;
+	if (glfwGetKey(window, GLFW_KEY_DOWN) == GLFW_PRESS)
+		cameraPosition -= speed * cameraFront;
+	if (glfwGetKey(window, GLFW_KEY_LEFT) == GLFW_PRESS)
+		cameraPosition -= glm::normalize(glm::cross(cameraFront, cameraUp)) * speed;
+	if (glfwGetKey(window, GLFW_KEY_RIGHT) == GLFW_PRESS)
+		cameraPosition += glm::normalize(glm::cross(cameraFront, cameraUp)) * speed;
+
+	float rotationSpeed = speed * 10;
+	if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS)
 	{
-		modelMode = !modelMode;
+		pitch += rotationSpeed;
+		updateCameraVectors();
 	}
+	if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS)
+	{
+		pitch -= rotationSpeed;
+		updateCameraVectors();
+	}
+	if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS)
+	{
+		yaw += rotationSpeed;
+		updateCameraVectors();
+	}
+	if (glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS)
+	{
+		yaw -= rotationSpeed;
+		updateCameraVectors();
+	}
+
 }
 
 void keyCallback(GLFWwindow* window, int key, int scancode, int action, int mods)
 {
-	float speed = 0.05f;
+	//float speed = 3.0f * deltaTime;
+	//cout << speed << endl;
 
-	if (action == GLFW_PRESS || action == GLFW_REPEAT)
+	//if (action == GLFW_PRESS || action == GLFW_REPEAT)
+	//{
+	//	switch (key)
+	//	{
+	//		case GLFW_KEY_W:
+	//			cameraPosition += cameraFront * speed;
+	//			break;
+	//		case GLFW_KEY_S:
+	//			cameraPosition -= cameraFront * speed;
+	//			break;
+	//		case GLFW_KEY_D:
+	//			cameraPosition += cameraRight * speed;
+	//			break;
+	//		case GLFW_KEY_A:
+	//			cameraPosition -= cameraRight * speed;
+	//			break;
+	//	}
+	//}
+}
+
+void updateCameraVectors()
+{
+	cameraFront.x = cos(glm::radians(yaw)) * cos(glm::radians(pitch));
+	cameraFront.y = sin(glm::radians(pitch));
+	cameraFront.z = sin(glm::radians(yaw)) * cos(glm::radians(pitch));
+	cameraFront = glm::normalize(cameraFront);
+	cameraRight = glm::normalize(glm::cross(cameraFront, worldUp));
+	cameraUp = glm::normalize(glm::cross(cameraRight, cameraFront));
+}
+
+void mouseCallback(GLFWwindow* window, double xPos, double yPos)
+{
+	if (firstMouse)
 	{
-		if (modelMode)
-		{
-			switch (key)
-			{
-				case GLFW_KEY_Q:
-					model = glm::translate(model, glm::vec3(0.0f, 0.0f, -speed));
-					break;
-				case GLFW_KEY_E:
-					model = glm::translate(model, glm::vec3(0.0f, 0.0f, speed));
-					break;
-				case GLFW_KEY_A:
-					model = glm::translate(model, glm::vec3(-speed, 0.0f, 0.0f));
-					break;
-				case GLFW_KEY_D:
-					model = glm::translate(model, glm::vec3(speed, 0.0f, 0.0f));
-					break;
-				case GLFW_KEY_W:
-					model = glm::translate(model, glm::vec3(0.0f, speed, 0.0f));
-					break;
-				case GLFW_KEY_S:
-					model = glm::translate(model, glm::vec3(0.0f, -speed, 0.0f));
-					break;
-				case GLFW_KEY_UP:
-					model = glm::rotate(model, glm::radians(-3.0f), glm::vec3(1.0f, 0.0f, 0.0f));
-					break;
-				case GLFW_KEY_DOWN:
-					model = glm::rotate(model, glm::radians(3.0f), glm::vec3(1.0f, 0.0f, 0.0f));
-					break;
-				case GLFW_KEY_LEFT:
-					model = glm::rotate(model, glm::radians(3.0f), glm::vec3(0.0f, 1.0f, 0.0f));
-					break;
-				case GLFW_KEY_RIGHT:
-					model = glm::rotate(model, glm::radians(-3.0f), glm::vec3(0.0f, 1.0f, 0.0f));
-					break;
-			}
-		}
-		else
-		{
-			// TODO: moving the camera seems a little off right now
-			switch (key)
-			{
-			case GLFW_KEY_Q:
-				view = glm::translate(view, glm::vec3(0.0f, 0.0f, -speed));
-				break;
-			case GLFW_KEY_E:
-				view = glm::translate(view, glm::vec3(0.0f, 0.0f, speed));
-				break;
-			case GLFW_KEY_A:
-				view = glm::translate(view, glm::vec3(-speed, 0.0f, 0.0f));
-				break;
-			case GLFW_KEY_D:
-				view = glm::translate(view, glm::vec3(speed, 0.0f, 0.0f));
-				break;
-			case GLFW_KEY_W:
-				view = glm::translate(view, glm::vec3(0.0f, speed, 0.0f));
-				break;
-			case GLFW_KEY_S:
-				view = glm::translate(view, glm::vec3(0.0f, -speed, 0.0f));
-				break;
-			case GLFW_KEY_UP:
-				view = glm::rotate(view, glm::radians(-3.0f), glm::vec3(1.0f, 0.0f, 0.0f));
-				break;
-			case GLFW_KEY_DOWN:
-				view = glm::rotate(view, glm::radians(3.0f), glm::vec3(1.0f, 0.0f, 0.0f));
-				break;
-			case GLFW_KEY_LEFT:
-				view = glm::rotate(view, glm::radians(3.0f), glm::vec3(0.0f, 1.0f, 0.0f));
-				break;
-			case GLFW_KEY_RIGHT:
-				view = glm::rotate(view, glm::radians(-3.0f), glm::vec3(0.0f, 1.0f, 0.0f));
-				break;
-			}
-		}
+		xPosLast = xPos;
+		yPosLast = yPos;
+		firstMouse = false;
 	}
+
+	float xOffset = xPos - xPosLast;
+	float yOffset = yPosLast - yPos;
+	xPosLast = xPos;
+	yPosLast = yPos;
+
+	xOffset *= sensitivity;
+	yOffset *= sensitivity;
+
+	yaw += xOffset;
+	pitch += yOffset;
+
+	updateCameraVectors();
 }
 ```
 
