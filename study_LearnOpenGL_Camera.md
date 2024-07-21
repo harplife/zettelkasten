@@ -103,10 +103,11 @@ $$
 ```C++
 glm::vec3 cameraPosition(0.0f, 0.0f, 3.0f);
 glm::vec3 cameraTarget(0.0f, 0.0f, 0.0f);
-glm::vec3 cameraUp(0.0f, 1.0f, 0.0f);
-glm::mat4 view = glm::lookAt(cameraPosition, cameraTarget, cameraUp);
+glm::vec3 worldUp(0.0f, 1.0f, 0.0f);
+glm::mat4 view = glm::lookAt(cameraPosition, cameraTarget, worldUp);
 ```
 
+- Note that the `lookAt` function generates Right Vector and Up Vector based on the parameters given.
 - The `view`:
 
 $$
@@ -138,8 +139,8 @@ float camX = sin(glfwGetTime()) * radius;
 float camZ = cos(glfwGetTime()) * radius;
 glm::vec3 cameraPosition(camX, 0.0f, camZ);
 glm::vec3 cameraTarget(0.0f, 0.0f, 0.0f);
-glm::vec3 cameraUp(0.0f, 1.0f, 0.0f);
-glm::mat4 view = glm::lookAt(cameraPosition, cameraTarget, cameraUp);
+glm::vec3 worldUp(0.0f, 1.0f, 0.0f);
+glm::mat4 view = glm::lookAt(cameraPosition, cameraTarget, worldUp);
 ```
 
 - The result: [[OpenGL Application 2024-07-16 16-45-39.mp4]]
