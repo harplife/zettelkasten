@@ -1,5 +1,6 @@
 # Getting Started
-Following the guide https://learnopengl.com
+- Following the guide https://learnopengl.com
+- Next : [[study_LearnOpenGL_Lighting]]
 
 ## PERSONAL NOTES
 ### Real Tangible Goals
@@ -52,5 +53,3 @@ Following the guide https://learnopengl.com
 
 ## Camera
 ![[study_LearnOpenGL_Camera]]
-
-# Lighting

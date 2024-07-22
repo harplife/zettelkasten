@@ -1,4 +1,4 @@
-This is boilerplate code to create a simple window with OpenGL, as per the guide [[study_LearnOpenGL]].
+This is boilerplate code to create a simple window with OpenGL, as per the guide [[study_LearnOpenGL_GettingStarted]].
 
 ```C++
 #include <iostream>

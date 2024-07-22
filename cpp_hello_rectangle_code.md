@@ -1,4 +1,4 @@
-This is an example code to draw a simple rectangle with OpenGL, as per the guide [[study_LearnOpenGL]].
+This is an example code to draw a simple rectangle with OpenGL, as per the guide [[study_LearnOpenGL_GettingStarted]].
 
 ```C++
 #include <iostream>

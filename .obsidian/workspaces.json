@@ -16,7 +16,22 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "study_LearnOpenGL.md",
+                    "file": "study_LearnOpenGL_GettingStarted.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  },
+                  "pinned": true
+                }
+              },
+              {
+                "id": "5bd5394c2966ac0d",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "study_LearnOpenGL_Lighting.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -40,19 +55,20 @@
                 }
               },
               {
-                "id": "91b523803e335c80",
+                "id": "baece8f022257031",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "study_LearnOpenGL_Camera.md",
+                    "file": "study_LearnOpenGL_Colors.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -130,7 +146,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "study_LearnOpenGL.md"
+                    "file": "study_LearnOpenGL_Colors.md"
                   }
                 }
               }
@@ -138,7 +154,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 221.5
+        "width": 221.5,
+        "collapsed": true
       },
       "right": {
         "id": "f152d8fd8ec1f4e0",
@@ -170,7 +187,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "study_LearnOpenGL.md",
+                    "file": "study_LearnOpenGL_Colors.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -205,7 +222,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "study_LearnOpenGL.md",
+                    "file": "study_LearnOpenGL_Colors.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -240,7 +257,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "study_LearnOpenGL.md",
+                    "file": "study_LearnOpenGL_Colors.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -272,8 +289,8 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "3565833ba7980081",
-      "mtime": "2024-07-22T07:29:19-05:00",
+      "active": "baece8f022257031",
+      "mtime": "2024-07-22T07:41:20-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "Dictionary"
