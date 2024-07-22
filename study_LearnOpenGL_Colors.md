@@ -24,3 +24,26 @@ glBindBuffer(GL_ARRAY_BUFFER, VBO);
 glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
 glEnableVertexAttribArray(0);
 ```
+
+- Set uniforms for the object's color and the light color:
+
+```C++
+GLuint objectColorLoc = glGetUniformLocation(shaderProgram, "objectColor");
+GLuint lightColorLoc = glGetUniformLocation(shaderProgram, "lightColor");
+```
+
+- Define uniforms in Fragment Shader:
+
+```C++
+#version 330 core
+in vec2 v_txCoord;
+
+uniform sampler2D texture0;
+
+out vec4 f_color;
+
+void main()
+{
+	f_color = texture(texture0, v_txCoord);
+}
+```
