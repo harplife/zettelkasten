@@ -39,11 +39,13 @@ GLuint lightColorLoc = glGetUniformLocation(shaderProgram, "lightColor");
 in vec2 v_txCoord;
 
 uniform sampler2D texture0;
+uniform vec3 objectColor;
+uniform vec3 lightColor;
 
 out vec4 f_color;
 
 void main()
 {
-	f_color = texture(texture0, v_txCoord);
+	f_color = texture(texture0, v_txCoord) * ;
 }
 ```
