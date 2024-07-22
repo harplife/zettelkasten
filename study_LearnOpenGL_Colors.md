@@ -12,3 +12,15 @@
 	- When the light color is white `(1.0, 1.0, 1.0)` and the object color is red `(1.0, 0.0, 0.0)`, multiplying these colors return red.
 	- When the light color is red `(1.0, 0.0, 0.0)` and the object color is green `(0.0, 1.0, 0.0)`, multiplying these colors return yellow.
 ## A Lighting Scene
+- From here on, real-world lighting will be simulated by making extensive use of colors. In order to do so, light sources will be displayed as visual objects in the scene, as there will be objects that will have light shine upon.
+- For simplicity, a cube model will be used for both the light source and the object.
+- A new VAO is necessary for the light source:
+
+```C++
+GLuint lightVAO;
+glGenVertexArrays(1, &lightVAO);
+glBiengVertexArray(lightVAO);
+glBindBuffer(GL_ARRAY_BUFFER, VBO);
+glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
+glEnableVertexAttribArray(0);
+```
