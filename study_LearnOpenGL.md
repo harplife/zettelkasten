@@ -10,6 +10,7 @@ Following the guide https://learnopengl.com
 - Learn how to make a graphics program with OpenGL.
 - Learn how to make a game engine with OpenGL.
 - Make a simple 3D editor.
+- Make a 3D Asset Library.
 - Implement one of Pixar's researches.
 
 ### Future Plans
@@ -52,6 +53,4 @@ Following the guide https://learnopengl.com
 ## Camera
 ![[study_LearnOpenGL_Camera]]
 
-
-## Review
-
+# Lighting

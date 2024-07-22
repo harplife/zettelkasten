@@ -50,8 +50,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -129,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study_LearnOpenGL_Camera.md"
+                "file": "study_LearnOpenGL.md"
               }
             }
           }
@@ -137,8 +136,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 221.5,
-    "collapsed": true
+    "width": 221.5
   },
   "right": {
     "id": "f152d8fd8ec1f4e0",
@@ -170,7 +168,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "study_LearnOpenGL_Camera.md",
+                "file": "study_LearnOpenGL.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -205,7 +203,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study_LearnOpenGL_Camera.md",
+                "file": "study_LearnOpenGL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -240,7 +238,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study_LearnOpenGL_Camera.md",
+                "file": "study_LearnOpenGL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,11 +270,11 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "91b523803e335c80",
+  "active": "3565833ba7980081",
   "lastOpenFiles": [
+    "study_LearnOpenGL_Camera.md",
     "opengl_camera_movement_code.md",
     "opengl_cube_code.md",
-    "study_LearnOpenGL_Camera.md",
     "attachments/camera_pitch.png",
     "attachments/camera_yaw.png",
     "study_LearnOpenGL_Transformations.md",
