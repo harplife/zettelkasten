@@ -516,3 +516,6 @@ glfwSetScrollCallback(window, scrollCallback);
 // inside render loop
 glm::mat4 projection = glm::perspective(glm::radians(fovy), aspect, zNear, zFar);
 ```
+
+## Camera Class
+- Refer to this [code example](https://learnopengl.com/code_viewer_gh.php?code=includes/learnopengl/camera.h) to abstract a Camera into a class. 
