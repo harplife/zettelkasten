@@ -14,38 +14,8 @@
 ## A Lighting Scene
 - From here on, real-world lighting will be simulated by making extensive use of colors. In order to do so, light sources will be displayed as visual objects in the scene, as there will be objects that will have light shine upon.
 - For simplicity, a cube model will be used for both the light source and the object.
-- A new VAO is necessary for the light source:
+	- This means that these objects will share the same model of the cube, which also means they will use the same VBOs. However, they will have different VAOs.
 
-```C++
-GLuint lightVAO;
-glGenVertexArrays(1, &lightVAO);
-glBiengVertexArray(lightVAO);
-glBindBuffer(GL_ARRAY_BUFFER, VBO);
-glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
-glEnableVertexAttribArray(0);
-```
 
-- Set uniforms for the object's color and the light color:
-
-```C++
-GLuint objectColorLoc = glGetUniformLocation(shaderProgram, "objectColor");
-GLuint lightColorLoc = glGetUniformLocation(shaderProgram, "lightColor");
-```
-
-- Define uniforms in Fragment Shader:
-
-```C++
-#version 330 core
-in vec2 v_txCoord;
-
-uniform sampler2D texture0;
-uniform vec3 objectColor;
-uniform vec3 lightColor;
-
-out vec4 f_color;
-
-void main()
-{
-	f_color = texture(texture0, v_txCoord) * objectColor * lightColor;
-}
-```
+- Another shader program will be made specifically for light sources; a new set of vertex shader and fragment shader will also created.
+- 
