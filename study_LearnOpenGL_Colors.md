@@ -46,6 +46,6 @@ out vec4 f_color;
 
 void main()
 {
-	f_color = texture(texture0, v_txCoord) * ;
+	f_color = texture(texture0, v_txCoord) * objectColor * lightColor;
 }
 ```
