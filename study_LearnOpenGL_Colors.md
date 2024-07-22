@@ -14,8 +14,46 @@
 ## A Lighting Scene
 - From here on, real-world lighting will be simulated by making extensive use of colors. In order to do so, light sources will be displayed as visual objects in the scene, as there will be objects that will have light shine upon.
 - For simplicity, a cube model will be used for both the light source and the object.
-	- This means that these objects will share the same model of the cube, which also means they will use the same VBOs. However, they will have different VAOs.
+	- This means that these objects will share the same model of the cube; specifically the Vertex Data.
+	- These objects will also share the same VBO.
+	- However, each object will be assigned their own VAOs.
+- Configure VBO & VAO:
 
+```C++
+GLuint VAO;
+glGenVertexArrays(1, )
+```
+
+- Reminder of how buffer objects are built with `allocateBuffer` function:
+```C++
+GLuint allocateBuffer(GLenum bufferTarget, const void* bufferData, unsigned int dataSize, GLenum bufferUsuage)
+{
+	GLuint bufferObject;
+
+	glGenBuffers(1, &bufferObject);
+	glBindBuffer(bufferTarget, bufferObject);
+	glBufferData(bufferTarget, dataSize, bufferData, bufferUsuage);
+
+	GLint bufferSize = 0;
+	glGetBufferParameteriv(bufferTarget, GL_BUFFER_SIZE, &bufferSize);
+
+	if (bufferSize != dataSize)
+	{
+		GLenum error = glGetError();
+
+		while (error != GL_NO_ERROR)
+		{
+			cerr << "OpenGL Error: " << error << endl;
+			error = glGetError();
+		}
+
+		// returns 0
+		glDeleteBuffers(1, &bufferObject);
+	}
+
+	return bufferObject;
+}
+```
 
 - Another shader program will be made specifically for light sources; a new set of vertex shader and fragment shader will also created.
 - 
