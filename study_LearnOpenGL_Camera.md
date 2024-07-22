@@ -495,4 +495,24 @@ Refer to [[opengl_camera_movement_code]]
 
 ## Mouse Scroll to Zoom
 - Implementing Camera Zoom is simply done by adjusting the FOV (`fovy`) in the Perspective Projection Matrix (`glm::perspective`).
-- `glfwSetScrollCallback` registers a Callback function and supplies it with 
+- `glfwSetScrollCallback` registers a Callback function and supplies it with parameters `xOffset` and `yOffset` which returns the value of horizontal and vertical mouse scrolls respectively.
+- Zooming implemented in code:
+
+```C++
+// global variable
+float fovy = 45.0f;
+
+void scrollCallback(GLFWwindow* window, double xOffset, double yOffset)
+{
+	fovy -= static_cast<float>(yOffset);
+	if (fovy < 1.0f)
+		fovy = 1.0f;
+	if (fovy > 45.0f)
+		fovy = 45.0f;
+}
+
+glfwSetScrollCallback(window, scrollCallback);
+
+// inside render loop
+glm::mat4 projection = glm::perspective(glm::radians(fovy), aspect, zNear, zFar);
+```
