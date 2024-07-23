@@ -116,4 +116,21 @@
 	- CMAKE is a tool that's typically used to convert a project from another environment to a project that's suited for the current environment.
 
 ### Workspaces / solutions
+- When you create a new project for your program, many IDEs will automatically add your project to a "workspace" or a "solution" (the term varies by IDE).
+- A **workspace/solution** is a container that can hold one or more related projects.
+	- For example, if you were writing a game and wanted to have a separate executable for single player and multiplayer, you'd need to create two projects. It wouldn't make sense for both of these projects to be completely independent - after all, they are part of the same game. Most likely, each would be configured as a separate project within a single workspace/solution.
+- Although you can add multiple projects to a single solution, we generally recommend creating a new workspace or solution for each program, especially while learning. It's simpler and there's less chance of something going wrong.
+
+### Writing your first program
+- Skipping this part
+
+### Options: Compile, build, rebuild, clean, and run/start?
+- When a code file is compiled, your IDE may cache the resulting object file. That way, if the program is compiled again in the future, any code file that hasn't been modified doesn't need to be recompiled - the cached object file from last time can be used. This can speed up compilation times significantly.
+- Build : compiles all modified code files in the project/workspace/solution.
+- Clean : removes all cached objects and executables.
+- Rebuild : does a clean followed by build.
+- Compile : recompiles a single code file (regardless of caching). This option does not invoke the linker or produce an executable.
+- Run/start : executes the executable from a prior build. Some IDEs will invoke a build before doing a run.
+
+## Configuring your compiler: Build configurations
 - 
