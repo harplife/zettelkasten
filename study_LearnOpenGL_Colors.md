@@ -15,11 +15,7 @@
 - From here on, real-world lighting will be simulated by making extensive use of colors. In order to do so, light sources will be displayed as visual objects in the scene, as there will be objects that will have light shine upon.
 - For simplicity, a cube model will be used for both the light source and the object.
 	- This means that these objects will share the same model of the cube; specifically the Vertex Data.
-	- These objects will also share the same VBO.
-	- However, each object will be assigned their own VAOs.
-- Configure VBO & VAO:
-
-
+	- Each object will be placed at different positions.
 - In order to avoid the light source cube object to be affected by its own light, a separate shader program will be used to draw the light source cube object.
 	- Meanwhile, the original shader program will apply lighting to the objects that it draws.
 - 
