@@ -18,4 +18,6 @@
 	- Each object will be placed at different positions.
 - In order to avoid the light source cube object to be affected by its own light, a separate shader program will be used to draw the light source cube object.
 	- Meanwhile, the original shader program will apply lighting to the objects that it draws.
-- 
+
+### Shader Class
+- Creating a Shader Class was originally in Getting Started section of the guide. I skipped it because there wasn't any need for multiple shaders at the time. But now that two shaders are required to simulate lighting, I'll now work on a Shader Class.
