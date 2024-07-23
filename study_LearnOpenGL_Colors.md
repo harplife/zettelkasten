@@ -19,41 +19,7 @@
 	- However, each object will be assigned their own VAOs.
 - Configure VBO & VAO:
 
-```C++
-GLuint VAO;
-glGenVertexArrays(1, )
-```
 
-- Reminder of how buffer objects are built with `allocateBuffer` function:
-```C++
-GLuint allocateBuffer(GLenum bufferTarget, const void* bufferData, unsigned int dataSize, GLenum bufferUsuage)
-{
-	GLuint bufferObject;
-
-	glGenBuffers(1, &bufferObject);
-	glBindBuffer(bufferTarget, bufferObject);
-	glBufferData(bufferTarget, dataSize, bufferData, bufferUsuage);
-
-	GLint bufferSize = 0;
-	glGetBufferParameteriv(bufferTarget, GL_BUFFER_SIZE, &bufferSize);
-
-	if (bufferSize != dataSize)
-	{
-		GLenum error = glGetError();
-
-		while (error != GL_NO_ERROR)
-		{
-			cerr << "OpenGL Error: " << error << endl;
-			error = glGetError();
-		}
-
-		// returns 0
-		glDeleteBuffers(1, &bufferObject);
-	}
-
-	return bufferObject;
-}
-```
-
-- Another shader program will be made specifically for light sources; a new set of vertex shader and fragment shader will also created.
+- In order to avoid the light source cube object to be affected by its own light, a separate shader program will be used to draw the light source cube object.
+	- Meanwhile, the original shader program will apply lighting to the objects that it draws.
 - 
