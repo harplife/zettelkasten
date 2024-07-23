@@ -186,3 +186,15 @@
 #include "stb_image.h"
 #pragma warning(pop)
 ```
+
+## Configuring your compiler: Choosing a language standard
+- In professional environments, it's common to chose a language standard that is one or two versions back from the latest standard (e.g. if C++20 is the latest, then C++14 or C++17).
+	- This is typically done to ensure the compiler makers have had a chance to resolve defects, and that best practices for new features are well understood.
+	- Where relevant, this also helps ensure better cross-platform compatibility, as compilers on some platforms may not provide full support for newer language standards immediately.
+- For personal projects and while learning, choosing the latest finalized standard is fine, as there is little downside to doing so.
+- This guide recommends using C++17 or higher.
+
+### Setting a language standard in Visual Studio
+![[Pasted image 20240723171123.png]]
+
+### Exporting your configuration
