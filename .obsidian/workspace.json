@@ -64,22 +64,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "9db93fcf0bcb64b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "computer_science/languages/cpp/knou_cpp_notes.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -157,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer_science/languages/cpp/knou_cpp_notes.md"
+                "file": "study_LearnOpenGL_Colors.md"
               }
             }
           }
@@ -198,7 +185,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "computer_science/languages/cpp/knou_cpp_notes.md",
+                "file": "study_LearnOpenGL_Colors.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -233,7 +220,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computer_science/languages/cpp/knou_cpp_notes.md",
+                "file": "study_LearnOpenGL_Colors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -268,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer_science/languages/cpp/knou_cpp_notes.md",
+                "file": "study_LearnOpenGL_Colors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -300,8 +287,9 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "9db93fcf0bcb64b1",
+  "active": "baece8f022257031",
   "lastOpenFiles": [
+    "computer_science/languages/cpp/knou_cpp_notes.md",
     "computer_science/languages/cpp/cpp_cherno_playlist_notes.md",
     "study_LearnOpenGL_Colors.md",
     "opengl_code_guide.md",
@@ -339,7 +327,6 @@
     "computer_graphics/cg_learn_notes/computer_graphics_transformations.md",
     "cpp_hello_rectangle_code.md",
     "opengl_custom_shader_main.md",
-    "opengl_custom_shader_class.md",
     "Dictionary/graphics",
     "Dictionary"
   ]

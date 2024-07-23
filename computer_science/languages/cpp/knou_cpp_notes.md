@@ -42,10 +42,32 @@ Notes going over
 - A variable is a memory space that holds data (a shitty definition, says the teacher, but he's the one that gave this definition?)
 - You can declare a variable like `int number;` or `int count, total, numbers;`
 - Simply declaring a variable like `int number;` will fill it with garbage data (data that was at the memory address)
-- In C programming, a variable is initialized like `int total = 0;` but with C++, it's different (it can be done, but it would be highly inefficient)
 - There are several ways to initialize a variable -> `int total(0)`, `int total{0}`, `int total = {0}`, and etc
-- The reason why initializing a variable looks like it's using a function, is because it _IS_ using a function that is called automatically at first, and the data is going into that function. (Upon reading articles related to this, it seems it's more a construct than a function, but it requires further verification)
-- This [article](https://herbsutter.com/2013/05/09/gotw-1-solution/) has by far the best explanation on how to initialize a variable properly
+
+---
+
+In C++, both the `=` and `{}` syntaxes can be used to initialize variables, and in most cases, they have the same efficiency. However, there are some differences in behavior that might affect which one you choose to use.
+
+1. **Uniform Initialization (Curly Brackets `{}`)**: This was introduced in C++11 to provide a consistent syntax for initialization in all scenarios. It prevents narrowing conversions (which can cause data loss), and it can be used to initialize user-defined types, arrays, and STL containers. For example:
+
+```cpp
+int a{5}; // OK
+int b{3.14}; // Error: narrowing conversion
+std::vector<int> v{1, 2, 3, 4, 5}; // OK
+```
+
+2. **Copy Initialization (`=`)**: This is the traditional way to initialize variables in C++. It allows narrowing conversions, but it can't be used to directly initialize arrays or complex types. For example:
+
+```cpp
+int a = 5; // OK
+int b = 3.14; // OK, but b will be 3 due to truncation
+std::vector<int> v = {1, 2, 3, 4, 5}; // OK
+```
+
+In terms of performance, both methods are typically optimized by the compiler to be equally efficient. The choice between `{}` and `=` often comes down to coding style and the specific requirements of your code. For modern C++ code, many developers prefer `{}` because it is more consistent and prevents narrowing conversions. However, `=` is still widely used and perfectly acceptable in many situations. It's always a good idea to understand the differences and choose the method that best fits your needs.
+
+---
+
 - Curly brackets `{ .. }` is often used for function, construct, arrays, and sets
 - Data type `auto` automatically matches the variable's data type to the data it is initialized with. (e.g. `auto total(5); // same thing as int total(5);`)
 - `const` is a constant, meaning it only holds the data it is initialized with, and never changes afterwards
