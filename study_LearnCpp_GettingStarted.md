@@ -175,4 +175,14 @@
 - For Visual Studio:
 	- Project Properties > Configuration Properties > C/C++ > General > Treat Warnings As Errors : `Yes (/WX)`
 	  ![[Pasted image 20240723145052.png]]
-- 
+
+
+### (personal note) Ignore Warnings
+- Setting warning levels to 3~4 and treating warning as error definitely puts a wench in things when libraries are used. Use `#pragma` directive to tell the compiler to ignore warnings from a library, like so:
+
+```c++
+#pragma warning(push, 0)
+#define STB_IMAGE_IMPLEMENTATION
+#include "stb_image.h"
+#pragma warning(pop)
+```
