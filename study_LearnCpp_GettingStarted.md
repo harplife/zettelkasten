@@ -224,3 +224,7 @@
 	- Programs typically terminate after the last statement inside `main` function has been executed.
 - The name of a function (or object, type, template, etc.) is called its **identifier**.
 
+### Syntax and syntax errors
+- The rules that govern how sentences are constructed in a language is called a syntax.
+	- If you violate a rule, the compiler will issue you a **syntax error**.
+- 
