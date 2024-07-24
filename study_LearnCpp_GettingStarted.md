@@ -275,4 +275,5 @@ int c, d;
 ## Variable assignment and initialization
 
 ### Variable assignment
+- After a variable has been defined, a value can be given to the variable by using the `=` operator. This process is called an **assignment**, and the `=` operator is called the **assignment operator**.
 - 
