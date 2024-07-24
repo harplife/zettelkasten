@@ -232,4 +232,5 @@
 ## Comments
 - A comment is a programmer-readable note that is inserted directly into the source code of the program, which gets ignored by the compiler and are for the programmer's use only.
 - Single line comment begins with `//`.
+- Multi-line comment begins with `/*` and ends with `*/`.
 - 
