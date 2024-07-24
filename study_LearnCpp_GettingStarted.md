@@ -242,4 +242,37 @@
 ### Random Access Memory
 - The main memory in a computer is called Random Access Memory (RAM). When a program is ran, the OS loads the program into RAM.
 - The OS reserves some additional RAM for the program to use while it is running. Common uses for this memory are to store values entered by the user, to store data read in from a file or network, or to store values calculated while the program is running so they can be used again later.
+
+### Objects and variables
+- In C++, direct memory access is discouraged. Instead, we access memory through an object.
+- An **object** is a region of storage (usually memory) that can store a value, and has other associated properties.
+	- How the compiler and OS work to assign memory to objects is beyond the scope of this guide.
+- Although objects in C++ can be unnamed (anonymous), more often we name our objects using an identifier. An object with a name is called a **variable**.
+- In general programming, the term *object* typically refers to an unnamed object in memory, a variable, or a function. In C++, the term *object* has a narrow definition that excludes functions.\
+
+### Variable instantiation
+- In order to create a variable, we use a special kind of declaration statement called a **definition**.
+	- Example: `int x;`
+- When the program is run (called **runtime**), the variable will be instantiated. **Instantiation** means the object will be created and assigned a memory address.
+	- Variables must be instantiated before they can be used to store values.
+- An instantiated object is sometimes called an **instance**.
+
+### Data types
+- A **data type** determines what kind of value the object will store.
+	- Types include `int`, `double`, `float`, `char`, `string`, `bool`, and etc.
+
+### Defining multiple variables
+- It is possible to define multiple variables of the same type in a single statement:
+
+```C++
+int a;
+int b;
+int c, d;
+```
+
+- Although the language allows it, it is best to avoid defining multiple variables in a single line.
+
+## Variable assignment and initialization
+
+### Variable assignment
 - 
