@@ -223,4 +223,4 @@
 - Every C++ program must have a special function named `main`.
 	- Programs typically terminate after the last statement inside `main` function has been executed.
 - The name of a function (or object, type, template, etc.) is called its **identifier**.
-- 
+
