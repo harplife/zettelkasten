@@ -229,3 +229,7 @@
 	- If you violate a rule, the compiler will issue you a **syntax error**.
 - A common syntax error is when a semicolon is missing at the end of a statement.
 
+## Comments
+- A comment is a programmer-readable note that is inserted directly into the source code of the program, which gets ignored by the compiler and are for the programmer's use only.
+- Single line comment begins with `//`.
+- 
