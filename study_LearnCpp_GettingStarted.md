@@ -233,4 +233,13 @@
 - A comment is a programmer-readable note that is inserted directly into the source code of the program, which gets ignored by the compiler and are for the programmer's use only.
 - Single line comment begins with `//`.
 - Multi-line comment begins with `/*` and ends with `*/`.
+
+## Intro to objects and variables
+### Data and values
+- **Data** is any info that can be moved, processed, or stored by a computer
+- A single piece of data is called a **value**.
+
+### Random Access Memory
+- The main memory in a computer is called Random Access Memory (RAM). When a program is ran, the OS loads the program into RAM.
+- The OS reserves some additional RAM for the program to use while it is running. Common uses for this memory are to store values entered by the user, to store data read in from a file or network, or to store values calculated while the program is running so they can be used again later.
 - 
