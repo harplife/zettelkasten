@@ -276,4 +276,35 @@ int c, d;
 
 ### Variable assignment
 - After a variable has been defined, a value can be given to the variable by using the `=` operator. This process is called an **assignment**, and the `=` operator is called the **assignment operator**.
+	- Example: `int width; width = 5;`
+- By default, assignment copies the value on the right-hand side of the `=` operator to the variable on the left-hand side of the operator. This is called **copy assignment**.
+
+### Initialization
+- The process of specifying an initial value for an object is called **initialization**.
+- Definition and assignment can be combined into one with initialization.
+	- Example: `int width = 5;`
+- The syntax used to initialize an object is called an **initializer**
+
+### Different forms of initialization
+- There are 6 basic ways to initialize variables in C++:
+
+```C++
+int a; // default initialization
+int b = 5; // copy initialization
+int c(6); // direct init
+
+// List init methods (C++11) (preferred)
+int d{7}; // direct list init
+int e = {8}; // copy list init
+int f{}; // value initialization
+```
+
+### Default initialization
+- When no initializer is provided, this is called default initialization. In most cases, default init performs no init, and leaves a variable with an indeterminate value (garbage data).
+
+### Copy initialization
+- Copy initialization had fallen out of favor in modern C++ due to being less efficient than other forms of init for some complex types. However, C++ remedied the bulk of these issues, and copy init is now finding new advocates.
+- Copy init is also used whenever values are implicitly copied or converted, such as when passing arguments to a function by value, returning from a function by value, or catching exceptions by value.
+
+### Direct initialization
 - 
