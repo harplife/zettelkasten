@@ -198,3 +198,29 @@
 ![[Pasted image 20240723171123.png]]
 
 ### Exporting your configuration
+- Having to reselect all of the settings each time you make a new project is burdensome - and so most IDEs provide a way to export your settings.
+- For Visual Studio, Project > Export Template > Select Project Template, Add name, etc. > Finish
+	- Once saved, the template will be shown when you make a new project
+
+## Statements and the structure of a program
+
+### Statements
+- A **computer program** is a sequence of instructions that tell the computer what to do.
+- A **statement** is a type of instruction that causes the program to perform some action.
+- Statements are the smallest independent unit of computation in the C++ language, which makes it the most common type of instruction.
+- Most (but not all) statements in C++ end in a semicolon.
+- In a high-level language like C++, a single statement may compile into many machine language instructions.
+- There are many different kinds of statements in C++:
+	- Declaration
+	- Jump
+	- Expression
+	- Compound
+	- Selection (conditionals)
+	- Iteration (loops)
+	- Try
+- Statements are typically grouped into units called functions.
+- A **function** is a collection of statements that get executed sequentially (top to bottom).
+- Every C++ program must have a special function named `main`.
+	- Programs typically terminate after the last statement inside `main` function has been executed.
+- The name of a function (or object, type, template, etc.) is called its **identifier**.
+- 
