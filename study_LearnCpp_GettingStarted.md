@@ -227,4 +227,5 @@
 ### Syntax and syntax errors
 - The rules that govern how sentences are constructed in a language is called a syntax.
 	- If you violate a rule, the compiler will issue you a **syntax error**.
-- 
+- A common syntax error is when a semicolon is missing at the end of a statement.
+
