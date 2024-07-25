@@ -642,4 +642,18 @@ std::cout << "Yeah!\n";
 
 ## Intro to literals and operators
 - A **literal (literal constant)** is a fixed value that has been inserted directly into the source code.
-- 
+- Literals and variables both have a value and a type. Unlike a variable, the value of a literal is fixed.
+- Refer to this example:
+
+```C++
+#include <iostream>
+
+int main()
+{
+    std::cout << 5 << '\n'; // print the value of a literal
+
+    int x { 5 };
+    std::cout << x << '\n'; // print the value of a variable
+    return 0;
+}
+```
