@@ -500,4 +500,5 @@ Entering `4 5` first will first print out `4`, and then skip the next input. Ins
 ## Uninitialized variables and undefined behavior
 
 ### Uninitialized variables
+- A variable that has not been given a known value (through initialization or assignment) is called an **uninitialized variable**.
 - 
