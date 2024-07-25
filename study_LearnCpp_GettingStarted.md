@@ -512,3 +512,17 @@ Entering `4 5` first will first print out `4`, and then skip the next input. Ins
 >[!warning]
 >Using uninitialized variables is one of the most common mistakes that novice programmers make. It can also be one of the most challenging to debug because the program may run fine anyway if the uninitialized variable happened to get assigned to a spot of memory that had a reasonable value in it, like 0.
 
+### Undefined behavior
+- Undefined behavior (UB) is the result of executing code whose behavior is not well-defined by the C++ language. In this case, the C++ language doesn't have any rules determining what happens if you use the value of a variable that has not been given a known value.
+	- Using the value from an uninitialized variable is an example of undefined behavior.
+- Code implementing undefined behavior may exhibit any of the following symptoms:
+	- Your program produces different results every time it is run.
+	- Your program consistently produces the same incorrect result.
+	- Your program behaves inconsistently (sometimes produces the correct result, sometimes not).
+	- Your program seems like it’s working but produces incorrect results later in the program.
+	- Your program crashes, either immediately or later.
+	- Your program works on some compilers but not others.
+	- Your program works until you change some other seemingly unrelated code.
+- The worst is when undefined behavior actually produces the correct behavior.
+- Always do what's necessary to avoid undefined behavior.
+
