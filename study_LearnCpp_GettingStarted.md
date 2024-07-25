@@ -449,3 +449,55 @@ And that's all, folks!
 ```
 
 ### std::cin
+- `std::cin` is another predefined variable in the `iostream` library.
+- `std::cin`, which stands for "character input", reads input from keyboard.
+- `>>` operator is typically used along side `std::cin`, like so:
+
+```C++
+#include <iostream>
+
+int main()
+{
+    std::cout << "Enter a number: ";
+
+    int x{};
+    std::cin >> x;
+
+    std::cout << "You entered " << x << '\n';
+    return 0;
+}
+```
+
+- Note that `std::endl` was not called after `std::cin`; this is due to the user pressing enter key to have their input accepted.
+	- If accepting keyboard input without the user having to press enter, there are third party libraries that specialize in Terminal User Interface (TUI); pdcurses, FXTUI, cpp-terminal, or notcurses.
+
+### std::cin is buffered
+- Similarly to `std::cout`, the user input is stored inside a buffer for `std::cin` and then extracted with `>>` operator.
+- `std::buffer` is buffered because it allows us to separate the entering of input from the extract of input. We can enter input once and then perform multiple extraction request on it.
+- Note that extraction stops at space; whatever is left in the buffer will be extracted on the next iteration of `std::cin`. For example:
+
+```C++
+#include <iostream>  // for std::cout and std::cin
+
+int main()
+{
+    std::cout << "Enter two numbers: ";
+
+    int x{};
+    std::cin >> x;
+
+    int y{};
+    std::cin >> y;
+
+    std::cout << "You entered " << x << " and " << y << '\n';
+
+    return 0;
+}
+```
+
+Entering `4 5` first will first print out `4`, and then skip the next input. Instead, it will print out `5`.
+
+## Uninitialized variables and undefined behavior
+
+### Uninitialized variables
+- 
