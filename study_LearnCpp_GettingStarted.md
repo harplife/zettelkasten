@@ -501,4 +501,14 @@ Entering `4 5` first will first print out `4`, and then skip the next input. Ins
 
 ### Uninitialized variables
 - A variable that has not been given a known value (through initialization or assignment) is called an **uninitialized variable**.
-- 
+- This lack of initialization is a performance optimization inherited from C, as it prevents from creating a lot of data to match creation of many variables (like 100,000 or more).
+- Best practice is to always initialize your variables; omit the initialization only if it's intentional and purposeful.
+
+>[!warning]
+>Some compilers, such as Visual Studio, will initialize the contents of memory to some preset value when you're using a debug build configuration. This will not happen when using a release build configuration. Therefore, do not be confused when uninitialized variable returns a same value (instead of random garbage data).
+
+- Most modern compilers can detect if a variable is being used without being given a value. If they do, they will generally issue a compile-time warning or error.
+
+>[!warning]
+>Using uninitialized variables is one of the most common mistakes that novice programmers make. It can also be one of the most challenging to debug because the program may run fine anyway if the uninitialized variable happened to get assigned to a spot of memory that had a reasonable value in it, like 0.
+
