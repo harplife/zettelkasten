@@ -547,3 +547,12 @@ int main()
 
 ## Keywords and naming identifiers
 - C++ reserves a set of 92 words (as of C++23) for its own use - called the **keywords**.
+	- Keywords include data types like int, float, double, and etc.
+	- Keywords include statements like if/else, case/switch, while, and etc.
+- For a full list of keywords, refer to https://en.cppreference.com/w/cpp/keyword
+
+### Identifier naming rules
+- There's a lot of flexibility when it comes to naming identifiers. However, there are a few rules that must be followed:
+	- No keywords
+	- Only letters, numbers, and underscore character.
+	- 
