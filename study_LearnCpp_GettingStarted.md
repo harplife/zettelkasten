@@ -526,3 +526,24 @@ Entering `4 5` first will first print out `4`, and then skip the next input. Ins
 - The worst is when undefined behavior actually produces the correct behavior.
 - Always do what's necessary to avoid undefined behavior.
 
+### Implementation-defined behavior and unspecified behavior
+- Implementation-defined behavior means the behavior of some syntax is left up to the implementation (the compiler) to define. Such behaviors must be consistent and documented, but different compilers may produce different results.
+- Example:
+
+```C++
+#include <iostream>
+
+int main()
+{
+	std::cout << sizeof(int) << '\n'; // print how many bytes of memory an int value takes
+
+	return 0;
+}
+```
+
+- Above examples shows that different compilers (sometimes different OS) may treat the size of an integer differently; the printed value may be `4` or `2`.
+- Unspecified behavior means the behavior of some syntax is left up to the implementation (the compiler) to define, but such implementation is not required to document the behavior.
+- Best practice is to avoid both implementation-defined behavior and unspecified behavior.
+
+## Keywords and naming identifiers
+- C++ reserves a set of 92 words (as of C++23) for its own use - called the **keywords**.
