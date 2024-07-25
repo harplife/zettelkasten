@@ -395,6 +395,11 @@ In essence, the use of the insertion operator with `cout` provides a consistent,
 
 ---
 
+### std::cout is buffered
+- `std::cout` does not sent its output to the console immediately. Instead, the requested output is stored in a region of memory (called a buffer) first, and then the buffer gets flushed out periodically.
+	- This means that if your program crashes/aborts/pauses before the buffer is flushed, any output still waiting in the buffer will not be displayed.
+- Writing data to a buffer is typically fast, whereas transferring a batch of data to an output device is comparatively slow. Buffering can significantly increase performance by batching multiple output requests together to minimize the number of times output has to be sent to the output device.
+
 ### std::endl
 - A way to end a line of text and start a new line is to use `std::endl`, like so:
 
@@ -417,6 +422,30 @@ Bye World!
 ```
 
 - `std::endl` may not be necessary after the last line, but it is good practice to do so because some OS do not output a new line before showing the command prompt again.
+- `std::endl` not only outputs a newline, it also flushes the buffer.
 
-### std::cout is buffered
-- 
+### Newlines
+- Another way to end a line and start a new line other than `std::endl`, is to use `\n` within the text.
+	- `\n` can be better in situation where multiple lines of text is to be outputted. Because `std::endl` flushes the buffer, it is slow and inefficient - especially so when multiple lines mean multiple flushes (which is unnecessary).
+- `\n` can be used, like so:
+
+```C++
+#include <iostraem>
+
+int main()
+{
+	int x = 5;
+	std::cout << "x is equal to: " << x << '\n'; // single quoted, by itself
+	std::cout << "Yep." << "\n"; // double quoted, by itself
+	std::cout << "And that's all, folks!\n"; // double quoted, part of text
+}
+```
+
+console
+```text
+x is equal to: 5
+Yep.
+And that's all, folks!
+```
+
+### std::cin
