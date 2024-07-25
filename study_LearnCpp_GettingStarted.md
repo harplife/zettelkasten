@@ -571,4 +571,72 @@ int main()
 - Use comments to describe what a variable is going to be used for.
 
 ## Whitespace and basic formatting
+- Whitespace is a term that refers to characters that are used for formatting purposes, such as spaces, tabs, and newlines.
+
+### Whitespace separation
+- Data type and variable name must be whitespace separated.
+- Return type and function name must be whitespace separated.
+- Single-line comments are terminated by a newline.
+- Preprocessor directives must be placed on separate lines.
+
+### Quoted text and whitespace
+- Amount of whitespace is taken literally inside quoted text.
+- Newlines are not allowed in quoted text.
+	- However, newline character `\n` is fine.
+- Quoted text separated by nothing but whitespace will be concatenated:
+
+```C++
+std::cout << "Hello "
+	"world!"; // prints "Hello world!"
+```
+
+### Basic formatting
+- C++ does not enforce any kind of formatting restrictions on the programmer. Which means whitespace is generally ignored. This means we can use whitespace wherever we like to format our code in order to make it easier to read.
+	- Other languages like Python does enforce restrictions. Indentation errors if violation.
+- It's fine to use either tabs or spaces for indentation - there is a debate on it.
+- Most IDEs will convert a tab to 4 spaces. This is the recommended way.
+- There are two conventional styles for function braces:
+	- Opening curly brace on the same line as the statement.
+	- Opening curly brace on its own line and same indentation with the closing curly brace (recommended).
+- Each statement within curly braces should start one tab in from the closing brace of the function it belongs to.
+- Lines should be limited to 80 characters or less.
+- If a long line is split with an operator (e.g. `<<` or `+`), the operator should be placed at the beginning of the next line:
+
+```C++
+std::cout << 3 + 4
+    + 5 + 6
+    * 7 * 8;
+```
+
+- Use whitespace to align values or comments:
+
+```C++
+cost          = 57;  // align
+pricePerItem  = 24;  // the comments
+value         = 5;   // for
+numberOfItems = 17;  // readability
+
+// cout lives in the iostream library
+std::cout << "Hello world!\n";
+
+// these comments are easier to read
+std::cout << "It is very nice to meet you!\n";
+
+// when separated by whitespace
+std::cout << "Yeah!\n";
+```
+
+- Best practice is to be consistent with whatever style that has already been established.
+
+### Automatic formatting
+- Most modern IDEs will help you format your code.
+- In Visual Studio, Edit > Advanced > Format Document/Selection (ctrl+k, ctrl+d)
+
+### Style guides
+- A **style guide** is a concise, opinionated document containing programming conventions, formatting guidelines, and best practices.
+- Some commonly referenced C++ style guides include:
+	- [C++ Core Guidelines](http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines) - maintained by Bjarne Stroustrup and Herb Sutter
+	- Google
+	- LLVM
+	- GCC/GNU
 - 
