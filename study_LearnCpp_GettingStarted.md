@@ -348,3 +348,75 @@ int depth{};
 ```
 
 ## Introduction to iostream
+### The input/output library
+- The **input/output library** (io library) is part of the C++ standard library that deals with basic input and output.
+- To use the functionality defined within the iostream library, we need to include the iostream header at the top of any code file that uses the content defined in iostream, like so:
+
+```C++
+#include <iostream>
+
+// rest of the code
+```
+
+### std::cout
+- One of the most useful in the iostream is `std::cout`, which allows us to send data to the console to be printed out as text.
+	- cout stands for character output.
+- A simple program to print out `Hello World!`:
+
+```C++
+#include <iostream>
+
+int main()
+{
+	std::cout << "Hello World!";
+
+	return 0;
+}
+```
+
+---
+
+The `cout` object in C++ uses the insertion operator (`<<`) as a way to format output. This is part of the design of the C++ Standard Library’s stream I/O facilities.
+
+Here’s why:
+
+1. **Chainability**: The insertion operator returns a reference to the stream, allowing chained insertions into the same stream. For example:
+    
+    ```cpp
+    std::cout << "Hello, " << "World!" << std::endl;
+    ```
+    
+2. **Type Safety**: The insertion operator is overloaded for many different types, ensuring that the correct formatting is used for each type. This makes it safer and easier to use than C-style I/O functions like `printf`, which require the programmer to specify the type of each argument.
+    
+3. **Extensibility**: You can overload the insertion operator for your own types, allowing them to be printed using the same syntax as built-in types.
+    
+
+In essence, the use of the insertion operator with `cout` provides a consistent, type-safe, and extensible interface for formatted output in C++. It’s one of the features that make C++ a powerful and flexible language for a wide range of programming tasks.
+
+---
+
+### std::endl
+- A way to end a line of text and start a new line is to use `std::endl`, like so:
+
+```C++
+#include <iostream>
+
+int main()
+{
+	std::cout << "Hello World!" << std::endl;
+	std::cout << "Bye World!" << std::endl;
+
+	return 0;
+}
+```
+
+console
+```text
+Hello world!
+Bye World!
+```
+
+- `std::endl` may not be necessary after the last line, but it is good practice to do so because some OS do not output a new line before showing the command prompt again.
+
+### std::cout is buffered
+- 
