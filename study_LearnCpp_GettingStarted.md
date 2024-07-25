@@ -307,5 +307,44 @@ int f{}; // value initialization
 - Copy init is also used whenever values are implicitly copied or converted, such as when passing arguments to a function by value, returning from a function by value, or catching exceptions by value.
 
 ### Direct initialization
-- **Direct initialization** refers to when an initial value is provided inside paranthesis.
-- Direct initialization was initially introduced
+- **Direct initialization** refers to when an initial value is provided inside parenthesis.
+- Direct initialization was initially introduced to allow for more efficient initialization of complex objects. It had fallen out of favor in modern C++, being superseded by list init.
+	- Another reason why it had fallen out is because it makes it hard to differentiate variables from functions.
+	- List init has a few quirks of its own, and so direct init is once again finding use in certain cases.
+
+### List initialization
+- **List initialization (aka uniform initialization/brace initialization)** refers to when curly braces are used; which comes in three forms:
+
+```C++
+int width{5};
+int height = {6};
+int depth{};
+```
+
+- Prior to the introduction of list initialization, some types of init required using copy init, and other types of init required using direct init. List init was introduced to provide a more consistent init syntax (which is why it is sometimes called "uniform initialization") that works in most cases.
+- List initialization also provides a way to initialize objects with a list of values. More on this later.
+
+### List initialization disallows narrowing conversions
+- The primary benefit of list initialization is that "narrowing conversions" are disallowed.
+	- Narrowing conversion is a potentially unsafe numeric conversion where the destination type may not be able to hold all the values of the source type (e.g. float to int).
+	- For example, `int w1{4.5};` will produce a compile error.
+- Note that this restriction on narrowing conversions only applies to the list initialization, not to any subsequent assignments to the variable.
+	- For example, `w1 = 4.5;` is allowed.
+
+### Value initialization and zero initialization
+- When a variable is initialized using empty braces, **value initialization** takes place. In most cases, value init will init the variable to zero (or empty, if that's more appropriate for a given type).
+	- In such cases where zeroing occurs, this is called **zero initialization**.
+- Use value initialization if the value is temporary and will be replaced.
+
+### Initialize your variables
+- Always initialize your variables upon creation, except in special cases.
+	- Bjarne Stroustrup and Herb Sutter says so.
+
+### Ignoring unused variable warning
+- In C++17, it's possible to ignore unused variable warning by placing `[[maybe_unused]]` in front of the variable. For example:
+
+```C++
+[[maybe_unused]] double pi {3.14};
+```
+
+## Introduction to iostream
