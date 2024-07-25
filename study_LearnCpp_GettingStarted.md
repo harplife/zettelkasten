@@ -664,3 +664,16 @@ int main()
 ### Operators and operands
 - In mathematics, an **operation** is a process involving zero or more input values (called **operands**) that produces a new value (called an **output value**). The specific operation to be performed is denoted by a symbol called an **operator**.
 	- For example, for a statement like `int x = 1 + 2;`, 1 and 2 are operands and the + is the operator.
+- Common operators:
+	- addition `+`
+	- subtraction `-`
+	- multiplication `*`
+	- division `/`
+	- equality `==` / inequality `!=`
+	- assignment `=`
+	- insertion `<<` / extraction `>>`
+- The number of operands that an operator takes as input is called the operator's **arity**.
+	- Not a common word, don't use this word willy nilly
+- Operators come in four different arities:
+	- **Unary** : acts on one operand. For example, given `-5`, the `operator-` takes literal operand `5` and flips its sign to produce new output value `-5`.
+	- Binary : 
