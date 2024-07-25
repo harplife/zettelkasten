@@ -659,4 +659,8 @@ int main()
 ```
 
 - In the above example, both output statements do the same thing (prints 5). But in the case of literal, the value is printed out directly, as opposed to being fetched from the memory.
-- 
+- Literals are values that are inserted directly into the source code. These values usually appear directly in the executable code (unless they are optimized out).
+
+### Operators and operands
+- In mathematics, an **operation** is a process involving zero or more input values (called **operands**) that produces a new value (called an **output value**). The specific operation to be performed is denoted by a symbol called an **operator**.
+	- For example, for a statement like `int x = 1 + 2;`, 1 and 2 are operands and the + is the operator.
