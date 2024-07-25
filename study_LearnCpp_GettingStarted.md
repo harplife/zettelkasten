@@ -563,4 +563,12 @@ int main()
 - If variable and function name requires multiple words, combine the words together as camelCase or snake_case.
 - Note that when working with someone else's code, it's best to match the style of the existing code than to follow the naming convention above.
 - Avoid naming identifiers starting with an underscore, as these names are typically reserved for OS, library, and/or compiler use.
+- Identifiers should make clear what the value they are holding means.
+- Good rule of thumb is to make the length of an identifier proportional to how widely it is used.
+	- An identifier with a trivial use can have a short name (e.g. such as i).
+	- An identifier that is used more broadly (e.g. a function that is called from many places) should have a longer and more descriptive name (e.g. instead of open, try openFileOnDisk).
+- In any case, avoid abbreviations.
+- Use comments to describe what a variable is going to be used for.
+
+## Whitespace and basic formatting
 - 
