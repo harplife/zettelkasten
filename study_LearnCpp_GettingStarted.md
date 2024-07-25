@@ -676,4 +676,24 @@ int main()
 	- Not a common word, don't use this word willy nilly
 - Operators come in four different arities:
 	- **Unary** : acts on one operand. For example, given `-5`, the `operator-` takes literal operand `5` and flips its sign to produce new output value `-5`.
-	- Binary : 
+	- **Binary** : acts on two operands placed on left and right. For example, given `1 + 2`, the `operator+` takes the left operand `1` and the right operand `2` and outputs `3`. The insertion `<<` and extraction `>>` operators are also binary operators.
+	- **Ternary** : acts on three operands. There is only one, which is the conditional operator. This will be covered later.
+	- **Nullary** : operators act on zero operands. There is only one, which is the throw operator. This will be covered later.
+- Note that some operators have more than one meaning depending on how they are used. For example, `operator-` has two contexts: used in unary form to invert a number's sign, and used in binary form to do subtraction.
+
+### Chaining operators
+- Operators can be chained together such that the output of one operator can be used as the input for another operator.
+	- For example, given `2 * 3 + 4`, the multiplication goes first (`2 * 3`) and then the result of that is fed to the plus operator (`6 + 4)`.
+- The order in which operators execute is a topic that will be covered more later on. For now, it's enough to know that the arithmetic operators execute in the same order as they do in standard math: PEMDAS.
+	- Parenthesis > Exponents > Multiplication/Division > Addition/Subtraction
+	- "Please Excuse My Dear Aunt Sally"
+
+### Return values and side effects
+- Some operators have additional behaviors. An operator (or function) that has some observable effect beyond producing a return value is said to have a **side effect**.
+	- For example, given `x = 5;`, the changed value of `x` is observable even after the operator has finished executing.
+	- Another example, given `std::cout << 5;`, the number `5` gets printed to console and stays there even if the statement has finished executing.
+
+## Intro to expressions
+
+### Expressions
+- 
