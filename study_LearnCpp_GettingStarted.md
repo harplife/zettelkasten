@@ -657,3 +657,6 @@ int main()
     return 0;
 }
 ```
+
+- In the above example, both output statements do the same thing (prints 5). But in the case of literal, the value is printed out directly, as opposed to being fetched from the memory.
+- 
