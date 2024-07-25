@@ -307,4 +307,5 @@ int f{}; // value initialization
 - Copy init is also used whenever values are implicitly copied or converted, such as when passing arguments to a function by value, returning from a function by value, or catching exceptions by value.
 
 ### Direct initialization
-- 
+- **Direct initialization** refers to when an initial value is provided inside paranthesis.
+- Direct initialization was initially introduced
