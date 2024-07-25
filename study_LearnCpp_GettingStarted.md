@@ -639,4 +639,7 @@ std::cout << "Yeah!\n";
 	- Google
 	- LLVM
 	- GCC/GNU
+
+## Intro to literals and operators
+- A **literal (literal constant)** is a fixed value that has been inserted directly into the source code.
 - 
