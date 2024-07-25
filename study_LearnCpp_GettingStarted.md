@@ -555,4 +555,12 @@ int main()
 - There's a lot of flexibility when it comes to naming identifiers. However, there are a few rules that must be followed:
 	- No keywords
 	- Only letters, numbers, and underscore character.
-	- 
+	- Must begin with a letter (lower/upper) or an underscore.
+	- Case sensitive
+
+### Identifier naming best practices
+- Variable and function name should start with a lower case letter.
+- If variable and function name requires multiple words, combine the words together as camelCase or snake_case.
+- Note that when working with someone else's code, it's best to match the style of the existing code than to follow the naming convention above.
+- Avoid naming identifiers starting with an underscore, as these names are typically reserved for OS, library, and/or compiler use.
+- 
