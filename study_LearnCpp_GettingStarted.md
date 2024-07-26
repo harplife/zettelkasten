@@ -816,3 +816,13 @@ printValue(5);
 	- A parameter without a name is called an **unnamed parameter**.
 	- It's recommended to use a comment to indicate what the name would've been.
 	- For example, `void doSomething(int /*count*/);`
+
+## Intro to local scope
+
+### Local variables
+- Variables defined inside a function are called **local variables**.
+- Function parameters are created and initialized when the function is entered, and variables within the function body are created and initialized at the point of definition.
+	- Local variables are destroyed in the opposite order of creation.
+- An object's **lifetime** is defined to be the time between its creation and destruction.
+	- Note that variable creation/destruction happen during runtime, not at compile time. Therefore, lifetime is a runtime property.
+	- 
