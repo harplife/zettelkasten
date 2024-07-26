@@ -864,4 +864,6 @@ int main()
 
 - In the example above, variable `input` is destroyed at the end of the function, and the caller receives a copy of the value. This copy of the value is stored in a temporary object, which is then passed to `std::cout` to be printed.
 - Temporary objects have no scope at all. They are destroyed at the end of the full expression in which they are created.
+
+## Forward declarations and definitions
 - 
