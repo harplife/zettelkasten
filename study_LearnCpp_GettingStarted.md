@@ -701,4 +701,14 @@ int main()
 - When an expression is evaluated, each of the terms inside the expression are evaluated, until a single value remains - referred to as the **result** of the expression.
 - Expressions are always evaluated as part of statements.
 	- For example, given `int x = 2+3;`, the expression `2+3` is part of a statement that assigns a value to `x`.
-- 
+	- Above statement broken down into its syntax would look like this: `type identifier operator expression`.
+- A statement that consists of an expression followed by a semicolon is called an **expression statement**.
+- Expression statement that produces a value only to discard it, is considered useless (some compilers may produce warnings).
+- Subexpression : an expression used as an operand.
+	- For example, subexpressions of `x = 4 + 5` are `x` and `4 + 5`.
+- Full expression : an expression made up of subexpression(s).
+	- For example, `2`, `2 + 3`, and `x = 4 + 5` are all full expressions.
+- Compound expression : an expression that contains two or more uses of operators.
+	- For example, `x = 4 + 5` is a compound expression because it contains `operator=` and `operator+`.
+
+## Developing your first program
