@@ -711,4 +711,6 @@ int main()
 - Compound expression : an expression that contains two or more uses of operators.
 	- For example, `x = 4 + 5` is a compound expression because it contains `operator=` and `operator+`.
 
-## Developing your first program
+## Intro to functions
+- A function is a reusable sequence of statements designed to do a particular job.
+- 
