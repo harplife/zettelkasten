@@ -825,4 +825,15 @@ printValue(5);
 	- Local variables are destroyed in the opposite order of creation.
 - An object's **lifetime** is defined to be the time between its creation and destruction.
 	- Note that variable creation/destruction happen during runtime, not at compile time. Therefore, lifetime is a runtime property.
-	- 
+- In most cases, the destroyed object becomes invalid, and any further use of the object will result in undefined behavior.
+	- At some point after destruction, the memory used by the object will be freed up.
+
+### Local scope
+- An identifier's scope determines where the identifier can be seen and used within the source code.
+- When an identifier can be seen and used, we say it is **in scope**.
+	- When an identifier cannot be seen nor used, we say it is **out of scope**.
+- Scope is a compile-time property, and trying to use an identifier outside its scope will result in a compile error.
+- Local variables defined in one function are not in scope in other functions.
+
+### Functional separation
+- Variables with duplicate names but in different scopes does not conflict with each other - meaning, variable `x` defined in `foo()` is not the same as `x` defined in `bar()`.
