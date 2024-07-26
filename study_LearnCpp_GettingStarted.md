@@ -812,3 +812,7 @@ printValue(5);
 
 ### Unreferenced parameters
 - When a parameter is not used inside the function body, compiler sends out a warning that says **unreferenced parameter**.
+- In cases where a function parameter needs to exist but is not used in the function body, the name of the function parameter can be omitted (bypasses the warning).
+	- A parameter without a name is called an **unnamed parameter**.
+	- It's recommended to use a comment to indicate what the name would've been.
+	- For example, `void doSomething(int /*count*/);`
