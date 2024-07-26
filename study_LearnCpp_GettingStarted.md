@@ -712,5 +712,103 @@ int main()
 	- For example, `x = 4 + 5` is a compound expression because it contains `operator=` and `operator+`.
 
 ## Intro to functions
-- A function is a reusable sequence of statements designed to do a particular job.
-- 
+- A **function** is a reusable sequence of statements designed to do a particular job.
+- Functions that you write yourself are called **user-defined functions**.
+- The structure of a function looks like this:
+
+```C++
+returnType functionName() // function header
+{
+	// function body
+}
+```
+
+- Unlike some other programming languages, C++ does not allow for functions to be defined inside other functions. The following program is NOT legal:
+
+```C++
+#include <iostream>
+
+int main()
+{
+    void foo() // Illegal: this function is nested inside function main()
+    {
+        std::cout << "foo!\n";
+    }
+
+    foo(); // function call to foo()
+    return 0;
+}
+```
+
+- "foo" is a meaningless word that is often used as a placeholder name for a function or variable when the name is unimportant to the demonstration of some concept.
+	- Such words are called **metasyntactic variables**, though they're often called **placeholder names** instead.
+	- Other common metasyntactic variables include bar, baz, and 3-letter words that end in oo, such as goo, moo, and boo.
+
+## Function return values
+### Return values
+- A function can return a value or none at all.
+- A function has to indicate what type of value will be returned - which is done by setting the function's **return type** which is defined before the function's name.
+	- For example, if the function returns an integer value, then `int` needs to be indicated before the function name.
+- If the function does not return a value, it has to indicate that it doesn't, which can be done by setting the function's return type as `void`.
+	- Do not put a return statement at the end of a void function.
+- It's always a good idea to leave a comment indicating what the return values mean.
+
+### Status codes
+- The return value from `main()` is sometimes called a **status code (aka exit code)**, which is passed back to the caller of the program to indicate that the program has run successfully (or not).
+- If the status code is `0`, then the program ran normally.
+	- A non-zero status code is often used to indicate failure.
+- The C++ standard only defines the meaning of 3 status codes:
+	- `0`
+	- `EXIT_SUCCESS`
+	- `EXIT_FAILURE`
+
+### A value-returning function / no return value
+- A function that returns a value is called a **value-returning function**.
+	- Any function that is not `void` function is value-returning.
+- A value-returning function MUST return a value of that type, otherwise undefined behavior will result.
+- `main()` is the only exception to the rule, where it will implicitly return `0` if a return statement is not provided.
+
+### Functions return a single value
+- A value-returning function can only return a single value back to the caller each time it is called.
+- Note that the value provided in a return statement doesn't need to be literal - it can be the result of any valid expression, including a variable or even a call to another function that returns a value.
+- There are various ways to work around the single value limitation, which will be covered later on.
+
+### Don't Repeat Yourself
+- One of the central tenets of good programming and the main point of a function is "Don't Repeat Yourself" (DRY).
+	- If it takes several lines of code to complete a task and it needs to be repeated, it's better to turn it into a function so that only one line of code is repeated.
+- DRY is meant to be a guideline, not an absolute rule. DRY can harm overall comprehension when code is broken into pieces that are too small.
+
+## Intro to function parameters/arguments
+### Function parameters and arguments
+- A **function parameter** is a variable used in the header of a function which is initialized with a value provided by the caller of the function.
+- For example:
+
+```C++
+void printValue(int x)
+{
+	std::cout << x << std::endl;
+}
+```
+
+- In the example above, `int x` is the function parameter for the function `printValue()`. 
+- An argument is a value that is passed from the caller to the function when a function call is made.
+- For example:
+
+```C++
+printValue(5);
+```
+
+- In the example above, `5` is the argument passed to `printValue()`.
+
+### How parameters and arguments work together
+- When a function is called, all of the parameters of the function are created as variables, and the value of each of the arguments is copied into the matching parameter (using copy initialization). This process is called **pass-by-value**.
+	- Function parameters that utilize pass-by-value are called **value parameters**.
+- Note that the number of arguments must generally match the number of function parameters. Otherwise, the compiler will throw an error.
+- The argument passed to a function can be any valid expression, as the argument is essentially just an initializer for the parameter, and initializers can be any valid expression.
+
+### Using return values as arguments
+- A function can be called inside function header, using return values as arguments.
+	- For example, `foo(bar());`.
+
+### Unreferenced parameters
+- When a parameter is not used inside the function body, compiler sends out a warning that says **unreferenced parameter**.
