@@ -837,3 +837,31 @@ printValue(5);
 
 ### Functional separation
 - Variables with duplicate names but in different scopes does not conflict with each other - meaning, variable `x` defined in `foo()` is not the same as `x` defined in `bar()`.
+
+### Temporary objects
+- A temporary object (aka anonymous object) is an unnamed object that is created by the compiler to store a value temporarily.
+- There are many different ways that temporary values can be created. For example:
+
+```C++
+#include <iostream>
+
+int getValueFromUser()
+{
+ 	std::cout << "Enter an integer: ";
+	int input{};
+	std::cin >> input;
+
+	return input;
+}
+
+int main()
+{
+	std::cout << getValueFromUser() << '\n';
+
+	return 0;
+}
+```
+
+- In the example above, variable `input` is destroyed at the end of the function, and the caller receives a copy of the value. This copy of the value is stored in a temporary object, which is then passed to `std::cout` to be printed.
+- Temporary objects have no scope at all. They are destroyed at the end of the full expression in which they are created.
+- 
