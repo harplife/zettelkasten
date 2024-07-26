@@ -696,4 +696,7 @@ int main()
 ## Intro to expressions
 
 ### Expressions
+- An **expression** is a non-empty sequence of literals, variables, operators, and function calls that calculates a single value.
+- The process of executing an expression is called **evaluation**.
+- When an expression is evaluated, each of the terms inside the expression are evaluated, until a single value remains - referred to as the **result** of the expression.
 - 
