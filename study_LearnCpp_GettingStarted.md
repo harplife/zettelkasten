@@ -1017,3 +1017,20 @@ Remember, each of these methods has its own use cases and trade-offs. It's impor
 
 ---
 
+- If global variables have to be used, it's strongly encouraged to use a global constant variable.
+
+### Explicit namespace qualifier ::
+- The `::` symbol is an operator called the **scope resolution operator**.
+	- The identifier to the left of the `::` symbol identifies the namespace that the name to the right is contained within (e.g. `namespace::variable`).
+	- If no identifier on the left is provided, the global namespace is assumed.
+- For example, `std::cout` means `cout` that is declared in namespace `std`.
+- When an identifier includes a namespace prefix, the identifier is called a **qualified name**.
+
+### Using namespace std
+- There is a way to omit a namespace whenever a function/variable is used from that namespace, and that is to use a **using directive**.
+- The using directive statement is structured like `using namespace namespaceIdentifier;`.
+	- For example, `using namespace std;`. Once this is in place, `cout` can be called instead of `std::cout`.
+
+>[!warning]
+>Avoid using-directives at the top of your program or in header files. They violate the reason why namespaces were added in the first place.
+
