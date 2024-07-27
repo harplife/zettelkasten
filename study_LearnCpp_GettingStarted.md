@@ -1070,4 +1070,6 @@ Remember, each of these methods has its own use cases and trade-offs. It's impor
 - **object-like macros** can be defined in one of two ways:
 	1. `#define IDENTIFIER`
 	2. `#define IDENTIFIER substitution_text`
+- The identifier for a macro can use letters, numbers, and underscores. But it cannot start with a number, and should not start with an underscore.
+	- By convention, macro names are typically all upper-case, separated by underscores.
 - 
