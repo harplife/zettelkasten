@@ -866,5 +866,7 @@ int main()
 - Temporary objects have no scope at all. They are destroyed at the end of the full expression in which they are created.
 
 ## Forward declarations and definitions
-- The compiler compiles the contents of code files sequentially. When the compiler reaches a function that is not defined, the compiler will raise an error.
-- 
+- The compiler compiles the contents of code files sequentially. When the compiler reaches a function that is not defined (before it's called), the compiler will raise an error.
+- Having functions defined before it is called is a simple solution for a simple program, but in a larger complex program, it can be tedious trying to figure out which functions call which other functions (in what order).
+	- In fact, it becomes a problem when there are two or more functions that call upon each other. For example, if `foo()` calls `bar()` and `bar()` calls `foo()`, there is no way to order the functions to make it work.
+- A **forward declaration** allows us to tell the compiler about the existence of an identifier before actually defining the identifier.
