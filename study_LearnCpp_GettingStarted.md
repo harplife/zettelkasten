@@ -1034,3 +1034,11 @@ Remember, each of these methods has its own use cases and trade-offs. It's impor
 >[!warning]
 >Avoid using-directives at the top of your program or in header files. They violate the reason why namespaces were added in the first place.
 
+### Curly braces and indented code
+- In C++, curly braces are often used to delineate a scope region that is nested within another scope region.
+	- For example, a function defined inside the global scope uses curly braces to separate the scope region of the function from the global scope.
+- In certain cases, identifiers defined outside the curly braces may still be part of the scope defined by the curly braces rather than the surrounding scope.
+	- Function parameters are a good example of this.
+
+## Intro to preprocessor
+- 
