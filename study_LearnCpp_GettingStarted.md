@@ -915,3 +915,8 @@ int add(int x, int y)
 	- Within a file, each function, variable, type or template in a given scope can only have one definition. Definitions occurring in different scopes do not violate this rule.
 	- Within a program, each function or variable in a given scope can only have one definition. This rule exists because programs can have more than one file. Functions and variables not visible to the linker are excluded from this rule.
 	- Types, templates, inline functions, and inline variables are allowed to have duplicate definitions in different files, so long as each definition is identical.
+- Violating part 1 of the ODR will cause the compiler to issue a redefinition error.
+- Violating ODR part 2 will cause the linker to issue a redefinition error.
+- Violating ODR part 3 will cause undefined behavior.
+- Functions that share an identifier but have different sets of parameters are considered to be distinct functions. This is called **overloading**, and such definitions do not violate the ODR. More on this topic discussed later on.
+
