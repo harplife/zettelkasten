@@ -1041,4 +1041,26 @@ Remember, each of these methods has its own use cases and trade-offs. It's impor
 	- Function parameters are a good example of this.
 
 ## Intro to preprocessor
-- 
+- Prior to compilation, each code file (`.cpp`) goes through a **preprocessing** phase, where a program called the `preprocessor` makes various changes to the text of the code file according to the directives (instructions).
+- The preprocessor does not actually modify the original code files in any way; all changes happen either temporarily in-memory or using temporary files.
+- Some of the things that the preprocessor do:
+	- Strips out comments
+	- Ensures each code file ends in a newline
+	- Processes `#include` directives (more on this later)
+- When the preprocessor has finished processing a code file, the result is called a **translation unit**.
+	- The translation unit is then compiled by the compiler.
+- The entire process of preprocessing, compiling, and linking is called **translation**.
+
+### Preprocessor directives
+- When the preprocessor runs, it scans through the code file to find **preprocessor directives**, which tells the preprocessor to perform certain text manipulation tasks.
+	- Preprocessor directive start with a `#` symbol and end with a newline (no semicolon).
+- The preprocessor directives have their own syntax.
+- Although the term "directive" often means preprocessor directive, it is not always the case; the `using` directive is NOT a preprocessor directive.
+
+### Include directive
+- The `#include` directive tells the preprocessor to replace the directive with the contents of the included file.
+	- For example, `#include <iostream>` replaces the line with the contents of the `iostream`.
+- The included contents are then preprocessed, then the rest of the file is preprocessed.
+	- When the included contents are being preprocessed, the preprocessor directives in the included contents will be preprocessed too; this becomes a recursive process.
+
+### Macro defines
