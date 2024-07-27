@@ -944,3 +944,8 @@ int add(int x, int y)
 - A namespace provides another type of scope region (called **namespace scope**) that allows you to declare names inside of it for the purpose of disambiguation. Any names declared inside the namespace won't be mistaken for identical names in other scopes.
 - Only declarations and definitions can appear in the scope of a namespace (not executable statements).
 - Namespaces are often used to group related identifiers in a large project to help ensure they don't inadvertently collide with other identifiers.
+
+### The global namespace
+- Any name that is not defined inside a class, function, or a namespace is considered to be part of an implicitly-defined namespace called the **global namespace (global scope)**.
+- `main()` is defined inside the global namespace.
+- 
