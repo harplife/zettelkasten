@@ -1064,3 +1064,5 @@ Remember, each of these methods has its own use cases and trade-offs. It's impor
 	- When the included contents are being preprocessed, the preprocessor directives in the included contents will be preprocessed too; this becomes a recursive process.
 
 ### Macro defines
+- The `#define` directive can be used to create a **macro**, which is a rule that defines how input text is converted into replacement output text.
+- 
