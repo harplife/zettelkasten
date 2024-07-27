@@ -899,4 +899,19 @@ int add(int x, int y)
 >Main advantage of using forward declaration is that it allows us to use a function that is defined in a different code file.
 
 ### Forgetting the function body
-- 
+- One of the common mistakes that new programmers do is forgetting to define the function after the forward declaration has been made.
+	- In such case, the program may compile and run fine as long as the function is not called. However, if the function is called, the linker will raise error.
+
+### Declarations vs. definitions
+- A **declaration** tells the compiler about the existence of an identifier and its associated type information.
+	- Example: `int add(int x, int y);`, `int x;`
+- A **definition** is a declaration that actually implements or instantiates the identifier.
+	- Note that `int x;` is both a definition and a declaration.
+- Declarations that aren't definitions are called **pure declarations**.
+	- In common language, the term declaration is typically used to mean a pure declaration, and a definition is used to mean a definition that also serves as a declaration.
+
+### The one definition rule (ODR)
+- The one definition rule (ODR) is a well-known rule in C++ that consists of three parts:
+	- Within a file, each function, variable, type or template in a given scope can only have one definition. Definitions occurring in different scopes do not violate this rule.
+	- Within a program, each function or variable in a given scope can only have one definition. This rule exists because programs can have more than one file. Functions and variables not visible to the linker are excluded from this rule.
+	- Types, templates, inline functions, and inline variables are allowed to have duplicate definitions in different files, so long as each definition is identical.
