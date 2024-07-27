@@ -1066,4 +1066,8 @@ Remember, each of these methods has its own use cases and trade-offs. It's impor
 ### Macro defines
 - The `#define` directive can be used to create a **macro**, which is a rule that defines how input text is converted into replacement output text.
 - There are two basic types of macros: object-like macros, and function-like macros.
+- **Function-like macros** act like functions, and serve a similar purpose. Their use is generally considered unsafe, and almost anything they can do can be done by a normal function.
+- **object-like macros** can be defined in one of two ways:
+	1. `#define IDENTIFIER`
+	2. `#define IDENTIFIER substitution_text`
 - 
