@@ -920,3 +920,27 @@ int add(int x, int y)
 - Violating ODR part 3 will cause undefined behavior.
 - Functions that share an identifier but have different sets of parameters are considered to be distinct functions. This is called **overloading**, and such definitions do not violate the ODR. More on this topic discussed later on.
 
+## Programs with multiple code files
+- As programs get larger, it is common to split them into multiple files for organizational or reusability purposes.
+- IDEs provide functionalities to manage files in a project.
+- The compiler compiles each file individually. It does not know about the contents of other code files, or remember anything it has been from previously compiled code files.
+- The limited visibility and short memory is intentional, for a few reasons:
+	- It allows the source files of a project to be compiled in any order.
+	- When we change a source file, only that source file needs to be recompiled.
+	- It reduces the possibility of naming conflicts between identifiers in different files.
+- In order to call a function that is defined in another file, forward declaration of the function needs to be made (in current file).
+
+>[!warning]
+>Even if you create a file in the same project folder via File Explorer (Windows), some IDEs may ignore that file. It's best to create to create a new file by using the IDE, or add the file to the project manually.
+
+## Naming collisions and an introduction to namespaces
+
+### Naming collisions
+- When a compiler or linker can't tell apart two identical identifiers, they will produce an error - referred to as **naming collision/conflict**.
+	- Note that this error will occur even if these two functions are defined in separate files.
+	- This error will occur even if the function is not called.
+
+### Namespaces
+- A namespace provides another type of scope region (called **namespace scope**) that allows you to declare names inside of it for the purpose of disambiguation. Any names declared inside the namespace won't be mistaken for identical names in other scopes.
+- Only declarations and definitions can appear in the scope of a namespace (not executable statements).
+- Namespaces are often used to group related identifiers in a large project to help ensure they don't inadvertently collide with other identifiers.
