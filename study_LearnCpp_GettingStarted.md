@@ -866,4 +866,4 @@ int main()
 - Temporary objects have no scope at all. They are destroyed at the end of the full expression in which they are created.
 
 ## Forward declarations and definitions
-- 
+- The compiler compiles the contents of cod files sequentially. When the compiler reaches a function that is not defined, the compiler will raise an error.
