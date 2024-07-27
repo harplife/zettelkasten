@@ -1074,4 +1074,32 @@ Remember, each of these methods has its own use cases and trade-offs. It's impor
 	- By convention, macro names are typically all upper-case, separated by underscores.
 
 ### Object-like macros with substitution text
-- 
+- When the preprocessor encounters this directive, any further occurrence of the identifier is replaced by `substitution_text`. The identifier is traditionally typed in all capital letters, using underscores to represent spaces.
+- Consider the following program:
+
+```C++
+#include <iostream>
+
+#define MY_NAME "Alex"
+
+int main()
+{
+    std::cout << "My name is: " << MY_NAME << '\n';
+
+    return 0;
+}
+```
+
+- The preprocessor converts the above into the following:
+
+```C++
+// The contents of iostream are inserted here
+
+int main()
+{
+    std::cout << "My name is: " << "Alex" << '\n';
+
+    return 0;
+}
+```
+
