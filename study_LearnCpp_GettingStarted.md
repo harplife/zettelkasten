@@ -870,3 +870,5 @@ int main()
 - Having functions defined before it is called is a simple solution for a simple program, but in a larger complex program, it can be tedious trying to figure out which functions call which other functions (in what order).
 	- In fact, it becomes a problem when there are two or more functions that call upon each other. For example, if `foo()` calls `bar()` and `bar()` calls `foo()`, there is no way to order the functions to make it work.
 - A **forward declaration** allows us to tell the compiler about the existence of an identifier before actually defining the identifier.
+	- When the compiler encounters a call to the function that is not yet defined but declared instead, it'll check to make sure the function is being called correctly but won't execute the function call until the function definition is found.
+- 
