@@ -948,4 +948,72 @@ int add(int x, int y)
 ### The global namespace
 - Any name that is not defined inside a class, function, or a namespace is considered to be part of an implicitly-defined namespace called the **global namespace (global scope)**.
 - `main()` is defined inside the global namespace.
-- 
+- Although variables can be defined in the global namespace, this should generally be avoided.
+
+---
+
+There are several ways for multiple functions to share a variable without using a global variable in C++. Here are a few methods:
+
+1. **Passing by Reference**: You can pass the variable as a reference to the functions that need to access or modify it. This allows the functions to share the same variable.
+    ```cpp
+    void func1(int& x) {
+        x += 5;
+    }
+
+    void func2(int& x) {
+        x *= 2;
+    }
+
+    int main() {
+        int a = 10;
+        func1(a);
+        func2(a);
+        std::cout << a << std::endl; // Outputs 30
+        return 0;
+    }
+    ```
+
+2. **Static Local Variables**: You can declare a variable as `static` inside a function. A static local variable retains its value between function calls and is shared by all calls to that function.
+    ```cpp
+    void func() {
+        static int x = 0;
+        x += 5;
+        std::cout << x << std::endl;
+    }
+
+    int main() {
+        func(); // Outputs 5
+        func(); // Outputs 10
+        return 0;
+    }
+    ```
+
+3. **Class Members**: If the functions are methods of the same class, they can share a variable by making it a member of the class.
+    ```cpp
+    class MyClass {
+    public:
+        int x;
+
+        void func1() {
+            x += 5;
+        }
+
+        void func2() {
+            x *= 2;
+        }
+    };
+
+    int main() {
+        MyClass obj;
+        obj.x = 10;
+        obj.func1();
+        obj.func2();
+        std::cout << obj.x << std::endl; // Outputs 30
+        return 0;
+    }
+    ```
+
+Remember, each of these methods has its own use cases and trade-offs. It's important to choose the one that best fits your needs based on the specific requirements of your program.
+
+---
+
