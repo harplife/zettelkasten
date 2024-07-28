@@ -1227,4 +1227,4 @@ int main()
 >Remember, when you define something in a header file, you should use include guards (`#ifndef`, `#define`, `#endif`) or `#pragma once` to prevent multiple inclusion of the same header file, which could lead to redefinition errors.
 
 ### Using standard library header files
-- `std::cout` has been forward declared
+- `std::cout` has been forward declared in the `iostream` header file.
