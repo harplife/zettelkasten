@@ -1138,4 +1138,18 @@ int main()
 - `#ifndef` is the opposite of `#ifdef`.
 
 >[!important]
+>Conditional compilation in C++ is primarily used for the following purposes:
 >
+>1. **Platform-Specific Code**: You can use conditional compilation to include or exclude code based on the platform (operating system, processor type, etc.) the program is being compiled on. This is useful when certain code is only applicable or optimal for specific platforms.
+>
+>2. **Debugging and Testing**: Conditional compilation is often used to include debugging or testing code that should not be part of the final release version of the program. For example, you might have additional logging or assertions in a debug build that are disabled in a release build.
+>
+>3. **Feature Flags**: You can use conditional compilation to enable or disable features in your program. This can be useful for gradually rolling out new features, or for disabling features that aren't ready yet.
+>
+>4. **Backward Compatibility**: If you're working with different versions of a library or a language feature, conditional compilation can help manage code that should only be compiled with certain versions.
+>
+>Remember, while conditional compilation is a powerful tool, it can also make code harder to read and maintain if overused. It's generally a good idea to minimize the amount of conditionally compiled code in your program.
+
+### \#if 0
+- One way to use conditional compilation is to comment out a block of code, which can be done by using `#if 0` directive.
+- Note that multi-line comments cannot be nested; meaning, a code block that already contains a 
