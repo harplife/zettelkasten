@@ -1207,4 +1207,5 @@ int main()
 	- In other words, directives defined in one file do not have any impact on other files (unless they are included into another file).
 
 ## Header files
-- Along with C++ code files (with `.cpp` extension), there is another type of file called a **header file**. 
+- Along with C++ code files (with `.cpp` extension), there is another type of file called a **header file** with an extension `.h`, `.hpp`, or none at all.
+- 
