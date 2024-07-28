@@ -1206,3 +1206,5 @@ int main()
 - Once the preprocessor has finished, all defined identifiers from that file are discarded. This means that directives are only valid from the point of definition to the end of the file in which they are defined.
 	- In other words, directives defined in one file do not have any impact on other files (unless they are included into another file).
 
+## Header files
+- Along with C++ code files (with `.cpp` extension), there is another type of file called a **header file**. 
