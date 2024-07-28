@@ -1103,3 +1103,5 @@ int main()
 }
 ```
 
+>[!warning]
+>Object-like macros with substitution text were used (in C) as a way to assign names to literals. This is no longer necessary, as better methods are available in C++.
