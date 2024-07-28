@@ -1108,8 +1108,32 @@ int main()
 
 ### Object-like macros without substitution text
 - Macros of this form work like you'd expect - any further occurrence of the identifier is removed and replaced by nothing.
-- Unlike object-like macros with substitution text, macros of this form are generally acceptable to use; more on this later.
+- Unlike object-like macros with substitution text, macros of this form are generally acceptable to use; especially so with conditional compilation.
 
 ### Conditional compilation
 - The **conditional compilation** preprocessor directives allow you to specify under what conditions something will or won't compile. There are quite a few different conditional compilation directives, but the three most used are: `#ifdef`, `#ifndef`, and `#endif`.
-- 
+- The `#ifdef` preprocessor directive allows the preprocessor to check whether an identifier has been previously `#defined`. If so, the code between the `#ifdef` and matching `#endif` is compiled. If not, the code is ignored.
+- Consider the following program:
+
+```C++
+#include <iostream>
+
+#define PRINT_JOE
+
+int main()
+{
+#ifdef PRINT_JOE
+    std::cout << "Joe\n"; // will be compiled
+#endif
+
+#ifdef PRINT_BOB
+    std::cout << "Bob\n"; // will be excluded
+#endif
+
+    return 0;
+}
+```
+
+- The code example above prints `Joe\n` because `PRINT_JOE` is defined.
+- `#ifndef` is the opposite of `#ifdef`.
+- This feature
