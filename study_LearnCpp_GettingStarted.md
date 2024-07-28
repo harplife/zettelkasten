@@ -1104,4 +1104,11 @@ int main()
 ```
 
 >[!warning]
->Object-like macros with substitution text were used (in C) as a way to assign names to literals. This is no longer necessary, as better methods are available in C++.
+>Object-like macros with substitution text were used (in C) as a way to assign names to literals. This is no longer necessary, as better methods are available in C++. Object-like macros with substitution text are now typically only seen in legacy code, and it's best to avoid using them.
+
+### Object-like macros without substitution text
+- Macros of this form work like you'd expect - any further occurrence of the identifier is removed and replaced by nothing.
+- Unlike object-like macros with substitution text, macros of this form are generally acceptable to use; more on this later.
+
+### Conditional compilation
+- 
