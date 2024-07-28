@@ -1207,5 +1207,22 @@ int main()
 	- In other words, directives defined in one file do not have any impact on other files (unless they are included into another file).
 
 ## Header files
+
+### Headers and their purpose
 - Along with C++ code files (with `.cpp` extension), there is another type of file called a **header file** with an extension `.h`, `.hpp`, or none at all.
-- 
+
+>[!important]
+>In C++, a header file (with the `.h` or `.hpp` extension) serves several important purposes:
+>
+>1. **Function Declarations**: Header files are commonly used to declare functions. This allows these functions to be used (called) in other source files that include the header file.
+>
+>2. **Type Definitions**: You can define new types (like `struct`, `class`, `enum`, `typedef`, etc.) in a header file. These types can then be used in other source files that include the header file.
+>
+>3. **Constant Definitions**: Constants that are used in multiple source files are often defined in a header file.
+>
+>4. **Template Definitions**: Unlike function and class declarations, template definitions (the actual implementation of a template function or class) have to be in the header file, because the compiler needs to have access to the entire template definition to generate code for each instantiation of the template.
+>
+>5. **Inline Function Definitions**: Definitions of inline functions must be in the header file. Like templates, the compiler needs to have access to the entire function definition to generate inline code.
+>
+>Remember, when you define something in a header file, you should use include guards (`#ifndef`, `#define`, `#endif`) or `#pragma once` to prevent multiple inclusion of the same header file, which could lead to redefinition errors.
+
