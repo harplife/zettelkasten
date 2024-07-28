@@ -1111,4 +1111,5 @@ int main()
 - Unlike object-like macros with substitution text, macros of this form are generally acceptable to use; more on this later.
 
 ### Conditional compilation
+- The **conditional compilation** preprocessor directives allow you to specify under what conditions something will or won't compile. There are quite a few different conditional compilation directives, but the three most used are: `#ifdef`, `#ifndef`, and `#endif`.
 - 
