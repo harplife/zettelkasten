@@ -1152,4 +1152,27 @@ int main()
 
 ### \#if 0
 - One way to use conditional compilation is to comment out a block of code, which can be done by using `#if 0` directive.
-- Note that multi-line comments cannot be nested; meaning, a code block that already contains a 
+- Note that multi-line comments cannot be nested; meaning, a code block that already contains a multi-line comment cannot be commented out using another multi-line comment.
+	- `#if 0` provides a convenient way to circumvent this issue.
+- Example:
+
+```C++
+#include <iostream>
+
+int main()
+{
+    std::cout << "Joe\n";
+
+#if 0 // Don't compile anything starting here
+    std::cout << "Bob\n";
+    /* Some
+     * multi-line
+     * comment here
+     */
+    std::cout << "Steve\n";
+#endif // until this point
+
+    return 0;
+}
+```
+
