@@ -1176,3 +1176,30 @@ int main()
 }
 ```
 
+### object-like macros don't affect other preprocessor directives
+- Macros only cause text substitution for non-preprocessor commands.
+
+### The scope of \#defines
+- Directives are resolved before compilation, from top to bottom on a file-by-file basis.
+- Because `#include` directive replaces the `#include` directive with the content of the included file, the directives from the included file are copied into the current file. These directives will then be processed in order.
+- Consider this example:
+
+Alex.h:
+```C++
+#define MY_NAME "Alex"
+```
+
+main.cpp:
+```C++
+#include "Alex.h" // copies #define MY_NAME from Alex.h here
+#include <iostream>
+
+int main()
+{
+	std::cout << "My name is: " << MY_NAME << '\n';
+
+	return 0;
+}
+```
+
+- In the example above, `MY_NAME` is replaced with `"Alex"`.
