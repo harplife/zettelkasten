@@ -1309,6 +1309,12 @@ int add(int x, int y)
 #endif // MY_HEADER_H
 ```
 
+- It's best practice to set the identifier as all caps, full filename, and ending with `_H` to indicate a header file is being included.
+	- For example, `my_header.h` is referred to as `MY_HEADER_H`.
+- Because there is a possibility that two separate header files from different directories may have a same filename (in large projecdts), it's recommended to use more complex/unique name in header guards. Examples:
+	- `PROJECT_PATH_FILE_H`
+	- `FILE_LARGE-RANDOM-NUMBER_H`
+	- `FILE_CREATION-DATE_H`
 - As an alternative to the `#ifndef`, `#define`, and `#endif` pattern, some compilers also support `#pragma once`, which serves the same purpose and is placed at the top of the file.
 	- However, this method is not part of the C++ standard.
-- 
+
