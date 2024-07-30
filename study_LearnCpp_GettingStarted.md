@@ -1311,3 +1311,4 @@ int add(int x, int y)
 
 - As an alternative to the `#ifndef`, `#define`, and `#endif` pattern, some compilers also support `#pragma once`, which serves the same purpose and is placed at the top of the file.
 	- However, this method is not part of the C++ standard.
+- 
