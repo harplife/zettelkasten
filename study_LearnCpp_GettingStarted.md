@@ -1297,4 +1297,17 @@ int add(int x, int y)
 	4. Standard library headers
 
 ## Header guards
-- 
+- A **header guard (aka include guard)** is a way to prevent a header file from being included multiple times in the same file or in other files that include it. This is important because including the same declarations multiple times can lead to redefinition errors.
+- Here's how a typical header guard looks:
+
+```C++
+#ifndef MY_HEADER_H
+#define MY_HEADER_H
+
+// declarations here
+
+#endif // MY_HEADER_H
+```
+
+- As an alternative to the `#ifndef`, `#define`, and `#endif` pattern, some compilers also support `#pragma once`, which serves the same purpose and is placed at the top of the file.
+	- However, this method is not part of the C++ standard.
