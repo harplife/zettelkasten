@@ -1228,4 +1228,5 @@ int main()
 
 ### Using standard library header files
 - `std::cout` has been forward declared in the `iostream` header file, and defined somewhere else depending on the compiler being used.
-- 
+
+### Forward declaration with header files
