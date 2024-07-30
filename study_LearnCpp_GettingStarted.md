@@ -1230,4 +1230,39 @@ int main()
 - Functions such as `std::cout` has been forward declared in the `iostream` header file, and defined somewhere else depending on the compiler being used.
 
 ### Forward declaration with header files
-- One of the most common usage of the header files will be
+- One of the most common usage of the header files is to propagate forward declarations by including headers
+- Example:
+
+add.h
+```
+int add(int x, int y);
+```
+
+main.cpp
+```C++
+#include "add.h"
+#include <iostream>
+
+int main()
+{
+    std::cout << "The sum of 3 and 4 is " << add(3, 4) << '\n';
+    return 0;
+}
+```
+
+add.cpp
+```C++
+#include "add.h"
+
+int add(int x, int y)
+{
+    return x + y;
+}
+```
+
+- Reminder that function definitions inside header files is highly discouraged.
+
+### Do not include source files
+- `#include` directives should always be used to include header files - and never source files `.cpp`.
+	- The preprocessor will allow including source files, but this invites many troubles along the way.
+- 
