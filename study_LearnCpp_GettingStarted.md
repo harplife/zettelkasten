@@ -1284,4 +1284,17 @@ int add(int x, int y)
 ### Headers may include other headers
 - It's common that a header file will need a declaration/definition that lives in a different header file. Because of this, header files will often include other header files.
 - The additional header files that are included by other header files is called **transitive includes**.
-- The content of the transitive includes are available for use in your code file. However, you generally should not rely on the content of headers that are included transitively. 
+- The content of the transitive includes are available for use in your code file. However, you generally should not rely on the content of headers that are included transitively. The implementation of header files may change over time, or be different across different systems.
+	- This is easily avoided by explicitly including all of the header files the content of your code file requires.
+- Unfortunately, there is no easy way to detect when your code file is accidentally relying on content of a header file that has been included by another header file.
+
+### The include order of header files
+- If your header files are written properly and includes everything they need, the order of inclusion shouldn't matter. What matters is if there is a missing include, it should be flagged by the compiler.
+- To maximize the chance that missing includes will be flagged by compiler, order the `#include` directives as follows:
+	1. The paired header files (header that pairs with a code file) from your project
+	2. Other header files from your project
+	3. 3rd party library headers
+	4. Standard library headers
+
+## Header guards
+- 
