@@ -1284,4 +1284,4 @@ int add(int x, int y)
 ### Headers may include other headers
 - It's common that a header file will need a declaration/definition that lives in a different header file. Because of this, header files will often include other header files.
 - The additional header files that are included by other header files is called **transitive includes**.
-- 
+- The content of the transitive includes are available for use in your code file. However, you generally should not rely on the content of headers that are included transitively. 
