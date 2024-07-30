@@ -1270,4 +1270,18 @@ int add(int x, int y)
 - The way you specify the file to be included with `#include` directive can affect how the compiler searches for it.
 - If you use quotation marks, the compiler first looks for the file in the same directory as the current file. If it doesn't find the file there, it then searches in the directories specified by the include path. This is typically used for including project-specific headers.
 	- `#include "my_header.h"`
+- If you use angled brackets, the compiler only searches in the directories specified by the include path. It does not look in the same directory as the current file. This is typically used for including headers from the standard library or other libraries installed on your system.
+	- `#include <iostream>`
+
+### Including header files from other directories
+- One way to include header files from other directories is to use the relative path.
+	- For example, `#include "../others/otherHeader.h"`
+- Absolute path works too.
+- Another way to include header files is to add the path to the header folder in the IDE's setting.
+	- Visual Studio has a setting called "Include Directories"
+- It's recommended to use the IDE's settings because it'd become a hassle to fix the code in every code file if there's ever a structural change to the project.
+
+### Headers may include other headers
+- It's common that a header file will need a declaration/definition that lives in a different header file. Because of this, header files will often include other header files.
+- The additional header files that are included by other header files is called **transitive includes**.
 - 
