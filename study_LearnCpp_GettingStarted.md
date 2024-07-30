@@ -1266,4 +1266,8 @@ int add(int x, int y)
 - `#include` directives should always be used to include header files - and never source files `.cpp`.
 	- The preprocessor will allow including source files, but this invites many troubles along the way.
 
-### 
+### Angled brackets vs. double quotes
+- The way you specify the file to be included with `#include` directive can affect how the compiler searches for it.
+- If you use quotation marks, the compiler first looks for the file in the same directory as the current file. If it doesn't find the file there, it then searches in the directories specified by the include path. This is typically used for including project-specific headers.
+	- `#include "my_header.h"`
+- 
