@@ -1603,3 +1603,56 @@ signed long long w;
 >For fun reading, refer to https://en.wikipedia.org/wiki/Nuclear_Gandhi
 
 - Because of the wrap-around behavior of unsigned integers, it's recommended to avoid using unsigned integers.
+
+---
+
+Unsigned integers are useful in several real-life scenarios where negative values are not meaningful or allowed. Here are some examples:
+
+1. **Counting and Indexing**: When you need to count items or index arrays, negative values don't make sense. Using unsigned integers ensures that your counts and indices are always non-negative.
+
+```cpp
+std::vector<int> myVector(10);
+for (unsigned int i = 0; i < myVector.size(); ++i) {
+    // Do something with myVector[i]
+}
+```
+
+2. **Memory Addresses**: Memory addresses are inherently non-negative. Using unsigned integers to represent memory addresses ensures that you don't accidentally use negative values.
+
+```cpp
+uintptr_t address = reinterpret_cast<uintptr_t>(ptr);
+```
+
+3. **Bit Manipulation**: When performing bitwise operations, unsigned integers are often used because they provide a clear representation of the bits without the complications of sign bits.
+
+```cpp
+unsigned int flags = 0b1010;
+flags |= 0b0100; // Set a bit
+```
+
+4. **File Sizes and Offsets**: File sizes and offsets are always non-negative. Using unsigned integers to represent these values ensures that you don't accidentally use negative values.
+
+```cpp
+std::ifstream file("example.txt", std::ios::binary);
+file.seekg(0, std::ios::end);
+unsigned int fileSize = file.tellg();
+```
+
+5. **Network Protocols**: Many network protocols use unsigned integers to represent various fields, such as packet lengths, sequence numbers, and port numbers. Using unsigned integers ensures that these values are always non-negative.
+
+```cpp
+unsigned short port = 8080;
+```
+
+6. **Graphics and Game Development**: In graphics and game development, unsigned integers are often used to represent color values, texture coordinates, and other attributes that are inherently non-negative.
+
+```cpp
+unsigned char red = 255;
+unsigned char green = 128;
+unsigned char blue = 64;
+```
+
+These are just a few examples of where unsigned integers are necessary and useful. Using unsigned integers in these scenarios helps to prevent errors and ensures that your code behaves as expected.
+
+---
+
