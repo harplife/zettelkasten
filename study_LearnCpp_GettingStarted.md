@@ -1597,3 +1597,9 @@ signed long long w;
 >
 >Most compilers will give a warning when an overflow occurs, with context such as "the integer literal is out-of-range for the given type".
 
+>[!sidenote] Nuclear Gandhi Meme
+>In computer science, an example of unsigned integer overflow often includes a meme known as "Nuclear Gandhi". In a PC game Civilization, Gandhi was known for being nuke crazy despite his expected passive nature. People speculated that Gandhi's aggression setting was related to unsigned integer overflow; however, the devs denied this to be true.
+>
+>For fun reading, refer to https://en.wikipedia.org/wiki/Nuclear_Gandhi
+
+- Because of the wrap-around behavior of unsigned integers, it's recommended to avoid using unsigned integers.
