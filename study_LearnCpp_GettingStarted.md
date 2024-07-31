@@ -1325,6 +1325,6 @@ int add(int x, int y)
 	- The `#ifndef` directive will not stop a macro from being defined because the definition only lasts until the end of file.
 - Note that main usage for the header guard is to prevent redefinition of a function within the same file.
 
-### Avoiding definitions in header files
+### Custom type definition in header files
 - While it's generally recommended not to define anything in header files, there are some cases where it's necessary to put the definitions in a header file.
 - 
