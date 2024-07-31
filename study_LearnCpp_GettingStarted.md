@@ -1466,5 +1466,8 @@ Skipping, refer to https://www.learncpp.com/cpp-tutorial/using-an-integrated-deb
 	- `void`
 - Note that `string` is not a fundamental data type, instead it is considered a compound type. More on this later.
 - Many of the types defined in newer versions of C++ use a `_t` suffix. This suffix means "type".
-- 
+
+## Object sizes and the sizeof operator
+- Although it's been stated before that each byte of memory gets assigned a unique address, it's not quite true - it's just an analogy to help understand memory better. The truth is that the amount of memory that an object uses is based on its data type, and most data types take up more than 1 byte of memory.
+- Although we typically access memory through variable names and not directly via memory addresses, there are several reasons it is useful to know how much memory an object uses.
 
