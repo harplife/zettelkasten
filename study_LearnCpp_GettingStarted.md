@@ -1586,7 +1586,14 @@ signed long long w;
 - An n-bit unsigned variable has a range of $[0, 2^n-1]$.
 	- The range of an 8-bit unsigned integer is `0` to `255`.
 
->[!warning] Modulo wrapping
+>[!warning] Unsigned integer overflow?
 >There isn't technically an overflow for unsigned integer. When a number beyond the type's range is given, the number simply "wraps around"; that is to say, the number is divided by one greater than the largest number of the type and only the remainder is kept.
 >
 >For example, assigning a value of `280` for 8-bit unsigned integer results in `280 % 256 = 24`.
+>
+>Wrap around works with negative numbers a bit differently. The result is the sum of the number and one greater than the largest number of the type.
+>
+>For example, assigning a value of `-1` for 8-bit unsigned integer results in `256 + (-1) = 255`.
+>
+>Most compilers will give a warning when an overflow occurs, with context such as "the integer literal is out-of-range for the given type".
+
