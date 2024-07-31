@@ -1407,3 +1407,51 @@ std::cerr << "main() called\n";
 	- **glog**: This is Google's C++ logging module. It provides application-level logging based on C++-style streams and various helper macros.
 	- **Apache Log4cxx**: This is a logging framework for C++ patterned after Apache log4j. It uses Apache Portable Runtime for most platform-specific code and should be usable on any platform supported by APR.
 	- **CppLogging**: This C++ Logging Library provides functionality to log different events with a high throughput in a multithreaded environment into different sinks (console, files, rolling files, syslog, etc.).
+- An example of using `plog` for logging:
+
+```C++
+#include <plog/Log.h> // Step 1: include the logger headers
+#include <plog/Initializers/RollingFileInitializer.h>
+#include <iostream>
+
+int getUserInput()
+{
+	PLOGD << "getUserInput() called"; // PLOGD is defined by the plog library
+
+	std::cout << "Enter a number: ";
+	int x{};
+	std::cin >> x;
+	return x;
+}
+
+int main()
+{
+	plog::init(plog::debug, "Logfile.txt"); // Step 2: initialize the logger
+
+	PLOGD << "main() called"; // Step 3: Output to the log as if you were writing to the console
+
+	int x{ getUserInput() };
+	std::cout << "You entered: " << x << '\n';
+
+	return 0;
+}
+```
+
+- Note that debugging can be toggled on/off by replacing `plog::debug` with `plog::none` in step 2.
+
+## Integrated debugger
+Skipping, refer to https://www.learncpp.com/cpp-tutorial/using-an-integrated-debugger-stepping/
+
+## Intro to fundamental data types
+### Bits, bytes, and memory address
+- To recap briefly, computers have RAM that is available for programs to use. When a variable is defined, a piece of that memory is set aside for that variable.
+- The smallest unit of memory is a **binary digit (aka bit)**, which can hold a value of 0 or 1.
+- Memory is organized into sequential units called **memory addresses**, where we can find and access the contents of memory at a particular location.
+- In modern computer architectures, memory address is not assigned to each bit; instead, it gets assigned to each **byte** (8 sequential bits).
+
+### Data types
+- A **data type** is a sequence of bits that are arranged in a meaningful way.
+	- For example, a sequence of bits `01000001` can be interpreted as an integer value of `65`.
+
+### Fundamental data types
+- 
