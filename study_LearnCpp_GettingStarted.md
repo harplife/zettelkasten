@@ -1358,3 +1358,43 @@ Skipped - refer to https://www.learncpp.com/cpp-tutorial/how-to-design-your-firs
 - There are ways to improve debug statements, such as using conditional compilation and using a logger.
 
 ### Debugging with conditional compilation
+- Using conditional compilation (`#define`, `#ifdef`, and `#endif`), debugging statements can be turned on or off. For example:
+
+
+```C++
+#include <iostream>
+
+#define ENABLE_DEBUG // comment out to disable debugging
+
+int getUserInput()
+{
+#ifdef ENABLE_DEBUG
+std::cerr << "getUserInput() called\n";
+#endif
+	std::cout << "Enter a number: ";
+	int x{};
+	std::cin >> x;
+	return x;
+}
+
+int main()
+{
+#ifdef ENABLE_DEBUG
+std::cerr << "main() called\n";
+#endif
+    int x{ getUserInput() };
+    std::cout << "You entered: " << x << '\n';
+
+    return 0;
+}
+```
+
+- In the example above, debugging statements using `std::cerr` can be toggled on/off by un/commenting out `#define ENABLE_DEBUG`.
+- Downside of this approach is that it creates more code clutter, and introduces possibility of human errors where debug features only work partially or none at all.
+
+### Using a logger
+- An alternative approach to conditionalized debugging is to send the debugging information to a a log.
+- A **log** is a sequential record of events that have happened, usually time-stamped.
+- The process of generating a log is called **logging**.
+- Typically, logs are written to a file on a disk (called a **log file**) so they can be reviewed later.
+- 
