@@ -1397,4 +1397,7 @@ std::cerr << "main() called\n";
 - A **log** is a sequential record of events that have happened, usually time-stamped.
 - The process of generating a log is called **logging**.
 - Typically, logs are written to a file on a disk (called a **log file**) so they can be reviewed later.
+- Log files have a few advantages:
+	- Debug output is separated from normal output, therefore less cluttering and more readability.
+	- Log files can be easily sent to other people for diagnosis.
 - 
