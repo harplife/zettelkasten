@@ -1469,5 +1469,45 @@ Skipping, refer to https://www.learncpp.com/cpp-tutorial/using-an-integrated-deb
 
 ## Object sizes and the sizeof operator
 - Although it's been stated before that each byte of memory gets assigned a unique address, it's not quite true - it's just an analogy to help understand memory better. The truth is that the amount of memory that an object uses is based on its data type, and most data types take up more than 1 byte of memory.
-- Although we typically access memory through variable names and not directly via memory addresses, there are several reasons it is useful to know how much memory an object uses.
+
+>[!important]
+>Although we typically access memory through variable names and not directly via memory addresses, there are several reasons it is useful to know how much memory an object uses.
+>
+>1. **Memory Management**: When you're working on systems with limited memory resources, such as embedded systems or mobile devices, knowing the size of objects helps you manage memory more efficiently. This can prevent memory overflows and optimize the use of available memory.
+>
+>2. **Performance Optimization**: In performance-critical applications, such as game development or high-frequency trading systems, knowing the size of objects can help you optimize memory access patterns. Smaller objects can lead to better cache utilization and faster access times.
+>
+>3. **Data Structures**: When designing data structures, such as linked lists, trees, or hash tables, knowing the size of the objects stored in these structures can help you estimate the overall memory footprint and choose the most appropriate data structure for your needs.
+>
+>4. **Serialization and Networking**: When sending data over a network or saving it to a file, knowing the size of objects helps you allocate the correct amount of memory for serialization and deserialization. This ensures that data is transmitted or stored efficiently.
+>
+>5. **Debugging and Profiling**: When debugging memory-related issues, such as memory leaks or buffer overflows, knowing the size of objects can help you identify the source of the problem. Profiling tools often provide information about the memory usage of objects, which can be used to optimize your code.
+>
+>6. **Custom Allocators**: In scenarios where you implement custom memory allocators, knowing the size of objects is crucial for allocating and deallocating memory blocks correctly. This is often used in real-time systems or applications with specific memory management requirements.
+>
+>7. **Interfacing with Hardware**: When interfacing with hardware devices, such as graphics cards or network interfaces, knowing the size of objects can help you correctly configure memory buffers and ensure efficient data transfer between the CPU and the hardware.
+
+- New programmers often focus too much on optimizing their code to use as little memory as possible. In most cases, this makes a negligible difference. Focus on writing maintainable code, and optimize only when and where the benefit will be substantive.
+
+### Fundamental data type sizes
+- The C++ standard does not define the exact size (in bits) for any of the fundamental types; it does define what minimum size should be under some assumptions:
+	- A byte is 8 bits
+	- Memory is byte addressable, so the smallest object is 1 byte
+	- Floating point support is IEEE-754 compliant
+	- Either 32-bit or 64-bit architecture computer is being used
+- With the assumptions above, it can be said that:
+
+![[Pasted image 20240731154252.png]]
+
+- If a program must assume that a type has a certain size, it's possible to have the compiler fail a build if it is compiled on an architecture where this assumption is not true. More on this later.
+
+### The sizeof operator
+- C++ provides an operator named `sizeof()` that takes either a type or a variable and returns its size in bytes. For example:
+	- `sizeof(bool)` should return `1` (byte).
+	- `int x = 8; sizeof(x);` should return `4` (bytes).
+- Note that using `sizeof()` on an incomplete type (such as `void`) will result in a compilation error.
+
+>[!important]
+>Types that use less memory is not always faster to process than types that use more memory.
+>CPUs are often optimized to process data of a certain size (e.g. 32 bits), and types that match that size may be processed quicker.
 
