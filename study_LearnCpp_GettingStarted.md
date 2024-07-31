@@ -1311,10 +1311,16 @@ int add(int x, int y)
 
 - It's best practice to set the identifier as all caps, full filename, and ending with `_H` to indicate a header file is being included.
 	- For example, `my_header.h` is referred to as `MY_HEADER_H`.
-- Because there is a possibility that two separate header files from different directories may have a same filename (in large projecdts), it's recommended to use more complex/unique name in header guards. Examples:
+- Because there is a possibility that two separate header files from different directories may have a same filename (in large projects), it's recommended to use more complex/unique name in header guards. Examples:
 	- `PROJECT_PATH_FILE_H`
 	- `FILE_LARGE-RANDOM-NUMBER_H`
 	- `FILE_CREATION-DATE_H`
 - As an alternative to the `#ifndef`, `#define`, and `#endif` pattern, some compilers also support `#pragma once`, which serves the same purpose and is placed at the top of the file.
 	- However, this method is not part of the C++ standard.
 
+### Header guards do not prevent a header from being included into different code files
+- As a reminder from previous lessons, the lifetime of a definition ends with the file. Meaning, a compiler will not consider a function defined in a file to be defined in another file.
+- Taking the fact above into consideration, a header file that is included in multiple files will invoke a `define` directive even if the header guard is in place.
+	- This means that if a function is defined in the header file and the header file is included in multiple code files, then the function will be defined multiple times - which leads to redefinition error that the linker raises.
+	- The `#ifndef` directive will not stop a macro from being defined because the definition only lasts until the end of file.
+- 
