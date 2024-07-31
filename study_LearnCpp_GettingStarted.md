@@ -1448,10 +1448,23 @@ Skipping, refer to https://www.learncpp.com/cpp-tutorial/using-an-integrated-deb
 - The smallest unit of memory is a **binary digit (aka bit)**, which can hold a value of 0 or 1.
 - Memory is organized into sequential units called **memory addresses**, where we can find and access the contents of memory at a particular location.
 - In modern computer architectures, memory address is not assigned to each bit; instead, it gets assigned to each **byte** (8 sequential bits).
+	- This isn't quite correct, but more on this later.
 
 ### Data types
 - A **data type** is a sequence of bits that are arranged in a meaningful way.
 	- For example, a sequence of bits `01000001` can be interpreted as an integer value of `65`.
 
 ### Fundamental data types
+- C++ comes with built-in support for many different data types - such are called fundamental data types, basic types, primitive types, or built-in types.
+- Fundamental data types include:
+	- `float`
+	- `double`
+	- `bool`
+	- `char`
+	- `int`
+	- `nullptr_t`
+	- `void`
+- Note that `string` is not a fundamental data type, instead it is considered a compound type. More on this later.
+- Many of the types defined in newer versions of C++ use a `_t` suffix. This suffix means "type".
 - 
+
