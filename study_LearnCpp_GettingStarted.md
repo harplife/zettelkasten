@@ -1345,6 +1345,11 @@ int add(int x, int y)
 Skipped - refer to https://www.learncpp.com/cpp-tutorial/how-to-design-your-first-programs/
 
 ## Syntax and semantic errors
-- A syntax error occurs when a statement is not valid according to the grammar of the C++ language.
+- A **syntax error** occurs when a statement is not valid according to the grammar of the C++ language.
 	- Includes errors such as missing semicolons, using undeclared variables, mismatched parentheses, and etc.
-- A semantic error occurs when a statement is syntactically valid, but does not do 
+- A **semantic error (aka logic error)** occurs when code is grammatically correct but does not produce the desired behavior or outcome. Unlike syntax errors which are easily identified and resolved by the compiler, semantic errors are not detected during the compilation process.
+	- Division by 0 is an example of semantic error.
+	- Using variables that are not initialized (therefore returns garbage) is an example of semantic error.
+	- Having a function named `add()` only to have its result being a subtraction is an example of semantic error.
+	- Statements that do not execute because it's placed after a return statement is an example of semantic error.
+- 
