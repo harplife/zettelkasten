@@ -1511,3 +1511,82 @@ Skipping, refer to https://www.learncpp.com/cpp-tutorial/using-an-integrated-deb
 >Types that use less memory is not always faster to process than types that use more memory.
 >CPUs are often optimized to process data of a certain size (e.g. 32 bits), and types that match that size may be processed quicker.
 
+## Signed integers
+- An integer is an integral type that can represent positive and negative whole numbers, including 0.
+- C++ has 4 primary fundamental integer types available:
+	- `short` - 16 bits
+	- `int` - 16 bits
+	- `long` - 32 bits
+	- `long long` - 32 bits
+- Note that the larger integers can hold bigger range of numbers.
+- Technically, the `bool` and `char` types are considered to be integral types because they store values as integer values. But for now, these will be excluded from discussion.
+- The attribute of a number being positive, negative, or zero is called the number's **sign**.
+- By default, integers are **signed**, meaning that the number's sign is stored as part of the number. It also means that it can hold both positive and negative numbers (and 0).
+- In binary representation, a single bit is used for a **sign bit**, which stores the sign of the number. The non-sign bits are called the **magnitude bits** which determine the magnitude of the number.
+
+### Defining signed integers
+- Here is the preferred way to define the four types of signed integers:
+
+```C++
+short x;
+int y;
+long z;
+long long w;
+```
+
+- The integer types can take an optional `signed` keyword, which by convention is typically placed before the type name:
+
+```C++
+signed short x;
+signed int y;
+signed long z;
+signed long long w;
+```
+
+- The `signed` keyword should not be used though, as it is redundant since integers are signed by default.
+
+### Signed integer ranges
+- A variable with `n` bits can hold $2^n$ possible values.
+- The set of specific values that a data type can hold is called **range**.
+- The range of an integer variable is determined by two factors: its size in bits, and its sign.
+- By definition, an 8-bit signed integer has a range of `-128` to `127` (inclusive).
+	- An 8-bit integer can hold `256` possible values. Because `1` bit is used for sign, `7` bits are used for the magnitude - which means `128` values for each sign.
+- An n-bit signed variable has a range of $[-(2^{n-1}), 2^{n-1}-1]$.
+
+### Overflow
+- When a value greater than its range is assigned to an integer, an undefined behavior called **overflow** occurs.
+	- For example, assigning `140` to an 8-bit signed integer causes an overflow.
+
+>[!important]
+>An overflow occurs when a calculation produces a result that exceeds the maximum value that can be stored in a given data type. This can lead to several types of errors and unexpected behavior:
+>
+>1. **Wraparound**: In many systems, when an overflow occurs, the value wraps around to the minimum value of the data type. For example, if an `unsigned int` exceeds its maximum value, it wraps around to zero. This can lead to incorrect calculations and logic errors.
+>
+>2. **Data Corruption**: Overflow can cause data corruption, where the value stored in a variable is not what was intended. This can lead to unpredictable behavior and bugs that are difficult to trace.
+>
+>3. **Security Vulnerabilities**: Overflow can be exploited by attackers to cause buffer overflows, which can lead to security vulnerabilities such as arbitrary code execution or denial of service attacks.
+>
+>4. **Program Crashes**: In some cases, overflow can cause a program to crash or terminate unexpectedly. This can happen if the overflow leads to invalid memory access or other critical errors.
+>
+>5. **Loss of Precision**: Overflow can result in a loss of precision, especially in floating-point calculations. This can lead to inaccurate results and affect the reliability of numerical computations.
+>
+>6. **Undefined Behavior**: In some programming languages, overflow can lead to undefined behavior, where the program's behavior is unpredictable and may vary depending on the compiler or runtime environment.
+>
+>To prevent overflow, it's important to use appropriate data types, perform bounds checking, and use libraries or language features that provide safe arithmetic operations.
+
+### Integer division
+- When doing division with two integers (called **integer division**), C++ always produces an integer result. Since integers can't hold fractional values, any fractional portion is simply dropped (NOT rounded).
+- Integer division is safe to use and desirable in certain cases.
+
+## Unsigned integers
+- **Unsigned integers** are integers that can only hold non-negative whole numbers (0 and up).
+	- It does not use a sign bit, which means all bits are magnitude bits.
+- To define an unsigned integer, `unsigned` keyword is placed before the type.
+	- For example, `unsigned int x;`
+- An n-bit unsigned variable has a range of $[0, 2^n-1]$.
+	- The range of an 8-bit unsigned integer is `0` to `255`.
+
+>[!warning] Modulo wrapping
+>There isn't technically an overflow for unsigned integer. When a number beyond the type's range is given, the number simply "wraps around"; that is to say, the number is divided by one greater than the largest number of the type and only the remainder is kept.
+>
+>For example, assigning a value of `280` for 8-bit unsigned integer results in `280 % 256 = 24`.
