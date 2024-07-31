@@ -1400,4 +1400,10 @@ std::cerr << "main() called\n";
 - Log files have a few advantages:
 	- Debug output is separated from normal output, therefore less cluttering and more readability.
 	- Log files can be easily sent to other people for diagnosis.
-- 
+- There are many logger libraries:
+	- [plog](https://github.com/SergiusTheBest/plog): one recommended by the guide. It is a header-only logging library.
+	- **spdlog**: This is a very fast, header-only/compiled, C++ logging library. It supports various log targets like rotating log files, daily log files, console logging, and more.
+	- **easyloggingpp**: This is an extremely powerful, extendable, light-weight, fast performing, thread and type safe C++ logging library. It provides the ability to write logs in your own customized format.
+	- **glog**: This is Google's C++ logging module. It provides application-level logging based on C++-style streams and various helper macros.
+	- **Apache Log4cxx**: This is a logging framework for C++ patterned after Apache log4j. It uses Apache Portable Runtime for most platform-specific code and should be usable on any platform supported by APR.
+	- **CppLogging**: This C++ Logging Library provides functionality to log different events with a high throughput in a multithreaded environment into different sinks (console, files, rolling files, syslog, etc.).
