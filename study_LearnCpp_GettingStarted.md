@@ -1327,4 +1327,24 @@ int add(int x, int y)
 
 ### Custom type definition in header files
 - While it's generally recommended not to define anything in header files, there are some cases where it's necessary to put the definitions in a header file.
-- 
+
+>[!important]
+>Defining custom types (like classes, structs, enums, typedefs, etc.) in header files is a common practice in C++ for several reasons:
+>
+>1. **Reusability**: By defining a custom type in a header file, you can `#include` that header file in any source file that needs to use the type. This promotes code reusability and helps keep your code organized.
+>
+>2. **Separation of Interface and Implementation**: It's a common practice in C++ to declare the interface (i.e., the class definition) in a header file and the implementation (i.e., the method definitions) in a corresponding source file. This helps to hide the implementation details and only expose the interface to the users of the class.
+>
+>3. **Compilation Efficiency**: When a type is defined in a header file, the compiler only needs to parse the type definition once, even if the header file is included in multiple source files. This can make the compilation process more efficient.
+>
+>4. **Linking**: When you define a type in a header file and include that header in multiple source files, the linker ensures that all the source files are referring to the same type. This is important for maintaining consistency and avoiding errors.
+>
+>Remember, when you define a type in a header file, you should use include guards or `#pragma once` to prevent multiple inclusion of the same header file, which could lead to redefinition errors.
+
+## How to design a program
+Skipped - refer to https://www.learncpp.com/cpp-tutorial/how-to-design-your-first-programs/
+
+## Syntax and semantic errors
+- A syntax error occurs when a statement is not valid according to the grammar of the C++ language.
+	- Includes errors such as missing semicolons, using undeclared variables, mismatched parentheses, and etc.
+- A semantic error occurs when a statement is syntactically valid, but does not do 
