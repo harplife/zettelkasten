@@ -1323,4 +1323,8 @@ int add(int x, int y)
 - Taking the fact above into consideration, a header file that is included in multiple files will invoke a `define` directive even if the header guard is in place.
 	- This means that if a function is defined in the header file and the header file is included in multiple code files, then the function will be defined multiple times - which leads to redefinition error that the linker raises.
 	- The `#ifndef` directive will not stop a macro from being defined because the definition only lasts until the end of file.
+- Note that main usage for the header guard is to prevent redefinition of a function within the same file.
+
+### Avoiding definitions in header files
+- While it's generally recommended not to define anything in header files, there are some cases where it's necessary to put the definitions in a header file.
 - 
