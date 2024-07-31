@@ -1656,3 +1656,7 @@ These are just a few examples of where unsigned integers are necessary and usefu
 
 ---
 
+## Fixed-width integers and size_t
+### Fixed-width integers
+- Although most data types do not have definitive memory sizes, there are some that are guaranteed to be the same size on any architecture.
+- 
