@@ -1352,4 +1352,9 @@ Skipped - refer to https://www.learncpp.com/cpp-tutorial/how-to-design-your-firs
 	- Using variables that are not initialized (therefore returns garbage) is an example of semantic error.
 	- Having a function named `add()` only to have its result being a subtraction is an example of semantic error.
 	- Statements that do not execute because it's placed after a return statement is an example of semantic error.
-- 
+
+## Debugging tactics
+- While printing out information in between steps is useful for debugging, it clutters the code and the output of the program. Additionally, it may require modification of your code which can introduce new bugs.
+- There are ways to improve debug statements, such as using conditional compilation and using a logger.
+
+### Debugging with conditional compilation
