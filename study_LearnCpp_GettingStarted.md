@@ -1897,4 +1897,67 @@ result
 >[!important]
 >Output manipulators (and input manipulators) are sticky; meaning that they will remain set after being set once.
 >
->The one exception is `std::setw`, which sets the width
+>The one exception is `std::setw`, which sets the width of the printed text. Some IO operations reset this width, so `std::setw` should be used every time it is needed.
+
+- Note that the precision don't just impact fractional numbers, they also impact whole numbers.
+
+### Rounding errors & comparisons
+- When precision is lost because a number can't be stored precisely, it is called a **rounding error**.
+- Comparing floating point numbers can get tricky because rounding errors often give unexpected result.
+- Take below example:
+
+code
+```C++
+#include <iomanip> // for std::setprecision()
+#include <iostream>
+
+int main()
+{
+    double d{0.1};
+    std::cout << d << '\n'; // use default cout precision of 6
+    std::cout << std::setprecision(17);
+    std::cout << d << '\n';
+
+    return 0;
+}
+```
+
+result
+```C++
+0.1
+0.10000000000000001
+```
+
+- In the above example, note that the variable `d` outputs slightly different values - which is caused by rounding error.
+	- In this case, `double` has precision up to 16 significant digits. When `std::cout` outputs the value with default precision of 6, it simply truncates the value and outputs `0.1`. However, when the precision for `std::cout` is set to 17, it went beyond the precision for `double` - which caused the rounding error, outputting `0.10000000000000001`.
+- There are cases when the rounding error is even more imperceptible:
+
+code
+```C++
+#include <iomanip> // for std::setprecision()
+#include <iostream>
+
+int main()
+{
+    std::cout << std::setprecision(17);
+
+    double d1{ 1.0 };
+    std::cout << d1 << '\n';
+
+    double d2{ 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 };
+    std::cout << d2 << '\n';
+
+    return 0;
+}
+```
+
+result
+```C++
+1
+0.99999999999999989
+```
+
+- In the above example, variable `d2` should add up to `1.0` but it does not.
+	- It's important to note that mathematical operations (such as addition and multiplication) tend to make rounding errors grow.
+- It's always best to be wary of using floating point numbers for financial or currency data.
+- 
