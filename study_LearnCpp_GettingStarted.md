@@ -1659,4 +1659,19 @@ These are just a few examples of where unsigned integers are necessary and usefu
 ## Fixed-width integers and size_t
 ### Fixed-width integers
 - Although most data types do not have definitive memory sizes, there are some that are guaranteed to be the same size on any architecture.
-- 
+- ![[Pasted image 20240801063805.png]]
+- C++ officially adopted these fixed-width integers as part of C++11. They can be accessed by including the `<cstdint>` header, where they are defined inside the `std` namespace.
+- An example:
+
+```C++
+#include <cstdint> // for fixed-width integers
+#include <iostream>
+
+int main()
+{
+    std::int16_t i{5};
+    std::cout << i << '\n';
+    return 0;
+}
+```
+

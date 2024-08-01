@@ -283,8 +283,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 362.5,
-    "collapsed": true
+    "width": 362.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -296,12 +295,12 @@
       "markdown-importer:Open format converter": false,
       "workspaces:Manage workspace layouts": false,
       "mathpad:Open Mathpad": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "workspaces-plus:Manage workspaces": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
   "active": "9c9a2525afbfe6bd",
   "lastOpenFiles": [
+    "attachments/Pasted image 20240801063805.png",
     "attachments/Pasted image 20240731161159.png",
     "attachments/Pasted image 20240731161133.png",
     "attachments/Pasted image 20240731154252.png",
@@ -333,7 +332,6 @@
     "study_LearnOpenGL_HelloWindow.md",
     "study_LearnOpenGL_Libraries.md",
     "study_LearnOpenGL_OpenGL.md",
-    "attachments/camera_axes.png",
     "opengl_perspective_code.md",
     "opengl_transform_code.md",
     "opengl_texture_code.md",
