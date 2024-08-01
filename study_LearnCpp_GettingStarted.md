@@ -1728,3 +1728,41 @@ int main()
 >
 >For example, if you need to store a large array of integers and memory usage is a concern, using `int_least32_t` ensures that each integer uses the minimum amount of memory while still being at least 32 bits wide.
 
+>[!important] Least integers trade-offs
+>Using least integers in C++ comes with its own set of trade-offs:
+>
+>Advantages:
+>1. **Memory Efficiency**: Least integers, such as `int_least32_t`, ensure that you are using the smallest possible integer type that meets the required width. This can help conserve memory, especially in memory-constrained environments.
+>2. **Portability**: Least integers provide a consistent minimum width across different platforms, which can help ensure that your code behaves consistently when ported to different systems.
+>
+>Disadvantages:
+>1. **Performance**: Since least integers prioritize memory efficiency over speed, they might not be the fastest integer type available on a given platform. This can lead to slower execution times compared to using fast integers.
+>2. **Predictability**: The actual size of least integers can vary between platforms. For example, `int_least32_t` might be 32 bits on one platform and 64 bits on another. This variability can make it harder to predict the performance characteristics of your code.
+>3. **Complexity**: Using least integers can add complexity to your code, as you need to be aware of the potential differences in integer sizes across platforms and handle them appropriately.
+>
+>In summary, while least integers can help optimize memory usage and ensure portability, they may introduce challenges related to performance, predictability, and complexity. It's essential to weigh these trade-offs based on the specific requirements of your application.
+
+### 8-bit fixed-width integers behave like chars
+- Due to an oversight in the C++ specification, most compilers define and treat `std::int8_t` and `std::uint8_t` (and the corresponding fast and least fixed-width types) identically to types `signed char` and `unsigned char` respectively.
+	- This means that 8-bit fixed-width integers may behave differently than the rest of the fixed-width types, which can lead to errors.
+	- This behavior is system-dependent, so a program that behaves correctly on one architecture may not compile or behave correctly on another architecture.
+- When storing integral values where a specific size is important, it's generally best to avoid these 8-bit fixed-width integers (use 16-bit instead).
+
+>[!important]
+>The behavior of 8-bit fixed-width integers (`int8_t` and `uint8_t`) being treated like `char` types in C++ is due to an oversight in the C++ specification. Most compilers define and treat `std::int8_t` and `std::uint8_t` (and their corresponding fast and least fixed-width types) identically to `signed char` and `unsigned char`, respectively³.
+>
+>Reasons for This Behavior:
+>1. **Historical Context**: The C and C++ standards have historically treated `char` as a distinct type that can be used for both character data and small integers. This dual-purpose nature of `char` has carried over to fixed-width integer types.
+>2. **Compiler Implementation**: Compilers often implement `int8_t` and `uint8_t` as aliases for `signed char` and `unsigned char` to maintain compatibility with existing code and to simplify the implementation³.
+>
+>Why It Hasn't Been Fixed:
+>1. **Backward Compatibility**: Changing the behavior of 8-bit fixed-width integers would break a significant amount of existing code that relies on the current behavior. Maintaining backward compatibility is a crucial consideration in the evolution of programming languages.
+>2. **Limited Impact**: The impact of this behavior is relatively limited to specific use cases involving 8-bit integers. In most scenarios, the behavior does not cause significant issues, so there has been less urgency to address it.
+>3. **Standardization Process**: Any changes to the C++ standard go through a rigorous standardization process, which involves extensive discussion and consensus-building among the community. Given the limited impact and the need for backward compatibility, this issue has not been prioritized for change.
+
+### Best practices for integral types
+- It's better to be correct than fast, and better to fail at compile time than runtime.
+	- If an integral type with a fixed size is needed, use the fixed-width type; avoid fast/least types.
+- Prefer `int` when the size of the integer doesn't matter.
+- Prefer `std::int#_t` when storing a quantity that needs a guaranteed range.
+- Prefer `std::uint#_t` when doing bit manipulation or where well
