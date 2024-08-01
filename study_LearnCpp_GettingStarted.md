@@ -1763,6 +1763,27 @@ int main()
 ### Best practices for integral types
 - It's better to be correct than fast, and better to fail at compile time than runtime.
 	- If an integral type with a fixed size is needed, use the fixed-width type; avoid fast/least types.
-- Prefer `int` when the size of the integer doesn't matter.
-- Prefer `std::int#_t` when storing a quantity that needs a guaranteed range.
-- Prefer `std::uint#_t` when doing bit manipulation or where well
+- <mark class="hltr-green">Prefer</mark> `int` when the size of the integer doesn't matter.
+- <mark class="hltr-green">Prefer</mark> `std::int#_t` when storing a quantity that needs a guaranteed range.
+- <mark class="hltr-green">Prefer</mark> `std::uint#_t` when doing bit manipulation or where well-defined wrap-around behavior is required.
+- <mark class="hltr-red">Avoid</mark> `short` and `long` integers; use a fixed-width integers instead.
+- <mark class="hltr-red">Avoid</mark> unsigned types for holding quantities.
+- <mark class="hltr-red">Avoid</mark> 8-bit fixed-width integers
+- <mark class="hltr-red">Avoid</mark> the fast/least fixed-width types
+- <mark class="hltr-red">Avoid</mark> compiler-specific fixed-width integers
+
+### what is std::size_t?
+- The `sizeof()` returns the size (in bytes) of a given variable/type; the type of the value that it returns is `std::size_t`, which is an alias for an implementation-defined unsigned integral type.
+	- In other words, the compiler decides if `std::size_t` is an unsigned int, an unsigned long, an unsigned long long, etc.
+- `std::size_t` is used to represent the byte-size or length of objects.
+- `std::size_t` is defined in a number of different headers; the best header to include is `<cstddef>`, as it contains the least number of other defined identifiers.
+- Using a `sizeof()` does not require a header, even though it returns a value whose type is `std::size_t`.
+- `std::size_t` is guaranteed to be unsigned and at least 16 bits, but on most systems will be equivalent to the address-width of the application.
+	- For example, for 32-bit application, it will be 32-bit unsigned integer.
+
+>[!note] `std::size_t` and upper limit on the size of an object
+>Because `std::size_t` has a maximum value that it can return, it means that `sizeof()` cannot be used on an object that is larger than the maximum value (in bytes). Compilers will use this value (sometimes a half of it) as the upper limit on the size of an object that can be created.
+>
+>On 32/64 bit applications, this is hardly an issue. However, on 8/16 bit applications, this imposes a significant constraint on the size of objects.
+
+
