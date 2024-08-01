@@ -1787,3 +1787,114 @@ int main()
 >On 32/64 bit applications, this is hardly an issue. However, on 8/16 bit applications, this imposes a significant constraint on the size of objects.
 
 
+## Floating point numbers
+### Floating point data types
+- A floating point type is a data type that can hold a number with a fractional component.
+- There are three standard floating point types:
+	- A single-precision `float`, typical width of 4 bytes
+	- A double-precision `double`, typical width of 8 bytes
+	- An extended-precision `long double`, typical width of 8, 12, or 16 bytes
+- The **precision** of a floating point type defines how many significant digits it can represent without information loss.
+	- `float` has 6 to 9 digits of precision. This means number with 6 significant digits are represented exactly, but beyond that is questionable.
+	- `double` has 15 and 18 digits of precision.
+	- `long double` has 15, 18, or 33 digits of precision.
+- On modern architectures, floating point representation for `float` and `double` almost always follows IEEE 754 binary format; meaning, a `float` is 4 bytes and a `double` is 8 bytes.
+- It's recommended to avoid `long double`.
+
+>[!warning]
+>From this point on, the guide will continue with the assumption that the compiler is using IEEE 754 format for `float` and `double`.
+
+- Note that suffix `f` is attached to the value that is assigned to a `float` variable. For example, `float x = 1.0f;`.
+	- The `f` suffix is not attached to the value that is assigned to a `double` variable.
+	- The `f` suffix distinction is important because implicit conversion can occur - which is unnecessary.
+
+### Floating point range
+- Assuming IEEE 754 representation for 4, 8, and 16 byte representations:
+	- 4 bytes :: $±1.18 \times 10^{-38}$ to $±3.4 x 10^{38}$ and $0.0$ :: with precision 6-9 significant digits (typically 7)
+	- Skipping the rest.. this should just be looked up whenever it's necessary.
+
+### Printing floating point numbers
+- Consider the following example:
+
+```C++
+#include <iostream>
+
+int main()
+{
+	std::cout << 5.0 << '\n';
+	std::cout << 6.7f << '\n';
+	std::cout << 9876543.21 << '\n';
+
+	return 0;
+}
+```
+
+- The results of the above example:
+
+```
+5
+6.7
+9.876543e+06
+```
+
+- Note that `std::cout` does not print the fractional part that is `0`.
+- Note that `std::cout` prints numbers in scientific notation.
+	- Scientific notation being representing values as $x * 10^n$, where `e+n`.
+- `std::cout` has a default precision of 6, which matches with the minimum precision of a `float`. Significant digits beyond this limit will be truncated.
+- Consider the following example:
+
+code
+```C++
+#include <iostream>
+
+int main()
+{
+    std::cout << 9.87654321f << '\n';
+    std::cout << 987.654321f << '\n';
+    std::cout << 987654.321f << '\n';
+    std::cout << 9876543.21f << '\n';
+    std::cout << 0.0000987654321f << '\n';
+
+    return 0;
+}
+```
+
+result
+```C++
+9.87654
+987.654
+987654
+9.87654e+006
+9.87654e-005
+```
+
+- In the above example, it can be seen that all the numbers are printed up to only 6 significant digits, and the rest are truncated (excluding the scientific notation).
+- The default precision of `std::cout` can be overridden by using an output manipulator function called `std::setprecision()`, which is defined in the `<iomanip>` header. For example:
+
+code
+```C++
+#include <iomanip> // for output manipulator std::setprecision()
+#include <iostream>
+
+int main()
+{
+    std::cout << std::setprecision(17); // show 17 digits of precision
+    std::cout << 3.33333333333333333333333333333333333333f <<'\n';
+    std::cout << 3.33333333333333333333333333333333333333 << '\n';
+
+    return 0;
+}
+```
+
+result
+```C++
+3.3333332538604736
+3.3333333333333335
+```
+
+- In the example above, note that the precision of the result is limited/differs by the data types, `float` and `double`.
+
+>[!important]
+>Output manipulators (and input manipulators) are sticky; meaning that they will remain set after being set once.
+>
+>The one exception is `std::setw`, which sets the width
