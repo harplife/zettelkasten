@@ -1680,7 +1680,18 @@ int main()
 	- They may be slower to process on some architectures depending on width (32-bit/64-bit), though it's hard to know without actually measuring.
 
 ### Fast and least integers
-- df
+- As alternative to fixed-width integers, C++ also defines two sets of integers that are guaranteed to be defined: the fast integers, and least integers.
+- The fast integers provide the fastest signed/unsigned integer type with at least a certain width.
+	- For example, `std::int_fast32_t` will give the fastest signed integer type that's at least 32 bits.
+	- By fastest, it means the integral type that can be processed most quickly by the CPU.
+- The least integers provide the smallest signed/unsigned integer type with at least a certain width.
+	- For example, `std::uint_least32_t` will give the smallest unsigned integer type that's at least 32 bits.
+- The fast and least integers have their own downsides:
+	- Not many programmers actually use them, and a lack of familiarity can lead to errors.
+	- The fast types can lead to memory wastage, as their actual size may be larger than indicated.
+	- Because the size of the fast/least integers can vary, it's possible your program may exhibit different behaviors on different architectures (think overflow and wrap around).
+
+#### Fast integers : usage and trade-offs
 
 >[!important] Fast integers usage
 >In C++, fast integers, such as `int_fast32_t` or `uint_fast32_t`, are used when you need the fastest possible integer type that is at least a certain width (e.g., 32 bits). These types are particularly useful in performance-critical applications where the speed of integer operations is crucial. Here are some scenarios where fast integers might be necessary:
@@ -1691,4 +1702,29 @@ int main()
 >4. **Algorithm Optimization**: In algorithms that involve a large number of integer operations, such as sorting, searching, or mathematical computations, fast integers can help reduce the overall execution time.
 >
 >Fast integers are typically chosen by the compiler to be the most efficient type for the target architecture, ensuring that operations on these integers are as fast as possible.
+
+>[!important] Fast integers trade-offs
+>Using fast integers in C++ comes with several trade-offs:
+>
+>Advantages:
+>1. **Performance**: Fast integers are optimized for the target architecture, which can lead to faster execution of integer operations.
+>2. **Clarity**: Using types like `int_fast32_t` clearly indicates the intent to use the fastest available integer type of at least 32 bits.
+>
+>Disadvantages:
+>1. **Portability**: The actual size of fast integers can vary between different platforms. For example, `int_fast32_t` might be 32 bits on one platform and 64 bits on another. This can lead to inconsistencies when porting code.
+>2. **Memory Usage**: Fast integers might use more memory than their fixed-width counterparts. For instance, on a 64-bit system, `int_fast32_t` could be 64 bits, which uses more memory than a 32-bit integer.
+>3. **Predictability**: The size and behavior of fast integers are determined by the compiler and the target architecture, which can make it harder to predict their performance characteristics.
+>
+>In summary, while fast integers can provide performance benefits, they may introduce challenges related to portability, memory usage, and predictability. It's essential to consider these trade-offs based on the specific requirements of your application.
+
+#### Least integers : usage and trade-offs
+
+>[!important] Least integers usage
+>In C++, least integers, such as `int_least32_t` or `uint_least32_t`, are used when you need the smallest integer type that is at least a certain width (e.g., 32 bits). These types are particularly useful in scenarios where memory efficiency is more critical than speed. Here are some common use cases:
+>
+>1. **Memory-Constrained Environments**: In systems with limited memory, such as embedded systems or IoT devices, using the smallest possible integer type helps conserve memory.
+>2. **Data Storage**: When storing large amounts of data, such as in databases or file formats, using the smallest integer type can reduce the overall storage requirements.
+>3. **Network Communication**: In network protocols, where data needs to be transmitted efficiently, using the smallest integer type can help minimize the amount of data sent over the network.
+>
+>For example, if you need to store a large array of integers and memory usage is a concern, using `int_least32_t` ensures that each integer uses the minimum amount of memory while still being at least 32 bits wide.
 

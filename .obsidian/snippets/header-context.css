@@ -1,0 +1,47 @@
+.cm-s-obsidian .HyperMD-header-1,
+  .markdown-preview-view h1
+   {
+    background: #400b0b;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #400b0b;
+    border-radius: 10px;
+    margin-top: 40px;
+  }
+
+/*
+https://forum.obsidian.md/t/background-formatting-for-the-text-under-a-header/47385
+*/
+
+.cm-s-obsidian .HyperMD-header-2,
+  .markdown-preview-view h2
+   {
+    background: #10400b;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #10400b;
+    border-radius: 10px;
+    margin-top: 40px;
+  }
+
+.cm-s-obsidian .HyperMD-header-3,
+  .markdown-preview-view h3
+   {
+    background: #0d0b40;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #0d0b40;
+    border-radius: 10px;
+    margin-top: 40px;
+  }
+
+.cm-s-obsidian .HyperMD-header-4,
+  .markdown-preview-view h4
+   {
+    background: #2e0b40;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #2e0b40;
+    border-radius: 10px;
+    margin-top: 40px;
+  }

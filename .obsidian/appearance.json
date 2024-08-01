@@ -8,7 +8,8 @@
     "tag-pills",
     "highlightr",
     "clean-embeds-all",
-    "general"
+    "general",
+    "header-context"
   ],
   "accentColor": "",
   "baseFontSizeAction": true,
