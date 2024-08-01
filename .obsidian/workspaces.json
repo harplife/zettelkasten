@@ -285,7 +285,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 362.5
+        "width": 362.5,
+        "collapsed": true
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -297,11 +298,12 @@
           "markdown-importer:Open format converter": false,
           "workspaces:Manage workspace layouts": false,
           "mathpad:Open Mathpad": false,
-          "table-editor-obsidian:Advanced Tables Toolbar": false
+          "table-editor-obsidian:Advanced Tables Toolbar": false,
+          "workspaces-plus:Manage workspaces": false
         }
       },
       "active": "9c9a2525afbfe6bd",
-      "mtime": "2024-08-01T07:32:14-05:00",
+      "mtime": "2024-08-01T08:30:50-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "Dictionary"

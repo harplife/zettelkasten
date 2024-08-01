@@ -1675,3 +1675,9 @@ int main()
 }
 ```
 
+- The fixed-width integers have two downsides that are typically raised:
+	- They are not guaranteed to be defined on all architectures (though this is highly unlikely).
+	- They may be slower to process on some architectures (though it's hard to know without actually measuring).
+
+### Fast and least integers
+- 
