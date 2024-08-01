@@ -1676,8 +1676,19 @@ int main()
 ```
 
 - The fixed-width integers have two downsides that are typically raised:
-	- They are not guaranteed to be defined on all architectures (though this is highly unlikely).
-	- They may be slower to process on some architectures (though it's hard to know without actually measuring).
+	- They are not guaranteed to be defined on all architectures, though this is highly unlikely.
+	- They may be slower to process on some architectures depending on width (32-bit/64-bit), though it's hard to know without actually measuring.
 
 ### Fast and least integers
-- 
+- df
+
+>[!important] Fast integers usage
+>In C++, fast integers, such as `int_fast32_t` or `uint_fast32_t`, are used when you need the fastest possible integer type that is at least a certain width (e.g., 32 bits). These types are particularly useful in performance-critical applications where the speed of integer operations is crucial. Here are some scenarios where fast integers might be necessary:
+>
+>1. **High-Performance Computing**: In applications like scientific computing, simulations, or real-time data processing, where every millisecond counts, using fast integers can help optimize performance.
+>2. **Embedded Systems**: In resource-constrained environments, such as microcontrollers or embedded systems, fast integers can help improve the efficiency of the code.
+>3. **Game Development**: When developing games, especially those with complex physics or graphics calculations, using fast integers can help achieve smoother and more responsive gameplay.
+>4. **Algorithm Optimization**: In algorithms that involve a large number of integer operations, such as sorting, searching, or mathematical computations, fast integers can help reduce the overall execution time.
+>
+>Fast integers are typically chosen by the compiler to be the most efficient type for the target architecture, ensuring that operations on these integers are as fast as possible.
+
