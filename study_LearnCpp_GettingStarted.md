@@ -2091,4 +2091,16 @@ result
 - The `char` data type is designed to hold a single character.
 	- A **character** can be a single letter, number, symbol, or whitespace.
 - The `char` type is an integral type, meaning the underlying value is stored as an integer.
-- The integer stored by a `char` type is interpreted as an ASCII character, 
+- The integer stored by a `char` type is interpreted as an ASCII character, which defines a particular way to represent English characters (plus a few other symbols) as numbers between 0 and 127 (called ASCII code).
+	- ASCII stands for American Standard Code for Information Interchange
+	- For example, ASCII code 97 is interpreted as the character 'a'
+- Character literals are always placed between single quotes.
+- ASCII codes 0~31 and 127 are called the unprintable chars - due to the fact that they are now obsolete.
+- `char` can be initialized by using character literals.
+	- e.g. `char letterA = 'a';`
+- `char` can also be initialized by using integers as well, but it should be avoided if possible.
+- `char` is defined by C++ to always be 1 byte in size.
+	- By default, a char may be signed or unsigned (though it's usually unsigned).
+- **Escape sequences** are special characters that always starts with backlash `\`.
+	- ![[Pasted image 20240802123930.png]]
+- 
