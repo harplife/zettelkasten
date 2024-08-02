@@ -1960,4 +1960,99 @@ result
 - In the above example, variable `d2` should add up to `1.0` but it does not.
 	- It's important to note that mathematical operations (such as addition and multiplication) tend to make rounding errors grow.
 - It's always best to be wary of using floating point numbers for financial or currency data.
+
+---
+
+Handling floating-point rounding errors in C++ can be challenging due to the inherent limitations of representing decimal numbers in binary format. Here are some best practices to minimize and manage these errors:
+
+Use Higher Precision Types
+- **Double Precision**: Use `double` instead of `float` for higher precision. `double` provides more significant digits and a larger range.
+- **Long Double**: For even higher precision, consider using `long double`.
+
+Use Arbitrary-Precision Libraries
+- **GMP (GNU Multiple Precision Arithmetic Library)**: This library provides arbitrary-precision arithmetic, allowing you to perform calculations with very high precision¹.
+- **Boost.Multiprecision**: Part of the Boost C++ Libraries, it offers support for high-precision arithmetic¹.
+
+Avoid Subtracting Nearly Equal Numbers
+- **Catastrophic Cancellation**: Subtracting two nearly equal numbers can lead to significant loss of precision. Try to reformulate the problem to avoid such operations.
+
+Use Kahan Summation Algorithm
+- **Kahan Summation**: This algorithm helps reduce the error when summing a sequence of floating-point numbers by keeping a running compensation for lost low-order bits².
+
+Normalize Values
+- **Scaling**: Normalize values to a similar range before performing arithmetic operations. This can help reduce rounding errors.
+
+Use Decimal Fixed-Point Arithmetic
+- **Fixed-Point Representation**: For applications requiring precise decimal representation, consider using fixed-point arithmetic, where numbers are represented as integers scaled by a fixed factor².
+
+Properly Format Output
+- **Set Precision**: Use `std::setprecision` and `std::fixed` to control the number of significant digits when outputting floating-point numbers².
+  ```cpp
+  #include <iostream>
+  #include <iomanip>
+
+  int main() {
+      double value = 0.1;
+      std::cout << std::fixed << std::setprecision(17) << value << std::endl;
+      return 0;
+  }
+  ```
+
+Understand Floating-Point Arithmetic
+- **Educational Resources**: Read "What Every Computer Scientist Should Know About Floating-Point Arithmetic" by David Goldberg to gain a deeper understanding of floating-point behavior².
+
+By following these practices, you can minimize the impact of floating-point rounding errors in your C++ programs. If you have any specific scenarios or further questions, feel free to ask!
+
+¹: [Stack Overflow](https://stackoverflow.com/questions/3420009/avoid-rounding-error-floating-specifically-c)
+²: [Learn Microsoft](https://learn.microsoft.com/en-us/cpp/build/why-floating-point-numbers-may-lose-precision?view=msvc-170)
+
+Source: Conversation with Copilot, 2024. 8. 2.
+(1) avoid rounding error (floating specifically) c++ - Stack Overflow. https://stackoverflow.com/questions/3420009/avoid-rounding-error-floating-specifically-c.
+(2) c++ - What is a simple example of floating point/rounding error .... https://stackoverflow.com/questions/249467/what-is-a-simple-example-of-floating-point-rounding-error?noredirect=1.
+(3) c++ - Float point numbers and incorrect result due to rounding behavior .... https://stackoverflow.com/questions/40372148/float-point-numbers-and-incorrect-result-due-to-rounding-behavior.
+(4) Why Floating-Point Numbers May Lose Precision. https://learn.microsoft.com/en-us/cpp/build/why-floating-point-numbers-may-lose-precision?view=msvc-170.
+(5) floating point - Analyzing Numerical Error in C++ Function .... https://scicomp.stackexchange.com/questions/1007/analyzing-numerical-error-in-c-function.
+(6) undefined. http://www.learncpp.com/cpp-tutorial/25-floating-point-numbers/.
+
+---
+
+### NaN and Inf
+- There are two special categories of floating point numbers:
+	- `Inf` : represents infinity, which can be positive or negative.
+	- `NaN` : represents a value that is "Not a Number".
+- `NaN` and `Inf` are only available if the compiler uses a specific format (IEEE 754) for floating point numbers.
+- Consider the following example:
+
+code
+```C++
+#include <iostream>
+
+int main()
+{
+    double zero {0.0};
+    double posinf { 5.0 / zero }; // positive infinity
+    std::cout << posinf << '\n';
+
+    double neginf { -5.0 / zero }; // negative infinity
+    std::cout << neginf << '\n';
+
+    double nan { zero / zero }; // not a number (mathematically invalid)
+    std::cout << nan << '\n';
+
+    return 0;
+}
+```
+
+result
+```console
+1.#INF
+-1.#INF
+1.#IND
+```
+
+- Note that the results of printing `Inf` and `NaN` are platform specific, so results may vary.
+	- Like in the example above, `IND` (for indeterminate) was printed for `NaN`.
+- It's best practice to avoid division by zero.
+
+## Boolean values
 - 
