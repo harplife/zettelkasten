@@ -2072,3 +2072,13 @@ result
 	- Such functions are typically named starting with the word `is` (e.g. `isEqual`), or `has` (e.g. `hasCommonDivisor`).
 - Comparison operators such as `==`, `!=`, `>`, `<`, and etc. will return a `bool` value.
 
+## Intro to if statements
+- A **condition** (also called a conditional expression) is an expression that evaluates to a Boolean value.
+	- e.g. `true`, `1 == 1`, `1 != 0`, `(1+1) == 2`
+- An **if statement** is a conditional statement that executes a code if some condition is true.
+	- e.g. `if (condition==true) executeCodeA();`
+- If statement can also execute when some condition is false, by using `else`.
+	- e.g. `else executeCodeB();`
+- If statement can be chained so that several conditions are checked one by one, by using `else if`.
+	- e.g. `else if (condition==true) executeCodeC();`
+- 
