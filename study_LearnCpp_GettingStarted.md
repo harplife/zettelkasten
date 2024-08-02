@@ -2055,4 +2055,20 @@ result
 - It's best practice to avoid division by zero.
 
 ## Boolean values
-- 
+- Boolean values are values that are either `ture` or `false`, represented by a type called `bool`.
+- The logical NOT operator `!` reverses the boolean value.
+	- For example, `!false` is `true`.
+- Boolean values are not actually stored as the words "true" or "false". Instead, they are stored as integral values; `1` for `true`, and `0` for `false`.
+	- Boolean values are evaluated as such; `std::cout << true;` will print `1`.
+- In order to print the boolean words `true` or `false`, `std::boolalpha` must be called (once).
+	- e.g. `std::cout << std::boolalpha;`
+	- Use `std::noboolalpha` to turn it back off.
+- `bool` can be initialized using `true`/`false` or `1`/`0`.
+	- e.g. `bool machineOn = 1;`
+	- Uniform initialization with integral values other than 0 or 1 causes an error.
+	- Copy initialization with integral values other than 0 or 1 does NOT cause an error, and is converted to `true`.
+- When using `std::cin` to get user input for a boolean value, note that it only accepts `0` or `1` instead of full words like `true` or `false`.
+- Boolean values are often used to as the return values for functions that check whether something is true or not.
+	- Such functions are typically named starting with the word `is` (e.g. `isEqual`), or `has` (e.g. `hasCommonDivisor`).
+- Comparison operators such as `==`, `!=`, `>`, `<`, and etc. will return a `bool` value.
+

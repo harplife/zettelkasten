@@ -9,7 +9,8 @@
     "highlightr",
     "clean-embeds-all",
     "general",
-    "header-context"
+    "header-context",
+    "header-styles"
   ],
   "accentColor": "",
   "baseFontSizeAction": true,
