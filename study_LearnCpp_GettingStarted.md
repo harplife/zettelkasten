@@ -2081,4 +2081,14 @@ result
 	- e.g. `else executeCodeB();`
 - If statement can be chained so that several conditions are checked one by one, by using `else if`.
 	- e.g. `else if (condition==true) executeCodeC();`
-- 
+- Integral values `0` and `1` can be used for conditional expression; they'll be implicitly converted to boolean values.
+	- Values higher than `1` can be used too, but it will cause a warning.
+- A return statement that is not the last statement in a function is called an **early return**.
+	- Such a statement will cause the function to return to the caller wen the return statement is executed.
+- If statements and early returns pair up well together.
+
+## Chars
+- The `char` data type is designed to hold a single character.
+	- A **character** can be a single letter, number, symbol, or whitespace.
+- The `char` type is an integral type, meaning the underlying value is stored as an integer.
+- The integer stored by a `char` type is interpreted as an ASCII character, 
