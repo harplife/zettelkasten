@@ -2234,3 +2234,7 @@ int main()
 >Summary
 >Implicit type conversions help simplify code by allowing different data types to interact seamlessly. However, it's essential to be aware of potential pitfalls, such as loss of precision or unintended behavior, especially when dealing with mixed data types.
 
+### Type conversion produces a new value
+- Important thing to note is that the type conversion does not change the type of the variable, but rather the type of the input value gets converted to match the type of the variable.
+	- For example, if `float` value of `5.0f` is being assigned to `int x`, the value change from `5.0f` to `5` and then gets assigned to `x`.
+- 
