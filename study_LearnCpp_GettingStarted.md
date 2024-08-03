@@ -2242,5 +2242,8 @@ int main()
 - Whenever implicit conversions occur, the compiler will generate some kind of a warning.
 - Warnings can be dealt with by either suppressing it, or explicitly converting the values.
 
-### Explicit type conversion
-- 
+### Explicit type conversion - static_cast
+- Explicit type conversion is, quite literally, a type conversion that is done explicitly, by using an operator that converts the value.
+- There are several different operators for converting a value; the most common one is `static_cast`.
+- `static_cast` is a casting operator that is used to perform explicit type conversions at compile time.
+	- It is primarily used for safe and well-defined conversions, such as converting between related types, performing implicit conversions explicitly, and calling explicit conversion functions.
