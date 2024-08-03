@@ -2103,4 +2103,51 @@ result
 	- By default, a char may be signed or unsigned (though it's usually unsigned).
 - **Escape sequences** are special characters that always starts with backlash `\`.
 	- ![[Pasted image 20240802123930.png]]
+
+### Single vs double quotes
+- Single chars are always put in single quotes (e.g. `'a'`, `'+'`, `'5'`).
+	- A `char` can only represent one symbol.
+- Text between double quotes (e.g. `"hello world!"`) is treated as a string of multiple characters.
+	- More on strings later.
+
+### Avoid multicharacter literals
+- For backwards compatibility reasons, many C++ compilers support **multicharacter literals**, which are char literals that contain multiple characters (e.g. `'56'`). If supported, these have an implementation-defined value (meaning it varies depending on the compiler).
+	- Multicharacter literals should be avoided because they are NOT part of the C++ standard, and their value is NOT strictly defined.
+- Multicharacter literal support sometimes causes confusion for novice programmers. Consider the following example:
+
+```C++
+#include <iostream>
+
+int add(int x, int y)
+{
+	return x + y;
+}
+
+int main()
+{
+	std::cout << add(1, 2) << '/n';
+
+	return 0;
+}
+```
+
+- In the above example, `3` followed by a newline is expected to print but instead, `312142` might be printed. This is because the newline character was mistyped with forward slash instead of backward slash, and `/n` multicharacter literals has implementation-defined value of `12142`.
+
+### Other char types
+- There are other variations of `char`:
+	- `wchar_t`
+	- `char8_t`, `char16_t`, `char32_t`
+- `wchar_t` should be avoided in almost all cases (except when interfacing with the Windows API).
+	- Its size is implementation defined, and is not reliable.
+	- It has largely been deprecated.
+
+#### Unicode support
+- The most well-known mapping outside of ASCII is the **Unicode standard**, which maps over 144,000 integers to characters in many different languages.
+	- Because Unicode contains so many code points, a single Unicode code point needs 32-bits to represent a character (called **UTF-32**).
+	- Unicode characters can also be encoded using multiple 16-bit or 8-bit characters (called **UTF-16** and **UTF-8** respectively).
+- `char8_t`, `char16_t`, and `char32_t` are data types that support Unicode characters.
+- `char16_t` and `char32_t` were added to C++11 to provide explicit support for 16-bit and 32-bit Unicode characters.
+	- These char types have the same size as `std::uint_least16_t` and `std::uint_least32_t` respectively (but are distinct types).
+- `char8_t` were added in C++20 to provide support for 8-bit Unicode.
+	- It is a distinct type that uses the same representation as `unsigned char`.
 - 
