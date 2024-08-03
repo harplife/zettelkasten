@@ -2104,6 +2104,8 @@ result
 - **Escape sequences** are special characters that always starts with backlash `\`.
 	- ![[Pasted image 20240802123930.png]]
 
+- Reminder: [[#8-bit fixed-width integers behave like chars]]
+
 ### Single vs double quotes
 - Single chars are always put in single quotes (e.g. `'a'`, `'+'`, `'5'`).
 	- A `char` can only represent one symbol.
