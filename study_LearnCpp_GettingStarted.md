@@ -2152,4 +2152,44 @@ int main()
 	- These char types have the same size as `std::uint_least16_t` and `std::uint_least32_t` respectively (but are distinct types).
 - `char8_t` were added in C++20 to provide support for 8-bit Unicode.
 	- It is a distinct type that uses the same representation as `unsigned char`.
+
+>[!important]
+>The differences between UTF-8, UTF-16, and UTF-32 primarily lie in how they encode Unicode characters and their efficiency in terms of space and processing:
+>
+>UTF-8
+>- **Encoding**: Uses 8, 16, 24, or 32 bits (1 to 4 bytes) to encode a character.
+>- **Advantages**: 
+>    - Efficient for texts with a lot of ASCII characters, as it uses only 1 byte for these characters.
+>    - No issues with endianness (byte order).
+>    - Widely used in web and network protocols.
+>- **Disadvantages**: 
+>    - Can be less efficient for texts with many non-ASCII characters, as it may require up to 4 bytes per character.
+>
+>UTF-16
+>- **Encoding**: Uses 16 or 32 bits (2 or 4 bytes) to encode a character.
+>- **Advantages**: 
+>    - More efficient than UTF-8 for texts with many non-ASCII characters, as it uses 2 bytes for most characters.
+>    - Commonly used in environments like Windows and JavaScript.
+>- **Disadvantages**: 
+>    - Can be less efficient for texts with many ASCII characters, as it uses at least 2 bytes per character.
+>    - Endianness can be an issue, requiring byte order marks (BOM) to indicate the byte order.
+>
+>UTF-32
+>- **Encoding**: Uses 32 bits (4 bytes) to encode a character.
+>- **Advantages**: 
+>    - Fixed-width encoding, making it simple to calculate the number of characters.
+>    - No need for decoding to access individual characters.
+>- **Disadvantages**: 
+>    - Very space-inefficient, as it uses 4 bytes for every character, regardless of its actual size.
+>    - Rarely used due to its high memory consumption.
+>
+>Summary
+>- **UTF-8** is best for texts with many ASCII characters and is widely used in web and network protocols.
+>- **UTF-16** is more efficient for texts with many non-ASCII characters and is used in environments like Windows and JavaScript.
+>- **UTF-32** is simple but space-inefficient, making it less commonly used.
+
+## Intro to type conversion and static_cast
+### Implicit type conversion
+- The process of converting a value from one type to another type is called **type conversion**.
+- When the compiler does type conversion on our behalf without us explicitly asking, we call this **implicit type conversion**.
 - 
