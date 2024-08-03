@@ -2237,4 +2237,10 @@ int main()
 ### Type conversion produces a new value
 - Important thing to note is that the type conversion does not change the type of the variable, but rather the type of the input value gets converted to match the type of the variable.
 	- For example, if `float` value of `5.0f` is being assigned to `int x`, the value change from `5.0f` to `5` and then gets assigned to `x`.
+
+### Implicit type conversion warnings
+- Whenever implicit conversions occur, the compiler will generate some kind of a warning.
+- Warnings can be dealt with by either suppressing it, or explicitly converting the values.
+
+### Explicit type conversion
 - 
