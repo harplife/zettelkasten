@@ -2386,4 +2386,18 @@ int main()
 	- Enumerated constants
 
 ### Constant variables
+- A **constant variable** is a variable whose value cannot be changed during the program's execution.
+- Constant variables are useful for reflecting things in the real world that does not change; such as the Earth's gravity, PI, speed of light, and etc.
+- To declare a constant variable, simply place `const` keyword (called a **const qualifier**) adjacent to the object's type.
+	- e.g. `const double gravity = 9.8;`, `float const PI = 3.14f;`
+	- It's common to put const qualifier before the type.
+- Constant variables must be initialized when it's defined, and then the value cannot be changed via assignment - going against any of these will result in error.
+	- e.g. `const double gravity;` will result in error.
+	- e.g. `float const PI = 3.14f; PI = 3.141f;` will result in error.
+- There are a number of different naming conventions for const variables.
+	- All caps with snake_case (e.g. `EARTH_GRAVITY`)
+	- `k` prefix camelCase (e.g. `kEarthGravity`)
+	- Same as normal variables (e.g. `earthGravity`)
+
+### Const function parameters
 - 
