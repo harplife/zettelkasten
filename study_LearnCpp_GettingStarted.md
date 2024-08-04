@@ -2247,4 +2247,6 @@ int main()
 - There are several different operators for converting a value; the most common one is `static_cast`.
 - `static_cast` is a casting operator that is used to perform explicit type conversions at compile time.
 	- It is primarily used for safe and well-defined conversions, such as converting between related types, performing implicit conversions explicitly, and calling explicit conversion functions.
+- The syntax for `static_cast` looks like this: `static_cast<new_type>(expression)`.
+	- `static_cast` takes the value from an expression as input, and returns that value converted into the type specified by `new_type` (e.g. `int`, `bool`, `char`, etc.).
 - 
