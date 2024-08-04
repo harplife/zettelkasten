@@ -2372,3 +2372,5 @@ int main()
 - `static_cast` can be used on these 8-bit integers to convert them to `int` type.
 - It's best to avoid using 8-bit integers as input for `std::cin` because it may behave like it's getting `char` value from the user.
 
+## Constant variables (named constants)
+- 
