@@ -2373,4 +2373,17 @@ int main()
 - It's best to avoid using 8-bit integers as input for `std::cin` because it may behave like it's getting `char` value from the user.
 
 ## Constant variables (named constants)
+### Intro to constants
+- A **constant** is a value that may not be changed during the program's execution.
+- C++ supports two different kinds of constants.
+	- **Named constants (symbolic constants)** : constant values that are associated with an identifier.
+	- **Literal constants** : constant values that are not associated with an identifier.
+
+### Types of named constants
+- There are three ways to define a named constant.
+	- Constant variables
+	- [[#Object-like macros with substitution text]]
+	- Enumerated constants
+
+### Constant variables
 - 
