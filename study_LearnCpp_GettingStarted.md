@@ -2249,4 +2249,6 @@ int main()
 	- It is primarily used for safe and well-defined conversions, such as converting between related types, performing implicit conversions explicitly, and calling explicit conversion functions.
 - The syntax for `static_cast` looks like this: `static_cast<new_type>(expression)`.
 	- `static_cast` takes the value from an expression as input, and returns that value converted into the type specified by `new_type` (e.g. `int`, `bool`, `char`, etc.).
+	- Example: `int x = static_cast<int>(5.5);`
+- When explicit type conversion is used, the compiler will not generate any warning.
 - 
