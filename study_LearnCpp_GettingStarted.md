@@ -2399,5 +2399,98 @@ int main()
 	- `k` prefix camelCase (e.g. `kEarthGravity`)
 	- Same as normal variables (e.g. `earthGravity`)
 
+>[!important]
+>A **type qualifier** (qualifier for short) is a keyword that is applied to a type that modifies how that type behaves. The `const` used to declare a constant variable is called a const type qualifier (or const qualifier). There is also another qualifier named `volatile`.
+
 ### Const function parameters
-- 
+- Function parameters can be made constants via the `const` keyword. For example:
+
+```C++
+#include <iostream>
+
+void printInt(const int x)
+{
+    std::cout << x << '\n';
+}
+
+int main()
+{
+    printInt(5); // 5 will be used as the initializer for x
+    printInt(6); // 6 will be used as the initializer for x
+
+    return 0;
+}
+```
+
+---
+
+Using `const` function parameters in C++ is necessary and beneficial in several scenarios:
+
+1. **Preventing Modification**
+	- **Read-Only Parameters**: When you want to ensure that a parameter passed to a function is not modified within the function, you can declare it as `const`. This helps prevent accidental changes and makes the code safer³.
+
+```cpp
+void printValue(const int value) {
+	std::cout << value << std::endl;
+	// value = 10; // Error: value is read-only
+}
+```
+
+2. **Self-Documentation**
+	- **Code Clarity**: Using `const` makes it clear to anyone reading the code that the parameter is not intended to be modified. This improves code readability and maintainability¹.
+
+```cpp
+void displayMessage(const std::string& message) {
+	std::cout << message << std::endl;
+}
+```
+
+3. **Enabling Compiler Optimizations**
+	- **Optimization**: The compiler can sometimes optimize code better when it knows that certain variables are `const`. This can lead to more efficient code³.
+
+```cpp
+void calculate(const int a, const int b) {
+	int result = a + b; // Compiler knows a and b won't change
+	std::cout << result << std::endl;
+}
+```
+
+4. **Passing by Reference**
+	- **Const References**: When passing large objects or complex data structures to a function, using `const` references avoids unnecessary copying while ensuring the object is not modified².
+
+```cpp
+void processData(const std::vector<int>& data) {
+	for (const auto& item : data) {
+		std::cout << item << std::endl;
+	}
+}
+```
+
+Summary
+Using `const` function parameters is a good practice to ensure safety, clarity, and potential optimizations in your code. It is especially useful when you want to prevent modifications, improve readability, and pass large objects efficiently.
+
+¹: [Stack Overflow](1)
+²: [Stack Overflow](2)
+³: [EDUCBA](3)
+
+Source: Conversation with Copilot, 2024. 8. 4.
+(1) Const Keyword in C++ | Declaring a Variable or Function Parameter - EDUCBA. https://www.educba.com/const-keyword-in-c-plus-plus/.
+(2) c++ - Does using const on function parameters have any effect? Why does .... https://stackoverflow.com/questions/117293/does-using-const-on-function-parameters-have-any-effect-why-does-it-not-affect.
+(3) When to use const and const reference in function args?. https://stackoverflow.com/questions/3967177/when-to-use-const-and-const-reference-in-function-args.
+(4) const (C++) | Microsoft Learn. https://learn.microsoft.com/en-us/cpp/cpp/const-cpp?view=msvc-170.
+
+---
+
+- It's generally best to avoid const function parameter unless it's pass-by-reference, which will be covered later on.
+
+### Const return values
+- It's possible to define a function and have its return value be a constant. However, it's no purpose for that and it may even generate a warning. It's best not to do it.
+
+### Constant : object-like macros with substitution text
+- In the earlier lesson [[#Object-like macros with substitution text]], we learned about preprocessing and how an identifier defined with `#define` directive can replace the identifier with a substitute text.
+- The substitution text is considered a constant value, and so the object-like macros with substitution text is also named constants.
+	- The value will be set on compile, and will not change during runtime.
+
+>[!warning]
+>It's best to just use constant variables over object-like macros w/ substitution text.
+
