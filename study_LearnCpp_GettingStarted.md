@@ -2252,4 +2252,123 @@ int main()
 	- Example: `int x = static_cast<int>(5.5);`
 - When explicit type conversion is used, the compiler will not generate any warning.
 
->[!important]
+---
+
+In C++, casting is the process of converting a value from one data type to another. There are several types of casts in C++, each serving different purposes and providing varying levels of safety and flexibility. Here are the main types of casts:
+
+1. **C-Style Cast**
+    - **Syntax**: `(new_type)expression` or `new_type(expression)`
+    - **Usage**: This is the most basic form of casting and can perform any type of cast (static, dynamic, const, or reinterpret). However, it is not recommended because it lacks the safety and clarity of the C++-style casts⁷.
+
+2. **`static_cast`**
+    - **Syntax**: `static_cast<new_type>(expression)`
+    - **Usage**: Used for compile-time type conversions that are considered safe. It can be used to convert between related types, such as numeric types or pointers within the same inheritance hierarchy¹.
+    - **Example**:
+
+```cpp
+int num = 10;
+double numDouble = static_cast<double>(num); // Converts int to double
+```
+
+3. **`dynamic_cast`**
+    - **Syntax**: `dynamic_cast<new_type>(expression)`
+    - **Usage**: Used for safe downcasting in inheritance hierarchies. It performs a runtime check to ensure the validity of the conversion. If the conversion is not possible, it returns a null pointer (for pointers) or throws a `bad_cast` exception (for references)¹⁴.
+    - **Example**:
+	
+```cpp
+Animal* animalPtr = new Dog();
+Dog* dogPtr = dynamic_cast<Dog*>(animalPtr); // Downcasting
+if (dogPtr) {
+    dogPtr->speak();
+}
+```
+
+4. **`const_cast`**
+    - **Syntax**: `const_cast<new_type>(expression)`
+    - **Usage**: Used to add or remove the `const` qualifier from a variable. It is primarily used to cast away constness, allowing modification of a variable that was originally declared as `const`⁸.
+    - **Example**:
+	
+```cpp
+const int* ptr = &num;
+int* modifiablePtr = const_cast<int*>(ptr); // Removes constness
+```
+
+5. **`reinterpret_cast`**
+    - **Syntax**: `reinterpret_cast<new_type>(expression)`
+    - **Usage**: Used for low-level reinterpreting of bit patterns. It can cast any pointer type to any other pointer type, even if the types are unrelated. This cast is the most dangerous and should be used with caution⁸.
+    - **Example**:
+	
+```cpp
+int num = 10;
+void* ptr = &num;
+int* intPtr = reinterpret_cast<int*>(ptr); // Reinterprets void* as int*
+```
+
+Summary
+- **C-Style Cast**: Basic and flexible, but not recommended due to lack of safety.
+- **`static_cast`**: Safe compile-time conversions.
+- **`dynamic_cast`**: Safe runtime downcasting.
+- **`const_cast`**: Adds or removes `const` qualifier.
+- **`reinterpret_cast`**: Low-level bit pattern reinterpreting.
+
+Each cast serves a specific purpose and should be used appropriately to ensure code safety and clarity.
+
+¹: [GeeksforGeeks](1)
+⁴: [LearnCpp](4)
+⁷: [LearnCpp](7)
+⁸: [GeeksforGeeks](8)
+
+Source: Conversation with Copilot, 2024. 8. 4.
+(1) 10.6 — Explicit type conversion (casting) and static_cast. https://www.learncpp.com/cpp-tutorial/explicit-type-conversion-casting-and-static-cast/.
+(2) Casting Operators in C++     - GeeksforGeeks. https://www.geeksforgeeks.org/casting-operators-in-cpp/.
+(3) 25.10 — Dynamic casting – Learn C++     - LearnCpp.com. https://www.learncpp.com/cpp-tutorial/dynamic-casting/.
+(4) const_cast in C++ | Type Casting operators     - GeeksforGeeks. https://www.geeksforgeeks.org/const_cast-in-c-type-casting-operators/.
+(5) Type conversions     - C++ Users. https://cplusplus.com/doc/tutorial/typecasting/.
+(6) C/C++ What does casting do in the low level?     - Stack Overflow. https://stackoverflow.com/questions/64573971/c-c-what-does-casting-do-in-the-low-level.
+(7) Dynamic _Cast in C++     - GeeksforGeeks. https://www.geeksforgeeks.org/dynamic-_cast-in-cpp/.
+(8) c++     - Regular cast vs. static_cast vs. dynamic_cast     - Stack Overflow. https://stackoverflow.com/questions/28002/regular-cast-vs-static-cast-vs-dynamic-cast.
+(9) static_cast in C++     - GeeksforGeeks. https://www.geeksforgeeks.org/static_cast-in-cpp/.
+
+---
+
+### Unsigned to signed number
+- `static_cast` can be used to convert an unsigned number to a signed number.
+- Example:
+
+```C++
+#include <iostream>
+
+int main()
+{
+    unsigned int u { 5 };
+    int s { static_cast<int>(u) }; // return value of variable u as an int
+
+    std::cout << s << '\n';
+    return 0;
+}
+```
+
+>[!warning]
+>The `static_cast` does not do any range checking, so if you cast a value to a type whose range doesn't contain that value, undefined behavior will result.
+
+### 8-bit int (char) demonstration
+- As previously mentioned before at [[#8-bit fixed-width integers behave like chars]], most compilers treat fixed-width 8-bit integer types such as `std::int8_t` and `std::uint8_t` (and corresponding fast/least types) identically to types `signed char` and `unsigned char`.
+- Consider this example:
+
+```C++
+#include <cstdint>
+#include <iostream>
+
+int main()
+{
+    std::int8_t myInt{65};      // initialize myInt with value 65
+    std::cout << myInt << '\n'; // you're probably expecting this to print 65
+
+    return 0;
+}
+```
+
+- In the above example, most compilers will print the result as `A` instead of `65`.
+- `static_cast` can be used on these 8-bit integers to convert them to `int` type.
+- It's best to avoid using 8-bit integers as input for `std::cin` because it may behave like it's getting `char` value from the user.
+
