@@ -2497,3 +2497,5 @@ Source: Conversation with Copilot, 2024. 8. 4.
 ## Literals
 - Literals are values that are inserted directly into the code (functions and such).
 	- For example, `std::cout << "Hello World!";`
+- Literals are sometimes called **literal constants** because their meaning cannot be redefined.
+- 
