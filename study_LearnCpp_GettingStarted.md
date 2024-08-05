@@ -2495,4 +2495,5 @@ Source: Conversation with Copilot, 2024. 8. 4.
 >It's best to just use constant variables over object-like macros w/ substitution text.
 
 ## Literals
-- 
+- Literals are values that are inserted directly into the code (functions and such).
+	- For example, `std::cout << "Hello World!";`
