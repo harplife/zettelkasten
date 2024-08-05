@@ -2548,5 +2548,99 @@ Source: Conversation with Copilot, 2024. 8. 4.
 	- Hex to 4 bits binary: `0x0` is `0000`, `0xF` is `1111`.
 	- Hex to 8 bits binary: `0x00` is `0000 0000`, `0xFF` is `1111 1111`.
 - Representing a 32-bit integer with binary numbers is rather lengthy and repetitive. In hex, however, it boils down to 8 numerical digits (which is more concise). For this reason, hex values are often used to represent memory addresses or raw data in memory.
-- 
 
+>[!important]
+>Base16, Base32, and Base64 are encoding schemes used to represent binary data in a text format. Each has its own characteristics, advantages, and trade-offs:
+>
+>Base16 (Hexadecimal)
+>- **Encoding**: Uses 16 symbols (0-9 and A-F) to represent binary data.
+>- **Efficiency**: Each byte of binary data is represented by two hexadecimal characters, resulting in a 100% increase in size.
+>- **Advantages**: 
+>    - Simple and easy to read.
+>    - Commonly used in programming and debugging.
+>- **Disadvantages**: 
+>    - Less space-efficient compared to Base32 and Base64.
+>    - Larger encoded size².
+>
+>Base32
+>- **Encoding**: Uses 32 symbols (A-Z and 2-7) to represent binary data.
+>- **Efficiency**: Converts five bytes (40 bits) of binary data into eight ASCII characters, resulting in a 60% increase in size.
+>- **Advantages**: 
+>    - More space-efficient than Base16.
+>    - Case-insensitive and eliminates commonly confused characters.
+>- **Disadvantages**: 
+>    - Less space-efficient than Base64.
+>    - Slightly more complex encoding and decoding process¹³.
+>
+>Base64
+>- **Encoding**: Uses 64 symbols (A-Z, a-z, 0-9, +, /) to represent binary data.
+>- **Efficiency**: Converts three bytes (24 bits) of binary data into four ASCII characters, resulting in a 33% increase in size.
+>- **Advantages**: 
+>    - Most space-efficient among the three.
+>    - Widely used in email attachments, URLs, and data storage formats like XML and JSON.
+>- **Disadvantages**: 
+>    - Case-sensitive and includes characters that may not be URL-safe without encoding.
+>    - Slightly more complex encoding and decoding process¹².
+>
+>Summary
+>- **Base16**: Simple and easy to read, but less space-efficient.
+>- **Base32**: More space-efficient than Base16, case-insensitive, but less efficient than Base64.
+>- **Base64**: Most space-efficient, widely used, but case-sensitive and includes non-URL-safe characters.
+>
+>Each encoding scheme has its own use cases and trade-offs, so the choice depends on the specific requirements of your application.
+>
+>If you have any specific scenarios or further questions, feel free to ask!
+>
+>¹: [Base64 vs. Base32 Comparison](1)
+>²: [RFC 4648](2)
+>³: [Base 32 and Base 64 Encoding](3)
+>
+>Source: Conversation with Copilot, 2024. 8. 5.
+>(1) RFC 4648: The Base16, Base32, and Base64 Data Encodings. https://www.rfc-editor.org/rfc/rfc4648.
+>(2) Base64 vs. Base32 Comparison - B64Encode. https://b64encode.com/blog/base64-vs-base32-comparison/.
+>(3) Base 32 and Base 64 Encoding - DZone. https://dzone.com/articles/base-32-and-base-64-encoding.
+
+### Binary literals
+- Prior to C++14, there is no support for binary literals. However, hexadecimal literals provide us with a useful workaround:
+
+```C++
+#include <iostream>
+
+int main()
+{
+    int bin{};    // assume 16-bit ints
+    bin = 0x0001; // assign binary 0000 0000 0000 0001 to the variable
+    bin = 0x0002; // assign binary 0000 0000 0000 0010 to the variable
+    bin = 0x0004; // assign binary 0000 0000 0000 0100 to the variable
+    bin = 0x0008; // assign binary 0000 0000 0000 1000 to the variable
+    bin = 0x0010; // assign binary 0000 0000 0001 0000 to the variable
+    bin = 0x0020; // assign binary 0000 0000 0010 0000 to the variable
+    bin = 0x0040; // assign binary 0000 0000 0100 0000 to the variable
+    bin = 0x0080; // assign binary 0000 0000 1000 0000 to the variable
+    bin = 0x00FF; // assign binary 0000 0000 1111 1111 to the variable
+    bin = 0x00B3; // assign binary 0000 0000 1011 0011 to the variable
+    bin = 0xF770; // assign binary 1111 0111 0111 0000 to the variable
+
+    return 0;
+}
+```
+
+- In C++14 onward, we can use binary literals by using the `0b` prefix:
+
+```C++
+#include <iostream>
+
+int main()
+{
+    int bin{};        // assume 16-bit ints
+    bin = 0b1;        // assign binary 0000 0000 0000 0001 to the variable
+    bin = 0b11;       // assign binary 0000 0000 0000 0011 to the variable
+    bin = 0b1010;     // assign binary 0000 0000 0000 1010 to the variable
+    bin = 0b11110000; // assign binary 0000 0000 1111 0000 to the variable
+
+    return 0;
+}
+```
+
+### Digit separators
+- Because long literals can be hard to read, C++14 adds the ability to use a 
