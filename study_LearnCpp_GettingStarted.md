@@ -2509,4 +2509,30 @@ Source: Conversation with Copilot, 2024. 8. 4.
 - Most of the suffixes are not case sensitive, except:
 	- `s` and `sv` must be lower case
 	- Two consecutive `l` or `L` must have the same casing
+- For integral types, it's generally fine to use non-suffixed `int` literals, even when initializing non-`int` types:
+	- e.g. `unsigned int x = 6;` is fine, the compiler will convert it without a problem.
+- By default, floating point literals have a type of `double`. To make them `float`, the `f` suffix should be used.
+	- e.g. `float x = 5.1f;`
+- Floating point literals can be expressed with scientific notation by using `e` followed by the power.
+	- e.g. `double electronChange = 1.6e-19;` means $1.6 \times 10^{-19}$
+
+>[!important]
+>A **string** is a collection of sequential characters used to represent text. **String literals** are placed between double quotes to identify them as string (e.g. `"Hello World!"`).
+>
+>Because strings are commonly used in programs, most modern programming languages include a fundamental string data type. _For historical reasons, strings are not fundamental type in C++._ Rather, they have a strange, complicated type that is hard to work with (more on this in future lesson). Such strings are often called **C strings (C-Style strings)**, as they are inherited from the C-language.
+>
+>All C-style string literals have an implicit **null terminator** `\0`, which is used to indicate the end of the string. For example, `"Hello World!"` is actually `"Hello World!\0`". This means that the length of the string literal is longer (by one) than the characters typed (13 instead of 12 in the previous example).
+>
+>There are other string types such as `std::string`, which will be covered in future lessons.
+
+- A **magic number** is a literal that either has an unclear meaning or may need to be changed later.
+	- It's best practice to use variables with assigned values for readability and control. Literals, especially numbers, can seem like they came from out of nowhere, hence the "magic".
+
+## Numeral systems (decimal, binary, hex, octal)
+- **Numerical system** is a collection of symbols (e.g. digits) used to represent numbers.
+- The ordinary numeral system that we use in everyday life is called **decimal numbers**, where each numerical digit can be `0` through `9`. Because there are 10 possible digits, it is called also called a **base 10**.
+	- By default, numbers are assumed to be decimal.
+- **Binary numbers** use two possible digits `0` or `1` per numerical digit, which makes it a **base 2**.
+	- It is the numerical system that computers use.
+	- Binary numbers are written like this: `0`, `1`, `10`, `11`, `100`, `101`, and so on.
 - 
