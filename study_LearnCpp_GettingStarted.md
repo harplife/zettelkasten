@@ -2707,4 +2707,4 @@ int main()
 ```
 
 - The output is straightforward, as it prints `7` every time the program runs.
-- If this program was run without optimization, the compiler would generate an executable that calculates the result of `3 + 4` at runtime. If the program were executed a million times, `3 + 4` 
+- If this program was run without optimization, the compiler would generate an executable that calculates the result of `3 + 4` at runtime. If the program were executed a million times, `3 + 4` calculation would occur a million times - considering that the result of the calculation is `7` and it never changes, it is
