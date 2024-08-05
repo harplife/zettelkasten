@@ -2533,6 +2533,19 @@ Source: Conversation with Copilot, 2024. 8. 4.
 - The ordinary numeral system that we use in everyday life is called **decimal numbers**, where each numerical digit can be `0` through `9`. Because there are 10 possible digits, it is called also called a **base 10**.
 	- By default, numbers are assumed to be decimal.
 - **Binary numbers** use two possible digits `0` or `1` per numerical digit, which makes it a **base 2**.
-	- It is the numerical system that computers use.
+	- It is the numerical system that computers use internally.
 	- Binary numbers are written like this: `0`, `1`, `10`, `11`, `100`, `101`, and so on.
-- 
+- **Octal numbers** is **base 8**. Each numerical digit ranges from `0` to `7`
+	- To use an octal literal, prefix the literal with a `0`. For example, `int x = 012;`. When this example is printed out, it prints out `10` instead because output is in decimal by default.
+- **Hexadecimal** is **base 16**. Each numerical digit ranges from `0` to `F` (0123456789ABCDEF).
+	- To use a hex literal, prefix the literal with `0x`. For example, `int x = 0xF;`. When this example is printed out (as decimal), it prints out `15`.
+
+>[!important]
+>Two bits are called a **crumb**, four bits are called a **nibble**, and 8 bits are called a **byte**.
+
+### Using hexadecimal to represent binary
+- Because there are 16 different values for a hexadecimal digit, we can say that a single hex digit encompasses 4 bits. Consequently, a pair of hex digits can be used to exactly represent a full byte.
+	- Hex to 4 bits binary: `0x0` is `0000`, `0xF` is `1111`.
+	- Hex to 8 bits binary: `0x00` is `0000 0000`, `0xFF` is `1111 1111`.
+- Representing a 32-bit integer with binary numbers is rather lengthy and repetitive. In hex, however, it boils down to 8 numerical digits (which is more concise). For this reason, hex values are often used to represent memory addresses or raw data in memory.
+
