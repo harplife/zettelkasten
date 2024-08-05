@@ -2707,4 +2707,28 @@ int main()
 ```
 
 - The output is straightforward, as it prints `7` every time the program runs.
-- If this program was run without optimization, the compiler would generate an executable that calculates the result of `3 + 4` at runtime. If the program were executed a million times, `3 + 4` calculation would occur a million times - considering that the result of the calculation is `7` and it never changes, it is
+- If this program was run without optimization, the compiler would generate an executable that calculates the result of `3 + 4` at runtime. If the program were executed a million times, `3 + 4` calculation would occur a million times - considering that the result of the calculation is `7` and it never changes, it is wasteful to do all that calculation over and over again when the value `7` could just be written in place.
+	- A situation such as this is considered an **optimization opportunity**.
+- Modern C++ compilers are able to evaluate some expressions at compile-time. When this occurs, the compiler can replace the expression with the result of the expression.
+	- A simple arithmetic expression with known values (e.g. `3+4`) can be replaced with its result at compile-time.
+	- **Compile-time evaluation of expressions** is considered an optimization.
+
+### Constant expressions
+- One kind of expression that can always be evaluated at compile time (and does not change during runtime) is called a **constant expression**.
+	- e.g. `5`, `1.2 + 3.4`, `const int x = 5;`, `const int y = x + 3;`
+	- Opposite of constant expression is runtime expression.
+- A **compile-time constant** is a constant whose value must be known at compile time. This includes:
+	- Literals
+	- Constexpr variables (more on this later)
+	- Const integral variables with a constant expression initializer (e.g. `const int x = 5;`)
+	- Non-type template parameters (more on this later)
+	- Enumerators (more on this later)
+- Const variables that are not compile-time constants are sometimes called **runtime constants**.
+	- Runtime constants cannot be used in a constant expression.
+	- e.g. `int x = 5;`, `const int y = x;` (`x` is not a constant variable)
+- Note that `<<` operator does NOT support compile-time evaluation, because output can't be done at compile-time.
+
+### Usefulness of constant expressions
+- Constant expressions are useful for (at least) three reasons:
+	- Constant expressions are most likely to be optimized.
+	- Both the type and the value is known at compile-time, which means
