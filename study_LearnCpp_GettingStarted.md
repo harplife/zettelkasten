@@ -2643,4 +2643,68 @@ int main()
 ```
 
 ### Digit separators
-- Because long literals can be hard to read, C++14 adds the ability to use a 
+- Because long literals can be hard to read, C++14 adds the ability to use a single quotation mark (apostrophe) `'` as a digit separator.
+	- e.g. `1'000'000'000`
+- Note that comma `,` is not used as a digit separator. This is due to the fact that it may cause confusion, as Europeans use period `.` to indicate digit separator and comma `,` for decimal point. Basically, it is a localization issue.
+- The digit separator is purely visual and do not impact the literal value in any way.
+	- Though it can visually represent thousands, it does not necessary change the value to thousands.
+- Note that the digit separator can NOT be used before the first digit.
+
+### Outputting values in base-8/16/32
+- I/O manipulators such as `std::dec`, `std::oct`, and `std::hex` can be used to output decimal, octal, and hexadecimal values respectively.
+- For example,
+
+code
+```C++
+#include <iostream>
+
+int main()
+{
+    int x { 12 };
+    std::cout << x << '\n'; // decimal (by default)
+    std::cout << std::hex << x << '\n'; // hexadecimal
+    std::cout << x << '\n'; // now hexadecimal
+    std::cout << std::oct << x << '\n'; // octal
+    std::cout << std::dec << x << '\n'; // return to decimal
+    std::cout << x << '\n'; // decimal
+
+    return 0;
+}
+```
+
+result
+```console
+12
+c
+c
+14
+12
+12
+```
+
+- Note that once the I/O manipulator is applied, it remains set for future output until it is changed again.
+- Printing binary numbers is a bit more complicated, and so it will be covered later.
+
+## Constant expressions and compile-time optimization
+
+### The as-if rule
+- In C++, compilers are given a lot of leeway to optimize programs. The **as-if rule** says that the compiler can modify a program however it likes in order to produce more optimized code, so long as those modifications do not affect a program's observable behavior.
+- Exactly how a compiler optimizes a given program is up to the compiler itself. However, there are things we can do to help the compiler optimize better.
+
+### Compile-time evaluation of expressions
+- Consider the following program:
+
+```C++
+#include <iostream>
+
+int main()
+{
+	int x { 3 + 4 };
+	std::cout << x << '\n';
+
+	return 0;
+}
+```
+
+- The output is straightforward, as it prints `7` every time the program runs.
+- If this program was run without optimization, the compiler would generate an executable that calculates the result of `3 + 4` at runtime. If the program were executed a million times, `3 + 4` 
