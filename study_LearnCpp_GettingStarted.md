@@ -2498,4 +2498,15 @@ Source: Conversation with Copilot, 2024. 8. 4.
 - Literals are values that are inserted directly into the code (functions and such).
 	- For example, `std::cout << "Hello World!";`
 - Literals are sometimes called **literal constants** because their meaning cannot be redefined.
+- Just like objects have a type, all literals have a type. The type of a literal is deduced from the literal's value.
+	- e.g. `5` is an `int` type.
+- More types can be expressed by adding a suffix to the value.
+	- `f` suffix is used to indicate a literal of `float` type (e.g. `5.0f`).
+	- `u` for `unsigned int`
+	- `l` for `long`
+	- etc..
+- ![[Pasted image 20240805123926.png]]
+- Most of the suffixes are not case sensitive, except:
+	- `s` and `sv` must be lower case
+	- Two consecutive `l` or `L` must have the same casing
 - 
