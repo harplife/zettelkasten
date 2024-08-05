@@ -2548,4 +2548,5 @@ Source: Conversation with Copilot, 2024. 8. 4.
 	- Hex to 4 bits binary: `0x0` is `0000`, `0xF` is `1111`.
 	- Hex to 8 bits binary: `0x00` is `0000 0000`, `0xFF` is `1111 1111`.
 - Representing a 32-bit integer with binary numbers is rather lengthy and repetitive. In hex, however, it boils down to 8 numerical digits (which is more concise). For this reason, hex values are often used to represent memory addresses or raw data in memory.
+- 
 
