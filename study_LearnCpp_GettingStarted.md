@@ -2383,7 +2383,7 @@ int main()
 - There are three ways to define a named constant.
 	- Constant variables
 	- [[#Object-like macros with substitution text]]
-	- Enumerated constants
+	- Enumerated constants (covered later)
 
 ### Constant variables
 - A **constant variable** is a variable whose value cannot be changed during the program's execution.
@@ -2494,3 +2494,5 @@ Source: Conversation with Copilot, 2024. 8. 4.
 >[!warning]
 >It's best to just use constant variables over object-like macros w/ substitution text.
 
+## Literals
+- 
