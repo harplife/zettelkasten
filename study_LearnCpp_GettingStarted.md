@@ -2731,4 +2731,42 @@ int main()
 ### Usefulness of constant expressions
 - Constant expressions are useful for (at least) three reasons:
 	- Constant expressions are most likely to be optimized.
-	- Both the type and the value is known at compile-time, which means
+	- Both the type and the value is known at compile-time, which means any errors associated with constant expressions can be caught at compile-time. This makes it comparably easier to test and safer than catching errors during runtime.
+	- Constant expressions are useful for keeping things memory safe by setting certain values to a fixed amount (that cannot be changed).
+
+### Partial optimization of constant subexpressions
+- When a part of a runtime expression consists of a constant subexpression, that constant subexpression can be optimized.
+	- e.g. `std::cout << 3 + 4;` is a runtime expression, but `3 + 4` is a constant subexpression. `3 + 4` can be optimized by replacing it with `7`.
+
+### Optimization of non-constant expressions
+- Compilers are capable of optimizing non-constant expressions in certain cases.
+- When a variable is initialized and its value does not change throughout the whole program, the compiler may choose to replace the variable with its value wherever the variable is called. Furthermore, the variable may be removed (**optimized out/away**).
+- For example,
+
+Before optimization
+```C++
+#include <iostream>
+
+int main()
+{
+	int x { 7 };
+	std::cout << x << '\n';
+
+	return 0;
+}
+```
+
+After optimization
+```C++
+#include <iostream>
+
+int main()
+{
+	std::cout << 7 << '\n';
+
+	return 0;
+}
+```
+
+- This kind of optimization only happens if the compiler realizes that the value of a variable does not change. Whether the compiler realizes this comes down to how complex the program is, and how sophisticated the compiler's optimization routines are.
+
