@@ -2769,4 +2769,10 @@ int main()
 ```
 
 - This kind of optimization only happens if the compiler realizes that the value of a variable does not change. Whether the compiler realizes this comes down to how complex the program is, and how sophisticated the compiler's optimization routines are.
+- Note that it's worth considering changing the non-constant variable to a constant variable if its value does not change. Then it's guaranteed that the compiler will optimize the code accordingly.
+
+### Optimization can make programs harder to debug
+- When the compiler optimizes a program, variables/expressions/statements/function calls may be rearranged/altered/replaced with a value/removed. Such changes can make it hard to debug a program effectively.
+- There are times when optimization itself can cause a bug; like when a variable/expression is replaced with a wrong value.
+- To help minimize such issues with debugging, debug builds will typically turn down (or off) optimizations, so that the compiled code will closely match the source code.
 
