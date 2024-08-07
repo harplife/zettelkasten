@@ -2776,3 +2776,4 @@ int main()
 - There are times when optimization itself can cause a bug; like when a variable/expression is replaced with a wrong value.
 - To help minimize such issues with debugging, debug builds will typically turn down (or off) optimizations, so that the compiled code will closely match the source code.
 
+## Constexpr variables
