@@ -2777,3 +2777,46 @@ int main()
 - To help minimize such issues with debugging, debug builds will typically turn down (or off) optimizations, so that the compiled code will closely match the source code.
 
 ## Constexpr variables
+### Problem with const
+- When using `const`, integral variables may end up as either a compile-time const or a runtime const, depending on whether the initializer is a constant expression or not.
+	- In some cases, this can make it hard to tell whether the `const` variable is actually a compile-time constant or not.
+- The use of `const` to create a compile-time constant variables does not extend to non-integral variables.
+
+### The constexpr keyword
+- `constexpr` keyword (shorthand for constant expression) can be used instead of `const` to make sure the variable is declared as a compile-time constant variable; as such, a `constexpr` variable is always a compile-time constant.
+	- As a result, a `constexpr` variable must be initialized with a constant expression, otherwise a compilation error will result.
+- For example,
+
+```C++
+#include <iostream>
+
+int five()
+{
+    return 5;
+}
+
+int main()
+{
+    constexpr double gravity { 9.8 }; // ok: 9.8 is a constant expression
+    constexpr int sum { 4 + 5 };      // ok: 4 + 5 is a constant expression
+    constexpr int something { sum };  // ok: sum is a constant expression
+
+    std::cout << "Enter your age: ";
+    int age{};
+    std::cin >> age;
+
+    constexpr int myAge { age };      // compile error: age is not a constant expression
+    constexpr int f { five() };       // compile error: return value of five() is not a constant expression
+
+    return 0;
+}
+```
+
+- Additionally, `constexpr` works for both integral and non-integral types.
+
+### Const vs. constexpr
+- `const` means that the value of an object cannot be changed after initialization. The value of the initializer may be known at compile-time or runtime. The object can be evaluated at runtime.
+- `constexpr` means that the object can be used in a constant expression. The value of the initializer must be known at compile-time. The object can be evaluated at runtime or compile-time.
+- `constexpr` variables are implicitly `const`. However, it's not true for the other way around.
+- Defining a variable as both `constexpr` and `const` is possible but it is redundant in most cases.
+- 
