@@ -2908,4 +2908,12 @@ int main()
 
 - The code above will not compile because `classSize` will only exist within the scope of the conditional statement, meaning that printing its value will result in undefined variable error.
 	- Declaring `classSize` outside the if-else block will not work, as its intended purpose is to be a `constexpr` variable, which means it has to be initialized with a value at definition.
-- 
+- Like the example above, the conditional operator is useful for situations where if-else logic must be contained within the initializer.
+
+>[!important] Parenthesizing the conditional operator
+>Because operators have a certain order of priority and most operators are prioritized over the evaluation of the conditional operator, it's recommended to use parenthesis on the conditional operator (either the entire expression or the condition) to make it more readable and clear.
+>
+>Follow these two rules:
+>- Parenthesize the entire conditional operator when used in a compound expression (an expression with other operators).
+>- Parenthesize the condition if it contains any operators (other than the function call operator).
+
