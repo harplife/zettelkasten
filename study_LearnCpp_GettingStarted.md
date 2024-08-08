@@ -2917,3 +2917,17 @@ int main()
 >- Parenthesize the entire conditional operator when used in a compound expression (an expression with other operators).
 >- Parenthesize the condition if it contains any operators (other than the function call operator).
 
+>[!warning] Operant types must match (or be convertible)
+>When using a conditional operator, the type of the second and third operand must match, otherwise one of the operands will be converted to match the other. Such conversions may yield undefined behaviors.
+>
+>In general, it's okay to mix operands with fundamental types. But it's best to avoid mixing signed and unsigned values.
+>- Mixing `int` and `float` is okay, as `int` operand will be converted to `float`.
+>- Consider `(true ? -1 : 2u)`, where `-1` is converted to `unsigned int` to match the type of the other; which causes the overflow wrap-around to occur.
+>
+> A compile error will result if the types are not convertible. For example, mixing `int` and C-style string (e.g. `"Hello World!"`) will result in compile error.
+> 
+> If either operand is not a fundamental type, it's generally best to explicitly convert one or both operands to a matching type.
+
+- It's best to avoid using conditional operator in complicated expressions, as they tend to be error prone and hard to read.
+
+## Inline functions and variables
