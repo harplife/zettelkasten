@@ -2089,6 +2089,10 @@ result
 
 >[!warning] Conditional statements have their own scope
 >When a variable is declared within a conditional statement (such as if/else block), that variable is only accessible within the scope of that block.
+>
+>While a variable declared outside the conditional statement can be initialized inside the conditional statement, it cannot be initialized with a reference to the variable that's defined within the conditional statement.
+
+
 
 ## Chars
 - The `char` data type is designed to hold a single character.
@@ -2882,3 +2886,26 @@ int main()
 }
 ```
 
+- There is no direct if-else replacement for the example above. Consider the following:
+
+```C++
+#include <iostream>
+
+int main()
+{
+    constexpr bool inBigClassroom { false };
+
+    if (inBigClassroom)
+        constexpr int classSize { 30 };
+    else
+        constexpr int classSize { 20 };
+
+    std::cout << "The class size is: " << classSize << '\n';
+
+    return 0;
+}
+```
+
+- The code above will not compile because `classSize` will only exist within the scope of the conditional statement, meaning that printing its value will result in undefined variable error.
+	- Declaring `classSize` outside the if-else block will not work, as its intended purpose is to be a `constexpr` variable, which means it has to be initialized with a value at definition.
+- 
