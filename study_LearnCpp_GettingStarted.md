@@ -2087,6 +2087,9 @@ result
 	- Such a statement will cause the function to return to the caller wen the return statement is executed.
 - If statements and early returns pair up well together.
 
+>[!warning] Conditional statements have their own scope
+>When a variable is declared within a conditional statement (such as if/else block), that variable is only accessible within the scope of that block.
+
 ## Chars
 - The `char` data type is designed to hold a single character.
 	- A **character** can be a single letter, number, symbol, or whitespace.
@@ -2819,4 +2822,63 @@ int main()
 - `constexpr` means that the object can be used in a constant expression. The value of the initializer must be known at compile-time. The object can be evaluated at runtime or compile-time.
 - `constexpr` variables are implicitly `const`. However, it's not true for the other way around.
 - Defining a variable as both `constexpr` and `const` is possible but it is redundant in most cases.
-- 
+
+### Const and constexpr function parameters
+- Normal function calls are evaluated at runtime, with the supplied arguments being used to initialize the function's parameters. Because the initialization of function parameters happens at runtime, this leads to two consequences:
+	- `const` function parameters are treated as runtime constants (even when the supplied argument is a compile-time constant).
+	- Function parameters cannot be declared as `constexpr`, since their initialization value isn't determined until runtime.
+- C++ does support functions that can be evaluated at compile-time. This will be discussed in future lessons.
+
+## The conditional operator
+- The **conditional operator** `?:` (aka arithmetic if operator) is a ternary operator (takes 3 operands) that provides a shorthand method for doing a particular type of if-else statement.
+- To recap, an if-else statement takes the following form:
+
+```C++
+if (condition)
+	statement1;
+else
+	statement2;
+```
+
+- The `?:` operator takes the following form:
+
+```C++
+condition ? expression1 : expression2;
+```
+
+- If `condition` evaluates to `true`, then `expression1` is evaluated, else `epxression2`.
+	- The `:` and `expression2` are not optional.
+- Consider an if-else statement that looks like this:
+
+```C++
+if (x > y)
+	greater = x;
+else
+	greater = y;
+```
+
+- Above if-else statement can be rewritten as:
+
+```C++
+greater = ((x > y) ? x : y);
+```
+
+- Using the conditional operator can help compact code without losing readability.
+
+### The conditional operator as an expression
+- The conditional operator and its operands are considered an expression, therefore it can be used in places where an expression is required.
+- For example, the conditional operator can be used for initializing a variable:
+
+```C++
+#include <iostream>
+
+int main()
+{
+    constexpr bool inBigClassroom { false };
+    constexpr int classSize { inBigClassroom ? 30 : 20 };
+    std::cout << "The class size is: " << classSize << '\n';
+
+    return 0;
+}
+```
+
