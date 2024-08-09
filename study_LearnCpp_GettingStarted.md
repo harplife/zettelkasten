@@ -2931,3 +2931,4 @@ int main()
 - It's best to avoid using conditional operator in complicated expressions, as they tend to be error prone and hard to read.
 
 ## Inline functions and variables
+- 
