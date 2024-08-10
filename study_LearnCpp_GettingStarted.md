@@ -2945,4 +2945,4 @@ int main()
 	- However, for small functions, the overhead costs can be larger than the time needed to actually execute the function's code. In cases where a small function is called often, using a function can result in a significant performance penalty over writing the same code in-place.
 
 ### Inline expansion
-- 
+- The compiler has a trick that it can use to avoid function overhead; inline expansion is a 
