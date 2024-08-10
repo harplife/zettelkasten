@@ -3085,3 +3085,12 @@ double circumference(double radius)
 - Inline functions (defined in header files) are particularly useful for header-only libraries, which are one or more header files that implement some capability (no .cpp files are included).
 	- Header-only libraries are popular because there are no source files that need to be added to a project to use them (and be linked). You simply `#include` the header-only library and then can use it.
 
+>[!important]
+>There are a couple reasons why not all functions are inline and defined in a header file:
+>- It can increase the compile time. When a function in a code file changes, only that code file needs to be recompiled. When an inline function in a header file changes, every code file that includes that header (either directly or via another header) needs to be recompiled. On large projects, this can have a drastic impact.
+>- It can lead to more naming collisions since you'll end up with more code in a single code file.
+
+### Inline variables (C++17)
+- C++17 introduces **inline variables**, which are variables that are allowed to be defined in multiple files.
+	- Inline variables work similarly to inline functions, and have the same requirements.
+- 
