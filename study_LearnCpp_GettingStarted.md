@@ -2981,3 +2981,8 @@ int main()
 	- If a function becomes a constant expression due to inline expansion, the compiler could further optimize the code by optimizing out the constant expression with a value.
 - Inline expansion has its own potential cost - if the body of the function being expanded takes more instructions than the function call being replaced, then each inline expansion will cause the executable to grow larger. Larger executables tend to be slower (due to not fitting as well in memory caches).
 - The decision about whether a function would benefit from being made inline is not straightforward. Inline expansion is best suited to simple, short functions (no more than a few statements), especially cases where a single function call can be executed more than once (e.g. function calls inside a loop).
+
+### The inline keyword, historically
+- Historically, compilers either didn't have the capability to determine whether inline expansion would be beneficial or were not very good at it. For this reason, C++ provided the keyword `inline`, which was originally intended to be used as a hint to the compiler that a function would (probably) benefit from being expanded inline.
+- A function that is declared using the `inline` keyword is called an **inline function**.
+- 
