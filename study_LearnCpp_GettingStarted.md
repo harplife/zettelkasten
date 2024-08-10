@@ -2982,7 +2982,7 @@ int main()
 - Inline expansion has its own potential cost - if the body of the function being expanded takes more instructions than the function call being replaced, then each inline expansion will cause the executable to grow larger. Larger executables tend to be slower (due to not fitting as well in memory caches).
 - The decision about whether a function would benefit from being made inline is not straightforward. Inline expansion is best suited to simple, short functions (no more than a few statements), especially cases where a single function call can be executed more than once (e.g. function calls inside a loop).
 
-### Historical use of inline keywrod
+### Historical use of inline keyword
 - Historically, compilers either didn't have the capability to determine whether inline expansion would be beneficial or were not very good at it. For this reason, C++ provided the keyword `inline`, which was originally intended to be used as a hint to the compiler that a function would (probably) benefit from being expanded inline.
 - A function that is declared using the `inline` keyword is called an **inline function**.
 - An example of inline function:
@@ -3003,11 +3003,85 @@ int main()
 }
 ```
 
->[!warning] The `inline` keyword is no longer used in modern C++.
+>[!warning] The `inline` keyword is no longer used in modern C++ for inline expansion.
 >The `inline` keyword is no longer used in modern C++ because of a few reasons:
 >- Using `inline` to request inline expansion is a form of premature optimization, and misuse could actually harm performance.
 >- The `inline` keyword is just a hint. The compiler is completely free to ignore it.
 >- The `inline` keyword is defined at the wrong level of granularity; `inline` keyword is used on a function definition, but inline expansion is actually determined per function call.
 
 ### Modern use of inline keyword
-- 
+- In modern C++, the term `inline` has evolved to mean "multiple definitions are allowed". Thus, an **inline function** is one that is allowed to be defined in multiple translation units (without violating the ODR).
+- Inline functions have two primary requirements:
+	- The compiler needs to be able to see the *full definition* of an inline function in each translation unit where the function is used (a forward declaration will not suffice on its own). The definition can occur after the point of use if a forward declaration is also provided. Only one such definition can occur per translation unit, otherwise a compilation error will occur.
+	- Every definition for an inline function must be *identical*, otherwise undefined behavior will result.
+- For example,
+
+main.cpp
+```C++
+#include <iostream>
+
+double circumference(double radius); // forward declaration
+
+inline double pi() { return 3.14159; }
+
+int main()
+{
+    std::cout << pi() << '\n';
+    std::cout << circumference(2.0) << '\n';
+
+    return 0;
+}
+```
+
+math.cpp
+```C++
+inline double pi() { return 3.14159; }
+
+double circumference(double radius)
+{
+    return 2.0 * pi() * radius;
+}
+```
+
+- Inline functions are typically defined in header files, where they can be `#included` into the top of any code file that needs to see the full definition of the identifier. This ensures that all inline definitions for an identifier are identical.
+- For example,
+
+pi.h
+```C++
+#ifndef PI_H
+#define PI_H
+
+inline double pi() { return 3.14159; }
+
+#endif
+```
+
+main.cpp
+```C++
+#include "pi.h" // will include a copy of pi() here
+#include <iostream>
+
+double circumference(double radius); // forward declaration
+
+int main()
+{
+    std::cout << pi() << '\n';
+    std::cout << circumference(2.0) << '\n';
+
+    return 0;
+}
+```
+
+math.cpp
+```C++
+#include "pi.h" // will include a copy of pi() here
+
+double circumference(double radius)
+{
+    return 2.0 * pi() * radius;
+}
+```
+
+- Inline functions (defined in header files) are particularly useful for header-only libraries, which are one or more header files that implement some capability (no .cpp files are included).
+	- Header-only libraries are popular because there are no source files that need to be added to a project to use them (and be linked). You simply `#include` the header-only library and then can use it.
+
