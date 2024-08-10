@@ -3093,4 +3093,7 @@ double circumference(double radius)
 ### Inline variables (C++17)
 - C++17 introduces **inline variables**, which are variables that are allowed to be defined in multiple files.
 	- Inline variables work similarly to inline functions, and have the same requirements.
+- Common use for inline variables will be covered later as it will relate to the topic of sharing global constants across multiple files.
+
+## Constexpr and consteval functions
 - 
