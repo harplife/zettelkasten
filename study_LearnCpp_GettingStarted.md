@@ -2937,7 +2937,12 @@ int main()
 	- Easy to use, as you can call the function without understanding how it is implemented.
 	- Easy to update, as the function can be updated in one place
 	- Easy to reuse, as functions are naturally modular
-- One downside of using a function is that every time a function is called, there is a certain amount of performance overhead that occurs:
+- One downside of using a function is that every time a function is called, there is a certain amount of performance **overhead** (extra work that must happen to facilitate a function) that occurs:
 	- When a function is called, the CPU must store the address of the current instruction it is executing, so it knows where to return to later.
 	- The function parameters must be instantiated and then initialized.
-	- 
+	- When the function ends, the program has to jump back to the location of the function call, and then the return value ahs to be copied so it can be output.
+- For functions that are large and/or perform complex tasks, the overhead of the function call is typically insignificant compared to the amount of time the function takes to run.
+	- However, for small functions, the overhead costs can be larger than the time needed to actually execute the function's code. In cases where a small function is called often, using a function can result in a significant performance penalty over writing the same code in-place.
+
+### Inline expansion
+- 
