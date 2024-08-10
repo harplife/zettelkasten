@@ -2931,4 +2931,13 @@ int main()
 - It's best to avoid using conditional operator in complicated expressions, as they tend to be error prone and hard to read.
 
 ## Inline functions and variables
-- 
+### Function overhead
+- Writing functions provides many potential benefits, as code in a function:
+	- Easy to read and understand in the context of the overall program.
+	- Easy to use, as you can call the function without understanding how it is implemented.
+	- Easy to update, as the function can be updated in one place
+	- Easy to reuse, as functions are naturally modular
+- One downside of using a function is that every time a function is called, there is a certain amount of performance overhead that occurs:
+	- When a function is called, the CPU must store the address of the current instruction it is executing, so it knows where to return to later.
+	- The function parameters must be instantiated and then initialized.
+	- 
