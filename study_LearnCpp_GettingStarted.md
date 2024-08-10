@@ -2985,4 +2985,21 @@ int main()
 ### The inline keyword, historically
 - Historically, compilers either didn't have the capability to determine whether inline expansion would be beneficial or were not very good at it. For this reason, C++ provided the keyword `inline`, which was originally intended to be used as a hint to the compiler that a function would (probably) benefit from being expanded inline.
 - A function that is declared using the `inline` keyword is called an **inline function**.
-- 
+- An example of inline function:
+
+```C++
+#include <iostream>
+
+inline int min(int x, int y) // inline keyword means this function is an inline function
+{
+    return (x < y) ? x : y;
+}
+
+int main()
+{
+    std::cout << min(5, 6) << '\n';
+    std::cout << min(3, 2) << '\n';
+    return 0;
+}
+```
+
