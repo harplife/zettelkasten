@@ -3157,5 +3157,9 @@ int main()
 >
 >Another case is when the constexpr function call is part of a non-required constant expression.
 
+>[!warning]
+>The parameters of a constexpr function are not implicitly constexpr, nor may they be declared as `constexpr`.
+>
+>If a constexpr function is given constexpr arguments, then the function will be evaluated at compile-time. However, if a constexpr function is given arguments that are not constexpr, then the function will be evaluated at runtime.
 
-
+### Constexpr functions are implicitly inline
