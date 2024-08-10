@@ -3122,4 +3122,38 @@ int main()
 
 ### Constexpr functions
 - A **constexpr function** is a function that is allowed to be called in a constant expression.
-- 
+	- To make a function a constexpr function, simply place the `constexpr` keyword in front of the function's return type.
+- For example,
+
+```C++
+#include <iostream>
+
+constexpr double calcCircumference(double radius)
+{
+    constexpr double pi { 3.14159265359 };
+    return 2.0 * pi * radius;
+}
+
+int main()
+{
+    constexpr double circumference { calcCircumference(3.0) };
+
+    std::cout << "Our circle has circumference " << circumference << "\n";
+
+    return 0;
+}
+```
+
+- If a required constant expression contains a constexpr function call, that constexpr function call must evaluate at compile-time.
+	- In the example above, `calcCircumference()` is evaluated at compile-time; the return value of the function call is calculated at compile-time, and then the function call is replaced with the return value (e.g. `constexpr double circumference { 18.8496 };`)
+- To evaluate at compile-time, two other things must also be true:
+	- The arguments to the constexpr function call must be known at compile time
+	- All statements and expressions within the constexpr function must be evaluatable at compile-time.
+
+>[!important]
+>Constexpr functions can also be evaluated at runtime, in which case they will return a non-constexpr result.
+>
+>One of the cases where a constexpr function is evaluated at runtime is when the arguments to the call are not constant expressions.
+>
+>Another case is when the constexpr function call is part of a non-required constant expression.
+
