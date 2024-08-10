@@ -2980,4 +2980,4 @@ int main()
 - Beyond removing the cost of function call (overhead), inline expansion can also allow the compiler to optimize the resulting code more efficiently.
 	- If a function becomes a constant expression due to inline expansion, the compiler could further optimize the code by optimizing out the constant expression with a value.
 - Inline expansion has its own potential cost - if the body of the function being expanded takes more instructions than the function call being replaced, then each inline expansion will cause the executable to grow larger. Larger executables tend to be slower (due to not fitting as well in memory caches).
-- 
+- The decision about whether a function would benefit from being made inline is not straightforward. Inline expansion is best suited to simple, short functions (no more than a few statements), especially cases where a single function call can be executed more than once (e.g. function calls inside a loop).
