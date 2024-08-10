@@ -2945,4 +2945,39 @@ int main()
 	- However, for small functions, the overhead costs can be larger than the time needed to actually execute the function's code. In cases where a small function is called often, using a function can result in a significant performance penalty over writing the same code in-place.
 
 ### Inline expansion
-- The compiler has a trick that it can use to avoid function overhead; inline expansion is a 
+- The compiler has a trick that it can use to avoid function overhead; **inline expansion** is a process where a function call is replaced by the code from the called function's definition.
+- For example,
+
+Before inline expansion
+```C++
+#include <iostream>
+
+int min(int x, int y)
+{
+    return (x < y) ? x : y;
+}
+
+int main()
+{
+    std::cout << min(5, 6) << '\n';
+    std::cout << min(3, 2) << '\n';
+    return 0;
+}
+```
+
+After
+```C++
+#include <iostream>
+
+int main()
+{
+    std::cout << ((5 < 6) ? 5 : 6) << '\n';
+    std::cout << ((3 < 2) ? 3 : 2) << '\n';
+    return 0;
+}
+```
+
+- Beyond removing the cost of function call (overhead), inline expansion can also allow the compiler to optimize the resulting code more efficiently.
+	- If a function becomes a constant expression due to inline expansion, the compiler could further optimize the code by optimizing out the constant expression with a value.
+- Inline expansion has its own potential cost - if the body of the function being expanded takes more instructions than the function call being replaced, then each inline expansion will cause the executable to grow larger. Larger executables tend to be slower (due to not fitting as well in memory caches).
+- 
