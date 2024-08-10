@@ -3097,4 +3097,29 @@ double circumference(double radius)
 
 ## Constexpr and consteval functions
 - One challenge with constant expressions is that function call to a normal function are not allowed in constant expressions. This means we cannot use such function calls anywhere a constant expression is required.
+- For example:
+
+```C++
+#include <iostream>
+
+double calcCircumference(double radius)
+{
+    constexpr double pi { 3.14159265359 };
+    return 2.0 * pi * radius;
+}
+
+int main()
+{
+    constexpr double circumference { calcCircumference(3.0) };
+
+    std::cout << "Our circle has circumference " << circumference << "\n";
+
+    return 0;
+}
+```
+
+- The code above will result in a compile error, because `circumference` requires that its initializer is a constant expression, and the call `calcCircumference()` isn't a constant expression.
+
+### Constexpr functions
+- A **constexpr function** is a function that is allowed to be called in a constant expression.
 - 
