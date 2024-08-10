@@ -2990,7 +2990,7 @@ int main()
 ```C++
 #include <iostream>
 
-inline int min(int x, int y) // inline keyword means this function is an inline function
+inline int min(int x, int y)
 {
     return (x < y) ? x : y;
 }
@@ -3003,3 +3003,8 @@ int main()
 }
 ```
 
+>[!warning] The `inline` keyword is no longer used in modern C++.
+>The `inline` keyword is no longer used in modern C++ because of a few reasons:
+>- Using `inline` to request inline expansion is a form of premature optimization, and misuse could actually harm performance.
+>- The `inline` keyword is just a hint. The compiler is completely free to ignore it.
+>- The `inline` keyword is defined at the wrong level of granularity. 
