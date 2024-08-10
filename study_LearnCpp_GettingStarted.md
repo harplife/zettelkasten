@@ -3096,4 +3096,5 @@ double circumference(double radius)
 - Common use for inline variables will be covered later as it will relate to the topic of sharing global constants across multiple files.
 
 ## Constexpr and consteval functions
+- One challenge with constant expressions is that function call to a normal function are not allowed in constant expressions. This means we cannot use such function calls anywhere a constant expression is required.
 - 
