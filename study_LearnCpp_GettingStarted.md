@@ -3202,3 +3202,6 @@ int main()
 - Note that the parameters of a consteval function are not constexpr.
 	- Even though consteval functions can only be evaluated at compile-time (meaning they can only accept constexpr arguments), this decision was made for the sake of consistency.
 
+### Using consteval to make constexpr execute at compile-time (C++20)
+- The downside of consteval functions is that such functions can't evaluate at runtime, making them less flexible than constexpr functions (which can do either).
+	- 
