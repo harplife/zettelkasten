@@ -3237,3 +3237,5 @@ int main()
 ```
 
 - This workaround works because consteval functions require constant expressions arguments. Therefore, if the return value of a constexpr function is used as an argument to a consteval function, the constexpr function must be evaluated at compile-time.
+- Note that while it may seem like inefficient to set up a consteval function that simply returns a value that it's given, it doesn't matter because the entire call to the consteval function willy simply be replaced with the calculated erturn value.
+- 
