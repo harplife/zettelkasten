@@ -3211,8 +3211,6 @@ int main()
 ```C++
 #include <iostream>
 
-// Uses abbreviated function template (C++20) and `auto` return type to make this function work with any type of value
-// See 'related content' box below for more info (you don't need to know how these work to use this function)
 consteval auto compileTimeEval(auto value)
 {
     return value;
