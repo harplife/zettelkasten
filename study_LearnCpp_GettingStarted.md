@@ -3204,4 +3204,37 @@ int main()
 
 ### Using consteval to make constexpr execute at compile-time (C++20)
 - The downside of consteval functions is that such functions can't evaluate at runtime, making them less flexible than constexpr functions (which can do either).
-	- The downside of constexpr function is that 
+	- The downside of constexpr function is that it does not guarantee evaluation at compile-time.
+- One way to get around the issue(s) mentioned above, is to use constexpr function with a consteval function as a helper function.
+- For example,
+
+```C++
+#include <iostream>
+
+// Uses abbreviated function template (C++20) and `auto` return type to make this function work with any type of value
+// See 'related content' box below for more info (you don't need to know how these work to use this function)
+consteval auto compileTimeEval(auto value)
+{
+    return value;
+}
+
+constexpr int greater(int x, int y)
+{
+    return (x > y ? x : y);
+}
+
+int main()
+{
+	// may or may not execute at compile-time
+    std::cout << greater(5, 6) << '\n';
+    // will execute at compile-time
+    std::cout << compileTimeEval(greater(5, 6)) << '\n';
+
+    int x { 5 };
+    // we can still call the constexpr version at runtime if we wish
+    std::cout << greater(x, 6) << '\n';
+
+    return 0;
+}
+```
+
