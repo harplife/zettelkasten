@@ -3236,4 +3236,4 @@ int main()
 }
 ```
 
-- This workaround works because consteval functions require constant expressions arguments. Therefore, if the return value of a constexpr
+- This workaround works because consteval functions require constant expressions arguments. Therefore, if the return value of a constexpr function is used as an argument to a consteval function, the constexpr function must be evaluated at compile-time.
