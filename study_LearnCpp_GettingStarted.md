@@ -3168,3 +3168,37 @@ int main()
 - A constexpr function called in multiple files needs to have its definition included into each translation unit.
 	- This would normally be a violation of the ODR, but constexpr functions are implicitly inline (which makes them exempt).
 - Because constexpr functions are implicitly inline, they are often defined in header files, so they can be `#included` into any .cpp file that requires the full definition.
+
+### Consteval (C++20)
+- C++20 introduces the keyword `consteval`, which is used to indicate that a function MUST evaluate at compile-time, otherwise a compile error will result.
+	- Such functions are called **immediate functions**.
+- For example,
+
+```C++
+#include <iostream>
+
+consteval int greater(int x, int y) // function is now consteval
+{
+    return (x > y ? x : y);
+}
+
+int main()
+{
+	// ok: will evaluate at compile-time
+    constexpr int g { greater(5, 6) };
+    std::cout << g << '\n';
+
+	// ok: will evaluate at compile-time
+    std::cout << greater(5, 6) << " is greater!\n";
+
+    int x{ 5 }; // not constexpr
+    // error: consteval functions must evaluate at compile-time
+    std::cout << greater(x, 6) << " is greater!\n";
+
+    return 0;
+}
+```
+
+- Note that the parameters of a consteval function are not constexpr.
+	- Even though consteval functions can only be evaluated at compile-time (meaning they can only accept constexpr arguments), this decision was made for the sake of consistency.
+- 
