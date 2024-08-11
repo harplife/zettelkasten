@@ -3163,3 +3163,5 @@ int main()
 >If a constexpr function is given constexpr arguments, then the function will be evaluated at compile-time. However, if a constexpr function is given arguments that are not constexpr, then the function will be evaluated at runtime.
 
 ### Constexpr functions are implicitly inline
+- When a constexpr function is evaluated at compile-time, the compiler must be able to see the full definition of the constexpr function prior to such function calls.
+	- A forward declaration will not suffice in this case, even if the actual function definition appears later in the same compilation unit.
