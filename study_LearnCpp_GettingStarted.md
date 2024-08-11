@@ -3201,4 +3201,4 @@ int main()
 
 - Note that the parameters of a consteval function are not constexpr.
 	- Even though consteval functions can only be evaluated at compile-time (meaning they can only accept constexpr arguments), this decision was made for the sake of consistency.
-- 
+
