@@ -3165,3 +3165,6 @@ int main()
 ### Constexpr functions are implicitly inline
 - When a constexpr function is evaluated at compile-time, the compiler must be able to see the full definition of the constexpr function prior to such function calls.
 	- A forward declaration will not suffice in this case, even if the actual function definition appears later in the same compilation unit.
+- A constexpr function called in multiple files needs to have its definition included into each translation unit.
+	- This would normally be a violation of the ODR, but constexpr functions are implicitly inline (which makes them exempt).
+- Because constexpr functions are implicitly inline, they are often defined in header files, so they can be `#included` into any .cpp file that requires the full definition.
