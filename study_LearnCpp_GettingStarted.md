@@ -3272,6 +3272,7 @@ int main()
 ### Function parameters and local variables as arguments
 - Function parameters and local variables inside a constexpr/consteval function can be used as arguments for another constexpr/consteval function inside that function.
 	- Both of these functions will be evaluated at compile-time.
+	- Note that a constexpr/consteval function can call another constexpr/consteval function.
 - For example,
 
 ```C++
@@ -3292,6 +3293,22 @@ int main()
     std::cout << foo(5);
 
     return 0;
+}
+```
+
+### A constexpr function can call a non-constexpr function
+- A constexpr function can call a non-constexpr function, but only when the constexpr function is being evaluated in a non-constant context.
+- Calling a non-constexpr function is allowed so that a constexpr function can do something like this:
+
+```C++
+#include <type_traits> // for std::is_constant_evaluated
+
+constexpr int someFunction()
+{
+    if (std::is_constant_evaluated()) // if evaluating in constant context
+        return someConstexprFcn();
+    else
+        return someNonConstexprFcn();
 }
 ```
 
