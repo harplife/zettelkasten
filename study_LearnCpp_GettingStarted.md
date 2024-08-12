@@ -3312,3 +3312,16 @@ constexpr int someFunction()
 }
 ```
 
+- Though it's allowed, it's best to avoid calling non-constexpr functions from within a constexpr function if possible.
+- Like the example above, if a constexpr function requires different behavior for constant and non-constant contexts, conditionalize the behavior with `if (std::is_constant_evaluated())` (in C++20) or `if consteval` (C++23 onward).
+
+>[!warning] Always test your constexpr functions in a constant context.
+
+### Why not constexpr every function?
+- There are a few things to consider before making a function `constexpr`:
+	- Not all functions can be evaluated as part of a constant expression.
+	- `constexpr` function is used in contexts that require constant expressions. Make sure that the constexpr function is absolutely necessary, as removing the `constexpr` later will break the code.
+	- `constexpr` function is harder to debug due to optimization & can't be inspected at runtime.
+
+>[!important]
+>Though one should be careful not to make every functions unnecessarily `constexpr`, it's still a good idea to make a function `constexpr` if that function can be evaluated as part of a constant expression.
