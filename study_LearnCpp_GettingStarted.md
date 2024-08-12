@@ -3269,3 +3269,29 @@ int main()
 }
 ```
 
+### Function parameters and local variables as arguments
+- Function parameters and local variables inside a constexpr/consteval function can be used as arguments for another constexpr/consteval function inside that function.
+	- Both of these functions will be evaluated at compile-time.
+- For example,
+
+```C++
+#include <iostream>
+
+constexpr int goo(int c)
+{
+    return c;
+}
+
+constexpr int foo(int b)
+{
+    return goo(b);
+}
+
+int main()
+{
+    std::cout << foo(5);
+
+    return 0;
+}
+```
+
