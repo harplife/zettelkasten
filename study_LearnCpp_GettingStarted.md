@@ -3240,5 +3240,32 @@ int main()
 - Note that while it may seem like inefficient to set up a consteval function that simply returns a value that it's given, it doesn't matter because the entire call to the consteval function willy simply be replaced with the calculated return value.
 - `auto` return type allows a function to work with any type of value. This will be covered more later on.
 
->[!important] Constexpr/consteval functions can use non-const local variables.
+### Constexpr/consteval functions can use non-const local variables
+- Within a constexpr or consteval function, local variables that are non-constexpr can be used.
+	- Non-constexpr, meaning that the values of these local variables can be changed.
+	- However, initializing the variables with a return value of a non-constexpr function may make the constexpr function to be evaluated at runtime; compile error in consteval function case.
+- For example,
+
+```C++
+#include <iostream>
+
+consteval int doSomething(int x, int y) // function is consteval
+{
+    x = x + 2;       // we can modify the value of non-const function parameters
+
+    int z { x + y }; // we can instantiate non-const local variables
+    if (x > y)
+        z = z - 1;   // and then modify their values
+
+    return z;
+}
+
+int main()
+{
+    constexpr int g { doSomething(5, 6) };
+    std::cout << g << '\n';
+
+    return 0;
+}
+```
 
