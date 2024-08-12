@@ -3325,3 +3325,10 @@ constexpr int someFunction()
 
 >[!important]
 >Though one should be careful not to make every functions unnecessarily `constexpr`, it's still a good idea to make a function `constexpr` if that function can be evaluated as part of a constant expression.
+
+## Intro to std::string
+- C-style string literals (as covered previously on [[#Literals]]) refers to a text in between double quotation marks with a hidden null terminator.
+- While C-style string literals are fine to use, C-style string variables are best avoided in modern C++ because they behave oddly, are hard to work with, and are dangerous.
+- C++ has introduced two additional string types into the language that are much easier and safer to work with; `std::string` and `std::string_view` (C++17).
+	- These are not fundamental types.
+- 
