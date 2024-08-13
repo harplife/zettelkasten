@@ -3467,3 +3467,7 @@ std::cout << name.length(); // prints 4
 
 - Passing and returning `std::string` properly will be discussed later on, when discussing `std::string_view` and pass/return-by-reference.
 
+### std::string literals
+- Double-quoted string literals (e.g. "Hello World!") are C-style strings by default (and thus, have a strange type).
+- String literals with type `std::string` is a double-quote string literal with `s` suffix, like `"Hello World!"s`.
+- 
