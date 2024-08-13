@@ -3483,3 +3483,5 @@ std::cout << name.length(); // prints 4
 >```
 >This way avoids implicit conversion, and just as efficient as using the `std::string` literal (the `s` suffix).
 
+### The length of a std::string
+- `std::string` provides a member function `length` that returns the number of characters that the object currently has.
