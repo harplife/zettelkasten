@@ -3384,5 +3384,29 @@ int main()
 
 ### String input with std::getline()
 - To read a full line of input into a string, `std::getline()` is used instead.
-- `std::getline()` requires two arguments: `std::cin` and a string variable.
-- 
+- `std::getline()` requires two arguments:
+	- Input stream (e.g. `std::cin`)
+	- String variable (e.g. `std::string text`)
+- An example:
+
+```C++
+#include <iostream>
+#include <string>
+
+int main()
+{
+	std::cout << "Enter your full name: ";
+	std::string name;
+	std::getline(std::cin, name);
+	std::cout << "Hello, " << name << "!";
+
+	return 0;
+}
+```
+
+```console
+Enter your full name: John Doe
+Hello, John Doe!
+```
+
+- Note that 
