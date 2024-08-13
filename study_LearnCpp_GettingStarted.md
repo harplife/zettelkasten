@@ -3355,7 +3355,7 @@ int main()
 	- In other words, `std::string` is able to store strings of different lengths.
 	- Although dynamic memory allocation makes `std::string` so flexible compared to `char`, it is also comparatively slow.
 
-### String input
+### String input with std::cin
 - One of the things that you need to watch out for when using `std::string` with `std::cin` and `>>` operator, is that `>>` operator only returns characters up to the first whitespace it encounters.
 - For example,
 
@@ -3381,6 +3381,8 @@ int main()
 
 - In the example above, if `John Doe` is entered when asked for the full name, `"John"` gets assigned to `name` and `"Doe"` gets left inside the `std::cin` buffer. When asked for the favorite color, `std::cin` will skip waiting for user input and `"Doe"` gets assigned to `color`.
 	- In the end, the last sentence that gets printed out is `"Your name is John and your favorite color is Doe"`.
+
+### String input with std::getline()
 - To read a full line of input into a string, `std::getline()` is used instead.
 - `std::getline()` requires two arguments: `std::cin` and a string variable.
 - 
