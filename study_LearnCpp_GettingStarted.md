@@ -3348,3 +3348,7 @@ int main()
 }
 ```
 
+- `std::string` objects can be printed to console by using `std::cout`.
+	- e.g. `std::cout << name;`
+	- Empty strings will print nothing.
+- 
