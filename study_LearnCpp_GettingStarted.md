@@ -3467,7 +3467,19 @@ std::cout << name.length(); // prints 4
 
 - Passing and returning `std::string` properly will be discussed later on, when discussing `std::string_view` and pass/return-by-reference.
 
-### std::string literals
+### std::string literals (C++14)
 - Double-quoted string literals (e.g. "Hello World!") are C-style strings by default (and thus, have a strange type).
-- String literals with type `std::string` is a double-quote string literal with `s` suffix, like `"Hello World!"s`.
-- 
+	- Assigning a double-quoted string literal to a `std::string` type variable incurs an implicit conversion.
+- String literals with type `std::string` is a double-quote string literal with `s` suffix.
+	- For example, `std::string name = "John Doe"s;`
+- In order to use the `s` suffix (easy access, so to say), `using namespace std::string_literals;` must be stated.
+	- Another way is `using namespace std::literals;` but this also imports all of the standard library literals into the scope (which won't likely be used).
+	- `using` directives will be covered later. Just know that it allows for a namespace to be opened to the global scope, allowing its types, functions, and all other stuff to be used easily (without stating the namespace over and over).
+
+>[!important]
+>Another way to assign string literals to `std::string` types is using the `std::string` constructor with a `const char*` argument. For example,
+>```C++
+>std::string name = std::string("John Doe");
+>```
+>This way avoids implicit conversion, and just as efficient as using the `std::string` literal (the `s` suffix).
+
