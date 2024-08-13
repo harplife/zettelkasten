@@ -3483,5 +3483,12 @@ std::cout << name.length(); // prints 4
 >```
 >This way avoids implicit conversion, and just as efficient as using the `std::string` literal (the `s` suffix).
 
-### The length of a std::string
-- `std::string` provides a member function `length` that returns the number of characters that the object currently has.
+- Note that it's not super important to use `std::string` literals to initialize a `std::string` variable, as it is fine to do with C-style string literal.
+	- However, there are some advantages that will be discussed later.
+
+### Constexpr strings (Don't)
+- If you try to define a `constexpr std::string`, your compiler will probably generate an error.
+	- This happens because it isn't supported at all in C++17 or earlier, and only works in very limited cases in C++20/23.
+
+## Intro to std::string_view
+- 
