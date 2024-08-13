@@ -3500,3 +3500,4 @@ std::cout << name.length(); // prints 4
 	- **Read-only** means that the value can be accessed and viewed but cannot be modified. Another word for it is **immutable**.
 	- The size of a `std::string_view` is fixed at the time of its creation, and cannot be changed.
 - What makes `std::string_view` so much lighter than `std::string` is the fact that it does not own the string data. It merely provides a lightweight view into an existing string, and it does not manage memory (no allocation/deallocation).
+- 
