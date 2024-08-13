@@ -3409,4 +3409,61 @@ Enter your full name: John Doe
 Hello, John Doe!
 ```
 
-- Note that 
+- It's good practice to use `std::cin >> std::ws` as the first argument to `std::getline()` because the input manipulator `std::ws` makes it so that `std::cin` ignores any leading whitespace before extraction.
+	- Usually this won't be a problem if only `std::getline()` is being used, but there's a possibility that a whitespace is sitting in the input buffer if `std::cin >>` was used.
+- For example:
+
+```C++
+#include <iostream>
+#include <string>
+
+int main()
+{
+    std::cout << "Pick 1 or 2: ";
+    int choice{};
+    std::cin >> choice;
+
+    std::cout << "Now enter your name: ";
+    std::string name{};
+    std::getline(std::cin, name); // note: no std::ws here
+
+    std::cout << "Hello, " << name << ", you picked " << choice << '\n';
+
+    return 0;
+}
+```
+
+```console
+Pick 1 or 2: 2
+Now enter your name: Hello, , you picked 2
+```
+
+- In the example above, `2\n` was entered; `2` was assigned to `choice` and `\n` remained inside `sdt::cin`. When asked for `name`, `std::getline()` skipped waiting for user input as it ended up extracting `\n` and assigning it to `name`.
+	- This problem is easily fixed by `std::getline(std::cin >> std::ws, name);`
+
+### The length of a std::string variable
+- `std::string` includes a member function `.length()` that returns the object's current length.
+	- More about member function later.
+	- It's written as `std::string::length()` in documentation.
+- For example,
+
+```C++
+std::string name = "name";
+std::cout << name.length(); // prints 4
+```
+
+- Although `std::string` is required to be null-terminated (as of C++11), the returned length of a `std::string` does not include the implicit null-terminator character.
+- Note that `std::string::length()` returns an unsigned integral value (most likely of type `size_t`).
+	- Use `static_cast<int>(var)` if assigning the value to `int` variable
+- (C++20) `std::ssize()` function can also be used to get the length of a `std::string` as a large signed integral type (usually `std::ptrdiff_t`).
+
+### Initializing a std::string is expensive
+- Whenever a `std::string` variable is initialized, a copy of the string (used to initialize) is made.
+	- Making copies of strings is expensive, so care should be taken to minimize the number of copies made.
+
+>[!warning] Do not pass `std::string` by value, as it makes an expensive copy.
+
+>[!warning] Do not return `std::string` by value, as it makes an expensive copy.
+
+- Passing and returning `std::string` properly will be discussed later on, when discussing `std::string_view` and pass/return-by-reference.
+
