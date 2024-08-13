@@ -3525,13 +3525,10 @@ int main()
 ```
 
 - `std::string_view` can be initialized from any kind of string because it merely creates a view into the memory occupied by the content.
-	- It extends to
+	- It extends to function parameters.
 
 >[!warning] Problem with non-ownership
 >When a `std::string_view` is initialized with a variable, it creates a view into the memory occupied by that variable. If the variable is changed or removed, the `std::string_view` can become invalid or point to unintended data.
 >
 >To avoid such issues, ensure that the lifetime of the original variable exceeds the lifetime of the `std::string_view`. Alternatively, just use different string type.
-
-
-
 
