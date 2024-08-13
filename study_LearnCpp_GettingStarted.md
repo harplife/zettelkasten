@@ -3490,5 +3490,13 @@ std::cout << name.length(); // prints 4
 - If you try to define a `constexpr std::string`, your compiler will probably generate an error.
 	- This happens because it isn't supported at all in C++17 or earlier, and only works in very limited cases in C++20/23.
 
-## Intro to std::string_view
-- 
+## Intro to std::string_view (C++17)
+- Using `std::string` can be expensive because it makes copies of its initializer.
+	- For example, in a statement such as `std::string name = "John Doe";`, the C-style string literal `"John Doe"` is copied into memory.
+	- Unlike fundamental types, initializing and copying a `std::string` is slow.
+- The expensive copy happens again when a `std::string` object is passed to a function as an argument, because the parameter (which is `std::string`) is initialized (which means another copy).
+- To address the issue with `std::string` being expensive to initialize/copy, `std::string_view` (which lives in the `<string_view>` header) was introduced.
+- `std::string_view` provides read-only access to an existing string (a C-style string, a `std::string`, or another) without making a copy.
+	- **Read-only** means that the value can be accessed and viewed but cannot be modified. Another word for it is **immutable**.
+	- The size of a `std::string_view` is fixed at the time of its creation, and cannot be changed.
+- What makes `std::string_view` so much lighter than `std::string` is the fact that it does not own the string data. It merely provides a lightweight view into an existing string, and it does not manage memory (no allocation/deallocation).
