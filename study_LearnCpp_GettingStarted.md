@@ -3500,4 +3500,38 @@ std::cout << name.length(); // prints 4
 	- **Read-only** means that the value can be accessed and viewed but cannot be modified. Another word for it is **immutable**.
 	- The size of a `std::string_view` is fixed at the time of its creation, and cannot be changed.
 - What makes `std::string_view` so much lighter than `std::string` is the fact that it does not own the string data. It merely provides a lightweight view into an existing string, and it does not manage memory (no allocation/deallocation).
-- 
+- `std::string_view` is flexible in a way that it can be initialized from nearly anything; a C-style string, a `std::string`, or another `std::string_view`.
+- For example,
+
+```C++
+#include <iostream>
+#include <string>
+#include <string_view>
+
+int main()
+{
+    std::string_view s1 { "Hello, world!" }; // initialize with C-style string literal
+    std::cout << s1 << '\n';
+
+    std::string s{ "Hello, world!" };
+    std::string_view s2 { s };  // initialize with std::string
+    std::cout << s2 << '\n';
+
+    std::string_view s3 { s2 }; // initialize with std::string_view
+    std::cout << s3 << '\n';
+
+    return 0;
+}
+```
+
+- `std::string_view` can be initialized from any kind of string because it merely creates a view into the memory occupied by the content.
+	- It extends to
+
+>[!warning] Problem with non-ownership
+>When a `std::string_view` is initialized with a variable, it creates a view into the memory occupied by that variable. If the variable is changed or removed, the `std::string_view` can become invalid or point to unintended data.
+>
+>To avoid such issues, ensure that the lifetime of the original variable exceeds the lifetime of the `std::string_view`. Alternatively, just use different string type.
+
+
+
+
