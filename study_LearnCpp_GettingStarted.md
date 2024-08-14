@@ -3628,4 +3628,8 @@ int main()
 ```
 
 - Note that `s` will be replaced with `"Hello, world!"` at compile-time.
+- In the case when a variable only needs to be printed out once, it's best to use something that is immutable (cannot be changed later), read-only, and null-terminated - which is to say, a **string symbolic constant**.
+	- `constexpr std::string_view` makes for the preferred choice when string symbolic constants are needed.
+
+
 
