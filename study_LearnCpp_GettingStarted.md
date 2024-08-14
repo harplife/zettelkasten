@@ -3791,9 +3791,14 @@ Peach
 	- At compile time or runtime, the operands are evaluated and operations executed to produce a result.
 
 ### Operator precedence
-- To assist with parsing a compound expression, all operators are assigned a level of precedence. Operators with a higher precedence level are grouped with operands first.
+- To assist with parsing a compound expression, all operators are assigned a level of **precedence**. Operators with a higher precedence level are grouped with operands first.
 - Operator precedence mostly follows the arithmetic precedence. As such, multiplication/division has a higher precedence level than addition/subtraction.
 - Detailed list of operators and their precedence levels soon to follow in a table.
 
-### Operator associatvity
-- 
+### Operator associativity
+- If two operators with the same precedence level are adjacent to each other in an expression, the operator's **associativity** tells the compiler whether to evaluate the operators from left to right or from right to left.
+	- Subtraction has precedence level 6, and the operators in precedence level 6 have an associativity of left-to-right.
+- Take `7 - 4 - 1` for example. If this is evaluated as `(7 - 4) - 1`, then this evaluates to `2`. If this is evaluated as `7 - (4 - 1)`, then this evaluates to `4`. Because we are dealing with subtractions, the order is left-to-right, so the compound expression is evaluated as `(7 - 4) - 1`, which results to `2`.
+- Detailed list of operators and their associativity soon to follow in a table.
+
+### Table of operator precedence and associativity
