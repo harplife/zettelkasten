@@ -3528,7 +3528,7 @@ int main()
 	- It extends to function parameters.
 
 >[!warning] Problem with non-ownership
->When a `std::string_view` is initialized with a variable, it creates a view into the memory occupied by that variable. If the variable is changed or removed, the `std::string_view` can become invalid or point to unintended data.
+>When a `std::string_view` is initialized with a variable, it creates a view into the memory occupied by that variable. If the variable is changed or removed, the `std::string_view` can become invalid or point to unintended data - which is referred to as **dangling view**.
 >
 >To avoid such issues, ensure that the lifetime of the original variable exceeds the lifetime of the `std::string_view`. Alternatively, just use different string type.
 
@@ -3631,5 +3631,58 @@ int main()
 - In the case when a variable only needs to be printed out once, it's best to use something that is immutable (cannot be changed later), read-only, and null-terminated - which is to say, a **string symbolic constant**.
 	- `constexpr std::string_view` makes for the preferred choice when string symbolic constants are needed.
 
+### Improper use of std::string_view
+- There are a few cases where using `std::string_view` improperly leads to unintended/undefined behaviors.
 
+#### Case 1: initializer in nested block
+- Consider the code below:
 
+```C++
+#include <iostream>
+#include <string>
+#include <string_view>
+
+int main()
+{
+    std::string_view sv{};
+
+    {
+        std::string s{ "Hello, world!" };
+        sv = s;
+    }
+
+    std::cout << sv << '\n';
+
+    return 0;
+}
+```
+
+- The code above results in an undefined behavior because the `std::string_view` is initialized with a variable `s` that gets destroyed outside the nested block. The `std::string_view` has become a dangling view.
+
+#### Case 2: return value as initializer
+- Consider the code below:
+
+```C++
+#include <iostream>
+#include <string>
+#include <string_view>
+
+std::string getName()
+{
+    std::string s { "Alex" };
+    return s;
+}
+
+int main()
+{
+  std::string_view name { getName() };
+  std::cout << name << '\n';
+
+  return 0;
+}
+```
+
+- The code above results in an undefined behavior because the `std::string_view` is initialized with a return value of a function, which gets destroyed at the end of the function call.
+
+#### Case 3: std::string literal as initializer
+- 
