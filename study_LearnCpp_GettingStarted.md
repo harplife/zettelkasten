@@ -3784,3 +3784,16 @@ Peach
 - If a `std::string_view` is viewing a whole string (which includes a null-termination), then it is viewing a null-terminated string (and treated as such). But if it is viewing a substring that does not include a null-termination, then it is not null-terminated.
 - In most cases, using a `std::string_view` that is not null-terminated is fine. However, it's best not to write any code that assumes a `std::string_view` is null-terminated.
 
+## Operator precedence and associativity
+### Evaluation of compound expressions
+- In order to evaluate an expression, the compiler must do two things:
+	- At compile time, the compiler must parse the expression and determine how operands are grouped with operators. This is done via the precedence and associativity rules (discussed soon).
+	- At compile time or runtime, the operands are evaluated and operations executed to produce a result.
+
+### Operator precedence
+- To assist with parsing a compound expression, all operators are assigned a level of precedence. Operators with a higher precedence level are grouped with operands first.
+- Operator precedence mostly follows the arithmetic precedence. As such, multiplication/division has a higher precedence level than addition/subtraction.
+- Detailed list of operators and their precedence levels soon to follow in a table.
+
+### Operator associatvity
+- 
