@@ -3781,4 +3781,6 @@ Peach
 	- A substring is a contiguous sequence of characters within an existing string.
 
 ### std::string_view may not be null-terminated
-- If a `std::string_view` is viewing a whole string (which includes a null-termination), then it is viewing a null-terminated string (and treated as such).
+- If a `std::string_view` is viewing a whole string (which includes a null-termination), then it is viewing a null-terminated string (and treated as such). But if it is viewing a substring that does not include a null-termination, then it is not null-terminated.
+- In most cases, using a `std::string_view` that is not null-terminated is fine. However, it's best not to write any code that assumes a `std::string_view` is null-terminated.
+
