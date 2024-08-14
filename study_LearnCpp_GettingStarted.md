@@ -3685,4 +3685,58 @@ int main()
 - The code above results in an undefined behavior because the `std::string_view` is initialized with a return value of a function, which gets destroyed at the end of the function call.
 
 #### Case 3: std::string literal as initializer
-- 
+- Consider the code below:
+
+```C++
+#include <iostream>
+#include <string>
+#include <string_view>
+
+int main()
+{
+    using namespace std::string_literals;
+    std::string_view name { "Alex"s };
+    std::cout << name << '\n';
+
+    return 0;
+}
+```
+
+- The code above results in an undefined behavior because the `std::string_view` is initialized with a `std::string` literal, which is a temporary object.
+	- This is actually similar to Case 2, when you consider that the `std::string` literal is the same as using `std::string("C-style string")`. In the end, a temporary object is created inside a function, which is then returned - only to be destroyed after the function call.
+
+#### Case 4: initializer is modified
+- Consider the code below:
+
+```C++
+#include <iostream>
+#include <string>
+#include <string_view>
+
+int main()
+{
+    std::string s { "Hello, world!" };
+    std::string_view sv { s };
+
+    s = "Hello, universe!";
+    std::cout << sv << '\n';
+
+    return 0;
+}
+```
+
+- The code above results in an undefined behavior because the value that the `std::string_view` was viewing has been modified.
+	- A `std::string_view` that is viewing a value that is modified is said to be **invalidated**.
+	- Reminder that the length of the `std::string_view` is fixed at the point of initialization.
+
+>[!important]
+>It's possible to revalidate an invalid `std::string_view` by re-assigning it with a valid string.
+
+
+#### Best Practices
+- Do not initialize a `std::string_view` with a `std::string` literal.
+	- It's okay to use a C-style string literal or a `std::string_view` literal.
+- Make sure that the initializer outlives the `std::string_view` object.
+	- Do not use temporary object as an initializer.
+- Make sure that the initializer does not become modified.
+
