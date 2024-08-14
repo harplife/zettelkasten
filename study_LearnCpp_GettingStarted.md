@@ -3532,3 +3532,6 @@ int main()
 >
 >To avoid such issues, ensure that the lifetime of the original variable exceeds the lifetime of the `std::string_view`. Alternatively, just use different string type.
 
+- It is possible to use `std::string_view` as an initializer for a `std::string`, but there are some caveats:
+	- The compiler won't allow implicit conversion, so explicitly casting it (e.g. `static_cast<std::string>(stringViewVar);`) is necessary.
+- 
