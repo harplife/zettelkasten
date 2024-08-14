@@ -3777,3 +3777,8 @@ ea
 Peach
 ```
 
+- When the view is modified and only a part of the string is shown, that part of the string is called the **substring**.
+	- A substring is a contiguous sequence of characters within an existing string.
+
+### std::string_view may not be null-terminated
+- If a `std::string_view` is viewing a whole string (which includes a null-termination), then it is viewing a null-terminated string (and treated as such).
