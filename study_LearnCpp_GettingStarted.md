@@ -3583,4 +3583,49 @@ Hell
 Jane Doe
 ```
 
-- In the above example, 
+- In the above example, when `sv` was assigned to `str` with `"John"` as its value, the length was set to `4`. So when the value of `str` changed to `"Hello World!"`, the changed length is not reflected on `sv` and so printing `sv` results with `"Hell"`.
+	- As shown, re-assigning `sv` with a new value fixes it with a new length.
+
+### Literals for std::string_view
+- Similar to how literals for `std::string` work, simply add `sv` suffix to the double-quoted string literals to make `std::string_view` literals.
+	- `sv` suffix lives in `std::string_view_literals` namespace.
+- For example,
+
+```C++
+#include <iostream>
+#include <string>      // for std::string
+#include <string_view> // for std::string_view
+
+int main()
+{
+    using namespace std::string_literals;      // access the s suffix
+    using namespace std::string_view_literals; // access the sv suffix
+
+    std::cout << "foo\n";   // no suffix is a C-style string literal
+    std::cout << "goo\n"s;  // s suffix is a std::string literal
+    std::cout << "moo\n"sv; // sv suffix is a std::string_view literal
+
+    return 0;
+}
+```
+
+- It's totally fine to initialize `std::string_view` with any other string types though.
+
+### constexpr std::string_view
+- Unlike `std::string`, `std::string_view` has full support for `constexpr`:
+
+```C++
+#include <iostream>
+#include <string_view>
+
+int main()
+{
+    constexpr std::string_view s{ "Hello, world!" };
+    std::cout << s << '\n';
+
+    return 0;
+}
+```
+
+- Note that `s` will be replaced with `"Hello, world!"` at compile-time.
+
