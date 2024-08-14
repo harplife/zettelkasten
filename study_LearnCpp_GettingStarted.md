@@ -3491,6 +3491,7 @@ std::cout << name.length(); // prints 4
 	- This happens because it isn't supported at all in C++17 or earlier, and only works in very limited cases in C++20/23.
 
 ## Intro to std::string_view (C++17)
+### What is std::string_view
 - Using `std::string` can be expensive because it makes copies of its initializer.
 	- For example, in a statement such as `std::string name = "John Doe";`, the C-style string literal `"John Doe"` is copied into memory.
 	- Unlike fundamental types, initializing and copying a `std::string` is slow.
@@ -3498,7 +3499,6 @@ std::cout << name.length(); // prints 4
 - To address the issue with `std::string` being expensive to initialize/copy, `std::string_view` (which lives in the `<string_view>` header) was introduced.
 - `std::string_view` provides read-only access to an existing string (a C-style string, a `std::string`, or another) without making a copy.
 	- **Read-only** means that the value can be accessed and viewed but cannot be modified. Another word for it is **immutable**.
-	- The size of a `std::string_view` is fixed at the time of its creation, and cannot be changed.
 - What makes `std::string_view` so much lighter than `std::string` is the fact that it does not own the string data. It merely provides a lightweight view into an existing string, and it does not manage memory (no allocation/deallocation).
 - `std::string_view` is flexible in a way that it can be initialized from nearly anything; a C-style string, a `std::string`, or another `std::string_view`.
 - For example,
@@ -3532,6 +3532,55 @@ int main()
 >
 >To avoid such issues, ensure that the lifetime of the original variable exceeds the lifetime of the `std::string_view`. Alternatively, just use different string type.
 
+### std::string_view to std::string
 - It is possible to use `std::string_view` as an initializer for a `std::string`, but there are some caveats:
 	- The compiler won't allow implicit conversion, so explicitly casting it (e.g. `static_cast<std::string>(stringViewVar);`) is necessary.
-- 
+
+### std::string_view assignments
+- Assigning a new string to a `std::string_view` simply changes the view to the new string.
+	- It does not modify the prior string in any way.
+- For example,
+
+```C++
+std::string str = "Alex";
+std::string_view name = str;
+std::cout << name << std::endl; // prints Alex
+
+name = "John";
+std::cout << name << std::endl; // prints John
+std::cout << str << std::endl; // prints Alex
+```
+
+- <mark class="hltr-red">Warning</mark> : When `std::string_view` is initialized with a `std::string` variable, the size of the `std::string_view` is fixed to the length of the string. While this is no problem when a new string is assigned to `std::string_view` because it takes the length of the new string, it does become a problem when the value of the initializer changes.
+- For example:
+
+```C++
+#include <iostream>
+#include <string>
+#include <string_view>
+
+
+int main()
+{
+	std::string str = "John";
+	std::string_view sv = str;
+
+	std::cout << sv << std::endl;
+
+	str = "Hello World!";
+	std::cout << sv << std::endl;
+
+	sv = "Jane Doe";
+	std::cout << sv << std::endl;
+
+    return 0;
+}
+```
+
+```console
+John
+Hell
+Jane Doe
+```
+
+- In the above example, 
