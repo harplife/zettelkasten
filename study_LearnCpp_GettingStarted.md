@@ -3740,3 +3740,40 @@ int main()
 	- Do not use temporary object as an initializer.
 - Make sure that the initializer does not become modified.
 
+### View modifications
+- `std::string_view` provides member functions that can modify the view.
+- `.remove_prefix()` removes characters from the left side of the view.
+- `.remove_suffix()` removes characters from the right side of the view.
+- For example,
+
+```C++
+#include <iostream>
+#include <string_view>
+
+int main()
+{
+	std::string_view str{ "Peach" };
+	std::cout << str << '\n';
+
+	// Remove 1 character from the left side of the view
+	str.remove_prefix(1);
+	std::cout << str << '\n';
+
+	// Remove 2 characters from the right side of the view
+	str.remove_suffix(2);
+	std::cout << str << '\n';
+
+	str = "Peach"; // reset the view
+	std::cout << str << '\n';
+
+	return 0;
+}
+```
+
+```console
+Peach
+each
+ea
+Peach
+```
+
