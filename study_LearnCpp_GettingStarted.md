@@ -3807,9 +3807,10 @@ Peach
 >[!important] Use parentheses whenever possible.
 >Use parentheses to make it clear how a non-trivial compound expression should evaluate, even if they are technically unnecessary. There are so many operators and precedence levels that it's hard to remember them all, and it's a hassle to look through the table every time. Using parentheses makes it clear and avoids the hassle.
 
-### Value computation vs. evaluation
-- The C++ standard uses the term **value computation** to mean the execution of operators in an expression to produce a value.
-	- The precedence and association rules determine the order in which value computation happens.
-	- For example, given the expression `4 + 2 * 3`, which groups as `4 + (2 * 3)`, the value computation for `(2 * 3)` happens first, then the value computation for `4 + 6` happens.
-- The C++ standard uses the term **evaluation** to refer to the evaluation of *operands* (NOT operators or expressions).
-	- For example, given expression `a + b`, `a` will be evaluated to produce some value, and then `b` will be evaluated to produce some value.
+### Order of Evaluation
+(note) the explanation for "evaluation" seems a little weird on the website. The contents of this specific section takes information from other sources, such as *cppreference.com* (and Copilot).
+
+- In the context of the C++ standard, **evaluation** refers to the process of computing the value of an expression and any associated side effects. There are two main aspects of evaluation:
+	- **Value Computation** : this involves calculating the value that an expression returns. For example, in the expression `a + b`, the value computation would involve adding the values of `a` and `b`.
+	- **Side Effects** : these are additional actions that occur during the evaluation of an expression, such as modifying a variable, writing to a file, or calling a function. For example, in the expression `a = b + c`, the side effect is the assignment of the result of `b + c` to `a`.
+- 
