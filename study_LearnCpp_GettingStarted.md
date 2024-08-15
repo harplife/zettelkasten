@@ -3807,3 +3807,9 @@ Peach
 >[!important] Use parentheses whenever possible.
 >Use parentheses to make it clear how a non-trivial compound expression should evaluate, even if they are technically unnecessary. There are so many operators and precedence levels that it's hard to remember them all, and it's a hassle to look through the table every time. Using parentheses makes it clear and avoids the hassle.
 
+### Value computation vs. evaluation
+- The C++ standard uses the term **value computation** to mean the execution of operators in an expression to produce a value.
+	- The precedence and association rules determine the order in which value computation happens.
+	- For example, given the expression `4 + 2 * 3`, which groups as `4 + (2 * 3)`, the value computation for `(2 * 3)` happens first, then the value computation for `4 + 6` happens.
+- The C++ standard uses the term **evaluation** to refer to the evaluation of *operands* (NOT operators or expressions).
+	- For example, given expression `a + b`, `a` will be evaluated to produce some value, and then `b` will be evaluated to produce some value.
