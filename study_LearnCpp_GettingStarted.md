@@ -3802,3 +3802,8 @@ Peach
 - Detailed list of operators and their associativity soon to follow in a table.
 
 ### Table of operator precedence and associativity
+![[cpp_Table_of_Precedence_and_Associativity]]
+
+>[!important] Use parentheses whenever possible.
+>Use parentheses to make it clear how a non-trivial compound expression should evaluate, even if they are technically unnecessary. There are so many operators and precedence levels that it's hard to remember them all, and it's a hassle to look through the table every time. Using parentheses makes it clear and avoids the hassle.
+

@@ -94,7 +94,7 @@
                 }
               }
             ],
-            "currentTab": 5
+            "currentTab": 4
           }
         ],
         "direction": "vertical"
@@ -172,7 +172,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "cpp_Table_of_Precedence_and_Associativity.md"
+                    "file": "study_LearnCpp_GettingStarted.md"
                   }
                 }
               }
@@ -213,7 +213,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "cpp_Table_of_Precedence_and_Associativity.md",
+                    "file": "study_LearnCpp_GettingStarted.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -248,7 +248,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "cpp_Table_of_Precedence_and_Associativity.md",
+                    "file": "study_LearnCpp_GettingStarted.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -282,7 +282,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "cpp_Table_of_Precedence_and_Associativity.md",
+                    "file": "study_LearnCpp_GettingStarted.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -315,8 +315,8 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "91d9209158893f0a",
-      "mtime": "2024-08-14T16:59:11-05:00",
+      "active": "9c9a2525afbfe6bd",
+      "mtime": "2024-08-14T21:32:19-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "Dictionary"

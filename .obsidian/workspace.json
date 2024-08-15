@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cpp_Table_of_Precedence_and_Associativity.md"
+                "file": "study_LearnCpp_GettingStarted.md"
               }
             }
           }
@@ -211,7 +211,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "cpp_Table_of_Precedence_and_Associativity.md",
+                "file": "study_LearnCpp_GettingStarted.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -246,7 +246,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cpp_Table_of_Precedence_and_Associativity.md",
+                "file": "study_LearnCpp_GettingStarted.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -280,7 +280,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cpp_Table_of_Precedence_and_Associativity.md",
+                "file": "study_LearnCpp_GettingStarted.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -313,11 +313,11 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "91d9209158893f0a",
+  "active": "9c9a2525afbfe6bd",
   "lastOpenFiles": [
-    "attachments/table_of_precedence_associativity.pdf",
-    "study_LearnCpp_GettingStarted.md",
     "cpp_Table_of_Precedence_and_Associativity.md",
+    "study_LearnCpp_GettingStarted.md",
+    "attachments/table_of_precedence_associativity.pdf",
     "study_LearnOpenGL_GettingStarted.md",
     "study_LearnOpenGL_Colors.md",
     "attachments/Pasted image 20240805123926.png",
