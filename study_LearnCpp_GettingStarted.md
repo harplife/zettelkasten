@@ -3895,7 +3895,8 @@ int main()
 ### Modulo
 - The concept of modulo is used both in mathematics and programming, but there are some differences in how it is applied and interpreted.
 - Modulo in mathematics
-	- Definition: the modulo operation finds the remainder when one integer is divided by another. It is often denoted as $a \mod n$ 
+	- Definition: the modulo operation finds the remainder when one integer is divided by another. It is often denoted as $a \mod n$, where $a$ is the dividend and $n$ is the divisor.
+	- 
 
 ### The remainder operator
 - The remainder operator (aka modulo/modulus operator) `%` is an operator that returns the remainder after doing an integer division.
