@@ -3892,9 +3892,13 @@ int main()
 	- Remainder assignment `%=`
 
 ## Remainder and exponentiation
+### Modulo
+- The concept of modulo is used both in mathematics and programming, but there are some differences in how it is applied and interpreted.
+- Modulo in mathematics
+	- Definition: the modulo operation finds the remainder when one integer is divided by another. It is often denoted as $a \mod n$ 
+
 ### The remainder operator
 - The remainder operator (aka modulo/modulus operator) `%` is an operator that returns the remainder after doing an integer division.
 	- For example, the remainder for integer division `7 / 4` is `3`. Therefore, `7 % 4 = 3`.
 - The remainder operator is most useful for testing whether a number is evenly divisible by another number (meaning that after division, there is no remainder).
 	- For example, `x % 2` helps check whether an integer `x` is an even or an odd number.
-- 
