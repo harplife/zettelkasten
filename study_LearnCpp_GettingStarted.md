@@ -3813,4 +3813,83 @@ Peach
 - In the context of the C++ standard, **evaluation** refers to the process of computing the value of an expression and any associated side effects. There are two main aspects of evaluation:
 	- **Value Computation** : this involves calculating the value that an expression returns. For example, in the expression `a + b`, the value computation would involve adding the values of `a` and `b`.
 	- **Side Effects** : these are additional actions that occur during the evaluation of an expression, such as modifying a variable, writing to a file, or calling a function. For example, in the expression `a = b + c`, the side effect is the assignment of the result of `b + c` to `a`.
-- 
+- The order of evaluation is unspecified, meaning the compiler has the freedom to evaluate parts of an expression in any order, unless explicitly defined by the standard.
+	- The precedence and association rules to determine the order in which value computations occur, but it does not determine the order in which the operands or subexpressions are evaluated.
+- Consider the following expression : `a * b + c * d`
+	- By following the precedence and associativity rules, the expression is grouped as `(a * b) + (c * d)`. This expression will always compute the value `14`.
+	- The compiler is free to evaluate operands `a`, `b`, `c`, or `d` in any order.
+	- The compiler is free to evaluate subexpressions `a * b` or `c * d` in any order.
+- For most expressions, the order of evaluation does not matter. However, there are some rare cases when it does. For example,
+
+```C++
+#include <iostream>
+
+int getValue()
+{
+    std::cout << "Enter an integer: ";
+
+    int x{};
+    std::cin >> x;
+    return x;
+}
+
+void printCalculation(int x, int y, int z)
+{
+    std::cout << x + (y * z);
+}
+
+int main()
+{
+    printCalculation(getValue(), getValue(), getValue());
+
+    return 0;
+}
+```
+
+- When the code above is executed, the program will ask for user input 3 times. The order of the input may not correspond to left-to-right order of the arguments (x, y, z). In fact, the order in which the arguments are handled is up to the compiler.
+	- The Clang compiler evaluates arguments in left-to-right order.
+	- The GCC compiler evaluates arguments in right-to-left order.
+
+## Arithmetic operators
+### Unary arithmetic operators
+- Unary operator means that the operator takes one operand (on the right).
+- There are two unary arithmetic operators, plus `+` and minus `-`.
+- The unary minus operator returns the negation of the operand.
+	- Basically, it multiplies the operand by `-1`.
+- The unary plus operator just returns the value of the operand. It's just there for symmetry, and so it's useless.
+
+>[!warning]
+>Do not confuse the unary minus operator with the binary subtraction operator, which uses the same symbol. Operators in `-5` and `2 - 5` are totally different.
+
+### Binary arithmetic operators
+- Binary operators are operators that takes two operands (left and right).
+- There are 5 binary arithmetic operators:
+	- Addition `+`
+	- Subtraction `-`
+	- Multiplication `*`
+	- Division `/`
+	- Remainder `%`
+
+### Divisions : integer and floating point
+- The division operator behaves in two different ways depending on the types of the operands.
+- Floating point division occurs when if either (or both) of the operands are floating point values.
+	- The division returns a floating point value, and the fraction is kept.
+- Integer division occurs when both of the operands are integers.
+	- The division drops any fractions and returns an integer value.
+- In case there are two integers and floating point division is required, the simplest way to solve this problem is to convert one of the operands to a floating point number by using `static_cast<type>(var)`.
+
+### Zero division
+- Division by `0` results in undefined behavior. It can crash the program. On some architectures, it may produce `NaN` or `Inf`.
+- Best thing to do, is not to do it. Prevent the user from doing it.
+
+### Arithmetic assignment operators
+- Arithmetic assignment operators are assignment operators that are mixed with a binary arithmetic operator. There are 6 to account for:
+	- Assignment `=` : assigns the right operand to the left operand
+	- Addition assignment `+=` : adds the right operand to the left operand, and then assigns the result to the left operand.
+	- Subtraction assignment `-=`
+	- Multiplication assignment `*=`
+	- Division assignment `/=`
+	- Remainder assignment `%=`
+
+## Remainder and exponentiation
+### The remainder operator
