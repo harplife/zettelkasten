@@ -3919,4 +3919,8 @@ int main()
 >Think of a function `bool isOdd(int x)` where its purpose is to return `true` if the `x` is an odd number. The conditional logic could be that "if x % 2 equals 1, then return true". However, this will fail when the `x` value is a negative integer (e.g. `-5`) because the remainder will be `-1` and it does not equal to `1`. In this case, it's better to check if the remainder does not equal to `0`.
 
 ### Exponent operator
+- In mathematics, the exponent is commonly denoted as `^`. However, in C++, that symbol is used as Bitwise XOR operator (which will be covered later). In fact, C++ does not have an exponent operator.
+- To do exponents in C++, use the `std::pow()` function from the `<cmath>` header.
+	- e.g. 3 to the 4th power = `double x = std::pow(3.0, 4.0);`
+- Note that the return type of `std::pow()` is double; due to the rounding errors in floating point numbers, the result may not be precise.
 - 
