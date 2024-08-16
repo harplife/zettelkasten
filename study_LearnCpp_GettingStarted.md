@@ -3923,4 +3923,58 @@ int main()
 - To do exponents in C++, use the `std::pow()` function from the `<cmath>` header.
 	- e.g. 3 to the 4th power = `double x = std::pow(3.0, 4.0);`
 - Note that the return type of `std::pow()` is double; due to the rounding errors in floating point numbers, the result may not be precise.
+- Note that the standard library does not include an exponent function for integral type. It may be due to possible overflow.
+
+## Increment/decrement operators, and side effects
+### Incrementing/decrementing variables
+- Incrementing means adding `1` to the current value. Conversely, decrementing means subtracting the value by `1`. In code, incrementing is equivalent to `x = x + 1;`, and decrementing is `x = x - 1;`.
+- Incrementing/decrementing is a common operation, so C++ provides operators `++` and `--` for increment and decrement, respectively.
+- The operators `++`/`--` behaves differently depending on the placement next to the variable; if it is used as prefix (as in it comes before), the operation happens first and then the variable is returned. If it is used as postfix (as in it comes after), the variable is returned first and then the operation happens.
+	- `++x` is pre-increment, where `x` is increased by `1` and then returned.
+	- `--x` is pre-decrement
+	- `x++` is post-increment, where `x` is returned first, and then `x` is increased by `1`.
+	- `x--` is post-decrement
+- Consider the following example:
+
+```C++
+#include <iostream>
+
+int main()
+{
+    int x { 5 };
+    int y { ++x }; // x is incremented to 6, x is evaluated to the value 6, and 6 is assigned to y
+
+    std::cout << x << ' ' << y << '\n';
+    return 0;
+}
+```
+
+```console
+6 6
+```
+
+- In the above example, pre-increment operation took place; `x` was increased by `1`, and the new value was returned then assigned to `y`.
+- Consider the following example:
+
+```C++
+#include <iostream>
+
+int main()
+{
+    int x { 5 };
+    int y { x++ }; // x is incremented to 6, copy of original x is evaluated to the value 5, and 5 is assigned to y
+
+    std::cout << x << ' ' << y << '\n';
+    return 0;
+}
+```
+
+```console
+6 5
+```
+
+- In the above example, post-increment operation took place; the value of `x` was first assigned to `y` and then `x` was increased by `1`.
+
+### Side effects
+- A function or expression is said to have a **side effect** if it has some observable effect beyond producing a return value.
 - 
