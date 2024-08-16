@@ -3898,7 +3898,13 @@ int main()
 	- Definition: the modulo operation finds the remainder when one integer is divided by another. It is often denoted as $a \mod n$, where $a$ is the dividend and $n$ is the divisor.
 	- Positive Remainder: the result is typically the smallest non-negative integer that represents the remainder.
 	- Examples: $5 \mod 3 = 2$, $-5 \mod 3 = 1$, $-7 \mod 5 = 3$, $7 \mod -5 = -3$
-- Modulo in 
+- Modulo in C/C++
+	- Definition: the modulo operation is a binary arithmetic operation which is represented by the `%` operator, where the left operand is the dividend and the right operand is the divisor.
+	- Implementation: the remainder always has the same sign as the dividend.
+	- Examples: `5 % 3 == 2`, `-5 % 3 == -2`, `-7 % 5 = -2`, `7 % -5 = 2`
+- (Note) mathematics modulo is defined in such a way that $a = bq + r$ where $a$ is the dividend, $b$ is the divisor, $q$ the quotient, and $r$ the remainder.
+	- The quotient (the result of the regular division) seems to use floor function, where the number is rounded to the nearest integer in the negative direction.
+	- For example, in $7 \mod -5$, the quotient is $-1.4$ which is then rounded to $-2$; therefore the equation becomes $7 = 10 + r$, and $r = -3$.
 
 ### The remainder operator
 - The remainder operator (aka modulo/modulus operator) `%` is an operator that returns the remainder after doing an integer division.
