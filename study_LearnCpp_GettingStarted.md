@@ -3916,7 +3916,7 @@ int main()
 >[!important]
 >Prefer to compare the result of the remainder operator against `0` if possible.
 >
->Think of a function `bool isOdd(int x)` where its purpose is to return `true` if the `x` is an odd number. The conditional logic could be that "if x % 2 equals 1, then return true". However, this will fail when the `x` value is a negative integer (e.g. `-5`) because the remainder will be `-1` and it does not equal to `1`.
+>Think of a function `bool isOdd(int x)` where its purpose is to return `true` if the `x` is an odd number. The conditional logic could be that "if x % 2 equals 1, then return true". However, this will fail when the `x` value is a negative integer (e.g. `-5`) because the remainder will be `-1` and it does not equal to `1`. In this case, it's better to check if the remainder does not equal to `0`.
 
 ### Exponent operator
 - 
