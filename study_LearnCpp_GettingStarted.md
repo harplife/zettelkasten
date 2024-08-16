@@ -3898,7 +3898,7 @@ int main()
 	- Definition: the modulo operation finds the remainder when one integer is divided by another. It is often denoted as $a \mod n$, where $a$ is the dividend and $n$ is the divisor.
 	- Positive Remainder: the result is typically the smallest non-negative integer that represents the remainder.
 	- Examples: $5 \mod 3 = 2$, $-5 \mod 3 = 1$, $-7 \mod 5 = 3$, $7 \mod -5 = -3$
-	- 
+- Modulo in 
 
 ### The remainder operator
 - The remainder operator (aka modulo/modulus operator) `%` is an operator that returns the remainder after doing an integer division.
