@@ -3977,4 +3977,53 @@ int main()
 
 ### Side effects
 - A function or expression is said to have a **side effect** if it has some observable effect beyond producing a return value.
+- As previously mentioned before, evaluation consists of value computation and side effects.
+- Side effects include range of things, such as changing the value of objects, doing input/output, updating a GUI, and etc.
+- For example:
+
+```C++
+x = 5; // the assignment operator has side effect of changing value of x
+++x; // operator++ has side effect of incrementing x
+std::cout << x; // operator<< has side effect of modifying the state of the console
+```
+
+>[!warning]
+>The [[#Order of Evaluation]] is up to the compiler to decide; a lot of times it is ambiguous, and it's best to be careful not to make any assumption about the order of evaluation (or code based on that assumption).
+>
+>For example, `add(x, ++x)` causes an undefined behavior because it's questionable whether the intention of the function call was to `x + (x+1)` or `(x+1) + (x+1)` - it all depends on the order the compiler evaluates in.
+>
+>Similarly, `x + ++x` causes an undefined behavior for the same reason.
+
+>[!important]
+>The C++ standard intentionally does not define the order of evaluation so that compilers can do whatever is most natural (and thus most performant) for a given architecture.
+
+>[!important]
+>The best way to avoid nearly all order of evaluation issues is by ensuring that any variable that has a side-effect applied is NOT used more than once in a given statement.
+>
+>For example, if `x++` is in a statement, it's probably best not to use `x` again within that statement.
+>
+>One exception is for simple assignment expressions, such as `x = x + y` (which is essentially `x += y`).
+
+## The comma operator
+- The comma operator `,` allows you to evaluate multiple expressions wherever a single expression is allowed.
+	- The comma operator evaluates the left operand, then the right operand, and then returns the result of the right operand.
+	- For example, `(++x, ++y)` evaluates `++x` first, then `++y`, and lastly returns `y`.
+- The comma operator has the lowest precedence of all the operators, even lower than assignment.
+	- Careful not to mistake `x = (a, b);` and `x = a, b` as the same thing.
+- The comma operator is commonly used in *for loops*, which will be discussed later.
+
+>[!warning] Avoid using the comma operator, except within *for loops*.
+
+## Comma as a separator
+- In C++, the comma symbol is often used as a separator - which does NOT invoke the comma operator.
+- Separator comma is used to separate parameters in function definition.
+	- e.g. `foo(int x, int y)`
+- Separator comma is used to separate arguments in function call.
+	- e.g. `foo(x, y)`
+- Separator comma is used to separate multiple variables being declared/defined on the same line.
+	- e.g. `int x, y, z;`
+
+>[!warning] Avoid using separator commas for declaring multiple variables in one line.
+
+## Relational operators and floating point comparisons
 - 
