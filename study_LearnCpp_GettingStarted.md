@@ -3905,9 +3905,18 @@ int main()
 - (Note) mathematics modulo is defined in such a way that $a = bq + r$ where $a$ is the dividend, $b$ is the divisor, $q$ the quotient, and $r$ the remainder.
 	- The quotient (the result of the regular division) seems to use floor function, where the number is rounded to the nearest integer in the negative direction.
 	- For example, in $7 \mod -5$, the quotient is $-1.4$ which is then rounded to $-2$; therefore the equation becomes $7 = 10 + r$, and $r = -3$.
+- (Note) C/C++ modulo feels more intuitive, where $|bq| \leq |a|$ is always true. The focus seems to be on the remainder, which is why the learncpp website emphasizes that the `%` operator be referred to as the remainder operator.
 
 ### The remainder operator
 - The remainder operator (aka modulo/modulus operator) `%` is an operator that returns the remainder after doing an integer division.
 	- For example, the remainder for integer division `7 / 4` is `3`. Therefore, `7 % 4 = 3`.
 - The remainder operator is most useful for testing whether a number is evenly divisible by another number (meaning that after division, there is no remainder).
 	- For example, `x % 2` helps check whether an integer `x` is an even or an odd number.
+
+>[!important]
+>Prefer to compare the result of the remainder operator against `0` if possible.
+>
+>Think of a function `bool isOdd(int x)` where its purpose is to return `true` if the `x` is an odd number. The conditional logic could be that "if x % 2 equals 1, then return true". However, this will fail when the `x` value is a negative integer (e.g. `-5`) because the remainder will be `-1` and it does not equal to `1`.
+
+### Exponent operator
+- 
