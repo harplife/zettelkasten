@@ -4133,6 +4133,10 @@ bool approximatelyEqualAbsRel(double a, double b, double absEpsilon, double relE
 - Both `&&` operator and `||` operator can be chained together with many of its kind.
 	- e.g. `x && y && z`, `x || y || z`
 
+### Related mathematics field
+- [Propositional Calculus](https://en.wikipedia.org/wiki/Propositional_calculus)
+- [Boolean Algebra](https://en.wikipedia.org/wiki/Boolean_algebra)
+
 ### Short circuit evaluation
 - Short circuit evaluation refers to when logical operators immediately returns a result by evaluating just one operand instead of evaluating the whole expression.
 - `&&` operator short circuits and returns `false` when the left operand is `false`.
@@ -4147,3 +4151,10 @@ bool approximatelyEqualAbsRel(double a, double b, double absEpsilon, double relE
 >When mixing `&&` operator and `||` operator in a single expression, explicitly parenthesize each operation to ensure they evaluate in the order that is intended.
 
 ### De Morgan's laws
+- [De Morgan's laws](https://en.wikipedia.org/wiki/De_Morgan%27s_laws) are a pair of rules that describe how negation is distributed:
+	- `!(x && y)` is equivalent to `!x || !y`
+	- `!(x || y)` is equivalent to `!x && !y`
+- These laws are better understood with Venn diagrams:
+	- ![[Demorganlaws.svg]]
+	- Note that the the resultant set is the set of all points in any shade of blue.
+- 
