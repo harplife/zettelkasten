@@ -4127,4 +4127,23 @@ bool approximatelyEqualAbsRel(double a, double b, double absEpsilon, double relE
 	- Logical NOT `!`
 	- Logical AND `&&`
 	- Logical OR `||`
-- 
+- `!` operator is useful for negating `bool` values. If `x` is `true`, then `!x` is `false`.
+- `&&` operator returns `true` only if both operands are `true`.
+- `||` operator returns `true` if one or both of the operands are `true`.
+- Both `&&` operator and `||` operator can be chained together with many of its kind.
+	- e.g. `x && y && z`, `x || y || z`
+
+### Short circuit evaluation
+- Short circuit evaluation refers to when logical operators immediately returns a result by evaluating just one operand instead of evaluating the whole expression.
+- `&&` operator short circuits and returns `false` when the left operand is `false`.
+- `||` operator short circuits and returns `true` when the left operand is `true`.
+- Note that when the short circuit happens, the right operand does not get evaluated.
+	- For example, if `x && ++y` and `x == false`, then `++y` never executes.
+
+>[!important]
+>The `&&` operator and `||` operator are an exception to the rule that the operands may evaluate in any order, as the standard explicitly states that the left operand must evaluate first.
+
+>[!important]
+>When mixing `&&` operator and `||` operator in a single expression, explicitly parenthesize each operation to ensure they evaluate in the order that is intended.
+
+### De Morgan's laws
