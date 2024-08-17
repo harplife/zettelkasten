@@ -4171,3 +4171,16 @@ bool approximatelyEqualAbsRel(double a, double b, double absEpsilon, double relE
 - `!=` operator produces the same result as a logical XOR when given `bool` operands.
 	- For example, `a != b` returns `true` only if the two values differ.
 
+## Bitwise operations
+Skipping this whole [optional chapter on bitwise operations](https://www.learncpp.com/cpp-tutorial/bit-flags-and-bit-manipulation-via-stdbitset/).
+
+## Compound statements (blocks)
+- A compound statement (aka block) is a group of zero or more statements that is treated by the compiler as if it were a single statement.
+- Blocks begin and end with curly brackets, `{` and `}`. In between the curly brackets, statements to be executed are placed. Semicolon is not needed.
+- The most common usage of the block is the function body (e.g. `int add(int x, int y) { return x + y; }`).
+- Initialization is NOT a block (e.g. `int x{};`).
+- Blocks can be nested, as in blocks inside other blocks:
+
+```C++
+
+```
