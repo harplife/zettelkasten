@@ -4075,4 +4075,49 @@ d1 > d2
 >It is generally not safe to compare floating point literals of different types. For example, `9.8f == 9.8` will return `false`.
 
 ### Close enough floating point values
-- 
+- Although not perfect, there is some way to get around the rounding point error issue with comparing equality of two floating point values - that is, by using a margin of error.
+- As long as two floating point values are close enough by an acceptable margin of error (which is called **epsilon**), these two values can be considered equal.
+- There are two ways to implement epsilon: absolute epsilon and relative epsilon.
+- Absolute epsilon is the easiest to implement in the sense that the function (e.g. `equalTo()`) takes the absolute value of the difference of the two given floating point values (e.g. `std::abs(a - b)`), and then checks whether the value is smaller than the given absolute epsilon (e.g. `absDiff <= absEpsilon`). An example code:
+
+```C++
+#include <cmath> // for std::abs()
+
+bool equalTo(double a, double b, double absEpsilon)
+{
+    return std::abs(a - b) <= absEpsilon;
+}
+```
+
+- While using absolute epsilon can work, it's not great. While an epsilon of `0.00001` is good for inputs around `1.0`, it is too big for inputs around `0.00000000001`, and too small for inputs like `10,000`.
+	- Choosing an appropriate epsilon can be a headache because you should always be aware just how big the input values usually are.
+- Relative epsilon is a method where it determines that the two floating point values are equal (close enough) if the distance of the two values are less than or equal to a small percentage of the higher value.
+	- This method was suggested by Donald Knuth (a famous computer scientist) in his book "The Art of Computer Programming, Volume II".
+- The implementation of the relative epsilon method looks like this:
+
+```C++
+#include <algorithm> // for std::max
+#include <cmath>     // for std::abs
+
+bool approximatelyEqualRel(double a, double b, double relEpsilon)
+{
+	return (std::abs(a - b) <= (std::max(std::abs(a), std::abs(b)) * relEpsilon));
+}
+```
+
+- In the code above, if `relEpsilon` is set to `0.01`, it means that the function determines that the two values are equal if the distance between them are within 1% of the higher value.
+- While Donald's method works great in most cases, it is not perfect - especially so as the numbers approach zero.
+	- Donald's method can be improved by implementing absolute epsilon method when the numbers are very small; the absolute epsilon should be set to something very small (e.g. `1e-12`).
+- Implementation of absolute epsilon & relative epsilon:
+
+```C++
+bool approximatelyEqualAbsRel(double a, double b, double absEpsilon, double relEpsilon)
+{
+    if (std::abs(a - b) <= absEpsilon)
+        return true;
+
+    return approximatelyEqualRel(a, b, relEpsilon);
+}
+```
+
+## Logical operators
