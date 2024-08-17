@@ -4171,5 +4171,3 @@ bool approximatelyEqualAbsRel(double a, double b, double absEpsilon, double relE
 - `!=` operator produces the same result as a logical XOR when given `bool` operands.
 	- For example, `a != b` returns `true` only if the two values differ.
 
-### Alternative operator representations
-- 
