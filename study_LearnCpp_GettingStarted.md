@@ -4121,3 +4121,10 @@ bool approximatelyEqualAbsRel(double a, double b, double absEpsilon, double relE
 ```
 
 ## Logical operators
+- While relational operators can be used to test whether a particular condition is true or false, they can only test one condition at a time.
+- Logical operators provides the capability to test multiple conditions.
+- C+ has 3 logical operators:
+	- Logical NOT `!`
+	- Logical AND `&&`
+	- Logical OR `||`
+- 
