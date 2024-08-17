@@ -4133,6 +4133,12 @@ bool approximatelyEqualAbsRel(double a, double b, double absEpsilon, double relE
 - Both `&&` operator and `||` operator can be chained together with many of its kind.
 	- e.g. `x && y && z`, `x || y || z`
 
+>[!important] Alternative operator representations
+>Logical AND operator can be represented with `and`.
+>Logical OR operator can be represented with `or`.
+>Logical NOT operator can be represented with `not`.
+>Putting all together, `!a && (b || c)`
+
 ### Related mathematics field
 - [Propositional Calculus](https://en.wikipedia.org/wiki/Propositional_calculus)
 - [Boolean Algebra](https://en.wikipedia.org/wiki/Boolean_algebra)
