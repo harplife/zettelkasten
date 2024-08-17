@@ -4177,10 +4177,38 @@ Skipping this whole [optional chapter on bitwise operations](https://www.learncp
 ## Compound statements (blocks)
 - A compound statement (aka block) is a group of zero or more statements that is treated by the compiler as if it were a single statement.
 - Blocks begin and end with curly brackets, `{` and `}`. In between the curly brackets, statements to be executed are placed. Semicolon is not needed.
-- The most common usage of the block is the function body (e.g. `int add(int x, int y) { return x + y; }`).
+- Common usages of the block includes:
+	- the function body (e.g. `int add(int x, int y) { return x + y; }`).
+	- conditional statements (e.g. `if (condition) { execute }`)
+	- 
 - Initialization is NOT a block (e.g. `int x{};`).
 - Blocks can be nested, as in blocks inside other blocks:
 
 ```C++
+int add(int x, int y)
+{ // block
+    return x + y;
+} // end block
 
+int main()
+{ // outer block
+
+    // multiple statements
+    int value {};
+
+    { // inner/nested block
+        add(3, 4);
+    } // end inner/nested block
+
+    return 0;
+
+} // end outer blocks
 ```
+
+- When blocks are nested, the enclosing block is typically called the **outer block**, and the enclosed block is called the **inner block** or **nested block**.
+	- C++ standard says that C++ compilers should support 256 levels of nesting. However, not all do (nor should you).
+
+### User-defined namespaces and the scope resolution operator
+- The concept of namespace and scope was introduced in [[#Naming collisions and an introduction to namespaces]].
+	- As a reminder, a naming collision occurs when two identical identifiers are introduced into the same scope (and the compiler can't disambiguate which one to use).
+- 
