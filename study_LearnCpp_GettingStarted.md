@@ -4026,4 +4026,53 @@ std::cout << x; // operator<< has side effect of modifying the state of the cons
 >[!warning] Avoid using separator commas for declaring multiple variables in one line.
 
 ## Relational operators and floating point comparisons
+### Relational operators
+- Relational operators are binary arithmetic operators that compares left and right operands. There are 6 relational operators:
+	- Greater than `>`
+	- Less than `<`
+	- Greater than or equal to `>=`
+	- Less than or equal to `<=`
+	- Equality `==`
+	- Inequality `!=`
+
+### Floating point comparisons
+- Due to the rounding errors, comparing floating point values is best to be avoided or be used with care.
+- An example of comparing floating point values gone wrong:
+
+```C++
+#include <iostream>
+
+int main()
+{
+    constexpr double d1{ 100.0 - 99.99 }; // should equal 0.01 mathematically
+    constexpr double d2{ 10.0 - 9.99 }; // should equal 0.01 mathematically
+
+    if (d1 == d2)
+        std::cout << "d1 == d2" << '\n';
+    else if (d1 > d2)
+        std::cout << "d1 > d2" << '\n';
+    else if (d1 < d2)
+        std::cout << "d1 < d2" << '\n';
+
+    return 0;
+}
+```
+
+```console
+d1 > d2
+```
+
+- In the example above, the debugger may show that the value of `d1` is `0.010000000000005116` and `d2` is `0.0099999999999997868`. They both are close to `0.01` but off by a little bit.
+- Comparing the floating point values on whether they are equal `==` or unequal `!=` is DEFINITELY not reliable. However, greater than `>` or less than `<` (and its equal to variations) are somewhat reliable.
+	- These operators are especially reliable when the operands are more likely to be different than identical, or when the small amount of error is permissible.
+
+>[!important]
+>It is safe to compare a floating point literal with a variable of the same type that has been initialized with a literal of the same type, so long as the number of significant digits in each literal does not exceed the minimum precision for that type.
+>
+>For example, `double gravity = 9.8; if (gravity == 9.8) //..` is perfectly fine to do.
+
+>[!warning]
+>It is generally not safe to compare floating point literals of different types. For example, `9.8f == 9.8` will return `false`.
+
+### Close enough floating point values
 - 
