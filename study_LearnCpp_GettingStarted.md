@@ -4164,3 +4164,6 @@ bool approximatelyEqualAbsRel(double a, double b, double absEpsilon, double relE
 	- In mathematics, it's possible to implement (find equivalence) logical XOR by combining logical AND, logical OR, and logical NOT. However, it's not possible in C++ because of short-circuit.
 - `!=` operator produces the same result as a logical XOR when given `bool` operands.
 	- For example, `a != b` returns `true` only if the two values differ.
+
+### Alternative operator representations
+- 
