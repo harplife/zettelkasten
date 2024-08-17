@@ -4155,6 +4155,12 @@ bool approximatelyEqualAbsRel(double a, double b, double absEpsilon, double relE
 	- `!(x && y)` is equivalent to `!x || !y`
 	- `!(x || y)` is equivalent to `!x && !y`
 - These laws are better understood with Venn diagrams:
-	- ![[Demorganlaws.svg]]
+	- ![[Demorganlaws.svg|300]]
 	- Note that the the resultant set is the set of all points in any shade of blue.
-- 
+
+### Logical XOR
+- Logical Exclusive OR (XOR in short) is a logical operator which returns true if and only if the inputs differ (one of them is true while the other is false).
+- C++ does not provide logical XOR operator.
+	- In mathematics, it's possible to implement (find equivalence) logical XOR by combining logical AND, logical OR, and logical NOT. However, it's not possible in C++ because of short-circuit.
+- `!=` operator produces the same result as a logical XOR when given `bool` operands.
+	- For example, `a != b` returns `true` only if the two values differ.
