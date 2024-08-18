@@ -4422,5 +4422,15 @@ Skipped. Refer to https://www.learncpp.com/cpp-tutorial/local-variables/
 >Note that not all prefixes are "bad", per se. Using prefixes to represent the scope or duration (e.g. `g`, `s`, `m`) of a variable is useful.
 
 >[!warning]
->Avoid using non-constant global variables.
+>It's best to avoid using non-constant global variables. If global access to a variable is required, then consider using a Singleton Pattern, namespace, dependency injection, or thread-local storage.
+>- Singleton Pattern : ensures a single instance of a class with global access.
+>- Namespace : encapsulates the variable within a namespace.
+>- Dependency Injection : passes the variable as a parameter to functions or classes.
+>- Threat-local storage : provides each thread with its own instance of the variable.
+>
+>Refer to sample code for Context Objects.
+
+
+
+
 
