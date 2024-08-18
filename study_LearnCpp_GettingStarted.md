@@ -4211,4 +4211,143 @@ int main()
 ### User-defined namespaces and the scope resolution operator
 - The concept of namespace and scope was introduced in [[#Naming collisions and an introduction to namespaces]].
 	- As a reminder, a naming collision occurs when two identical identifiers are introduced into the same scope (and the compiler can't disambiguate which one to use).
+- C++ allows us to define our own namespaces via the `namespace` keyword. Namespaces that you create in your own programs are casually called **user-defined namespaces**.
+- The syntax for a namespace is as follows:
+
+```C++
+namespace NamespaceIdentifier
+{
+	// content of namespace here
+}
+```
+
+- Historically, namespace names have not bee capitalized, and many style guides still recommend this convention. However, there are some reasons to prefer namespace names with a capital letter:
+	- The C++20 standards document uses this style.
+	- The C++ Core guidelines document uses this style.
+
+### Scope resolution operator
+- The best way to tell the compiler to look in a particular namespace for an identifier is to use the **scope resolution operator** `::`. The scope resolution operator tells the compiler that the identifier specified by the right-hand operand should be looked for in the scope of the left-hand operand.
+- For example,
+
+```C++
+#include <iostream>
+
+namespace Foo
+{
+    int doSomething(int x, int y)
+    {
+        return x + y;
+    }
+}
+
+namespace Goo
+{
+    int doSomething(int x, int y)
+    {
+        return x - y;
+    }
+}
+
+int main()
+{
+    std::cout << Foo::doSomething(4, 3) << '\n';
+    std::cout << Goo::doSomething(7, 4) << '\n';
+
+    return 0;
+}
+```
+
+```console
+7
+3
+```
+
+- If `::` operator is used without a left operand, then the right operand (the identifier) is looked for in the global namespace.
+- If scope resolution operand is not provided, then the identifier is assumed to be in the most immediate namespace. For example,
+
+```C++
+#include <iostream>
+
+void print() // this print() lives in the global namespace
+{
+	std::cout << " there\n";
+}
+
+namespace Foo
+{
+	void print() // this print() lives in the Foo namespace
+	{
+		std::cout << "Hello";
+	}
+
+	void printHelloThere()
+	{
+		print();   // calls print() in Foo namespace
+		::print(); // calls print() in global namespace
+	}
+}
+
+int main()
+{
+	Foo::printHelloThere();
+
+	return 0;
+}
+```
+
+```console
+Hello there
+```
+
+### Forward declaration inside namespaces
+- As mentioned before, it's recommended to propagate forward declarations by using [[#Header files]]. For identifiers inside a namespace, those forward declarations also need to be inside the same namespace. For example:
+
+add.h
+```C++
+#ifndef ADD_H
+#define ADD_H
+
+namespace BasicMath
+{
+    // function add() is part of namespace BasicMath
+    int add(int x, int y);
+}
+
+#endif
+```
+
+add.cpp
+```C++
+#include "add.h"
+
+namespace BasicMath
+{
+    // define the function add() inside namespace BasicMath
+    int add(int x, int y)
+    {
+        return x + y;
+    }
+}
+```
+
+main.cpp
+```C++
+#include "add.h" // for BasicMath::add()
+
+#include <iostream>
+
+int main()
+{
+    std::cout << BasicMath::add(4, 3) << '\n';
+
+    return 0;
+}
+```
+
+>[!important]
+>It's legal to declare namespace blocks in multiple locations (either across multiple files, or multiple places within the same file). All declarations within the namespace are considered part of the namespace.
+
+>[!warning] Do not add custom functionality to the `std` namespace
+
+### Nested namespaces
 - 
