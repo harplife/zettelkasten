@@ -4431,3 +4431,4 @@ Skipped. Refer to https://www.learncpp.com/cpp-tutorial/local-variables/
 >Refer to [[cpp_global_state_context_objects]]
 
 ## Variable shadowing (name hiding)
+- When a variable is declared in a nested block
