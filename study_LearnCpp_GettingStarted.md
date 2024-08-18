@@ -4428,9 +4428,6 @@ Skipped. Refer to https://www.learncpp.com/cpp-tutorial/local-variables/
 >- Dependency Injection : passes the variable as a parameter to functions or classes.
 >- Threat-local storage : provides each thread with its own instance of the variable.
 >
->Refer to sample code for Context Objects.
+>Refer to [[cpp_global_state_context_objects]]
 
-
-
-
-
+## Variable shadowing (name hiding)

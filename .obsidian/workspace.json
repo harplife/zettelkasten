@@ -77,35 +77,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "91d9209158893f0a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "cpp_Table_of_Precedence_and_Associativity.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ba525f3e6534f8a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "cpp_global_state_context_objects.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -183,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cpp_global_state_context_objects.md"
+                "file": "study_LearnCpp_GettingStarted.md"
               }
             }
           }
@@ -224,7 +198,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "cpp_global_state_context_objects.md",
+                "file": "study_LearnCpp_GettingStarted.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -259,7 +233,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cpp_global_state_context_objects.md",
+                "file": "study_LearnCpp_GettingStarted.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -293,7 +267,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cpp_global_state_context_objects.md",
+                "file": "study_LearnCpp_GettingStarted.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -326,12 +300,12 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "ba525f3e6534f8a4",
+  "active": "9c9a2525afbfe6bd",
   "lastOpenFiles": [
+    "cpp_Table_of_Precedence_and_Associativity.md",
     "cpp_global_state_context_objects.md",
     "study_LearnCpp_GettingStarted.md",
     "attachments/Demorganlaws.svg",
-    "cpp_Table_of_Precedence_and_Associativity.md",
     "attachments/table_of_precedence_associativity.pdf",
     "study_LearnOpenGL_GettingStarted.md",
     "study_LearnOpenGL_Colors.md",
