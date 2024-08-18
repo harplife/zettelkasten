@@ -4394,4 +4394,33 @@ int main()
 >[!important] In general, avoid nested namespaces that are more than 3 levels.
 
 ## Local variables
-- 
+Skipped. Refer to https://www.learncpp.com/cpp-tutorial/local-variables/
+
+## Intro to global variables
+- Variables declared in the global namespace outside any function are called **global variables**.
+- By convention, global variables are declared at the top of a file, below the includes, in the global namespace.
+- Identifiers declared in the global namespace have **global namespace scope** (aka file scope), which means they are visible from the point of declaration until the end of the file in which they are declared.
+- By extension, variables declared inside a namespace that is defined in a global scope are global variables.
+	- e.g. `Foo::x` is a global variable if namespace `Foo` was defined in the global scope.
+	- Basically, any variable that can be accessed anywhere (as long as namespace is stated) is a global variable.
+
+>[!important]
+>Best practice is to define global variables inside a namespace rather than in the global namespace.
+
+- Global variables are created when the program starts (before `main()` begins execution) and destroyed when it ends - the duration in between is called **static duration**.
+	- Variables with static duration are sometimes called **static variables**.
+- By convention, `g` or `g_` prefix is used for global variable identifiers.
+	- This prefix is omitted for global variables defined inside a user-defined namespace.
+
+>[!note] Hungarian notation
+>Hungarian notation refers to use of prefix in identifiers to indicate type. For example, `nAge` would indicate `int` type.
+>
+>Hungarian notation has largely fallen out of favor in modern C++ programming because it is redundant; C++ is strongly-typed language, and the type information is provided by the compiler. There's really no confusion as to what type is being used.
+>
+>The C++ Core Guidelines strongly discourage the use of Hungarian notation. Instead, they advocate for using clear and descriptive names that reflect the purpose of variables/functions without relying on prefixes.
+>
+>Note that not all prefixes are "bad", per se. Using prefixes to represent the scope or duration (e.g. `g`, `s`, `m`) of a variable is useful.
+
+>[!warning]
+>Avoid using non-constant global variables.
+
