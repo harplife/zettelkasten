@@ -4350,4 +4350,48 @@ int main()
 >[!warning] Do not add custom functionality to the `std` namespace
 
 ### Nested namespaces
+- Namespaces can be nested inside other namespaces. For example:
+
+```C++
+#include <iostream>
+
+namespace Foo
+{
+    namespace Goo // Goo is a namespace inside the Foo namespace
+    {
+        int add(int x, int y)
+        {
+            return x + y;
+        }
+    }
+}
+
+int main()
+{
+    std::cout << Foo::Goo::add(1, 2) << '\n';
+    return 0;
+}
+```
+
+- Note that because namespace `Goo` is inside of namespace `Foo`, we access `add` as `Foo::Goo::add()`.
+- Since C++17, nested namespaces can also be declared like `namespace Foo::Goo {}`.
+- Whether you keep the separate `Foo::Goo` definition or nest `Goo` inside `Foo` is a stylistic choice.
+
+### Namespace aliases
+- Namespace aliases allows us to temporarily shorten a long sequence of namespaces, like so:
+	- `namespace Active = Foo::Goo;`
+- Not only is this convenient because the namespace is shortened, it's also useful to move the functionality from a namespace to another (and just update the alias to reflect the new destination).
+
+### How to use namespaces
+- It's worth noting that namespaces were NOT originally designed as a way to implement an information hierarchy. Rather, they were designed primarily as a mechanism for preventing naming collisions.
+	- As evidence of this, note that the entirety of the standard library lives under the single top-level namespace `std`.
+- Namespaces now serve multiple purposes:
+	- Prevent naming collisions for larger projects that include multiple third party libraries.
+	- Prevent naming collisions when distributing codes, and provide support for auto-complete and suggestion feature.
+	- Prevent naming collisions between projects/libraries, teams, and companies (e.g. `Company::Team::Project).
+- All in all, namespaces help make code reusable.
+
+>[!important] In general, avoid nested namespaces that are more than 3 levels.
+
+## Local variables
 - 
