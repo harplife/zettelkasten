@@ -4478,5 +4478,25 @@ int main()
 >[!warning]
 >Variable shadowing should generally be avoided.
 
-## Internal linkage
-- 
+## Linkage
+- The concept of **linkage** determines the visibility and accessibility of names (such as variables, functions, and objects) across different translation units (source files). Linkage specifies whether a name can be referred to from other translation units or only within the same translation unit.
+- There are three main types of linkage: internal linkage, external linkage, and no linkage.
+
+### No linkage
+- Names with **no linkage** are local to a block or function and cannot be accessed outside of that scope.
+	- Local variables have no linkage.
+
+### Internal linkage
+- Names with **internal linkage** are visible only within the same translation unit. They cannot be accessed from other translation units.
+- Global variables/functions with a `static` keyword has internal linkage.
+	- `static` keyword is a storage class specifier, which sets both the name's linkage and its storage duration.
+- Constant global variables have internal linkage by default.
+	- e.g. `const`, `constexpr`, `consteval`
+
+>[!important]
+>Internal objects/functions that are defined in different files are considered to be independent entities (even if their names and types are identical), so there is no violation of the One-Definition Rule.
+
+
+### External linkage
+- Names with **external linkage** are visible across multiple translation units. They can be accessed from other source files.
+- Non-constant global variables (without `static` keyword) have external linkage.
