@@ -4501,9 +4501,21 @@ int main()
 ### External linkage
 - Names with **external linkage** are visible across multiple translation units. They can be accessed from other source files.
 - Non-constant global variables (without `static` keyword) have external linkage.
-- `extern` keyword can be used to make a global variable external.
-	- Naturally, it'll only be useful for constant global variables (e.g. `extern const int x`)
 - Global variables with external linkage are sometimes called **external variables**.
+- `extern` keyword can be used to make a global variable external.
+	- Naturally, it'll only be useful for constant global variables (e.g. `extern const int x`).
 - Forward declaration is necessary in order to access external variables that were defined in another file.
-	- For a global variable with default external linkage, `extern` keyword is necessary for forward declaration (e.g. `int x` --> `extern int x`).
-- 
+- For a global variable with default external linkage, `extern` keyword is necessary for forward declaration (e.g. `int x` --> `extern int x`).
+	- Do not use `extern` keyword for an uninitialized non-constant global variable - not only is it redundant, it's also mistaken as a forward declaration for an external variable.
+
+>[!warning]
+>Do not use `exstern` keyword for `constexpr`/`consteval` variables. They are meant to be evaluated at compile-time, and so linkage (which happens after compilation is done) is useless.
+
+>[!important]
+>Functions are external by default. `extern` keyword is not necessary for forward declaration.
+
+## Avoid non-const global variables
+- Although non-const global variables seem useful to beginner programmers, non-const global variables spell disaster for experienced programmers.
+
+### Everything everywhere all at once
+- The problem with non-const global variables is that they can be accessed by everything, everywhere, and whenever.
