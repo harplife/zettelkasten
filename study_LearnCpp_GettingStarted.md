@@ -4431,4 +4431,52 @@ Skipped. Refer to https://www.learncpp.com/cpp-tutorial/local-variables/
 >Refer to [[cpp_global_state_context_objects]]
 
 ## Variable shadowing (name hiding)
-- When a variable is declared in a nested block
+- When a variable is declared in a block and another variable with the same identifier is declared inside a nested block, the nested variable "hides" the outer variable in areas where they are both in scope.
+	- In other words, when an identifier is evaluated, the most immediate variable declared in or outside that scope takes precedence over the variables that are in outer scope.
+	- This sort of behavior is called **variable shadowing** or name hiding.
+- For example,
+
+```C++
+#include <iostream>
+
+int main()
+{ // outer block
+    int apples { 5 }; // here's the outer block apples
+
+    { // nested block
+        // apples refers to outer block apples here
+        std::cout << apples << '\n'; // print value of outer block apples
+
+        int apples{ 0 }; // define apples in the scope of the nested block
+
+        // apples now refers to the nested block apples
+        // the outer block apples is temporarily hidden
+
+        apples = 10; // this assigns value 10 to nested block apples, not outer block apples
+
+        std::cout << apples << '\n'; // print value of nested block apples
+    } // nested block apples destroyed
+
+
+    std::cout << apples << '\n'; // prints value of outer block apples
+
+    return 0;
+} // outer block apples destroyed
+```
+
+```console
+5
+10
+5
+```
+
+- In the above code, identifier `apples` is used for declaring a variable inside a nested block and a variable in the outer block. When `apples` is called inside a nested block, the nested `apples` is called. When `apples` is called in the outer block, the outer `apples` is called.
+
+>[!important]
+>Variable shadowing applies to global variables. Local variables take precedence over global variables.
+
+>[!warning]
+>Variable shadowing should generally be avoided.
+
+## Internal linkage
+- 
