@@ -4572,7 +4572,7 @@ Using internal linkage helps maintain encapsulation, reduce the risk of name cla
 	- Do not use `extern` keyword for an uninitialized non-constant global variable - not only is it redundant, it's also mistaken as a forward declaration for an external variable.
 
 >[!warning]
->Do not use `exstern` keyword for `constexpr`/`consteval` variables. They are meant to be evaluated at compile-time, and so linkage (which happens after compilation is done) is useless.
+>Do not use `extern` keyword for `constexpr`/`consteval` variables. They are meant to be evaluated at compile-time, and so linkage (which happens after compilation is done) is useless.
 
 >[!important]
 >Functions are external by default. `extern` keyword is not necessary for forward declaration.
@@ -4581,4 +4581,8 @@ Using internal linkage helps maintain encapsulation, reduce the risk of name cla
 - Although non-const global variables seem useful to beginner programmers, non-const global variables spell disaster for experienced programmers.
 
 ### Everything everywhere all at once
-- The problem with non-const global variables is that they can be accessed by everything, everywhere, and all at once.
+- The problem with non-const global variables is that they can be accessed by everything, everywhere, and all at once; which makes the program's state unpredictable.
+- Everything : when any function can access a non-const global variable, it becomes difficult to pin down for what reasons the variable has been used for; the purpose of the variable becomes unpredictable, not to mention the current value of the variable.
+- Everywhere : in larger projects with many source files, libraries, and people working together, it'd be difficult to know that there is a non-const global variable hidden somewhere; re-definition could occur, value of the variable could be changed, and many things could happen intentionally or unintentionally.
+- All at once : in multi-threading/processing program, a non-const global variable that does not have any safeguard against race condition and locks can crash the program.
+
