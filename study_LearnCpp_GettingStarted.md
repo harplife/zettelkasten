@@ -4492,6 +4492,7 @@ int main()
 	- `static` keyword is a storage class specifier, which sets both the name's linkage and its storage duration.
 - Constant global variables have internal linkage by default.
 	- e.g. `const`, `constexpr`, `consteval`
+- Global variables with internal linkage are sometimes called **internal variables**.
 
 >[!important]
 >Internal objects/functions that are defined in different files are considered to be independent entities (even if their names and types are identical), so there is no violation of the One-Definition Rule.
@@ -4500,3 +4501,6 @@ int main()
 ### External linkage
 - Names with **external linkage** are visible across multiple translation units. They can be accessed from other source files.
 - Non-constant global variables (without `static` keyword) have external linkage.
+- `extern` keyword can be used to m
+- Global variables with external linkage are sometimes called **external variables**.
+- 
