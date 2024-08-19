@@ -4501,6 +4501,9 @@ int main()
 ### External linkage
 - Names with **external linkage** are visible across multiple translation units. They can be accessed from other source files.
 - Non-constant global variables (without `static` keyword) have external linkage.
-- `extern` keyword can be used to m
+- `extern` keyword can be used to make a global variable external.
+	- Naturally, it'll only be useful for constant global variables (e.g. `extern const int x`)
 - Global variables with external linkage are sometimes called **external variables**.
+- Forward declaration is necessary in order to access external variables that were defined in another file.
+	- For a global variable with default external linkage, `extern` keyword is necessary for forward declaration (e.g. `int x` --> `extern int x`).
 - 
