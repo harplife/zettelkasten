@@ -4497,6 +4497,69 @@ int main()
 >[!important]
 >Internal objects/functions that are defined in different files are considered to be independent entities (even if their names and types are identical), so there is no violation of the One-Definition Rule.
 
+#### Usefulness of internal linkage
+Internal linkage is useful in several real-life scenarios where you want to limit the visibility of variables or functions to a single translation unit (source file). Here are some examples:
+
+**File-Scope Constants**
+When you have constants that are only relevant within a single source file, you can use internal linkage to prevent them from being accessed or modified from other files.
+
+```cpp
+static const int MAX_BUFFER_SIZE = 1024; // Internal linkage
+```
+
+**Helper Functions**
+Helper functions that are only used within a single source file can be given internal linkage to avoid name clashes and to keep the global namespace clean.
+
+```cpp
+static void helperFunction() {
+    // Implementation
+}
+```
+
+**File-Scope Variables**
+Variables that are only needed within a single source file can be given internal linkage to prevent unintended access or modification from other files.
+
+```cpp
+static int counter = 0; // Internal linkage
+
+void incrementCounter() {
+    ++counter;
+}
+```
+
+**Encapsulation**
+When implementing a module or library, you might have internal functions or variables that should not be exposed to the users of the module. Using internal linkage helps encapsulate these details.
+
+```cpp
+// In a source file of a library
+static void internalFunction() {
+    // Implementation
+}
+
+void publicFunction() {
+    internalFunction();
+}
+```
+
+**Avoiding Name Clashes**
+In large projects with many source files, using internal linkage for file-specific variables and functions helps avoid name clashes and reduces the risk of linking errors.
+
+```cpp
+// In file1.cpp
+static int uniqueID = 1; // Internal linkage
+
+// In file2.cpp
+static int uniqueID = 2; // Internal linkage
+```
+
+Summary
+- **File-Scope Constants**: Constants relevant only within a single source file.
+- **Helper Functions**: Functions used only within a single source file.
+- **File-Scope Variables**: Variables needed only within a single source file.
+- **Encapsulation**: Internal functions or variables in a module or library.
+- **Avoiding Name Clashes**: Preventing name clashes in large projects.
+
+Using internal linkage helps maintain encapsulation, reduce the risk of name clashes, and keep the global namespace clean.
 
 ### External linkage
 - Names with **external linkage** are visible across multiple translation units. They can be accessed from other source files.
@@ -4518,4 +4581,4 @@ int main()
 - Although non-const global variables seem useful to beginner programmers, non-const global variables spell disaster for experienced programmers.
 
 ### Everything everywhere all at once
-- The problem with non-const global variables is that they can be accessed by everything, everywhere, and whenever.
+- The problem with non-const global variables is that they can be accessed by everything, everywhere, and all at once.
