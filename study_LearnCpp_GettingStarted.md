@@ -4586,3 +4586,5 @@ Using internal linkage helps maintain encapsulation, reduce the risk of name cla
 - Everywhere : in larger projects with many source files, libraries, and people working together, it'd be difficult to know that there is a non-const global variable hidden somewhere; re-definition could occur, value of the variable could be changed, and many things could happen intentionally or unintentionally.
 - All at once : in multi-threading/processing program, a non-const global variable that does not have any safeguard against race condition and locks can crash the program.
 
+### The initialization order problem
+- Another problem with non-const global variables is that they the order in which 
