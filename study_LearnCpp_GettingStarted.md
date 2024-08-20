@@ -4667,7 +4667,7 @@ int main()
 	- Note that non-const global variables are accessible across all translation units.
 	- The ambiguity in the order that objects with static storage duration in different translation units are initialized is often called the **static initialization order fiasco**.
 
-### Exceptions to the rule
+### When to use non-const global variables
 - There are very few cases where non-const global variables are useful and should be used:
 	- Logging
 	- Utility (e.g. random number generator)
@@ -4675,4 +4675,10 @@ int main()
 - As a rule of thumb, any use of a global variable should meet at least the following two criteria:
 	- There should only ever be one of the thing the variable represents in the program
 	- Its use should be ubiquitous throughout the program
-- 
+
+### How to use non-const global variables
+- If there is a good reason to use non-const global variables, then there are a few suggestions to follow:
+	- Prefix all non-namespaced global variables with `g` or `g_`.
+	- Place global variables in namespace.
+	- Encapsulate global variables with a function or a class.
+	- 
