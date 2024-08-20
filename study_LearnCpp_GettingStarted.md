@@ -4497,7 +4497,7 @@ int main()
 >[!important]
 >Internal objects/functions that are defined in different files are considered to be independent entities (even if their names and types are identical), so there is no violation of the One-Definition Rule.
 
-#### Usefulness of internal linkage
+#### (note) Usefulness of internal linkage
 Internal linkage is useful in several real-life scenarios where you want to limit the visibility of variables or functions to a single translation unit (source file). Here are some examples:
 
 **File-Scope Constants**
@@ -4561,6 +4561,47 @@ Summary
 
 Using internal linkage helps maintain encapsulation, reduce the risk of name clashes, and keep the global namespace clean.
 
+#### (note) Static duration
+In C++, **static duration** refers to the lifetime of variables that are allocated when the program begins and deallocated when the program ends. These variables are initialized only once, prior to program startup, and retain their values throughout the entire execution of the program.
+
+Key Points about Static Duration:
+1. **Lifetime**: The variable exists for the entire duration of the program.
+2. **Initialization**: The variable is initialized only once, before the program starts.
+3. **Scope**: The scope of the variable can be local (within a function), class-level (static member variables), or global (file scope).
+
+Examples:
+- **Static Local Variables**:
+```cpp
+void exampleFunction() {
+    static int count = 0; // Static duration, initialized once
+    count++;
+    std::cout << count << std::endl;
+}
+```
+Here, `count` retains its value between function calls.
+
+- **Static Member Variables**:
+```cpp
+class Example {
+public:
+    static int value;
+};
+
+int Example::value = 10; // Static duration, shared among all instances
+```
+`value` is shared among all instances of the `Example` class.
+
+- **Static Global Variables**:
+```cpp
+static int globalValue = 5; // Static duration, file scope
+```
+`globalValue` is accessible only within the file it is declared in.
+
+Static duration is useful for maintaining state information across function calls, sharing data among class instances, and limiting the scope of global variables.
+
+>[!warning]
+>Static variables refers to variables with static duration. They do NOT imply that they are internally linked; do not mistake them with `static` variables.
+
 ### External linkage
 - Names with **external linkage** are visible across multiple translation units. They can be accessed from other source files.
 - Non-constant global variables (without `static` keyword) have external linkage.
@@ -4587,7 +4628,9 @@ Using internal linkage helps maintain encapsulation, reduce the risk of name cla
 - All at once : in multi-threading/processing program, a non-const global variable that does not have any safeguard against race condition and locks can crash the program.
 
 ### Initialization order problem
-- Global variables are generally initialized in order of definition (there are a few exceptions to this rule), and so it is crucial not to have variables dependent on the initialization value of other variables that won't be initialized until later.
+- Local variables with `static` keyword and global variables have **static duration**, which means that their lifetime begins when program begins and ends when program ends.
+	- Note that they are both referred to as **static variable**.
+- Static variables are generally initialized in order of definition (there are a few exceptions to this rule), and so it is crucial not to have variables dependent on the initialization value of other variables that won't be initialized until later.
 - Consider the following example:
 
 ```C++
@@ -4622,4 +4665,14 @@ int main()
 - In the example above, even though at first it looks like `g_x` and `g_y` should have equal value of `5`, `g_x` is given a value `0` because by the time when `initX()` is called, `g_y` is not yet initialized.
 - The ambiguity in the order of variable initialization across a single translation unit is bad enough, it gets even worse across multiple translation units.
 	- Note that non-const global variables are accessible across all translation units.
+	- The ambiguity in the order that objects with static storage duration in different translation units are initialized is often called the **static initialization order fiasco**.
+
+### Exceptions to the rule
+- There are very few cases where non-const global variables are useful and should be used:
+	- Logging
+	- Utility (e.g. random number generator)
+	- Global state
+- As a rule of thumb, any use of a global variable should meet at least the following two criteria:
+	- There should only ever be one of the thing the variable represents in the program
+	- Its use should be ubiquitous throughout the program
 - 
