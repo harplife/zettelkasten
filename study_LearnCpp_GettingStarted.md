@@ -4586,13 +4586,4 @@ Using internal linkage helps maintain encapsulation, reduce the risk of name cla
 - Everywhere : in larger projects with many source files, libraries, and people working together, it'd be difficult to know that there is a non-const global variable hidden somewhere; re-definition could occur, value of the variable could be changed, and many things could happen intentionally or unintentionally.
 - All at once : in multi-threading/processing program, a non-const global variable that does not have any safeguard against race condition and locks can crash the program.
 
-### (Side note) initialization
-- In C++, variables can be initialized in two main ways: static initialization and dynamic initialization.
-
-#### Static initialization
-- Static initialization occurs at compile time. This means that the initial value of the variable is determined and set during the compilation of the program.
-- If initial value is assigned to a variable, then the variable is initialized with that value.
-- If initial value is not provided, then the variable is zero-initialized.
-- Note that static variables are:
-	- Non-const global variable that has `static` keyword
-	- 
+### Initialization order problem
