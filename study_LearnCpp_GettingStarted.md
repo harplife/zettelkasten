@@ -4587,4 +4587,8 @@ Using internal linkage helps maintain encapsulation, reduce the risk of name cla
 - All at once : in multi-threading/processing program, a non-const global variable that does not have any safeguard against race condition and locks can crash the program.
 
 ### The initialization order problem
-- Another problem with non-const global variables is that they the order in which 
+- Initialization of static variables (which includes global variables) has a problem where the order in which static objects are initialized across a single or multiple translation units is ambiguous.
+- Initialization of static variables happens as part of program startup, before the execution of the `main` function. This proceeds in two phases : static initialization, and dynamic initialization.
+- In static initialization phase, `constexpr` global variables are initialized to their given values. Global variables without initializers are zero-initialized.
+	- e.g. `constexpr int x = 5;` and `int y;` are initialized in static initialization phase.
+- In dynamic initialization phase, non-`constexpr` global variables are initialized.
