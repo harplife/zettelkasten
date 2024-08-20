@@ -4578,7 +4578,7 @@ Using internal linkage helps maintain encapsulation, reduce the risk of name cla
 >Functions are external by default. `extern` keyword is not necessary for forward declaration.
 
 ## Avoid non-const global variables
-- Although non-const global variables seem useful to beginner programmers, non-const global variables spell disaster for experienced programmers.
+- Although non-const global variables seem useful at first, it's best to avoid it as it becomes a huge problem later on.
 
 ### Everything everywhere all at once
 - The problem with non-const global variables is that they can be accessed by everything, everywhere, and all at once; which makes the program's state unpredictable.
@@ -4587,3 +4587,39 @@ Using internal linkage helps maintain encapsulation, reduce the risk of name cla
 - All at once : in multi-threading/processing program, a non-const global variable that does not have any safeguard against race condition and locks can crash the program.
 
 ### Initialization order problem
+- Global variables are generally initialized in order of definition (there are a few exceptions to this rule), and so it is crucial not to have variables dependent on the initialization value of other variables that won't be initialized until later.
+- Consider the following example:
+
+```C++
+#include <iostream>
+
+int initX();  // forward declaration
+int initY();  // forward declaration
+
+int g_x{ initX() }; // g_x is initialized first
+int g_y{ initY() };
+
+int initX()
+{
+    return g_y; // g_y isn't initialized when this is called
+}
+
+int initY()
+{
+    return 5;
+}
+
+int main()
+{
+    std::cout << g_x << ' ' << g_y << '\n';
+}
+```
+
+```console
+0 5
+```
+
+- In the example above, even though at first it looks like `g_x` and `g_y` should have equal value of `5`, `g_x` is given a value `0` because by the time when `initX()` is called, `g_y` is not yet initialized.
+- The ambiguity in the order of variable initialization across a single translation unit is bad enough, it gets even worse across multiple translation units.
+	- Note that non-const global variables are accessible across all translation units.
+- 
