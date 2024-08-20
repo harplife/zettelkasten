@@ -4681,4 +4681,76 @@ int main()
 	- Prefix all non-namespaced global variables with `g` or `g_`.
 	- Place global variables in namespace.
 	- Encapsulate global variables with a function or a class.
-	- 
+	- Pass global variables as arguments (instead of direct access to one)
+
+#### (Note) Encapsulation
+**Encapsulation** is a fundamental concept in object-oriented programming (OOP) which involves bundling data (variables) and methods (functions) that operate on that data into a single unit, typically a class. Encapsulation helps to hide the internal state of an object and restricts direct access to some of its components, which is also known as information hiding.
+
+Key Benefits of Encapsulation:
+- **Data Protection**: Encapsulation protects the internal state of an object by keeping its data members private. Access to and modification of these data members is restricted to the class’s public methods, ensuring controlled and secure data manipulation.
+- **Information Hiding**: Encapsulation hides the internal implementation details of a class from external code. Only the public interface of the class is accessible, providing abstraction and simplifying the usage of the class while allowing the internal implementation to be modified without impacting external code.
+- **Modularity**: Helps in organizing code into logical units, making it easier to manage and understand.
+- **Maintainability**: Changes to the internal implementation of a class do not affect external code that uses the class.
+- **Control**: Provides control over how data is accessed and modified through methods.
+
+---
+
+Encapsulation is usually done with class (which haven't been covered yet). The main components of encapsulation (and the simplest) are **getter and setter**.
+
+Example:
+```C++
+class Example {
+private:
+    int value; // Private variable, not accessible outside the class
+
+public:
+    void setValue(int v) {
+        value = v; // Public method to set the value
+    }
+
+    int getValue() {
+        return value; // Public method to get the value
+    }
+};
+
+```
+
+In the example above, note that `value` is not directly accessible from outside the class. However, indirect access to `value` is given by `setValue()` and `getValue()`. The major advantage from this simple set up is that `setValue()` guarantees type safety (won't accept any value other than `int`).
+
+---
+
+There is a way to use encapsulation with a function (although I'm not sure it counts). A constant global variable with a namespace can be defined in a translation unit, along with a function that simply returns it. Then, in another translation unit, the value of that variable can be accessed via the forward declared function. For example,
+
+constants.cpp
+```C++
+namespace constants
+{
+    constexpr double gravity { 9.8 }; // has internal linkage, is accessible only within this file
+}
+
+double getGravity() // has external linkage, can be accessed by other files
+{
+    // We could add logic here if needed later
+    // or change the implementation transparently to the callers
+    return constants::gravity;
+}
+```
+
+main.cpp
+```C++
+#include <iostream>
+
+double getGravity(); // forward declaration
+
+int main()
+{
+    std::cout << getGravity() << '\n';
+
+    return 0;
+}
+```
+
+This is a very simple way to implement encapsulation with a function, and so it should only be used in a simple program. Using class is the recommended way.
+
+## Sharing global constants across multiple files
+- 
