@@ -4807,5 +4807,57 @@ int main()
 
 ### Global constants as external variables
 - A way to circumvent the problems that "global constants as internal variables" have is to have global constants as external variables instead, so that there will be only one initialization of the constants and they can be shared with multiple files.
-- In this method, the constants are defined in a corresponding source file (.cpp) and use forward declarations in the header file.
-	- The constants will have `extern` keyword so that they have external linkage.
+- In this method, the constants are defined in a corresponding source file (.cpp) and use forward declarations in the header file. Also:
+	- The constants are external variables with `extern` keyword
+	- The constants are `constexpr` variables
+	- The constants are in a namespace
+- For example:
+
+constants.cpp
+```C++
+#include "constants.h"
+
+namespace constants
+{
+    // actual global variables
+    extern constexpr double pi { 3.14159 };
+    extern constexpr double avogadro { 6.0221413e23 };
+    extern constexpr double myGravity { 9.2 }; // m/s^2 -- gravity is light on this planet
+}
+```
+
+constants.h
+```C++
+#ifndef CONSTANTS_H
+#define CONSTANTS_H
+
+namespace constants
+{
+    // since the actual variables are inside a namespace, the forward declarations need to be inside a namespace as well
+    // we can't forward declare variables as constexpr, but we can forward declare them as (runtime) const
+    extern const double pi;
+    extern const double avogadro;
+    extern const double myGravity;
+}
+
+#endif
+```
+
+main.cpp
+```C++
+#include "constants.h" // include all the forward declarations
+
+#include <iostream>
+
+int main()
+{
+    std::cout << "Enter a radius: ";
+    double radius{};
+    std::cin >> radius;
+
+    std::cout << "The circumference is: " << 2 * radius * constants::pi << '\n';
+
+    return 0;
+}
+```
+
