@@ -4753,4 +4753,59 @@ int main()
 This is a very simple way to implement encapsulation with a function, and so it should only be used in a simple program. Using class is the recommended way.
 
 ## Sharing global constants across multiple files
-- 
+- In some applications, certain symbolic constants may need to be used throughout the code. These can include physics or mathematical constants that doesn't change (e.g. pi, speed of light, etc), or application-specific values (e.g. friction or gravity coefficients).
+	- Instead of redefining these constants in every file that needs them, it's better to declare them once in a central location and use them wherever needed. That way, any changes to them will propagated out easily.
+- This lesson discusses the most common ways to do this.
+
+### Global constants as internal variables
+- Prior to C++17, easiest way to share global constants is:
+	1. Create a header file to hold the constants
+	2. Inside the header file, define a namespace
+	3. Add all constants inside the namespace (make sure they're `constexpr`)
+	4. `#include` the header file wherever needed
+- For example:
+
+constants.h
+```C++
+#ifndef CONSTANTS_H
+#define CONSTANTS_H
+
+// define your own namespace to hold constants
+namespace constants
+{
+    // constants have internal linkage by default
+    constexpr double pi { 3.14159 };
+    constexpr double avogadro { 6.0221413e23 };
+    constexpr double myGravity { 9.2 }; // m/s^2 -- gravity is light on this planet
+    // ... other related constants
+}
+#endif
+```
+
+main.cpp
+```C++
+#include "constants.h" // include a copy of each constant in this file
+
+#include <iostream>
+
+int main()
+{
+    std::cout << "Enter a radius: ";
+    double radius{};
+    std::cin >> radius;
+
+    std::cout << "The circumference is: " << 2 * radius * constants::pi << '\n';
+
+    return 0;
+}
+```
+
+- Because theses constants are `constexpr`, they will have internal linkage. Also, in most cases, they will be optimized away.
+- The downside to this "global constants as internal variables" approach is that every time `constants.h` header file gets include into a different code file, each of these constants is copied into the including code file. This issue further leads to two challenges:
+	- Changing a single constant value would require recompilation of every code file that includes the constants header.
+	- If the constants are large in size and can't be optimized away, this can use a lot of memory.
+
+### Global constants as external variables
+- A way to circumvent the problems that "global constants as internal variables" have is to have global constants as external variables instead, so that there will be only one initialization of the constants and they can be shared with multiple files.
+- In this method, the constants are defined in a corresponding source file (.cpp) and use forward declarations in the header file.
+	- The constants will have `extern` keyword so that they have external linkage.
