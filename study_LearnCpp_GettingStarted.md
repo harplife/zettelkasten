@@ -4807,6 +4807,10 @@ int main()
 
 ### Global constants as external variables
 - A way to circumvent the problems that "global constants as internal variables" have is to have global constants as external variables instead, so that there will be only one initialization of the constants and they can be shared with multiple files.
+
+>[!warning]
+>Just because one method has a way to fix a problem that another method has, doesn't mean it's better. In fact, the "global constants as external variables" approach itself has many downsides, and therefore it is NOT recommended.
+
 - In this method, the constants are defined in a corresponding source file (.cpp) and use forward declarations in the header file. Also:
 	- The constants are external variables with `extern` keyword
 	- The constants are `constexpr` variables
