@@ -249,7 +249,8 @@
                   "state": {}
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
             "id": "baddb2b819dd740a",
@@ -285,8 +286,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 362.5,
-        "collapsed": true
+        "width": 362.5
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -303,7 +303,7 @@
         }
       },
       "active": "9c9a2525afbfe6bd",
-      "mtime": "2024-08-20T14:40:09-05:00",
+      "mtime": "2024-08-22T12:23:09-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "Dictionary"
