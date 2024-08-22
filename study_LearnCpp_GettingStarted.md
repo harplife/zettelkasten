@@ -4811,57 +4811,16 @@ int main()
 >[!warning]
 >Just because one method has a way to fix a problem that another method has, doesn't mean it's better. In fact, the "global constants as external variables" approach itself has many downsides, and therefore it is NOT recommended.
 
-- In this method, the constants are defined in a corresponding source file (.cpp) and use forward declarations in the header file. Also:
-	- The constants are external variables with `extern` keyword
-	- The constants are `constexpr` variables
-	- The constants are in a namespace
-- For example:
+- Skipping this section because a lot of this doesn't make sense, and also it's not worth doing it?
+	- #todo Come back to this section later - https://www.learncpp.com/cpp-tutorial/sharing-global-constants-across-multiple-files-using-inline-variables/
 
-constants.cpp
-```C++
-#include "constants.h"
+### Global constants as inline variables (C++17)
+- Reminder from [[#Inline functions and variables]] that `inline` keyword means "multiple definitions are allowed" - thus, an inline function is one that is allowed to be defined in multiple translation units.
 
-namespace constants
-{
-    // actual global variables
-    extern constexpr double pi { 3.14159 };
-    extern constexpr double avogadro { 6.0221413e23 };
-    extern constexpr double myGravity { 9.2 }; // m/s^2 -- gravity is light on this planet
-}
-```
+>[!reminder]
+>Inline functions have two primary requirements:
+>- The compiler needs to be able to see the full definition of an inline function in each translation unit where the function is used; forward declaration alone does not suffice.
+>- Every definition for an inline function must be identical, otherwise undefined behavior will result.
 
-constants.h
-```C++
-#ifndef CONSTANTS_H
-#define CONSTANTS_H
-
-namespace constants
-{
-    // since the actual variables are inside a namespace, the forward declarations need to be inside a namespace as well
-    // we can't forward declare variables as constexpr, but we can forward declare them as (runtime) const
-    extern const double pi;
-    extern const double avogadro;
-    extern const double myGravity;
-}
-
-#endif
-```
-
-main.cpp
-```C++
-#include "constants.h" // include all the forward declarations
-
-#include <iostream>
-
-int main()
-{
-    std::cout << "Enter a radius: ";
-    double radius{};
-    std::cin >> radius;
-
-    std::cout << "The circumference is: " << 2 * radius * constants::pi << '\n';
-
-    return 0;
-}
-```
+- (C++17) inline variables work similarly to inline functions, and have the same requirements.
 
