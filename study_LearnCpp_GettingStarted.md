@@ -4825,5 +4825,50 @@ int main()
 >
 >(C++17) inline variables work similarly to inline functions, and have the same requirements.
 
-- 
+>[!important]
+>While `constexpr` functions are implicitly inline, `constexpr` variables are NOT implicitly inline. If an inline constexpr variable is needed, then `inline` keyword must be used.
+
+>[!important]
+>Inline variables have external linkage by default so that the linker can de-duplicate the definitions.
+
+>[!important]
+>Non-inline constexpr variables have internal linkage. If included into multiple translation units, each translation unit will get its own copy of the variables; which is not an ODR violation because they are not exposed to the linker.
+
+- Inline constexpr variables can be defined in a header file, which is then included into any code file that requires them.
+	- This avoids the ODR violations and the downside of duplicated variables (which was the issue with [[#Global constants as internal variables]].
+- For example:
+
+constants.h
+```C++
+#ifndef CONSTANTS_H
+#define CONSTANTS_H
+
+// define your own namespace to hold constants
+namespace constants
+{
+    inline constexpr double pi { 3.14159 }; // note: now inline constexpr
+    inline constexpr double avogadro { 6.0221413e23 };
+    inline constexpr double myGravity { 9.2 }; // m/s^2 -- gravity is light on this planet
+    // ... other related constants
+}
+#endif
+```
+
+main.cpp
+```C++
+#include "constants.h"
+
+#include <iostream>
+
+int main()
+{
+    std::cout << "Enter a radius: ";
+    double radius{};
+    std::cin >> radius;
+
+    std::cout << "The circumference is: " << 2 * radius * constants::pi << '\n';
+
+    return 0;
+}
+```
 
