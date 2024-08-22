@@ -4815,12 +4815,15 @@ int main()
 	- #todo Come back to this section later - https://www.learncpp.com/cpp-tutorial/sharing-global-constants-across-multiple-files-using-inline-variables/
 
 ### Global constants as inline variables (C++17)
-- Reminder from [[#Inline functions and variables]] that `inline` keyword means "multiple definitions are allowed" - thus, an inline function is one that is allowed to be defined in multiple translation units.
 
->[!reminder]
+>[!reminder] Reminder from [[#Inline functions and variables]]
+>`inline` keyword means "multiple definitions are allowed" - thus, an inline function is one that is allowed to be defined in multiple translation units.
+>
 >Inline functions have two primary requirements:
 >- The compiler needs to be able to see the full definition of an inline function in each translation unit where the function is used; forward declaration alone does not suffice.
 >- Every definition for an inline function must be identical, otherwise undefined behavior will result.
+>
+>(C++17) inline variables work similarly to inline functions, and have the same requirements.
 
-- (C++17) inline variables work similarly to inline functions, and have the same requirements.
+- 
 
