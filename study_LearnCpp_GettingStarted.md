@@ -4811,7 +4811,12 @@ int main()
 >[!warning]
 >Just because one method has a way to fix a problem that another method has, doesn't mean it's better. In fact, the "global constants as external variables" approach itself has many downsides, and therefore it is NOT recommended.
 
-- Without getting too much into details, the gist here is that external constexpr variables are defined in a source file, which is then forward declared as external const variables in a header file; the header file is included wherever the constants are needed.
+>[!warning] Possible errors in this section of the lesson
+>Maybe I'm just not understanding things correctly, but it seems like this section of the lesson has either a wrong information or skipped over a critical information. For example, (1) even though in previous lessons it is mentioned that `constexpr` variables can NOT be forward declared, it does so anyway in this section. (2) the `constexpr` variables are forward declared as `const` variables - without any explanation on how that works.
+>
+>Due to the reasons above, I've made slight modification to this section; with different codes and different explanations.
+
+- Without getting too much into details, the gist here is that global constants are defined in a source file, which is then forward declared in a header file; the header file is included wherever the constants are needed.
 - For example:
 
 constants.cpp
@@ -4820,10 +4825,9 @@ constants.cpp
 
 namespace constants
 {
-    // actual global variables
-    extern constexpr double pi { 3.14159 };
-    extern constexpr double avogadro { 6.0221413e23 };
-    extern constexpr double myGravity { 9.2 }; // m/s^2 -- gravity is light on this planet
+    const double pi { 3.14159 };
+    const double avogadro { 6.0221413e23 };
+    const double myGravity { 9.2 };
 }
 ```
 
@@ -4834,8 +4838,6 @@ constants.h
 
 namespace constants
 {
-    // since the actual variables are inside a namespace, the forward declarations need to be inside a namespace as well
-    // we can't forward declare variables as constexpr, but we can forward declare them as (runtime) const
     extern const double pi;
     extern const double avogadro;
     extern const double myGravity;
