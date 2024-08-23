@@ -4805,11 +4805,14 @@ int main()
 	- Changing a single constant value would require recompilation of every code file that includes the constants header.
 	- If the constants are large in size and can't be optimized away, this can use a lot of memory.
 
+>[!important]
+>`constexpr` variables are implicitly internal. When these constants are defined in a header file and then distributed in multiple source files, these constants are being defined in each translation unit; thus, it does not trigger redefinition error. However, this means "global constants as internal variables" does suffer from duplications.
+
 ### Global constants as external variables
 - A way to circumvent the problems that "global constants as internal variables" have is to have global constants as external variables instead, so that there will be only one initialization of the constants and they can be shared with multiple files.
 
 >[!warning]
->Just because one method has a way to fix a problem that another method has, doesn't mean it's better. In fact, the "global constants as external variables" approach itself has many downsides, and therefore it is NOT recommended.
+>Just because one method has a way to fix a problem that another method has, doesn't mean it's better. Each method has their own advantages and disadvantages.
 
 >[!warning] Possible errors in this section of the lesson
 >Maybe I'm just not understanding things correctly, but it seems like this section of the lesson has either a wrong information or skipped over a critical information. For example, (1) even though in previous lessons it is mentioned that `constexpr` variables can NOT be forward declared, it does so anyway in this section. (2) the `constexpr` variables are forward declared as `const` variables - without any explanation on how that works.
@@ -4866,7 +4869,7 @@ int main()
 
 >[!reminder] `extern` keyword means "look elsewhere for definition".
 
-- While this approach does solve the duplication problem that the "global constants as internal variables" approach has, its downside is that the constants are evaluated at runtime - meaning, limited opportunities for optimization.
+- While this approach does solve the duplication problem that the "global constants as internal variables" approach has, its downside is that the constants are evaluated at runtime - meaning, optimization opportunities are limited.
 
 ### Global constants as inline variables (C++17)
 
