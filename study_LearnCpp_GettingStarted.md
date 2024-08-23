@@ -4886,13 +4886,11 @@ int main()
 >While `constexpr` functions are implicitly inline, `constexpr` variables are NOT implicitly inline. If an inline constexpr variable is needed, then `inline` keyword must be used.
 
 >[!important]
->Inline variables have external linkage by default so that the linker can de-duplicate the definitions.
+>Inline variables
 
 >[!important]
 >Non-inline constexpr variables have internal linkage. If included into multiple translation units, each translation unit will get its own copy of the variables; which is not an ODR violation because they are not exposed to the linker.
 
-- Inline constexpr variables can be defined in a header file, which is then included into any code file that requires them.
-	- This avoids the ODR violations and the downside of duplicated variables (which was the issue with [[#Global constants as internal variables]].
 - For example:
 
 constants.h
