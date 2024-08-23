@@ -4883,15 +4883,19 @@ int main()
 >(C++17) inline variables work similarly to inline functions, and have the same requirements.
 
 >[!important]
->While `constexpr` functions are implicitly inline, `constexpr` variables are NOT implicitly inline. If an inline constexpr variable is needed, then `inline` keyword must be used.
+>The evaluation of `inline` variables involves both the compiler and the linker, but their roles are distinct.
+>
+>The compiler processes the definition and usage of `inline` variables. When an `inline` variable is defined in a header file, the compiler ensures that the variable is available in all translation units that include the header.
+>
+>The linker handles the fact that `inline` variables can be defined in multiple translation units. It ensures that there is only one instance of the `inline` variables in the final executable, avoiding redefinition errors (also avoiding duplications).
 
 >[!important]
->Inline variables
+>While `constexpr` functions are implicitly inline, `constexpr` variables are NOT implicitly inline. If an inline constexpr variable is needed, then `inline` keyword must be used.
 
 >[!important]
 >Non-inline constexpr variables have internal linkage. If included into multiple translation units, each translation unit will get its own copy of the variables; which is not an ODR violation because they are not exposed to the linker.
 
-- For example:
+- A way to avoid the duplication problem 
 
 constants.h
 ```C++
