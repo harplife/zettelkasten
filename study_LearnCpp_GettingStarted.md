@@ -4870,6 +4870,7 @@ int main()
 >[!reminder] `extern` keyword means "look elsewhere for definition".
 
 - While this approach does solve the duplication problem that the "global constants as internal variables" approach has, its downside is that the constants are evaluated at runtime - meaning, optimization opportunities are limited.
+	- Though, runtime constants do have the advantage that even if any of the constants change, recompilation is not necessary.
 
 ### Global constants as inline variables (C++17)
 
@@ -4931,4 +4932,6 @@ int main()
 }
 ```
 
-- 
+- Because the global constants are evaluated at compile-time, this method does have the downside that the source files that include the constants header has to be recompiled if any constant value is changed.
+
+## Static local variables
