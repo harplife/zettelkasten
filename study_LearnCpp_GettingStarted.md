@@ -4811,8 +4811,59 @@ int main()
 >[!warning]
 >Just because one method has a way to fix a problem that another method has, doesn't mean it's better. In fact, the "global constants as external variables" approach itself has many downsides, and therefore it is NOT recommended.
 
-- Skipping this section because a lot of this doesn't make sense, and also it's not worth doing it?
-	- #todo Come back to this section later - https://www.learncpp.com/cpp-tutorial/sharing-global-constants-across-multiple-files-using-inline-variables/
+- Without getting too much into details, the gist here is that external constexpr variables are defined in a source file, which is then forward declared as external const variables in a header file; the header file is included wherever the constants are needed.
+- For example:
+
+constants.cpp
+```C++
+#include "constants.h"
+
+namespace constants
+{
+    // actual global variables
+    extern constexpr double pi { 3.14159 };
+    extern constexpr double avogadro { 6.0221413e23 };
+    extern constexpr double myGravity { 9.2 }; // m/s^2 -- gravity is light on this planet
+}
+```
+
+constants.h
+```C++
+#ifndef CONSTANTS_H
+#define CONSTANTS_H
+
+namespace constants
+{
+    // since the actual variables are inside a namespace, the forward declarations need to be inside a namespace as well
+    // we can't forward declare variables as constexpr, but we can forward declare them as (runtime) const
+    extern const double pi;
+    extern const double avogadro;
+    extern const double myGravity;
+}
+
+#endif
+```
+
+main.cpp
+```C++
+#include "constants.h" // include all the forward declarations
+
+#include <iostream>
+
+int main()
+{
+    std::cout << "Enter a radius: ";
+    double radius{};
+    std::cin >> radius;
+
+    std::cout << "The circumference is: " << 2 * radius * constants::pi << '\n';
+
+    return 0;
+}
+```
+
+- While this approach does solve the duplication problem that the "global constants as internal variables" approach has, it has a couple of downsides:
+	- 
 
 ### Global constants as inline variables (C++17)
 
@@ -4872,3 +4923,4 @@ int main()
 }
 ```
 
+- 
