@@ -4864,9 +4864,7 @@ int main()
 }
 ```
 
-- While this approach does solve the duplication problem that the "global constants as internal variables" approach has, it has a couple of downsides:
-	- Other than the source file that the constants are defined in, the constants will be evaluated at runtime. Thus, these constants cannot be used anywhere that requires a compile-time constant.
-	- Because the constants are evaluated at runtime, the compiler may not be able to optimize these as much (as it would with compile-time constants).
+- While this approach does solve the duplication problem that the "global constants as internal variables" approach has, its downside is that the constants are evaluated at runtime - meaning, limited opportunities for optimization.
 
 ### Global constants as inline variables (C++17)
 
