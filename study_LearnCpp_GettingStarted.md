@@ -4895,7 +4895,7 @@ int main()
 >[!important]
 >Non-inline constexpr variables have internal linkage. If included into multiple translation units, each translation unit will get its own copy of the variables; which is not an ODR violation because they are not exposed to the linker.
 
-- A way to avoid the duplication problem 
+- A way to avoid the duplication problem while also ensuring the global constants are evaluated at compile time, is to define the global constants as inline variables. For example:
 
 constants.h
 ```C++
