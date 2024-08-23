@@ -4864,6 +4864,8 @@ int main()
 }
 ```
 
+>[!reminder] `extern` keyword means "look elsewhere for definition".
+
 - While this approach does solve the duplication problem that the "global constants as internal variables" approach has, its downside is that the constants are evaluated at runtime - meaning, limited opportunities for optimization.
 
 ### Global constants as inline variables (C++17)
