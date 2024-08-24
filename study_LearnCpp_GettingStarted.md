@@ -4971,3 +4971,4 @@ int main()
 >[!important]
 >While static variables are not destroyed outside its block, it is also not accessible outside it.
 
+ 
