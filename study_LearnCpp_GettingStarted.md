@@ -4969,4 +4969,5 @@ int main()
 - In the example above, `s_value` is initialized with `1` and then it gets incremented by `1` each time `incrementAndPrint()` is called.
 
 >[!important]
->While static variables 
+>While static variables are not destroyed outside its block, it is also not accessible outside it.
+
