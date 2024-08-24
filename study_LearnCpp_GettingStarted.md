@@ -4935,3 +4935,7 @@ int main()
 - Because the global constants are evaluated at compile-time, this method does have the downside that the source files that include the constants header has to be recompiled if any constant value is changed.
 
 ## Static local variables
+- As previously mentioned in [[#Internal linkage]], `static` keyword gives a global identifier an internal linkage. In this section, we'll learn what `static` keyword does to a local variable.
+- Local variables have automatic duration by default, which means they are created at the point of definition, and destroyed when the block is exited.
+- Using the `static` keyword on a local variable changes its duration from automatic duration to static duration, which means the variable is created at the start of the program, and destroyed at the end of the program.
+- 
