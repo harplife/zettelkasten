@@ -4984,4 +4984,5 @@ int main()
 >[!important]
 >`static` keyword gives a variable **internal linkage** (one definition in a single translation unit) and **static duration** (creation at start of program, destruction at end of program).
 
-### ID generation
+### ID generation (or counter)
+
