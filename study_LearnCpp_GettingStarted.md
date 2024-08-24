@@ -5008,4 +5008,6 @@ int generateID()
 This chapter overall was rather complicated, with so many keywords and intertwining effects. Refer to the summary and the tables within in this [section](https://www.learncpp.com/cpp-tutorial/scope-duration-and-linkage-summary/).
 
 ## Using declarations and using directives
-- 
+
+>[!warning] tldr; DO NOT USE `using` DECLARATIONS/DIRECTIVES!!
+
