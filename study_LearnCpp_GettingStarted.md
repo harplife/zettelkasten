@@ -4976,3 +4976,6 @@ int main()
 	- They are reinitialized the first time the variable definition is encountered.
 	- The definition is skipped on subsequent calls, so no further reinitialization happens.
 - Static local variables that have no initializer is zero-initialized at program start.
+
+>[!important]
+>A `constexpr` initializer is an initializer for a variable (or a function) that is evaluated at compile time.
