@@ -5004,3 +5004,8 @@ int generateID()
 >[!important]
 >Static local variables can be used when a function needs a persistent object that is not directly accessible outside of the function.
 
+### Scope, duration, and linkage summary
+This chapter overall was rather complicated, with so many keywords and intertwining effects. Refer to the summary and the tables within in this [section](https://www.learncpp.com/cpp-tutorial/scope-duration-and-linkage-summary/).
+
+## Using declarations and using directives
+- 
