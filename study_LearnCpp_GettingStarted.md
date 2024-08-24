@@ -5011,3 +5011,4 @@ This chapter overall was rather complicated, with so many keywords and intertwin
 
 >[!warning] tldr; DO NOT USE `using` DECLARATIONS/DIRECTIVES!!
 
+## Unnamed and inline namespaces
