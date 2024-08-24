@@ -4997,3 +4997,10 @@ int generateID()
 ```
 
 - In the above example, `generateID()` will return `0` the first time it's called, and then each time it is called, it returns a number higher than the previous time it was called.
+	- Because `s_itemID` is a local variable, it cannot be accessed directly; thus, it is safe its value and/or type being changed.
+	- Because the returned value never repeats, it is unique - which makes it perfect for generating IDs.
+	- The postfix `++` operator returns the value first and then increments the value.
+
+>[!important]
+>Static local variables can be used when a function needs a persistent object that is not directly accessible outside of the function.
+
