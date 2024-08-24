@@ -5004,6 +5004,3 @@ int generateID()
 >[!important]
 >Static local variables can be used when a function needs a persistent object that is not directly accessible outside of the function.
 
-### Static local constants
-- Static local variables can be made `const` or `constexpr`.
-- Advantage of using a cons
