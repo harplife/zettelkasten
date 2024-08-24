@@ -4971,4 +4971,8 @@ int main()
 >[!important]
 >While static variables are not destroyed outside its block, it is also not accessible outside it.
 
- 
+- Static local variables that have a constexpr initializer can be initialized at program start.
+- Static local variables that have non-constexpr initializer are zero-initialized at program start.
+	- They are reinitialized the first time the variable definition is encountered.
+	- The definition is skipped on subsequent calls, so no further reinitialization happens.
+- Static local variables that have no initializer is zero-initialized at program start.
