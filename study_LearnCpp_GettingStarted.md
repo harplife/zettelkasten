@@ -4985,4 +4985,15 @@ int main()
 >`static` keyword gives a variable **internal linkage** (one definition in a single translation unit) and **static duration** (creation at start of program, destruction at end of program).
 
 ### ID generation (or counter)
+- One of the most common uses for static local variables is for unique ID generators.
+- For example:
 
+```C++
+int generateID()
+{
+    static int s_itemID{ 0 };
+    return s_itemID++;
+}
+```
+
+- In the above example, `generateID()` will return `0` the first time it's called, and then each time it is called, it returns a number higher than the previous time it was called.
