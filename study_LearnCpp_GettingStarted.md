@@ -5042,3 +5042,7 @@ int main()
 >[!important]
 >Unnamed namespaces are typically used when there are a lot of content that needs to stay local to a given translation unit, as it's easier than to mark all declarations as `static`.
 
+>[!warning]
+>Unnamed namespaces should generally not be used in header files, as every translation that includes that header will get its own copy of the namespaced content, leading to code bloat.
+
+### Inline namespaces
