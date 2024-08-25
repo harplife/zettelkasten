@@ -5011,4 +5011,26 @@ This chapter overall was rather complicated, with so many keywords and intertwin
 
 >[!warning] tldr; DO NOT USE `using` DECLARATIONS/DIRECTIVES!!
 
-## Unnamed and inline namespaces
+## Unnamed and inline namespaces (optional)
+### Unnamed (anonymous) namespaces
+- An unnamed namespace (aka anonymous namespace) is a namespace that is defined without a name.
+- For example:
+
+```C++
+#include <iostream>
+
+namespace // unnamed namespace
+{
+    void doSomething() // can only be accessed in this file
+    {
+        std::cout << "v1\n";
+    }
+}
+
+int main()
+{
+    doSomething(); // we can call doSomething() without a namespace prefix
+
+    return 0;
+}
+```
