@@ -5034,3 +5034,11 @@ int main()
     return 0;
 }
 ```
+
+- All content declared in an unnamed namespace is treated as if it is part of the parent namespace.
+- All identifiers inside an unnamed namespace are treated as if they have internal linkage.
+	- This is effectively the same as defining a function as a static function.
+
+>[!important]
+>Unnamed namespaces are typically used when there are a lot of content that needs to stay local to a given translation unit, as it's easier than to mark all declarations as `static`.
+
