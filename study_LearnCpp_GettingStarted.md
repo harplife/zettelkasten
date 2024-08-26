@@ -5107,4 +5107,5 @@ V1
 
 ## If statements and blocks
 - One of the control flow statements is a conditional statement, which is a statement that specifies whether some associated statement(s) should be executed based on given conditions.
+	- This was briefly covered back in [[#Intro to if statements]]
 - 
