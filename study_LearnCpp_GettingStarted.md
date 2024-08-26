@@ -5046,3 +5046,5 @@ int main()
 >Unnamed namespaces should generally not be used in header files, as every translation that includes that header will get its own copy of the namespaced content, leading to code bloat.
 
 ### Inline namespaces
+- `inline` keyword can be used on a namespace as well, and the effect is that the namespace is considered a part of the parent namespace but without affecting its own linkage.
+	- Normally a function or a variable inside a named namespace is called from its namespace (e.g. `foo::bar()`), but with the `inline` namespace, the function is called as if its part of the parent namespace (e.g. `bar()`).
