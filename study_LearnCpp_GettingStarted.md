@@ -5156,4 +5156,24 @@ int main()
 >Modern compilers will generally treat non-constexpr if statements that have constexpr conditional as if they were constexpr if statements. However, they are not required to do so.
 
 ## Intro to switch statement
-- 
+- The switch statement is a flow control statement that is used to execute the different blocks of statements based on the value of the given expression.
+	- Many different cases can be set for different values of the switch expression.
+	- The case value can only be of type `int` or `char`.
+	- If a corresponding case for the value of the switch expression is not found, then the default statement is executed (if set).
+	- Each case needs to include `break;` so that the switch statement can close once a case statement is executed.
+- The structure of the switch statement goes something like this:
+
+```C++
+switch (x) {
+	case 1:
+		// case 1 statement executes if x == 1
+		break;
+	case 2:
+		// case 2 statement executes if x == 2
+		break;
+	default:
+		// default statement
+		break;
+}
+```
+
