@@ -5125,3 +5125,35 @@ else
 }
 ```
 
+### Constexpr if statements (C++17)
+- C++17 introduces the **constexpr if statement**, which requires the conditional to be a constant expression.
+	- The conditional will be evaluated at compile-time.
+- If the constexpr conditional evaluates to `true`, the entire conditional statement block will be replaced by the true statement.
+	- If `false`, then it'll be replaced with the false statement.
+- For example:
+
+```C++
+#include <iostream>
+
+int main()
+{
+	constexpr double gravity{ 9.8 };
+
+	if constexpr (gravity == 9.8) // now using constexpr if
+		std::cout << "Gravity is normal.\n";
+	else
+		std::cout << "We are not on Earth.\n";
+
+	return 0;
+}
+```
+
+- In the example above, the entire conditional statement is replaced with the true statement, `std::cout << "Gravity is normal.\n";`.
+
+>[!important]
+>Favor constexpr if statements over non-constexpr if statements when the conditional is a constant expression.
+>
+>Modern compilers will generally treat non-constexpr if statements that have constexpr conditional as if they were constexpr if statements. However, they are not required to do so.
+
+## Intro to switch statement
+- 
