@@ -5048,3 +5048,44 @@ int main()
 ### Inline namespaces
 - `inline` keyword can be used on a namespace as well, and the effect is that the namespace is considered a part of the parent namespace but without affecting its own linkage.
 	- Normally a function or a variable inside a named namespace is called from its namespace (e.g. `foo::bar()`), but with the `inline` namespace, the function is called as if its part of the parent namespace (e.g. `bar()`).
+- Inline namespaces are commonly used for managing different versions of a function. For example:
+
+```C++
+#include <iostream>
+
+inline namespace V1 // declare an inline namespace named V1
+{
+    void doSomething()
+    {
+        std::cout << "V1\n";
+    }
+}
+
+namespace V2 // declare a normal namespace named V2
+{
+    void doSomething()
+    {
+        std::cout << "V2\n";
+    }
+}
+
+int main()
+{
+    V1::doSomething(); // calls the V1 version of doSomething()
+    V2::doSomething(); // calls the V2 version of doSomething()
+
+    doSomething(); // calls the inline version of doSomething() (which is V1)
+
+    return 0;
+}
+```
+
+```console
+V1
+V2
+V1
+```
+
+- In the example above, `doSomething()` is in two different namespaces that represent its versions. By placing an `inline` keyword next to a namespace, it essentially achieves selecting a version of a function to use.
+
+## Intro to control flow
