@@ -5089,3 +5089,22 @@ V1
 - In the example above, `doSomething()` is in two different namespaces that represent its versions. By placing an `inline` keyword next to a namespace, it essentially achieves selecting a version of a function to use.
 
 ## Intro to control flow
+- The specific sequence of statements that the CPU executes is called the program's **execution path**.
+- When the statements are executed from top to bottom line by line, the execution path is said to be straight; thus, the program itself is referred to as **straight-line program**.
+	- A straight-line program isn't something that is often desired; as most programs deal with different scenarios that handling it requires going back and forth to different parts of the program.
+- **Control flow statements** are statements that allow the programmer to change the normal path of execution through the program.
+	- When a control flow statement causes point of execution to change to a non-sequential statement, this is called **branching**.
+
+### Categories of flow control statements
+- There are 6 control flow statements:
+	- Conditional statements
+	- Jumps
+	- Function calls
+	- Loops
+	- Halts
+	- Exceptions
+- Each of these control flow statements will be covered in future lessons.
+
+## If statements and blocks
+- One of the control flow statements is a conditional statement, which is a statement that specifies whether some associated statement(s) should be executed based on given conditions.
+- 
