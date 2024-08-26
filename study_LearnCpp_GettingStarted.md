@@ -5108,4 +5108,20 @@ V1
 ## If statements and blocks
 - One of the control flow statements is a conditional statement, which is a statement that specifies whether some associated statement(s) should be executed based on given conditions.
 	- This was briefly covered back in [[#Intro to if statements]]
-- 
+- Structure of conditional statement:
+
+```C++
+if (conditionA)
+{
+	// statement if conditionA is true
+}
+else if (conditionB)
+{
+	// statement if conditionB is true
+}
+else 
+{
+	// statemtnt if neither of the statements are true
+}
+```
+
