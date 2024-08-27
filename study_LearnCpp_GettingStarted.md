@@ -5177,3 +5177,8 @@ switch (x) {
 }
 ```
 
+>[!important]
+>Switch statement is highly optimized in the sense that it can "jump" directly to the result, as opposed to doing a sequential comparisons like an if statement. That's why the switch only allows its conditional expression to be an integral type.
+>
+>Switch statement should be used over if statement whenever possible.
+
