@@ -5156,6 +5156,7 @@ int main()
 >Modern compilers will generally treat non-constexpr if statements that have constexpr conditional as if they were constexpr if statements. However, they are not required to do so.
 
 ## Intro to switch statement
+### Switch statement
 - The switch statement is a flow control statement that is used to execute the different blocks of statements based on the value of the given expression.
 	- Many different cases can be set for different values of the switch expression.
 	- The case value can only be of type `int` or `char`.
@@ -5164,21 +5165,94 @@ int main()
 - The structure of the switch statement goes something like this:
 
 ```C++
-switch (x) {
-	case 1:
-		// case 1 statement executes if x == 1
-		break;
-	case 2:
-		// case 2 statement executes if x == 2
-		break;
-	default:
-		// default statement
-		break;
+switch (x)
+{
+case 1:
+	// case 1 statement executes if x == 1
+	break;
+case 2:
+	// case 2 statement executes if x == 2
+	break;
+default:
+	// default statement
+	break;
 }
 ```
+
+- Note that the `case` keyword followed by a constant expression is referred to as the **case label**.
+	- For `default`, it would be **default label**.
+- Note that the indent levels of the labels are at the same level as the switch statement, and the case statements are indented by one level.
+	- Labels do not define a nested level, and so it's not necessary to indent the case statements. However, that would look unreadable. So, the best compromise is to have the case statements indented by one level (as opposed to two).
 
 >[!important]
 >Switch statement is highly optimized in the sense that it can "jump" directly to the result, as opposed to doing a sequential comparisons like an if statement. That's why the switch only allows its conditional expression to be an integral type.
 >
 >Switch statement should be used over if statement whenever possible.
 
+>[!important]
+>If the switch statement is inside a function, `return` can be used instead of `break` (if no further execution is required).
+
+### Fallthrough
+- If `break` is not used in a switch case, the program will continue to execute the subsequent cases until it encounters a `break` or reaches the end of the switch statement - this behavior is known as **fallthrough**.
+- Since fallthrough is rarely desired or intentional, many compilers (and code analysis tools) will flag fall-through as a warning.
+- (C++17) in the rare case when fall-through is necessary, an attribute called `[[fallthrough]]` can be placed at the end of the case statement (that requires fallthrough).
+	- Attributes are not statements, but they do modify null statements - meaning, `;` should follow where the attribute is placed.
+- For example:
+
+```C++
+#include <iostream>
+
+int main()
+{
+    switch (2)
+    {
+    case 1:
+        std::cout << 1 << '\n';
+        break;
+    case 2:
+        std::cout << 2 << '\n'; // Execution begins here
+        [[fallthrough]];
+    case 3:
+        std::cout << 3 << '\n'; // This is also executed
+        break;
+    }
+
+    return 0;
+}
+```
+
+```console
+2
+3
+```
+
+- Once the fallthrough attribute is set in place, there shouldn't be any warnings about it.
+
+### Sequential case labels
+- Case labels can be stacked sequentially in order to implement logical OR for situations where a statement should be executed when any one of multiple cases (its values) match the switch value.
+- For example:
+
+```C++
+bool isVowel(char c)
+{
+    switch (c)
+    {
+    case 'a': // if c is 'a'
+    case 'e': // or if c is 'e'
+    case 'i': // or if c is 'i'
+    case 'o': // or if c is 'o'
+    case 'u': // or if c is 'u'
+    case 'A': // or if c is 'A'
+    case 'E': // or if c is 'E'
+    case 'I': // or if c is 'I'
+    case 'O': // or if c is 'O'
+    case 'U': // or if c is 'U'
+        return true;
+    default:
+        return false;
+    }
+}
+```
+
+### Variable declarations and initializations inside case statements
+- 
