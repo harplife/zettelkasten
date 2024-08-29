@@ -5318,4 +5318,61 @@ tryAgain: // this is a statement label
 ## Intro to loops and while statements
 ### While statements
 - **Loops** are control flow constructs that allow a piece of code to execute repeatedly until some condition is met.
-- 
+- The while statement (aka while loop) is an implementation of loop using keyword `while` followed by a conditional expression.
+	- While statement will keep looping as long as the condition continues to evaluate to `true`. In another words, the while loop will end if condition returns `false`.
+- The structure of a while loop looks like this:
+
+```C++
+while (condition)
+{
+	// statement goes here
+}
+```
+
+- For example:
+
+```C++
+#include <iostream>
+
+int main()
+{
+    int count{ 1 };
+    while (count <= 10)
+    {
+        std::cout << count << ' ';
+        ++count;
+    }
+
+    std::cout << "done!\n";
+
+    return 0;
+}
+```
+
+- The code above prints a number `1` through `10` using a while loop.
+- Note that if the condition initially evaluates to `false`, then the associated statement (the code inside the while loop) will not execute at all.
+- If while loop condition always evaluates to `true` (e.g. `true`), the while loop will execute infinitely - such loop is called an **infinite loop**.
+
+>[!important]
+>There are many use of infinite loops - such as game loop, render loop, window loop, and etc.
+
+>[!warning]
+>Make sure to implement an exit strategy when using an infinite loop - such as `return`, `break`, or `goto`.
+
+>[!important] While loops can be nested, but it gets confusing real quick.
+
+### Loop variables
+- A **loop variable** is a variable that is used inside a conditional expression to control how many times a loop executes.
+	- Loop variable is part of the loop logic that states "Run this loop until `x` reaches a set limit; increment/decrement `x`".
+- For example, given `while (count <= 10)`, the loop variable is `count`. Once `count` goes above `10`, the while loop will stop.
+- Loop variables are often given simple names - with `i`, `j`, and `k` being the most common.
+	- It's better to use more intuitive variable names, such as `count` and `index`.
+- The most common type of loop variable is called a **counter**, which is a loop variable that counts how many times a loop has executed.
+
+>[!important] Loop variables should generally be a signed integral type.
+
+### Iteration
+- Each execution of a loop is referred to as an **iteration**.
+- Using a counter as a loop variable is useful to implement "Do something at every Nth iteration" logic.
+	- For example, `if (count % 10 == 0)` can be used to execute a code at every 10th iteration.
+
