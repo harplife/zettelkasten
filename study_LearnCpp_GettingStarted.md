@@ -5411,13 +5411,14 @@ int main()
 
 ## For statements (classic)
 - There are two kinds of for-statements. In this lesson, the classic for-statement is covered.
-- The **for-statement (for loop)** is an implementation of loop using keyword `for` followed by three statements (init-statement, condition, and end-expression) that govern the state of a loop variable which, in turn, governs the iterations of the loop.
+- The **for-statement (for-loop)** is an implementation of loop using keyword `for` followed by three statements (init-statement, condition, and end-expression) that govern the state of a loop variable which, in turn, governs the iterations of the loop.
 - For-statement is evaluated in 3 parts:
 	- **Init-statement** is a statement that is executed only once at the beginning of the loop. It is typically used to define and initialize a loop variable (e.g. `int x = 1;`).
 	- **Condition** is a statement that is executed at the beginning of each iteration, typically used to check if the loop variable satisfies a certain condition (e.g. `x <= 10;`).
 	- **End-expression** is a statement that is executed at the end of each iteration, typically used to increment or decrement the loop variable (e.g. `++x;`).
 - The basics of the for-loop is that the loop will continue to iterate until a loop variable `x` reaches a certain value. It is useful for setting exactly how many times a loop will iterate.
 - The loop variable is within the loop scope, where the variable exists from the point of definition through the end of the loop statement.
+	- All variables declared or defined within the for-statement is within the loop scope.
 - For example:
 
 ```C++
@@ -5439,3 +5440,28 @@ int main()
 ```
 
 - The for-statement is a nice alternative to the while statement that uses a counter.
+
+>[!warning] Avoid using `!=` operator for for-loop condition.
+
+>[!warning]
+>It is possible to omit init-statement, condition, and end-expression in the for-statement (e.g. `for (;;)`). It is recommended to avoid this form of the for-loop.
+
+>[!important] Using multiple for-loop variables is possible and allowed..
+>But really, is that necessary?
+
+## Break, return, and continue
+- The `break` statement can be used in any control flow statements (switch, while, do-while, and for) to stop the control flow statement to executing any further.
+- `break` is a common way to get out of an intentional infinite loop.
+- If a control flow statement is being used inside a function, `return` statement can be used to terminate the entire function, which in turn terminates the control flow statement early.
+	- A return statement that is not the last statement in a function is called an **early return**.
+- The `continue` statement provides a way to end the current iteration of a loop without terminating the entire loop. In other words, `contiue;` skips to the end of the current iteration.
+
+>[!warning]
+>If a loop variable (e.g. `counter`) is used to control the iterations, be careful not to skip over the code that increments/decrements the loop variable with a `continue` statement - doing so may cause the loop to become infinite.
+
+## Halts (manually exiting the program early)
+- Skipped because it never should be used.
+- Refer to https://www.learncpp.com/cpp-tutorial/halts-exiting-your-program-early/
+
+## Intro to random number generation
+- 
