@@ -5409,4 +5409,33 @@ int main()
 >[!important]
 >In practice, do-while loops aren't commonly used. Having the condition at the bottom of the loop obscures the loop condition, which can lead to errors. It's best to favor while loops over do-while loops when given an equal choice.
 
-## For statements
+## For statements (classic)
+- There are two kinds of for-statements. In this lesson, the classic for-statement is covered.
+- The **for-statement (for loop)** is an implementation of loop using keyword `for` followed by three statements (init-statement, condition, and end-expression) that govern the state of a loop variable which, in turn, governs the iterations of the loop.
+- For-statement is evaluated in 3 parts:
+	- **Init-statement** is a statement that is executed only once at the beginning of the loop. It is typically used to define and initialize a loop variable (e.g. `int x = 1;`).
+	- **Condition** is a statement that is executed at the beginning of each iteration, typically used to check if the loop variable satisfies a certain condition (e.g. `x <= 10;`).
+	- **End-expression** is a statement that is executed at the end of each iteration, typically used to increment or decrement the loop variable (e.g. `++x;`).
+- The basics of the for-loop is that the loop will continue to iterate until a loop variable `x` reaches a certain value. It is useful for setting exactly how many times a loop will iterate.
+- The loop variable is within the loop scope, where the variable exists from the point of definition through the end of the loop statement.
+- For example:
+
+```C++
+#include <iostream>
+
+int main()
+{
+    for (int i{ 1 }; i <= 10; ++i)
+        std::cout << i << ' ';
+
+    std::cout << '\n';
+
+    return 0;
+}
+```
+
+```console
+1 2 3 4 5 6 7 8 9 10
+```
+
+- The for-statement is a nice alternative to the while statement that uses a counter.
