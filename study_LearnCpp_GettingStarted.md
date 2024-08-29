@@ -5259,3 +5259,21 @@ bool isVowel(char c)
 	- However, it is a bad practice to declare/define a variable after the case labels (inside the case statement). It'd be difficult to know if a variable is defined or not.
 - Variable initialization (e.g. `int x = 4;`) is not allowed inside the switch statement.
 - Variable assignment (e.g. `x = 4;`) is allowed inside the switch statement.
+- Variable declaration/definition can be used inside the case statement only if the case statement is inside an explicit block. For example:
+
+```C++
+switch (1)
+{
+case 1:
+{
+    int x{ 4 };
+    std::cout << x;
+    break;
+}
+
+default:
+    std::cout << "default case\n";
+    break;
+}
+```
+
