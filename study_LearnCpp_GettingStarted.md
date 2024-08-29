@@ -5376,3 +5376,36 @@ int main()
 - Using a counter as a loop variable is useful to implement "Do something at every Nth iteration" logic.
 	- For example, `if (count % 10 == 0)` can be used to execute a code at every 10th iteration.
 
+### Do while statements
+- A **do while statement (do-while loop)** is a looping construct that works just like a while loop, except the statement is executed before the condition (meaning the statement always executes at least once).
+- For example:
+
+```C++
+#include <iostream>
+
+int main()
+{
+    int selection{};
+
+    do
+    {
+        std::cout << "Please make a selection: \n";
+        std::cout << "1) Addition\n";
+        std::cout << "2) Subtraction\n";
+        std::cout << "3) Multiplication\n";
+        std::cout << "4) Division\n";
+        std::cin >> selection;
+    }
+    while (selection < 1 || selection > 4);
+
+    std::cout << "You selected option #" << selection << '\n';
+
+    return 0;
+}
+```
+
+- In the example above, the code following `do` will execute first and then the `while` condition is checked before going back to `do`.
+
+>[!important]
+>In practice, do-while loops aren't commonly used. Having the condition at the bottom of the loop obscures the loop condition, which can lead to errors. It's best to favor while loops over do-while loops when given an equal choice.
+
