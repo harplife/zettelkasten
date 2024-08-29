@@ -5255,4 +5255,4 @@ bool isVowel(char c)
 ```
 
 ### Variable declarations and initializations inside switch/case statements
-- 
+- Variable declarations
