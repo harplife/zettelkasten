@@ -5255,4 +5255,5 @@ bool isVowel(char c)
 ```
 
 ### Variable declarations and initializations inside switch/case statements
-- Variable declarations
+- Variable declarations/definitions are allowed inside the switch statement, either before or after the case labels.
+	- However, it is a bad practice to declare/define a variable after the case labels (inside the case statement). It'd be difficult to know if a variable is defined or not.
