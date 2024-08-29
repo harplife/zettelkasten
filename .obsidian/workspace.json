@@ -303,6 +303,7 @@
   },
   "active": "9c9a2525afbfe6bd",
   "lastOpenFiles": [
+    "attachments/xkcd_goto.png",
     "cpp_Table_of_Precedence_and_Associativity.md",
     "cpp_global_state_context_objects.md",
     "study_LearnCpp_GettingStarted.md",
@@ -341,7 +342,6 @@
     "opengl_transform_code.md",
     "opengl_texture_code.md",
     "books/ebooks/8일간의_선형대수학.md",
-    "computer_science/linear_algebra/knou_la_class_note.md",
     "Dictionary/graphics",
     "Dictionary"
   ]

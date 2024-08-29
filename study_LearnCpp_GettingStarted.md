@@ -5277,3 +5277,45 @@ default:
 }
 ```
 
+## Goto statements
+- Goto statement is a control flow statement that causes the program to do an unconditional jump, where the execution jumps from the spot where `goto` is stated to the spot where a statement label is located, unconditionally.
+	- Goto statement looks like this - `goto statementLabel;`, `statementLabel:`
+	- Code that follows the statement label is NOT a nested block.
+	- Though it is unconditional, it often accompanies an if-statement.
+- For example:
+
+```C++
+#include <iostream>
+#include <cmath> // for sqrt() function
+
+int main()
+{
+    double x{};
+tryAgain: // this is a statement label
+    std::cout << "Enter a non-negative number: ";
+    std::cin >> x;
+
+    if (x < 0.0)
+        goto tryAgain; // this is the goto statement
+
+    std::cout << "The square root of " << x << " is " << std::sqrt(x) << '\n';
+    return 0;
+}
+```
+
+- In the example above, `goto tryAgain;` makes execution jump to where `tryAgain:` is located.
+
+>[!warning] Avoid using goto statements
+>The use of goto statement is shunned, for a good reason. The primary problem with goto is that it allows a programmer to jump around the code arbitrarily. This creates what is not-so-affectionately known as **spaghetti code**, which is to say a code is all tangled and twisted like a bowl of spaghetti.
+>
+>	"The quality of programmers is a decreasing function of the density of goto statements in the programs they produce." - Edsger W. Dijkstra
+>A little joke from [xkcd](https://xkcd.com/292/):
+>![[xkcd_goto.png]]
+
+>[!important] .. unless the alternative is comparably worse
+>One notable usage of goto statement is exiting a nested loop.
+
+## Intro to loops and while statements
+### While statements
+- **Loops** are control flow constructs that allow a piece of code to execute repeatedly until some condition is met.
+- 
