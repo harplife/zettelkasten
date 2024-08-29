@@ -5255,5 +5255,7 @@ bool isVowel(char c)
 ```
 
 ### Variable declarations and initializations inside switch/case statements
-- Variable declarations/definitions are allowed inside the switch statement, either before or after the case labels.
+- Variable declarations/definitions (e.g. `int x;`) are allowed inside the switch statement, either before or after the case labels.
 	- However, it is a bad practice to declare/define a variable after the case labels (inside the case statement). It'd be difficult to know if a variable is defined or not.
+- Variable initialization (e.g. `int x = 4;`) is not allowed inside the switch statement.
+- Variable assignment (e.g. `x = 4;`) is allowed inside the switch statement.
