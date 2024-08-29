@@ -5464,4 +5464,5 @@ int main()
 - Refer to https://www.learncpp.com/cpp-tutorial/halts-exiting-your-program-early/
 
 ## Intro to random number generation
-- 
+### Algorithms and state
+- An algorithm is a finite sequence of instructions that can be followed to solve some problem or produce some useful result.
