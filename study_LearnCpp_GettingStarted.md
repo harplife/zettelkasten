@@ -5470,7 +5470,41 @@ int main()
 - An algorithm is considered **deterministic** if it will always produce the same output sequence for a given input.
 
 ### Pseudo-random number generators (PRNGs)
-- A pseudo-random number generator (PRNG) is an algorithm that generates a sequence of numbers whose properties approximate a sequence of random numbers.
+- A **pseudo-random number generator (PRNG)** is an algorithm that generates a sequence of numbers whose properties approximate a sequence of random numbers.
 	- A "true" random is nearly impossible to generate with a software alone. It requires a hardware that can measure some physical phenomenon that is expected to be random.
-	- PRNG is also known as deterministic random bit generator (DRBG). It is deterministic in the sense that it requires a use of seed (an initial value), and the sequence of the generated random numbers can be replicated using that seed.
+	- PRNG is also known as **deterministic random bit generator (DRBG)**. It is deterministic in the sense that it requires a use of **random seed** (an initial value), and the sequence of the generated random numbers can be replicated using that seed.
+- A short PRGN example that generates 100 16-bit pseudo-random numbers:
+
+```C++
+#include <iostream>
+
+// For illustrative purposes only, don't use this
+unsigned int LCG16() // our PRNG
+{
+    static unsigned int s_state{ 0 };
+
+    s_state = 8253729 * s_state + 2396403;
+    return s_state % 32768;
+}
+
+int main()
+{
+    // Print 100 random numbers
+    for (int count{ 1 }; count <= 100; ++count)
+    {
+        std::cout << LCG16() << '\t';
+
+        // If we've printed 10 numbers, start a new row
+        if (count % 10 == 0)
+            std::cout << '\n';
+    }
+
+    return 0;
+}
+```
+
+- In the example above, each number generated is the result of some mathematical operation of its previous number.
+	- The random number generated becomes the current state of the algorithm.
+	- This particular algorithm has an issue where each result alternates between even and odd.
+	- Most PRNGs work similarly to the code above, except they use more state variables and more complex mathematical operations.
 - 
