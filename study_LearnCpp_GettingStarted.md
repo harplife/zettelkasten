@@ -5465,4 +5465,6 @@ int main()
 
 ## Intro to random number generation
 ### Algorithms and state
-- An algorithm is a finite sequence of instructions that can be followed to solve some problem or produce some useful result.
+- An **algorithm** is a finite sequence of instructions that can be followed to solve some problem or produce some useful result.
+- An algorithm is considered to be **stateful** if it retains some information across calls. Conversely, a stateless **algorithm** does not store any information.
+- 
