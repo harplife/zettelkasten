@@ -5471,5 +5471,6 @@ int main()
 
 ### Pseudo-random number generators (PRNGs)
 - A pseudo-random number generator (PRNG) is an algorithm that generates a sequence of numbers whose properties approximate a sequence of random numbers.
-	- A "true" random cannot be generated 
-	- It is also known as deterministic random bit generator (DRBG)
+	- A "true" random is nearly impossible to generate with a software alone. It requires a hardware that can measure some physical phenomenon that is expected to be random.
+	- PRNG is also known as deterministic random bit generator (DRBG). It is deterministic in the sense that it requires a use of seed (an initial value), and the sequence of the generated random numbers can be replicated using that seed.
+- 
