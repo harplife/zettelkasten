@@ -5507,4 +5507,13 @@ int main()
 	- The random number generated becomes the current state of the algorithm.
 	- This particular algorithm has an issue where each result alternates between even and odd.
 	- Most PRNGs work similarly to the code above, except they use more state variables and more complex mathematical operations.
+
+### Characteristics of a good PRNG
+- The quality of a random number generator depends highly on its capability to generate each number with approximately the same probability. In other words, random number generation with **distribution uniformity**.
+	- If some numbers are generated more often than others, then the random number generator is said to be **biased**.
+- The method by which the next number in the sequence is generated shouldn't be predictable.
+	- Simply incrementing the state guarantees uniformity, but it is very much predictable.
+	- More state variables and more complex mathematical operations help make PRNGs unpredictable.
+- The PRNG should have a good dimensional distribution of numbers; meaning, it should make use of the entire range of possible results.
+	- Entire range, meaning high numbers, middle numbers, low numbers, even numbers, and odd numbers.
 - 
