@@ -5614,5 +5614,44 @@ int main()
 	- Use the system's random device
 
 ### Seeding with the system clock
-- The C++ standard library provides `std::time()` which returns the current time. PRNGs have a long history of using the current time as its seed.
-- 
+- The C++ standard library provides `std::time()` from `<ctime>` header which returns the current time. PRNGs have a long history of using the current time as its seed.
+	- Refer to https://en.cppreference.com/w/cpp/chrono/c/time
+- C++ also offers a `<chrono>` header that contains various clocks.
+	- `<ctime>` is a C-style header. It's old, not type safe and not as accurate as `<chrono>`.
+	- `<chrono>` is contemporary C++ header, it's type safe, and as accurate as the hardware allows. It has extended functionality, and it follows C++ logic (rather than C) so that certain things will be more natural/expressive with C++.
+- Example of seeding PRNG with chrono time:
+
+```C++
+#include <iostream>
+#include <random> // for std::mt19937
+#include <chrono> // for std::chrono
+
+int main()
+{
+	// Seed our Mersenne Twister using steady_clock
+	std::mt19937 mt{ static_cast<std::mt19937::result_type>(
+		std::chrono::steady_clock::now().time_since_epoch().count()
+		) };
+
+	// Create a reusable random number generator that generates uniform numbers between 1 and 6
+	std::uniform_int_distribution die6{ 1, 6 }; // for C++14, use std::uniform_int_distribution<> die6{ 1, 6 };
+
+	// Print a bunch of random numbers
+	for (int count{ 1 }; count <= 40; ++count)
+	{
+		std::cout << die6(mt) << '\t'; // generate a roll of the die here
+
+		// If we've printed 10 numbers, start a new row
+		if (count % 10 == 0)
+			std::cout << '\n';
+	}
+
+	return 0;
+}
+```
+
+- The advantage of the approach above is that the sequence of random numbers is different each time it is ran. However, it is not perfect because if it is ran in quick succession, the seeds generated for each run won't be that different, which can impact the quality of the random results from a statistical standpoint.
+- `std::chrono::high_resolution_clock` can be preferred over `steady_clock` because it uses the most granular unit of time.
+	- However, `high_resolution_clock` uses the system clock for the current time, which can be changed/rolled back by users. For this reason, `steady_clock` can be preferred instead (it guarantees that users cannot adjust time).
+
+### Seeding with the random device
