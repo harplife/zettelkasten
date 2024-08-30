@@ -5614,4 +5614,5 @@ int main()
 	- Use the system's random device
 
 ### Seeding with the system clock
+- The C++ standard library provides `std::time()` which returns the current time. PRNGs have a long history of using the current time as its seed.
 - 
