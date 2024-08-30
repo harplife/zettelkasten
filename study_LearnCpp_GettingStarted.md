@@ -5541,3 +5541,77 @@ int main()
 	- For non-cryptographic PRNGs: [Xoshiro](https://prng.di.unimi.it/), [RapidHash](https://github.com/Nicoshev/rapidhash)
 	- For cryptographic PRNGs: [ChaCha](https://cr.yp.to/chacha.html)
 
+### Using Mersenne Twister
+- The Mersenne Twister PRNG is the most popular PRNG across all programming languages. Although it is a bit old by today's standards, it generally produces quality results and has decent performance.
+- The random library has support for two Mersenne Twister types:
+	- `mt19937` is a MT that generates 32-bit unsigned integers.
+	- `mt19937_64` is a MT that generates 64-bit unsigned integers.
+- Example:
+
+```C++
+#include <iostream>
+#include <random> // for std::mt19937
+
+int main()
+{
+	std::mt19937 mt{}; // Instantiate a 32-bit Mersenne Twister
+
+	// Print a bunch of random numbers
+	for (int count{ 1 }; count <= 40; ++count)
+	{
+		std::cout << mt() << '\t'; // generate a random number
+
+		// If we've printed 5 numbers, start a new row
+		if (count % 5 == 0)
+			std::cout << '\n';
+	}
+
+	return 0;
+}
+```
+
+>[!important]
+>Note that `mt19937` is initialized as a variable, and yet used like a function. There is, in fact, a member function `operator()` that is invoked using the variable name like a function.
+
+### Random Number Distribution
+- A 32-bit PRNG will generate random numbers between `0` and `4294967295`.
+- There are times when applications do not require a full range of random numbers - but a small range of numbers.
+	- An example of that is a Dice game - which requires random numbers in range `1` through `6`.
+- A **random number distribution** converts the output of a PRNG into some other distribution of numbers.
+	- The most notable random number distribution is **uniform distribution**, which produces outputs between two numbers (inclusive) with equal probability.
+	- The random library provides `std::uniform_int_distribution` for that purpose.
+- An example of a Dice game that uses uniform distribution:
+
+```C++
+#include <iostream>
+#include <random> // for std::mt19937 and std::uniform_int_distribution
+
+int main()
+{
+	std::mt19937 mt{};
+
+	// Create a reusable random number generator that generates uniform numbers between 1 and 6
+	std::uniform_int_distribution die6{ 1, 6 }; // for C++14, use std::uniform_int_distribution<> die6{ 1, 6 };
+
+	// Print a bunch of random numbers
+	for (int count{ 1 }; count <= 40; ++count)
+	{
+		std::cout << die6(mt) << '\t'; // generate a roll of the die here
+
+		// If we've printed 10 numbers, start a new row
+		if (count % 10 == 0)
+			std::cout << '\n';
+	}
+
+	return 0;
+}
+```
+
+### Random seed
+- The major problem with PRNGs is that they are deterministic - meaning that they use a seed to initialize the generator, and the sequence of random numbers can be replicated using that same seed.
+- In order to circumvent the problem above is to use a number that constantly changes instead of a fixed number. There are two common methods to implement this:
+	- Use the system clock
+	- Use the system's random device
+
+### Seeding with the system clock
+- 
