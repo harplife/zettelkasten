@@ -5516,4 +5516,28 @@ int main()
 	- More state variables and more complex mathematical operations help make PRNGs unpredictable.
 - The PRNG should have a good dimensional distribution of numbers; meaning, it should make use of the entire range of possible results.
 	- Entire range, meaning high numbers, middle numbers, low numbers, even numbers, and odd numbers.
-- 
+- The PRNG should have a high period for all seeds.
+	- All PRNGs are periodic, which means that at some point the sequence of numbers generated will begin to repeat itself (e.g. `1 2 3 1 2 3`).
+- The PRNG should be efficient.
+	- Though more states and more complex mathematical operations helps make PRNG unpredictable, it also makes it bigger and slower. So there's a fine line between too little and too much.
+
+### Randomization from STD
+- C++ provides randomization capabilities via the `<random>` header of the standard library.
+- Within the library, there are 6 PRNG families available for use (as of C++20):
+	- `minstd_rand` : Linear congruential generator
+	- `mt19937` : Mersenne twister
+	- `ranlux24` : Subtract and carry
+	- `knuth_b` : Shuffled linear congruential generator
+	- `default_random_engine` : Any of the above (implementation defined)
+	- `rand()` : Linear congruential generator (Compatible with C)
+- There is zero reason to use `knuth_b`, `default_random_engine`, and `rand()`.
+- As of C++20. the Mersenne Twister algorithm is the only PRNG that has both decent performance and quality.
+
+>[!important]
+>A test called [PracRand](https://pracrand.sourceforge.net/) is often used to assess the performance and quality of PRNGs. There are other tests such as SmallCrush, Crush, and BigCrush.
+
+### Third party randomization libraries
+- Randomizers provided via the standard library isn't quite enough to make a statistical simulation or programs that deal with cryptography. There are third party libraries for such purpose:
+	- For non-cryptographic PRNGs: [Xoshiro](https://prng.di.unimi.it/), [RapidHash](https://github.com/Nicoshev/rapidhash)
+	- For cryptographic PRNGs: [ChaCha](https://cr.yp.to/chacha.html)
+
