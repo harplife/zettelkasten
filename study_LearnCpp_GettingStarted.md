@@ -5470,4 +5470,6 @@ int main()
 - An algorithm is considered **deterministic** if it will always produce the same output sequence for a given input.
 
 ### Pseudo-random number generators (PRNGs)
-- 
+- A pseudo-random number generator (PRNG) is an algorithm that generates a sequence of numbers whose properties approximate a sequence of random numbers.
+	- A "true" random cannot be generated 
+	- It is also known as deterministic random bit generator (DRBG)
