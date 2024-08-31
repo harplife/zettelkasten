@@ -5691,3 +5691,8 @@ int main()
 >[!warning] Only use `std::random_device` as random seed, NOT as PRNG.
 
 ### Seed quality and underseeding
+- The theoretical maximum number of unique sequences that a PRNG can generate is determined by the number of bits in the PRNG's state.
+	- For example, a PRNG with `128` bits of state can theoretically generate up to `2^128` unique output sequences.
+- The actual output sequence generated depends on the initial state of the PRNG, which is determined by the seed. Therefore, practically speaking, the number of unique output sequences a PRNG can actually generated is limited by the number of unique seed values given to the PRNG.
+	- For example, if a particular seed generation algorithm can only generate 4 different seed values, then the PRNG will only be able to generate at most 4 different output sequences.
+- When a PRNG is not provided with enough bits of quality seed data, it is said to be **underseeded**.
