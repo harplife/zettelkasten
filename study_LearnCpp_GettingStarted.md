@@ -5613,6 +5613,9 @@ int main()
 	- Use the system clock
 	- Use the system's random device
 
+>[!warning] It's best to seed PRNG only once; DO NOT RESEED.
+
+
 ### Seeding with the system clock
 - The C++ standard library provides `std::time()` from `<ctime>` header which returns the current time. PRNGs have a long history of using the current time as its seed.
 	- Refer to https://en.cppreference.com/w/cpp/chrono/c/time
@@ -5655,3 +5658,35 @@ int main()
 	- However, `high_resolution_clock` uses the system clock for the current time, which can be changed/rolled back by users. For this reason, `steady_clock` can be preferred instead (it guarantees that users cannot adjust time).
 
 ### Seeding with the random device
+- The random library contains a type called `std::random_device` that is an implementation-defined PRNG; meaning, the OS will generate a pseudo-random number if it is implemented on their system.
+	- Note that `std::random_device` may not work if it is NOT implemented by the OS.
+	- Also note that the implementation is NOT required to be non-deterministic, meaning it could produce the same random number sequence on the same OS (though generally not the case).
+- For example:
+
+```C++
+#include <iostream>
+#include <random> // for std::mt19937 and std::random_device
+
+int main()
+{
+	std::mt19937 mt{ std::random_device{}() };
+
+	// Create a reusable random number generator that generates uniform numbers between 1 and 6
+	std::uniform_int_distribution die6{ 1, 6 }; // for C++14, use std::uniform_int_distribution<> die6{ 1, 6 };
+
+	// Print a bunch of random numbers
+	for (int count{ 1 }; count <= 40; ++count)
+	{
+		std::cout << die6(mt) << '\t'; // generate a roll of the die here
+
+		// If we've printed 10 numbers, start a new row
+		if (count % 10 == 0)
+			std::cout << '\n';
+	}
+
+	return 0;
+}
+```
+
+>[!warning] Only use `std::random_device` as random seed, NOT as PRNG.
+
