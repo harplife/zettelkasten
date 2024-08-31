@@ -5710,4 +5710,10 @@ int main()
 >Some PRNGs have huge states (e.g. the Mersenne Twister has 19937 bits), and generating quality seeds to match that can be difficult. As a result, PRNGs with large states are often designed to be resilient to being seeded with fewer bits.
 
 ### Seed sequence
+- The Mersenne Twister has huge state (like 19937 bits) due to the fact that it uses 624 integral values, with each integral value 32-bit or 64-bit in size.
+	- When MT is given a random seed (by using the clock or `std::random_device`), the seed is only a single value. This means MT is significantly underseeded, and it has to fill the rest 623 values with "random" data; which is suboptimal.
+
+>[!warning]
+>Seeding `std::mt19937` with a single 32-bit value will never generate the number `42` as its first output.
+
 - 
