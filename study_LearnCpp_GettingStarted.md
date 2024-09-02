@@ -5718,5 +5718,38 @@ int main()
 
 - A way to get around the underseeding problem is to use a seed sequence, which can take in one or more seeds to generate an unbiased sequence of seeds.
 	- The random library provides `std::seed_seq` just for this purpose.
-	- The seeds given to the seed sequence can be of the same value.
-- `std::seed_seq` can take 
+	- The seeds given to the seed sequence can be of identical values, but they do lose some quality.
+
+>[!important]
+>A good way to get the best use out of the seed sequence is to supply it quality seeds, such as the system clock and the random device.
+
+- When `std::seed_seq` is provided to the `std::mt19937`, the PRNG uses the seed sequence to generate 624 integral values. This ensures that the initial values in the state array are well-distributed and have high entropy, which improves the quality of the random numbers generated.
+- Example of using `std::seed_seq` (w/ random device) and `std::mt19937`:
+
+```C++
+#include <iostream>
+#include <random>
+
+int main()
+{
+	std::random_device rd{};
+	std::seed_seq ss{ rd(), rd(), rd(), rd(), rd(), rd(), rd(), rd() }; // get 8 integers of random numbers from std::random_device for our seed
+	std::mt19937 mt{ ss }; // initialize our Mersenne Twister with the std::seed_seq
+
+	// Create a reusable random number generator that generates uniform numbers between 1 and 6
+	std::uniform_int_distribution die6{ 1, 6 }; // for C++14, use std::uniform_int_distribution<> die6{ 1, 6 };
+
+	// Print a bunch of random numbers
+	for (int count{ 1 }; count <= 40; ++count)
+	{
+		std::cout << die6(mt) << '\t'; // generate a roll of the die here
+
+		// If we've printed 10 numbers, start a new row
+		if (count % 10 == 0)
+			std::cout << '\n';
+	}
+
+	return 0;
+}
+```
+
