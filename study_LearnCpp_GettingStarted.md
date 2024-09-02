@@ -5716,4 +5716,7 @@ int main()
 >[!warning]
 >Seeding `std::mt19937` with a single 32-bit value will never generate the number `42` as its first output.
 
-- A way to get around the underseeding problem is to use a seed sequence, which 
+- A way to get around the underseeding problem is to use a seed sequence, which can take in one or more seeds to generate an unbiased sequence of seeds.
+	- The random library provides `std::seed_seq` just for this purpose.
+	- The seeds given to the seed sequence can be of the same value.
+- `std::seed_seq` can take 
