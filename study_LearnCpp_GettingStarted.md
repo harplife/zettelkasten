@@ -5756,4 +5756,13 @@ int main()
 - Although it's possible to give 624 values of `std::random_device` to `std::seed_seq`, it would likely be slow and risks depleting the pool of random numbers that `std::random_device` uses.
 	- Not only that, using same seed values do deteriorate quality a bit.
 - There's no need to use one type of seeds, it's better to use a mixture of them; mixing the system clock, random device, or even things like current thread id, address of particular functions, user id, process id, and etc. will work.
-- 
+
+>[!important] Warm up the PRNGs
+>PRNGs often benefit from "warming up", that is, discarding a certain number of initial values generated before using it for actual random number generation. This is because PRNGs can sometimes exhibit patterns or biases in the initial values they generated; warming up helps ensure that the PRNG reaches a more stable and well-distributed state.
+
+>[!important] Specific values for debugging
+>For debugging purposes, it's better to use a specific value (e.g. `5`) to ensure that the program behaves the same way each time it runs. Once everything does execute properly, then it's safe to use seeding techniques.
+
+### Global random numbers (Random.h)
+See https://www.learncpp.com/cpp-tutorial/global-random-numbers-random-h/ for writing a random generator that can be used globally. Note that some of the stuff (e.g. Templates) wasn't covered in previous lessons, so that's why I'm skipping it.
+
