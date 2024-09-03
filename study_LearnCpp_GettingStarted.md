@@ -5753,3 +5753,7 @@ int main()
 }
 ```
 
+- Although it's possible to give 624 values of `std::random_device` to `std::seed_seq`, it would likely be slow and risks depleting the pool of random numbers that `std::random_device` uses.
+	- Not only that, using same seed values do deteriorate quality a bit.
+- There's no need to use one type of seeds, it's better to use a mixture of them; mixing the system clock, random device, or even things like current thread id, address of particular functions, user id, process id, and etc. will work.
+- 
