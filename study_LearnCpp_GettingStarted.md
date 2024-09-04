@@ -5766,3 +5766,20 @@ int main()
 ### Global random numbers (Random.h)
 See https://www.learncpp.com/cpp-tutorial/global-random-numbers-random-h/ for writing a random generator that can be used globally. Note that some of the stuff (e.g. Templates) wasn't covered in previous lessons, so that's why I'm skipping it.
 
+## Intro to testing
+Refer to https://www.learncpp.com/cpp-tutorial/introduction-to-testing-your-code/
+
+## Code coverage
+Refer to https://www.learncpp.com/cpp-tutorial/code-coverage/
+
+## Common semantic errors
+Refer to https://www.learncpp.com/cpp-tutorial/common-semantic-errors-in-c/
+
+## Detecting and handling errors
+Refer to https://www.learncpp.com/cpp-tutorial/detecting-and-handling-errors/
+
+## Handling invalid input to std::cin
+Refer to https://www.learncpp.com/cpp-tutorial/stdcin-and-handling-invalid-input/
+
+## Assert and static_assert
+- 
