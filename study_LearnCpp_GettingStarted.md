@@ -5783,6 +5783,8 @@ Refer to https://www.learncpp.com/cpp-tutorial/stdcin-and-handling-invalid-input
 
 ## Assert and static_assert
 ### Preconditions, invariants, and postconditions
-- In programming, a precondition is any condition that must be true prior to the execution of some section of code (e.g. if statements).
+- In programming, a **precondition** is any condition that must be true prior to the execution of some section of code (e.g. if statements).
 	- This is sometimes known as the **Bouncer Pattern**.
-- An invariant
+- An **invariant** is a condition that must be true while some section of code is executing.
+	- This is often used with loops, where the loop body will only execute so long as the invariant is true.
+- A **postcondition** is something that must be true after the execution of some section of code.
