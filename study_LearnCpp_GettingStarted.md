@@ -5788,3 +5788,45 @@ Refer to https://www.learncpp.com/cpp-tutorial/stdcin-and-handling-invalid-input
 - An **invariant** is a condition that must be true while some section of code is executing.
 	- This is often used with loops, where the loop body will only execute so long as the invariant is true.
 - A **postcondition** is something that must be true after the execution of some section of code.
+	- Usually this means if the result fails the conditional expression, then the program is terminated and/or an error is generated.
+
+### Assertions
+- Using a conditional statement to detect an invalid parameter (or to validate some other kind of assumption), along with printing and error message and terminating the program, is such a common method of detecting problems that C++ provides a shortcut method for doing this - an assertion.
+- An assertion is an expression that will be true unless there is a bug in the program.
+	- If the conditional expression in assertion evaluates to `true`, then it does nothing.
+	- If `false`, then it will generate an error and terminate the program (via `std::abort`).
+- The error message that an assertion displays typically contains the expression that failed as text, along with the name of the code file, and the line number of the assertion.
+
+>[!important] Asserts are used to detect errors while developing and debugging.
+
+- In C++, runtime assertions are implemented via the `assert` preprocessor macro, which lives in the `<cassert>` header.
+- Example of an assertion:
+
+```C++
+#include <cassert> // for assert()
+#include <cmath> // for std::sqrt
+#include <iostream>
+
+double calculateTimeUntilObjectHitsGround(double initialHeight, double gravity)
+{
+  assert(gravity > 0.0); // The object won't reach the ground unless there is positive gravity.
+
+  if (initialHeight <= 0.0)
+  {
+    // The object is already on the ground. Or buried.
+    return 0.0;
+  }
+
+  return std::sqrt((2.0 * initialHeight) / gravity);
+}
+
+int main()
+{
+  std::cout << "Took " << calculateTimeUntilObjectHitsGround(100.0, -9.8) << " second(s)\n";
+
+  return 0;
+}
+```
+
+- In the code above, the function `calculateTimeUntilObjectHitsGround()` executes only when `gravity` is higher than `0`, otherwise the program will terminate. This is essentially the same as `if (gravity > 0.0) std::abort();`.
+- 
