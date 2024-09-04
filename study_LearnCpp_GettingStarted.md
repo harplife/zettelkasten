@@ -5796,6 +5796,7 @@ Refer to https://www.learncpp.com/cpp-tutorial/stdcin-and-handling-invalid-input
 	- If the conditional expression in assertion evaluates to `true`, then it does nothing.
 	- If `false`, then it will generate an error and terminate the program (via `std::abort`).
 - The error message that an assertion displays typically contains the expression that failed as text, along with the name of the code file, and the line number of the assertion.
+	- The actual message varies depending on which compiler is being used.
 
 >[!important] Asserts are used to detect errors while developing and debugging.
 
@@ -5829,4 +5830,10 @@ int main()
 ```
 
 - In the code above, the function `calculateTimeUntilObjectHitsGround()` executes only when `gravity` is higher than `0`, otherwise the program will terminate. This is essentially the same as `if (gravity > 0.0) std::abort();`.
-- 
+
+>[!important] Make assert expressions descriptive.
+>A simple conditional expression like `found`, or `someVar > 42` isn't very descriptive, maybe even misleading. It's best practice to make assert expressions descriptive so that it's clear what it is that has gone wrong.
+>
+>A simple trick to make an assert statement more descriptive is to use `&&` and a string literal. For example, `assert(found && "this value does not exist in database";` is a descriptive assert statement that will only be printed out if `found` is `false`; meaning, the string literal will be shown in the error message when the assert statement is triggered.
+
+### Asserts vs. error handling
