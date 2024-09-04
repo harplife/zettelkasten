@@ -5782,4 +5782,7 @@ Refer to https://www.learncpp.com/cpp-tutorial/detecting-and-handling-errors/
 Refer to https://www.learncpp.com/cpp-tutorial/stdcin-and-handling-invalid-input/
 
 ## Assert and static_assert
-- 
+### Preconditions, invariants, and postconditions
+- In programming, a precondition is any condition that must be true prior to the execution of some section of code (e.g. if statements).
+	- This is sometimes known as the **Bouncer Pattern**.
+- An invariant
