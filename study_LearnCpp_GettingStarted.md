@@ -5837,3 +5837,49 @@ int main()
 >A simple trick to make an assert statement more descriptive is to use `&&` and a string literal. For example, `assert(found && "this value does not exist in database";` is a descriptive assert statement that will only be printed out if `found` is `false`; meaning, the string literal will be shown in the error message when the assert statement is triggered.
 
 ### Asserts vs. error handling
+- The goal of an assertion is to catch programming errors by documenting something that should never happen.
+	- If that thing does happen, then the programmer made an error somewhere, and that error can be identified and fixed.
+	- Assertions do not allow recovery from errors.
+- Error handling is designed to gracefully handle cases that could happen in release configurations. These may or may not be recoverable, but one should always assume a user of the program may encounter them.
+- Assertions are also sometimes used to document cases that were not implemented because they were not needed at the time the programmer wrote the code:
+
+```C++
+assert(moved && "Need to handle case where student was just moved to another classroom");
+```
+
+### NDEBUG
+- The `assert` macro comes with a small performance cost that is incurred each time the assert condition is checked.
+- Ideally, asserts should never be encountered in production code, considering the code should already be thoroughly tested.
+- Consequently, many devs prefer that asserts are only active in debug builds.
+- C++ comes with a way to turn off asserts in production code - if the macro `NDEBUG` is defined, the assert macro gets disabled.
+- Some IDEs set `NDEBUG` by default as part of the project settings for release configurations.
+
+### Assert limitations and warnings
+- The assert itself can be improperly written. If this happens, the assert will either report an error where none exists, or fail to report a bug where on does exist.
+- The assert should have no side effects - otherwise release configuration will not be the same as the debug configuration.
+- The assert should be used only in cases where data corruption isn't likely to occur if the program terminates unexpectedly.
+
+### static_assert
+- A `static_assert` is an assertion that is checked at compile-time which causes a compile error if triggered.
+	- `static_assert` is a keyword, so a header is not required.
+- A `static_assert` takes the following form: `static_assert(condition, diagnostic_message)`
+- If the condition in `static_assert` is not true, then the diagnostic message is printed. For example:
+
+```C++
+static_assert(sizeof(long) == 8, "long must be 8 bytes");
+static_assert(sizeof(int) >= 4, "int must be at least 4 bytes");
+
+int main()
+{
+	return 0;
+}
+```
+
+- The code above uses `static_assert` to ensure that types have a certain size, otherwise it'd fail the compilation.
+- Because `static_assert` is evaluated at compile-time, the condition must be a constant expression.
+- `static_assert` can be placed anywhere, including the global namespace.
+- `static_assert` is NOT deactivated in release builds.
+- In C++17 and above, diagnostic message is optional.
+
+## Implicit type conversion
+- 
