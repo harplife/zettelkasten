@@ -5882,4 +5882,19 @@ int main()
 - In C++17 and above, diagnostic message is optional.
 
 ## Implicit type conversion
-- 
+- The process of producing a new value of some type from a value of a different type is called a **type conversion**.
+- Type conversion can be invoked in one of two ways:
+	- Implicitly, meaning compiler does the conversion as needed
+	- Explicitly, meaning the programmer requests the conversion
+- **Implicit type conversion** (aka automatic type conversion or coercion) is performed automatically by the compiler when one data type is required, but a different data type is supplied.
+	- For example, when a variable with `double` type is initialized but the initializer is an integer literal (e.g. `5`), an implicit type conversion takes in place and converts the integer to a double.
+	- Another example is when a variable with `float` type is given a double literal (e.g. `5.0`), the value is converted from double to float (e.g. `5.0f`).
+- Functions behave the same way as the variable; implicit type conversions occur when the return value of a function does not match the return type.
+- Binary operations with mixed data types also triggers implicit type conversions.
+
+>[!warning] When the compiler can't find an acceptable conversion, it will trigger a compile error.
+
+>[!important]
+>Direct initialization (brace initialization) disallows implicit type conversion. For example, `int x {3.5};` triggers a compile error.
+
+## Floating point and integral promotion
