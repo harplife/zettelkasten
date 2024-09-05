@@ -5907,4 +5907,9 @@ int main()
 	- Other 32-bit CPUs can only operate on 32-bit values, and additional tricks must be employed to manipulate narrower values.
 
 ### Numeric promotion
-- 
+- C++ does not assume a given CPU would be able to efficiently manipulate values that are narrow than the natural data size for that CPU. As such is the case, C++ provides numeric promotion to deal with narrow values.
+- A **numeric promotion** is the type conversion of certain narrow numeric types (e.g. `char`) to certain wider numeric types (e.g. `int` or `double`) that can be processed efficiently.
+- All numeric promotions are **value-preserving conversion** (aka safe conversion), which means that it guarantees that the source value is converted into an equal value of the destination type without any loss or modification.
+- Because promotions are safe, the compiler will freely use numeric promotion as needed, and will not issue a warning when doing so.
+
+### Numeric promotion reduces redundancy
