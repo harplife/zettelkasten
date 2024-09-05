@@ -5898,3 +5898,8 @@ int main()
 >Direct initialization (brace initialization) disallows implicit type conversion. For example, `int x {3.5};` triggers a compile error.
 
 ## Floating point and integral promotion
+- In [[#Object sizes and the sizeof operator]], we noted that C++ has minimum size guarantees for each of the fundamental types. However, the actual size of these types can vary based on the compiler and architecture.
+	- This variability was allowed so that the `int` and `double` data types could be set to the size that maximizes performance on a given architecture. For example, 32-bit computer will typically be able to process 32-bits of data at a time (in such case, `int` is likely set to 32-bits).
+
+>[!reminder] The number of bits a data type uses is called its **width**.
+
