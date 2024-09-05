@@ -5903,3 +5903,8 @@ int main()
 
 >[!reminder] The number of bits a data type uses is called its **width**.
 
+- Some 32-bit processors can manipulate 8-bit or 16-bit values directly. However, doing so is often slower than manipulating 32-bit values.
+	- Other 32-bit CPUs can only operate on 32-bit values, and additional tricks must be employed to manipulate narrower values.
+
+### Numeric promotion
+- 
