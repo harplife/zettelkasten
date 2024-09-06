@@ -5931,4 +5931,11 @@ int main()
 	- As such, a function with a parameter of type `double` accepts not only an argument of `double` type, but also a `float` type.
 
 ### Integral promotions
+- Integral promotion allows a few things:
+	- `signed char` or `signed short` can be converted to `int`
+	- `unsigned char`, `char8_t`, and `unsigned short` can be converted to `unsigned int`. They can also be converted to `int` if `int` can hold the entire range of the type.
+	- If `char` is signed by default, it follows the signed char conversion rules as stated above. If it is unsigned by default, it follows the unsigned char conversion rules.
+	- `bool` can be converted to `int`, with `false` as `0` and `true` as `1`.
+- Assuming a byte is equivalent to 8-bit and `int` has the width of 4 bytes or larger (typical), the above basically means that `bool`, `char`, `signed char`, `unsigned char`, `signed short`, and `unsigned short` all get promoted to `int`.
+- There are a few other integral promotion rules that are used less often; refer to https://en.cppreference.com/w/cpp/language/implicit_conversion#Integral_promotion
 - 
