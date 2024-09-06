@@ -5924,5 +5924,11 @@ int main()
 >[!important] Numeric promotion reduces redundancy.
 >Numeric promotion reduces the need to define a different function (that behaves the same way) for each type that a parameter can take; thereby reducing the redundancy in code. For example, a function with an `int` type parameter can take an `int` type argument as well as `double` type argument.
 
+- The numeric promotion rules are divided into two subcategories: integral promotions and floating point promotions.
 
+### Floating point promotions
+- Floating point promotion allows a value of type `float` to be converted to a value of type `double`.
+	- As such, a function with a parameter of type `double` accepts not only an argument of `double` type, but also a `float` type.
 
+### Integral promotions
+- 
