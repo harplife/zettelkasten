@@ -5897,6 +5897,15 @@ int main()
 >[!important]
 >Direct initialization (brace initialization) disallows implicit type conversion. For example, `int x {3.5};` triggers a compile error.
 
+## The standard conversions
+- The C++ language standard defines how different fundamental types (and in some cases, compound types) can be converted to other types. These conversion rules are called the **standard conversions**.
+- The standard conversions can be broadly divided into 4 categories, each covering different types of conversions:
+	- Numeric promotions
+	- Numeric conversions
+	- Arithmetic conversions
+	- Other conversions
+- When a type conversion is required, the compiler will see if there are standard conversions that it can use to convert the value to the desired type. The compiler may apply one or two standard conversions in the conversion process.
+
 ## Floating point and integral promotion
 - In [[#Object sizes and the sizeof operator]], we noted that C++ has minimum size guarantees for each of the fundamental types. However, the actual size of these types can vary based on the compiler and architecture.
 	- This variability was allowed so that the `int` and `double` data types could be set to the size that maximizes performance on a given architecture. For example, 32-bit computer will typically be able to process 32-bits of data at a time (in such case, `int` is likely set to 32-bits).
@@ -5912,4 +5921,8 @@ int main()
 - All numeric promotions are **value-preserving conversion** (aka safe conversion), which means that it guarantees that the source value is converted into an equal value of the destination type without any loss or modification.
 - Because promotions are safe, the compiler will freely use numeric promotion as needed, and will not issue a warning when doing so.
 
-### Numeric promotion reduces redundancy
+>[!important] Numeric promotion reduces redundancy.
+>Numeric promotion reduces the need to define a different function (that behaves the same way) for each type that a parameter can take; thereby reducing the redundancy in code. For example, a function with an `int` type parameter can take an `int` type argument as well as `double` type argument.
+
+
+
