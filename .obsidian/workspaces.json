@@ -286,7 +286,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 362.5
+        "width": 362.5,
+        "collapsed": true
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -303,7 +304,7 @@
         }
       },
       "active": "9c9a2525afbfe6bd",
-      "mtime": "2024-09-08T23:00:59-05:00",
+      "mtime": "2024-09-08T23:01:13-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "Dictionary"

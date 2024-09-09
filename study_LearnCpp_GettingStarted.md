@@ -5937,5 +5937,8 @@ int main()
 	- If `char` is signed by default, it follows the signed char conversion rules as stated above. If it is unsigned by default, it follows the unsigned char conversion rules.
 	- `bool` can be converted to `int`, with `false` as `0` and `true` as `1`.
 - Assuming a byte is equivalent to 8-bit and `int` has the width of 4 bytes or larger (typical), the above basically means that `bool`, `char`, `signed char`, `unsigned char`, `signed short`, and `unsigned short` all get promoted to `int`.
+	- This means that a function with an `int` type parameter is able to take arguments of various types (that are convertible).
 - There are a few other integral promotion rules that are used less often; refer to https://en.cppreference.com/w/cpp/language/implicit_conversion#Integral_promotion
-- 
+
+>[!warning] While integral promotion is value-preserving, it does not necessarily preserve the signedness.
+
