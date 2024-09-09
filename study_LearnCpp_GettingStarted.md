@@ -5961,4 +5961,46 @@ int main()
 	- **Lossy conversions** : unsafe numeric conversions where data may be lost during the conversion (e.g. `double` to `int`).
 - In the case of reinterpretive conversions, converting from a negative `signed int` to an `unsigned int` is considered unsafe due to the fact that the `unsigned int` cannot represent the negative numbers (which means the value is not preserved).
 	- Converting from a positive `signed int` to an `unsigned int` is value-preserving, thus safe.
-- 
+- In the case of lossy conversions, converting from `double` to `float` can result in data loss, due to the fact that precision is lost (the number of significant digits differ between these two types).
+
+>[!warning] Some conversions may fall into different categories depending on the platform.
+
+>[!important] In all cases, converting a value into a type whose range doesn't support that value is unsafe.
+
+## Narrowing conversions, list initialization, and constexpr initializers
+
+### Narrowing conversions
+- A narrowing conversion is a type of conversion where a value of a source type is converted to a value of a destination type whose width is "narrower" than the source type.
+	- It is a potentially unsafe numeric conversion where the destination type may not be able to hold all the values of the source type.
+- Narrowing conversions include:
+	- Converting from a floating point type to an integral type
+	- Converting from a floating point type to a narrower floating point type (outside the range or loss of precision)
+	- Converting from an integral type to a floating point type
+	- Converting from an integral type to a narrower integral type (outside the range or loss of signage)
+
+>[!warning] Narrowing conversions should always be avoided.
+
+### Explicit narrowing conversions using static_cast
+- Though narrowing conversions should always be avoided, it is sometimes not avoidable.
+	- This is particularly the case when the function parameter and argument may have mismatched types.
+- In such cases, it is best to use `static_cast` to explicitly apply narrowing conversion.
+- For example:
+
+```C++
+void someFcn(int i)
+{
+}
+
+int main()
+{
+    double d{ 5.0 };
+
+    someFcn(d); // bad: implicit narrowing conversion will generate compiler warning
+
+    // good: we're explicitly telling the compiler this narrowing conversion is intentional
+    someFcn(static_cast<int>(d)); // no warning generated
+
+    return 0;
+}
+```
+
