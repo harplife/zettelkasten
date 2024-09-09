@@ -6004,3 +6004,30 @@ int main()
 }
 ```
 
+>[!important]
+>Brace initialization disallows implicit narrowing conversions (causes an error). However, explicit narrowing conversion using `static_cast` is allowed (e.g. `int x { static_cast<int>(3.5) };`).
+
+### Constexpr narrowing conversions
+- When the source value of a narrowing conversion is `constexpr`, the specific value to be converted must be known to the compiler. In such cases, the compiler can perform the conversion itself, and then check whether the value was preserved.
+	- If the value was not preserved, the compiler can halt compilation with an error.
+	- If the value was preserved, the conversion is NOT considered to be narrowing, therefore safe (no error).
+- For example:
+
+```C++
+#include <iostream>
+
+int main()
+{
+    constexpr int n1{ 5 };   // note: constexpr
+    unsigned int u1 { n1 };  // OKAY: conversion is NOT narrowing
+
+    constexpr int n2 { -5 }; // note: constexpr
+    unsigned int u2 { n2 };  // compile error: conversion is narrowing
+
+    return 0;
+}
+```
+
+- Note that conversion from an integral type to another integral type is NOT considered narrowing if the original value is `constexpr`.
+	- However, conversion from a floating point type to an integral type is STILL narrowing even if the original value is `constexpr`.
+	- Strangely, conversion from a floating point type to a narrow floating type is NOT considered narrowing if the original value is `constexpr` - even though there is a loss of precision.
