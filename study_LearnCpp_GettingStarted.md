@@ -5942,3 +5942,17 @@ int main()
 
 >[!warning] While integral promotion is value-preserving, it does not necessarily preserve the signedness.
 
+## Numeric conversions
+- Some widening type conversions (such as `char` to `short`, or `int` to `long`) are not considered to be numeric promotions because such conversions do not assist in the goal of converting smaller types to larger types that can be processed more efficiently.
+- C++ supports another category of numeric type conversions, called numeric conversions, which covers additional type conversions between fundamental types.
+	- The distinction between numeric promotion and numeric conversion is mostly academic. However, in certain cases, the compiler will favor promotions over conversions.
+- There are five basic types of numeric conversions:
+	- Integral type to any other integral type (excluding integral promotions), such as `int` to `short`, `int` to `long`, `short` to `chaf`, and `int` to `unsigned int`.
+	- Floating point type to any other floating point type (excluding floating point promotions), such as `double` to `float`, and `double` to `long double`.
+	- Floating point type to any integral type
+	- Integral type to any floating point type
+	- Integral type/floating point type to a bool
+
+### Safe and unsafe conversions
+- Unlike numeric promotions (which are always value-preserving, meaning "safe"), many numeric conversions are unsafe; at least one value of the source type cannot be converted into an equal value of the destination type.
+- 
