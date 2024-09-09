@@ -6029,5 +6029,10 @@ int main()
 ```
 
 - Note that conversion from an integral type to another integral type is NOT considered narrowing if the original value is `constexpr`.
+	- Additionally, conversion from an integral type to a floating point type is NOT considered narrowing if the original value is `constexpr`.
 	- However, conversion from a floating point type to an integral type is STILL narrowing even if the original value is `constexpr`.
 	- Strangely, conversion from a floating point type to a narrow floating type is NOT considered narrowing if the original value is `constexpr` - even though there is a loss of precision.
+
+>[!important]
+>Knowing which type conversions are narrowing (or not) is beneficial when dealing with brace/direct initializations. For example,
+>- 
