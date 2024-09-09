@@ -6047,4 +6047,32 @@ int main()
 
 ## Arithmetic conversions
 - Certain operators require that their operands be of the same type. If one of these operators is invoked with operands of different types, one or both of the operands will be implicitly converted to matching types using a set of rules called the **usual arithmetic conversions**.
+- The operators that require operators that require operands of the same type are:
+	- The binary arithmetic operators (`+`, `-`, `*`, `/`, `%`)
+	- The binary relational operators (`<`, `>`, `<=`, `>=`, `==`, `!=`)
+	- The binary bitwise arithmetic operators (`&`, `^`, `|`)
+	- The conditional operator `?:` (excluding the condition itself)
+
+### The usual arithmetic conversion rules
+- The usual arithmetic conversion rules are somewhat complex. The compiler has a ranked list of types that look something like this (highest to lowest):
+	- `long double`
+	- `double`
+	- `float`
+	- `long long`
+	- `long`
+	- `int`
+- If one operand is an integral type and the other a floating point type, the integral operand is converted to the type of the floating point operand (no integral promotion takes place).
+	- Otherwise, Any integral operands are numerically promoted.
+- If one operand is `signed` and the other `unsigned`, special rules apply:
+	- If the rank of the `unsigned` operand is greater than the rank of the `signed` operand, then the `signed` operand is converted to the type of the `unsigned` operand.
+	- If the type of the `signed` operand can represent all the values of the type of the `unsigned` operand, the type of the `unsigned` operand is converted to the type of the `signed` operand.
+	- Otherwise both operands are converted to the corresponding `unsigned` type of the `signed` operand.
+
+>[!important]
+>The full rules for the usual arithmetic conversions is here : https://en.cppreference.com/w/cpp/language/usual_arithmetic_conversions
+
+### Signed and unsigned issues
+- The prioritization hierarchy and conversion rules can cause some problematic issues when mixing `signed` and `unsigned` values.
+- If a binary operator is used on a `signed int` and `unsigned int` values and the result is expected to be a negative value, then the actual result is undefined.
+	- Due to the conversion rules, the `int` operand is converted to an `unsigned int`, so the result is `unsigned int`, which does not support a negative value.
 - 
