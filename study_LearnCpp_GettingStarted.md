@@ -5895,7 +5895,7 @@ int main()
 >[!warning] When the compiler can't find an acceptable conversion, it will trigger a compile error.
 
 >[!important]
->Direct initialization (brace initialization) disallows implicit type conversion. For example, `int x {3.5};` triggers a compile error.
+>Brace initialization disallows implicit type conversion. For example, `int x {3.5};` triggers a compile error.
 
 ## The standard conversions
 - The C++ language standard defines how different fundamental types (and in some cases, compound types) can be converted to other types. These conversion rules are called the **standard conversions**.
@@ -5967,7 +5967,7 @@ int main()
 
 >[!important] In all cases, converting a value into a type whose range doesn't support that value is unsafe.
 
-## Narrowing conversions, list initialization, and constexpr initializers
+## Narrowing conversions, brace initialization, and constexpr initializers
 
 ### Narrowing conversions
 - A narrowing conversion is a type of conversion where a value of a source type is converted to a value of a destination type whose width is "narrower" than the source type.
@@ -6034,5 +6034,17 @@ int main()
 	- Strangely, conversion from a floating point type to a narrow floating type is NOT considered narrowing if the original value is `constexpr` - even though there is a loss of precision.
 
 >[!important]
->Knowing which type conversions are narrowing (or not) is beneficial when dealing with brace/direct initializations. For example,
->- 
+>Knowing which type conversions are narrowing (or not) is beneficial when dealing with brace initializations. For example,
+>- `unsigned int` variable can be initialized with an `int` literal, meaning `u` suffix is not necessary.
+>- `float` variable can be initialized with a `double` literal, meaning `f` suffix is not necessary.
+>- `double` variable can be initialized with `constexpr int` literal without the use of `static_cast`.
+
+>[!important]
+>Floating point types are ranked in this order (greater to lesser):
+>- `long double`
+>- `double`
+>- `float`
+
+## Arithmetic conversions
+- Certain operators require that their operands be of the same type. If one of these operators is invoked with operands of different types, one or both of the operands will be implicitly converted to matching types using a set of rules called the **usual arithmetic conversions**.
+- 
