@@ -6073,6 +6073,13 @@ int main()
 
 ### Signed and unsigned issues
 - The prioritization hierarchy and conversion rules can cause some problematic issues when mixing `signed` and `unsigned` values.
-- If a binary operator is used on a `signed int` and `unsigned int` values and the result is expected to be a negative value, then the actual result is undefined.
+- If a binary arithmetic operator is used on a `signed int` and `unsigned int` values and the result is expected to be a negative value, then the actual result is undefined.
 	- Due to the conversion rules, the `int` operand is converted to an `unsigned int`, so the result is `unsigned int`, which does not support a negative value.
+- If a binary relational operator is used on a `signed int` and `unsigned int` values, the result could vary.
+	- `signed int` value is converted to `unsigned int`. The result of the conversion could produce a number greater than the other `unsigned int` operand.
+
+>[!warning]
+>Mixing `signed` and `unsigned` integral types can cause unexpected behaviors. This is one of the primary reasons to avoid `unsigned` integers.
+
+## Explicit type conversion (casting) and static_cast
 - 
