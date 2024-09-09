@@ -6086,4 +6086,89 @@ int main()
 
 ### Type casting
 - C++ provides **type casting operators** which are operators that the programmer can use to explicitly request for type conversions.
-- 
+- There are 5 different types of casts:
+	- C-style casts
+	- Static casts
+	- Const casts
+	- Dynamic casts
+	- Reinterpret casts
+- Other than C-style casts, the rest are referred to as **named casts**.
+
+### C-style casts
+- In standard C programming, casts are done via the `()` operator, with the name of the type to convert the value placed inside the parentheses (e.g. `(int)x`). This is still used in C++.
+- For example:
+
+```C++
+#include <iostream>
+
+int main()
+{
+    int x { 10 };
+    int y { 4 };
+
+
+    double d { (double)x / y }; // convert x to a double so we get floating point division
+    std::cout << d << '\n'; // prints 2.5
+
+    return 0;
+}
+```
+
+- C++ allows the C-style casts to be used more like a function-call (e.g. `double(x)`).
+- Although C-style casts seem simple to use, it can actually perform a variety of different conversions depending on context; this can include a static cast, const cast, or reinterpret cast. As a result, C-style casts are at risk for being inadvertently misused and not producing the expected behavior.
+	- For this reason, it's best to avoid using C-style casts.
+
+### static_cast
+- C++ provides a casting operator called `static_cast`, which can be used to convert a value of one type to another type. It is used like `static_cast<type>(value)`.
+- `static_cast` was briefly covered in [[#Explicit type conversion - static_cast]].
+- The main advantage of `static_cast` is that it provides compile-time type checking, making it harder to make an inadvertent error.
+- `static_cast` is also (intentionally) less powerful than C-style casts, so it does not remove `const`. For example,
+
+```C++
+int main()
+{
+	const int x{ 5 };
+	int& ref{ static_cast<int&>(x) }; // invalid: will produce compilation error
+	ref = 6;
+
+	return 0;
+}
+```
+
+>[!important] `static_cast` should always be preferred where a type conversion is required.
+
+## Typedefs and type aliases
+### Type aliases
+- In C++, `using` is a keyword that creates an alias for an existing data type. To create such a type alias, `using` keyword is used, followed by a nae for the type alias, followed by an equal sign and an existing data type.
+	- Once defined, a type alias can be used anywhere a type is needed; same scoping rules as variable identifiers.
+- For example:
+
+```C++
+using Distance = double; // define Distance as an alias for type double
+Distance milesToDestination = 3.4;
+```
+
+### Naming type aliases
+- Historically, there hasn't been a lot of consistency in how type aliases have been named. There are three common naming conventions:
+	- Type aliases that end in a `_t` suffix (e.g. `size_t`, `nullptr_t`).
+	- Type aliases that end in a `_type` suffix (e.g. `std::string::size_type`)
+	- Type aliases that uses no suffix (e.g. `std::string::iterator`)
+- In modern C++, the convention is to name type aliases (or any other type) with a capital letter, and using no suffix (e.g. `Distance`).
+- An alias does not actually define a distinct type, meaning it merely introduces a new identifier for an existing type. There can be more than one alias for the same type, and they can be used interchangeably.
+	- This can lead to semantic errors, which are not preventable by the compiler. This means that aliases are not **type safe**.
+
+### Typedefs
+- A `typedef` keyword (which is short for type definition) is an older way of creating an alias for a type.
+	- It is used like `typedef oldType NewType;`.
+	- For example, `typedef long Miles;` creates an alias for `long` type that is named `Miles`.
+- `using` keyword is preferred over `typedef` because:
+	- Syntax for `typedef` can easily be mistaken, like switching the place between the type and the new identifier.
+	- Syntax for `typedef` can be hard to read (example omitted).
+	- `typedef` suggests a new type being defined, which is NOT the case.
+
+>[!important] In conventional language, the term "typedef" refers to both a `typedef` or a type alias.
+
+### Using type aliases for platform independent coding
+- One of the primary uses for type aliases is to hide platform specific details.
+- Because `char`, `short`, `int`, and `long` gives no indication of their size, it is fairly common for cross-platform programs to use type aliases to define aliases that include the type's size in bits.
+	- For example, 
