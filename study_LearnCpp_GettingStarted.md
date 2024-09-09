@@ -6190,4 +6190,5 @@ using int32_t = int;
 
 - In the example above, it is made so that the top set of type aliases will be used on machines where integers are only 2 bytes (once `INT_2_BYTES` is defined) and the bottom set will be used on 4 bytes integer machines.
 	- The [[#Fixed-width integers and size_t|fixed-width type and size_t type]] are actually just type aliases to various fundamental types.
-- 
+
+### Using type aliases to make complex
