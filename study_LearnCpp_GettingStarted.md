@@ -6170,5 +6170,24 @@ Distance milesToDestination = 3.4;
 
 ### Using type aliases for platform independent coding
 - One of the primary uses for type aliases is to hide platform specific details.
+	- The same identifier that is used across different platforms can be a type alias for different types depending on the platform; as such, the identifier is used the same way but is implemented differently (and is hidden).
 - Because `char`, `short`, `int`, and `long` gives no indication of their size, it is fairly common for cross-platform programs to use type aliases to define aliases that include the type's size in bits.
-	- For example, 
+	- For example, `int8_t` would be an 8-bit signed integer, `int16_t` a 16-bit signed integer, and so on.
+	- Using type aliases in this manner helps prevent mistakes and makes it more clear about what kind of assumptions have been made about the size of the variable.
+- In order to make sure each aliased type resolves to a type of the right size, type aliases of this kind are typically used in conjunction with preprocessor directives. For example:
+
+```C++
+#ifdef INT_2_BYTES
+using int8_t = char;
+using int16_t = int;
+using int32_t = long;
+#else
+using int8_t = char;
+using int16_t = short;
+using int32_t = int;
+#endif
+```
+
+- In the example above, it is made so that the top set of type aliases will be used on machines where integers are only 2 bytes (once `INT_2_BYTES` is defined) and the bottom set will be used on 4 bytes integer machines.
+	- The [[#Fixed-width integers and size_t|fixed-width type and size_t type]] are actually just type aliases to various fundamental types.
+- 
