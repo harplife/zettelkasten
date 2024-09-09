@@ -6082,4 +6082,8 @@ int main()
 >Mixing `signed` and `unsigned` integral types can cause unexpected behaviors. This is one of the primary reasons to avoid `unsigned` integers.
 
 ## Explicit type conversion (casting) and static_cast
+- **Explicit type conversion** refers to when the programmer requests the compiler to convert a value to another type.
+
+### Type casting
+- C++ provides **type casting operators** which are operators that the programmer can use to explicitly request for type conversions.
 - 
