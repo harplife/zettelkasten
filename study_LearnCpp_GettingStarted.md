@@ -5955,4 +5955,10 @@ int main()
 
 ### Safe and unsafe conversions
 - Unlike numeric promotions (which are always value-preserving, meaning "safe"), many numeric conversions are unsafe; at least one value of the source type cannot be converted into an equal value of the destination type.
+- Numeric conversions fall into three general safety categories:
+	- **Value-preserving conversions** : safe numeric conversions where the destination type can exactly represent all possible values in the source type (e.g. `int` to `long`).
+	- **Reinterpretive conversions** : unsafe numeric conversions where the converted value may be different than the source value, but no data is lost (e.g. `signed`/`unsigned` conversions).
+	- **Lossy conversions** : unsafe numeric conversions where data may be lost during the conversion (e.g. `double` to `int`).
+- In the case of reinterpretive conversions, converting from a negative `signed int` to an `unsigned int` is considered unsafe due to the fact that the `unsigned int` cannot represent the negative numbers (which means the value is not preserved).
+	- Converting from a positive `signed int` to an `unsigned int` is value-preserving, thus safe.
 - 
