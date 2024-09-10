@@ -6273,10 +6273,19 @@ double add(double x, double y) // floating point version
 
 int main()
 {
+	std::cout << add(1, 2);
+	std::cout << '\n';
+	std::cout << add(1.2, 3.4);
     return 0;
 }
 ```
 
 - In the example above, `add()` function is defined twice but naming conflict does not occur; and the function is able to handle either two `int` type arguments or two `double` type arguments.
+- When a function call is made to a function that has been overloaded, the compiler will try to match the function call to the appropriate overload based on the arguments used in the function call; this is called **overload resolution**.
+	- In the example above, `add(1, 2)` will invoke the integer version of the function, and the `add(1.2, 3.4)` will invoke the floating point version.
 
-### Intro to overload resolution
+>[!warning]
+>If an overloaded function is not differentiated, or if a function call to an overloaded function cannot be resolved to an overloaded function, then a compile error will result.
+
+## Function overload differentiation
+- 
