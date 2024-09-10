@@ -6251,3 +6251,8 @@ TestScore gradeTest();
 - This lesson is about using `auto` keyword, which is placed in the place where the data type should be when a variable is initialized; the compiler deduces the correct data type of the variable by the type of the initializer.
 - Skipping most of the contents because `auto` is not recommended. Refer to https://www.learncpp.com/cpp-tutorial/type-deduction-for-objects-using-the-auto-keyword/
 
+## Type deduction for functions
+- Skipped, refer to https://www.learncpp.com/cpp-tutorial/type-deduction-for-functions/
+
+## Intro to function overloading
+- 
