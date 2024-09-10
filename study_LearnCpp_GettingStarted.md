@@ -6217,3 +6217,37 @@ int main()
 
 - In the example above, `std::vector<std::pair<std::string, int>>` is a complex type (which will be covered later) that would've been a pain to type every time it's used, but instead a type alias named `VectPairSI` is used to simplify things.
 
+### Using type aliases to document the meaning of a value
+- Type aliases can also help with code documentation and comprehension.
+	- This is especially the case with functions, where the function identifier describes the purpose of the function but the meaning of its return value is unclear; type alias can help with that.
+- For example:
+
+```C++
+using TestScore = int;
+TestScore gradeTest();
+```
+
+- In the example above, the meaning of the return value of `gradeTest()` is made clear by saying its type is `TestScore`.
+
+>[!important]
+>Usually, creating a type alias just to document the return type of a single function isn't worth it, unless there are multiple functions passing or returning such a type.
+
+### Using type aliases for easier code maintenance
+- Type aliases allow the programmer to change the underlying type of an object without having to update lots of hardcoded types.
+	- For example, if a student's ID number was passed around in the program as a `short` but it needed to be changed to `long` instead, it'd be a hassle to go through the entire program to change the type of the variables and parameters. However, if a type alias was being used, only the type alias has to be changed and then the change will be applied to the entire program.
+- While this little perk is nice, caution is necessary wherever a type is changed because the behavior of the program may also change; this is especially the case if the type is changed to an entirely different type family (e.g. `int` to `float`, or `signed` to `unsigned`).
+	- The new type may have its own kinks that the program is not ready to deal with.
+	- It's best to thoroughly test the program if a new type is in place.
+
+### Downsides of type alias
+- While type aliases offer some benefits, they also introduce yet another identifier into the code that needs to be understood.
+	- If this isn't offset by some benefit to readability or comprehension, then the type alias is doing more harm than good.
+- A poorly utilized type alias can take a familiar type and hide it behind a custom name that needs to be looked up. In some cases, obscuring the type information can also be harmful to understanding how the type should be expected to work.
+
+>[!important] Type aliases should be used primarily in cases where there is a clear benefit to code readability or code maintenance.
+
+
+## Type deduction for objects using the auto keyword
+- This lesson is about using `auto` keyword, which is placed in the place where the data type should be when a variable is initialized; the compiler deduces the correct data type of the variable by the type of the initializer.
+- Skipping most of the contents because `auto` is not recommended. Refer to https://www.learncpp.com/cpp-tutorial/type-deduction-for-objects-using-the-auto-keyword/
+
