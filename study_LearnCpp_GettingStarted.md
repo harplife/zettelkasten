@@ -6255,4 +6255,28 @@ TestScore gradeTest();
 - Skipped, refer to https://www.learncpp.com/cpp-tutorial/type-deduction-for-functions/
 
 ## Intro to function overloading
-- 
+- **Function overloading** allows the programmer to create multiple functions with the same name, so long as each identically named function has different parameter types.
+	- Each function sharing a name (in the same scope) is called an **overloaded function**.
+	- Function overloading reduces the effort to come up with a different function name for each data type.
+- For example:
+
+```C++
+int add(int x, int y) // integer version
+{
+    return x + y;
+}
+
+double add(double x, double y) // floating point version
+{
+    return x + y;
+}
+
+int main()
+{
+    return 0;
+}
+```
+
+- In the example above, `add()` function is defined twice but naming conflict does not occur; and the function is able to handle either two `int` type arguments or two `double` type arguments.
+
+### Intro to overload resolution
