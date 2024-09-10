@@ -6191,4 +6191,29 @@ using int32_t = int;
 - In the example above, it is made so that the top set of type aliases will be used on machines where integers are only 2 bytes (once `INT_2_BYTES` is defined) and the bottom set will be used on 4 bytes integer machines.
 	- The [[#Fixed-width integers and size_t|fixed-width type and size_t type]] are actually just type aliases to various fundamental types.
 
-### Using type aliases to make complex
+### Using type aliases to make complex types easier to read
+- Another primary use for type aliases is to make complex types easier to read. In advanced C++, types can become complicated and lengthy, and using a type alias for that makes things easier. For example:
+
+```C++
+#include <string> // for std::string
+#include <vector> // for std::vector
+#include <utility> // for std::pair
+
+using VectPairSI = std::vector<std::pair<std::string, int>>; // make VectPairSI an alias for this crazy type
+
+bool hasDuplicates(VectPairSI pairlist) // use VectPairSI in a function parameter
+{
+    // some code here
+    return false;
+}
+
+int main()
+{
+     VectPairSI pairlist; // instantiate a VectPairSI variable
+
+     return 0;
+}
+```
+
+- In the example above, `std::vector<std::pair<std::string, int>>` is a complex type (which will be covered later) that would've been a pain to type every time it's used, but instead a type alias named `VectPairSI` is used to simplify things.
+
