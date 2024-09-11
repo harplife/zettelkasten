@@ -6313,4 +6313,14 @@ int main()
 	- For example, if `print(int x)` and `print(double x)` is defined and a function call with a `float` argument like `print(5.5f)` occurs, the overload resolution goes through complex steps to figure out the best match.
 
 ### Resolving overloaded function calls
+- When a function call is made to an overloaded function, the compiler steps through a sequence of rules to determine which (if any) of the overloaded functions is the best match.
+- At each step, the compiler applies a bunch of different type conversions to the argument(s) in the function call.
+	- For each conversion applied, the compiler checks if any of the overloaded functions are now a match.
+	- After all the different type conversions have been applied and checked, the step is done.
+- The result at each step will be one of three possible outcomes:
+	- No matching functions found; the compiler moves on to the next step in the sequence.
+	- A single matching function found (the best match); No more steps.
+	- More than one matching function found; the compiler issues an error.
+
+### The argument matching sequence
 - 
