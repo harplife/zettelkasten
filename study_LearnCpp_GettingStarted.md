@@ -6307,4 +6307,7 @@ int main()
 	- It notably does NOT include the return type.
 
 ## Function overload resolution and ambiguous matches
+- The process of matching function calls to a specific overload function is called overload resolution.
+	- Overload resolution is straightforward and simple when the types of the arguments match the types of the parameters exactly.
+	- Overload resolution becomes ambiguous when the types of the arguments does NOT match the types of the parameters (and thus type conversions occur).
 - 
