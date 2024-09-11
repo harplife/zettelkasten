@@ -6550,4 +6550,31 @@ int main()
 - In the example above, the matching function to `print(char, char)` is `print(char, int)`, as `char` is numerically promoted to `int`.
 
 ## Deleting functions
-- 
+- It's possible to prevent a function call with arguments that doesn't exactly match (without promotion or conversion) from being executed by deleting a function with `= delete` specifier.
+- For example:
+
+```C++
+#include <iostream>
+
+void printInt(int x)
+{
+    std::cout << x << '\n';
+}
+
+void printInt(char) = delete; // calls to this function will halt compilation
+void printInt(bool) = delete; // calls to this function will halt compilation
+
+int main()
+{
+    printInt(97);   // okay
+
+    printInt('a');  // compile error: function deleted
+    printInt(true); // compile error: function deleted
+
+    printInt(5.0);  // compile error: ambiguous match
+
+    return 0;
+}
+```
+
+- In the example above, `printInt(char)` and `printInt(bool)`
