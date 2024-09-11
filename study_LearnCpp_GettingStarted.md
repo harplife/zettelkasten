@@ -6512,4 +6512,42 @@ int main()
 - In the example above, `double` can be numerically converted to either an `unsigned int` or `float`.
 
 ### Resolving ambiguous matches
+- There are a few ways to resolve ambiguous matches:
+	- Define a new overloaded function to match the type of the arguments.
+	- Explicitly cast the arguments to match one of the overloaded functions.
+
+### Matching for functions with multiple arguments
+- If there are multiple arguments, the compiler applies the matching rules to each argument in turn.
+	- The function chosen must provide a better match than all the other candidate functions for at least one parameter.
+- For example:
+
+```C++
+#include <iostream>
+
+void print(char, int)
+{
+	std::cout << 'a' << '\n';
+}
+
+void print(char, double)
+{
+	std::cout << 'b' << '\n';
+}
+
+void print(char, float)
+{
+	std::cout << 'c' << '\n';
+}
+
+int main()
+{
+	print('x', 'a');
+
+	return 0;
+}
+```
+
+- In the example above, the matching function to `print(char, char)` is `print(char, int)`, as `char` is numerically promoted to `int`.
+
+## Deleting functions
 - 
