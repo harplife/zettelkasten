@@ -6303,3 +6303,8 @@ int main()
 
 >[!warning] `const` qualifier does NOT affect differentiation.
 
+- A function's **type signature** is defined as the parts of the function header that are used for differentiation of the function; this includes the function name, number of parameters, parameter type, and function-level qualifiers.
+	- It notably does NOT include the return type.
+
+## Function overload resolution and ambiguous matches
+- 
