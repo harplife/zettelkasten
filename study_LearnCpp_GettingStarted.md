@@ -6447,3 +6447,69 @@ int main()
 
 #### Step 6
 - If a match is NOT found by this point, the compiler gives up and issues a compile error.
+
+### Examples of ambiguous match
+#### Long to int or double
+
+```C++
+void foo(int)
+{
+}
+
+void foo(double)
+{
+}
+
+int main()
+{
+    foo(5L); // 5L is type long
+
+    return 0;
+}
+```
+
+- In the example above, `foo(long)` does not have an exact match. `long` cannot be numerically promoted, and thus the compiler moves onto numeric conversions - where it finds two potential matches. `long` can be numerically converted into either an `int` or `double`; since two possible matches are found, the function call is considered ambiguous.
+
+#### signed int to unsigned int or float
+
+```C++
+void foo(unsigned int)
+{
+}
+
+void foo(float)
+{
+}
+
+int main()
+{
+    foo(0);
+    return 0;
+}
+```
+
+- In the example above, `signed int` can be numerically converted to either an `unsigned int` or `float`.
+
+#### double to unsigned int or float
+
+```C++
+void foo(unsigned int)
+{
+}
+
+void foo(float)
+{
+}
+
+int main()
+{
+    foo(3.14159);
+
+    return 0;
+}
+```
+
+- In the example above, `double` can be numerically converted to either an `unsigned int` or `float`.
+
+### Resolving ambiguous matches
+- 
