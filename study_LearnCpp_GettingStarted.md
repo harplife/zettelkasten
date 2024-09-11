@@ -6288,4 +6288,18 @@ int main()
 >If an overloaded function is not differentiated, or if a function call to an overloaded function cannot be resolved to an overloaded function, then a compile error will result.
 
 ## Function overload differentiation
-- 
+- Overloaded functions are differentiated by ___number of parameters___ and/or ___type of parameters___.
+- Example of differentiation by number of parameters:
+	- `add(int, int)` is differentiated from `add(int, int, int)`
+- Example of differentiation by type of parameters:
+	- `add(int, int)` is differentiated from `add(double, double)`
+	- `add(int, double)` is differentiated from `add(double, int)`
+
+>[!warning] Parameter names does NOT affect differentiation.
+
+>[!warning] Return type does NOT affect differentiation.
+
+>[!warning] Type alias or typedef does NOT affect differentiation.
+
+>[!warning] `const` qualifier does NOT affect differentiation.
+

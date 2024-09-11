@@ -167,7 +167,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 221.5
+        "width": 221.5,
+        "collapsed": true
       },
       "right": {
         "id": "f152d8fd8ec1f4e0",
@@ -303,7 +304,7 @@
         }
       },
       "active": "9c9a2525afbfe6bd",
-      "mtime": "2024-09-10T21:08:35-05:00",
+      "mtime": "2024-09-10T21:12:19-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "Dictionary"
