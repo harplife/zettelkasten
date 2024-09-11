@@ -6588,4 +6588,79 @@ int main()
 - Refer to https://www.learncpp.com/cpp-tutorial/deleting-functions/
 
 ## Default arguments
+- A default argument is a default value provided for a function parameter.
+- For example:
+
+```C++
+void print(int x, int y=10) // 10 is the default argument
+{
+    std::cout << "x: " << x << '\n';
+    std::cout << "y: " << y << '\n';
+}
+```
+
+- When calling a function that has a default argument, the caller can optionally provide an argument for any function parameter that has a default argument.
+	- If an argument is provided, then that value is used. If not, the default argument value is used.
+- For example:
+
+```C++
+#include <iostream>
+
+void print(int x, int y=4) // 4 is the default argument
+{
+    std::cout << "x: " << x << '\n';
+    std::cout << "y: " << y << '\n';
+}
+
+int main()
+{
+    print(1, 2); // y will use user-supplied argument 2
+    print(3); // y will use default argument 4, as if we had called print(3, 4)
+
+    return 0;
+}
+```
+
+```console
+x: 1
+y: 2
+x: 3
+y: 4
+```
+
+- In the example above, parameter `y` in `print()` function has a default argument of `4`. When `print(1, 2)` is called, the provided argument `2` is used for the function. When `print(3)` is called, the default argument was used.
+
+>[!important] Default argument can be specified only by copy initialization `=`.
+>Direct initialization and brace initialization does NOT work for default arguments.
+
+### Multiple default arguments
+- A function can have multiple parameters with default arguments.
+- For example:
+
+```C++
+#include <iostream>
+
+void print(int x=10, int y=20, int z=30)
+{
+    std::cout << "Values: " << x << " " << y << " " << z << '\n';
+}
+
+int main()
+{
+    print(1, 2, 3); // all explicit arguments
+    print(1, 2); // rightmost argument defaulted
+    print(1); // two rightmost arguments defaulted
+    print(); // all arguments defaulted
+
+    return 0;
+}
+```
+
+- Note that the arguments can only be defaulted consecutively from the rightmost parameter.
+- C++ does not (as of C++23) support a function call where argument is defaulted for select parameters (e.g. `print(,,5)`). This has three major consequences:
+	- In a function call, any explicitly provided arguments must be the leftmost arguments (arguments with defaults cannot be skipped).
+	- If a parameter is given a default argument, all subsequent parameters (to the right) must also be given default arguments.
+	- If more than one parameter has a default argument, the leftmost parameter should be the one most likely to be explicitly set by the user.
+
+### Default arguments cannot be redeclared
 - 
