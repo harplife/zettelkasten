@@ -6308,6 +6308,9 @@ int main()
 
 ## Function overload resolution and ambiguous matches
 - The process of matching function calls to a specific overload function is called overload resolution.
-	- Overload resolution is straightforward and simple when the types of the arguments match the types of the parameters exactly.
-	- Overload resolution becomes ambiguous when the types of the arguments does NOT match the types of the parameters (and thus type conversions occur).
+- Overload resolution is straightforward and simple when the types of the arguments match the types of the parameters exactly.
+- Overload resolution becomes complex when the types of the arguments does NOT match the types of the parameters (and thus type conversions occur).
+	- For example, if `print(int x)` and `print(double x)` is defined and a function call with a `float` argument like `print(5.5f)` occurs, the overload resolution goes through complex steps to figure out the best match.
+
+### Resolving overloaded function calls
 - 
