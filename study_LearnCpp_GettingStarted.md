@@ -2196,9 +2196,10 @@ int main()
 >- **UTF-32** is simple but space-inefficient, making it less commonly used.
 
 ## Intro to type conversion and static_cast
-### Implicit type conversion
+### Intro to implicit type conversion
 - The process of converting a value from one type to another type is called **type conversion**.
 - When the compiler does type conversion on our behalf without us explicitly asking, we call this **implicit type conversion**.
+- Refer to [[#Implicit type conversion]]
 
 >[!important]
 >Implicit type conversion, also known as automatic type conversion or coercion, is performed automatically by the compiler when one data type is required, but a different data type is supplied. This process allows for seamless integration of different data types in expressions and function calls without requiring explicit casts from the programmer.
@@ -5882,6 +5883,7 @@ int main()
 - In C++17 and above, diagnostic message is optional.
 
 ## Implicit type conversion
+- Refer to [[#Intro to implicit type conversion]]
 - The process of producing a new value of some type from a value of a different type is called a **type conversion**.
 - Type conversion can be invoked in one of two ways:
 	- Implicitly, meaning compiler does the conversion as needed
@@ -6323,4 +6325,111 @@ int main()
 	- More than one matching function found; the compiler issues an error.
 
 ### The argument matching sequence
-- 
+#### Step 1
+- In this step, the compiler tries to find an exact match. This happens in two phases.
+- <mark class="hltr-yellow">Phase 1)</mark> the compiler will see if there is an overloaded function where the type of the arguments in the function call exactly matches the type of the parameters in the overloaded functions.
+	- For example, `foo(0)` is an exact match with `foo(int)`.
+- <mark class="hltr-yellow">Phase 2)</mark> the compiler will apply a number of trivial conversions to the arguments in the function call.
+- The **trivial conversions** are a set of specific conversion rules that will modify types (without modifying the value) for purposes of finding a match. These include:
+	- lvalue to rvalue conversions
+	- qualification conversions (e.g. non-const to const)
+	- non-reference to reference conversions
+- For example:
+
+```C++
+void foo(const int)
+{
+}
+
+void foo(const double&)
+{
+}
+
+int main()
+{
+    int x { 1 };
+    foo(x); // x trivially converted from int to const int
+
+    double d { 2.3 };
+    foo(d); // d trivially converted from double to const double&
+
+    return 0;
+}
+```
+
+- In the example above, qualification conversions occur to change `int` to `const int` and `double` to `const double&`.
+- Matches made via the trivial conversions are considered exact matches.
+- Ambiguous matches can occur with trivial conversions. For example:
+
+```C++
+void foo(int)
+{
+}
+
+void foo(const int&)
+{
+}
+
+int main()
+{
+    int x { 1 };
+    foo(x); // ambiguous match with foo(int) and foo(const int&)
+
+    return 0;
+}
+```
+
+- In the example above, `foo(int)` and `foo(const int&)` are both considered exact matches.
+
+#### Step 2
+- If exact match is NOT found, the compiler tries to find a match by applying numeric promotion to the argument(s).
+	- Certain narrow integral and floating point types can be automatically promoted to wider types, as discussed in [[#Floating point and integral promotion]].
+	- If a match is found after numeric promotion, the function call is resolved.
+- For example:
+
+```C++
+void foo(int)
+{
+}
+
+void foo(double)
+{
+}
+
+int main()
+{
+    foo('a');  // promoted to match foo(int)
+    foo(true); // promoted to match foo(int)
+    foo(4.5f); // promoted to match foo(double)
+
+    return 0;
+}
+```
+
+- In the example above, exact match for `foo(char)` could not be found (in step 1), so the compiler promotes the `char` argument to an `int` - which then matches with `foo(int)`. Similarly, `bool` is promoted to `int` then matched with `foo(int)`, just as `float` is promoted to `double` and matched with `foo(double)`.
+
+#### Step 3
+- If a match is not found even after numeric promotion, the compiler tries to find a match by applying numeric conversions to the arguments.
+	- Refer to [[#Numeric conversions]]
+- For example:
+
+```C++
+#include <string> // for std::string
+
+void foo(double)
+{
+}
+
+void foo(std::string)
+{
+}
+
+int main()
+{
+    foo('a'); // 'a' converted to match foo(double)
+
+    return 0;
+}
+```
+
+- In the example above, 
