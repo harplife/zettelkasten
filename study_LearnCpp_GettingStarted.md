@@ -6323,6 +6323,7 @@ int main()
 	- No matching functions found; the compiler moves on to the next step in the sequence.
 	- A single matching function found (the best match); No more steps.
 	- More than one matching function found; the compiler issues an error.
+- An **ambiguous match** occurs when the compiler finds two or more exact matches for a function call; when this occurs, the compiler will stop matching and issue a compile error stating that it has found an ambiguous function call.
 
 ### The argument matching sequence
 #### Step 1
@@ -6438,3 +6439,11 @@ int main()
 
 #### Step 4
 - If a match is NOT found by numeric conversion, the compiler tries to find a match through any user-defined conversions.
+	- #todo User-defined conversions not yet covered.
+
+#### Step 5
+- If a match is NOT found by user-defined conversion, the compiler will look for a matching function that uses ellipsis.
+	- #todo ellipsis not yet covered.
+
+#### Step 6
+- If a match is NOT found by this point, the compiler gives up and issues a compile error.
