@@ -6577,4 +6577,10 @@ int main()
 }
 ```
 
-- In the example above, `printInt(char)` and `printInt(bool)`
+- In the example above, `printInt(char)` and `printInt(bool)` is deleted and causes compilation errors.
+
+>[!warning] Deleted functions are candidates in function overload resolution, so these can cause ambiguous matches.
+
+>[!important] `= delete` means "I forbid this", not "this doesn't exist".
+
+### Deleting all non-matching overloads
