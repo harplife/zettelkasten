@@ -6584,3 +6584,8 @@ int main()
 >[!important] `= delete` means "I forbid this", not "this doesn't exist".
 
 ### Deleting all non-matching overloads
+- #todo This part makes more sense with Templates, so should be revisited later.
+- Refer to https://www.learncpp.com/cpp-tutorial/deleting-functions/
+
+## Default arguments
+- 
