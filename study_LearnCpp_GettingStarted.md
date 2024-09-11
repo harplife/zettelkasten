@@ -6432,4 +6432,9 @@ int main()
 }
 ```
 
-- In the example above, 
+- In the example above, `foo(char)` does not have an exact match, nor does it have a promotion match (`foo(int)`), and so `char` is numerically converted to a `double` - thus matching with `foo(double)`.
+
+>[!important] Matches made by numeric promotion takes precedence over any matches made by numeric conversions.
+
+#### Step 4
+- If a match is NOT found by numeric conversion, the compiler tries to find a match through any user-defined conversions.
