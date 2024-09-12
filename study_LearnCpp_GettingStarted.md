@@ -6550,7 +6550,31 @@ int main()
 - In the example above, the matching function to `print(char, char)` is `print(char, int)`, as `char` is numerically promoted to `int`.
 
 ### (note) overloaded functions and string literal
-- 
+#todo `string_view` vs `const char*` overloaded functions
+
+```C++
+#include <iostream>
+#include <string_view>
+
+void print(std::string_view s)
+{
+    std::cout << s << '\n';
+}
+
+void print(char c = ' ')
+{
+    std::cout << c << '\n';
+}
+
+int main()
+{
+    print("Hello, world"); // resolves to print(std::string_view)
+    print('a');            // resolves to print(char)
+    print();               // resolves to print(char)
+
+    return 0;
+}
+```
 
 
 ## Deleting functions
