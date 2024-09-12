@@ -6663,4 +6663,41 @@ int main()
 	- If more than one parameter has a default argument, the leftmost parameter should be the one most likely to be explicitly set by the user.
 
 ### Default arguments cannot be redeclared
-- 
+- Once declared, a default argument can NOT be declared again in the same translation unit. This is to prevent ambiguity when a default argument is declared in multiple places with different values.
+- For a function with a forward declaration and a function definition, the default argument must be declared in the forward declaration.
+- For example:
+
+foo.h
+```C++
+#ifndef FOO_H
+#define FOO_H
+void print(int x, int y=4);
+#endif
+```
+
+main.cpp
+```C++
+#include "foo.h"
+#include <iostream>
+
+void print(int x, int y)
+{
+    std::cout << "x: " << x << '\n';
+    std::cout << "y: " << y << '\n';
+}
+
+int main()
+{
+    print(5);
+
+    return 0;
+}
+```
+
+```console
+x: 5
+y: 4
+```
+
+### Default arguments and function overloading
+- Functions with default arguments may be overloaded.
