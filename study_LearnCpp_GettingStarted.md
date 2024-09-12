@@ -6761,4 +6761,10 @@ int main()
 }
 ```
 
-- In the example above, a function ca
+- In the example above, the function call `print()` resolved to `print(char)` with the default argument.
+
+>[!important] Presence of default arguments does affect how the compiler resolves overloaded fucntions.
+
+>[!warning]
+>If there are multiple 
+
