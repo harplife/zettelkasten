@@ -6763,8 +6763,6 @@ int main()
 
 - In the example above, the function call `print()` resolved to `print(char)` with the default argument.
 
->[!important] Presence of default arguments does affect how the compiler resolves overloaded fucntions.
-
->[!warning]
->If there are multiple 
+>[!warning] Default arguments affects how the compiler resolves overloaded functions.
+>If there happened to be multiple overloaded functions that has same number of default arguments (e.g. `print(int x = 5)` and `print(char x = 'a')`), a function call using default arguments (e.g. `print()`) becomes ambiguous - leading to a compile error.
 
