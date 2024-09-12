@@ -6550,7 +6550,9 @@ int main()
 - In the example above, the matching function to `print(char, char)` is `print(char, int)`, as `char` is numerically promoted to `int`.
 
 ### (note) overloaded functions and string literal
-#todo `string_view` vs `const char*` overloaded functions
+- Note that the function call with string literal exactly matches with `const char*` first. If `const char*` is not available but `string_view` is, then it will match with `string_view`.
+	- If there is `string_view` and `char`, then it will match with `string_view`.
+- For example:
 
 ```C++
 #include <iostream>
@@ -6558,22 +6560,27 @@ int main()
 
 void print(std::string_view s)
 {
+    std::cout << "string_view" << std::endl;
     std::cout << s << '\n';
 }
 
-void print(char c = ' ')
+void print(const char* s)
 {
-    std::cout << c << '\n';
+    std::cout << "const char*" << std::endl;
+    std::cout << s << '\n';
 }
 
 int main()
 {
-    print("Hello, world"); // resolves to print(std::string_view)
-    print('a');            // resolves to print(char)
-    print();               // resolves to print(char)
+    print("Hello, world");
 
     return 0;
 }
+```
+
+```console
+const char*
+Hello, world
 ```
 
 
