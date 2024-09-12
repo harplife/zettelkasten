@@ -6549,6 +6549,10 @@ int main()
 
 - In the example above, the matching function to `print(char, char)` is `print(char, int)`, as `char` is numerically promoted to `int`.
 
+### (note) overloaded functions and string literal
+- 
+
+
 ## Deleting functions
 - It's possible to prevent a function call with arguments that doesn't exactly match (without promotion or conversion) from being executed by deleting a function with `= delete` specifier.
 - For example:
