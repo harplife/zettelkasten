@@ -6769,9 +6769,20 @@ int main()
 	- For example, if there are two overloaded functions like `print(int x = 5)` and `print(char x = 'a')` and there's a function call like `print()`, the function call is considered ambiguous and causes a compile error.
 	- Similarly, `print(int x, int y = 10)` and `print(int x, double y = 20.5)` can cause ambiguity if there is a function call like `print(1)`.
 
-## Function templates
+## Template system
 - In C++, the **template system** was designed to simplify the process of creating functions (or classes) that are able to work with different data types.
 - A **template** describes what a function or class looks like. Unlike a normal definition (where all types must be specified), one or more placeholder types can be used inside a template.
 	- A **placeholder type** represents some type that is not known at the time the template is written, but that will be provided later.
 - Using a template is a good way to avoid writing redundant overloaded functions just to have a function for each data type.
+
+### Function templates
+- A function template is a function-like definition that is used to generate one or more overloaded functions, each with a different set of actual types.
+- In function template, placeholder types (aka type template parameters or template types) are used for any parameter types, return types, or types used in the function body that will be specified later.
+- C++ supports 3 different kinds of template parameters:
+	- Type template parameters
+	- Non-type template parameters (e.g. a constexpr value)
+	- Template template parameter
+- Type template parameters are by far the most common, so this lesson will focus on this for now.
+
+### Creating a templated max function
 - 
