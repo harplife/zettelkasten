@@ -6794,6 +6794,10 @@ T someFunction(T x, T y)
 ```
 
 - In the example above, `template <typename T>` is a **template parameter declaration**, where `T` is the type template parameter that is a placeholder for any type. It is placed above the function where `T` is being used as a type for the parameters.
+	- Template parameters are specified inside angled brackets `<>`.
+	- For each template parameter, the `typename` or `class` keyword is used, followed by the name of the type template parameter (e.g. `T`).
+
+>[!important] There's no difference between the `typename` and `class` keywords in template parameter declarations.
 
 ### Creating a templated max function
 - Here we convert a simple function that finds a max value between two numbers into a function template.
@@ -6814,5 +6818,18 @@ T max(T x, T y)
 {
 	return (x < y) ? y : x;
 }
+```
+
+### Naming template parameters
+- It's conventional to use a single capital letter (starting with `T`) for template parameter name when the template parameter is used in a trivial or obvious way.
+	- Especially when it's being used as a placeholder type.
+- If a type template parameter has a non-obvious usage or specific requirements that must be met, there are two common conventions for such names:
+	- Starting with a capital letter (e.g. `Allocator`).
+	- Prefixed with a `T`, then starting with a capital letter (e.g. `TAllocator`).
+- As an example, the standard library has an overload of `std::max` that is declared like this:
+
+```C++
+template< class T, class Compare >
+const T& max( const T& a, const T& b, Compare comp );
 ```
 
