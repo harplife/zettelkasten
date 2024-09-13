@@ -6961,4 +6961,5 @@ int main()
 >- It's rare for both non-template function and template function to exist.
 >- If there exists both non-template function and template function, then it's preferred for a normal function call to call upon the non-template function.
 
-### Instantiated functions
+>[!warning] Incorrect argument type for template function will result in error.
+>
