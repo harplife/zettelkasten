@@ -6833,3 +6833,63 @@ template< class T, class Compare >
 const T& max( const T& a, const T& b, Compare comp );
 ```
 
+## Function template instantiation
+- Function templates are not actually functions; their code isn't compiled or executed directly. Instead, function templates generate functions (that are compiled and executed).
+- Function template follows this syntax:
+	- `foo<actual_type>(arg1, arg2);`
+	- For example, `max<int>(3, 5);` for the example at [[#Creating a templated max function]]
+- The actual type that is specified in the angled brackets when the function template is called is referred to as **template argument**; the specified actual type will be used in place of template type (e.g. `int` replaces `T`).
+- For example:
+
+```C++
+#include <iostream>
+
+template <typename T>
+T max(T x, T y)
+{
+    return (x < y) ? y : x;
+}
+
+int main()
+{
+    std::cout << max<int>(1, 2) << '\n'
+
+    return 0;
+}
+```
+
+- The process of creating functions (with specific types) from function templates (with template types) is called **function template instantiation**.
+	- When a function is instantiated due to a function call, it's called **implicit instantiation**.
+	- A function that is instantiated from a template is called a **specialization**, more commonly referred to as **function instance**.
+	- The template from which a specialization is produced is called a **primary template**.
+- The code above can be summarized like so:
+	- A special function `int max(int x, int y)` was instantiated by a function call `max<int>(1, 2)`, using the primary template `T max(T x, T y)`.
+- After all the instantiations are done, this is what the compiler actually compiles using the code above:
+
+```C++
+#include <iostream>
+
+// a declaration for our function template (we don't need the definition any more)
+template <typename T>
+T max(T x, T y);
+
+template<>
+int max<int>(int x, int y) // the generated function max<int>(int, int)
+{
+    return (x < y) ? y : x;
+}
+
+int main()
+{
+    std::cout << max<int>(1, 2) << '\n'; // instantiates and calls function max<int>(int, int)
+
+    return 0;
+}
+```
+
+- A function template is only instantiated the first time a function call is made in each translation unit. Further calls to the function are routed to the already instantiated function.
+	- Conversely, if no function call is made to a function template, the function template won't be instantiated in that translation unit.
+
+>[!important] Compiler doesn't try to resolve a function call to a function template like overloaded functions.
+>In other words, template argument specifies the function instance that the compiler will match the function call to - even if the parameter types do not match the actual argument types given to the function call. For example, `foo<double>(1, 2)` will convert the `int` literals to `double`.
+
