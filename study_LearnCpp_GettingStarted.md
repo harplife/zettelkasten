@@ -6763,6 +6763,11 @@ int main()
 
 - In the example above, the function call `print()` resolved to `print(char)` with the default argument.
 
->[!warning] Default arguments affects how the compiler resolves overloaded functions.
->If there happened to be multiple overloaded functions that has same number of default arguments (e.g. `print(int x = 5)` and `print(char x = 'a')`), a function call using default arguments (e.g. `print()`) becomes ambiguous - leading to a compile error.
+### Default arguments and ambiguity
+- Default arguments can cause a function call to overloaded function ambiguous.
+- For example, if there happened to be multiple overloaded functions that has same number of default arguments (e.g. `print(int x = 5)` and `print(char x = 'a')`), a function call using default arguments (e.g. `print()`) becomes ambiguous - leading to a compile error.
+	- For example, if there are two overloaded functions like `print(int x = 5)` and `print(char x = 'a')` and there's a function call like `print()`, the function call is considered ambiguous and causes a compile error.
+	- Similarly, `print(int x, int y = 10)` and `print(int x, double y = 20.5)` can cause ambiguity if there is a function call like `print(1)`.
 
+## Function templates
+- 
