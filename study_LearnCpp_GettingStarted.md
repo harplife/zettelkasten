@@ -6771,4 +6771,7 @@ int main()
 
 ## Function templates
 - In C++, the **template system** was designed to simplify the process of creating functions (or classes) that are able to work with different data types.
+- A **template** describes what a function or class looks like. Unlike a normal definition (where all types must be specified), one or more placeholder types can be used inside a template.
+	- A **placeholder type** represents some type that is not known at the time the template is written, but that will be provided later.
+- Using a template is a good way to avoid writing redundant overloaded functions just to have a function for each data type.
 - 
