@@ -6776,13 +6776,43 @@ int main()
 - Using a template is a good way to avoid writing redundant overloaded functions just to have a function for each data type.
 
 ### Function templates
-- A function template is a function-like definition that is used to generate one or more overloaded functions, each with a different set of actual types.
+- A **function template** is a function-like definition that is used to generate one or more overloaded functions, each with a different set of actual types.
 - In function template, placeholder types (aka type template parameters or template types) are used for any parameter types, return types, or types used in the function body that will be specified later.
 - C++ supports 3 different kinds of template parameters:
-	- Type template parameters
-	- Non-type template parameters (e.g. a constexpr value)
-	- Template template parameter
+	- **Type template parameters**
+	- **Non-type template parameters** (e.g. a constexpr value)
+	- **Template template parameter**
 - Type template parameters are by far the most common, so this lesson will focus on this for now.
+- The simple form of function template looks like this:
+
+```C++
+template <typename T>
+T someFunction(T x, T y)
+{
+	// function body
+}
+```
+
+- In the example above, `template <typename T>` is a **template parameter declaration**, where `T` is the type template parameter that is a placeholder for any type. It is placed above the function where `T` is being used as a type for the parameters.
 
 ### Creating a templated max function
-- 
+- Here we convert a simple function that finds a max value between two numbers into a function template.
+- Here's the function before templating:
+
+```C++
+int max(int x, int y)
+{
+	return (x < y) ? y : x;
+}
+```
+
+- In order to cover various data types, `max()` function would have to be overloaded multiple times. Instead, a template function will do the job just fine:
+
+```C++
+template <typename T>
+T max(T x, T y)
+{
+	return (x < y) ? y : x;
+}
+```
+
