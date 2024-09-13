@@ -6770,4 +6770,5 @@ int main()
 	- Similarly, `print(int x, int y = 10)` and `print(int x, double y = 20.5)` can cause ambiguity if there is a function call like `print(1)`.
 
 ## Function templates
+- In C++, the **template system** was designed to simplify the process of creating functions (or classes) that are able to work with different data types.
 - 
