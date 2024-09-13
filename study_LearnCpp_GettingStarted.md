@@ -6919,7 +6919,7 @@ int main()
 >[!important] Compiler doesn't try to resolve a function call to a function template like overloaded functions.
 >In other words, template argument specifies the function instance that the compiler will match the function call to - even if the parameter types do not match the actual argument types given to the function call. For example, `foo<double>(1, 2)` will convert the `int` literals to `double`.
 
-## Template argument deduction
+### Template argument deduction
 - **Template argument deduction** allows the programmer to omit the template argument and have the compiler deduce the actual type based on the type of the argument in the function call; basically calling the template function like a normal function call.
 	- For example, `max<int>(1, 2)` can instead be `max(1, 2)`.
 	- The function call can also be with empty angled brackets, like `max<>(1, 2)`.
@@ -6996,4 +6996,53 @@ int main()
 
 - In the example above, using string literal (of type `const char*`) in a function call to template function `addOne()` was prevented.
 
+### Function templates and default arguments for non-template parameters
+- Just like normal functions, function templates can have default arguments for non-template parameters.
+- For example:
 
+```C++
+#include <iostream>
+
+template <typename T>
+void print(T val, int times=1)
+{
+    while (times--)
+    {
+        std::cout << val;
+    }
+}
+
+int main()
+{
+    print(5);      // print 5 1 time
+    print('a', 3); // print 'a' 3 times
+
+    return 0;
+}
+```
+
+```console
+5aaa
+```
+
+### Function templates with static local variables
+- Just like with any normal functions, function templates can have static local variable inside the function body. For example:
+
+```C++
+template <typename T>
+void printIDAndValue(T value)
+{
+    static int id{ 0 };
+    std::cout << ++id << ") " << value << '\n';
+}
+```
+
+- However, the main issue with using static local variable inside a function template is that not all instantiated functions share the same static local variable; in other words, instantiated function for a specific type has its own static local variable.
+	- It's easy to mistake that there is one static local variable for one template function. But in fact, there is one static local variable for one instantiated function.
+	- For example, `printIDAndValue(int)` has its own static local variable and `printIDAndValue(double)` has its own static local variable as well.
+
+### Generic programming
+- Because template types can be relaced with any actual type, template types are sometimes called **generic types**.
+	- Because templates can be written agnostically of specific types, programming with templates is sometimes called **generic programming**.
+- Whereas C++ typically has a strong focus on types and type checking, in contrast, generic programming focuses on the logic of algorithms and design of data structures without worrying so much about type information.
+- 
