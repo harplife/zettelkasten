@@ -6894,4 +6894,46 @@ int main()
 >In other words, template argument specifies the function instance that the compiler will match the function call to - even if the parameter types do not match the actual argument types given to the function call. For example, `foo<double>(1, 2)` will convert the `int` literals to `double`.
 
 ## Template argument deduction
+- **Template argument deduction** allows the programmer to omit the template argument and have the compiler deduce the actual type based on the type of the argument in the function call; basically calling the template function like a normal function call.
+	- For example, `max<int>(1, 2)` can instead be `max(1, 2)`.
+	- The function call can also be with empty angled brackets, like `max<>(1, 2)`.
+- When the function call has empty angled brackets (e.g. `max<>(1, 2)`), the compiler will only consider template functions.
+- When the function call is like a normal function call (e.g. `max(1, 2)`), the compiler will prefer a non-template function over a template function.
+- For example:
+
+```C++
+#include <iostream>
+
+template <typename T>
+T max(T x, T y)
+{
+    std::cout << "called max<int>(int, int)\n";
+    return (x < y) ? y : x;
+}
+
+int max(int x, int y)
+{
+    std::cout << "called max(int, int)\n";
+    return (x < y) ? y : x;
+}
+
+int main()
+{
+    std::cout << max<int>(1, 2) << '\n'; // calls max<int>(int, int)
+    std::cout << max<>(1, 2) << '\n';    // deduces max<int>(int, int) (non-template functions not considered)
+    std::cout << max(1, 2) << '\n';      // calls max(int, int)
+
+    return 0;
+}
+```
+
+- In the example above, `max<>(1, 2)` calls the template function `max<int>(int, int)`, while `max(1, 2)` calls the non-template function `max(int, int)`. Had the non-template function not exist, `max(1, 2)` would've called the template function `max<int>(int, int)`.
+
+>[!important] Using the normal function call syntax is preferred when calling a template function.
+>There are a few reasons for this:
+>- The syntax is more concise.
+>- It's rare for both non-template function and template function to exist.
+>- If there exists both non-template function and template function, then it's preferred for a normal function call to call upon the non-template function.
+
+### Function templates with non-template parameters
 - 
