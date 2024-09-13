@@ -6961,5 +6961,39 @@ int main()
 >- It's rare for both non-template function and template function to exist.
 >- If there exists both non-template function and template function, then it's preferred for a normal function call to call upon the non-template function.
 
->[!warning] Incorrect argument type for template function will result in error.
+>[!warning] Improper argument for template function will result in an error.
+>Just like with any function, providing an improper type of value to a function that expects a certain type of value will result in a semantic error. Even worse, if the operations inside the function does not support the type of the argument (the type doesn't support the operation), it will result in a compile error.
 >
+>For example, a function that does a simple addition of two integral values (e.g. `add(int, int)`) will not compile if the function call is `add(std::string, std::string)`.
+
+### Prevent instantiation of function templates with certain arguments
+- It is possible to prevent function templates with certain arguments to be called by using `= delete` specifier on a function template specialization.
+	- The `= delete` specifier was covered in [[#Deleting functions]].
+- For example:
+
+```C++
+#include <iostream>
+#include <string>
+
+template <typename T>
+T addOne(T x)
+{
+    return x + 1;
+}
+
+// Use function template specialization to tell the compiler that addOne(const char*) should emit a compilation error
+// const char* will match a string literal
+template <>
+const char* addOne(const char* x) = delete;
+
+int main()
+{
+    std::cout << addOne("Hello, world!") << '\n'; // compile error
+
+    return 0;
+}
+```
+
+- In the example above, using string literal (of type `const char*`) in a function call to template function `addOne()` was prevented.
+
+
