@@ -6833,6 +6833,32 @@ template< class T, class Compare >
 const T& max( const T& a, const T& b, Compare comp );
 ```
 
+### Function templates with non-template parameters
+- It is possible to create function templates that have both template parameters and non-template parameters. The type template parameter can be matched to any type, and the non-template parameters work like the parameters of normal functions.
+- For example:
+
+```C++
+// T is a type template parameter
+// double is a non-template parameter
+// We don't need to provide names for these parameters since they aren't used
+template <typename T>
+int someFcn(T, double)
+{
+    return 5;
+}
+
+int main()
+{
+    someFcn(1, 3.4); // matches someFcn(int, double)
+    someFcn(1, 3.4f); // matches someFcn(int, double) -- the float is promoted to a double
+    someFcn(1.2, 3.4); // matches someFcn(double, double)
+    someFcn(1.2f, 3.4); // matches someFcn(float, double)
+    someFcn(1.2f, 3.4f); // matches someFcn(float, double) -- the float is promoted to a double
+
+    return 0;
+}
+```
+
 ## Function template instantiation
 - Function templates are not actually functions; their code isn't compiled or executed directly. Instead, function templates generate functions (that are compiled and executed).
 - Function template follows this syntax:
@@ -6935,5 +6961,4 @@ int main()
 >- It's rare for both non-template function and template function to exist.
 >- If there exists both non-template function and template function, then it's preferred for a normal function call to call upon the non-template function.
 
-### Function templates with non-template parameters
-- 
+### Instantiated functions
