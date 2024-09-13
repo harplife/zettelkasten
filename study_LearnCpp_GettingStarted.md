@@ -6893,3 +6893,5 @@ int main()
 >[!important] Compiler doesn't try to resolve a function call to a function template like overloaded functions.
 >In other words, template argument specifies the function instance that the compiler will match the function call to - even if the parameter types do not match the actual argument types given to the function call. For example, `foo<double>(1, 2)` will convert the `int` literals to `double`.
 
+## Template argument deduction
+- 
