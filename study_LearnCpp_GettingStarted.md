@@ -7056,4 +7056,32 @@ void printIDAndValue(T value)
 - The compiler needs to see the definition of the template function whenever it is instantiated with a specific type. If the definition is not available, the compiler will not be able to generate the necessary code.
 	- This means that the definition of the template function needs to be in the same translation unit that it is called from, therefore the template function cannot be declared in another file (where the definition does not exist).
 - There are two approaches to separating template definitions in order to keep the code organized: single header file, or separate implementation file.
-- **Single header file** : the declaration and definition of the template function are both included in the same header file. This is the most common approach.
+- **Single header file** : the declaration and definition of the template function are both included in the same header file. This is the most common approach. For example:
+
+add.h
+```C++
+#ifndef ADD_H
+#define ADD_H
+
+template <typename T>
+T add(T a, T b) {
+    return a + b;
+}
+
+#endif // ADD_H
+```
+
+main.cpp
+```C++
+#include "add.h" // import the function template definition
+#include <iostream>
+
+int main()
+{
+    std::cout << add(2, 3) << '\n';
+    std::cout << add(5.4 + 6.7) << '\n';
+
+    return 0;
+}
+```
+
