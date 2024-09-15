@@ -7053,4 +7053,6 @@ void printIDAndValue(T value)
 - However, these drawbacks are fairly minor compared with the power ands safety that templates bring. A good rule of thumb is to create normal functions at first, and then convert them into function templates if the needs for an overload for different parameter types arise.
 
 ## Using function templates in multiple files
-- The fact that template functions are instantiated when they are called means that the function templates 
+- The compiler needs to see the definition of the template function whenever it is instantiated with a specific type. If the definition is not available, the compiler will not be able to generate the necessary code.
+	- This means that the definition of the template function needs to be in the same translation unit that it is called from, therefore the template function cannot be declared in another file (where the definition does not exist).
+- 
