@@ -7053,4 +7053,4 @@ void printIDAndValue(T value)
 - However, these drawbacks are fairly minor compared with the power ands safety that templates bring. A good rule of thumb is to create normal functions at first, and then convert them into function templates if the needs for an overload for different parameter types arise.
 
 ## Using function templates in multiple files
-- 
+- The fact that template functions are instantiated when they are called means that the function templates 
