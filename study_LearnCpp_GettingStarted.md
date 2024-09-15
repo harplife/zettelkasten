@@ -7045,4 +7045,12 @@ void printIDAndValue(T value)
 - Because template types can be relaced with any actual type, template types are sometimes called **generic types**.
 	- Because templates can be written agnostically of specific types, programming with templates is sometimes called **generic programming**.
 - Whereas C++ typically has a strong focus on types and type checking, in contrast, generic programming focuses on the logic of algorithms and design of data structures without worrying so much about type information.
+
+### Conclusion about templates
+- Function templates do have a few drawbacks:
+	- The code can become bloated and slow to compile because they expand with each call to a unique set of argument types.
+	- Function templates tend to produce unreadable error messages that are much harder to decipher than those of regular functions.
+- However, these drawbacks are fairly minor compared with the power ands safety that templates bring. A good rule of thumb is to create normal functions at first, and then convert them into function templates if the needs for an overload for different parameter types arise.
+
+## Using function templates in multiple files
 - 
