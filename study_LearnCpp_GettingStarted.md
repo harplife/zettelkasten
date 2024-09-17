@@ -7127,3 +7127,5 @@ int main()
 
 >[!important] Template definitions does not violate the ODR, because the instantiated functions are implicitly inline.
 
+## Function templates with multiple template types
+- 
