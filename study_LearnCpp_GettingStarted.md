@@ -7128,4 +7128,101 @@ int main()
 >[!important] Template definitions does not violate the ODR, because the instantiated functions are implicitly inline.
 
 ## Function templates with multiple template types
-- 
+- Calling a template function with multiple arguments of different types will cause a compile error, specifically when call is made with deduction, the template function has only one template type parameter, and non-template function (to match the call) does not exist.
+	- For example, `add(2, 3.5)` will cause an error for function template `T add(T x, T y)`.
+	- Note that type conversion does not occur when performing template argument deduction (it only occurs for resolving function overloads).
+- There are three ways to make a call to a function template with multiple arguments of different types:
+	- Explicitly convert the argument(s) to match each other.
+	- Don't use deduction (provide an explicit type template argument).
+	- Define a function template with multiple template type parameters.
+
+### Use static_cast to convert the arguments to matching types
+- For example:
+
+```C++
+#include <iostream>
+
+template <typename T>
+T max(T x, T y)
+{
+    return (x < y) ? y : x;
+}
+
+int main()
+{
+    std::cout << max(static_cast<double>(2), 3.5) << '\n'; // convert our int to a double so we can call max(double, double)
+
+    return 0;
+}
+```
+
+- In the example above, the problematic `max(int, double)` call was fixed to `max(double, double)` with type conversion. Code compiles without error.
+
+### Provide an explicit type template argument
+- For example:
+
+```C++
+#include <iostream>
+
+template <typename T>
+T max(T x, T y)
+{
+    return (x < y) ? y : x;
+}
+
+int main()
+{
+    // we've explicitly specified type double, so the compiler won't use template argument deduction
+    std::cout << max<double>(2, 3.5) << '\n';
+
+    return 0;
+}
+```
+
+- In the example above, the template argument is set to `double` and so the function call assumes that the both arguments to `max()` are meant to be `double`. When it's not a `double`, the argument is implicitly converted to `double`.
+
+### Function templates with multiple template type parameters
+- It is possible to define a function template with multiple template type parameters. For example:
+
+```C++
+#include <iostream>
+
+template <typename T, typename U>
+void print(T x, U y)
+{
+	std::cout << "x: " << x << std::endl;
+	std::cout << "y: " << y << std::endl;
+}
+
+int main()
+{
+	print(2, 3.5);
+	
+	return 0;
+}
+```
+
+- One little caveat is that the return type has to be `void` or `auto`, otherwise implicit type conversions can occur - which can be especially problematic when the narrowing conversion occur.
+	- For example, if the function template is `T add(T x, U y)` and the function call is `add(int, double)` (with the logic of adding two numbers), then `int` will be converted to `double` for the arithmetic operation, and then the result (which is `double`) will be converted to `int` type in order to match the return type. The compiler will issue a warning about possible loss of data.
+
+### Abbreviated function templates (C++20)
+- C++20 introduces a new use of the `auto` keyword, an **abbreviated function template** : when the `auto` keyword is used as a parameter type in a normal function, the compiler will automatically convert the function into a function template with each auto parameter becoming an independent template type parameter.
+- For example:
+
+```C++
+auto max(auto x, auto y)
+{
+    return (x < y) ? y : x;
+}
+```
+
+- The example above is a shorthand for the following:
+
+```C++
+template <typename T, typename U>
+auto max(T x, U y)
+{
+    return (x < y) ? y : x;
+}
+```
+
