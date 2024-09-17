@@ -7085,3 +7085,45 @@ int main()
 }
 ```
 
+- **Separate implementation file** : the declaration is in the header file, and the definition is in a separate `.tpp` file, which is included at the end of the header file. This approach can help keep the header file cleaner, but it requires careful management to ensure the `.tpp` file is included correctly. For example:
+
+add.h
+```C++
+#ifndef ADD_H
+#define ADD_H
+
+template <typename T>
+T add(T a, T b);
+
+#include "add.tpp"
+
+#endif
+```
+
+add.tpp
+```C++
+template <typename T>
+T add(T a, T b)
+{
+	return a + b;
+}
+```
+
+main.cpp
+```C++
+#include "add.h"
+#include <iostream>
+
+int main()
+{
+	std::cout << add(3, 4) << std::endl;
+	std::cout << add(7.5, 2.8) << std::endl;
+	return 0;
+}
+```
+
+- While the separate implementation file `.tpp` approach can be useful for organizing larger projects, it is less common and can introduce complexity. Most developers prefer to keep template definitions in the same header file to avoid potential issues with template instantiation.
+	- (Note) in visual studio, `.tpp` file is not recognized. It gives a warning about `add()` function not being defined in the header file. Everything still compiles fine without trouble though.
+
+>[!important] Template definitions does not violate the ODR, because the instantiated functions are implicitly inline.
+
