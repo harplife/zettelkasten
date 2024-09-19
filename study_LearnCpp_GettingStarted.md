@@ -7274,3 +7274,40 @@ int main()
 >If multiple function templates can match a call and the compiler can't determine which is more restrictive, the compiler will error with an ambiguous match.
 
 ## Non-type template parameters
+
+>[!reminder]
+>A type template parameter serves as a placeholder for an actual type that is passed in as a template argument.
+
+- While type template parameters are by far the most common type of template parameter used, there is another kind of template parameter worth knowing about: the non-type template parameter.
+- A **non-type template parameter** is a template parameter with a fixed type that serves as a placeholder for a constexpr value passed in as a template argument.
+- A non-type template parameter can be any of the following types:
+	- An integral type
+	- An enumeration type
+	- `std::nullptr_t`
+	- A floating point type (since C++20)
+	- A pointer or reference to an object
+	- A pointer or reference to a function
+	- A pointer or reference to a member function
+	- A literal class type (since C++20)
+
+### Defining non-type template parameters
+- Here's a simple example of a function that uses an `int` non-type template parameter:
+
+```C++
+#include <iostream>
+
+template <int N> // declare a non-type template parameter of type int named N
+void print()
+{
+    std::cout << N << '\n'; // use value of N here
+}
+
+int main()
+{
+    print<5>(); // 5 is our non-type template argument
+
+    return 0;
+}
+```
+
+- As seen in the example above, 
