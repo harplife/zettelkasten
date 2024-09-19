@@ -7327,4 +7327,6 @@ void print<5>()
 - As of C++20, function parameters cannot be `constexpr`. This is true for normal functions, `constexpr` functions, and even `consteval` functions.
 	- Function parameters cannot be `constexpr` because their values are not determined until runtime. The initialization of function parameters happens when the function is called, which means their values are not known at compile time. Since `constexpr` requires that the value be known and evaluated at compile time, it is not possible to declare function parameters as `constexpr`.
 	- Note that the argument can be a constant expression. Be sure not to mix up parameters and arguments.
-- 
+- Non-type template parameters are particularly useful for situations where certain logic inside a function or a class has to be compiled at compile time.
+- Non-type template parameters offer several advantages over normal function parameters:
+	- Compile-Time Evaluation : 
