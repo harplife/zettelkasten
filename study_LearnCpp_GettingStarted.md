@@ -7279,7 +7279,9 @@ int main()
 >A type template parameter serves as a placeholder for an actual type that is passed in as a template argument.
 
 - While type template parameters are by far the most common type of template parameter used, there is another kind of template parameter worth knowing about: the non-type template parameter.
-- A **non-type template parameter** is a template parameter with a fixed type that serves as a placeholder for a constexpr value passed in as a template argument.
+- A **non-type template parameter** is a template parameter with a fixed type that serves as a placeholder for a constant value passed in as a template argument.
+	- In other words, it is a template parameter that represents a constant value rather than a type.
+	- It allows the dev to create templates that are parameterized by values.
 - A non-type template parameter can be any of the following types:
 	- An integral type
 	- An enumeration type
@@ -7310,4 +7312,19 @@ int main()
 }
 ```
 
-- As seen in the example above, 
+- As seen in the example above, the non-type template parameter is declared as `N` of type `int`. When an integral value `5` is passed as the template argument, `N` becomes `5`.
+- The instantiated function may look something like this:
+
+```C++
+template <>
+void print<5>()
+{
+    std::cout << 5 << '\n';
+}
+```
+
+### Uses of non-type template parameters
+- As of C++20, function parameters cannot be `constexpr`. This is true for normal functions, `constexpr` functions, and even `consteval` functions.
+	- Function parameters cannot be `constexpr` because their values are not determined until runtime. The initialization of function parameters happens when the function is called, which means their values are not known at compile time. Since `constexpr` requires that the value be known and evaluated at compile time, it is not possible to declare function parameters as `constexpr`.
+	- Note that the argument can be a constant expression. Be sure not to mix up parameters and arguments.
+- 
