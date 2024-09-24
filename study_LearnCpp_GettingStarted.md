@@ -7329,4 +7329,10 @@ void print<5>()
 	- Note that the argument can be a constant expression. Be sure not to mix up parameters and arguments.
 - Non-type template parameters are particularly useful for situations where certain logic inside a function or a class has to be compiled at compile time.
 - Non-type template parameters offer several advantages over normal function parameters:
-	- Compile-Time Evaluation : 
+	- **Compile-Time Evaluation** : non-type template parameters are evaluated at compile time, which can lead to more efficient code. This allows for optimizations that are not possible with runtime parameters.
+	- **Type Safety** : Non-type template parameters enforce type safety at compile time. This ensures that only constant expressions of the correct type are used, reducing the risk of runtime errors.
+	- **Code Reusability** : Templates with non-type parameters can be reused with different constant values without duplicating code. This makes the code more modular and easier to maintain.
+	- **Performance** : Since non-type template parameters are resolved at compile time, they can eliminate the need for runtime checks and computations, leading to faster and more efficient code.
+	- **Static Polymorphism** : Non-type template parameters enable static polymorphism, allowing different behaviors to be encoded at compile time based on the template arguments. This can lead to more optimized and specialized code.
+	- **Memory Efficiency** : Non-type template parameters can help in creating fixed-size data structures, such as arrays or matrices, without the need for dynamic memory allocation. This can lead to more efficient memory usage.
+- 
