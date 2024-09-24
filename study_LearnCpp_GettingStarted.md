@@ -7335,4 +7335,58 @@ void print<5>()
 	- **Performance** : Since non-type template parameters are resolved at compile time, they can eliminate the need for runtime checks and computations, leading to faster and more efficient code.
 	- **Static Polymorphism** : Non-type template parameters enable static polymorphism, allowing different behaviors to be encoded at compile time based on the template arguments. This can lead to more optimized and specialized code.
 	- **Memory Efficiency** : Non-type template parameters can help in creating fixed-size data structures, such as arrays or matrices, without the need for dynamic memory allocation. This can lead to more efficient memory usage.
+- An example of Static Polymorphism using non-type template parameter:
+
+```C++
+template <typename T, bool IsDebug>
+class Logger {
+public:
+    void log(const T& message) {
+        if constexpr (IsDebug) {
+            std::cout << "DEBUG: " << message << std::endl;
+        } else {
+            std::cout << message << std::endl;
+        }
+    }
+};
+
+```
+
+- In the example above, the member function `log()` behaves a little differently, depending on how class `Logger` is instantiated with template argument for the non-type template parameter.
+- The standard library provides a class template `std::bitset` which uses a non-type template parameter to specify the number of bits at compile time. For example:
+
+```C++
+#include <bitset>
+std::bitset<8> bits(0b10101010);
+```
+
+- #todo looks like this section will be better understood once there is a better understanding of the classes.
+
+>[!important]
+>Non-type template parameters are used primarily when constexpr values needs to be passed to functions so that the functions can be used in contexts that require a constant expression.
+
+### Type deduction for non-type template parameters using auto (C++17)
+- As of  C++17, non-type template parameters may use `auto` to have the compiler deduce the non-type template parameter from the template argument. For example,
+
+```C++
+#include <iostream>
+
+template <auto N> // deduce non-type template parameter from template argument
+void print()
+{
+    std::cout << N << '\n';
+}
+
+int main()
+{
+    print<5>();   // N deduced as int `5`
+    print<'c'>(); // N deduced as char `c`
+
+    return 0;
+}
+```
+
+- Note that the ambiguous match does not occur because the instantiated functions are `print<5>` and `print<'c'>`, as opposed to `print(int)` and `print(char)` which would've caused ambiguous matches.
+
+## Intro to compound data types
 - 
