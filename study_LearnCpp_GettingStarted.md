@@ -7388,5 +7388,66 @@ int main()
 
 - Note that the ambiguous match does not occur because the instantiated functions are `print<5>` and `print<'c'>`, as opposed to `print(int)` and `print(char)` which would've caused ambiguous matches.
 
-## Intro to compound data types
+## Value categories (lvalues and rvalues)
+
+>[!reminder]
+>An expression is a combination of literals, variables, operators, and function calls that can be expected to produce a singular value.
+
+- To help determine how expressions should evaluate and where they can be used, all expressions have two properties: a **type** and a **value category**.
+- The **type of an expression** is equivalent to the type of the value, object, or function that results from the evaluated expression.
+- The type of an expression must be determinable at compile type. However, the value of an expression may be determined at either compile time (constexpr) or runtime (non-constexpr).
+- The **value category of an expression** (or subexpression) indicates whether an expression resolves to a value, a function, or an object of some kind.
+	- Prior to C++11, there were only two possible value categories : `lvalue` and `rvalue`.
+	- In C++11, in order to support a new feature called **move semantics**, three additional value categories were added : `gvalue`, `prvalue`, and `xvalue`.
+
+### Lvalue and rvalue expressions
+- An **lvalue** (aka left value or locator value) is an expression that evaluates to an identifiable object or function (or bit-field).
+
+>[!important]
+>The term "identify" is used by the C++ standard, but is not well-defined. An entity (such as an object or function) that has an identity can be differentiated from other similar entities (typically by comparing the addresses of the entity).
+
+- Entities with identities can be accessed via an identifier, reference, or pointer.
+	- These typically have a lifetime longer than a single expression or statement.
+- Take this example:
+
+```C++
+int main()
+{
+	int x = 5;
+	int y = x; // x is an lvalue expression
+
+	return 0;
+}
+```
+
+- In the example above, the expression `x` is an lvalue expression as it evaluates to variable `x` (which has an identifier).
+- Since the introduction of constants into the language, lvalues come in two subtypes :
+	- **Modifiable lvalue** is an lvalue whose value can be modified.
+	- **Non-modifiable lvalue** is an lvalue whose value can't be modified (const or constexpr).
+- For example:
+
+```C++
+int main()
+{
+    int x{};
+    const double d{};
+
+    int y { x }; // x is a modifiable lvalue expression
+    const double e { d }; // d is a non-modifiable lvalue expression
+
+    return 0;
+}
+```
+
 - 
+
+## Intro to compound data types
+- Compound data types (aka composite data types) are data types that can be constructed from fundamental data types (or other compound data types). These types allow the dev to group multiple values together, providing a way to manage and manipulate related data as a single unit.
+- C++ supports the following compound types:
+	- Functions
+	- Arrays
+	- Pointer types
+	- Pointer to member types
+	- Reference types
+	- Enumerated types
+	- Class types
