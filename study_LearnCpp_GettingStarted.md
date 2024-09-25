@@ -7480,7 +7480,143 @@ int main()
 >Prior to C++11, an lvalue reference was commonly just called a **reference** because there was only one type of reference.
 
 - To declare an lvalue reference type, an ampersand `&` is used in the type declaration. For example, `int&` is a reference to an `int` object.
-- 
+- An lvalue reference variable is a variable that acts as a reference to an lvalue (usually another variable).
+- For example:
+
+```C++
+#include <iostream>
+
+int main()
+{
+    int x { 5 };    // x is a normal integer variable
+    int& ref { x }; // ref is an lvalue reference variable that can now be used as an alias for variable x
+
+    std::cout << x << '\n';  // print the value of x (5)
+    std::cout << ref << '\n'; // print the value of x via ref (5)
+
+    return 0;
+}
+```
+
+- In the example above, a variable called `ref` is a reference variable that can be used to read the value of variable `x`.
+
+>[!important]
+>The location of ampersand `&` does not make any difference in behavior. For example, `int& x`, `int &x`, and `int & x` behaves the same way. Which you choose is a matter of style. Modern C++ programmers tend to prefer attaching the ampersand to the type, as it makes clearer that the reference is part of the type information, not the identifier.
+
+- As mentioned before, a reference can be used to modify the value of the object being referenced. For example:
+
+```C++
+#include <iostream>
+
+int main()
+{
+    int x { 5 }; // normal integer variable
+    int& ref { x }; // ref is now an alias for variable x
+
+    std::cout << x << ref << '\n'; // print 55
+
+    x = 6; // x now has value 6
+
+    std::cout << x << ref << '\n'; // prints 66
+
+    ref = 7; // the object being referenced (x) now has value 7
+
+    std::cout << x << ref << '\n'; // prints 77
+
+    return 0;
+}
+```
+
+- In the example above, it can be seen that modifying the value of `ref` also modifies the value of `x`. In a sense, `ref` is an alias for `x`.
+
+>[!warning] All references must be initialized.
+>Simply declaring a reference variable without an initializer produces an error.
+
+- References are initialized using a form of initialization called **reference initialization**.
+	- When a reference is initialized with an object (or function), it is said to be **bound** to that object (or function).
+	- The process by which such a reference is bound is called **reference binding**.
+	- The object (or function) being referenced is sometimes called the **referent**.
+
+>[!warning] Lvalue references must be bound to a *modifiable* lvalue.
+>Reference initialization to a constant value (meaning non-modifiable) causes an error. For this reason, lvalue references are occasionally caled **lvalue references to non-const**, or **non-const reference**.
+
+>[!warning] Once initialized, a reference cannot be *reseated*, meaning it cannot be changed to reference another object.
+>Assigning a variable to an already initialized reference only changes the value of the object it is referencing.
+
+>[!warning] References and referents have independent lifetimes.
+>A reference can be destroyed before the object it is referencing - which does not affect the referent. However, if the referent is destroyed before the reference, the reference is left referencing an object that no longer exists; meaning it becomes a **dangling reference** which produces undefined behavior.
+
+- References are not objects. A reference is not required to exist or occupy storage. If possible, the compiler will optimize references away by replacing all occurrences of a reference with the referent.
+	- However, this isn't always possible. In such cases, references may require storage.
+	- This means that the term "reference variable" is a bit of a misnomer, as variables are objects with a name, and references aren't objects.
+- Because references aren't objects, they can't be used anywhere an object is required.
+	- For example, a reference cannot reference another reference. Even if a reference was initialized with another reference, it would end up referencing the referent that the initializer was bound to.
+
+### Lvalue reference to const
+- While normal lvalue reference cannot be bound to a constant value, a `const` reference can. For example:
+
+```C++
+int main()
+{
+    const int x { 5 };    // x is a non-modifiable lvalue
+    const int& ref { x }; // okay: ref is a an lvalue reference to a const value
+
+    return 0;
+}
+```
+
+- An lvalue reference that is bound to a constant value is called an **lvalue reference to a const value** (reference to const, or const reference).
+- A const reference can only access the value; they cannot modify it.
+- A const reference to a modifiable lvalue (non-const value) is possible. In such a case, the referent is treated as `const` when accessed through the reference.
+	- The underlying object remains non-const.
+- For example:
+
+```C++
+#include <iostream>
+
+int main()
+{
+    int x { 5 };          // x is a modifiable lvalue
+    const int& ref { x }; // okay: we can bind a const reference to a modifiable lvalue
+
+    std::cout << ref << '\n'; // okay: we can access the object through our const reference
+    ref = 7;                  // error: we can not modify an object through a const reference
+
+    x = 6;                // okay: x is a modifiable lvalue, we can still modify it through the original identifier
+
+    return 0;
+}
+```
+
+>[!warning] It's best to avoid using const reference to a non-const value unless it is truly necessary.
+
+>[!important] A const reference can be initialized with an rvalue (e.g. `int& ref = 5;`).
+>In such a case, a temporary object is created, to which the const reference is bound to.
+>
+>The lifetime of the temporary object is extended to match the lifetime of the reference. However, the temporaries returned from a function are not eligible for lifetime extension.
+
+- A const reference can be initialized with a value of a different type, as long as the value can be implicitly converted to the reference type. For example:
+
+```C++
+#include <iostream>
+
+int main()
+{
+    // case 1
+    const double& r1 { 5 };  // temporary double initialized with value 5, r1 binds to temporary
+
+    std::cout << r1 << '\n'; // prints 5
+
+    // case 2
+    char c { 'a' };
+    const int& r2 { c };     // temporary int initialized with value 'a', r2 binds to temporary
+
+    std::cout << r2 << '\n'; // prints 97 (since r2 is a reference to int)
+
+    return 0;
+}
+```
+
 
 
 ## Intro to compound data types
