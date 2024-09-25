@@ -7466,6 +7466,21 @@ int main()
 }
 ```
 
+>[!important]
+>Refer to this [link](https://en.cppreference.com/w/cpp/language/value_category) to see full list of value categories.
+
+### Lvalue references
+- A **reference** is an alias for an existing object. Once a reference has been defined, any operation on the reference is applied to the object being referenced.
+	- A reference can be used to read or modify the object being referenced.
+- Modern C++ contains two types of references: lvalue references, and rvalue references.
+	- lvalue reference will be discussed here, whereas rvalue references will be discussed much later.
+- An lvalue reference acts as an alias for an existing lvalue (such as a variable).
+
+>[!important]
+>Prior to C++11, an lvalue reference was commonly just called a **reference** because there was only one type of reference.
+
+- To declare an lvalue reference type, an ampersand `&` is used in the type declaration. For example, `int&` is a reference to an `int` object.
+- 
 
 
 ## Intro to compound data types
