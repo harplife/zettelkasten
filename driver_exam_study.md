@@ -48,3 +48,12 @@
 
 ### One-way turns
 - When turning onto a one-way street, turn into the first lane you come to.
+
+### Multiple-lane turns
+- When turning left onto a multi-lane street, turn into the inside lane (left-hand lane).
+	- After you have completed your turn into the inside lane, turn on your signal light and move into the right-hand lane when it's safe.
+- When turning right into a multi-lane street, turn into the first lane you come to (right-hand lane).
+	- After you have completed your turn into the right-hand lane, turn on your signal light and move into the left-hand lane when it's safe.
+
+### Backing vehicle
+- When backing a vehicle, look over the right shoulder 
