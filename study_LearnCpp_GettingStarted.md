@@ -7617,7 +7617,7 @@ int main()
 }
 ```
 
-
+working on this section 9/26
 
 ## Intro to compound data types
 - Compound data types (aka composite data types) are data types that can be constructed from fundamental data types (or other compound data types). These types allow the dev to group multiple values together, providing a way to manage and manipulate related data as a single unit.
