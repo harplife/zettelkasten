@@ -7617,9 +7617,13 @@ int main()
 }
 ```
 
+>[!important]
+>When a const lvalue reference binds to a value of a different type, the compiler will create a temporary object of the same type as the reference, initialize it using the value, and then bind the reference to the temporary.
+>
+>For example, when `char c = 'a';` and `const int& r2 = c;`, `r2` does not reference `c`, but instead references to a temporary object holding the value `97` which is an `int` equivalent to `char` value of `'a'`.
 
-
-
+### Constexpr lvalue references
+- 
 
 
 ## Intro to compound data types
