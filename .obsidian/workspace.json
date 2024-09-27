@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "driver_exam_study.md"
+                "file": "study_LearnCpp_GettingStarted.md"
               }
             }
           }
@@ -211,7 +211,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "driver_exam_study.md",
+                "file": "study_LearnCpp_GettingStarted.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -246,7 +246,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "driver_exam_study.md",
+                "file": "study_LearnCpp_GettingStarted.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -281,7 +281,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "driver_exam_study.md",
+                "file": "study_LearnCpp_GettingStarted.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -314,11 +314,11 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "edc39ea2f46ab44e",
+  "active": "9c9a2525afbfe6bd",
   "lastOpenFiles": [
+    "driver_exam_study.md",
     "attachments/Pasted image 20240926153339.png",
     "attachments/Pasted image 20240926152252.png",
-    "driver_exam_study.md",
     "study_LearnCpp_GettingStarted.md",
     "attachments/xkcd_goto.png",
     "cpp_Table_of_Precedence_and_Associativity.md",
@@ -333,7 +333,6 @@
     "attachments/Pasted image 20240731161159.png",
     "attachments/Pasted image 20240731161133.png",
     "attachments/Pasted image 20240731154252.png",
-    "attachments/Pasted image 20240723171123.png",
     "computer_science/languages/cpp/knou_cpp_notes.md",
     "computer_science/languages/cpp/cpp_cherno_playlist_notes.md",
     "opengl_code_guide.md",
