@@ -7722,6 +7722,7 @@ int main()
 >[!important] Favor pass-by-const-reference over pass-by-reference unless there is a specific reason to do otherwise (e.g. function needs to change the value of an argument).
 
 - As mentioned in [[#Lvalue reference to const]], a const lvalue reference can bind to a value of a different type as long as that value is convertible to the type of the reference.
+	- The primary motivation for allowing this is so that
 
 
 ## Intro to compound data types
