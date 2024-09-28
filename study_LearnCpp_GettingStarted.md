@@ -7692,7 +7692,36 @@ int main() {
 >[!warning] Pass-by-reference only works with arguments that are modifiable lvalues (non-const variable).
 
 ### Pass by const lvalue reference
-- 
+- As mentioned in [[#Lvalue reference to const]], a reference to const can bind to modifiable lvalues, non-modifiable lvalues, and rvalues. Therefore, if a parameter is a const reference, then it will be able to bind to any type of argument, including a const type.
+- For example:
+
+```C++
+#include <iostream>
+
+void printRef(const int& y) // y is a const reference
+{
+    std::cout << y << '\n';
+}
+
+int main()
+{
+    int x { 5 };
+    printRef(x);   // ok: x is a modifiable lvalue, y binds to x
+
+    const int z { 5 };
+    printRef(z);   // ok: z is a non-modifiable lvalue, y binds to z
+
+    printRef(5);   // ok: 5 is rvalue literal, y binds to temporary int object
+
+    return 0;
+}
+```
+
+- Pass-by-const-reference offers the same primary benefit as pass-by-reference (avoiding a copy of the argument) while also guaranteeing that the function can NOT change the value being referenced.
+
+>[!important] Favor pass-by-const-reference over pass-by-reference unless there is a specific reason to do otherwise (e.g. function needs to change the value of an argument).
+
+- As mentioned in [[#Lvalue reference to const]], a const lvalue reference can bind to a value of a different type as long as that value is convertible to the type of the reference.
 
 
 ## Intro to compound data types
