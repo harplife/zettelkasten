@@ -7622,8 +7622,47 @@ int main()
 >
 >For example, when `char c = 'a';` and `const int& r2 = c;`, `r2` does not reference `c`, but instead references to a temporary object holding the value `97` which is an `int` equivalent to `char` value of `'a'`.
 
-### Constexpr lvalue references
-- 
+### Constexpr lvalue references (optional)
+- When `constexpr` is applied to a reference, it allows the reference to be used in a constant expression.
+- Constexpr references can only be bound to objects with static duration (either globals or static locals).
+	- This is because the compiler knows where static objects will be instantiated in memory, so it can treat that address as a compile-time constant.
+- A constexpr reference cannot bind to a non-static local variable.
+	- This is because the address of local variables is not known until the function they are defined within is actually called.
+- For example:
+
+```C++
+int g_x { 5 };
+
+int main()
+{
+    [[maybe_unused]] constexpr int& ref1 { g_x }; // ok, can bind to global
+
+    static int s_x { 6 };
+    [[maybe_unused]] constexpr int& ref2 { s_x }; // ok, can bind to static local
+
+    int x { 6 };
+    [[maybe_unused]] constexpr int& ref3 { x }; // compile error: can't bind to non-static object
+
+    return 0;
+}
+```
+
+- When defining a constexpr reference to a const variable, both `constexpr` and `const` needs to be applied. For example:
+
+```C++
+int main()
+{
+    static const int s_x { 6 }; // a const int
+    [[maybe_unused]] constexpr const int& ref2 { s_x }; // needs both constexpr and const
+
+    return 0;
+}
+```
+
+>[!warning] Constexpr references aren't typically used.
+
+### Pass by lvalue reference
+
 
 
 ## Intro to compound data types
