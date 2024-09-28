@@ -7663,6 +7663,36 @@ int main()
 
 ### Pass by lvalue reference
 
+>[!reminder]
+>**Pass-by-value** is a method of passing arguments to a function where the function receives a copy of the variable's value.
+
+- Problem with pass-by-value is that some objects (e.g. a class type) can be expensive to copy.
+	- `std::string` is a class type which is expensive to copy.
+- Pass-by-reference is a method of passing arguments to a function where the function receives a reference to the original variable, rather than a copy of the variable's value. This allows the function to modify the original variable directly.
+	- When using a pass-by-reference, a function parameter is declared as a reference type using ampersand `&` (e.g. `std::string& param`).
+	- The reference acts as an alias for the argument.
+- For example:
+
+```C++
+#include <iostream>
+using namespace std;
+
+void increment(int &num) {
+    num++; // This modifies the original variable
+}
+
+int main() {
+    int value = 5;
+    increment(value);
+    cout << "Value after increment: " << value << endl; // Output will be 6
+    return 0;
+}
+```
+
+>[!warning] Pass-by-reference only works with arguments that are modifiable lvalues (non-const variable).
+
+### Pass by const lvalue reference
+- 
 
 
 ## Intro to compound data types
