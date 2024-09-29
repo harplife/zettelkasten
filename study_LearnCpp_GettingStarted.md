@@ -7783,6 +7783,46 @@ int main()
 >[!important]
 >`std::string_view` as a parameter works well will arguments of different types - `std::string`, `std::string_view`, and `C-style string/literal`.
 
+### Introduction to pointers
+- Although the memory address of a variable isn't exposed by default, the access to this information is available; the **address-of operator** `&` returns the memory address of its operand.
+	- For example, `&x` returns the memory address of `x`.
+- Memory addresses are typically printed as hexadecimal values, often without the `0x` prefix.
+- For objects that use more than one byte of memory, address-of will return the memory address of the first byte used by the object.
+
+>[!important]
+>The `&` symbol tends to cause confusion because it has different meanings depending on context:
+>- When following a type name, `&` denotes an lvalue reference (e.g. `int& ref`).
+>- When used in a unary context in an expression, `&` is the address-of operator (e.g. `&x`).
+>- When used in a binary context in an expression, `&` is the Bitwise AND operator (e.g. `x & y`).
+
+- The most useful thing that can be done with an address is to access the value stored at that address; the **dereference operator** `*` returns the value at a given memory address as an lvalue. For example:
+
+```C++
+#include <iostream>
+
+int main()
+{
+    int x{ 5 };
+    std::cout << x << '\n';  // print the value of variable x
+    std::cout << &x << '\n'; // print the memory address of variable x
+
+    std::cout << *(&x) << '\n'; // print the value at the memory address of variable x (parentheses not required, but make it easier to read)
+
+    return 0;
+}
+```
+
+- A **pointer** is an object that holds a memory address (typically of another variable) as its value.
+	- A pointer type is declared using an asterisk `*`, placed between the type name and the variable identifier. For example, `int* x` or `int *x`. The placement is a matter of preference (though this guide suggests next to the type name).
+
+>[!warning]
+>In modern C++, the pointers that are discussed in this chapter is sometimes called "raw pointers" or "dumb pointers", in order to differentiate them from "smart pointers" which was introduced into the C++ language more recently (thus covered much later in this guide).
+
+>[!warning]
+>When declaring multiple variables on a single line (which should be generally avoided), the asterisk has to be included with each variable. For example, `int* ptr1, * ptr2;`.
+
+
+
 
 ## Intro to compound data types
 - Compound data types (aka composite data types) are data types that can be constructed from fundamental data types (or other compound data types). These types allow the dev to group multiple values together, providing a way to manage and manipulate related data as a single unit.
