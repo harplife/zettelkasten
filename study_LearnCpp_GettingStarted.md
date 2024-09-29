@@ -7815,6 +7815,7 @@ int main()
 
 - A **pointer** is an object that holds a memory address (typically of another variable) as its value.
 	- A pointer type is declared using an asterisk `*`, placed between the type name and the variable identifier. For example, `int* x` or `int *x`. The placement is a matter of preference (though this guide suggests next to the type name).
+	- A pointer is said to be **pointing** at an object if it holds the address of that object. The object that a pointer is pointing to is often referred to as the **pointee**.
 
 >[!warning]
 >In modern C++, the pointers that are discussed in this chapter is sometimes called "raw pointers" or "dumb pointers", in order to differentiate them from "smart pointers" which was introduced into the C++ language more recently (thus covered much later in this guide).
@@ -7827,7 +7828,73 @@ int main()
 	- Wile pointers contain a garbage address, and dereferencing a wild pointer will result in undefined behavior. Because of this, a pointer should always be initialized to a known value.
 - Since pointers hold addresses, when a pointer is assigned/initialized with a value, that value has to be an address.
 	- Reminder that the address-of operator `&` can be used to get an address of a value (e.g. `&x`).
-- Putting it all together, a pointer can be initialized - 
+- Once a pointer is initialized with an address of another object, the dereference operator `*` can be used to access the value at that address.
+- Putting it all together:
+
+```C++
+#include <iostream>
+
+int main()
+{
+    int x{ 5 };
+    std::cout << x << '\n'; // print the value of variable x
+
+    int* ptr{ &x }; // ptr holds the address of x
+    std::cout << *ptr << '\n'; // use dereference operator to print the value at the address that ptr is holding (which is x's address)
+
+    return 0;
+}
+```
+
+>[!warning] type of a pointer must match the type of the object being pointed to.
+>An `int` pointer must point to an `int` object. If an `int` pointer points to a `double` or any type other than `int`, than it will result in an error.
+
+### Pointers and assignment
+- Assignment with pointers can be used in two different ways:
+	- To change what the pointer is pointing at (by assigning the pointer a new address).
+	- To change the value being pointed at (by assigning the dereferenced pointer a new value).
+- An example of pointer assignment changing what the pointer is pointing at:
+
+```C++
+#include <iostream>
+
+int main()
+{
+    int x{ 5 };
+    int* ptr{ &x }; // ptr initialized to point at x
+
+    std::cout << *ptr << '\n'; // print the value at the address being pointed to (x's address)
+
+    int y{ 6 };
+    ptr = &y; // // change ptr to point at y
+
+    std::cout << *ptr << '\n'; // print the value at the address being pointed to (y's address)
+
+    return 0;
+}
+```
+
+- An example of pointer assignment changing the value being pointed at:
+
+```C++
+#include <iostream>
+
+int main()
+{
+    int x{ 5 };
+    int* ptr{ &x }; // initialize ptr with address of variable x
+
+    std::cout << x << '\n';    // print x's value
+    std::cout << *ptr << '\n'; // print the value at the address that ptr is holding (x's address)
+
+    *ptr = 6; // The object at the address held by ptr (x) assigned value 6 (note that ptr is dereferenced here)
+
+    std::cout << x << '\n';
+    std::cout << *ptr << '\n'; // print the value at the address that ptr is holding (x's address)
+
+    return 0;
+}
+```
 
 
 ## Intro to compound data types
