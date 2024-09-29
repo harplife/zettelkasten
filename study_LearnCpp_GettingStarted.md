@@ -7783,7 +7783,8 @@ int main()
 >[!important]
 >`std::string_view` as a parameter works well will arguments of different types - `std::string`, `std::string_view`, and `C-style string/literal`.
 
-### Introduction to pointers
+## Introduction to pointers
+### Pointers
 - Although the memory address of a variable isn't exposed by default, the access to this information is available; the **address-of operator** `&` returns the memory address of its operand.
 	- For example, `&x` returns the memory address of `x`.
 - Memory addresses are typically printed as hexadecimal values, often without the `0x` prefix.
@@ -7821,7 +7822,12 @@ int main()
 >[!warning]
 >When declaring multiple variables on a single line (which should be generally avoided), the asterisk has to be included with each variable. For example, `int* ptr1, * ptr2;`.
 
-
+### Pointer initialization
+- A pointer that has not been initialized (e.g. `int* x;`) is sometimes called a **wild pointer**.
+	- Wile pointers contain a garbage address, and dereferencing a wild pointer will result in undefined behavior. Because of this, a pointer should always be initialized to a known value.
+- Since pointers hold addresses, when a pointer is assigned/initialized with a value, that value has to be an address.
+	- Reminder that the address-of operator `&` can be used to get an address of a value (e.g. `&x`).
+- Putting it all together, a pointer can be initialized - 
 
 
 ## Intro to compound data types
