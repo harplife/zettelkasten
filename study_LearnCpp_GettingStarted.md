@@ -7942,7 +7942,37 @@ int main()
 - Note that the size of the pointer remains the same regardless of the size of the pointee.
 
 ### Dangling pointers
-- 
+- A **dangling pointer** (invalid pointer) is a pointer that is holding the address of an object that is no longer valid (e.g. because it has been destroyed).
+	- Dereferencing a dangling pointer will lead to an undefined behavior. However, any other use of an invalid pointer value is implementation-defined.
+- An example of a dangling pointer:
+
+```C++
+#include <iostream>
+
+int main()
+{
+    int x{ 5 };
+    int* ptr{ &x };
+
+    std::cout << *ptr << '\n'; // valid
+
+    {
+        int y{ 6 };
+        ptr = &y;
+
+        std::cout << *ptr << '\n'; // valid
+    } // y goes out of scope, and ptr is now dangling
+
+    std::cout << *ptr << '\n'; // undefined behavior from dereferencing a dangling pointer
+
+    return 0;
+}
+```
+
+### Null pointers
+- Besides a memory address, there is one additional value that a pointer can hold; a **null value**, which is a special value that means something has no value.
+- When a pointer is holding a null value, it means the pointer is not pointing at anything. Such a pointer is called a **null pointer**.
+	- For example, `int* ptr{};` creates a null pointer.
 
 
 ## Intro to compound data types
