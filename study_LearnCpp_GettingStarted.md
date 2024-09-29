@@ -7972,7 +7972,35 @@ int main()
 ### Null pointers
 - Besides a memory address, there is one additional value that a pointer can hold; a **null value**, which is a special value that means something has no value.
 - When a pointer is holding a null value, it means the pointer is not pointing at anything. Such a pointer is called a **null pointer**.
-	- For example, `int* ptr{};` creates a null pointer.
+- There are multiple ways to initialize a null pointer:
+	- Using `nullptr` (C++11 and later)
+		- e.g. `int* ptr = nullptr;`
+	- Using `NULL` (inherited from C. NOT recommended)
+		- e.g. `int* ptr = NULL;`
+	- Using `0` (NOT recommended)
+		- e.g. `int* ptr = 0;` or `int* ptr = (int*)0;`
+	- Using `std::nullptr_t`
+		- e.g. `std::nullptr_t nullPtr = nullptr; int* ptr = static_cast<int*>(nullPtr);`
+	- Using empty direct initialization (which defaults to `nullptr`)
+		- e.g. `int* ptr {};`
+
+>[!important] Using `nullptr` to initialize a null pointer is generally recommended in modern C++.
+>Use `std::nullptr_t` to explicitly define a type that holds a null pointer. It's less common for pointer initialization, but it is useful for function signatures and template programming.
+
+>[!warning] Dereferencing a null pointer results in undefined behavior.
+
+- A null pointer can be checked by using a conditional to test whether a pointer has value `nullptr` or not (e.g. `if (ptr == nullptr)`).
+	- Another way is to simply omit the `== nullptr` part (e.g. `if (ptr)`), which works because pointers get implicitly converted to a boolean value (`false` if null pointer, `true` otherwise).
+
+>[!warning] Conditionals can only be used to differentiate null pointers from non-null pointers.
+>There is no convenient way to determine whether a non-null pointer is pointing to a valid object or an invalid object (dangling).
+
+>[!important] Avoid dereferencing a null pointer by using a conditional to ensure a pointer is non-null.
+>Also, it is the dev's responsibility to ensure that all pointers to an object that has just been destroyed are properly set to `nullptr`.
+
+
+
+
 
 
 ## Intro to compound data types
