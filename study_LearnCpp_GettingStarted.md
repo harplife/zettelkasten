@@ -7916,7 +7916,33 @@ int main()
 	- References must always be bound to an object, while pointers can point to nothing.
 	- References are "safe" (outside of dangling references), but pointers are inherently dangerous (discussed later).
 
+### The address-of operator returns a pointer
+- Technically speaking, the address-of operator `&` does NOT return the address of its operand (as a literal). Instead, it returns a pointer containing the address of the operand, whose type is derived from the argument.
+- For example:
 
+```C++
+#include <iostream>
+#include <typeinfo>
+
+int main()
+{
+	int x{ 4 };
+	std::cout << typeid(&x).name() << '\n'; // print the type of &x
+
+	return 0;
+}
+```
+
+- The code above prints `int *` (on Visual Studio) or `pi` (with GCC). The result of `typeid().name()` is compiler-dependent.
+
+### The size of pointers
+- The size of a pointer is dependent upon the architecture the executable is compiled for.
+	- A 32-bit executable uses 32-bit memory addresses.
+	- Consequently, a pointer on a 32-bit machine is 32 bits (4 bytes), which also means a pointer on a 64-bit machine is 64 bits (8 bytes).
+- Note that the size of the pointer remains the same regardless of the size of the pointee.
+
+### Dangling pointers
+- 
 
 
 ## Intro to compound data types
