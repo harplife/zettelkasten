@@ -7851,9 +7851,9 @@ int main()
 
 ### Pointers and assignment
 - Assignment with pointers can be used in two different ways:
-	- To change what the pointer is pointing at (by assigning the pointer a new address).
-	- To change the value being pointed at (by assigning the dereferenced pointer a new value).
-- An example of pointer assignment changing what the pointer is pointing at:
+	- To change the pointee (by assigning the pointer a new address).
+	- To change the value of the pointee (by assigning the dereferenced pointer a new value).
+- An example of pointer assignment changing the pointee:
 
 ```C++
 #include <iostream>
@@ -7874,7 +7874,12 @@ int main()
 }
 ```
 
-- An example of pointer assignment changing the value being pointed at:
+```console
+5
+6
+```
+
+- An example of pointer assignment changing the value of the pointee:
 
 ```C++
 #include <iostream>
@@ -7895,6 +7900,15 @@ int main()
     return 0;
 }
 ```
+
+```console
+5
+5
+6
+6
+```
+
+
 
 
 ## Intro to compound data types
