@@ -7439,7 +7439,7 @@ int main()
 }
 ```
 
-- An rvalue (aka right value) is an expression that evaluates to a value (and is not an lvalue).
+- An **rvalue** (aka right value) is an expression that evaluates to a value (and is not an lvalue).
 	- Commonly seen rvalues include literals (except C-style string literals, which are lvalues), and the return values of functions and operators.
 - Rvalues aren't identifiable (meaning they have to be used immediately), and only exist within the scope of the expression in which they are used.
 - For example:
