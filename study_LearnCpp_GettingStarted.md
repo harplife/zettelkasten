@@ -7908,13 +7908,6 @@ int main()
 6
 ```
 
-### Pointer vs. reference
-- Pointers and references both provide a way to indirectly access another object. The primary difference is that with pointers, the address-of and dereference happens explicitly, whereas with references, they happen implicitly.
-- There are some other differences between pointers and references:
-	- References are not objects, whereas pointers are.
-	- References can NOT be reseated (changed to reference something else), while pointers can change their pointee.
-	- References must always be bound to an object, while pointers can point to nothing.
-	- References are "safe" (outside of dangling references), but pointers are inherently dangerous (discussed later).
 
 ### The address-of operator returns a pointer
 - Technically speaking, the address-of operator `&` does NOT return the address of its operand (as a literal). Instead, it returns a pointer containing the address of the operand, whose type is derived from the argument.
@@ -7998,9 +7991,22 @@ int main()
 >[!important] Avoid dereferencing a null pointer by using a conditional to ensure a pointer is non-null.
 >Also, it is the dev's responsibility to ensure that all pointers to an object that has just been destroyed are properly set to `nullptr`.
 
+### Pointer vs. reference
+- Pointers and references both provide a way to indirectly access another object. The primary difference is that with pointers, the address-of and dereference happens explicitly, whereas with references, they happen implicitly.
+- There are some other differences between pointers and references:
+	- References are not objects, whereas pointers are.
+	- References can NOT be reseated (changed to reference something else), while pointers can change their pointee.
+	- References must always be bound to an object, while pointers can point to nothing.
+	- References are "safe" (outside of dangling references), but pointers are inherently dangerous (discussed later).
 
+>[!important] Use references when you want to ensure that an object is always valid and prefer cleaner syntax.
 
+>[!important] Use pointers when you need to allow for nullability, perform dynamic memory management, or need more flexible ownership semantics.
 
+- References are generally safer to use, so it's best to favor references over pointers.
+
+### Pointers and const
+- 
 
 
 ## Intro to compound data types
