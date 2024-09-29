@@ -7908,6 +7908,14 @@ int main()
 6
 ```
 
+### Pointer vs. reference
+- Pointers and references both provide a way to indirectly access another object. The primary difference is that with pointers, the address-of and dereference happens explicitly, whereas with references, they happen implicitly.
+- There are some other differences between pointers and references:
+	- References are not objects, whereas pointers are.
+	- References can NOT be reseated (changed to reference something else), while pointers can change their pointee.
+	- References must always be bound to an object, while pointers can point to nothing.
+	- References are "safe" (outside of dangling references), but pointers are inherently dangerous (discussed later).
+
 
 
 
