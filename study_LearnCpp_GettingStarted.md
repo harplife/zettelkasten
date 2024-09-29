@@ -7775,6 +7775,13 @@ int main()
 - However, there is a choice of using a reference (e.g. `const std::string&`), which is a way to directly access the value of `std::string` object. This is useful in two cases:
 	- In C++14 or older, `std::string_view` is not available.
 	- The operation inside a function requires specifically a `std::string` object or C-style string (`std::string_view` does not efficiently convert back to `std::string`).
+- Other than the specific cases above, `std::string_view` (as a parameter) is more efficient than `const std::string&`. Consider three different arguments `std::string`, `std::string_view`, and `C-style string/literal`:
+	- With `std::string` as an argument, `std::string_view` parameter makes an inexpensive conversion. A `const std::string&` parameter makes an inexpensive reference binding. Either way is good.
+	- With `std::string_view` as an argument, `std::string_view` parameter makes an inexpensive copy, whereas `const std::string&` parameter requires an expensive explicit conversion. `std::string_view` parameter is better in this case.
+	- With `C-style string/literal` as an argument, `std::string_view` parameter makes an inexpensive conversion, whereas `const std::string&` parameter makes an expensive conversion. `std::string_view` parameter is better in this case.
+
+>[!important]
+>`std::string_view` as a parameter works well will arguments of different types - `std::string`, `std::string_view`, and `C-style string/literal`.
 
 
 ## Intro to compound data types
