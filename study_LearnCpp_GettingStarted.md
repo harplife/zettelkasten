@@ -7722,7 +7722,59 @@ int main()
 >[!important] Favor pass-by-const-reference over pass-by-reference unless there is a specific reason to do otherwise (e.g. function needs to change the value of an argument).
 
 - As mentioned in [[#Lvalue reference to const]], a const lvalue reference can bind to a value of a different type as long as that value is convertible to the type of the reference.
-	- The primary motivation for allowing this is so that
+	- The primary motivation for allowing this is so that a value can be passed as an argument to either a value parameter or a const reference parameter in exactly the same way.
+- For example:
+
+```C++
+#include <iostream>
+
+void printVal(double d)
+{
+    std::cout << d << '\n';
+}
+
+void printRef(const double& d)
+{
+    std::cout << d << '\n';
+}
+
+int main()
+{
+    printVal(5); // 5 converted to temporary double, copied to parameter d
+    printRef(5); // 5 converted to temporary double, bound to parameter d
+
+    return 0;
+}
+```
+
+>[!important]
+>As a rule of thumb, pass fundamental types by value, and class (or struct) types by const reference.
+>
+>Other common types to pass by value: enumerated types and `std::string_view`.
+>Other common types to pass by (const) reference: `std::string`, `std::array`, and `std::vector`.
+
+### Pass-by-value vs. pass-by-reference
+- The cost of copying an object is generally proportional to two things:
+	- The size of the object; objects that use more memory take more time to copy.
+	- Any additional setup costs; some class types do additional setup when they are instantiated, which also means these setup costs must be paid each time an object is copied.
+- Accessing an object through a reference is slightly more expensive than accessing an object through a normal variable identifier.
+	- With a variable identifier, the running program can just go to the memory address assigned to that variable and access the value directly.
+	- With a reference, there usually is an extra step; the program must first access the reference to determine which object is being referenced, and only then can it go to that memory address for that object and access the value.
+	- Sometimes the compiler can optimize code using objects passed by value more highly than code using objects passed by reference. This means code generated to access objects passed by reference is typically slower than the code generated for objects passed by value.
+
+>[!important]
+>Favor pass-by-value when objects are cheap to copy (the cost of copying is similar to the cost of binding).
+>
+>Conversely, favor pass-by-reference when objects are expensive to copy (the cost of copying is well above the cost of binding).
+
+>[!important]
+>There isn't an exact standard that states what "cheap to copy" is, but a good rule of thumb is to consider an object to be cheap if it is smaller than 3 memory addresses (e.g. `sizeof(obj) < 3 * sizeof(void*)`).
+
+### std::string_view vs. const std::string&
+- Generally speaking, `std::string_view` is cheaper (than `std::string`) to access the value of a `std::string` object, which also means that it is cheaper to copy using `std::string_view`.
+- However, there is a choice of using a reference (e.g. `const std::string&`), which is a way to directly access the value of `std::string` object. This is useful in two cases:
+	- In C++14 or older, `std::string_view` is not available.
+	- The operation inside a function requires specifically a `std::string` object or C-style string (`std::string_view` does not efficiently convert back to `std::string`).
 
 
 ## Intro to compound data types
