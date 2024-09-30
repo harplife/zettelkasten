@@ -8008,10 +8008,30 @@ int main()
 ### Pointers and const
 - `const` works on pointers in two different ways : `const int*` and `int* const`.
 	- The difference between those two lies in what is being made constant; the pointer itself or the value being pointed to.
-- `const int*` means that the pointer points to a constant integer. 
+- `const int*` means that the pointer points to a constant integer. In other words, it is a non-const pointer that points to a `const int` value (its value cannot be changed). For example:
 
->[!warning] If a normal pointer is assigned a pointee of `const` type, then a compile error will occur.
+```C++
+const int* ptr = &x;
+*ptr = 5; // Error: cannot modify the value through the pointer.
+ptr = &y; // Okay: can change the poitner to point to another integer.
+```
 
+>[!warning]
+>While `const int*` can point to a constant integer, `int*` cannot and it will cause a compile error.
+
+- `int* const` means that the pointer itself is a const pointer. In other words, the pointer cannot be changed to point to another address, but the value of the integer it points to can be modified. For example:
+
+```C++
+int* const ptr = &x;
+*ptr = 5;  // Okay: Can modify the value through the pointer.
+ptr = &y;  // Error: Cannot change the pointer itself.
+```
+
+>[!important]
+>`const int*` is referred to as **pointer-to-const**. `int* const` is referred to as **const pointer**.
+
+- It is possible to combine pointer-to-const and const pointer, which makes **const-pointer-to-const**. It cannot be changed to point to another address, nor can the value of the pointee be changed.
+	- It can only be dereferenced to get the value it is pointing at.
 
 ## Intro to compound data types
 - Compound data types (aka composite data types) are data types that can be constructed from fundamental data types (or other compound data types). These types allow the dev to group multiple values together, providing a way to manage and manipulate related data as a single unit.
