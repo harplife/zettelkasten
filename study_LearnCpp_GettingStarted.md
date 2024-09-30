@@ -8033,6 +8033,38 @@ ptr = &y;  // Error: Cannot change the pointer itself.
 - It is possible to combine pointer-to-const and const pointer, which makes **const-pointer-to-const**. It cannot be changed to point to another address, nor can the value of the pointee be changed.
 	- It can only be dereferenced to get the value it is pointing at.
 
+## Pass by address
+
+>[!reminder]
+>Values can be passed to a function via pass-by-value or pass-by-reference.
+
+- C++ provides a third way to pass values to a function called pass-by-address.
+- Pass-by-address means passing the memory address of a variable to a function, allowing the function to access and modify the actual variable. This is typically done using pointers.
+- For example:
+
+```C++
+#include <iostream>
+using namespace std;
+
+void increment(int* ptr) {
+    (*ptr)++;  // Dereference the pointer and increment the value
+}
+
+int main() {
+    int x = 10;
+    increment(&x);  // Pass the address of x
+    cout << "x = " << x << endl;  // Output: x = 11
+    return 0;
+}
+```
+
+- Key characteristics of pass-by-address:
+	- Modifying the original variable: since the function gets the address of the variable, it can modify the original value stored at that address.
+	- Memory efficiency: instead of copying large objects, only the address (usually 4 or 8 bytes) is passed, making it efficient when dealing with large data structures.
+	- Pointer syntax: a pointer is used in the function's parameter to receive the address.
+
+
+
 ## Intro to compound data types
 - Compound data types (aka composite data types) are data types that can be constructed from fundamental data types (or other compound data types). These types allow the dev to group multiple values together, providing a way to manage and manipulate related data as a single unit.
 - C++ supports the following compound types:
