@@ -8006,7 +8006,11 @@ int main()
 - References are generally safer to use, so it's best to favor references over pointers.
 
 ### Pointers and const
-- 
+- `const` works on pointers in two different ways : `const int*` and `int* const`.
+	- The difference between those two lies in what is being made constant; the pointer itself or the value being pointed to.
+- `const int*` means that the pointer points to a constant integer. 
+
+>[!warning] If a normal pointer is assigned a pointee of `const` type, then a compile error will occur.
 
 
 ## Intro to compound data types
