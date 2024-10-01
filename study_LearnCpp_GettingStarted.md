@@ -8131,9 +8131,38 @@ int main()
 }
 ```
 
-### The type of null pointer
-- `std::nullptr_t`, defined in header `<cstddef>`, is the type for `nullptr`. 
+### std::nullptr_t
+- `std::nullptr_t`, defined in header `<cstddef>`, is the type for `nullptr`. It is useful for when writing a function that only accepts a null pointer. For example:
 
+```C++
+#include <iostream>
+#include <cstddef> // for std::nullptr_t
+
+void print(std::nullptr_t)
+{
+    std::cout << "in print(std::nullptr_t)\n";
+}
+
+void print(int*)
+{
+    std::cout << "in print(int*)\n";
+}
+
+int main()
+{
+    print(nullptr); // calls print(std::nullptr_t)
+
+    int x { 5 };
+    int* ptr { &x };
+
+    print(ptr); // calls print(int*)
+
+    ptr = nullptr;
+    print(ptr); // calls print(int*) (since ptr has type int*)
+
+    return 0;
+}
+```
 
 ### Pass-by-address vs. pass-by-reference
 - Pass-by-address is preferred over pass-by-reference in these scenarios:
@@ -8151,7 +8180,8 @@ int main()
 	- Generic programming with function templates, avoiding pointer complications.
 	- Avoiding pointer-related issues, such as null pointers or pointer arithmetic errors.
 
-
+## Return by reference and return by address
+- When a function returns a value, a copy of that value is 
 
 
 ## Intro to compound data types
