@@ -8106,7 +8106,33 @@ int main()
 >[!important] Function overloading with either pass-by-value or const-pass-by-reference may be better.
 
 ### Pass by address by reference
-- Consider a function `nullify(int* ptr)` whose purpose is to set the pointer passed as an argument
+- Consider a function `nullify(int* ptr2)` whose purpose is to set the pointer (with a function call `nullify(ptr)`) to a null pointer `ptr2 = nullptr;`. Unlike pass-by-address where the pointer is able to modify the value of the pointee, the function is unable to change the address the pointer is pointing to; this is because a copy of the pointer is made, and any changes to that copy does not affect the original pointer.
+- In order to modify the address that a pointer is holding, a **pass-by-address-by-reference** is needed. For example:
+
+```C++
+#include <iostream>
+
+void nullify(int*& refptr) // refptr is now a reference to a pointer
+{
+    refptr = nullptr; // Make the function parameter a null pointer
+}
+
+int main()
+{
+    int x{ 5 };
+    int* ptr{ &x }; // ptr points to x
+
+    std::cout << "ptr is " << (ptr ? "non-null\n" : "null\n");
+
+    nullify(ptr);
+
+    std::cout << "ptr is " << (ptr ? "non-null\n" : "null\n");
+    return 0;
+}
+```
+
+### The type of null pointer
+- `std::nullptr_t`, defined in header `<cstddef>`, is the type for `nullptr`. 
 
 
 ### Pass-by-address vs. pass-by-reference
