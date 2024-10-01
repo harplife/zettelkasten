@@ -8181,8 +8181,10 @@ int main()
 	- Avoiding pointer-related issues, such as null pointers or pointer arithmetic errors.
 
 ## Return by reference and return by address
-- When a function returns a value, a copy of that value is made. If the return type of the function is a class type (e.g. `std::string`), this can be expensive.
-- 
+- When a function returns a value, a copy of that value is made. If the return type of the function is a class type (e.g. `std::string`), this can be expensive. There are two ways to avoid making a copy from a function return: return-by-reference and return-by-address.
+
+### Return by reference
+- Return-by-reference means that a function returns a reference to an object, rather than returning a copy of the object. When returning by reference, the caller of the function gets direct access to the original object, allowing modifications to the returned value to affect the original object.
 
 
 ## Intro to compound data types
