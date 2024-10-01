@@ -8033,13 +8033,15 @@ ptr = &y;  // Error: Cannot change the pointer itself.
 - It is possible to combine pointer-to-const and const pointer, which makes **const-pointer-to-const**. It cannot be changed to point to another address, nor can the value of the pointee be changed.
 	- It can only be dereferenced to get the value it is pointing at.
 
-## Pass by address
+## Intro to pass by address
+### Pass by address
 
 >[!reminder]
 >Values can be passed to a function via pass-by-value or pass-by-reference.
 
 - C++ provides a third way to pass values to a function called pass-by-address.
-- Pass-by-address means passing the memory address of a variable to a function, allowing the function to access and modify the actual variable. This is typically done using pointers.
+- **Pass-by-address** means passing the memory address of a variable to a function, allowing the function to access and modify the actual variable.
+	- This is typically done by using a pointer for a function parameter (e.g. `int* ptr`), and then making a function call with an argument that has an address-of operator (e.g. `&arg`).
 - For example:
 
 ```C++
@@ -8058,10 +8060,12 @@ int main() {
 }
 ```
 
-- Key characteristics of pass-by-address:
-	- Modifying the original variable: since the function gets the address of the variable, it can modify the original value stored at that address.
-	- Memory efficiency: instead of copying large objects, only the address (usually 4 or 8 bytes) is passed, making it efficient when dealing with large data structures.
-	- Pointer syntax: a pointer is used in the function's parameter to receive the address.
+- **Key characteristics of pass-by-address:**
+	- **Modifying the original variable**: since the function gets the address of the variable, it can modify the original value stored at that address.
+	- **Memory efficiency**: instead of copying large objects, only the address (usually 4 or 8 bytes) is passed, making it efficient when dealing with large data structures.
+	- **Pointer syntax**: a pointer is used in the function's parameter to receive the address.
+
+### Pass-by-address vs. pass-by-reference
 
 
 
