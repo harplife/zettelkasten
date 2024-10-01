@@ -8181,7 +8181,8 @@ int main()
 	- Avoiding pointer-related issues, such as null pointers or pointer arithmetic errors.
 
 ## Return by reference and return by address
-- When a function returns a value, a copy of that value is 
+- When a function returns a value, a copy of that value is made. If the return type of the function is a class type (e.g. `std::string`), this can be expensive.
+- 
 
 
 ## Intro to compound data types
