@@ -8106,7 +8106,7 @@ int main()
 >[!important] Function overloading with either pass-by-value or const-pass-by-reference may be better.
 
 ### Pass by address by reference
-- 
+- Consider a function `nullify(int* ptr)` whose purpose is to set the pointer passed as an argument
 
 
 ### Pass-by-address vs. pass-by-reference
