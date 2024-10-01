@@ -8065,8 +8065,11 @@ int main() {
 	- **Memory efficiency**: instead of copying large objects, only the address (usually 4 or 8 bytes) is passed, making it efficient when dealing with large data structures.
 	- **Pointer syntax**: a pointer is used in the function's parameter to receive the address.
 
-### Pass-by-address vs. pass-by-reference
+>[!warning] Pass-by-address deals with a pointer, which means there should be a safe guard against a null pointer.
+>Either set a logic for when the argument is NOT a null pointer, or terminate early (using return or static_return) if it is a null pointer.
 
+### Pass by address cannot handle rvalue
+- Pass-by-address does not work with an rvalue. This is because an rvalue is a temporary value that does not have a memory address, and pointers require a valid memory address to point to.
 
 
 ## Intro to compound data types
