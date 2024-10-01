@@ -8070,6 +8070,59 @@ int main() {
 
 ### Pass by address cannot handle rvalue
 - Pass-by-address does not work with an rvalue. This is because an rvalue is a temporary value that does not have a memory address, and pointers require a valid memory address to point to.
+	- If an rvalue is passed (to a function that uses pass by address), then a compilation error will occur.
+- An rvalue can be handled by pass-by-value, or pass-by-reference-to-const.
+
+>[!reminder]
+>Unlike pass-by-reference, pass-by-reference-to-const can handle rvalue; a temporary object is made for the rvalue.
+
+### Null pointer as default argument
+- One of the common uses for pass-by-address is to allow a function to accept an "optional" argument. For example:
+
+```C++
+#include <iostream>
+
+void printIDNumber(const int *id=nullptr)
+{
+    if (id)
+        std::cout << "Your ID number is " << *id << ".\n";
+    else
+        std::cout << "Your ID number is not known.\n";
+}
+
+int main()
+{
+    printIDNumber(); // we don't know the user's ID yet
+
+    int userid { 34 };
+    printIDNumber(&userid); // we know the user's ID now
+
+    return 0;
+}
+```
+
+- In the example above, because the default argument is set to `nullptr`, when the function call is made without an argument, it defaults to a null pointer - which the function deals with accordingly.
+
+>[!important] Function overloading with pass-by-value
+
+
+### Pass-by-address vs. pass-by-reference
+- Pass-by-address is preferred over pass-by-reference in these scenarios:
+	- Dynamic memory management: necessary for allocating and freeing memory with `new` and `delete`.
+	- Passing null or optional values: pointers can be null, unlike references.
+	- Modifying multiple variables: pointers can modify multiple variables explicitly via addresses.
+	- Array manipulation: pointers allow efficient iteration and manipulation of array elements.
+	- Interfacing with C-style APIs: C functions expect pointers, not references.
+	- Multiple levels of indirection: when dealing with pointers-to-pointers (or higher levels).
+	- Low-level system programming: required for direct memory access and hardware interaction.
+- Pass-by-reference is preferred over pass-by-address in these scenarios:
+	- Modifying variables or objects in functions without the complexity of pointers.
+	- Passing large objects or structs efficiently, without copying.
+	- Operator overloading for classes, keeping the syntax clean.
+	- Generic programming with function templates, avoiding pointer complications.
+	- Avoiding pointer-related issues, such as null pointers or pointer arithmetic errors.
+
+
 
 
 ## Intro to compound data types
