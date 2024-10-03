@@ -8189,7 +8189,39 @@ int main()
 	- **No copy is made**: the function returns a reference to an existing object, so no new object is created or copied.
 	- **Modifications affect the original**: if the function returns a non-const reference, the caller can modify the returned object, and those changes will affect the original object.
 	- **The object must outlive the function**: the object being returned by reference must have a lifetime that extends beyond the function's scope. Returning a reference to a local variable will result in undefined behavior.
-- 
+- For example:
+
+```C++
+int& getElement(int arr[], int index) {
+    return arr[index];  // Returns a reference to an element in the array
+}
+
+int main() {
+    int numbers[] = {1, 2, 3, 4, 5};
+    getElement(numbers, 2) = 10;  // Modifies the 3rd element of the array
+    cout << numbers[2];  // Output: 10
+    return 0;
+}
+```
+
+- In the example above, `getElement()` returns a reference to an element in the array `numbers[]`. Using the reference returned by the function, an element in the array can be modified.
+
+>[!warning] Do not return references to local variables.
+>Returning a local variable inside a function causes an undefined behavior as the lifetime of the local variable is limited to the end of the function scope.
+>
+>However, it is possible to return reference to local variables if the local variables are set to `static`, which means they are destroyed at the end of the program.
+
+- Return-by-const-reference (e.g. `const int& foo()`) can be used to ensure that the caller does not modify the object.
+
+>[!warning]
+>While const reference bound to a literal can create a temporary object that has an extended lifetime (thus making the reference valid), this does not apply to a literal that is returned by const reference (thus making the reference invalid).
+>
+>This is true regardless of whether the literal was returned directly (e.g. `return 5`) or indirectly (e.g. `foo(5)`).
+
+
+
+
+
 
 
 ## Intro to compound data types
