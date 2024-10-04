@@ -8346,7 +8346,16 @@ int main()
 Hello
 ```
 
-
+### Return by address
+- <mark class="hltr-trippy">Return-by-address</mark> is a method where a function returns a pointer (i.e. the address) to an object or a variable.
+	- This approach allows the calling code to access and manipulate the object directly via its address.
+	- Returning by address if often used to avoid copying large objects or to allow a function to return dynamically allocated memory.
+- Key pointers of return-by-address:
+	- **Returns a pointer**: instead of returning a copy of the object, the function returns a pointer to the object, allowing the caller to access the original object.
+	- **Modifying the object**: the caller can use the returned address to modify the object (if it's not a `const` pointer).
+	- **Dynamic memory management**: return by address is commonly used when returning dynamically allocated memory using `new` or similar constructs.
+	- **Risk of dangling pointers**: if the function returns the address of a local object (automatic storage duration), it results in undefined behavior, as the object is destroyed when the function ends.
+- 
 
 
 ## Intro to compound data types
