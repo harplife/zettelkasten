@@ -8291,9 +8291,60 @@ int main()
 - In the example above, the intended result might've been `12` with `id1` being assigned `1` and `id2` being assigned `2`, but because both `id1` and `id2` references the same static variable, they both hold the value of `2` (which prints out `22` at the end).
 - It's best to avoid modifying the value of the static local variable, and one of the best way to prevent the modification is to use `const` (e.g. `static const int&`).
 	- This topic ties to [[#Avoid non-const global variables]].
+- It is possible to assign a normal variable with a copy of the returned reference. For example:
 
->[!important]
->It is possible to assign a normal variable a copy of the returned reference. For example, if
+```C++
+#include <iostream>
+#include <string>
+
+const int& getNextId()
+{
+    static int s_x{ 0 };
+    ++s_x;
+    return s_x;
+}
+
+int main()
+{
+    const int id1 { getNextId() }; // id1 is a normal variable now and receives a copy of the value returned by reference from getNextId()
+    const int id2 { getNextId() }; // id2 is a normal variable now and receives a copy of the value returned by reference from getNextId()
+
+    std::cout << id1 << id2 << '\n';
+
+    return 0;
+}
+```
+
+```console
+12
+```
+
+- It is possible to combine pass-by-reference and return-by-reference:
+
+```C++
+#include <iostream>
+#include <string>
+
+// Takes two std::string objects, returns the one that comes first alphabetically
+const std::string& firstAlphabetical(const std::string& a, const std::string& b)
+{
+	return (a < b) ? a : b; // We can use operator< on std::string to determine which comes first alphabetically
+}
+
+int main()
+{
+	std::string hello { "Hello" };
+	std::string world { "World" };
+
+	std::cout << firstAlphabetical(hello, world) << '\n';
+
+	return 0;
+}
+```
+
+```console
+Hello
+```
 
 
 
