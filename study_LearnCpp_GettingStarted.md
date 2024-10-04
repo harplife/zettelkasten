@@ -8206,12 +8206,9 @@ int main() {
 
 - In the example above, `getElement()` returns a reference to an element in the array `numbers[]`. Using the reference returned by the function, an element in the array can be modified.
 
->[!warning] Do not return references to local variables.
->
->
->However, it is possible to return reference to local variables if the local variables are set to `static`, which means they are destroyed at the end of the program.
+### Return by const reference
+- Sometimes it's preferrable to prevent the caller from modifying the returned value (referenced value). This can be done by using `const` keyword (e.g. `const int& foo(){}`).
 
-- Return-by-const-reference (e.g. `const int& foo()`) can be used to ensure that the caller does not modify the object.
 
 >[!warning]
 >While const reference bound to a literal can create a temporary object that has an extended lifetime (thus making the reference valid), this does not apply to a literal that is returned by const reference (thus making the reference invalid).
