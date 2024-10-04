@@ -8207,7 +8207,23 @@ int main() {
 - In the example above, `getElement()` returns a reference to an element in the array `numbers[]`. Using the reference returned by the function, an element in the array can be modified.
 
 ### Return by const reference
-- Sometimes it's preferrable to prevent the caller from modifying the returned value (referenced value). This can be done by using `const` keyword (e.g. `const int& foo(){}`).
+- Sometimes it's preferrable to prevent the caller from modifying the returned reference (referenced object). This can be done by using `const` keyword. For example:
+
+```C++
+const int& getElement(const int arr[], int index) {
+    return arr[index];  // Returns a const reference
+}
+
+int main() {
+    int numbers[] = {1, 2, 3, 4, 5};
+    const int& elem = getElement(numbers, 2);  // elem is a const reference
+    cout << elem;  // Output: 3
+    // elem = 10;  // Error: Cannot modify a const reference
+}
+```
+
+>[!warning]
+>A return by non-const reference does not work for const objects.
 
 
 >[!warning]
