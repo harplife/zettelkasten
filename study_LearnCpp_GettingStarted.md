@@ -8225,13 +8225,12 @@ int main() {
 >[!warning]
 >A return by non-const reference to a const object does NOT work. Only return by const reference works in this case.
 
-
-
-
 >[!warning]
 >While const reference bound to a literal can create a temporary object that has an extended lifetime (thus making the reference valid), this does not apply to a literal that is returned by const reference (thus making the reference invalid).
 >
 >This is true regardless of whether the literal was returned directly (e.g. `return 5`) or indirectly (e.g. `foo(5)`).
+>
+>Note that return by const reference to a literal results with a dangling reference, which does not always raise a warning or an error.
 
 ### Returning local variables by reference
 - Returning a local variable inside a function causes an undefined behavior as the lifetime of the local variable is limited to the end of the function scope.
