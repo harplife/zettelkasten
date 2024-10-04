@@ -8346,6 +8346,34 @@ int main()
 Hello
 ```
 
+### Combining pass by address and return by reference
+- For example:
+
+```C++
+#include <iostream>
+using namespace std;
+
+// Function that returns a reference to an element from the array
+int& getElementByReference(int* arr, int index) {
+    return *(arr + index);  // Return a reference to the element at the given index
+}
+
+int main() {
+    int numbers[] = {10, 20, 30, 40, 50};  // An array of 5 integers
+
+    // Get a reference to the 3rd element (index 2) and modify it
+    getElementByReference(numbers, 2) = 100;  // Modify the 3rd element to 100
+
+    // Output the modified array
+    for (int i = 0; i < 5; i++) {
+        cout << numbers[i] << " ";  // Output: 10 20 100 40 50
+    }
+
+    return 0;
+}
+```
+
+
 ### Return by address
 - <mark class="hltr-trippy">Return-by-address</mark> is a method where a function returns a pointer (i.e. the address) to an object or a variable.
 	- This approach allows the calling code to access and manipulate the object directly via its address.
@@ -8395,7 +8423,46 @@ int main()
 }
 ```
 
+- The object being returned by address must outlive the scope of the function returning the address, otherwise the caller will receive a dangling pointer.
+- The major advantage of return by address (over return by reference) is that the function can return `nullptr` if there is no valid object to return.
+	- Conversely, the disadvantage is that the caller has to do a `nullptr` check before dereferencing the return value.
 
+## In and out parameters
+- A function and its caller communicate with each other via two mechanisms: parameters and return values.
+	- When a function is called, the caller provides arguments, which the function receives via its parameters. These arguments can be passed by value, reference, or address.
+- Typically, a parameter is used to pass data into a function which is then used to generate some kind of result that is passed back to the caller as a return value. However, it is possible to use parameters to return data from a function to the caller.
+
+### In parameters
+- In most cases, a function parameter is used only to receive an input from the caller. Parameters that are used only for receiving input from the caller are sometimes called **in-parameters**.
+- For example:
+
+```C++
+#include <iostream>
+
+void print(int x) // x is an in parameter
+{
+    std::cout << x << '\n';
+}
+
+void print(const std::string& s) // s is an in parameter
+{
+    std::cout << s << '\n';
+}
+
+int main()
+{
+    print(5);
+    std::string s { "Hello, world!" };
+    print(s);
+
+    return 0;
+}
+```
+
+- In-parameters are typically passed by value or by const reference.
+
+### Out parameters
+- 
 
 ## Intro to compound data types
 - Compound data types (aka composite data types) are data types that can be constructed from fundamental data types (or other compound data types). These types allow the dev to group multiple values together, providing a way to manage and manipulate related data as a single unit.
