@@ -8355,7 +8355,24 @@ Hello
 	- **Modifying the object**: the caller can use the returned address to modify the object (if it's not a `const` pointer).
 	- **Dynamic memory management**: return by address is commonly used when returning dynamically allocated memory using `new` or similar constructs.
 	- **Risk of dangling pointers**: if the function returns the address of a local object (automatic storage duration), it results in undefined behavior, as the object is destroyed when the function ends.
-- 
+- An example of returning address of a global variable:
+
+```C++
+int globalVar = 100;
+
+int* getGlobalVarAddress() {
+    return &globalVar;  // Return the address of globalVar
+}
+
+int main() {
+    int* ptr = getGlobalVarAddress();  // Get the address of globalVar
+    cout << *ptr << endl;  // Output: 100
+    *ptr = 200;            // Modify globalVar through the pointer
+    cout << globalVar;     // Output: 200
+}
+```
+
+
 
 
 ## Intro to compound data types
