@@ -8372,6 +8372,28 @@ int main() {
 }
 ```
 
+- An example of returning address of a static local variable:
+
+```C++
+#include <iostream>
+#include <string>
+
+int* getStaticVarAddress()
+{
+    static int x = 5;
+    return &x;
+}
+
+int main()
+{
+    int* ptr = getStaticVarAddress();
+    std::cout << *ptr << std::endl;
+    *ptr = 300;
+    std::cout << *ptr << std::endl;
+
+    return 0;
+}
+```
 
 
 
