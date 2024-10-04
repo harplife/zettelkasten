@@ -8207,7 +8207,7 @@ int main() {
 - In the example above, `getElement()` returns a reference to an element in the array `numbers[]`. Using the reference returned by the function, an element in the array can be modified.
 
 >[!warning] Do not return references to local variables.
->Returning a local variable inside a function causes an undefined behavior as the lifetime of the local variable is limited to the end of the function scope.
+>
 >
 >However, it is possible to return reference to local variables if the local variables are set to `static`, which means they are destroyed at the end of the program.
 
@@ -8218,8 +8218,68 @@ int main() {
 >
 >This is true regardless of whether the literal was returned directly (e.g. `return 5`) or indirectly (e.g. `foo(5)`).
 
+### Returning local variables by reference
+- Returning a local variable inside a function causes an undefined behavior as the lifetime of the local variable is limited to the end of the function scope.
+- However, a local variable inside a function can be returned by reference if its lifetime is than that of the function; which can be achieved by using the `static` keyword.
+- For example:
 
+```C++
+#include <iostream>
+#include <string>
 
+const std::string& getProgramName() // returns a const reference
+{
+    static std::string s_programName { "Calculator" }; // has static duration, destroyed at end of program
+
+    return s_programName;
+}
+
+int main()
+{
+    std::cout << "This program is named " << getProgramName();
+
+    return 0;
+}
+```
+
+```console
+This program is named Calculator
+```
+
+- An issue with returning a static local variable by reference can occur if the function modifies the value of the local variable (with each function call). For example:
+
+```C++
+#include <iostream>
+#include <string>
+
+const int& getNextId()
+{
+    static int s_x{ 0 }; // note: variable is non-const
+    ++s_x; // generate the next id
+    return s_x; // and return a reference to it
+}
+
+int main()
+{
+    const int& id1 { getNextId() }; // id1 is a reference
+    const int& id2 { getNextId() }; // id2 is a reference
+
+    std::cout << id1 << id2 << '\n';
+
+    return 0;
+}
+```
+
+```console
+22
+```
+
+- In the example above, the intended result might've been `12` with `id1` being assigned `1` and `id2` being assigned `2`, but because both `id1` and `id2` references the same static variable, they both hold the value of `2` (which prints out `22` at the end).
+- It's best to avoid modifying the value of the static local variable, and one of the best way to prevent the modification is to use `const` (e.g. `static const int&`).
+	- This topic ties to [[#Avoid non-const global variables]].
+
+>[!important]
+>It is possible to assign a normal variable a copy of the returned reference. For example, if
 
 
 
