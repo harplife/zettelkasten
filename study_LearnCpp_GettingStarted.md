@@ -8223,7 +8223,9 @@ int main() {
 ```
 
 >[!warning]
->A return by non-const reference does not work for const objects.
+>A return by non-const reference to a const object does NOT work. Only return by const reference works in this case.
+
+
 
 
 >[!warning]
