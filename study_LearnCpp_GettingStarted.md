@@ -8462,6 +8462,11 @@ int main()
 - In-parameters are typically passed by value or by const reference.
 
 ### Out parameters
+- An **out-parameter** is a parameter that is passed to a function with the intention that the function will modify it and provide a result (or output) back to the caller through that parameter.
+	- Unlike a regular parameter (in-parameter) that is used to pass data into a function, an out-parameter is used to return data from a function.
+- Out-parameters are typically implemented using:
+	- Pointers (pass-by-address)
+	- References (pass-by-reference)
 - 
 
 ## Intro to compound data types
