@@ -8521,6 +8521,17 @@ int main() {
 >While out-parameters can be useful, overusing them can make code harder to read and maintain. In many cases, returning a tuple or a struct that contains multiple values can be a cleaner solution.
 
 
+## Type deduction with pointers, references, and const
+
+>[!reminder] `auto` keyword can be used to have the compiler deduce the type of a variable from the initializer.
+
+- `auto` keyword (type deduction) will drop `const` from its initializer by default, unless `const` qualifier is added before the `auto` keyword (e.g. `const auto someConstVar;`).
+- `auto` keyword (type deduction) will drop the reference qualifier `&` from its initializer by default, unless the reference qualifier is added after the `auto` keyword (e.g. `auto& someRef;`).
+- 
+
+
+
+
 
 ## Intro to compound data types
 - Compound data types (aka composite data types) are data types that can be constructed from fundamental data types (or other compound data types). These types allow the dev to group multiple values together, providing a way to manage and manipulate related data as a single unit.
