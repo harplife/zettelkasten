@@ -8467,7 +8467,60 @@ int main()
 - Out-parameters are typically implemented using:
 	- Pointers (pass-by-address)
 	- References (pass-by-reference)
-- 
+- Using a pointer as an out-parameter:
+
+```C++
+void getCoordinates(int* x, int* y) {
+    *x = 10;  // Modify the value pointed to by x
+    *y = 20;  // Modify the value pointed to by y
+}
+
+int main() {
+    int a, b;
+    getCoordinates(&a, &b);  // Pass the address of a and b
+    cout << "x: " << a << ", y: " << b << endl;  // Output: x: 10, y: 20
+}
+```
+
+- Using a reference as an out-parameter:
+
+```C++
+void getCoordinates(int& x, int& y) {
+    x = 10;  // Modify x directly
+    y = 20;  // Modify y directly
+}
+
+int main() {
+    int a, b;
+    getCoordinates(a, b);  // Pass variables directly (no need for addresses)
+    cout << "x: " << a << ", y: " << b << endl;  // Output: x: 10, y: 20
+}
+```
+
+- The main difference between using a pointer or a reference is that the pointer can be null whereas the reference cannot.
+- Out-parameter is useful for a few reasons:
+	- Out-parameters can be used to return multiple values from a function (a normal return is limited to one value).
+	- Out-parameter can be used to modify a variable directly.
+	- Out-parameter can be used to avoid returning large objects by value (which can involve copying).
+- Example of using out-parameter to return multiple values:
+
+```C++
+void divide(int dividend, int divisor, int& quotient, int& remainder) {
+    quotient = dividend / divisor;
+    remainder = dividend % divisor;
+}
+
+int main() {
+    int quotient, remainder;
+    divide(10, 3, quotient, remainder);  // quotient = 3, remainder = 1
+    cout << "Quotient: " << quotient << ", Remainder: " << remainder << endl;
+}
+```
+
+>[!warning] Avoid overusing out-parameters.
+>While out-parameters can be useful, overusing them can make code harder to read and maintain. In many cases, returning a tuple or a struct that contains multiple values can be a cleaner solution.
+
+
 
 ## Intro to compound data types
 - Compound data types (aka composite data types) are data types that can be constructed from fundamental data types (or other compound data types). These types allow the dev to group multiple values together, providing a way to manage and manipulate related data as a single unit.
