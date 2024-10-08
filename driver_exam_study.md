@@ -1,68 +1,51 @@
 # Illinois Rules of the Road
-- The written exam consists of 35 questions, 15 of which will address traffic sign identification, and the remaining 20 will either be multiple-choice or true-false questions.
-- Proof of insurance must be shown before the driving exam is administered.
+## Chapter 1: Illinois Driver's License
+- A driver's license is classified by the gross vehicle weight rating (GVWR) of the operator's vehicle.
+- A driver seeking a basic license to operate a car is issued a Class D license.
+	- Holders of a Class D license may operate rental vehicles up to 26,000 pounds for non-business purposes within the state of Illinois.
+		- The driver is required and should be provided information on the safe operation of the rental vehicle.
+- A driver must meet special requirements to operate a school bus, religious organization bus, child care vehicle, vehicle used in for-profit ride sharing, or vehicle used for senior citizen transportation.
+- Class D license does not cover operation of motorcycle or commercial vehicle - those require different licenses.
 
-## Driving Examination
-### Using turn signals
-- Turn signals are required BEFORE:
-	- Turning any corner
-	- Turning into any driveway, parking lot, or parking space
-	- Changing lanes of traffic
-	- AFTER passing another vehicle
-	- Pulling over to or away from any curb
+### Age Restrictions (16~21)
+- You must be at least age 16 to obtain a driver's license. The following restrictions apply:
+	- For age 16~17, a driver's education course, 50 hours of practice driving, and the driver's license exam is required.
+	- For age 18~20 and first-time license applicant, a six-hour Adult Driver Education is required.
+	- A driver under age 18 is not allowed to drive any vehicle for-hire transporting property (e.g. delivery) or any vehicle requiring a commercial license.
+	- A driver under age 21 is not allowed to drive any vehicle for-hire that is transporting more than 10 passengers, a commuter van, a religious organization bus, a school bus, a vehicle transporting senior citizens, or a child care vehicle.
 
-### Leaving a parking lot or driveway
-- You must stop before entering any street from a driveway, parking lot, or alley.
-	- There may or may not be a stop sign present.
-	- Use turn signal if appropriate.
+### Exemptions
+- You may drive in Illinois without a valid Illinois driver's license if you meet one of the following circumstances:
+	- **Recently moved** : If you have permanently moved to Illinois from another state (or country) and have a valid non-Illinois driver's license (applies only for 90 days).
+	- **Visiting** : If you are visiting or driving through Illinois and have a valid driver's license from your home state or country.
+	- **Student** : If you are an out-of-state student attending an Illinois college/university, you may drive with a valid license from your home state or country.
+	- **Military** : If you are on active duty with the U.S. military, you may drive with a valid license from your home state.
+	- **Deployed** : If you are serving in the U.S. military outside the United States (and legal resident of Illinois), you may drive during the first 120 days of your return (if you previously obtained a deferral of your driver's license).
+	- **Military civilian deployed** : If you are serving as a civilian employee for the U.S. military (or DoD) outside the United States (and legal resident of Illinois), you may drive during the first 120 days of your return (if you previously obtained a deferral of your driver's license).
+	- **Government personnel** : If you are an employee or a member of U. S. government (or military), you do not need a valid license to drive a government vehicle (on official business).
+	- **Construction** : If you are operating a road machine temporarily on the roadway.
+	- **Farming** : If you are operating a farm tractor between the farm buildings and nearby farmland.
 
-### Stopping
-- Stop behind the white line or crosswalk.
-	- If there is no white line or crosswalk, stop before entering the intersection.
-- Rolling stops are automatic failures on the driving examination.
+### Changing the Name/Address
+- If you have legally changed your name, you must apply for a corrected driver's license (or ID) within 30 days of the name change.
+- You must notify the Secretary of State's office of an address change within 10 days of any move.
 
-### Turning a corner
-- When turning a corner from a two-way street onto another two-way street, stay in your own lane and then turn into the lane where you will be driving.
-	- Do not cut corners.
+### Driver's License Renewal
+- Renewal notice is sent out 90 days before your license expires.
+	- It's the driver's responsibility to renew the license before expiration, regardless of whether a renewal letter is received.
+- You may renew your license up to one year before your license expires (for 2~4 year license).
+	- For 1 year license, 6 months.
+- A driver's license is valid for four years and expires on the driver's birthday. Exceptions are:
+	- Drivers under age 21 : license expires three months after their 21st birthday.
+	- Drivers age 81-86 : license valid for two years.
+	- Drivers ages 87 and older : license valid for one year.
 
-### Hill parking
-- Signal toward the side of the road where you wish to park.
-- Stop your vehicle parallel to the road, within 12 inches of the curb (or edge).
-- If you park on a street with curbing, and
-	- If your vehicle is heading downhill, turn the front wheels toward the curb.
-	- If your vehicle is heading uphill, turn the front wheels away from the curb.
-- If you park on a street without curbing (either downhill or uphill), turn the wheels toward the side of the road on which you are parked.
-- Set the parking brake and put the gear selector in "Park".
-- When leaving the curb, release your parking brake, turn the wheels from the side of the road, and use your turn signal.
-	- Look for oncoming traffic. When it is safe, pull away slowly onto the street.
+### Non-driving programs related to the license
+- The Sec. of State's office is required to ask certain non-driving related questions during the license application process. Among these are:
+	- Organ Donor Registry
+	- Veteran Designation
+	- Voter Registration
+	- Selective Service : a program that registers male citizens and immigrants (age 18~25) in the United States to provide manpower to the military in a national emergency.
+	- Emergency Contact Database
 
-![[Pasted image 20240926152252.png|500]]
-
-### Turn-about
-- Turn-about requires that a vehicle turn left into an alley/roadway/driveway, back out towards the right, and then head to the direction that the vehicle was originally facing.
-	- In other words, it's a U-turn with a few fancy steps.
-- When you back out, yield to pedestrians and all vehicles.
-	- Check all rearview mirrors and look over your right shoulder.
-
-![[Pasted image 20240926153339.png|200]]
-
-### One-way turns
-- When turning onto a one-way street, turn into the first lane you come to.
-
-### Multiple-lane turns
-- When turning left onto a multi-lane street, turn into the inside lane (left-hand lane).
-	- After you have completed your turn into the inside lane, turn on your signal light and move into the right-hand lane when it's safe.
-- When turning right into a multi-lane street, turn into the first lane you come to (right-hand lane).
-	- After you have completed your turn into the right-hand lane, turn on your signal light and move into the left-hand lane when it's safe.
-
-### Backing vehicle
-- When backing a vehicle, look over the right shoulder to check everything is clear in back.
-
-### Other points that will be checked
-- Driving speed : observe all speed limit signs. Do not drive too slowly.
-- Center lines : do not weave back and forth across the center line. Stay in your traffic lane. If there is no center line, do not drive down the middle of the street (or road).
-- Right of way :
-	- Observe yield signs. When approaching a yield sign, slow down and check for traffic. Stop if necessary.
-	- Approaching an intersection; when a green light appears, be sure the intersection is clear of vehicles and people before moving your car. If there are no signs or traffic control signals and two vehicles arrive at the same time, the car on the right has the right of way.
-
-## Written Exam
+## Chapter 2: Driver's License Exams
