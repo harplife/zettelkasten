@@ -8523,11 +8523,14 @@ int main() {
 
 ## Type deduction with pointers, references, and const
 
+### Type deduction default behaviors
 >[!reminder] `auto` keyword can be used to have the compiler deduce the type of a variable from the initializer.
 
 - `auto` keyword (type deduction) will drop `const` from its initializer by default, unless `const` qualifier is added before the `auto` keyword (e.g. `const auto someConstVar;`).
 - `auto` keyword (type deduction) will drop the reference qualifier `&` from its initializer by default, unless the reference qualifier is added after the `auto` keyword (e.g. `auto& someRef;`).
-- 
+
+### Top-level and low-level const
+- The terms top-level const and low-level const refer to different types of `const` qualifiers, depending on where the `const` is applied in a declaration.
 
 
 
