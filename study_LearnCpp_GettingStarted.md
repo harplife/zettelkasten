@@ -8528,12 +8528,14 @@ int main() {
 
 - `auto` keyword (type deduction) will drop `const` from its initializer by default, unless `const` qualifier is added before the `auto` keyword (e.g. `const auto someConstVar;`).
 - `auto` keyword (type deduction) will drop the reference qualifier `&` from its initializer by default, unless the reference qualifier is added after the `auto` keyword (e.g. `auto& someRef;`).
+- `auto` keyword (type deduction) does NOT drop pointers.
+	- `auto` and `auto*` essentially does the same. However, if the initializer is dereferenced, `auto*` will not compile.
 
 ### Top-level and low-level const
 - The terms top-level const and low-level const refer to different types of `const` qualifiers, depending on where the `const` is applied in a declaration. These qualifiers define whether the object itself is constant or whether the data being pointed to (or referenced) is constant.
 
 #### Top-level const
-- A top-level const refers to the const-qualification of the object itself. In other words, the object (whether it is a primitive type, a pointer, or a reference) is constant and cannot be modified.
+- A <mark class="hltr-trippy">top-level const</mark> refers to the const-qualification of the object itself. In other words, the object (whether it is a primitive type, a pointer, or a reference) is constant and cannot be modified.
 - Top-level const is about preventing changes to the object, but it does not impose restrictions on what the object points to, if the object is a pointer.
 - Example of top-level const:
 
@@ -8543,7 +8545,7 @@ int* const ptr = nullptr; // ptr itself cannot be modified.
 ```
 
 #### Low-level const
-- A low-level const applies to the data pointed to (or referred to) by an object. It indicates that the object being pointed to cannot be modified, even though the pointer (or reference) itself may not be constant.
+- A <mark class="hltr-trippy">low-level const</mark> applies to the data pointed to (or referred to) by an object. It indicates that the object being pointed to cannot be modified, even though the pointer (or reference) itself may not be constant.
 - Example of low-level const:
 
 ```C++
@@ -8573,6 +8575,12 @@ int main()
 
 - In the example above, the type deduction drops both `const` qualifier and the reference qualifier. `y` is simply a `std::string` object with value `"Hello World"`.
 - The `const` qualifier can be reapplied (e.g. `const auto`), along with the reference qualifier (e.g. `const auto&`).
+
+### Type deduction and const pointers
+- `const auto` and `auto const` does the same thing, just as `const int` and `int const` is the same.
+- However, the order of the `const` qualifier matters when `auto*` is involved.
+	- A `const auto*` means "make the deduced pointer type a pointer to const" (pointer to const, e.g. `const int*`).
+	- A `auto* const` means "make the deduced pointer type a const pointer" (a const pointer, e.g. `int const*`).
 - 
 
 
