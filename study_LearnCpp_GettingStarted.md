@@ -8547,10 +8547,29 @@ int* const ptr = nullptr; // ptr itself cannot be modified.
 - Example of low-level const:
 
 ```C++
-const int* ptr = &x;
+const int x = 5;
+const int* ptr = &x; // canot modify the value of *ptr
 ```
 
-- 
+>[!important] Top-level const and low-level const can be combined.
+>For example: `const int* const ptr = &x;`
+
+### Type deduction and const references
+- If the initializer is a reference to const, the reference is dropped first (and then reapplied if applicable), and then any top-level const is dropped from the result. For example:
+
+```C++
+#include <string>
+
+const std::string& getConstRef(); // some function that returns a reference to const
+
+int main()
+{
+    auto ref1{ getConstRef() }; // std::string (reference dropped, then top-level const dropped from result)
+
+    return 0;
+}
+```
+
 
 
 
