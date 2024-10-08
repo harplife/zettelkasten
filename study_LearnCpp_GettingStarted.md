@@ -8549,6 +8549,7 @@ int* const ptr = nullptr; // ptr itself cannot be modified.
 ```C++
 const int x = 5;
 const int* ptr = &x; // canot modify the value of *ptr
+const int& ref = x; // cannot modify the value of ref
 ```
 
 >[!important] Top-level const and low-level const can be combined.
@@ -8570,7 +8571,7 @@ int main()
 }
 ```
 
-
+- In the example above, since `getConstRef()` returns a `const std::string&`, the reference is dropped first, leaving a `const std::string`. The `const` is also dropped, and what's left is `std::string`.
 
 
 ## Intro to compound data types
