@@ -56,4 +56,13 @@
 	- After you have completed your turn into the right-hand lane, turn on your signal light and move into the left-hand lane when it's safe.
 
 ### Backing vehicle
-- When backing a vehicle, look over the right shoulder 
+- When backing a vehicle, look over the right shoulder to check everything is clear in back.
+
+### Other points that will be checked
+- Driving speed : observe all speed limit signs. Do not drive too slowly.
+- Center lines : do not weave back and forth across the center line. Stay in your traffic lane. If there is no center line, do not drive down the middle of the street (or road).
+- Right of way :
+	- Observe yield signs. When approaching a yield sign, slow down and check for traffic. Stop if necessary.
+	- Approaching an intersection; when a green light appears, be sure the intersection is clear of vehicles and people before moving your car. If there are no signs or traffic control signals and two vehicles arrive at the same time, the car on the right has the right of way.
+
+## Written Exam
