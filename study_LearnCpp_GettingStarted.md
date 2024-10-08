@@ -8561,17 +8561,19 @@ const int& ref = x; // cannot modify the value of ref
 ```C++
 #include <string>
 
-const std::string& getConstRef(); // some function that returns a reference to const
-
 int main()
 {
-    auto ref1{ getConstRef() }; // std::string (reference dropped, then top-level const dropped from result)
+    const std::string x = "Hello World";
+    const std::string& ref = x;
+    auto y = ref;
 
     return 0;
 }
 ```
 
-- In the example above, since `getConstRef()` returns a `const std::string&`, the reference is dropped first, leaving a `const std::string`. The `const` is also dropped, and what's left is `std::string`.
+- In the example above, the type deduction drops both `const` qualifier and the reference qualifier. `y` is simply a `std::string` object with value `"Hello World"`.
+- The `const` qualifier can be reapplied (e.g. `const auto`), along with the reference qualifier (e.g. `const auto&`).
+- 
 
 
 ## Intro to compound data types
