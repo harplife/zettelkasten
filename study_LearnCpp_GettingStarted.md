@@ -8530,9 +8530,27 @@ int main() {
 - `auto` keyword (type deduction) will drop the reference qualifier `&` from its initializer by default, unless the reference qualifier is added after the `auto` keyword (e.g. `auto& someRef;`).
 
 ### Top-level and low-level const
-- The terms top-level const and low-level const refer to different types of `const` qualifiers, depending on where the `const` is applied in a declaration.
+- The terms top-level const and low-level const refer to different types of `const` qualifiers, depending on where the `const` is applied in a declaration. These qualifiers define whether the object itself is constant or whether the data being pointed to (or referenced) is constant.
 
+#### Top-level const
+- A top-level const refers to the const-qualification of the object itself. In other words, the object (whether it is a primitive type, a pointer, or a reference) is constant and cannot be modified.
+- Top-level const is about preventing changes to the object, but it does not impose restrictions on what the object points to, if the object is a pointer.
+- Example of top-level const:
 
+```C++
+const int x = 5; // value of x cannot be changed.
+int* const ptr = nullptr; // ptr itself cannot be modified.
+```
+
+#### Low-level const
+- A low-level const applies to the data pointed to (or referred to) by an object. It indicates that the object being pointed to cannot be modified, even though the pointer (or reference) itself may not be constant.
+- Example of low-level const:
+
+```C++
+const int* ptr = &x;
+```
+
+- 
 
 
 
