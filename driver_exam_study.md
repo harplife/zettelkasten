@@ -78,3 +78,12 @@
 	- Checking the vehicle controls, including the parking brake and mirrors. You must make all adjustments to seats, safety belts, mirrors and other equipment before the vehicle is put into motion.
 	- Backing the vehicle approximately 50 feet at a slow speed, straight and smoothly. Turn your head to the right and watch to the rear when performing this maneuver.
 	- Performing a turnabout using an alley on the left side of the street. Turn your left signal on before turning into the alley, back the car out of the alley and stay on your side of the street.
+	- Parking uphill on the side of the road.
+	- Starting uphill from a parked position.
+	- Parking downhill on the side of the road.
+	- Starting downhill from a parked position.
+	- Controlling your vehicle by obeying all traffic signs, control devices, rights of way, lane markings and properly using turn signals.
+
+## Chapters 3: Drivers under age 21
+SKIPPED
+
