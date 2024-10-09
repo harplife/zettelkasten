@@ -49,4 +49,32 @@
 	- Emergency Contact Database
 
 ## Chapter 2: Driver's License Exams
-- 
+- You may be required to complete a vision screening, written exam, and driving exam in order to acquire a driver's license.
+	- You are allowed three attempts to pass each of these exams, within one year from the date you paid your application fee.
+
+### Vision screening
+- Vision requirements include:
+	- Minimum visual acuity of 20/40 with or without corrective lenses. A driver with acuity between 20/41 and 20/70 is limited to daylight driving only.
+	- At least 140 degree peripheral vision with or without corrective lenses.
+- If you wear glasses or contact lenses, a restriction will be noted on your license, requiring you to wear glasses or contact lenses when operating a vehicle.
+
+### Written exam
+- Every driver must take a written exam every eight years, except a driver having no traffic convictions.
+- The basic written exam requires you to:
+	- Identify traffic signs by shape, color or symbol.
+	- Identify signals and pavement markings.
+	- Answer multiple-choice and true-or-false questions about traffic laws, safety rules, crash prevention and vehicle equipment.
+
+### Driving exam
+- New drivers are required to take a driving exam.
+- Drivers ages 79 and older who are renewing their driver's license must take a driving exam.
+- To take a driving exam, the vehicle used must:
+	- Be properly licensed and have the required equipment (listed on page 92).
+	- Be in the same weight class as sought on their driver's license application.
+	- Be properly insured. Proof of insurance must be provided at the time of the exam.
+	- Display valid front and rear license plates and a valid registration sticker.
+	- Be driven to the facility by a driver with a valid driver's license/permit.
+- You are graded on your ability to perform several driving tasks and maneuvers, including the following:
+	- Checking the vehicle controls, including the parking brake and mirrors. You must make all adjustments to seats, safety belts, mirrors and other equipment before the vehicle is put into motion.
+	- Backing the vehicle approximately 50 feet at a slow speed, straight and smoothly. Turn your head to the right and watch to the rear when performing this maneuver.
+	- Performing a turnabout using an alley on the left side of the street. Turn your left signal on before turning into the alley, back the car out of the alley and stay on your side of the street.
