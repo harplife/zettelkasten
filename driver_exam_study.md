@@ -85,5 +85,33 @@
 	- Controlling your vehicle by obeying all traffic signs, control devices, rights of way, lane markings and properly using turn signals.
 
 ## Chapters 3: Drivers under age 21
-SKIPPED
 
+### Obtaining an instruction permit
+- If you are age 15~17, you may receive an instruction permit with acceptable proof from the authorized driver education provider.
+	- The document must state you are enrolled in an approved driver education course.
+	- The instruction permit is valid for 24 months and must be held for at least nine consecutive months prior to obtaining a driver's license.
+- If you are age 17 and 3 months or older, you may apply for an instruction permit without taking a driver education course.
+	- When applying for an instruction permit, you must pass the vision and written exams for the license classification you are seeking.
+	- The test results are valid until the expiration of the permit.
+- Instruction permit allows you:
+	- to drive with an adult instructor during the behind-the-wheel portion of a driver education course.
+	- to drive with a parent (legal guardian or responsible adult age 21 or older) who has a valid license with at least one year of driving experience. This individual must sit in the front passenger seat.
+- After you have successfully completed the driver education course, you may continue practice driving with an instruction permit, under the direct supervision of a responsible adult.
+- Drivers under age 18 must have at least 50 hours of behind-the-wheel supervised driving; including 10 hours of nighttime driving, in addition to the driver education training.
+
+### Applying for a driver's license
+- Driver's licenses for persons under age 21 are printed vertically with distinct features.
+
+### Driver education and the cooperative driver testing program
+- High school students who successfully complete an accredited driver education course of classroom and behind-the-wheel instruction with a combined grade of A or B may be exempt from taking a driver exam when applying for a driver's license.
+	- Depends on the school districts.
+- Upon successful completion of the driver education at high school, ,the Secretary of State's office will receive notification and add a notation to the individual's driver's license record.
+- After successful completion of a driving exam (from class, I'm guessing), the prospective driver may be issued a Cooperative Driver Testing Certificate, which must be signed by the driver education instructor and the student's parent (or legal guardian).
+	- The certificate expires on the same day as the student's instruction permit and will not be extended.
+	- The certificate must be presented at the Driver Services facility when applying for the driver's license.
+- Students under age 18 who drop out of high school cannot have the notation indicating completion placed on their driver's license record unless one of the following is satisfied:
+	- The instructor has written verification of enrollment in a GED or alternative program.
+	- The applicant has a GED.
+	- Prior to dropping out, they received passing grades in at least eight courses in the previous two semesters.
+	- They have written consent from their parents (or legal guardian) and the regional super-intendent.
+- 
