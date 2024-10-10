@@ -151,7 +151,7 @@
 	- The parent/legal guardian who gave initial consent may cancel the minor's license at any time, for any reason, until the driver turns 18.
 	- Driving privileges will not be reinstated until consent is given (again) or the driver turns 18.
 	- The teen driver must reapply for a driver's license, take all applicable exams and pay the appropriate fees.
-- Parental access to teen's driving record : 
+- Parental access to teen's driving record : the parent/legal guardian of a person under age 18 who holds an instruction permit or graduated driver's license may access their minor's driving record at no cost.
 - Instruction permit completion check
 - Parent-teen driving guide
 - parent-teen driving contract
