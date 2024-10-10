@@ -114,4 +114,44 @@
 	- The applicant has a GED.
 	- Prior to dropping out, they received passing grades in at least eight courses in the previous two semesters.
 	- They have written consent from their parents (or legal guardian) and the regional super-intendent.
-- 
+- The local superintendent or chief school administrator may waive conditions deemed in the best interest of the student or dropout.
+
+### First-time drivers (age 18~20)
+- If you are age 18~20 and have not previously been licensed or completed an approved driver education program, you must complete a six-hour Adult Driver Education Course.
+- The Adult Driver Education Course can only be taught by providers certified by the Secretary of State's office.
+- Courses may be taught in a classroom setting or online, depending on the certification of a provider.
+
+### Graduated Driver Licensing Program (age 15~20)
+- Graduated Driver Licensing (GDL) Program requires drivers age 15~20 to work their way toward full-driving privileges.
+- There are three progressive stages; permit phase, initial licensing phase, and full licensing phase.
+- Young drivers must earn the right to move from one phase to the next, based on their driving behavior.
+
+#### Permit phase (age 15)
+- Nighttime driving restrictions (local curfews may differ).
+- Permit must be held for a minimum of nine months.
+- Must practice driving a minimum of 50 hours, including 10 hours at night, supervised by an adult.
+- Must not acquire any driving infractions, underage alcohol convictions or court supervisions during the nine-month permit phase.
+- Number of passengers is limited to one in the front seat and the number of safety belts in the back seat.
+- Any use of phone while driving is prohibited for a driver under age 19, except in the case of an emergency to contact a law enforcement agency, health care provider or emergency services.
+- Permit is valid for up to two years.
+
+#### Initial licensing phase (age 16~17)
+- Nighttime driving restrictions (local curfews may differ).
+- Must maintain a conviction-free driving record for six months prior to turning 18.
+	- A traffic conviction during the initial license phasing may extend restrictions beyond age 18.
+- For the first 12 months of licensing (or until the driver turns 18, whichever comes first), the number of passengers is limited to one person under age 20, unless the passenger(s) is an offspring (steps included). After this period, the number of passengers is limited to one in the front seat and the number of safety belts in the back seat.
+- Any use of phone while driving is prohibited for a driver under age 19, except in case of emergency to contact emergency services.
+
+#### Full licensing phase (age 18~20)
+- No age-related restrictions apply.
+- Still, no phones during driving!
+
+### Parental responsibility
+- Parental consent : a driver age 16~17 must have the written consent of a parent/legal guardian to obtain a driver's license.
+	- The parent/legal guardian who gave initial consent may cancel the minor's license at any time, for any reason, until the driver turns 18.
+	- Driving privileges will not be reinstated until consent is given (again) or the driver turns 18.
+	- The teen driver must reapply for a driver's license, take all applicable exams and pay the appropriate fees.
+- Parental access to teen's driving record : 
+- Instruction permit completion check
+- Parent-teen driving guide
+- parent-teen driving contract
