@@ -176,4 +176,97 @@
 ## Chapter 4: Traffic Laws
 
 ### Proper action when stopped by law enforcement
+- Slow down, activate turn signal and safely pull over onto the right-hand shoulder of the roadway. If there is no shoulder or it is too narrow to pull over, find the next safest location and pull over.
+- Do not slam on the brakes or stop in the lane of traffic. Do not stop your vehicle on bridges, curves, next to guardrails, concrete walls, medians or any place where it would be difficult for other vehicles to pass. A vehicle should not be stopped too close to the solid white line, as it may get struck by oncoming traffic.
+- Stay in the vehicle with both hands clearly in sight on the steering wheel. Keep your hands on the steering wheel until the police officer instructs you otherwise or the traffic stop is complete.
+- Be prepared for the officer to approach from either the driver or passenger side of your vehicle.
+- Do not exit your vehicle unless asked to do so. Getting out of the vehicle can be perceived as aggressive behavior and a threat to the police officer's safety.
+- Comply with the officer's request to see a driver's license and proof of insurance. If these items are in the glove box or under the seat or if the proof of insurance is stored for display on a cellphone, inform the police officer of that fact and then follow the officer's directions before retrieving the information.
+- If you cannot identify an unmarked police vehicle and/or the driver as law enforcement, drive slowly and carefully below the speed limit and either (1) pull over at a well-lit, populated location, (2) drive carefully to the nearest police station and attempt to attract the attention of a uniformed officer or (3) call 9-1-1. Activate your vehicle's hazard lights as a helpful way to communicate intentions with the police officer.
+- If you are being stopped at night, it is acceptable to turn on your interior light of the vehicle.
+- Be aware that officers may not provide specific reasons for the stop until they have obtained your driver's license, vehicle registration and insurance card.
+
+#### If the traffic stop results in a ticket or arrest
+- Do not debate the reason for the stop or argue with the police officer.
+- Do not refuse to sign a ticket if issued. A traffic ticket requires the driver's signature.
+	- Signing a ticket is not an admission of the driver's guilt; only an acknowledgement of receiving the ticket.
+- Do not be uncooperative with law enforcement at the scene. If you are suspected of drunk driving, refusal to submit to breath, urine, blood or performance tests can result in the loss of driving privileges.
+- Do not argue about the ticket at the time of issuance.
+	- If you believe an offense was not committed or the ticket was issued unfairly, you will have the opportunity to present the case in traffic court.
+- Do not resist arrest if taken into custody by the police.
+
+>[!important] You are to be treated with dignity and respect by law enforcement officers.
+>If you believe than an officer has acted inappropriately during a traffic stop or other encounter, you should report the conduct to the officer's superiors ASAP. Officers are required to provide their names and badge numbers upon request. Written complaints can be filed with the agency's internal affairs division or civilian complaint board.
+
+### Distracted driving
+- Illinois law prohibits the use of handheld cellphones, texting or using other electronic communications while operating a motor vehicle.
+	- Hands-free devices or bluetooth tech is allowed for persons age 19 and older.
+- Illinois law prohibits the use of headsets while driving.
+	- Excludes hearing aids.
+	- The use of a single-sided headset or earpiece with a wireless/cellphone device is permitted while driving.
+	- Motorcycle, motor-driven cycle and moped operators may use intercom helmets that permit a driver and/or passengers to speak to one another.
+- Using hands-free technology such as a headset or voice activated controls is considered a distraction while driving and can be dangerous. If you must make a phone call, even with hands-free tech, it is recommended that you pull off to the side of the road before making the call.
+- Using a cellphone while holding the device and utilizing the speaker is not considered hands free and is a violation of Illinois law.
+- Watching any kind of content on the phone is a violation of Illinois law.
+- The only time you can use a cellphone that is not hands free is:
+	- To report an emergency situation.
+	- While parked on the shoulder of a roadway.
+	- While stopped due to normal traffic being obstructed and the vehicle is in neutral or park.
+- If you cause a crash with distracted driving, you may face criminal penalties and incarceration.
+
+### Safety belt law
+- All drivers and passengers (front and back seat) age 8 and older must wear safety belts.
+- Passengers under age 8 must be secured in an appropriate child restraint system as covered by the Child Passenger Protection Act.
+- If a passenger has a disability or medical condition that makes them unable to secure their own safety belt, the driver is responsible for securing and adjusting the safety belt for that passenger.
+- It is the responsibility of the driver to ensure ALL passengers obey the safety belt law and the CPPA.
+- It is recommended that children ages 12 and younger be properly secured in the back seat.
+	- If they must ride in the front, they should be in a properly installed, appropriate child safety seat. Rear-facing child safety seats should never be installed in front of an active air bag.
+
+### Child Passenger Protection Act
+- The CPPA requires all children under age 8 be properly secured in an appropriate child safety restraint system.
+- Children under age 2, less than 40 pounds, or less than 40 inches tall must be properly secured in a rear-facing child restraint system.
+
+### Speed limits
+- When minimum limits are not posted, a driver should not drive so slowly as to create interference with the normal movement of traffic.
+- The following speed limits apply, unless otherwise posted:
+	- Interstates and tollways : 70 mph
+	- Highways with four lanes : 65 mph
+	- Other highways and rural areas : 55 mph
+	- City/town areas : 30 mph
+	- Alleys : 15 mph
+	- School zones : 20 mph
+- Local municipalities have the discretion to post speed limits different from those listed.
+
+### Construction zones, emergency vehicles, school zones and funeral processions
+#### Construction zones
+- When approaching or entering a highway construction or maintenance area (aka work zones), Illinois law requires motorists to slow down, yield to any authorized vehicles or workers in that area, change to a lane away from the workers when possible, and proceed with caution.
+- Motorists must obey the posted construction zone speed limit at all times regardless of the presence of workers.
+
+#### Emergency/maintenance vehicles
+- When approaching a stationary emergency/maintenance vehicle using visual signals, Illinois law requires motorist to yield, change to a lane away from the emergency workers when possible and proceed with caution.
+	- If a lane change is not possible, reduce speed and proceed with caution.
+	- Illinois law prohibits photography and the use of wireless/cellphones within 500 feet of an emergency scene, except in certain circumstances.
+- When being approached by an emergency vehicle using audible and visual signals (lights and/or sirens), Illinois law requires motorists to immediately pull to the right side of the road and allow the emergency vehicle to pass.
+	- In some cases, a complete stop may be necessary. If stopped at an intersection with two-way traffic, remain stopped until the emergency vehicle passes through the intersection.
+- A driver is prohibited from driving over fire hoses, unless permitted by a fire official in command of the scene.
+
+#### School zones
+- When approaching a marked school zone between 6:30 AM and 4 PM on days when school is in operation and children are present, a driver must reduce speed to 20 mph, and stop and yield the right of way to any children or adults in the crosswalk area.
+
+#### Funeral processions
+- Motorists encountering a funeral procession must yield the right of way to all vehicles in the procession.
+- Motorists in a funeral procession should have their headlights and hazard lights turned on.
+- Motorists should NOT drive between vehicles in an organized funeral procession, except when directed to do so by a law enforcement officer.
+- Vehicles are prohibited from joining a funeral procession for the purpose of securing the right of way or attempting to pass any vehicle in an organized funeral procession, except where a passing lane has been specifically provided.
+- Local municipalities may impound a vehicle that interferes with a funeral procession due to reckless driving.
+
+### Right of way
+A driver must yield the right of way to other drivers, bicyclist or pedestrians:
+- When making a right turn on a red light after a complete stop.
+- After coming to a complete stop at an intersection with a stop sign or flashing red signal. If there is no stop line, stop before the crosswalk. If there is no crosswalk or stop line, stop at a place where all approaching traffic can be seen.
+- When making a left turn at a red light after a stop from a one-way street to another one-way street with traffic moving to the left.
+	- ![[Pasted image 20241009222943.png]]
+- When more than one driver reaches a four-way stop intersection. The first driver to stop should be the first to go. When two vehicles on different roadways arrive at a four-way stop intersection at the same time, the vehicle on the left should yield to the vehicle on the right.
+	- ![[Pasted image 20241009223124.png]]
+- When entering an intersection with a flashing yellow arrow.
 - 
