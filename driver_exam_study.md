@@ -84,7 +84,7 @@
 	- Starting downhill from a parked position.
 	- Controlling your vehicle by obeying all traffic signs, control devices, rights of way, lane markings and properly using turn signals.
 
-## Chapters 3: Drivers under age 21
+## Chapters 3: Drivers Under Age 21
 
 ### Obtaining an instruction permit
 - If you are age 15~17, you may receive an instruction permit with acceptable proof from the authorized driver education provider.
@@ -155,6 +155,10 @@
 - **parent-teen driving contract**
 
 ### Related laws
+
+>[!important] What is court supervision?
+>Court supervision is a period of time when a defendant must meet certain conditions to avoid a conviction and have their case dismissed. It's similar to probation, but without a conviction appearing on the defendant's record.
+
 - **Court supervision for moving violations** : a driver under age 21 is limited to one court supervision for serious traffic offenses.
 	- To obtain court supervision for a traffic violation, a driver must attend traffic safety school.
 	- If they are under age 18, they must appear in court with a parent/legal guardian.
@@ -165,3 +169,11 @@
 	- A suspended driver may be (but not always) eligible for a restricted driving permit during the suspension period.
 - **Driver's license suspension for alcohol consumption** : a person under age 21 who receives court supervision for possession, consumption, purchase or receipt of alcohol will receive a 3 months driver's license suspension if the offense occurred while the person was an occupant of a motor vehicle.
 	- A conviction will result in a minimum 6 months suspension of driving privileges if the offense occurred while the person was an occupant of a motor vehicle.
+- **Driver's license suspension for nighttime driving restriction violation** : persons under age 18 who violate the nighttime driving restriction during the permit phase or the initial licensing phase may have their driving privileges suspended.
+- **Crash involving bodily harm or death** : persons under age 18 who are charged with an offense due to a crash where a passenger was seriously injured or killed may be denied issuance/renewal of their driver's license.
+- **Non-adjudicated traffic citation** : persons under age 18 who have been issued a traffic citation that has not been fully adjudicated by the courts may be denied issuance of their driver's license.
+
+## Chapter 4: Traffic Laws
+
+### Proper action when stopped by law enforcement
+- 
