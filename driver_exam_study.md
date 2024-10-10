@@ -147,11 +147,21 @@
 - Still, no phones during driving!
 
 ### Parental responsibility
-- Parental consent : a driver age 16~17 must have the written consent of a parent/legal guardian to obtain a driver's license.
-	- The parent/legal guardian who gave initial consent may cancel the minor's license at any time, for any reason, until the driver turns 18.
-	- Driving privileges will not be reinstated until consent is given (again) or the driver turns 18.
-	- The teen driver must reapply for a driver's license, take all applicable exams and pay the appropriate fees.
-- Parental access to teen's driving record : the parent/legal guardian of a person under age 18 who holds an instruction permit or graduated driver's license may access their minor's driving record at no cost.
-- Instruction permit completion check
-- Parent-teen driving guide
-- parent-teen driving contract
+- **Parental consent** : a driver age 16~17 must have the written consent of a parent/legal guardian to obtain a driver's license.
+	- The parent/legal guardian who gave initial consent may cancel the minor's license at any time, for any reason, until the driver turns 18. Driving privileges will not be reinstated until consent is given (again) or the driver turns 18. The teen driver must reapply for a driver's license, take all applicable exams and pay the appropriate fees.
+- **Parental access to teen's driving record** : the parent/legal guardian of a person under age 18 who holds an instruction permit or graduated driver's license may access their minor's driving record at no cost.
+- **Instruction permit completion check**
+- **Parent-teen driving guide**
+- **parent-teen driving contract**
+
+### Related laws
+- **Court supervision for moving violations** : a driver under age 21 is limited to one court supervision for serious traffic offenses.
+	- To obtain court supervision for a traffic violation, a driver must attend traffic safety school.
+	- If they are under age 18, they must appear in court with a parent/legal guardian.
+	- If a driver under age 18 is receiving court supervision for certain alcohol-related violations, they will be denied a full graduated driver's license for nine months.
+- **Loss of driving privileges for moving violations** : a driver under age 21 who is convicted of two or more moving violations within a 24 months period will have their driver's license suspended for a minimum of 30 days.
+	- The length of the suspension varies according to the seriousness of the traffic offenses.
+	- A driver may be required to complete a driver remedial education course as part of reinstatement of driving privileges. This information will be indicated on the suspension notice.
+	- A suspended driver may be (but not always) eligible for a restricted driving permit during the suspension period.
+- **Driver's license suspension for alcohol consumption** : a person under age 21 who receives court supervision for possession, consumption, purchase or receipt of alcohol will receive a 3 months driver's license suspension if the offense occurred while the person was an occupant of a motor vehicle.
+	- A conviction will result in a minimum 6 months suspension of driving privileges if the offense occurred while the person was an occupant of a motor vehicle.
