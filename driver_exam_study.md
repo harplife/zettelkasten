@@ -269,4 +269,28 @@ A driver must yield the right of way to other drivers, bicyclist or pedestrians:
 - When more than one driver reaches a four-way stop intersection. The first driver to stop should be the first to go. When two vehicles on different roadways arrive at a four-way stop intersection at the same time, the vehicle on the left should yield to the vehicle on the right.
 	- ![[Pasted image 20241009223124.png]]
 - When entering an intersection with a flashing yellow arrow.
-- 
+- When two vehicles on different roadways reach an uncontrolled intersection at the same time. The vehicle on the left should yield to the vehicle on the right.
+- When making a left-hand turn into oncoming traffic. If you enter an intersection while the light is green, you may finish the turn even though the light turns red.
+- When approaching a MERGE sign with through traffic. You must increase or decrease speed to avoid a crash.
+- When approaching a YIELD sign.
+- Even after the light turns green when there are vehicles in the intersection.
+- When emerging from an alley, building, private road or driveway after coming to a complete stop.
+	- ![[Pasted image 20241010160924.png]]
+- To cross traffic when on the terminate highway of a "T" intersection with no traffic control signs or signals.
+	- ![[Pasted image 20241010161043.png]]
+- When approaching emergency vehicles using audible and visual signals.
+
+A driver may not:
+- Enter an intersection or drive within a marked crosswalk unless there is enough space to allow passage of other vehicles and/or pedestrians.
+- Drive onto a railroad crossing.
+
+#### Pedestrian right of way
+A driver must come to a complete stop (and yield):
+- When a pedestrian is in a marked crosswalk.
+- On school days, when children are in close proximity to a school zone crosswalk.
+
+A driver must yield:
+- When a pedestrian is in an unmarked crosswalk on the driver's side of the roadway and there are no traffic control signals.
+- When making a turn at any intersection.
+- When making a lawful turn on a red light after coming to a complete stop.
+- After coming to a complete stop at a stop sign or flashing red signal at an intersection.
