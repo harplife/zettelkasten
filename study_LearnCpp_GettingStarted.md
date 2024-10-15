@@ -8576,6 +8576,10 @@ int main()
 - In the example above, the type deduction drops both `const` qualifier and the reference qualifier. `y` is simply a `std::string` object with value `"Hello World"`.
 - The `const` qualifier can be reapplied (e.g. `const auto`), along with the reference qualifier (e.g. `const auto&`).
 
+### auto reference to const object
+- When `auto&` is bound to a `const` object, the reference is deduced as `const` type.
+	- In other words, if the object you're binding to is `const`, the deduced type will automatically include the `const` qualifier, and the reference cannot be used to modify the object.
+
 ### Type deduction and constexpr
 - `auto` and `constexpr` can work together, but their interaction follows some specific rules.
 
