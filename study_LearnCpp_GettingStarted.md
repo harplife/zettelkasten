@@ -8576,8 +8576,51 @@ int main()
 - In the example above, the type deduction drops both `const` qualifier and the reference qualifier. `y` is simply a `std::string` object with value `"Hello World"`.
 - The `const` qualifier can be reapplied (e.g. `const auto`), along with the reference qualifier (e.g. `const auto&`).
 
-#### Type deduction and constexpr references
+### Type deduction and constexpr
+- `auto` and `constexpr` can work together, but their interaction follows some specific rules.
+
+#### constexpr auto for variables
+- When you declare a variable as `constexpr auto`, the type is deduced from the initializer, and the compiler ensures that the variable is a **constant** that must be evaluated at compile time.
+- For example:
+
+```C++
+constexpr auto x = 42; // x is deduced as a constant int with the value 42
+```
+
+#### constexpr auto with functions
+- When using `constexpr auto` with a function, it means that the return type of the function is deduced by the compiler, and the function is capable of being evaluated at compile time if the arguments are constant expressions.
+- For example:
+
+```C++
+constexpr auto square(auto x)
+{
+	return x * x;
+}
+
+int main()
+{
+	constexpr auto result = square(5); // Deduced as int, compile-time eval
+}
+```
+
+- In the example above, since 
+
 - `constexpr` is not part of an expression's type, so it is not deduced by `auto`.
+- If you use `auto` without `constexpr` and the initializer is not a constant expression (but the function itself is `constexpr`), the type will still be deduced, but the result may be computed at runtime rather than compile time. For example,
+
+```C++
+constexpr auto square(auto x)
+{
+	return x * x;
+	
+}
+
+int main()
+{
+	auto y = square(10); // Deduced as int, but may compile during runtime
+}
+```
+
 - 
 
 
