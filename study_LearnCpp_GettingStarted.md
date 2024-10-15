@@ -8603,7 +8603,9 @@ int main()
 }
 ```
 
-- In the example above, since 
+- In the example above, since `square()` is called with a constant expression `5`, the result is computed at compile time.
+
+#### Interaction with non-constant initializers
 
 - `constexpr` is not part of an expression's type, so it is not deduced by `auto`.
 - If you use `auto` without `constexpr` and the initializer is not a constant expression (but the function itself is `constexpr`), the type will still be deduced, but the result may be computed at runtime rather than compile time. For example,
