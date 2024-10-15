@@ -8611,7 +8611,7 @@ int main()
 >
 >For example, `auto y = square(10);` may deduce an `int` type, but the result may be calculated at runtime. Essentially, this is the same with `auto y = 10;` (because `10` is a constant expression).
 
-#### constexpr auto with references
+#### constexpr auto references
 - You can use `constexpr` with `auto&` or `auto&&` when dealing with references.
 	- This ensures that the reference itself is bound to a constant expression, and the type is deduced as a reference.
 - For example:
@@ -8626,7 +8626,19 @@ constexpr auto& ref = value; // ref is a constexpr reference to a const int
 >[!reminder]
 >`constexpr` implies `cosnt` for objects, but not for functions.
 
+#### constexpr auto reference to const object
 
+>[!warning]
+>Constant expressions involving `constexpr` and `const` is rather difficult subject to deal with; especially so with `constexpr`. What I've wrote for this section is an answer from ChatGPT, so take it with a grain of salt.
+
+- A `constexpr` reference can only be bound to an object or value that is constant expression. Since a `const` object is a constant expression (if it's initialized with a compile-time constant), it can be used to bind a `constexpr` reference.
+- When a `constexpr` reference is bound to a `const` object, it enforces the same compile-time evaluation and immutability.
+- For example:
+
+```C++
+constexpr int value = 10;
+constexpr const int& ref = value;
+```
 
 
 ### Type deduction and const pointers
