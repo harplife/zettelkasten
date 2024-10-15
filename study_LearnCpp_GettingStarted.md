@@ -8581,7 +8581,8 @@ int main()
 - However, the order of the `const` qualifier matters when `auto*` is involved.
 	- A `const auto*` means "make the deduced pointer type a pointer to const" (pointer to const, e.g. `const int*`).
 	- A `auto* const` means "make the deduced pointer type a const pointer" (a const pointer, e.g. `int const*`).
-- 
+
+
 
 
 ## Intro to compound data types

@@ -66,12 +66,12 @@
             }
           },
           {
-            "id": "9c9a2525afbfe6bd",
+            "id": "edc39ea2f46ab44e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study_LearnCpp_GettingStarted.md",
+                "file": "driver_exam_study.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -79,12 +79,12 @@
             }
           },
           {
-            "id": "edc39ea2f46ab44e",
+            "id": "9c9a2525afbfe6bd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "driver_exam_study.md",
+                "file": "study_LearnCpp_GettingStarted.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "driver_exam_study.md"
+                "file": "study_LearnCpp_GettingStarted.md"
               }
             }
           }
@@ -211,7 +211,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "driver_exam_study.md",
+                "file": "study_LearnCpp_GettingStarted.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -246,7 +246,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "driver_exam_study.md",
+                "file": "study_LearnCpp_GettingStarted.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -281,7 +281,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "driver_exam_study.md",
+                "file": "study_LearnCpp_GettingStarted.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -314,14 +314,15 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "edc39ea2f46ab44e",
+  "active": "9c9a2525afbfe6bd",
   "lastOpenFiles": [
+    "study_LearnOpenGL_Colors.md",
+    "study_LearnCpp_GettingStarted.md",
+    "driver_exam_study.md",
     "attachments/Pasted image 20241010161043.png",
     "attachments/Pasted image 20241010160924.png",
     "attachments/Pasted image 20241009223124.png",
     "attachments/Pasted image 20241009222943.png",
-    "study_LearnCpp_GettingStarted.md",
-    "driver_exam_study.md",
     "attachments/Pasted image 20240926153339.png",
     "attachments/Pasted image 20240926152252.png",
     "attachments/xkcd_goto.png",
@@ -330,10 +331,8 @@
     "attachments/Demorganlaws.svg",
     "attachments/table_of_precedence_associativity.pdf",
     "study_LearnOpenGL_GettingStarted.md",
-    "study_LearnOpenGL_Colors.md",
     "attachments/Pasted image 20240805123926.png",
     "attachments/Pasted image 20240802123930.png",
-    "attachments/Pasted image 20240801063805.png",
     "computer_science/languages/cpp/knou_cpp_notes.md",
     "computer_science/languages/cpp/cpp_cherno_playlist_notes.md",
     "opengl_code_guide.md",
