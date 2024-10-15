@@ -8576,6 +8576,11 @@ int main()
 - In the example above, the type deduction drops both `const` qualifier and the reference qualifier. `y` is simply a `std::string` object with value `"Hello World"`.
 - The `const` qualifier can be reapplied (e.g. `const auto`), along with the reference qualifier (e.g. `const auto&`).
 
+#### Type deduction and constexpr references
+- `constexpr` is not part of an expression's type, so it is not deduced by `auto`.
+- 
+
+
 ### Type deduction and const pointers
 - `const auto` and `auto const` does the same thing, just as `const int` and `int const` is the same.
 - However, the order of the `const` qualifier matters when `auto*` is involved.
