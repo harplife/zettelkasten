@@ -8587,8 +8587,9 @@ int main()
 constexpr auto x = 42; // x is deduced as a constant int with the value 42
 ```
 
-#### constexpr auto with functions
+#### constexpr auto with functions (C++14)
 - When using `constexpr auto` with a function, it means that the return type of the function is deduced by the compiler, and the function is capable of being evaluated at compile time if the arguments are constant expressions.
+	- The return type of a `constexpr` function using `auto` can only be deduced in C++ 14 and above. In C++11 and below, the return type has to be explicitly specified for `constexpr` functions.
 - For example:
 
 ```C++
@@ -8605,25 +8606,27 @@ int main()
 
 - In the example above, since `square()` is called with a constant expression `5`, the result is computed at compile time.
 
-#### Interaction with non-constant initializers
+>[!warning]
+>If a variable is declared using `auto` without the `constexpr` keyword but its initializer is a constant expression, the variable will not necessarily be initialized at compile time. Instead, it will be initialized at runtime, even though the initializer is a constant expression.
+>
+>For example, `auto y = square(10);` may deduce an `int` type, but the result may be calculated at runtime. Essentially, this is the same with `auto y = 10;` (because `10` is a constant expression).
 
-- `constexpr` is not part of an expression's type, so it is not deduced by `auto`.
-- If you use `auto` without `constexpr` and the initializer is not a constant expression (but the function itself is `constexpr`), the type will still be deduced, but the result may be computed at runtime rather than compile time. For example,
+#### constexpr auto with references
+- You can use `constexpr` with `auto&` or `auto&&` when dealing with references.
+	- This ensures that the reference itself is bound to a constant expression, and the type is deduced as a reference.
+- For example:
 
 ```C++
-constexpr auto square(auto x)
-{
-	return x * x;
-	
-}
-
-int main()
-{
-	auto y = square(10); // Deduced as int, but may compile during runtime
-}
+constexpr int value = 10;
+constexpr auto& ref = value; // ref is a constexpr reference to a const int
 ```
 
-- 
+- In the example above, `ref` is deduced to be a `const int` reference to `value`. Because both `value` and `ref` are `constexpr`, their evaluation happens at compile time.
+
+>[!reminder]
+>`constexpr` implies `cosnt` for objects, but not for functions.
+
+
 
 
 ### Type deduction and const pointers
