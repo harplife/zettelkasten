@@ -8663,7 +8663,31 @@ constexpr const int& ref = value;
 - However, the order of the `const` qualifier matters when `auto*` is involved.
 	- A `const auto*` means "make the deduced pointer type a pointer to const" (pointer to const, e.g. `const int*`).
 	- A `auto* const` means "make the deduced pointer type a const pointer" (a const pointer, e.g. `int const*`).
+- An example where the initializer is a const pointer to const:
 
+```C++
+#include <string>
+
+int main()
+{
+    std::string s{};
+    const std::string* const ptr { &s };
+
+    auto ptr1{ ptr };  // const std::string*
+    auto* ptr2{ ptr }; // const std::string*
+
+    auto const ptr3{ ptr };  // const std::string* const
+    const auto ptr4{ ptr };  // const std::string* const
+
+    auto* const ptr5{ ptr }; // const std::string* const
+    const auto* ptr6{ ptr }; // const std::string*
+
+    const auto const ptr7{ ptr };  // error: const qualifer can not be applied twice
+    const auto* const ptr8{ ptr }; // const std::string* const
+
+    return 0;
+}
+```
 
 
 
