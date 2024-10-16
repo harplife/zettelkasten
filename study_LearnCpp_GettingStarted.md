@@ -8689,8 +8689,20 @@ int main()
 }
 ```
 
-## std::optional
-
+## std::optional (C++17)
+- `std::optional` represents an optional object that may or may not contain a value, essentially wrapping a type to indicate the presence or absence of a value.
+- An `std::optional` object either:
+	- contains a value (which can be accessed safely).
+	- does not contain a value (i.e. is in an empty or nullopt state).
+- `std::optional` is useful for situations where a function or operation might not return a valid value, but you don't want to use special sentinel values (like `0`, `-1`, or `nullptr`) or exceptions to represent the absence of a result.
+- `std::optional` lives in a header called `<optional>`.
+	- Include the header like so: `#include <optional>`
+- A simple way to declare an `std::optional` object (defaults to no value):
+	- `std::optional<int> optInt;`
+- You can assign a value or use `std::nullopt` to indicate the absence of a value:
+	- `optInt = 42;`
+	- `optInt - std::nullopt;`
+- 
 
 
 ## Intro to compound data types
