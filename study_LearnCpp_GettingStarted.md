@@ -8580,6 +8580,13 @@ int main()
 - When `auto&` is bound to a `const` object, the reference is deduced as `const` type.
 	- In other words, if the object you're binding to is `const`, the deduced type will automatically include the `const` qualifier, and the reference cannot be used to modify the object.
 
+>[!warning]
+>Do not confuse (1) the use of `auto` with `const` initializer, and (2) the use of `auto&` with `const` initializer.
+
+### const auto reference
+- 
+
+
 ### Type deduction and constexpr
 - `auto` and `constexpr` can work together, but their interaction follows some specific rules.
 
