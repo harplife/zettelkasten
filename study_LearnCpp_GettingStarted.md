@@ -8576,16 +8576,15 @@ int main()
 - In the example above, the type deduction drops both `const` qualifier and the reference qualifier. `y` is simply a `std::string` object with value `"Hello World"`.
 - The `const` qualifier can be reapplied (e.g. `const auto`), along with the reference qualifier (e.g. `const auto&`).
 
-### auto reference to const object
+### (const) auto reference to const object
 - When `auto&` is bound to a `const` object, the reference is deduced as `const` type.
 	- In other words, if the object you're binding to is `const`, the deduced type will automatically include the `const` qualifier, and the reference cannot be used to modify the object.
-- Although `auto&` deduces the `const` qualifier from the object, 
+- Although `auto&` deduces the `const` qualifier from the object, the `const` qualifier can be explicitly declared in the reference type (e.g. `const auto&`).
+	- When `const auto&` is used, even if the initializer is non-const, the reference will be `const`.
+	- `const auto&` is able to bind to a temporary object created from a literal (rvalue initializer).
 
 >[!warning]
 >Do not confuse (1) the use of `auto` with `const` initializer, and (2) the use of `auto&` with `const` initializer.
-
-### const auto reference to non-const object
-- 
 
 
 ### Type deduction and constexpr
@@ -8652,8 +8651,14 @@ constexpr int value = 10;
 constexpr const int& ref = value;
 ```
 
+### Type deduction and pointers
+- Type deduction does not drop pointers. As such, `auto` will deduce to a pointer if the initializer is a pointer (e.g. `auto ptr2 = ptr1;`).
+	- An asterisk can be used in conjunction with pointer type deduction (`auto*`) to make it explicit that the deduced type is a pointer (e.g. `auto* ptr2 = ptr1;`).
 
-### Type deduction and const pointers
+>[!warning]
+>Deducing a pointer type with either `auto` or `auto*` makes no real difference. However, `auto` is more flexible because it can deduce both pointer types and non-pointer types. When `auto*` is used and the initializer is not a pointer type, then a compile error will occur.
+
+#### Type deduction and const pointers
 - `const auto` and `auto const` does the same thing, just as `const int` and `int const` is the same.
 - However, the order of the `const` qualifier matters when `auto*` is involved.
 	- A `const auto*` means "make the deduced pointer type a pointer to const" (pointer to const, e.g. `const int*`).
