@@ -8702,6 +8702,7 @@ int main()
 - You can assign a value or use `std::nullopt` to indicate the absence of a value:
 	- `optInt = 42;`
 	- `optInt - std::nullopt;`
+- You can check if an `std::optional` object has a value by using its member function `.has_value()`, which returns `true` if the object does hold a value.
 - 
 
 
