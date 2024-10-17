@@ -8717,8 +8717,33 @@ std::cout << opt.value_or(0) << '\n'; // Outputs 10 if opt has a value, otherwis
 ```
 
 - `std::optional` is ideal for functions that might fail but can't throw exceptions (or where using sentinel values is problematic).
-- When a function has optional arguments, using `std::optional` can indicate that the parameter is optional in a more structured way than using default values.
-- 
+- Instead of pairing the return value with a `bool` to indicate success or failure (using `std::pair<bool, T>`), `std::optional` can be used to directly return either a valid result (success) or an empty state (failure). For example,
+
+```C++
+std::optional<int> divide(int a, int b)
+{
+    if (b == 0) {
+        return std::nullopt;  // No valid result (division by zero)
+    } else {
+        return a / b;
+    }
+}
+```
+
+- When a function has optional arguments, using `std::optional` can indicate that the parameter is optional in a more structured way than using default values. For example:
+
+```C++
+void printMessage(std::optional<std::string> name)
+{
+    if (name) {
+        std::cout << "Hello, " << *name << '\n';
+    } else {
+        std::cout << "Hello, World!\n";
+    }
+}
+```
+
+- Instead of
 
 
 ## Intro to compound data types
