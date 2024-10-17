@@ -8701,9 +8701,23 @@ int main()
 	- `std::optional<int> optInt;`
 - You can assign a value or use `std::nullopt` to indicate the absence of a value:
 	- `optInt = 42;`
-	- `optInt - std::nullopt;`
+	- `optInt = std::nullopt;`
+	- You can also use `.reset()` to rest the object to an empty state (equivalent to `std::nullopt`).
 - You can check if an `std::optional` object has a value by using its member function `.has_value()`, which returns `true` if the object does hold a value.
-- 
+- The value of an `std::optional` object can be accessed via its member function `.value()`.
+	- Be aware that calling `.value()` on an empty `std::optional` will throw an exception (`std::bad_optional_access`).
+	- A safer way to access the value is to use the dereference operator `*` or `.value_or(default_value)` which provides a default value if the `std::optional` object is empty.
+- For example:
+
+```C++
+std::optional<int> opt = 10;
+std::cout << *opt << '\n';            // Outputs 10
+
+std::cout << opt.value_or(0) << '\n'; // Outputs 10 if opt has a value, otherwise 0
+```
+
+- `std::optional` is ideal for functions that might fail but can't throw exceptions (or where using sentinel values is problematic).
+- `std::optional` can also be used to 
 
 
 ## Intro to compound data types
