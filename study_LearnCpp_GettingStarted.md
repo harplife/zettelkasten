@@ -8747,13 +8747,34 @@ void printMessage(std::optional<std::string> name)
 ## Intro to user-defined types
 - A <mark class="hltr-trippy">user-defined type (UDT)</mark> is a data type that is defined by the programmer (user), rather than being one of the built-in types like `int`, `char`, or `float`.
 	- User-defined types allow you to create more complex data structures that better model real-world entities or organize data and behavior in a way that suits your application's needs.
+	- Defining a user-defined type is called a <mark class="hltr-trippy">type definition</mark>.
 - There are several ways to define user-defined types, including:
 	- classes (`class`)
 	- structures (`struct`)
 	- Unions (`union`)
 	- Enumerations (`enum`)
 	- Type aliases (`typedef`, `using`)
-- 
+- As covered in [[#Typedefs and type aliases]], an alias for an existing type can be made (which counts as user-defined type). For example,
+
+```C++
+#include <iostream>
+
+using length = int; // define a type alias with identifier 'length'
+
+int main()
+{
+    length x { 5 }; // we can use 'length' here since we defined it above
+    std::cout << x << '\n';
+
+    return 0;
+}
+```
+
+- By convention, user-defined types are named starting with a capital letter and without using a suffix (e.g. `Fraction`).
+- In a multi-file program, it's best to place type definitions in header files. These header files can be included into any code file that requires that type definition.
+- Type definitions doesn't allow for forward declarations. The compiler typically needs to see the full definition to use a given type.
+	- This means that types are exempt from the one-definition rule; given type is allowed to be defined in multiple code files. However, all of the type definitions must be identical (otherwise undefined behavior will occur).
+- In a more recent trend, user-defined type is being referred to as program-defined types instead. The term "user-defined" is a little too vague and encompassing, as it could include even the type definitions from the standard library. It makes more sense to say program-defined type, in order to indicate "a type defined within your own program".
 
 ## Intro to compound data types
 - Compound data types (aka composite data types) are data types that can be constructed from fundamental data types (or other compound data types). These types allow the dev to group multiple values together, providing a way to manage and manipulate related data as a single unit.
