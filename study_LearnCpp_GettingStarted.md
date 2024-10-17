@@ -8743,8 +8743,17 @@ void printMessage(std::optional<std::string> name)
 }
 ```
 
-- Instead of
 
+## Intro to user-defined types
+- A <mark class="hltr-trippy">user-defined type (UDT)</mark> is a data type that is defined by the programmer (user), rather than being one of the built-in types like `int`, `char`, or `float`.
+	- User-defined types allow you to create more complex data structures that better model real-world entities or organize data and behavior in a way that suits your application's needs.
+- There are several ways to define user-defined types, including:
+	- classes (`class`)
+	- structures (`struct`)
+	- Unions (`union`)
+	- Enumerations (`enum`)
+	- Type aliases (`typedef`, `using`)
+- 
 
 ## Intro to compound data types
 - Compound data types (aka composite data types) are data types that can be constructed from fundamental data types (or other compound data types). These types allow the dev to group multiple values together, providing a way to manage and manipulate related data as a single unit.
