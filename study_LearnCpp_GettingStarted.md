@@ -8717,7 +8717,7 @@ std::cout << opt.value_or(0) << '\n'; // Outputs 10 if opt has a value, otherwis
 ```
 
 - `std::optional` is ideal for functions that might fail but can't throw exceptions (or where using sentinel values is problematic).
-- `std::optional` can also be used to 
+- `std::optional` can be used in place of pointers in order to avoid the risk of dereferencing a null pointer (or the hassle of checking for `nullptr`).
 
 
 ## Intro to compound data types
