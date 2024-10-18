@@ -8791,4 +8791,88 @@ int main()
 ### Unscoped enumerations
 - An `enum` (short for enumeration) is a user-defined type that consists of a set of named integral constants.
 	- It is used to define a type that can only take one of a limited, predefined set of values, making your code more readable, organized, and type-safe when working with a fixed set of related values.
-- 
+
+#### Type definition using enum
+- An `enum` is declared using the keyword `enum`, followed by a name and a list of named constants enclosed in curly braces. For example:
+
+```C++
+enum Color
+{
+	Red,
+	Green,
+	Blue
+};
+```
+
+>[!important] Always end type definition with a semicolon.
+
+- By default, the named constants in `enum` are implicitly assigned integer values starting from `0`.
+	- In the example above, `Red` is assigned `0`, Green a `1`, and Blue a `2`.
+
+#### Variable declaration using enum
+- Having defined an `enum` type, variables can be declared using the type. For example:
+
+```C++
+Color favoriteColor = Blue;
+
+if (favoriteColor == Blue) {
+    std::cout << "You like blue!" << std::endl;
+}
+```
+
+#### Custom value assignment for enum constants
+- You can explicitly assign custom integer values to enum constants. For example:
+
+```C++
+enum ErrorCode {
+    Success = 0,
+    NotFound = 404,
+    ServerError = 500
+};
+
+ErrorCode code = NotFound;
+if (code == 404) {
+    std::cout << "Resource not found!" << std::endl;
+}
+```
+
+### Scoped enumerations
+- In C++11 and above, a more type-safe version of `enum` is introduced, which is called `enum class` (or scoped enum). Unlike traditional enums, `enum class` prevents implicit conversion to integers and avoids naming collisions in the global scope.
+- An example of `enum class`:
+
+```C++
+enum class Direction {
+    North,
+    South,
+    East,
+    West
+};
+
+Direction dir = Direction::North;
+
+if (dir == Direction::North) {
+    std::cout << "Heading north!" << std::endl;
+}
+```
+
+- Note that the scope resolution operator `::` is used to access the enumerators.
+- The main differences between unscoped and scoped enums are:
+	- Enumerators in `enum class` cannot be implicitly converted to an integer. In other words, each enum constants are NOT given integer values.
+	- Enumerators in `enum` class are scoped within `enum class`.
+	- `enum class` is more type-safe, as there aren't any risk for naming conflicts.
+	- `enum class` is preferred in modern C++.
+
+#### Enum class and type-safety
+- Traditional (unscoped) enum can result in unintended behavior. For example:
+
+```C++
+enum Color { Red, Green, Blue };
+enum TrafficLight { RedLight, GreenLight, YellowLight };
+
+int main() {
+    Color color = Red;  // OK
+    TrafficLight light = Red;  // Error
+}
+```
+
+- In the example above, assigning `Red` to `light` was not intended, but it is an easy mistake to make considering a traffic light can be red.
