@@ -8788,6 +8788,7 @@ int main()
 	- This means that types are exempt from the one-definition rule; given type is allowed to be defined in multiple code files. However, all of the type definitions must be identical (otherwise undefined behavior will occur).
 - In a more recent trend, user-defined type is being referred to as program-defined types instead. The term "user-defined" is a little too vague and encompassing, as it could include even the type definitions from the standard library. It makes more sense to say program-defined type, in order to indicate "a type defined within your own program".
 
+## Intro to enum types
 ### Unscoped enumerations
 - An `enum` (short for enumeration) is a user-defined type that consists of a set of named integral constants.
 	- It is used to define a type that can only take one of a limited, predefined set of values, making your code more readable, organized, and type-safe when working with a fixed set of related values.
@@ -8892,3 +8893,5 @@ int main() {
 ```
 
 ### Uses of enums
+1. **Code clarity** : enums make your code more readable and meaningful by replacing magic numbers (like `0`, `1`, `-1`, etc.) with descriptive names.
+2. **Compile-time type safety** : enums prevent accidental assignment of invalid values, as only the predefined constants can be used.
