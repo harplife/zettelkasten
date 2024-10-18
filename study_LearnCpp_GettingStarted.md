@@ -8820,6 +8820,9 @@ if (favoriteColor == Blue) {
 }
 ```
 
+>[!warning] Variable of `enum` type can only be assigned a value using its named constants.
+>Even though named constants are assigned integer values, assigning an `enum` variable with an integer value (matching one of the named constants) results in an error.
+
 #### Custom value assignment for enum constants
 - You can explicitly assign custom integer values to enum constants. For example:
 
@@ -8876,3 +8879,16 @@ int main() {
 ```
 
 - In the example above, assigning `Red` to `light` was not intended, but it is an easy mistake to make considering a traffic light can be red.
+- Scoped enums are free from the issue mentioned above:
+
+```C++
+enum class Color { Red, Green, Blue };
+enum class TrafficLight { Red, Green, Yellow };
+
+int main() {
+    Color color = Color::Red;  // No ambiguity, `Color::Red` is required
+    TrafficLight light = TrafficLight::Red;  // Also clear, must use `TrafficLight::Red`
+}
+```
+
+### Uses of enums
