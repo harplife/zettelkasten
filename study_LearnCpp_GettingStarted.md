@@ -8790,11 +8790,11 @@ int main()
 
 ## Intro to enum types
 ### Unscoped enumerations
-- An `enum` (short for enumeration) is a user-defined type that consists of a set of named integral constants.
+- An <mark class="hltr-trippy">enum (short for enumeration)</mark> is a user-defined type that consists of a set of named integral constants.
 	- It is used to define a type that can only take one of a limited, predefined set of values, making your code more readable, organized, and type-safe when working with a fixed set of related values.
 
 #### Type definition using enum
-- An `enum` is declared using the keyword `enum`, followed by a name and a list of named constants enclosed in curly braces. For example:
+- An `enum` is declared using the keyword `enum`, followed by a name and a list of **named constants** enclosed in curly braces. For example:
 
 ```C++
 enum Color
@@ -8809,6 +8809,7 @@ enum Color
 
 - By default, the named constants in `enum` are implicitly assigned integer values starting from `0`.
 	- In the example above, `Red` is assigned `0`, Green a `1`, and Blue a `2`.
+	- The named constants are also called <mark class="hltr-trippy">enumerators</mark>.
 
 #### Variable declaration using enum
 - Having defined an `enum` type, variables can be declared using the type. For example:
@@ -8868,8 +8869,10 @@ if (dir == Direction::North) {
 	- `enum class` is more type-safe, as there aren't any risk for naming conflicts.
 	- `enum class` is preferred in modern C++.
 
->[!important] Named constants in `enum class` can be assigned values.
->Just like with unscoped enums, named constants in scoped enums can be assigned values.
+>[!important] Named constants in `enum class` still hold integer values.
+>Just like with unscoped enums, named constants in scoped enums hold integer values by default (starting at `0`). Custom values can be assigned to them as well.
+>
+>Note that even though named constants in scoped enums hold integer values, they cannot be directly compared to an integer value because implicit conversion to integer is NOT allowed. Explicit conversion (e.g. `static_cast<int>`) must be used on named constants in order to make comparison with an integer value.
 
 #### Enum class and type-safety
 - Traditional (unscoped) enum can result in unintended behavior. For example:
