@@ -8895,8 +8895,8 @@ int main() {
 ### Uses of enums
 1. **Code clarity** : enums make your code more readable and meaningful by replacing magic numbers (like `0`, `1`, `-1`, etc.) with descriptive names.
 2. **Compile-time type safety** : enums prevent accidental assignment of invalid values, as only the predefined constants can be used.
-3. Group related constants : enums allow you to group related constants together under a single type, keeping your code organized.
-4. Switch statements : enums are often used in `switch` statements to make decisions based on predefined states or categories. For example,
+3. **Group related constants** : enums allow you to group related constants together under a single type, keeping your code organized.
+4. **Switch statements** : enums are often used in `switch` statements to make decisions based on predefined states or categories. For example,
 
 ```C++
 switch (dir) {
