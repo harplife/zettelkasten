@@ -8840,6 +8840,8 @@ if (code == 404) {
 }
 ```
 
+>[!warning] Named constants in enum cannot be assigned values outside its scope.
+
 ### Scoped enumerations
 - In C++11 and above, a more type-safe version of `enum` is introduced, which is called `enum class` (or scoped enum). Unlike traditional enums, `enum class` prevents implicit conversion to integers and avoids naming collisions in the global scope.
 - An example of `enum class`:
@@ -8865,6 +8867,9 @@ if (dir == Direction::North) {
 	- Enumerators in `enum` class are scoped within `enum class`.
 	- `enum class` is more type-safe, as there aren't any risk for naming conflicts.
 	- `enum class` is preferred in modern C++.
+
+>[!important] Named constants in `enum class` can be assigned values.
+>Just like with unscoped enums, named constants in scoped enums can be assigned values.
 
 #### Enum class and type-safety
 - Traditional (unscoped) enum can result in unintended behavior. For example:
