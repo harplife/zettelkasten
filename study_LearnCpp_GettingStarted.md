@@ -9177,6 +9177,9 @@ int main()
 }
 ```
 
+### Using enum statements (C++20)
+- Introduced in C++20, a `using enum` statement imports all of the enumerators from an enum into the current scope.
+
 ## Intro to overloading the I/O operators
 - Operator overloading allows you to redefine or "overload" the functionality of existing operators (such as `+`, `-`, `*`, etc.) for user-defined types.
 
