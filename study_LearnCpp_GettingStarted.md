@@ -8917,7 +8917,44 @@ enum Animal
 ```
 
 ### Value-initializing an enumeration
-- 
+- When a variable is defined with an enumeration type but is not initialized with a value (using empty brace initialization), the enum variable is default initialized with a `0`.
+	- If none of its named constants are assigned custom values (meaning the first one defaults to `0`), then the enum variable is initialized with the first named constant.
+	- However, if there is a named constant that is assigned a custom value of `0` (and the first named constant is assigned a value other than `0`), then the enum variable is initialized with that named constant.
+	- Even if there are not any named constants with value of `0`, the enumeration will still be assigned a value of `0`.
+
+>[!warning]
+>If the first named constant in an enumeration is not assigned custom value (defaulting to `0`) and a named constant (other than the first) is assigned a custom value of `0`, then enum type variable that is default initialized will equal to both of those named constants. In other words, it will have named constants with duplicate values.
+
+>[!important] Make enumerator representing `0` be meaningful.
+>Enumerator representing `0` should either be the best default meaning that represents the enumeration type, or be a meaning that represents invalid/unknown.
+
+### Enumeration size and underlying type (base)
+- The specific integral type used to represent the value of enumerators is called the enumeration's <mark class="hltr-trippy">underlying type</mark> (or **base**).
+- C++ standard does not specify which specific integral type should be used as the underlying type, so the choice is implementation-defined.
+	- Most compilers will use `int` as the underlying type, unless a larger type is required to store the enumerator values. However, this may not be true for all compilers or platforms.
+- It is possible to explicitly specify an underlying type for an enumeration. The underlying type must be an integral type. For example:
+
+```C++
+#include <cstdint>  // for std::int8_t
+#include <iostream>
+
+// Use an 8-bit integer as the enum underlying type
+enum Color : std::int8_t
+{
+    black,
+    red,
+    blue,
+};
+
+int main()
+{
+    Color c{ black };
+    std::cout << sizeof(c) << '\n'; // prints 1 (byte)
+
+    return 0;
+}
+```
+
 
 ### Uses of enums
 1. **Code clarity** : enums make your code more readable and meaningful by replacing magic numbers (like `0`, `1`, `-1`, etc.) with descriptive names.
