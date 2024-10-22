@@ -8900,6 +8900,25 @@ int main() {
 }
 ```
 
+### Enum constant integer value increment
+- For both scoped and unscoped, the named constants in enumeration are assigned integer values by default, starting at `0` (for the first named constant). For each named constant, the integer value is incremented by `1`.
+- When a custom integer value is assigned to a named constant and the named constants that come afterwards are not assigned custom values, then those constant values are assigned values that are incremented from the custom value. For example:
+
+```C++
+enum Animal
+{
+    cat = -3,    // values can be negative
+    dog,         // -2
+    pig,         // -1
+    horse = 5,
+    giraffe = 5, // shares same value as horse
+    chicken,     // 6
+};
+```
+
+### Value-initializing an enumeration
+- 
+
 ### Uses of enums
 1. **Code clarity** : enums make your code more readable and meaningful by replacing magic numbers (like `0`, `1`, `-1`, etc.) with descriptive names.
 2. **Compile-time type safety** : enums prevent accidental assignment of invalid values, as only the predefined constants can be used.
@@ -8915,6 +8934,120 @@ switch (dir) {
         std::cout << "Going south!";
         break;
     // and so on...
+}
+```
+
+### Real-life scenarios using enumerations
+#### Traffic light system
+
+```C++
+enum class TrafficLight {
+    Red,
+    Yellow,
+    Green
+};
+
+void displayTrafficLight(TrafficLight light) {
+    switch (light) {
+        case TrafficLight::Red:
+            std::cout << "Stop!" << std::endl;
+            break;
+        case TrafficLight::Yellow:
+            std::cout << "Get ready to stop!" << std::endl;
+            break;
+        case TrafficLight::Green:
+            std::cout << "Go!" << std::endl;
+            break;
+    }
+}
+
+int main() {
+    TrafficLight currentLight = TrafficLight::Red;
+    displayTrafficLight(currentLight);
+}
+```
+
+#### Order status in an e-commerce system
+
+```C++
+enum class OrderStatus {
+    Pending,
+    Shipped,
+    Delivered,
+    Cancelled
+};
+
+void printOrderStatus(OrderStatus status) {
+    switch (status) {
+        case OrderStatus::Pending:
+            std::cout << "Your order is pending." << std::endl;
+            break;
+        case OrderStatus::Shipped:
+            std::cout << "Your order has been shipped." << std::endl;
+            break;
+        case OrderStatus::Delivered:
+            std::cout << "Your order has been delivered." << std::endl;
+            break;
+        case OrderStatus::Cancelled:
+            std::cout << "Your order has been cancelled." << std::endl;
+            break;
+    }
+}
+
+int main() {
+    OrderStatus myOrder = OrderStatus::Shipped;
+    printOrderStatus(myOrder);
+}
+```
+
+#### Error codes in a network application
+
+```C++
+enum class NetworkError {
+    Success = 0,
+    Timeout = 1,
+    ConnectionLost = 2,
+    InvalidRequest = 3
+};
+
+NetworkError sendRequest() {
+    // Simulate a network error
+    return NetworkError::Timeout;
+}
+
+int main() {
+    NetworkError error = sendRequest();
+    if (error == NetworkError::Timeout) {
+        std::cout << "Network timeout occurred!" << std::endl;
+    }
+}
+```
+
+#### Log levels in a logging system
+
+```C++
+enum class LogLevel {
+    Info,
+    Warning,
+    Error
+};
+
+void logMessage(LogLevel level, const std::string& message) {
+    switch (level) {
+        case LogLevel::Info:
+            std::cout << "[INFO]: " << message << std::endl;
+            break;
+        case LogLevel::Warning:
+            std::cout << "[WARNING]: " << message << std::endl;
+            break;
+        case LogLevel::Error:
+            std::cout << "[ERROR]: " << message << std::endl;
+            break;
+    }
+}
+
+int main() {
+    logMessage(LogLevel::Warning, "Disk space is running low.");
 }
 ```
 
