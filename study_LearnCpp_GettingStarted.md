@@ -9194,7 +9194,7 @@ std::ostream& operator<<(std::ostream& os, const T& obj)
 }
 ```
 
-- In order to print an enumeration, two things must be achieved:
+- In order to print an enumeration (as string), two things must be achieved:
 	- [[#Getting the name of an enumerator]]
 	- [[#Intro to function overloading|Function overloading]]
 - For example:
@@ -9210,7 +9210,7 @@ enum Color
 	blue,
 };
 
-constexpr std::string_view getColorName(Color color)
+constexpr std::string_view getColorName(const Color& color)
 {
     switch (color)
     {
@@ -9224,7 +9224,7 @@ constexpr std::string_view getColorName(Color color)
 // Teach operator<< how to print a Color
 // std::ostream is the type of std::cout, std::cerr, etc...
 // The return type and parameter type are references (to prevent copies from being made)
-std::ostream& operator<<(std::ostream& out, Color color)
+std::ostream& operator<<(std::ostream& out, const Color& color)
 {
     out << getColorName(color); // print our color's name to whatever output stream out
     return out;                 // operator<< conventionally returns its left operand
@@ -9241,3 +9241,12 @@ int main()
 	return 0;
 }
 ```
+
+>[!important] `constexpr` works well with `std::string_view`.
+>There are multiple benefits to using `constexpr` with `std::string_view`:
+>- Compile-time evaluation
+>- No dynamic memory allocation
+>- Reduced runtime overhead
+>- Immutability
+>- Efficient memory usage
+
