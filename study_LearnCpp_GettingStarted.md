@@ -9178,3 +9178,5 @@ int main()
 ```
 
 ## Intro to overloading the I/O operators
+- Operator overloading allows you to redefine or "overload" the functionality of existing operators (such as `+`, `-`, `*`, etc.) for user-defined types.
+- 
