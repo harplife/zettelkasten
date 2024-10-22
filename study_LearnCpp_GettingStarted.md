@@ -9179,4 +9179,65 @@ int main()
 
 ## Intro to overloading the I/O operators
 - Operator overloading allows you to redefine or "overload" the functionality of existing operators (such as `+`, `-`, `*`, etc.) for user-defined types.
-- 
+
+### Overloading << operator to print enum
+- In the context of streaming output, `<<` is a stream insertion operator that takes two operands (meaning it is binary).
+	- Left operand is often `std::cout`, which actually has a type of `std::ostream`.
+	- Right operand ranges from `int`, `float`, and etc.
+- `<<` operator can be thought of like a function that takes two arguments. First argument (left operand) is a reference to the output stream object (e.g. `std::ostream& out`) that will be returned from the function. For example:
+
+```C++
+std::ostream& operator<<(std::ostream& os, const T& obj)
+{
+	// write obj to stream
+	return os;
+}
+```
+
+- In order to print an enumeration, two things must be achieved:
+	- [[#Getting the name of an enumerator]]
+	- [[#Intro to function overloading|Function overloading]]
+- For example:
+
+```C++
+#include <iostream>
+#include <string_view>
+
+enum Color
+{
+	black,
+	red,
+	blue,
+};
+
+constexpr std::string_view getColorName(Color color)
+{
+    switch (color)
+    {
+    case black: return "black";
+    case red:   return "red";
+    case blue:  return "blue";
+    default:    return "???";
+    }
+}
+
+// Teach operator<< how to print a Color
+// std::ostream is the type of std::cout, std::cerr, etc...
+// The return type and parameter type are references (to prevent copies from being made)
+std::ostream& operator<<(std::ostream& out, Color color)
+{
+    out << getColorName(color); // print our color's name to whatever output stream out
+    return out;                 // operator<< conventionally returns its left operand
+
+    // The above can be condensed to the following single line:
+    // return out << getColorName(color)
+}
+
+int main()
+{
+	Color shirt{ blue };
+	std::cout << "Your shirt is " << shirt << '\n'; // it works!
+
+	return 0;
+}
+```
