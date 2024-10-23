@@ -9391,10 +9391,16 @@ struct Student
 ### Struct initialization and member assignment
 - Empty initialization of a `struct` will initialize its members with their default values.
 	- If default values aren't set, then there will be garbage data.
-- A `struct` can be initialized with a group of values inside a bracket. For example:
+- A `struct` can be initialized with a group of values inside the braces. For example:
 
 ```C++
 Student john = {0, "John", 'A'};
+```
+
+- The number of values inside the braces has to be either equal or less than the number of members in `struct`. For example:
+
+```C++
+Student john = {0}; // Initializes only the id
 ```
 
 ### Member selection and assignment
@@ -9438,3 +9444,6 @@ int main() {
 }
 ```
 
+>[!important] Constant member function?
+>When a function has `const` placed after the closing parentheses in its declaration, it means that the function is a constant member function.
+>
