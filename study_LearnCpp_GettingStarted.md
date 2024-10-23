@@ -9372,5 +9372,69 @@ int main()
 }
 ```
 
-## Intro to structs, members, and member selection
-- 
+## Intro to structs
+### Basic syntax of struct
+- A `struct` (short for structure) is a user-defined type that groups together variables (known as **data members**) under one name.
+	- The members of a `struct` can be of different types, allowing you to store related information as a single entity.
+	- A `struct` is primarily used to represent data structures or objects that naturally group multiple attributes together.
+- Basic syntax of a `struct`:
+
+```C++
+struct Student
+{
+	int id;
+	std::string name = "John"; // default value
+	char grade;
+};
+```
+
+### Struct initialization and member assignment
+- Empty initialization of a `struct` will initialize its members with their default values.
+	- If default values aren't set, then there will be garbage data.
+- A `struct` can be initialized with a group of values inside a bracket. For example:
+
+```C++
+Student john = {0, "John", 'A'};
+```
+
+### Member selection and assignment
+- Once a `struct` is initialized, its member can be accessed:
+
+```C++
+std::cout << john.id << std::endl;
+std::cout << john.name << std::enl;
+```
+
+- Each member of a `struct` can be assigned a custom value:
+
+```C++
+john.id = 7;
+john.grade = 'C';
+```
+
+### Member function for struct
+- A member function can be defined in a `struct`. For example:
+
+```C++
+#include <iostream>
+#include <string>
+
+struct Student {
+    int id;
+    std::string name;
+    char grade;
+
+    // Member function to display student info
+    void display() const {
+        std::cout << "ID: " << id << ", Name: " << name << ", Grade: " << grade << "\n";
+    }
+};
+
+int main() {
+    Student student1 = {1, "Alice", 'B'};
+    student1.display();  // Calls the display function to print student info
+
+    return 0;
+}
+```
+
