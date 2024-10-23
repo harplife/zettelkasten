@@ -9374,7 +9374,7 @@ int main()
 
 ## Intro to structs
 ### Basic syntax of struct
-- A `struct` (short for structure) is a user-defined type that groups together variables (known as **data members**) under one name.
+- A `struct` (short for structure) is a user-defined type that groups together variables/functions (known as **data members**) under one name.
 	- The members of a `struct` can be of different types, allowing you to store related information as a single entity.
 	- A `struct` is primarily used to represent data structures or objects that naturally group multiple attributes together.
 - Basic syntax of a `struct`:
@@ -9388,7 +9388,7 @@ struct Student
 };
 ```
 
-### Struct initialization and member assignment
+### Struct initialization
 - Empty initialization of a `struct` will initialize its members with their default values.
 	- If default values aren't set, then there will be garbage data.
 - A `struct` can be initialized with a group of values inside the braces. For example:
@@ -9403,8 +9403,15 @@ Student john = {0, "John", 'A'};
 Student john = {0}; // Initializes only the id
 ```
 
+- A `struct` can be initialized with another struct of the same type. For example:
+
+```C++
+Student a = {0, "John", 'A'};
+Student b = a;
+```
+
 ### Member selection and assignment
-- Once a `struct` is initialized, its member can be accessed:
+- Once a `struct` is initialized, its member can be accessed with the **member selection operator** `.`:
 
 ```C++
 std::cout << john.id << std::endl;
@@ -9416,6 +9423,12 @@ std::cout << john.name << std::enl;
 ```C++
 john.id = 7;
 john.grade = 'C';
+```
+
+- Similar to `struct` initialization, multiple members can be assigned their corresponding values:
+
+```C++
+john = {3, "John", 'B'};
 ```
 
 ### Member function for struct
@@ -9444,6 +9457,72 @@ int main() {
 }
 ```
 
->[!important] Constant member function?
->When a function has `const` placed after the closing parentheses in its declaration, it means that the function is a constant member function.
->
+>[!important] Constant Member Function
+>When a function has `const` placed after the closing parentheses in its declaration, it means that the function is a constant member function. A constant member function does not modify the state of the object it is called on. In other words, the function promises not to change any of the member variables (unless they are marked as `mutable`), and you can safely call this function on a `const` object.
+
+### Aggregate data type
+- In general programming, an **aggregate data type** (aka aggregate) is any type that can contain multiple data members.
+	- Some types of aggregates allow members to have different types (e.g. structs), while others require that all members be of a single type (e.g. arrays).
+- In C++, an <mark class="hltr-trippy">aggregate</mark> is a type that allows simple, straightforward initialization using brace-enclosed initializer lists.
+	- Aggregates are types (typically structs or classes) that do not require special constructors or initializers and can be initialized directly with a set of values for their members.
+
+>[!advanced]
+>A class, struct, array, or union is considered an aggregate if it satisfies all of the following conditions:
+>- No user-provided constructors.
+>- No private or protected non-static data members.
+>- No virtual functions.
+>- No base classes.
+
+- The simplest and most common way to initialize an aggregate is through aggregate initialization, which uses brace-enclosed lists to directly initialize each member in order. For example:
+
+```C++
+#include <iostream>
+
+struct Point {
+    int x;
+    int y;
+};
+
+struct Rectangle {
+    Point topLeft;
+    Point bottomRight;
+};
+
+int main() {
+    Point p1 = {10, 20};  // Aggregate initialization of Point
+    Rectangle rect = {{0, 0}, {10, 20}};  // Nested aggregate initialization of Rectangle
+    
+    std::cout << "Rectangle: (" << rect.topLeft.x << ", " << rect.topLeft.y << "), ";
+    std::cout << "(" << rect.bottomRight.x << ", " << rect.bottomRight.y << ")\n";
+    
+    return 0;
+}
+```
+
+### Overloading << operator to print a struct
+
+```C++
+#include <iostream>
+
+struct Employee
+{
+    int id {};
+    int age {};
+    double wage {};
+};
+
+std::ostream& operator<<(std::ostream& out, const Employee& e)
+{
+    out << e.id << ' ' << e.age << ' ' << e.wage;
+    return out;
+}
+
+int main()
+{
+    Employee joe { 2, 28 }; // joe.wage will be value-initialized to 0.0
+    std::cout << joe << '\n';
+
+    return 0;
+}
+```
+
