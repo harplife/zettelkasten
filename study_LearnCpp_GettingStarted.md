@@ -9526,3 +9526,197 @@ int main()
 }
 ```
 
+### Returning structs
+
+```C++
+#include <iostream>
+
+struct Point3d
+{
+    double x { 0.0 };
+    double y { 0.0 };
+    double z { 0.0 };
+};
+
+Point3d getZeroPoint()
+{
+    // We can create a variable and return the variable (we'll improve this below)
+    Point3d temp { 0.0, 0.0, 0.0 };
+    return temp;
+}
+
+int main()
+{
+    Point3d zero{ getZeroPoint() };
+
+    if (zero.x == 0.0 && zero.y == 0.0 && zero.z == 0.0)
+        std::cout << "The point is zero\n";
+    else
+        std::cout << "The point is not zero\n";
+
+    return 0;
+}
+```
+
+- The return type can be deduced, so it is not necessary to create a temporary `struct` object to return it:
+
+```C++
+Point3d getZeroPoint()
+{
+	return {0.0, 0.0, 0.0};
+}
+```
+
+### Struct inside another struct
+- There are two ways to include other `struct` inside a `struct`:
+	- Define a `struct` (in global scope), and use it as a member of another `struct`.
+	- Define a `struct` inside another `struct`.
+- Example of using a `struct` as a member of another `struct`:
+
+```C++
+#include <iostream>
+
+struct Employee
+{
+    int id {};
+    int age {};
+    double wage {};
+};
+
+struct Company
+{
+    int numberOfEmployees {};
+    Employee CEO {}; // Employee is a struct within the Company struct
+};
+
+int main()
+{
+    Company myCompany{ 7, { 1, 32, 55000.0 } }; // Nested initialization list to initialize Employee
+    std::cout << myCompany.CEO.wage << '\n'; // print the CEO's wage
+
+    return 0;
+}
+```
+
+- Example of defining a `struct` inside a `struct`:
+
+```C++
+#include <iostream>
+
+struct Company
+{
+    struct Employee // accessed via Company::Employee
+    {
+        int id{};
+        int age{};
+        double wage{};
+    };
+
+    int numberOfEmployees{};
+    Employee CEO{}; // Employee is a struct within the Company struct
+};
+
+int main()
+{
+    Company myCompany{ 7, { 1, 32, 55000.0 } }; // Nested initialization list to initialize Employee
+    std::cout << myCompany.CEO.wage << '\n'; // print the CEO's wage
+
+    return 0;
+}
+```
+
+### Struct size and data structure alignment
+- Typically, the size of a `struct` is the sum of the size of all its members. However, there are times when the compiler will add gaps into structures for performance reasons - which is called **padding**.
+
+### Member selection for pointers to structs
+
+```C++
+#include <iostream>
+
+struct Employee
+{
+    int id{};
+    int age{};
+    double wage{};
+};
+
+int main()
+{
+    Employee joe{ 1, 34, 65000.0 };
+
+    ++joe.age;
+    joe.wage = 68000.0;
+
+    Employee* ptr{ &joe };
+    std::cout << (*ptr).id << '\n'; // Not great but works: First dereference ptr, then use member selection
+
+    return 0;
+}
+```
+
+- To make a cleaner syntax, C++ offers a <mark class="hltr-trippy">member selection from pointer operator</mark> `->` (aka arrow operator) that can be used to select members from a pointer to an object. For example:
+
+```C++
+#include <iostream>
+
+struct Employee
+{
+    int id{};
+    int age{};
+    double wage{};
+};
+
+int main()
+{
+    Employee joe{ 1, 34, 65000.0 };
+
+    ++joe.age;
+    joe.wage = 68000.0;
+
+    Employee* ptr{ &joe };
+    std::cout << ptr->id << '\n'; // Better: use -> to select member from pointer to object
+
+    return 0;
+}
+```
+
+- In the example above, `ptr->id` is equivalent to `(*ptr).id`.
+
+#### Chaining -> operator
+
+```C++
+#include <iostream>
+
+struct Point
+{
+    double x {};
+    double y {};
+};
+
+struct Triangle
+{
+    Point* a {};
+    Point* b {};
+    Point* c {};
+};
+
+int main()
+{
+    Point a {1,2};
+    Point b {3,7};
+    Point c {10,2};
+
+    Triangle tr { &a, &b, &c };
+    Triangle* ptr {&tr};
+
+    // ptr is a pointer to a Triangle, which contains members that are pointers to a Point
+    // To access member y of Point c of the Triangle pointed to by ptr, the following are equivalent:
+
+    // access via operator.
+    std::cout << (*(*ptr).c).y << '\n'; // ugly!
+
+    // access via operator->
+    std::cout << ptr -> c -> y << '\n'; // much nicer
+}
+```
+
