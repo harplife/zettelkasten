@@ -9179,6 +9179,43 @@ int main()
 
 ### Using enum statements (C++20)
 - Introduced in C++20, a `using enum` statement imports all of the enumerators from an enum into the current scope.
+	- When used with an `enum class` type, this allows us to access the enumerators without having to prefix each with the name of the `enum class`.
+- For example:
+
+```C++
+#include <iostream>
+#include <string_view>
+
+enum class Color
+{
+    black,
+    red,
+    blue,
+};
+
+constexpr std::string_view getColor(Color color)
+{
+    using enum Color; // bring all Color enumerators into current scope (C++20)
+    // We can now access the enumerators of Color without using a Color:: prefix
+
+    switch (color)
+    {
+    case black: return "black"; // note: black instead of Color::black
+    case red:   return "red";
+    case blue:  return "blue";
+    default:    return "???";
+    }
+}
+
+int main()
+{
+    Color shirt{ Color::blue };
+
+    std::cout << "Your shirt is " << getColor(shirt) << '\n';
+
+    return 0;
+}
+```
 
 ## Intro to overloading the I/O operators
 - Operator overloading allows you to redefine or "overload" the functionality of existing operators (such as `+`, `-`, `*`, etc.) for user-defined types.
@@ -9335,3 +9372,5 @@ int main()
 }
 ```
 
+## Intro to structs, members, and member selection
+- 
