@@ -9752,3 +9752,172 @@ int main()
 }
 ```
 
+### Templated struct
+- It is possible to use templates with `struct` to make it **generic**.
+	- This allows you to write a `struct` that works with different data types without duplicating code.
+- Syntax for templated `struct`:
+
+```C++
+template <typename T>
+struct MyStruct {
+    T data;  // Member of type T
+
+    void print() const {
+        std::cout << data << std::endl;
+    }
+};
+```
+
+- In the example above, `T` is a template parameter representing the type that will be provided when an instance of the `struct` is created. The type `T` can be any type (e.g. `int`, `double`, etc.).
+- Example of defining and using a templated `struct`:
+
+```C++
+#include <iostream>
+#include <string>
+
+template <typename T>
+struct Box {
+    T value;  // Generic value of type T
+
+    void print() const {
+        std::cout << "Value: " << value << std::endl;
+    }
+};
+
+int main() {
+    Box<int> intBox;      // Box that holds an int
+    intBox.value = 42;
+    intBox.print();
+
+    Box<double> doubleBox;  // Box that holds a double
+    doubleBox.value = 3.14;
+    doubleBox.print();
+
+    Box<std::string> strBox;  // Box that holds a string
+    strBox.value = "Hello";
+    strBox.print();
+
+    return 0;
+}
+```
+
+#### Templated struct with multiple parameters
+
+```C++
+#include <iostream>
+
+template <typename T, typename U>
+struct Pair {
+    T first;
+    U second;
+
+    void print() const {
+        std::cout << "First: " << first << ", Second: " << second << std::endl;
+    }
+};
+
+int main() {
+    Pair<int, double> p1 = {42, 3.14};  // A pair of int and double
+    p1.print();
+
+    Pair<std::string, int> p2 = {"Age", 30};  // A pair of string and int
+    p2.print();
+
+    return 0;
+}
+```
+
+
+#### Templated struct partial specialization
+
+```C++
+#include <iostream>
+#include <string>
+
+template <typename T>
+struct Box {
+    T value;
+
+    void print() const {
+        std::cout << "Generic value: " << value << std::endl;
+    }
+};
+
+// Specialization for std::string
+template <>
+struct Box<std::string> {
+    std::string value;
+
+    void print() const {
+        std::cout << "Specialized string value: " << value << std::endl;
+    }
+};
+
+int main() {
+    Box<int> intBox = {42};       // Uses the generic template
+    intBox.print();
+
+    Box<std::string> strBox = {"Hello"};  // Uses the specialized version
+    strBox.print();
+
+    return 0;
+}
+```
+
+#### Templated struct with default parameters
+
+```C++
+#include <iostream>
+
+template <typename T = int>
+struct Box {
+    T value;
+
+    void print() const {
+        std::cout << "Value: " << value << std::endl;
+    }
+};
+
+int main() {
+    Box<> defaultBox;  // Uses the default type 'int'
+    defaultBox.value = 100;
+    defaultBox.print();
+
+    Box<double> doubleBox;  // Uses 'double' explicitly
+    doubleBox.value = 3.14;
+    doubleBox.print();
+
+    return 0;
+}
+```
+
+#### Templated function with templated struct as parameter
+
+```C++
+#include <iostream>
+
+template <typename T>
+struct Pair
+{
+    T first{};
+    T second{};
+};
+
+template <typename T>
+constexpr T max(Pair<T> p)
+{
+    return (p.first < p.second ? p.second : p.first);
+}
+
+int main()
+{
+    Pair<int> p1{ 5, 6 };
+    std::cout << max<int>(p1) << " is larger\n"; // explicit call to max<int>
+
+    Pair<double> p2{ 1.2, 3.4 };
+    std::cout << max(p2) << " is larger\n"; // call to max<double> using template argument deduction (prefer this)
+
+    return 0;
+}
+```
+
