@@ -9801,9 +9801,6 @@ int main() {
 }
 ```
 
->[!important]
->
-
 #### Templated struct with multiple parameters
 
 ```C++
