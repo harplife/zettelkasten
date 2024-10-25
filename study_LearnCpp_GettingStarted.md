@@ -10161,9 +10161,9 @@ int main() {
 >CTAD can deduce template arguments without deduction guides in some cases, specifically when the class template has a constructor that enables the compiler to infer types from its parameters.
 >
 >However, CTAD may require explicit deduction guides in more complex situations, such as:
->- Overloaded constructors : if there are multiple constructors, the compiler might not know which one to use, and deduction guides help clarify this.
->- Multiple template parameters : if the types of multiple parameters don't correspond directly to the template parameters, the compiler may need additional guidance.
->- 
+>- **Overloaded constructors** : if there are multiple constructors, the compiler might not know which one to use, and deduction guides help clarify this.
+>- **Multiple template parameters** : if the types of multiple parameters don't correspond directly to the template parameters, the compiler may need additional guidance.
+>- **Non-matching parameter types** : when the constructor parameters do not directly match the template arguments, deduction guides clarify the intended types.
 
 - Syntax of deduction guides:
 
