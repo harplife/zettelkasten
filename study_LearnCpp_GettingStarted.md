@@ -10036,6 +10036,43 @@ int main() {
 >[!important]
 >Note that with a constructor, `struct` is initialized using paratheses (e.g. `Person p("Alice", 30);`) as opposed to braces (e.g. `Person p = {"Alice", 30};`). This shows that the constructor is a function whose main purpose is to initialize the object's members.
 
+#### Types of constructors in a struct
+- <mark class="hltr-trippy">Default constructor</mark> : initializes members to default values, or leaves them uninitialized.
+
+```C++
+struct Person
+{
+	std::string name;
+	int age;
+
+	Person() : name("Unknown"), age(0) {}
+};
+```
+
+- <mark class="hltr-trippy">Parameterized constructor</mark> : initializes members with values passed as arguments.
+
+```C++
+struct Person
+{
+	std::string name;
+	int age;
+
+	Person(const std::string& name, int age) : name(name), age(age) {}
+}
+```
+
+- <mark class="hltr-trippy">Move constructor</mark> : moves resources from a temporary object to a new one, which is efficient for objects holding dynamically allocated resources.
+
+```C++
+struct Person
+{
+	std::string name;
+	int age;
+
+	Person(Person&& other) noexcept : name(std::move(other.name)), age(other.age) {}
+}
+```
+
 ### Class template argument deduction (C++17)
 
 >[!important]
