@@ -10156,6 +10156,15 @@ int main() {
 - <mark class="hltr-trippy">Deduction guides</mark> are mechanisms that help the compiler deduce template arguments when creating an instance of a class template (or a templated struct).
 	- Deduction guides reduce the need to explicitly specify template arguments in certain situations, making code more concise and readable.
 - A deduction guide provides a mapping between constructor parameters and the template arguments. The guide tells the compiler which template arguments to use based on the arguments passed to the constructor, and this affects how instances of the templated struct or class are created.
+
+>[!important]
+>CTAD can deduce template arguments without deduction guides in some cases, specifically when the class template has a constructor that enables the compiler to infer types from its parameters.
+>
+>However, CTAD may require explicit deduction guides in more complex situations, such as:
+>- Overloaded constructors : if there are multiple constructors, the compiler might not know which one to use, and deduction guides help clarify this.
+>- Multiple template parameters : if the types of multiple parameters don't correspond directly to the template parameters, the compiler may need additional guidance.
+>- 
+
 - Syntax of deduction guides:
 
 ```C++
