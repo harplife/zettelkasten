@@ -10152,3 +10152,22 @@ int main() {
 }
 ```
 
+#### Deduction guides (C++17)
+- <mark class="hltr-trippy">Deduction guides</mark> are mechanisms that help the compiler deduce template arguments when creating an instance of a class template (or a templated struct).
+	- Deduction guides reduce the need to explicitly specify template arguments in certain situations, making code more concise and readable.
+- A deduction guide provides a mapping between constructor parameters and the template arguments. The guide tells the compiler which template arguments to use based on the arguments passed to the constructor, and this affects how instances of the templated struct or class are created.
+- Syntax of deduction guides:
+
+```C++
+template <typename T1, typename T2>
+struct Pair {
+	T1 first;
+	T2 second;
+
+	Pair(T1 a, T2 b) : first(a), second(b) {}
+};
+
+// Deduction guide for Pair<T1, T2>
+template <typename T1, typename T2>
+Pair(T1, T2) -> Pair<T1, T2>;
+```
