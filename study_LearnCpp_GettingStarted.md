@@ -10006,7 +10006,7 @@ int main()
 
 
 ### Using constructor inside struct
-
+- A constructor is a special member function that is called automatically when an object of a `class` or `struct` is created.
 
 ### Class template argument deduction (C++17)
 
