@@ -10102,18 +10102,37 @@ int main() {
 }
 ```
 
+#### Using constructor in a templated struct
 
+```C++
+template <typename T, typename U>
+struct Rectangle {
+	T width;
+	U height;
+
+	Rectangle(T w, U h) : width(w), height(h) {}
+};
+
+int main() {
+	Rectangle<int, int> rect1(2, 4);
+	Rectangle<double, double> rect2(3.1, 7.4);
+	Rectangle<int, float> rect3(5, 1.1f);
+	
+	std::cout << rect1.width << ',' << rect1.height << std::endl;
+	std::cout << rect2.width << ',' << rect2.height << std::endl;
+	std::cout << rect3.width << ',' << rect3.height << std::endl;
+}
+```
 
 ### Class template argument deduction (C++17)
 
 >[!important]
 >Templates used with `struct` are often called **class templates**. Though, `class` and `struct` are not the same thing.
 
-- Class template argument deduction (CTAD) is a feature that lets the compiler automatically deduce template arguments for class templates based on the arguments passed to the constructor.
+- <mark class="hltr-trippy">Class template argument deduction (CTAD)</mark> is a feature that lets the compiler automatically deduce template arguments for class templates based on the arguments passed to the constructor.
 - For example:
 
 ```C++
-#include <utility>
 #include <iostream>
 
 template <typename T1, typename T2>
@@ -10125,9 +10144,11 @@ struct Pair {
 };
 
 int main() {
-    Pair<int, double> p(10, 3.14);  // Explicit template arguments <int, double>
-    std::cout << "Pair: " << p.first << ", " << p.second << std::endl;
+    Pair<int, double> p1(10, 3.14);  // Explicit template arguments <int, double>
+    std::cout << "Pair: " << p1.first << ", " << p1.second << std::endl;
+
+	Pair p2(3, 5.5f); // Class template argument deduction to <int, float>
+	std::cout << "Pair: " << p2.first << ", " << p2.second << std::endl;
 }
 ```
 
-#todo coming back to this later because 
