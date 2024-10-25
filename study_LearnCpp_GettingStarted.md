@@ -10006,7 +10006,35 @@ int main()
 
 
 ### Using constructor inside struct
-- A constructor is a special member function that is called automatically when an object of a `class` or `struct` is created.
+- A <mark class="hltr-trippy">constructor</mark> is a special member function that is called automatically when an object of a `class` or `struct` is created. Its primary purpose is to initialize the object's members with specific values or default values.
+	- Constructors have the same name as the `class` or `struct` and do not have a return type.
+- Syntax of using constructor in `struct`:
+
+```C++
+#include <iostream>
+
+struct Person {
+    std::string name;
+    int age;
+
+    // Constructor
+    Person(const std::string& name, int age) : name(name), age(age) {
+        std::cout << "Constructor called for " << name << "\n";
+    }
+};
+
+int main() {
+    Person p("Alice", 30);  // Constructor initializes `name` and `age`
+    std::cout << "Name: " << p.name << ", Age: " << p.age << std::endl;
+}
+```
+
+- In the example above, the constructor `Person(const std::string& name, int age)` initializes `name` and `age`.
+	- The member initializer list (`: name(name), age(age)`) initializes `name` and `age` directly, which is more efficient than assignment in the constructor body.
+	- When `Person p("Alice", 30);` is called, this invokes the constructor, initializing `name` to `Alice` and `age` to `30`.
+
+>[!important]
+>Note that with a constructor, `struct` is initialized using paratheses (e.g. `Person p("Alice", 30);`) as opposed to braces (e.g. `Person p = {"Alice", 30};`). This shows that the constructor is a function whose main purpose is to initialize the object's members.
 
 ### Class template argument deduction (C++17)
 
