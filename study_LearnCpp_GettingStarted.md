@@ -10004,3 +10004,34 @@ int main()
 }
 ```
 
+
+### Using constructor inside struct
+
+
+### Class template argument deduction (C++17)
+
+>[!important]
+>Templates used with `struct` are often called **class templates**. Though, `class` and `struct` are not the same thing.
+
+- Class template argument deduction (CTAD) is a feature that lets the compiler automatically deduce template arguments for class templates based on the arguments passed to the constructor.
+- For example:
+
+```C++
+#include <utility>
+#include <iostream>
+
+template <typename T1, typename T2>
+struct Pair {
+    T1 first;
+    T2 second;
+
+    Pair(T1 a, T2 b) : first(a), second(b) {}
+};
+
+int main() {
+    Pair<int, double> p(10, 3.14);  // Explicit template arguments <int, double>
+    std::cout << "Pair: " << p.first << ", " << p.second << std::endl;
+}
+```
+
+#todo coming back to this later because 
