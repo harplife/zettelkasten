@@ -10061,7 +10061,7 @@ struct Person
 }
 ```
 
-- <mark class="hltr-trippy">Move constructor</mark> : moves resources from a temporary object to a new one, which is efficient for objects holding dynamically allocated resources.
+- <mark class="hltr-trippy">Copy constructor</mark> : moves resources from a temporary object to a new one, which is efficient for objects holding dynamically allocated resources.
 
 ```C++
 struct Person
@@ -10069,9 +10069,40 @@ struct Person
 	std::string name;
 	int age;
 
-	Person(Person&& other) noexcept : name(std::move(other.name)), age(other.age) {}
+	Person(const Person& other) : name(other.name), age(other.age) {}
 }
 ```
+
+#### Multiple constructors in a struct
+
+```C++
+#include <iostream>
+
+struct Rectangle {
+    int width, height;
+
+    // Default constructor
+    Rectangle() : width(1), height(1) {}
+
+    // Parameterized constructor
+    Rectangle(int w, int h) : width(w), height(h) {}
+
+    // Copy constructor
+    Rectangle(const Rectangle& other) : width(other.width), height(other.height) {}
+};
+
+int main() {
+    Rectangle rect1;            // Calls default constructor
+    Rectangle rect2(5, 10);      // Calls parameterized constructor
+    Rectangle rect3(rect2);      // Calls copy constructor
+
+    std::cout << "rect1: " << rect1.width << "x" << rect1.height << std::endl;
+    std::cout << "rect2: " << rect2.width << "x" << rect2.height << std::endl;
+    std::cout << "rect3: " << rect3.width << "x" << rect3.height << std::endl;
+}
+```
+
+
 
 ### Class template argument deduction (C++17)
 
