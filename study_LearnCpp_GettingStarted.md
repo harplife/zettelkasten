@@ -10130,6 +10130,7 @@ int main() {
 >Templates used with `struct` are often called **class templates**. Though, `class` and `struct` are not the same thing.
 
 - <mark class="hltr-trippy">Class template argument deduction (CTAD)</mark> is a feature that lets the compiler automatically deduce template arguments for class templates based on the arguments passed to the constructor.
+	- This was introduced in C++17.
 - For example:
 
 ```C++
@@ -10151,6 +10152,8 @@ int main() {
 	std::cout << "Pair: " << p2.first << ", " << p2.second << std::endl;
 }
 ```
+
+- In C++14 and below, `Pair p2(3, 5.5f);` would cause a compile error. Template argument types must be explicitly stated (e.g. `Pair<int, float> p2(3, 5.5f)`).
 
 #### Deduction guides (C++17)
 - <mark class="hltr-trippy">Deduction guides</mark> are mechanisms that help the compiler deduce template arguments when creating an instance of a class template (or a templated struct).
