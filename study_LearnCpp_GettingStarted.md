@@ -10158,6 +10158,12 @@ int main() {
 
 - In C++14 and below, `Pair p2(3, 5.5f);` would cause a compile error. Template argument types must be explicitly stated (e.g. `Pair<int, float> p2(3, 5.5f)`).
 
+>[!warning] CTAD can't be used to initialize a (non-static) member of another `struct`.
+>All template arguments must be explicitly specified.
+
+>[!warning] CTAD doesn't work with function parameters.
+>All template arguments must be explicitly specified.
+
 #### Deduction guides (C++17)
 - <mark class="hltr-trippy">Deduction guides</mark> are mechanisms that help the compiler deduce template arguments when creating an instance of a class template (or a templated struct).
 	- Deduction guides reduce the need to explicitly specify template arguments in certain situations, making code more concise and readable.
@@ -10190,4 +10196,32 @@ Pair(T1, T2) -> Pair<T1, T2>;
 >[!important]
 >C++20 added the ability for the compiler to automatically generate deduction guides for aggregates (structs), so deduction guides should only need to be provided for C++17 compatibility.
 
-- A little weird feature of deduction guide is that, 
+#### When CTAD require deduction guides
+- Multiple constructors with ambiguity:
+
+```C++
+#include <iostream>
+#include <string>
+
+template <typename T>
+struct ValueWrapper {
+    T value;
+
+    // Constructor for a direct value of type T
+    ValueWrapper(T v) : value(v) {}
+
+    // Constructor for an int that converts to type T (int to string)
+    ValueWrapper(int i) : value(std::to_string(i)) {}
+};
+
+// Deduction guide to clarify T when an int is passed
+ValueWrapper(int) -> ValueWrapper<std::string>;
+
+int main() {
+    ValueWrapper v1("Hello");    // CTAD deduces ValueWrapper<const char*>
+    ValueWrapper v2(42);         // Deduction guide deduces ValueWrapper<std::string>
+
+    std::cout << "v1: " << v1.value << "\nv2: " << v2.value << std::endl;
+}
+```
+
