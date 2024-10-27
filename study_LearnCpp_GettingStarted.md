@@ -10225,3 +10225,54 @@ int main() {
 }
 ```
 
+- Default or non-template parameters:
+
+```C++
+#include <iostream>
+#include <string>
+
+template <typename T = int>
+struct Container {
+    T value;
+
+    Container(T v) : value(v) {}      // Constructor taking a T
+    Container() : value(T{}) {}       // Default constructor
+};
+
+// Deduction guide to handle the case with no parameters
+Container() -> Container<int>;        // Deduces Container<int> when no argument is provided
+
+int main() {
+    Container c1(3.14);  // Deduces Container<double>
+    Container c2;        // Uses deduction guide to deduce Container<int>
+
+    std::cout << "c1: " << c1.value << "\nc2: " << c2.value << std::endl;
+}
+```
+
+- Non-template parameters in constructor:
+
+```C++
+#include <iostream>
+#include <utility>
+
+template <typename T1, typename T2>
+struct Pair {
+    T1 first;
+    T2 second;
+
+    // Constructor taking a std::pair
+    Pair(std::pair<T1, T2> p) : first(p.first), second(p.second) {}
+};
+
+// Deduction guide for std::pair initialization
+template <typename T1, typename T2>
+Pair(std::pair<T1, T2>) -> Pair<T1, T2>;
+
+int main() {
+    std::pair<int, double> p = {10, 3.14};
+    Pair pair(p);  // Deduction guide deduces Pair<int, double>
+
+    std::cout << "First: " << pair.first << ", Second: " << pair.second << std::endl;
+}
+```
