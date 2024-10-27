@@ -10036,6 +10036,9 @@ int main() {
 >[!important]
 >Note that with a constructor, `struct` is initialized using paratheses (e.g. `Person p("Alice", 30);`) as opposed to braces (e.g. `Person p = {"Alice", 30};`). This shows that the constructor is a function whose main purpose is to initialize the object's members.
 
+- If you do not explicitly define any constructors for a `struct` (or `class`), the compiler will automatically provide a **default constructor**.
+	- This automatically generated constructor is known as an <mark class="hltr-trippy">implicit default constructor</mark> and performs basic initialization based on their types.
+
 #### Types of constructors in a struct
 - <mark class="hltr-trippy">Default constructor</mark> : initializes members to default values, or leaves them uninitialized.
 
@@ -10184,3 +10187,7 @@ template <typename T1, typename T2>
 Pair(T1, T2) -> Pair<T1, T2>;
 ```
 
+>[!important]
+>C++20 added the ability for the compiler to automatically generate deduction guides for aggregates (structs), so deduction guides should only need to be provided for C++17 compatibility.
+
+- A little weird feature of deduction guide is that, 
