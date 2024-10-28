@@ -10379,48 +10379,6 @@ int main()
 - <mark class="hltr-trippy">Compile-time polymorphism</mark> : achieved through function overloading and operator overloading, where the function call is resolved at compile time.
 - <mark class="hltr-trippy">Runtime polymorphism</mark> : achieved through virtual functions and method overriding, where a base class pointer or reference can call derived class methods, and the function call is resolved at runtime.
 
-### Example of OOP
-
-```C++
-#include <iostream>
-#include <string>
-
-class Vehicle {  // Base class
-protected:
-    std::string brand;  // Encapsulated attribute
-
-public:
-    Vehicle(const std::string& brandName) : brand(brandName) {}
-    virtual void honk() const {  // Virtual function for runtime polymorphism
-        std::cout << "Vehicle is honking!" << std::endl;
-    }
-    virtual ~Vehicle() {}  // Virtual destructor for proper cleanup
-};
-
-class Car : public Vehicle {  // Derived class using inheritance
-private:
-    int speed;
-
-public:
-    Car(const std::string& brandName, int maxSpeed) : Vehicle(brandName), speed(maxSpeed) {}
-    void honk() const override {  // Overrides base class honk() method
-        std::cout << brand << " car is honking at speed " << speed << "!" << std::endl;
-    }
-};
-
-int main() {
-    Vehicle myVehicle("Generic");
-    Car myCar("Toyota", 120);
-
-    myVehicle.honk();  // Output: Vehicle is honking!
-    myCar.honk();      // Output: Toyota car is honking at speed 120!
-
-    Vehicle* vehiclePtr = &myCar;
-    vehiclePtr->honk();  // Output: Toyota car is honking at speed 120! (polymorphism in action)
-
-    return 0;
-}
-```
 
 ## Intro to classes
 ### Invariants
