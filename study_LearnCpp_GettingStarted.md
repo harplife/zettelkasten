@@ -10453,5 +10453,119 @@ struct Employee
 >`struct` is able to maintain class invariants, by using constructors to make sure its members are initialized with valid values. However, it is difficult to maintain the invariants throughout the lifetime of the object because its members are public; a user can easily access them and modify their values to an invalid state.
 
 ### Classes
-- Classes are a natural way to define and enforce invariants for data that belongs to objects.
-	- A well-designed class uses encapsulation to control how its data is accessed and modified, helping to maintain these invariants.
+- A <mark class="hltr-trippy">class</mark> is a blueprint for creating objects, providing a way to define the structure (attributes) and behaviors (methods) of an object.
+	- It groups related data and functions together, encapsulating them as a single entity.
+	- It is a natural way to define and enforce **invariants** for data that belongs to objects. A well-designed class uses **encapsulation** to control how its data is accessed and modified, helping to maintain these invariants.
+	- `class` keyword is used to define a class type.
+
+>[!important] A `class` is very similar to `struct`, with only difference the use of encapsulation in `class`.
+
+- Key aspects of a `class`:
+	- Data members (attributes)
+	- Member functions (methods)
+	- Access specifiers
+	- Constructors
+	- Destructors
+- <mark class="hltr-trippy">Data members (attributes)</mark> are variables within `class` that store the state or properties of an object (created from the `class`).
+- <mark class="hltr-trippy">Member functions (methods)</mark> are functions within `class` that define behaviors or actions an object (created from the `class`) can perform.
+- <mark class="hltr-trippy">Access specifiers</mark> control visibility and access to the members of the `class`.
+	- `public` : accessible from outside the class.
+	- `protected` : accessible within the class and by derived classes.
+	- `private` : accessible only within the class itself.
+- <mark class="hltr-trippy">Constructor</mark> is a special function that is called when an object is created/instantiated from a `class`. It initializes the object's data members.
+- <mark class="hltr-trippy">Destructor</mark> is a special function called when an object is destroyed. It's used for cleanup, like releasing resources if needed.
+- Example of a simple class `Car`:
+
+```C++
+#include <iostream>
+#include <string>
+
+class Car {
+private:
+    std::string color;
+    std::string make;
+    int year;
+
+public:
+    // Constructor
+    Car(const std::string& carColor, const std::string& carMake, int carYear)
+        : color(carColor), make(carMake), year(carYear) {}
+
+    // Member function to display car details
+    void displayInfo() const {
+        std::cout << "Car: " << make << ", " << color << ", Year: " << year << std::endl;
+    }
+};
+
+int main() {
+    // Creating an object of Car
+    Car myCar("Red", "Toyota", 2020);
+    myCar.displayInfo();  // Output: Car: Toyota, Red, Year: 2020
+    return 0;
+}
+```
+
+- Explanation of the example above:
+	- **Class definition** : `class Car` defines the structure and behavior of a `Car`.
+	- **Data members** : `color`, `make`, and `year` are private attributes representing properties of a car.
+	- **Constructor** : initializes the `Car` object's data members.
+	- **Member function** : `displayInfo()` is a public function that outputs the car's details.
+
+### How classes use invariants
+1. <mark class="hltr-trippy">Encapsulation and access control</mark>
+	- Classes hide their internal data using `private` or `protected` access specifiers, exposing only necessary operations through `public` methods.
+	- This prevents external code from directly modifying internal data, allowing the class to control how its members are changed and to enforce invariants.
+2. <mark class="hltr-trippy">Constructors and invariant setup</mark>
+	- When an object is created, the constructor ensures that the initial state is valid and adheres to the class invariants. If the required conditions aren't met, the constructor can throw an exception to prevent the creation of an invalid object.
+3. <mark class="hltr-trippy">Member functions and invariant maintenance</mark>
+	- Member functions are used to modify the object's state, but these functions are designed to ensure that any change still satisfies the invariants.
+	- Methods can include checks or restrictions to prevent operations that would lead to invalid states.
+4. <mark class="hltr-trippy">Destructors and invariant teardown</mark>
+	- The destructor ensures that any required cleanup adheres to invariants, especially for resources managed by the class.
+
+#### Example: class with an invariant
+- Consider a `BankAccount` class that has a balance invariant: the balance should never be negative. For example:
+
+```C++
+#include <stdexcept>
+#include <string>
+
+class BankAccount {
+private:
+    double balance;      // invariant: balance >= 0
+    std::string owner;
+
+public:
+    // Constructor sets up invariant: balance >= 0
+    BankAccount(double initialBalance, const std::string& ownerName)
+        : balance(initialBalance), owner(ownerName) {
+        if (balance < 0) {
+            throw std::invalid_argument("Initial balance cannot be negative");
+        }
+    }
+
+    // Deposit method enforces invariant by ensuring balance remains non-negative
+    void deposit(double amount) {
+        if (amount < 0) {
+            throw std::invalid_argument("Cannot deposit a negative amount");
+        }
+        balance += amount;
+    }
+
+    // Withdraw method ensures balance never goes below 0
+    void withdraw(double amount) {
+        if (amount < 0) {
+            throw std::invalid_argument("Cannot withdraw a negative amount");
+        }
+        if (balance - amount < 0) {
+            throw std::runtime_error("Insufficient funds for withdrawal");
+        }
+        balance -= amount;
+    }
+
+    double getBalance() const {
+        return balance;
+    }
+};
+```
+
