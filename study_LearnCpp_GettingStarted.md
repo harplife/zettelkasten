@@ -10276,3 +10276,70 @@ int main() {
     std::cout << "First: " << pair.first << ", Second: " << pair.second << std::endl;
 }
 ```
+
+- Conversions with mixed types:
+
+```C++
+#include <iostream>
+#include <vector>
+
+template <typename T>
+struct Matrix {
+    int rows;
+    int cols;
+    std::vector<T> data;
+
+    // Constructor that takes dimensions and a default value
+    Matrix(int r, int c, T defaultValue) : rows(r), cols(c), data(r * c, defaultValue) {}
+};
+
+// Deduction guide for Matrix dimensions and value type
+Matrix(int, int, double) -> Matrix<double>;
+
+int main() {
+    Matrix m(2, 3, 1.0);  // Deduction guide deduces Matrix<double>
+
+    std::cout << "Matrix rows: " << m.rows << ", cols: " << m.cols << std::endl;
+}
+```
+
+### Using alias for templated struct
+- An alias template is a convenient way to create a new name (alias) for a template type or a more complex type.
+	- This can simplify code by allowing you to refer to template specializations with shorter or more descriptive names, especially when dealing with complex template types.
+- Alias template are defined using the `using` keyword, followed by a name for the alias and the type expression that the alias represents.
+
+```C++
+#include <iostream>
+
+template <typename T>
+struct Pair
+{
+    T first{};
+    T second{};
+};
+
+// Here's our alias template
+// Alias templates must be defined in global scope
+template <typename T>
+using Coord = Pair<T>; // Coord is an alias for Pair<T>
+
+// Our print function template needs to know that Coord's template parameter T is a type template parameter
+template <typename T>
+void print(const Coord<T>& c)
+{
+    std::cout << c.first << ' ' << c.second << '\n';
+}
+
+int main()
+{
+    Coord<int> p1 { 1, 2 }; // Pre C++-20: We must explicitly specify all type template argument
+    Coord p2 { 1, 2 };      // In C++20, we can use alias template deduction to deduce the template arguments in cases where CTAD works
+
+    std::cout << p1.first << ' ' << p1.second << '\n';
+    print(p2);
+
+    return 0;
+}
+```
+
+## Using a language reference
