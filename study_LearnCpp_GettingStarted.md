@@ -10342,5 +10342,102 @@ int main()
 }
 ```
 
-## Intro to classes
+## Intro to object-oriented programming
+- <mark class="hltr-trippy">Object-oriented programming (OOP)</mark> is a programming paradigm based on the concept of **objects**, which represent real-world entities, combining both **data** (attributes or properties) and **behavior** (methods or functions) into a single unit.
+	- OOP makes it easier to model complex systems, promote code reuse, and manage code structure through **encapsulation**, **modularity**, and **abstraction**.
+- Key concepts of OOP includes:
+	- Classes and objects
+	- Encapsulation
+	- Abstraction
+	- Inheritance
+	- Polymorphism
+
+### Classes and objects
+- A <mark class="hltr-trippy">class</mark> is a blueprint for creating objects, which defines a set of attributes and behaviors that the objects (instantiated from the class) will have.
+- An <mark class="hltr-trippy">object</mark> is an instance of a class, representing a specific entity that has attributes (data) and methods (behaviors).
+	- Each object can have unique values for its attributes but shares the same structure and behavior as other objects of the same class.
+
+### Encapsulation
+- <mark class="hltr-trippy">Encapsulation</mark> is the building of data (attributes) and methods (functions) that operate on the data within a single unit (class).
+	- It restricts direct access to certain components of an object to protect its state and prevent unintended interference or misuse.
+- An <mark class="hltr-trippy">access modifier</mark> is a modifier given to a data or method that governs how they are accessed by the user.
+	- In C++, access modifiers are `public`, `protected`, and `private`. These will be discussed later.
+
+### Abstraction
 - 
+
+## Intro to classes
+### Invariants
+- An <mark class="hltr-trippy">invariant</mark> is a condition or property that remains true throughout the execution of a program or within a specific scope, such as during the lifetime of a function, loop, or an object.
+	- Invariants are essential in ensuring correctness and stability in software, as they provide guaranteed conditions that developers can rely on, helping prevent unexpected behavior.
+
+#### Types of invariants
+- <mark class="hltr-trippy">Loop invariants</mark> : conditions that remain true before and after each iteration of a loop.
+- <mark class="hltr-trippy">Class (or object) invariants</mark> : properties that hold true for an object in a valid state, typically maintained between method calls.
+- <mark class="hltr-trippy">Preconditions and postconditions</mark> : preconditions are requirements that must be true before a function or method executes, while postconditions are expectations after the function completes. These aren't invariants themselves but help define and maintain invariants.
+- <mark class="hltr-trippy">Global invariants</mark> : conditions that should hold true globally within a program or module, such as certain data relationships or constraints.
+
+#### Examples
+- Loop invariant :
+
+```C++
+#include <vector>
+#include <iostream>
+
+int findMin(const std::vector<int>& numbers) {
+    int min = numbers[0];  // Initial invariant: min is at least one element in the array
+    for (int i = 1; i < numbers.size(); ++i) {
+        if (numbers[i] < min) {
+            min = numbers[i];  // Invariant: min is always the smallest seen so far
+        }
+    }
+    return min;  // Final invariant: min is the smallest in the entire array
+}
+```
+
+- Class invariant :
+
+```C++
+#include <stdexcept>
+
+class Rectangle {
+    int width;
+    int height;
+
+public:
+    Rectangle(int w, int h) : width(w), height(h) {
+        if (width <= 0 || height <= 0) {
+            throw std::invalid_argument("Width and height must be positive");
+        }
+    }
+
+    int area() const {
+        // Invariant: width and height should always be positive
+        return width * height;
+    }
+};
+```
+
+#### Complex class invariant
+- Class invariants become complex when the members (of a `struct`) must have correlated values:
+
+```C++
+#include <string>
+
+struct Employee
+{
+    std::string name { };
+    char firstInitial { }; // should always hold first character of `name` (or `0`)
+};
+```
+
+- In the example above, the value of `firstInitial` must always match with the first character of `name`.
+- Correlations between members aren't always obvious to developers, so it is difficult to maintain such complex class invariants. This is the case, even if functions are used to update members, as it relies on the user to be aware and use these functions.
+	- `struct` just don't have the mechanics required to solve this problem in an elegant way.
+
+>[!important]
+>`struct` is able to maintain class invariants, by using constructors to make sure its members are initialized with valid values. However, it is difficult to maintain the invariants throughout the lifetime of the object because its members are public; a user can easily access them and modify their values to an invalid state.
+
+### Classes
+- Classes are a natural way to define and enforce invariants for data that belongs to objects.
+	- A well-designed class uses encapsulation to control how its data is accessed and modified, helping to maintain these invariants.
