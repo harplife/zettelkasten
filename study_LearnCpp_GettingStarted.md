@@ -10569,3 +10569,142 @@ public:
 };
 ```
 
+### Const class objects
+- Same as how objects of a fundamental data type (`int`, `double`, etc.) can be made constant via the `const` keyword, class type objects (`struct` and `class`) can also be made constant using the `const` keyword. For example:
+
+```C++
+struct Date
+{
+    int year {};
+    int month {};
+    int day {};
+};
+
+int main()
+{
+    const Date today { 2020, 10, 14 }; // const class type object
+
+    return 0;
+}
+```
+
+- Modifying the data members of a const object is NOT allowed:
+
+```C++
+struct Date
+{
+    int year {};
+    int month {};
+    int day {};
+
+    void incrementDay()
+    {
+        ++day;
+    }
+};
+
+int main()
+{
+    const Date today { 2020, 10, 14 }; // const
+
+    today.day += 1;        // compile error: can't modify member of const object
+    today.incrementDay();  // compile error: can't call member function that modifies member of const object
+
+    return 0;
+}
+```
+
+### Const member functions
+- Const objects may not call non-const member functions:
+
+```C++
+#include <iostream>
+
+struct Date
+{
+    int year {};
+    int month {};
+    int day {};
+
+    void print()
+    {
+        std::cout << year << '/' << month << '/' << day;
+    }
+};
+
+int main()
+{
+    const Date today { 2020, 10, 14 }; // const
+
+    today.print();  // compile error: can't call non-const member function
+
+    return 0;
+}
+```
+
+- A <mark class="hltr-trippy">const member function</mark> is a member function that guarantees it will not modify the object or call any non-const member functions.
+	- A const object may call const member functions without any issues.
+	- A const member function is made by appending `const` keyword in between the parameter list and the function body.
+- For example:
+
+```C++
+#include <iostream>
+
+struct Date
+{
+    int year {};
+    int month {};
+    int day {};
+
+    void print() const // now a const member function
+    {
+        std::cout << year << '/' << month << '/' << day;
+    }
+};
+
+int main()
+{
+    const Date today { 2020, 10, 14 }; // const
+
+    today.print();  // ok: const object can call const member function
+
+    return 0;
+}
+```
+
+>[!warning] Do not make constructors `const`.
+
+- A const member function that attempts to change a member variable or call a non-const member function will cause a compile error to occur. For example:
+
+```C++
+struct Date
+{
+    int year {};
+    int month {};
+    int day {};
+
+    void incrementDay() const // made const
+    {
+        ++day; // compile error: const function can't modify member
+    }
+};
+
+int main()
+{
+    const Date today { 2020, 10, 14 }; // const
+
+    today.incrementDay();
+
+    return 0;
+}
+```
+
+>[!important] Const member functions may be called on non-const objects.
+>If a member function does not modify the state of the object, then it is generally a good idea to have it as a const member function so that it can be called on both const and non-const objects.
+>
+>Consider a case where a function (e.g. `foo()`) receives a non-const class object (e.g. `Bar`) by a pass-by-const-reference. If there exists a non-const member function side the non-const class object, which is then called in the function, it will result in a compile error.
+
+
+
+
+
