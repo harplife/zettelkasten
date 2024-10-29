@@ -10706,3 +10706,50 @@ int main()
 
 >[!important] It is possible to overload a member function to have a const and non-const version of the same function.
 
+### Derived class
+
+
+
+### Access specifiers
+- Each member of a `class` type has a property called an <mark class="hltr-trippy">access level</mark> that determines who can access that member.
+- C++ has three different access levels: public, private, and protected.
+	- A member with a public access level is called a <mark class="hltr-trippy">public member</mark>. The same is for the rest.
+- Members in a `class` type are `private` by default.
+- Access level is explicitly set on a member by using an access specifier, such as `public`, `private`, and `protected`. For example:
+
+```C++
+class Date
+{
+// Any members defined here would default to private
+
+public: // here's our public access specifier
+
+    void print() const // public due to above public: specifier
+    {
+        // members can access other private members
+        std::cout << m_year << '/' << m_month << '/' << m_day;
+    }
+
+private: // here's our private access specifier
+
+    int m_year { 2020 };  // private due to above private: specifier
+    int m_month { 14 }; // private due to above private: specifier
+    int m_day { 10 };   // private due to above private: specifier
+};
+
+int main()
+{
+    Date d{};
+    d.print();  // okay, main() allowed to access public members
+
+    return 0;
+}
+```
+
+#### Access level chart
+
+| Access level | Access specifier | Member access | Derived class access | Public access |
+|--------------|------------------|---------------|----------------------|---------------|
+| Public       | `public:`        | yes           | yes                  | yes           |
+| Protected    | `protected:`     | yes           | yes                  | no            |
+| Private      | `private:`       | yes           | no                   | no            |
