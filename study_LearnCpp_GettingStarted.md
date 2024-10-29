@@ -10704,7 +10704,5 @@ int main()
 >
 >Consider a case where a function (e.g. `foo()`) receives a non-const class object (e.g. `Bar`) by a pass-by-const-reference. If there exists a non-const member function side the non-const class object, which is then called in the function, it will result in a compile error.
 
-
-
-
+>[!important] It is possible to overload a member function to have a const and non-const version of the same function.
 
