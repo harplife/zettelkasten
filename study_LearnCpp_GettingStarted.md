@@ -10706,6 +10706,51 @@ int main()
 
 >[!important] It is possible to overload a member function to have a const and non-const version of the same function.
 
+
+### Access specifiers
+- Each member of a `class` type has a property called an <mark class="hltr-trippy">access level</mark> that determines who can access that member.
+- C++ has three different access levels: public, private, and protected.
+	- A member with a public access level is called a <mark class="hltr-trippy">public member</mark>. The same is for the rest.
+- Members in a `class` type are `private` by default.
+- Access level is explicitly set on a member by using an access specifier, such as `public`, `private`, and `protected`. For example:
+
+```C++
+class Date
+{
+// Any members defined here would default to private
+
+public: // here's our public access specifier
+
+    void print() const // public due to above public: specifier
+    {
+        // members can access other private members
+        std::cout << m_year << '/' << m_month << '/' << m_day;
+    }
+
+private: // here's our private access specifier
+
+    int m_year { 2020 };  // private due to above private: specifier
+    int m_month { 14 }; // private due to above private: specifier
+    int m_day { 10 };   // private due to above private: specifier
+};
+
+int main()
+{
+    Date d{};
+    d.print();  // okay, main() allowed to access public members
+
+    return 0;
+}
+```
+
+#### Access level chart
+
+| Access level | Access specifier | Member access | Derived class access | Public access |
+|--------------|------------------|---------------|----------------------|---------------|
+| Public       | `public:`        | yes           | yes                  | yes           |
+| Protected    | `protected:`     | yes           | yes                  | no            |
+| Private      | `private:`       | yes           | no                   | no            |
+
 ### Derived class
 - A <mark class="hltr-trippy">derived class</mark> is a class that **inherits** from another class (known as the **base class** or **parent class**).
 	- The derived class has access to the **public** and **protected** members of the base class.
@@ -10773,7 +10818,6 @@ public:
 >
 >Though it may seem like it works just fine without the `virtual` keyword, the base class method is just hiding, and there are cases where the base class method is exposed via base pointers or references (more on this later).
 
-
 #### Example of derived class
 
 ```C++
@@ -10821,49 +10865,55 @@ int main() {
 - `Dog` is a derived class that inherits from `Animal` and overrides `speak` with a specialized implementation. It also adds a new behavior, `fetch`.
 - Both `genericAnimal` and `myDog` can use the `eat` function (as provided from the base class `Animal`), while `myDog` can also use `fetch` and has its own version of `speak`.
 
-
-
-
-### Access specifiers
-- Each member of a `class` type has a property called an <mark class="hltr-trippy">access level</mark> that determines who can access that member.
-- C++ has three different access levels: public, private, and protected.
-	- A member with a public access level is called a <mark class="hltr-trippy">public member</mark>. The same is for the rest.
-- Members in a `class` type are `private` by default.
-- Access level is explicitly set on a member by using an access specifier, such as `public`, `private`, and `protected`. For example:
+### Access functions: getters and setters
+- An <mark class="hltr-trippy">access function</mark> is a trivial public member function whose job is to retrieve or change the value of a private member variable.
+- There are two access functions : getters and setters.
+- Getters (aka accessors) are public member functions that return the value of a private member variable.
+- Setters (aka mutators) are public member functions that set the value of a private member variable.
+- Example of using access functions:
 
 ```C++
+#include <iostream>
+
 class Date
 {
-// Any members defined here would default to private
+private:
+    int m_year { 2020 };
+    int m_month { 10 };
+    int m_day { 14 };
 
-public: // here's our public access specifier
-
-    void print() const // public due to above public: specifier
+public:
+    void print()
     {
-        // members can access other private members
-        std::cout << m_year << '/' << m_month << '/' << m_day;
+        std::cout << m_year << '/' << m_month << '/' << m_day << '\n';
     }
 
-private: // here's our private access specifier
+    int getYear() const { return m_year; }        // getter for year
+    void setYear(int year) { m_year = year; }     // setter for year
 
-    int m_year { 2020 };  // private due to above private: specifier
-    int m_month { 14 }; // private due to above private: specifier
-    int m_day { 10 };   // private due to above private: specifier
+    int getMonth() const  { return m_month; }     // getter for month
+    void setMonth(int month) { m_month = month; } // setter for month
+
+    int getDay() const { return m_day; }          // getter for day
+    void setDay(int day) { m_day = day; }         // setter for day
 };
 
 int main()
 {
     Date d{};
-    d.print();  // okay, main() allowed to access public members
+    d.setYear(2021);
+    std::cout << "The year is: " << d.getYear() << '\n';
 
     return 0;
 }
 ```
 
-#### Access level chart
+```console
+The year is: 2021
+```
 
-| Access level | Access specifier | Member access | Derived class access | Public access |
-|--------------|------------------|---------------|----------------------|---------------|
-| Public       | `public:`        | yes           | yes                  | yes           |
-| Protected    | `protected:`     | yes           | yes                  | no            |
-| Private      | `private:`       | yes           | no                   | no            |
+>[!warning]
+>There is a lot of debate on whether getters and setters are truly necessary, as it can be seen that it is just adding extra steps to access the data members. The benefits of encapsulation will be discussed later on.
+
+#### Getter: return by reference
+
