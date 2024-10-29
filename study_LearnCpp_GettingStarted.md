@@ -10707,8 +10707,70 @@ int main()
 >[!important] It is possible to overload a member function to have a const and non-const version of the same function.
 
 ### Derived class
+- A <mark class="hltr-trippy">derived class</mark> is a class that **inherits** from another class (known as the **base class** or **parent class**).
+	- The derived class has access to the **public** and **protected** members of the base class.
+	- It can also add its own attributes and methods or override base class methods.
+- <mark class="hltr-trippy">Inheritance</mark> allows you to create a new class with features of an existing class, making it useful for reusing code and creating a hierarchy of related classes.
+
+#### Key concepts of derived classes
+- **Inheritance**
+	- The derived class inherits all non-private members from the base class.
+	- This allows the derived class to reuse code from the base class while adding or modifying functionality.
+- **Access specifiers**
+	- The access specifier used in inheritance affects how the base class members are accessible in the derived class.
+	- Commonly, `public` inheritance is used, meaning public and protected members of the base class retain their visibility in the derived class.
+- **Overriding**
+	- Derived classes can redefine (override) virtual methods of the base class to provide specialized behavior. This is called runtime polymorphism and is achieved through virtual functions.
+- **Adding new members**
+	- The derived class can introduce new data members and member functions that are unique to it, which extends the behavior of the base class.
 
 
+#### Example of derived class
+
+```C++
+#include <iostream>
+#include <string>
+
+class Animal {  // Base class
+public:
+    void eat() const {  // Common behavior
+        std::cout << "Animal is eating." << std::endl;
+    }
+
+    virtual void speak() const {  // Virtual function for polymorphism
+        std::cout << "Animal sound." << std::endl;
+    }
+};
+
+class Dog : public Animal {  // Derived class using public inheritance
+public:
+    void speak() const override {  // Override the speak method
+        std::cout << "Woof!" << std::endl;
+    }
+
+    void fetch() const {  // Unique behavior for Dog
+        std::cout << "Dog is fetching the ball." << std::endl;
+    }
+};
+
+int main() {
+    Animal genericAnimal;
+    Dog myDog;
+
+    genericAnimal.eat();     // Output: Animal is eating.
+    genericAnimal.speak();   // Output: Animal sound.
+    
+    myDog.eat();             // Output: Animal is eating.
+    myDog.speak();           // Output: Woof!
+    myDog.fetch();           // Output: Dog is fetching the ball.
+
+    return 0;
+}
+```
+
+- `Animal` is a base class that provides common behaviors (`eat`) and a virtual method (`speak`) for derived classes to override.
+- `Dog` is a derived class that inherits from `Animal` and overrides `speak` with a specialized implementation. It also adds a new behavior, `fetch`.
+- Both `genericAnimal` and `myDog` can use the `eat` function (as provided from the base class `Animal`), while `myDog` can also use `fetch` and has its own version of `speak`.
 
 ### Access specifiers
 - Each member of a `class` type has a property called an <mark class="hltr-trippy">access level</mark> that determines who can access that member.
