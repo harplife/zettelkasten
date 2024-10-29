@@ -10770,6 +10770,8 @@ public:
 
 >[!warning]
 >If a method in the base class is **NOT** declared as `virtual`, overriding does not work in the derived class in the same way. Without the `virtual` keyword in the base class, the function in the derived class is treated as a **separate function**, not an override, and **runtime polymorphism is not enabled**.
+>
+>Though it may seem like it works just fine without the `virtual` keyword, the base class method is just hiding, and there are cases where the base class method is exposed via base pointers or references (more on this later).
 
 
 #### Example of derived class
