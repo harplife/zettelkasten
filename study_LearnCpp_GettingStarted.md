@@ -10948,4 +10948,6 @@ int main()
 >If a class is made temporarily (e.g. being created inside an initializer), making a reference to the reference returned by a getter would result in a dangling reference.
 
 >[!warning] Do not return non-const references to private data members
->Always use const reference. Using non-const reference a
+>Always use const reference. Using non-const reference allows the caller to have direct access, which defeats the purpose of having access functions.
+
+### The benefits of encapsulation
