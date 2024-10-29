@@ -10711,6 +10711,13 @@ int main()
 	- The derived class has access to the **public** and **protected** members of the base class.
 	- It can also add its own attributes and methods or override base class methods.
 - <mark class="hltr-trippy">Inheritance</mark> allows you to create a new class with features of an existing class, making it useful for reusing code and creating a hierarchy of related classes.
+- Syntax for derived class `Dog`, given base class `Animal`:
+
+```C++
+class Dog : public animal {
+	// members
+};
+```
 
 #### Key concepts of derived classes
 - **Inheritance**
@@ -10723,6 +10730,46 @@ int main()
 	- Derived classes can redefine (override) virtual methods of the base class to provide specialized behavior. This is called runtime polymorphism and is achieved through virtual functions.
 - **Adding new members**
 	- The derived class can introduce new data members and member functions that are unique to it, which extends the behavior of the base class.
+
+#### Virtual functions
+- A virtual function is a function in a base class that is declared with the keyword `virtual`.
+	- It allows derived classes to override the function with their own implementation.
+	- Virtual functions enable runtime polymorphism, meaning that the appropriate function implementation is chosen based on the actual object type at runtime rather than at compile time.
+- Declaring a virtual function:
+
+```C++
+class Base {
+public:
+    virtual void display() const {
+        std::cout << "Base class display" << std::endl;
+    }
+};
+```
+
+- Overriding a base class method in a derived class:
+
+```C++
+class Dervied : class Base {
+public:
+	void display() const {
+		std::cout << "Derived class display" << std::endl;
+	}
+};
+```
+
+- C++11 and above, `override` keyword can be used to indicate that the function is intended to override a base class version (but it is not necessary):
+
+```C++
+class Dervied : class Base {
+public:
+	void display() const override {
+		std::cout << "Derived class display" << std::endl;
+	}
+};
+```
+
+>[!warning]
+>If a method in the base class is **NOT** declared as `virtual`, overriding does not work in the derived class in the same way. Without the `virtual` keyword in the base class, the function in the derived class is treated as a **separate function**, not an override, and **runtime polymorphism is not enabled**.
 
 
 #### Example of derived class
@@ -10771,6 +10818,9 @@ int main() {
 - `Animal` is a base class that provides common behaviors (`eat`) and a virtual method (`speak`) for derived classes to override.
 - `Dog` is a derived class that inherits from `Animal` and overrides `speak` with a specialized implementation. It also adds a new behavior, `fetch`.
 - Both `genericAnimal` and `myDog` can use the `eat` function (as provided from the base class `Animal`), while `myDog` can also use `fetch` and has its own version of `speak`.
+
+
+
 
 ### Access specifiers
 - Each member of a `class` type has a property called an <mark class="hltr-trippy">access level</mark> that determines who can access that member.
