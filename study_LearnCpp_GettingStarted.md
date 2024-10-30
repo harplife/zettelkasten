@@ -11000,3 +11000,6 @@ int main()
 - In the example above, direct access to `m_name` is prevented and any changes to `m_name` via `setName()` also affects `m_firstInitial` (and thus `print()` works correctly).
 
 #### Non-member functions improve encapsulation
+- Using non-member functions can enhance encapsulation by allowing a class to expose only the essential interface, keeping its internal workings hidden and separated from the main logic.
+	- This approach promotes better modularity and clearer design, as it reduces the responsibility of the class to only those tasks it absolutely needs to perform.
+- 
