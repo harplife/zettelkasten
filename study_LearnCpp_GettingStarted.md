@@ -10818,6 +10818,35 @@ public:
 >
 >Though it may seem like it works just fine without the `virtual` keyword, the base class method is just hiding, and there are cases where the base class method is exposed via base pointers or references (more on this later).
 
+- It is possible to call a base class's virtual method from a derived class using a [[#Scope resolution operator]] `::` to explicitly specify the base class and method to call. For example:
+
+```C++
+#include <iostream>
+
+class Base {
+public:
+    virtual void show() const {
+        std::cout << "Base class show method" << std::endl;
+    }
+};
+
+class Derived : public Base {
+public:
+    void show() const override {
+        std::cout << "Derived class show method" << std::endl;
+
+        // Call the base class's show() method
+        Base::show();
+    }
+};
+
+int main() {
+    Derived d;
+    d.show(); // Calls Derived's show() and then Base's show() within Derived
+    return 0;
+}
+```
+
 #### Example of derived class
 
 ```C++
@@ -11034,5 +11063,3 @@ int main() {
 	- **Minimizes class responsibilities & reduces access needs** : number of functions tied to the implementation is reduced, reducing clutter and likelihood of breaking encapsulation.
 	- **Supports better modularity and separation of concerns** : non-member functions can be located in separate files, and functionality can be extended without altering the class directly.
 	- **Enhances flexibility and code reusability** : non-member functions are usable with other types if needed.
-
-### Memory allocation
