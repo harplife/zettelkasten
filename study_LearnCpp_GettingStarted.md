@@ -11031,7 +11031,8 @@ int main() {
 ```
 
 - Using non-member functions contribute to encapsulation in many ways:
-	- Minimizes class responsibilities
-	- Supports better modularity and separation of concerns
-	- Enhances flexibility and code reusability
-	- 
+	- **Minimizes class responsibilities & reduces access needs** : number of functions tied to the implementation is reduced, reducing clutter and likelihood of breaking encapsulation.
+	- **Supports better modularity and separation of concerns** : non-member functions can be located in separate files, and functionality can be extended without altering the class directly.
+	- **Enhances flexibility and code reusability** : non-member functions are usable with other types if needed.
+
+### Memory allocation
