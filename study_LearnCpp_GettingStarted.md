@@ -11002,4 +11002,36 @@ int main()
 #### Non-member functions improve encapsulation
 - Using non-member functions can enhance encapsulation by allowing a class to expose only the essential interface, keeping its internal workings hidden and separated from the main logic.
 	- This approach promotes better modularity and clearer design, as it reduces the responsibility of the class to only those tasks it absolutely needs to perform.
-- 
+- For example:
+
+```C++
+#include <iostream>
+
+class Rectangle {
+public:
+	Rectangle(double w, double h) : width(w), height(h) {}
+	double getWidth() const { return width; }
+	double getHeight() const { return height; }
+
+private:
+	double width, height;
+};
+
+double perimeter(const Rectangle& rect) {
+	return 2 * (rect.getWidth() + rect.getHeight());
+}
+
+int main() {
+	Rectangle model(4.0, 5.5);
+
+	std::cout << perimeter(model) << std::endl;
+
+	return 0;
+}
+```
+
+- Using non-member functions contribute to encapsulation in many ways:
+	- Minimizes class responsibilities
+	- Supports better modularity and separation of concerns
+	- Enhances flexibility and code reusability
+	- 
