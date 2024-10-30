@@ -10144,6 +10144,40 @@ int main() {
 }
 ```
 
+#### Delegating constructors
+- Constructors are allowed to delegate (transfer responsibility for) initialization to another constructor from the same struct/class type.
+	- This process is called <mark class="hltr-trippy">constructor chaining</mark>, and such constructors are called <mark class="hltr-trippy">delegating constructors</mark>.
+- For example:
+
+```C++
+#include <iostream>
+
+struct Employee {
+	std::string m_name;
+	int m_id;
+
+	Employee(std::string_view name) : Employee(name, 0) {
+		std::cout << "delegated" << std::endl;
+	}
+	Employee(std::string_view name, int id) : m_name(name), m_id(id) {
+		std::cout << m_name << ' ' << m_id << std::endl;
+	}
+};
+
+int main() {
+	Employee john("John", 5);
+	Employee jane("Jane");
+
+	return 0;
+}
+```
+
+```console
+John 5
+Jane 0
+delegated
+```
+
 ### Class template argument deduction (C++17)
 
 >[!important]
