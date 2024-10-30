@@ -10951,3 +10951,51 @@ int main()
 >Always use const reference. Using non-const reference allows the caller to have direct access, which defeats the purpose of having access functions.
 
 ### The benefits of encapsulation
+- <mark class="hltr-trippy">Encapsulation</mark> is a fundamental principle of OOP which involves bundling data (attributes) and methods (functions) that operate on the data within a single unit, typically a class, and restricting direct access to some of the components.
+- The <mark class="hltr-trippy">interface</mark> of a class type (aka class interface) defines how a user of the class type will interact with objects of the class type.
+	- Because only public members can be accessed from outside of the class type, the public members of a class type forms its interface.
+	- An interface is an implicit contract between the author of a class and the user of a class. If an existing interface is ever changed, any code that uses it may break. Therefore, it is important to ensure the interfaces for our class types are well-designed and stable (doesn't change much).
+- The <mark class="hltr-trippy">implementation</mark> of a class type consists of the code that actually makes the class behave as intended.
+	- This includes both the member variables that store data, and the bodies of the member functions that contain the program logic and manipulate the member variables.
+- <mark class="hltr-trippy">Data hiding</mark> (aka **information hiding** or **data abstraction**) is a technique used to enforce the separation of interface and implementation by hiding (making inaccessible) the implementation of a program-defined data type from users.
+	- Data hiding helps maintaining invariants by 1) preventing direct access to its private members, 2) providing access functions that modifies the private members only in a valid way, and 3) making necessary changes to members that are correlated with the private members.
+- For example:
+
+```C++
+#include <iostream>
+#include <string>
+#include <string_view>
+
+class Employee // members are private by default
+{
+    std::string m_name{};
+    char m_firstInitial{};
+
+public:
+    void setName(std::string_view name)
+    {
+        m_name = name;
+        m_firstInitial = name.front(); // use std::string::front() to get first letter of `name`
+    }
+
+    void print() const
+    {
+        std::cout << "Employee " << m_name << " has first initial " << m_firstInitial << '\n';
+    }
+};
+
+int main()
+{
+    Employee e{};
+    e.setName("John");
+    e.print();
+
+    e.setName("Mark");
+    e.print();
+
+    return 0;
+}
+```
+
+- In the example above, direct access to `m_name` is prevented and any changes to `m_name` via `setName()` also affects `m_firstInitial` (and thus `print()` works correctly).
+- 
