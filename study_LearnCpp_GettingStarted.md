@@ -10005,7 +10005,7 @@ int main()
 ```
 
 
-### Using constructor inside struct
+### Constructors
 - A <mark class="hltr-trippy">constructor</mark> is a special member function that is called automatically when an object of a `class` or `struct` is created. Its primary purpose is to initialize the object's members with specific values or default values.
 	- Constructors have the same name as the `class` or `struct` and do not have a return type.
 - Syntax of using constructor in `struct`:
@@ -10042,7 +10042,7 @@ int main() {
 >[!important]
 >The members in a member initializer list are always initialized in the order in which they are defined inside the struct or class.
 
-#### Types of constructors in a struct
+#### Types of constructors
 - <mark class="hltr-trippy">Default constructor</mark> : initializes members to default values, or leaves them uninitialized.
 
 ```C++
@@ -10064,7 +10064,7 @@ struct Person
 	int age;
 
 	Person(const std::string& name, int age) : name(name), age(age) {}
-}
+};
 ```
 
 - <mark class="hltr-trippy">Copy constructor</mark> : moves resources from a temporary object to a new one, which is efficient for objects holding dynamically allocated resources.
@@ -10076,10 +10076,24 @@ struct Person
 	int age;
 
 	Person(const Person& other) : name(other.name), age(other.age) {}
-}
+};
 ```
 
-#### Multiple constructors in a struct
+#### Parameterized constructor with default arguments
+
+```C++
+struct Foo {
+	int m_x;
+	int m_y;
+
+	Foo(int x=0, int y=0) : m_x(x), m_y(y) {}
+};
+```
+
+>[!warning]
+>If default arguments are supplied, the parameterized constructor will act as a default constructor. If there is another default constructor (meaning there are two), default initialization will become ambiguous and result in a compile error.
+
+#### Multiple constructors
 
 ```C++
 #include <iostream>
@@ -10108,7 +10122,7 @@ int main() {
 }
 ```
 
-#### Using constructor in a templated struct
+#### Using constructor with templates
 
 ```C++
 template <typename T, typename U>
