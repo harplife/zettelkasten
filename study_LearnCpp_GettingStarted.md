@@ -10998,4 +10998,5 @@ int main()
 ```
 
 - In the example above, direct access to `m_name` is prevented and any changes to `m_name` via `setName()` also affects `m_firstInitial` (and thus `print()` works correctly).
-- 
+
+#### Non-member functions improve encapsulation
