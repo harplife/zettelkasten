@@ -10030,7 +10030,7 @@ int main() {
 ```
 
 - In the example above, the constructor `Person(const std::string& name, int age)` initializes `name` and `age`.
-	- The member initializer list (`: name(name), age(age)`) initializes `name` and `age` directly, which is more efficient than assignment in the constructor body.
+	- The <mark class="hltr-trippy">member initializer list</mark> (`: name(name), age(age)`) initializes `name` and `age` directly, which is more efficient than assignment in the constructor body.
 	- When `Person p("Alice", 30);` is called, this invokes the constructor, initializing `name` to `Alice` and `age` to `30`.
 
 >[!important]
@@ -10038,6 +10038,9 @@ int main() {
 
 - If you do not explicitly define any constructors for a `struct` (or `class`), the compiler will automatically provide a **default constructor**.
 	- This automatically generated constructor is known as an <mark class="hltr-trippy">implicit default constructor</mark> and performs basic initialization based on their types.
+
+>[!important]
+>The members in a member initializer list are always initialized in the order in which they are defined inside the struct or class.
 
 #### Types of constructors in a struct
 - <mark class="hltr-trippy">Default constructor</mark> : initializes members to default values, or leaves them uninitialized.
