@@ -10776,7 +10776,7 @@ class Dog : public animal {
 - **Adding new members**
 	- The derived class can introduce new data members and member functions that are unique to it, which extends the behavior of the base class.
 
-#### Virtual functions
+#### Virtual functions and overriding
 - A virtual function is a function in a base class that is declared with the keyword `virtual`.
 	- It allows derived classes to override the function with their own implementation.
 	- Virtual functions enable runtime polymorphism, meaning that the appropriate function implementation is chosen based on the actual object type at runtime rather than at compile time.
@@ -10818,7 +10818,9 @@ public:
 >
 >Though it may seem like it works just fine without the `virtual` keyword, the base class method is just hiding, and there are cases where the base class method is exposed via base pointers or references (more on this later).
 
-- It is possible to call a base class's virtual method from a derived class using a [[#Scope resolution operator]] `::` to explicitly specify the base class and method to call. For example:
+- It is possible to call a base class's virtual method inside a derived class using a [[#Scope resolution operator]] `::` to explicitly specify the base class and method to call.
+	- Additionally, base class can be called from derived class object using member access operator `.` and then the base class's virtual method can be accessed with the scope resolution operator `::`.
+- For example:
 
 ```C++
 #include <iostream>
@@ -10843,6 +10845,7 @@ public:
 int main() {
     Derived d;
     d.show(); // Calls Derived's show() and then Base's show() within Derived
+    d.Base::show(); // Calls Base's show() directly from the Derived
     return 0;
 }
 ```
@@ -11063,3 +11066,28 @@ int main() {
 	- **Minimizes class responsibilities & reduces access needs** : number of functions tied to the implementation is reduced, reducing clutter and likelihood of breaking encapsulation.
 	- **Supports better modularity and separation of concerns** : non-member functions can be located in separate files, and functionality can be extended without altering the class directly.
 	- **Enhances flexibility and code reusability** : non-member functions are usable with other types if needed.
+- Another example of using non-member function to enhance encapsulation:
+
+```C++
+class Account {
+public:
+    Account(double balance) : balance(balance) {}
+    void deposit(double amount) { if (amount > 0) balance += amount; }
+    void withdraw(double amount) { if (amount > 0 && amount <= balance) balance -= amount; }
+    double getBalance() const { return balance; }
+
+private:
+    double balance;
+};
+
+// Non-member utility function
+double transfer(Account& from, Account& to, double amount) {
+    if (amount > 0 && from.getBalance() >= amount) {
+        from.withdraw(amount);
+        to.deposit(amount);
+        return amount;
+    }
+    return 0.0;  // Transfer failed
+}
+```
+
