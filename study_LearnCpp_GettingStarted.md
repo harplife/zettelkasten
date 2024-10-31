@@ -10178,6 +10178,12 @@ Jane 0
 delegated
 ```
 
+>[!warning]
+>A constructor that delegates to another constructor is not allowed to do any member initialization itself. In other words, a constructor can delegate or initialize, but not both.
+
+>[!warning]
+>It is possible for one constructor to delegate to another constructor, which delegates back to the first constructor. This forms an infinite loop, and will cause the program to run out of memory and crash. Make sure that all of the constructors resolve to a non-delegating constructor.
+
 ### Class template argument deduction (C++17)
 
 >[!important]
