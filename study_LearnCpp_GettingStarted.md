@@ -10079,6 +10079,13 @@ struct Person
 >[!warning]
 >A copy constructor should not do anything other than copy an object. This is because the compiler may optimize the copy constructor out in certain cases. If you are relying on the copy constructor for some behavior other than just copying, that behavior may or may not occur.
 
+>[!important]
+>A copy constructor is essential for classes that:
+>- Manage dynamically allocated resources, requiring deep copies.
+>- Are passed or returned by value.
+>- Are used in standard library containers that might need to copy objecdts.
+>- Should explicitly forbit copying to enforce unique ownership.
+
 #### Parameterized constructor with default arguments
 
 ```C++
