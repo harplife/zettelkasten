@@ -10076,6 +10076,9 @@ struct Person
 };
 ```
 
+>[!warning]
+>A copy constructor should not do anything other than copy an object. This is because the compiler may optimize the copy constructor out in certain cases. If you are relying on the copy constructor for some behavior other than just copying, that behavior may or may not occur.
+
 #### Parameterized constructor with default arguments
 
 ```C++
@@ -10180,6 +10183,23 @@ delegated
 
 >[!warning]
 >It is possible for one constructor to delegate to another constructor, which delegates back to the first constructor. This forms an infinite loop, and will cause the program to run out of memory and crash. Make sure that all of the constructors resolve to a non-delegating constructor.
+
+#### Braces for initialization
+- Braces `{}` invoke **list initialization** (uniform initialization) and are generally safer as they prevent narrowing conversions (e.g. initializing an `int` from a `double`).
+- When used in a member initializer list, braces offer more consistent behavior.
+- For example:
+
+```C++
+struct Foo {
+	int m_x;
+	int m_y;
+
+	Foo(int x, int y) : m_x{x}, m_y{y} {}
+};
+
+Foo obj1{10, 12}; // list initialization
+Foo obj2(7, 11); // direct initialization still works
+```
 
 ### Class template argument deduction (C++17)
 
