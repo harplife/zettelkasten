@@ -10036,14 +10036,11 @@ int main() {
 >[!important]
 >Note that with a constructor, `struct` is initialized using paratheses (e.g. `Person p("Alice", 30);`) as opposed to braces (e.g. `Person p = {"Alice", 30};`). This shows that the constructor is a function whose main purpose is to initialize the object's members.
 
-- If you do not explicitly define any constructors for a `struct` (or `class`), the compiler will automatically provide a **default constructor**.
-	- This automatically generated constructor is known as an <mark class="hltr-trippy">implicit default constructor</mark> and performs basic initialization based on their types.
-
 >[!important]
 >The members in a member initializer list are always initialized in the order in which they are defined inside the struct or class.
 
 #### Types of constructors
-- <mark class="hltr-trippy">Default constructor</mark> : initializes members to default values, or leaves them uninitialized.
+- <mark class="hltr-trippy">Default constructor</mark> : initializes members to default values, or leaves them uninitialized. An **implicit default constructor** is created if a default constructor is not provided.
 
 ```C++
 struct Person
@@ -10067,7 +10064,7 @@ struct Person
 };
 ```
 
-- <mark class="hltr-trippy">Copy constructor</mark> : moves resources from a temporary object to a new one, which is efficient for objects holding dynamically allocated resources.
+- <mark class="hltr-trippy">Copy constructor</mark> : moves resources from a temporary object to a new one, which is efficient for objects holding dynamically allocated resources. An **implicit copy constructor** is created if a copy constructor is not provided.
 
 ```C++
 struct Person
