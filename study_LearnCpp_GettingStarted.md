@@ -11176,4 +11176,18 @@ double transfer(Account& from, Account& to, double amount) {
 }
 ```
 
-### Class initialization and copy elision
+### Copy elision
+
+- Copy elision is a compiler optimization that eliminates unnecessary copying or moving of objects.
+	- This allows the compiler to create an object directly in its final location, avoiding the overhead of creating temporary objects.
+	- It can happen in certain situations, even without enabling optimization flags, and in some cases, it is required (since C++17).
+- Copy elision can occur with return-by-value. When a function returns an object by value, the compiler can directly construct the return value in the location where it will be used, bypassing the need for a temporary copy. For example:
+
+```C++
+MyClass createObject() {
+    return MyClass();  // Directly constructs the object at the return site.
+}
+
+MyClass obj = createObject();  // No copy constructor is called.
+```
+
