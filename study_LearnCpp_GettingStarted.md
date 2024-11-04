@@ -11177,17 +11177,59 @@ double transfer(Account& from, Account& to, double amount) {
 ```
 
 ### Copy elision
-
-- Copy elision is a compiler optimization that eliminates unnecessary copying or moving of objects.
+- <mark class="hltr-trippy">Copy elision</mark> is a compiler optimization that eliminates unnecessary copying or moving of objects.
 	- This allows the compiler to create an object directly in its final location, avoiding the overhead of creating temporary objects.
 	- It can happen in certain situations, even without enabling optimization flags, and in some cases, it is required (since C++17).
 - Copy elision can occur with return-by-value. When a function returns an object by value, the compiler can directly construct the return value in the location where it will be used, bypassing the need for a temporary copy. For example:
 
 ```C++
-MyClass createObject() {
-    return MyClass();  // Directly constructs the object at the return site.
+#include <iostream>
+
+class MyClass {
+private:
+	int m_x;
+	int m_y;
+
+public:
+	MyClass(int x, int y) : m_x(x), m_y(y) {
+		std::cout << "Normal initialization" << std::endl;
+	}
+
+	MyClass(const MyClass& temp) : m_x(temp.m_x), m_y(temp.m_y) {
+		std::cout << "Copy initialization" << std::endl;
+	}
+};
+
+MyClass createObject(int x, int y) {
+	return MyClass(x, y);
 }
 
-MyClass obj = createObject();  // No copy constructor is called.
+int main() {
+	MyClass obj1(5, 2);
+	MyClass obj2(obj1); // Copy constructor is called.
+	MyClass obj3 = createObject(3, 7); // Copy constructor is NOT called
+	MyClass obj4{ createObject(8, 1) }; // Copy constructor is NOT called
+
+	return 0;
+}
 ```
+
+```console
+Normal initialization
+Copy initialization
+Normal initialization
+Normal initialization
+```
+
+- In the example above, without copy elision, using `createObject()` as an initializer would've made a temporary object and invoked copy initialization. But with copy elision, copy initialization does NOT occur.
+- When an object is initialized directly from a temporary, the compiler also skips the copy construction and directly initializes the object. For example:
+
+```C++
+MyClass obj5 = MyClass(9, 6); // Copy constructor is NOT called
+```
+
+>[!important]
+>Since C++17, copy elision is guaranteed in certain cases, such as:
+>- When an object is returned from a function by value.
+>- When an object is constructed by direct initialization or copy initialization from a temporary.
 
