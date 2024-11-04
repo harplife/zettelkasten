@@ -21,7 +21,9 @@
                     "backlinks": false,
                     "source": false
                   },
-                  "pinned": true
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "study_LearnOpenGL_GettingStarted"
                 }
               },
               {
@@ -36,7 +38,9 @@
                     "backlinks": false,
                     "source": false
                   },
-                  "pinned": true
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "study_LearnOpenGL_Lighting"
                 }
               },
               {
@@ -51,7 +55,9 @@
                     "backlinks": false,
                     "source": false
                   },
-                  "pinned": true
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "opengl_code_guide"
                 }
               },
               {
@@ -64,7 +70,9 @@
                     "mode": "source",
                     "backlinks": false,
                     "source": false
-                  }
+                  },
+                  "icon": "lucide-file",
+                  "title": "study_LearnOpenGL_Colors"
                 }
               },
               {
@@ -77,7 +85,9 @@
                     "mode": "source",
                     "backlinks": false,
                     "source": false
-                  }
+                  },
+                  "icon": "lucide-file",
+                  "title": "driver_exam_study"
                 }
               },
               {
@@ -90,11 +100,25 @@
                     "mode": "source",
                     "backlinks": false,
                     "source": false
-                  }
+                  },
+                  "icon": "lucide-file",
+                  "title": "study_LearnCpp_GettingStarted"
+                }
+              },
+              {
+                "id": "663154be0249da6e",
+                "type": "leaf",
+                "state": {
+                  "type": "release-notes",
+                  "state": {
+                    "currentVersion": "1.7.4"
+                  },
+                  "icon": "lucide-file",
+                  "title": "Release Notes 1.7.4"
                 }
               }
             ],
-            "currentTab": 5
+            "currentTab": 6
           }
         ],
         "direction": "vertical"
@@ -114,7 +138,9 @@
                   "type": "file-explorer",
                   "state": {
                     "sortOrder": "alphabetical"
-                  }
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
                 }
               },
               {
@@ -125,7 +151,9 @@
                   "state": {
                     "sortOrder": "alphabetical",
                     "useHierarchy": true
-                  }
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
                 }
               },
               {
@@ -140,7 +168,9 @@
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical"
-                  }
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
                 }
               },
               {
@@ -148,7 +178,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "bookmarks",
-                  "state": {}
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
                 }
               },
               {
@@ -156,7 +188,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "center-panes",
-                  "state": {}
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "Plugin no longer active"
                 }
               }
             ],
@@ -172,8 +206,10 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "study_LearnCpp_GettingStarted.md"
-                  }
+                    "file": "study_LearnOpenGL_GettingStarted.md"
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of study_LearnOpenGL_GettingStarted"
                 }
               }
             ]
@@ -196,7 +232,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "advanced-tables-toolbar",
-                  "state": {}
+                  "state": {},
+                  "icon": "spreadsheet",
+                  "title": "Advanced Tables"
                 }
               },
               {
@@ -204,7 +242,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "mathpad-view",
-                  "state": {}
+                  "state": {},
+                  "icon": "sigma",
+                  "title": "Mathpad"
                 }
               },
               {
@@ -213,7 +253,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "study_LearnCpp_GettingStarted.md",
+                    "file": "study_LearnOpenGL_GettingStarted.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -239,7 +279,9 @@
                       "scale": 0.42967809143425173,
                       "close": true
                     }
-                  }
+                  },
+                  "icon": "lucide-git-fork",
+                  "title": "Graph of study_LearnOpenGL_GettingStarted"
                 }
               },
               {
@@ -248,10 +290,12 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "study_LearnCpp_GettingStarted.md",
+                    "file": "study_LearnOpenGL_GettingStarted.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
-                  }
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from study_LearnOpenGL_GettingStarted"
                 }
               },
               {
@@ -259,7 +303,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "dictionary-view",
-                  "state": {}
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "Plugin no longer active"
                 }
               }
             ],
@@ -274,7 +320,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "graph",
-                  "state": {}
+                  "state": {},
+                  "icon": "lucide-git-fork",
+                  "title": "Graph view"
                 }
               },
               {
@@ -283,7 +331,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "study_LearnCpp_GettingStarted.md",
+                    "file": "study_LearnOpenGL_GettingStarted.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -291,7 +339,9 @@
                     "searchQuery": "",
                     "backlinkCollapsed": false,
                     "unlinkedCollapsed": false
-                  }
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for study_LearnOpenGL_GettingStarted"
                 }
               }
             ],
@@ -299,8 +349,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 362.5,
-        "collapsed": true
+        "width": 362.5
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -316,8 +365,8 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "9c9a2525afbfe6bd",
-      "mtime": "2024-10-30T16:19:24-05:00",
+      "active": "663154be0249da6e",
+      "mtime": "2024-11-04T11:00:59-06:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "Dictionary"
