@@ -102,21 +102,9 @@
               "icon": "lucide-file",
               "title": "study_LearnCpp_GettingStarted"
             }
-          },
-          {
-            "id": "663154be0249da6e",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.4"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.4"
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -204,10 +192,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study_LearnOpenGL_GettingStarted.md"
+                "file": "study_LearnCpp_GettingStarted.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of study_LearnOpenGL_GettingStarted"
+              "title": "Outline of study_LearnCpp_GettingStarted"
             }
           }
         ]
@@ -251,7 +239,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "study_LearnOpenGL_GettingStarted.md",
+                "file": "study_LearnCpp_GettingStarted.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -279,7 +267,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of study_LearnOpenGL_GettingStarted"
+              "title": "Graph of study_LearnCpp_GettingStarted"
             }
           },
           {
@@ -288,12 +276,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study_LearnOpenGL_GettingStarted.md",
+                "file": "study_LearnCpp_GettingStarted.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from study_LearnOpenGL_GettingStarted"
+              "title": "Outgoing links from study_LearnCpp_GettingStarted"
             }
           },
           {
@@ -329,7 +317,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study_LearnOpenGL_GettingStarted.md",
+                "file": "study_LearnCpp_GettingStarted.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -339,7 +327,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for study_LearnOpenGL_GettingStarted"
+              "title": "Backlinks for study_LearnCpp_GettingStarted"
             }
           }
         ],
@@ -347,7 +335,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 362.5
+    "width": 362.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -363,7 +352,7 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "663154be0249da6e",
+  "active": "9c9a2525afbfe6bd",
   "lastOpenFiles": [
     "study_LearnOpenGL_Colors.md",
     "study_LearnCpp_GettingStarted.md",

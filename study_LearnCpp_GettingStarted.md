@@ -10004,8 +10004,46 @@ int main()
 }
 ```
 
+#### Using alias for templated struct
+- An alias template is a convenient way to create a new name (alias) for a template type or a more complex type.
+	- This can simplify code by allowing you to refer to template specializations with shorter or more descriptive names, especially when dealing with complex template types.
+- Alias template are defined using the `using` keyword, followed by a name for the alias and the type expression that the alias represents.
 
-### Constructors
+```C++
+#include <iostream>
+
+template <typename T>
+struct Pair
+{
+    T first{};
+    T second{};
+};
+
+// Here's our alias template
+// Alias templates must be defined in global scope
+template <typename T>
+using Coord = Pair<T>; // Coord is an alias for Pair<T>
+
+// Our print function template needs to know that Coord's template parameter T is a type template parameter
+template <typename T>
+void print(const Coord<T>& c)
+{
+    std::cout << c.first << ' ' << c.second << '\n';
+}
+
+int main()
+{
+    Coord<int> p1 { 1, 2 }; // Pre C++-20: We must explicitly specify all type template argument
+    Coord p2 { 1, 2 };      // In C++20, we can use alias template deduction to deduce the template arguments in cases where CTAD works
+
+    std::cout << p1.first << ' ' << p1.second << '\n';
+    print(p2);
+
+    return 0;
+}
+```
+
+## Intro to constructors
 - A <mark class="hltr-trippy">constructor</mark> is a special member function that is called automatically when an object of a `class` or `struct` is created. Its primary purpose is to initialize the object's members with specific values or default values.
 	- Constructors have the same name as the `class` or `struct` and do not have a return type.
 - Syntax of using constructor in `struct`:
@@ -10039,8 +10077,10 @@ int main() {
 >[!important]
 >The members in a member initializer list are always initialized in the order in which they are defined inside the struct or class.
 
-#### Types of constructors
-- <mark class="hltr-trippy">Default constructor</mark> : initializes members to default values, or leaves them uninitialized. An **implicit default constructor** is created if a default constructor is not provided.
+### Types of constructors
+#### Default constructor
+- <mark class="hltr-trippy">Default constructor</mark> initializes members to default values, or leaves them uninitialized.
+	- An **implicit default constructor** is created if a default constructor is not provided.
 
 ```C++
 struct Person
@@ -10052,7 +10092,8 @@ struct Person
 };
 ```
 
-- <mark class="hltr-trippy">Parameterized constructor</mark> : initializes members with values passed as arguments.
+#### Parameterized constructor
+- <mark class="hltr-trippy">Parameterized constructor</mark> initializes members with values passed as arguments.
 
 ```C++
 struct Person
@@ -10064,7 +10105,9 @@ struct Person
 };
 ```
 
-- <mark class="hltr-trippy">Copy constructor</mark> : moves resources from a temporary object to a new one, which is efficient for objects holding dynamically allocated resources. An **implicit copy constructor** is created if a copy constructor is not provided.
+#### Copy constructor
+- <mark class="hltr-trippy">Copy constructor</mark> moves resources from a temporary object to a new one, which is efficient for objects holding dynamically allocated resources.
+	- An **implicit copy constructor** is created if a copy constructor is not provided.
 
 ```C++
 struct Person
@@ -10084,9 +10127,9 @@ struct Person
 >- Manage dynamically allocated resources, requiring deep copies.
 >- Are passed or returned by value.
 >- Are used in standard library containers that might need to copy objecdts.
->- Should explicitly forbit copying to enforce unique ownership.
+>- Should explicitly forbid copying to enforce unique ownership.
 
-#### Parameterized constructor with default arguments
+### Parameterized constructor with default arguments
 
 ```C++
 struct Foo {
@@ -10100,7 +10143,7 @@ struct Foo {
 >[!warning]
 >If default arguments are supplied, the parameterized constructor will act as a default constructor. If there is another default constructor (meaning there are two), default initialization will become ambiguous and result in a compile error.
 
-#### Multiple constructors
+### Multiple constructors
 
 ```C++
 #include <iostream>
@@ -10129,7 +10172,7 @@ int main() {
 }
 ```
 
-#### Using constructor with templates
+### Using constructor with templates
 
 ```C++
 template <typename T, typename U>
@@ -10151,7 +10194,7 @@ int main() {
 }
 ```
 
-#### Delegating constructors
+### Delegating constructors
 - Constructors are allowed to delegate (transfer responsibility for) initialization to another constructor from the same struct/class type.
 	- This process is called <mark class="hltr-trippy">constructor chaining</mark>, and such constructors are called <mark class="hltr-trippy">delegating constructors</mark>.
 - For example:
@@ -10191,7 +10234,7 @@ delegated
 >[!warning]
 >It is possible for one constructor to delegate to another constructor, which delegates back to the first constructor. This forms an infinite loop, and will cause the program to run out of memory and crash. Make sure that all of the constructors resolve to a non-delegating constructor.
 
-#### Braces for initialization
+### Braces for initialization
 - Braces `{}` invoke **list initialization** (uniform initialization) and are generally safer as they prevent narrowing conversions (e.g. initializing an `int` from a `double`).
 - When used in a member initializer list, braces offer more consistent behavior.
 - For example:
@@ -10208,7 +10251,7 @@ Foo obj1{10, 12}; // list initialization
 Foo obj2(7, 11); // direct initialization still works
 ```
 
-### Class template argument deduction (C++17)
+## Class template argument deduction (C++17)
 
 >[!important]
 >Templates used with `struct` are often called **class templates**. Though, `class` and `struct` are not the same thing.
@@ -10245,7 +10288,7 @@ int main() {
 >[!warning] CTAD doesn't work with function parameters.
 >All template arguments must be explicitly specified.
 
-#### Deduction guides (C++17)
+### Deduction guides (C++17)
 - <mark class="hltr-trippy">Deduction guides</mark> are mechanisms that help the compiler deduce template arguments when creating an instance of a class template (or a templated struct).
 	- Deduction guides reduce the need to explicitly specify template arguments in certain situations, making code more concise and readable.
 - A deduction guide provides a mapping between constructor parameters and the template arguments. The guide tells the compiler which template arguments to use based on the arguments passed to the constructor, and this affects how instances of the templated struct or class are created.
@@ -10381,45 +10424,6 @@ int main() {
     Matrix m(2, 3, 1.0);  // Deduction guide deduces Matrix<double>
 
     std::cout << "Matrix rows: " << m.rows << ", cols: " << m.cols << std::endl;
-}
-```
-
-### Using alias for templated struct
-- An alias template is a convenient way to create a new name (alias) for a template type or a more complex type.
-	- This can simplify code by allowing you to refer to template specializations with shorter or more descriptive names, especially when dealing with complex template types.
-- Alias template are defined using the `using` keyword, followed by a name for the alias and the type expression that the alias represents.
-
-```C++
-#include <iostream>
-
-template <typename T>
-struct Pair
-{
-    T first{};
-    T second{};
-};
-
-// Here's our alias template
-// Alias templates must be defined in global scope
-template <typename T>
-using Coord = Pair<T>; // Coord is an alias for Pair<T>
-
-// Our print function template needs to know that Coord's template parameter T is a type template parameter
-template <typename T>
-void print(const Coord<T>& c)
-{
-    std::cout << c.first << ' ' << c.second << '\n';
-}
-
-int main()
-{
-    Coord<int> p1 { 1, 2 }; // Pre C++-20: We must explicitly specify all type template argument
-    Coord p2 { 1, 2 };      // In C++20, we can use alias template deduction to deduce the template arguments in cases where CTAD works
-
-    std::cout << p1.first << ' ' << p1.second << '\n';
-    print(p2);
-
-    return 0;
 }
 ```
 
@@ -11172,3 +11176,4 @@ double transfer(Account& from, Account& to, double amount) {
 }
 ```
 
+### Class initialization and copy elision
