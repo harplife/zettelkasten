@@ -11233,3 +11233,4 @@ MyClass obj5 = MyClass(9, 6); // Copy constructor is NOT called
 >- When an object is returned from a function by value.
 >- When an object is constructed by direct initialization or copy initialization from a temporary.
 
+### Converting constructors and the explicit keyword
