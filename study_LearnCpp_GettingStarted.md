@@ -11234,3 +11234,52 @@ MyClass obj5 = MyClass(9, 6); // Copy constructor is NOT called
 >- When an object is constructed by direct initialization or copy initialization from a temporary.
 
 ### Converting constructors and the explicit keyword
+- A <mark class="hltr-trippy">converting constructor</mark> is a constructor that allows implicit type conversion from one type to another.
+	- It typically takes a single parameter (or a set of parameters) and enables the compiler to convert from the constructor's parameter type(s) to the type of the class.
+	- Converting constructor is needed in order to convert from a fundamental type to a user-defined type.
+- For example:
+
+```C++
+class MyClass {
+public:
+    MyClass(int value) : data(value) {}  // Converting constructor
+private:
+    int data;
+};
+
+void func(MyClass obj) {
+    // function that accepts MyClass object
+}
+
+int main() {
+    func(10);  // MyClass(10) implicitly called to convert int to MyClass
+}
+```
+
+- In the example above, the constructor `MyClass(int value)` allows implicit conversion from `int` to `MyClass`.
+
+>[!warning] Issues with implicit conversions
+>While convenient, implicit conversions can lead to unexpected results, especially in cases of:
+>- Accidental conversions that result in unexpected behavior.
+>- Ambiguity in code readability, where conversions occur without being explicitly indicated.
+
+- The `explicit` keyword prevents the compiler from using the constructor for implicit conversions.
+	- When a constructor is marked `explicit`, it can only be used for direct initialization, and any attempt at implicit conversion will result in a compilation error.
+- For example:
+
+```C++
+class MyClass {
+public:
+    explicit MyClass(int value) : data(value) {}  // Explicit converting constructor
+private:
+    int data;
+};
+
+void func(MyClass obj) {}
+
+int main() {
+    func(10);  // Error: no implicit conversion from int to MyClass
+    func(MyClass(10));  // Works: explicit conversion
+}
+```
+
