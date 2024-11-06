@@ -11327,3 +11327,6 @@ int main() {
 >[!warning] C++14 and above, `constexpr` member functions are no longer implicitly `const`.
 >In order to ensure that the member function does not modify any of the data members, it must be made a `const` member function explicitly.
 
+### Method chaining
+- <mark class="hltr-trippy">Method chaining</mark> is a technique where multiple methods are called in a single statement by chaining them together.
+	- Each method in the chain returns a reference (often `*this`) to the object itself, allowing subsequent methods to be called directly on the returned object.
