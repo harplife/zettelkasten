@@ -11608,4 +11608,27 @@ void Car::start() {
 }
 ```
 
-### Nested types (member types)
+### Member types
+- <mark class="hltr-trippy">Member types</mark> refer to types that are defined inside a class or struct. These can be:
+	- Type aliases (using `typedef` or `using`)
+	- Nested types
+	- Member template types
+- Member types are defined inside the class definition and are typically used to describe types that are closely related to the class itself.
+	- These types can be accessed through instances of the class or via the class name.
+
+#### Member type aliases
+- A member type alias allows you to define a type within the class that can be used to reference another type. For example:
+
+```C++
+class MyClass {
+public:
+    using MyInt = int;   // Member type alias
+    typedef double MyDouble;  // Another way of doing it with typedef
+};
+
+MyClass::MyInt a = 5;  // Usage of the member type alias
+MyClass::MyDouble b = 3.14;  // Usage of the typedef member type
+```
+
+#### Nested classes
+- A nested class
