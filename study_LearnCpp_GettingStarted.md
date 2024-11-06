@@ -11327,6 +11327,42 @@ int main() {
 >[!warning] C++14 and above, `constexpr` member functions are no longer implicitly `const`.
 >In order to ensure that the member function does not modify any of the data members, it must be made a `const` member function explicitly.
 
+### Special pointer to the instance of the class
+- The `this` pointer is a special pointer available in all non-static member functions of a class. It points to the instance of the class on which the member function is called.
+	- It provides direct access to the current object and can be used to differentiate between member variables and parameters in methods (hence, **disambiguation**).
+	- `this` is automatically passed to each non-static member function.
+- As mentioned in [[#Member selection for pointers to structs]], member selection from pointer operator (arrow operator) `->` can be used to access a member from a pointer to a `class`.
+	- For example, `(*MyClass).foo()` can be re-written as `MyClass->foo()`.
+- Since `this` is a pointer to the current object, `->` can be used to access a member of the current object (e.g. `this->member`).
+- For example:
+
+```C++
+#include <iostream>
+#include <string>
+
+class Person {
+public:
+    Person(const std::string& name) : name(name) {}
+
+    void introduce() {
+        std::cout << "Hello, my name is " << this->name << "." << std::endl;
+    }
+
+private:
+    std::string name;
+};
+
+int main() {
+    Person person("Alice");
+    person.introduce();  // Outputs: Hello, my name is Alice.
+    return 0;
+}
+```
+
+- In the example above, the `name` of the current `Person` instance is called inside the `introduce()` function.
+
+>[!important] In a `const` member function, `this` is treated as a pointer to a `const` instance of the class.
+
 ### Method chaining
 - <mark class="hltr-trippy">Method chaining</mark> is a technique where multiple methods are called in a single statement by chaining them together.
 	- Each method in the chain returns a reference (often `*this`) to the object itself, allowing subsequent methods to be called directly on the returned object.
