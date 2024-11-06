@@ -11488,8 +11488,7 @@ int main() {
 #### 1. Separate interface and implementation
 - Declare the class and its member functions without implementation details in a header file (e.g. `ClassName.h`):
 
-```C++
-// ClassName.h
+```C++ title:ClassName.h
 #ifndef CLASSNAME_H
 #define CLASSNAME_H
 
@@ -11506,7 +11505,7 @@ private:
 
 - Implement the class's member functions in a source file (e.g. `ClassName.cpp`):
 
-```C++
+```C++ title:ClassName.cpp
 #include "ClassName.h"
 
 ClassName::ClassName() : memberVar(0) {}
