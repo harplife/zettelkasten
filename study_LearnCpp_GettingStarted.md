@@ -11283,3 +11283,8 @@ int main() {
 }
 ```
 
+>[!warning] Do not make copy (and move) constructors `explicit`.
+>Default constructors without parameters, or constructors that take multiple arguments aren't typically made `explicit`.
+
+>[!important] Constructors that take a single argument should usually be made `explicit`.
+
