@@ -11844,3 +11844,5 @@ int main()
 >[!important]
 >Member functions defined inside the class template definition do not require template parameter declaration. In the example above, note that the constructor is `Pair()` instead of `Pair<T>()`.
 
+### Static member variable
+- A static member variable is a variable that is shared by all instances of a class rather than each instance having its own copy.
