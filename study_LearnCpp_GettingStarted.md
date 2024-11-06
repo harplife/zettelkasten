@@ -11535,6 +11535,6 @@ public:
 
 ```C++
 // Inline function in header
-inline int getMemberVar() const { return memberVar; }
+inline int ClassName::getMemberVar() const { return memberVar; }
 ```
 
