@@ -11484,3 +11484,35 @@ int main() {
 
 [[design_patterns_for_graphics_programming|Speaking of design patterns..]]
 
+### Organizing classes in a multi-file setup
+#### 1. Separate interface and implementation
+- Declare the class and its member functions without implementation details in a header file (e.g. `ClassName.h`):
+
+```C++
+// ClassName.h
+#ifndef CLASSNAME_H
+#define CLASSNAME_H
+
+class ClassName {
+public:
+    ClassName();
+    void someMethod() const;
+private:
+    int memberVar;
+};
+
+#endif
+```
+
+- Implement the class's member functions in a source file (e.g. `ClassName.cpp`):
+
+```C++
+#include "ClassName.h"
+
+ClassName::ClassName() : memberVar(0) {}
+
+void ClassName::someMethod() const {
+    // Implementation details
+}
+```
+
