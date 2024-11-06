@@ -11366,3 +11366,50 @@ int main() {
 ### Method chaining
 - <mark class="hltr-trippy">Method chaining</mark> is a technique where multiple methods are called in a single statement by chaining them together.
 	- Each method in the chain returns a reference (often `*this`) to the object itself, allowing subsequent methods to be called directly on the returned object.
+- For example:
+
+```C++
+#include <iostream>
+
+class Box {
+public:
+    Box& setLength(double l) {
+        length = l;
+        return *this;
+    }
+    
+    Box& setWidth(double w) {
+        width = w;
+        return *this;
+    }
+    
+    Box& setHeight(double h) {
+        height = h;
+        return *this;
+    }
+    
+    void displayDimensions() const {
+        std::cout << "Length: " << length << ", Width: " << width << ", Height: " << height << "\n";
+    }
+
+private:
+    double length{0}, width{0}, height{0};
+};
+
+int main() {
+    Box box;
+    box.setLength(10.5).setWidth(5.5).setHeight(7.0).displayDimensions();  // Method chaining
+
+    return 0;
+}
+```
+
+- In the example above, each method (`setLength`, `setWidth`, `setHeight`) returns a reference to the current instance of the `Box` class (e.g. `*this`). This allows the chaining of the methods.
+- Common use cases for method chaining:
+	- **Builder patterns** : often used to construct objects with a series of configurations.
+	- **Query building** : common in database libraries or search filters, where criteria are added step-by-step.
+	- **Math libraries** : for expressions like `Vector().scale(2).add(Vector(1,1)).normalize()`.
+
+>[!warning]
+>While method chaining is powerful, excessive chaining can sometimes reduce readability if the chain grows too long or involves too many calls.
+
