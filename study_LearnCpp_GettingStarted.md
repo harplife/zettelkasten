@@ -11554,3 +11554,57 @@ inline int ClassName::getMemberVar() const { return memberVar; }
 
 >[!important]
 >Member functions inside class definition are implicitly inline. However, once it is defined outside the class definition, it is no longer implicitly inline - which opens up the risk for the violation of ODR.
+
+>[!warning] Avoid putting non-inline member function definitions in headers unless required.
+
+>[!note] Personally, I think this is just overcomplicating some bullshit.
+
+#### 4. Use include guards
+- Use `#ifndef`/`#define`/`#endif` include guards or `#pragma once` to prevent multiple inclusions of the same header.
+
+#### 5. Group headers by purpose and use `namespace`
+- Use dedicated headers for related functionality or a logical grouping of classes.
+	- For instance, `Physics.h` might group all physics-related classes.
+- Use namespaces to group related classes logically and prevent name conflicts. For example:
+
+```C++
+// Physics.h
+namespace Physics {
+    class RigidBody;
+    class Vector3;
+}
+```
+
+#### Example
+
+Car.h
+```C++
+#ifndef CAR_H
+#define CAR_H
+
+class Engine;  // Forward declaration
+
+class Car {
+public:
+    Car();
+    void start();
+
+private:
+    Engine* engine;  // Use pointer or reference to avoid including "Engine.h"
+};
+
+#endif
+```
+
+Car.cpp
+```C++
+#include "Car.h"
+#include "Engine.h"  // Only include here, where Engine implementation is needed
+
+Car::Car() : engine(nullptr) {}
+
+void Car::start() {
+    // Use engine here
+}
+```
+
