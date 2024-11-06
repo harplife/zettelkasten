@@ -11841,3 +11841,6 @@ int main()
 }
 ```
 
+>[!important]
+>Member functions defined inside the class template definition do not require template parameter declaration. In the example above, note that the constructor is `Pair()` instead of `Pair<T>()`.
+
