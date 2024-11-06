@@ -11408,7 +11408,7 @@ int main() {
 - Common use cases for method chaining:
 	- **Builder patterns** : often used to construct objects with a series of configurations.
 	- **Query building** : common in database libraries or search filters, where criteria are added step-by-step.
-	- **Math libraries** : for expressions like `Vector().scale(2).add(Vector(1,1)).normalize()`.
+	- **Math libraries** : for expressions like `{C++} Vector().scale(2).add(Vector(1,1)).normalize()`.
 
 >[!warning]
 >While method chaining is powerful, excessive chaining can sometimes reduce readability if the chain grows too long or involves too many calls.
@@ -11513,5 +11513,28 @@ ClassName::ClassName() : memberVar(0) {}
 void ClassName::someMethod() const {
     // Implementation details
 }
+```
+
+#### 2. Avoid including unnecessary headers
+- Avoid including headers in other heads unless strictly necessary. This reduces compile time and dependency issues.
+- If a member function only requires a type in its parameter list, prefer **forward declarations** over including full headers in the class declaration. For example:
+
+```C++
+// Forward declare AnotherClass
+class AnotherClass;
+
+class ClassName {
+public:
+    void doSomethingWith(AnotherClass& obj);  // No need to include "AnotherClass.h" here
+};
+```
+
+#### 3. Use inline functions for simple member functions
+- Simple functions, especially getters and setters, can be defined inline within the header file to potentially reduce call overhead.
+- Mark these as `inline` to avoid linker errors with multiple inclusions:
+
+```C++
+// Inline function in header
+inline int getMemberVar() const { return memberVar; }
 ```
 
