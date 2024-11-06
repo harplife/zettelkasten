@@ -11519,7 +11519,7 @@ void ClassName::someMethod() const {
 - Avoid including headers in other heads unless strictly necessary. This reduces compile time and dependency issues.
 - If a member function only requires a type in its parameter list, prefer **forward declarations** over including full headers in the class declaration. For example:
 
-```C++
+```C++ title:ClassName.h
 // Forward declare AnotherClass
 class AnotherClass;
 
@@ -11531,10 +11531,26 @@ public:
 
 #### 3. Use inline functions for simple member functions
 - Simple functions, especially getters and setters, can be defined inline within the header file to potentially reduce call overhead.
-- Mark these as `inline` to avoid linker errors with multiple inclusions:
+- Mark these as `inline` to avoid linker errors with multiple inclusions.
+- For example:
 
-```C++
-// Inline function in header
+```C++ title:ClassName.h
+#ifndef CLASSNAME_H
+#define CLASSNAME_H
+
+class ClassName {
+public:
+    ClassName();
+    int getMemberVar() const;
+    void someMethod() const;
+private:
+    int memberVar;
+};
+
 inline int ClassName::getMemberVar() const { return memberVar; }
+
+#endif
 ```
 
+>[!important]
+>Member functions inside class definition are implicitly inline. However, once it is defined outside the class definition, it is no longer implicitly inline - which opens up the risk for the violation of ODR.
