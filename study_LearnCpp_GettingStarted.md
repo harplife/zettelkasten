@@ -11288,3 +11288,42 @@ int main() {
 
 >[!important] Constructors that take a single argument should usually be made `explicit`.
 
+### Constexpr class type
+- In order to make a class type that can be evaluated at compile-time, the class type must be made `constexpr`. This can be done so by defining a `constexpr` constructor.
+	- For its member functions to work in constant expressions, mark them as `constexpr` as well.
+- For example:
+
+```C++
+class Point {
+public:
+    constexpr Point(double x, double y) : x_(x), y_(y) {}
+
+    constexpr double getX() const { return x_; }
+    constexpr double getY() const { return y_; }
+
+    constexpr Point add(const Point& other) const {
+        return Point(x_ + other.x_, y_ + other.y_);
+    }
+
+private:
+    double x_, y_;
+};
+
+int main() {
+    constexpr Point p1(3.5, 4.2);          // Compile-time object
+    constexpr Point p2(1.5, 2.8);
+    constexpr Point p3 = p1.add(p2);       // Compile-time addition
+
+    // Run-time creation of Point
+    Point p4(7.2, 6.1);
+}
+```
+
+>[!important]
+>Data members in a `constexpr` class type must be types that are `constexpr` compatible; such as `int`, `double`, `std::array`, and etc. Note that pointers to dynamically allocated memory are NOT compatible.
+
+>[!important] In order for `constexpr` class type to be evaluated at compile-time, the object definition must also be `constexpr`.
+
+>[!warning] C++14 and above, `constexpr` member functions are no longer implicitly `const`.
+>In order to ensure that the member function does not modify any of the data members, it must be made a `const` member function explicitly.
+
