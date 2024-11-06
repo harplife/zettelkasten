@@ -11608,3 +11608,4 @@ void Car::start() {
 }
 ```
 
+### Nested types (member types)
