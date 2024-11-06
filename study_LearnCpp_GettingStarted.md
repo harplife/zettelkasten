@@ -11413,3 +11413,8 @@ int main() {
 >[!warning]
 >While method chaining is powerful, excessive chaining can sometimes reduce readability if the chain grows too long or involves too many calls.
 
+#### Builder pattern
+- The <mark class="hltr-trippy">builder pattern</mark> is a creational design pattern in OOP that separates the construction of a complex object from its representation.
+	- This pattern is particularly useful when creating objects that require multiple steps or complex configurations.
+	- Instead of having a complex constructor with many parameters, the builder pattern allows an object to be constructed step-by-step in a readable and flexible way.
+- 
