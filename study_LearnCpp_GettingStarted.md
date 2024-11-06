@@ -11617,7 +11617,7 @@ void Car::start() {
 	- These types can be accessed through instances of the class or via the class name.
 
 #### Member type aliases
-- A member type alias allows you to define a type within the class that can be used to reference another type. For example:
+- A <mark class="hltr-trippy">member type alias</mark> allows you to define a type within the class that can be used to reference another type. For example:
 
 ```C++
 class MyClass {
@@ -11630,5 +11630,56 @@ MyClass::MyInt a = 5;  // Usage of the member type alias
 MyClass::MyDouble b = 3.14;  // Usage of the typedef member type
 ```
 
-#### Nested classes
-- A nested class
+#### Nested types
+- A <mark class="hltr-trippy">nested class</mark> is a class that is defined inside another class.
+	- It can be used to model entities that are logically part of the outer class.
+- For example:
+
+```C++
+class OuterClass {
+public:
+    class NestedClass {  // A member type that is a class
+    public:
+        void print() { std::cout << "Inside Nested Class\n"; }
+    };
+};
+
+OuterClass::NestedClass nestedObj;
+nestedObj.print();  // Usage of the nested class type
+```
+
+- In the example above, `NestedClass` is a member type of `OuterClass`.
+- Like nested class, a <mark class="hltr-trippy">nested enum</mark> is a type that is defined inside a class.
+	- It is useful for limiting the scope of the enum to only be relevant to the class.
+- For example:
+
+```C++
+class MyClass {
+public:
+    enum Color { Red, Green, Blue };  // A nested enum
+};
+
+MyClass::Color c = MyClass::Red;  // Usage of the nested enum
+```
+
+#### Member template types
+- A class can define member templates that allow the creation of types based on template parameters. For example:
+
+```C++
+class MyClass {
+public:
+    template<typename T>
+    class NestedTemplateClass {  // Member template type
+    public:
+        T value;
+    };
+};
+
+MyClass::NestedTemplateClass<int> obj;  // Usage of the nested template class
+obj.value = 10;
+```
+
+### Destructors
+- A <mark class="hltr-trippy">destructor</mark> is a special member function of a class that is called when an object of that class is destroyed.
+	- Its primary role is to clean up resources that the object may have acquired during its lifetime, such as memory, file handles, or network connections.
+- 
