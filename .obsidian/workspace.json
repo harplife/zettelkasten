@@ -354,8 +354,10 @@
   },
   "active": "9c9a2525afbfe6bd",
   "lastOpenFiles": [
-    "study_LearnOpenGL_Colors.md",
+    "design_patterns_for_graphics_programming.md",
+    "books_for_build_game_using_dod.md",
     "study_LearnCpp_GettingStarted.md",
+    "study_LearnOpenGL_Colors.md",
     "driver_exam_study.md",
     "attachments/Pasted image 20241010161043.png",
     "attachments/Pasted image 20241010160924.png",
@@ -391,7 +393,6 @@
     "study_LearnOpenGL_OpenGL.md",
     "opengl_perspective_code.md",
     "opengl_transform_code.md",
-    "opengl_texture_code.md",
     "Dictionary/graphics",
     "Dictionary"
   ]

@@ -11417,4 +11417,70 @@ int main() {
 - The <mark class="hltr-trippy">builder pattern</mark> is a creational design pattern in OOP that separates the construction of a complex object from its representation.
 	- This pattern is particularly useful when creating objects that require multiple steps or complex configurations.
 	- Instead of having a complex constructor with many parameters, the builder pattern allows an object to be constructed step-by-step in a readable and flexible way.
-- 
+- Key components of the builder pattern:
+	- **Builder** : a separate object responsible for constructing the product.
+	- **Fluent interface** : the builder methods return the builder itself, enabling method chaining.
+	- **Director** (optional) : A class that can be used to manage and streamline the building process, especially if the construction process is complex.
+	- **Immutable object** : the final object built is usually immutable, meaning its properties cannot be changed after construction.
+- For example:
+
+```C++
+#include <iostream>
+#include <string>
+
+class House {
+public:
+    // Members are public for simplicity but could be private with getters.
+    std::string windows;
+    std::string doors;
+    std::string roof;
+
+    void show() const {
+        std::cout << "House with " << windows << ", " << doors << ", and " << roof << ".\n";
+    }
+};
+
+class HouseBuilder {
+private:
+    House house;
+
+public:
+    HouseBuilder& setWindows(const std::string& windows) {
+        house.windows = windows;
+        return *this;  // Returns a reference to the current builder
+    }
+
+    HouseBuilder& setDoors(const std::string& doors) {
+        house.doors = doors;
+        return *this;
+    }
+
+    HouseBuilder& setRoof(const std::string& roof) {
+        house.roof = roof;
+        return *this;
+    }
+
+    // Build method to return the constructed House
+    House build() const {
+        return house;
+    }
+};
+
+int main() {
+    House house = HouseBuilder()
+        .setWindows("Double-glazed windows")
+        .setDoors("Wooden doors")
+        .setRoof("Gabled roof")
+        .build();
+
+    house.show();  // Outputs: House with Double-glazed windows, Wooden doors, and Gabled roof.
+
+    return 0;
+}
+```
+
+- In the example above, `House` class is the product which is built by the builder `HouseBuilder` class. 
+- The builder pattern is useful when constructing an object with a long list of parameters, especially if many are optional.
+
+[[design_patterns_for_graphics_programming|Speaking of design patterns..]]
+
