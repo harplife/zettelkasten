@@ -11845,4 +11845,48 @@ int main()
 >Member functions defined inside the class template definition do not require template parameter declaration. In the example above, note that the constructor is `Pair()` instead of `Pair<T>()`.
 
 ### Static member variable
-- A static member variable is a variable that is shared by all instances of a class rather than each instance having its own copy.
+- A <mark class="hltr-trippy">static member variable</mark> is a variable that is shared by all instances of a class rather than each instance having its own copy.
+	- Any modification to the static variable in one object will be reflected across all other objects of the same class.
+	- Static member variables can be accessed without creating an object of the class.
+	- Static member variables must be defined outside the class definition (unless `const` or `constexpr`).
+- For example:
+
+```C++
+#include <iostream>
+using namespace std;
+
+class MyClass {
+public:
+    static int count;  // Static member variable declaration
+
+    MyClass() {
+        count++;  // Increment count each time an object is created
+    }
+
+    static void showCount() {
+        cout << "Number of objects created: " << count << endl;
+    }
+};
+
+// Definition and initialization of static variable
+int MyClass::count = 0;
+
+int main() {
+    MyClass obj1;
+    MyClass obj2;
+    MyClass obj3;
+
+    // Accessing static member variable through the class name
+    MyClass::showCount();  // Output: Number of objects created: 3
+
+    return 0;
+}
+```
+
+>[!warning]
+>Since static variables are shared by all instances, concurrent modifications in multi-threading environments could lead to data races if not properly synchronized.
+
+>[!important] Static members may use type deduction (`auto` and CTAD).
+>Conversely, it means that non-static members may not use type deduction.
+
+### Static member functions
