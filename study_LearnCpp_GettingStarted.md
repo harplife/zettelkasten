@@ -11890,3 +11890,45 @@ int main() {
 >Conversely, it means that non-static members may not use type deduction.
 
 ### Static member functions
+- A <mark class="hltr-trippy">static member function</mark> is a function that belongs to the class itself, rather than any instance of the class.
+	- Static member functions are useful for operations that are related to the class but do not require any data from specific instances (they can be called without creating an object of the class).
+- For example:
+
+```C++
+#include <iostream>
+
+class MyClass {
+public:
+    static int count;  // Static member variable
+    static void incrementCount() {
+        count++;  // Accessing static variable
+    }
+    static void showCount() {
+        std::cout << "Count: " << count << std::endl;
+    }
+};
+
+// Definition of the static member variable outside the class
+int MyClass::count = 0;
+
+int main() {
+    MyClass::incrementCount();  // Call static member function without an instance
+    MyClass::showCount();       // Outputs: Count: 1
+
+    MyClass obj;
+    obj.incrementCount();       // Can also call via an instance, but it's not common
+    MyClass::showCount();       // Outputs: Count: 2
+
+    return 0;
+}
+```
+
+- Since static member functions do not belong to an instance, they do not have access to the `this` pointer and cannot refer to non-static members directly. They can only access other static members.
+- Static members can be access controlled (`public`, `private`, or `protected`).
+	- What would be the point of that??
+- The `const` qualifier is meaningless for a static member function because it cannot access non-static member variables.
+- Although a derived class can inherit static functions, they are still called at the class level and do not exhibit polymorphic behavior. This also means that the static member functions cannot be `virtual`.
+
+>[!important] Static member functions are mostly used as utilities.
+>A class can be used to group similar utility functions together. For example, `Math` class can include functions such as `square(int x)` or ``
+
