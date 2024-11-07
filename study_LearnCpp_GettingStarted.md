@@ -11923,12 +11923,19 @@ int main() {
 }
 ```
 
-- Since static member functions do not belong to an instance, they do not have access to the `this` pointer and cannot refer to non-static members directly. They can only access other static members.
-- Static members can be access controlled (`public`, `private`, or `protected`).
-	- What would be the point of that??
+- Since static member functions do not belong to an instance, they do not have access to the `this` pointer and cannot refer to non-static members directly.
+	- However, they can access static members.
 - The `const` qualifier is meaningless for a static member function because it cannot access non-static member variables.
 - Although a derived class can inherit static functions, they are still called at the class level and do not exhibit polymorphic behavior. This also means that the static member functions cannot be `virtual`.
 
 >[!important] Static member functions are mostly used as utilities.
->A class can be used to group similar utility functions together. For example, `Math` class can include functions such as `square(int x)` or ``
+>A class can be used to group similar utility functions together. For example, `Math` class can include functions such as `square(int x)`, `multiply(int x, int y)`, and etc.
+
+>[!important] Modern C++ favors non-member functions when possible.
+>That said, use static member functions if:
+>- The function needs direct access to private static data or members.
+>- The function's purpose is highly specific to the class and benefits from being visibly associated with it.
+
+
+
 
