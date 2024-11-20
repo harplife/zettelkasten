@@ -651,7 +651,7 @@ int main()
     return 0;
 }
 ```
-
+ 
 - In the above example, both output statements do the same thing (prints 5). But in the case of literal, the value is printed out directly, as opposed to being fetched from the memory.
 - Literals are values that are inserted directly into the source code. These values usually appear directly in the executable code (unless they are optimized out).
 
