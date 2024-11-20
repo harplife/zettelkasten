@@ -635,7 +635,7 @@ std::cout << "Yeah!\n";
 	- GCC/GNU
 
 ## Intro to literals and operators
-- A **literal (literal constant)** is a fixed value that has been inserted directly into the source code.
+- A <mark class="hltr-trippy">literal (literal constant)</mark> is a fixed value that has been inserted directly into the source code.
 - Literals and variables both have a value and a type. Unlike a variable, the value of a literal is fixed.
 - Refer to this example:
 
