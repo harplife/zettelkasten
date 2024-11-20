@@ -678,36 +678,36 @@ int main()
 ### Chaining operators
 - Operators can be chained together such that the output of one operator can be used as the input for another operator.
 	- For example, given `2 * 3 + 4`, the multiplication goes first (`2 * 3`) and then the result of that is fed to the plus operator (`6 + 4)`.
-- The order in which operators execute is a topic that will be covered more later on. For now, it's enough to know that the arithmetic operators execute in the same order as they do in standard math: PEMDAS.
+- The order in which operators execute is a topic that will be covered more later on. For now, it's enough to know that the arithmetic operators execute in the same order as they do in standard math: <mark class="hltr-trippy">PEMDAS</mark>.
 	- Parenthesis > Exponents > Multiplication/Division > Addition/Subtraction
 	- "Please Excuse My Dear Aunt Sally"
 
 ### Return values and side effects
-- Some operators have additional behaviors. An operator (or function) that has some observable effect beyond producing a return value is said to have a **side effect**.
+- Some operators have additional behaviors. An operator (or function) that has some observable effect beyond producing a return value is said to have a <mark class="hltr-trippy">side effect</mark>.
 	- For example, given `x = 5;`, the changed value of `x` is observable even after the operator has finished executing.
 	- Another example, given `std::cout << 5;`, the number `5` gets printed to console and stays there even if the statement has finished executing.
 
 ## Intro to expressions
 
 ### Expressions
-- An **expression** is a non-empty sequence of literals, variables, operators, and function calls that calculates a single value.
-- The process of executing an expression is called **evaluation**.
-- When an expression is evaluated, each of the terms inside the expression are evaluated, until a single value remains - referred to as the **result** of the expression.
+- An <mark class="hltr-trippy">expression</mark> is a non-empty sequence of literals, variables, operators, and function calls that calculates a single value.
+- The process of executing an expression is called <mark class="hltr-trippy">evaluation</mark>.
+- When an expression is evaluated, each of the terms inside the expression are evaluated, until a single value remains - referred to as the <mark class="hltr-trippy">result</mark> of the expression.
 - Expressions are always evaluated as part of statements.
 	- For example, given `int x = 2+3;`, the expression `2+3` is part of a statement that assigns a value to `x`.
 	- Above statement broken down into its syntax would look like this: `type identifier operator expression`.
-- A statement that consists of an expression followed by a semicolon is called an **expression statement**.
+- A statement that consists of an expression followed by a semicolon is called an <mark class="hltr-trippy">expression statement</mark>.
 - Expression statement that produces a value only to discard it, is considered useless (some compilers may produce warnings).
-- Subexpression : an expression used as an operand.
+- <mark class="hltr-trippy">Subexpression</mark> : an expression used as an operand.
 	- For example, subexpressions of `x = 4 + 5` are `x` and `4 + 5`.
-- Full expression : an expression made up of subexpression(s).
+- <mark class="hltr-trippy">Full expression</mark> : an expression made up of subexpression(s).
 	- For example, `2`, `2 + 3`, and `x = 4 + 5` are all full expressions.
-- Compound expression : an expression that contains two or more uses of operators.
+- <mark class="hltr-trippy">Compound expression</mark> : an expression that contains two or more uses of operators.
 	- For example, `x = 4 + 5` is a compound expression because it contains `operator=` and `operator+`.
 
 ## Intro to functions
-- A **function** is a reusable sequence of statements designed to do a particular job.
-- Functions that you write yourself are called **user-defined functions**.
+- A <mark class="hltr-trippy">function</mark> is a reusable sequence of statements designed to do a particular job.
+- Functions that you write yourself are called <mark class="hltr-trippy">user-defined functions</mark>.
 - The structure of a function looks like this:
 
 ```C++
@@ -735,20 +735,20 @@ int main()
 ```
 
 - "foo" is a meaningless word that is often used as a placeholder name for a function or variable when the name is unimportant to the demonstration of some concept.
-	- Such words are called **metasyntactic variables**, though they're often called **placeholder names** instead.
-	- Other common metasyntactic variables include bar, baz, and 3-letter words that end in oo, such as goo, moo, and boo.
+	- Such words are called <mark class="hltr-trippy">metasyntactic variables</mark>, though they're often called <mark class="hltr-trippy">placeholder names</mark> instead.
+	- Other common metasyntactic variables include `bar`, `baz`, and 3-letter words that end in oo, such as `goo`, `moo`, and `boo`.
 
 ## Function return values
 ### Return values
 - A function can return a value or none at all.
-- A function has to indicate what type of value will be returned - which is done by setting the function's **return type** which is defined before the function's name.
+- A function has to indicate what type of value will be returned - which is done by setting the function's <mark class="hltr-trippy">return type</mark> which is defined before the function's name.
 	- For example, if the function returns an integer value, then `int` needs to be indicated before the function name.
 - If the function does not return a value, it has to indicate that it doesn't, which can be done by setting the function's return type as `void`.
 	- Do not put a return statement at the end of a void function.
 - It's always a good idea to leave a comment indicating what the return values mean.
 
 ### Status codes
-- The return value from `main()` is sometimes called a **status code (aka exit code)**, which is passed back to the caller of the program to indicate that the program has run successfully (or not).
+- The return value from `main()` is sometimes called a <mark class="hltr-trippy">status code</mark> (aka **exit code**), which is passed back to the caller of the program to indicate that the program has run successfully (or not).
 - If the status code is `0`, then the program ran normally.
 	- A non-zero status code is often used to indicate failure.
 - The C++ standard only defines the meaning of 3 status codes:
@@ -757,7 +757,7 @@ int main()
 	- `EXIT_FAILURE`
 
 ### A value-returning function / no return value
-- A function that returns a value is called a **value-returning function**.
+- A function that returns a value is called a <mark class="hltr-trippy">value-returning function</mark>.
 	- Any function that is not `void` function is value-returning.
 - A value-returning function MUST return a value of that type, otherwise undefined behavior will result.
 - `main()` is the only exception to the rule, where it will implicitly return `0` if a return statement is not provided.
@@ -774,7 +774,7 @@ int main()
 
 ## Intro to function parameters/arguments
 ### Function parameters and arguments
-- A **function parameter** is a variable used in the header of a function which is initialized with a value provided by the caller of the function.
+- A <mark class="hltr-trippy">function parameter</mark> is a variable used in the header of a function which is initialized with a value provided by the caller of the function.
 - For example:
 
 ```C++
@@ -795,8 +795,8 @@ printValue(5);
 - In the example above, `5` is the argument passed to `printValue()`.
 
 ### How parameters and arguments work together
-- When a function is called, all of the parameters of the function are created as variables, and the value of each of the arguments is copied into the matching parameter (using copy initialization). This process is called **pass-by-value**.
-	- Function parameters that utilize pass-by-value are called **value parameters**.
+- When a function is called, all of the parameters of the function are created as variables, and the value of each of the arguments is copied into the matching parameter (using copy initialization). This process is called <mark class="hltr-trippy">pass-by-value</mark>.
+	- Function parameters that utilize pass-by-value are called <mark class="hltr-trippy">value parameters</mark>.
 - Note that the number of arguments must generally match the number of function parameters. Otherwise, the compiler will throw an error.
 - The argument passed to a function can be any valid expression, as the argument is essentially just an initializer for the parameter, and initializers can be any valid expression.
 
@@ -805,27 +805,27 @@ printValue(5);
 	- For example, `foo(bar());`.
 
 ### Unreferenced parameters
-- When a parameter is not used inside the function body, compiler sends out a warning that says **unreferenced parameter**.
+- When a parameter is not used inside the function body, compiler sends out a warning that says <mark class="hltr-trippy">unreferenced parameter</mark>.
 - In cases where a function parameter needs to exist but is not used in the function body, the name of the function parameter can be omitted (bypasses the warning).
-	- A parameter without a name is called an **unnamed parameter**.
+	- A parameter without a name is called an <mark class="hltr-trippy">unnamed parameter</mark>.
 	- It's recommended to use a comment to indicate what the name would've been.
 	- For example, `void doSomething(int /*count*/);`
 
 ## Intro to local scope
 
 ### Local variables
-- Variables defined inside a function are called **local variables**.
+- Variables defined inside a function are called <mark class="hltr-trippy">local variables</mark>.
 - Function parameters are created and initialized when the function is entered, and variables within the function body are created and initialized at the point of definition.
 	- Local variables are destroyed in the opposite order of creation.
-- An object's **lifetime** is defined to be the time between its creation and destruction.
+- An object's <mark class="hltr-trippy">lifetime</mark> is defined to be the time between its creation and destruction.
 	- Note that variable creation/destruction happen during runtime, not at compile time. Therefore, lifetime is a runtime property.
 - In most cases, the destroyed object becomes invalid, and any further use of the object will result in undefined behavior.
 	- At some point after destruction, the memory used by the object will be freed up.
 
 ### Local scope
 - An identifier's scope determines where the identifier can be seen and used within the source code.
-- When an identifier can be seen and used, we say it is **in scope**.
-	- When an identifier cannot be seen nor used, we say it is **out of scope**.
+- When an identifier can be seen and used, we say it is <mark class="hltr-trippy">in scope</mark>.
+	- When an identifier cannot be seen nor used, we say it is <mark class="hltr-trippy">out of scope</mark>.
 - Scope is a compile-time property, and trying to use an identifier outside its scope will result in a compile error.
 - Local variables defined in one function are not in scope in other functions.
 
@@ -833,7 +833,7 @@ printValue(5);
 - Variables with duplicate names but in different scopes does not conflict with each other - meaning, variable `x` defined in `foo()` is not the same as `x` defined in `bar()`.
 
 ### Temporary objects
-- A temporary object (aka anonymous object) is an unnamed object that is created by the compiler to store a value temporarily.
+- A <mark class="hltr-trippy">temporary object</mark> (aka **anonymous object**) is an unnamed object that is created by the compiler to store a value temporarily.
 - There are many different ways that temporary values can be created. For example:
 
 ```C++
