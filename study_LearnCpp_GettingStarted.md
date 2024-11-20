@@ -861,12 +861,12 @@ int main()
 
 ## Forward declarations and definitions
 ### Forward declarations
-- The compiler compiles the contents of code files sequentially. When the compiler reaches a function that is not defined (before it's called), the compiler will raise an error.
+- The compiler compiles the contents of code files **sequentially**. When the compiler reaches a function that is not defined (before it's called), the compiler will raise an error.
 - Having functions defined before it is called is a simple solution for a simple program, but in a larger complex program, it can be tedious trying to figure out which functions call which other functions (in what order).
 	- In fact, it becomes a problem when there are two or more functions that call upon each other. For example, if `foo()` calls `bar()` and `bar()` calls `foo()`, there is no way to order the functions to make it work.
-- A **forward declaration** allows us to tell the compiler about the existence of an identifier before actually defining the identifier.
+- A <mark class="hltr-trippy">forward declaration</mark> allows us to tell the compiler about the existence of an identifier before actually defining the identifier.
 	- When the compiler encounters a call to the function that is not yet defined but declared instead, it'll check to make sure the function is being called correctly but won't execute the function call until the function definition is found.
-- A **function declaration** (function prototype) is, as it sounds, declaring a function (but without definition). Its statement consists of the function's return type, name, and parameter types, terminated with a semicolon.
+- A <mark class="hltr-trippy">function declaration</mark> (**function prototype**) is, as it sounds, declaring a function (but without definition). Its statement consists of the function's return type, name, and parameter types, terminated with a semicolon.
 	- The function body is not included in the declaration.
 	- The function declaration statement must match the function that is defined later on.
 	- Forward declaration is simply a function declaration that is done before definition. Think "paying it forward".
@@ -897,18 +897,18 @@ int add(int x, int y)
 	- In such case, the program may compile and run fine as long as the function is not called. However, if the function is called, the linker will raise error.
 
 ### Declarations vs. definitions
-- A **declaration** tells the compiler about the existence of an identifier and its associated type information.
+- A <mark class="hltr-trippy">declaration</mark> tells the compiler about the existence of an identifier and its associated type information.
 	- Example: `int add(int x, int y);`, `int x;`
-- A **definition** is a declaration that actually implements or instantiates the identifier.
+- A <mark class="hltr-trippy">definition</mark> is a declaration that actually implements or instantiates the identifier.
 	- Note that `int x;` is both a definition and a declaration.
-- Declarations that aren't definitions are called **pure declarations**.
+- Declarations that aren't definitions are called <mark class="hltr-trippy">pure declarations</mark>.
 	- In common language, the term declaration is typically used to mean a pure declaration, and a definition is used to mean a definition that also serves as a declaration.
 
 ### The one definition rule (ODR)
-- The one definition rule (ODR) is a well-known rule in C++ that consists of three parts:
-	- Within a file, each function, variable, type or template in a given scope can only have one definition. Definitions occurring in different scopes do not violate this rule.
-	- Within a program, each function or variable in a given scope can only have one definition. This rule exists because programs can have more than one file. Functions and variables not visible to the linker are excluded from this rule.
-	- Types, templates, inline functions, and inline variables are allowed to have duplicate definitions in different files, so long as each definition is identical.
+- The <mark class="hltr-trippy">one definition rule (ODR)</mark> is a well-known rule in C++ that consists of three parts:
+	1. Within a file, each function, variable, type or template in a given scope can only have one definition. Definitions occurring in different scopes do not violate this rule.
+	2. Within a program, each function or variable in a given scope can only have one definition. This rule exists because programs can have more than one file. Functions and variables not visible to the linker are excluded from this rule.
+	3. Types, templates, inline functions, and inline variables are allowed to have duplicate definitions in different files, so long as each definition is identical.
 - Violating part 1 of the ODR will cause the compiler to issue a redefinition error.
 - Violating ODR part 2 will cause the linker to issue a redefinition error.
 - Violating ODR part 3 will cause undefined behavior.
