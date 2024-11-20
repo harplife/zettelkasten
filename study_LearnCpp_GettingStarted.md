@@ -3,28 +3,28 @@
 
 ## Introduction to C/C++
 ### Before C++, there was C
-- The C language was developed in 1972 by Dennis Ritchie at Bell Telephone laboratories, primarily as a systems programming language (a language to write operating systems with).
-- C ended up being so efficient and flexible that in 1973, Ritchie and Ken Thompson rewrote most of the Unix operating systems using C (as opposed to Assembly).
+- The C language was developed in 1972 by <mark class="hltr-trippy">Dennis Ritchie</mark> at Bell Telephone laboratories, primarily as a systems programming language (a language to write operating systems with).
+- C ended up being so efficient and flexible that in 1973, Ritchie and <mark class="hltr-trippy">Ken Thompson</mark> rewrote most of the Unix operating systems using C (as opposed to Assembly).
 	- Unlike Assembly, which produces programs that can only run on specific CPUs, C has excellent portability, allowing Unix to be easily recompiled on many different types of computers.
 	- C and Unix had their fortunes tied together.
-- In 1978, Brian Kernighan and Dennis Ritchie published a book called "The C Programming Language".
+- In 1978, <mark class="hltr-trippy">Brian Kernighan</mark> and Dennis Ritchie published a book called "The C Programming Language".
 	- This book was commonly known as K&R.
 	- This book provided an informal specification for the language and became a de facto standard.
-- In 1983, the American National Standards Institute (ANSI) formed a committee to establish a formal standard for C.
+- In 1983, the <mark class="hltr-trippy">American National Standards Institute (ANSI)</mark> formed a committee to establish a formal standard for C.
 	- In 1989, the C89 standard was released. It's more commonly known as ANSI C.
 	- In 1990, the International Organization for Standardization (ISO) adopted ANSI C. This became known as C90.
 - In 1999, the ISO committee released a new version of C called C99.
 	- C99 adopted many features which had already made their way into compilers as extensions, or had been implemented in C++.
 
 ### C++
-- In 1979, C++ was developed by Bjarne Stroustrup at Bell Labs as an extension to C.
+- In 1979, C++ was developed by <mark class="hltr-trippy">Bjarne Stroustrup</mark> at Bell Labs as an extension to C.
 - C++ adds many new feature to the C language, and is perhaps best thought of as a superset of C (though not strictly true).
 - C++ is an object-oriented language. More on this will be covered later.
 - C++ was standardized in 1998 by the ISO committee.
 	- A minor update to the language was released in 2003, called C++03.
 - Five major updates to the C++ language (C++11, 14, 17, 20, and 23) have been made since then, each adding additional functionality.
 	- C++11 in particular added a huge number of new capabilities, and is widely considered to be the new baseline version of the language.
-- Each new formal release of the language is called a **Language Standard** or **Language Specification**.
+- Each new formal release of the language is called a <mark class="hltr-trippy">Language Standard</mark> or **Language Specification**.
 	- Standards are named after the year they are released in.
 
 ### C/C++'s Philosophy
@@ -58,23 +58,23 @@
 - A C++ compiler is used to compile C++ source code files.
 - The C++ compiler sequentially goes through each source code (`.cpp`) file in your program, and does two important tasks:
 	- The compiler checks your C++ code to make sure it follows the rules of the C++ language. If it does not, the compiler will give you an error. The compilation process will also be aborted until the error is fixed.
-	- The compiler translates your C++ code into machine language instructions. These instructions are stored in an intermediate file called an **object file**. The object file also contains metadata that is required or useful in subsequent steps.
+	- The compiler translates your C++ code into machine language instructions. These instructions are stored in an intermediate file called an <mark class="hltr-trippy">object file</mark>. The object file also contains metadata that is required or useful in subsequent steps.
 - Object files are typically named `name.o` or `name.obj`, where the `name` is the same name as the `name.cpp` file it was produced from.
 - Installing a compiler will be covered later.
 
 ### Step 5: Linking object files and libraries
-- After the compiler has successfully finished, another program called the **linker** kicks in.
-	- The linker's job is to combine all of the object files and produce the desired output file (typically an executable file). This process is called **linking**.
+- After the compiler has successfully finished, another program called the <mark class="hltr-trippy">linker</mark> kicks in.
+	- The linker's job is to combine all of the object files and produce the desired output file (typically an executable file). This process is called <mark class="hltr-trippy">linking</mark>.
 - The linker has three main functionalities:
 	- The linker reads in each of the object files generated by the compiler and makes sure they are valid.
 	- The linker ensures all cross-file dependencies are resolved properly. For example, if you define something in one `.cpp` file, and then use it in a different `.cpp` file, the linker connects the two together. If the linker is unable to connect a reference to something with its definition, you'll get a linker error, and the linking process will abort.
-	- The linker also is capable of linking library files. A **library file** is a collection of precompiled code that has been "packaged up" for reuse in other programs.
-- C++ comes with an extensive library called the **C++ Standard Library** that provides a set of useful capabilities for use in your programs.
+	- The linker also is capable of linking library files. A <mark class="hltr-trippy">library file</mark> is a collection of precompiled code that has been "packaged up" for reuse in other programs.
+- C++ comes with an extensive library called the <mark class="hltr-trippy">C++ Standard Library</mark> that provides a set of useful capabilities for use in your programs.
 	- Almost every C++ program written utilizes the standard library in some form, so it's very common for the standard library to get linked into your programs. Most linkers will automatically link in the standard library as soon as you use any part of it, so this generally isn't something you need to worry about.
 - You can also optionally link other libraries.
 - Once the linker has finished linking all the object files and libraries successfully, then you will have an executable file that you can run.
 
->[!important] Building
+>[!important] Definition: Building
 >Because there are multiple steps involved, the term **building** is often used to refer to the full process of converting source code files into an executable that can be run. A specific executable produced as the result of building is sometimes called a **build**.
 >For complex projects, build automation tools (such as make or build2) are often used to help automate the process of building programs and running automated tests.
 
@@ -87,7 +87,7 @@
 
 
 ## Installing an IDE
-- An Integrated Development Environment (IDE) is a piece of software designed to make it easy to develop, build, and debug your programs.
+- An <mark class="hltr-trippy">Integrated Development Environment (IDE)</mark> is a piece of software designed to make it easy to develop, build, and debug your programs.
 - A typical modern IDE will include:
 	- Some way to easily load and save your code files.
 	- A code editor that has programming-friendly features, such as line numbering, syntax highlighting and such.
@@ -108,7 +108,7 @@
 
 ## Compiling your first program
 - To write a C++ program inside an IDE, we typically start by creating a new project.
-- A **project** is a container that holds all of your source code files, images, data files, and etc., that are needed to produce an executable that you can run or use.
+- A <mark class="hltr-trippy">project</mark> is a container that holds all of your source code files, images, data files, and etc., that are needed to produce an executable that you can run or use.
 - The project also saves various IDE, compiler, and linker settings, as well as remembering where you left off.
 - When you choose to compile your program, all of the `.cpp` files in the project will get compiled and linked.
 - Each project corresponds to one program.
