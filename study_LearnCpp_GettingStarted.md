@@ -1037,12 +1037,12 @@ Remember, each of these methods has its own use cases and trade-offs. It's impor
 	- Strips out comments
 	- Ensures each code file ends in a newline
 	- Processes `#include` directives (more on this later)
-- When the preprocessor has finished processing a code file, the result is called a **translation unit**.
+- When the preprocessor has finished processing a code file, the result is called a <mark class="hltr-trippy">translation unit</mark>.
 	- The translation unit is then compiled by the compiler.
-- The entire process of preprocessing, compiling, and linking is called **translation**.
+- The entire process of preprocessing, compiling, and linking is called <mark class="hltr-trippy">translation</mark>.
 
 ### Preprocessor directives
-- When the preprocessor runs, it scans through the code file to find **preprocessor directives**, which tells the preprocessor to perform certain text manipulation tasks.
+- When the preprocessor runs, it scans through the code file to find <mark class="hltr-trippy">preprocessor directives</mark>, which tells the preprocessor to perform certain text manipulation tasks.
 	- Preprocessor directive start with a `#` symbol and end with a newline (no semicolon).
 - The preprocessor directives have their own syntax.
 - Although the term "directive" often means preprocessor directive, it is not always the case; the `using` directive is NOT a preprocessor directive.
