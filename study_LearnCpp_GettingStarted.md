@@ -656,7 +656,7 @@ int main()
 - Literals are values that are inserted directly into the source code. These values usually appear directly in the executable code (unless they are optimized out).
 
 ### Operators and operands
-- In mathematics, an **operation** is a process involving zero or more input values (called **operands**) that produces a new value (called an **output value**). The specific operation to be performed is denoted by a symbol called an **operator**.
+- In mathematics, an <mark class="hltr-trippy">operation</mark> is a process involving zero or more input values (called <mark class="hltr-trippy">operands</mark>) that produces a new value (called an <mark class="hltr-trippy">output value</mark>). The specific operation to be performed is denoted by a symbol called an <mark class="hltr-trippy">operator</mark>.
 	- For example, for a statement like `int x = 1 + 2;`, 1 and 2 are operands and the + is the operator.
 - Common operators:
 	- addition `+`
@@ -666,13 +666,13 @@ int main()
 	- equality `==` / inequality `!=`
 	- assignment `=`
 	- insertion `<<` / extraction `>>`
-- The number of operands that an operator takes as input is called the operator's **arity**.
+- The number of operands that an operator takes as input is called the operator's <mark class="hltr-trippy">arity</mark>.
 	- Not a common word, don't use this word willy nilly
 - Operators come in four different arities:
-	- **Unary** : acts on one operand. For example, given `-5`, the `operator-` takes literal operand `5` and flips its sign to produce new output value `-5`.
-	- **Binary** : acts on two operands placed on left and right. For example, given `1 + 2`, the `operator+` takes the left operand `1` and the right operand `2` and outputs `3`. The insertion `<<` and extraction `>>` operators are also binary operators.
-	- **Ternary** : acts on three operands. There is only one, which is the conditional operator. This will be covered later.
-	- **Nullary** : operators act on zero operands. There is only one, which is the throw operator. This will be covered later.
+	- <mark class="hltr-trippy">Unary</mark> : acts on one operand. For example, given `-5`, the `operator-` takes literal operand `5` and flips its sign to produce new output value `-5`.
+	- <mark class="hltr-trippy">Binary</mark> : acts on two operands placed on left and right. For example, given `1 + 2`, the `operator+` takes the left operand `1` and the right operand `2` and outputs `3`. The insertion `<<` and extraction `>>` operators are also binary operators.
+	- <mark class="hltr-trippy">Ternary</mark> : acts on three operands. There is only one, which is the conditional operator. This will be covered later.
+	- <mark class="hltr-trippy">Nullary</mark> : operators act on zero operands. There is only one, which is the throw operator. This will be covered later.
 - Note that some operators have more than one meaning depending on how they are used. For example, `operator-` has two contexts: used in unary form to invert a number's sign, and used in binary form to do subtraction.
 
 ### Chaining operators
