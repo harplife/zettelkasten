@@ -205,8 +205,8 @@
 ## Statements and the structure of a program
 
 ### Statements
-- A **computer program** is a sequence of instructions that tell the computer what to do.
-- A **statement** is a type of instruction that causes the program to perform some action.
+- A <mark class="hltr-trippy">computer program</mark> is a sequence of instructions that tell the computer what to do.
+- A <mark class="hltr-trippy">statement</mark> is a type of instruction that causes the program to perform some action.
 - Statements are the smallest independent unit of computation in the C++ language, which makes it the most common type of instruction.
 - Most (but not all) statements in C++ end in a semicolon.
 - In a high-level language like C++, a single statement may compile into many machine language instructions.
@@ -219,14 +219,14 @@
 	- Iteration (loops)
 	- Try
 - Statements are typically grouped into units called functions.
-- A **function** is a collection of statements that get executed sequentially (top to bottom).
+- A <mark class="hltr-trippy">function</mark> is a collection of statements that get executed sequentially (top to bottom).
 - Every C++ program must have a special function named `main`.
 	- Programs typically terminate after the last statement inside `main` function has been executed.
-- The name of a function (or object, type, template, etc.) is called its **identifier**.
+- The name of a function (or object, type, template, etc.) is called its <mark class="hltr-trippy">identifier</mark>.
 
 ### Syntax and syntax errors
-- The rules that govern how sentences are constructed in a language is called a syntax.
-	- If you violate a rule, the compiler will issue you a **syntax error**.
+- The rules that govern how sentences are constructed in a language is called a <mark class="hltr-trippy">syntax</mark>.
+	- If you violate a rule, the compiler will issue you a <mark class="hltr-trippy">syntax error</mark>.
 - A common syntax error is when a semicolon is missing at the end of a statement.
 
 ## Comments
@@ -236,29 +236,29 @@
 
 ## Intro to objects and variables
 ### Data and values
-- **Data** is any info that can be moved, processed, or stored by a computer
-- A single piece of data is called a **value**.
+- <mark class="hltr-trippy">Data</mark> is any info that can be moved, processed, or stored by a computer
+- A single piece of data is called a <mark class="hltr-trippy">value</mark>.
 
 ### Random Access Memory
-- The main memory in a computer is called Random Access Memory (RAM). When a program is ran, the OS loads the program into RAM.
+- The main memory in a computer is called <mark class="hltr-trippy">Random Access Memory (RAM)</mark>. When a program is ran, the OS loads the program into RAM.
 - The OS reserves some additional RAM for the program to use while it is running. Common uses for this memory are to store values entered by the user, to store data read in from a file or network, or to store values calculated while the program is running so they can be used again later.
 
 ### Objects and variables
 - In C++, direct memory access is discouraged. Instead, we access memory through an object.
-- An **object** is a region of storage (usually memory) that can store a value, and has other associated properties.
+- An <mark class="hltr-trippy">object</mark> is a region of storage (usually memory) that can store a value, and has other associated properties.
 	- How the compiler and OS work to assign memory to objects is beyond the scope of this guide.
-- Although objects in C++ can be unnamed (anonymous), more often we name our objects using an identifier. An object with a name is called a **variable**.
+- Although objects in C++ can be unnamed (anonymous), more often we name our objects using an identifier. An object with a name is called a <mark class="hltr-trippy">variable</mark>.
 - In general programming, the term *object* typically refers to an unnamed object in memory, a variable, or a function. In C++, the term *object* has a narrow definition that excludes functions.\
 
 ### Variable instantiation
-- In order to create a variable, we use a special kind of declaration statement called a **definition**.
+- In order to create a variable, we use a special kind of declaration statement called a <mark class="hltr-trippy">definition</mark>.
 	- Example: `int x;`
-- When the program is run (called **runtime**), the variable will be instantiated. **Instantiation** means the object will be created and assigned a memory address.
+- When the program is run (called <mark class="hltr-trippy">runtime</mark>), the variable will be instantiated. <mark class="hltr-trippy">Instantiation</mark> means the object will be created and assigned a memory address.
 	- Variables must be instantiated before they can be used to store values.
-- An instantiated object is sometimes called an **instance**.
+- An instantiated object is sometimes called an <mark class="hltr-trippy">instance</mark>.
 
 ### Data types
-- A **data type** determines what kind of value the object will store.
+- A <mark class="hltr-trippy">data type</mark> determines what kind of value the object will store.
 	- Types include `int`, `double`, `float`, `char`, `string`, `bool`, and etc.
 
 ### Defining multiple variables
@@ -275,15 +275,15 @@ int c, d;
 ## Variable assignment and initialization
 
 ### Variable assignment
-- After a variable has been defined, a value can be given to the variable by using the `=` operator. This process is called an **assignment**, and the `=` operator is called the **assignment operator**.
+- After a variable has been defined, a value can be given to the variable by using the `=` operator. This process is called an <mark class="hltr-trippy">assignment</mark>, and the `=` operator is called the <mark class="hltr-trippy">assignment operator</mark>.
 	- Example: `int width; width = 5;`
-- By default, assignment copies the value on the right-hand side of the `=` operator to the variable on the left-hand side of the operator. This is called **copy assignment**.
+- By default, assignment copies the value on the right-hand side of the `=` operator to the variable on the left-hand side of the operator. This is called <mark class="hltr-trippy">copy assignment</mark>.
 
 ### Initialization
-- The process of specifying an initial value for an object is called **initialization**.
+- The process of specifying an initial value for an object is called <mark class="hltr-trippy">initialization</mark>.
 - Definition and assignment can be combined into one with initialization.
 	- Example: `int width = 5;`
-- The syntax used to initialize an object is called an **initializer**
+- The syntax used to initialize an object is called an <mark class="hltr-trippy">initializer</mark>
 
 ### Different forms of initialization
 - There are 6 basic ways to initialize variables in C++:
@@ -299,21 +299,21 @@ int e = {8}; // copy list init
 int f{}; // value initialization
 ```
 
-### Default initialization
-- When no initializer is provided, this is called default initialization. In most cases, default init performs no init, and leaves a variable with an indeterminate value (garbage data).
+#### Default initialization
+- When no initializer is provided, this is called <mark class="hltr-trippy">default initialization</mark>. In most cases, default init performs no init, and leaves a variable with an indeterminate value (garbage data).
 
-### Copy initialization
-- Copy initialization had fallen out of favor in modern C++ due to being less efficient than other forms of init for some complex types. However, C++ remedied the bulk of these issues, and copy init is now finding new advocates.
+#### Copy initialization
+- <mark class="hltr-trippy">Copy initialization</mark> had fallen out of favor in modern C++ due to being less efficient than other forms of init for some complex types. However, C++ remedied the bulk of these issues, and copy init is now finding new advocates.
 - Copy init is also used whenever values are implicitly copied or converted, such as when passing arguments to a function by value, returning from a function by value, or catching exceptions by value.
 
-### Direct initialization
-- **Direct initialization** refers to when an initial value is provided inside parenthesis.
+#### Direct initialization
+- <mark class="hltr-trippy">Direct initialization</mark> refers to when an initial value is provided inside parenthesis.
 - Direct initialization was initially introduced to allow for more efficient initialization of complex objects. It had fallen out of favor in modern C++, being superseded by list init.
 	- Another reason why it had fallen out is because it makes it hard to differentiate variables from functions.
 	- List init has a few quirks of its own, and so direct init is once again finding use in certain cases.
 
-### List initialization
-- **List initialization (aka uniform initialization/brace initialization)** refers to when curly braces are used; which comes in three forms:
+#### List initialization
+- <mark class="hltr-trippy">List initialization</mark> (aka **uniform initialization**/**brace initialization**) refers to when curly braces are used; which comes in three forms:
 
 ```C++
 int width{5};
@@ -323,22 +323,16 @@ int depth{};
 
 - Prior to the introduction of list initialization, some types of init required using copy init, and other types of init required using direct init. List init was introduced to provide a more consistent init syntax (which is why it is sometimes called "uniform initialization") that works in most cases.
 - List initialization also provides a way to initialize objects with a list of values. More on this later.
-
-### List initialization disallows narrowing conversions
 - The primary benefit of list initialization is that "narrowing conversions" are disallowed.
 	- Narrowing conversion is a potentially unsafe numeric conversion where the destination type may not be able to hold all the values of the source type (e.g. float to int).
 	- For example, `int w1{4.5};` will produce a compile error.
 - Note that this restriction on narrowing conversions only applies to the list initialization, not to any subsequent assignments to the variable.
 	- For example, `w1 = 4.5;` is allowed.
 
-### Value initialization and zero initialization
-- When a variable is initialized using empty braces, **value initialization** takes place. In most cases, value init will init the variable to zero (or empty, if that's more appropriate for a given type).
-	- In such cases where zeroing occurs, this is called **zero initialization**.
+#### Value initialization and zero initialization
+- When a variable is initialized using empty braces, <mark class="hltr-trippy">value initialization</mark> takes place. In most cases, value init will init the variable to zero (or empty, if that's more appropriate for a given type).
+	- In such cases where zeroing occurs, this is called <mark class="hltr-trippy">zero initialization</mark>.
 - Use value initialization if the value is temporary and will be replaced.
-
-### Initialize your variables
-- Always initialize your variables upon creation, except in special cases.
-	- Bjarne Stroustrup and Herb Sutter says so.
 
 ### Ignoring unused variable warning
 - In C++17, it's possible to ignore unused variable warning by placing `[[maybe_unused]]` in front of the variable. For example:
@@ -349,7 +343,7 @@ int depth{};
 
 ## Introduction to iostream
 ### The input/output library
-- The **input/output library** (io library) is part of the C++ standard library that deals with basic input and output.
+- The <mark class="hltr-trippy">input/output library</mark> (io library) is part of the C++ standard library that deals with basic input and output.
 - To use the functionality defined within the iostream library, we need to include the iostream header at the top of any code file that uses the content defined in iostream, like so:
 
 ```C++
@@ -500,7 +494,7 @@ Entering `4 5` first will first print out `4`, and then skip the next input. Ins
 ## Uninitialized variables and undefined behavior
 
 ### Uninitialized variables
-- A variable that has not been given a known value (through initialization or assignment) is called an **uninitialized variable**.
+- A variable that has not been given a known value (through initialization or assignment) is called an <mark class="hltr-trippy">uninitialized variable</mark>.
 - This lack of initialization is a performance optimization inherited from C, as it prevents from creating a lot of data to match creation of many variables (like 100,000 or more).
 - Best practice is to always initialize your variables; omit the initialization only if it's intentional and purposeful.
 
@@ -546,7 +540,7 @@ int main()
 - Best practice is to avoid both implementation-defined behavior and unspecified behavior.
 
 ## Keywords and naming identifiers
-- C++ reserves a set of 92 words (as of C++23) for its own use - called the **keywords**.
+- C++ reserves a set of 92 words (as of C++23) for its own use - called the <mark class="hltr-trippy">keywords</mark>.
 	- Keywords include data types like int, float, double, and etc.
 	- Keywords include statements like if/else, case/switch, while, and etc.
 - For a full list of keywords, refer to https://en.cppreference.com/w/cpp/keyword
