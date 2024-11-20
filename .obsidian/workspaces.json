@@ -104,9 +104,21 @@
                   "icon": "lucide-file",
                   "title": "study_LearnCpp_GettingStarted"
                 }
+              },
+              {
+                "id": "7e66cb2c1c9412d5",
+                "type": "leaf",
+                "state": {
+                  "type": "release-notes",
+                  "state": {
+                    "currentVersion": "1.7.7"
+                  },
+                  "icon": "lucide-file",
+                  "title": "Release Notes 1.7.7"
+                }
               }
             ],
-            "currentTab": 5
+            "currentTab": 6
           }
         ],
         "direction": "vertical"
@@ -354,8 +366,8 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "9c9a2525afbfe6bd",
-      "mtime": "2024-11-06T15:08:48-06:00",
+      "active": "7e66cb2c1c9412d5",
+      "mtime": "2024-11-20T10:43:44-06:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "Dictionary"
