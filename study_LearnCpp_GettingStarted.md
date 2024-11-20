@@ -135,7 +135,7 @@
 ## Configuring your compiler: Build configurations
 - A <mark class="hltr-trippy">build configuration</mark> (also called a **build target**) is a collection of project settings that determines how your IDE will build your project.
 - The build configuration typically includes things like what the executable will be named, what directories the IDE will look in for other code and library files, where to keep or strip out debugging info, how much to have the compiler optimize your program, etc.
-- When you create a new project in your IDE, most iDEs will set up two different build configurations for you: a release configuration, and a debug configuration.
+- When you create a new project in your IDE, most IDEs will set up two different build configurations for you: a release configuration, and a debug configuration.
 - The <mark class="hltr-trippy">debug configuration</mark> is designed to help you debug your program, and is generally the one you will use when writing your programs.
 	- This config turns off all optimizations, and includes debugging info - which makes your programs larger and slower but much easier to debug.
 	- The debug config is usually selected as the active config by default.
@@ -144,7 +144,7 @@
 	- Because the release config includes all optimizations, this mode is also useful for testing the performance of your code.
 
 ## Configuring your compiler: Compiler extensions
-- The C++ standard defines rules about how programs should behave in specific circumstances. In most cases, compilers will follow these rules. However, many compilers implement their own changes to the language, often to enhance compatibility with other versions of the language, or for historical reasons. These compiler-specific behaviors are called **compiler extensions**.
+- The C++ standard defines rules about how programs should behave in specific circumstances. In most cases, compilers will follow these rules. However, many compilers implement their own changes to the language, often to enhance compatibility with other versions of the language, or for historical reasons. These compiler-specific behaviors are called <mark class="hltr-trippy">compiler extensions</mark>.
 - Programs using non-standard extensions generally will not compile on other compilers, and even if they do, they may not run correctly.
 - Be warned that compiler extensions are often enabled by default - this is not good for beginners.
 - Compiler extensions are never necessary; it's recommended to turn them off.
@@ -153,10 +153,10 @@
 
 ## Configuring your compiler: Warning and error levels
 - When you write your programs, the compiler will check to ensure you've followed the rules of the C++ language.
-	- If any of the rules are violated, the compiler is required to emit a **diagnostic message**.
+	- If any of the rules are violated, the compiler is required to emit a <mark class="hltr-trippy">diagnostic message</mark>.
 	- The C++ standard does not define how diagnostics should be categorized or worded. However, there are some common conventions that compilers have adopted.
 - If compilation cannot continue due to the violation, then the compiler will emit an error.
-- If compilation can continue despite the violation, the compiler may decide to emit either an error or a **warning**. Warnings are similar to errors, but they do not halt compilation.
+- If compilation can continue despite the violation, the compiler may decide to emit either an <mark class="hltr-trippy">error</mark> or a **warning**. Warnings are similar to errors, but they do not halt compilation.
 	- In some cases, the compiler may identify code that does not violate the rules of the language, but that it believes could be incorrect. In such cases, the compiler may decide to emit a warning as a notice to the programmer that something seems amiss.
 - In most cases, warnings can be resolved by fixing the issue. In rare cases, it may be necessary to explicitly tell the compiler to not generate a particular warning.
 	- C++ does not support an official way to do this, but many compilers offer solutions (via `#pragma` directives).
