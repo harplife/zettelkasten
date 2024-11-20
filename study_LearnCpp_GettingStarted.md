@@ -912,7 +912,7 @@ int add(int x, int y)
 - Violating part 1 of the ODR will cause the compiler to issue a redefinition error.
 - Violating ODR part 2 will cause the linker to issue a redefinition error.
 - Violating ODR part 3 will cause undefined behavior.
-- Functions that share an identifier but have different sets of parameters are considered to be distinct functions. This is called **overloading**, and such definitions do not violate the ODR. More on this topic discussed later on.
+- Functions that share an identifier but have different sets of parameters are considered to be distinct functions. This is called <mark class="hltr-trippy">overloading</mark>, and such definitions do not violate the ODR. More on this topic discussed later on.
 
 ## Programs with multiple code files
 - As programs get larger, it is common to split them into multiple files for organizational or reusability purposes.
@@ -930,22 +930,22 @@ int add(int x, int y)
 ## Naming collisions and an introduction to namespaces
 
 ### Naming collisions
-- When a compiler or linker can't tell apart two identical identifiers, they will produce an error - referred to as **naming collision/conflict**.
+- When a compiler or linker can't tell apart two identical identifiers, they will produce an error - referred to as <mark class="hltr-trippy">naming collision/conflict</mark>.
 	- Note that this error will occur even if these two functions are defined in separate files.
 	- This error will occur even if the function is not called.
 
 ### Namespaces
-- A namespace provides another type of scope region (called **namespace scope**) that allows you to declare names inside of it for the purpose of disambiguation. Any names declared inside the namespace won't be mistaken for identical names in other scopes.
+- A namespace provides another type of scope region (called <mark class="hltr-trippy">namespace scope</mark>) that allows you to declare names inside of it for the purpose of disambiguation. Any names declared inside the namespace won't be mistaken for identical names in other scopes.
 - Only declarations and definitions can appear in the scope of a namespace (not executable statements).
 - Namespaces are often used to group related identifiers in a large project to help ensure they don't inadvertently collide with other identifiers.
 
 ### The global namespace
-- Any name that is not defined inside a class, function, or a namespace is considered to be part of an implicitly-defined namespace called the **global namespace (global scope)**.
+- Any name that is not defined inside a class, function, or a namespace is considered to be part of an implicitly-defined namespace called the <mark class="hltr-trippy">global namespace</mark> (**global scope**).
 - `main()` is defined inside the global namespace.
 - Although variables can be defined in the global namespace, this should generally be avoided.
+- If global variables have to be used, it's strongly encouraged to use a global constant variable.
 
----
-
+#### Sharing variables between multiple functions
 There are several ways for multiple functions to share a variable without using a global variable in C++. Here are a few methods:
 
 1. **Passing by Reference**: You can pass the variable as a reference to the functions that need to access or modify it. This allows the functions to share the same variable.
@@ -1009,19 +1009,15 @@ There are several ways for multiple functions to share a variable without using 
 
 Remember, each of these methods has its own use cases and trade-offs. It's important to choose the one that best fits your needs based on the specific requirements of your program.
 
----
-
-- If global variables have to be used, it's strongly encouraged to use a global constant variable.
-
 ### Explicit namespace qualifier ::
-- The `::` symbol is an operator called the **scope resolution operator**.
+- The `::` symbol is an operator called the <mark class="hltr-trippy">scope resolution operator</mark>.
 	- The identifier to the left of the `::` symbol identifies the namespace that the name to the right is contained within (e.g. `namespace::variable`).
 	- If no identifier on the left is provided, the global namespace is assumed.
 - For example, `std::cout` means `cout` that is declared in namespace `std`.
-- When an identifier includes a namespace prefix, the identifier is called a **qualified name**.
+- When an identifier includes a namespace prefix, the identifier is called a <mark class="hltr-trippy">qualified name</mark>.
 
 ### Using namespace std
-- There is a way to omit a namespace whenever a function/variable is used from that namespace, and that is to use a **using directive**.
+- There is a way to omit a namespace whenever a function/variable is used from that namespace, and that is to use a <mark class="hltr-trippy">using directive</mark>.
 - The using directive statement is structured like `using namespace namespaceIdentifier;`.
 	- For example, `using namespace std;`. Once this is in place, `cout` can be called instead of `std::cout`.
 
@@ -1035,7 +1031,7 @@ Remember, each of these methods has its own use cases and trade-offs. It's impor
 	- Function parameters are a good example of this.
 
 ## Intro to preprocessor
-- Prior to compilation, each code file (`.cpp`) goes through a **preprocessing** phase, where a program called the `preprocessor` makes various changes to the text of the code file according to the directives (instructions).
+- Prior to compilation, each code file (`.cpp`) goes through a <mark class="hltr-trippy">preprocessing</mark> phase, where a program called the `preprocessor` makes various changes to the text of the code file according to the directives (instructions).
 - The preprocessor does not actually modify the original code files in any way; all changes happen either temporarily in-memory or using temporary files.
 - Some of the things that the preprocessor do:
 	- Strips out comments
