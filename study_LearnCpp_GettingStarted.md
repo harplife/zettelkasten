@@ -1054,10 +1054,10 @@ Remember, each of these methods has its own use cases and trade-offs. It's impor
 	- When the included contents are being preprocessed, the preprocessor directives in the included contents will be preprocessed too; this becomes a recursive process.
 
 ### Macro defines
-- The `#define` directive can be used to create a **macro**, which is a rule that defines how input text is converted into replacement output text.
+- The `#define` directive can be used to create a <mark class="hltr-trippy">macro</mark>, which is a rule that defines how input text is converted into replacement output text.
 - There are two basic types of macros: object-like macros, and function-like macros.
-- **Function-like macros** act like functions, and serve a similar purpose. Their use is generally considered unsafe, and almost anything they can do can be done by a normal function.
-- **object-like macros** can be defined in one of two ways:
+- <mark class="hltr-trippy">Function-like macros</mark> act like functions, and serve a similar purpose. Their use is generally considered unsafe, and almost anything they can do can be done by a normal function.
+- <mark class="hltr-trippy">object-like macros</mark> can be defined in one of two ways:
 	1. `#define IDENTIFIER`
 	2. `#define IDENTIFIER substitution_text`
 - The identifier for a macro can use letters, numbers, and underscores. But it cannot start with a number, and should not start with an underscore.
@@ -1101,7 +1101,7 @@ int main()
 - Unlike object-like macros with substitution text, macros of this form are generally acceptable to use; especially so with conditional compilation.
 
 ### Conditional compilation
-- The **conditional compilation** preprocessor directives allow you to specify under what conditions something will or won't compile. There are quite a few different conditional compilation directives, but the three most used are: `#ifdef`, `#ifndef`, and `#endif`.
+- The <mark class="hltr-trippy">conditional compilation</mark> preprocessor directives allow you to specify under what conditions something will or won't compile. There are quite a few different conditional compilation directives, but the three most used are: `#ifdef`, `#ifndef`, and `#endif`.
 - The `#ifdef` preprocessor directive allows the preprocessor to check whether an identifier has been previously `#defined`. If so, the code between the `#ifdef` and matching `#endif` is compiled. If not, the code is ignored.
 - Consider the following program:
 
