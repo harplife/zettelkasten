@@ -117,7 +117,7 @@
 
 ### Workspaces / solutions
 - When you create a new project for your program, many IDEs will automatically add your project to a "workspace" or a "solution" (the term varies by IDE).
-- A **workspace/solution** is a container that can hold one or more related projects.
+- A <mark class="hltr-trippy">workspace/solution</mark> is a container that can hold one or more related projects.
 	- For example, if you were writing a game and wanted to have a separate executable for single player and multiplayer, you'd need to create two projects. It wouldn't make sense for both of these projects to be completely independent - after all, they are part of the same game. Most likely, each would be configured as a separate project within a single workspace/solution.
 - Although you can add multiple projects to a single solution, we generally recommend creating a new workspace or solution for each program, especially while learning. It's simpler and there's less chance of something going wrong.
 
@@ -126,20 +126,20 @@
 
 ### Options: Compile, build, rebuild, clean, and run/start?
 - When a code file is compiled, your IDE may cache the resulting object file. That way, if the program is compiled again in the future, any code file that hasn't been modified doesn't need to be recompiled - the cached object file from last time can be used. This can speed up compilation times significantly.
-- Build : compiles all modified code files in the project/workspace/solution.
-- Clean : removes all cached objects and executables.
-- Rebuild : does a clean followed by build.
-- Compile : recompiles a single code file (regardless of caching). This option does not invoke the linker or produce an executable.
-- Run/start : executes the executable from a prior build. Some IDEs will invoke a build before doing a run.
+- **Build** : compiles all modified code files in the project/workspace/solution.
+- **Clean** : removes all cached objects and executables.
+- **Rebuild** : does a clean followed by build.
+- **Compile** : recompiles a single code file (regardless of caching). This option does not invoke the linker or produce an executable.
+- **Run/start** : executes the executable from a prior build. Some IDEs will invoke a build before doing a run.
 
 ## Configuring your compiler: Build configurations
-- A **build configuration** (also called a **build target**) is a collection of project settings that determines how your IDE will build your project.
+- A <mark class="hltr-trippy">build configuration</mark> (also called a **build target**) is a collection of project settings that determines how your IDE will build your project.
 - The build configuration typically includes things like what the executable will be named, what directories the IDE will look in for other code and library files, where to keep or strip out debugging info, how much to have the compiler optimize your program, etc.
 - When you create a new project in your IDE, most iDEs will set up two different build configurations for you: a release configuration, and a debug configuration.
-- The **debug configuration** is designed to help you debug your program, and is generally the one you will use when writing your programs.
+- The <mark class="hltr-trippy">debug configuration</mark> is designed to help you debug your program, and is generally the one you will use when writing your programs.
 	- This config turns off all optimizations, and includes debugging info - which makes your programs larger and slower but much easier to debug.
 	- The debug config is usually selected as the active config by default.
-- The **release configuration** is designed to be used when releasing your program to the public.
+- The <mark class="hltr-trippy">release configuration</mark> is designed to be used when releasing your program to the public.
 	- This version is typically optimized for size and performance, and doesn't contain the extra debugging info.
 	- Because the release config includes all optimizations, this mode is also useful for testing the performance of your code.
 
