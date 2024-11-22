@@ -79,4 +79,4 @@ Previously, I did not understand how important Data Structure was. Then, when I 
 
 It is so clear now. I am excited.
 
-I want to implement this in [[cpp|C++]]. #todo
+I want to implement this in [[computer_science/languages/cpp/cpp|C++]]. #todo

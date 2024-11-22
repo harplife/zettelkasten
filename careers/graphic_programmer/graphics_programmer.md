@@ -70,7 +70,7 @@ This [article](https://www.noodle.com/articles/how-to-become-a-graphics-develope
 
 ## Qualifications
 - Bachelor (or Master) in [[computer_science|Computer Science]], or Computer Graphics related fields
-- Advanced skills in C/[[cpp|C++]] (depends)
+- Advanced skills in C/[[computer_science/languages/cpp/cpp|C++]] (depends)
 - Advanced skills in Scripting Languages ([[python|Python]], MEL, or etc)
 - Familiar with Parallel Processing (and Multi-Threading)
 - Experience with Animation tools (Maya, Nuke, Vray, etc)

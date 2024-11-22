@@ -12,7 +12,7 @@ For details about the career, check out [[graphics_programmer|What is Graphics P
 - [ ] Bachelor (or Master) in [[computer_science|Computer Science]], or Computer Graphics related fields
     - [ ] [[goal_bachelor_in_cs|Get a Bachelor's Degree in Computer Science]]
     - [ ] Get a Master's Degree in Computer Science
-- [ ] Advanced skills in C/[[cpp|C++]] (depends)
+- [ ] Advanced skills in C/[[computer_science/languages/cpp/cpp|C++]] (depends)
 - [ ] Advanced skills in Scripting Languages ([[python|Python]], MEL, or etc)
 - [ ] Familiar with Parallel Processing (and Multi-Threading)
 - [ ] Experience with Animation tools (Maya, Nuke, Vray, etc)
