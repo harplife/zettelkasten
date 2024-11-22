@@ -62,37 +62,37 @@ int main() {
 - The content of `file` is then streamed into a `json` object:
 
 ```C++
-    // Parse the JSON file
-    json jsonData;
-    file >> jsonData;  // Read data into a json object
+// Parse the JSON file
+json jsonData;
+file >> jsonData;  // Read data into a json object
 ```
 
 - The values of the JSON object can be accessed, like so:
 
 ```C++
-    // Access values from the JSON
-    std::string name = jsonData["name"];
-    int age = jsonData["age"];
-    bool isStudent = jsonData["is_student"];
-    std::vector<std::string> skills = jsonData["skills"];
-    std::string street = jsonData["address"]["street"];
-    std::string city = jsonData["address"]["city"];
-    int zipcode = jsonData["address"]["zipcode"];
+// Access values from the JSON
+std::string name = jsonData["name"];
+int age = jsonData["age"];
+bool isStudent = jsonData["is_student"];
+std::vector<std::string> skills = jsonData["skills"];
+std::string street = jsonData["address"]["street"];
+std::string city = jsonData["address"]["city"];
+int zipcode = jsonData["address"]["zipcode"];
 ```
 
 - The values of the JSON object can then be displayed:
 
 ```C++
-    // Display the parsed data
-    std::cout << "Name: " << name << std::endl;
-    std::cout << "Age: " << age << std::endl;
-    std::cout << "Is Student: " << (isStudent ? "Yes" : "No") << std::endl;
-    std::cout << "Skills: ";
-    for (const auto& skill : skills) {
-        std::cout << skill << " ";
-    }
-    std::cout << std::endl;
-    std::cout << "Address: " << street << ", " << city << ", " << zipcode << std::endl;
+// Display the parsed data
+std::cout << "Name: " << name << std::endl;
+std::cout << "Age: " << age << std::endl;
+std::cout << "Is Student: " << (isStudent ? "Yes" : "No") << std::endl;
+std::cout << "Skills: ";
+for (const auto& skill : skills) {
+	std::cout << skill << " ";
+}
+std::cout << std::endl;
+std::cout << "Address: " << street << ", " << city << ", " << zipcode << std::endl;
 ```
 
 - Once compiled, the result of the code above should print out as shown below:
@@ -114,7 +114,40 @@ newJson["name"] = "Jane Doe";
 newJson["age"] = 25;
 newJson["skills"] = {"C++", "Java", "HTML"};
 newJson["address"] = {{"street", "456 Elm St"}, {"city", "Anywhere"}, {"zipcode", 67890}};
-
-std::ofstream outFile("output.json");
-outFile << newJson.dump(4);  // Pretty print with 4 spaces
 ```
+
+## Write a JSON file
+- A JSON object (with data) can be written to a file:
+
+```C++
+std::ofstream outFile("output.json");
+
+if (!outFile.is_open()) {
+	std::cerr << "Error opening file!" << std::endl;
+	return 1;
+}
+
+outFile << newJson.dump(4);  // Pretty print with 4 spaces
+
+outFile.close();
+```
+
+## Serialize a JSON object to a string
+- A JSON object can be serialized to a `std::string` object:
+
+```C++
+std::string jsonString = newJson.dump();  // Convert JSON to string
+std::cout << jsonString << std::endl;
+```
+
+## Error handling
+- When a value that does not exist in the JSON object, it throws an `std::out_of_range` error:
+
+```C++
+try {
+    auto value = jsonData.at("nonexistent_key");  // Throws if the key doesn't exist
+} catch (std::out_of_range& e) {
+    std::cerr << "Key not found: " << e.what() << std::endl;
+}
+```
+
