@@ -67,6 +67,16 @@ json jsonData;
 file >> jsonData;  // Read data into a json object
 ```
 
+### json::parse(file)
+- The library also provides a function to read from a JSON file:
+
+```C++
+// Open the JSON file
+std::ifstream file("data.json");
+json jsonData = json::parse(file);
+```
+
+## Accessing values from a JSON object
 - The values of the JSON object can be accessed, like so:
 
 ```C++
@@ -104,6 +114,8 @@ Is Student: No
 Skills: C++ Python JavaScript 
 Address: 123 Main St, Somewhere, 12345
 ```
+
+
 
 ## Create a JSON object
 - A JSON object can be created from a scratch without reading from a file:
@@ -149,5 +161,33 @@ try {
 } catch (std::out_of_range& e) {
     std::cerr << "Key not found: " << e.what() << std::endl;
 }
+```
+
+## Create a JSON object from literals
+- There are three different ways to create a JSON object from literals:
+
+```C++
+// Using (raw) string literals and json::parse
+json ex1 = json::parse(R"(
+  {
+    "pi": 3.141,
+    "happy": true
+  }
+)");
+
+// Using user-defined (raw) string literals
+using namespace nlohmann::literals;
+json ex2 = R"(
+  {
+    "pi": 3.141,
+    "happy": true
+  }
+)"_json;
+
+// Using initializer lists
+json ex3 = {
+  {"happy", true},
+  {"pi", 3.141},
+};
 ```
 
