@@ -104,8 +104,24 @@
                   "icon": "lucide-file",
                   "title": "cpp"
                 }
+              },
+              {
+                "id": "3a82d87ff5c76bfb",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "cpp_parsejson.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "cpp_parsejson"
+                }
               }
-            ]
+            ],
+            "currentTab": 6
           }
         ],
         "direction": "vertical"
@@ -193,10 +209,10 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "study_LearnOpenGL_GettingStarted.md"
+                    "file": "cpp_parsejson.md"
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of study_LearnOpenGL_GettingStarted"
+                  "title": "Outline of cpp_parsejson"
                 }
               }
             ]
@@ -318,7 +334,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "study_LearnOpenGL_GettingStarted.md",
+                    "file": "cpp_parsejson.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -328,7 +344,7 @@
                     "unlinkedCollapsed": false
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for study_LearnOpenGL_GettingStarted"
+                  "title": "Backlinks for cpp_parsejson"
                 }
               }
             ],
@@ -353,8 +369,8 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "3565833ba7980081",
-      "mtime": "2024-11-22T16:50:05-06:00",
+      "active": "3a82d87ff5c76bfb",
+      "mtime": "2024-11-22T17:06:02-06:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "Dictionary"
