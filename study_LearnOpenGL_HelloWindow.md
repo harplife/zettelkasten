@@ -4,10 +4,9 @@
 - In `Main.cpp` file, add the following directives to the top.
 
 ```C++
-#include<iostream>
-#include<glad/glad.h>
-#include<GLFW/glfw3.h>
-using namespace std;
+#include <iostream>
+#include <glad/glad.h>
+#include <GLFW/glfw3.h>
 ```
 
 - It is important to include GLAD before other header files that require OpenGL (like GLFW).
@@ -46,7 +45,7 @@ int main()
 	GLFWwindow* window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "LearnOpenGL", NULL, NULL);
 	if (window == NULL)
 	{
-		cerr << "Failed to create GLFW window" << endl;
+		std::cerr << "Failed to create GLFW window" << std::endl;
 		glfwTerminate();
 		return -1;
 	}
