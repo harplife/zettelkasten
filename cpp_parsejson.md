@@ -115,7 +115,21 @@ Skills: C++ Python JavaScript
 Address: 123 Main St, Somewhere, 12345
 ```
 
+### Iterate keys and values from a JSON object
 
+```C++
+for (auto& el : jsonData.items()) {
+	std::cout << el.key() << " : " << el.value() << std::endl;
+}
+```
+
+### Find an entry in a JSON object
+
+```C++
+if (jsonData.contains("name")) {
+	std::cout << "name: " << jsonData["name"] << std::endl;
+}
+```
 
 ## Create a JSON object
 - A JSON object can be created from a scratch without reading from a file:
@@ -130,7 +144,22 @@ newJson["address"] = {{"street", "456 Elm St"}, {"city", "Anywhere"}, {"zipcode"
 
 >[!important] It is not necessary to indicate to the compiler which data types the JSON values are using.
 
-## Write a JSON file
+### Create a JSON object from literals
+- There are three different ways to create a JSON object from literals:
+
+```C++
+// Using (raw) string literals and json::parse
+json ex1 = json::parse(R"({"pi": 3.141,"happy": true})");
+
+// Using user-defined (raw) string literals
+using namespace nlohmann::literals;
+json ex2 = R"({"pi": 3.141,"happy": true})"_json;
+
+// Using initializer lists
+json ex3 = {{"happy", true},{"pi", 3.141},};
+```
+
+## Write a JSON object to a file
 - A JSON object (with data) can be written to a file:
 
 ```C++
@@ -163,20 +192,5 @@ try {
 } catch (std::out_of_range& e) {
     std::cerr << "Key not found: " << e.what() << std::endl;
 }
-```
-
-## Create a JSON object from literals
-- There are three different ways to create a JSON object from literals:
-
-```C++
-// Using (raw) string literals and json::parse
-json ex1 = json::parse(R"({"pi": 3.141,"happy": true})");
-
-// Using user-defined (raw) string literals
-using namespace nlohmann::literals;
-json ex2 = R"({"pi": 3.141,"happy": true})"_json;
-
-// Using initializer lists
-json ex3 = {{"happy", true},{"pi", 3.141},};
 ```
 

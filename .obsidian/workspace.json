@@ -91,6 +91,7 @@
           {
             "id": "dc6926da04835175",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -99,27 +100,13 @@
                 "backlinks": false,
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "cpp"
             }
-          },
-          {
-            "id": "3a82d87ff5c76bfb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "cpp_parsejson.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "cpp_parsejson"
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -207,10 +194,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cpp_parsejson.md"
+                "file": "cpp.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of cpp_parsejson"
+              "title": "Outline of cpp"
             }
           }
         ]
@@ -332,7 +319,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cpp_parsejson.md",
+                "file": "cpp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -342,7 +329,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for cpp_parsejson"
+              "title": "Backlinks for cpp"
             }
           }
         ],
@@ -367,18 +354,18 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "3a82d87ff5c76bfb",
+  "active": "dc6926da04835175",
   "lastOpenFiles": [
-    "attachments/performance_Corei7-4980HQ@2.80GHz_mac64_clang7.0_1._Parse_Time_(ms).png",
-    "cpp_parsejson.md",
+    "study_LearnCpp_GettingStarted.md",
     "cpp.md",
+    "cpp_parsejson.md",
+    "attachments/performance_Corei7-4980HQ@2.80GHz_mac64_clang7.0_1._Parse_Time_(ms).png",
     "study_LearnOpenGL_GettingStarted.md",
     "study_LearnOpenGL_HelloWindow.md",
     "study_LearnOpenGL_Lighting.md",
     "opengl_code_guide.md",
     "study_LearnOpenGL_Colors.md",
     "driver_exam_study.md",
-    "study_LearnCpp_GettingStarted.md",
     "design_patterns_for_graphics_programming.md",
     "books_for_build_game_using_dod.md",
     "attachments/Pasted image 20241010161043.png",
@@ -393,7 +380,6 @@
     "attachments/Demorganlaws.svg",
     "attachments/table_of_precedence_associativity.pdf",
     "attachments/Pasted image 20240805123926.png",
-    "attachments/Pasted image 20240802123930.png",
     "computer_science/languages/cpp/knou_cpp_notes.md",
     "computer_science/languages/cpp/cpp_cherno_playlist_notes.md",
     "study_LearnOpenGL_Camera.md",
