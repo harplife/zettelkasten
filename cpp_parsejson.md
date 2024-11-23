@@ -128,6 +128,8 @@ newJson["skills"] = {"C++", "Java", "HTML"};
 newJson["address"] = {{"street", "456 Elm St"}, {"city", "Anywhere"}, {"zipcode", 67890}};
 ```
 
+>[!important] It is not necessary to indicate to the compiler which data types the JSON values are using.
+
 ## Write a JSON file
 - A JSON object (with data) can be written to a file:
 
@@ -168,26 +170,13 @@ try {
 
 ```C++
 // Using (raw) string literals and json::parse
-json ex1 = json::parse(R"(
-  {
-    "pi": 3.141,
-    "happy": true
-  }
-)");
+json ex1 = json::parse(R"({"pi": 3.141,"happy": true})");
 
 // Using user-defined (raw) string literals
 using namespace nlohmann::literals;
-json ex2 = R"(
-  {
-    "pi": 3.141,
-    "happy": true
-  }
-)"_json;
+json ex2 = R"({"pi": 3.141,"happy": true})"_json;
 
 // Using initializer lists
-json ex3 = {
-  {"happy", true},
-  {"pi", 3.141},
-};
+json ex3 = {{"happy", true},{"pi", 3.141},};
 ```
 
