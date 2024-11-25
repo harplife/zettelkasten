@@ -34,13 +34,29 @@
 #### In-engine debug tool
 - An in-engine (in-game) debug tool is a utility integrated directly into a game engine to monitor, diagnose, and modify the game or its systems during development.
 	- These tools offer several advantages, especially in game development, where rapid iteration and real-time debugging are essential.
-- Real-time debugging:
+- Real-time debugging
 	- **Immediate feedback** : changes or diagnostics can be applied and observed while the game is running, helping devs spot and fix issues without restarting.
 	- **Dynamic analysis** : devs can monitor frame rates, memory usage, physics behaviors, AI states, and other metrics as the game runs.
-- Faster iteration cycles:
+- Faster iteration cycles
 	- Rapid prototyping : devs can tweak variables (e.g. player speed, gravity, or lighting) on the fly, which accelerates experimentation and balancing.
 	- Reduced downtime : avoiding recompilation or restarting the application saves significant development time.
-- 
+- Improved efficiency for debugging complex systems
+	- Access to game state : devs can inspect or modify internal states like object positions, physics forces, or AI behaviors directly in the running game.
+	- Custom breakpoints : debug tools can pause the game at specific states or events to allow detailed inspection.
+- In-game visualization
+	- Draw debug lines : visualize physics collisions, AI navigation paths, or object hierarchies directly within the game environment.
+	- Overlay information : display frame rates, input diagnostics, and performance metrics directly on-screen.
+- Streamlined team collaboration
+	- Accessible for non-programmers : designers and artists can use the debug tools to adjust gameplay parameters or test assets without needing deep coding knowledge.
+	- Shared debug information : team members can identify and report issues more effectively with consistent in-engine debugging tools.
+- Enhanced profiling and performance monitoring
+	- Frame timing and memory usage : tools like frame graphs and memory allocators help identify bottlenecks.
+	- Real-time data : profiling tools provide a clear picture of how various systems interact under load.
+- Customization and extendability
+	- Game-specific tools : debug tools can be customized to meet the unique requirements of a specific game or project, such as visualizing AI states or network traffic.
+	- Extendable frameworks : tools integrated into the engine can evolve with the game, ensuring continuous utility throughout development.
+- Seamless deployment across platforms
+	- Debug tools in an engine are often designed to work across multiple target platforms, enabling testing on different devices.
 
 
 ### Retained mode
