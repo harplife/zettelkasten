@@ -23,7 +23,13 @@
 	- Managing state is more manual and can lead to increased complexity for large applications.
 - Libraries that uses immediate mode:
 	- Dear ImGui
-- 
+
+#### Immediate mode in game development
+- Immediate mode based GUI libraries are useful for specialized use cases such as:
+	- In-game debug overlays
+	- Level editors embedded within the game
+	- Diagnostic tools and performance profilers
+- It can be easier to add more tools in the game engine directly using IMGUI, as opposed to adding tools to a game development software (e.g. unreal engine).
 
 
 ### Retained mode
