@@ -58,8 +58,6 @@
 - Seamless deployment across platforms
 	- Debug tools in an engine are often designed to work across multiple target platforms, enabling testing on different devices.
 
-#### Separating the computation process
-
 ### Retained mode
 - In <mark class="hltr-trippy">retained mode</mark>, the UI components are stored in a hierarchical structures (a "scene graph" or similar data structure) that persists across frames.
 	- Updates to the UI are made by modifying the structure, and the system takes care of rendering it.
