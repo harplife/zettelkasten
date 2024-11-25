@@ -31,6 +31,17 @@
 	- Diagnostic tools and performance profilers
 - It can be easier to add more tools in the game engine directly using IMGUI, as opposed to adding tools to a game development software (e.g. unreal engine).
 
+#### In-engine debug tool
+- An in-engine (in-game) debug tool is a utility integrated directly into a game engine to monitor, diagnose, and modify the game or its systems during development.
+	- These tools offer several advantages, especially in game development, where rapid iteration and real-time debugging are essential.
+- Real-time debugging:
+	- **Immediate feedback** : changes or diagnostics can be applied and observed while the game is running, helping devs spot and fix issues without restarting.
+	- **Dynamic analysis** : devs can monitor frame rates, memory usage, physics behaviors, AI states, and other metrics as the game runs.
+- Faster iteration cycles:
+	- Rapid prototyping : devs can tweak variables (e.g. player speed, gravity, or lighting) on the fly, which accelerates experimentation and balancing.
+	- Reduced downtime : avoiding recompilation or restarting the application saves significant development time.
+- 
+
 
 ### Retained mode
 - In <mark class="hltr-trippy">retained mode</mark>, the UI components are stored in a hierarchical structures (a "scene graph" or similar data structure) that persists across frames.
