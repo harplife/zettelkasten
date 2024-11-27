@@ -73,7 +73,7 @@
 	- More abstract and less flexible compared to immediate mode.
 	- Can have higher overhead in terms of memory and performance for simple applications.
 
-#### Retaine mode in game development
+#### Retained mode in game development
 - Retained mode GUI libraries are ideal for polished, static, and complex interfaces, such as game menus or editors.
 	- However, they may not align well with the dynamic, real-time needs of in-game debugging or overlays.
 	- Balancing immediate and retained mode libraries often provides the best of both worlds in game development.
