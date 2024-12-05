@@ -136,7 +136,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -224,10 +224,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cpp.md"
+                "file": "study_LearnCpp_GettingStarted.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of cpp"
+              "title": "Outline of study_LearnCpp_GettingStarted"
             }
           }
         ]
@@ -349,7 +349,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DearImGui_opengl_backend.md",
+                "file": "study_LearnCpp_GettingStarted.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -359,7 +359,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for DearImGui_opengl_backend"
+              "title": "Backlinks for study_LearnCpp_GettingStarted"
             }
           }
         ],
@@ -367,7 +367,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 362.5
+    "width": 362.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -379,16 +380,17 @@
       "markdown-importer:Open format converter": false,
       "workspaces:Manage workspace layouts": false,
       "mathpad:Open Mathpad": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "5ff523fabd956bf5",
+  "active": "9c9a2525afbfe6bd",
   "lastOpenFiles": [
-    "study_LearnOpenGL_GettingStarted.md",
-    "study_LearnOpenGL_Colors.md",
-    "study_LearnCpp_GettingStarted.md",
-    "DearImGui_opengl_backend.md",
     "cpp.md",
+    "study_LearnCpp_GettingStarted.md",
+    "study_LearnOpenGL_Colors.md",
+    "DearImGui_opengl_backend.md",
+    "study_LearnOpenGL_GettingStarted.md",
     "cpp_hello_window_code.md",
     "cpp_parsejson.md",
     "attachments/performance_Corei7-4980HQ@2.80GHz_mac64_clang7.0_1._Parse_Time_(ms).png",
