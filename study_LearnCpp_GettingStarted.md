@@ -10459,6 +10459,10 @@ int main() {
 ### Invariants
 - An <mark class="hltr-trippy">invariant</mark> is a condition or property that remains true throughout the execution of a program or within a specific scope, such as during the lifetime of a function, loop, or an object.
 	- Invariants are essential in ensuring correctness and stability in software, as they provide guaranteed conditions that developers can rely on, helping prevent unexpected behavior.
+- Types of invariants:
+	- Loop invariants
+	- Class invariants
+	- Procondition
 
 #### Types of invariants
 - <mark class="hltr-trippy">Loop invariants</mark> : conditions that remain true before and after each iteration of a loop.
