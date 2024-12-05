@@ -10462,12 +10462,16 @@ int main() {
 - Types of (local) invariants:
 	- <mark class="hltr-trippy">Loop invariants</mark> : conditions that remain true before and after each iteration of a loop.
 	- <mark class="hltr-trippy">Class invariants</mark> : properties that hold true for an object in a valid state, typically maintained between method calls.
-- Related to invariants:
-	- <mark class="hltr-trippy">Preconditions</mark> : conditions that must be true *before* a function or operation is executed.
-	- <mark class="hltr-trippy">Postconditions</mark> : conditions that must be true *after* a function or operation is executed.
 - <mark class="hltr-trippy">Global invariant</mark> is a condition or property that holds true for an entire system, application, or program throughout its execution.
 	- It applies at a broader scope than local invariants (e.g. class or loop invariants) and governs the overall integrity of the system as a whole.
 	- Includes data relationships and constraints.
+- Related to invariants:
+	- <mark class="hltr-trippy">Preconditions</mark> : conditions that must be true *before* a function or operation is executed.
+	- <mark class="hltr-trippy">Postconditions</mark> : conditions that must be true *after* a function or operation is executed.
+- Preconditions and postconditions are NOT invariants, but they can help enforce invariants:
+	- Preconditions ensure that a function receives valid input, helping maintain the invariant state of an object.
+	- Postconditions ensure that the function produces valid output or leaves the system in a valid state, preserving invariants.
+
 
 #### Examples
 - Loop invariant :
