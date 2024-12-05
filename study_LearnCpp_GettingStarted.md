@@ -10459,16 +10459,15 @@ int main() {
 ### Invariants
 - An <mark class="hltr-trippy">invariant</mark> is a condition or property that remains true throughout the execution of a program or within a specific scope, such as during the lifetime of a function, loop, or an object.
 	- Invariants are essential in ensuring correctness and stability in software, as they provide guaranteed conditions that developers can rely on, helping prevent unexpected behavior.
-- Types of invariants:
-	- Loop invariants
-	- Class invariants
-	- Procondition
-
-#### Types of invariants
-- <mark class="hltr-trippy">Loop invariants</mark> : conditions that remain true before and after each iteration of a loop.
-- <mark class="hltr-trippy">Class (or object) invariants</mark> : properties that hold true for an object in a valid state, typically maintained between method calls.
-- <mark class="hltr-trippy">Preconditions and postconditions</mark> : preconditions are requirements that must be true before a function or method executes, while postconditions are expectations after the function completes. These aren't invariants themselves but help define and maintain invariants.
-- <mark class="hltr-trippy">Global invariants</mark> : conditions that should hold true globally within a program or module, such as certain data relationships or constraints.
+- Types of (local) invariants:
+	- <mark class="hltr-trippy">Loop invariants</mark> : conditions that remain true before and after each iteration of a loop.
+	- <mark class="hltr-trippy">Class invariants</mark> : properties that hold true for an object in a valid state, typically maintained between method calls.
+- Related to invariants:
+	- <mark class="hltr-trippy">Preconditions</mark> : conditions that must be true *before* a function or operation is executed.
+	- <mark class="hltr-trippy">Postconditions</mark> : conditions that must be true *after* a function or operation is executed.
+- <mark class="hltr-trippy">Global invariant</mark> is a condition or property that holds true for an entire system, application, or program throughout its execution.
+	- It applies at a broader scope than local invariants (e.g. class or loop invariants) and governs the overall integrity of the system as a whole.
+	- Includes data relationships and constraints.
 
 #### Examples
 - Loop invariant :
