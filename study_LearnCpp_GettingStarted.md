@@ -10472,8 +10472,7 @@ int main() {
 	- Preconditions ensure that a function receives valid input, helping maintain the invariant state of an object.
 	- Postconditions ensure that the function produces valid output or leaves the system in a valid state, preserving invariants.
 
-
-#### Examples
+#### Example : loop invariant
 - Loop invariant :
 
 ```C++
