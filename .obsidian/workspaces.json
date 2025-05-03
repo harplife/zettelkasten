@@ -138,7 +138,7 @@
                 }
               }
             ],
-            "currentTab": 5
+            "currentTab": 7
           }
         ],
         "direction": "vertical"
@@ -351,7 +351,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "study_LearnCpp_GettingStarted.md",
+                    "file": "DearImGui_opengl_backend.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -361,7 +361,7 @@
                     "unlinkedCollapsed": false
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for study_LearnCpp_GettingStarted"
+                  "title": "Backlinks for DearImGui_opengl_backend"
                 }
               }
             ],
@@ -369,8 +369,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 362.5,
-        "collapsed": true
+        "width": 362.5
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -386,8 +385,8 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "9c9a2525afbfe6bd",
-      "mtime": "2024-12-04T23:03:45-06:00",
+      "active": "227e6011dc684b16",
+      "mtime": "2025-05-02T19:54:02-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "Dictionary"
