@@ -12,3 +12,5 @@
 
 ## Real Numbers
 
+![[Pasted image 20250902184442.png]]
+
