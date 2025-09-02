@@ -14,5 +14,6 @@
   ],
   "accentColor": "",
   "baseFontSizeAction": true,
-  "showViewHeader": true
+  "showViewHeader": true,
+  "showRibbon": true
 }
