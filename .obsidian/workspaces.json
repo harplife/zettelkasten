@@ -1092,41 +1092,16 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "math/precalculus/Precalculus_Main.md",
+                    "file": "math/precalculus/Chapter 1/1_Real_Numbers.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": false
                   },
                   "icon": "lucide-file",
-                  "title": "Precalculus_Main"
-                }
-              },
-              {
-                "id": "6530f219e37a88e3",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "math/precalculus/Precalculus_Cheatsheet.pdf"
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "Precalculus_Cheatsheet"
-                }
-              },
-              {
-                "id": "0aaeb4c4228513d9",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "math/precalculus/Precalculus_Answers.pdf"
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "Precalculus_Answers"
+                  "title": "1_Real_Numbers"
                 }
               }
-            ],
-            "currentTab": 2
+            ]
           }
         ],
         "direction": "vertical"
@@ -1206,20 +1181,20 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "math/precalculus/Precalculus_Answers.pdf",
+                    "file": "math/precalculus/Chapter 1/1_Real_Numbers.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of Precalculus_Answers"
+                  "title": "Outline of 1_Real_Numbers"
                 }
               }
             ]
           }
         ],
         "direction": "horizontal",
-        "width": 244.5
+        "width": 296.5
       },
       "right": {
         "id": "f152d8fd8ec1f4e0",
@@ -1380,14 +1355,16 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "0aaeb4c4228513d9",
-      "mtime": "2025-09-02T18:29:55-05:00",
+      "active": "93012466dc67770a",
+      "mtime": "2025-09-02T18:39:12-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "math",
           "math/algebra_and_trigonometry",
           "math/algebra_and_trigonometry/chapter_p",
-          "math/precalculus"
+          "math/precalculus",
+          "math/precalculus/Chapter 1",
+          "math/precalculus/Resources"
         ]
       }
     }
