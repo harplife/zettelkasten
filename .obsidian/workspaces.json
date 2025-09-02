@@ -1100,8 +1100,33 @@
                   "icon": "lucide-file",
                   "title": "Precalculus_Main"
                 }
+              },
+              {
+                "id": "6530f219e37a88e3",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "math/precalculus/Precalculus_Cheatsheet.pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "Precalculus_Cheatsheet"
+                }
+              },
+              {
+                "id": "0aaeb4c4228513d9",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "math/precalculus/Precalculus_Answers.pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "Precalculus_Answers"
+                }
               }
-            ]
+            ],
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -1181,13 +1206,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "math/precalculus/Precalculus_Main.md",
+                    "file": "math/precalculus/Precalculus_Answers.pdf",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of Precalculus_Main"
+                  "title": "Outline of Precalculus_Answers"
                 }
               }
             ]
@@ -1355,8 +1380,8 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "93012466dc67770a",
-      "mtime": "2025-09-02T17:51:21-05:00",
+      "active": "0aaeb4c4228513d9",
+      "mtime": "2025-09-02T18:29:55-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "math",

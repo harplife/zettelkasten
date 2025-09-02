@@ -30,6 +30,7 @@ This is the standard textbook that's used in many universities, including Harvar
 - [Discovery Projects](https://www.stewartmath.com/media/25_inside_discovery.php)
 - [Focus on Problem Solving](https://www.stewartmath.com/media/25_inside_focus.php)
 - [[Review_of_Algebra.pdf]]
+- [[Review_of_Geometry.pdf]]
 - [[ProbabilityAndStatistics.pdf]]
 
 
@@ -40,3 +41,4 @@ This is the standard textbook that's used in many universities, including Harvar
 ## Answers
 
 [[Precalculus_Answers.pdf]]
+

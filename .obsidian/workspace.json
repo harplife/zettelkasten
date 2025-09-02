@@ -21,8 +21,33 @@
               "icon": "lucide-file",
               "title": "Precalculus_Main"
             }
+          },
+          {
+            "id": "6530f219e37a88e3",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "math/precalculus/Precalculus_Cheatsheet.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Precalculus_Cheatsheet"
+            }
+          },
+          {
+            "id": "0aaeb4c4228513d9",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "math/precalculus/Precalculus_Answers.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Precalculus_Answers"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -102,13 +127,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "math/precalculus/Precalculus_Main.md",
+                "file": "math/precalculus/Precalculus_Answers.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Precalculus_Main"
+              "title": "Outline of Precalculus_Answers"
             }
           }
         ]
@@ -276,14 +301,15 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "93012466dc67770a",
+  "active": "0aaeb4c4228513d9",
   "lastOpenFiles": [
+    "math/precalculus/Precalculus_Cheatsheet.pdf",
     "math/precalculus/Precalculus_Answers.pdf",
+    "math/precalculus/Precalculus_Main.md",
+    "math/precalculus/Review_of_Geometry.pdf",
     "attachments/Pasted image 20250902181925.png",
     "math/precalculus/ProbabilityAndStatistics.pdf",
     "math/precalculus/Review_of_Algebra.pdf",
-    "math/precalculus/Precalculus_Cheatsheet.pdf",
-    "math/precalculus/Precalculus_Main.md",
     "attachments/Pasted image 20250902174841.png",
     "math/algebra_and_trigonometry/chapter_p/chapter_p1_exercises.md",
     "math/precalculus",
@@ -321,8 +347,6 @@
     "opengl_camera_movement_code.md",
     "opengl_cube_code.md",
     "study_LearnOpenGL_Transformations.md",
-    "attachments/OpenGL Application 2024-07-18 10-37-58.mp4",
-    "attachments/OpenGL Application 2024-07-16 16-45-39.mp4",
-    "Dictionary/graphics"
+    "attachments/OpenGL Application 2024-07-18 10-37-58.mp4"
   ]
 }
