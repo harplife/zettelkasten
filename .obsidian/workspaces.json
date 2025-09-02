@@ -1090,10 +1090,12 @@
                 "id": "93012466dc67770a",
                 "type": "leaf",
                 "state": {
-                  "type": "empty",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "New tab"
+                  "type": "pdf",
+                  "state": {
+                    "file": "math/algebra_and_trigonometry/chapter_p/algebra_and_trigonometry_chapter_p1.pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "algebra_and_trigonometry_chapter_p1"
                 }
               }
             ]
@@ -1110,13 +1112,13 @@
             "type": "tabs",
             "children": [
               {
-                "id": "19ce5a4d65676126",
+                "id": "935f28b3df870977",
                 "type": "leaf",
                 "state": {
                   "type": "file-explorer",
                   "state": {
                     "sortOrder": "alphabetical",
-                    "autoReveal": true
+                    "autoReveal": false
                   },
                   "icon": "lucide-folder-closed",
                   "title": "Files"
@@ -1129,7 +1131,9 @@
                   "type": "tag",
                   "state": {
                     "sortOrder": "alphabetical",
-                    "useHierarchy": true
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
                   },
                   "icon": "lucide-tags",
                   "title": "Tags"
@@ -1174,13 +1178,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "Untitled.base",
+                    "file": "math/algebra_and_trigonometry/chapter_p/algebra_and_trigonometry_chapter_p1.pdf",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of Untitled"
+                  "title": "Outline of algebra_and_trigonometry_chapter_p1"
                 }
               }
             ]
@@ -1348,11 +1352,13 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "19ce5a4d65676126",
-      "mtime": "2025-09-02T09:06:07-05:00",
+      "active": "93012466dc67770a",
+      "mtime": "2025-09-02T09:22:37-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
-          "music/vocal"
+          "math",
+          "math/algebra_and_trigonometry",
+          "math/algebra_and_trigonometry/chapter_p"
         ]
       }
     }

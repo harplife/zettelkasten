@@ -3,14 +3,14 @@
   "translucency": false,
   "cssTheme": "Prism",
   "enabledCssSnippets": [
+    "header-context",
     "big-math",
-    "images",
-    "tag-pills",
-    "highlightr",
     "clean-embeds-all",
     "general",
-    "header-context",
-    "header-styles"
+    "header-styles",
+    "highlightr",
+    "images",
+    "tag-pills"
   ],
   "accentColor": "",
   "baseFontSizeAction": true,

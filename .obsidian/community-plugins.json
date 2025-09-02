@@ -3,7 +3,6 @@
   "hotkey-helper",
   "obsidian-git",
   "mathpad",
-  "obsidian-style-settings",
   "highlightr-plugin",
   "url-into-selection",
   "obsidian-linter",
@@ -11,5 +10,6 @@
   "obsidian-link-embed",
   "workspaces-plus",
   "various-complements",
-  "obsidian-contextual-typography"
+  "obsidian-contextual-typography",
+  "obsidian-style-settings"
 ]

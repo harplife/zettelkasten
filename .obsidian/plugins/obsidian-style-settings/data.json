@@ -4,8 +4,6 @@
   "obsidian-prism-theme@@dark-accent-color-preset": "pt-accent-color-custom-dt",
   "obsidian-prism-theme@@highlight-text-accent-dt": "pt-highlight-text-accent-dt",
   "obsidian-prism-theme@@pt-custom-vault-banner": true,
-  "obsidian-prism-theme@@custom-vault-banner-horizontal-align": "pt-custom-vault-banner-justify-content-left",
-  "obsidian-prism-theme@@pt-custom-vault-banner-sticky": false,
   "obsidian-prism-theme@@inline-title-color-dt": "var(--text-normal)",
   "obsidian-prism-theme@@h1-text-color-dt": "var(--h1-text-color-custom-dt)",
   "obsidian-prism-theme@@h2-text-color-dt": "var(--h2-text-color-custom-dt)",
@@ -33,6 +31,12 @@
   "obsidian-prism-theme@@h2-text-color-custom-dt": "#14B871",
   "obsidian-prism-theme@@h3-text-color-custom-dt": "#853BFF",
   "obsidian-prism-theme@@h4-text-color-custom-dt": "#F335E2",
-  "obsidian-prism-theme@@pt-file-explorer-folder-icon": true,
-  "obsidian-prism-theme@@file-explorer-left-margin": 1
+  "obsidian-prism-theme@@nav-header-left-sidebar-position": "pt-nav-header-left-sidebar-position-bottom",
+  "obsidian-prism-theme@@nav-header-left-sidebar-alignment": "pt-nav-header-left-sidebar-align-center",
+  "obsidian-prism-theme@@scroll-bar-size": 12,
+  "obsidian-prism-theme@@pt-status-bar-style": "pt-status-bar-position-floating",
+  "obsidian-prism-theme@@pt-fixed-status-bar-align": "pt-fixed-status-bar-align-center",
+  "obsidian-prism-theme@@pt-file-explorer-folder-icon": false,
+  "obsidian-prism-theme@@pt-colored-folders": true,
+  "obsidian-prism-theme@@pt-colored-folders-files-match": true
 }
