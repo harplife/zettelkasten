@@ -37,3 +37,6 @@ This is the standard textbook that's used in many universities, including Harvar
 
 ![[Pasted image 20250902181925.png]]
 
+## Answers
+
+[[Precalculus_Answers.pdf]]
