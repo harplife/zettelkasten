@@ -32,5 +32,7 @@
   "obsidian-prism-theme@@h1-text-color-custom-dt": "#D6521A",
   "obsidian-prism-theme@@h2-text-color-custom-dt": "#14B871",
   "obsidian-prism-theme@@h3-text-color-custom-dt": "#853BFF",
-  "obsidian-prism-theme@@h4-text-color-custom-dt": "#F335E2"
+  "obsidian-prism-theme@@h4-text-color-custom-dt": "#F335E2",
+  "obsidian-prism-theme@@pt-file-explorer-folder-icon": true,
+  "obsidian-prism-theme@@file-explorer-left-margin": 1
 }

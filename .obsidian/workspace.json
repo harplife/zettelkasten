@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d04c2c3a319c946e",
+        "id": "067b31e38b871583",
         "type": "tabs",
         "children": [
           {
-            "id": "29de64a39235a865",
+            "id": "93012466dc67770a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JE_01.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "JE_01"
+              "title": "New tab"
             }
           }
         ]
@@ -42,7 +37,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -87,16 +82,6 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
-          },
-          {
-            "id": "86bff414d2d51e56",
-            "type": "leaf",
-            "state": {
-              "type": "center-panes",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "center-panes"
-            }
           }
         ]
       },
@@ -110,20 +95,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JE_01.md",
+                "file": "Untitled.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of JE_01"
+              "title": "Outline of Untitled"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 347.5
+    "width": 356.5
   },
   "right": {
     "id": "f152d8fd8ec1f4e0",
@@ -265,7 +250,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 362.5
+    "width": 362.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -283,8 +269,9 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "227e6011dc684b16",
+  "active": "19ce5a4d65676126",
   "lastOpenFiles": [
+    "Untitled.base",
     "JE_01.md",
     "cpp_hello_window_code.md",
     "music/vocal/vocalization.md",
@@ -323,7 +310,6 @@
     "attachments/OpenGL Application 2024-07-16 16-45-39.mp4",
     "study_LearnOpenGL_CoordinateSystems.md",
     "study_LearnOpenGL_Shaders.md",
-    "study_LearnOpenGL_Textures.md",
     "Dictionary/graphics",
     "Dictionary"
   ]
