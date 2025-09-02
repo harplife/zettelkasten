@@ -29,4 +29,11 @@ This is the standard textbook that's used in many universities, including Harvar
 
 - [Discovery Projects](https://www.stewartmath.com/media/25_inside_discovery.php)
 - [Focus on Problem Solving](https://www.stewartmath.com/media/25_inside_focus.php)
-- 
+- [[Review_of_Algebra.pdf]]
+- [[ProbabilityAndStatistics.pdf]]
+
+
+## Abbreviations
+
+![[Pasted image 20250902181925.png]]
+
