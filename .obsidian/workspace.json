@@ -94,8 +94,8 @@
             "state": {
               "type": "center-panes",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "lucide-ghost",
+              "title": "center-panes"
             }
           }
         ]
@@ -210,8 +210,8 @@
             "state": {
               "type": "dictionary-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "lucide-ghost",
+              "title": "dictionary-view"
             }
           },
           {
@@ -269,6 +269,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -283,9 +285,10 @@
   },
   "active": "227e6011dc684b16",
   "lastOpenFiles": [
+    "JE_01.md",
+    "cpp_hello_window_code.md",
     "music/vocal/vocalization.md",
     "study_LearnOpenGL_GettingStarted.md",
-    "cpp_hello_window_code.md",
     "study_LearnOpenGL_Lighting.md",
     "opengl_code_guide.md",
     "study_LearnOpenGL_Colors.md",
@@ -321,7 +324,6 @@
     "study_LearnOpenGL_CoordinateSystems.md",
     "study_LearnOpenGL_Shaders.md",
     "study_LearnOpenGL_Textures.md",
-    "study_LearnOpenGL_HelloRectangle.md",
     "Dictionary/graphics",
     "Dictionary"
   ]
