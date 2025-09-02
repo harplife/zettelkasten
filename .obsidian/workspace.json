@@ -11,12 +11,15 @@
             "id": "93012466dc67770a",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "math/algebra_and_trigonometry/chapter_p/algebra_and_trigonometry_chapter_p1.pdf"
+                "file": "math/precalculus/Precalculus_Main.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-file-text",
-              "title": "algebra_and_trigonometry_chapter_p1"
+              "icon": "lucide-file",
+              "title": "Precalculus_Main"
             }
           }
         ]
@@ -99,20 +102,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "math/algebra_and_trigonometry/chapter_p/algebra_and_trigonometry_chapter_p1.pdf",
+                "file": "math/precalculus/Precalculus_Main.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of algebra_and_trigonometry_chapter_p1"
+              "title": "Outline of Precalculus_Main"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 356.5
+    "width": 244.5
   },
   "right": {
     "id": "f152d8fd8ec1f4e0",
@@ -275,7 +278,12 @@
   },
   "active": "93012466dc67770a",
   "lastOpenFiles": [
+    "math/precalculus/Review_of_Algebra.pdf",
+    "math/precalculus/Precalculus_Cheatsheet.pdf",
+    "math/precalculus/Precalculus_Main.md",
+    "attachments/Pasted image 20250902174841.png",
     "math/algebra_and_trigonometry/chapter_p/chapter_p1_exercises.md",
+    "math/precalculus",
     "math/algebra_and_trigonometry/chapter_p/algebra_and_trigonometry_chapter_p1.pdf",
     "Untitled.base",
     "JE_01.md",
@@ -305,7 +313,6 @@
     "cpp_global_state_context_objects.md",
     "attachments/Demorganlaws.svg",
     "attachments/table_of_precedence_associativity.pdf",
-    "attachments/Pasted image 20240805123926.png",
     "computer_science/languages/cpp/knou_cpp_notes.md",
     "computer_science/languages/cpp/cpp_cherno_playlist_notes.md",
     "study_LearnOpenGL_Camera.md",
@@ -314,8 +321,6 @@
     "study_LearnOpenGL_Transformations.md",
     "attachments/OpenGL Application 2024-07-18 10-37-58.mp4",
     "attachments/OpenGL Application 2024-07-16 16-45-39.mp4",
-    "study_LearnOpenGL_CoordinateSystems.md",
-    "study_LearnOpenGL_Shaders.md",
     "Dictionary/graphics",
     "Dictionary"
   ]

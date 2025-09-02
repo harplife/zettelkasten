@@ -1090,12 +1090,15 @@
                 "id": "93012466dc67770a",
                 "type": "leaf",
                 "state": {
-                  "type": "pdf",
+                  "type": "markdown",
                   "state": {
-                    "file": "math/algebra_and_trigonometry/chapter_p/algebra_and_trigonometry_chapter_p1.pdf"
+                    "file": "math/precalculus/Precalculus_Main.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
                   },
-                  "icon": "lucide-file-text",
-                  "title": "algebra_and_trigonometry_chapter_p1"
+                  "icon": "lucide-file",
+                  "title": "Precalculus_Main"
                 }
               }
             ]
@@ -1178,20 +1181,20 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "math/algebra_and_trigonometry/chapter_p/algebra_and_trigonometry_chapter_p1.pdf",
+                    "file": "math/precalculus/Precalculus_Main.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of algebra_and_trigonometry_chapter_p1"
+                  "title": "Outline of Precalculus_Main"
                 }
               }
             ]
           }
         ],
         "direction": "horizontal",
-        "width": 356.5
+        "width": 244.5
       },
       "right": {
         "id": "f152d8fd8ec1f4e0",
@@ -1353,12 +1356,13 @@
         }
       },
       "active": "93012466dc67770a",
-      "mtime": "2025-09-02T09:22:37-05:00",
+      "mtime": "2025-09-02T17:51:21-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "math",
           "math/algebra_and_trigonometry",
-          "math/algebra_and_trigonometry/chapter_p"
+          "math/algebra_and_trigonometry/chapter_p",
+          "math/precalculus"
         ]
       }
     }
