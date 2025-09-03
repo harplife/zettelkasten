@@ -23,9 +23,13 @@ The adjective *real*, used in the 17th century by **Rene Descartes**, distinguis
 > ![[Pasted image 20250902212157.png|200]]
 > "I think, therefore I am" - [Rene Descartes](https://en.wikipedia.org/wiki/René_Descartes)
 
-The real numbers include both the *rational numbers* $\mathbb{Q}$ and the *irrational numbers*.
+The real numbers include both the *rational numbers* and the *irrational numbers*.
 
-A rational number is a number that can be expressed as a quotient of two integers.
+A <mark class="hltr-trippy">rational number</mark> is a number that can be expressed as a quotient (or fraction) of two integers, a numerator $p$ and a non-zero denominator $q$.
+
+The set of rational numbers, often referred to as "the rationals", is denoted by a bold $Q$ or blackboard bold $\mathbb{Q}$.
+
+the set of irrational numbers is denoted as $\mathbb{R} - \mathbb{Q}$.
 
 A real number x is rational if and only if there exist integers a and b with b != 0 such that x = a/b.
 
