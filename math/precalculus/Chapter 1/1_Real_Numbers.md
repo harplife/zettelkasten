@@ -30,10 +30,17 @@ An <mark class="hltr-trippy">Irrational Number</mark> is a real number that is n
 
 The real numbers that are *irrational* are those whose decimal expansion does not terminate and does not repeat. This includes $\sqrt{ 2 }$, $\pi$, and $\gamma$ (Euler's Constant).
 
+#otod The irrational numbers include the [algebraic numbers](https://en.wikipedia.org/wiki/Algebraic_number) and the [transcendental numbers](https://en.wikipedia.org/wiki/Transcendental_number). This, I think, is a topic for another day.
 
-The rational numbers include the integers, which includes the whole numbers, which then includes the natural numbers.
+An Integer is 
 
-The irrational numbers include the algebraic numbers and the transcendental numbers.
+whole numbers
+
+natural numbers
+
+
+
+
 
 ### Properties of the Real Numbers
 
