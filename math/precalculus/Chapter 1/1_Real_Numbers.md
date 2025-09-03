@@ -32,7 +32,7 @@ A <mark class="hltr-trippy">Rational Number</mark> is a real number that can be 
 
 The real numbers that are *rational* are those whose decimal expansion either terminates after a finite number of digits (e.g. $\frac{3}{4}=0.75$), or eventually begins to repeat the same finite sequence of digits over and over (e.g. $\frac{9}{44}=0.20454545\dots$).
 
-An <mark class="hltr-trippy">Irrational Number</mark> is a real number that is not rational. The set of irrational numbers, often referred to as "the irrationals", is denoted by either $\mathbb{R}/\mathbb{Q}$ or $\mathbb{R} - \mathbb{Q}$.
+An <mark class="hltr-trippy">Irrational Number</mark> is a real number that is not rational. The set of irrational numbers, often referred to as "the irrationals", is denoted by either $\mathbb{R} \setminus \mathbb{Q}$ or $\mathbb{R} - \mathbb{Q}$.
 
 The real numbers that are *irrational* are those whose decimal expansion does not terminate and does not repeat. This includes $\sqrt{ 2 }$, $\pi$, and $\gamma$ (Euler's Constant).
 
@@ -129,18 +129,18 @@ $$
 ### Common Set Notations & Operations
 
 
-| Notation  | Name                 | Meaning                      | Example           |
-| --------- | -------------------- | ---------------------------- | ----------------- |
-| $x \in A$ | Membership           | $x$ is an element of set $A$ | $3 \in \{1,2,3\}$ |
-|           | Non-Membership       |                              |                   |
-|           | Empty Set            |                              |                   |
-|           | Subset               |                              |                   |
-|           | Proper Subset        |                              |                   |
-|           | Equality             |                              |                   |
-|           | Cardinality          |                              |                   |
-|           | Union                |                              |                   |
-|           | Intersection         |                              |                   |
-|           | Difference           |                              |                   |
-|           | Symmetric Difference |                              |                   |
-|           |                      |                              |                   |
-|           |                      |                              |                   |
+| Notation               | Name                 | Meaning                                | Example                          |
+| ---------------------- | -------------------- | -------------------------------------- | -------------------------------- |
+| $x \in A$              | Membership           | $x$ is an element of set $A$           | $3 \in \{1,2,3\}$                |
+| x \notin A             | Non-Membership       | x is not an element of set A           | 4 \notin \{1,2,3\}               |
+| \emptyset              | Empty Set            | The set with no elements               | \emptyset = \{\}                 |
+| A \subseteq B          | Subset               | Every element of A is also in B        | \{1, 2\} \subseteq \{1,2,3\}     |
+| A \subset B            | Proper Subset        | A is a subset of B, but A \neq B       | \{1, 2\} \subseteq \{1,2,3\}     |
+| A = B                  | Equality             | Sets contain exactly the same elements | \{1,2,3\} = \{3,2,1\}            |
+|                        | Cardinality          |                                        |                                  |
+| A \cup B               | Union                | Elements in A or B (or both)           | \{1,2\} \cup \{2,3\} = \{1,2,3\} |
+| A \cap B               | Intersection         | Elements common to both A and B        | \{1,2\} \cap \{2,3\} = \{2\}     |
+| A - B or A \setminus B | Difference           | Elements in A but not in B             | \{1,2,3\} - \{2,3\} = \{1\}      |
+| A                      | Symmetric Difference |                                        |                                  |
+|                        |                      |                                        |                                  |
+|                        |                      |                                        |                                  |
