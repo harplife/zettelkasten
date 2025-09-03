@@ -59,6 +59,12 @@ That is, all *rational* numbers whose square is less than 2.
 - $1.4142^2 = 1.99996 < 2$, so $1.4142 \in S$.
 - But $1.5^2 = 2.25 > 2$, so $1.5 \notin S$.
 
-So the set $S$ is "pushing up" towards $\sqrt{ 2 }$. This means that any number $\geq \sqrt{ 2 }$ is an upper bound. For example, 2, 1.5, and 100.
+So the set $S$ is "pushing up" towards $\sqrt{ 2 }$. This means that any number $\geq \sqrt{ 2 }$ is an upper bound. For example, 2, 1.5, and 100. The least (smallest) upper bound would be $\sqrt{ 2 }$, except this is NOT a rational number. In other words, this set has a "hole", making the set *incomplete*.
 
-Least upper bound (supremum) : $\sqrt{ 2 }$.
+If this set was a set of real numbers, such that :
+
+$$
+S = {x \in \mathbb{R} : x^2 < 2}
+$$
+
+This set has a least upper bound and therefore has no holes - making it *complete*.
