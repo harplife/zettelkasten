@@ -14,11 +14,15 @@
 
 ![[Pasted image 20250902184442.png]]
 
-A Real Number is a number that can be used to measure a continuous one-dimensional quantity.
+A <mark class="hltr-trippy">Real Number</mark> is a number that can be used to measure a continuous one-dimensional quantity.
 
 The set of real numbers, sometimes called "the reals", is traditionally denoted by a bold $R$ or blackboard bold $\mathbb{R}$.
 
-The adjective real, used in the 17th century by Rene Descartes, distinguishes real numbers from imaginary numbers (e.g. $\sqrt{ -1 }$).
+The adjective *real*, used in the 17th century by **Rene Descartes**, distinguishes real numbers from imaginary numbers (e.g. $\sqrt{ -1 }$).
+
+> ![[Pasted image 20250902212157.png|200]]
+> "I think, therefore I am" - [Rene Descartes](https://en.wikipedia.org/wiki/René_Descartes)
+
 
 The real numbers include both the rational numbers and the irrational numbers.
 
