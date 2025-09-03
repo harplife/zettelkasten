@@ -14,9 +14,7 @@
 
 
 
-A <mark class="hltr-trippy">Real Number</mark> is a number that can be used to measure a continuous one-dimensional quantity.
-
-The set of real numbers, sometimes called "the reals", is traditionally denoted by a bold $R$ or blackboard bold $\mathbb{R}$.
+A <mark class="hltr-trippy">Real Number</mark> is a number that can be used to measure a continuous one-dimensional quantity. The set of real numbers, sometimes called "the reals", is traditionally denoted by a bold $R$ or blackboard bold $\mathbb{R}$.
 
 The adjective *real*, used in the 17th century by **Rene Descartes**, distinguishes real numbers from imaginary numbers (e.g. $\sqrt{ -1 }$).
 
@@ -25,13 +23,14 @@ The adjective *real*, used in the 17th century by **Rene Descartes**, distinguis
 
 The real numbers include both the *rational numbers* and the *irrational numbers*.
 
-A <mark class="hltr-trippy">rational number</mark> is a number that can be expressed as a quotient (or fraction) of two integers, a numerator $p$ and a non-zero denominator $q$.
+A <mark class="hltr-trippy">rational number</mark> is a real number that can be expressed as a quotient (or fraction) of two integers, a numerator $p$ and a non-zero denominator $q$. The set of rational numbers, often referred to as "the rationals", is denoted by a bold $Q$ or blackboard bold $\mathbb{Q}$.
 
-The set of rational numbers, often referred to as "the rationals", is denoted by a bold $Q$ or blackboard bold $\mathbb{Q}$.
+The real numbers that are *rational* are those whose decimal expansion either terminates after a finite number of digits (e.g. $\frac{3}{4}=0.75$), or eventually begins to repeat the same finite sequence of digits over and over (e.g. $\frac{9}{44}=0.20454545\dots$).
 
-the set of irrational numbers is denoted as $\mathbb{R} - \mathbb{Q}$.
+An <mark class="hltr-trippy">irrational number</mark> is a real number that is not rational. The set of irrational numbers, often referred to as "the irrationals", is denoted by either $\mathbb{R}/\mathbb{Q}$ or $\mathbb{R} - \mathbb{Q}$.
 
-A real number x is rational if and only if there exist integers a and b with b != 0 such that x = a/b.
+The real numbers that are *irrational* are those whose decimal expansion 
+
 
 The rational numbers include the integers, which includes the whole numbers, which then includes the natural numbers.
 
