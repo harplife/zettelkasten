@@ -20,6 +20,8 @@ The adjective *real*, used in the 17th century by **Rene Descartes**, distinguis
 > ![[Pasted image 20250902212157.png|200]]
 > "I think, therefore I am" - [Rene Descartes](https://en.wikipedia.org/wiki/René_Descartes)
 
+### Rational vs. Irrational
+
 The real numbers include both the *rational numbers* and the *irrational numbers*.
 
 A <mark class="hltr-trippy">Rational Number</mark> is a real number that can be expressed as a quotient (or fraction) of two integers, a numerator $p$ and a non-zero denominator $q$. The set of rational numbers, often referred to as "the rationals", is denoted by a bold $Q$ or blackboard bold $\mathbb{Q}$.
@@ -32,11 +34,8 @@ The real numbers that are *irrational* are those whose decimal expansion does no
 
 #otod The irrational numbers include the [algebraic numbers](https://en.wikipedia.org/wiki/Algebraic_number) and the [transcendental numbers](https://en.wikipedia.org/wiki/Transcendental_number). This, I think, is a topic for another day.
 
-An Integer is 
+#### Natural Numbers
 
-whole numbers
-
-natural numbers
 
 
 
@@ -52,6 +51,8 @@ Given $a,b \in \mathbb{R}$,
 4. <mark class="hltr-trippy">Distributive</mark> : $a(b + c) = ab + ac$
 5. <mark class="hltr-trippy">Ordered</mark> : Real numbers can be compared (e.g. less than, or greater than) and ordered on the number line.
 6. <mark class="hltr-trippy">Complete</mark> : Every non-empty set of real numbers that is bounded above has a *least upper bound* (supremum). This is what separates $\mathbb{R}$ from the rationals $\mathbb{Q}$ and makes calculus possible.
+
+> [!note] Commutative, Associative, and Distributive properties are all that matters in everyday Algebra.
 
 #### Explanation of Completeness
 
