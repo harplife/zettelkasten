@@ -15,16 +15,20 @@
 
 A <mark class="hltr-trippy">Real Number</mark> is a number that can be used to measure a continuous one-dimensional quantity. The set of real numbers, sometimes called "the reals", is traditionally denoted by a bold $R$ or blackboard bold $\mathbb{R}$.
 
-The adjective *real*, used in the 17th century by **Rene Descartes**, distinguishes real numbers from imaginary numbers (e.g. $\sqrt{ -1 }$).
+The adjective *real*, used in the 17th century by **Rene Descartes**, distinguishes real numbers from *imaginary* numbers (e.g. $\sqrt{ -1 }$).
 
 > ![[Pasted image 20250902212157.png|200]]
 > "I think, therefore I am" - [Rene Descartes](https://en.wikipedia.org/wiki/René_Descartes)
+
+#todo Complex numbers and imaginary numbers are topics for later.
 
 ### Rational vs. Irrational
 
 The real numbers include both the *rational numbers* and the *irrational numbers*.
 
 A <mark class="hltr-trippy">Rational Number</mark> is a real number that can be expressed as a quotient (or fraction) of two integers, a numerator $p$ and a non-zero denominator $q$. The set of rational numbers, often referred to as "the rationals", is denoted by a bold $Q$ or blackboard bold $\mathbb{Q}$.
+
+> [!fun fact] The rational numbers are denoted with $Q$ because it comes from the word "quotient".
 
 The real numbers that are *rational* are those whose decimal expansion either terminates after a finite number of digits (e.g. $\frac{3}{4}=0.75$), or eventually begins to repeat the same finite sequence of digits over and over (e.g. $\frac{9}{44}=0.20454545\dots$).
 
@@ -36,9 +40,22 @@ The real numbers that are *irrational* are those whose decimal expansion does no
 
 #### Natural Numbers
 
+The <mark class="hltr-trippy">Natural Numbers</mark> are the most basic numbers which are used to counting, and does not contain any fractional part (1, 2, 3, and so on). Typically, the natural numbers do not include 0.
 
+> [!note] Whether the natural numbers include 0 is a topic of debate.
+> Is 0 a number or an absence of number? Does 0 even exist?
 
+The set of natural numbers is denoted by a bold $N$ or blackboard bold $\mathbb{N}$.
 
+The **Whole Numbers** are basically natural numbers with 0 included.
+
+The <mark class="hltr-trippy">Integers</mark> are all natural numbers, their negatives, and zero. The set of integers is denoted by a bold $Z$ or blackboard bold $\mathbb{Z}$.
+
+> [!fun fact] The integers are denoted with $Z$ because of the German word "Zahlen", which means "numbers".
+
+> [!important] The integers are a subset of rational numbers.
+> Putting it all together, the hierarchy of number systems goes like this :
+> $N \subset Z \subset Q \subset R \subset C$
 
 
 ### Properties of the Real Numbers
@@ -76,3 +93,29 @@ S = {x \in \mathbb{R} : x^2 < 2}
 $$
 
 This set has a least upper bound and therefore has no holes - making it *complete*.
+
+## Sets and Intervals
+
+A <mark class="hltr-trippy">Set</mark> is a well-defined collection of *distinct* objects that are considered as a single entity.
+- It is denoted with capital letters (e.g. $A$, $B$, $C$).
+- Set notation uses curly braces to list its objects (e.g. $A = \{ 1,2,3,4 \}$).
+- There are no duplicates in a set (e.g. $\{ 1,2,2,3 \} = \{ 1, 2, 3 \}$).
+- Order of objects does not matter.
+- A set can be either finite (e.g. $\{ 1,2,3 \}$) or infinite (e.g. $\mathbb{Z}$).
+- A set can be empty, which is denoted as $\emptyset$.
+
+An <mark class="hltr-trippy">Element</mark> (aka **Member**) is an individual object contained in a set.
+- If $x$ is an element of a set $A$, then it is written as $x \in A$ (x is in A).
+- If $x$ is not an element of a set $A$, then it is written as $x \notin A$ (x is not in A).
+
+A <mark class="hltr-trippy">Set-Builder Notation</mark> is a concise way to describe a set by a property that its elements must satisfy, rather than listing all elements. It uses the form :
+
+$$
+\{ x \in U | \text{condition on } x \}
+$$
+
+> [!example] A set of even integers
+> $A = \{x \in \mathbb{Z} | x \mathbin{\%} 2 = 0\}$
+
+### Common Set Notations & Operations
+
