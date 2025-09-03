@@ -23,8 +23,7 @@ The adjective *real*, used in the 17th century by **Rene Descartes**, distinguis
 > ![[Pasted image 20250902212157.png|200]]
 > "I think, therefore I am" - [Rene Descartes](https://en.wikipedia.org/wiki/René_Descartes)
 
-
-The real numbers include both the rational numbers and the irrational numbers.
+The real numbers include both the *rational numbers* $\mathbb{Q}$ and the *irrational numbers*.
 
 A rational number is a number that can be expressed as a quotient of two integers.
 
