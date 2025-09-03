@@ -28,7 +28,7 @@ The real numbers that are *rational* are those whose decimal expansion either te
 
 An <mark class="hltr-trippy">irrational number</mark> is a real number that is not rational. The set of irrational numbers, often referred to as "the irrationals", is denoted by either $\mathbb{R}/\mathbb{Q}$ or $\mathbb{R} - \mathbb{Q}$.
 
-The real numbers that are *irrational* are those whose decimal expansion 
+The real numbers that are *irrational* are those whose decimal expansion does not terminate and does not repeat.
 
 
 The rational numbers include the integers, which includes the whole numbers, which then includes the natural numbers.
@@ -37,4 +37,11 @@ The irrational numbers include the algebraic numbers and the transcendental numb
 
 ### Properties of the Real Numbers
 
-1. Closure : If $a,b $
+Given $a,b \in \mathbb{R}$,
+
+1. <mark class="hltr-trippy">Closed</mark> : $a + b$, $a - b$, $a \times b$, $\frac{a}{b} (b \neq 0)$ are all in $\mathbb{R}$.
+2. <mark class="hltr-trippy">Commutative</mark> : $a + b = b + a$, $a \times b = b \times a$
+3. <mark class="hltr-trippy">Associative</mark> : $(a + b) + c = a + (b + c)$, $(a \times b) \times c = a \times (b \times c)$
+4. <mark class="hltr-trippy">Distributive</mark> : $a(b + c) = ab + ac$
+5. <mark class="hltr-trippy">Ordered</mark> : Real numbers can be compared (e.g. less than, or greater than) and ordered on the number line.
+6. <mark class="hltr-trippy">Complete</mark> : Every non-empty set of real numbers that is bounded above has a least upper bound (supremum). This is what separates $\mathbb{R}$ from the rationals $\mathbb{Q}$ and makes calculus possible.
