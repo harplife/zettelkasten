@@ -22,13 +22,13 @@ The adjective *real*, used in the 17th century by **Rene Descartes**, distinguis
 
 The real numbers include both the *rational numbers* and the *irrational numbers*.
 
-A <mark class="hltr-trippy">rational number</mark> is a real number that can be expressed as a quotient (or fraction) of two integers, a numerator $p$ and a non-zero denominator $q$. The set of rational numbers, often referred to as "the rationals", is denoted by a bold $Q$ or blackboard bold $\mathbb{Q}$.
+A <mark class="hltr-trippy">Rational Number</mark> is a real number that can be expressed as a quotient (or fraction) of two integers, a numerator $p$ and a non-zero denominator $q$. The set of rational numbers, often referred to as "the rationals", is denoted by a bold $Q$ or blackboard bold $\mathbb{Q}$.
 
 The real numbers that are *rational* are those whose decimal expansion either terminates after a finite number of digits (e.g. $\frac{3}{4}=0.75$), or eventually begins to repeat the same finite sequence of digits over and over (e.g. $\frac{9}{44}=0.20454545\dots$).
 
-An <mark class="hltr-trippy">irrational number</mark> is a real number that is not rational. The set of irrational numbers, often referred to as "the irrationals", is denoted by either $\mathbb{R}/\mathbb{Q}$ or $\mathbb{R} - \mathbb{Q}$.
+An <mark class="hltr-trippy">Irrational Number</mark> is a real number that is not rational. The set of irrational numbers, often referred to as "the irrationals", is denoted by either $\mathbb{R}/\mathbb{Q}$ or $\mathbb{R} - \mathbb{Q}$.
 
-The real numbers that are *irrational* are those whose decimal expansion does not terminate and does not repeat.
+The real numbers that are *irrational* are those whose decimal expansion does not terminate and does not repeat. This includes $\sqrt{ 2 }$, $\pi$
 
 
 The rational numbers include the integers, which includes the whole numbers, which then includes the natural numbers.
