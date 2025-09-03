@@ -13,7 +13,6 @@
 ## Real Numbers
 
 
-
 A <mark class="hltr-trippy">Real Number</mark> is a number that can be used to measure a continuous one-dimensional quantity. The set of real numbers, sometimes called "the reals", is traditionally denoted by a bold $R$ or blackboard bold $\mathbb{R}$.
 
 The adjective *real*, used in the 17th century by **Rene Descartes**, distinguishes real numbers from imaginary numbers (e.g. $\sqrt{ -1 }$).
@@ -35,3 +34,7 @@ The real numbers that are *irrational* are those whose decimal expansion
 The rational numbers include the integers, which includes the whole numbers, which then includes the natural numbers.
 
 The irrational numbers include the algebraic numbers and the transcendental numbers.
+
+### Properties of the Real Numbers
+
+1. Closure : If $a,b $
