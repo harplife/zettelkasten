@@ -115,7 +115,16 @@ $$
 $$
 
 > [!example] A set of even integers
-> $A = \{x \in \mathbb{Z} | x \mathbin{\%} 2 = 0\}$
+> $A = \{x \in \mathbb{Z} \mid x \bmod 2 = 0\}$
+
+> [!example] A set of integers between 1 and 10
+> $A = \{ x \in \mathbb{Z} \mid 1 \leq x \leq 10 \}$
+
+> [!example] A set of rational numbers greater than 0
+> $A = \{ x \in Q \mid x > 0 \}$
+
+> [!example] Real solutions to $x^2 = 4$
+> $A = \{ x \in R \mid x^2 = 4 \}$
 
 ### Common Set Notations & Operations
 
