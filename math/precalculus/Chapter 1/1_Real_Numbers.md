@@ -44,4 +44,21 @@ Given $a,b \in \mathbb{R}$,
 3. <mark class="hltr-trippy">Associative</mark> : $(a + b) + c = a + (b + c)$, $(a \times b) \times c = a \times (b \times c)$
 4. <mark class="hltr-trippy">Distributive</mark> : $a(b + c) = ab + ac$
 5. <mark class="hltr-trippy">Ordered</mark> : Real numbers can be compared (e.g. less than, or greater than) and ordered on the number line.
-6. <mark class="hltr-trippy">Complete</mark> : Every non-empty set of real numbers that is bounded above has a least upper bound (supremum). This is what separates $\mathbb{R}$ from the rationals $\mathbb{Q}$ and makes calculus possible.
+6. <mark class="hltr-trippy">Complete</mark> : Every non-empty set of real numbers that is bounded above has a *least upper bound* (supremum). This is what separates $\mathbb{R}$ from the rationals $\mathbb{Q}$ and makes calculus possible.
+
+#### Explanation of Completeness
+
+Consider the set :
+$$
+S = {x \in \mathbb{Q} : x^2 < 2}
+$$
+
+That is, all *rational* numbers whose square is less than 2.
+- $1.4^2 = 1.96 < 2$, so $1.4 \in S$.
+- $1.41^2 = 1.9881 < 2$, so $1.41 \in S$.
+- $1.4142^2 = 1.99996 < 2$, so $1.4142 \in S$.
+- But $1.5^2 = 2.25 > 2$, so $1.5 \notin S$.
+
+So the set $S$ is "pushing up" towards $\sqrt{ 2 }$. This means that any number $\geq \sqrt{ 2 }$ is an upper bound. For example, 2, 1.5, and 100.
+
+Least upper bound (supremum) : $\sqrt{ 2 }$.
