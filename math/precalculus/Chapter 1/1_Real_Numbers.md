@@ -128,3 +128,19 @@ $$
 
 ### Common Set Notations & Operations
 
+
+| Notation  | Name                 | Meaning                      | Example           |
+| --------- | -------------------- | ---------------------------- | ----------------- |
+| $x \in A$ | Membership           | $x$ is an element of set $A$ | $3 \in \{1,2,3\}$ |
+|           | Non-Membership       |                              |                   |
+|           | Empty Set            |                              |                   |
+|           | Subset               |                              |                   |
+|           | Proper Subset        |                              |                   |
+|           | Equality             |                              |                   |
+|           | Cardinality          |                              |                   |
+|           | Union                |                              |                   |
+|           | Intersection         |                              |                   |
+|           | Difference           |                              |                   |
+|           | Symmetric Difference |                              |                   |
+|           |                      |                              |                   |
+|           |                      |                              |                   |
