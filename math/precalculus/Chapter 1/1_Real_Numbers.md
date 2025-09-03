@@ -12,7 +12,7 @@
 
 ## Real Numbers
 
-![[Pasted image 20250902184442.png]]
+
 
 A <mark class="hltr-trippy">Real Number</mark> is a number that can be used to measure a continuous one-dimensional quantity.
 
