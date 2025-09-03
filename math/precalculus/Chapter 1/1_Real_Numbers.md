@@ -96,6 +96,8 @@ This set has a least upper bound and therefore has no holes - making it *complet
 
 ## Sets and Intervals
 
+### Sets
+
 A <mark class="hltr-trippy">Set</mark> is a well-defined collection of *distinct* objects that are considered as a single entity.
 - It is denoted with capital letters (e.g. $A$, $B$, $C$).
 - Set notation uses curly braces to list its objects (e.g. $A = \{ 1,2,3,4 \}$).
@@ -126,7 +128,9 @@ $$
 > [!example] Real solutions to $x^2 = 4$
 > $A = \{ x \in R \mid x^2 = 4 \}$
 
-### Common Set Notations & Operations
+
+
+#### Common Set Notations & Operations
 
 
 | Notation                   | Name                                | Meaning                                        | Example                               |
@@ -153,3 +157,26 @@ There are more, such as :
 - Indexed Intersection
 
 This all relates to [Set Theory](https://en.wikipedia.org/wiki/Set_theory), which is a topic for later.
+
+
+### Intervals
+
+An <mark class="hltr-trippy">Interval</mark> is a set of real numbers that contains all real numbers between two given endpoints.
+- If $a$ and $b$ are real numbers with $a < b$, then an interval is all the numbers between $a$ and $b$, possibly including or excluding the endpoints.
+
+An interval can be either *bounded* or *unbounded*.
+
+A <mark class="hltr-trippy">Bounded Interval</mark> is an interval with finite endpoints; in other words, both endpoints $a$ and $b$ are finite. A bounded interval can be *open*, *closed*, or *half-open/closed*.
+
+An <mark class="hltr-trippy">Open Interval</mark> contains all numbers strictly between two given endpoints, endpoints not included. The open interval is denoted with parenthesis (i.e. $(a, b)$).
+
+$$
+(a, b) = \{x \in R \mid a < x < b\}
+$$
+
+A <mark class="hltr-trippy">Closed Interval</mark> contains all numbers between two given endpoints, endpoints included. The closed interval is denoted with brackets (i.e. $[a, b]$).
+
+$$
+[a,b] = \{ x \in R \mid a \leq x \leq b \}
+$$
+
