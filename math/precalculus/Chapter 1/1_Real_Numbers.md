@@ -129,18 +129,27 @@ $$
 ### Common Set Notations & Operations
 
 
-| Notation               | Name                 | Meaning                                | Example                          |
-| ---------------------- | -------------------- | -------------------------------------- | -------------------------------- |
-| $x \in A$              | Membership           | $x$ is an element of set $A$           | $3 \in \{1,2,3\}$                |
-| x \notin A             | Non-Membership       | x is not an element of set A           | 4 \notin \{1,2,3\}               |
-| \emptyset              | Empty Set            | The set with no elements               | \emptyset = \{\}                 |
-| A \subseteq B          | Subset               | Every element of A is also in B        | \{1, 2\} \subseteq \{1,2,3\}     |
-| A \subset B            | Proper Subset        | A is a subset of B, but A \neq B       | \{1, 2\} \subseteq \{1,2,3\}     |
-| A = B                  | Equality             | Sets contain exactly the same elements | \{1,2,3\} = \{3,2,1\}            |
-|                        | Cardinality          |                                        |                                  |
-| A \cup B               | Union                | Elements in A or B (or both)           | \{1,2\} \cup \{2,3\} = \{1,2,3\} |
-| A \cap B               | Intersection         | Elements common to both A and B        | \{1,2\} \cap \{2,3\} = \{2\}     |
-| A - B or A \setminus B | Difference           | Elements in A but not in B             | \{1,2,3\} - \{2,3\} = \{1\}      |
-| A                      | Symmetric Difference |                                        |                                  |
-|                        |                      |                                        |                                  |
-|                        |                      |                                        |                                  |
+| Notation                   | Name                                | Meaning                                        | Example                               |
+| -------------------------- | ----------------------------------- | ---------------------------------------------- | ------------------------------------- |
+| $x \in A$                  | Membership                          | $x$ is an element of set $A$                   | $3 \in \{1,2,3\}$                     |
+| $x \notin A$               | Non-Membership                      | $x$ is not an element of set $A$               | $4 \notin \{1,2,3\}$                  |
+| $\emptyset$                | Empty Set                           | The set with no elements                       | $\emptyset = \{\}$                    |
+| $A^c$ or $A^\prime$        | Complement                          | Not in $A$ (relative to the universal set $U$) | $A^c = U - A$                         |
+| $A \subseteq B$            | Subset                              | Every element of $A$ is also in $B$            | $\{1, 2\} \subseteq \{1,2,3\}$        |
+| $A \subset B$              | Proper Subset                       | $A$ is a subset of $B$, but $A \neq B$         | $\{1, 2\} \subset \{1,2,3\}$          |
+| $A \supseteq B$            | Superset                            | Every element of $B$ is in $A$                 | $\{1,2,3\} \supseteq \{1,2\}$         |
+| $A \supset B$              | Proper Superset                     | $A$ is a superset of $B$, but $A \neq B$       | $\{1,2,3\} \supset \{1,2\}$           |
+| $A = B$                    | Equality                            | Sets contain exactly the same elements         | $\{1,2,3\} = \{3,2,1\}$               |
+| $\lvert A \rvert$          | Cardinality                         | Number of elements of set $A$                  | $\|\{1,2,3\}\| = 3$                   |
+| $A \cup B$                 | Union                               | Elements in $A$ or $B$ (or both)               | $\{1,2\} \cup \{2,3\} = \{1,2,3\}$    |
+| $A \cap B$                 | Intersection                        | Elements common to both $A$ and $B$            | $\{1,2\} \cap \{2,3\} = \{2\}$        |
+| $A - B$ or $A \setminus B$ | Difference<br>(Relative Complement) | Elements in $A$ but not in $B$                 | $\{1,2,3\} - \{2,3\} = \{1\}$         |
+| $A \triangle B$            | Symmetric Difference                | Elements in $A$ or $B$ but not both            | $\{1,2\} \triangle \{2,3\} = \{1,3\}$ |
+
+There are more, such as :
+- Power Set
+- Cartesian Product
+- Indexed Union
+- Indexed Intersection
+
+This all relates to [Set Theory](https://en.wikipedia.org/wiki/Set_theory), which is a topic for later.
