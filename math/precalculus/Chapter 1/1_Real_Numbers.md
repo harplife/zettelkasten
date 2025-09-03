@@ -164,9 +164,7 @@ This all relates to [Set Theory](https://en.wikipedia.org/wiki/Set_theory), whic
 An <mark class="hltr-trippy">Interval</mark> is a set of real numbers that contains all real numbers between two given endpoints.
 - If $a$ and $b$ are real numbers with $a < b$, then an interval is all the numbers between $a$ and $b$, possibly including or excluding the endpoints.
 
-An interval can be either *bounded* or *unbounded*.
-
-A <mark class="hltr-trippy">Bounded Interval</mark> is an interval with finite endpoints; in other words, both endpoints $a$ and $b$ are finite. A bounded interval can be *open*, *closed*, or *half-open/closed*.
+An interval can be *open*, *closed*, or *half-open/closed*.
 
 An <mark class="hltr-trippy">Open Interval</mark> contains all numbers strictly between two given endpoints, endpoints not included. The open interval is denoted with parenthesis (i.e. $(a, b)$).
 
@@ -180,3 +178,12 @@ $$
 [a,b] = \{ x \in R \mid a \leq x \leq b \}
 $$
 
+A <mark class="hltr-trippy">Half-Open/Closed Interval</mark> contains all numbers between two given endpoints, either including or excluding one of the endpoints.
+- $[a, b)$ : includes $a$ but not $b$
+- $(a, b]$ : includes $b$ but not $a$
+
+An interval can also be either *bounded* or *unbounded*.
+
+A <mark class="hltr-trippy">Bounded Interval</mark> is an interval with finite endpoints; in other words, both endpoints $a$ and $b$ are finite.
+
+An <mark class="hltr-trippy">Unbounded Interval</mark> is an interval that extends infinitely in one direction.
