@@ -186,4 +186,19 @@ An interval can also be either *bounded* or *unbounded*.
 
 A <mark class="hltr-trippy">Bounded Interval</mark> is an interval with finite endpoints; in other words, both endpoints $a$ and $b$ are finite.
 
-An <mark class="hltr-trippy">Unbounded Interval</mark> is an interval that extends infinitely in one direction.
+An <mark class="hltr-trippy">Unbounded Interval</mark> is an interval that extends infinitely in one direction :
+1. $(-\infty, b)$ : all real numbers less than $b$
+2. $(-\infty, b]$ : all real numbers less than or equal to $b$
+3. $(a, \infty)$ : all real numbers greater than $a$
+4. $[a, \infty)$ : all real numbers greater than or equal to $a$
+5. $(-\infty,\infty)$ : the entire real line $R$
+
+> [!important] Infinity is NOT a number, so intervals with infinity are always open on that side.
+
+On a graph, an open interval is marked with open circle and a closed interval is marked with closed circle. Like so :
+
+![[Pasted image 20250903104158.png|500]]
+
+> [!note] No smallest or largest number in an open interval
+> Any interval contains infinitely many number. In a closed interval, such as $[0, 1]$, the smallest number is $0$ and the largest is $1$. In an open interval, such as $(0, 1)$, there is no smallest or largest number. There is always a smaller number reaching $0$, such as $0.1$, $0.01$, and so on. Likewise, there is always a larger number reaching $1$, such as $0.9$, $0.99$, and so on.
+
