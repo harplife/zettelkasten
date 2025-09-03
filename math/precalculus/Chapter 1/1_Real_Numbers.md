@@ -28,7 +28,7 @@ The real numbers that are *rational* are those whose decimal expansion either te
 
 An <mark class="hltr-trippy">Irrational Number</mark> is a real number that is not rational. The set of irrational numbers, often referred to as "the irrationals", is denoted by either $\mathbb{R}/\mathbb{Q}$ or $\mathbb{R} - \mathbb{Q}$.
 
-The real numbers that are *irrational* are those whose decimal expansion does not terminate and does not repeat. This includes $\sqrt{ 2 }$, $\pi$
+The real numbers that are *irrational* are those whose decimal expansion does not terminate and does not repeat. This includes $\sqrt{ 2 }$, $\pi$, and $\gamma$ (Euler's Constant).
 
 
 The rational numbers include the integers, which includes the whole numbers, which then includes the natural numbers.
