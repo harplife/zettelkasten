@@ -229,7 +229,7 @@ $$
 The distance between two real numbers $a$ and $b$ is defined as :
 
 $$
-d(a, b) = \lvert a - b \rvert
+d(a, b) = \lvert b - a \rvert
 $$
 
 > [!note] The distance formula `d(a,b)` is generalized later to 2D and beyond.
@@ -245,7 +245,6 @@ There are several properties of Absolute Value :
 2. Identity : $|x| = 0 \iff x = 0$
 3. Symmetry : $|-x| = |x|$
 4. Multiplication Rule : $|ab| = |a||b|$
-5. Quotient Rule : $| \frac{a}{b} | = \frac{|a|}{|b|}$
+5. Quotient Rule : $| \frac{a}{b} | = \frac{|a|}{|b|}$ (given $b$ is not zero)
 6. Triangle Inequality : $|a + b| \leq |a| + |b|$
-
 
