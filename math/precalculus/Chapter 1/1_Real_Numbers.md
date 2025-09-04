@@ -241,4 +241,10 @@ $$
 
 
 There are several properties of Absolute Value :
+1. Non-negativity : $|x| \geq 0$
+2. Identity : $|x| = 0 \iff x = 0$
+3. Symmetry : $|-x| = |x|$
+4. Multiplication Rule : $|ab| = |a||b|$
+5. Triangle Inequality : $|a + b| \leq |a| + |b|$
+
 
