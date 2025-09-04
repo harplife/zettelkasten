@@ -212,3 +212,12 @@ On a graph, an open interval is marked with open circle and a closed interval is
 > [!note] No smallest or largest number in an open interval
 > Any interval contains infinitely many number. In a closed interval, such as $[0, 1]$, the smallest number is $0$ and the largest is $1$. In an open interval, such as $(0, 1)$, there is no smallest or largest number. There is always a smaller number reaching $0$, such as $0.1$, $0.01$, and so on. Likewise, there is always a larger number reaching $1$, such as $0.9$, $0.99$, and so on.
 
+## Absolute Value and Distance
+
+The <mark class="hltr-trippy">Absolute Value</mark> of a real number $x$, written $\lvert x \rvert$, is its distance from $0$ on the real number line.
+
+In piecewise form, Absolute Value is :
+
+$$
+\lvert x \rvert = 
+$$
