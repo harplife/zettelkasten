@@ -214,10 +214,31 @@ On a graph, an open interval is marked with open circle and a closed interval is
 
 ## Absolute Value and Distance
 
-The <mark class="hltr-trippy">Absolute Value</mark> of a real number $x$, written $\lvert x \rvert$, is its distance from $0$ on the real number line.
+The <mark class="hltr-trippy">Absolute Value</mark> of a real number $x$, written $\lvert x \rvert$, is its *distance* from $0$ on the real number line.
 
 In piecewise form, Absolute Value is :
 
 $$
-\lvert x \rvert = 
+\lvert a \rvert =
+  \begin{cases}
+    a & \text{if $a \geq 0$} \\
+    -a & \text{if $a < 0$}
+  \end{cases}
 $$
+
+The distance between two real numbers $a$ and $b$ is defined as :
+
+$$
+d(a, b) = \lvert a - b \rvert
+$$
+
+> [!note] The distance formula `d(a,b)` is generalized later to 2D and beyond.
+> 2D (plane) distance formula is solved using Pythagoras :
+> 
+> $$
+> d((x_{1},y_{1}),(x_{2},y_{2})) = \sqrt{ (x_{1}-x_{2})^2 + (y_{1}-y_{2})^2 }
+> $$
+
+
+There are several properties of Absolute Value :
+
