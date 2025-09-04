@@ -158,9 +158,16 @@ There are more, such as :
 
 #todo This all relates to [Set Theory](https://en.wikipedia.org/wiki/Set_theory), which is a topic for later.
 
+> [!note] Significance of Sets in Calculus
+> Sets provide a precise language for describing where a function "lives" and where it's valid. Functions in calculus are written as mappings between sets, like
+> 
+> $$
+> f : A \to B
+> $$
+> 
+> which means "$f$ takes elements from set $A$ (the domain) into set $B$ (the codomain)".
 
-> [!note] Significance of Set in Calculus
->                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+
 
 
 ### Intervals
