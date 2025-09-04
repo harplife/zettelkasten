@@ -156,7 +156,11 @@ There are more, such as :
 - Indexed Union
 - Indexed Intersection
 
-This all relates to [Set Theory](https://en.wikipedia.org/wiki/Set_theory), which is a topic for later.
+#todo This all relates to [Set Theory](https://en.wikipedia.org/wiki/Set_theory), which is a topic for later.
+
+
+> [!note] Significance of Set in Calculus
+>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
 
 
 ### Intervals
