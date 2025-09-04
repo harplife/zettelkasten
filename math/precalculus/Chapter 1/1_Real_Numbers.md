@@ -166,9 +166,8 @@ There are more, such as :
 > $$
 > 
 > which means "$f$ takes elements from set $A$ (the domain) into set $B$ (the codomain)".
-
-
-
+> 
+> Other than defining a Function, sets are used in Calculus; Derivatives and integrals are defined on sets. Series and convergence rely on subsets of numbers.
 
 ### Intervals
 
