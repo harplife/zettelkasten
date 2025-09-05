@@ -254,7 +254,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JE_01.md",
+                "file": "math/precalculus/Exercises/ex_1_1_20250904.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -264,7 +264,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for JE_01"
+              "title": "Backlinks for ex_1_1_20250904"
             }
           }
         ],
@@ -272,8 +272,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 362.5,
-    "collapsed": true
+    "width": 362.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -293,9 +292,9 @@
   },
   "active": "93012466dc67770a",
   "lastOpenFiles": [
-    "math/algebra_and_trigonometry/chapter_p/chapter_p1_exercises.md",
-    "math/precalculus/Exercises/ex_1_1_20250904.md",
     "math/precalculus/Chapter 1/1_Real_Numbers.md",
+    "math/precalculus/Exercises/ex_1_1_20250904.md",
+    "math/algebra_and_trigonometry/chapter_p/chapter_p1_exercises.md",
     "math/precalculus/Exercises",
     "math/precalculus/E.md",
     "attachments/Pasted image 20250903104158.png",

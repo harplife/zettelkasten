@@ -1333,7 +1333,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "JE_01.md",
+                    "file": "math/precalculus/Exercises/ex_1_1_20250904.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1343,7 +1343,7 @@
                     "unlinkedCollapsed": false
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for JE_01"
+                  "title": "Backlinks for ex_1_1_20250904"
                 }
               }
             ],
@@ -1351,8 +1351,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 362.5,
-        "collapsed": true
+        "width": 362.5
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -1371,7 +1370,7 @@
         }
       },
       "active": "93012466dc67770a",
-      "mtime": "2025-09-04T13:58:25-05:00",
+      "mtime": "2025-09-04T19:25:16-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "math",
