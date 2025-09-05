@@ -94,6 +94,45 @@ $$
 
 This set has a least upper bound and therefore has no holes - making it *complete*.
 
+### Repeating Decimal to Fraction
+
+There's a neat algebraic trick for turning repeating decimals into fractions, which works by :
+1. Naming the decimal
+2. Multiply it by a power of 10 so the repeating part lines up
+3. Subtract to cancel the repeat
+4. Solve for the variable
+
+#### One Digit Repeats
+
+Suppose you have : $x = 0.\overline{3} = 0.3333\dots$
+
+1. Let $x = 0.\overline{3}$
+2. Multiply $x$ by 10 : $10x = 3.\overline{3}$
+3. Subtract the original equation : $10x-x = 3.\overline{3} - 0.\overline{3}$
+4. Solve : $9x = 3$
+5. $x = \frac{1}{3}$
+
+#### Two Digits Repeat
+
+Suppose you have : $y = 0.\overline{27} = 0.272727\dots$
+
+1. Let $y = 0.\overline{27}$
+2. Multiply $y$ by 100 : $100y = 27.\overline{27}$
+3. Subtract the original equation : $100y - y = 27.\overline{27} - 0.\overline{27}$
+4. Solve : $99y = 27$
+5. $y = \frac{3}{11}$
+
+#### Non-Repeating Digits + Repeating Digits
+
+Suppose you have : $z = 0.16\overline{3} = 0.1633333\dots$
+
+1. Let $z = 0.16\overline{3}$
+2. Multiply $z$ by 1000 : $1000z = 163.\overline{3}$
+3. Multiply $z$ by 100 : $100z = 16.\overline{3}$
+4. Subtract the two new equations : $1000z - 100z = 163.\overline{3} - 16.\overline{3}$
+5. Solve : $900z = 147$
+6. $z = \frac{49}{300}$
+
 ## Sets and Intervals
 
 ### Sets
