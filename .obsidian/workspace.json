@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "math/precalculus/Exercises/ex_1_1_20250904.md",
+                "file": "math/precalculus/Chapter 1/2_Exponents_and_Radicals.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "ex_1_1_20250904"
+              "title": "2_Exponents_and_Radicals"
             }
           },
           {
@@ -117,13 +117,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "math/precalculus/Exercises/ex_1_1_20250904.md",
+                "file": "math/precalculus/Chapter 1/2_Exponents_and_Radicals.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ex_1_1_20250904"
+              "title": "Outline of 2_Exponents_and_Radicals"
             }
           }
         ]
@@ -254,7 +254,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "math/precalculus/Exercises/ex_1_1_20250904.md",
+                "file": "math/precalculus/Chapter 1/2_Exponents_and_Radicals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -264,7 +264,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for ex_1_1_20250904"
+              "title": "Backlinks for 2_Exponents_and_Radicals"
             }
           }
         ],
@@ -293,6 +293,7 @@
   "active": "93012466dc67770a",
   "lastOpenFiles": [
     "math/precalculus/Chapter 1/1_Real_Numbers.md",
+    "math/precalculus/Chapter 1/2_Exponents_and_Radicals.md",
     "math/precalculus/Exercises/ex_1_1_20250904.md",
     "math/algebra_and_trigonometry/chapter_p/chapter_p1_exercises.md",
     "math/precalculus/Exercises",
@@ -336,7 +337,6 @@
     "cpp_global_state_context_objects.md",
     "computer_science/languages/cpp/knou_cpp_notes.md",
     "computer_science/languages/cpp/cpp_cherno_playlist_notes.md",
-    "study_LearnOpenGL_Camera.md",
-    "opengl_camera_movement_code.md"
+    "study_LearnOpenGL_Camera.md"
   ]
 }

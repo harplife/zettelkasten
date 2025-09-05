@@ -1092,13 +1092,13 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "math/precalculus/Exercises/ex_1_1_20250904.md",
+                    "file": "math/precalculus/Chapter 1/2_Exponents_and_Radicals.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": false
                   },
                   "icon": "lucide-file",
-                  "title": "ex_1_1_20250904"
+                  "title": "2_Exponents_and_Radicals"
                 }
               },
               {
@@ -1196,13 +1196,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "math/precalculus/Exercises/ex_1_1_20250904.md",
+                    "file": "math/precalculus/Chapter 1/2_Exponents_and_Radicals.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of ex_1_1_20250904"
+                  "title": "Outline of 2_Exponents_and_Radicals"
                 }
               }
             ]
@@ -1333,7 +1333,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "math/precalculus/Exercises/ex_1_1_20250904.md",
+                    "file": "math/precalculus/Chapter 1/2_Exponents_and_Radicals.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1343,7 +1343,7 @@
                     "unlinkedCollapsed": false
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for ex_1_1_20250904"
+                  "title": "Backlinks for 2_Exponents_and_Radicals"
                 }
               }
             ],
@@ -1370,7 +1370,7 @@
         }
       },
       "active": "93012466dc67770a",
-      "mtime": "2025-09-04T20:19:20-05:00",
+      "mtime": "2025-09-05T14:35:07-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "math",
