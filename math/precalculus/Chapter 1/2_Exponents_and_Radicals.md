@@ -26,3 +26,6 @@ The number $a$ is called the <mark class="hltr-trippy">base</mark>, and $n$ is c
 
 ---
 
+> [!note] The number of times the base repeats is called the $n$ *factor*.
+> For example, $(5 \times 5 \times 5)$ has 3 factors.
+
