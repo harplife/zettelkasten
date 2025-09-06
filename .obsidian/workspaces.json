@@ -1225,8 +1225,8 @@
                 "state": {
                   "type": "advanced-tables-toolbar",
                   "state": {},
-                  "icon": "lucide-file",
-                  "title": "Plugin no longer active"
+                  "icon": "spreadsheet",
+                  "title": "Advanced Tables"
                 }
               },
               {
@@ -1245,7 +1245,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "study_LearnCpp_GettingStarted.md",
+                    "file": "math/precalculus/Chapter 1/2_Exponents_and_Radicals.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -1273,7 +1273,7 @@
                     }
                   },
                   "icon": "lucide-git-fork",
-                  "title": "Graph of study_LearnCpp_GettingStarted"
+                  "title": "Graph of 2_Exponents_and_Radicals"
                 }
               },
               {
@@ -1282,32 +1282,12 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "study_LearnCpp_GettingStarted.md",
+                    "file": "math/precalculus/Chapter 1/2_Exponents_and_Radicals.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   },
                   "icon": "links-going-out",
-                  "title": "Outgoing links from study_LearnCpp_GettingStarted"
-                }
-              },
-              {
-                "id": "c513c08b64ec3a16",
-                "type": "leaf",
-                "state": {
-                  "type": "dictionary-view",
-                  "state": {},
-                  "icon": "lucide-ghost",
-                  "title": "dictionary-view"
-                }
-              },
-              {
-                "id": "cc30698aa4dc8073",
-                "type": "leaf",
-                "state": {
-                  "type": "mathpad-view",
-                  "state": {},
-                  "icon": "sigma",
-                  "title": "Mathpad"
+                  "title": "Outgoing links from 2_Exponents_and_Radicals"
                 }
               }
             ],
@@ -1370,7 +1350,7 @@
         }
       },
       "active": "93012466dc67770a",
-      "mtime": "2025-09-05T14:35:07-05:00",
+      "mtime": "2025-09-05T22:21:30-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "math",
