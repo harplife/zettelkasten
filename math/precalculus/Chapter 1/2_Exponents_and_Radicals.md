@@ -89,9 +89,11 @@ $\sqrt[n]{ a } = b$  means that   $b^n = a$  where :
 > [!note] When the index is not explicit, it means $n = 2$  (square root)
 
 > [!important] If $n$ is *even* and $a>0$, there are two real nth roots - one positive and one negative. For example, the fourth roots of $16$ are $2$ and $-2$.
-> By convention, the positive nth root is called the <mark class="hltr-trippy">principal nth root</mark>.
+> By convention, the positive nth root is called the <mark class="hltr-trippy">principal nth root</mark>. It is expressed in absolute value for clarity (e.g. $\sqrt[4]{ 16 } = |2|$).
 > 
 > By convention (especially in Computer Science), the radical is defined to mean the principal root only.
+> 
+> For further clarification, take $\sqrt[4]{ (-3)^4 }$. While at glance the answer seems to be $-3$, the correct answer is $3$.
 
 Here are some examples :
 - $\sqrt{ 25 } = 5$  since  $5^2 = 25$
