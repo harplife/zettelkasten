@@ -97,8 +97,8 @@ Here are some examples :
 ### Index : Even or Odd
 
 If the index $n$ is even (square root, 4th root, etc.) :
-- The radicand must be non-negative (if working in real numbers)
--                                                                                                       For example, $\sqrt{ -9 }$  is undefined in $\mathbb{R}$.
+- The radicand must be non-negative (if working in real numbers). For example, $\sqrt{ -9 }$  is undefined in $\mathbb{R}$.
+- 
 
 If the index $n$ is odd (cube root, 5th root, etc.) :
 - The radicand can be any real number, including a negative value
