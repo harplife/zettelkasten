@@ -88,6 +88,9 @@ $\sqrt[n]{ a } = b$  means that   $b^n = a$  where :
 
 > [!note] When the index is not explicit, it means $n = 2$  (square root)
 
+> [!important] If $n$ is even and $a>0$, there are two real nth roots, one positive and one negative. For example, the fourth roots of $16$ are $2$ and $-2$.
+> By convention, the positive nth root is called the <mark class="hltr-trippy">principal nth root</mark>.
+
 Here are some examples :
 - $\sqrt{ 25 } = 5$  since  $5^2 = 25$
 - $\sqrt[3]{ 8 } = 2$  since $2^3 = 8$
@@ -98,7 +101,6 @@ Here are some examples :
 
 If the index $n$ is even (square root, 4th root, etc.) :
 - The radicand must be non-negative (if working in real numbers). For example, $\sqrt{ -9 }$  is undefined in $\mathbb{R}$.
-- 
 
 If the index $n$ is odd (cube root, 5th root, etc.) :
 - The radicand can be any real number, including a negative value
