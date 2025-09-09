@@ -52,7 +52,8 @@
               "title": "Precalculus_Main"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -132,13 +133,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "math/precalculus/Chapter 1/2_Exponents_and_Radicals.md",
+                "file": "math/precalculus/Exercises/ex_1_2_20250909.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2_Exponents_and_Radicals"
+              "title": "Outline of ex_1_2_20250909"
             }
           }
         ]
@@ -249,7 +250,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "math/precalculus/Chapter 1/2_Exponents_and_Radicals.md",
+                "file": "math/precalculus/Exercises/ex_1_2_20250909.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -259,7 +260,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2_Exponents_and_Radicals"
+              "title": "Backlinks for ex_1_2_20250909"
             }
           }
         ],
@@ -285,10 +286,10 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "93012466dc67770a",
+  "active": "a5dcc8965a894f5e",
   "lastOpenFiles": [
-    "math/precalculus/Chapter 1/1_Real_Numbers.md",
     "math/precalculus/Chapter 1/2_Exponents_and_Radicals.md",
+    "math/precalculus/Chapter 1/1_Real_Numbers.md",
     "math/precalculus/Exercises/ex_1_2_20250909.md",
     "math/precalculus/Exercises/ex_1_1_20250904.md",
     "math/precalculus/Precalculus_Main.md",
