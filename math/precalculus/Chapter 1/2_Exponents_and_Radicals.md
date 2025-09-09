@@ -151,4 +151,10 @@ $$
 \sqrt[n]{ a^m }\sqrt[n]{ a^{n-m} } = \sqrt[n]{ a^{m + n - m} } = \sqrt[n]{ a^n } = a
 $$
 
+For example, $\frac{1}{\sqrt[7]{ a^2 }}$ should be converted to its standard form by following this process :
+
+$$
+\frac{1}{\sqrt[7]{ a^2 }} = \frac{1}{\sqrt[7]{ a^2 }} \cdot \frac{\sqrt[7]{ a^5 }}{\sqrt[7]{ a^5 }} = \frac{\sqrt[7]{ a^5 }}{a}
+$$
+
 
