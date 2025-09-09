@@ -145,6 +145,8 @@ $$
 \frac{5}{\sqrt{ 3 }} \cdot \frac{\sqrt{ 3 }}{\sqrt{ 3 }} = \frac{5\sqrt{ 3 }}{3}
 $$
 
+### Higher Roots
+
 In general, if the denominator is of the form $\sqrt[n]{ a^m }$ with $m < n$, then multiplying the numerator and denominator by $\sqrt[n]{ a^{n-m} }$ will rationalize the denominator.
 
 $$
@@ -157,4 +159,6 @@ $$
 \frac{1}{\sqrt[7]{ a^2 }} = \frac{1}{\sqrt[7]{ a^2 }} \cdot \frac{\sqrt[7]{ a^5 }}{\sqrt[7]{ a^5 }} = \frac{\sqrt[7]{ a^5 }}{a}
 $$
 
+
+### Binomial Denominator
 
