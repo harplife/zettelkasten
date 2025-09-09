@@ -134,3 +134,15 @@ Here are some examples :
 | Nested Radical   | $\sqrt[m]{ \sqrt[n]{ a } } = \sqrt[mn]{ a }$                             | $\sqrt[2]{ \sqrt[3]{ 8 } } = \sqrt[6]{ 8 } = 2^{1/2}$                           |
 | Absolute Value   | $\sqrt[n]{ a^n } = \lvert a \rvert$, $n > 0$                             | $\sqrt{ (-7)^2 } = \sqrt{ 49 } = 7 = \lvert -7 \rvert$                          |
 | Root of Zero     | $\sqrt[n]{ 0 } = 0$                                                      |                                                                                 |
+
+## Rationalizing the Denominator
+
+<mark class="hltr-trippy">Rationalizing the Denominator</mark> is the process of rewriting a fraction so that its denominator contains no radicals. When a fraction does not contain radicals in its denominator, it is said to be in its <mark class="hltr-trippy">Standard Form</mark>.
+
+For example, $\frac{5}{\sqrt{ 3 }}$ should be converted to its standard form by following this process :
+
+$$
+\frac{5}{\sqrt{ 3 }} \cdot \frac{\sqrt{ 3 }}{\sqrt{ 3 }} = \frac{5\sqrt{ 3 }}{3}
+$$
+
+
