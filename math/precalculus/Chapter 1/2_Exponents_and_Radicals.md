@@ -113,7 +113,7 @@ If the index $n$ is odd (cube root, 5th root, etc.) :
 
 ### Fractional Exponent
 
-Radicals are another way to write fractional exponents :
+Radicals are another way to write <mark class="hltr-trippy">Fractional Exponents</mark>  (aka **Rational Exponents**):
 
 $$
 \sqrt[n]{ a^m } = a^{m/n}
