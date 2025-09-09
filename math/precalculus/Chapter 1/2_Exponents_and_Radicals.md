@@ -171,3 +171,11 @@ $$
 
 ### Binomial Denominator
 
+Rationalizing a denominator with two terms (a binomial) involves multiplying both the numerator and the denominator with the conjugate of the denominator.
+
+For example, rationalizing $\frac{1}{2+\sqrt{ 3 }}$ involves the following process :
+
+$$
+\frac{1}{2+\sqrt{ 3 }} \cdot \frac{2-\sqrt{ 3 }}{2-\sqrt{ 3 }} = \frac{2-\sqrt{ 3 }}{(2+\sqrt{ 3 })(2-\sqrt{ 3 })} = \frac{2-\sqrt{ 3 }}{4-3} = 2 - \sqrt{ 3 }
+$$
+
