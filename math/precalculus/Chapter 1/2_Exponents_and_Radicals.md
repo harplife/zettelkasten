@@ -137,13 +137,20 @@ Here are some examples :
 
 ## Rationalizing the Denominator
 
-<mark class="hltr-trippy">Rationalizing the Denominator</mark> is the process of rewriting a fraction so that its denominator contains no radicals. When a fraction does not contain radicals in its denominator, it is said to be in its <mark class="hltr-trippy">Standard Form</mark>.
+<mark class="hltr-trippy">Rationalizing the Denominator</mark> is the process of rewriting a fraction so that its denominator contains no radicals.
 
 For example, $\frac{5}{\sqrt{ 3 }}$ should be converted to its standard form by following this process :
 
 $$
 \frac{5}{\sqrt{ 3 }} \cdot \frac{\sqrt{ 3 }}{\sqrt{ 3 }} = \frac{5\sqrt{ 3 }}{3}
 $$
+
+### Standard Form
+
+<mark class="hltr-trippy">Standard Form</mark> means 
+
+
+
 
 ### Higher Roots
 
