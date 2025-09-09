@@ -132,4 +132,5 @@ Here are some examples :
 | Quotient         | $\sqrt[n]{ \frac{a}{b} } = \frac{\sqrt[n]{ a }}{\sqrt[n]{ b }}$, $b > 0$ | $\sqrt[3]{ \frac{8}{27} } = \frac{\sqrt[3]{ 8 }}{\sqrt[3]{ 27 }} = \frac{2}{3}$ |
 | Power of a Power | $(\sqrt[n]{ a })^m = \sqrt[n]{ a^m } = a^{m/n}$                          | $(\sqrt{ 5 })^4 = (5^{1/2})^4 = 5^{4/2} = 5^2 = 25$                             |
 | Nested Radical   | $\sqrt[m]{ \sqrt[n]{ a } } = \sqrt[mn]{ a }$                             | $\sqrt[2]{ \sqrt[3]{ 8 } } = \sqrt[6]{ 8 } = 2^{1/2}$                           |
-|                  |                                                                          |                                                                                 |
+| Absolute Value   | $\sqrt[n]{ a^n } = \lvert a \rvert$, $n > 0$                             | $\sqrt{ (-7)^2 } = \sqrt{ 49 } = 7 = \lvert -7 \rvert$                          |
+| Root of Zero     | $\sqrt[n]{ 0 } = 0$                                                      |                                                                                 |
