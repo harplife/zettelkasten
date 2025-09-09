@@ -147,7 +147,11 @@ $$
 
 ### Standard Form
 
-<mark class="hltr-trippy">Standard Form</mark> means 
+<mark class="hltr-trippy">Standard Form</mark> means that an expression is written in its simplest, most conventional way. This usually involves :
+- **No radicals in the denominator** (e.g. $\frac{1}{\sqrt{ 2 }}$ should be written as $\frac{\sqrt{ 2 }}{2}$)
+- **No perfects powers inside a radical / Coefficients outside radicals when possible** (e.g. $\sqrt{ 12 }$ should be written as $2\sqrt{ 3 }$)
+- Index minimized (e.g. $\sqrt[6]{ x^3 }$ should be simplified to $\sqrt{ x }$)
+- 
 
 
 
