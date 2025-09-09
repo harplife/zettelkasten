@@ -145,4 +145,10 @@ $$
 \frac{5}{\sqrt{ 3 }} \cdot \frac{\sqrt{ 3 }}{\sqrt{ 3 }} = \frac{5\sqrt{ 3 }}{3}
 $$
 
+In general, if the denominator is of the form $\sqrt[n]{ a^m }$ with $m < n$, then multiplying the numerator and denominator by $\sqrt[n]{ a^{n-m} }$ will rationalize the denominator.
+
+$$
+\sqrt[n]{ a^m }\sqrt[n]{ a^{n-m} } = \sqrt[n]{ a^{m + n - m} } = \sqrt[n]{ a^n } = a
+$$
+
 
