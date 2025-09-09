@@ -126,3 +126,8 @@ Here are some examples :
 
 ### Properties of nth Roots
 
+| Property         | Rule                                                                     | Example                                                                         |
+| ---------------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------- |
+| Product          | $\sqrt[n]{ ab } = \sqrt[n]{ a } \cdot \sqrt[n]{ b }$                     | $\sqrt{ 36 } = \sqrt{ 9 \cdot 4 } = 3 \cdot 2 = 6$                              |
+| Quotient         | $\sqrt[n]{ \frac{a}{b} } = \frac{\sqrt[n]{ a }}{\sqrt[n]{ b }}$, $b > 0$ | $\sqrt[3]{ \frac{8}{27} } = \frac{\sqrt[3]{ 8 }}{\sqrt[3]{ 27 }} = \frac{2}{3}$ |
+| Power of a Power | $(\sqrt[n]{ a })^m = \sqrt[n]{ a^m } = a^{m/n}$                          | $(\sqrt{ 5 })^4$                                                                |
