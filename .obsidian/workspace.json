@@ -286,12 +286,13 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "227e6011dc684b16",
+  "active": "a5dcc8965a894f5e",
   "lastOpenFiles": [
-    "math/precalculus/Chapter 1/2_Exponents_and_Radicals.md",
-    "math/precalculus/Exercises/ex_1_2_20250909.md",
-    "math/precalculus/Chapter 1/1_Real_Numbers.md",
     "math/precalculus/Exercises/ex_1_1_20250904.md",
+    "math/precalculus/Exercises/ex_1_2_20250909.md",
+    "math/precalculus/Resources/Precalculus_Answers.pdf",
+    "math/precalculus/Chapter 1/2_Exponents_and_Radicals.md",
+    "math/precalculus/Chapter 1/1_Real_Numbers.md",
     "math/precalculus/Precalculus_Main.md",
     "math/algebra_and_trigonometry/chapter_p/chapter_p1_exercises.md",
     "math/precalculus/Exercises",
@@ -301,7 +302,6 @@
     "attachments/Pasted image 20250902184442.png",
     "math/precalculus/Resources/Precalculus_Chapter_1.pdf",
     "math/precalculus/Resources/ProbabilityAndStatistics.pdf",
-    "math/precalculus/Resources/Precalculus_Answers.pdf",
     "math/precalculus/Resources",
     "math/precalculus/Resources/Precalculus_Cheatsheet.pdf",
     "math/precalculus/Chapter 1",
@@ -332,7 +332,6 @@
     "attachments/Pasted image 20241009222943.png",
     "cpp_Table_of_Precedence_and_Associativity.md",
     "cpp_global_state_context_objects.md",
-    "computer_science/languages/cpp/knou_cpp_notes.md",
-    "computer_science/languages/cpp/cpp_cherno_playlist_notes.md"
+    "computer_science/languages/cpp/knou_cpp_notes.md"
   ]
 }
