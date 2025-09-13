@@ -20,7 +20,7 @@ An <mark class="hltr-trippy">Algebraic Expression</mark> is a mathematical phras
 
 A <mark class="hltr-trippy">Term</mark> is a single piece of an algebraic expression, made of :
 - A number (coefficient)
-- Variable(s) with **positive** **integer** exponent(s)
+- Variable(s) with exponent(s)
 - Multiplication between them
 
 Terms are separated by $+$ or $-$.
@@ -41,13 +41,16 @@ In the above expression, there are three terms :
 - $-3y$
 - $5$
 
+A <mark class="hltr-trippy">Polynomial</mark> is an expression with one or more terms.
+
+Polynomials are their own special, simpler class, and we'll study the others separately" - the general approach in math
+
 A <mark class="hltr-trippy">Monomial</mark> is an expression with only one term (e.g. $5x$).
 
 A <mark class="hltr-trippy">Binomial</mark> is an expression with two terms (e.g. $x + 1$).
 
 A <mark class="hltr-trippy">Trinomial</mark> is an expression with three terms (e.g. $x^2 + x + 1$).
 
-An expression can have many terms, and an expression with one or more terms is generally referred to as a <mark class="hltr-trippy">Polynomial</mark>.
+An expression can have many terms, and an expression with one or more terms is generally referred to as a
 
-> [!important] "Polynomials are their own special, simpler class, and we'll study the others separately."
-> There are three reasons why 
+
