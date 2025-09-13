@@ -106,13 +106,13 @@ FOIL stands for First, Outside, Inside, and Last.
 
 Certain types of products occur frequently, and it may be worth memorizing them. The <mark class="hltr-trippy">Special Product Formulas</mark> are shortcuts for expanding certain kinds of binomials.
 
-| Formula                | Equation                                |
-| ---------------------- | --------------------------------------- |
-| Square of a sum        | $(a + b)^2 = a^2 + 2ab + b^2$           |
-| Square of a difference | $(a-b)^2 = a^2 - 2ab + b^2$             |
-| Sum and difference     | $(a+b)(a-b) = a^2 - b^2$                |
-| Cube of a sum          | $(a + b)^3 = a^3 + 3a^2b + 3ab^2 + b^3$ |
-| Cube of a difference   | $(a - b)^3 = a^3 - 3a^2b + 3ab^2 - b^3$ |
+| Formula                          | Equation                                |
+| -------------------------------- | --------------------------------------- |
+| Square of a sum                  | $(a + b)^2 = a^2 + 2ab + b^2$           |
+| Square of a difference           | $(a-b)^2 = a^2 - 2ab + b^2$             |
+| Sum and difference of same terms | $(a+b)(a-b) = a^2 - b^2$                |
+| Cube of a sum                    | $(a + b)^3 = a^3 + 3a^2b + 3ab^2 + b^3$ |
+| Cube of a difference             | $(a - b)^3 = a^3 - 3a^2b + 3ab^2 - b^3$ |
 
 ### Recognizing a Special Product Formula
 
@@ -229,3 +229,12 @@ $$
 ---
 
 
+## Special Factoring Formulas
+
+| Formula                      | Equation                             |
+| ---------------------------- | ------------------------------------ |
+| Difference of squares        | $a^2 - b^2 = (a + b)(a - b)$         |
+| Perfect square of sum        | $a^2 + 2ab + b^2 = (a + b)^2$        |
+| Perfect square of difference | $a^2 - 2ab + b^2 = (a - b)^2$        |
+| Sum of cubes                 | $a^3 + b^3 = (a+b)(a^2 -ab + b^2)$   |
+| Difference of cubes          | $a^3 - b^3 = (a -b)(a^2 + ab + b^2)$ |
