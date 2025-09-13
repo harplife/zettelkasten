@@ -75,9 +75,9 @@ When it comes to adding and subtracting polynomials, it's best to group like-ter
 
 $$
 \begin{align*}
-  &(x^3 - 6x^2 + 2x +4) - (x^3 + 5x^2 - 7x) &\\
-  &\quad = x^3 - 6x^2 + 2x +4 - x^3 - 5x^2 + 7x &\\
-  &\quad = (x^3 - x^3) + (-6x^2 - 5x^2) + (2x + 7x) + 4 &\\
+  &(x^3 - 6x^2 + 2x +4) - (x^3 + 5x^2 - 7x) \\
+  &\quad = x^3 - 6x^2 + 2x +4 - x^3 - 5x^2 + 7x \\
+  &\quad = (x^3 - x^3) + (-6x^2 - 5x^2) + (2x + 7x) + 4 \\
   &\quad = -11x^2 + 9x + 4
 \end{align*}
 $$
@@ -99,6 +99,9 @@ Multiplying binomials can be simplified using the <mark class="hltr-trippy">FOIL
 
 FOIL stands for First, Outside, Inside, and Last.
 
+> [!note] Multiplying expressions so that there aren't any variables grouped together is referred to as **Expanding**.
+> For example, expanding $(x-2)(x+3)$ results with $x^2 + x - 6$.
+
 ## Special Product Formulas
 
 Certain types of products occur frequently, and it may be worth memorizing them. The <mark class="hltr-trippy">Special Product Formulas</mark> are shortcuts for expanding certain kinds of binomials.
@@ -112,4 +115,24 @@ Certain types of products occur frequently, and it may be worth memorizing them.
 | Cube of a difference   | $(a - b)^3 = a^3 - 3a^2b + 3ab^2 - b^3$ |
 
 ### Recognizing a Special Product Formula
+
+The product of trinomials (or bigger) can be "converted" to the product of binomials to make use of the special product formulas, as long as there are terms on both polynomials that can be grouped together.
+
+For example, $(x + y - 1)(x + y + 1)$ is the product of trinomials but it can be treated like binomials like so :
+
+$$
+\begin{align*}
+  (x+y-1)(x+y+1) &= [(x + y) - 1][(x + y) + 1] \\
+  &= (x + y)^2 - 1^2 \\
+  &= x^2 + 2xy + y^2 - 1
+\end{align*}
+$$
+
+## Factoring Common Factors
+
+<mark class="hltr-trippy">Factoring</mark> is the reverse process of expanding - it is rewriting an expression as a product of simpler expressions, called <mark class="hltr-trippy">Factors</mark>.
+
+For example, factoring $x^2 + x -6$ results with two factors :
+- $x - 2$
+- $x + 3$
 
