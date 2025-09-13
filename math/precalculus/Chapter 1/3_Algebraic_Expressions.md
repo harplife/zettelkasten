@@ -238,3 +238,19 @@ $$
 | Perfect square of difference | $a^2 - 2ab + b^2 = (a - b)^2$        |
 | Sum of cubes                 | $a^3 + b^3 = (a+b)(a^2 -ab + b^2)$   |
 | Difference of cubes          | $a^3 - b^3 = (a -b)(a^2 + ab + b^2)$ |
+
+
+## Factoring by Grouping Terms
+
+Polynomials with at least four terms can sometimes be factored by grouping terms.
+
+For example :
+
+$$
+\begin{align*}
+  x^3 + x^2 + 4x + 4 &= (x^3 + x^2) + (4x + 4) \\
+  &= x^2(x + 1) + 4(x + 1) \\
+  &= (x^2 + 4)(x + 1)
+\end{align*}
+$$
+
