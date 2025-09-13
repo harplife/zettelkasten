@@ -167,4 +167,65 @@ $$
 
 ## Factoring Trinomials
 
-Factoring a trinomial usually involves recognizing 
+Factoring a trinomial usually involves recognizing the product of binomials hidden within it.
+
+---
+
+To factor a trinomial of the form $x^2 + bx + c$, we note that :
+
+$$
+(x + r)(x + s) = x^2 + (r + s)x + rs
+$$
+
+So we need to choose numbers $r$ and $s$ so that $r + s = b$ and $rs = c$.
+
+Take this expression $x^2 + 7x + 12$ as an example. In this case, $b = 7$ and $c = 12$.
+
+We can factor $c$ as :
+- $1 \cdot 12$
+- $2 \cdot 6$
+- $3 \cdot 4$
+
+The sum of $3$ and $4$ equals to $7$ and the product equals to $12$. Therefore, $r = 3$ and $s = 4$. Now we can factor the expression :
+
+$$
+x^2 + 7x + 12 = (x + 3)(x + 4)
+$$
+
+---
+
+To factor a trinomial of the form $ax^2 + bx + c$, we note that :
+
+$$
+\begin{align*}
+  ax^2 + bx + c &= (px + r)(qx + s) \\
+  &= pqx^2 + (ps + qr)x + rs
+\end{align*}
+$$
+
+So we need to chose $p$, $q$, $r$, and $s$ such that $pq = a$, $rs = c$, and $ps + qr = b$.
+
+Take this expression $6x^2 + 7x -5$ as an example. In this case :
+- $a = 6$
+- $b = 7$
+- $c = -5$
+
+We can factor :
+- $a$ as either $6 \cdot 1$ or $3 \cdot 2$
+- $c$ as either $-1 \cdot 5$ or $-5 \cdot 1$.
+
+By trial and error :
+- $(6)(-1) + (1)(5) = -1$
+- $(1)(-1) + (6)(5) = 29$
+- $(3)(-1) + (2)(5) = 7$
+- ..
+
+We find that $p = 3$, $q = 2$, $r = 5$, and $s = -1$. Therefore :
+
+$$
+6x^2 + 7x - 5 = (3x + 5)(2x - 1)
+$$
+
+---
+
+
