@@ -25,6 +25,11 @@ A <mark class="hltr-trippy">Term</mark> is a single piece of an algebraic expres
 
 Terms are separated by $+$ or $-$.
 
+> [!note] A <mark class="hltr-trippy">Coefficient</mark> is any number that is multiplied with a variable.
+> In the expression $2x^2 - 3x + 4$, there are two coefficients :
+> - $2$
+> - $-3$
+
 For example, take this expression :
 
 $$
