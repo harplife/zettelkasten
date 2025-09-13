@@ -136,3 +136,35 @@ For example, factoring $x^2 + x -6$ results with two factors :
 - $x - 2$
 - $x + 3$
 
+Factoring an expression starts by finding the common factors and the greatest common factor.
+
+A <mark class="hltr-trippy">Common Factor</mark> is something that divides two or more numbers/expressions. For example, 
+- Between $12$ and $18$, the common factors are $1,2,3,6$
+- Between $12x^2y$ and $18xy^2$, the common factors are $2, 3, x, y, 6xy$
+
+The <mark class="hltr-trippy">Greatest Common Factor</mark> is the largest number or expression that divides all terms exactly. For example,
+- Between $12$ and $18$, the GCF is $6$
+- Between $12x^2y$ and $18xy^2$, the GCF is $6xy$
+
+
+Factoring expressions usually starts by pulling out the GCF - this is like reversing the distributive property.
+
+Take $12x^2y + 18xy^2$, whose GCF is $6xy$. Factoring the expression using the GCF looks like this :
+
+$$
+12x^2y + 18xy^2 = 6xy(2x + 3y)
+$$
+
+Another example :
+
+$$
+\begin{align*}
+  8x^4y^2 + 6x^3y^3 -2xy^4 &= (2xy^2)(4x^3) + (2xy^2)(3x^2y) + (2xy^2)(-y^2) \\
+  &= 2xy^2(4x^3 + 3x^2y - y^2)
+\end{align*}
+$$
+
+
+## Factoring Trinomials
+
+Factoring a trinomial usually involves recognizing 
