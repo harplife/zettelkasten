@@ -162,10 +162,10 @@ $$
 > $A = \{ x \in \mathbb{Z} \mid 1 \leq x \leq 10 \}$
 
 > [!example] A set of rational numbers greater than 0
-> $A = \{ x \in Q \mid x > 0 \}$
+> $A = \{ x \in \mathbb{Q} \mid x > 0 \}$
 
 > [!example] Real solutions to $x^2 = 4$
-> $A = \{ x \in R \mid x^2 = 4 \}$
+> $A = \{ x \in \mathbb{R} \mid x^2 = 4 \}$
 
 
 

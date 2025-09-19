@@ -13,7 +13,7 @@
 
 ## Algebraic Expressions and Polynomials
 
-A <mark class="hltr-trippy">variable</mark> is a letter than can represent any number from a given set of numbers.
+A <mark class="hltr-trippy">Variable</mark> is a letter than can represent any number from a given set of numbers.
 
 An <mark class="hltr-trippy">Algebraic Expression</mark> is a mathematical phrase that combines numbers, variables, and operations.
 
@@ -45,7 +45,7 @@ In the above expression, there are three terms :
 A <mark class="hltr-trippy">Polynomial</mark> is an expression with one or more terms, in which the terms have **whole number** exponents.
 
 > [!important] Polynomials are their own special, simple class of functions.
-> When an expression has a negative exponent (variable in the denominator) or fractional exponent (radicals), the expression is *NOT* a polynomial. For example, following expressions are not polynomials :
+> When an expression has a negative exponent (variable in the denominator) or fractional exponent (radicals) **on a variable**, the expression is *NOT* a polynomial. For example, following expressions are not polynomials :
 > - $x^{-2} + 3$
 > - $\sqrt{ x } + 2$
 > - $\frac{1}{x} + 5$
@@ -54,6 +54,8 @@ A <mark class="hltr-trippy">Polynomial</mark> is an expression with one or more 
 > 
 > Using a simple expression, like a polynomial, is important because it makes arithmetic simple, predictable, and closed. Polynomials are central to algebra and calculus. General approach in math, throughout history, is to study polynomials and then the others.
 > 
+
+> [!warning] Expressions that include negative or fractional exponent on a number is still a polynomial.
 
 A **monomial** is a polynomial with only one term (e.g. $5x$). A **binomial** is a polynomial with two terms (e.g. $x + 1$). A **trinomial** is a polynomial with three terms (e.g. $x^2 + x + 1$).
 

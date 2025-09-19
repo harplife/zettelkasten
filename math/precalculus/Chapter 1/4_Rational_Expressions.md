@@ -150,3 +150,6 @@ $$
 \end{align}
 $$
 
+> [!note] The process is the same for rationalizing the numerator.
+
+
