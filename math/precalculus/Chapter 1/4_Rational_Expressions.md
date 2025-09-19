@@ -72,3 +72,41 @@ $$
 
 ## Multiplying and Dividing Rational Expressions
 
+Multiplying rational expressions :
+
+$$
+\frac{A}{B} \cdot \frac{C}{D} = \frac{AC}{BD}
+$$
+
+For example,
+
+$$
+\begin{align}
+  \frac{x^2+2x-3}{x^2+8x+16} \cdot \frac{3x+12}{x-1} &= \frac{(x-1)(x+3)}{(x+4)^2} \cdot \frac{3(x+4)}{x-1} \\
+  &= \frac{3(x-1)(x+3)(x+4)}{(x-1)(x+4)^2} \\
+  &= \frac{3(x+3)}{x+4}
+\end{align}
+$$
+
+Dividing natural expressions :
+
+$$
+\frac{A}{B} \div \frac{C}{D} = \frac{A}{B} \cdot \frac{D}{C}
+$$
+
+
+## Adding and Subtracting Rational Expressions
+
+Adding rational expressions :
+
+$$
+\frac{A}{C} + \frac{B}{C} = \frac{A + B}{C}
+$$
+
+Although any common denominator will work, it is most efficient to use the least common denominator (LCD).
+
+For example,
+
+$$
+
+$$
