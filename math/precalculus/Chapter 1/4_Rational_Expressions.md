@@ -130,3 +130,23 @@ $$
 \end{align}
 $$
 
+
+## Rationalizing the Denominator or the Numerator
+
+A fractional expression has a denominator of the form $A + B\sqrt{ C }$, it can be rationalized by multiplying the numerator and the denominator by the <mark class="hltr-trippy">Conjugate Radical</mark>, $A - B\sqrt{ C }$.
+
+$$
+\frac{1}{A+B\sqrt{ C }} \cdot \frac{A-B\sqrt{ C }}{A-B\sqrt{ C }} = \frac{A-B\sqrt{ C }}{A^2 - B^2C}
+$$
+
+For example,
+
+$$
+\begin{align}
+  \frac{1}{1+\sqrt{ 2 }} &= \frac{1}{1+\sqrt{ 2 }} \cdot \frac{1-\sqrt{ 2 }}{1-\sqrt{ 2 }} \\
+  &= \frac{1-\sqrt{ 2 }}{1^2-(\sqrt{ 2 })^2} \\
+  &= \frac{1-\sqrt{ 2 }}{1-2} \\
+  &= \sqrt{ 2 } - 1
+\end{align}
+$$
+
