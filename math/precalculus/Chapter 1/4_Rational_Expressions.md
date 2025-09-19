@@ -62,4 +62,5 @@ $$
 \end{align*}
 $$
 
-
+> [!important] Down the rabbit hole : Removable Discontinuity
+> So this is outside the textbook material, but the domain for the original expression above is $\{ x \mid x \neq 1 \text{ and } x \neq -2\}$. However, once simplified, there's no longer a "hole" at $x = 1$. Apparently the domain is supposed to carry over even if the expression is simplified,
