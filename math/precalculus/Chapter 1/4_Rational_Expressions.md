@@ -65,3 +65,6 @@ $$
 > [!important] Down the rabbit hole : Removable Discontinuity
 > So this is outside the content of the current section of the book. The domain for the original expression above is $\{ x \mid x \neq 1 \text{ and } x \neq -2\}$. However, once simplified, there's no longer a "hole" at $x = 1$. Apparently, this hole is considered a *removable discontinuity* - the hole itself is an artifact of the formula, and it does not describe the actual physical world (should the formula be a model of one). I think we are supposed to get to this concept as we learn about **Limits**.
 
+
+## Multiplying and Dividing Rational Expressions
+
