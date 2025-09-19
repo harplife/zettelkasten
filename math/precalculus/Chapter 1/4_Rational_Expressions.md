@@ -108,5 +108,25 @@ Although any common denominator will work, it is most efficient to use the least
 For example,
 
 $$
+\begin{align}
+  \frac{3}{x-1} + \frac{x}{x+2} &= \frac{3(x+2)}{(x-1)(x+2)} + \frac{x(x-1)}{(x-1)(x+2)} \\
+  &= \frac{3x+6+x^2-x}{(x-1)(x+2)} \\
+  &= \frac{x^2 + 2x + 6}{(x-1)(x+2)}
+\end{align}
+$$
+
+
+## Compound Fractions
+
+A <mark class="hltr-trippy">Compound Fraction</mark> is a fraction in which the numerator, the denominator, or both, are themselves fractional expressions.
+
+For example, $\frac{\frac{x}{y} + 1}{1 - \frac{y}{x}}$ is a compound fraction. It's best to simplify compound fractions when possible :
 
 $$
+\begin{align}
+  \frac{\frac{x}{y} + 1}{1 - \frac{y}{x}} &= \frac{\frac{x+y}{y}}{\frac{x-y}{x}} \\
+  &= \frac{x+y}{y} \cdot \frac{x}{x-y} \\
+  &= \frac{x(x+y)}{y(x-y)}
+\end{align}
+$$
+
