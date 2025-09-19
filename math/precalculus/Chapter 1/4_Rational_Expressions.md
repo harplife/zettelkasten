@@ -2,6 +2,7 @@
 
 ## Key Points
 
+- TH
 
 
 ## The Domain of an Algebraic Expression
