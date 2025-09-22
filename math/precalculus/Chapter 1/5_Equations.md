@@ -69,3 +69,53 @@ The general form of linear equations :
 $$
 ax + b = 0, \quad a \neq 0
 $$
+
+Both $a$ and $b$ are real numbers, and $x$ is the variable.
+
+Examples of linear equations :
+- $4x-5=3$
+- $2x=\frac{1}{2}x-7$
+- $x-6=\frac{x}{3}$
+
+Solving a linear equation usually involves moving all terms (with variable $x$) to one side and all constant terms on the other.
+
+For example,
+
+$$
+\begin{align}
+  7x-4 &= 3x+8 \\
+  7x &= 3x +8 + 4 \\
+  7x &= 3x + 12 \\
+  7x - 3x &= 12 \\
+  4x &= 12 \\
+  4x \cdot \frac{1}{4} &= 12 \cdot \frac{1}{4} \\
+  x &= 3
+\end{align}
+$$
+
+
+## Formulas
+
+A <mark class="hltr-trippy">Formula</mark> is a special type of equation that shows the relationship between different variables.
+- It's not usually meant to be solved for one specific variable (like a normal equation might be).
+- Instead, it expresses how one quantity depends on others.
+
+In other words, a formula is an equation that represents a rule or relationship between quantities.
+
+Example of formulas :
+- $A = \pi r^2$ (area of a circle)
+- $V = \pi r^2h$ (volume of a cylinder)
+- $F = ma$ (Newton's 2nd law)
+- $m = \frac{y_{2}-y_{1}}{x_{2}-x_{1}}$ (slope)
+
+
+## Solving Quadratic Equations
+
+The <mark class="hltr-trippy">Quadratic Equation</mark>, or second-degree equation, generally takes the following form :
+
+$$
+ax^2 + bx + c = 0, \quad a \neq 0
+$$
+
+$a$, $b$, and $c$ are real numbers and $x$ is the variable.
+
