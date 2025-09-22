@@ -300,3 +300,98 @@ Linear equations and quadratic equations are fairly clean and simple to deal wit
 
 ### Equations involving fractional expression
 
+When dealing with equations that involve fractional expressions, it's important to plug the solutions back into the equations to check whether it's still defined - there should not be Zero-Division.
+
+For example,
+
+$$
+\begin{align}
+  \frac{3}{x}-\frac{2}{x-3} &= -\frac{12}{x^2-9} \\
+  \left( \frac{3}{x} - \frac{2}{x-3} \right)x(x^2-9) &= -\frac{12}{x-9}x(x^2-9) \\
+  3(x^2-9)-2x(x+3) &= -12x \\
+  3x^2-27-2x^2-6x &= -12x \\
+  x^2-6x-27 &= -12x \\
+  x^2 + 6x -27 &= 0 \\
+  (x-3)(x+9) &= 0
+\end{align}
+$$
+
+The solutions are $x=3$ or $x=-9$ but once these solutions are plugged in, we find that plugging in $3$ makes the equation undefined. Therefore, $x=-9$ is the only real solution.
+
+
+> [!important] Potential solutions that do not satisfy the original equation is called the <mark class="hltr-trippy">Extraneous Solutions</mark>.
+
+
+### Equations involving a radical
+
+When dealing with equations that involve radicals, it's important to plug the solutions back into the equations to check whether the values on left-hand-side and right-hand-side matches; an extraneous solution may be introduced when squaring each side of an equation.
+
+For example,
+
+$$
+\begin{align}
+  2x-1 &= -\sqrt{ 2-x } \\
+  (2x-1)^2 &= 2-x \\
+  4x^2-4x+1&= 2-x \\
+  4x^2-3x-1 &= 0 \\
+  (4x+1)(x-1) &= 0
+\end{align}
+$$
+
+The solutions are $x=-\frac{1}{4}$ or $x=1$ but once these solutions are plugged in, we find that plugging in $1$ makes the left-hand-side equal to $1$ and the right-hand-side equal to $-1$. The only real solution is $x=-\frac{1}{4}$.
+
+
+> [!important] It's easier to think about how squaring an equation introduces extraneous solutions this way.
+> Take equation $x=-2$. The solution, of course, is $x=-2$. However, for whatever reason, we square both sides, the equation becomes $x^2=4$, whose solutions are $x=2$ and $x=-2$. An extra solution is introduced ($x=2$), and it does not work when it's plugged into the original equation ($2 \neq -2$).
+
+
+
+### Equations of Quadratic Type
+
+An equation of the form $aW^2+bW+c=0$, where $W$ is an algebraic expression, is an equation of <mark class="hltr-trippy">Quadratic Type</mark>. This allows us to solve equations that aren't quadratic equations, by treating them like they're of quadratic type.
+
+For example, $x^4-8x^2+8=0$ is not a quadratic equation. However, when substitute $W=x^2$, the equation becomes $W^2-8W+8=0$, which is a quadratic equation. This allows to solve for $x$ using the quadratic formula :
+
+$$
+\begin{align}
+  W^2-8W+8 &= 0 \\
+  W &= 4 \pm 2\sqrt{ 2 } \\
+  x^2 &= 4 \pm 2\sqrt{ 2 } \\
+  x &= \pm \sqrt{ 4 \pm 2\sqrt{ 2 } }
+\end{align}
+$$
+
+There are four solutions :
+- $\sqrt{ 4 + 2\sqrt{ 2 } }$
+- $\sqrt{ 4 - 2\sqrt{ 2 } }$
+- $-\sqrt{ 4 + 2\sqrt{ 2 } }$
+- $-\sqrt{ 4 - 2\sqrt{ 2 } }$
+
+
+#### Equations involving fractional powers
+
+When equations include variables with fractional powers, it can sometimes be solved by treating it like a quadratic equation.
+
+For example, equation like $x^{1/3} + x^{1/6} -2 =0$ can be substituted with $W = x^{1/6}$, which would make convert the equation to $W^2+W-2=0$. It looks simple enough to deal with.
+
+$$
+\begin{align}
+  x^{1/3} + x^{1/6} -2 &= 0 \\
+  W^2 + W - 2 &= 0 \\
+  (W-1)(W=2) &= 0 \\ \\
+
+  W=1 \quad &\text{ or } \quad W=-2 \\
+  x^{1/6} =1 \quad &\text{ or } \quad x^{1/6}=-2 \\
+  x=1^6=1 \quad &\text{ or } \quad x=(-2)^6=64
+\end{align}
+$$
+
+Since radicals were involved, it's best to plug the solutions back into the original equation to check. Plugging in $x=64$ causes the equation to be $4=0$, which means it is not a valid solution. The only real solution is $x=1$.
+
+
+### Equations involving absolute-value
+
+Solving equations with absolute-value pretty much means solving two different equations.
+
+For example, $\lvert 2x-5 \rvert = 3$ is equivalent to $2x-5=3$ or $2x-5=-3$. In which case, the solutions are $x=4$ and $x=1$.
+
