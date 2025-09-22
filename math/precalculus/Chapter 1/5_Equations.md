@@ -150,7 +150,7 @@ Another form of quadratic equation is $x^2-c=0$, where $c$ is a positive constan
 
 <mark class="hltr-trippy">"Completing the Square"</mark> is one of the fundamental techniques in algebra that is used to solve quadratic equations.
 
-Normally, when we have a quadratic formula in its generic form $ax^2+bx+c=0$, we'd factor the equation - which takes a bit of trial and error.
+Normally, when we have a quadratic formula in its generic form $ax^2+bx+c=0$, we'd factor the equation with a bit of trail and error.
 
 We can take out the guesswork with a neat little trick, which works by adding a special number that would make the left-hand expression into a perfect square trinomial (i.e. $(x+d)^2$).
 
@@ -201,6 +201,21 @@ It looks a bit messy, but it makes much more sense in practice. For example :
 
 $$
 \begin{align}
+  x^2+4x+3 &= 0 \\
+  x^2+4x &= -3 \\
+  x^2+4x+4 &= -3+4 \\
+  (x+2)^2 &= 1 \\
+  x+2 &= \pm 1 \text{ (square root of 1 is 1)} \\
+  x &= \pm 1 -2
+\end{align}
+$$
+
+The solutions are $x = -3$ and $x = -1$. We can reach the same solution by factoring the left-hand expression, which would be $(x+3)(x+1) = 0$.
+
+Completing the square may seem like overkill for a simple equation like above, but for equations that are not simple-cut like that, it works wonders :
+
+$$
+\begin{align}
   x^2-8x+13 &= 0 \\
   x^2-8x &= -13 \\
   x^2-8x+16 &= -13 + 16 \\
@@ -209,4 +224,7 @@ $$
   x &= 4 \pm \sqrt{ 3 }
 \end{align}
 $$
+
+
+### Quadratic Formula
 
