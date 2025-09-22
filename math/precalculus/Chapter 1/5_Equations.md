@@ -60,3 +60,5 @@ Equivalent equations has a couple of properties.
 
 ## Solving Linear Equations
 
+The <mark class="hltr-trippy">Degree</mark> of an equation is determined by the highest power of the variable (with a nonzero coefficient) in the equation, after it's simplified.
+
