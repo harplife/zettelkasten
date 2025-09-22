@@ -142,3 +142,6 @@ $$
 
 The solutions are $x = 3$ and $x = -8$.
 
+
+Another form of quadratic equation is $x^2-c=0$, where $c$ is a positive constant. This form of equation factors as $(x-\sqrt{ c })(x+\sqrt{ c })=0$, so the solutions are $x=\pm\sqrt{ c }$.
+
