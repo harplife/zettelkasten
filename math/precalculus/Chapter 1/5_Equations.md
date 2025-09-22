@@ -47,8 +47,16 @@ The <mark class="hltr-trippy">Solution Set</mark> of an equation is the set of a
 The <mark class="hltr-trippy">Equivalent Equations</mark> refer to two equations with exactly the same solutions.
 
 > [!important] Most of precalculus is about *manipulating equations into simpler equivalent forms* so they are solvable.
-> 6+3333333333333333333333333333333333333
-> 00
+
+Equivalent equations has a couple of properties.
+
+| Property                | Equation                           |
+| ----------------------- | ---------------------------------- |
+| Addition Property       | $A=B \iff A+C=B+C$                 |
+| Multiplication Property | $A=B \iff CA=CA$, given $C \neq 0$ |
+
+> [!note] Addition property is basically subtraction property, as multiplication is division.
 
 
 ## Solving Linear Equations
+
