@@ -275,3 +275,21 @@ $$
 \end{align}
 $$
 
+
+#### The Discriminant
+
+In the quadratic formula, the term under the square root ($b^2-4ac$) is called <mark class="hltr-trippy">the Discriminant</mark>, which shows the nature of the solutions (real vs. complex, distinct vs. repeated).
+
+For discriminant $D = b^2 - 4ac$, the type of solutions for any quadratic equation can be decided by the value of the discriminant :
+1. If $D > 0$, there are **two** distinct **real** roots.
+2. If $D = 0$, there is **one real** repeated root.
+3. If $D<0$, there are **two complex conjugate** roots (no real roots).
+
+Case 1 ) Take $x^2-5x+6=0$. The discriminant is $1$ (bigger than $0$), which means there are two distinct real roots. Indeed, the roots are $x = 2, 3$.
+
+Case 2 ) Take $x^2-4x+4=0$. The discriminant is $0$, which means there is one real repeated root. Indeed, the root is $x = 2$.
+
+Case 3 ) Take $x^2+x+1=0$. The discriminant is $-3$ (less than $0$), which means there are two complex conjugate roots. Indeed, the roots are $x = \frac{-1 \pm i\sqrt{ 3 }}{2}$.
+
+> [!important] When we go further into the lessons, we learn that the discriminants are used to find out whether a parabola $y = ax^2=bx+c$ intersects the x-axis.
+
