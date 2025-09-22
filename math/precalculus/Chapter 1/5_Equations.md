@@ -293,3 +293,10 @@ Case 3 ) Take $x^2+x+1=0$. The discriminant is $-3$ (less than $0$), which means
 
 > [!important] When we go further into the lessons, we learn that the discriminants are used to find out whether a parabola $y = ax^2=bx+c$ intersects the x-axis.
 
+
+## Other Types of Equations
+
+Linear equations and quadratic equations are fairly clean and simple to deal with. However, when equations start to involve fractional expressions, radical expressions, fractional powers, and absolute-value, things get a little bit more complicated.
+
+### Equations involving fractional expression
+
