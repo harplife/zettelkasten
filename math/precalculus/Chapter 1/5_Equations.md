@@ -264,3 +264,14 @@ It follows this process :
 5. Take square root of both sides
 6. Isolate $x$
 
+
+Example of using the quadratic formula :
+
+$$
+\begin{align}
+  3x^2-5x-1 &= 0 \\
+  x &= \frac{5 \pm \sqrt{ 5^2 - 4(3)(-1) }}{2(3)} \\
+  x &= \frac{5 \pm \sqrt{ 37 }}{6}
+\end{align}
+$$
+
