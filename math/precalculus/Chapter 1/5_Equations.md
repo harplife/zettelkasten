@@ -164,6 +164,8 @@ $$
 
 > [!important] The coefficient of $x^2$ has to be $1$ for this to work.
 
+---
+
 This can be understood geometrically. Take a look at this figure :
 
 ![[Pasted image 20250921223246.png|300]]
@@ -172,5 +174,39 @@ The area of the blue region is
 
 $$
 x^2 + 2\left( \frac{b}{2} \right)x = x^2 + bx
+$$
+
+Adding in the small square area $\left( \frac{b}{2} \right)^2$ to the blue region "completes" the square.
+
+$$
+x^2 + bx + \left( \frac{b}{2} \right)^2 = \left( x+\frac{b}{2} \right)^2
+$$
+
+---
+
+Now with the constant $c$ back in the picture, completing the square looks like this :
+
+$$
+\begin{align}
+  x^2+bx+c &= 0 \\
+  x^2+bx &= -c \\
+  x^2+bx+\left( \frac{b}{2} \right)^2 &= \left( \frac{b}{2} \right)^2-c \\
+  \left( x+\frac{b}{2} \right)^2 &= \left( \frac{b}{2} \right)^2 -c \\
+  x+\frac{b}{2} &= \pm \sqrt{ \left( \frac{b}{2} \right)^2 - c } \\
+  x &= \pm \sqrt{ \left( \frac{b}{2} \right)^2 - c } - \frac{b}{2}
+\end{align}
+$$
+
+It looks a bit messy, but it makes much more sense in practice. For example :
+
+$$
+\begin{align}
+  x^2-8x+13 &= 0 \\
+  x^2-8x &= -13 \\
+  x^2-8x+16 &= -13 + 16 \\
+  (x-4)^2 &= 3 \\
+  x-4 &= \pm \sqrt{ 3 } \\
+  x &= 4 \pm \sqrt{ 3 }
+\end{align}
 $$
 
