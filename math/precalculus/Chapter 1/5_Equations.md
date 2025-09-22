@@ -163,6 +163,7 @@ x^2 + bx + \left( \frac{b}{2} \right)^2 = \left( x+\frac{b}{2} \right)^2
 $$
 
 > [!important] The coefficient of $x^2$ has to be $1$ for this to work.
+> We are ignoring $a$ for now, but later on when we add $a$ back in, the special number is actually  $\left( \frac{b}{2a} \right)^2$.
 
 ---
 
@@ -227,4 +228,39 @@ $$
 
 
 ### Quadratic Formula
+
+For any quadratic equation of the form,
+
+$$
+ax^2 + bx + c = 0, \quad a \neq 0
+$$
+
+the "universal tool" for solving such equation is the <mark class="hltr-trippy">Quadratic formula</mark>, which goes like this :
+
+$$
+x = \frac{-b \pm \sqrt{ b^2-4ac }}{2a}
+$$
+
+This formula is derived from Completing-the-Square, like so :
+
+$$
+\begin{align}
+  ax^2+bx+c &= 0 \\
+  x^2+\frac{b}{a}x+\frac{c}{a} &= 0\\
+  x^2 + \frac{b}{a}x &= -\frac{c}{a} \\
+  x^2+\frac{b}{a}x+\frac{b^2}{4a^2} &= -\frac{c}{a}+\frac{b^2}{4a^2} \\
+  \left( x+\frac{b}{2a} \right)^2 &= \frac{b^2-4ac}{4a^2} \\
+  x + \frac{b}{2a} &= \pm \frac{\sqrt{ b^2-4ac }}{2a} \\
+  x &= -\frac{b}{2a} \pm \frac{\sqrt{ b^2-4ac }}{2a} \\
+  x &= \frac{-b \pm \sqrt{ b^2-4ac }}{2a}
+\end{align}
+$$
+
+It follows this process :
+1. Start with the general quadratic
+2. Divide through by $a$ (so the coefficient of $x^2$ is $1$)
+3. Complete the square by adding in $\frac{b^2}{4a^2}$
+4. Write the left side as a square
+5. Take square root of both sides
+6. Isolate $x$
 
