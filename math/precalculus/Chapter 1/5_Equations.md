@@ -62,3 +62,10 @@ Equivalent equations has a couple of properties.
 
 The <mark class="hltr-trippy">Degree</mark> of an equation is determined by the highest power of the variable (with a nonzero coefficient) in the equation, after it's simplified.
 
+The simplest type of equation is a <mark class="hltr-trippy">Linear Equation</mark>, or first-degree equation.
+
+The general form of linear equations :
+
+$$
+ax + b = 0, \quad a \neq 0
+$$
