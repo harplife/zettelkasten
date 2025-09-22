@@ -148,3 +148,29 @@ Another form of quadratic equation is $x^2-c=0$, where $c$ is a positive constan
 
 ### Completing the Square
 
+<mark class="hltr-trippy">"Completing the Square"</mark> is one of the fundamental techniques in algebra that is used to solve quadratic equations.
+
+Normally, when we have a quadratic formula in its generic form $ax^2+bx+c=0$, we'd factor the equation - which takes a bit of trial and error.
+
+We can take out the guesswork with a neat little trick, which works by adding a special number that would make the left-hand expression into a perfect square trinomial (i.e. $(x+d)^2$).
+
+Given a quadratic expression $x^2+bx=0$ (ignore $c$ for now), that "special" number is $\left( \frac{b}{2} \right)^2$.
+
+This works because :
+
+$$
+x^2 + bx + \left( \frac{b}{2} \right)^2 = \left( x+\frac{b}{2} \right)^2
+$$
+
+> [!important] The coefficient of $x^2$ has to be $1$ for this to work.
+
+This can be understood geometrically. Take a look at this figure :
+
+![[Pasted image 20250921223246.png|300]]
+
+The area of the blue region is
+
+$$
+x^2 + 2\left( \frac{b}{2} \right)x = x^2 + bx
+$$
+
