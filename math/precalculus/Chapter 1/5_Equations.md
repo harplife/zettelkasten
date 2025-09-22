@@ -46,7 +46,9 @@ The <mark class="hltr-trippy">Solution Set</mark> of an equation is the set of a
 
 The <mark class="hltr-trippy">Equivalent Equations</mark> refer to two equations with exactly the same solutions.
 
-Equivalent equations allow for 
+> [!important] Most of precalculus is about *manipulating equations into simpler equivalent forms* so they are solvable.
+> 6+3333333333333333333333333333333333333
+> 00
 
 
 ## Solving Linear Equations
