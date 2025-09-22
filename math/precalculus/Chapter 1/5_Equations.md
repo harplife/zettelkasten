@@ -119,3 +119,26 @@ $$
 
 $a$, $b$, and $c$ are real numbers and $x$ is the variable.
 
+Examples of quadratic equation :
+- $x^2-2x-8=0$
+- $3x+10=4x^2$
+- $\frac{1}{2}x^2+\frac{1}{3}x-\frac{1}{6}=0$
+
+
+Some quadratic equations can be solved by factoring and using the Zero-Product Property of real numbers. Be warned that this only works if the right-hand side of the equation is $0$.
+
+> [!important] Zero-Product Property
+> $$AB=0 \quad \text{if and only if} \quad A=0 \quad \text{or} \quad B=0$$
+
+For example :
+
+$$
+\begin{align}
+  x^2 + 5x &= 24 \\
+  x^2+5x-24 &= 0 \\
+  (x-3)(x+8) &= 0 \implies x=3 \text{ or } x=-8
+\end{align}
+$$
+
+The solutions are $x = 3$ and $x = -8$.
+
