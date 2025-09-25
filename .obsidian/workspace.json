@@ -37,8 +37,7 @@
               "title": "ex_1_5_20250922"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,13 +117,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "math/precalculus/Exercises/ex_1_5_20250922.md",
+                "file": "math/precalculus/Chapter 1/5_Equations.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ex_1_5_20250922"
+              "title": "Outline of 5_Equations"
             }
           }
         ]
@@ -235,7 +234,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "math/precalculus/Exercises/ex_1_5_20250922.md",
+                "file": "math/precalculus/Chapter 1/5_Equations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -245,7 +244,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for ex_1_5_20250922"
+              "title": "Backlinks for 5_Equations"
             }
           }
         ],
@@ -271,10 +270,10 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "b65a008609e25484",
+  "active": "8872735e3d315f62",
   "lastOpenFiles": [
-    "math/precalculus/Chapter 1/5_Equations.md",
     "math/precalculus/Exercises/ex_1_5_20250922.md",
+    "math/precalculus/Chapter 1/5_Equations.md",
     "math/precalculus/Exercises/ex_1_4_20250919.md",
     "attachments/Pasted image 20250921223246.png",
     "math/precalculus/Chapter 1/3_Algebraic_Expressions.md",

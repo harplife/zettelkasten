@@ -395,3 +395,8 @@ Solving equations with absolute-value pretty much means solving two different eq
 
 For example, $\lvert 2x-5 \rvert = 3$ is equivalent to $2x-5=3$ or $2x-5=-3$. In which case, the solutions are $x=4$ and $x=1$.
 
+
+## Extra : Parabola
+
+When you graph a quadratic equation (i.e. $y=ax^2+bx+c$), what you get is a <mark class="hltr-trippy">Parabola</mark>.
+

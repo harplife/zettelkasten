@@ -1116,8 +1116,7 @@
                   "title": "ex_1_5_20250922"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "vertical"
@@ -1197,13 +1196,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "math/precalculus/Exercises/ex_1_5_20250922.md",
+                    "file": "math/precalculus/Chapter 1/5_Equations.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of ex_1_5_20250922"
+                  "title": "Outline of 5_Equations"
                 }
               }
             ]
@@ -1314,7 +1313,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "math/precalculus/Exercises/ex_1_5_20250922.md",
+                    "file": "math/precalculus/Chapter 1/5_Equations.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1324,7 +1323,7 @@
                     "unlinkedCollapsed": false
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for ex_1_5_20250922"
+                  "title": "Backlinks for 5_Equations"
                 }
               }
             ],
@@ -1350,8 +1349,8 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "b65a008609e25484",
-      "mtime": "2025-09-23T21:53:02-05:00",
+      "active": "8872735e3d315f62",
+      "mtime": "2025-09-25T13:44:06-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "math",
