@@ -507,3 +507,12 @@ The vertex in the example above is $(3, -4)$.
 
 ### Physics : Ball Thrown Upwards
 
+One of the exercises explores the falling-body problem, which uses the formula $h=-16t^2+v_{0}t$ where $h$ is height, $t$ is time, and $v_{0}$ is the initial speed.
+
+> [!exercise] 131. A ball is thrown straight upward at an initial speed of $v_{0}=40$ ft/s.
+> (a) When does the ball reach a height of 24 ft?
+> (b) When does the ball reach a height of 48 ft?
+> (c) What is the greatest height reached by the ball?
+> (d) When does the ball reach the highest point of its path?
+> (e) When does the ball hit the ground?
+
