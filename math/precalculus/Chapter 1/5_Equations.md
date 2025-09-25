@@ -400,3 +400,110 @@ For example, $\lvert 2x-5 \rvert = 3$ is equivalent to $2x-5=3$ or $2x-5=-3$. In
 
 When you graph a quadratic equation (i.e. $y=ax^2+bx+c$), what you get is a <mark class="hltr-trippy">Parabola</mark>.
 
+```tikz
+\begin{document}
+  \begin{tikzpicture}[domain=-2:2]
+    \draw[->] (-2,0) -- (2,0) node[right] {$x$};
+    \draw[->] (0,-2) -- (0,4) node[right] {$f(x)$};
+    \draw[red,thick] plot [domain=-2:2] (\x, \x*\x) node[right] {$f(x)=x^2$};
+  \end{tikzpicture}
+\end{document}
+```
+
+The <mark class="hltr-trippy">Vertex</mark> is the "turning point" (peak) of a parabola. In the graph above ($y=x^2$), the vertex is at $(0,0)$.
+
+The parabola opens upward when $a>0$, which also means the vertex is the minimum point of the parabola.
+
+Conversely, the parabola opens downward when $a<0$, which means the vertex is the maximum point of the parabola.
+
+### Vertex of Standard Form
+
+In the standard form of the equation (i.e. $y=ax^2+bx+c$), the vertex occurs at :
+
+$$
+x = -\frac{b}{2a}
+$$
+
+To get the y-coordinate of the vertex, plug the $x$ back into the equation :
+
+$$
+y = a\left( -\frac{b}{2a} \right)^2 + b\left( -\frac{b}{2a} \right) + c
+$$
+
+Example :
+
+$$
+\begin{align}
+  y &= 2x^2-4x+1 \\
+  x &= -\frac{-4}{2(2)}=\frac{4}{4}=1 \\
+  y &= 2(1)^2-4(1)+1=-1
+\end{align}
+$$
+
+The vertex for the example above is $(1, -1)$.
+
+
+### Vertex of Vertex Form
+
+The Vertex Form of a quadratic equation looks like this :
+
+$$
+y = a(x-h)^2+k
+$$
+
+The vertex can easily be identified in this form (hence the name) :
+
+$$
+(h, k)
+$$
+
+The standard form can be changed to the Vertex Form by completing-the-square.
+
+For example :
+
+$$
+\begin{align}
+  y &= 2x^2-4x+1 \\
+  \frac{y}{2} &= x^2-2x+\frac{1}{2} \\
+  \frac{y}{2}+1 &= x^2-2x+1+\frac{1}{2} \\
+  \frac{y}{2}+1 &= (x-1)^2+\frac{1}{2} \\
+  \frac{y}{2} &= (x-1)^2-\frac{1}{2} \\
+  y &= 2(x-1)^2-1
+\end{align}
+$$
+
+The vertex in the example above is $(1, -1)$.
+
+
+### Vertex of Factored Form
+
+The factored form of a quadratic equation looks like this :
+
+$$
+y = a(x-r_{1})(x-r_{2})
+$$
+
+The vertex lies halfway between the roots $(r_{1},r_{2})$ on the $x$-axis.
+
+$$
+x = \frac{r_{1}+r_{2}}{2}
+$$
+
+The vertex on the $y$-axis can then be found by plugging in the $x$ value of the vertex.
+
+Example :
+
+$$
+\begin{align}
+  y &= x^2-6x+5 \\
+  y &= (x-1)(x-5) \\
+  x &= \frac{1+5}{2} = 3 \\
+  y &= (3-1)(3-5) = (2)(-2) = -4
+\end{align}
+$$
+
+The vertex in the example above is $(3, -4)$.
+
+
+### Physics : Ball Thrown Upwards
+
