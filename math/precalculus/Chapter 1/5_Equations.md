@@ -509,10 +509,13 @@ The vertex in the example above is $(3, -4)$.
 
 One of the exercises explores the falling-body problem, which uses the formula $h=-16t^2+v_{0}t$ where $h$ is height, $t$ is time, and $v_{0}$ is the initial speed.
 
-> [!exercise] 131. A ball is thrown straight upward at an initial speed of $v_{0}=40$ ft/s.
+> [!exercise] A ball is thrown straight upward at an initial speed of $v_{0}=40$ ft/s.
 > (a) When does the ball reach a height of 24 ft?
 > (b) When does the ball reach a height of 48 ft?
 > (c) What is the greatest height reached by the ball?
 > (d) When does the ball reach the highest point of its path?
 > (e) When does the ball hit the ground?
 
+Problems (c) and (d) is pretty much asking for what the vertex is.
+
+Given $h = -16t^2+40t$, the vertex at $t$ is $\frac{5}{4}$, which answers problem (d). Plugging $t$ in, we find that $h=-16\left( \frac{25}{16} \right)+40\left( \frac{5}{4} \right)=25$; which answers problem (c). All this gives insight to the fact that the answer to problem (b) is "never".
