@@ -60,15 +60,22 @@ $$
 \end{align}
 $$
 
-It's best to simplify $i$ when the power of $i$ is greater than $1$. For example, $i^2=-1$. Any power in multiples of $2$ can then be simplified. For example,
 
-$$
-\begin{align}
-  i^{23} &= i^{22}i \\
-  &= (-1)i \\
-  &= -i
-\end{align}
-$$
+### Powers of i
+
+The trick to simplifying (evaluating) the powers of $i$ comes down to understanding that the powers of $i$ goes through a cycle for every 4th power :
+- $i^1=1$
+- $i^2=-1$
+- $i^3=-i$
+- $i^4=1$
+- and cycle repeats at $i^5=1$
+
+For $i^n$, divide $n$ by $4$ and look at the remainder :
+- If $n \equiv 0 \text{ (mod 4)}$, then $i^n=1$
+- If $n \equiv 1 \text{ (mod 4)}$, then $i^n=i$
+- If $n \equiv 2 \text{ (mod 4)}$, then $i^n=-1$
+- If $n \equiv 3 \text{ (mod 4)}$, then $i^n=-i$
+
 
 ### Complex Conjugate
 
@@ -180,3 +187,11 @@ $$
 > [!important] In the complex system, we see that the solutions are complex conjugates of each other.
 > In the example above, the solutions are $-2+i$ and $-2-i$. These are complex conjugates of each other.
 
+
+## Extra : imaginary in the real world
+
+While the imaginary number $i$ itself is not a "measurable" quantity in the real world, it still has real consequences, as $i$ encodes :
+- Rotations
+- Oscillations/Waves
+- Quantum states
+- Phase information
