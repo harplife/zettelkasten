@@ -128,3 +128,55 @@ Examples :
 - $\sqrt{ -16 } = i\sqrt{ 16 } = 4i$
 - $\sqrt{ -3 } = i\sqrt{ 3 }$
 
+
+## Complex Solutions of Quadratic Equations
+
+In the previous section, we learned about how to solve a quadratic equation
+
+$$
+ax^2 + bx + c = 0
+$$
+
+using a quadratic formula :
+
+$$
+x = \frac{-b \pm \sqrt{ b^2 -4ac }}{2a}
+$$
+
+We also learned how to use the discriminant
+
+$$
+D = b^2-4ac
+$$
+
+to determine whether there are two real solutions ($D>0$), one real solution ($D=0$), or no real solutions ($D<0$).
+
+Of course, in the complex number system, any quadratic equation will always have solutions.
+
+The quadratic equation $x^2+9=0$ has a real solution in the complex number system :
+
+$$
+\begin{align}
+  x^2 +9 &= 0 \\
+  x^2 &= -9 \\
+  x &= \pm \sqrt{ -9 } \\
+  x &= \pm i\sqrt{ 9 } \\
+  x &= \pm 3i
+\end{align}
+$$
+
+Another example :
+
+$$
+\begin{align}
+  x^2 + 4x + 5 &= 0 \\
+  x &= \frac{-4 \pm \sqrt{ 4^2 - 4(5) }}{2} \\
+  x &= \frac{-4 \pm \sqrt{ -4 }}{2} \\
+  x &= \frac{-4 \pm 2i}{2} \\
+  x &= -2 \pm i
+\end{align}
+$$
+
+> [!important] In the complex system, we see that the solutions are complex conjugates of each other.
+> In the example above, the solutions are $-2+i$ and $-2-i$. These are complex conjugates of each other.
+

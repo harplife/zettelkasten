@@ -1087,36 +1087,6 @@
             "type": "tabs",
             "children": [
               {
-                "id": "8872735e3d315f62",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "math/precalculus/Chapter 1/5_Equations.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "5_Equations"
-                }
-              },
-              {
-                "id": "b65a008609e25484",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "math/precalculus/Exercises/ex_1_5_20250922.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "ex_1_5_20250922"
-                }
-              },
-              {
                 "id": "da76457e9cf039b2",
                 "type": "leaf",
                 "state": {
@@ -1130,9 +1100,24 @@
                   "icon": "lucide-file",
                   "title": "6_Complex_Numbers"
                 }
+              },
+              {
+                "id": "52f4b9429e00d310",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "math/precalculus/Exercises/ex_1_6_20250928.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "ex_1_6_20250928"
+                }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -1212,13 +1197,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "math/precalculus/6_Complex_Numbers.md",
+                    "file": "math/precalculus/Exercises/ex_1_6_20250928.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of 6_Complex_Numbers"
+                  "title": "Outline of ex_1_6_20250928"
                 }
               }
             ]
@@ -1329,7 +1314,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "math/precalculus/6_Complex_Numbers.md",
+                    "file": "math/precalculus/Exercises/ex_1_6_20250928.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1339,7 +1324,7 @@
                     "unlinkedCollapsed": false
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for 6_Complex_Numbers"
+                  "title": "Backlinks for ex_1_6_20250928"
                 }
               }
             ],
@@ -1365,8 +1350,8 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "da76457e9cf039b2",
-      "mtime": "2025-09-26T15:08:13-05:00",
+      "active": "52f4b9429e00d310",
+      "mtime": "2025-09-28T16:50:42-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "math",
