@@ -112,3 +112,19 @@ $$
 
 ## Square Roots of Negative Numbers
 
+Just as every positive real number $r$ has two square roots ($\sqrt{ r }$ and $-\sqrt{ r }$), every negative number has two square roots. If $-r$ is a negative number, then its square roots are $\pm i\sqrt{ r }$.
+
+$$
+\begin{align}
+  (i\sqrt{ r })^2 &= (-1)(r) = -r \\
+  (-i\sqrt{ r })^2 &= (1)(-1)(r) = -r
+\end{align}
+$$
+
+If $-r$ is a negative, then the **principal square root** of $-r$ is $i\sqrt{ r }$.
+
+Examples :
+- $\sqrt{ -1 } = i\sqrt{ 1 } = i$
+- $\sqrt{ -16 } = i\sqrt{ 16 } = 4i$
+- $\sqrt{ -3 } = i\sqrt{ 3 }$
+
