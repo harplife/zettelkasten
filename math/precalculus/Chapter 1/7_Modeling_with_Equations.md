@@ -90,3 +90,9 @@ So $35,000 is invested at 6% and the remaining $65,000 at 4.5%.
 
 ## Problems About Area or Length
 
+Basic formulas from geometry comes handy when it comes to dealing with problems such solving for an area, a perimeter, or length of a side.
+
+### Example : Dimensions of a Garden
+
+A square garden has a walkaway 3 ft wide around its outer edge. If the area of the entire garden, including the walkway, is 18,000 ft², what are the dimensions of the planted area?
+
