@@ -103,6 +103,136 @@ A square garden has a walkaway 3 ft wide around its outer edge. If the area of t
 
 1. Identify the variable
 
-
+Let $x$ be the length of the planted area.
 
 ---
+
+2. Translate from words to algebra
+
+
+| In Words                | In Algebra |
+| ----------------------- | ---------- |
+| Length of planted area  | $x$        |
+| Length of entire garden | $x+6$      |
+| Area of entire garden   | $(x+6)^2$  |
+
+---
+
+3. Set up the model
+
+$$
+(x+6)^2 = 18000
+$$
+
+---
+
+4. Solve for $x$
+
+$$
+\begin{align}
+  x + 6 &= \sqrt{ 18000 } \\
+  x &= \sqrt{ 18000 } - 6 \\
+  x &\approx 128
+\end{align}
+$$
+
+The planted area of the garden is about $128$ ft by $128$ ft.
+
+
+### Example : Dimensions of a Building Lot
+
+A rectangular building lot is 8 ft longer than it is wide and has an area of 29000 ft². Find the dimensions of the lot.
+
+---
+
+1. Identify the variable
+
+Let $w$ be the width of lot
+
+---
+
+2. Translate from words to algebra
+
+| In Words      | In Algebra |
+| ------------- | ---------- |
+| Width of lot  | $w$        |
+| Length of lot | $w+8$      |
+
+---
+
+3. Set up the model
+
+$$
+w(w+8) = 2900
+$$
+
+---
+
+4. Solve for $w$
+
+$$
+\begin{align}
+  w^2 + 8w &= 2900 \\
+  w^2 + 8w - 2900 &= 0 \\
+  (w-50)(w+58) &= 0 \\
+  w &= 50, -58
+\end{align}
+$$
+
+Since the width of the lot must be a positive number, $w = 50$. The length of the lot is $w+8=58$.
+
+
+### Example : Dimensions of a Building
+
+A person needs to find the height of a certain four-story building and observes that the shadow of the building is 28 ft long. The person is 6 ft tall and has a shadow 3.5 ft long when standing next to the building. How tall is the building?
+
+![[Pasted image 20250929161113.png| center | 500]]
+
+---
+
+1. Identify the variable
+
+Let $h$ be the height of the building.
+
+---
+
+2. Translate from words to algebra
+
+| In Words                                  | In Algebra      |
+| ----------------------------------------- | --------------- |
+| Height of building                        | $h$             |
+| Ratio of height to shadow of the building | $\frac{h}{28}$  |
+| Ratio of height to shadow of the person   | $\frac{6}{3.5}$ |
+
+---
+
+3. Set up the model
+
+$$
+\frac{h}{28} = \frac{6}{3.5}
+$$
+
+---
+
+4. Solve for $h$
+
+$$
+h = \frac{6 \cdot 28}{3.5} = 48
+$$
+
+The building is 48 ft tall.
+
+
+## Problems About Mixtures
+
+Problems involving mixtures and concentrations make use of the fact that if an amount $x$ of a substance is dissolved in a solution with volume $V$, then the concentration $C$ of the substance is given by :
+
+$$
+C = \frac{x}{V}
+$$
+
+Note that in many mixture problems the concentration $C$ is expressed as a percentage. It is important to convert it to decimal form in order to make calculations.
+
+
+### Mixtures and Concentration
+
