@@ -96,3 +96,13 @@ Basic formulas from geometry comes handy when it comes to dealing with problems 
 
 A square garden has a walkaway 3 ft wide around its outer edge. If the area of the entire garden, including the walkway, is 18,000 ft², what are the dimensions of the planted area?
 
+![[Pasted image 20250929155112.png| center | 400]]
+
+
+---
+
+1. Identify the variable
+
+
+
+---
