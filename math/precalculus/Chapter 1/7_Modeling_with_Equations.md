@@ -401,5 +401,7 @@ Suppose the bird has 170 kcal of energy in reserve. It uses 10 kcal/mi flying ov
 
 (a) Where should the point C be located so that the bird uses exactly 170 kcal of energy during its flight?
 
-(b) Does the bird have enough energy in reserve
+(b) Does the bird have enough energy in reserve to fly directly from A to D?
+
+
 
