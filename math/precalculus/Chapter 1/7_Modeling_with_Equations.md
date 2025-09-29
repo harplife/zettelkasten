@@ -236,3 +236,170 @@ Note that in many mixture problems the concentration $C$ is expressed as a perce
 
 ### Mixtures and Concentration
 
+A manufacturer of soft drinks advertises their orange soda as "naturally flavored", although it contains only 5% orange juice. A new federal regulation stipulates that to be called "natural", a drink must contain at least 10% fruit juice. How much pure orange juice must this manufacturer add to 900 gal of orange soda to conform to the new regulation?
+
+---
+
+1. Identify the variable
+
+Let $x$ be the amount (in gallons) of pure orange juice to be added.
+
+---
+
+2. Translate from words to algebra
+
+| In Words                                    | In Algebra     |
+| ------------------------------------------- | -------------- |
+| Amount of orange juice to be added          | $x$            |
+| Amount of orange juice in the original soda | $0.05(900)=45$ |
+| Amount of the new mixture                   | $900 + x$      |
+| Amount of orange juice in the new mixture   | $0.1(900+x)$   |
+
+---
+
+3. Set up the model
+
+$$
+45 + x = 0.1(900+x)
+$$
+
+---
+
+4. Solve for $x$
+
+$$
+\begin{align}
+  45 + x &= 90 + 0.1x \\
+  0.9x &= 45 \\
+  x &= \frac{45}{0.9} = 50
+\end{align}
+$$
+
+The manufacturer should add 50 gallons of pure orange juice to the soda.
+
+
+## Problems About the Time Needed to Do a Job
+
+When solving a problem that involves determining how long it takes several workers to complete a job, we use the fact that if a person or machine takes $H$ time units to complete the task, then in one time unit the fraction of the task that has been completed is $\frac{1}{H}$.
+
+
+### Time Needed to Do a Job
+
+Because of an anticipated heavy rainstorm, the water level in a reservoir must be lowered by 1 ft. Opening spillway A lowers the level by this amount in 4 hours, whereas opening the smaller spillway B does the job in 6 hours. How long will it take to lower the water level by 1 ft if both spillways are opened?
+
+---
+
+1. Identify the variable
+
+Let $x$ be the time (in hours) it takes to lower the water level by 1 ft if both spillways are opened.
+
+---
+
+2. Translate from words to algebra
+
+| In Words                                                      | In Algebra    |
+| ------------------------------------------------------------- | ------------- |
+| Time it takes to lower level $1$ ft with $A$ and $B$ together | $x$           |
+| Distance $A$ lowers level in $1$ hour                         | $\frac{1}{4}$ |
+| Distance $B$ lowers level in $1$ hour                         | $\frac{1}{6}$ |
+| Distance $A$ and $B$ together lower levels in $1$ hour        | $\frac{1}{x}$ |
+
+---
+
+3. Set up the model
+
+$$
+\frac{1}{4} + \frac{1}{6} = \frac{1}{x}
+$$
+
+---
+
+4. Solve for $x$
+
+$$
+\begin{align}
+  \frac{1}{4} + \frac{1}{6} &= \frac{1}{x} \\
+  3x + 2x &= 12 \\
+  5x &= 12 \\
+  x &= \frac{12}{5}
+\end{align}
+$$
+
+It will take $2 \frac{2}{5}$ hours (2 hours 24 minutes) to lower the water level by 1 ft if both spillways are opened.
+
+
+## Problems About Distance, Rate, and Time
+
+When dealing with distance, rate, and time, the following formula is often used :
+
+$$
+\text{Distance} = \text{rate} \times \text{time}
+$$
+
+The rate is either the constant speed or average speed of a moving object.
+
+
+### A Distance-Speed-Time Problem
+
+A jet flew from New York to Los Angeles, a distance of 4200 km. The speed for the return trip was 100 km/h faster than the outbound speed. If the total trip took 13 hours of flying time, what was the jet's speed from New York to Los Angeles?
+
+---
+
+1. Identify the variable
+
+Let $s$ be the speed from New York to Los Angeles
+
+---
+
+2. Translate from words to algebra
+
+| In Words                     | In Algebra           |
+| ---------------------------- | -------------------- |
+| Distance between NY and LA   | $4200$               |
+| Speed from NY to LA          | $s$                  |
+| Speed from LA to NY          | $s+100$              |
+| Time from NY to LA           | $\frac{4200}{s}$     |
+| Time from LA to NY           | $\frac{4200}{s+100}$ |
+| Total time of the round trip | $13$                 |
+
+---
+
+3. Set up the model
+
+$$
+\frac{4200}{s} + \frac{4200}{s+100} = 13
+$$
+
+---
+
+4. Solve for $s$
+
+$$
+\begin{align}
+  \frac{4200}{s} + \frac{4200}{s+100} &= 13 \\
+  4200(s+100) + 4200s &= 13s(s+100) \\
+  8400s + 420000 &= 13s^2 + 1300s \\
+  0 &= 13s^2 - 7100s - 420000 \\
+  s & = \frac{7100 \pm \sqrt{ (-7100)^2 -4(13)(-420000) }}{2(13)} \\
+  s &= \frac{7100 \pm 8500}{26} \\
+  s &= 600, -53.8
+\end{align}
+$$
+
+Since $s$ represents speed, we reject the negative answer and conclude that the jet's speed from NY to LA was $600$ km/h.
+
+
+### Energy Expended in Bird Flight
+
+Ornithologists have determined that some species of birds tend to avoid flights over large bodies of water during daylight hours, because air generally rises over land and falls over water in the daytime, so flying over water requires more energy.
+
+A bird is released from point A on an island, 5 mi from B, the nearest point on a straight shoreline. The bird flies to a point C on the shoreline and then flies along the shoreline to its nesting area D.
+
+![[Pasted image 20250929170218.png| center | 300]]
+
+Suppose the bird has 170 kcal of energy in reserve. It uses 10 kcal/mi flying over land and 14 kcal/mi flying over water.
+
+(a) Where should the point C be located so that the bird uses exactly 170 kcal of energy during its flight?
+
+(b) Does the bird have enough energy in reserve
+
