@@ -399,9 +399,26 @@ A bird is released from point A on an island, 5 mi from B, the nearest point on 
 
 Suppose the bird has 170 kcal of energy in reserve. It uses 10 kcal/mi flying over land and 14 kcal/mi flying over water.
 
+---
+
 (a) Where should the point C be located so that the bird uses exactly 170 kcal of energy during its flight?
 
+1. Identify the variable
+
+Let $x$ be the distance from $B$ to $C$.
+
+2. Translate from words to algebra
+
+| In Words                                    | In Algebra                              |
+| ------------------------------------------- | --------------------------------------- |
+| Distance from $B$ to $C$                    | $x$                                     |
+| Distance flown over water (from $A$ to $C$) | $\sqrt{ x^2+25 }$ (Pythagorean Theorem) |
+| Distance flown over land (from $C$ to $D$)  | $12-x$                                  |
+|                                             |                                         |
+
+
+---
+
+
 (b) Does the bird have enough energy in reserve to fly directly from A to D?
-
-
 
