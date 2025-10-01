@@ -18,3 +18,17 @@ To **solve an inequality** that contains a variable means to find all values of 
 
 ![[Pasted image 20251001125027.png]]
 
+
+### Rules for Inequalities
+
+
+| Rule                                                                  | Description                                                                                                                    |
+| --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| $A \leq B \iff A+C \leq B+C$                                          | **Adding/subtracting** the same quantity to each side of an inequality gives an equivalent inequality.                         |
+| If $C>0$, then $A\leq B \iff CA \leq CB$                              | **Multiplying** each side of an inequality by the same positive quantity gives an equivalent inequality                        |
+| If $C<0$, then $A \leq B \iff CA \geq CB$                             | **Multiplying** each side of an inequality by the same negative quantity *reverses the direction* of the inequality.           |
+| If $A>0$ and $B>0$, then $A \leq B \iff \frac{1}{A} \geq \frac{1}{B}$ | **Taking reciprocals** of each side of an inequality involving positive quantities *reverses the direction* of the inequality. |
+| If $A \leq B$ and $C \leq D$, then $A+C \leq B + D$                   | Inequalities can be added.                                                                                                     |
+|                                                                       |                                                                                                                                |
+|                                                                       |                                                                                                                                |
+|                                                                       |                                                                                                                                |
