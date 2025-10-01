@@ -443,6 +443,13 @@ Point C should be either $6 \frac{2}{3}$ or $3 \frac{3}{4}$ miles from B so that
 
 ---
 
-
 (b) Does the bird have enough energy in reserve to fly directly from A to D?
+
+Energy in reserve = 170 kcal
+
+Distance from A to D : $\sqrt{ 5^2 + 12^2 } = 13$
+
+Bird uses 14 kcal/mi flying over water, and flying A to D is just straight up water.
+
+So, total energy needed to fly A to D is $13 \times 14 = 182$. This is more energy than the bird has available, so it can't use this route.
 
