@@ -414,7 +414,31 @@ Let $x$ be the distance from $B$ to $C$.
 | Distance from $B$ to $C$                    | $x$                                     |
 | Distance flown over water (from $A$ to $C$) | $\sqrt{ x^2+25 }$ (Pythagorean Theorem) |
 | Distance flown over land (from $C$ to $D$)  | $12-x$                                  |
-|                                             |                                         |
+| Energy used over water                      | $14\sqrt{ x^2+25 }$                     |
+| Energy used over land                       | $10(12-x)$                              |
+
+3. Set up the model
+
+$$
+170 = 14\sqrt{ x^2+25 } + 10(12-x)
+$$
+
+4. Solve for $x$
+
+$$
+\begin{align}
+  170 &= 14\sqrt{ x^2+25 } + 10(12-x) \\
+  170 - 10(12-x) &= 14\sqrt{ x^2+25 } \\
+  50 + 10x &= 14\sqrt{ x^2+25 } \\
+  (50+10x)^2 &= (14)^2(x^2+25) \\
+  2500 + 1000x + 100x^2 &= 196x^2 + 4900 \\
+  0 &= 96x^2 - 1000x + 2400 \\
+  x &= \frac{1000 \pm \sqrt{ (-1000)^2 -4(96)(2400) }}{2(96)} \\
+  x &= \frac{1000 \pm 280}{192} = 6 \frac{2}{3} \quad \text{ or } \quad 3 \frac{3}{4}
+\end{align}
+$$
+
+Point C should be either $6 \frac{2}{3}$ or $3 \frac{3}{4}$ miles from B so that the bird uses exactly 170 kcal of energy during its flight.
 
 
 ---
