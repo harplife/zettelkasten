@@ -83,3 +83,58 @@ A Non-linear Inequality is an inequality involving a polynomial of degree greate
 
 ### General Strategy for Polynomial
 
+Given a polynomial non-linear inequality : $x^2-5x>-6$
+
+1. Rewrite in standard form; move everything to one side so the other side becomes $0$.
+
+$$
+\begin{align}
+  x^2-5x &> -6 \\
+  x^2-5x+6 &> 0
+\end{align}
+$$
+
+2. Factor the polynomial.
+
+$$
+\begin{align}
+  x^2-5x+6 = (x-2)(x-3)
+\end{align}
+$$
+
+3. Find the roots (disregard the inequality for now).
+
+$$
+\begin{align}
+  (x-2)(x-3) = 0 \implies x=2,3
+\end{align}
+$$
+
+4. Identify the intervals; divide the real line by the values of $x$ (which makes each factor equal to zero).
+
+Given $x=2,3$, the intervals are $(-\infty, 2)$, $(2, 3)$, and $(3, \infty)$.
+
+
+5. Test the sign in each interval; pick a random value from each interval and test whether the product is positive or negative.
+
+- For $(-\infty, 2)$, say $x=0$ : $(0-2)(0-3) = (-2)(-3) = 6$, the sign is positive (+)
+- For $(2, 3)$, say $x=2.5$ : $(2.5-2)(2.5-3) = (0.5)(-0.5) = -0.25$, the sign is negative (-)
+- For $(3, \infty)$, say $x=4$ : $(4-2)(4-3) = (2)(1) = 2$, the sign is positive (+)
+
+> [!important] Any random value from each interval is representative of the interval itself.
+> If a value from an interval shows its sign, rest of the values will show the same sign.
+
+
+5. Choose the intervals that satisfy the inequality.
+
+Since $x^2-5x+6>0$, the factors have to be positive; in other words, the value of $x$ has to meet the condition where, if plugged in, the resulting value is positive. We checked that any value from $(-\infty, 2)$ and $(3, \infty)$ satisfy this condition. Therefore, the solution for the inequality is :
+
+$$
+(-\infty, 2) \cup (3, \infty)
+$$
+
+
+#### Example for Less Than or Equal To 0
+
+
+
