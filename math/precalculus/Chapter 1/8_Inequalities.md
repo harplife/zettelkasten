@@ -77,3 +77,9 @@ The solution set is $\{ x \in \mathbb{R} \mid 2 \leq x < 5 \} = [2, 5)$.
 
 ## Solving Nonlinear Inequalities
 
+A Non-linear Inequality is an inequality involving a polynomial of degree greater than $1$, or sometimes rational, exponential, or other non-linear functions. For example,
+- Polynomial : $x^2-5x+6>0$
+- Rational : $\frac{x+1}{x-2} \leq 0$
+
+### General Strategy for Polynomial
+
