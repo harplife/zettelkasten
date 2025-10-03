@@ -258,7 +258,26 @@ For a one-day rental, how many miles would you have to drive so that renting fro
 
 Let $x$ be the number of miles.
 
+The rental cost with Company A is then $19 + 0.40x$, while the rental cost with Company B is $68 + 0.26x$.
 
+The inequality model where the rental cost with Company B is less than that of Company A is :
+
+$$
+68 + 0.26x < 19 + 0.40x
+$$
+
+Solve for $x$ :
+
+$$
+\begin{align}
+  68 + 0.26x &< 19 + 0.40x \\
+  49 + 0.26x &< 0.40x \\
+  49 &< 0.14x \\
+  350 &< x
+\end{align}
+$$
+
+If plan to drive more than 350 miles in a single day, you can benefit from renting the truck from Company B.
 
 
 ---
