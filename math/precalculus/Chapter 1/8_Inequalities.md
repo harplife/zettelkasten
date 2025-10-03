@@ -218,3 +218,47 @@ $$
 
 ## Absolute-Value Inequalities
 
+Inequalities where the variable is in absolute value can be thought of having two separate inequalities. For example, $\lvert x \rvert \leq 5$ is pretty much $x \leq 5$ and $x \geq -5$. The solution for this is the interval $[-5,5]$.
+
+Here are the properties of absolute-value inequalities :
+
+| Inequality               | Equivalent Form                              | Solution Set (Interval)          |
+| ------------------------ | -------------------------------------------- | -------------------------------- |
+| $\lvert x \rvert < c$    | $-c < x < c$                                 | $(-c, c)$                        |
+| $\lvert x \rvert \leq c$ | $-c \leq x \leq c$                           | $[-c, c]$                        |
+| $\lvert x \rvert > c$    | $x < -c \quad \text{ or } \quad x > c$       | $(-\infty, -c) \cup (c, \infty)$ |
+| $\lvert x \rvert \leq c$ | $x \leq -c \quad \text{ or } \quad x \geq c$ | $(-\infty, -c] \cup [c, \infty)$ |
+
+
+Example of solving an absolute-value inequality :
+
+$$
+\begin{align}
+  \lvert x - 5 \rvert < 2 \\
+  -2 < x-5 < 2 \\
+  3 < x < 7
+\end{align}
+$$
+
+The solution set is the open interval $(3, 7)$.
+
+
+## Modeling with Inequalities
+
+
+### Example : Truck Rental
+
+Two truck rental companies offer the following pricing plans :
+- Company A - $19 a day and $0.40 per mile
+- Company B - $68 a day and $0.26 per mile
+
+For a one-day rental, how many miles would you have to drive so that renting from Company B is less expensive than renting from Company A?
+
+---
+
+Let $x$ be the number of miles.
+
+
+
+
+---
