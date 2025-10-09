@@ -69,7 +69,7 @@ $$
 
 ## Graphs of Equations in Two Variables
 
-An **equation in two variables** (e.g. $y = x^2 + 1$) expresses a relationship between two quantities.
+An **equation in two variables** (e.g. $y = x^2 + 1$) expresses a relationship between two quantities. Also, it represents a **curve** in the plane.
 
 A point $(x, y)$ is said to **satisfy** the equation if it makes the equation true when the values for $x$ and $y$ are substituted into the equation.
 - For example, the point $(3,10)$ satisfies the equation $y=x^2+1$ because $10 = 3^2+1$. However, the point $(1,3)$ does not, because $3 \neq 1^2 +1$.
