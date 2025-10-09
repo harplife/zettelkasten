@@ -273,8 +273,11 @@
   },
   "active": "5d6a6e06617f50ab",
   "lastOpenFiles": [
-    "math/precalculus/Chapter 1/9_The_Coordinate_Plane.md",
+    "math/precalculus/Resources/Review_of_Geometry.pdf",
     "math/precalculus/Exercises/ex_1_9_20251009.md",
+    "math/precalculus/Precalculus_Main.md",
+    "math/precalculus/Chapter 1/6_Complex_Numbers.md",
+    "math/precalculus/Chapter 1/9_The_Coordinate_Plane.md",
     "math/precalculus/Exercises/ex_1_8_20251003.md",
     "attachments/Pasted image 20251009085334.png",
     "attachments/Pasted image 20251009084347.png",
@@ -289,7 +292,6 @@
     "attachments/Pasted image 20250929161113.png",
     "attachments/Pasted image 20250929155112.png",
     "math/precalculus/Exercises/ex_1_6_20250928.md",
-    "math/precalculus/6_Complex_Numbers.md",
     "math/precalculus/Chapter 1/3_Algebraic_Expressions.md",
     "math/precalculus/Chapter 1/5_Equations.md",
     "math/precalculus/Exercises/ex_1_5_20250922.md",
@@ -300,7 +302,6 @@
     "math/precalculus/Exercises/ex_1_3_20250913.md",
     "math/precalculus/Chapter 1/1_Real_Numbers.md",
     "math/precalculus/Chapter 1/2_Exponents_and_Radicals.md",
-    "math/precalculus/Precalculus_Main.md",
     "math/precalculus/Exercises/ex_1_2_20250909.md",
     "math/precalculus/Exercises/ex_1_1_20250904.md",
     "math/algebra_and_trigonometry/chapter_p/chapter_p1_exercises.md",
@@ -311,13 +312,11 @@
     "math/precalculus/Resources",
     "math/precalculus/Resources/Precalculus_Cheatsheet.pdf",
     "math/precalculus/Chapter 1",
-    "math/precalculus/Resources/Review_of_Geometry.pdf",
     "math/precalculus/Resources/Review_of_Algebra.pdf",
     "math/precalculus",
     "JE_01.md",
     "cpp_hello_window_code.md",
     "music/vocal/vocalization.md",
-    "study_LearnOpenGL_GettingStarted.md",
-    "study_LearnOpenGL_Lighting.md"
+    "study_LearnOpenGL_GettingStarted.md"
   ]
 }
