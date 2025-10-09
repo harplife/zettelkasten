@@ -8,36 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "abff1f01a2cf080d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "math/precalculus/Chapter 1/8_Inequalities.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "8_Inequalities"
-            }
-          },
-          {
-            "id": "32f9a8244727e331",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "math/precalculus/Exercises/ex_1_8_20251003.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "ex_1_8_20251003"
-            }
-          },
-          {
             "id": "e918687a10d1546e",
             "type": "leaf",
             "state": {
@@ -51,9 +21,24 @@
               "icon": "lucide-file",
               "title": "9_The_Coordinate_Plane"
             }
+          },
+          {
+            "id": "5d6a6e06617f50ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "math/precalculus/Exercises/ex_1_9_20251009.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "ex_1_9_20251009"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -133,13 +118,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "math/precalculus/Chapter 1/9_The_Coordinate_Plane.md",
+                "file": "math/precalculus/Exercises/ex_1_9_20251009.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 9_The_Coordinate_Plane"
+              "title": "Outline of ex_1_9_20251009"
             }
           }
         ]
@@ -250,7 +235,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "math/precalculus/Chapter 1/9_The_Coordinate_Plane.md",
+                "file": "math/precalculus/Exercises/ex_1_9_20251009.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -260,7 +245,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 9_The_Coordinate_Plane"
+              "title": "Backlinks for ex_1_9_20251009"
             }
           }
         ],
@@ -286,14 +271,15 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "e918687a10d1546e",
+  "active": "5d6a6e06617f50ab",
   "lastOpenFiles": [
+    "math/precalculus/Exercises/ex_1_8_20251003.md",
+    "math/precalculus/Exercises/ex_1_9_20251009.md",
+    "math/precalculus/Chapter 1/9_The_Coordinate_Plane.md",
     "attachments/Pasted image 20251009085334.png",
     "attachments/Pasted image 20251009084347.png",
     "attachments/Pasted image 20251009081619.png",
     "attachments/Pasted image 20251009081423.png",
-    "math/precalculus/Exercises/ex_1_8_20251003.md",
-    "math/precalculus/Chapter 1/9_The_Coordinate_Plane.md",
     "math/precalculus/Chapter 1/8_Inequalities.md",
     "attachments/Pasted image 20251001125027.png",
     "math/precalculus/Chapter 1/7_Modeling_with_Equations.md",
@@ -310,7 +296,6 @@
     "attachments/Pasted image 20250926103628.png",
     "attachments/Pasted image 20250926100107.png",
     "math/precalculus/Exercises/ex_1_4_20250919.md",
-    "attachments/Pasted image 20250921223246.png",
     "math/precalculus/Chapter 1/4_Rational_Expressions.md",
     "math/precalculus/Exercises/ex_1_3_20250913.md",
     "math/precalculus/Chapter 1/1_Real_Numbers.md",

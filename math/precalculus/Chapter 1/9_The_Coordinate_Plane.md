@@ -114,3 +114,19 @@ $$
 
 ## Symmetry
 
+Certain equations have a graph that are symmetric - meaning that there are two equal parts of a graph that are mirrored along a certain line.
+
+For example, a parabola $y = x^2$ shows a symmetry where the left of the y-axis is the mirror image of the part to the right of the y-axis. In this situation, the graph is said to be **symmetric with respect to the y-axis**.
+
+> [!note] The phrasing may differ; some say symmetric "about" while others say "with respect to".
+
+Symmetry can occur with respect to y-axis, x-axis, or the origin.
+- Symmetry with respect to the x-axis shows two points where the signs of y-coordinates are inversed ($A(x,y)$, $B(x,-y)$).
+- Symmetry with respect to the y-axis shows two points where the signs of x-coordinates are inversed ($A(x,y)$, $B(-x, y)$).
+- Symmetry with respect to the origin shows two points where the signs of x- and y-coordinates are inversed ($A(x,y)$, $B(-x,-y)$).
+
+The symmetry of an equation can be tested by inversing the sign of a variable.
+- To check for symmetry with respect to the x-axis, plug in $-x$ in place of $x$. For example, a parabola $y=x^2$ shows symmetry because $y=(-x)^2 \iff y=x^2$.
+- To check for symmetry with respect to the y-axis, plug in $-y$ in place of $y$.
+- For symmetry about the origin, replace with $-y$ and $-x$.
+
