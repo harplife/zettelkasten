@@ -58,3 +58,36 @@ $$
 ![[Pasted image 20251009084347.png| center | 500]]
 
 
+The point that bisects the line segment that connects the point $A(x_{1}, y_{1})$ and $B(x_{2}, y_{2})$ is the midpoint $M(x, y)$, whose coordinate can by found by averaging the x- and y-coordinates of $A$ and $B$ :
+
+$$
+M(x,y) = \left( \frac{x_{1}+x_{2}}{2}, \frac{y_{1}+y_{2}}{2} \right)
+$$
+
+![[Pasted image 20251009085334.png | center | 500]]
+
+
+## Graphs of Equations in Two Variables
+
+An **equation in two variables** (e.g. $y = x^2 + 1$) expresses a relationship between two quantities.
+
+A point $(x, y)$ is said to **satisfy** the equation if it makes the equation true when the values for $x$ and $y$ are substituted into the equation.
+- For example, the point $(3,10)$ satisfies the equation $y=x^2+1$ because $10 = 3^2+1$. However, the point $(1,3)$ does not, because $3 \neq 1^2 +1$.
+
+The <mark class="hltr-trippy">Graph</mark> of an equation in $x$ and $y$ is the set of all points $(x, y)$ in the Cartesian plane that satisfy the equation.
+- The graph of an equation is a curve, so to graph an equation, many points are plotted then connected by a smooth curve.
+
+
+## Intercepts
+
+An <mark class="hltr-trippy">Intercept</mark> is a point where a graph intersects an axis.
+- **x-intercepts** are the points where a graph intersects the x-axis.
+- **y-intercepts** are the points where a graph intersects the y-axis.
+
+x-intercepts can be found by setting $y=0$ and then solving for $x$.
+
+y-intercepts can be found by setting $x=0$ and then solving for $y$.
+
+
+## Circles
+
