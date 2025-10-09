@@ -46,3 +46,15 @@ The Cartesian plane allows the visualization of algebraic equations as geometric
 | $y = x^2$         | Parabola                     |
 | $y = \frac{1}{x}$ | Hyperbola                    |
 
+
+## The Distance and Midpoint Formulas
+
+The distance between two points $A(x_{1}, y_{1})$ and $B(x_{2}, y_{2})$ in the plane can be described as $d(A, B)$, which can be solved by using the Pythagorean Theorem :
+
+$$
+d(A, B) = \sqrt{ (x_{2}-x_{1})^2 + (y_{2}-y_{1})^2 }
+$$
+
+![[Pasted image 20251009084347.png| center | 500]]
+
+
