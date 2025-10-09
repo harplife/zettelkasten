@@ -37,8 +37,7 @@
               "title": "ex_1_9_20251009"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,13 +117,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "math/precalculus/Exercises/ex_1_9_20251009.md",
+                "file": "math/precalculus/Chapter 1/9_The_Coordinate_Plane.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ex_1_9_20251009"
+              "title": "Outline of 9_The_Coordinate_Plane"
             }
           }
         ]
@@ -235,7 +234,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "math/precalculus/Exercises/ex_1_9_20251009.md",
+                "file": "math/precalculus/Chapter 1/9_The_Coordinate_Plane.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -245,7 +244,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for ex_1_9_20251009"
+              "title": "Backlinks for 9_The_Coordinate_Plane"
             }
           }
         ],
@@ -271,10 +270,10 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "5d6a6e06617f50ab",
+  "active": "e918687a10d1546e",
   "lastOpenFiles": [
-    "math/precalculus/Exercises/ex_1_8_20251003.md",
     "math/precalculus/Exercises/ex_1_9_20251009.md",
+    "math/precalculus/Exercises/ex_1_8_20251003.md",
     "math/precalculus/Chapter 1/9_The_Coordinate_Plane.md",
     "attachments/Pasted image 20251009085334.png",
     "attachments/Pasted image 20251009084347.png",
