@@ -91,3 +91,23 @@ y-intercepts can be found by setting $x=0$ and then solving for $y$.
 
 ## Circles
 
+The <mark class="hltr-trippy">Circle</mark> is defined as the set of all points $P(x,y)$ whose distance from the center $C(h, k)$ is $r$. In other words, $P$ is on the circle if and only if $d(P,C)=r$.
+
+An equation of the circle with center $(h,k)$ and radius $r>0$ is :
+
+$$
+(x-h)^2 + (y-k)^2 = r^2
+$$
+
+> [!important] The equation above is the **Standard Form** for the equation of the circle.
+> It is derived from the Pythagorean theorem $\sqrt{ (x-h)^2+(y-k)^2 } = r$.
+
+If the center of the circle is the origin $(0,0)$, then the equation is 
+
+$$
+x^2 + y^2 = r^2
+$$
+
+> [!important] At first glance, the circle is confusing because it seems like there's more than two variables. However, $r$ is a constant which stays the same no matter the changes in $x$ or $y$.
+> Also, $h$ describes the horizontal shift (from the center) and $k$ is the vertical shift.
+
