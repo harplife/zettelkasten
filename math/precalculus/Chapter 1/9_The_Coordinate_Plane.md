@@ -111,3 +111,6 @@ $$
 > [!important] At first glance, the circle is confusing because it seems like there's more than two variables. However, $r$ is a constant which stays the same no matter the changes in $x$ or $y$.
 > Also, $h$ describes the horizontal shift (from the center) and $k$ is the vertical shift.
 
+
+## Symmetry
+
