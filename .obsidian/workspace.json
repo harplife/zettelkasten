@@ -37,7 +37,8 @@
               "title": "ex_1_9_20251009"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -117,13 +118,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "math/precalculus/Chapter 1/9_The_Coordinate_Plane.md",
+                "file": "math/precalculus/Exercises/ex_1_9_20251009.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 9_The_Coordinate_Plane"
+              "title": "Outline of ex_1_9_20251009"
             }
           }
         ]
@@ -234,7 +235,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "math/precalculus/Chapter 1/9_The_Coordinate_Plane.md",
+                "file": "math/precalculus/Exercises/ex_1_9_20251009.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -244,7 +245,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 9_The_Coordinate_Plane"
+              "title": "Backlinks for ex_1_9_20251009"
             }
           }
         ],
@@ -270,10 +271,10 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "e918687a10d1546e",
+  "active": "5d6a6e06617f50ab",
   "lastOpenFiles": [
-    "math/precalculus/Exercises/ex_1_9_20251009.md",
     "math/precalculus/Chapter 1/9_The_Coordinate_Plane.md",
+    "math/precalculus/Exercises/ex_1_9_20251009.md",
     "math/precalculus/Resources/Review_of_Geometry.pdf",
     "math/precalculus/Precalculus_Main.md",
     "math/precalculus/Chapter 1/6_Complex_Numbers.md",

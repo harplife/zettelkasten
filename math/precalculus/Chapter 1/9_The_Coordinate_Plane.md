@@ -135,6 +135,9 @@ The symmetry of an equation can be tested by inversing the sign of a variable.
 
 ### Finding the fourth vertex of a parallelogram
 
+> [!warning] At this point in the chapter, vector geometry isn't really covered. So, it is possible to solve this problem just by thinking and doing more calculations.
+> This extra bit of information is just to remind myself that this type of problem can be easier with a little extra knowledge.
+
 Given the coordinates of three vertices of a parallelogram ($A$, $B$, and $C$), what is the coordinate of the fourth vertex $D$?
 
 This type of problem can be solved only if :
@@ -147,12 +150,62 @@ $$
 \vec{AB}=\vec{DC},\quad \vec{AD}=\vec{BC}
 $$
 
+> [!important] Another property of a parallelogram is that opposite sides **point in the same direction**.
+> Thus, it should be noted that $\vec{AB} \neq \vec{CD}$.
+
 > [!important] There is a concept in Vector Geometry where a point is represented as a position vector.
 > So, a point $A(x,y)$ can be treated as a position vector $\vec{A}$ or more accurately, a vector from the Origin to the point $\vec{OA}$.
 
 > [!important] Another concept in Vector Geometry is that a vector connecting two points can be understood as combining displacements.
-> In other words, $\vec{AB}=\vec{B}-\vec{A}$.
+> In other words, $\vec{AB}=B-A$.
 
-> [!note] Now solve for problem 47
+The vector from $A$ to $B$ is $\vec{AB}=B-A$. Similarly, $\vec{DC}=C-D$. We know that $\vec{AB}=\vec{DC}$, therefore :
+
+$$
+\begin{align}
+  B-A &= C-D \\
+  D &= A + C - B
+\end{align}
+$$
+
+By plugging in the coordinates, we can find the coordinate of the fourth vector $D$.
+
+For example (using exercise 47), given :
+- $P(-1,-4)$
+- $Q(1,1)$
+- $R(4,2)$
+- and solving for $S$
+
+We can plot the points and visually inspect to find out that the three vertices are in order $PQR$.
+
+Using vector geometry, we find that :
+
+$$
+\begin{align}
+  \vec{PQ} &= \vec{SR} \\
+  Q - P &= R - S \\
+  S &= P+R-Q
+\end{align}
+$$
+
+$$
+\begin{align}
+  S &= P+R-Q \\
+  S &= (-1,-4)+(4,2)-(1,1) \\
+  S &= (2,-3)
+\end{align}
+$$
+
+We can confirm this by using the distance formula :
+
+$$
+\begin{align}
+  d(P,Q) &= \sqrt{ 29 } \\
+  d(S,R) &= \sqrt{ 29 } \\
+  d(P,Q) &= d(S,R)
+\end{align}
+$$
 
 > [!important] This problem can also be solved if given two opposite vertices and one adjacent vertex.
+> For now, let's ignore this.
+
