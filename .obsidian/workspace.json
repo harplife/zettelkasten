@@ -21,8 +21,24 @@
               "icon": "lucide-file",
               "title": "dn_20230306"
             }
+          },
+          {
+            "id": "7242866ae5447e88",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "computer_graphics/Photoshop/ps_20230306.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "ps_20230306"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -100,13 +116,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer_graphics/MBC_강의_노트/dn_20230306.md",
+                "file": "computer_graphics/Photoshop/ps_20230306.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of dn_20230306"
+              "title": "Outline of ps_20230306"
             }
           }
         ]
@@ -274,8 +290,18 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "a938c5241dfa21c1",
+  "active": "7242866ae5447e88",
   "lastOpenFiles": [
+    "computer_graphics/Photoshop/ps_20230307.md",
+    "computer_graphics/Photoshop/ps_20230306.md",
+    "computer_graphics/MBC_강의_노트/dn_20230306.md",
+    "computer_graphics/Photoshop/ps_20230314.md",
+    "computer_graphics/Photoshop/ps_20230313.md",
+    "computer_graphics/Photoshop/ps_20230310.md",
+    "computer_graphics/Photoshop/ps_20230309.md",
+    "computer_graphics/Photoshop/ps_20230308.md",
+    "computer_graphics/Photoshop",
+    "computer_graphics/New folder",
     "computer_graphics/MBC_강의_노트/dn_20230303.md",
     "computer_graphics/MBC_강의_노트/dn_20230228.md",
     "computer_graphics/MBC_강의_노트/dn_20230227.md",
@@ -296,22 +322,12 @@
     "art/generative_art/ga_20230215.md",
     "art/generative_art/generative_art.md",
     "art/generative_art",
-    "computer_graphics/MBC_강의_노트/dn_20230215.md",
-    "computer_graphics/MBC_강의_노트/dn_20230214.md",
-    "computer_graphics/MBC_강의_노트/dn_20230213.md",
-    "cinematography/cinematic_techniques.md",
-    "computer_graphics/MBC_강의_노트/dn_20230404.md",
-    "computer_graphics/MBC_강의_노트/dn_20230330.md",
-    "computer_graphics/MBC_강의_노트/dn_20230327.md",
-    "computer_graphics/MBC_강의_노트/dn_20230324.md",
     "computer_graphics/MBC_강의_노트",
-    "computer_graphics/New folder",
     "cinematography",
     "attachments/ILM_RecruitmentGuide.pdf",
     "careers/companies/ILMxLAB",
     "careers/companies/Disney",
     "careers/companies",
-    "computer_graphics/AfterEffects/Expression",
     "attachments/황은지_작품_20230220.jpg",
     "attachments/홍태민_작품_20230220.gif",
     "attachments/한성원_20230213_093242_10.jpg",
