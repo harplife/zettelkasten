@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer_graphics/MBC_강의_노트/dn_20230220.md",
+                "file": "computer_graphics/MBC_강의_노트/dn_20230227.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "dn_20230220"
+              "title": "dn_20230227"
             }
           }
         ]
@@ -100,13 +100,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer_graphics/MBC_강의_노트/dn_20230220.md",
+                "file": "computer_graphics/MBC_강의_노트/dn_20230227.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of dn_20230220"
+              "title": "Outline of dn_20230227"
             }
           }
         ]
@@ -276,8 +276,20 @@
   },
   "active": "a938c5241dfa21c1",
   "lastOpenFiles": [
-    "computer_graphics/MBC_강의_노트/dn_20230217.md",
+    "computer_graphics/Illustrator/in_20230303.md",
+    "computer_graphics/Illustrator/in_20230302.md",
+    "computer_graphics/Illustrator/in_20230228.md",
+    "computer_graphics/Illustrator/in_20230227.md",
+    "computer_graphics/MBC_강의_노트/dn_20230227.md",
+    "computer_graphics/Illustrator",
+    "computer_graphics/MBC_강의_노트/dn_20230224.md",
+    "computer_graphics/MBC_강의_노트/dn_20230223.md",
+    "computer_graphics/MBC_강의_노트/dn_20230228.md",
+    "computer_graphics/MBC_강의_노트/dn_20230303.md",
+    "computer_graphics/MBC_강의_노트/dn_20230222.md",
+    "computer_graphics/MBC_강의_노트/dn_20230221.md",
     "computer_graphics/MBC_강의_노트/dn_20230220.md",
+    "computer_graphics/MBC_강의_노트/dn_20230217.md",
     "computer_graphics/MBC_강의_노트/dn_20230216.md",
     "art/generative_art/ga_20230214.md",
     "art/generative_art/ga_20230215.md",
@@ -286,23 +298,12 @@
     "computer_graphics/MBC_강의_노트/dn_20230215.md",
     "computer_graphics/MBC_강의_노트/dn_20230214.md",
     "computer_graphics/MBC_강의_노트/dn_20230213.md",
-    "computer_graphics/MBC_강의_노트/dn_20230221.md",
     "cinematography/cinematic_techniques.md",
     "computer_graphics/MBC_강의_노트/dn_20230404.md",
     "computer_graphics/MBC_강의_노트/dn_20230330.md",
     "computer_graphics/MBC_강의_노트/dn_20230327.md",
     "computer_graphics/MBC_강의_노트/dn_20230324.md",
     "computer_graphics/MBC_강의_노트/dn_20230323.md",
-    "computer_graphics/MBC_강의_노트/dn_20230322.md",
-    "computer_graphics/MBC_강의_노트/dn_20230321.md",
-    "computer_graphics/MBC_강의_노트/dn_20230320.md",
-    "computer_graphics/MBC_강의_노트/dn_20230317.md",
-    "computer_graphics/MBC_강의_노트/dn_20230316.md",
-    "computer_graphics/MBC_강의_노트/dn_20230315.md",
-    "computer_graphics/MBC_강의_노트/dn_20230314.md",
-    "computer_graphics/MBC_강의_노트/dn_20230313.md",
-    "computer_graphics/MBC_강의_노트/dn_20230309.md",
-    "computer_graphics/MBC_강의_노트/dn_20230308.md",
     "computer_graphics/MBC_강의_노트",
     "computer_graphics/New folder",
     "cinematography",
@@ -311,7 +312,6 @@
     "careers/companies/Disney",
     "careers/companies",
     "computer_graphics/AfterEffects/Expression",
-    "computer_graphics/AfterEffects",
     "attachments/황은지_작품_20230220.jpg",
     "attachments/홍태민_작품_20230220.gif",
     "attachments/한성원_20230213_093242_10.jpg",

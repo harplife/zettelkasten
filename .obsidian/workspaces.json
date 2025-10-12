@@ -1382,13 +1382,13 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "computer_graphics/MBC_강의_노트/dn_20230220.md",
+                    "file": "computer_graphics/MBC_강의_노트/dn_20230227.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": false
                   },
                   "icon": "lucide-file",
-                  "title": "dn_20230220"
+                  "title": "dn_20230227"
                 }
               }
             ]
@@ -1469,13 +1469,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "computer_graphics/MBC_강의_노트/dn_20230220.md",
+                    "file": "computer_graphics/MBC_강의_노트/dn_20230227.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of dn_20230220"
+                  "title": "Outline of dn_20230227"
                 }
               }
             ]
@@ -1644,13 +1644,13 @@
         }
       },
       "active": "a938c5241dfa21c1",
-      "mtime": "2025-10-12T14:52:37-05:00",
+      "mtime": "2025-10-12T14:55:53-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "art/generative_art",
           "careers/companies",
           "computer_graphics",
-          "computer_graphics/MBC_강의_노트",
+          "computer_graphics/Illustrator",
           "music/vocal"
         ]
       }
