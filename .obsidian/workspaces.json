@@ -1116,8 +1116,7 @@
                   "title": "ex_1_9_20251009"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "vertical"
@@ -1197,13 +1196,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "math/precalculus/Exercises/ex_1_9_20251009.md",
+                    "file": "math/precalculus/Chapter 1/9_The_Coordinate_Plane.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of ex_1_9_20251009"
+                  "title": "Outline of 9_The_Coordinate_Plane"
                 }
               }
             ]
@@ -1314,7 +1313,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "math/precalculus/Exercises/ex_1_9_20251009.md",
+                    "file": "math/precalculus/Chapter 1/9_The_Coordinate_Plane.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1324,7 +1323,7 @@
                     "unlinkedCollapsed": false
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for ex_1_9_20251009"
+                  "title": "Backlinks for 9_The_Coordinate_Plane"
                 }
               }
             ],
@@ -1350,8 +1349,8 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "5d6a6e06617f50ab",
-      "mtime": "2025-10-11T21:38:55-05:00",
+      "active": "e918687a10d1546e",
+      "mtime": "2025-10-11T22:14:11-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "math",

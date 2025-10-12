@@ -130,3 +130,29 @@ The symmetry of an equation can be tested by inversing the sign of a variable.
 - To check for symmetry with respect to the y-axis, plug in $-y$ in place of $y$.
 - For symmetry about the origin, replace with $-y$ and $-x$.
 
+
+## Extra : Applications
+
+### Finding the fourth vertex of a parallelogram
+
+Given the coordinates of three vertices of a parallelogram ($A$, $B$, and $C$), what is the coordinate of the fourth vertex $D$?
+
+This type of problem can be solved only if :
+- The coordinates of the three vertices are known
+- The three vertices are consecutive (which can be visually inspected)
+
+Given by the properties of a parallelogram, opposite sides are parallel and equal in length - which means :
+
+$$
+\vec{AB}=\vec{DC},\quad \vec{AD}=\vec{BC}
+$$
+
+> [!important] There is a concept in Vector Geometry where a point is represented as a position vector.
+> So, a point $A(x,y)$ can be treated as a position vector $\vec{A}$ or more accurately, a vector from the Origin to the point $\vec{OA}$.
+
+> [!important] Another concept in Vector Geometry is that a vector connecting two points can be understood as combining displacements.
+> In other words, $\vec{AB}=\vec{B}-\vec{A}$.
+
+> [!note] Now solve for problem 47
+
+> [!important] This problem can also be solved if given two opposite vertices and one adjacent vertex.
