@@ -1382,32 +1382,16 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "computer_graphics/MBC_강의_노트/dn_20230306.md",
+                    "file": "computer_graphics/MBC_강의_노트/Daily Notes/dn_20230323.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": false
                   },
                   "icon": "lucide-file",
-                  "title": "dn_20230306"
-                }
-              },
-              {
-                "id": "7242866ae5447e88",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "computer_graphics/Photoshop/ps_20230306.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "ps_20230306"
+                  "title": "dn_20230323"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "vertical"
@@ -1485,13 +1469,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "computer_graphics/Photoshop/ps_20230306.md",
+                    "file": "computer_graphics/MBC_강의_노트/Daily Notes/dn_20230323.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of ps_20230306"
+                  "title": "Outline of dn_20230323"
                 }
               }
             ]
@@ -1659,14 +1643,16 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "7242866ae5447e88",
-      "mtime": "2025-10-12T15:08:07-05:00",
+      "active": "a938c5241dfa21c1",
+      "mtime": "2025-10-12T15:20:31-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "art/generative_art",
           "careers/companies",
           "computer_graphics",
-          "computer_graphics/Photoshop",
+          "computer_graphics/MBC_강의_노트",
+          "computer_graphics/MBC_강의_노트/Daily Notes",
+          "computer_graphics/References",
           "music/vocal"
         ]
       }
