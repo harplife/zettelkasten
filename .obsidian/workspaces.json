@@ -1382,13 +1382,13 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "careers/3dcg_inquiry_20211223.md",
+                    "file": "cinematography/cinematic_techniques.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": false
                   },
                   "icon": "lucide-file",
-                  "title": "3dcg_inquiry_20211223"
+                  "title": "cinematic_techniques"
                 }
               }
             ]
@@ -1469,13 +1469,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "careers/3dcg_inquiry_20211223.md",
+                    "file": "cinematography/cinematic_techniques.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of 3dcg_inquiry_20211223"
+                  "title": "Outline of cinematic_techniques"
                 }
               }
             ]
@@ -1644,11 +1644,11 @@
         }
       },
       "active": "a938c5241dfa21c1",
-      "mtime": "2025-10-12T14:25:07-05:00",
+      "mtime": "2025-10-12T14:27:36-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
-          "careers",
           "careers/companies",
+          "cinematography",
           "music/vocal"
         ]
       }

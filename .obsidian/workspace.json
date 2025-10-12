@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "careers/3dcg_inquiry_20211223.md",
+                "file": "cinematography/cinematic_techniques.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "3dcg_inquiry_20211223"
+              "title": "cinematic_techniques"
             }
           }
         ]
@@ -100,13 +100,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "careers/3dcg_inquiry_20211223.md",
+                "file": "cinematography/cinematic_techniques.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 3dcg_inquiry_20211223"
+              "title": "Outline of cinematic_techniques"
             }
           }
         ]
@@ -276,6 +276,14 @@
   },
   "active": "a938c5241dfa21c1",
   "lastOpenFiles": [
+    "cinematography/shot_sizes.md",
+    "cinematography/post_production.md",
+    "cinematography/lighting.md",
+    "cinematography/film_editing.md",
+    "cinematography/film_cuts.md",
+    "cinematography/cinematic_techniques.md",
+    "careers/3dcg_inquiry_20211223.md",
+    "cinematography",
     "careers/companies/raven_software.md",
     "careers/companies/pubg_madison_studio.md",
     "careers/companies/raven_recruit_senior_vfx_artist_r020443.md",
@@ -299,12 +307,6 @@
     "computer_graphics/AfterEffects/ae_20230327.md",
     "computer_graphics/AfterEffects/ae_20230324.md",
     "computer_graphics/cg_general_notes/Vignetting.md",
-    "computer_graphics/cg_general_notes/doding_and_burning.md",
-    "computer_graphics/AfterEffects/ae_20230323.md",
-    "computer_graphics/AfterEffects/ae_20230322.md",
-    "computer_graphics/AfterEffects/ae_20230321.md",
-    "computer_graphics/AfterEffects/ae_20230320.md",
-    "computer_graphics/AfterEffects/ae_20230317.md",
     "computer_graphics/AfterEffects/Expression",
     "computer_graphics/AfterEffects",
     "computer_graphics/Marvelous Designer",
@@ -319,7 +321,6 @@
     "attachments/이경주_작품_20230220.gif",
     "attachments/이경주_storyboard_20230215.png",
     "attachments/우성민_작품_20230220.png",
-    "attachments/우성민_storyboard_20230215.pdf",
     "attachments/에이아카데미_사물함_사용_가이드.jpg"
   ]
 }
