@@ -1,0 +1,103 @@
+# 개인 노트
+- 사물함 74번, 비번 컴터 4자리 1***
+- 강의녹화영상, 과제제출 등 모두 [Google Drive](https://drive.google.com/drive/folders/1G5A7AEy54BdMcG7E_hLtCaRpFrbIUR4u?usp=sharing) 에 취합됨
+- [네이버 시계](https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&query=%EC%8B%9C%EA%B0%84+%EC%B4%88%EB%8B%A8%EC%9C%84)
+- Illustrator Shortcuts : [Adobe](https://helpx.adobe.com/illustrator/using/default-keyboard-shortcuts.html), [Redokun](https://redokun.com/blog/illustrator-shortcuts)
+- [[illustrator_cheat_sheet_northeastern_20230222.pdf|Illustrator Cheat Sheet by Northeastern]]
+- 일러 파일 저장 경로 : `D:\illustrator\`
+- [사업계획서 작성 웨비나](https://event-us.kr/wellobiz/event/57505)
+- [예술용 AI 도구에 쓸만한 키워드 세트를 판매하는 사이트](https://promptbase.com/)
+- The Matrix Awakens: An Unreal Engine 5 Experience | [UE site](https://www.unrealengine.com/en-US/blog/introducing-the-matrix-awakens-an-unreal-engine-5-experience) | [Youtube](https://youtu.be/WU0gvPcc3jQ)
+- [UE로 만든 정거장 (엄청 고퀄)](https://youtu.be/2paNFnw1wRs)
+- 국가 그래픽 자격증은 무시할것.. 민간인 자격증이 그나마 더 나은데, 자격증 공부는 그냥 하지 말것. 이유는, 예술은 정해진 방식으로 하는게 아니니까.
+- 배운 내용들을 [이 영상](https://youtu.be/gvvSH309sOw) 과 같이 정리하는 것도 좋음
+- 3월 21일 선 기수 수료식 발표
+- [이경주님 핀터레스트 프로파일](https://www.pinterest.com/rudwn11501808/)
+- 타이포그래피, 디자인, 레이아웃 (불변의 법칙 시리즈)
+- 외장하드 가져오기 (C4D 입문/중국, UE, Substance, 등 강의 자료 정경인님이 제공해줌) - 총 79 GB
+- ScreenX 분야는 피하는게 제일 좋다는 수강생들 왈 (성민씨가 [LOFT](https://www.loftvfxstudio.com/)에서 근무했었다는)
+- View 메뉴 아래 View using GPU 선택할 것!!!
+- 정경인 회장님이 [HG꼬딕씨](https://www.sandollcloud.com/font/864.html) 공유해주셨음. 유료 폰트이니 포트폴리오에만 사용할 것!
+- 옛날 하드에는 [하드 디스크 컨트롤러 (HDC)](https://www.techopedia.com/definition/18897/hard-disk-controller-hdc) 가 없어서 대량의 작은파일을 옮길때 전송량이 확 떨어진다고 함 - 정회장님 왈
+- 3D 애니메이션으로 시네마틱 영상을 작업하는 이유는 [셀 애니메이션(Cel / Traditional Animation)](https://en.wikipedia.org/wiki/Traditional_animation)에 대비하여 속도전, 비용 문제를 풀기 위해서라고 말 할 수 있음
+- 강사왈 "짝수를 사용해서 디자인 하지 않는다"
+- [Mock-Up](https://en.wikipedia.org/wiki/Mockup) 이란 특정 제품의 모형을 본딴 것임. Mockup 자료 사이트 - [Mockupworld](https://www.mockupworld.co/), [FDR](https://freedesignresources.net/), [freepik](https://www.freepik.com/)
+- Vector Magic : 이미지 벡터화 도구 (유료). 정회장님이 공유해주심
+- [wifu2x](https://waifu2x.udp.jp/index.ko.html) : 2차원 이미지 해상도 개선 AI 웹 도구
+- [벌꿀 등급제 캐치프레이즈 공모전](https://www.ekape.or.kr/board/view.do?boardInfoNo=0024&boardNo=663&menuId=menu149208)
+- [Cheil Idea Festival](https://ideafestival.cheil.co.kr/entry.jsp)
+- [대한불교](http://www.dobanhc.co.kr/) <-- 사진/미술 작품 공모전 (2023.02.22~03.31)
+- [Korea Student Advertising Competition](https://kosac.ad.co.kr/)
+- [부천국제판타스틱영화제](http://www.bifan.kr/program/project_01.asp)
+- 영상 -> GIF 변환 프로그램 필요 (웹사이트는 너무 느린듯..)
+- 정경인 회장님 (010-9828-0870) > 어둠의경로 [클럽넥스](https://www.clubnex.co.kr/) > 회원가입 > 클럽 가입 신청 > [무한공유클럽](https://club.clubnex.co.kr/dsclub/) 가입 > Util 다운로드 > 미리 다운로드할 것들의 번호들을 미리 정리하고 한달 유료비 결제 후 한꺼번에 다운로드 받는것 권장됨
+- [STEAMCHARTS](https://steamcharts.com/) : 게임 사용자 수 차트로 볼 수 있는 웹사이트
+- [FPSRPG게임](https://fpsrpgames.tistory.com/) : 게임 뉴스 잘 정리한 블로그
+- 정나경님이 작성하신 [샛별샘님 공유 링크 정리 Notion 노트](https://jasper-kryptops-369.notion.site/3f36bba694db4846bc8567c79f1ddb25?v=afc147d12d2342cba2419b33f3dde810)
+- [Photoshop User Guide](https://helpx.adobe.com/photoshop/user-guide.html) | [펜툴 사용방법](https://helpx.adobe.com/photoshop/using/drawing-pen-tools.html)
+- 포토샵 > Paths (Icon) > `Ctrl + Enter` : Path 딴것을 Feather 설정값 없이 Selection 하는 방법!!!
+- [DIGITAL HUMAN | PROJECT VINCENT | Youtube](https://youtu.be/NvOdOLaCEgQ) <-- 자이언트스텝에서 프랑스 출신 TD 빈센트를 초청했음. 강사왈, 이 영상은 UE 로 만들었되 엔진 툴을 개발함으로서 퀄리티를 올린 것이라 함. 그 말은, UE 로 이 정도 퀄리티는 만들수 없음으로, TA/TD 의 역할이 퀄리티를 올리기 위한 작업을 하는 것으로 이해하면 됨.
+- [GiantStep - Digital Humans 101: The Process Behind "Project Vincent" | SIGGRAPH 2019 | Unreal Engine | Youtube](https://youtu.be/YqzAwCFDXFo)
+- TA/TD 는 한국 버전하고 미국 버전하고 갈림;
+- 프로그래밍 언어에 따라 TA/TD 작품의 퀄리티가 어떻게 다른지 확인해볼 필요 있음;
+- 업체/팀에 따라 TA/TD 가 사용하는 프로그래밍 언어가 다름; 이는 업체/팀의 선호하는 성향이 강함
+- 디자인에 도형은 주로 밑에 무게가 실림
+- 강사왈; 디자인 관련 책은 알라딘 중고서점에서 찾아보는게 좋음. 디자인 책은 많이 팔리지 않고, 업데이트도 별로 안 되기 때문 중고가 많이 올라와 있을것임. 단, 영문 서적은 해외에서 원본 사는게 권장됨.
+- Pop Art 의 특징은 "찍어내는" 프린트 메이킹 느낌이 강함. 더불어, 오려내는 객체의 선이 투박한게 특징임.
+- [Disney Tech Projects](https://disneyanimation.com/projects/)
+- [Disney SeExpr Language](https://disneyanimation.com/technology/seexpr-expressions-language/)
+- [Disney OpenSource](https://disneyanimation.com/open-source/)
+- [Disney Datasets](https://disneyanimation.com/data-sets/)
+- [Disney Publications](https://disneyanimation.com/publications/)
+- [artvee.com | Public 명화 (Classical Art) 사이트](https://artvee.com/)
+- `Selection > Menu(Select) > Modify > Expand/Contract` : 선택영역 부위를 늘이기/줄이기
+- [qusarzone.com | 제품 이벤트 특가 목록 사이트](https://quasarzone.com/)
+- [Disney's 12 Principles of Animation](https://www.vectornator.io/blog/principles-of-animation/)
+- `Numpad(0)` : Preview Render
+- [에펙 화면 구성 | Adobe](https://helpx.adobe.com/after-effects/using/workspaces-panels-viewers.html)
+- `Win + Shft + S` : 화면 캡처
+- [rawpixel.com | Public Domain 된 작품 모음](https://www.rawpixel.com/public-domain)
+	- [Henri Rousseau | rawpixel.com](https://www.rawpixel.com/board/1054552/henri-rousseau-original-public-domain-paintings)
+- [Cinema 4D | MOBOX Graphics | Youtube | Playlist](https://youtube.com/playlist?list=PLn_EY8NKzmnAYKIghACOh1PrIrl0vlPjZ)
+- [After Effects basics : panels and workspaces | FMC](https://blog.fmctraining.com/blog/after-effects-tutorial-understanding-workspaces-panels)
+- [What is Adobe After Effects? | schoolofmotion.com](https://www.schoolofmotion.com/blog/what-is-adobe-after-effects)
+- [After Effects Tutorials | Adobe](https://helpx.adobe.com/after-effects/tutorials.html)
+- [정나경님 Behance 무드보드 모음](https://www.behance.net/collection/202171403/C4d)
+- Gute Nicht (Good Night) 이 Guten Nicht 가 아닌 이유
+	- [소스](https://linguaholic.com/linguablog/guten-nacht-is-wrong-here-is-why/)
+	- Gute Nicht 을 풀어서 표현하면 _Ich wünsche Dir eine gute Nacht_ (좋은 밤이 되기를 빌어요) 이 됨. 따라서, gute Nicht 는 직접목적어 (Direct Object) 가 되고, 대격/목적격 명사 (Accusative Case) 로 표현됨.
+- [Ludwig Wittgenstein](https://en.wikipedia.org/wiki/Ludwig_Wittgenstein) : Reality is shaped by the words we use
+	- [Wittgenstein Philosophy | Stanford.edu](https://plato.stanford.edu/entries/wittgenstein/)
+	- *"Philosophy is a battle against the bewitchment  of our intelligence by means of our language."* - Wittgenstein | [source](https://fs.blog/reality-is-shaped-by-the-words-we-use/)
+- [Semiotics / Semiology](https://en.wikipedia.org/wiki/Semiotics) : The systematic study of Sign Processes (Semiosis) and Meaning Making.
+	- [Semiosis](https://en.wikipedia.org/wiki/Semiosis) : any form of activity, conduct, or porcess that involves signs, including the production of meaning.
+- 그래픽 업종에서 SBS아카데미 출신은 안 좋게 봄
+- Key Frame Assistant > Interpolation > Linear : 모래시계 뜬 경우 원복 시켜주기
+- [Back to Basics After Effects Expression | Youtube | Playlist](https://youtube.com/playlist?list=PL_fAeBq614vEetGqTxyL3awwXQMRsyHWn)
+- [After Effects Expressions Cheat Sheet | goodboy.ninja](https://www.goodboy.ninja/expressionscheatsheet)
+- [Zoetrope](https://en.wikipedia.org/wiki/Zoetrope)
+	- [리그 오브 레전드 조트로프 - 소환사의 협곡, 살아 움직이다. | LOL Korea | Youtube](https://youtu.be/GgxhQt3zjjE)
+	- [Zoetropes Create 3D Illusions Using Light](https://youtu.be/40__creuq7c)
+- [윈도우 단축키](https://support.microsoft.com/en-us/windows/keyboard-shortcuts-in-windows-dcc61a57-8ff0-cffe-9796-cb9706c75eec#WindowsVersion=Windows_10)
+- [sketchfab.com](https://sketchfab.com/) : 3D 모델 판매하는 곳?
+- Sine Wave (Beam) 프로젝트 2023-03-24 드래프트
+	- ![[sine_wave_beam_20230324.gif]]
+- [박상민님 노션 노트](https://truthful-almanac-d0f.notion.site/production-dbc2f96d9ae24343a84e06445e9996fc)
+- [Demystifying Post-Production Webinars | Maxon Training Team | Youtube Playlist](https://www.youtube.com/playlist?list=PLMeO87vDgOoP2aTHc72WjqtnIBzemWyxa)
+- [cgsociety.org](https://cgsociety.org/)
+- [HUMAN: Realistic Portrait Creation with Blender](https://cgcookie.com/courses/human-realistic-portrait-creation-with-blender)
+- [[marvelous_designer|Marvelous Designer]]
+- Dzung Phung Dinh | [linkedin](https://vn.linkedin.com/in/phungdinhdung/ko?trk=org-employees&original_referer=https%3A%2F%2Fvn.linkedin.com%2Fcompany%2Fthunder-cloud-studio%3Foriginal_referer%3Dhttps%253A%252F%252Fwww.google.com%252F)
+- `C:\Users\AIA\AppData\Roaming\Maxon\Maxon Cinema 4D 2023_BCDB4759\plugins` : Cinema 4D 플러그인 폴더 위치
+- daz3d - 사람, kitbash3d - 건물, maxtree - 자연
+- [Mission to Minerva | Winners & Finalists | KitBash3D | Youtube Playlist](https://youtube.com/playlist?list=PL3QJ5EUZG_SFGFYr9UvtcxM1WJe4XIrF_) <-- 대회 우승자 작품 영상 보는 습관 만들기!
+- 
+
+## GPU 설정 참고 사항
+- Shader Cache Size 무제한 설정
+	- ![[Pasted image 20230412154035.png|500]]
+- 
+
+## 투시
+![[ezgn51bl.bmp|300]]
+

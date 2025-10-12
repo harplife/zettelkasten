@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer_graphics/MBC_강의_노트/dn_20230227.md",
+                "file": "computer_graphics/MBC_강의_노트/dn_20230306.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "dn_20230227"
+              "title": "dn_20230306"
             }
           }
         ]
@@ -100,13 +100,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer_graphics/MBC_강의_노트/dn_20230227.md",
+                "file": "computer_graphics/MBC_강의_노트/dn_20230306.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of dn_20230227"
+              "title": "Outline of dn_20230306"
             }
           }
         ]
@@ -276,16 +276,17 @@
   },
   "active": "a938c5241dfa21c1",
   "lastOpenFiles": [
+    "computer_graphics/MBC_강의_노트/dn_20230303.md",
+    "computer_graphics/MBC_강의_노트/dn_20230228.md",
+    "computer_graphics/MBC_강의_노트/dn_20230227.md",
+    "computer_graphics/MBC_강의_노트/personal_note.md",
     "computer_graphics/Illustrator/in_20230303.md",
     "computer_graphics/Illustrator/in_20230302.md",
     "computer_graphics/Illustrator/in_20230228.md",
     "computer_graphics/Illustrator/in_20230227.md",
-    "computer_graphics/MBC_강의_노트/dn_20230227.md",
     "computer_graphics/Illustrator",
     "computer_graphics/MBC_강의_노트/dn_20230224.md",
     "computer_graphics/MBC_강의_노트/dn_20230223.md",
-    "computer_graphics/MBC_강의_노트/dn_20230228.md",
-    "computer_graphics/MBC_강의_노트/dn_20230303.md",
     "computer_graphics/MBC_강의_노트/dn_20230222.md",
     "computer_graphics/MBC_강의_노트/dn_20230221.md",
     "computer_graphics/MBC_강의_노트/dn_20230220.md",
@@ -303,7 +304,6 @@
     "computer_graphics/MBC_강의_노트/dn_20230330.md",
     "computer_graphics/MBC_강의_노트/dn_20230327.md",
     "computer_graphics/MBC_강의_노트/dn_20230324.md",
-    "computer_graphics/MBC_강의_노트/dn_20230323.md",
     "computer_graphics/MBC_강의_노트",
     "computer_graphics/New folder",
     "cinematography",
