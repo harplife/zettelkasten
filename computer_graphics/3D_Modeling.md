@@ -12,11 +12,11 @@
 - Maya
 - Max
 - Blender
-- [[cinema_4d|Cinema 4D (C4D)]] : General purpose software, "easier" to learn than Maya
+- [[Cinema 4D]] : General purpose software, "easier" to learn than Maya
 - Unreal Engine
 - Unity
 - Substance Designer
-- [[marvelous_designer|Marvelous Designer]] : Used extensively for modeling & simulating clothes
+- [[Marvelous Designer]] : Used extensively for modeling & simulating clothes
 - [CLO 3D](https://www.clo3d.com/en/) : Used extensively for modeling & simulating clothes
 - MODO
 - ZBrush

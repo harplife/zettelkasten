@@ -1,0 +1,33 @@
+# After Effects Expression Resources
+- [Top 10 After Effects Expressions for Amazing Motion Design | Youtube](https://youtu.be/rsW4fwscwKI)
+- [Adam Plouff | battleaxe.tumblr](https://battleaxe.tumblr.com/) : AE Expression Posts
+- [Maintain Stroke Weight expression - Adam Plouff | Tumblr](https://www.tumblr.com/battleaxe/101945073972/maintain-stroke-weight-expression)
+
+## To be sorted
+- https://helpx.adobe.com/after-effects/using/expression-basics.html | Learn expression basics to link animations
+- https://helpx.adobe.com/after-effects/using/expression-examples.html | After Effects expression examples
+- https://helpx.adobe.com/after-effects/using/expression-language.html | Understanding the expression language
+- https://helpx.adobe.com/after-effects/using/edit-expressions.html#save_and_reuse_expressions | Editing expressions
+- https://helpx.adobe.com/after-effects/using/edit-expressions.html | Editing expressions
+- https://community.adobe.com/t5/after-effects-discussions/help-combining-two-expressions/td-p/8675137 | Solved: Help Combining two expressions - Adobe Support Community - 8675137
+- https://aescripts.com/learn/ | Learn - aescripts + aeplugins - aescripts.com
+- https://aescripts.com/beatedit-for-davinci-resolve/ | BeatEdit for DaVinci Resolve - aescripts + aeplugins - aescripts.com
+- https://www.google.com/search?client=firefox-b-d&q=after+effect+expression+variables | after effect expression variables - Google Search
+- https://www.youtube.com/playlist?list=PL_fAeBq614vEetGqTxyL3awwXQMRsyHWn | (12) Back to Basics After Effects Expression - YouTube
+- https://www.goodboy.ninja/expressionscheatsheet#linear | Expressions Cheatsheet - Adobe After Effects
+- https://motionscript.com/mastering-expressions/random-1.html | Random Motion
+- https://www.google.com/search?client=firefox-b-d&q=afeter+effect+leave+marker+by+BPM | after effect leave marker by BPM - Google Search
+- https://creativecow.net/forums/thread/bpm-based-markers-a-script/ | BPM based markers: a script - Adobe After Effects - Creative COW
+- https://www.youtube.com/watch?v=_bJ-46rAj_U | (9) After Effects: BPM Metronome And Beat Marker. Animate To The Beat. - YouTube
+- https://www.reddit.com/r/Cinema4D/comments/35fwyg/trying_to_make_animation_to_a_bpm_any_idea_how_to/ | Trying to make animation to a BPM, any idea how to set up markers for it? : Cinema4D
+- https://www.google.com/search?client=firefox-b-d&q=adobe+effects+scale+bounce | adobe effects scale bounce - Google Search
+- https://www.cinecom.net/after-effects-tutorials/super-easy-animations-expressions/ | super easy animations - 5 After Effects Expressions - Cinecom
+- https://www.youtube.com/watch?v=lFUYjpRhJRs&t=2s | (9) SUPER EASY ANIMATIONS - 5 After Effects Expressions | Cinecom.net - YouTube
+- https://www.schoolofmotion.com/blog/after-effects-bounce-expression | How to Use the Bounce Expression in After Effects
+- http://motionscript.com/ | MotionScript.com - main page
+- http://motionscript.com/articles/bounce-and-overshoot.html | Realistic Bounce and Overshoot
+- https://www.google.com/search?client=firefox-b-d&q=after+effects+expression | after effects expression - Google Search
+- https://helpx.adobe.com/after-effects/using/expression-examples.html | After Effects expression examples
+- https://helpx.adobe.com/after-effects/using/expression-basics.html | Learn expression basics to link animations
+- https://blog.motionisland.com/the-best-10-after-effects-expressions/ | The Best 10 After Effects Expressions
+- https://ae-expressions.docsforadobe.dev/ | After Effects Expression Reference — After Effects Expression Reference 0.0.3 documentation

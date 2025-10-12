@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer_graphics/3D_Modeling.md",
+                "file": "computer_graphics/AfterEffects/ae_20230324.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "3D_Modeling"
+              "title": "ae_20230324"
             }
           }
         ]
@@ -110,13 +110,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer_graphics/3D_Modeling.md",
+                "file": "computer_graphics/AfterEffects/ae_20230324.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 3D_Modeling"
+              "title": "Outline of ae_20230324"
             }
           }
         ]
@@ -247,7 +247,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer_graphics/3D_Modeling.md",
+                "file": "JE_01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -257,7 +257,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 3D_Modeling"
+              "title": "Backlinks for JE_01"
             }
           }
         ],
@@ -265,7 +265,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 362.5
+    "width": 362.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -283,10 +284,33 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "227e6011dc684b16",
+  "active": "a938c5241dfa21c1",
   "lastOpenFiles": [
-    "computer_graphics/cg_general_notes/3d_영상_콘텐츠_제작자_양성_과정.md",
+    "computer_graphics/AfterEffects/ae_20230323.md",
+    "computer_graphics/AfterEffects/ae_20230322.md",
+    "computer_graphics/AfterEffects/ae_20230321.md",
+    "computer_graphics/AfterEffects/ae_20230320.md",
+    "computer_graphics/AfterEffects/ae_20230317.md",
+    "computer_graphics/AfterEffects/ae_20230316.md",
+    "computer_graphics/AfterEffects/ae_20230315.md",
+    "computer_graphics/Cinema4D/Cinema 4D.md",
+    "computer_graphics/AfterEffects/ae_shortcuts.md",
+    "computer_graphics/AfterEffects/ae_20230327.md",
+    "computer_graphics/AfterEffects/ae_20230324.md",
+    "computer_graphics/AfterEffects/Expression/ae_exp_resources.md",
+    "computer_graphics/AfterEffects/Expression/ae_expression_basics.md",
+    "computer_graphics/AfterEffects/Expression",
+    "computer_graphics/AfterEffects",
+    "computer_graphics/Cinema4D/c4d_20230410.md",
+    "computer_graphics/Cinema4D/c4d_20230404.md",
+    "computer_graphics/Cinema4D/c4d_20230403.md",
+    "computer_graphics/Cinema4D/c4d_20230330.md",
+    "computer_graphics/Cinema4D/c4d_layout.md",
     "computer_graphics/3D_Modeling.md",
+    "computer_graphics/Marvelous Designer/Marvelous Designer.md",
+    "computer_graphics/Marvelous Designer",
+    "computer_graphics/Cinema4D",
+    "computer_graphics/cg_general_notes/3d_영상_콘텐츠_제작자_양성_과정.md",
     "computer_graphics/cg_general_notes/3d_graphics_learning_plan.md",
     "computer_graphics/cg_general_notes/3d_graphics_career_plan.md",
     "computer_graphics/cg_learn_notes/color_filter_array.md",
@@ -306,30 +330,7 @@
     "attachments/박혜민_작품_20230220.mp4",
     "attachments/박정원_storyboard_20230215.pdf",
     "attachments/김우빈_스토리보드_20230215.pdf",
-    "attachments/김승희_storyboard_20230215.pdf",
-    "attachments/wiki_radiant_flux.pdf",
-    "attachments/wiki_radiance.pdf",
-    "attachments/wiki_light.pdf",
     "math/precalculus/Exercises/ex_1_9_20251009.md",
-    "math/precalculus/Chapter 1/9_The_Coordinate_Plane.md",
-    "math/precalculus/Precalculus_Main.md",
-    "math/precalculus/Chapter 1/6_Complex_Numbers.md",
-    "math/precalculus/Exercises/ex_1_8_20251003.md",
-    "math/precalculus/Chapter 1/8_Inequalities.md",
-    "math/precalculus/Chapter 1/7_Modeling_with_Equations.md",
-    "math/precalculus/Exercises/ex_1_7_20250930.md",
-    "math/precalculus/Exercises/ex_1_6_20250928.md",
-    "math/precalculus/Chapter 1/3_Algebraic_Expressions.md",
-    "math/precalculus/Chapter 1/5_Equations.md",
-    "math/precalculus/Exercises/ex_1_5_20250922.md",
-    "math/precalculus/Exercises/ex_1_4_20250919.md",
-    "math/precalculus/Chapter 1/4_Rational_Expressions.md",
-    "math/precalculus/Exercises/ex_1_3_20250913.md",
-    "math/precalculus/Chapter 1/1_Real_Numbers.md",
-    "math/precalculus/Chapter 1/2_Exponents_and_Radicals.md",
-    "math/precalculus/Exercises/ex_1_2_20250909.md",
-    "math/precalculus/Exercises/ex_1_1_20250904.md",
-    "math/algebra_and_trigonometry/chapter_p/chapter_p1_exercises.md",
-    "math/precalculus/E.md"
+    "math/precalculus/Chapter 1/9_The_Coordinate_Plane.md"
   ]
 }
