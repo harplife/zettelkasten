@@ -1,0 +1,31 @@
+- https://en.wikipedia.org/wiki/Linear_motion | Linear motion - Wikipedia
+- https://en.wikipedia.org/wiki/Straight-line_mechanism | Straight-line mechanism - Wikipedia
+- https://en.wikipedia.org/wiki/Four-bar_linkage | Four-bar linkage - Wikipedia
+- https://en.wikipedia.org/wiki/Overconstrained_mechanism#Bennett's_linkage | Overconstrained mechanism - Wikipedia
+- https://en.wikipedia.org/wiki/File:Universal_joint.gif | File:Universal joint.gif - Wikipedia
+- https://en.wikipedia.org/wiki/Watt%27s_linkage | Watt's linkage - Wikipedia
+- https://en.wikipedia.org/wiki/Linear_map | Linear map - Wikipedia
+- https://en.wikipedia.org/wiki/Rotation_(mathematics) | Rotation (mathematics) - Wikipedia
+- https://en.wikipedia.org/wiki/Map_(mathematics) | Map (mathematics) - Wikipedia
+- https://en.wikipedia.org/wiki/Kernel_(algebra) | Kernel (algebra) - Wikipedia
+- https://en.wikipedia.org/wiki/Key_frame | Key frame - Wikipedia
+- https://en.wikipedia.org/wiki/Inbetweening | Inbetweening - Wikipedia
+- https://en.wikipedia.org/wiki/Interpolation_(computer_graphics) | Interpolation (computer graphics) - Wikipedia
+- https://en.wikipedia.org/wiki/Polynomial_interpolation | Polynomial interpolation - Wikipedia
+- https://en.wikipedia.org/wiki/Interpolation | Interpolation - Wikipedia
+- https://en.wikipedia.org/wiki/Estimation | Estimation - Wikipedia
+- https://en.wikipedia.org/wiki/Isolated_point | Isolated point - Wikipedia
+- https://en.wikipedia.org/wiki/Fourier_transform | Fourier transform - Wikipedia
+- https://en.wikipedia.org/wiki/Fourier_transform#Uncertainty_principle | Fourier transform - Wikipedia
+- https://en.wikipedia.org/wiki/Symplectic_vector_space | Symplectic vector space - Wikipedia
+- https://en.wikipedia.org/wiki/Bilinear_form | Bilinear form - Wikipedia
+- https://en.wikipedia.org/wiki/Symplectic_geometry | Symplectic geometry - Wikipedia
+- https://en.wikipedia.org/wiki/Kinematics | Kinematics - Wikipedia
+- https://en.wikipedia.org/wiki/Fourier_series | Fourier series - Wikipedia
+- https://en.wikipedia.org/wiki/Orthogonal_polynomials | Orthogonal polynomials - Wikipedia
+- https://www.overleaf.com/learn/latex/List_of_Greek_letters_and_math_symbols | List of Greek letters and math symbols - Overleaf, Online LaTeX Editor
+- https://wch.github.io/latexsheet/ | latexsheet
+- https://wch.github.io/latexsheet/latexsheet-a4.pdf | latexsheet-a4.pdf
+- https://en.wikipedia.org/wiki/Euclidean_space | Euclidean space - Wikipedia
+- https://en.wikipedia.org/wiki/Translation_(geometry) | Translation (geometry) - Wikipedia
+- https://en.wikipedia.org/wiki/Geometric_transformation | Geometric transformation - Wikipedia

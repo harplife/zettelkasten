@@ -1382,13 +1382,13 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "computer_graphics/MBC_강의_노트/Daily Notes/dn_20230323.md",
+                    "file": "tools/FFmpeg.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": false
                   },
                   "icon": "lucide-file",
-                  "title": "dn_20230323"
+                  "title": "FFmpeg"
                 }
               }
             ]
@@ -1469,13 +1469,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "computer_graphics/MBC_강의_노트/Daily Notes/dn_20230323.md",
+                    "file": "tools/FFmpeg.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of dn_20230323"
+                  "title": "Outline of FFmpeg"
                 }
               }
             ]
@@ -1644,16 +1644,14 @@
         }
       },
       "active": "a938c5241dfa21c1",
-      "mtime": "2025-10-12T15:20:31-05:00",
+      "mtime": "2025-10-12T15:31:38-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "art/generative_art",
           "careers/companies",
-          "computer_graphics",
-          "computer_graphics/MBC_강의_노트",
-          "computer_graphics/MBC_강의_노트/Daily Notes",
-          "computer_graphics/References",
-          "music/vocal"
+          "computer_graphics/projects",
+          "music/vocal",
+          "tools"
         ]
       }
     }

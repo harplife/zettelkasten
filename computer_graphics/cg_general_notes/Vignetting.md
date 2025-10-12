@@ -9,5 +9,5 @@
 - 
 
 ## Related
-- [[doding_and_burning]]
+- [[dodging_and_burning]]
 - 
