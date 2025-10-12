@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="-740 -390 1460 1460">
+ <title>Rhotometry radiometry units</title>
+ <desc>Comparison of photometric units: luminous flux, luminous intensity, luminous exitance, luminance and illuminance (purple) and radiometric units: radiant flux, radiant intensity, radiant exitance, radiance and irradiance (red) by CMG Lee based on http://slideshare.net/chinkitkit/chapter-1-radiometryandphotometry slide 2.</desc>
+ <style type="text/css">
+.main { font-family:Times,Times New Roman,serif; font-size:48px; text-anchor:middle;
+        fill:currentColor; stroke:none; stroke-width:4; stroke-linecap:round; }
+text    { stroke:none; }
+.var    { font-style:italic; }
+.photo  { color:#660099; }
+.radio  { color:#cc0000; }
+.accent { color:#ff9900; }
+.under  { font-weight:bold; text-decoration:underline; }
+.title  { font-weight:bold; }
+.big    { font-size:80px; }
+ </style>
+ <defs>
+  <filter id="filter_blur"><feGaussianBlur stdDeviation="2"/></filter>
+  <radialGradient id="grad_sphere" cx="50%" cy="50%" r="50%" fx="50%" fy="90%">
+   <stop offset="0%" stop-color="#000000" stop-opacity="0"/>
+   <stop offset="99%" stop-color="#000000" stop-opacity="0.2"/>
+  </radialGradient>
+  <linearGradient id="grad_highlight" x1="0%" y1="0%" x2="0%" y2="100%">
+   <stop offset="10%" stop-color="#ffffff" stop-opacity="0.9"/>
+   <stop offset="99%" stop-color="#ffffff" stop-opacity="0"/>
+  </linearGradient>
+  <g id="orb" stroke="none">
+   <circle cx="0" cy="0" r="100"/>
+   <circle cx="0" cy="0" r="100" fill="url(#grad_sphere)"/>
+   <ellipse cx="0" cy="-45" rx="70" ry="50" fill="url(#grad_highlight)" filter="url(#filter_blur)"/>
+  </g>
+
+  <g id="bulb">
+   <path d="M -40,90 v 40 a 40,20 0 0 0 80,0 v -40" fill="url(#grad_sphere)"/>
+   <use xlink:href="#orb"/>
+   <path d="M -20,60 L -40,10 q 10,-40 20,0 q 10,-40 20,0 q 10,-40 20,0 q 10,-40 20,0 L 20,60" fill="none" stroke="#ffffff" stroke-opacity="0.5" filter="url(#filter_blur)"/>
+  </g>
+  <g id="bulb_all">
+   <use class="accent" xlink:href="#bulb"/>
+  </g>
+  <clipPath id="clip_patch">
+   <path d="M 50,-50 Q 70,0 50,50 Q 70,50 80,40 Q 100,0 80,-40 Q 70,-50 50,-50"/>
+  </clipPath>
+  <g id="bulb_patch">
+   <use fill="#eeeeee" xlink:href="#bulb"/>
+   <use class="accent" xlink:href="#bulb" clip-path="url(#clip_patch)"/>
+  </g>
+
+  <marker id="marker" markerWidth="8" markerHeight="8" refX="4" refY="4" markerUnits="strokeWidth" orient="auto">
+   <path class="accent" d="M 1,2 Q 2,3 4,4 Q 2,5 1,6" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-linecap="round"/>
+  </marker>
+  <path id="ray" class="accent" d="M 110,0 h 40" stroke="currentColor" marker-end="url(#marker)"/>
+  <g id="ray3">
+   <use xlink:href="#ray"/>
+   <use xlink:href="#ray" transform="rotate( 30)"/>
+   <use xlink:href="#ray" transform="rotate(-30)"/>
+  </g>
+  <g id="rays">
+   <use xlink:href="#ray3"/>
+   <use xlink:href="#ray3" transform="rotate( 90)"/>
+   <use xlink:href="#ray3" transform="rotate(180)"/>
+   <use xlink:href="#ray3" transform="rotate(270)"/>
+  </g>
+
+  <g id="sr" class="accent" fill="none" stroke="currentColor">
+   <g transform="scale(0.4,0.6)">
+    <path d="M 527,-168 L 263.5,-84 m 0,168 L 527,168"/>
+    <circle cx="576" cy="0" r="175"/>
+   </g>
+   <use xlink:href="#ray3" transform="translate(80,0) scale(1,0.7)"/>
+  </g>
+ </defs>
+
+ <circle cx="0" cy="0" r="99999" fill="#ffffff"/>
+ <g class="main">
+  <g class="title">
+   <path d="M 710,-230 H -730 M -610,1060 V -340             M 710, 480 H -630 M  210,1060 V -250" fill="none" stroke="#cccccc"/>
+   <text transform="translate(-170,-290)" x="0" y="0.7ex">Non-directional</text>
+   <text transform="translate( 480,-290)" x="0" y="0.7ex">Directional</text>
+   <text transform="translate(-680, 120)" x="0" y="0"><tspan>Over</tspan><tspan x="0" dy="2ex">-all</tspan></text>
+   <text transform="translate(-680, 750)" x="0" y="0"><tspan>Per</tspan><tspan x="0" dy="2ex">unit</tspan><tspan x="0" dy="2ex">area</tspan></text>
+   <text class="var" transform="translate(-700,480)" x="0" y="0.7ex"><tspan class="big" x="50">↓</tspan><tspan class="under" x="0" dy="-1ex"> ∂ </tspan><tspan x="0" dy="2.2ex">∂A</tspan></text>
+   <text class="var" transform="translate(210,-260)" x="0" y="0.7ex"><tspan class="big">→</tspan><tspan class="under" x="0" dy="-95"> ∂ </tspan><tspan x="0" dy="2.2ex">∂Ω</tspan></text>
+   <text class="photo" transform="translate(-350, 270)" x="0" y="0.7ex"><tspan>Photometry</tspan></text>
+   <text class="radio" transform="translate(-350, 380)" x="0" y="0.7ex"><tspan>Radiometry</tspan></text>
+   <path class="photo" d="M -200,230 h -10 v 90 h 10" fill="none" stroke="currentColor"/>
+   <path class="radio" d="M -200,335 h -10 v 90 h 10" fill="none" stroke="currentColor"/>
+  </g>
+
+  <g fill="none" transform="translate(-540,100)">
+   <text fill="#009966" transform="translate(60,0)" x="0" y="2ex"><tspan>Luminous</tspan><tspan x="0" dy="2ex"><tspan>efficacy </tspan><tspan class="var">K</tspan></tspan><tspan x="0" dy="2.2ex">(lm/W)</tspan></text>
+   <path stroke="#cccccc" d="M 0,0 h 140 h -160 v -70"/>
+   <path stroke="#009966" d="M 0,0 c 60,0 40,-60 60,-60 c 20,0 0,60 60,60 M 55,290 q -35,-60 0,-130 v 17 v -17 l -12,12"/>
+  </g>
+
+  <g>
+   <use xlink:href="#bulb_all" transform="translate(-170,0)"/>
+   <use xlink:href="#rays" transform="translate(-170,0)"/>
+   <text class="photo" transform="translate(0,260)" x="0" y="0"><tspan><tspan>Luminous flux </tspan><tspan class="var">Φ</tspan><tspan dy="0.5ex">v</tspan></tspan><tspan x="0" dy="1.8ex">(lumen, lm = cd·sr)</tspan></text>
+   <text class="radio" transform="translate(0,370)" x="0" y="0"><tspan><tspan>Radiant flux </tspan><tspan class="var">Φ</tspan><tspan dy="0.5ex">e</tspan></tspan><tspan x="0" dy="1.8ex">(watt, W)</tspan></text>
+  </g>
+  <g transform="translate(460,0)">
+   <use xlink:href="#bulb_all" transform="translate(-130,0)"/>
+   <use xlink:href="#sr" transform="translate(-345,0) scale(2)" stroke-width="2"/>
+   <text class="photo" transform="translate(0,260)" x="0" y="0"><tspan><tspan>Luminous intensity </tspan><tspan class="var">I</tspan><tspan dy="0.5ex">v</tspan></tspan><tspan x="0" dy="1.8ex">(candela, cd = lm/sr)</tspan></text>
+   <text class="radio" transform="translate(0,370)" x="0" y="0"><tspan><tspan>Radiant intensity </tspan><tspan class="var">I</tspan><tspan dy="0.5ex">e,Ω</tspan></tspan><tspan x="0" dy="1.8ex">(W/sr)</tspan></text>
+  </g>
+
+  <g transform="translate(-370,630)">
+   <use xlink:href="#bulb_patch"/>
+   <use xlink:href="#rays" stroke-width="7" transform="translate(70,0) scale(0.6)"/>
+   <text transform="translate(0,200)" x="0" y="0">Exiting:</text>
+   <text class="photo" transform="translate(0,260)" x="0" y="0"><tspan><tspan>Luminous exitance </tspan><tspan class="var">M</tspan><tspan dy="0.5ex">v</tspan></tspan><tspan x="0" dy="1.8ex">(lm/m²)</tspan></text>
+   <text class="radio" transform="translate(0,370)" x="0" y="0"><tspan><tspan>Radiant exitance </tspan><tspan class="var">M</tspan><tspan dy="0.5ex">e</tspan></tspan><tspan x="0" dy="1.8ex">(W/m²)</tspan></text>
+  </g>
+  <g transform="translate(40,630)">
+   <path class="accent" fill-opacity="0.5" stroke="currentColor" d="M 0,-90 v 180 l 100,50 v -180 z"/>
+   <use xlink:href="#ray3" transform="translate(-250,0) scale(1.5,1)"/>
+   <text transform="translate(0,200)" x="0" y="0"><tspan class="under">I</tspan><tspan>ncoming:</tspan></text>
+   <text class="photo" transform="translate(0,260)" x="0" y="0"><tspan><tspan class="under">I</tspan><tspan>lluminance </tspan><tspan class="var">E</tspan><tspan dy="0.5ex">v</tspan></tspan><tspan x="0" dy="1.8ex">(lux, lx = lm/m²)</tspan></text>
+   <text class="radio" transform="translate(0,370)" x="0" y="0"><tspan><tspan class="under">I</tspan><tspan>rradiance </tspan><tspan class="var">E</tspan><tspan dy="0.5ex">e</tspan></tspan><tspan x="0" dy="1.8ex">(W/m²)</tspan></text>
+  </g>
+  <g transform="translate(460,630)">
+   <use xlink:href="#bulb_patch" transform="translate( -60,0)"/>
+   <use xlink:href="#sr" transform="translate(-115,0)"/>
+   <text class="photo" transform="translate(0,260)" x="0" y="0"><tspan><tspan>Luminance </tspan><tspan class="var">L</tspan><tspan dy="0.5ex">v</tspan></tspan><tspan x="0" dy="1.8ex">(nit, nt = cd/m²)</tspan></text>
+   <text class="radio" transform="translate(0,370)" x="0" y="0"><tspan><tspan>Radiance </tspan><tspan class="var">L</tspan><tspan dy="0.5ex">e,Ω</tspan></tspan><tspan x="0" dy="1.8ex">(W/sr/m²)</tspan></text>
+  </g>
+ </g>
+</svg>
