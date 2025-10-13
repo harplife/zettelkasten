@@ -1373,25 +1373,41 @@
         "type": "split",
         "children": [
           {
-            "id": "ca1b18c44646a4da",
+            "id": "2f7eaa6351b7b899",
             "type": "tabs",
             "children": [
               {
-                "id": "a938c5241dfa21c1",
+                "id": "e4f34fa0b76efa6d",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "tools/FFmpeg.md",
+                    "file": "1_unsorted/estimation.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": false
                   },
                   "icon": "lucide-file",
-                  "title": "FFmpeg"
+                  "title": "estimation"
+                }
+              },
+              {
+                "id": "de53db34ed2b956a",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "1_unsorted/gestalt_psychology.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "gestalt_psychology"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -1469,13 +1485,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "tools/FFmpeg.md",
+                    "file": "1_unsorted/gestalt_psychology.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of FFmpeg"
+                  "title": "Outline of gestalt_psychology"
                 }
               }
             ]
@@ -1643,12 +1659,15 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "a938c5241dfa21c1",
-      "mtime": "2025-10-12T15:31:38-05:00",
+      "active": "de53db34ed2b956a",
+      "mtime": "2025-10-13T10:07:08-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
+          "1_unsorted",
           "art/generative_art",
           "careers/companies",
+          "computer_graphics/cg_general_notes",
+          "computer_graphics/concepts",
           "computer_graphics/projects",
           "music/vocal",
           "tools"
