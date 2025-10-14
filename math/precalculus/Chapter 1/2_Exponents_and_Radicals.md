@@ -100,10 +100,8 @@ Here are some examples :
 - $\sqrt[3]{ 8 } = 2$  since $2^3 = 8$
 - $\sqrt[4]{ 81 } = 3$  since  $3^4 = 81$
 
-
 > [!warning] The square root is not the inverse of squaring.
-> For some reason, I keep thinking
-
+> For some reason, I keep thinking solving for $x^2=4$ is the same as solving for $\sqrt{ 4 }$. But alas, they are not the same. While solving for $x^2=4$ does require using a square root, it is more like $x=\pm \sqrt{ 4 }$. On the other hand, $\sqrt{ 4 }$ is just non-negative $2$.
 
 
 ### Index : Even or Odd
