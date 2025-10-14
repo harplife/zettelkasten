@@ -35,7 +35,7 @@ edited: 2022-06-05
 2. 정점 버퍼 객체 선언
 3. 정점 버퍼 객체 초기화 (정점 데이터 입력)
 
-이 코드는 삼각형의 3개 정점의 좌표를 [[computer_graphics_shader#정점 버퍼 객체|정점 버퍼 객체(VBO)]]에 저장하여 처리한다.
+이 코드는 삼각형의 3개 정점의 좌표를 [[shader#정점 버퍼 객체|정점 버퍼 객체(VBO)]]에 저장하여 처리한다.
 ```cpp
 // 1) 모델의 정점 데이터
 float vertices[] = {
@@ -58,7 +58,7 @@ static void InitVBOs()
 
 `vertices`는 3x3 행렬로 3개의 정점의 3차원 좌표(x, y, z)를 가진다. #todo 여기서 값들이 `[-1, 1]`사이의 값들로 표현된다는 것을 참고한다 - 래스터화와 관련되어 있다.
 
-`VBO` : [[computer_graphics_shader#정점 버퍼 객체|정점 버퍼 객체]]가 될 변수이다. 이름이 어떻게 되는 상관은 없다 - 다만, OpenGL이 이 변수가 VBO라는 것을 모르기 때문에 이를 위해 따로 처리를 해줘야 한다.
+`VBO` : [[shader#정점 버퍼 객체|정점 버퍼 객체]]가 될 변수이다. 이름이 어떻게 되는 상관은 없다 - 다만, OpenGL이 이 변수가 VBO라는 것을 모르기 때문에 이를 위해 따로 처리를 해줘야 한다.
 
 `void glGenBuffers(GLsizei n, GLuint * buffers)` : VBO의 핸들(Handle)을 생성하는 함수로서, `n`은 VBO 핸들의 개수, `buffers`는 VBO 핸들을 저장할 배열이다. 여기서 1개의 버퍼를 생성해서 `VBO` 변수의 인덱스를 받게 해준다.
 
@@ -103,17 +103,17 @@ static const char* pVS =
 #### 레이아웃 한정자
 `layout (location = 0) in vec3 aPos` : [레이아웃 한정자(Layout Qualifier)](https://www.khronos.org/opengl/wiki/Layout_Qualifier_(GLSL))로서 OpenGL 프로그램으로부터 전달되는 정점 정보가 `vec3`\*로 표현되는 전역변수 `aPos`에 입력됨과 이 정보의 인덱스가 0번임을 알린다.
 
-\* `vec3` : [[computer_graphics_shader#셰이더 데이터 유형|OpenGL 데이터 유형]]으로 3개의 `GLfloat` 값이 전달된다 - 이 값들은 각각 순서대로 x, y, z 좌표이다. [[#모델 데이터 준비]] 단계에서 정의했던 정점 버퍼 객체의 데이터가 `aPos`로 들어온다.
+\* `vec3` : [[shader#셰이더 데이터 유형|OpenGL 데이터 유형]]으로 3개의 `GLfloat` 값이 전달된다 - 이 값들은 각각 순서대로 x, y, z 좌표이다. [[#모델 데이터 준비]] 단계에서 정의했던 정점 버퍼 객체의 데이터가 `aPos`로 들어온다.
 
 참고 : 정점 셰이더는 정점의 개수만큼 실행된다. 그 말은, VBO 데이터의 한 행(Row)씩 처리된다는 것이다.
 
-#todo 레이아웃 한정자에 대해서 [[computer_graphics_shader|셰이더]]에 정리.
+#todo 레이아웃 한정자에 대해서 [[shader|셰이더]]에 정리.
 
 #### 정점 위치 처리
 `gl_Position = vec4(aPos.x, aPos.y, aPos.z, 1.0)` : 메인 함수에서 `aPos`에 입력된 정점 좌표를 처리하여 `gl_Position`를 통해 다음 파이프라인 단계로 전달한다.
 
 `gl_Position`은
-1. OpenGL의 [[computer_graphics_shader#고정 변수|OpenGL 고정 변수]]이며, 정점의 위치 값을 가지고 파이프라인 사이에 전달되는 중요한 변수이다.
+1. OpenGL의 [[shader#고정 변수|OpenGL 고정 변수]]이며, 정점의 위치 값을 가지고 파이프라인 사이에 전달되는 중요한 변수이다.
 2. 3차원 [동차좌표(Homogeneous Coordinates)](https://en.wikipedia.org/wiki/Homogeneous_coordinates)로 x, y, z 그리고 w([사양](https://en.wikipedia.org/wiki/Projective_geometry)) 좌표값들을 가진다.
 
 ### 조각 셰이더
@@ -211,7 +211,7 @@ static void AddShader(GLuint shaderProg, const char* pShaderSrc, GLint ShaderTyp
 참고 : [OpenGL - glGetShaderInfoLog](https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGetShaderInfoLog.xhtml)
 
 #### 셰이더 프로그램에 등록
-`void glAttachShader(GLuint program, GLuint shader)` : [[computer_graphics_shader#셰이더 프로그램|셰이더 프로그램]]에 셰이더를 등록하는 함수이다.
+`void glAttachShader(GLuint program, GLuint shader)` : [[shader#셰이더 프로그램|셰이더 프로그램]]에 셰이더를 등록하는 함수이다.
 
 참고 : [OpenGL - glAttachShader](https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glAttachShader.xhtml)
 

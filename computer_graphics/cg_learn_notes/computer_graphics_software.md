@@ -359,7 +359,7 @@ OpenGL에서 사용하는 기본 도형들은 밑에 그림을 참고한다.
 [raycasting](https://en.wikipedia.org/wiki/Ray_casting)
 
 ## 셰이더
-[[computer_graphics_shader|셰이더]] 참고
+[[shader|셰이더]] 참고
 
 ## 그래픽스 파이프라인
 [그래픽스 파이프라인(Graphics Pipeline)](https://www.khronos.org/opengl/wiki/Rendering_Pipeline_Overview)은 렌더링에 포함되는 여러 작업들을 순차적(Sequential)으로 정리한 개념적(Conceptual) 모델이다.
