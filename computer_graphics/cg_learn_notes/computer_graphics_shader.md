@@ -7,6 +7,12 @@ edited: 2022-06-04
 ---
 
 # 셰이더
+
+[Shader - Computer Graphics | wiki](https://en.wikipedia.org/wiki/Shader) : a computer program that calculates the appropriate/approximate levels of light, darkness, and color during rendering of a 3D scene, a process known as [[shading]].
+
+> [!warning] Duplicate notes, needs edit
+
+
 [셰이딩(Shading)](https://en.wikipedia.org/wiki/Shading)은 3차원 모델을 렌더링하기 위해서 빛(Light), 어두움(Darkness), 그리고 색(Color) 등의 조합 비율을 계산하는 작업/알고리즘을 뜻한다. 주로 현실 세계에 빛(Light)의 특성을 최대한 근접하게 묘사하기 위한 목표로 셰이딩이 사용되지만, 반대로 왜곡시켜 특이한 이펙트(Effect)를 만드는 경우도 있다.
 
 참고 : 다각형으로 만들어진 도형을 둥글게 보이도록 하는 목적으로도 셰이딩이 사용된다.
