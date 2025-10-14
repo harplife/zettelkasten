@@ -11,15 +11,17 @@
             "id": "2bd33d10a94d34e8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "architecture/architecture.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "architecture/architecture_mindmap.canvas",
+                "viewState": {
+                  "x": 2200.591850203667,
+                  "y": 142.5830953061503,
+                  "zoom": -1.2551895907276074
+                }
               },
-              "icon": "lucide-file",
-              "title": "architecture"
+              "icon": "lucide-layout-dashboard",
+              "title": "architecture_mindmap"
             }
           }
         ]
@@ -276,9 +278,9 @@
   },
   "active": "2bd33d10a94d34e8",
   "lastOpenFiles": [
+    "architecture/architecture.md",
     "architecture/architecture_mindmap.canvas",
     "unreal_engine/ue_toon_shading.md",
-    "architecture/architecture.md",
     "architecture",
     "unreal_engine/ue_toon_outline.md",
     "unreal_engine/ue_houdini_citygen_202307.md",

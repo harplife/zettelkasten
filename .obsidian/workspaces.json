@@ -1380,15 +1380,17 @@
                 "id": "2bd33d10a94d34e8",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
+                  "type": "canvas",
                   "state": {
-                    "file": "architecture/architecture.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
+                    "file": "architecture/architecture_mindmap.canvas",
+                    "viewState": {
+                      "x": 2200.591850203667,
+                      "y": 142.5830953061503,
+                      "zoom": -1.2551895907276074
+                    }
                   },
-                  "icon": "lucide-file",
-                  "title": "architecture"
+                  "icon": "lucide-layout-dashboard",
+                  "title": "architecture_mindmap"
                 }
               }
             ]
@@ -1469,13 +1471,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "architecture/architecture.md",
+                    "file": "architecture/architecture_mindmap.canvas",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of architecture"
+                  "title": "Outline of architecture_mindmap"
                 }
               }
             ]
@@ -1644,7 +1646,7 @@
         }
       },
       "active": "2bd33d10a94d34e8",
-      "mtime": "2025-10-14T15:08:45-05:00",
+      "mtime": "2025-10-14T15:21:31-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "architecture",
