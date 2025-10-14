@@ -1382,13 +1382,13 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "computer_graphics/onetab_exports.md",
+                    "file": "computer_graphics/cg_resources.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": false
                   },
                   "icon": "lucide-file",
-                  "title": "onetab_exports"
+                  "title": "cg_resources"
                 }
               }
             ]
@@ -1469,13 +1469,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "computer_graphics/onetab_exports.md",
+                    "file": "computer_graphics/cg_resources.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of onetab_exports"
+                  "title": "Outline of cg_resources"
                 }
               }
             ]
@@ -1644,7 +1644,7 @@
         }
       },
       "active": "2bd33d10a94d34e8",
-      "mtime": "2025-10-14T15:28:57-05:00",
+      "mtime": "2025-10-14T15:42:37-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "art/generative_art",
@@ -1656,5 +1656,5 @@
       }
     }
   },
-  "active": "Computer Graphics"
+  "active": "Math"
 }
