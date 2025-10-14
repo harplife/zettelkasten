@@ -101,7 +101,8 @@ Here are some examples :
 - $\sqrt[4]{ 81 } = 3$  since  $3^4 = 81$
 
 
-> [!warning] 
+> [!warning] The square root is not the inverse of squaring.
+> For some reason, I keep thinking
 
 
 
