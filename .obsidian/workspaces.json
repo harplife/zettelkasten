@@ -1380,17 +1380,15 @@
                 "id": "2bd33d10a94d34e8",
                 "type": "leaf",
                 "state": {
-                  "type": "canvas",
+                  "type": "markdown",
                   "state": {
-                    "file": "architecture/architecture_mindmap.canvas",
-                    "viewState": {
-                      "x": 2200.591850203667,
-                      "y": 142.5830953061503,
-                      "zoom": -1.2551895907276074
-                    }
+                    "file": "computer_graphics/onetab_exports.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
                   },
-                  "icon": "lucide-layout-dashboard",
-                  "title": "architecture_mindmap"
+                  "icon": "lucide-file",
+                  "title": "onetab_exports"
                 }
               }
             ]
@@ -1471,13 +1469,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "architecture/architecture_mindmap.canvas",
+                    "file": "computer_graphics/onetab_exports.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of architecture_mindmap"
+                  "title": "Outline of onetab_exports"
                 }
               }
             ]
@@ -1646,13 +1644,13 @@
         }
       },
       "active": "2bd33d10a94d34e8",
-      "mtime": "2025-10-14T15:21:31-05:00",
+      "mtime": "2025-10-14T15:28:57-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
-          "architecture",
           "art/generative_art",
           "art/typography",
           "careers/companies",
+          "computer_graphics",
           "music/vocal"
         ]
       }

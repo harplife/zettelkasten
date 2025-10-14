@@ -11,17 +11,15 @@
             "id": "2bd33d10a94d34e8",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "architecture/architecture_mindmap.canvas",
-                "viewState": {
-                  "x": 2200.591850203667,
-                  "y": 142.5830953061503,
-                  "zoom": -1.2551895907276074
-                }
+                "file": "computer_graphics/onetab_exports.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "architecture_mindmap"
+              "icon": "lucide-file",
+              "title": "onetab_exports"
             }
           }
         ]
@@ -102,13 +100,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "architecture/architecture.md",
+                "file": "computer_graphics/onetab_exports.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of architecture"
+              "title": "Outline of onetab_exports"
             }
           }
         ]
@@ -278,8 +276,11 @@
   },
   "active": "2bd33d10a94d34e8",
   "lastOpenFiles": [
-    "architecture/architecture.md",
+    "computer_graphics/Computer_Graphics_Mindmap.canvas",
+    "computer_graphics/projects/solo_leveling_mindmap.canvas",
     "architecture/architecture_mindmap.canvas",
+    "unreal_engine/unreal_engine_mindmap.canvas",
+    "architecture/architecture.md",
     "unreal_engine/ue_toon_shading.md",
     "architecture",
     "unreal_engine/ue_toon_outline.md",
@@ -308,7 +309,6 @@
     "houdini/algorithmic_design_with_houdini.md",
     "1_unsorted/linear_map.md",
     "houdini/houdini_mindmap.canvas",
-    "computer_graphics/Computer_Graphics_Mindmap.canvas",
     "houdini",
     "computer_graphics/MBC_강의_노트/Unreal_Engine",
     "attachments/Evolution_of_minuscule.svg",
