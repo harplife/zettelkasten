@@ -40,4 +40,13 @@
 - [Rule \#3 | Giant Ant](https://vimeo.com/139361478)
 - [Slack // Amazing: Spaceship | Giant Ant](https://vimeo.com/150701872)
 - [Lacoste Fabrics | Maksim Solodkov](https://vimeo.com/763044782)
-- 
+
+
+## Cinematics
+
+```embed
+title: '영화 같은 블리자드 시네마틱 영상 이렇게 제작됩니다 | 메이킹 영상 | 비하인드 모음'
+image: 'https://img.youtube.com/vi/_SEuEL_38ZE/maxresdefault.jpg'
+description: '#스타 #스타2 #메이킹 #비하인드 #시네마틱 #스타크래프트 스타크래프트2 공허의 유산 시네마틱 비하인드 영상입니다.'
+url: 'https://youtu.be/_SEuEL_38ZE'
+```

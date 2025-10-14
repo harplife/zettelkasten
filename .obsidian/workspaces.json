@@ -1373,71 +1373,25 @@
         "type": "split",
         "children": [
           {
-            "id": "4d38175c1a857680",
+            "id": "6a7759a74e475b4d",
             "type": "tabs",
             "children": [
               {
-                "id": "c1025eabed1982ea",
+                "id": "de9a4b8f4d8baa7e",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "computer_graphics/3D_graphics_resources.md",
+                    "file": "computer_graphics/concepts/photo_realistic_rendering.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": false
                   },
                   "icon": "lucide-file",
-                  "title": "3D_graphics_resources"
-                }
-              },
-              {
-                "id": "2e378a4707b461ae",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "computer_graphics/cg_resources.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "cg_resources"
-                }
-              },
-              {
-                "id": "07f1b296e9550737",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "computer_graphics/projects/3d_graphics_project_concepts.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "3d_graphics_project_concepts"
-                }
-              },
-              {
-                "id": "48a0b9b90ab8de0a",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "computer_graphics/MBC_강의_노트/5기_1차_포폴_리뷰.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "5기_1차_포폴_리뷰"
+                  "title": "photo_realistic_rendering"
                 }
               }
-            ],
-            "currentTab": 3
+            ]
           }
         ],
         "direction": "vertical"
@@ -1482,7 +1436,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "c4d",
+                    "query": "",
                     "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": false,
@@ -1515,13 +1469,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "computer_graphics/MBC_강의_노트/5기_1차_포폴_리뷰.md",
+                    "file": "computer_graphics/concepts/photo_realistic_rendering.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of 5기_1차_포폴_리뷰"
+                  "title": "Outline of photo_realistic_rendering"
                 }
               }
             ]
@@ -1689,17 +1643,17 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "48a0b9b90ab8de0a",
-      "mtime": "2025-10-14T14:11:53-05:00",
+      "active": "de9a4b8f4d8baa7e",
+      "mtime": "2025-10-14T14:44:17-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "art/generative_art",
           "art/typography",
           "careers/companies",
           "computer_graphics",
+          "computer_graphics/concepts",
           "computer_graphics/MBC_강의_노트",
-          "music/vocal",
-          "tools"
+          "music/vocal"
         ]
       }
     }

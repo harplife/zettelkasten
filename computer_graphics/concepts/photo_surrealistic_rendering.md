@@ -1,3 +1,12 @@
+---
+aliases:
+  - photo-surrealistic rendering
+  - Photo-Surrealistic Rendering
+tags:
+  - computer_graphics
+---
+
+
 # Photo-Surrealistic Rendering
 
 ## Definition
