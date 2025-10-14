@@ -1,0 +1,33 @@
+{
+	"nodes":[
+		{"type":"file","file":"architecture.md","id":"2210dd6afd4ba73c","x":34,"y":44,"width":906,"height":756},
+		{"id":"1dcf3cc48e17f058","x":1640,"y":-2520,"width":840,"height":520,"type":"link","url":"https://en.wikipedia.org/wiki/Semantics"},
+		{"id":"9e8b1cf545457042","x":1400,"y":-80,"width":811,"height":531,"type":"link","url":"https://en.wikipedia.org/wiki/Architectural_theory"},
+		{"id":"3f423e929d82769e","x":640,"y":-1720,"width":998,"height":516,"type":"link","url":"https://en.wikipedia.org/wiki/Aesthetics"},
+		{"id":"a5ffdf77b5b32d4f","x":2360,"y":-1640,"width":820,"height":454,"type":"link","url":"https://en.wikipedia.org/wiki/Philosophy_of_design"},
+		{"id":"5a4d4f93b8110bc0","x":1560,"y":-1000,"width":941,"height":576,"type":"link","url":"https://en.wikipedia.org/wiki/Philosophy_of_architecture"},
+		{"id":"6a7de532b573248a","x":3440,"y":-1200,"width":920,"height":560,"type":"link","url":"https://en.wikipedia.org/wiki/Form_follows_function"},
+		{"id":"7ec06e2e1d27ad3d","x":2880,"y":440,"width":850,"height":556,"type":"link","url":"https://en.wikipedia.org/wiki/Culture"},
+		{"id":"7a09fff7651b3e4b","x":2800,"y":-320,"width":856,"height":458,"type":"link","url":"https://en.wikipedia.org/wiki/Functionalism_(architecture)"},
+		{"id":"840c21269e7562ef","x":1120,"y":960,"width":920,"height":577,"type":"link","url":"https://en.wikipedia.org/wiki/Atmosphere_(architecture_and_spatial_design)"},
+		{"id":"3b69b08f99e2d58e","x":2280,"y":1200,"width":960,"height":589,"type":"link","url":"https://en.wikipedia.org/wiki/Spatial_design"},
+		{"id":"b57584737fd58fda","x":1560,"y":1840,"width":626,"height":510,"type":"link","url":"https://en.wikipedia.org/wiki/Qualia"},
+		{"id":"80485aafabf30955","x":480,"y":1680,"width":770,"height":455,"type":"link","url":"https://en.wikipedia.org/wiki/Sociology_of_space"}
+	],
+	"edges":[
+		{"id":"912070237e0d68e8","fromNode":"1dcf3cc48e17f058","fromSide":"bottom","toNode":"3f423e929d82769e","toSide":"top"},
+		{"id":"c8cbcad1f62444ec","fromNode":"1dcf3cc48e17f058","fromSide":"bottom","toNode":"a5ffdf77b5b32d4f","toSide":"top"},
+		{"id":"da2b897c90f7ec2a","fromNode":"5a4d4f93b8110bc0","fromSide":"bottom","toNode":"9e8b1cf545457042","toSide":"top"},
+		{"id":"00349b5785adea7c","fromNode":"9e8b1cf545457042","fromSide":"left","toNode":"2210dd6afd4ba73c","toSide":"right"},
+		{"id":"691e852c0b73d125","fromNode":"a5ffdf77b5b32d4f","fromSide":"bottom","toNode":"5a4d4f93b8110bc0","toSide":"right"},
+		{"id":"3a8392a3fd0fcc2c","fromNode":"3f423e929d82769e","fromSide":"bottom","toNode":"5a4d4f93b8110bc0","toSide":"left"},
+		{"id":"70989e7eca9f2fba","fromNode":"9e8b1cf545457042","fromSide":"right","toNode":"7ec06e2e1d27ad3d","toSide":"left","label":"Semantics of Culture"},
+		{"id":"d3a350637a801035","fromNode":"6a7de532b573248a","fromSide":"left","toNode":"a5ffdf77b5b32d4f","toSide":"right"},
+		{"id":"1df151b37b1c96d5","fromNode":"6a7de532b573248a","fromSide":"left","toNode":"5a4d4f93b8110bc0","toSide":"right"},
+		{"id":"65c94abcdffca231","fromNode":"6a7de532b573248a","fromSide":"bottom","toNode":"7a09fff7651b3e4b","toSide":"top"},
+		{"id":"9408431dd545a2e5","fromNode":"840c21269e7562ef","fromSide":"top","toNode":"9e8b1cf545457042","toSide":"bottom"},
+		{"id":"fa1cbc470a4a87c2","fromNode":"840c21269e7562ef","fromSide":"right","toNode":"3b69b08f99e2d58e","toSide":"left"},
+		{"id":"ba2442c9ba67859a","fromNode":"840c21269e7562ef","fromSide":"bottom","toNode":"b57584737fd58fda","toSide":"top"},
+		{"id":"93b5ec261c510902","fromNode":"840c21269e7562ef","fromSide":"left","toNode":"80485aafabf30955","toSide":"top"}
+	]
+}
