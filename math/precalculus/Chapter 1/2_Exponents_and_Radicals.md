@@ -101,6 +101,10 @@ Here are some examples :
 - $\sqrt[4]{ 81 } = 3$  since  $3^4 = 81$
 
 
+> [!warning] 
+
+
+
 ### Index : Even or Odd
 
 If the index $n$ is even (square root, 4th root, etc.) :
