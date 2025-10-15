@@ -139,3 +139,4 @@ y = -\frac{A}{B}x - \frac{C}{B}
 $$
 
 In this form, slope $m=-\frac{A}{B}$ and y-intercept $b=-\frac{C}{B}$.
+
