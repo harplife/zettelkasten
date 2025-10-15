@@ -96,3 +96,19 @@ $$
 
 This simplifies to $y=mx+b$, which is called the <mark class="hltr-trippy">Slope-Intercept Form</mark> of the equation of a line.
 
+> [!example]- Find an equation of the line with slope $3$ and y-intercept $-2$.
+> Answer : $y=3x-2$
+
+> [!example]- Find the slope and y-intercept of the line $3y-2x=1$
+> $$
+> \begin{align}
+>   3y-2x &= 1 \\
+>   3y &= 2x+1 \\
+>   y &= \frac{2}{3}x+\frac{1}{3}
+> \end{align}
+> $$
+> 
+> Answer : Slope $\frac{2}{3}$, y-intercept $\frac{1}{3}$
+
+
+
