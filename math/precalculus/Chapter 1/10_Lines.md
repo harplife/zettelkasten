@@ -130,5 +130,12 @@ where $A$, $B$, and $C$ are constants and $A$ and $B$ are not *both* $0$.
 
 When a non-vertical line has the equation $y=mx+b$, it can be rewritten as $-mx+y-b=0$, which is a linear equation with $A=-m$, $B=1$, and $C=-b$.
 
-A vertical line has the equation $x=0$ (or $x-a=0$), which is a linear equation with $A=1$, $B=0$, and $C=-a$.
+A vertical line has the equation $x=a$ (or $x-a=0$), which is a linear equation with $A=1$, $B=0$, and $C=-a$.
 
+A linear equation can be rewritten in the Slope-Intercept Form, if $B \neq 0$:
+
+$$
+y = -\frac{A}{B}x - \frac{C}{B}
+$$
+
+In this form, slope $m=-\frac{A}{B}$ and y-intercept $b=-\frac{C}{B}$.
