@@ -1,0 +1,67 @@
+# Lines
+
+## Key Points
+
+- The Slope of a Line
+- Point-Slope Form of the Equation of a Line
+- Slope-Intercept Form of the Equation of a Line
+- Vertical and Horizontal Lines
+- General Equation of a Line
+- Parallel and Perpendicular Lines
+
+
+## The Slope of a Line
+
+The <mark class="hltr-trippy">Slope of a Line</mark> is the ratio of rise to run :
+
+$$
+slope = \frac{rise}{run}
+$$
+
+If a line lies in a coordinate plane, then the <mark class="hltr-trippy">Run</mark> is the change in the x-coordinate and the <mark class="hltr-trippy">Rise</mark> is the corresponding change in the y-coordinate between any two points on the line.
+
+![[Pasted image 20251015133951.png]]
+
+It is important to understand that the Slope of a line represents a <mark class="hltr-trippy">Rate of Change</mark> :
+
+$$
+m = \frac{\text{change in output}}{\text{change in input}} = \frac{\Delta y}{\Delta x}
+$$
+
+> [!important] The uppercase Delta $\Delta$ most commonly means "change".
+
+The change in input is the difference of the two points along x-coordinate ($x_{2}-x_{1}$), and the change in output is the difference of the two points along y-coordinate ($y_{2}-y_{1}$). Thus, putting it together :
+
+$$
+m = \frac{y_{2}-y_{1}}{x_{2}-x_{1}}
+$$
+
+The geometric interpretation of the slope $m$ :
+- If $m>0$, the line is rising
+- If $m <0$, the line is falling
+- If $m=0$, the line is horizontal
+
+> [!warning] If the line is vertical, then there is **no slope** (undefined).
+
+
+Example of finding the slope of a line, given $P(2,1)$ and $Q(8,5)$ :
+
+$$
+m = \frac{5-1}{8-2} = \frac{4}{6} = \frac{2}{3}
+$$
+
+> [!important] An equation with one degree (i.e. $y=x$) is called a Linear Equation. When a linear equation is graphed, a line is drawn on the coordinate plane. A line means that there is a slope to find.
+
+While the slope can be calculated by plotting two points, it is also possible to find the slope based on the different forms of linear equations :
+
+| Form                | Equation               | How to Find Slope                  |
+| ------------------- | ---------------------- | ---------------------------------- |
+| **Slope–Intercept** | $y = mx + b$           | $m$                                |
+| **Point–Slope**     | $y - y_1 = m(x - x_1)$ | $m$                                |
+| **Standard**        | $Ax + By = C$          | $m = -\frac{A}{B} \quad (B \ne 0)$ |
+| **Vertical**        | $x = a$                | Undefined slope                    |
+| **Horizontal**      | $y = b$                | $m=0$                              |
+
+
+## Point-Slope Form of the Equation of a Line
+
