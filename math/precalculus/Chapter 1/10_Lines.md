@@ -140,3 +140,25 @@ $$
 
 In this form, slope $m=-\frac{A}{B}$ and y-intercept $b=-\frac{C}{B}$.
 
+
+> [!warning] The general (or standard) form of a linear equation can be written as either $Ax+By+C=0$ or $Ax+By=C$.
+> Both are equivalent, and each version of the form is used in different contexts.
+
+> [!important] The graph of every linear equation is a line. Conversely, every line is the graph of a linear equation.
+
+> [!important] Easiest way to graph a linear equation is to plot two points at intercepts; one point at x-intercept and the other at y-intercept.
+
+
+## Parallel and Perpendicular Lines
+
+Two non-vertical lines are **parallel** if and only if they have the same slope.
+
+Two lines with slopes $m_{1}$ and $m_{2}$ are **perpendicular** if and only if their slopes are **negative reciprocals**. In other words :
+
+$$
+m_{1}m_{2}=-1 \quad or \quad m_{2}=-\frac{1}{m_{1}}
+$$
+
+> [!important] A **multiplicative inverse** or **reciprocal** for a number $x$, denoted by $\frac{1}{x}$ or $x^{-1}$, is a number which when multiplied by $x$ yields the multiplicative identity $1$.
+
+
