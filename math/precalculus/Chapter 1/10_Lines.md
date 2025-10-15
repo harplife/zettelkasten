@@ -65,3 +65,22 @@ While the slope can be calculated by plotting two points, it is also possible to
 
 ## Point-Slope Form of the Equation of a Line
 
+Given two points, the slope of the line is $m = \frac{y_{2}-y_{1}}{x_{2}-x_{1}}$. This equation can be rewritten in the <mark class="hltr-trippy">Point-Slope Form</mark> :
+
+$$
+y_{2}-y_{1} = m(x_{2}-x_{1})
+$$
+
+This form is useful when only the coordinate of a point and the value of the slope is given. For example, an equation of the line through the point $(1-,3)$ with slope $-\frac{1}{2}$ :
+
+$$
+\begin{align}
+  y+3 &= -\frac{1}{2}(x-1) \\
+  2y + 6 &= -x+1 \\
+  x + 2y + 5 &= 0
+\end{align}
+$$
+
+
+## Slope-Intercept Form of the Equation of a Line
+
