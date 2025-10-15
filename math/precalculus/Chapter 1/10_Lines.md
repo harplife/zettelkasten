@@ -161,4 +161,5 @@ $$
 
 > [!important] A **multiplicative inverse** or **reciprocal** for a number $x$, denoted by $\frac{1}{x}$ or $x^{-1}$, is a number which when multiplied by $x$ yields the multiplicative identity $1$.
 
+> [!warning] The negative reciprocal rule for perpendicular lines do not apply to horizontal or vertical lines. Every horizontal lines are perpendicular to every vertical lines.
 
