@@ -111,4 +111,24 @@ This simplifies to $y=mx+b$, which is called the <mark class="hltr-trippy">Slope
 > Answer : Slope $\frac{2}{3}$, y-intercept $\frac{1}{3}$
 
 
+## Vertical and Horizontal Lines
+
+When a line is horizontal, its slope $m=0$, so its equation is $y=b$ where $b$ is the y-intercept.
+
+A vertical line does not have a slope, but its equation can be written as $x=a$, where $a$ is the x-intercept.
+
+
+## General Equation of a Line (Standard Form)
+
+A <mark class="hltr-trippy">Linear Equation</mark> in the variables $x$ and $y$ is an equation of the form
+
+$$
+Ax + By + C = 0
+$$
+
+where $A$, $B$, and $C$ are constants and $A$ and $B$ are not *both* $0$.
+
+When a non-vertical line has the equation $y=mx+b$, it can be rewritten as $-mx+y-b=0$, which is a linear equation with $A=-m$, $B=1$, and $C=-b$.
+
+A vertical line has the equation $x=0$ (or $x-a=0$), which is a linear equation with $A=1$, $B=0$, and $C=-a$.
 
