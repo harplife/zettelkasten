@@ -84,3 +84,15 @@ $$
 
 ## Slope-Intercept Form of the Equation of a Line
 
+Suppose a non-vertical line has slope $m$ and y-intercept $b$.
+
+![[Pasted image 20251015151233.png| center | 300]]
+
+This means that the line intersects the y-axis at the point $(0, b)$, so the point-slope form of the equation of the line, with $x=0$ and $y=b$, becomes :
+
+$$
+y-b=m(x-0)
+$$
+
+This simplifies to $y=mx+b$, which is called the <mark class="hltr-trippy">Slope-Intercept Form</mark> of the equation of a line.
+
