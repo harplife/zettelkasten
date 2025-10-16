@@ -40,6 +40,7 @@ There are four types of variations :
 
 Direct variation is phrased as :
 
+> For some constant $k \neq 0$,
 > 1. $y$ varies directly as $x$
 > 2. $y$ is directly proportional to $x$
 > 3. $y$ is proportional to $x$
@@ -50,9 +51,13 @@ $$
 y = kx
 $$
 
-where $k \neq 0$ is a constant.
+where $k$ is the <mark class="hltr-trippy">constant of proportionality</mark>.
 
 ---
 
 All this means is that as $x$ increases, $y$ increases proportionally. If $x$ doubles, $y$ doubles.
 
+
+## Inverse Variation
+
+Inverse Variation describes the relationship where one quantity 
