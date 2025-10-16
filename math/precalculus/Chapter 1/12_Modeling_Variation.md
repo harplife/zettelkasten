@@ -40,7 +40,9 @@ There are four types of variations :
 
 Direct variation is phrased as :
 
-> $y$ varies directly as $x$
+> 1. $y$ varies directly as $x$
+> 2. $y$ is directly proportional to $x$
+> 3. $y$ is proportional to $x$
 
 which, as an equation looks like this :
 
