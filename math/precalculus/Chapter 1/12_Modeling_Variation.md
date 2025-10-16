@@ -35,8 +35,6 @@ There are four types of variations :
 
 <mark class="hltr-trippy">Direction Variation</mark> describes the relationship where one quantity is a constant multiple of the other.
 
----
-
 Direct variation is phrased as :
 
 > For some constant $k \neq 0$,
@@ -52,16 +50,10 @@ $$
 
 where $k$ is the **constant of proportionality**.
 
----
-
-All this means is that as $x$ increases, $y$ increases proportionally. If $x$ doubles, $y$ doubles.
-
 
 ## Inverse Variation
 
 <mark class="hltr-trippy">Inverse Variation</mark> describes the relationship between two variables where, as one variable increases, the other decreases proportionally, such that their product remains a constant value.
-
----
 
 Inverse variation is phrased as :
 
@@ -72,10 +64,14 @@ Inverse variation is phrased as :
 which, as an equation looks like this :
 
 $$
-y = \frac{k}{x}
+y = \frac{k}{x} \quad or \quad x \cdot y = k
 $$
 
-where $k$ is the **constant of poportionality**.
+where $k$ is the **constant of proportionality**.
 
----
+
+## Combining Different Types of Variation
+
+### Joint Variation
+
 
