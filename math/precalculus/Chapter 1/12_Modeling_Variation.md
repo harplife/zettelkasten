@@ -9,8 +9,7 @@
 
 ## (extra) Variations
 
-A <mark class="hltr-trippy">Variation</mark> is a relationship between quantities that change together.
-- When one variable changes, the other changes in a predictable way.
+A <mark class="hltr-trippy">Variation</mark> is a relationship between two variables where one increases or decreases proportionally as the other increases or decreases.
 
 A variation is described using an equation, which in this case, is called a <mark class="hltr-trippy">variation model</mark>.
 
@@ -41,9 +40,9 @@ There are four types of variations :
 Direct variation is phrased as :
 
 > For some constant $k \neq 0$,
-> 1. $y$ varies directly as $x$
-> 2. $y$ is directly proportional to $x$
-> 3. $y$ is proportional to $x$
+> 1) $y$ varies directly as $x$
+> 2) $y$ is directly proportional to $x$
+> 3) $y$ is proportional to $x$
 
 which, as an equation looks like this :
 
@@ -51,7 +50,7 @@ $$
 y = kx
 $$
 
-where $k$ is the <mark class="hltr-trippy">constant of proportionality</mark>.
+where $k$ is the **constant of proportionality**.
 
 ---
 
@@ -60,4 +59,23 @@ All this means is that as $x$ increases, $y$ increases proportionally. If $x$ do
 
 ## Inverse Variation
 
-Inverse Variation describes the relationship where one quantity 
+<mark class="hltr-trippy">Inverse Variation</mark> describes the relationship between two variables where, as one variable increases, the other decreases proportionally, such that their product remains a constant value.
+
+---
+
+Inverse variation is phrased as :
+
+> For some constant $k \neq 0$,
+> 1) $y$ varies inversely as $x$
+> 2) $y$ is inversely proportional to $x$
+
+which, as an equation looks like this :
+
+$$
+y = \frac{k}{x}
+$$
+
+where $k$ is the **constant of poportionality**.
+
+---
+
