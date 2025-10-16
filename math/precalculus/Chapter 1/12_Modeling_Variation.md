@@ -74,4 +74,39 @@ where $k$ is the **constant of proportionality**.
 
 ### Joint Variation
 
+<mark class="hltr-trippy">Joint Variation</mark> describes the relationship between three variables, where one variable is directly proportional to the other two variables.
+
+Joint variation is phrased as :
+
+> For some constant $k \neq 0$,
+> 1) $z$ is proportional to the product of $x$ and $y$
+> 2) $z$ varies jointly as $x$ and $y$
+> 3) $z$ is jointly proportional to $x$ and $y$
+
+which, as an equation looks like this :
+
+$$
+y = kxz
+$$
+
+where $k$ is the **constant of proportionality**.
+
+
+### Combined Variation
+
+<mark class="hltr-trippy">Combined variation</mark> describes the relationship between three variables, where one variable is directly proportional to one variable and inversely proportional to the other variable.
+
+Combined variation is phrased as :
+
+> For some constant $k \neq 0$,
+> 1) $z$ is proportional to $x$ and inversely proportional to $y$
+> 2) $z$ varies directly as $x$ and inversely as $y$
+
+which, as an equation looks like this :
+
+$$
+y = \frac{kx}{z}
+$$
+
+where $k$ is the **constant of proportionality**.
 
