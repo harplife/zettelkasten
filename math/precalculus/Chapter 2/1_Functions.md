@@ -25,6 +25,10 @@ A function that takes $x$ as its input is written as $f(x)$, and this is read as
 
 For a simple equation like $y=mx^{n}+b$ (where we expect one output for each input), we can say that $y$ is a function of $x$. Thus, it can be written as $f(x)=mx^n+b$.
 
+> [!important] A Function as a "Mapping" Between Sets
+> <mark class="hltr-trippy">Mapping</mark> is an operation that associate each element of a given set with one (or more) elements of a second set. A function is a mapping of one set to another.
+> In terms of mapping, a function can be written as $f : A \to B$ and be read as "$f$ is a function from set $A$ to set $B$".
+
 > [!important] Difference between equations and functions
 > So far we've been dealing with **Equations**, which is a statement of equality between two expressions, but now we are dealing with **Functions**, which is a rule that assigns each input to exactly one output.
 > 
