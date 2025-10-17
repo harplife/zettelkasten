@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "math/precalculus/Exercises/ex_1_12_20251016.md",
+                "file": "math/precalculus/Chapter 2/1_Functions.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "ex_1_12_20251016"
+              "title": "1_Functions"
             }
           }
         ],
@@ -133,13 +133,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "math/precalculus/Exercises/ex_1_12_20251016.md",
+                "file": "math/precalculus/Chapter 2/1_Functions.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ex_1_12_20251016"
+              "title": "Outline of 1_Functions"
             }
           }
         ]
@@ -250,7 +250,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "math/precalculus/Exercises/ex_1_12_20251016.md",
+                "file": "math/precalculus/Chapter 2/1_Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -260,7 +260,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for ex_1_12_20251016"
+              "title": "Backlinks for 1_Functions"
             }
           }
         ],
@@ -288,8 +288,13 @@
   },
   "active": "fe4c6ee9a6484885",
   "lastOpenFiles": [
-    "math/precalculus/Exercises/ex_1_10_20251015.md",
+    "math/precalculus/Chapter 1/1_Real_Numbers.md",
+    "math/precalculus/Chapter 2/1_Functions.md",
+    "math/precalculus/Untitled.md",
+    "math/precalculus/Chapter 2",
     "math/precalculus/Exercises/ex_1_12_20251016.md",
+    "math/precalculus/Resources/Precalculus_Chapter_2.pdf",
+    "math/precalculus/Exercises/ex_1_10_20251015.md",
     "math/precalculus/Chapter 1/12_Modeling_Variation.md",
     "attachments/Pasted image 20251016230807.png",
     "math/precalculus/Chapter 1/11_Solving_Equations.md",
@@ -321,9 +326,6 @@
     "computer_graphics/concepts/rendering.md",
     "computer_graphics/concepts/photo_realistic_rendering.md",
     "computer_graphics/concepts/procedural_modeling.md",
-    "computer_graphics/concepts/ray_tracing.md",
-    "computer_graphics/concepts/path_tracing.md",
-    "computer_graphics/concepts/non_photo_realistic_rendering.md",
     "houdini/houdini_mindmap.canvas",
     "houdini",
     "computer_graphics/MBC_강의_노트/Unreal_Engine",
@@ -331,8 +333,6 @@
     "attachments/Evolution_of_minuscule.svg.opdownload",
     "art/typography",
     "computer_graphics/shader_programming",
-    "1_unsorted/Untitled",
-    "computer_graphics/concepts",
     "attachments/황은지_작품_20230220.jpg",
     "attachments/홍태민_작품_20230220.gif",
     "attachments/한성원_20230213_093242_10.jpg",
