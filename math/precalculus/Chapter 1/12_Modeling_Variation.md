@@ -50,6 +50,11 @@ $$
 
 where $k$ is the **constant of proportionality**.
 
+> [!important] Check out the wiki page on [Proportionality](<https://en.wikipedia.org/wiki/Proportionality_(mathematics)>)
+
+> [!important] Proportionality is represented by $\propto$ (\\propto).
+> $y \propto x$ means "$y$ changes in proportion to $x$", which can be rewritten as $y=kx$.
+
 
 ## Inverse Variation
 
