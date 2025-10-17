@@ -59,3 +59,58 @@ Every function can be represented as a **set of ordered pairs** $(x,y)$, where :
 - no two pairs share the same x-value
 
 In other words, a graph of $f(x)$ is set of all $(x, f(x))$.
+
+
+## Evaluating a Function
+
+<mark class="hltr-trippy">Evaluating a Function</mark> at a number means to plugging in the number in the place of $x$.
+
+> [!example]- Let $f(x)=3x^2+x-5$. Evaluate $f(-2)$
+> $$
+> \begin{align}
+>   f(-2)&=3(-2)^2+(-2)-5 \\
+>   f(-2)&=12-2-5 \\
+>   f(-2)&=5
+> \end{align}
+> $$
+> Answer : $f(-2)=5$
+
+A <mark class="hltr-trippy">Piecewise Function</mark> is a function that's defined by different rules (formulas) over different parts of its domain.
+- In other words, the rule for $f(x)$ changes depending on which interval or condition $x$ falls into.
+- Instead of one single formula, we have pieces.
+
+A piecewise function is written like this :
+
+$$
+f(x)=
+\begin{cases}
+  rule_{1} & \text{if condition}_{1} \\
+  rule_{2} & \text{if condition}_{2} \\
+  rule_{3} & \text{if condition}_{3} \\
+  \vdots
+\end{cases}
+$$
+
+Each *rule* applies only when the *condition* on $x$ is true.
+Together, they cover the whole domain.
+
+
+An example of a piecewise function :
+
+$$
+f(x) =
+\begin{cases}
+  x^2 & \text{ if } x < 0 \\
+  x+1 & \text{ if } x \geq 0
+\end{cases}
+$$
+
+This means :
+- If $x$ is less than $0$, use the rule $f(x)=x^2$
+- If $x$ is $0$ or more, use the rule $f(x)=x+1$
+
+Evaluating the piecewise function above :
+- $f(-2) = (-2)^2=4$
+- $f(0)=0+1=1$
+- $f(3)=3+1=4$
+
