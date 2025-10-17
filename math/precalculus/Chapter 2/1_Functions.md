@@ -35,7 +35,8 @@ Every function has :
 - <mark class="hltr-trippy">Range</mark> : all the possible output values (y-values) the function can produce.
 
 > [!important] Textbook definitions of Domain and Range
-> 
+> - The domain of $f$ is the set $A$, the set of all $x$.
+> - The range of $f$ is the subset $B$, the set of all possible values of $f(x)$.
 
 > [!example]- Domain and Range of $f(x)=\frac{1}{x}$
 > - Domain : all real numbers except $0$
