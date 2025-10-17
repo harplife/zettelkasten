@@ -75,6 +75,10 @@ In other words, a graph of $f(x)$ is set of all $(x, f(x))$.
 > $$
 > Answer : $f(-2)=5$
 
+
+### Piecewise Function
+
+
 A <mark class="hltr-trippy">Piecewise Function</mark> is a function that's defined by different rules (formulas) over different parts of its domain.
 - In other words, the rule for $f(x)$ changes depending on which interval or condition $x$ falls into.
 - Each formula is called a <mark class="hltr-trippy">Piece</mark>.
@@ -120,4 +124,54 @@ Evaluating the piecewise function above :
 > - Absolute value
 
 A piecewise function is called <mark class="hltr-trippy">Continuous</mark> if all the pieces connect perfectly without any jumps or holes. Otherwise, <mark class="hltr-trippy">Discontinuous</mark>.
+
+
+### Net Change
+
+The <mark class="hltr-trippy">Net Change</mark> of a function measures the overall difference in the function's output between two input values.
+
+Given a function $f(x)$ and two points $x_{1}$ and $x_{2}$, then the net change is :
+
+$$
+f(x_{2}) - f(x_{1})
+$$
+
+> [!example]- Suppose $f(x)=2x+3$. What's the net change from $x=1$ to $x=4$?
+> Net change = $f(4)-f(-1)$
+> Compute : $f(4)=2(4)+3=11$
+> Compute : $f(1)=2(1)+3=5$
+> Net change = $11-5=6$
+> Answer : $6$
+
+The <mark class="hltr-trippy">Average Rate of Change</mark> is based on net change :
+
+$$
+\text{Average Rate of Change} = \frac{\text{Net Change in } f(x)}{\text{Change in } x} = \frac{f(x_{2})-f(x_{1})}{x_{2}-x_{1}}
+$$
+
+> [!important] Net change focuses only on the vertical difference, while the average rate of change includes the horizontal difference.
+
+
+## The Domain of a Function
+
+If a function is given by an algebraic expression and the domain is not stated explicitly, then by convention the domain of the function is the domain of the algebraic expression.
+- That is, the set of all real numbers for which the expression is defined as a real number.
+
+All the usual domain rules apply :
+- No division by zero
+- No negative numbers in root square (or even index roots)
+- The domain can be expressed in set notation or interval notation
+
+> [!example]- Finding Domains of Functions
+> 1) Suppose $f(x)=\frac{1}{x^2-x}$. The function becomes undefined when $x=0$ or $x=1$. Thus, the domain of $f$ is $\{ x \in \mathbb{R} \mid x\neq 0, x\neq 1 \}$.
+> 2) Suppose $f(x)=\sqrt{ 9-x^2 }$. The function becomes undefined (in real number system) when a square root of a negative number is taken. Thus, the domain of $f$ is $\{ x \in \mathbb{R} \mid -3 \leq x \leq 3 \}$
+
+
+## Four Ways to Represent a Function
+
+A specific function can be described in four different ways :
+- Verbally (by a description in words)
+- Algebraically (by an explicit formula)
+- Visually (by a graph)
+- Numerically (by a table of values)
 
