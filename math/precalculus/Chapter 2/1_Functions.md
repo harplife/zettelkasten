@@ -77,7 +77,7 @@ In other words, a graph of $f(x)$ is set of all $(x, f(x))$.
 
 A <mark class="hltr-trippy">Piecewise Function</mark> is a function that's defined by different rules (formulas) over different parts of its domain.
 - In other words, the rule for $f(x)$ changes depending on which interval or condition $x$ falls into.
-- Instead of one single formula, we have pieces.
+- Each formula is called a <mark class="hltr-trippy">Piece</mark>.
 
 A piecewise function is written like this :
 
@@ -93,7 +93,6 @@ $$
 
 Each *rule* applies only when the *condition* on $x$ is true.
 Together, they cover the whole domain.
-
 
 An example of a piecewise function :
 
@@ -113,4 +112,12 @@ Evaluating the piecewise function above :
 - $f(-2) = (-2)^2=4$
 - $f(0)=0+1=1$
 - $f(3)=3+1=4$
+
+> [!important] Why Use Piecewise Functions?
+> Piecewise Functions are used to model real-world situations where a rule changes depending on the condition. For example :
+> - Shipping cost
+> - Tax brackets
+> - Absolute value
+
+A piecewise function is called <mark class="hltr-trippy">Continuous</mark> if all the pieces connect perfectly without any jumps or holes. Otherwise, <mark class="hltr-trippy">Discontinuous</mark>.
 
