@@ -23,7 +23,7 @@ A function that takes $x$ as its input is written as $f(x)$, and this is read as
 > - Value of $f$ at $x$
 > - Image of $x$ under $f$
 
-For a simple equation like $y=mx^{n}+b$ (where we expect one output for each input), we can say that $y$ is a function of $x$. Thus, it can be written as $f(x)=mx^n+b$.
+For a simple equation like $y=mx^{n}+b$ (where we expect one output for each input), we can say that $y$ is a function of $x$. Thus, it can be written as $f(x)=mx^n+b$. In this case, $y$ is called the 
 
 > [!important] A Function as a "Mapping" Between Sets
 > <mark class="hltr-trippy">Mapping</mark> is an operation that associate each element of a given set with one (or more) elements of a second set. A function is a mapping of one set to another.
@@ -40,7 +40,14 @@ Every function has :
 
 > [!important] Textbook definitions of Domain and Range
 > - The domain of $f$ is the set $A$, the set of all $x$.
-> - The range of $f$ is the subset $B$, the set of all possible values of $f(x)$.
+> - The range of $f$ is the subset of $B$, the set of all possible values of $f(x)$.
+
+Range of $f$ is also written as $\{ f(x) \mid x \in A \}$.
+
+> [!warning] To clear up a confusion between set B and the Range
+> With the textbook definition of a Function, it almost seems to suggest that set $B$ is the Range of a Function, but it sneakily mentions that the range is the subset of $B$. It should've added an explanation that set $B$ is called the <mark class="hltr-trippy">Codomain</mark>, the set of all possible outputs the function can map into.
+> In other words, the domain (set $A$) is all valid inputs (such as all real numbers $\mathbb{R}$), the codomain (set $B$) is the set of all possible outputs (such as all real numbers $\mathbb{R}$), and the range is the actual outputs (subset of $B$).
+> It's easier to understand with $f(x)=x^2$, where the domain is all real numbers, the codomain is all real numbers, but the range is all non-negative numbers.
 
 > [!example]- Domain and Range of $f(x)=\frac{1}{x}$
 > - Domain : all real numbers except $0$
