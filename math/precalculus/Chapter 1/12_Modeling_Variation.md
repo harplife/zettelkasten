@@ -115,3 +115,15 @@ $$
 
 where $k$ is the **constant of proportionality**.
 
+
+> [!example] Newton's Law of Gravity
+> Newton's Law of Gravity says that two objects with masses $m_{1}$ and $m_{2}$ attract each other with a force $F$ that is jointly proportional to their masses and inversely proportional to the square of the distance $r$ between the objects.
+> 
+> $$F=G\frac{m_{1}m_{2}}{r^2}$$
+
+> [!tip] Inverse Square Laws
+> Like the Law of Gravity, many laws of nature are *inverse square laws*. There is a geometric reason for this. Imagine a force or energy originating from a point source and spreading its influence equally in all directions, like a light source or the gravitational force exerted by a planet. The influence of the force or energy at a distance $r$ from the source is spread out over the surface of a sphere of radius $r$, which has area $A=4\pi r^2$. So the intensity $I$ at a distance $r$ from the source is the source strength $S$ divided by the area $A$ of the sphere :
+> $$I = \frac{S}{4\pi r^2}=\frac{k}{r^2}$$
+> where $k$ is the constant $\frac{S}{(4\pi)}$. Thus point sources of light, sound, gravity, electromagnetic fields, and radiation must all obey inverse square laws, simply because of the geometry of space.
+> ![[Pasted image 20251016230807.png]]
+
