@@ -1368,14 +1368,15 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "f933f3e35f992c08",
-      "mtime": "2025-10-18T00:26:01-05:00",
+      "active": "227e6011dc684b16",
+      "mtime": "2025-10-18T16:51:46-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "math",
           "math/algebra_and_trigonometry",
           "math/algebra_and_trigonometry/chapter_p",
           "math/precalculus",
+          "math/precalculus/Chapter 1",
           "math/precalculus/Chapter 2",
           "math/precalculus/Resources"
         ]
