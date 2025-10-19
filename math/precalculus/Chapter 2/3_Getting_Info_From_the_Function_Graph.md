@@ -107,3 +107,16 @@ The interval that satisfies the inequality is $(-1,3)$.
 
 ## Increasing and Decreasing Functions
 
+$f$ is **increasing** on an interval $I$ if $f(x_{1})<f(x_{2})$ whenever $x_{1}<x_{1}$ in $I$.
+
+![[Pasted image 20251019105413.png | center | 400]]
+
+$f$ is **decreasing** on an interval $I$ if $f(x_{1})>f(x_{2})$ whenever $x_{1}<x_{1}$ in $I$.
+
+![[Pasted image 20251019105428.png | center | 400]]
+
+
+> [!important] By convention, open interval (e.g. $(1,5)$) is used to describe the intervals on which a function is increasing/decreasing. However, it is also correct to use closed intervals (e.g. $[1,5]$).
+
+
+
