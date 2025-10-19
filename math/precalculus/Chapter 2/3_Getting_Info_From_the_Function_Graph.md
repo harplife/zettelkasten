@@ -118,5 +118,40 @@ $f$ is **decreasing** on an interval $I$ if $f(x_{1})>f(x_{2})$ whenever $x_{1}<
 
 > [!important] By convention, open interval (e.g. $(1,5)$) is used to describe the intervals on which a function is increasing/decreasing. However, it is also correct to use closed intervals (e.g. $[1,5]$).
 
+---
+> [!important] This section specifically uses visual inspection of a graph (of a function) to find the intervals that are increasing/decreasing.
+> The algebraic method of finding the increasing/decreasing intervals is a concept taught in **Calculus**.
 
+It is possible to reason algebraically increasing/decreasing intervals for many common types of functions without relying on graphs.
 
+1. **Linear Functions**
+
+For $f(x)=mx+b$ :
+- If $m>0$, it's increasing everywhere
+- If $m<0$, it's decreasing everywhere
+- If $m=0$, it's constant
+
+2. **Quadratic Functions**
+
+For $f(x)=ax^2+bx+c$ :
+- Opens upward if $a>0$ (decreases, then increases)
+- Opens downward if $a<0$ (increases, then decreases)
+- The vertex (the turning point) is at $x=-\frac{b}{2a}$
+
+3. **Cubic Functions**
+
+- $f(x)=x^3$ increases everywhere because larger $x$ always give larger $f(x)$
+- $f(x)=-x^3$ decreases everywhere
+
+3. **Higher-Degree Polynomials**
+
+- Odd powers -> behavior like $x^3$ (increases everywhere).
+- Even powers -> behavior like $x^2$ (decreases, then increases)
+
+3. **Rational Functions**
+
+For $f(x)=\frac{1}{x}$ :
+- For $(-\infty,0)$, it's decreasing
+- For $(0,\infty)$, it's decreasing
+
+---
