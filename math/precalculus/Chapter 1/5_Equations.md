@@ -457,7 +457,7 @@ $$
 (h, k)
 $$
 
-The standard form can be changed to the Vertex Form by completing-the-square.
+The standard form can be converted to the Vertex Form by **completing-the-square**.
 
 For example :
 

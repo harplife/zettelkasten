@@ -155,3 +155,23 @@ For $f(x)=\frac{1}{x}$ :
 - For $(0,\infty)$, it's decreasing
 
 ---
+
+### Extra : Vertex Form
+
+> [!important] Previously in [[5_Equations]], the Vertex Form was covered briefly. I feel that it needs to be covered again, but this time more in depth on how the vertex form works.
+
+The vertex form of a quadratic equation is :
+
+$$
+y=a(x-h)^2+k
+$$
+
+The standard form can be converted to the vertex form using the complete-the-square method :
+
+$$
+\begin{align}
+  y &= ax+bx+c \\
+  y+\left( \frac{b}{2a} \right)^2 &= ax+bx+\left( \frac{b}{2a} \right)^2+c \\
+  y+\left( \frac{b}{2a} \right)^2-c &= ax+bx+\left( \frac{b}{2a} \right)^2
+\end{align}
+$$
