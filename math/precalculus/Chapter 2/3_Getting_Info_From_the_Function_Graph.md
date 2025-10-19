@@ -62,11 +62,14 @@ It's possible to find the intersection point(s) of two functions algebraically, 
 > $$
 > Answer : $(3,9)$, $(-1,1)$
 
-$$
-\begin{align}
-  \text{Case 1:}\quad & x-2 \geq 0 \to f(x)=x-2 \\
-  & x-2 = x \implies -2 = 0 \quad \text{(no solution)} \\
-  \text{Case 2:}\quad & x-2 < 0 \to f(x)=-(x-2) = -x+2 \\
-  & -x+2=x \implies 2x=2 \implies x = 1
-\end{align}
-$$
+> [!example]- What is the intersection point(s) of $f(x)=|x-2|$ and $g(x)=x$ ?
+> $$
+> \begin{align}
+>   \text{Case 1:}\quad & x-2 \geq 0 \to f(x)=x-2 \\
+>   & x-2 = x \implies -2 = 0 \quad \text{(no solution)} \\
+>   \text{Case 2:}\quad & x-2 < 0 \to f(x)=-(x-2) = -x+2 \\
+>   & -x+2=x \implies 2x=2 \implies x = 1
+> \end{align}
+> $$
+> Answer : $(1,1)$
+
