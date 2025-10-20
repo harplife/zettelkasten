@@ -181,7 +181,7 @@ The graph of the function opens upward and has its vertex at $(0,0)$.
 Every other parabola can be thought of as **shifted**, **stretched**, or **flipped** version of this one.
 
 ---
-A parabola can be shifted by replacing $x$ with $(x-h)$ :
+A parabola can be shifted horizontally by replacing $x$ with $(x-h)$ :
 
 $$
 f(x) = (x-h)^2
