@@ -156,7 +156,10 @@ For $f(x)=\frac{1}{x}$ :
 
 ---
 
-### Extra : Vertex Form
+This section also covers how to locate **Local Maximum** and **Local Minimum** using a graph. However, it does not cover how to find it using an algebraic method.
+
+
+## Extra : Vertex Form
 
 > [!important] Previously in [[5_Equations]], the Vertex Form was covered briefly. I feel that it needs to be covered again, but this time more in depth on how the vertex form works.
 
@@ -176,7 +179,17 @@ $$
 f(x)=x^2
 $$
 
-The graph of the function opens upward and has its vertex at $(0,0)$.
+The graph of the function **opens upward** and has its vertex at $(0,0)$.
+
+```tikz
+\begin{document}
+  \begin{tikzpicture}[domain=-2:2]
+    \draw[->] (-2,0) -- (2,0) node[right] {$x$};
+    \draw[->] (0,-2) -- (0,4) node[right] {$f(x)$};
+    \draw[red,thick] plot [domain=-2:2] (\x, \x*\x) node[right] {$f(x)=x^2$};
+  \end{tikzpicture}
+\end{document}
+```
 
 Every other parabola can be thought of as **shifted**, **stretched**, or **flipped** version of this one.
 
@@ -187,7 +200,7 @@ $$
 f(x) = (x-h)^2
 $$
 
-This shifts the graph $h$ units to the right if $h>0$, or left if $h<0$.
+This shifts the graph $h$ units to the **right** if $h>0$, or **left** if $h<0$.
 
 Consequently, the vertex is at $(h,0)$.
 
@@ -198,7 +211,7 @@ $$
 f(x)=(x-h)^2+k
 $$
 
-This shifts the graph $k$ units up or down.
+This shifts the graph $k$ units **up** or **down**.
 
 Consequently, the vertex is at $(h,k)$.
 
@@ -209,13 +222,55 @@ $$
 f(x) = a(x-h)^2+k
 $$
 
-If $|a|>1$, the parabola is narrower (vertically stretched).
+If $|a|>1$, the parabola is **narrower** (vertically stretched).
 
-If $0<|a|<1$, the parabola is wider (vertically compressed).
+If $0<|a|<1$, the parabola is **wider** (vertically compressed).
 
-If $a<0$, the parabola is flipped downward.
+If $a<0$, the parabola is **flipped** downward.
 
 The vertex remains $(h,k)$, and only the shape changes.
 
 ---
+Given the standard form of a quadratic function $f(x)=ax^2+bx+c$, the vertex formula is :
+
+$$
+x=-\frac{b}{2a}
+$$
+
+This gives the $x$ coordinate of the vertex, which can then be plugged in to find the corresponding $y$ coordinate.
+
+The vertex formula is derived by converting the standard form into the vertex form $f(x)=a(x-h)^2+k$, which is done by following these steps :
+
+1. Factor out $a$ from the first two terms
+
+$$
+f(x) = a\left( x^2+\frac{b}{a}x \right) + c
+$$
+
+2. Complete the square
+
+$f(x)=a\left( x^2+\frac{b}{a}x+\frac{b^2}{4a^2}-\frac{b^2}{4a^2} \right) + c$
+
+Note that the value is added and also subtracted so that the equation doesn't change.
+
+3. Group the perfect square trinomial
+
+$f(x)=a\left[ \left( x+\frac{b}{2a} \right)^2-\frac{b^2}{4a^2} \right]+c$
+
+4. Distribute $a$ and simplify
+
+$f(x)=a\left( x+\frac{b}{2a} \right)^2-\frac{b^2}{4a}+c$
+
+5. Identify the vertex
+
+$$
+\begin{align}
+  f(x)&=a\left( x+\frac{b}{2a} \right)^2-\frac{b^2}{4a}+c \\
+  f(x)&=a\left( x+\frac{b}{2a} \right)^2+(-\frac{b^2}{4a}+c) \iff f(x)=a(x-h)^2+k
+\end{align}
+$$
+
+We see that the function is now in the vertex form where :
+- $h=-\frac{b}{2a}$
+- $k=c-\frac{b^2}{4a}$
 
