@@ -160,18 +160,62 @@ For $f(x)=\frac{1}{x}$ :
 
 > [!important] Previously in [[5_Equations]], the Vertex Form was covered briefly. I feel that it needs to be covered again, but this time more in depth on how the vertex form works.
 
-The vertex form of a quadratic equation is :
+The vertex form of a quadratic function is :
 
 $$
-y=a(x-h)^2+k
+f(x)=a(x-h)^2+k
 $$
 
-The standard form can be converted to the vertex form using the complete-the-square method :
+where :
+- $a$ controls the **stretch** and **direction** of opening
+- $(h,k)$ is the **vertex**
+
+In order to understand how the vertex form came to be, we can look what it means using the simplest parabola possible :
 
 $$
-\begin{align}
-  y &= ax+bx+c \\
-  y+\left( \frac{b}{2a} \right)^2 &= ax+bx+\left( \frac{b}{2a} \right)^2+c \\
-  y+\left( \frac{b}{2a} \right)^2-c &= ax+bx+\left( \frac{b}{2a} \right)^2
-\end{align}
+f(x)=x^2
 $$
+
+The graph of the function opens upward and has its vertex at $(0,0)$.
+
+Every other parabola can be thought of as **shifted**, **stretched**, or **flipped** version of this one.
+
+---
+A parabola can be shifted by replacing $x$ with $(x-h)$ :
+
+$$
+f(x) = (x-h)^2
+$$
+
+This shifts the graph $h$ units to the right if $h>0$, or left if $h<0$.
+
+Consequently, the vertex is at $(h,0)$.
+
+---
+A parabola can be shifted vertically by adding $+k$ :
+
+$$
+f(x)=(x-h)^2+k
+$$
+
+This shifts the graph $k$ units up or down.
+
+Consequently, the vertex is at $(h,k)$.
+
+---
+A parabola can be stretched or flipped by multiplying by $a$ :
+
+$$
+f(x) = a(x-h)^2+k
+$$
+
+If $|a|>1$, the parabola is narrower (vertically stretched).
+
+If $0<|a|<1$, the parabola is wider (vertically compressed).
+
+If $a<0$, the parabola is flipped downward.
+
+The vertex remains $(h,k)$, and only the shape changes.
+
+---
+
