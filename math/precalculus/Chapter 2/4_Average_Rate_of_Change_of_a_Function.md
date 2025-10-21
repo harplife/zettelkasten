@@ -13,7 +13,17 @@ $$
 \text{average raet of change} = \frac{\text{change in } y}{\text{change in } x} = \frac{f(b)-f(a)}{b-a}
 $$
 
-The average rate of change is the slope of the secant line between $x=a$ and $x=b$ on the graph of $f$, that is, the line that passes through $(a,f(a))$ and $(b,f(b))$.
+A <mark class="hltr-trippy">Secant Line</mark> is the straight line that passes through two points on a function's graph :
+
+$$
+(x_{1},f(x_{1})) \text{ and } (x_{2},f(x_{2}))
+$$
+
+The **slope of the secant line** equals the average rate of change between those two points.
+
+$$
+m_{\text{secant}} = \frac{f(x_{2})-f(x_{1})}{x_{2}-x_{1}}
+$$
 
 ![[Pasted image 20251021004029.png | center | 500]]
 
