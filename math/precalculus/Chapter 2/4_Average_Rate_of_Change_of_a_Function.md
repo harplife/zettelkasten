@@ -27,3 +27,6 @@ $$
 
 ![[Pasted image 20251021004029.png | center | 500]]
 
+> [!example] The Average Velocity
+> If $s(t)$ represents your position at time $t$, then $$\frac{s(t_{2})-s(t_{1})}{t_{2}-t_{1}}$$ is your **average velocity**; how far you traveled divided by how much time passed.
+
