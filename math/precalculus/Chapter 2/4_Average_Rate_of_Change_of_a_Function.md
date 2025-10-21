@@ -30,3 +30,10 @@ $$
 > [!example] The Average Velocity
 > If $s(t)$ represents your position at time $t$, then $$\frac{s(t_{2})-s(t_{1})}{t_{2}-t_{1}}$$ is your **average velocity**; how far you traveled divided by how much time passed.
 
+> [!tip] In Calculus, we study how functions change at an *instantaneous* level- that is, at a single point, not over an interval (average).
+
+
+## Linear Functions Have Constant Rate of Change
+
+The slope $m$ is the <mark class="hltr-trippy">Constant Rate of Change</mark> in a linear function $f(x)=mx+b$. This means that, no matter the input(s), the average speed of change will remain the same (constant).
+
