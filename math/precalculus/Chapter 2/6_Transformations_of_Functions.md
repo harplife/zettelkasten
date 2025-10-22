@@ -45,3 +45,33 @@ With a quadratic function, such as $f(x)=x^2$, adding a constant to the input $f
 
 ## Reflecting Graphs
 
+Suppose $y=f(x)$,
+- $y=-f(x)$ reflects the graph about the x-axis
+- $y=f(-x)$ reflects the graph about the y-axis
+
+For example, graph of $f(x)=-x^2$ reflects the graph of $f(x)=x^2$ about the x-axis :
+
+![[Pasted image 20251021223707.png | center | 400]]
+
+Graph of $g(x)=\sqrt{ -x }$ reflects the graph of $g(x)=\sqrt{ x }$ about the y-axis :
+
+![[Pasted image 20251021223725.png | center | 500]]
+
+
+## Vertical Stretching and Shrinking
+
+Suppose $y=f(x)$, multiplying the y-coordinates by constant $c$, such that $y=cf(x)$, has the effect of vertically stretching or shrinking the graph by a factor of $c$ :
+
+If $c>1$, the graph of $y=f(x)$ stretches vertically.
+
+If $0<c<1$, the graph of $y=f(x)$ shrinks vertically.
+
+![[Pasted image 20251021224409.png | center | 600]]
+
+For some graphs, such as a graph of $f(x)=x^2$, stretching them vertically may make them look leaner, while shrinking them vertically make them look wider.
+
+![[Pasted image 20251021224627.png | center | 400]]
+
+
+## Horizontal Stretching and Shrinking
+
