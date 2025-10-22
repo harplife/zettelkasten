@@ -117,13 +117,6 @@ The graph of an odd function is symmetric with respect to the origin.
 > [!note] I guess there isn't anything about symmetry with respect to the x-axis because we are dealing with functions (as opposed to equations).
 
 
-## Extra : Combination and Order
-
-When multiple transformations are applied to a graph, order can matter. For example, starting with the function $y=\sqrt{ x }$,
-1. Reflecting about the x-axis, then shifting upward 1 unit results in the equation $y=-\sqrt{ x }+1$
-2. Shifting upward 1 unit, then reflecting about the x-axis results in the equation $y=-(\sqrt{ x }+1) =-\sqrt{ x }-1$.
-
-
 ## Extra : Summary of Transformations
 
 Transformations let you take a <mark class="hltr-trippy">Parent Function</mark> (e.g. $f(x)=x^2$, $f(x)=\lvert x \rvert$) and move, flip, or stretch it to create new graphs.
@@ -161,4 +154,40 @@ Transformations more in detail :
 | **Reflection over y-axis**      | $y = f(-x)$     | Flips graph horizontally across the y-axis.                                                                              | Negates the **input** (x-values).                  |
 | **Even Function**               | $f(-x) = f(x)$  | Symmetric about the y-axis.                                                                                              | Examples: $x^2$, $\lvert x \rvert$, $\cos x$.      |
 | **Odd Function**                | $f(-x) = -f(x)$ | Rotational symmetry about the origin.                                                                                    | Examples: $x^3$, $\sin x$, $\tan x$.               |
+
+
+### Combination and Order
+
+When multiple transformations are applied to a graph, order can matter. For example, starting with the function $y=\sqrt{ x }$,
+1. Reflecting about the x-axis, then shifting upward 1 unit results in the equation $y=-\sqrt{ x }+1$
+2. Shifting upward 1 unit, then reflecting about the x-axis results in the equation $y=-(\sqrt{ x }+1) =-\sqrt{ x }-1$.
+
+
+Recall back to the "transformation function" :
+
+$$
+y=af(b(x-h))+k
+$$
+
+Note that transformations either affect the x-value or y-value.
+- The **inside** transformations affect $x$
+- The **outside** transformations affect $y$
+
+The inside transformations are applied before outside transformations. Also, stretch/shrink, reflection, and shift are applied in that respective order.
+
+The inside transformations (affecting $x$) in order :
+1. Horizontal stretch/shrink by $b$
+2. Horizontal reflection (if $b<0$)
+3. Horizontal shift by $h$
+
+The outside transformations (affecting $y$) in order :
+4. Vertical stretch/shrink by $a$
+5. Vertical reflection (if $a<0$)
+6. Vertical shift by $k$
+
+To summarize :
+
+$$
+\text{Inside }(b, h) \longrightarrow \text{Outside }(a,k)
+$$
 
