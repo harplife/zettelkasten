@@ -126,3 +126,39 @@ When multiple transformations are applied to a graph, order can matter. For exam
 
 ## Extra : Summary of Transformations
 
+Transformations let you take a <mark class="hltr-trippy">Parent Function</mark> (e.g. $f(x)=x^2$, $f(x)=\lvert x \rvert$) and move, flip, or stretch it to create new graphs.
+
+You can apply multiple transformations in one equation :
+
+$$
+y=af(b(x-h))+k
+$$
+
+Each parameter affects the graph like this :
+
+| Symbol | Meaning                                                | Effect                      |
+| :----- | :----------------------------------------------------- | :-------------------------- |
+| $a$    | Vertical stretch/shrink and reflection across x-axis   | Multiply outputs (y-values) |
+| $b$    | Horizontal stretch/shrink and reflection across y-axis | Multiply inputs (x-values)  |
+| $h$    | Horizontal shift                                       | Moves graph left/right      |
+| $k$    | Vertical shift                                         | Moves graph up/down         |
+
+> [!example]- Order (inside to outside) of transformations on $y=-2f(3(x+1))-4$
+> 1. $x+1$ : shift left by $1$
+> 2. $3x$ : horizontal shrink by factor $\frac{1}{3}$
+> 3. $-2f(\cdot)$ : reflect over x-axis and stretch vertically by 2
+> 4. $-4$ : shift down by $4$
+
+Transformations more in detail :
+
+| Transformation Type             | Equation Form   | Effect on Graph                                                                                                          | Memory Tip                                         |
+| ------------------------------- | --------------- | ------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------- |
+| **Vertical Shift**              | $y = f(x) + k$  | Moves graph up if $k > 0$; down if $k < 0$.                                                                              | Think: “(+k)” = up.                                |
+| **Horizontal Shift**            | $y = f(x - h)$  | Moves graph right if $h > 0$; left if $h < 0$.                                                                           | Inside the parentheses → opposite direction.       |
+| **Vertical Stretch / Shrink**   | $y = a f(x)$    | If $\lvert a \rvert > 1$: stretch (narrower). If $0 < \lvert a \rvert < 1$: shrink (wider).                              | Multiplies the **output** by (a).                  |
+| **Horizontal Stretch / Shrink** | $y = f(bx)$     | If $\lvert b \rvert > 1$: shrink by factor $\frac{1}{b}$. If $0 < \lvert b \rvert < 1$: stretch by factor $\frac{1}{b}$. | Multiplies the **input** by (b) (opposite effect). |
+| **Reflection over x-axis**      | $y = -f(x)$     | Flips graph vertically across the x-axis.                                                                                | Negates the **output** (y-values).                 |
+| **Reflection over y-axis**      | $y = f(-x)$     | Flips graph horizontally across the y-axis.                                                                              | Negates the **input** (x-values).                  |
+| **Even Function**               | $f(-x) = f(x)$  | Symmetric about the y-axis.                                                                                              | Examples: $x^2$, $\lvert x \rvert$, $\cos x$.      |
+| **Odd Function**                | $f(-x) = -f(x)$ | Rotational symmetry about the origin.                                                                                    | Examples: $x^3$, $\sin x$, $\tan x$.               |
+
