@@ -60,7 +60,7 @@ Graph of $g(x)=\sqrt{ -x }$ reflects the graph of $g(x)=\sqrt{ x }$ about the y-
 
 ## Vertical Stretching and Shrinking
 
-Suppose $y=f(x)$, multiplying the y-coordinates by constant $c$, such that $y=cf(x)$, has the effect of vertically stretching or shrinking the graph by a factor of $c$ :
+Suppose $y=f(x)$, multiplying the y-coordinates by constant $c$, such that $y=cf(x)$, has the effect of vertically stretching or shrinking the graph by a factor of $c$.
 
 If $c>1$, the graph of $y=f(x)$ stretches vertically.
 
@@ -74,4 +74,55 @@ For some graphs, such as a graph of $f(x)=x^2$, stretching them vertically may m
 
 
 ## Horizontal Stretching and Shrinking
+
+Suppose $y=f(x)$, multiplying the input by constant $c$, such that $y=f(cx)$, has the effect of horizontally stretching or shrinking the graph by a factor of $c$.
+
+If $c>1$, the graph of $y=f(x)$ shrinks horizontally by a factor of $\frac{1}{c}$.
+
+If $0<c<1$, the graph of $y=f(x)$ stretches horizontally by a factor of $\frac{1}{c}$.
+
+![[Pasted image 20251022004538.png | center | 600]]
+
+
+## Even and Odd Functions
+
+---
+If a function $f$ satisfies $f(-x)=f(x)$ for every number $x$ in its domain, then $f$ is called an <mark class="hltr-trippy">Even Function</mark>.
+
+For instance, the function $f(x)=x^2$ is even because :
+
+$$
+f(-x) = (-x)^2 = x^2 = f(x)
+$$
+
+The graph of an even function is symmetric with respect to the y-axis.
+
+![[Pasted image 20251022005535.png | center | 400]]
+
+---
+If a function $f$ satisfies $f(-x)=-f(x)$ for every number $x$ in its domain, then $f$ is called an <mark class="hltr-trippy">Odd Function</mark>.
+
+For example, the function $f(x)=x^3$ is odd because :
+
+$$
+f(-x)=(-x)^3=-x^3=-f(x)
+$$
+
+The graph of an odd function is symmetric with respect to the origin.
+
+![[Pasted image 20251022005557.png | center | 400]]
+
+---
+
+> [!note] I guess there isn't anything about symmetry with respect to the x-axis because we are dealing with functions (as opposed to equations).
+
+
+## Extra : Combination and Order
+
+When multiple transformations are applied to a graph, order can matter. For example, starting with the function $y=\sqrt{ x }$,
+1. Reflecting about the x-axis, then shifting upward 1 unit results in the equation $y=-\sqrt{ x }+1$
+2. Shifting upward 1 unit, then reflecting about the x-axis results in the equation $y=-(\sqrt{ x }+1) =-\sqrt{ x }-1$.
+
+
+## Extra : Summary of Transformations
 
