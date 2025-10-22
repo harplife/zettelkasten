@@ -1119,7 +1119,8 @@
                   "title": "ex_2_6_20251022"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -1199,13 +1200,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "math/precalculus/Chapter 2/6_Transformations_of_Functions.md",
+                    "file": "math/precalculus/Exercises/ex_2_6_20251022.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of 6_Transformations_of_Functions"
+                  "title": "Outline of ex_2_6_20251022"
                 }
               }
             ]
@@ -1316,7 +1317,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "math/precalculus/Chapter 2/6_Transformations_of_Functions.md",
+                    "file": "math/precalculus/Exercises/ex_2_6_20251022.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1326,7 +1327,7 @@
                     "unlinkedCollapsed": false
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for 6_Transformations_of_Functions"
+                  "title": "Backlinks for ex_2_6_20251022"
                 }
               }
             ],
@@ -1352,8 +1353,8 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "ac6766672c9c8b8e",
-      "mtime": "2025-10-22T01:28:41-05:00",
+      "active": "939de34efbe22440",
+      "mtime": "2025-10-22T01:34:54-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "math",
