@@ -1090,37 +1090,21 @@
             "type": "tabs",
             "children": [
               {
-                "id": "b8cdb5a919790b81",
+                "id": "ac6766672c9c8b8e",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "math/precalculus/Chapter 2/4_Average_Rate_of_Change_of_a_Function.md",
+                    "file": "math/precalculus/Chapter 2/6_Transformations_of_Functions.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": false
                   },
                   "icon": "lucide-file",
-                  "title": "4_Average_Rate_of_Change_of_a_Function"
-                }
-              },
-              {
-                "id": "1ced188d34ddac66",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "math/precalculus/Exercises/ex_2_4_20251021.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "ex_2_4_20251021"
+                  "title": "6_Transformations_of_Functions"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "vertical"
@@ -1200,13 +1184,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "math/precalculus/Exercises/ex_2_4_20251021.md",
+                    "file": "math/precalculus/Chapter 2/6_Transformations_of_Functions.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of ex_2_4_20251021"
+                  "title": "Outline of 6_Transformations_of_Functions"
                 }
               }
             ]
@@ -1317,7 +1301,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "math/precalculus/Exercises/ex_2_4_20251021.md",
+                    "file": "math/precalculus/Chapter 2/6_Transformations_of_Functions.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1327,7 +1311,7 @@
                     "unlinkedCollapsed": false
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for ex_2_4_20251021"
+                  "title": "Backlinks for 6_Transformations_of_Functions"
                 }
               }
             ],
@@ -1353,8 +1337,8 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "1ced188d34ddac66",
-      "mtime": "2025-10-21T13:32:54-05:00",
+      "active": "ac6766672c9c8b8e",
+      "mtime": "2025-10-21T22:16:51-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "math",
