@@ -27,4 +27,10 @@ To summarize,
 > Let $f$ and $g$ be functions with domains $A$ and $B$. The domain of the new function is $A \cap B$.
 
 
+## Composition of Functions
 
+Beyond simple arithmetic, functions can be combined by feeding one function into another - which is called <mark class="hltr-trippy">Composition of Functions</mark>. It looks like this :
+
+$$
+
+$$
