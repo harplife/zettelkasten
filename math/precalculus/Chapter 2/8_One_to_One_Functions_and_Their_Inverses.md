@@ -34,10 +34,57 @@ Examples of NOT one-to-one function :
 
 ## The Inverse of a Function
 
-Let $f$ be a one-to-one function with domain $A$ and range $B$. Then its inverse function $f^{-1}$ is defined by :
+Let $f$ be a **one-to-one function** with domain $A$ and range $B$. Then its inverse function $f^{-1}$ has domain $B$ and range $A$ and is defined by :
 
 $$
 f^{-1}(y) = x \iff f(x)=y
 $$
 
-for any $y$ in $B$, 
+for any $y$ in $B$.
+
+In other words, $f$ takes $x$ to $y$ and $f^{-1}$ takes $y$ back to $x$. This also means :
+
+$$
+f(f^{-1}(x)) = x \quad \text{ and } \quad f^{-1}(f(x))=x
+$$
+> [!important] In order to check if $g(x)$ is an inverse of $f(x)$, check if the composite function $f(g(x))=x$.
+
+> [!warning] Not every function has an inverse. To have an inverse, a function must be one-to-one.
+
+### Extra : Common Inverse Function Pairs
+
+| Function                                          | Inverse Function          |
+| ------------------------------------------------- | ------------------------- |
+| $f(x) = x + a$                                    | $f^{-1}(x) = x - a$       |
+| $f(x) = ax ) (where ( a \neq 0 )$                 | $f^{-1}(x) = \frac{x}{a}$ |
+| $f(x) = x^2 ), ( x \ge 0$                         | $f^{-1}(x) = \sqrt{x}$    |
+| $f(x) = e^x$                                      | $f^{-1}(x) = \ln(x)$      |
+| $f(x) = \sin(x)$, restricted to $[-\pi/2, \pi/2]$ | $f^{-1}(x) = \arcsin(x)$  |
+
+
+## Finding the Inverse of a Function
+
+The inverse of a function can be found algebraically by : 
+1. Set $y=f(x)$
+2. Swap $y$ with $x$
+3. Solve for $y$
+4. Define the new function $f^{-1}(x)$.
+
+For example, given $f(x)=\frac{x-5}{2}$, its inverse can be found by :
+1. $y=\frac{x-5}{2}$
+2. $x=\frac{y-5}{2}$
+3. $y=2x+5$
+4. $f^{-1}(x)=2x+5$
+
+$f(f^{-1}(x))=\frac{(2x+5)-5}{2} = x$, therefore, the inverse function is confirmed.
+
+
+## Graphing the Inverse of a Function
+
+The graph of $f^{-1}(x)$ is a reflection of $f(x)$ across the line $y=x$.
+
+![[Pasted image 20251023111418.png | center | 400]]
+
+
+## Applications of Inverse Functions
+
