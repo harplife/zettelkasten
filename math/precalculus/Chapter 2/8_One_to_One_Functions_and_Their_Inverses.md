@@ -34,3 +34,10 @@ Examples of NOT one-to-one function :
 
 ## The Inverse of a Function
 
+Let $f$ be a one-to-one function with domain $A$ and range $B$. Then its inverse function $f^{-1}$ is defined by :
+
+$$
+f^{-1}(y) = x \iff f(x)=y
+$$
+
+for any $y$ in $B$, 
