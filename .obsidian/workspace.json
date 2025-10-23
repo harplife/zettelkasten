@@ -8,36 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6ba9b594bd5e0490",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "math/precalculus/Chapter 2/7_Combining_Functions.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "7_Combining_Functions"
-            }
-          },
-          {
-            "id": "b1e8eda9e6e5c4cf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "math/precalculus/Exercises/ex_2_7_20251023.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "ex_2_7_20251023"
-            }
-          },
-          {
             "id": "e4dd616fe87e415d",
             "type": "leaf",
             "state": {
@@ -51,9 +21,24 @@
               "icon": "lucide-file",
               "title": "8_One_to_One_Functions_and_Their_Inverses"
             }
+          },
+          {
+            "id": "f82b866bd3cf6946",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "math/precalculus/Exercises/ex_2_8_20251023.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "ex_2_8_20251023"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -133,13 +118,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "math/precalculus/Chapter 2/8_One_to_One_Functions_and_Their_Inverses.md",
+                "file": "math/precalculus/Exercises/ex_2_8_20251023.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 8_One_to_One_Functions_and_Their_Inverses"
+              "title": "Outline of ex_2_8_20251023"
             }
           }
         ]
@@ -250,7 +235,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "math/precalculus/Chapter 2/8_One_to_One_Functions_and_Their_Inverses.md",
+                "file": "math/precalculus/Exercises/ex_2_8_20251023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -260,7 +245,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 8_One_to_One_Functions_and_Their_Inverses"
+              "title": "Backlinks for ex_2_8_20251023"
             }
           }
         ],
@@ -286,11 +271,12 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "e4dd616fe87e415d",
+  "active": "f82b866bd3cf6946",
   "lastOpenFiles": [
+    "math/precalculus/Chapter 2/8_One_to_One_Functions_and_Their_Inverses.md",
+    "math/precalculus/Exercises/ex_2_8_20251023.md",
     "attachments/Pasted image 20251023112117.png",
     "math/precalculus/Chapter 2/7_Combining_Functions.md",
-    "math/precalculus/Chapter 2/8_One_to_One_Functions_and_Their_Inverses.md",
     "attachments/Pasted image 20251023111418.png",
     "math/precalculus/Exercises/ex_2_7_20251023.md",
     "attachments/Pasted image 20251023085217.png",
@@ -303,7 +289,6 @@
     "attachments/Pasted image 20251021224409.png",
     "attachments/Pasted image 20251021223725.png",
     "attachments/Pasted image 20251021223707.png",
-    "attachments/Pasted image 20251021223621.png",
     "math/precalculus/Chapter 2/3_Getting_Info_From_the_Function_Graph.md",
     "math/precalculus/Chapter 2/4_Average_Rate_of_Change_of_a_Function.md",
     "math/precalculus/Chapter 2/1_Functions.md",

@@ -87,3 +87,8 @@ The graph of $f^{-1}(x)$ is a reflection of $f(x)$ across the line $y=x$.
 
 ## Applications of Inverse Functions
 
+> [!example] Conversion from Celsius-to-Fahrenheit and vice versa
+> From Celsius $C$ to Fahrenheit $F$ : $$F=\frac{9}{5}C+32$$
+> The inverse function converts Fahrenheit to Celsius : $$C=\frac{5}{9}(F-32)$$
+
+
