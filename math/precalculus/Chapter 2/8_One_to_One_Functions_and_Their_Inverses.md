@@ -42,11 +42,10 @@ $$
 
 for any $y$ in $B$.
 
-In other words, $f$ takes $x$ to $y$ and $f^{-1}$ takes $y$ back to $x$. This also means :
+In other words, $f$ takes $x$ to $y$ and $f^{-1}$ takes $y$ back to $x$. The inverse function $f^{-1}$ satisfies the following cancellation equations :
+- $f^{-1}(f(x))=x$ for every $x$ in $A$
+- $f(f^{-1}(x)) = x$ for every $x$ in $B$
 
-$$
-f(f^{-1}(x)) = x \quad \text{ and } \quad f^{-1}(f(x))=x
-$$
 > [!important] In order to check if $g(x)$ is an inverse of $f(x)$, check if the composite function $f(g(x))=x$.
 
 > [!warning] Not every function has an inverse. To have an inverse, a function must be one-to-one.
