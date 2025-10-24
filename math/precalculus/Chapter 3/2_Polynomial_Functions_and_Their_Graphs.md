@@ -142,3 +142,8 @@ The <mark class="hltr-trippy">Local Extrema</mark> refers to maximum and minimum
 - **Local Maximum** (peak)
 - **Local Minimum** ( valley)
 
+interval $(a-h, a+h)$
+
+
+arbitrary
+
