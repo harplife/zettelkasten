@@ -78,7 +78,11 @@ $f(r)=0$
 In other words, if $x=r$ is plugged into the polynomial as input and the output is $0$, then $r$ is a **real zero**.
 
 > [!important] Polynomials can have *real* zeroes or *complex* (nonreal) zeroes.
-> For now, this section focuses on the real zeros.
+> Every polynomial of degree $n$ has exactly $n$ total zeroes, but *not* all are real.
+
+> [!tip] Connection to Calculus
+> In calculus, the concept of a "zero" extends to studying where a function crosses the x-axis, where it has critical points, and where the rate of change (derivative) is zero. But in precalculus, zeros mainly help you graph functions and solve equations.
+
 
 ---
 To find the real zeroes, all it takes is to set $f(x)=0$.
@@ -103,16 +107,15 @@ And then solving for $x$ gives $x=2$ and $x=3$, which are the real zeroes.
 > [!important] Each real zero corresponds to an x-intercept on the graph of $f(x)$.
 > That means : $$f(x)=0 \quad \implies \quad \text{the point }(r,0)$$
 
----
 > [!important] Intermediate Value Theorem for Polynomials
 > If $P$ is a polynomial function and $P(a)$ and $P(b)$ have opposite signs, then there exists at least one value $c$ between $a$ and $b$ for which $P(c)=0$.
 > ![[Pasted image 20251024152100.png | center | 400]]
 
+## Shape of the Graph Near a Zero
 
----
-Every polynomial of degree $n$ has exactly $n$ total zeroes, but **not** all are real.
+If a factor (e.g. $(x-1)$) appears more than once, that zero has <mark class="hltr-trippy">Multiplicity</mark> greater than $1$. This affects the shape of the graph at that point.
 
-If a factor (e.g. $(x-1)$) appears more than once, that zero has multiplicity greater than $1$. This affects the shape of the graph at that point.
+> [!important] In general, if $r$ is a zero of polynomial $P$ and the corresponding factor $x-r$ occurs exactly $m$ times in the factorization of $P$, then we say that $r$ is a **zero of multiplicity** $m$.
 
 | Factor      | Zero | Multiplicity | Graph Behavior                |
 | ----------- | ---- | ------------ | ----------------------------- |
@@ -124,8 +127,18 @@ It's a good rule of thumb to remember that :
 - Even multiplicity means the graph touches the x-axis (and turns around)
 - Odd multiplicity means the graph crosses the x-axis
 
----
-> [!tip] Connection to Calculus
-> In calculus, the concept of a "zero" extends to studying where a function crosses the x-axis, where it has critical points, and where the rate of change (derivative) is zero. But in precalculus, zeros mainly help you graph functions and solve equations.
+> [!warning] The multiplicity refers to the power the factor is raised to.
+> Do not confuse with the number of factors.
 
+> [!example] The graph of $P(x)=x^3-2x^2-4x+8$
+> ![[Pasted image 20251024153058.png | center | 400]]
+> When the function is factored, the result is $=(x+2)(x-2)^2$. Thus, the real zeros are $x=-2$ and $x=2$.
+> In the graph we can see that the graph simply crosses at $x=-2$ because it has multiplicity of $1$, whereas the graph touches and turns around at $x=2$ because its multiplicity is $2$.
+
+
+## Local Maxima and Minima of Polynomials
+
+The <mark class="hltr-trippy">Local Extrema</mark> refers to maximum and minimum values of a function. A function can have :
+- **Local Maximum** (peak)
+- **Local Minimum** ( valley)
 
