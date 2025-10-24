@@ -55,6 +55,10 @@ For example,
 
 For a polynomial, the leading term $a_{n}x^n$ always **dominates** the graph for very large or very small $x$. Meaning, the end behavior is determined by the leading term.
 
+The end behavior is described using an **arrow notation**, like so :
+- $y \to \infty$ as $x \to \infty$ and $y \to \infty$ as $x \to -\infty$
+- $y \to \infty$ as $x \to \infty$ and $y \to -\infty$ as $x \to -\infty$
+
 There are four main cases of end behaviors :
 
 | Degree | Leading Coefficient | End Behavior<br>(as $x \to -\infty$, $x \to \infty$) | Shape                      |
@@ -63,4 +67,65 @@ There are four main cases of end behaviors :
 | Even   | Negative            | Both ends **down**                                   | ($y = -x^2$), ($y = -x^4$) |
 | Odd    | Positive            | Left end **down**, right end **up**                  | ($y = x^3$), ($y = x^5$)   |
 | Odd    | Negative            | Left end **up**, right end **down**                  | ($y = -x^3$), ($y = -x^5$) |
+
+
+## Using Zeroes to Graph Polynomials
+
+A <mark class="hltr-trippy">Real Zero</mark> of a polynomial $f(x)$ is any real number $x=r$ that makes the polynomial equal to zero :
+
+$f(r)=0$
+
+In other words, if $x=r$ is plugged into the polynomial as input and the output is $0$, then $r$ is a **real zero**.
+
+> [!important] Polynomials can have *real* zeroes or *complex* (nonreal) zeroes.
+> For now, this section focuses on the real zeros.
+
+---
+To find the real zeroes, all it takes is to set $f(x)=0$.
+
+For example, let
+$$
+f(x)=x^2-5x+6
+$$
+
+To find the real zeros, set
+$$
+x^2-5x+6=0
+$$
+
+Factor to get
+$$
+(x-2)(x-3)=0
+$$
+
+And then solving for $x$ gives $x=2$ and $x=3$, which are the real zeroes.
+
+> [!important] Each real zero corresponds to an x-intercept on the graph of $f(x)$.
+> That means : $$f(x)=0 \quad \implies \quad \text{the point }(r,0)$$
+
+---
+> [!important] Intermediate Value Theorem for Polynomials
+> If $P$ is a polynomial function and $P(a)$ and $P(b)$ have opposite signs, then there exists at least one value $c$ between $a$ and $b$ for which $P(c)=0$.
+> ![[Pasted image 20251024152100.png | center | 400]]
+
+
+---
+Every polynomial of degree $n$ has exactly $n$ total zeroes, but **not** all are real.
+
+If a factor (e.g. $(x-1)$) appears more than once, that zero has multiplicity greater than $1$. This affects the shape of the graph at that point.
+
+| Factor      | Zero | Multiplicity | Graph Behavior                |
+| ----------- | ---- | ------------ | ----------------------------- |
+| $(x - r)$   | $r$  | 1            | Crosses the x-axis            |
+| $(x - r)^2$ | $r$  | 2            | Touches and turns around      |
+| $(x - r)^3$ | $r$  | 3            | Flattens slightly and crosses |
+
+It's a good rule of thumb to remember that :
+- Even multiplicity means the graph touches the x-axis (and turns around)
+- Odd multiplicity means the graph crosses the x-axis
+
+---
+> [!tip] Connection to Calculus
+> In calculus, the concept of a "zero" extends to studying where a function crosses the x-axis, where it has critical points, and where the rate of change (derivative) is zero. But in precalculus, zeros mainly help you graph functions and solve equations.
+
 
