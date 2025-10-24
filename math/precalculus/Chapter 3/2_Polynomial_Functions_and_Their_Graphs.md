@@ -138,12 +138,17 @@ It's a good rule of thumb to remember that :
 
 ## Local Maxima and Minima of Polynomials
 
-The <mark class="hltr-trippy">Local Extrema</mark> refers to maximum and minimum values of a function. A function can have :
-- **Local Maximum** (peak)
-- **Local Minimum** ( valley)
+> [!note] $\exists$ means "there exists".
+> For example, $\exists h>0$ means "there exists a positive number $h$".
 
-interval $(a-h, a+h)$
+$f(a)$ is a <mark class="hltr-trippy">Local Maxima</mark> if $\exists h>0$ such that $f(a)\geq f(x)$ for all $x \in (a-h,a+h)$.
+- In other words, a function $f(x)$ has a **local maximum** at $x=a$ if there exists some $h>0$ such that $f(a)\geq f(x)$ for all $x$ in interval $(a-h,a+h)$.
+
+> [!important] The importance of the phrase "there exists $h>0$" in the definition
+> The definition does *not* require that the inequality be true *for* all possible $h$. It needs at least one such $h$ for which it works. This is the essence of "local".
+
+$f(a)$ is a <mark class="hltr-trippy">Local Minima</mark> if $\exists h>0$ such that $f(a)\leq f(x)$ for all $x \in (a-h,a+h)$.
+- In other words, a function $f(x)$ has a **local minimum** at $x=a$ if there exists some $h>0$ such that $f(a)\leq f(x)$ for all $x$ in interval $(a-h,a+h)$.
 
 
-arbitrary
-
+$f(x)=x^3-3x^2+2$
