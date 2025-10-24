@@ -30,3 +30,13 @@ The number $a_{0}$ is the <mark class="hltr-trippy">Constant Coefficient</mark> 
 
 If a polynomial consists of just a single term, then it is called a **monomial**.
 
+
+## Graphing Basic Polynomial Functions
+
+The simplest polynomial functions are the monomials $P(x)=x^n$, whose graph has the same general shape as the graph of $y=x^2$ when $n$ is even, and the graph of $y=x^3$ when $n$ is odd.
+- The graphs become flatter around the origin and steeper elsewhere as the degree $n$ becomes larger.
+
+> [!important] Splines
+> The shapes of splines can be obtained by piercing together parts of polynomials. For example, the graph of a cubic polynomial can be made to fit specified points by adjusting the coefficients of the polynomial. Curves obtained in this way are called **Cubic Splines**.
+> In Computer design programs, a curve can be drawn between fixed points, called **Anchor Points**. Moving the anchor points amounts to adjusting the coefficients of a cubic polynomial.
+
