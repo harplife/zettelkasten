@@ -150,5 +150,10 @@ $f(a)$ is a <mark class="hltr-trippy">Local Maxima</mark> if $\exists h>0$ such 
 $f(a)$ is a <mark class="hltr-trippy">Local Minima</mark> if $\exists h>0$ such that $f(a)\leq f(x)$ for all $x \in (a-h,a+h)$.
 - In other words, a function $f(x)$ has a **local minimum** at $x=a$ if there exists some $h>0$ such that $f(a)\leq f(x)$ for all $x$ in interval $(a-h,a+h)$.
 
+> [!important] The highest or lowest point in a region is called **Local Extrema**.
+> The highest is the Local Maxima, whereas the lowest is the Local Minima.
 
-$f(x)=x^3-3x^2+2$
+For example, function $f(x)=x^3-3x^2+2$ has both a local maxima and a local minima.
+
+![[local_extremums.png | center | 500]]
+
