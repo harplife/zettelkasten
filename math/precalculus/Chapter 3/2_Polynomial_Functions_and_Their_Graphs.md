@@ -155,5 +155,5 @@ $f(a)$ is a <mark class="hltr-trippy">Local Minima</mark> if $\exists h>0$ such 
 
 For example, function $f(x)=x^3-3x^2+2$ has both a local maxima and a local minima.
 
-![[local_extremums.png | center | 500]]
+
 
