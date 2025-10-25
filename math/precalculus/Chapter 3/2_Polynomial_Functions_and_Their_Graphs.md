@@ -132,7 +132,7 @@ It's a good rule of thumb to remember that :
 
 > [!example] The graph of $P(x)=x^3-2x^2-4x+8$
 > ![[Pasted image 20251024153058.png | center | 400]]
-> When the function is factored, the result is $=(x+2)(x-2)^2$. Thus, the real zeros are $x=-2$ and $x=2$.
+> When the function is factored, the result is $0=(x+2)(x-2)^2$. Thus, the real zeros are $x=-2$ and $x=2$.
 > In the graph we can see that the graph simply crosses at $x=-2$ because it has multiplicity of $1$, whereas the graph touches and turns around at $x=2$ because its multiplicity is $2$.
 
 
@@ -157,4 +157,5 @@ For example, the graph of a function $f(x)=x^3-3x$ has both a local maxima at $x
 
 ![[local_extrema.png | center | 500]]
 
-When the factors of the function are $(x)(x-1)(x+1)$.
+> [!important] Finding the number of local extrema is covered in Calculus, as it makes use of **derivatives**.
+
