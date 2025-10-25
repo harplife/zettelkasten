@@ -153,7 +153,8 @@ $f(a)$ is a <mark class="hltr-trippy">Local Minima</mark> if $\exists h>0$ such 
 > [!important] The highest or lowest point in a region is called **Local Extrema**.
 > The highest is the Local Maxima, whereas the lowest is the Local Minima.
 
-For example, function $f(x)=x^3-3x^2+2$ has both a local maxima and a local minima.
+For example, the graph of a function $f(x)=x^3-3x$ has both a local maxima at $x=-1$ and a local minima at $x=1$.
 
+![[local_extrema.png | center | 500]]
 
-
+When the factors of the function are $(x)(x-1)(x+1)$.
