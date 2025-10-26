@@ -104,3 +104,11 @@ $$
 x^3-2x^2+4=(x-1)(x^2-x-1)+3
 $$
 
+
+## Synthetic Division
+
+<mark class="hltr-trippy">Synthetic division</mark> is a quick method of dividing polynomials, which can be used when the divisor is of the form $x-c$.
+- In synthetic division, only the essential parts of the long division are written.
+
+![[Pasted image 20251026092610.png | center | 600]]
+
