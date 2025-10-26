@@ -46,6 +46,8 @@ Divide the leading term of the dividend $x^3$ by the leading term of the divisor
 
 $\frac{x^3}{x}=x^2$
 
+Move $x^2$ to the top line (it becomes a part of the quotient)
+
 2. Multiply and subtract
 
 Multiply the divisor by $x^2$ (what we got from the first step) :
@@ -56,11 +58,11 @@ Then, subtract the result from the dividend :
 
 $(x^3-2x^2+4)-(x^3-x^2)=-x^2+4$
 
+Now, $-x^2+4$ is the new dividend
+
 3. Repeat with new dividend
 
-Now, after step 1 and 2, the new dividend is $-x^2+4$.
-
-Step 1 and 2 is repeated with the new dividend :
+Repeat step 1 and 2 with the new dividend until the new dividend is of lower degree than the divisor :
 
 $$
 \begin{align}
