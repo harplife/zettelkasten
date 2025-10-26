@@ -64,6 +64,8 @@ Now, $-x^2+4$ is the new dividend
 
 Repeat step 1 and 2 with the new dividend until the new dividend is of lower degree than the divisor :
 
+New dividend $-x^2+4$, new quotient 
+
 $$
 \begin{align}
 &\text{1.} \quad -\frac{x^2}{x}=-x \\
@@ -72,5 +74,14 @@ $$
 \end{align}
 $$
 
-> [!important] Step 3 is repeated until the new dividend is of lower degree than the divisor.
-> The last dividend then contains the *remainder*, and the last
+
+
+New dividend $-x+4$
+
+$$
+\begin{align}
+&\text{1.} \quad -\frac{x}{x}=-1 \\
+&\text{2a.} \quad (x-1)(-1) = -x+1 \\
+&\text{2b.} \quad (-x+4)-(-x+1)=3
+\end{align}
+$$
