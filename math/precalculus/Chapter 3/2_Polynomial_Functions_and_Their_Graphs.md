@@ -157,5 +157,8 @@ For example, the graph of a function $f(x)=x^3-3x$ has both a local maxima at $x
 
 ![[local_extrema.png | center | 500]]
 
-> [!important] Finding the number of local extrema is covered in Calculus, as it makes use of **derivatives**.
+> [!important] The graph of a polynomial has at most $n-1$ local extrema.
+> For example, $f(x)=x^3$ has a degree of $3$ which means the graph has at most $2$ local extrema.
+
+> [!important] Finding the exact number of local extrema is covered in Calculus, as it makes use of **derivatives**.
 
