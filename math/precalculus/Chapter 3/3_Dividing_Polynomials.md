@@ -38,4 +38,3 @@ Divide the leading term of the dividend $x^3$ by the leading term of the divisor
 
 $\frac{x^3}{x}=x^2$
 
-2. 
