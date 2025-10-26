@@ -40,9 +40,11 @@ The polynomial long division follows these steps :
 
 For example, given $f(x)=x^3-2x^2+4$ and $g(x)=x-1$, the polynomial long division of
 
-$\frac{f(x)}{g(x)}=\frac{x^3-2x^2+4}{x-1}$
+$$
+\frac{f(x)}{g(x)}=\frac{x^3-2x^2+4}{x-1}
+$$
 
-foll
+follows these steps :
 
 1. Divide the first terms
 
@@ -50,7 +52,7 @@ Divide the leading term of the dividend $x^3$ by the leading term of the divisor
 
 $\frac{x^3}{x}=x^2$
 
-Move $x^2$ to the top line (it becomes a part of the quotient)
+Add $x^2$ to the top line (it becomes a part of the quotient)
 
 2. Multiply and subtract
 
@@ -90,8 +92,15 @@ $$
 
 Final quotient is $x^2-x-1$, and the remainder is $3$.
 
-Thus, the division $\frac{f(x)}{g(x)}$ looks like :
+Thus, the result of the division $\frac{f(x)}{g(x)}$ looks like :
 
 $$
-\frac{x^3-2x^2+4}{x-1}=
+\frac{x^3-2x^2+4}{x-1}=x^2-x-1+\frac{3}{x-1}
 $$
+
+or
+
+$$
+x^3-2x^2+4=(x-1)(x^2-x-1)+3
+$$
+
