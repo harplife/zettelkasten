@@ -38,7 +38,11 @@ The polynomial long division follows these steps :
 > [!important] BTW, this is what long division looks like
 > ![[Pasted image 20251026085128.png | center]]
 
-For example, given $f(x)=x^3-2x^2+4$ and $g(x)=x-1$, the polynomial long division of $\frac{f(x)}{g(x)}$ looks like the following.
+For example, given $f(x)=x^3-2x^2+4$ and $g(x)=x-1$, the polynomial long division of
+
+$\frac{f(x)}{g(x)}=\frac{x^3-2x^2+4}{x-1}$
+
+foll
 
 1. Divide the first terms
 
@@ -64,7 +68,7 @@ Now, $-x^2+4$ is the new dividend
 
 Repeat step 1 and 2 with the new dividend until the new dividend is of lower degree than the divisor :
 
-New dividend $-x^2+4$, new quotient 
+New dividend $-x^2+4$, current quotient $x^2$
 
 $$
 \begin{align}
@@ -74,9 +78,7 @@ $$
 \end{align}
 $$
 
-
-
-New dividend $-x+4$
+New dividend $-x+4$, current quotient $x^2-x$
 
 $$
 \begin{align}
@@ -84,4 +86,12 @@ $$
 &\text{2a.} \quad (x-1)(-1) = -x+1 \\
 &\text{2b.} \quad (-x+4)-(-x+1)=3
 \end{align}
+$$
+
+Final quotient is $x^2-x-1$, and the remainder is $3$.
+
+Thus, the division $\frac{f(x)}{g(x)}$ looks like :
+
+$$
+\frac{x^3-2x^2+4}{x-1}=
 $$
