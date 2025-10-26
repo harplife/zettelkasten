@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -148,13 +148,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "math/precalculus/Exercises/ex_3_2_20251025.md",
+                "file": "math/precalculus/Chapter 3/2_Polynomial_Functions_and_Their_Graphs.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ex_3_2_20251025"
+              "title": "Outline of 2_Polynomial_Functions_and_Their_Graphs"
             }
           }
         ]
@@ -265,7 +265,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "math/precalculus/Exercises/ex_3_2_20251025.md",
+                "file": "math/precalculus/Chapter 3/2_Polynomial_Functions_and_Their_Graphs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -275,7 +275,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for ex_3_2_20251025"
+              "title": "Backlinks for 2_Polynomial_Functions_and_Their_Graphs"
             }
           }
         ],
@@ -301,10 +301,10 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "5c75b7c2d7be0490",
+  "active": "4c220bb7b507e169",
   "lastOpenFiles": [
-    "math/precalculus/Chapter 3/2_Polynomial_Functions_and_Their_Graphs.md",
     "math/precalculus/Exercises/ex_3_2_20251025.md",
+    "math/precalculus/Chapter 3/2_Polynomial_Functions_and_Their_Graphs.md",
     "attachments/local_extrema.png",
     "attachments/local_extremums.png",
     "math/precalculus/Chapter 2/3_Getting_Info_From_the_Function_Graph.md",
