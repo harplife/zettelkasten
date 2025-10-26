@@ -17,18 +17,26 @@ $$
 \frac{f(x)}{g(x)}=q(x)+\frac{r(x)}{g(x)}
 $$
 
+or
+
+$$
+f(x)=q(x) \cdot g(x) + r(x)
+$$
+
 where :
-- $f(x)$ is the dividend
-- $g(x)$ is the divisor
-- $q(x)$ is the quotient
-- $r(x)$ is the remainder
+- $f(x)$ is the **dividend**
+- $g(x)$ is the **divisor** (given $g(x) \neq 0$)
+- $q(x)$ is the **quotient**
+- $r(x)$ is the **remainder**
 - The degree of $r(x)$ is always less than the degree of $g(x)$
 
 The polynomial long division follows these steps :
 1. Divide the first terms
 2. Multiply and subtract
 3. Repeat with new dividend
-4. Divide again
+
+> [!important] BTW, this is what long division looks like
+> ![[Pasted image 20251026085128.png | center]]
 
 For example, given $f(x)=x^3-2x^2+4$ and $g(x)=x-1$, the polynomial long division of $\frac{f(x)}{g(x)}$ looks like the following.
 
@@ -38,3 +46,29 @@ Divide the leading term of the dividend $x^3$ by the leading term of the divisor
 
 $\frac{x^3}{x}=x^2$
 
+2. Multiply and subtract
+
+Multiply the divisor by $x^2$ (what we got from the first step) :
+
+$(x-1)(x^2)=x^3-x^2$
+
+Then, subtract the result from the dividend :
+
+$(x^3-2x^2+4)-(x^3-x^2)=-x^2+4$
+
+3. Repeat with new dividend
+
+Now, after step 1 and 2, the new dividend is $-x^2+4$.
+
+Step 1 and 2 is repeated with the new dividend :
+
+$$
+\begin{align}
+&\text{1.} \quad -\frac{x^2}{x}=-x \\
+&\text{2a.} \quad (x-1)(-x) = -x^2+x \\
+&\text{2b.} \quad (-x^2+4)-(-x^2+x)=-x+4
+\end{align}
+$$
+
+> [!important] Step 3 is repeated until the new dividend is of lower degree than the divisor.
+> The last dividend then contains the *remainder*, and the last
