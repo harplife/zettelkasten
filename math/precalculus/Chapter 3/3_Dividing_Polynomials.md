@@ -11,7 +11,7 @@
 
 <mark class="hltr-trippy">Polynomial Long Division</mark> is a method used to divide one polynomial (the *dividend*) by another polynomial (the *divisor*), finding both the *quotient* and the *remainder*.
 
-Given $f(x)$ and $g(x)$, a polynomial long division $\frac{f(x)}{g(x)}$ looks like this :
+Given $f(x)$ and $g(x)$, a division $\frac{f(x)}{g(x)}$ looks like this :
 
 $$
 \frac{f(x)}{g(x)}=q(x)+\frac{r(x)}{g(x)}
@@ -24,7 +24,18 @@ where :
 - $r(x)$ is the remainder
 - The degree of $r(x)$ is always less than the degree of $g(x)$
 
+The polynomial long division follows these steps :
+1. Divide the first terms
+2. Multiply and subtract
+3. Repeat with new dividend
+4. Divide again
 
-Given $f(x)=x^3-3x+2$ and $g(x)=x-1$, a polynomial long division is used to solve :
+For example, given $f(x)=x^3-2x^2+4$ and $g(x)=x-1$, the polynomial long division of $\frac{f(x)}{g(x)}$ looks like the following.
 
+1. Divide the first terms
 
+Divide the leading term of the dividend $x^3$ by the leading term of the divisor $x$ :
+
+$\frac{x^3}{x}=x^2$
+
+2. 
