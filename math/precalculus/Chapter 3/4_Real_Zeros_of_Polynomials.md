@@ -44,9 +44,30 @@ We see that :
 - Every term on the right-side has a factor of $q$
 - The left-side, $a_{n}p^n$, might not
 
-Since all other terms on the right side are multiples of $q$, the left side must be, too. Because $p$ and $q$ have no common factors, we can conclude that $q$ must divide $a_{n}$.
+Since all other terms on the right-side are multiples of $q$, the left side must be, too. Because $p$ and $q$ have no common factors, we can conclude that $q$ must divide $a_{n}$.
 
-Similarly, if we arrange so that the last (constant) term to the left-side :
+Similarly, if we arrange so that the last (constant) term $a_{0}q^n$ to the left-side :
 
+$$
+a_{0}q^n=-(a_{n}p^n+a_{n-1}p^{n-1}q+\cdots+a_{1}pq^{n-1})
+$$
 
+We see that :
+- Every term on the right-side has a factor of $p$
+- The left-side, $a_{0}q^n$, might not
+
+Since all other terms on the right-side are multiples of $p$, the left side must be, too. Because $p$ and $q$ have no common factors, we can conclude that $p$ must divide $a_{0}$.
+
+To summarize :
+- $p$ divides the constant term $a_{0}$
+- $q$ divides the leading coefficient $a_{n}$
+
+Which also means :
+- $p$ is a **factor of the constant term** $a_{0}$
+- $q$ is a **factor of the leading coefficient** $a_{n}$
+
+Above, is what the <mark class="hltr-trippy">Rational Zero Theorem</mark> states.
+
+---
+We can make use of the Rational Zero Theorem to narrow down which rational numbers might make $f(x)=0$.
 
