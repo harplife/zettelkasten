@@ -120,7 +120,7 @@ If the divisor is linear (e.g. $x-a$), then :
 $$
 r=f(a)
 $$
-that is, the remainder equals the value of the function at $x=a$.
+that is, the remainder $r$ equals the value of the function at $x=a$.
 
 This is called the <mark class="hltr-trippy">Remainder Theorem</mark>.
 
@@ -132,7 +132,10 @@ $$
 
 > [!important] The Proof of the Remainder Theorem
 > We can look at $\frac{f(x)}{g(x)}$ like this equation : $$f(x)=(x-c) \cdot g(x) + r$$
-> Replacing $x$ by $c$ in this equation, we get : $$f(x)=(c-c) \cdot g(c) + r=0+r=r$$
+> Replacing $x$ by $c$ in this equation, we get : $$f(c)=(c-c) \cdot g(c) + r=0+r=r$$
+> Thus, we get $f(c)=r$.
+
+
 
 
 
