@@ -112,3 +112,7 @@ $$
 
 ![[Pasted image 20251026092610.png | center | 600]]
 
+
+## The Remainder and Factor Theorems
+
+The remainder theorem su
