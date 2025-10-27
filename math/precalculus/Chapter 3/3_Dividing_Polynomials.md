@@ -131,9 +131,9 @@ f(1)=1^3-2(1)^2+4=3
 $$
 
 > [!important] The Proof of the Remainder Theorem
-> We can look at $\frac{f(x)}{g(x)}$ like this equation : $$f(x)=(x-c) \cdot g(x) + r$$
-> Replacing $x$ by $c$ in this equation, we get : $$f(c)=(c-c) \cdot g(c) + r=0+r=r$$
-> Thus, we get $f(c)=r$.
+> Given $g(x)=x-a$, we can look at $\frac{f(x)}{g(x)}$ like this equation : $$f(x)=(x-a) \cdot q(x) + r$$
+> Replacing $x$ by $c$ in this equation, we get : $$f(a)=(a-a) \cdot g(a) + r=0+r=r$$
+> Thus, we get $f(a)=r$.
 
 
 
