@@ -115,4 +115,26 @@ $$
 
 ## The Remainder and Factor Theorems
 
-The remainder theorem su
+If the divisor is linear (e.g. $x-a$), then :
+
+$$
+r=f(a)
+$$
+that is, the remainder equals the value of the function at $x=a$.
+
+This is called the <mark class="hltr-trippy">Remainder Theorem</mark>.
+
+For example, given the function $f(x)=x^3-2x^2+4$ and $g(x)=x-1$, $\frac{f(x)}{g(x)}$ gives us the the remainder $3$. From the divisor, we see that $a=1$. If $a$ is plugged in so that $f(a)$, we get :
+
+$$
+f(1)=1^3-2(1)^2+4=3
+$$
+
+> [!important] The Proof of the Remainder Theorem
+> We can look at $\frac{f(x)}{g(x)}$ like this equation : $$f(x)=(x-c) \cdot g(x) + r$$
+> Replacing $x$ by $c$ in this equation, we get : $$f(x)=(c-c) \cdot g(c) + r=0+r=r$$
+
+
+
+
+
