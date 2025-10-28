@@ -145,29 +145,96 @@ The **number of negative real zeros** of $f(x)$ equals the **number of sign chan
 Take this function $f(x)$ as an example :
 
 $$
-f(x)=2x^4-3x^3+5x^2-7x+4
+f(x)=2x^4-x^3-14x^2+19x-6
 $$
 
-The coefficients are $+2$, $-3$, $+5$, $-7$, $+4$.
+The coefficients are $\{ +2,-1,-14,+19,-6 \}$
 
 From the first coefficient $+2$ to second coefficient $-3$, we see a **sign change** from positive to negative. So, when we count all of the sign changes :
-1. $+2 \to -3$
-2. $-3 \to +5$
-3. $+5 \to -7$
-4. $-7 \to +4$
+1. $+2 \to -1$
+2. $-14 \to +19$
+3. $+19 \to -6$
 
-We find that there are $4$ sign changes, which means there are $4$, $2$, or $0$ **positive real zeros**.
+We find that there are $3$ sign changes, which means there may be $3$ or $1$ **positive real zeros**.
 
 In order to find negative real zeros, we see the sign changes for $f(-x)$ :
 
 $$
 \begin{align}
-  f(-x) &= 2(-x)^4-3(-x)^3+5(-x)^2-7(-x)+4 \\
-  f(-x) &= 2x^4+3x^3+5x^2+7x+4
+  f(-x) &= 2(-x)^4-(-x)^3-14(-x)^2+19(-x)-6 \\
+  f(-x) &= 2x^4+x^3-14x^2-19x-6
 \end{align}
 $$
 
-In this case, there are no sign changes, which means that there are $0$ **negative real zeros**.
+In this case, there may be $1$ **negative real zero**.
 
 ---
-Descarte's Rule of Signs
+Descarte's Rule of Signs work hand-in-hand with the Rational Zero Theorem, as knowing the number of positive/negative real zeros may possibly reduce the work to find the zeros.
+
+For example, going back to the polynomial above :
+
+$$
+f(x)=2x^4-x^3-14x^2+19x-6
+$$
+
+We know that this function may have $3$ or $1$ positive real zeros, and $1$ negative real zeros.
+
+The constant term is $6$, which means $p$ is a factor of $4$. That is, $\{ 1,2,3,6 \}$.
+
+The leading term is $2$, which means $q$ is a factor of $2$. That is, $\{ 1,2 \}$
+
+The possible candidates of $\frac{p}{q}$ are :
+
+$$
+\left\{  \pm 1,\pm 2, \pm 3, \pm 6, \pm \frac{1}{2}, \pm \frac{3}{2}  \right\}
+$$
+
+Then we test it out using substitution. We can prioritize the positives first because there may be several positives.
+
+First, we check $1$ :
+
+$$
+f(1)=2-1-14+19-6=0
+$$
+
+We find that $1$ is a real zero. So, when we factor out $x-1$ from the function, what we get is $2x^3+x^2-13x+6$.
+
+Then, we check $2$ with the leftover function :
+
+$$
+\begin{align}
+  f(2) &= 2(2)^3+(2)^2-13(2)+6 \\
+  f(2) &= 16+4-26+6 \\
+  f(2) &= 0
+\end{align}
+$$
+
+We find that $2$ is a real zero as well. So, when we factor out $x-2$ from the function, what we get is $2x^2+5x-3$.
+
+We can use quadratic formula to figure out the rest of the real zeros :
+
+$$
+\frac{-5 \pm \sqrt{ 25-4(2)(-3) }}{2(2)}=\frac{-5 \pm 7}{4} \implies x=-3 \text{ or } x=\frac{1}{2}
+$$
+
+We see that $2x^2+5x-3=(x+3)(2x-1)$, thus the real zeros are $-3$ and $\frac{1}{2}$.
+
+Putting it all together :
+
+$$
+2x^4-x^3-14x^2+19x-6 = (x-1)(x-2)(x+3)(2x-1)
+$$
+
+Thus, the real zeros are $\left\{  1,2,-3, \frac{1}{2}  \right\}$ .
+
+Just as the Descarte's Theorem suggested, there are $3$ positive and $1$ negative real zeros.
+
+> [!important] The practical takeaway from this section
+> - Use Descarte's Theorem first to know how many positives/negatives to expect. This helps prioritize testing.
+> - Use the Rational Zero Theorem to produce a list of candidates.
+> - Use substitution (or synthetic division) to test each candidates.
+
+
+## Upper and Lower Bounds Theorem
+
+
