@@ -71,3 +71,54 @@ Above, is what the <mark class="hltr-trippy">Rational Zero Theorem</mark> states
 ---
 We can make use of the Rational Zero Theorem to narrow down which rational numbers might make $f(x)=0$.
 
+Once all possible $\frac{p}{q}$ candidates are listed, each of them are tested (using substitution) until one that gives a remainder of $0$ is found.
+
+Each successful zero gives a corresponding factor.
+
+For example, to find the rational zeros of the following function $f(x)$:
+
+$$
+f(x)=x^3-6x^2+11x-6
+$$
+
+We first identify the coefficients :
+
+$$
+a_{n}=1, \quad a_{0}=6
+$$
+
+Then we find the factors of $a_{0}$ and $a_{n}$ :
+- The factors of $a_{0}=6$ are $p=\pm 1,\pm 2,\pm 3,\pm 6$
+- The factors of $a_{n}=2$ are $q=\pm 1$
+
+Which means all possible candidates of $\frac{p}{q}$ are :
+
+$$
+\pm 1, \pm 2, \pm 3, \pm 6
+$$
+
+Using substitution, each candidate is tested. Starting with $1$ :
+
+$$
+f(1) = 1-6+11-6=0
+$$
+
+We find that $x-1$ is a factor.
+
+We then divide $f(x)=x^3-6x^2+11x-6$ by $x-1$ :
+
+$$
+\frac{x^3-6x^2+11x-6}{x-1}=x^2-5x+6
+$$
+
+which can be further factored to $(x-2)(x-3)$.
+
+The complete factorization is :
+
+$$
+f(x) = (x-1)(x-2)(x-3)
+$$
+
+So the zeros are $1$, $2$, and $3$.
+
+
