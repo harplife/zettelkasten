@@ -122,3 +122,5 @@ $$
 So the zeros are $1$, $2$, and $3$.
 
 
+## Descarte's Rule of Signs
+
