@@ -10,11 +10,13 @@
 
 ## Rational Zeros of Polynomials
 
-Suppose there's a polynomial :
+Let
 
 $$
 f(x)=a_{n}x^n+a_{n-1}x^{n-1}+\cdots+a_{1}x+a_{0}
 $$
+
+be a polynomial with real coefficients.
 
 Suppose $r=\frac{p}{q}$ is a root of $f(x)$, where $p$ and $q$ are integers with no common factors and $q \neq 0$. That means :
 
@@ -124,3 +126,48 @@ So the zeros are $1$, $2$, and $3$.
 
 ## Descarte's Rule of Signs
 
+---
+<mark class="hltr-trippy">Descarte's Rule of Signs</mark> states the following :
+
+Let
+
+$$
+f(x)=a_{n}x^n+a_{n-1}x^{n-1}+\cdots+a_{1}x+a_{0}
+$$
+
+be a polynomial with real coefficients.
+
+The **number of positive real zeros** of $f(x)$ equals the **number of sign changes** in the coefficients of $f(x)$, or less than that by an even number.
+
+The **number of negative real zeros** of $f(x)$ equals the **number of sign changes** in the coefficients of $f(-x)$, or less than that by an even number.
+
+---
+Take this function $f(x)$ as an example :
+
+$$
+f(x)=2x^4-3x^3+5x^2-7x+4
+$$
+
+The coefficients are $+2$, $-3$, $+5$, $-7$, $+4$.
+
+From the first coefficient $+2$ to second coefficient $-3$, we see a **sign change** from positive to negative. So, when we count all of the sign changes :
+1. $+2 \to -3$
+2. $-3 \to +5$
+3. $+5 \to -7$
+4. $-7 \to +4$
+
+We find that there are $4$ sign changes, which means there are $4$, $2$, or $0$ **positive real zeros**.
+
+In order to find negative real zeros, we see the sign changes for $f(-x)$ :
+
+$$
+\begin{align}
+  f(-x) &= 2(-x)^4-3(-x)^3+5(-x)^2-7(-x)+4 \\
+  f(-x) &= 2x^4+3x^3+5x^2+7x+4
+\end{align}
+$$
+
+In this case, there are no sign changes, which means that there are $0$ **negative real zeros**.
+
+---
+Descarte's Rule of Signs
