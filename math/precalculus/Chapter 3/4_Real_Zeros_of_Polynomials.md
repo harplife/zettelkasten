@@ -70,6 +70,8 @@ Which also means :
 
 Above, is what the <mark class="hltr-trippy">Rational Zero Theorem</mark> states.
 
+> [!important] Rational Zero Theorem is also called the **Rational Root Theorem**.
+
 ---
 We can make use of the Rational Zero Theorem to narrow down which rational numbers might make $f(x)=0$.
 
