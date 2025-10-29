@@ -52,7 +52,8 @@
               "title": "5_Complex_Zeros_and_the_Fundamental_Theorem_of_Algebra"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -132,13 +133,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "math/precalculus/Chapter 3/3_Dividing_Polynomials.md",
+                "file": "math/precalculus/Chapter 3/5_Complex_Zeros_and_the_Fundamental_Theorem_of_Algebra.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 3_Dividing_Polynomials"
+              "title": "Outline of 5_Complex_Zeros_and_the_Fundamental_Theorem_of_Algebra"
             }
           }
         ]
@@ -249,7 +250,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "math/precalculus/Chapter 3/3_Dividing_Polynomials.md",
+                "file": "math/precalculus/Chapter 3/5_Complex_Zeros_and_the_Fundamental_Theorem_of_Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -259,7 +260,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 3_Dividing_Polynomials"
+              "title": "Backlinks for 5_Complex_Zeros_and_the_Fundamental_Theorem_of_Algebra"
             }
           }
         ],
@@ -285,11 +286,11 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "c758fbf8239498ba",
+  "active": "54b9d3bcd98e6e3f",
   "lastOpenFiles": [
+    "math/precalculus/Chapter 3/3_Dividing_Polynomials.md",
     "math/precalculus/Chapter 3/2_Polynomial_Functions_and_Their_Graphs.md",
     "math/precalculus/Chapter 3/5_Complex_Zeros_and_the_Fundamental_Theorem_of_Algebra.md",
-    "math/precalculus/Chapter 3/3_Dividing_Polynomials.md",
     "math/precalculus/Chapter 3/4_Real_Zeros_of_Polynomials.md",
     "math/precalculus/Exercises/ex_3_4_20251028.md",
     "math/precalculus/Exercises/ex_3_3_20251027.md",
