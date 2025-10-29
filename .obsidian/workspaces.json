@@ -1095,13 +1095,13 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "math/precalculus/Chapter 3/2_Polynomial_Functions_and_Their_Graphs.md",
+                    "file": "math/precalculus/Chapter 3/3_Dividing_Polynomials.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": false
                   },
                   "icon": "lucide-file",
-                  "title": "2_Polynomial_Functions_and_Their_Graphs"
+                  "title": "3_Dividing_Polynomials"
                 }
               },
               {
@@ -1134,8 +1134,7 @@
                   "title": "5_Complex_Zeros_and_the_Fundamental_Theorem_of_Algebra"
                 }
               }
-            ],
-            "currentTab": 2
+            ]
           }
         ],
         "direction": "vertical"
@@ -1215,13 +1214,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "math/precalculus/Chapter 3/5_Complex_Zeros_and_the_Fundamental_Theorem_of_Algebra.md",
+                    "file": "math/precalculus/Chapter 3/3_Dividing_Polynomials.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of 5_Complex_Zeros_and_the_Fundamental_Theorem_of_Algebra"
+                  "title": "Outline of 3_Dividing_Polynomials"
                 }
               }
             ]
@@ -1332,7 +1331,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "math/precalculus/Chapter 3/5_Complex_Zeros_and_the_Fundamental_Theorem_of_Algebra.md",
+                    "file": "math/precalculus/Chapter 3/3_Dividing_Polynomials.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1342,7 +1341,7 @@
                     "unlinkedCollapsed": false
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for 5_Complex_Zeros_and_the_Fundamental_Theorem_of_Algebra"
+                  "title": "Backlinks for 3_Dividing_Polynomials"
                 }
               }
             ],
@@ -1368,8 +1367,8 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "54b9d3bcd98e6e3f",
-      "mtime": "2025-10-29T08:33:44-05:00",
+      "active": "c758fbf8239498ba",
+      "mtime": "2025-10-29T14:06:00-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "math",
