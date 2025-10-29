@@ -170,6 +170,9 @@ $$
 
 In this case, there may be $1$ **negative real zero**.
 
+> [!important] Zero coefficient does not count as sign change. Instead, it skips over.
+> For example, given $2x^4-x^2$, which is actually $2x^4+0x^3-x^2$, we skip over the zero coefficient and just count the sign change between $2$ and $-1$.
+
 ---
 Descarte's Rule of Signs work hand-in-hand with the Rational Zero Theorem, as knowing the number of positive/negative real zeros may possibly reduce the work to find the zeros.
 
@@ -254,3 +257,43 @@ For example, given a polynomial :
 $$
 P(x)=x^4-3x^2+2x-5
 $$
+
+Using the Rational Zero Theorem, the candidates of $\frac{p}{q}$ are $\pm 1$ and $\pm 5$.
+
+Using the Descarte's Theorem, there may be $3$ or $1$ positive real zeros and $1$ negative real zero.
+
+We take the biggest candidate, which is $x-5$ as a factor, and divide $P(x)$ with it using synthetic division.
+
+```lua
+5 |  1  0  -3   2   -5
+        5  25 110  560
+     -----------------
+     1  5  22 112  555
+```
+
+Since all entries are non-negative, $5$ is an upper bound. However, we also see that $5$ is not a real zero.
+
+Now we take the lowest candidate $-5$ for synthetic division.
+
+```lua
+-5 |  1   0  -3     2   -5
+         -5  25  -110  540
+      --------------------
+      1  -5  22  -108  535
+```
+
+Since all entries are alternately non-positive and non-negative, $-5$ is a lower bound. However, we also see that $-5$ is not a real zero.
+
+```lua
+1 |  1  0  -3   2   -5
+        1   1  -2    0
+     -----------------
+     1  1  -2   0   -5
+```
+
+```lua
+-1 |  1  0  -3   2   -5
+        -1   1   2   -4
+      -----------------
+      1 -1  -2   4   -9
+```
