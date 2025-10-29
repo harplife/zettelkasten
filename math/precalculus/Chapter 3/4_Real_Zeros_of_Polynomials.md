@@ -258,48 +258,49 @@ If we divide $P(x)$ by $x-a$ (with $a<0$) using *synthetic division* and if the 
 
 If $0$ is in the row that contains the quotient and remainder, then it can be considered to be positive or negative as required.
 
+---
 For example, given a polynomial :
 
 $$
-P(x)=x^4-3x^2+2x-5
+P(x)=2x^3-3x^2-11x+6
 $$
 
-Using the Rational Zero Theorem, the candidates of $\frac{p}{q}$ are $\pm 1$ and $\pm 5$.
+Using the Rational Zero Theorem gives :
 
-Using the Descarte's Theorem, there may be $3$ or $1$ positive real zeros and $1$ negative real zero.
+$$
+\frac{p}{q}=\pm 1, \pm 2, \pm 3, \pm 6, \pm \frac{1}{2}, \pm \frac{3}{2}
+$$
 
-We take the biggest candidate, which is $x-5$ as a factor, and divide $P(x)$ with it using synthetic division.
+That's 12 candidates.
 
-```lua
-5 |  1  0  -3   2   -5
-        5  25 110  560
-     -----------------
-     1  5  22 112  555
-```
-
-Since all entries are non-negative, $5$ is an upper bound. However, we also see that $5$ is not a real zero.
-
-Now we take the lowest candidate $-5$ for synthetic division.
+Let's say we pick $c=6$ for upper bound test.
 
 ```lua
--5 |  1   0  -3     2   -5
-         -5  25  -110  540
-      --------------------
-      1  -5  22  -108  535
+6 |  2  -3  -11    6
+        12   54  258
+  ------------------
+     2   9   43  264
 ```
 
-Since all entries are alternately non-positive and non-negative, $-5$ is a lower bound. However, we also see that $-5$ is not a real zero.
+All coefficients of the result are positive, so $6$ is an upper bound.
 
-```lua
-1 |  1  0  -3   2   -5
-        1   1  -2    0
-     -----------------
-     1  1  -2   0   -5
-```
+Let's say we pick $c=-2$ for lower bound test.
 
 ```lua
--1 |  1  0  -3   2   -5
-        -1   1   2   -4
-      -----------------
-      1 -1  -2   4   -9
+-2 |  2   -3  -11     6
+          -4   14    -6
+  ---------------------
+      2   -7    3     0
 ```
+
+All coefficients of the result have alternating signs ($0$ counting as negative), so $-2$ is a lower bound.
+
+We now know that $-2 \leq c < 6$, and so we can test out the rest of the candidates except for $-3$ and $-6$.
+
+> [!important] While it may seem like the Upper and Lower Bound Theorem is not all that useful (unless you make a lucky guess and reduce work), the theorem can be very useful when it comes to working with irrational numbers.
+> With the example above, while finding the upper bound $6$ may seem meaningless, it tells us that, if there are irrational zeros, they are less than $6$.
+
+
+## Using Algebra and Graphing Devices to Solve Polynomial Equations
+
+Finding the upper and lower bounds of the real zeros helps us ensure that the viewing rectangle contains all the x-intercepts of a function.
