@@ -18,7 +18,7 @@ $$
 
 be a polynomial with real coefficients.
 
-Suppose $r=\frac{p}{q}$ is a root of $f(x)$, where $p$ and $q$ are integers with no common factors and $q \neq 0$. That means :
+Suppose $r=\frac{p}{q}$ is a root of $f(x)$, where $p$ and $q$ are **integers** with **no common factors** and $q \neq 0$. That means :
 
 $$
 f\left( \frac{p}{q} \right)=0
@@ -71,6 +71,9 @@ Which also means :
 Above, is what the <mark class="hltr-trippy">Rational Zero Theorem</mark> states.
 
 > [!important] Rational Zero Theorem is also called the **Rational Root Theorem**.
+
+> [!warning] The Rational Zero Theorem lists only all possible *rational* zeros, not *real* zeros.
+> It's always possible that the zeros of a function may be an *irrational* number (or complex number), in which case, the rational zero theorem does not list.
 
 ---
 We can make use of the Rational Zero Theorem to narrow down which rational numbers might make $f(x)=0$.
@@ -238,6 +241,8 @@ Just as the Descarte's Theorem suggested, there are $3$ positive and $1$ negativ
 > - Use Descarte's Theorem first to know how many positives/negatives to expect. This helps prioritize testing.
 > - Use the Rational Zero Theorem to produce a list of candidates.
 > - Use substitution (or synthetic division) to test each candidates.
+
+> [!warning] While the Descarte's Theorem does list out
 
 
 ## Upper and Lower Bounds Theorem
