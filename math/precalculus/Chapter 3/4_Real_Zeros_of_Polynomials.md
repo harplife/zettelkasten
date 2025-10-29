@@ -239,4 +239,18 @@ Just as the Descarte's Theorem suggested, there are $3$ positive and $1$ negativ
 
 ## Upper and Lower Bounds Theorem
 
+We say that $a$ is a <mark class="hltr-trippy">Lower Bound</mark> and $b$ is an <mark class="hltr-trippy">Upper Bound</mark> for the zeros of a polynomial if every real zero $c$ of the polynomial satisfies $a \leq c \leq b$ . The <mark class="hltr-trippy">Upper and Lower Bounds Theorem</mark> (aka **Bounded Root Theorem**) is used to identify these bounds.
 
+Let $P$ by a polynomial with real coefficients.
+
+If we divide $P(x)$ by $x-b$ (with $b>0$) using *synthetic division* and if the row that contains the quotient and remainder has no negative entry, then $b$ is an upper bound for the real zeros of $P$.
+
+If we divide $P(x)$ by $x-a$ (with $a<0$) using *synthetic division* and if the row that contains the quotient and remainder has entries that are alternately non-positive and non-negative, then $a$ is a lower bound for the real zeros of $P$.
+
+If $0$ is in the row that contains the quotient and remainder, then it can be considered to be positive or negative as required.
+
+For example, given a polynomial :
+
+$$
+P(x)=x^4-3x^2+2x-5
+$$
