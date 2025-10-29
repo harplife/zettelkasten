@@ -243,7 +243,7 @@ Just as the Descarte's Theorem suggested, there are $3$ positive and $1$ negativ
 > - Use substitution (or synthetic division) to test each candidates.
 
 > [!warning] The Descarte's Theorem only tells you the **maximum** possible count of real zeros.
-> It does not guarantee that such a real zero *actually* exist.
+> It does not guarantee that such a real zero *actually* exist. It's entirely possible that all zeros are complex numbers.
 
 
 ## Upper and Lower Bounds Theorem
