@@ -109,5 +109,78 @@ Thus by the Zero-Product Property, one of the factors $r-r_{i}$ must be $0$, so 
 
 ## Complex Zeros Occur in Conjugate Pairs
 
-The <mark class="hltr-trippy">Conjugate Zeros Theorem</mark> states that if the polynomial $P$ has real coefficients and if the complex number $z$ is a zero of $P$, then its complex conjugate $\overline{z}$ is also a zero of $P$.
+The <mark class="hltr-trippy">Conjugate Zeros Theorem</mark> states that if the coefficients are real, but not all roots are real, then nonreal complex roots will always appear in conjugate pairs :
+
+$$
+r=a+bi \quad \text{ and } \quad \overline{r}=a-bi
+$$
+
+where $b \neq 0$ .
+
+This is the <mark class="hltr-red">Proof</mark> :
+
+Suppose $P(x)=a_{n}x^n+a_{n-1}x^{n-1}+\cdots+a_{0}$ , and all $a_{k}$ are real.
+
+If $a_{bi}$ is a zero, then
+
+$$
+P(a+bi)=0
+$$
+
+When we take the complex conjugate of both sides, we get :
+
+$$
+\overline{P(a+bi)}=\overline{0}=0
+$$
+
+Because all the coefficients are real, we can move the conjugate inside the polynomial :
+
+$$
+\overline{P(a+bi)} = P(\overline{a+bi})=P(a-bi)
+$$
+
+> [!important] We are skipping over a lot of details here, but the gist of it is that we make use of the fact that **(1)** complex conjugate of a sum of two complex numbers is the sum of the conjugates, and **(2)** the conjugate of a product is the product of the conjugates.
+> ![[Pasted image 20251029145940.png | center | 400]]
+
+Thus,
+
+$$
+P(a-bi)=0
+$$
+
+> [!important] This is easier to understand when we see that applying the Quadratic Formula often gives us the roots as a complex conjugate pair.
+> For example, given $P(x)=x^2-4x+13$, applying the Quadratic Formula gives us $x=2 \pm 3i$. Thus, the roots are complex conjugates $2+3i$ and $2-3i$.
+
+
+## Linear and Quadratic Factors
+
+A quadratic polynomial with no real zero is said to be <mark class="hltr-trippy">irreducible</mark> over the real numbers. For example, $P(x)=x^2-4x+13$ does not have real roots.
+
+The <mark class="hltr-trippy">Linear and Quadratic Factors</mark> Theorem states that every polynomial with real coefficients can be factored into a product of linear factors and irreducible quadratic factors with real coefficients.
+
+> [!important] Previously, we covered that every polynomial with real coefficients can be factored completely with complex roots. Here, the theorem is saying that every polynomial with real coefficients can be factored completely, as long as it's a product of linear factors (e.g. $(x-3)$) and irreducible quadratic factors (e.g. $x^2-4x+13$).
+> Basically, it would look like $P(x)=(x-3)(x^2-4x+13)$ .
+
+This is the <mark class="hltr-red">Proof</mark> :
+
+We first observe that if $r=a+bi$ is a complex number, then
+
+$$
+\begin{align}
+  (x-r)(x-\overline{r}) &= [x-(a+bi)][x-(a-bi)] \\
+  &= [(x-a)-bi][(x-a)+bi] \\
+  &= (x-a)^2-(bi)^2 \\
+  &= x^2-2ax+(a^2+b^2)
+\end{align}
+$$
+
+The last expression is a quadratic with real coefficients.
+
+Now, if $P$ is a polynomial with real coefficients, then by the Complete Factorization Theorem
+
+$$
+P(x) = a(x-r_{1})(x-r_{2})\cdots(x-r_{n})
+$$
+
+Since the complex roots occur in conjugate pairs, we can multiply the factors corresponding to each such pair to get a quadratic factor with real coefficients. This results in $P$ being factored into linear and irreducible quadratic factors.
 
