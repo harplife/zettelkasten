@@ -242,7 +242,8 @@ Just as the Descarte's Theorem suggested, there are $3$ positive and $1$ negativ
 > - Use the Rational Zero Theorem to produce a list of candidates.
 > - Use substitution (or synthetic division) to test each candidates.
 
-> [!warning] While the Descarte's Theorem does list out
+> [!warning] The Descarte's Theorem only tells you the **maximum** possible count of real zeros.
+> It does not guarantee that such a zero *actually* exist.
 
 
 ## Upper and Lower Bounds Theorem
