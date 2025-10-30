@@ -151,6 +151,8 @@ $$
 > [!important] This is easier to understand when we see that applying the Quadratic Formula often gives us the roots as a complex conjugate pair.
 > For example, given $P(x)=x^2-4x+13$, applying the Quadratic Formula gives us $x=2 \pm 3i$. Thus, the roots are complex conjugates $2+3i$ and $2-3i$.
 
+> [!important] Going back to Descarte's Theorem, the reason why the possible number of real zeros are in intervals of two (as in, if there are 3 sign changes, then either there's 3 or 1 real zeros), it is because if there isn't a real zero, then there's likely a complex zero - which always comes in conjugate pairs.
+
 
 ## Linear and Quadratic Factors
 

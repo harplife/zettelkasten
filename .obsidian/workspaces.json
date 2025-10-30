@@ -1149,7 +1149,8 @@
                   "title": "ex_3_5_20251029"
                 }
               }
-            ]
+            ],
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -1229,13 +1230,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "math/precalculus/Chapter 3/4_Real_Zeros_of_Polynomials.md",
+                    "file": "math/precalculus/Exercises/ex_3_5_20251029.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of 4_Real_Zeros_of_Polynomials"
+                  "title": "Outline of ex_3_5_20251029"
                 }
               }
             ]
@@ -1346,7 +1347,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "math/precalculus/Chapter 3/4_Real_Zeros_of_Polynomials.md",
+                    "file": "math/precalculus/Exercises/ex_3_5_20251029.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1356,7 +1357,7 @@
                     "unlinkedCollapsed": false
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for 4_Real_Zeros_of_Polynomials"
+                  "title": "Backlinks for ex_3_5_20251029"
                 }
               }
             ],
@@ -1382,8 +1383,8 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "c758fbf8239498ba",
-      "mtime": "2025-10-30T09:43:00-05:00",
+      "active": "10ea483836cdaf0a",
+      "mtime": "2025-10-30T09:47:18-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "math",
