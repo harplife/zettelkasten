@@ -1150,7 +1150,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -1230,13 +1230,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "math/precalculus/Chapter 3/5_Complex_Zeros_and_the_Fundamental_Theorem_of_Algebra.md",
+                    "file": "math/precalculus/Exercises/ex_3_5_20251029.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of 5_Complex_Zeros_and_the_Fundamental_Theorem_of_Algebra"
+                  "title": "Outline of ex_3_5_20251029"
                 }
               }
             ]
@@ -1347,7 +1347,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "math/precalculus/Chapter 3/5_Complex_Zeros_and_the_Fundamental_Theorem_of_Algebra.md",
+                    "file": "math/precalculus/Exercises/ex_3_5_20251029.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1357,7 +1357,7 @@
                     "unlinkedCollapsed": false
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for 5_Complex_Zeros_and_the_Fundamental_Theorem_of_Algebra"
+                  "title": "Backlinks for ex_3_5_20251029"
                 }
               }
             ],
@@ -1383,8 +1383,8 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "54b9d3bcd98e6e3f",
-      "mtime": "2025-10-30T14:17:36-05:00",
+      "active": "10ea483836cdaf0a",
+      "mtime": "2025-10-30T14:44:36-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "math",

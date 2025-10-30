@@ -221,4 +221,4 @@ $$
 x^4+x^2+1 = (x^2+x+1)(x^2-x+1)
 $$
 
-These factors are 
+These factors are irreducible quadratics.
