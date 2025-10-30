@@ -186,3 +186,38 @@ $$
 
 Since the complex roots occur in conjugate pairs, we can multiply the factors corresponding to each such pair to get a quadratic factor with real coefficients. This results in $P$ being factored into linear and irreducible quadratic factors.
 
+
+## Extra : Symmetric Factorization
+
+> [!warning] **Symmetric Factorization** is not an official term, but it's what chatGPT calls it and it makes sense.
+
+Assume
+
+$$
+x^4+x^2+1=(x^2+ax+1)(x^2+bx+1)
+$$
+
+Expand the right side :
+
+$$
+(x^2+ax+1)(x^2+bx+1) = x^4+(a+b)x^3+(ab+2)x^2+(a+b)x+1
+$$
+
+Matching coefficients with $x^4+0x^3+1x^2+0x+1$ gives the system
+
+$$
+a+b=0, \quad ab+2=1
+$$
+
+From $a+b=0$, we have $b=-a$ . Plugging into the second equation :
+
+$$
+a(-a)+2=1 \implies -a^2=-1 \implies a^2=1
+$$
+
+So $a= \pm 1$ . Thus, two choices give the same factorization up to order :
+
+$$
+x^4+x^2+1 = (x^2+x+1)(x^2-x+1)
+$$
+
