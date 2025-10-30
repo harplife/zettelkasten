@@ -67,8 +67,7 @@
               "title": "ex_3_5_20251029"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -148,13 +147,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "math/precalculus/Exercises/ex_3_5_20251029.md",
+                "file": "math/precalculus/Chapter 3/4_Real_Zeros_of_Polynomials.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ex_3_5_20251029"
+              "title": "Outline of 4_Real_Zeros_of_Polynomials"
             }
           }
         ]
@@ -265,7 +264,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "math/precalculus/Exercises/ex_3_5_20251029.md",
+                "file": "math/precalculus/Chapter 3/4_Real_Zeros_of_Polynomials.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -275,7 +274,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for ex_3_5_20251029"
+              "title": "Backlinks for 4_Real_Zeros_of_Polynomials"
             }
           }
         ],
@@ -301,7 +300,7 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "10ea483836cdaf0a",
+  "active": "c758fbf8239498ba",
   "lastOpenFiles": [
     "math/precalculus/Chapter 3/5_Complex_Zeros_and_the_Fundamental_Theorem_of_Algebra.md",
     "math/precalculus/Exercises/ex_3_5_20251029.md",

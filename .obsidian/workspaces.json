@@ -1149,8 +1149,7 @@
                   "title": "ex_3_5_20251029"
                 }
               }
-            ],
-            "currentTab": 3
+            ]
           }
         ],
         "direction": "vertical"
@@ -1230,13 +1229,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "math/precalculus/Exercises/ex_3_5_20251029.md",
+                    "file": "math/precalculus/Chapter 3/4_Real_Zeros_of_Polynomials.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of ex_3_5_20251029"
+                  "title": "Outline of 4_Real_Zeros_of_Polynomials"
                 }
               }
             ]
@@ -1347,7 +1346,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "math/precalculus/Exercises/ex_3_5_20251029.md",
+                    "file": "math/precalculus/Chapter 3/4_Real_Zeros_of_Polynomials.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1357,7 +1356,7 @@
                     "unlinkedCollapsed": false
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for ex_3_5_20251029"
+                  "title": "Backlinks for 4_Real_Zeros_of_Polynomials"
                 }
               }
             ],
@@ -1383,15 +1382,16 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "10ea483836cdaf0a",
-      "mtime": "2025-10-29T15:24:19-05:00",
+      "active": "c758fbf8239498ba",
+      "mtime": "2025-10-30T09:43:00-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "math",
           "math/algebra_and_trigonometry",
           "math/precalculus",
           "math/precalculus/Chapter 3",
-          "math/precalculus/Exercises"
+          "math/precalculus/Exercises",
+          "math/precalculus/Resources"
         ]
       }
     },
