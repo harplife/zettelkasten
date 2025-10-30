@@ -115,7 +115,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "symmetric",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -136,7 +136,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "0065a4e248a61faa",
@@ -301,7 +302,7 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "10ea483836cdaf0a",
+  "active": "12efa4d7cc8b07c3",
   "lastOpenFiles": [
     "math/precalculus/Chapter 3/5_Complex_Zeros_and_the_Fundamental_Theorem_of_Algebra.md",
     "math/precalculus/Chapter 3/4_Real_Zeros_of_Polynomials.md",
