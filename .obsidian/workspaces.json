@@ -1197,7 +1197,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "symmetric",
+                    "query": "",
                     "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": false,
@@ -1218,8 +1218,7 @@
                   "title": "Bookmarks"
                 }
               }
-            ],
-            "currentTab": 2
+            ]
           },
           {
             "id": "0065a4e248a61faa",
@@ -1384,8 +1383,8 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "12efa4d7cc8b07c3",
-      "mtime": "2025-10-30T14:05:49-05:00",
+      "active": "935f28b3df870977",
+      "mtime": "2025-10-30T14:06:07-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "math",
