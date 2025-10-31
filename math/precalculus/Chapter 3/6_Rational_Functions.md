@@ -32,6 +32,8 @@ where :
 - $k$ causes the vertical shift
 - $a$ causes the stretch or flip
 
+> [!warning] This applies only to any function of degree $1$ over degree $1$.
+
 The graph of a function $f(x)=\frac{1}{x}$ looks like this :
 
 ![[Pasted image 20251030212623.png | center | 400]]
@@ -49,20 +51,18 @@ As it can be seen from the graph, $f(x)=\frac{1}{x}$ has these properties :
 > - Stretch by a factor of $2$
 
 
+## Vertical and Horizontal Asymptotes
 
+An <mark class="hltr-trippy">Asymptote</mark> is a line that a graph approaches but never actually touches (or only touches once, in special cases).
 
+It describes the behavior of a function when :
+- $x$ gets very large (positive or negative), or
+- $x$ gets close to a value that makes the function "blow up" (like dividing by zero)
 
+There are three types of asymptotes :
+- Vertical Asymptotes
+- Horizontal Asymptotes
+- Oblique (Slant) Asymptotes
 
-
-Properties and key features of a rational function :
-
-| Feature                               | Description                                               | How to Find It                                          |
-| ------------------------------------- | --------------------------------------------------------- | ------------------------------------------------------- |
-| **Domain**                            | All real $x$ where $Q(x) \ne 0$                           | Solve $Q(x) = 0$                                        |
-| **Intercepts**                        | Where graph crosses x-axis and y-axis                     | **x-intercept:** where $P(x)=0$; **y-intercept:** $x=0$ |
-| **Vertical Asymptotes**               | Places where function “blows up” to $\infty$ or $-\infty$ | Solve $Q(x)=0$ (if not canceled)                        |
-| **Holes (Removable Discontinuities)** | Where numerator and denominator share a factor            | Simplify $P/Q$, and see where cancellation occurs       |
-| **Horizontal Asymptote**              | The behavior as $x \to \infty$ or $x \to -\infty$         | Compare degrees of $P(x)$ and $Q(x)$                    |
-| **Oblique (Slant) Asymptote**         | When degree of $P(x)$ is one more than $Q(x)$             | Found by polynomial long division                       |
-| **End Behavior**                      |                                                           |                                                         |
+A <mark class="hltr-trippy">Vertical Asymptote</mark> is a vertical line $x=a$ where the function value goes to infinity or negative infinity.
 
