@@ -75,5 +75,19 @@ A <mark class="hltr-trippy">Horizontal Asymptote</mark> is a horizontal line $y=
 
 ## Finding Vertical and Horizontal Asymptotes of Rational Functions
 
+### Finding Vertical Asymptotes
+
+Let a rational function be
+
+$$
+R(x)=\frac{P(x)}{Q(x)}
+$$
+
+where $P(x)$ and $Q(x)$ are polynomials and $Q(x) \ne 0$.
+
+Finding vertical asymptotes requires three steps :
+1. Find the domain restriction
+2. Cancel any common factors between $P(x)$ and $Q(x)$
+3. Find the zeros of $Q(x)$
 
 
