@@ -73,5 +73,7 @@ A <mark class="hltr-trippy">Horizontal Asymptote</mark> is a horizontal line $y=
 ![[Pasted image 20251031125102.png]]
 
 
+## Finding Vertical and Horizontal Asymptotes of Rational Functions
+
 
 
