@@ -64,5 +64,7 @@ There are three types of asymptotes :
 - Horizontal Asymptotes
 - Oblique (Slant) Asymptotes
 
-A <mark class="hltr-trippy">Vertical Asymptote</mark> is a vertical line $x=a$ where the function value goes to infinity or negative infinity.
+A <mark class="hltr-trippy">Vertical Asymptote</mark> is a vertical line $x=a$ where the function value $y$ approaches $\pm \infty$ as $x$ approaches $a$ from the left or right.
+
+A <mark class="hltr-trippy">Horizontal Asymptote</mark> is a horizontal line $y=b$ where the function input $x$ approaches $\pm \infty$ as the function value $y$ approaches $b$.
 
