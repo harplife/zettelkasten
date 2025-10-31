@@ -32,3 +32,4 @@ Properties and key features of a rational function :
 | **Horizontal Asymptote**              | The behavior as $x \to \infty$ or $x \to -\infty$         | Compare degrees of $P(x)$ and $Q(x)$                    |
 | **Oblique (Slant) Asymptote**         | When degree of $P(x)$ is one more than $Q(x)$             | Found by polynomial long division                       |
 | **End Behavior**                      |                                                           |                                                         |
+
