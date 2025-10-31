@@ -66,5 +66,12 @@ There are three types of asymptotes :
 
 A <mark class="hltr-trippy">Vertical Asymptote</mark> is a vertical line $x=a$ where the function value $y$ approaches $\pm \infty$ as $x$ approaches $a$ from the left or right.
 
+![[Pasted image 20251031125051.png]]
+
 A <mark class="hltr-trippy">Horizontal Asymptote</mark> is a horizontal line $y=b$ where the function input $x$ approaches $\pm \infty$ as the function value $y$ approaches $b$.
+
+![[Pasted image 20251031125102.png]]
+
+
+
 
