@@ -32,11 +32,26 @@ where :
 - $k$ causes the vertical shift
 - $a$ causes the stretch or flip
 
+The graph of a function $f(x)=\frac{1}{x}$ looks like this :
+
+![[Pasted image 20251030212623.png | center | 400]]
+
+As it can be seen from the graph, $f(x)=\frac{1}{x}$ has these properties :
+- $f(x)$ approaches positive infinity as $x$ approaches $0$, if $x > 0$
+- $f(x)$ approaches $0$ as $x$ approaches positive infinity
+- $f(x)$ approaches negative infinity as $x$ approaches $0$, if $x < 0$
+- $f(x)$ approaches $0$ as $x$ approaches negative infinity
+
 > [!example] $g(x)=\frac{2}{x-3}+1$
 > This function can be described with transformations from the base $f(x)=\frac{1}{x}$ :
 > - Shift right $3$
 > - Shift up $1$
 > - Stretch by a factor of $2$
+
+
+
+
+
 
 
 Properties and key features of a rational function :
