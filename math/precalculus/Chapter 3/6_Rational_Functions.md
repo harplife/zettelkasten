@@ -19,7 +19,25 @@ $f(x)=\frac{P(x)}{Q(x)}$
 
 where $P(x)$ and $Q(x)$ are polynomials, and $Q(x) \neq 0$ .
 
-For example, $f(x)=\frac{x^2-1}{x-2}$ is a rational function.
+> [!example] $f(x)=\frac{x^2-1}{x-2}$ is a rational function.
+
+Just like how $f(x)=x^2$ is the base for quadratics, $f(x)=\frac{1}{x}$ acts as the base for reciprocal functions of the form :
+
+$$
+g(x)=\frac{a}{x-h}+k
+$$
+
+where :
+- $h$ causes the horizontal shift
+- $k$ causes the vertical shift
+- $a$ causes the stretch or flip
+
+> [!example] $g(x)=\frac{2}{x-3}+1$
+> This function can be described with transformations from the base $f(x)=\frac{1}{x}$ :
+> - Shift right $3$
+> - Shift up $1$
+> - Stretch by a factor of $2$
+
 
 Properties and key features of a rational function :
 
