@@ -109,8 +109,8 @@ where :
 
 Finding the horizontal asymptote requires comparing the degrees of the numerator and the denominator. There are three possible results :
 
-|Case|Relationship between degrees (n) and (m)|Horizontal Asymptote|
-|---|---|---|
-|**Case 1**|(n < m) (degree of numerator smaller)|(y = 0)|
-|**Case 2**|(n = m) (degrees are equal)|(y = \dfrac{a_n}{b_m}) (ratio of leading coefficients)|
-|**Case 3**|(n > m) (degree of numerator larger)|**No horizontal asymptote** (function grows without bound); sometimes a **slant/oblique asymptote** instead|
+| Relationship between degrees (n) and (m) | Horizontal Asymptote                                                                                        |
+| ---------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| (n < m) (degree of numerator smaller)    | (y = 0)                                                                                                     |
+| (n = m) (degrees are equal)              | (y = \dfrac{a_n}{b_m}) (ratio of leading coefficients)                                                      |
+| (n > m) (degree of numerator larger)     | **No horizontal asymptote** (function grows without bound); sometimes a **slant/oblique asymptote** instead |
