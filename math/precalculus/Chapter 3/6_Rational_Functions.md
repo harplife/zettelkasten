@@ -86,8 +86,9 @@ $$
 where $P(x)$ and $Q(x)$ are polynomials and $Q(x) \ne 0$.
 
 Finding vertical asymptotes requires three steps :
-1. Find the domain restriction
+1. Identify the zeros of the denominator
 2. Cancel any common factors between $P(x)$ and $Q(x)$
-3. Find the zeros of $Q(x)$
+3. Find remaining the zeros of $Q(x)$
 
-
+> [!example] Vertical asymptote(s) of $R(x)=\frac{x+1}{x-2}$
+> 
