@@ -96,3 +96,21 @@ Finding vertical asymptotes requires three steps :
 
 ### Finding Horizontal Asymptotes
 
+Let a rational function be
+
+$$
+R(x)=\frac{P(x)}{Q(x)}=\frac{a_{n}x^n+\cdots}{b_{m}x^m+\cdots}
+$$
+
+where :
+- $P(x)$ is a numerator polynomial of degree $n$
+- $Q(x)$ is a denominator polynomial of degree $m$
+- $a_{n}$ and $b_{m}$ are the leading coefficients
+
+Finding the horizontal asymptote requires comparing the degrees of the numerator and the denominator. There are three possible results :
+
+|Case|Relationship between degrees (n) and (m)|Horizontal Asymptote|
+|---|---|---|
+|**Case 1**|(n < m) (degree of numerator smaller)|(y = 0)|
+|**Case 2**|(n = m) (degrees are equal)|(y = \dfrac{a_n}{b_m}) (ratio of leading coefficients)|
+|**Case 3**|(n > m) (degree of numerator larger)|**No horizontal asymptote** (function grows without bound); sometimes a **slant/oblique asymptote** instead|
