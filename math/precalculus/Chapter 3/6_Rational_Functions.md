@@ -111,6 +111,13 @@ Finding the horizontal asymptote requires comparing the degrees of the numerator
 
 | Relationship between degrees (n) and (m) | Horizontal Asymptote                                                                                        |
 | ---------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
-| (n < m) (degree of numerator smaller)    | (y = 0)                                                                                                     |
-| (n = m) (degrees are equal)              | (y = \dfrac{a_n}{b_m}) (ratio of leading coefficients)                                                      |
-| (n > m) (degree of numerator larger)     | **No horizontal asymptote** (function grows without bound); sometimes a **slant/oblique asymptote** instead |
+| $n < m$ (degree of numerator smaller)    | $y = 0$                                                                                                     |
+| $n = m$ (degrees are equal)              | $y = \dfrac{a_n}{b_m}$ (ratio of leading coefficients)                                                      |
+| $n > m$ (degree of numerator larger)     | **No horizontal asymptote** (function grows without bound); sometimes a **slant/oblique asymptote** instead |
+
+> [!example] Horizontal asymptote of $R(x)=\dfrac{2x^2+3x+1}{x^2+5x+4}$
+> The horizontal asymptote is $y=\dfrac{2x^2}{x^2}=2$.
+
+
+## Graphing Rational Functions
+
