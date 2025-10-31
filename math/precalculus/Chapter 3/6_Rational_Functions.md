@@ -93,3 +93,6 @@ Finding vertical asymptotes requires three steps :
 > [!example] Vertical asymptote(s) of $R(x)=\frac{x+1}{x-2}$
 > For the denominator $Q(x)=x-2$, the zero of $Q(x)$ is $2$. There are no common factors, so the vertical asymptote is at $x=2$.
 
+
+### Finding Horizontal Asymptotes
+
