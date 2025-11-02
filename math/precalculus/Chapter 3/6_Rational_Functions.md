@@ -119,5 +119,31 @@ Finding the horizontal asymptote requires comparing the degrees of the numerator
 > The horizontal asymptote is $y=\dfrac{2x^2}{x^2}=2$.
 
 
+### Extra : Behavior near Vertical Asymptotes
+
+Given a rational function :
+
+$f(x)=\frac{P(x)}{Q(x)}$
+
+Its written so that $f(x)$ is in fully factored form (if possible) :
+
+$$
+f(x)=\frac{k(x-r_{1})^{p_{1}}(x-r_{2})^{p_{2}}\dots}{(x-a^1)^{q_{1}}(x-a_{2})^{q_{2}}\dots}
+$$
+
+Each factor $(x-a_{i})$ in the denominator can produce a vertical asymptote at $x=a_{i}$ .
+
+The behavior of $f(x)$ as $x \to a^{+}$ and $x \to a^{-}$ is determined by :
+- The sign of $f(x)$ when a number greater or less than $a_{i}$ (say $x=a+\epsilon$)
+- The multiplicity of the factor (even or odd)
+
+When checking for the sign of $f(a+\epsilon)$, there is no need to compute the actual value. Instead, plug in the value into the factored form only to check the resulting sign of each factor.
+
+For example, given $f(x)=\frac{1}{(x-1)(x-2)(x-3)}$, the vertical asymptotes are $x=1,2,3$. We first check the sign around the vertical asymptote $x=1$ by letting $x=1.1$ and $x=0.9$. We can see that the sign of each factor when $x=1.1$ is $+,-,-$, which overall is $+$ (positive). When we check $x=0.9$, the signs are $-,-,-$, which overall is $-$ (negative). This means that the $f(x)$ approaches $-\infty$ on the left side of $x=1$, and 
+
+
+
+
+
 ## Graphing Rational Functions
 
