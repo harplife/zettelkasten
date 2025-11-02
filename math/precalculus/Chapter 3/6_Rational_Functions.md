@@ -162,10 +162,10 @@ $$
 $$
 
 
-### Extra : Behavior near Horizontal Asymptote
-
-
-
-
 ## Graphing Rational Functions
+
+Skip
+
+
+## Slant Asymptotes and End Behavior
 
