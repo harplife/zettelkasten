@@ -151,5 +151,6 @@ For example, given $f(x)=\frac{1}{(x-1)^2(x-2)}$, the vertical asymptotes are $x
 
 
 
+
 ## Graphing Rational Functions
 
