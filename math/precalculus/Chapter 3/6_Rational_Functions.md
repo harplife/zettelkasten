@@ -147,7 +147,7 @@ The multiplicity of the factor determines whether the signs of the $\infty$ on t
 - If $q$ is **odd**, the signs are opposite of each other
 - if $q$ is **even**, the signs are the same
 
-For example, given $f(x)=\frac{1}{(x-1)^2(x-2)}$, the vertical asymptotes are $x=1$ and $x=2$ .
+For example, given $f(x)=\frac{1}{(x-1)^2(x-2)}$, the vertical asymptotes are $x=1$ and $x=2$ . When we first check the behavior near $x=1$, we see that when $x=0.9$, the sign is negative, which means $f(x)$ reaches $-\infty$ on the left side of $x=1$ . Because the multiplicity is even, we can assume that $f(x)$ reaches $-\infty$ as well on the right side (which can be confirmed by plugging in $x=1.1$).
 
 
 
