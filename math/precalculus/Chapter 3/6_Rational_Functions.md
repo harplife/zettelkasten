@@ -137,11 +137,17 @@ The behavior of $f(x)$ as $x \to a^{+}$ and $x \to a^{-}$ is determined by :
 - The sign of $f(x)$ when a number greater or less than $a_{i}$ (say $x=a+\epsilon$)
 - The multiplicity of the factor (even or odd)
 
+---
 When checking for the sign of $f(a+\epsilon)$, there is no need to compute the actual value. Instead, plug in the value into the factored form only to check the resulting sign of each factor.
 
-For example, given $f(x)=\frac{1}{(x-1)(x-2)(x-3)}$, the vertical asymptotes are $x=1,2,3$. We first check the sign around the vertical asymptote $x=1$ by letting $x=1.1$ and $x=0.9$. We can see that the sign of each factor when $x=1.1$ is $+,-,-$, which overall is $+$ (positive). When we check $x=0.9$, the signs are $-,-,-$, which overall is $-$ (negative). This means that the $f(x)$ approaches $-\infty$ on the left side of $x=1$, and 
+For example, given $f(x)=\frac{1}{(x-1)(x-2)(x-3)}$, the vertical asymptotes are $x=1,2,3$. We first check the sign around the vertical asymptote $x=1$ by letting $x=1.1$ and $x=0.9$. We can see that the sign of each factor when $x=1.1$ is $+,-,-$, which overall is $+$ (positive). When we check $x=0.9$, the signs are $-,-,-$, which overall is $-$ (negative). This means that the $f(x)$ approaches $-\infty$ on the left side of $x=1$, and $\infty$ on the right side.
 
+---
+The multiplicity of the factor determines whether the signs of the $\infty$ on the left and right side of a vertical asymptote are the same or the opposite of each other. Given a factor $(x-a)^q$ :
+- If $q$ is **odd**, the signs are opposite of each other
+- if $q$ is **even**, the signs are the same
 
+For example, given $f(x)=\frac{1}{(x-1)^2(x-2)}$, the vertical asymptotes are $x=1$ and $x=2$ .
 
 
 
