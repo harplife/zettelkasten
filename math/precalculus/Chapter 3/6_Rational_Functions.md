@@ -149,6 +149,21 @@ The multiplicity of the factor determines whether the signs of the $\infty$ on t
 
 For example, given $f(x)=\frac{1}{(x-1)^2(x-2)}$, the vertical asymptotes are $x=1$ and $x=2$ . When we first check the behavior near $x=1$, we see that when $x=0.9$, the sign is negative, which means $f(x)$ reaches $-\infty$ on the left side of $x=1$ . Because the multiplicity is even, we can assume that $f(x)$ reaches $-\infty$ as well on the right side (which can be confirmed by plugging in $x=1.1$).
 
+---
+Behavior near vertical asymptotes can be notated like below.
+
+Given $f(x)=\frac{1}{x-2}$, the behavior of $f(x)$ near the the vertical asymptote is $x=2$ is :
+
+$$
+\begin{cases}
+  x \to 2^{-} \implies f(x) \to -\infty \\
+  x \to 2^{+} \implies f(x) \to +\infty
+\end{cases}
+$$
+
+
+### Extra : Behavior near Horizontal Asymptote
+
 
 
 
