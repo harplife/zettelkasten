@@ -187,6 +187,8 @@ $$
 
 As $x \to \infty$ , the remainder $\frac{2}{x+1} \to 0$ . So, $f(x)$ behaves like $y=x-1$ when $x$ is large. Thus, the slant asymptote is $y=x-1$ .
 
+![[poly_rational_function_graph_01.png | center]]
+
 
 
 
