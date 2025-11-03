@@ -169,3 +169,6 @@ Skip
 
 ## Slant Asymptotes and End Behavior
 
+A <mark class="hltr-trippy">Slant Asymptote</mark> (aka **Oblique Asymptote**)
+
+
