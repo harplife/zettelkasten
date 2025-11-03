@@ -189,6 +189,6 @@ As $x \to \infty$ , the remainder $\frac{2}{x+1} \to 0$ . So, $f(x)$ behaves lik
 
 ![[poly_rational_function_graph_01.png | center]]
 
-
-
+> [!important] Check out how to graph polynomial rational functions using Python.
+> [[graph_rational_function.html]]
 
