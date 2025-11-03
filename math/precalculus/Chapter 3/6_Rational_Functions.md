@@ -169,6 +169,24 @@ Skip
 
 ## Slant Asymptotes and End Behavior
 
-A <mark class="hltr-trippy">Slant Asymptote</mark> (aka **Oblique Asymptote**)
+A <mark class="hltr-trippy">Slant Asymptote</mark> (aka **Oblique Asymptote**) is a diagonal line that a rational function's graph approaches as $x \to \infty$ or $x \to -\infty$, which occurs when the numerator's degree is exactly one higher than the denominator's degree.
+
+The reason why slant asymptotes occur when the numerator's degree is higher by one, is because the function behaves almost like a linear function once the polynomial division is applied.
+
+$$
+\frac{P(x)}{Q(x)} = \text{quotient} + \frac{\text{remainder}}{Q(x)}
+$$
+
+The quotient will be a line (of the form $y=mx+b$), and the remainder term will approach $0$ as $x$ approaches positive or negative infinity. That line $y=mx+b$ is the slant asymptote.
+
+For example :
+
+$$
+f(x) = \frac{x^2+1}{x+1} = (x-1)+\frac{2}{x+1}
+$$
+
+As $x \to \infty$ , the remainder $\frac{2}{x+1} \to 0$ . So, $f(x)$ behaves like $y=x-1$ when $x$ is large. Thus, the slant asymptote is $y=x-1$ .
+
+
 
 
