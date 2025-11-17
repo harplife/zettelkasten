@@ -50,7 +50,7 @@ For example, for $\sqrt{ x }$, the value of $x$ must be a positive number or zer
 Rational expressions can be simplified if the expressions on the numerator and the denominator share common factors that can be cancelled out.
 
 $$
-\frac{AC}{AB} = \frac{A}{B}
+\frac{AC}{AB} = \frac{C}{B}
 $$
 
 For example,
