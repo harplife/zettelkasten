@@ -1090,6 +1090,21 @@
             "type": "tabs",
             "children": [
               {
+                "id": "6413a063382ebd15",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "math/precalculus/Chapter 1/1_Real_Numbers.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "1_Real_Numbers"
+                }
+              },
+              {
                 "id": "efde009d8ab24d75",
                 "type": "leaf",
                 "state": {
@@ -1119,8 +1134,7 @@
                   "title": "ex_3_6_20251103"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "vertical"
@@ -1200,13 +1214,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "math/precalculus/Exercises/ex_3_6_20251103.md",
+                    "file": "math/precalculus/Chapter 1/1_Real_Numbers.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of ex_3_6_20251103"
+                  "title": "Outline of 1_Real_Numbers"
                 }
               }
             ]
@@ -1317,7 +1331,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "math/precalculus/Exercises/ex_3_6_20251103.md",
+                    "file": "math/precalculus/Chapter 1/1_Real_Numbers.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1327,7 +1341,7 @@
                     "unlinkedCollapsed": false
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for ex_3_6_20251103"
+                  "title": "Backlinks for 1_Real_Numbers"
                 }
               }
             ],
@@ -1353,13 +1367,14 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "227e6011dc684b16",
-      "mtime": "2025-11-17T11:27:26-06:00",
+      "active": "6413a063382ebd15",
+      "mtime": "2025-11-17T11:46:34-06:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "math",
           "math/algebra_and_trigonometry",
           "math/precalculus",
+          "math/precalculus/Chapter 1",
           "math/precalculus/Chapter 3",
           "math/precalculus/Exercises",
           "math/precalculus/Resources"

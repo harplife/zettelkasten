@@ -51,7 +51,7 @@ The **Whole Numbers** are basically natural numbers with 0 included.
 
 The <mark class="hltr-trippy">Integers</mark> are all natural numbers, their negatives, and zero. The set of integers is denoted by a bold $Z$ or blackboard bold $\mathbb{Z}$.
 
-> [!fun fact] The integers are denoted with $Z$ because of the German word "Zahlen", which means "numbers".
+> [!fun fact] The integers are denoted with $Z$ because of the German word *Zahl*, which means "numbers".
 
 > [!important] The integers are a subset of rational numbers.
 > Putting it all together, the hierarchy of number systems goes like this :
