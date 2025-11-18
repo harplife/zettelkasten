@@ -1105,6 +1105,18 @@
                 }
               },
               {
+                "id": "53857b4d45a14a69",
+                "type": "leaf",
+                "state": {
+                  "type": "release-notes",
+                  "state": {
+                    "currentVersion": "1.10.3"
+                  },
+                  "icon": "lucide-book-up",
+                  "title": "Release Notes 1.10.3"
+                }
+              },
+              {
                 "id": "efde009d8ab24d75",
                 "type": "leaf",
                 "state": {
@@ -1134,7 +1146,8 @@
                   "title": "ex_3_6_20251103"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -1214,13 +1227,12 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "math/precalculus/Chapter 1/5_Equations.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of 5_Equations"
+                  "title": "Outline"
                 }
               }
             ]
@@ -1331,7 +1343,6 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "math/precalculus/Chapter 1/5_Equations.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1341,7 +1352,7 @@
                     "unlinkedCollapsed": false
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for 5_Equations"
+                  "title": "Backlinks"
                 }
               }
             ],
@@ -1367,8 +1378,8 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "6413a063382ebd15",
-      "mtime": "2025-11-17T12:00:57-06:00",
+      "active": "227e6011dc684b16",
+      "mtime": "2025-11-18T09:24:47-06:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "math",

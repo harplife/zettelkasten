@@ -23,6 +23,18 @@
             }
           },
           {
+            "id": "53857b4d45a14a69",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.3"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.3"
+            }
+          },
+          {
             "id": "efde009d8ab24d75",
             "type": "leaf",
             "state": {
@@ -52,7 +64,8 @@
               "title": "ex_3_6_20251103"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -132,13 +145,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "math/precalculus/Chapter 1/5_Equations.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 5_Equations"
+              "title": "Outline"
             }
           }
         ]
@@ -249,7 +261,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "math/precalculus/Chapter 1/5_Equations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -259,7 +270,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 5_Equations"
+              "title": "Backlinks"
             }
           }
         ],
@@ -285,7 +296,7 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "6413a063382ebd15",
+  "active": "227e6011dc684b16",
   "lastOpenFiles": [
     "math/precalculus/Chapter 1/4_Rational_Expressions.md",
     "math/precalculus/Chapter 1/3_Algebraic_Expressions.md",
