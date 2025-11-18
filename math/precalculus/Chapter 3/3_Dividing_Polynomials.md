@@ -126,6 +126,8 @@ that is, the remainder $r$ equals the value of the function at $x=a$.
 
 This is called the <mark class="hltr-trippy">Remainder Theorem</mark>.
 
+> [!important] From the Remainder Theorem, we can deduce that if the remainder $r$ is equal to zero, then $f(a)=0$ , which effectively makes $a$ a zero of the function $f(x)$ .
+
 For example, given the function $f(x)=x^3-2x^2+4$ and $g(x)=x-1$, $\frac{f(x)}{g(x)}$ gives us the the remainder $3$. From the divisor, we see that $a=1$. If $a$ is plugged in so that $f(a)$, we get :
 
 $$
@@ -146,8 +148,4 @@ The <mark class="hltr-trippy">Factor Theorem</mark> says that $a$ is a zero of $
 > If $f(x)$ factors as $f(x)=(x-a) \cdot q(x)$, then : $$f(a)=(a-a) \cdot q(a) = 0 \cdot q(a) = 0$$
 > Conversely, if $f(a)=0$, then by the Remainder Theorem : $$f(x)=(x-a) \cdot q(x) + 0 = (x-a) \cdot q(x)$$
 > So $x-a$ is a factor of $f(x)$ .
-> 
-> *Note* : 
-
-
 
