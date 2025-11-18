@@ -37,7 +37,8 @@
               "title": "ex_3_6_20251103"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -117,13 +118,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "math/precalculus/Chapter 3/6_Rational_Functions.md",
+                "file": "math/precalculus/Exercises/ex_3_6_20251103.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 6_Rational_Functions"
+              "title": "Outline of ex_3_6_20251103"
             }
           }
         ]
@@ -234,7 +235,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "math/precalculus/Chapter 3/6_Rational_Functions.md",
+                "file": "math/precalculus/Exercises/ex_3_6_20251103.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -244,7 +245,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 6_Rational_Functions"
+              "title": "Backlinks for ex_3_6_20251103"
             }
           }
         ],
@@ -270,10 +271,10 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "efde009d8ab24d75",
+  "active": "21ca02df82f27a00",
   "lastOpenFiles": [
-    "math/precalculus/Exercises/ex_3_6_20251103.md",
     "math/precalculus/Chapter 3/6_Rational_Functions.md",
+    "math/precalculus/Exercises/ex_3_6_20251103.md",
     "math/precalculus/Chapter 3/5_Complex_Zeros_and_the_Fundamental_Theorem_of_Algebra.md",
     "math/precalculus/Chapter 3/4_Real_Zeros_of_Polynomials.md",
     "math/precalculus/Chapter 3/3_Dividing_Polynomials.md",
