@@ -158,7 +158,7 @@ $$
 
 A quadratic polynomial with no real zero is said to be <mark class="hltr-trippy">irreducible</mark> over the real numbers. For example, $P(x)=x^2-4x+13$ does not have real roots.
 
-The <mark class="hltr-trippy">Linear and Quadratic Factors</mark> Theorem states that every polynomial with real coefficients can be factored into a product of linear factors and irreducible quadratic factors with real coefficients.
+The <mark class="hltr-trippy">Linear and Quadratic Factors Theorem</mark> states that every polynomial with real coefficients can be factored into a product of linear factors and irreducible quadratic factors with real coefficients.
 
 > [!important] Previously, we covered that every polynomial with real coefficients can be factored completely with complex roots. Here, the theorem is saying that every polynomial with real coefficients can be factored completely, as long as it's a product of linear factors (e.g. $(x-3)$) and irreducible quadratic factors (e.g. $x^2-4x+13$).
 > Basically, it would look like $P(x)=(x-3)(x^2-4x+13)$ .
