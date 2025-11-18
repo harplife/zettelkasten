@@ -84,7 +84,7 @@ $$
 
 ## Zeros and Their Multiplicities
 
-Together with the Fundamental Theorem of Algebra and the Complex Factorization Theorem, we ultimately get to the <mark class="hltr-trippy">Zeros Theorem</mark>, which states that a polynomial of degree $n$ has exactly $n$ complex roots (counting multiplicities).
+Together with the *Fundamental Theorem of Algebra* and the *Complex Factorization Theorem*, we ultimately get to the <mark class="hltr-trippy">Zeros Theorem</mark>, which states that a polynomial of degree $n$ has exactly $n$ complex roots (counting multiplicities).
 
 This is the <mark class="hltr-red">Proof</mark> :
 
