@@ -96,7 +96,7 @@ $$
 
 Then we find the factors of $a_{0}$ and $a_{n}$ :
 - The factors of $a_{0}=6$ are $p=\pm 1,\pm 2,\pm 3,\pm 6$
-- The factors of $a_{n}=2$ are $q=\pm 1$
+- The factors of $a_{n}=1$ are $q=\pm 1$
 
 Which means all possible candidates of $\frac{p}{q}$ are :
 
