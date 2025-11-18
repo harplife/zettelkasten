@@ -186,6 +186,8 @@ $$
 
 Since the complex roots occur in conjugate pairs, we can multiply the factors corresponding to each such pair to get a quadratic factor with real coefficients. This results in $P$ being factored into linear and irreducible quadratic factors.
 
+> [!important] Basically, a polynomial can be factored into linear factors $(x-a)$ with real zeros or complex zeros. We know that complex zeros come in conjugate pairs - and the product of the complex conjugate pair is a quadratic (which is irreducible over the real numbers). So, in terms of the real numbers, a polynomial can be factored into linear factors and quadratic factors.
+
 
 ## Extra : Symmetric Factorization
 
@@ -203,7 +205,7 @@ $$
 (x^2+ax+1)(x^2+bx+1) = x^4+(a+b)x^3+(ab+2)x^2+(a+b)x+1
 $$
 
-Matching coefficients with $x^4+0x^3+1x^2+0x+1$ gives the system
+Matching coefficients with $x^4+0x^3+1x^2+0x+1$ gives the system two equations :
 
 $$
 a+b=0, \quad ab+2=1
