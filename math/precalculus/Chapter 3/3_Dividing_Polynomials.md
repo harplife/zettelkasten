@@ -115,7 +115,7 @@ $$
 
 ## The Remainder and Factor Theorems
 
-### The Remainder Theroem
+### The Remainder Theorem
 
 If the divisor is linear (e.g. $x-a$), then :
 
@@ -146,6 +146,7 @@ The <mark class="hltr-trippy">Factor Theorem</mark> says that $a$ is a zero of $
 > If $f(x)$ factors as $f(x)=(x-a) \cdot q(x)$, then : $$f(a)=(a-a) \cdot q(a) = 0 \cdot q(a) = 0$$
 > Conversely, if $f(a)=0$, then by the Remainder Theorem : $$f(x)=(x-a) \cdot q(x) + 0 = (x-a) \cdot q(x)$$
 > So $x-a$ is a factor of $f(x)$ .
+> *Note* : 
 
 
 
