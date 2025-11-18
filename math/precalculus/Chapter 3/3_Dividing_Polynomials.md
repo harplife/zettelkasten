@@ -145,7 +145,7 @@ The <mark class="hltr-trippy">Factor Theorem</mark> says that $a$ is a zero of $
 > [!important] The Proof of the Factor Theorem
 > If $f(x)$ factors as $f(x)=(x-a) \cdot q(x)$, then : $$f(a)=(a-a) \cdot q(a) = 0 \cdot q(a) = 0$$
 > Conversely, if $f(a)=0$, then by the Remainder Theorem : $$f(x)=(x-a) \cdot q(x) + 0 = (x-a) \cdot q(x)$$
-> So $x-a$ is a factor of $f(x)$
+> So $x-a$ is a factor of $f(x)$ .
 
 
 
