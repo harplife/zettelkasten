@@ -134,7 +134,7 @@ $$
 
 > [!important] The Proof of the Remainder Theorem
 > Given $g(x)=x-a$, we can look at $\frac{f(x)}{g(x)}$ like this equation : $$f(x)=(x-a) \cdot q(x) + r$$
-> Replacing $x$ by $c$ in this equation, we get : $$f(a)=(a-a) \cdot g(a) + r=0+r=r$$
+> Replacing $x$ by $a$ in this equation, we get : $$f(a)=(a-a) \cdot q(a) + r=0+r=r$$
 > Thus, we get $f(a)=r$.
 
 
