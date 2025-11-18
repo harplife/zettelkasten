@@ -128,7 +128,7 @@ $f(x)=\frac{P(x)}{Q(x)}$
 Its written so that $f(x)$ is in fully factored form (if possible) :
 
 $$
-f(x)=\frac{k(x-r_{1})^{p_{1}}(x-r_{2})^{p_{2}}\dots}{(x-a^1)^{q_{1}}(x-a_{2})^{q_{2}}\dots}
+f(x)=\frac{k(x-r_{1})^{p_{1}}(x-r_{2})^{p_{2}}\dots}{(x-a_{1})^{q_{1}}(x-a_{2})^{q_{2}}\dots}
 $$
 
 Each factor $(x-a_{i})$ in the denominator can produce a vertical asymptote at $x=a_{i}$ .
