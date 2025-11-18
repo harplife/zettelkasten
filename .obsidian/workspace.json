@@ -13,25 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "math/precalculus/Chapter 1/5_Equations.md",
+                "file": "math/precalculus/Chapter 3/2_Polynomial_Functions_and_Their_Graphs.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "5_Equations"
-            }
-          },
-          {
-            "id": "53857b4d45a14a69",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.10.3"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.10.3"
+              "title": "2_Polynomial_Functions_and_Their_Graphs"
             }
           },
           {
@@ -64,8 +52,7 @@
               "title": "ex_3_6_20251103"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -145,12 +132,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "math/precalculus/Chapter 3/2_Polynomial_Functions_and_Their_Graphs.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 2_Polynomial_Functions_and_Their_Graphs"
             }
           }
         ]
@@ -261,6 +249,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "math/precalculus/Chapter 3/2_Polynomial_Functions_and_Their_Graphs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -270,7 +259,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for 2_Polynomial_Functions_and_Their_Graphs"
             }
           }
         ],
@@ -296,8 +285,22 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "227e6011dc684b16",
+  "active": "6413a063382ebd15",
   "lastOpenFiles": [
+    "math/precalculus/Chapter 3/1_Quadratic_Functions_and_Models.md",
+    "math/precalculus/Chapter 2/8_One_to_One_Functions_and_Their_Inverses.md",
+    "math/precalculus/Chapter 2/7_Combining_Functions.md",
+    "math/precalculus/Chapter 2/6_Transformations_of_Functions.md",
+    "math/precalculus/Chapter 2/4_Average_Rate_of_Change_of_a_Function.md",
+    "math/precalculus/Chapter 2/5_Linear_Functions_and_Models.md",
+    "math/precalculus/Chapter 2/3_Getting_Info_From_the_Function_Graph.md",
+    "math/precalculus/Chapter 2/2_Graphs_of_Functions.md",
+    "math/precalculus/Chapter 2/1_Functions.md",
+    "math/precalculus/Chapter 1/9_The_Coordinate_Plane.md",
+    "math/precalculus/Chapter 1/8_Inequalities.md",
+    "math/precalculus/Chapter 1/7_Modeling_with_Equations.md",
+    "math/precalculus/Chapter 1/6_Complex_Numbers.md",
+    "math/precalculus/Chapter 1/5_Equations.md",
     "math/precalculus/Chapter 1/4_Rational_Expressions.md",
     "math/precalculus/Chapter 1/3_Algebraic_Expressions.md",
     "math/precalculus/Chapter 1/2_Exponents_and_Radicals.md",
@@ -316,27 +319,13 @@
     "math/precalculus/Chapter 3/3_Dividing_Polynomials.md",
     "math/precalculus/Chapter 3/2_Polynomial_Functions_and_Their_Graphs.md",
     "math/precalculus/Exercises/ex_3_4_20251028.md",
-    "math/precalculus/Exercises/ex_3_3_20251027.md",
     "attachments/Pasted image 20251026092610.png",
     "attachments/Pasted image 20251026085128.png",
-    "math/precalculus/Exercises/ex_3_2_20251025.md",
     "attachments/local_extrema.png",
     "attachments/local_extremums.png",
-    "math/precalculus/Chapter 2/3_Getting_Info_From_the_Function_Graph.md",
     "attachments/Pasted image 20251024153058.png",
-    "math/precalculus/Exercises/ex_3_1_20251023.md",
-    "math/precalculus/Chapter 1/5_Equations.md",
-    "math/precalculus/Chapter 3/1_Quadratic_Functions_and_Models.md",
-    "math/precalculus/Exercises/ex_2_8_20251023.md",
     "math/precalculus/Resources/Precalculus_Chapter_3.pdf",
     "math/precalculus/Chapter 3",
-    "math/precalculus/Chapter 2/8_One_to_One_Functions_and_Their_Inverses.md",
-    "math/precalculus/Chapter 2/7_Combining_Functions.md",
-    "math/precalculus/Exercises/ex_2_7_20251023.md",
-    "math/precalculus/Exercises/ex_2_6_20251022.md",
-    "math/precalculus/Chapter 2/6_Transformations_of_Functions.md",
-    "math/precalculus/Chapter 2/4_Average_Rate_of_Change_of_a_Function.md",
-    "math/precalculus/Chapter 2/1_Functions.md",
     "math/precalculus/Chapter 2",
     "math/precalculus/Resources/Precalculus_Chapter_2.pdf",
     "computer_graphics/Computer_Graphics_Mindmap.canvas",

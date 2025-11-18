@@ -28,7 +28,7 @@ Given the vertex form of a quadratic function $f(x)=a(x-h)^2+k$,
 - If $a>0$, then the minimum value of $f$ is $f(h)=k$
 - If $a<0$, then the maximum value of $f$ is $f(h)=k$
 
-In other words, the vertex is the minimum value if the parabola opens upward, and otherwise the maximum value (opens downward).
+In other words, the vertex is the **minimum** value if the parabola opens upward, and otherwise the **maximum** value (opens downward).
 
 > [!reminder] The standard form of a quadratic function can be converted to the vertex form.
 > $$f(x)=ax^2+bx+c=a\left( x+\frac{b}{2a} \right)^2+c-\frac{b^2}{4a}$$

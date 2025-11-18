@@ -1095,25 +1095,13 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "math/precalculus/Chapter 1/5_Equations.md",
+                    "file": "math/precalculus/Chapter 3/2_Polynomial_Functions_and_Their_Graphs.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": false
                   },
                   "icon": "lucide-file",
-                  "title": "5_Equations"
-                }
-              },
-              {
-                "id": "53857b4d45a14a69",
-                "type": "leaf",
-                "state": {
-                  "type": "release-notes",
-                  "state": {
-                    "currentVersion": "1.10.3"
-                  },
-                  "icon": "lucide-book-up",
-                  "title": "Release Notes 1.10.3"
+                  "title": "2_Polynomial_Functions_and_Their_Graphs"
                 }
               },
               {
@@ -1146,8 +1134,7 @@
                   "title": "ex_3_6_20251103"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "vertical"
@@ -1227,12 +1214,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
+                    "file": "math/precalculus/Chapter 3/2_Polynomial_Functions_and_Their_Graphs.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline"
+                  "title": "Outline of 2_Polynomial_Functions_and_Their_Graphs"
                 }
               }
             ]
@@ -1343,6 +1331,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
+                    "file": "math/precalculus/Chapter 3/2_Polynomial_Functions_and_Their_Graphs.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1352,7 +1341,7 @@
                     "unlinkedCollapsed": false
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks"
+                  "title": "Backlinks for 2_Polynomial_Functions_and_Their_Graphs"
                 }
               }
             ],
@@ -1378,14 +1367,14 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "227e6011dc684b16",
-      "mtime": "2025-11-18T09:24:47-06:00",
+      "active": "6413a063382ebd15",
+      "mtime": "2025-11-18T09:41:06-06:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "math",
           "math/algebra_and_trigonometry",
           "math/precalculus",
-          "math/precalculus/Chapter 1",
+          "math/precalculus/Chapter 2",
           "math/precalculus/Chapter 3",
           "math/precalculus/Exercises",
           "math/precalculus/Resources"

@@ -11,7 +11,7 @@
 
 ## One-to-One Functions : The Horizontal Line Test
 
-A function is called a One-to-One Function if no two elements in its domain have the same image, that is,
+A function is called a <mark class="hltr-trippy">One-to-One Function</mark> if no two elements in its domain have the same image, that is,
 
 $$
 f(x_{1}) \neq f(x_{2}) \text{ whenever } x_{1} \neq x_{2}
@@ -55,8 +55,8 @@ In other words, $f$ takes $x$ to $y$ and $f^{-1}$ takes $y$ back to $x$. The inv
 | Function                                          | Inverse Function          |
 | ------------------------------------------------- | ------------------------- |
 | $f(x) = x + a$                                    | $f^{-1}(x) = x - a$       |
-| $f(x) = ax ) (where ( a \neq 0 )$                 | $f^{-1}(x) = \frac{x}{a}$ |
-| $f(x) = x^2 ), ( x \ge 0$                         | $f^{-1}(x) = \sqrt{x}$    |
+| $f(x) = ax, ( a \neq 0 )$                         | $f^{-1}(x) = \frac{x}{a}$ |
+| $f(x) = x^2, ( x \ge 0 )$                         | $f^{-1}(x) = \sqrt{x}$    |
 | $f(x) = e^x$                                      | $f^{-1}(x) = \ln(x)$      |
 | $f(x) = \sin(x)$, restricted to $[-\pi/2, \pi/2]$ | $f^{-1}(x) = \arcsin(x)$  |
 
