@@ -176,8 +176,10 @@ In this case, there may be $1$ **negative real zero**.
 > [!important] Zero coefficient does not count as sign change. Instead, it skips over.
 > For example, given $2x^4-x^2$, which is actually $2x^4+0x^3-x^2$, we skip over the zero coefficient and just count the sign change between $2$ and $-1$.
 
+> [!important] For a simple function like $f(x)=x^2$ where there are no sign changes, the Descarte's Rule of Signs still holds true; there are no positive nor negative real zeros. There is only the zero root.
+
 ---
-Descarte's Rule of Signs work hand-in-hand with the Rational Zero Theorem, as knowing the number of positive/negative real zeros may possibly reduce the work to find the zeros.
+Descarte's Rule of Signs work hand-in-hand with the *Rational Zero Theorem*, as knowing the number of positive/negative real zeros may possibly reduce the work to find the zeros.
 
 For example, going back to the polynomial above :
 
