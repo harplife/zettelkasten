@@ -76,7 +76,7 @@ $$
 
 ---
 
-
-
 ## Rational Inequalities
+
+Solving for rational inequalities is similar, except we have to watch out for any division-by-zero.
 
