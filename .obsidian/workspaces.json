@@ -1103,6 +1103,21 @@
                   "icon": "lucide-file",
                   "title": "7_Polynomial_and_Rational_Inequalities"
                 }
+              },
+              {
+                "id": "ad6fb47ca6118dad",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "math/precalculus/Chapter 3/4_Real_Zeros_of_Polynomials.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "4_Real_Zeros_of_Polynomials"
+                }
               }
             ]
           }
@@ -1338,7 +1353,7 @@
         }
       },
       "active": "7d0ed6dcd06bfcf3",
-      "mtime": "2025-11-21T13:57:44-06:00",
+      "mtime": "2025-11-21T14:47:44-06:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "math",
