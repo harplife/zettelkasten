@@ -4,4 +4,7 @@
 
 - Polynomial Inequalities
 - Rational Inequalities
-- 
+
+
+## Polynomial Inequalities
+
