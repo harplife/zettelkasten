@@ -2,3 +2,6 @@
 
 ## Key Concepts
 
+- Polynomial Inequalities
+- Rational Inequalities
+- 
