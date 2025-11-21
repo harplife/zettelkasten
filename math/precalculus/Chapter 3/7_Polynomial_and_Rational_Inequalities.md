@@ -80,3 +80,8 @@ $$
 
 Solving for rational inequalities is similar, except we have to watch out for any division-by-zero.
 
+---
+For example, solving for $\frac{1-2x}{x^2-2x-3} \geq 1$ looks like the following.
+
+1. Move all terms to one side
+
