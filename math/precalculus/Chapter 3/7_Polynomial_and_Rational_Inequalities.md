@@ -85,3 +85,47 @@ For example, solving for $\frac{1-2x}{x^2-2x-3} \geq 1$ looks like the following
 
 1. Move all terms to one side
 
+$$
+\begin{align}
+  \frac{1-2x}{x^2-2x-3}-1 &\geq 0 \\
+  \frac{(1-2x)-(x^2-2x-3)}{x^2-2x-3} &\geq 0 \\
+  \frac{4-x^2}{x^2-2x-3} &\geq 0
+\end{align}
+$$
+
+2. Factor
+
+$$
+\frac{(2-x)(2+x)}{(x-3)(x+1)} \geq 0
+$$
+
+3. Find the intervals
+
+The zeros are $-2, -1, 2, 3$ . Thus, the intervals are :
+
+$$
+(-\infty,-2) \quad (-2,-1) \quad (-1,2) \quad (2,3) \quad (3, \infty)
+$$
+
+4. Test the intervals for sign
+
+- $-3$ : $+,-,-,-$
+- $-1.5$ : $+,+,-,-$
+- $0$ : $+,+,-,+$
+- $2.5$ : $-,+,-,+$
+- $4$ : $-,+,+,+$
+
+4. Determine the solution
+
+For the inequality $\frac{(2-x)(2+x)}{(x-3)(x+1)} \geq 0$, the intervals that satisfy the inequality are :
+
+$$
+(-2,-1) \quad (2,3)
+$$
+
+We account for the division-by-zero, and thus the solution is :
+
+$$
+[-2,-1) \cup [2,3)
+$$
+
