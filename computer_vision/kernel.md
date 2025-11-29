@@ -11,4 +11,7 @@ The effects include :
 - Edge Detection
 
 
+## Types of Kernel
 
+- [[gaussian_blur]]
+- 
