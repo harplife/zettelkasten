@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer_vision/kernel_convolution.md",
+                "file": "computer_vision/convolution.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "kernel_convolution"
+              "title": "convolution"
             }
           }
         ],
@@ -131,13 +131,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer_vision/kernel_convolution.md",
+                "file": "computer_vision/convolution.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of kernel_convolution"
+              "title": "Outline of convolution"
             }
           }
         ]
@@ -308,7 +308,7 @@
   "active": "ab9902f8cf0d1684",
   "lastOpenFiles": [
     "computer_vision/gaussian_blur.md",
-    "computer_vision/kernel_convolution.md",
+    "computer_vision/convolution.md",
     "computer_vision/canny_edge_detection.md",
     "computer_graphics/cg_resources.md",
     "computer_vision",

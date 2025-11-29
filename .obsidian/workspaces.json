@@ -1410,13 +1410,13 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "computer_vision/kernel_convolution.md",
+                    "file": "computer_vision/convolution.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": false
                   },
                   "icon": "lucide-file",
-                  "title": "kernel_convolution"
+                  "title": "convolution"
                 }
               }
             ],
@@ -1498,13 +1498,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "computer_vision/kernel_convolution.md",
+                    "file": "computer_vision/convolution.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of kernel_convolution"
+                  "title": "Outline of convolution"
                 }
               }
             ]
@@ -1673,7 +1673,7 @@
         }
       },
       "active": "ab9902f8cf0d1684",
-      "mtime": "2025-11-26T21:16:47-06:00",
+      "mtime": "2025-11-29T09:14:08-06:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "art/generative_art",
