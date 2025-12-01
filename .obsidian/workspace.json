@@ -4,86 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "cfbd1099f24c7637",
+        "id": "48e407348db680e6",
         "type": "tabs",
         "children": [
           {
-            "id": "2bd33d10a94d34e8",
+            "id": "7d0ed6dcd06bfcf3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer_graphics/cg_resources.md",
+                "file": "math/precalculus/Chapter 3/7_Polynomial_and_Rational_Inequalities.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "cg_resources"
+              "title": "7_Polynomial_and_Rational_Inequalities"
             }
           },
           {
-            "id": "f2e06491533028d0",
+            "id": "0d7e863fbc49e3e4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer_vision/canny_edge_detection.md",
+                "file": "math/precalculus/Exercises/ex_3_7_20251122.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "canny_edge_detection"
-            }
-          },
-          {
-            "id": "ab9902f8cf0d1684",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "computer_vision/convolution.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "convolution"
-            }
-          },
-          {
-            "id": "926de71d534011ce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "computer_vision/kernel.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "kernel"
-            }
-          },
-          {
-            "id": "8f643fafcad5dece",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "computer_vision/gaussian_blur.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "gaussian_blur"
+              "title": "ex_3_7_20251122"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +52,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "19ce5a4d65676126",
+            "id": "935f28b3df870977",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -116,7 +71,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "alphabetical",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -161,20 +118,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer_vision/gaussian_blur.md",
+                "file": "math/precalculus/Exercises/ex_3_7_20251122.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of gaussian_blur"
+              "title": "Outline of ex_3_7_20251122"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 347.5
+    "width": 296.5
   },
   "right": {
     "id": "f152d8fd8ec1f4e0",
@@ -190,8 +147,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           },
           {
@@ -210,7 +167,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "study_LearnCpp_GettingStarted.md",
+                "file": "math/precalculus/Chapter 1/2_Exponents_and_Radicals.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -238,7 +195,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of study_LearnCpp_GettingStarted"
+              "title": "Graph of 2_Exponents_and_Radicals"
             }
           },
           {
@@ -247,32 +204,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study_LearnCpp_GettingStarted.md",
+                "file": "math/precalculus/Chapter 1/2_Exponents_and_Radicals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from study_LearnCpp_GettingStarted"
-            }
-          },
-          {
-            "id": "c513c08b64ec3a16",
-            "type": "leaf",
-            "state": {
-              "type": "dictionary-view",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "dictionary-view"
-            }
-          },
-          {
-            "id": "cc30698aa4dc8073",
-            "type": "leaf",
-            "state": {
-              "type": "mathpad-view",
-              "state": {},
-              "icon": "sigma",
-              "title": "Mathpad"
+              "title": "Outgoing links from 2_Exponents_and_Radicals"
             }
           }
         ],
@@ -298,7 +235,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JE_01.md",
+                "file": "math/precalculus/Exercises/ex_3_7_20251122.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -308,7 +245,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for JE_01"
+              "title": "Backlinks for ex_3_7_20251122"
             }
           }
         ],
@@ -316,8 +253,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 362.5,
-    "collapsed": true
+    "width": 362.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -335,10 +271,10 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "8f643fafcad5dece",
+  "active": "0d7e863fbc49e3e4",
   "lastOpenFiles": [
-    "computer_vision/kernel.md",
     "computer_vision/gaussian_blur.md",
+    "computer_vision/kernel.md",
     "computer_vision/convolution.md",
     "attachments/2D_Convolution_Animation.gif",
     "attachments/2D_Convolution_Animation.gif.opdownload",

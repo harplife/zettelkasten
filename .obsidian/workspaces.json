@@ -1703,7 +1703,7 @@
         }
       },
       "active": "8f643fafcad5dece",
-      "mtime": "2025-11-29T10:24:08-06:00",
+      "mtime": "2025-12-01T11:59:47-06:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "art/generative_art",
@@ -1715,5 +1715,5 @@
       }
     }
   },
-  "active": "Computer Graphics"
+  "active": "Math"
 }
