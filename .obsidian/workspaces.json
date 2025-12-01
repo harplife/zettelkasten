@@ -1354,14 +1354,15 @@
         }
       },
       "active": "0d7e863fbc49e3e4",
-      "mtime": "2025-11-26T10:05:56-06:00",
+      "mtime": "2025-12-01T16:02:22-06:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "math",
           "math/algebra_and_trigonometry",
           "math/precalculus",
           "math/precalculus/Chapter 3",
-          "math/precalculus/Exercises"
+          "math/precalculus/Exercises",
+          "math/precalculus/Resources"
         ]
       }
     },
