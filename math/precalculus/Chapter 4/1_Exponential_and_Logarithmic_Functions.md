@@ -38,7 +38,11 @@ Graph of $f(x)=2^x$ :
 
 ![[Pasted image 20251202103151.png|center]]
 
-Exponential Decay occurs when $0 < b < 1$. This function rapidly decreases as $x \to \infty$ and approaches $0$ as $x \to -\infty$.
+<mark class="hltr-trippy">Exponential Decay</mark> occurs when $0 < b < 1$. This function rapidly decreases toward $0$ as $x \to \infty$ and increases as $x \to -\infty$.
 
 Graph of $f(x)=(0.5)^x$ :
+
+![[Pasted image 20251202104741.png|center]]
+
+---
 
