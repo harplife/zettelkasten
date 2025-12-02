@@ -30,7 +30,7 @@ Examples :
 > [!warning] If $b=1$, then $1^x=1$, which is not exponential growth or decay, it's contant.
 
 ---
-Exponential functions are divided into two main families : Growth and Decay.
+Exponential functions are **always increasing** or **always decreasing**. Exponential functions are divided into two main families : **Growth** and **Decay**.
 
 <mark class="hltr-trippy">Exponential Growth</mark> occurs when $b>1$. This function rapidly increases as $x \to \infty$ and approaches $0$ as $x \to -\infty$.
 
@@ -44,6 +44,8 @@ Graph of $f(x)=(0.5)^x$ :
 
 ![[Pasted image 20251202104741.png|center]]
 
+
+
 ---
 The **domain** of exponential functions are all real numbers $(-\infty, \infty)$.
 
@@ -51,3 +53,11 @@ The **range** of exponential functions depends on $a$ :
 - If $a>0$, the range is $(0, \infty)$
 - If $a<0$, the range is $(-\infty, 0)$
 
+---
+Every exponential function has a horizontal asymptote at :
+
+$$
+y = 0
+$$
+
+---
