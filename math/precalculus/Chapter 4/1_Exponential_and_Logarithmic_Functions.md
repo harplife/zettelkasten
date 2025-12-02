@@ -32,5 +32,13 @@ Examples :
 ---
 Exponential functions are divided into two main families : Growth and Decay.
 
-Exponential Growth occurs when $b>1$. This function rapidly increases as $x \to \infty$, and approaches $0$ as $x \to -\infty$.
+<mark class="hltr-trippy">Exponential Growth</mark> occurs when $b>1$. This function rapidly increases as $x \to \infty$ and approaches $0$ as $x \to -\infty$.
+
+Graph of $f(x)=2^x$ :
+
+![[Pasted image 20251202103151.png|center]]
+
+Exponential Decay occurs when $0 < b < 1$. This function rapidly decreases as $x \to \infty$ and approaches $0$ as $x \to -\infty$.
+
+Graph of $f(x)=(0.5)^x$ :
 
