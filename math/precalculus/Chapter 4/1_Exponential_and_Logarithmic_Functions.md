@@ -29,7 +29,9 @@ Examples :
 
 > [!warning] If $b=1$, then $1^x=1$, which is not exponential growth or decay, it's contant.
 
----
+
+### Properties of Exponential Functions
+
 Exponential functions are **always increasing** or **always decreasing**. Exponential functions are divided into two main families : **Growth** and **Decay**.
 
 <mark class="hltr-trippy">Exponential Growth</mark> occurs when $b>1$. This function rapidly increases as $x \to \infty$ and approaches $0$ as $x \to -\infty$.
@@ -54,10 +56,55 @@ The **range** of exponential functions depends on $a$ :
 - If $a<0$, the range is $(-\infty, 0)$
 
 ---
-Every exponential function has a horizontal asymptote at :
+Every exponential function has a horizontal asymptote at (disregarding vertical shift) :
 
 $$
 y = 0
 $$
 
+This also means there is **no x-intercept**.
+
 ---
+Every exponential function has a y-intercept at $f(0)=a$.
+
+Which, in most cases, means $f(0)=1$. For $f(x)=2^x$, the y-intercept is $f(0)=2^0=1$.
+
+---
+> [!warning] This is something that will be covered more later.
+
+The function
+
+$$
+f(x)=e^x
+$$
+
+is called the <mark class="hltr-trippy">Natural Exponential Function</mark>.
+
+This is a special function where its rate of change at any point is equal to its value (which is something we'll learn in Calculus).
+
+
+### Transformations of Exponential Functions
+
+Given the base function :
+
+$$
+f(x) = b^x \quad (b>0, b \neq 1)
+$$
+
+Every transformed exponential function can be written in the form :
+
+$$
+g(x) = a \cdot b^{c(x-h)} + k
+$$
+
+Each parameter changes the graph in a specific way :
+
+| Parameter | Effect                                               |
+| --------- | ---------------------------------------------------- |
+| $a$       | Vertical stretch/shrink & reflection across x-axis   |
+| $c$       | Horizontal stretch/shrink & reflection across y-axis |
+| $h$       | Horizontal shift                                     |
+| $k$       | Vertical shift & moves the horizontal asymptote      |
+
+
+
