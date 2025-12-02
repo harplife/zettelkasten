@@ -30,4 +30,7 @@ Examples :
 > [!warning] If $b=1$, then $1^x=1$, which is not exponential growth or decay, it's contant.
 
 ---
-Exponential functions 
+Exponential functions are divided into two main families : Growth and Decay.
+
+Exponential Growth occurs when $b>1$. This function rapidly increases as $x \to \infty$, and approaches $0$ as $x \to -\infty$.
+
