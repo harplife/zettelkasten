@@ -9,3 +9,25 @@
 
 ## Exponential Functions
 
+An <mark class="hltr-trippy">Exponential Function</mark> is a function where the variable is in the exponent :
+
+$$
+f(x) = a \cdot b^x
+$$
+
+where :
+- $a$ is a nonzero constant (vertical scale/shift factor)
+- $b$ is the base, which must be positive and not equal to $1$
+
+Examples :
+- $2^x$
+- $5 \cdot 3^x$
+- $0.5^x$
+- $-4 \cdot 1.2^x$
+
+> [!warning] If $b<0$, the function oscillates and becomes undefined for many real $x$.
+
+> [!warning] If $b=1$, then $1^x=1$, which is not exponential growth or decay, it's contant.
+
+---
+Exponential functions 
