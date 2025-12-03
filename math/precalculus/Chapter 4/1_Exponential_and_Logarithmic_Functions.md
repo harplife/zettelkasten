@@ -106,5 +106,10 @@ Each parameter changes the graph in a specific way :
 | $h$       | Horizontal shift                                     |
 | $k$       | Vertical shift & moves the horizontal asymptote      |
 
+> [!important] Multiplying the exponent changes the rate of growth (or decay).
+> $$b^{cx}=(b^c)^x$$
+> 
+> Not only does this stretch/shrink the graph horizontally, it also **changes the effective base**. For example : $$2^{2x}=(2^2)^x=4^x$$
+
 
 
