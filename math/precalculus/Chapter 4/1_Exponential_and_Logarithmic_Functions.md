@@ -119,3 +119,24 @@ Skip
 
 ## Compound Interest
 
+<mark class="hltr-trippy">Compound Interest</mark> is interest that is calculated on both the initial amount (called **Principal**) and on previously earned interest.
+
+If a principal $P$ is invested at an annual interest rate $r$ (written as a decimal), compounded $n$ times per year, then the amount after $t$ years is :
+
+$$
+A = P\left( 1+\frac{r}{n} \right)^{nt}
+$$
+
+As it can be seen, compound interest is in the form of an exponential function.
+
+If we set :
+- $a=P$
+- $x=t$
+- $b=\left( 1+\frac{r}{n} \right)^{n}$
+
+Then :
+
+$$
+A(t) = P \cdot b^t
+$$
+
