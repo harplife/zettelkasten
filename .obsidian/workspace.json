@@ -21,8 +21,21 @@
               "icon": "lucide-file",
               "title": "1_Exponential_and_Logarithmic_Functions"
             }
+          },
+          {
+            "id": "822b461551740631",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.6"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.6"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -102,13 +115,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "math/precalculus/Chapter 4/1_Exponential_and_Logarithmic_Functions.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 1_Exponential_and_Logarithmic_Functions"
+              "title": "Outline"
             }
           }
         ]
@@ -219,7 +231,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "math/precalculus/Chapter 4/1_Exponential_and_Logarithmic_Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -229,7 +240,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 1_Exponential_and_Logarithmic_Functions"
+              "title": "Backlinks"
             }
           }
         ],
@@ -255,7 +266,7 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "e2611cdf90bdab05",
+  "active": "227e6011dc684b16",
   "lastOpenFiles": [
     "attachments/Pasted image 20251202104741.png",
     "attachments/Pasted image 20251202103151.png",
