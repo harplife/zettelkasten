@@ -124,19 +124,69 @@ Skip
 If a principal $P$ is invested at an annual interest rate $r$ (written as a decimal), compounded $n$ times per year, then the amount after $t$ years is :
 
 $$
-A = P\left( 1+\frac{r}{n} \right)^{nt}
+A(t) = P\left( 1+\frac{r}{n} \right)^{nt}
 $$
 
-As it can be seen, compound interest is in the form of an exponential function.
+Compound interest is already in the form of an exponential function.
+
+Given the general exponential :
+
+$$
+f(x) = a \cdot b^x
+$$
 
 If we set :
 - $a=P$
 - $x=t$
 - $b=\left( 1+\frac{r}{n} \right)^{n}$
 
-Then :
+Then we can get :
 
 $$
 A(t) = P \cdot b^t
+$$
+
+> [!important] Note that compound interest *grows exponentially* because $b$ will always be higher than $1$.
+
+---
+To note, simple interest looks like this :
+
+$$
+A(t) = P(1+rt)
+$$
+
+which is a linear function.
+
+---
+Annual compound interest looks like this :
+
+$$
+A = P(1+r)^t
+$$
+
+Monthly compound interest looks like this :
+
+$$
+A = P\left( 1+\frac{r}{12} \right)^{12t}
+$$
+
+---
+For example, let's calculate monthly compound interest if :
+- $P=1000$
+- $r=0.12$
+- $t=3$
+
+Plugging in the values according to the formula, we get :
+
+$$
+1000\left( 1+\frac{0.12}{12} \right)^{12(3)} = \$1430.77
+$$
+
+In other words, with the initial amount of investment (or loan) of $1000, the total amount with compound interest after 3 years is $1430.77.
+
+Compare that with simple interest :
+
+$$
+1000(1+0.12(3)) = \$1360.00
 $$
 

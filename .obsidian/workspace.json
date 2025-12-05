@@ -23,15 +23,18 @@
             }
           },
           {
-            "id": "822b461551740631",
+            "id": "6b56407959df4560",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.10.6"
+                "file": "math/precalculus/Exercises/ex_4_1_20251205.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.10.6"
+              "icon": "lucide-file",
+              "title": "ex_4_1_20251205"
             }
           }
         ],
@@ -115,12 +118,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "math/precalculus/Exercises/ex_4_1_20251205.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of ex_4_1_20251205"
             }
           }
         ]
@@ -231,6 +235,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "math/precalculus/Exercises/ex_4_1_20251205.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -240,7 +245,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for ex_4_1_20251205"
             }
           }
         ],
@@ -266,12 +271,13 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "227e6011dc684b16",
+  "active": "6b56407959df4560",
   "lastOpenFiles": [
+    "math/precalculus/Chapter 4/1_Exponential_and_Logarithmic_Functions.md",
+    "math/precalculus/Exercises/ex_4_1_20251205.md",
     "attachments/Pasted image 20251202104741.png",
     "attachments/Pasted image 20251202103151.png",
     "math/precalculus/Chapter 3/7_Polynomial_and_Rational_Inequalities.md",
-    "math/precalculus/Chapter 4/1_Exponential_and_Logarithmic_Functions.md",
     "math/precalculus/Exercises/ex_3_7_20251122.md",
     "math/precalculus/Chapter 4",
     "math/precalculus/Resources/Precalculus_Chapter_4.pdf",
@@ -309,7 +315,6 @@
     "attachments/Pasted image 20251029145940.png",
     "attachments/Pasted image 20251026092610.png",
     "attachments/Pasted image 20251026085128.png",
-    "attachments/local_extrema.png",
     "math/precalculus/Resources/Precalculus_Chapter_3.pdf",
     "math/precalculus/Chapter 3",
     "math/precalculus/Chapter 2",
