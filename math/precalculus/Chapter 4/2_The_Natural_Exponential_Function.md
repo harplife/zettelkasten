@@ -63,3 +63,5 @@ $$
 f(x)=e^x
 $$
 
+The Natural Exponential Function is the only exponential function whose proportional growth rate is exactly $1$. This makes for the most "balanced" growth, which can be used as a basis for many exponential growth problems.
+
