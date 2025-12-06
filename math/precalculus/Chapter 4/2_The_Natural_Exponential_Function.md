@@ -63,5 +63,43 @@ $$
 f(x)=e^x
 $$
 
-The Natural Exponential Function is the only exponential function whose proportional growth rate is exactly $1$. This makes for the most "balanced" growth, which can be used as a basis for many exponential growth problems.
+The Natural Exponential Function is the only exponential function whose proportional growth rate is exactly $1$ - which means the rate of change is proportional to the current value. This makes for the most "stable" growth, which can be used as a basis for solving many exponential growth problems.
+
+> [!important] The natural exponential function is often referred to as *the exponential function*.
+> Also, it can be referred to as $\exp x$.
+
+> [!warning] All of this will make more sense once we explore **Logarithms** and **Natural Logs**.
+
+
+## Continuously Compounded Interest
+
+We had previously covered above how $e$ gets its value :
+
+$$
+e = \lim_{ n \to \infty } \left( 1+\frac{1}{n} \right)^n \approx 2.718\dots
+$$
+
+If we recall the compound interest formula :
+
+$$
+A(t) = P\left( 1+\frac{r}{n} \right)^{nt}
+$$
+
+If we were to compound infinitely (or *continuously*), the formula then becomes :
+
+$$
+A(t) = Pe^{rt}
+$$
+
+This is the <mark class="hltr-trippy">Continuously Compounded Interest</mark> (or **Continuous Compounding**), which serves as the theoretical upper limit of how fast the amount can grow under a given interest rate - *without changing the rate itself*.
+
+For example, if we were to find the amount after 3 years if $1000 is invested at an interest rate of 12% per year, we can use continuous compounding to figure out what the maximum amount would be.
+
+$$
+A(3) = 1000e^{(0.12)3} = 1000e^{0.36} = 1433.33
+$$
+
+If we were to compound the interest annually (\$1404.93), quarterly (\$1425.76), or monthly (\$1430.77), it would be less than the maximum.
+
+> [!important] Continuous compounding is a good way to get a realistic approximation.
 
