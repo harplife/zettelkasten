@@ -9,7 +9,7 @@
 
 ## The Euler's Number
 
-Euler's Number, written as $e$, is a mathematical constant which is irrational and naturally appears in situations involving growth and decay. It is approximately equal to :
+<mark class="hltr-trippy">Euler's Number</mark>, written as $e$, is a mathematical constant which is irrational and naturally appears in situations involving growth and decay. It is approximately equal to :
 
 $$
 e \approx 2.718281828\dots
@@ -56,4 +56,10 @@ Which approximates to $2.718\dots$
 
 
 ## The Natural Exponential Function
+
+The Euler's Number is the base of the <mark class="hltr-trippy">Natural Exponential Function</mark> :
+
+$$
+f(x)=e^x
+$$
 
