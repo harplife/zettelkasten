@@ -40,9 +40,10 @@ $$
 ### Properties of Logarithms
 
 
-| Property            | Equivalent |
-| ------------------- | ---------- |
-| $\log_{a}(1)=0$     | $a^0=1$    |
-| $\log_{a}(a)=1$     | $a^1=a$    |
-| $\log_{a}(a^x)=x$   | $a^x=a^x$  |
-| $a^{\log_{a}(x)}=x$ |            |
+| Property            | Reasoning |
+| ------------------- | --------- |
+| $\log_{a}(1)=0$     | $a^0=1$   |
+| $\log_{a}(a)=1$     | $a^1=a$   |
+| $\log_{a}(a^x)=x$   | $a^x=a^x$ |
+| $a^{\log_{a}(x)}=x$ | see below |
+
