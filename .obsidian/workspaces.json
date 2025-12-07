@@ -1095,13 +1095,13 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "math/precalculus/Chapter 4/1_Exponential_and_Logarithmic_Functions.md",
+                    "file": "math/precalculus/Chapter 4/1_Exponential_Functions.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": false
                   },
                   "icon": "lucide-file",
-                  "title": "1_Exponential_and_Logarithmic_Functions"
+                  "title": "1_Exponential_Functions"
                 }
               },
               {
@@ -1133,9 +1133,24 @@
                   "icon": "lucide-file",
                   "title": "2_The_Natural_Exponential_Function"
                 }
+              },
+              {
+                "id": "67c56e99ba99b553",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "math/precalculus/Exercises/ex_4_2_20251206.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "ex_4_2_20251206"
+                }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -1215,13 +1230,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "math/precalculus/Chapter 4/2_The_Natural_Exponential_Function.md",
+                    "file": "math/precalculus/Exercises/ex_4_2_20251206.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of 2_The_Natural_Exponential_Function"
+                  "title": "Outline of ex_4_2_20251206"
                 }
               }
             ]
@@ -1332,7 +1347,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "math/precalculus/Chapter 4/2_The_Natural_Exponential_Function.md",
+                    "file": "math/precalculus/Exercises/ex_4_2_20251206.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1342,7 +1357,7 @@
                     "unlinkedCollapsed": false
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for 2_The_Natural_Exponential_Function"
+                  "title": "Backlinks for ex_4_2_20251206"
                 }
               }
             ],
@@ -1368,8 +1383,8 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "c9c48a253ea75207",
-      "mtime": "2025-12-06T17:38:20-06:00",
+      "active": "67c56e99ba99b553",
+      "mtime": "2025-12-06T18:02:31-06:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "math",

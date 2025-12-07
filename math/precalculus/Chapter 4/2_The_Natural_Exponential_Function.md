@@ -85,7 +85,17 @@ $$
 A(t) = P\left( 1+\frac{r}{n} \right)^{nt}
 $$
 
-If we were to compound infinitely (or *continuously*), the formula then becomes :
+Suppose $m=\frac{n}{r}$ :
+
+$$
+\begin{align}
+  A(t) &= P\left( 1+\frac{r}{n} \right)^{nt} \\
+       &= P\left[ \left( 1+\frac{r}{n} \right)^{n/r} \right]^{rt} \\
+       &= P\left[ \left( 1+\frac{1}{m} \right)^m \right]^{rt}
+\end{align}
+$$
+
+As $m$ becomes infinitely large, the quantity $\left( 1+\frac{1}{m} \right)^m$ approaches the number $e$. Thus, we can define the formula when compounding is done continuously :
 
 $$
 A(t) = Pe^{rt}
