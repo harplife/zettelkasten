@@ -10,7 +10,7 @@
 
 ## Logarithmic Functions
 
-A L<mark class="hltr-trippy">ogarithmic Function</mark> is the inverse of an exponential function.
+A <mark class="hltr-trippy">Logarithmic Function</mark> is the inverse of an exponential function.
 
 Given an exponential with base $a$ :
 
@@ -34,4 +34,8 @@ $$
   2^3 &= 8
 \end{align}
 $$
+
+> [!important] We can simply refer to logarithmic functions as **logarithms**.
+
+### Properties of Logarithms
 
