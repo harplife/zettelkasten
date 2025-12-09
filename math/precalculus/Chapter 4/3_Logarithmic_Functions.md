@@ -192,3 +192,37 @@ Many real-world phenomena vary across **orders of magnitude** (powers of 10). Th
 
 ## Natural Logarithms
 
+The <mark class="hltr-trippy">Natural Logarithm</mark> is the logarithm with base $e$ :
+
+$$
+\log_{e}(x)
+$$
+
+Natural logs are denoted as :
+
+$$
+\ln(x)
+$$
+
+As per the definition of logarithms :
+
+$$
+y = \ln(x) \iff e^y = x
+$$
+
+Natural log is the inverse of the natural exponential function :
+
+$$
+\text{if } f(x)=e^x \text{, then } f^{-1}(x)=\ln(x)
+$$
+
+It follows that :
+
+$$
+\ln(e^x)=x \iff e^{\ln(x)}=x
+$$
+
+
+
+Natural log is just as important as the Euler's Number $e$ and the exponential function $e^x$, because they appear everywhere in nature and serve as the basis for solving any growth/decay problems in the real world.
+
