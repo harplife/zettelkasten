@@ -222,7 +222,9 @@ $$
 \ln(e^x)=x \iff e^{\ln(x)}=x
 $$
 
-
-
 Natural log is just as important as the Euler's Number $e$ and the exponential function $e^x$, because they appear everywhere in nature and serve as the basis for solving any growth/decay problems in the real world.
+
+> [!important] We will learn later in Calculus that the natural log is the only logarithm whose derivative is "clean".
+> The natural log has a simple, elegant derivate : $$\frac{d}{dx}\ln(x)=\frac{1}{x}$$
+
 
