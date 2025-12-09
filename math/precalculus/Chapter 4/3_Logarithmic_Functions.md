@@ -80,9 +80,13 @@ We can easily deduce that $\log_{10}(100)=10$, and so $10^{10}=100$. It's like a
 
 ## Graphs of Logarithmic Functions
 
-Graphs of logarithmic functions look like this :
+Given base function $f(x)=\log_{a}(x)$ with $a>0$, graphs of logarithmic functions look like this :
 
 ![[Pasted image 20251208215456.png|center]]
+
+Note :
+- The x-intercept is at $(1,0)$, and there is no y-intercept.
+- The vertical asymptote is at $x=0$, and there is no horizontal asymptote.
 
 Logarithms are inverse of exponentials, it follows that a logarithmic function is a reflection about the line $y=x$ of the corresponding exponential function.
 
@@ -90,13 +94,30 @@ Logarithms are inverse of exponentials, it follows that a logarithmic function i
 
 Also, since $f(x)=a^x$ has domain $\mathbb{R}$ and range $(0,\infty)$, it follows that its inverse function $y=\log_{a}(x)$ has domain $(0,\infty)$ and range $\mathbb{R}$.
 
+---
+Given base function $f(x)=\log_{a}(x)$ with $0<a<1$, graphs of logarithmic functions look like this :
+
+![[Pasted image 20251208221620.png | center]]
+
+Compare to the graph where $a>1$, this graph is a reflection over x-axis.
+
+
+### Intercepts and asymptotes of logarithms
+
+For base function :
+
+$$
+f(x) = \log_{a}(x) \quad \text{with } a > 1
+$$
+
+
 
 ### Transformations of Logarithms
 
 Given this basic logarithmic function :
 
 $$
-f(x)=\log_{a}(x) \quad \text{with } a>1, a \neq 1
+f(x)=\log_{a}(x) \quad \text{with } a>1
 $$
 
 Every transformed logarithmic function can be written in the form :
