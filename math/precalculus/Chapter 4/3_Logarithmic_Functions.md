@@ -136,8 +136,50 @@ $$
 | --------- | ---------------------------------------------------- | ------------------------------------------------------------------- |
 | $A$       | Vertical stretch/shrink & reflection across x-axis   |                                                                     |
 | $B$       | Horizontal stretch/shrink & reflection across y-axis | Domain changes to $(-\infty, 0)$, and x-intercept moves to $(-1,0)$ |
-| $h$       | Horizontal shift                                     | Vertical asymptote at $x=h$, and x-intercept at $(1+h, 0)$          |
-| $k$       | Vertical shift                                       |                                                                     |
+| $h$       | Horizontal shift                                     | Moves vertical asymptote to $x=h$, and x-intercept to $(1+h, 0)$    |
+| $k$       | Vertical shift                                       | Moves x-intercept to $(a^{-k},0)$                                   |
+
+---
+Given vertical shift to the base function :
+
+$$
+g(x)=\log_{a}(x)+k
+$$
+
+We can find the new x-intercept by having the function equal to zero and solving for $x$ :
+
+$$
+\begin{align}
+  \log_{a}(x)+k &= 0 \\
+  \log_{a}(x) &= -k \\
+  x &= a^{-k}
+\end{align}
+$$
+
+For example, for $g(x)=\log_{2}(x)-2$ :
+
+$$
+\begin{align}
+  \log_{2}(x)-2 &= 0 \\
+  \log_{2}(x) &= 2 \\
+  x &= 2^2 = 4
+\end{align}
+$$
+
+The x-intercept is at $(4, 0)$.
 
 
-## 
+## Common Logarithms
+
+The <mark class="hltr-trippy">Common Logarithm</mark> is the logarithm with base 10 :
+
+$$
+\log_{10}(x)
+$$
+
+We denote common logarithms by omitting the base :
+
+$$
+\log(x)
+$$
+
