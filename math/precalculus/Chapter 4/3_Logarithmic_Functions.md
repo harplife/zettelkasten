@@ -89,7 +89,7 @@ $$
 Every transformed logarithmic function can be written in the form :
 
 $$
-f(x) = A
+f(x) = A \cdot \log_{a}(B(x-h))+k
 $$
 
 
