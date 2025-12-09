@@ -136,7 +136,7 @@ $$
 | --------- | ---------------------------------------------------- | ------------------------------------------------------------------- |
 | $A$       | Vertical stretch/shrink & reflection across x-axis   |                                                                     |
 | $B$       | Horizontal stretch/shrink & reflection across y-axis | Domain changes to $(-\infty, 0)$, and x-intercept moves to $(-1,0)$ |
-| $h$       | Horizontal shift & moves the vertical asymptote      | Vertical asymptote at $x=h$, and x-intercept at $(1+h, 0)$          |
+| $h$       | Horizontal shift                                     | Vertical asymptote at $x=h$, and x-intercept at $(1+h, 0)$          |
 | $k$       | Vertical shift                                       |                                                                     |
 
 
