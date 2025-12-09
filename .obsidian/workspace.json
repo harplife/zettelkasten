@@ -8,21 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "67c56e99ba99b553",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "math/precalculus/Exercises/ex_4_2_20251206.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "ex_4_2_20251206"
-            }
-          },
-          {
             "id": "0952f2d1c65da6a2",
             "type": "leaf",
             "state": {
@@ -35,6 +20,21 @@
               },
               "icon": "lucide-file",
               "title": "3_Logarithmic_Functions"
+            }
+          },
+          {
+            "id": "2362350baf0e31d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "math/precalculus/Exercises/ex_4_3_20251209.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "ex_4_3_20251209"
             }
           }
         ],
@@ -118,13 +118,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "math/precalculus/Chapter 4/3_Logarithmic_Functions.md",
+                "file": "math/precalculus/Exercises/ex_4_3_20251209.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 3_Logarithmic_Functions"
+              "title": "Outline of ex_4_3_20251209"
             }
           }
         ]
@@ -235,7 +235,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "math/precalculus/Chapter 4/3_Logarithmic_Functions.md",
+                "file": "math/precalculus/Exercises/ex_4_3_20251209.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -245,7 +245,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 3_Logarithmic_Functions"
+              "title": "Backlinks for ex_4_3_20251209"
             }
           }
         ],
@@ -271,10 +271,11 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "0952f2d1c65da6a2",
+  "active": "2362350baf0e31d6",
   "lastOpenFiles": [
-    "math/precalculus/Chapter 4/1_Exponential_Functions.md",
     "math/precalculus/Chapter 4/3_Logarithmic_Functions.md",
+    "math/precalculus/Exercises/ex_4_3_20251209.md",
+    "math/precalculus/Chapter 4/1_Exponential_Functions.md",
     "attachments/Pasted image 20251208221620.png",
     "attachments/Pasted image 20251208215648.png",
     "attachments/Pasted image 20251208215456.png",

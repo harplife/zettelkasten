@@ -37,6 +37,24 @@ $$
 
 > [!important] We can simply refer to logarithmic functions as **logarithms**.
 
+---
+The **domain** and the **range** of exponentials are all real numbers $(-\infty, \infty)$ and $(0, \infty)$. Since logarithms are inverse of exponentials, it follows that the domain and the range of logarithms are all real numbers $(0, \infty)$ and $(-\infty, \infty)$.
+- This also means that while exponentials have horizontal asymptote at $y=0$, logarithms have vertical asymptote at $x=0$.
+
+In the case that the degree of $x$ is higher than $1$ (e.g. $\log_{a}(x^2)$), the domain is calculated by solving for inequality $x>0$ for the values inside the argument.
+
+For example, the domain of the function $f(x)=\log_{2}(4-x^2)$ :
+
+$$
+\begin{align}
+  \text{Domain : }\{ x \mid 4-x^2 > 0 \} &= \{ x \mid x^2<4 \} \\
+  &= \{ x \mid |x| < 2 \} \\
+  &= \{ x \mid -2 < x < 2 \} \\
+  &= (-2, 2)
+\end{align}
+$$
+
+---
 As exponentials describe proportional growth and decay, logarithms describe the **rate**, **scale**, or **time** required in exponential processes.
 
 A logarithm is used to tell how many times a value must multiply by a base to reach a certain target. For example, For $2$ to reach $32$, it must multiply by itself by $\log_{2}(32)=5$ times.
