@@ -78,6 +78,9 @@ $$
 We can easily deduce that $\log_{10}(100)=10$, and so $10^{10}=100$. It's like applying exponential and its inverse at the same time, just to get back to its identity.
 
 
+## Graphs of Logarithmic Functions
+
+
 ### Transformations of Logarithms
 
 Given this basic logarithmic function :
@@ -98,5 +101,3 @@ $$
 | $B$       | Horizontal stretch/shrink & reflection across y-axis |
 | $h$       | Horizontal shift & moves the vertical asymptote      |
 | $k$       | Vertical shift                                       |
-
-## Graphs of Logarithmic Functions

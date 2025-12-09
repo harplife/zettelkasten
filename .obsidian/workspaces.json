@@ -1135,7 +1135,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -1215,13 +1215,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "math/precalculus/Chapter 4/1_Exponential_Functions.md",
+                    "file": "math/precalculus/Chapter 4/3_Logarithmic_Functions.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of 1_Exponential_Functions"
+                  "title": "Outline of 3_Logarithmic_Functions"
                 }
               }
             ]
@@ -1332,7 +1332,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "math/precalculus/Chapter 4/1_Exponential_Functions.md",
+                    "file": "math/precalculus/Chapter 4/3_Logarithmic_Functions.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1342,7 +1342,7 @@
                     "unlinkedCollapsed": false
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for 1_Exponential_Functions"
+                  "title": "Backlinks for 3_Logarithmic_Functions"
                 }
               }
             ],
@@ -1368,8 +1368,8 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "2b7f4b0d4541e866",
-      "mtime": "2025-12-08T21:40:23-06:00",
+      "active": "0952f2d1c65da6a2",
+      "mtime": "2025-12-08T21:40:40-06:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "math",

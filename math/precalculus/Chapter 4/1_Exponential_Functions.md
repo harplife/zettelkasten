@@ -115,8 +115,6 @@ Each parameter changes the graph in a specific way :
 > Not only does this stretch/shrink the graph horizontally, it also **changes the effective base**. For example : $$2^{2x}=(2^2)^x=4^x$$
 
 
-
-
 ## Compound Interest
 
 <mark class="hltr-trippy">Compound Interest</mark> is interest that is calculated on both the initial amount (called **Principal**) and on previously earned interest.
