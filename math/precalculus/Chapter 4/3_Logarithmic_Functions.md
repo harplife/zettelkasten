@@ -37,6 +37,14 @@ $$
 
 > [!important] We can simply refer to logarithmic functions as **logarithms**.
 
+As exponentials describe proportional growth and decay, logarithms describe the **rate**, **scale**, or **time** required in exponential processes.
+
+A logarithm is used to tell how many times a value must multiply by a base to reach a certain target. For example, For $2$ to reach $32$, it must multiply by itself by $\log_{2}(32)=5$ times.
+
+A logarithm is used to tell how much time is required for an exponential process to reach a certain value. For example, for continuous compound interest, we can use a logarithm to calculate the time it takes for an investment to reach a certain amount (save the details for later).
+
+A logarithm is used to compress huge ranges of numbers (scales that follow the power law) to a manageable scale. For example, logarithms scale sound loudness by compressing the vast range of sound intensities into a manageable decibel (dB) scale that mirrors human hearing, which perceives loudness logarithmically (not linearly).
+
 ### Properties of Logarithms
 
 | Property            | Reasoning |
