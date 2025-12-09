@@ -78,13 +78,19 @@ $$
 We can easily deduce that $\log_{10}(100)=10$, and so $10^{10}=100$. It's like applying exponential and its inverse at the same time, just to get back to its identity.
 
 
+### Transformations of Logarithms
+
+Given this basic logarithmic function :
+
+$$
+f(x)=\log_{a}(x) \quad \text{with } a>1, a \neq 1
+$$
+
+Every transformed logarithmic function can be written in the form :
+
+$$
+f(x) = A
+$$
+
+
 ## Graphs of Logarithmic Functions
-
-Given the logarithm function
-
-$$
-f(x)=\log_{a}(x) \quad (a>1)
-$$
-
-We can use the property $\log_{a}(1)=0$ to deduce that the x-intercept is at $(1,0)$.
-

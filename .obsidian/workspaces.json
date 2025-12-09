@@ -1105,6 +1105,21 @@
                 }
               },
               {
+                "id": "2b7f4b0d4541e866",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "math/precalculus/Chapter 4/1_Exponential_Functions.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "1_Exponential_Functions"
+                }
+              },
+              {
                 "id": "0952f2d1c65da6a2",
                 "type": "leaf",
                 "state": {
@@ -1120,7 +1135,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -1354,7 +1369,7 @@
         }
       },
       "active": "0952f2d1c65da6a2",
-      "mtime": "2025-12-07T07:54:15-06:00",
+      "mtime": "2025-12-08T21:33:41-06:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "math",
