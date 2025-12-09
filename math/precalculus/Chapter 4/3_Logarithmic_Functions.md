@@ -183,3 +183,12 @@ $$
 \log(x)
 $$
 
+Many real-world phenomena vary across **orders of magnitude** (powers of 10). This makes base 10 logs the natural measurement tools for anything that grows or shrinks by powers of 10. For example :
+- pH scale (acidity)
+- Sound intensity (decibels)
+- Earthquake magnitude (Richter scale)
+- Scientific data
+
+
+## Natural Logarithms
+
