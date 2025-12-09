@@ -92,5 +92,11 @@ $$
 f(x) = A \cdot \log_{a}(B(x-h))+k
 $$
 
+| Parameter | Effect                                               |
+| --------- | ---------------------------------------------------- |
+| $A$       | Vertical stretch/shrink & reflection across x-axis   |
+| $B$       | Horizontal stretch/shrink & reflection across y-axis |
+| $h$       | Horizontal shift & moves the vertical asymptote      |
+| $k$       | Vertical shift                                       |
 
 ## Graphs of Logarithmic Functions

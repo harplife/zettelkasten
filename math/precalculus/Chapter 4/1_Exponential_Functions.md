@@ -83,6 +83,9 @@ is called the <mark class="hltr-trippy">Natural Exponential Function</mark>.
 This is a special function where its rate of change at any point is equal to its value (which is something we'll learn in Calculus).
 
 
+## Graphs of Exponential Functions
+
+
 ### Transformations of Exponential Functions
 
 Given the base function :
@@ -112,9 +115,6 @@ Each parameter changes the graph in a specific way :
 > Not only does this stretch/shrink the graph horizontally, it also **changes the effective base**. For example : $$2^{2x}=(2^2)^x=4^x$$
 
 
-## Graphs of Exponential Functions
-
-Skip
 
 
 ## Compound Interest
