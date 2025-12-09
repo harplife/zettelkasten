@@ -46,7 +46,7 @@ $$
 | $\log_{a}(a^x)=x$   | $a^x=a^x$ |
 | $a^{\log_{a}(x)}=x$ | see below |
 
-In order to understand the property $a^{\log_{a}(x)=x}$, we must first look back on the definition of a logarithm :
+In order to understand the property $a^{\log_{a}(x)}=x$, we must first look back on the definition of a logarithm :
 
 $$
 y = \log_{a}(x) \iff a^y=x
@@ -55,13 +55,7 @@ $$
 This means, for $a^y$, we can replace $y$ with $\log_{a}(x)$ in order to get :
 
 $$
-a^{\log_{a}(x)} = a^y
-$$
-
-Because $a^y=x$, this also means that :
-
-$$
-a^{\log_{a}(x)}=x
+a^{\log_{a}(x)} = x
 $$
 
 Intuitively, we can think of it like :
@@ -72,10 +66,10 @@ Intuitively, we can think of it like :
 For example :
 
 $$
-10^{\log_{10}(100)} = 100
+2^{\log_{2}(8)} = 8
 $$
 
-We can easily deduce that $\log_{10}(100)=10$, and so $10^{10}=100$. It's like applying exponential and its inverse at the same time, just to get back to its identity.
+We can easily deduce that $\log_{2}(8)=3$, and so $2^{3}=8$. It's like applying exponential and its inverse at the same time, just to get back to its identity.
 
 
 ## Graphs of Logarithmic Functions
@@ -99,17 +93,29 @@ Given base function $f(x)=\log_{a}(x)$ with $0<a<1$, graphs of logarithmic funct
 
 ![[Pasted image 20251208221620.png | center]]
 
-Compare to the graph where $a>1$, this graph is a reflection over x-axis.
+Compare to the graph where $a>1$, this graph is a *reflection across x-axis*.
 
+This points out the interesting fact that $-\log_{a}(x) = \log_{1/a}(x)$.
 
-### Intercepts and asymptotes of logarithms
+> [!warning] We haven't covered natural logs and the change-of-base formula yet, but the jist is that $\ln(x) = \log_{e}(x)$ and a logarithm $\log_{a}(x)$ is equivalent to $\frac{\ln(x)}{\ln(a)}$.
 
-For base function :
+In order to understand how this happens, we first start with the change-of-base formula :
 
 $$
-f(x) = \log_{a}(x) \quad \text{with } a > 1
+\log_{a}(x)=\frac{\ln(x)}{\ln(a)}
 $$
 
+Apply a negative sign :
+
+$$
+-\log_{a}(x)=-\frac{\ln(x)}{\ln(a)}=\frac{\ln(x)}{-\ln(a)}
+$$
+
+$-\ln(a)$ is the same as $\ln(a^{-1})$, which is also same as $\ln(1/a)$, so :
+
+$$
+-\log_{a}(x)=\frac{\ln(x)}{\ln(1/a)}=\log_{1/a}(x)
+$$
 
 
 ### Transformations of Logarithms
@@ -117,7 +123,7 @@ $$
 Given this basic logarithmic function :
 
 $$
-f(x)=\log_{a}(x) \quad \text{with } a>1
+f(x)=\log_{a}(x) \quad \text{with } a>0, a \neq 1
 $$
 
 Every transformed logarithmic function can be written in the form :
@@ -126,9 +132,12 @@ $$
 f(x) = A \cdot \log_{a}(B(x-h))+k
 $$
 
-| Parameter | Effect                                               |
-| --------- | ---------------------------------------------------- |
-| $A$       | Vertical stretch/shrink & reflection across x-axis   |
-| $B$       | Horizontal stretch/shrink & reflection across y-axis |
-| $h$       | Horizontal shift & moves the vertical asymptote      |
-| $k$       | Vertical shift                                       |
+| Parameter | Effect                                               | Note                                                                |
+| --------- | ---------------------------------------------------- | ------------------------------------------------------------------- |
+| $A$       | Vertical stretch/shrink & reflection across x-axis   |                                                                     |
+| $B$       | Horizontal stretch/shrink & reflection across y-axis | Domain changes to $(-\infty, 0)$, and x-intercept moves to $(-1,0)$ |
+| $h$       | Horizontal shift & moves the vertical asymptote      | Vertical asymptote at $x=h$, and x-intercept at $(1+h, 0)$          |
+| $k$       | Vertical shift                                       |                                                                     |
+
+
+## 
