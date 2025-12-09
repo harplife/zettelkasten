@@ -80,6 +80,16 @@ We can easily deduce that $\log_{10}(100)=10$, and so $10^{10}=100$. It's like a
 
 ## Graphs of Logarithmic Functions
 
+Graphs of logarithmic functions look like this :
+
+![[Pasted image 20251208215456.png|center]]
+
+Logarithms are inverse of exponentials, it follows that a logarithmic function is a reflection about the line $y=x$ of the corresponding exponential function.
+
+![[Pasted image 20251208215648.png | center | 300]]
+
+Also, since $f(x)=a^x$ has domain $\mathbb{R}$ and range $(0,\infty)$, it follows that its inverse function $y=\log_{a}(x)$ has domain $(0,\infty)$ and range $\mathbb{R}$.
+
 
 ### Transformations of Logarithms
 
