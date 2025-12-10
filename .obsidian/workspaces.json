@@ -1118,9 +1118,24 @@
                   "icon": "lucide-file",
                   "title": "ex_4_3_20251209"
                 }
+              },
+              {
+                "id": "9ecd2acfcdd59c5e",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "math/precalculus/Chapter 4/4_Laws_of_Logarithms.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "4_Laws_of_Logarithms"
+                }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -1200,13 +1215,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "math/precalculus/Exercises/ex_4_3_20251209.md",
+                    "file": "math/precalculus/Chapter 4/4_Laws_of_Logarithms.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of ex_4_3_20251209"
+                  "title": "Outline of 4_Laws_of_Logarithms"
                 }
               }
             ]
@@ -1317,7 +1332,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "math/precalculus/Exercises/ex_4_3_20251209.md",
+                    "file": "math/precalculus/Chapter 4/4_Laws_of_Logarithms.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1327,7 +1342,7 @@
                     "unlinkedCollapsed": false
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for ex_4_3_20251209"
+                  "title": "Backlinks for 4_Laws_of_Logarithms"
                 }
               }
             ],
@@ -1353,8 +1368,8 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "2362350baf0e31d6",
-      "mtime": "2025-12-09T14:24:00-06:00",
+      "active": "9ecd2acfcdd59c5e",
+      "mtime": "2025-12-09T22:13:01-06:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "math",
