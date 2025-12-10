@@ -143,3 +143,12 @@ You can compute the number of bits required to represent a number $N$ :
 $$
 \log_{2}(N) = \frac{\ln(N)}{\ln(2)}
 $$
+
+
+### Extra : Conversion for compound interest
+
+Solving for time to double your money :
+
+$$
+
+$$
