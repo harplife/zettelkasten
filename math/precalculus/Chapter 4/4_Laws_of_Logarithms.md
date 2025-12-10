@@ -138,3 +138,8 @@ Binary logarithms (base 2) are used in :
 
 But most math software uses natural log $\ln$ by default.
 
+You can compute the number of bits required to represent a number $N$ :
+
+$$
+\log_{2}(N) = \frac{\ln(N)}{\ln(2)}
+$$
