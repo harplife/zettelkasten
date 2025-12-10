@@ -103,3 +103,9 @@ $$
 \log_{a}(x) = \frac{\log_{b}(x)}{\log_{b}(a)} \quad (a>0, b>0)
 $$
 
+
+### Proof : Change of Base Formula
+
+Let $y=\log_{a}(x)$ and consider the following :
+- Its exponential form is $a^y=x$
+- Take $\log_{b}$ of each side to get $\log_{b}(a^y) = \log_{b}(x)$
