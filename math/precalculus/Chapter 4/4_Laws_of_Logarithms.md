@@ -129,3 +129,12 @@ $$
 \log_{9}(20) = \frac{\ln(20)}{\ln(9)} \approx 1.36342
 $$
 
+### Extra : Converting between bits and natural logs
+
+Binary logarithms (base 2) are used in :
+- Algorithm complexity : $O(\log_{2}(n))$
+- Entropy and information content
+- Compression and coding theory
+
+But most math software uses natural log $\ln$ by default.
+
