@@ -150,5 +150,17 @@ $$
 Solving for time to double your money :
 
 $$
+2 = (1+r)^t
+$$
 
+We can convert it to its exponential form :
+
+$$
+\log_{(1+r)}(2)=t
+$$
+
+Using the change of base formula, we can convert the log to common logs :
+
+$$
+t = \frac{\log(2)}{\log(1+r)}
 $$
