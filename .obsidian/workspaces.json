@@ -1384,14 +1384,13 @@
         }
       },
       "active": "e5251e18a67d1f12",
-      "mtime": "2025-12-10T12:47:43-06:00",
+      "mtime": "2025-12-10T16:37:55-06:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "math",
           "math/algebra_and_trigonometry",
           "math/precalculus",
-          "math/precalculus/Chapter 4",
-          "math/precalculus/Exercises"
+          "math/precalculus/Chapter 4"
         ]
       }
     },
