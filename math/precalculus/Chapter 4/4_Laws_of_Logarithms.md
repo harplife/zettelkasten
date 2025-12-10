@@ -97,15 +97,16 @@ $$
 
 ## Change of Base Formula
 
-<mark class="hltr-trippy">Change of Base Formula</mark> :
-
-$$
-\log_{a}(x) = \frac{\log_{b}(x)}{\log_{b}(a)} \quad (a>0, b>0)
-$$
-
-
-### Proof : Change of Base Formula
-
 Let $y=\log_{a}(x)$ and consider the following :
-- Its exponential form is $a^y=x$
-- Take $\log_{b}$ of each side to get $\log_{b}(a^y) = \log_{b}(x)$
+1. Its exponential form is $a^y=x$
+2. Take $\log_{b}$ of each side to get $\log_{b}(a^y) = \log_{b}(x)$
+3. By the quotient rule, we get $y \log_{b}(a)=\log_{b}(x)$
+4. Divide both sides by $\log_{b}(a)$ to get $y = \frac{\log_{b}(x)}{\log_{b}(a)}$
+
+Thus, we get the <mark class="hltr-trippy">Change of Base Formula</mark> :
+
+$$
+\log_{a}(x) = \frac{\log_{b}(x)}{\log_{b}(a)} \quad (a>0,b>0)
+$$
+
+This allows us to evaluate a logarithm to *any* base, 
