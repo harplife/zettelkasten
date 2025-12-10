@@ -94,3 +94,6 @@ $$
 \end{align}
 $$
 
+
+## Change of Base Formula
+
