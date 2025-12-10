@@ -117,4 +117,15 @@ $$
 
 > [!important] This allows us to evaluate a logarithm to *any* base. Particularly, we can express a logarithm in terms of *common logarithms* or *natural logarithms*.
 
-For example,
+Example of expressing a logarithm in terms of common logarithms :
+
+$$
+\log_{8}(5) = \frac{\log_{5}}{\log_{8}} \approx 0.77398
+$$
+
+Example of expressing a log in terms of natural logs :
+
+$$
+\log_{9}(20) = \frac{\ln(20)}{\ln(9)} \approx 1.36342
+$$
+
