@@ -109,4 +109,10 @@ $$
 \log_{a}(x) = \frac{\log_{b}(x)}{\log_{b}(a)} \quad (a>0,b>0)
 $$
 
-This allows us to evaluate a logarithm to *any* base, 
+Additionally, if we let $x=b$, then $\log_{b}(x)=1$. Thus, this formula becomes :
+
+$$
+\log_{a}(x) = \frac{1}{\log_{b}()}
+$$
+
+This allows us to evaluate a logarithm to *any* base. Particularly, we can express a logarithm in terms of common logarithms or natural logarithms.
