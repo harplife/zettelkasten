@@ -117,3 +117,4 @@ $$
 
 > [!important] This allows us to evaluate a logarithm to *any* base. Particularly, we can express a logarithm in terms of *common logarithms* or *natural logarithms*.
 
+For example,
