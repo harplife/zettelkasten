@@ -97,3 +97,9 @@ $$
 
 ## Change of Base Formula
 
+<mark class="hltr-trippy">Change of Base Formula</mark> :
+
+$$
+\log_{a}(x) = \frac{\log_{b}(x)}{\log_{b}(a)} \quad (a>0, b>0)
+$$
+
