@@ -55,3 +55,16 @@ The bacteria level reaches one million in about 40 hours.
 
 ## Exponential Growth (Relative Growth Rate)
 
+A population that experiences exponential growth increases according to the model
+
+$$
+n(t)=n_{0}e^{rt}
+$$
+
+where :
+- $n(t)$ = population at time $t$
+- $n_{0}$ = initial size of the population
+- $r$ = relative rate of growth (expressed as a proportion of the population)
+
+> [!important] The formula for population growth is the same as that for continuously compounded interest.
+
