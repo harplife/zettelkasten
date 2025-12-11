@@ -68,3 +68,33 @@ where :
 
 > [!important] The formula for population growth is the same as that for continuously compounded interest.
 
+---
+<mark class="hltr-green">Example</mark> : Predicting the Size of a Population
+
+The initial bacterium count in a culture is 500. A biologist later makes a sample count of bacteria in the culture and finds that the relative rate of growth is 40% per hour.
+
+The population at time $t$ is modeled by :
+
+$$
+n(t) = 500e^{0.4t}
+$$
+
+where $t$ is measured in hours.
+
+Using the model, we find that the bacterium count after 10 hours is :
+
+$$
+n(10) 500e^{4} \approx 27300
+$$
+
+Using the model, we can find the time it takes for the population to reach 80000 :
+
+$$
+\begin{align}
+  500e^{0.4t} &= 80000 \\
+  e^{0.4t} &= 160 \\
+  0.4t &= \ln(160) \\
+  t &= \frac{\ln(160)}{0.4} \approx 12.68
+\end{align}
+$$
+
