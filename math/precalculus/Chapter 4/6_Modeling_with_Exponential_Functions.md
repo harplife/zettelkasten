@@ -119,3 +119,45 @@ Where :
 - $A$ = $\frac{M-n_{0}}{n_{0}}$, where $n_{0}$ is the initial population
 - $r$ = growth rate
 
+---
+The graph of a logistic growth is **S-shaped**. It can be described with three levels of population :
+- Small population, where growth is fast
+- Medium population, where growth is fastest
+- Large population, where growth is slow
+
+![[Pasted image 20251211124120.png]]
+
+The **Inflection Point** is where the growth is fastest, but at the same time, where the growth starts slowing down.
+
+---
+When the focus of the logistic function is on more so the *shape of the curve* rather than the growth it self, the formula is written differently :
+
+$$
+f(x) = \frac{L}{1+e^{-k(x-x_{0})}}
+$$
+
+Where :
+- $L$ : maximum value the function approaches (analogous to $M$)
+- $k$ : steepness (analogous to growth rate $r$)
+- $x_{0}$ : midpoint where $f(x)=\frac{L}{2}$
+- $x$ : input (analogous to $t$)
+
+This version emphasizes *shape*, *steepness*, and *midpoint*.
+
+> [!important] The major difference is at the horizontal shift.
+> In the other version, $A$ is determined by the initial population. In this version, horizontal shift is controlled by $x_{0}$.
+
+Both models are equivalent with substitutions :
+- $L=M$
+- $x_{0}=-\frac{\ln(A)}{r}$
+- $k=r$
+- $x=t$
+
+$$
+\begin{align}
+  \frac{L}{1+e^{-k(x-x_{0})}} &= \frac{M}{1+e^{-r(t+\ln(A)/r)}} \\
+  &= \frac{M}{1+e^{-rt+\ln(A)}} \\
+  &= \frac{M}{1+Ae^{-rt}}
+\end{align}
+$$
+
