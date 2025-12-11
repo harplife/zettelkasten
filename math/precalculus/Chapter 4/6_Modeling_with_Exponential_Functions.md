@@ -101,6 +101,33 @@ $$
 ---
 <mark class="hltr-green">Example</mark> : Expressing a Model in Terms of $e$
 
+A population of a certain species of fish starts with 3000 fish and the number doubles every 3.75 years. This gives us the model :
+
+$$
+n(t) = 3000 \cdot 2^{t/3.75}
+$$
+
+We can convert this model to fit the form $n(t) = n_{0}e^{rt}$, by equating the two models and solving for $r$ :
+
+$$
+\begin{align}
+  3000e^{rt} &= 3000 \cdot 2^{t/3.75} \\
+  e^{rt} &= 2^{t/3.75} \\
+  rt &= \ln(2^{t/3.75}) \\
+  rt &= \frac{t\ln(2)}{3.75} \\
+  r &= \frac{\ln(2)}{3.75} \\
+  r &\approx 0.1848
+\end{align}
+$$
+
+Then we plug $r$ in to get the converted model :
+
+$$
+n(t) = 3000 \cdot e^{0.1848t}
+$$
+
+> [!important] The graphs of these two models are the same because the two functions are just two different ways of expressing the same model.
+> If anything, the conversion process just shows how to find the rate when we model the population growth using the natural growth $e$.
 
 
 ## Logistic Growth
@@ -136,18 +163,33 @@ The **Inflection Point** is where the growth is fastest, but at the same time, w
 ---
 <mark class="hltr-green">Example</mark>
 
-Suppose that a fish population exists in a small lake that can support a maximum of 30000 fish. An initial population of 3000 fish is introduced into the lake.
+A population of a certain species of fish starts with 3000 fish and the number doubles every 3.75 years. Let's say this fish population is introduced into a small lake that can support a maximum of 30000 fish.
 
+We first model the double growth :
 
+$$
+n(t) = 3000 \cdot 2^{t/3.75}
+$$
 
+Which we use to find $r$ and convert to the relative growth model :
 
-The logistic growth model in this case :
+$$
+n(t) = 3000 \cdot e^{0.1848t}
+$$
+
+We calculate $A$ :
+
+$$
+A = \frac{30000-3000}{3000} = 9
+$$
+
+Then we plug $A$ and $r$ into the logistic growth formula :
 
 $$
 n(t) = \frac{30000}{1+9e^{-0.1848t}}
 $$
 
-
+After the first 3.75 years, the population grows to 5353 fish instead of doubling to 6000 fish.
 
 ---
 When the focus of the logistic function is on more so the *shape of the curve* rather than the growth it self, the formula is written differently :
@@ -181,4 +223,6 @@ $$
 \end{align}
 $$
 
----
+
+## Radioactive Decay
+
