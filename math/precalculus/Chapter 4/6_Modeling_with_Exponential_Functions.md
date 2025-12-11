@@ -101,19 +101,21 @@ $$
 
 ## Logistic Growth
 
-<mark class="hltr-trippy">Logistic Growth</mark> is a model of population (or resource) growth that starts exponentially, but then slows down and eventually levels off as the population approaches a maximum limit called the **Carrying Capacity**.
+In the real world, a given environment has limited resources (food, water, living space, and so on) and can support a maximum population $M$ (**carrying capacity**). Populations tend to first increase exponentially and then level off as they approach $M$. Under such conditions, the rate of growth of the population $P(t)$ at any time $t$ is jointly proportional to $P(t)$ and to $M-P(t)$. Under such conditions, the population is modeled by a *logistic function*, as follows.
 
-> [!important] Exponential growths are theoretical, or occur at a strict ideal condition.
+<mark class="hltr-trippy">Logistic Growth</mark> is a model of population (or resource) growth that starts exponentially, but then slows down and eventually levels off as the population approaches a maximum limit.
+
+> [!important] Exponential growths are appropriate only under ideal conditions that allow for unlimited growth.
 > Logistic growth is a realistic growth model used in biology, ecology, epidemiology, chemistry, and social sciences.
 
 The formula for logistic growth (growth with limits) :
 
 $$
-P(t) = \frac{M}{1+Ae^{-rt}}
+n(t) = \frac{M}{1+Ae^{-rt}}
 $$
 
 Where :
 - $M$ = carrying capacity (maximum sustainable population)
+- $A$ = $\frac{M-n_{0}}{n_{0}}$, where $n_{0}$ is the initial population
 - $r$ = growth rate
-- $A$ = constant related to initial population
 
