@@ -98,6 +98,10 @@ $$
 \end{align}
 $$
 
+---
+<mark class="hltr-green">Example</mark> : Expressing a Model in Terms of $e$
+
+
 
 ## Logistic Growth
 
@@ -130,6 +134,22 @@ The graph of a logistic growth is **S-shaped**. It can be described with three l
 The **Inflection Point** is where the growth is fastest, but at the same time, where the growth starts slowing down.
 
 ---
+<mark class="hltr-green">Example</mark>
+
+Suppose that a fish population exists in a small lake that can support a maximum of 30000 fish. An initial population of 3000 fish is introduced into the lake.
+
+
+
+
+The logistic growth model in this case :
+
+$$
+n(t) = \frac{30000}{1+9e^{-0.1848t}}
+$$
+
+
+
+---
 When the focus of the logistic function is on more so the *shape of the curve* rather than the growth it self, the formula is written differently :
 
 $$
@@ -145,7 +165,7 @@ Where :
 This version emphasizes *shape*, *steepness*, and *midpoint*.
 
 > [!important] The major difference is at the horizontal shift.
-> In the other version, $A$ is determined by the initial population. In this version, horizontal shift is controlled by $x_{0}$.
+> In the other version, $A$ is determined by the initial population. In this version, horizontal shift is controlled by $x_{0}$. The value of $x_{0}$ can be known depending on the process, but generally it is an unknown parameter. In such case, Statistics and Machine Learning is used to solve it from data (so called "Fitting").
 
 Both models are equivalent with substitutions :
 - $L=M$
@@ -161,3 +181,4 @@ $$
 \end{align}
 $$
 
+---
