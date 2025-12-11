@@ -98,3 +98,6 @@ $$
 \end{align}
 $$
 
+
+## Logistic Growth
+
