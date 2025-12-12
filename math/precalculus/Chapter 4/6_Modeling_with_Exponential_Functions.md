@@ -226,6 +226,20 @@ $$
 
 ## Radioactive Decay
 
+Radioactive substances decay by spontaneously emitting radiation. The rate of decay is proportional to the mass of the substance. This is analogous to population growth except that the mass decreases.
 
 ### Half-Life
 
+Physicists express the rate of decay in terms of <mark class="hltr-trippy">Half-Life</mark>, the time it takes for a sample of the substance to decay to half its original mass.
+
+For example, the half-life of radium-226 is 1600 years, so a 100-gram sample decays to 50-gram in 1600 years, then to 25 g in 3200 years, and so on.
+
+In general, for a radioactive substance with mass $m_{0}$ and half-life $h$, the amount remaining at time $t$ is modeled by :
+
+$$
+m(t) = m_{0}2^{-t/h}
+$$
+
+where $h$ and $t$ are measured in the same time units.
+
+---
