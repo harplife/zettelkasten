@@ -242,4 +242,31 @@ $$
 
 where $h$ and $t$ are measured in the same time units.
 
+> [!important] Outside the textbook, the *standard scientific symbol* for half-life is $t_{1/2}$.
+> Thus, $$m(t) = m_{0}\left( \frac{1}{2} \right)^{\frac{t}{t_{1/2}}}$$
+
+> [!important] Outside the textbook, capital letter $N$ is used in the radioactive decay function to represent the number of radioactive nuclei (atoms) remaining in a sample at any given time, while $N_{0}$ (N-nought) signifies the initial number of nuclei at the start (time zero).
+> Thus, $$N(t)=N_{0}\left( \frac{1}{2} \right)^{\frac{t}{t_{1/2}}}$$
+
 ---
+An exponential decay can be described by any of the following equivalent formulas :
+
+$$
+\begin{align}
+  N(t) &= N_{0}2^{-\frac{t}{t_{1/2}}}\\
+  N(t) &= N_{0}\left( \frac{1}{2} \right)^{\frac{t}{t_{1/2}}} \\
+  N(t) &= N_{0}e^{-\frac{t}{\tau}} \\
+  N(t) &= N_{0}e^{-\lambda t}
+\end{align}
+$$
+
+> [!important] $\tau$ (tau) is the **mean lifetime** of the decaying quantity.
+
+> [!important] $\lambda$ (lambda) is the **decay constant** of the decaying quantity.
+
+The three parameters $t_{1/2}$, $\tau$, and $\lambda$ are directly related in the following way :
+
+$$
+t_{1/2} = \frac{\ln(2)}{\lambda} = \tau \ln(2)
+$$
+
