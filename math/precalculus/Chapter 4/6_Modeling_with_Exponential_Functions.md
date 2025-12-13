@@ -244,8 +244,22 @@ Where :
 
 Exponential decay is often used to model radioactive decay.
 
-> [!important] Discrete Exponential Decay
-> We've covered exponential decay before, but that was 
+---
+Note that we learned about exponential function back in chapter [[1_Exponential_Functions|4.1 Exponential Functions]]. The simplest form of exponential decay is :
+
+$$
+y = a \cdot b^x \quad (0<b<1)
+$$
+
+In that form, if $b=0.8$, it meant that the value would be 80% of its value in 1 year ($x=1$).
+
+This formula can be expressed in a different form :
+
+$$
+y = a \cdot (1-r)^x \quad (0<r<1)
+$$
+
+In that form, if $r=0.2$, it meant that the value would lose 20% of its value in 1 year $(x=1)$.
 
 
 
