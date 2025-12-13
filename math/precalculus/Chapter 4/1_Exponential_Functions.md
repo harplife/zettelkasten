@@ -47,7 +47,6 @@ Graph of $f(x)=(0.5)^x$ :
 ![[Pasted image 20251202104741.png|center]]
 
 
-
 ---
 The **domain** of exponential functions are all real numbers $(-\infty, \infty)$.
 

@@ -228,6 +228,28 @@ $$
 
 Radioactive substances decay by spontaneously emitting radiation. The rate of decay is proportional to the mass of the substance. This is analogous to population growth except that the mass decreases.
 
+### (Continuous) Exponential Decay
+
+<mark class="hltr-trippy">Exponential Decay</mark> is when a quantity decreases at a rate proportional to its current value, represented by the formula :
+
+$$
+N(t) = N_{0}e^{-\lambda t}
+$$
+
+Where :
+- $N(t)$ = amount remaining after time $t$
+- $N_{0}$ = initial amount at time $t=0$
+- $e^{-\lambda t}$ = decay factor (the fraction left after time $t$)
+- $\lambda$ = decay constant (larger means faster decay)
+
+Exponential decay is often used to model radioactive decay.
+
+> [!important] Discrete Exponential Decay
+> We've covered exponential decay before, but that was 
+
+
+
+
 ### Half-Life
 
 Physicists express the rate of decay in terms of <mark class="hltr-trippy">Half-Life</mark>, the time it takes for a sample of the substance to decay to half its original mass.

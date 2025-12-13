@@ -51,9 +51,24 @@
               "icon": "lucide-file",
               "title": "6_Modeling_with_Exponential_Functions"
             }
+          },
+          {
+            "id": "6aeff41a36fc2be0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "math/precalculus/Chapter 4/1_Exponential_Functions.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "1_Exponential_Functions"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -133,13 +148,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "math/precalculus/Chapter 4/6_Modeling_with_Exponential_Functions.md",
+                "file": "math/precalculus/Chapter 4/1_Exponential_Functions.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 6_Modeling_with_Exponential_Functions"
+              "title": "Outline of 1_Exponential_Functions"
             }
           }
         ]
@@ -250,7 +265,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "math/precalculus/Chapter 4/6_Modeling_with_Exponential_Functions.md",
+                "file": "math/precalculus/Chapter 4/1_Exponential_Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -260,7 +275,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 6_Modeling_with_Exponential_Functions"
+              "title": "Backlinks for 1_Exponential_Functions"
             }
           }
         ],
@@ -286,10 +301,13 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "c8247b764fda566e",
+  "active": "935f28b3df870977",
   "lastOpenFiles": [
-    "math/fun_facts/discovery_by_math.md",
+    "math/precalculus/Chapter 4/3_Logarithmic_Functions.md",
+    "math/precalculus/Chapter 4/2_The_Natural_Exponential_Function.md",
+    "math/precalculus/Chapter 4/1_Exponential_Functions.md",
     "math/precalculus/Chapter 4/6_Modeling_with_Exponential_Functions.md",
+    "math/fun_facts/discovery_by_math.md",
     "math/fun_facts",
     "attachments/Pasted image 20251211124120.png",
     "math/precalculus/Exercises/ex_4_5_20251210.md",
@@ -297,12 +315,9 @@
     "math/precalculus/Chapter 4/4_Laws_of_Logarithms.md",
     "math/precalculus/Exercises/ex_4_4_20251210.md",
     "math/precalculus/Exercises/ex_4_3_20251209.md",
-    "math/precalculus/Chapter 4/3_Logarithmic_Functions.md",
-    "math/precalculus/Chapter 4/1_Exponential_Functions.md",
     "attachments/Pasted image 20251208221620.png",
     "attachments/Pasted image 20251208215648.png",
     "attachments/Pasted image 20251208215456.png",
-    "math/precalculus/Chapter 4/2_The_Natural_Exponential_Function.md",
     "math/precalculus/Exercises/ex_4_2_20251206.md",
     "math/precalculus/Exercises/ex_4_1_20251205.md",
     "attachments/Pasted image 20251202104741.png",
