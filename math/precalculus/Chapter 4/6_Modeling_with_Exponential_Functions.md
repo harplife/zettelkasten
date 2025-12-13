@@ -288,6 +288,9 @@ $$
 N(t) = N_{0}e^{-\frac{t}{\tau}}
 $$
 
+Where :
+- $\tau$ (tau) is the **mean lifetime** of the decaying quantity.
+
 
 ### Half-Life
 
@@ -321,7 +324,6 @@ $$
 \end{align}
 $$
 
-> [!important] $\tau$ (tau) is the **mean lifetime** of the decaying quantity.
 
 > [!important] $\lambda$ (lambda) is the **decay constant** of the decaying quantity.
 
