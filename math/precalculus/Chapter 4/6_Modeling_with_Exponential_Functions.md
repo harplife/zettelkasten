@@ -291,6 +291,19 @@ $$
 Where :
 - $\tau$ (tau) is the **mean lifetime** of the decaying quantity.
 
+This form answers the question :
+> "On average, how long does an individual particle survive?"
+
+Whereas the other formula answers the question :
+> "How strong is the decay per unit time?"
+
+$\lambda$ and $\tau$ are reciprocals :
+
+$$
+\boxed{\lambda = \frac{1}{\tau}} \iff \boxed{\tau = \frac{1}{\lambda}}
+$$
+
+
 
 ### Half-Life
 
