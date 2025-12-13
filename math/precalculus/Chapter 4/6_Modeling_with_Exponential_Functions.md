@@ -281,6 +281,13 @@ $$
 N(t) = N_{0}e^{-\lambda t}
 $$
 
+---
+Exponential decay can be described by this equivalent formula :
+
+$$
+N(t) = N_{0}e^{-\frac{t}{\tau}}
+$$
+
 
 ### Half-Life
 
