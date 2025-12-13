@@ -281,10 +281,6 @@ $$
 N(t) = N_{0}e^{-\lambda t}
 $$
 
-> [!important] This change from discrete function to continuous function is at the heart of Calculus.
-> Calculus is all about 
-
-
 
 ### Half-Life
 
