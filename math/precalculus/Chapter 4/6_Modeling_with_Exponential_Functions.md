@@ -244,6 +244,8 @@ Where :
 
 Exponential decay is often used to model radioactive decay.
 
+> [!important] Outside the textbook, capital letter $N$ is used in the radioactive decay function to represent the number of radioactive nuclei (atoms) remaining in a sample at any given time, while $N_{0}$ (N-nought) signifies the initial number of nuclei at the start (time zero).
+
 ---
 Note that we learned about exponential function back in chapter [[1_Exponential_Functions|4.1 Exponential Functions]]. The simplest form of exponential decay is :
 
@@ -313,16 +315,14 @@ For example, the half-life of radium-226 is 1600 years, so a 100-gram sample dec
 In general, for a radioactive substance with mass $m_{0}$ and half-life $h$, the amount remaining at time $t$ is modeled by :
 
 $$
-m(t) = m_{0}2^{-t/h}
+N(t) = N_{0}2^{-t/h}
 $$
 
 where $h$ and $t$ are measured in the same time units.
 
 > [!important] Outside the textbook, the *standard scientific symbol* for half-life is $t_{1/2}$.
-> Thus, $$m(t) = m_{0}\left( \frac{1}{2} \right)^{\frac{t}{t_{1/2}}}$$
+> Thus, $$N(t) = N_{0}\left( \frac{1}{2} \right)^{\frac{t}{t_{1/2}}}$$
 
-> [!important] Outside the textbook, capital letter $N$ is used in the radioactive decay function to represent the number of radioactive nuclei (atoms) remaining in a sample at any given time, while $N_{0}$ (N-nought) signifies the initial number of nuclei at the start (time zero).
-> Thus, $$N(t)=N_{0}\left( \frac{1}{2} \right)^{\frac{t}{t_{1/2}}}$$
 
 ---
 Recall that the exponential decay can also be described by the mean lifetime $\tau$ or the decay constant $\lambda$.
@@ -342,4 +342,6 @@ Half-life is directly observable in experiments. If you have a radioactive sampl
 $$
 \lambda = \frac{\ln(2)}{h}
 $$
+
+So the half-life is the *experimental quantity*, and $\lambda$ is a *derived quantity*.
 
