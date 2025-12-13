@@ -325,7 +325,13 @@ where $h$ and $t$ are measured in the same time units.
 > Thus, $$N(t)=N_{0}\left( \frac{1}{2} \right)^{\frac{t}{t_{1/2}}}$$
 
 ---
+Recall that the exponential decay can also be described by the mean lifetime $\tau$ or the decay constant $\lambda$.
 
+The three parameters, $t_{1/2}$, $\tau$, and $\lambda$ are directly related in the following way :
+
+$$
+t_{1/2} = \frac{\ln(2)}{\lambda} = \tau \ln(2)
+$$
 
 
 ---
