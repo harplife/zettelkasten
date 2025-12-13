@@ -340,8 +340,19 @@ Scientists often use half-life equation because it is more intuitive; they often
 Half-life is directly observable in experiments. If you have a radioactive sample, you can measure how long it takes for the amount to drop to half. The decay constant $\lambda$ is not directly observable, meaning it cannot be measured by simple observation. You can, however, compute $\lambda$ from half-life :
 
 $$
-\lambda = \frac{\ln(2)}{h}
+\begin{align}
+  N(t) &= N_{0}e^{-\lambda t} \\
+  \frac{N_{0}}{2} &= N_{0}e^{-\lambda t_{1/2}}\\
+  \frac{1}{2} &= e^{-\lambda t_{1/2}}\\
+  \ln\left( \frac{1}{2} \right) &= -\lambda t_{1/2} \\
+  \lambda &= \frac{\ln(2)}{t_{1/2}}
+\end{align}
 $$
 
 So the half-life is the *experimental quantity*, and $\lambda$ is a *derived quantity*.
+
+Not only is half-life observable, but it is also intuitive in a sense that it has a clear physical meaning. It is easier to understand a phrase like "Carbon-14 takes 5730 years to decay to half", more so than "Carbon-14 has decay constant $\lambda=1.21 \times 10^{-4}$".
+
+
+## Newton's Law of Cooling
 
