@@ -292,17 +292,16 @@ Where :
 - $\tau$ (tau) is the **mean lifetime** of the decaying quantity.
 
 This form answers the question :
-> "On average, how long does an individual particle survive?"
+> "How long does something typically last?" (lifetime-focused)
 
 Whereas the other formula answers the question :
-> "How strong is the decay per unit time?"
+> "How fast is decay happening right now?" (rate-focused)
 
 $\lambda$ and $\tau$ are reciprocals :
 
 $$
 \boxed{\lambda = \frac{1}{\tau}} \iff \boxed{\tau = \frac{1}{\lambda}}
 $$
-
 
 
 ### Half-Life
@@ -326,28 +325,15 @@ where $h$ and $t$ are measured in the same time units.
 > Thus, $$N(t)=N_{0}\left( \frac{1}{2} \right)^{\frac{t}{t_{1/2}}}$$
 
 ---
-Half-life exponential decay can be described by any of the following equivalent formulas :
-
-$$
-\begin{align}
-  N(t) &= N_{0}2^{-\frac{t}{t_{1/2}}}\\
-  N(t) &= N_{0}\left( \frac{1}{2} \right)^{\frac{t}{t_{1/2}}} \\
-  N(t) &= N_{0}e^{-\frac{t}{\tau}} \\
-  N(t) &= N_{0}e^{-\lambda t}
-\end{align}
-$$
 
 
-> [!important] $\lambda$ (lambda) is the **decay constant** of the decaying quantity.
-
-The three parameters $t_{1/2}$, $\tau$, and $\lambda$ are directly related in the following way :
-
-$$
-t_{1/2} = \frac{\ln(2)}{\lambda} = \tau \ln(2)
-$$
 
 ---
+Scientists often use half-life equation because it is more intuitive; they often *measure* or *know* the half-life directly.
 
-$N(t) = N_{0}e^{-\frac{t}{\tau}}$
+Half-life is directly observable in experiments. If you have a radioactive sample, you can measure how long it takes for the amount to drop to half. The decay constant $\lambda$ is not directly observable, meaning it cannot be measured by simple observation. You can, however, compute $\lambda$ from half-life :
 
-$N(t) = N_{0}e^{-\lambda t}$
+$$
+\lambda = \frac{\ln(2)}{h}
+$$
+
