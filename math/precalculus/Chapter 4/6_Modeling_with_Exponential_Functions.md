@@ -267,11 +267,22 @@ $$
 A(t) = P\left( 1+\frac{r}{n} \right)^{nt}
 $$
 
+> [!note] $-r$ for decay
+
 This is the formula we covered in Chapter 4.1 [[1_Exponential_Functions#Compound Interest|Compound Interest]], where $n=2$ meant the interest occurred at every 6 months (twice per year). Then, we covered in Chapter 4.2 [[2_The_Natural_Exponential_Function#Continuously Compounded Interest|Continuously Compounded Interest]], that we can calculate the change that occur continuously at any given time by setting $n$ to be infinitely large :
 
 $$
 A(t) = Pe^{rt}
 $$
+
+Now, in terms of radioactive decay, we get the formula :
+
+$$
+N(t) = N_{0}e^{-\lambda t}
+$$
+
+> [!important] This change from discrete function to continuous function is at the heart of Calculus.
+> Calculus is all about 
 
 
 
