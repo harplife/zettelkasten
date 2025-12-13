@@ -261,6 +261,17 @@ $$
 
 In that form, if $r=0.2$, it meant that the value would lose 20% of its value in 1 year $(x=1)$.
 
+This formula (and the other one) describes decay in **discrete** context, where the change occurs at each "step" - such as 1 day, 1 month, or 1 year. While this change occurs once per step, we can change the formula so that the change occur $n$ times per step :
+
+$$
+A(t) = P\left( 1+\frac{r}{n} \right)^{nt}
+$$
+
+This is the formula we covered in Chapter 4.1 [[1_Exponential_Functions#Compound Interest|Compound Interest]], where $n=2$ meant the interest occurred at every 6 months (twice per year). Then, we covered in Chapter 4.2 [[2_The_Natural_Exponential_Function#Continuously Compounded Interest|Continuously Compounded Interest]], that we can calculate the change that occur continuously at any given time by setting $n$ to be infinitely large :
+
+$$
+A(t) = Pe^{rt}
+$$
 
 
 
