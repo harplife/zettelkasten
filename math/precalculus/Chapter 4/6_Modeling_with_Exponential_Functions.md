@@ -385,3 +385,5 @@ $$
 Which says :
 > The difference between the object and its environment decays exponentially.
 
+> [!important] Despite the name, Newton's Law of Cooling applies to both cooling (hot object in cool room) and heating (cold object in warm room).
+
