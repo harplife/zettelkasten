@@ -356,3 +356,10 @@ Not only is half-life observable, but it is also intuitive in a sense that it ha
 
 ## Newton's Law of Cooling
 
+<mark class="hltr-trippy">Newton's Law of Cooling</mark> states that the rate at which an object changes temperature is proportional to the difference between its temperature and the surrounding environment.
+
+In layman's terms :
+- If an object is much hotter than its surroundings, it cools *quickly*
+- As it gets closer to the surrounding temperature, it cools *more slowly*.
+- It never suddenly "jumps" to the ambient temperature.
+
