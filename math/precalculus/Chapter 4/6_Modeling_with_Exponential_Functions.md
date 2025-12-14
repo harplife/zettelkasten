@@ -363,3 +363,25 @@ In layman's terms :
 - As it gets closer to the surrounding temperature, it cools *more slowly*.
 - It never suddenly "jumps" to the ambient temperature.
 
+The standard formula for Newton's Law of Cooling :
+
+$$
+T(t) = T_{env} + (T_{0}-T_{env})e^{-\lambda t}
+$$
+
+Where :
+- $T(t)$ = temperature of the object at time $t$
+- $T_{0}$ = initial temperature of the object
+- $T_{env}$ = surrounding (ambient) temperature
+- $\lambda$ = cooling constant (depends on material, airflow, container, etc.)
+- $t$ = time
+
+This formula is better understood if we move the equation a bit :
+
+$$
+T(t)-T_{env} = (T_{0}-T_{env})e^{-kt}
+$$
+
+Which says :
+> The difference between the object and its environment decays exponentially.
+
