@@ -387,3 +387,4 @@ Which says :
 
 > [!important] Despite the name, Newton's Law of Cooling applies to both cooling (hot object in cool room) and heating (cold object in warm room).
 
+Newton's Law of Cooling is structurally the same as radioactive decay, but the main difference is that radioactive decay 
