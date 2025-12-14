@@ -323,7 +323,6 @@ where $h$ and $t$ are measured in the same time units.
 > [!important] Outside the textbook, the *standard scientific symbol* for half-life is $t_{1/2}$.
 > Thus, $$N(t) = N_{0}\left( \frac{1}{2} \right)^{\frac{t}{t_{1/2}}}$$
 
-
 ---
 Recall that the exponential decay can also be described by the mean lifetime $\tau$ or the decay constant $\lambda$.
 
@@ -332,7 +331,6 @@ The three parameters, $t_{1/2}$, $\tau$, and $\lambda$ are directly related in t
 $$
 t_{1/2} = \frac{\ln(2)}{\lambda} = \tau \ln(2)
 $$
-
 
 ---
 Scientists often use half-life equation because it is more intuitive; they often *measure* or *know* the half-life directly.
@@ -379,7 +377,7 @@ Where :
 This formula is better understood if we move the equation a bit :
 
 $$
-T(t)-T_{env} = (T_{0}-T_{env})e^{-kt}
+T(t)-T_{env} = (T_{0}-T_{env})e^{-\lambda t}
 $$
 
 Which says :
@@ -387,4 +385,9 @@ Which says :
 
 > [!important] Despite the name, Newton's Law of Cooling applies to both cooling (hot object in cool room) and heating (cold object in warm room).
 
-Newton's Law of Cooling is structurally the same as radioactive decay, but the main difference is that radioactive decay 
+Newton's Law of Cooling is structurally the same as radioactive decay, but the main difference is that as $t \to \infty$, radioactive decay approaches $N(t) \to 0$ whereas cooling approaches $T(t) \to T_{env}$.
+
+---
+
+$T(t)=T_{env}+(T_{0}-T_{env})e^{-t/\tau}$
+
