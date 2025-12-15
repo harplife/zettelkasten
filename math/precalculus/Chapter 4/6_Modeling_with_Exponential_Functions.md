@@ -309,7 +309,9 @@ $$
 $$
 
 > [!important] Radioactive decay is **memoryless**.
-> asdf
+> The probability that an atom decays is random. Memoryless means that the "age" of an atom does not affect the probability.
+> 
+> On a side note, although the probability of decay is unpredictable (random) for a single atom, it is predictable for a group of multiple atoms (forming a mass). This has to do with *Heisenberg's Uncertainty Principle*.
 
 
 ### Half-Life
@@ -339,7 +341,7 @@ t_{1/2} = \frac{\ln(2)}{\lambda} = \tau \ln(2)
 $$
 
 ---
-Scientists often use half-life equation because it is more intuitive; they often *measure* or *know* the half-life directly.
+> [!important] Scientists often use half-life equation because it is more intuitive; they often *measure* or *know* the half-life directly.
 
 Half-life is directly observable in experiments. If you have a radioactive sample, you can measure how long it takes for the amount to drop to half. The decay constant $\lambda$ is not directly observable, meaning it cannot be measured by simple observation. You can, however, compute $\lambda$ from half-life :
 
@@ -394,6 +396,9 @@ Which says :
 Newton's Law of Cooling is structurally the same as radioactive decay, but the main difference is that as $t \to \infty$, radioactive decay approaches $N(t) \to 0$ whereas cooling approaches $T(t) \to T_{env}$.
 
 ---
+Newton's Law of Cooling is often represented in the time constant form :
 
-$T(t)=T_{env}+(T_{0}-T_{env})e^{-t/\tau}$
+$$
+T(t)=T_{env}+(T_{0}-T_{env})e^{-t/\tau}
+$$
 
