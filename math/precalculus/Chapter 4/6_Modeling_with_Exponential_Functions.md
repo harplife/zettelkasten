@@ -308,6 +308,9 @@ $$
 \boxed{\lambda = \frac{1}{\tau}} \iff \boxed{\tau = \frac{1}{\lambda}}
 $$
 
+> [!important] Radioactive decay is **memoryless**.
+> asdf
+
 
 ### Half-Life
 
