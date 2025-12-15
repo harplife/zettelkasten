@@ -293,6 +293,9 @@ $$
 Where :
 - $\tau$ (tau) is the **mean lifetime** of the decaying quantity.
 
+> [!important] $\tau$ represents the average time an atom survives in a random decay process.
+> When $\tau$ is used, time is scaled by $\tau$ and we are thinking in terms of $\tau$ unit time. After time $\tau$, most atoms have already decayed - and only about 36.8% remains.
+
 This form answers the question :
 > "How long does something typically last?" (lifetime-focused)
 
