@@ -402,4 +402,5 @@ $$
 T(t)=T_{env}+(T_{0}-T_{env})e^{-t/\tau}
 $$
 
-The time constant $\tau$ represents the timescale that shows how fast a system relaxes toward equilibrium.
+The time constant $\tau$ represents the characteristic time for significant change.
+
