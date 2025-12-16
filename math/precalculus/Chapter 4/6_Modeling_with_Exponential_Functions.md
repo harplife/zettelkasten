@@ -402,5 +402,15 @@ $$
 T(t)=T_{env}+(T_{0}-T_{env})e^{-t/\tau}
 $$
 
-The time constant $\tau$ represents the characteristic time for significant change.
+In this formula, $\tau$ is called the **Time Constant** (as opposed to mean lifetime) which represents the characteristic time for significant change.
+
+Many systems relax exponentially because they lose memory at a constant fractional time. $\tau$ shows how long that memory lasts, and how quickly the past stops mattering - which is why $\tau$ is also called a **Relaxation Time**.
+
+> [!important] Rule of thumb engineers love
+> Engineers often think in terms of :
+> - $1\tau$ : noticeable change
+> - $3\tau$ : mostly done
+> - $5\tau$ : effectively finished
+> 
+> This makes design and timing easy.
 
