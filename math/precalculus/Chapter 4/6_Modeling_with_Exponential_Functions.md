@@ -402,9 +402,14 @@ $$
 T(t)=T_{env}+(T_{0}-T_{env})e^{-t/\tau}
 $$
 
-In this formula, $\tau$ is called the **Time Constant** (as opposed to mean lifetime) which represents the characteristic time for significant change.
+In this formula, $\tau$ is called the **Time Constant** (as opposed to mean lifetime) which represents the time for the difference to shrink to a fixed fraction (about 37%) of its current value.
 
 Many systems relax exponentially because they lose memory at a constant fractional time. $\tau$ shows how long that memory lasts, and how quickly the past stops mattering - which is why $\tau$ is also called a **Relaxation Time**.
+
+> [!important] $\tau$ represents the natural *timescale* of the system.
+> That is :
+> - How fast the system responds
+> - How quickly it "forgets" its initial condition
 
 > [!important] Rule of thumb engineers love
 > Engineers often think in terms of :
