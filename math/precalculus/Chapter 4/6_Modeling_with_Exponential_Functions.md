@@ -406,8 +406,8 @@ In this formula, $\tau$ is called the **Time Constant** (as opposed to mean life
 
 Many systems relax exponentially because they lose memory at a constant fractional time. $\tau$ shows how long that memory lasts, and how quickly the past stops mattering - which is why $\tau$ is also called a **Relaxation Time**.
 
-> [!important] $\tau$ represents the natural *timescale* of the system.
-> That is :
+> [!important] The time constant $\tau$ represents the system's *intrinsic timescale* and fits naturally into universal exponential models.
+> The time constant shows :
 > - How fast the system responds
 > - How quickly it "forgets" its initial condition
 
