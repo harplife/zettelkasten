@@ -22,13 +22,16 @@ Where :
 - $[H^{+}]$ means concentration ($[H^{+}]<1$) of Hydrogen ions (moles per liter)
 - The logarithm is in base 10
 
+> [!important] The negative sign flips the direction of the scale.
+> Because $[H^{+}]<1$, its logarithm is negative. We want the scale to be in positive numbers, so the negative sign is used to flip the sign.
+
 > [!important] Pure water is considered neural on the pH scale.
 > Pure water has $[H^{+}]=10^{-7}$, meaning $pH=7$.
 > 
 > This means that solutions that have $ph<7$ are *acidic*, and $ph>7$ are *basic*.
 
-> [!important] The negative sign flips the direction of the scale.
-> Because $[H^{+}]<1$, its logarithm is negative. We want the scale to be in positive numbers, so the negative sign is used to flip the sign.
+> [!important] Given pH, using the inverse can find the concentration.
+> $$[H^{+}]=10^{pH}$$
 
 Hydrogen ion concentrations can vary many orders of magnitude. The typical values are :
 - $1$ mol/L
