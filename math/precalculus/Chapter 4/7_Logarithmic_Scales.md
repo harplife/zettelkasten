@@ -25,13 +25,11 @@ Where :
 > [!important] The negative sign flips the direction of the scale.
 > Because $[H^{+}]<1$, its logarithm is negative. We want the scale to be in positive numbers, so the negative sign is used to flip the sign.
 
-> [!important] Pure water is considered neural on the pH scale.
-> Pure water has $[H^{+}]=10^{-7}$, meaning $pH=7$.
-> 
-> This means that solutions that have $ph<7$ are *acidic*, and $ph>7$ are *basic*.
+> [!important] Pure water is $7$ on the pH scale - which is considered neutral.
+> This means that solutions that have $ph<7$ are *acidic*, and $ph>7$ are *basic*. The pH scale generally ranges from $0$ to $14$, but extremely strong acids or bases can technically have pH values outside this range.
 
 > [!important] Given pH, using the inverse can find the concentration.
-> $$[H^{+}]=10^{pH}$$
+> $$[H^{+}]=10^{-pH}$$
 
 Hydrogen ion concentrations can vary many orders of magnitude. The typical values are :
 - $1$ mol/L
@@ -42,4 +40,9 @@ In which case, the logarithm helps by :
 - Compressing huge ranges into small numbers
 - Turning multiplicative changes into additive ones
 
-A change of pH scale by $1$ means the solution is $10$ times more acidic/basic. For example, pH 6 is 10x more acidic than pH7, and 100x more acidic than pH8.
+> [!important] Logs turn multiplication into addition.
+> A change of pH scale by $1$ means the solution is $10$ times more acidic/basic. In other words, multiplying $[H^{+}]$ by $10$ is the same as subtracting $1$ from pH, and dividing by $10$ is the same as adding $1$.
+
+
+## The Richter Scale
+
