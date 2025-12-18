@@ -58,6 +58,7 @@ Where :
 - $M$ = earthquake magnitude
 - $A$ = measured wave amplitude
 - $A_{0}$ = reference amplitude
+- The logarithm is in base 10
 
 > [!important] Earthquake wave amplitudes vary from barely detectable vibrations to waves that move the ground by meters - which is a difference of millions of times. Logarithmic scale is necessary to compress the measurements.
 
