@@ -46,3 +46,18 @@ In which case, the logarithm helps by :
 
 ## The Richter Scale
 
+The <mark class="hltr-trippy">Richter Scale</mark> measures the magnitude of an earthquake. Specifically, it measures the amplitude of seismic waves recorded by seismographs.
+
+The Richter scale is defined as :
+
+$$
+M = \log\left( \frac{A}{A_{0}} \right)
+$$
+
+Where :
+- $M$ = earthquake magnitude
+- $A$ = measured wave amplitude
+- $A_{0}$ = reference amplitude
+
+> [!important] Earthquake wave amplitudes vary from barely detectable vibrations to waves that move the ground by meters - which is a difference of millions of times. Logarithmic scale is necessary to compress the measurements.
+
