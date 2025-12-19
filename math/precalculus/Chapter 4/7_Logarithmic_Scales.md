@@ -78,7 +78,10 @@ Earthquake wave amplitudes vary from barely detectable vibrations to waves that 
 
 ## The Decibel Scale
 
-The <mark class="hltr-trippy">Decibel</mark> is a relative unit of measurement equal to *one-tenth* of a **bel (B)**. It expresses the ratio of two values of a power (or root-power) quantity on a logarithmic scale.
+The <mark class="hltr-trippy">Decibel</mark>, denoted as **dB**, is a relative unit of measurement equal to *one-tenth* of a **bel (B)**. It expresses the ratio of two values of a power (or root-power) quantity on a logarithmic scale.
+
+> [!important] The strict usage of the term Decibel only expresses a relative change. However, Decibel can also be used for expressing an *absolute value* that is relative to some fixed reference value; in which case, the dB symbol is often suffixed with letter codes that indicate the reference value.
+> For example, for the reference value of $1$ volt, a common suffix is "V", which makes the symbol **dBV**.
 
 > [!important] Power Quantity and Root-Power Quantity
 > A **Power Quantity** is a physical measurement that is directly proportional to power. For example, energy density, acoustic intensity, and luminous intensity are considered power quantities.
@@ -90,15 +93,26 @@ The <mark class="hltr-trippy">Decibel</mark> is a relative unit of measurement e
 Decibel for power is :
 
 $$
-10 \log\left( \frac{P_{2}}{P_{1}} \right)
+dB = 10 \log\left( \frac{P}{P_{0}} \right)
 $$
+
+Where :
+- $P$ = measured power
+- $P_{0}$ = reference power
+- The logarithm is in base 10
+
+> [!important] Change of $10$ dB means $10$ times more/less power.
+> Change of $20$ means $100$ times, $30$ means $1000$, and so on.
+> 
+> Note that $0$ dB does not mean "no power". It just means it is equal to the reference.
+
+> [!important] The ratio is *dimensionless*, which means there is no upper or lower limit to decibel.
 
 Decibel for root-power is :
 
 $$
-20 \log\left( \frac{V_{2}}{V_{1}} \right)
+dB = 20 \log\left( \frac{V}{V_{0}} \right)
 $$
 
-> [!important] The strict usage of the term Decibel only expresses a relative change. However, Decibel can also be used for expressing an *absolute value* that is relative to some fixed reference value; in which case, the dB symbol is often suffixed with letter codes that indicate the reference value.
-> For example, for the reference value of $1$ volt, a common suffix is "V", which makes the symbol **dBV**.
+> [!important] Note that the formula above uses $V$ for voltage. This just depends on the context. For example, $A$ for amplitude can be used instead.
 
