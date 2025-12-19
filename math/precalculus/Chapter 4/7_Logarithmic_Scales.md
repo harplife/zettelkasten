@@ -60,5 +60,12 @@ Where :
 - $A_{0}$ = reference amplitude
 - The logarithm is in base 10
 
-> [!important] Earthquake wave amplitudes vary from barely detectable vibrations to waves that move the ground by meters - which is a difference of millions of times. Logarithmic scale is necessary to compress the measurements.
+> [!important] The reference amplitude $A_{0}$, defined as magnitude $0$ on the Richter scale, has maximum amplitude of $1$ micrometer ($0.001$ mm) measured at a distance of $100$ km (using a Wood-Anderson seismograph).
+
+Earthquake wave amplitudes vary from barely detectable vibrations to waves that move the ground by meters - which is a difference of millions of times. Logarithmic scale is necessary to compress the measurements.
+
+> [!important] The Richter scale does not have an upper bound.
+> There is no theoretical maximum on the Richter scale because it's based on ratios (not percentages). Stronger earthquakes just give larger numbers on the scale.
+> 
+> Similarly, it is *theoretically* possible for an earthquake to have magnitude below $0$.
 
