@@ -116,3 +116,19 @@ $$
 
 > [!important] Note that the formula above uses $V$ for voltage. This just depends on the context. For example, $A$ for amplitude can be used instead.
 
+---
+The rule of thumb for Decibels is that "$+3$ dB change equates to *double* the power".
+
+This comes from the fact that :
+
+$$
+\begin{align}
+  \text{Given } dB &= 10 \log\left( \frac{P}{P_{0}} \right) \text{ and }\frac{P}{P_{0}}=2, \\
+  dB &= 10 \log(2) \\
+  dB &= 10 \times 0.301 \\
+  dB &\approx 3.01
+\end{align}
+$$
+
+> [!warning] When it comes to loudness of sound, $+3$ dB does *NOT* mean double the loudness.
+> Loudness uses decibel because human hearing itself follows the logarithmic scale. 
