@@ -78,3 +78,4 @@ Earthquake wave amplitudes vary from barely detectable vibrations to waves that 
 
 ## The Decibel Scale
 
+The Decibel Scale measures the loudness 
