@@ -131,4 +131,5 @@ $$
 $$
 
 > [!warning] When it comes to loudness of sound, $+3$ dB does *NOT* mean double the loudness.
-> Loudness uses decibel because human hearing itself follows the logarithmic scale. $10$ dB increase is perceived as roughly twice as loud.
+> Loudness uses decibel because human hearing (and perception) itself follows the logarithmic scale. $10$ dB increase is perceived as roughly twice as loud.
+
