@@ -83,9 +83,9 @@ The <mark class="hltr-trippy">Decibel</mark> is a relative unit of measurement e
 > [!important] Power Quantity and Root-Power Quantity
 > A **Power Quantity** is a physical measurement that is directly proportional to power. For example, energy density, acoustic intensity, and luminous intensity are considered power quantities.
 > 
-> A **Root-Power Quantity** is a physical measurement whose *square* is proportional to power. For example, voltage, current, and sound pressure are considered root-power quantities.
+> A **Root-Power Quantity** is a physical measurement whose *square* is proportional to power. For example, amplitude, voltage, current, and sound pressure are considered root-power quantities.
 > 
-> Power is often calculated from two root-power quantities (e.g. Power = Voltage x Current). Think of **Power** as the *total energy* delivered per second (watts), and **Root-Power** as the *cause* or *driving force* that creates that power when multiplied by another related factor.
+> Power is often calculated from two root-power quantities (e.g. $P=V \times I$). Think of **Power** as the *total energy* delivered per second (watts), and **Root-Power** as the *cause* or *driving force* that creates that power when multiplied by another related factor.
 
 Decibel for power is :
 
