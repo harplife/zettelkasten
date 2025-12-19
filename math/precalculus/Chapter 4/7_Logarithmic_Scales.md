@@ -168,3 +168,6 @@ $$
 \beta_{2} - \beta_{1} = 10 \log \left( \frac{I_{2}}{I_{1}} \right)
 $$
 
+There are misconceptions that
+- $3$ dB increase in sound doubles the loudness (false)
+- $10$ dB increase in sound doubles the loudness (kind of, not really?)
