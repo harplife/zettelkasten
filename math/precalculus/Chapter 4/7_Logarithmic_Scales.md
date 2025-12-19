@@ -142,11 +142,15 @@ Sound is measured in three different ways :
 - Sound Pressure (Pa or RMS)
 - Loudness (dB)
 
-Sound Intensity is the objective amount of sound energy flowing through a specific area per sound (power per unit are).
+https://community.sw.siemens.com/s/article/sound-pressure-sound-power-and-sound-intensity-what-s-the-difference
 
-Sound Pressure is the fluctuation of air pressure caused by the sound wave, representing the wave's amplitude; measured in Pascals (Pa) or Root Mean Square (RMS).
+Sound Power??
 
-Loudness is the subjective perception of sound strength by the human ear and brain; measured in decibels (dB).
+<mark class="hltr-trippy">Sound Intensity</mark> is the objective amount of sound energy flowing through a specific area per sound (power per unit are).
+
+<mark class="hltr-trippy">Sound Pressure</mark> is the objective amount of fluctuation in air pressure caused by the sound wave, representing the wave's amplitude; measured in Pascals (Pa) or Root Mean Square (RMS).
+
+<mark class="hltr-trippy">Loudness</mark> is the subjective perception of sound strength by the human ear and brain; measured in decibels (dB).
 
 Sound loudness uses the formula :
 
