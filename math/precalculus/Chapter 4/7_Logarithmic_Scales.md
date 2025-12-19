@@ -78,4 +78,9 @@ Earthquake wave amplitudes vary from barely detectable vibrations to waves that 
 
 ## The Decibel Scale
 
-The Decibel Scale measures the loudness of sound.
+The Decibel is a relative unit of measurement equal to one tenth of a bel (B). It expresses the ratio of two values of a power (or root-power) quantity on a logarithmic scale.
+
+> [!important] Power Quantity and Root-Power Quantity
+> A **Power Quantity** is a physical measurement that is directly proportional to power. For example, energy density, acoustic intensity, and luminous intensity are considered power quantities.
+> 
+> A **Root-Power Quantity** is a physical measurement whose *square* is proportional to power or energy. For example, voltage, current, and sound pressure are considered root-power quantities.
