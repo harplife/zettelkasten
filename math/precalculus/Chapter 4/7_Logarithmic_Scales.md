@@ -78,9 +78,27 @@ Earthquake wave amplitudes vary from barely detectable vibrations to waves that 
 
 ## The Decibel Scale
 
-The Decibel is a relative unit of measurement equal to one tenth of a bel (B). It expresses the ratio of two values of a power (or root-power) quantity on a logarithmic scale.
+The <mark class="hltr-trippy">Decibel</mark> is a relative unit of measurement equal to one tenth of a bel (B). It expresses the ratio of two values of a power (or root-power) quantity on a logarithmic scale.
 
 > [!important] Power Quantity and Root-Power Quantity
 > A **Power Quantity** is a physical measurement that is directly proportional to power. For example, energy density, acoustic intensity, and luminous intensity are considered power quantities.
 > 
-> A **Root-Power Quantity** is a physical measurement whose *square* is proportional to power or energy. For example, voltage, current, and sound pressure are considered root-power quantities.
+> A **Root-Power Quantity** is a physical measurement whose *square* is proportional to power. For example, voltage, current, and sound pressure are considered root-power quantities.
+> 
+> Power is often calculated from two root-power quantities (e.g. Power = Voltage x Current). Think of **Power** as the *total energy* delivered per second (watts), and **Root-Power** as the *cause* or *driving force* that creates that power when multiplied by another related factor.
+
+Decibel for power is :
+
+$$
+10 \log\left( \frac{P_{2}}{P_{1}} \right)
+$$
+
+Decibel for root-power is :
+
+$$
+20 \log\left( \frac{V_{2}}{V_{1}} \right)
+$$
+
+> [!important] The strict usage of the term Decibel only expresses a relative change. However, Decibel can also be used for expressing an *absolute value* that is relative to some fixed reference value; in which case, the dB symbol is often suffixed with letter codes that indicate the reference value.
+> For example, for the reference value of $1$ volt, a common suffix is "V", which makes the symbol **dBV**.
+
