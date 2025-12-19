@@ -139,10 +139,16 @@ $$
 
 Sound is measured in three different ways :
 - Sound Intensity (W/m^[2])
-- Sound Pressure (Pascals)
+- Sound Pressure (Pa or RMS)
 - Loudness (dB)
 
-Sound loudness is measured in decibel, using the formula :
+Sound Intensity is the objective amount of sound energy flowing through a specific area per sound (power per unit are).
+
+Sound Pressure is the fluctuation of air pressure caused by the sound wave, representing the wave's amplitude; measured in Pascals (Pa) or Root Mean Square (RMS).
+
+Loudness is the subjective perception of sound strength by the human ear and brain; measured in decibels (dB).
+
+Sound loudness uses the formula :
 
 $$
 \beta = 10 \log\left( \frac{I}{I_{0}} \right)
