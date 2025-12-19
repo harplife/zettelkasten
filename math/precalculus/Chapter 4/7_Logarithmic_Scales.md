@@ -78,7 +78,7 @@ Earthquake wave amplitudes vary from barely detectable vibrations to waves that 
 
 ## The Decibel Scale
 
-The <mark class="hltr-trippy">Decibel</mark> is a relative unit of measurement equal to one tenth of a bel (B). It expresses the ratio of two values of a power (or root-power) quantity on a logarithmic scale.
+The <mark class="hltr-trippy">Decibel</mark> is a relative unit of measurement equal to *one-tenth* of a **bel (B)**. It expresses the ratio of two values of a power (or root-power) quantity on a logarithmic scale.
 
 > [!important] Power Quantity and Root-Power Quantity
 > A **Power Quantity** is a physical measurement that is directly proportional to power. For example, energy density, acoustic intensity, and luminous intensity are considered power quantities.
