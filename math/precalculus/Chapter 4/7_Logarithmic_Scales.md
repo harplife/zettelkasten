@@ -69,3 +69,12 @@ Earthquake wave amplitudes vary from barely detectable vibrations to waves that 
 > 
 > Similarly, it is *theoretically* possible for an earthquake to have magnitude below $0$.
 
+> [!important] Difference of $1$ magnitude means $10$ times higher/lower amplitude.
+> It also means $32$ times more/less energy released.
+
+> [!warning] The Richter scale was used for several decades (since 1935) but was replaced because it could not accurately measure large earthquakes or reflect the true physics of fault rupture. The **Moment Magnitude Scale (Mw)** keeps the logarithmic idea but fixes those limitations.
+> Today, the term "magnitude" is still being used but it refers to the Moment Magnitude Scale.
+
+
+## The Decibel Scale
+
