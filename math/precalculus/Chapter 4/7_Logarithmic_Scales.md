@@ -137,6 +137,10 @@ $$
 > - decibel for sound loudness?
 > - +3dB / +10 dB = double the loudness? Check the link - https://community.sw.siemens.com/s/article/the-wacky-world-of-acoustics-decibel-funny-math-and-human-hearing
 
+Sound is measured in three different ways :
+- Sound Intensity (W/m^[2])
+- Sound Pressure (Pascals)
+- Loudness (dB)
 
 Sound loudness is measured in decibel, using the formula :
 
