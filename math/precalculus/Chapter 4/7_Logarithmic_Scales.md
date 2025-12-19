@@ -138,3 +138,33 @@ $$
 > - +3dB / +10 dB = double the loudness? Check the link - https://community.sw.siemens.com/s/article/the-wacky-world-of-acoustics-decibel-funny-math-and-human-hearing
 
 
+Sound loudness is measured in decibel, using the formula :
+
+$$
+\beta = 10 \log\left( \frac{I}{I_{0}} \right)
+$$
+
+Where :
+- $\beta$ = sound level
+- $I$ = sound intensity (Watts/m^[2])
+- $I_{0}$ = threshold of human hearing (10^[-12] W/m^[2])
+
+
+Intensity formula :
+
+$$
+I = \frac{P}{A}
+$$
+
+Where :
+- $I$ = Intensity (W/m^[2])
+- $P$ = Power (Watts)
+- $A$ = Area (m^[2])
+
+
+Change in Loudness :
+
+$$
+\beta_{2} - \beta_{1} = 10 \log \left( \frac{I_{2}}{I_{1}} \right)
+$$
+
