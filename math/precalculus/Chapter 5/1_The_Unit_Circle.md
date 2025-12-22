@@ -28,6 +28,9 @@ Let's say there is a unit vector that starts from the origin and ends at $P(1,0)
 
 ![[Pasted image 20251222115038.png | center | 500]]
 
+> [!important] The curve on the unit circle between the initial point and the terminal point is an **Arc**. The distance $t$ is the same as the length of that arc, and it is measured in **Radians**.
+> The length of an arc is proportional to the angle, meaning they can be converted. For example, $90$ degree is the same as $\frac{\pi}{2}$ radians. In many situations, an angle is measured in radians.
+
 ---
 The circumference of the unit circle is :
 
