@@ -185,3 +185,4 @@ $$
 There are misconceptions that
 - $3$ dB increase in sound doubles the loudness (false)
 - $10$ dB increase in sound doubles the loudness (kind of, not really?)
+
