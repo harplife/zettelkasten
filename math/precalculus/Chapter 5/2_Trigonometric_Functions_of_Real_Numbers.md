@@ -97,4 +97,8 @@ A <mark class="hltr-trippy">Tangent</mark> is a line touching the circle at exac
 ![[special_segments_in_a_circle.svg|center|500]]
 
 
-Historically, the sine function directly referred to the half the length of a full chord.
+Historically, the sine function used to be referred to as the *half-chord of a circle*, literally referring to the half the length of a chord.
+
+![[Pasted image 20251227123727.png | center | 300]]
+
+The sine function was the first function of the trigonometric functions to be 
