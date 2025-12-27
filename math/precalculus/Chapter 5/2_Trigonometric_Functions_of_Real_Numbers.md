@@ -60,5 +60,31 @@ $$
 
 Note that $\tan(\theta)$ becomes undefined when the line is vertical and consequently, $x=0$ and $\cos(\theta)=0$.
 
+> [!important] The Tangent Line Interpretation
+> Draw the vertical line at $x=1$. This line is a **Tangent Line**, which is perpendicular to the unit vector that points to the terminal point $P(1,0)$.
+> 
+> Let's say we move the terminal point to elsewhere (e.g. $\frac{\pi}{4}$). When we extend the unit vector so that the endpoint hits the tangent line, the coordinate of the point where they meet is $$(1, \tan(\theta))$$
+> 
+> In a sense, Tangent is the *vertical height* where the "ray" from the unit vector hits the tangent line.
+
 ---
+The three functions, Sine, Cosine, and Tangent, have their reciprocals.
+
+Secant is reciprocal to Cosine (*undefined* when $\cos(\theta)=0$) :
+
+$$
+\sec(\theta) = \frac{1}{\cos(\theta)}
+$$
+
+Cosecant is reciprocal to Sine (*undefined* when $\sin(\theta)=0$) :
+
+$$
+\csc(\theta) = \frac{1}{\sin(\theta)}
+$$
+
+Cotangent is reciprocal to Tangent (*undefined* when $\sin(\theta)=0$) :
+
+$$
+\cot(\theta) = \frac{\cos(\theta)}{\sin(\theta)}
+$$
 
