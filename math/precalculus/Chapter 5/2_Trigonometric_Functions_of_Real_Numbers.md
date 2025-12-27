@@ -66,23 +66,41 @@ Note that $\tan(\theta)$ becomes undefined when the line is vertical and consequ
 ---
 The three functions, Sine, Cosine, and Tangent, have their reciprocals.
 
-Secant is reciprocal to Cosine (*undefined* when $\cos(\theta)=0$) :
+<mark class="hltr-trippy">Secant</mark> is reciprocal to Cosine (*undefined* when $\cos(\theta)=0$) :
 
 $$
 \sec(\theta) = \frac{1}{\cos(\theta)} = \frac{1}{x}
 $$
 
-Cosecant is reciprocal to Sine (*undefined* when $\sin(\theta)=0$) :
+<mark class="hltr-trippy">Cosecant</mark> is reciprocal to Sine (*undefined* when $\sin(\theta)=0$) :
 
 $$
 \csc(\theta) = \frac{1}{\sin(\theta)} = \frac{1}{y}
 $$
 
-Cotangent is reciprocal to Tangent (*undefined* when $\sin(\theta)=0$) :
+<mark class="hltr-trippy">Cotangent</mark> is reciprocal to Tangent (*undefined* when $\sin(\theta)=0$) :
 
 $$
 \cot(\theta) = \frac{\cos(\theta)}{\sin(\theta)} = \frac{x}{y}
 $$
+
+---
+Below is a table
+
+
+### (Extra) Summary table
+
+| Function  | Relationship                                                                                                    |
+| --------- | --------------------------------------------------------------------------------------------------------------- |
+| Sine      | $\sin(\theta)=\cos\left( \frac{\pi}{2}-\theta \right)=\frac{1}{\csc(\theta)}$                                   |
+| Cosine    | $\cos(\theta)=\sin\left( \frac{\pi}{2}-\theta \right)=\frac{1}{\sec(\theta)}$                                   |
+| Tangent   | $\tan(\theta)=\frac{\sin(\theta)}{\cos(\theta)}=\cot\left( \frac{\pi}{2}-\theta \right)=\frac{1}{\cot(\theta)}$ |
+| Cotangent | $\cot(\theta)=\frac{\cos(\theta)}{\sin(\theta)}=\tan\left( \frac{\pi}{2}-\theta \right)=\frac{1}{\tan(\theta)}$ |
+| Secant    | $\sec(\theta)=\csc\left( \frac{\pi}{2}-\theta \right)=\frac{1}{\cos(\theta)}$                                   |
+| Cosecant  | $\csc(\theta)=\sec\left( \frac{\pi}{2}-0 \right)=\frac{1}{\sin(\theta)}$                                        |
+
+> [!important] The trigonometric functions are sometimes called the **Circular Functions** because they can be defined in terms of the unit circle.
+
 
 ### (Extra) Special segments in circle
 
@@ -106,10 +124,7 @@ Historically, the sine function used to be referred to as the *half-chord of a c
 The sine function was the first function of the (fundamental) trigonometric functions to be discovered. Next was the cosine function, "co-" prefix noting the fact that the cosine is the sine of the *complementary* angle (in 90 degrees).
 
 $$
-\begin{align}
-  \text{If : } &\quad \theta + \phi = 90^\circ \\
-  \text{Then : }&\quad \cos(\theta) = \sin(\phi)
-\end{align}
+\cos(\theta) = \sin\left( \frac{\pi}{2}-\theta \right)
 $$
 
 All this supports the fact that the sine function represents the y-axis coordinate of a terminal point, while the cosine function represents the x-axis coordinate.
@@ -121,6 +136,9 @@ The significance of the secant function is not that it is the reciprocal of the 
 ![[TrigFunctionDiagram.svg|center|500]]
 
 The "co-" prefix in the cosecant function denotes the fact that it is a *co-function* (paired function) of the secant function. Similar to the secant function, the cosecant function represents the length of the line that "cuts through" the circle - however, it extends to the point $(\cot(\theta), 1)$ on the cotangent line $y=1$.
+
+> [!important] In a way, the cosecant function is also the secant function of the complementary angle.
+> $$\csc(\theta)=\sec\left( \frac{\pi}{2}-\theta \right)$$
 
 <center>. . .</center>
 
