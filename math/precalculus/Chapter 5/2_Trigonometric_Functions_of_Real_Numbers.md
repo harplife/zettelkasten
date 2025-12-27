@@ -96,6 +96,7 @@ A <mark class="hltr-trippy">Tangent</mark> is a line touching the circle at exac
 
 ![[special_segments_in_a_circle.svg|center|500]]
 
+<center> . . .</center>
 
 Historically, the sine function used to be referred to as the *half-chord of a circle*, literally referring to the half the length of a chord.
 
@@ -112,3 +113,6 @@ $$
 
 All this supports the fact that the sine function represents the y-axis coordinate of a terminal point, while the cosine function represents the x-axis coordinate.
 
+<center>. . .</center>
+
+The significance of the secant function is not that it is the reciprocal of the sine function, but rather the fact that it is the length of the line that "cuts through" the circle and extend to the point where it meets the vertical line $x=1$.
