@@ -88,11 +88,11 @@ $$
 ---
 Special segments in a circle include chords, secants, and tangents.
 
-A Chord is a segment with both endpoints on the circle
+A <mark class="hltr-trippy">Chord</mark> is a segment with both endpoints on the circle
 
-A Secant is a line intersecting the circle at two points, and extending beyond the circle.
+A <mark class="hltr-trippy">Secant</mark> is a line intersecting the circle at two points, and extending beyond the circle.
 
-A Tangent is a line touching the circle at exactly one point.
+A <mark class="hltr-trippy">Tangent</mark> is a line touching the circle at exactly one point.
 
 ![[special_segments_in_a_circle.svg|center|500]]
 
