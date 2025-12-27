@@ -13,6 +13,7 @@ Let :
 - $\theta$ be the angle measured from the positive x-axis (to the unit vector at the terminal point)
 - $(x,y)$ be the coordinates of the terminal point at angle $\theta$
 
+---
 The coordinates of each axis can be found by using the two fundamental trigonometric functions :
 
 $$
@@ -22,7 +23,9 @@ $$
 \end{align}
 $$
 
-$\cos$ stands for **Cosine**, which represents the horizontal coordinate. $\sin$ stands for **Sine**, which represents the vertical coordinate. When an angle $\theta$ is given to these functions (e.g. $\sin(\theta)$), the resulting value is the coordinate.
+$\cos$ stands for <mark class="hltr-trippy">Cosine</mark>, which represents the *horizontal coordinate* of the terminal point.
+
+$\sin$ stands for <mark class="hltr-trippy">Sine</mark>, which represents the *vertical coordinate* of the terminal point.
 
 > [!warning] Many apps default to *radians* when it comes to angles.
 > Be sure to check which unit of measurement (degree/radian) is used before using angle-based functions such as $\sin$ or $\cos$.
@@ -41,4 +44,21 @@ Let's say $\theta=55$. The terminal point is then located at $(\cos(55), \sin(55
 #todo rest of the functions
 
 #todo undefined values - $\tan(\theta)$ is undefined at $x=0$, $\csc(\theta)$ is undefined when $y=0$.
+
+---
+The ratio of the two functions Sine and Cosine creates <mark class="hltr-trippy">Tangent</mark>, which represents the slope of the unit vector pointing to the terminal point.
+
+$$
+\tan(\theta) = \frac{\sin(\theta)}{\cos(\theta)}
+$$
+
+Note that this is equivalent to how we understand *slope*, that is :
+
+$$
+\text{slope} = \text{ rise over run } = \frac{y}{x}
+$$
+
+Note that $\tan(\theta)$ becomes undefined when the line is vertical and consequently, $x=0$ and $\cos(\theta)=0$.
+
+---
 
