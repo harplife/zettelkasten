@@ -101,4 +101,14 @@ Historically, the sine function used to be referred to as the *half-chord of a c
 
 ![[Pasted image 20251227123727.png | center | 300]]
 
-The sine function was the first function of the trigonometric functions to be 
+The sine function was the first function of the (fundamental) trigonometric functions to be discovered. Next was the cosine function, "co-" prefix noting the fact that the cosine is the sine of the *complementary* angle (in 90 degrees).
+
+$$
+\begin{align}
+  \text{If : } &\quad \theta + \phi = 90^\circ \\
+  \text{Then : }&\quad \cos(\theta) = \sin(\phi)
+\end{align}
+$$
+
+All this supports the fact that the sine function represents the y-axis coordinate of a terminal point, while the cosine function represents the x-axis coordinate.
+
