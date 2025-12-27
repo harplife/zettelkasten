@@ -85,7 +85,18 @@ $$
 $$
 
 ---
-Below is a table
+Below is a table of special values of the trigonometric functions :
+
+
+| Functions / $\theta$ | $0$       | $\frac{\pi}{6}$         | $\frac{\pi}{4}$        | $\frac{\pi}{3}$         | $\frac{\pi}{2}$ | $\pi$     | $\frac{3\pi}{2}$ |
+| -------------------- | --------- | ----------------------- | ---------------------- | ----------------------- | --------------- | --------- | ---------------- |
+| $\sin(\theta)$       | $0$       | $\frac{1}{2}$           | $\frac{\sqrt{ 2 }}{2}$ | $\frac{\sqrt{ 3 }}{2}$  | $1$             | $0$       | $-1$             |
+| $\cos(\theta)$       | $1$       | $\frac{\sqrt{ 3 }}{2}$  | $\frac{\sqrt{ 2 }}{2}$ | $\frac{1}{2}$           | $0$             | $-1$      | $0$              |
+| $\tan(\theta)$       | $0$       | $\frac{\sqrt{ 3 }}{3}$  | $1$                    | $\sqrt{ 3 }$            | undefined       | $0$       | undefined        |
+| $\csc(\theta)$       | undefined | $2$                     | $\sqrt{ 2 }$           | $\frac{2\sqrt{ 3 }}{3}$ | $1$             | undefined | $-1$             |
+| $\sec(\theta)$       | $1$       | $\frac{2\sqrt{ 3 }}{3}$ | $\sqrt{ 2 }$           | $2$                     | undefined       | $-1$      | undefined        |
+| $\cot(\theta)$       |           |                         |                        |                         |                 |           |                  |
+
 
 
 ### (Extra) Summary table
