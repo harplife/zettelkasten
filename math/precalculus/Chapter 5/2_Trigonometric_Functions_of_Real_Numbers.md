@@ -119,3 +119,11 @@ The significance of the secant function is not that it is the reciprocal of the 
 
 ![[TrigFunctionDiagram.svg|center|500]]
 
+The "co-" prefix in the cosecant function denotes the fact that it is a *co-function* (paired function) of the secant function. Similar to the secant function, the cosecant function represents the length of the line that "cuts through" the circle - however, it extends to the point $(\cot(\theta), 1)$ on the cotangent line $y=1$.
+
+<center>. . .</center>
+
+![[Circle-trig6.svg | center | 500]]
+
+
+
