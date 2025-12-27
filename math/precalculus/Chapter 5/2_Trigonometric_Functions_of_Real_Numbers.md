@@ -115,4 +115,7 @@ All this supports the fact that the sine function represents the y-axis coordina
 
 <center>. . .</center>
 
-The significance of the secant function is not that it is the reciprocal of the sine function, but rather the fact that it is the length of the line that "cuts through" the circle and extend to the point where it meets the vertical line $x=1$.
+The significance of the secant function is not that it is the reciprocal of the cosine function, but rather the fact that it is the length of the line that "cuts through" the circle and extend to the point where it meets the vertical line $x=1$.
+
+> [!important] The point is at $(1, \tan(\theta))$.
+
