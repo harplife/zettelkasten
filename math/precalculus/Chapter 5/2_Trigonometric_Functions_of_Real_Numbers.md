@@ -96,3 +96,5 @@ A <mark class="hltr-trippy">Tangent</mark> is a line touching the circle at exac
 
 ![[special_segments_in_a_circle.svg|center|500]]
 
+
+Historically, the sine function directly referred to the half the length of a full chord.
