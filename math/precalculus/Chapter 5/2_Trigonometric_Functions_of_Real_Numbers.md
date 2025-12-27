@@ -69,23 +69,23 @@ The three functions, Sine, Cosine, and Tangent, have their reciprocals.
 Secant is reciprocal to Cosine (*undefined* when $\cos(\theta)=0$) :
 
 $$
-\sec(\theta) = \frac{1}{\cos(\theta)}
+\sec(\theta) = \frac{1}{\cos(\theta)} = \frac{1}{x}
 $$
 
 Cosecant is reciprocal to Sine (*undefined* when $\sin(\theta)=0$) :
 
 $$
-\csc(\theta) = \frac{1}{\sin(\theta)}
+\csc(\theta) = \frac{1}{\sin(\theta)} = \frac{1}{y}
 $$
 
 Cotangent is reciprocal to Tangent (*undefined* when $\sin(\theta)=0$) :
 
 $$
-\cot(\theta) = \frac{\cos(\theta)}{\sin(\theta)}
+\cot(\theta) = \frac{\cos(\theta)}{\sin(\theta)} = \frac{x}{y}
 $$
 
+### (Extra) Special segments in circle
 
----
 Special segments in a circle include chords, secants, and tangents.
 
 A <mark class="hltr-trippy">Chord</mark> is a segment with both endpoints on the circle
@@ -96,7 +96,8 @@ A <mark class="hltr-trippy">Tangent</mark> is a line touching the circle at exac
 
 ![[special_segments_in_a_circle.svg|center|500]]
 
-<center> . . .</center>
+
+### (Extra) More context for better understanding
 
 Historically, the sine function used to be referred to as the *half-chord of a circle*, literally referring to the half the length of a chord.
 
@@ -123,7 +124,12 @@ The "co-" prefix in the cosecant function denotes the fact that it is a *co-func
 
 <center>. . .</center>
 
+The diagram below represents the *numeric* value of the trigonometric functions.
+
 ![[Circle-trig6.svg | center | 500]]
+
+> [!warning] The diagram is not labeling rays, but specific line segments, often projected or truncated in ways that aren't obvious.
+> Be mindful that it may conflict with the understanding of the trigonometric functions.
 
 
 
