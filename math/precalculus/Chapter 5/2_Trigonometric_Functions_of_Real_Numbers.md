@@ -41,8 +41,6 @@ Let's say $\theta=55$. The terminal point is then located at $(\cos(55), \sin(55
 
 > [!important] #todo write about Periodicity, how rotating a full circle ($2\pi$) lands at the same terminal point - and how that relates to trigonometric functions $\sin(\theta+2\pi)=\sin(\theta)$.
 
-> [!important] The original function was Sine, and it meant
-
 ---
 The ratio of the two functions Sine and Cosine creates <mark class="hltr-trippy">Tangent</mark>, which represents the slope of the unit vector pointing to the terminal point.
 
@@ -85,4 +83,7 @@ Cotangent is reciprocal to Tangent (*undefined* when $\sin(\theta)=0$) :
 $$
 \cot(\theta) = \frac{\cos(\theta)}{\sin(\theta)}
 $$
+
+
+---
 
