@@ -20,6 +20,12 @@ Note that in both graphs, the "starting" point of the graph is at $(1,0)$ where 
 We know that the values of $\sin(\theta)$ starts $0$, moves to $1$, back to $0$, moves to $-1$, and then finally comes back around to $0$. The highest value is $1$ and the lowest $-1$. Meaning, the <mark class="hltr-trippy">Range</mark> of the sine graph is $[-1,1]$.
 - The range of the cosine graph is $[-1,1]$ as well.
 
+> [!important] Graphs of even or odd functions
+> An odd function, such as the sine function, outputs a negative value if the input is negative. On the other hand, an even function, like the cosine function, output is not affected by the sign of the input.
+> 
+> What this means on the graph is that when the terminal point rotates *clockwise* ($\theta<0$), the graph of the odd function is *flipped*. Meaning, the graph of the sine function goes from $0$ to $-1$ instead of $0$ to $1$. Meanwhile, the graph of the even function is not affected.
+
+
 
 ---
 The standard form
