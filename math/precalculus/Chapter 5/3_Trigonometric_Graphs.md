@@ -99,6 +99,4 @@ $$
 
 <center>. . .</center>
 
-
-
-
+<mark class="hltr-trippy">Phase</mark> refers to the *angular* or *horizontal* position of a wave within its cycle.
