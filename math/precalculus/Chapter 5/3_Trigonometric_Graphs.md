@@ -126,3 +126,7 @@ $$
 \end{align}
 $$
 
+> [!important] It's important to note that sine and cosine describe the same circular motion, but the only difference is that they are projected onto different axes.
+
+> [!important] Given two different waves, 
+
