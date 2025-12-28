@@ -38,7 +38,7 @@ We know that the values of $\sin(\theta)$ starts $0$, moves to $1$, back to $0$,
 The general wave form (of sine) :
 
 $$
-y = A \cdot \sin(Bx+C)+D
+y = A \cdot \sin(Bx-C)+D
 $$
 
 | Parameter | Effect                             |
@@ -100,15 +100,18 @@ $$
 <center>. . .</center>
 
 <mark class="hltr-trippy">Phase</mark> refers to the *angular* or *horizontal* position of a wave within its cycle.
-- **Phase shift** (of a periodic function) is synonymous to horizontal shift.
+- **Phase shift** (of a periodic function) is synonymous to *horizontal shift* and *rotation offset*.
 
 The standard sine/cosine function has zero phase shift; the cycle start at phase $0$ - in other words, it starts at $\theta=0$ and ends at $\theta=2\pi$.
 
 The standard function can be transformed, such that :
 
 $$
-y = \sin(x+C)
+y = \sin(x-C)
 $$
 
 Where $C$ describes the phase shift.
+- This means that at $x=0$, the function becomes $y=\sin(-C)$; therefore, the wave starts at $\theta=-C$.
+
+For example, given $y=\sin\left( x-\frac{\pi}{2} \right)$, the starting angle is at $-\frac{\pi}{2}$ and $\sin\left( -\frac{\pi}{2} \right)$ is $-1$. Therefore, the wave begins at $-1$, goes up to $1$, and then back down to $-1$.
 
