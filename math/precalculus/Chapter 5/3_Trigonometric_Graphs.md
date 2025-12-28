@@ -25,6 +25,8 @@ We know that the values of $\sin(\theta)$ starts $0$, moves to $1$, back to $0$,
 > 
 > What this means on the graph is that when the terminal point rotates *clockwise* ($\theta<0$), the graph of the odd function is *flipped*. Meaning, the graph of the sine function goes from $0$ to $-1$ instead of $0$ to $1$. Meanwhile, the graph of the even function is not affected.
 
+The maximum distance from $0$ (midline on the graph) to the highest/lowest value is called the <mark class="hltr-trippy">Amplitude</mark>. Both the sine and the cosine functions have amplitude of $1$. In essence, the amplitude tells "how far the motion from the center is stretched".
+
 
 
 ---
