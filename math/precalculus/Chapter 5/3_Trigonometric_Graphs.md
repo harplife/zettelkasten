@@ -100,3 +100,15 @@ $$
 <center>. . .</center>
 
 <mark class="hltr-trippy">Phase</mark> refers to the *angular* or *horizontal* position of a wave within its cycle.
+- **Phase shift** (of a periodic function) is synonymous to horizontal shift.
+
+The standard sine/cosine function has zero phase shift; the cycle start at phase $0$ - in other words, it starts at $\theta=0$ and ends at $\theta=2\pi$.
+
+The standard function can be transformed, such that :
+
+$$
+y = \sin(x+C)
+$$
+
+Where $C$ describes the phase shift.
+
