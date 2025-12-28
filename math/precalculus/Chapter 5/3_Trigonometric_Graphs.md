@@ -13,9 +13,18 @@
 
 The graph of the cosine function $\cos(\theta)$ reflects the *horizontal* movement of the terminal point as it moves along the circle. The graph of the sine function $\sin(\theta)$ reflects the *vertical* movement.
 
-Note that in both graphs, the "starting" point of the graph is at $(1,0)$ where $\theta=0$. Once the terminal point moves all the way along the circle ($\theta=2\pi$), a single <mark class="hltr-trippy">Period</mark> of the graph has completed - that is to say, the length of one period on the graph is $2\pi$. The values in a period are repeated again and again for each following periods.
-- The graph of the sine function starts at $0$ and ends at $0$.
-- The graph of the cosine function starts at $1$ and ends at $1$.
+<center>. . .</center>
+
+A <mark class="hltr-trippy">Cycle</mark> describes the *pattern* or *shape* of the repeating wave.
+
+Note that the "starting" point of the sine/cosine graph is at $(1,0)$ where $\theta=0$. Once the terminal point moves all the way along the circle ($\theta=2\pi$), a single cycle of the graph has completed.
+- The graph of sine starts its cycle at $0$, and then comes back around to $0$.
+- The graph of cosine starts its cycle at $1$, and then comes back around to $1$.
+
+A <mark class="hltr-trippy">Period</mark> describes the specific *horizontal length* or *duration* (along the x-axis) for the repeating wave to complete one full cycle.
+
+The standard period of sine and cosine is $2\pi$. This means that the graph of these functions complete one cycle for every interval $2\pi$.
+<center>. . .</center>
 
 We know that the values of $\sin(\theta)$ starts $0$, moves to $1$, back to $0$, moves to $-1$, and then finally comes back around to $0$. The highest value is $1$ and the lowest $-1$. Meaning, the <mark class="hltr-trippy">Range</mark> of the sine graph is $[-1,1]$.
 - The range of the cosine graph is $[-1,1]$ as well.
@@ -25,21 +34,71 @@ We know that the values of $\sin(\theta)$ starts $0$, moves to $1$, back to $0$,
 > 
 > What this means on the graph is that when the terminal point rotates *clockwise* ($\theta<0$), the graph of the odd function is *flipped*. Meaning, the graph of the sine function goes from $0$ to $-1$ instead of $0$ to $1$. Meanwhile, the graph of the even function is not affected.
 
-The maximum distance from $0$ (midline on the graph) to the highest/lowest value is called the <mark class="hltr-trippy">Amplitude</mark>. Both the sine and the cosine functions have amplitude of $1$. In essence, the amplitude tells "how far the motion from the center is stretched".
-
-
-
 ---
-The standard form
+The general wave form (of sine) :
 
 $$
 y = A \cdot \sin(Bx+C)+D
 $$
 
-
 | Parameter | Effect                             |
 | --------- | ---------------------------------- |
 | $A$       | amplitude (vertical stretch)       |
 | $B$       | frequency (horizontal compression) |
-| $C$       | phase shift                        |
+| $C$       | horizontal (phase) shift           |
 | $D$       | vertical shift                     |
+
+<center>. . .</center>
+
+The maximum distance from $0$ (midline on the graph) to the highest/lowest value is called the <mark class="hltr-trippy">Amplitude</mark>. Both the sine and the cosine functions have amplitude of $1$. In essence, the amplitude tells "how far the motion from the center is stretched".
+
+> [!important] Amplitude can also be defined as half the distance between the function's maximum and minimum values (for symmetrical waves).
+
+The graph can be transformed such that the graph is vertically compressed/stretched :
+
+$$
+y = A \cdot \sin(x)
+$$
+
+In this case, $A$ is directly related to amplitude.
+
+For example, for $y=2 \cdot \sin(x)$, the amplitude is $2$; the graph of the function is highest at $2$, and then lowest at $-2$.
+
+<center>. . . </center>
+
+The number of cycles a periodic function (sine and cosine) completes over a set interval (usually $2\pi$) is called <mark class="hltr-trippy">Frequency</mark>.
+
+The standard period of sine/cosine is $2\pi$. However, when the function is transformed such that the graph is horizontally compressed/stretched,
+
+$$
+y = \sin(Bx)
+$$
+
+The period of the transformed function is also changed :
+
+$$
+P = \frac{2\pi}{B}
+$$
+
+For example, given the sine function :
+
+$$
+y = \sin(2x)
+$$
+
+The period for such function is $\pi$. This means that, compared to the standard sine function whose graph completes one cycle within the interval $2\pi$, the transformed sine function completes its cycle *twice* within the same interval. Meaning, the frequency of the transformed function is $2$.
+
+> [!important] Note that $B$ is directly related to the frequency.
+> A larger $B$ value (higher frequency) compresses the graph horizontally; the period is shorter, and the cycles are faster.
+
+Noe that **frequency** and **period** are *reciprocals* :
+
+$$
+B = \frac{1}{P}
+$$
+
+<center>. . .</center>
+
+
+
+
