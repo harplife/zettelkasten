@@ -87,7 +87,6 @@ $$
 ---
 Below is a table of special values of the trigonometric functions :
 
-
 | Functions / $\theta$ | $0$       | $\frac{\pi}{6}$         | $\frac{\pi}{4}$        | $\frac{\pi}{3}$         | $\frac{\pi}{2}$ | $\pi$     | $\frac{3\pi}{2}$ |
 | -------------------- | --------- | ----------------------- | ---------------------- | ----------------------- | --------------- | --------- | ---------------- |
 | $\sin(\theta)$       | $0$       | $\frac{1}{2}$           | $\frac{\sqrt{ 2 }}{2}$ | $\frac{\sqrt{ 3 }}{2}$  | $1$             | $0$       | $-1$             |
@@ -95,8 +94,7 @@ Below is a table of special values of the trigonometric functions :
 | $\tan(\theta)$       | $0$       | $\frac{\sqrt{ 3 }}{3}$  | $1$                    | $\sqrt{ 3 }$            | undefined       | $0$       | undefined        |
 | $\csc(\theta)$       | undefined | $2$                     | $\sqrt{ 2 }$           | $\frac{2\sqrt{ 3 }}{3}$ | $1$             | undefined | $-1$             |
 | $\sec(\theta)$       | $1$       | $\frac{2\sqrt{ 3 }}{3}$ | $\sqrt{ 2 }$           | $2$                     | undefined       | $-1$      | undefined        |
-| $\cot(\theta)$       |           |                         |                        |                         |                 |           |                  |
-
+| $\cot(\theta)$       | undefined | $\sqrt{ 3 }$            | $1$                    | $\frac{\sqrt{ 3 }}{3}$  | $0$             | undefined | $0$              |
 
 
 ### (Extra) Summary table
@@ -160,5 +158,47 @@ The diagram below represents the *numeric* value of the trigonometric functions.
 > [!warning] The diagram is not labeling rays, but specific line segments, often projected or truncated in ways that aren't obvious.
 > Be mindful that it may conflict with the understanding of the trigonometric functions.
 
+
+## Values of the Trigonometric Functions
+
+### Even-Odd Properties
+
+Sine, cosecant, tangent, and cotangent are <mark class="hltr-trippy">Odd Functions</mark>. Meaning, negative input means negative output. For example :
+- $\sin(-\theta)=-\sin(\theta)$
+- $\csc(-\theta)=-\csc(\theta)$
+- $\tan(-\theta)=-\tan(\theta)$
+- $\cot(-\theta)=-\cot(\theta)$
+
+Cosine and secant are Even Functions, where negative inputs are inversed. For example :
+- $\cos(-\theta)=\cos(\theta)$
+- $\sec(-\theta)=\sec(\theta)$
+
+
+## Fundamental Identities
+
+### Reciprocal Identities
+
+We already covered this.
+
+
+### Pythagorean Identities
+
+1.
+
+$$
+\sin^2(\theta) + \cos^2(\theta) = 1
+$$
+
+2.
+
+$$
+\tan^2(\theta) + 1 = \sec^2(\theta)
+$$
+
+3.
+
+$$
+1 + \cot^2(\theta)=\csc^2(\theta)
+$$
 
 
