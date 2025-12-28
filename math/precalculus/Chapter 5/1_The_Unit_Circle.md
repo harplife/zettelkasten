@@ -32,6 +32,11 @@ Let's say there is a unit vector that starts from the origin and ends at $P(1,0)
 > The length of an arc is proportional to the angle, meaning they can be converted. For example, $90$ degree is the same as $\frac{\pi}{2}$ radians. In many situations, an angle is measured in radians.
 
 ---
+Visualization of what radian is :
+
+![[Circle_radians.gif | center]]
+
+---
 The circumference of the unit circle is :
 
 $$
