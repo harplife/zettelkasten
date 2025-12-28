@@ -21,7 +21,6 @@ We know that the values of $\sin(\theta)$ starts $0$, moves to $1$, back to $0$,
 - The range of the cosine graph is $[-1,1]$ as well.
 
 
-
 ---
 The standard form
 
