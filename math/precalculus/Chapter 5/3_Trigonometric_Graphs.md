@@ -194,10 +194,10 @@ Graphically, $C$ moves the midline $y=0$ to $y=C$. This constant $C$ is called t
 ### (Extra) Wave formula in Physics and Engineering
 
 $$
-y = A \cdot \sin(\omega x-\phi)+D
+y = A \cdot \sin(\omega t-\phi)+D
 $$
 
-$\omega$ stands for frequency, $\phi$ stands for phase constant.
+$\omega$ stands for angular frequency (rad/s), $t$ stands for time, and $\phi$ stands for phase constant.
 
 $$
 \text{phase shift} = \frac{\phi}{\omega}
