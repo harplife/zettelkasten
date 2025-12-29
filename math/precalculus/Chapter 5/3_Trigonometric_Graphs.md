@@ -125,8 +125,6 @@ The period for such function is $\pi$. This means that, compared to the standard
 > [!important] Note that $B$ is directly related to the frequency.
 > A larger $B$ value (higher frequency) compresses the graph horizontally; the period is shorter, and the cycles are faster.
 
-> [!important] In physics and engineering, $\omega$ (omega) symbol is used in place of $B$.
-
 Note that **frequency** and **period** are *reciprocals* :
 
 $$
@@ -171,8 +169,6 @@ $$
 > [!important] Phase shift vs. horizontal shift
 > The angle $\theta$ represents a state of rotation around the unit circle. Phase represents the *current* state of rotation around the unit circle. Graphically speaking, phase shift is the same as horizontal shift - but geometrically, it is understood that the wave is "out of phase" with the original state.
 
-> [!important] In physics and engineering, $\phi$ (phi) symbol is used in place of $C$.
-
 Note that when we put frequency and phase together, we get :
 
 $$
@@ -195,4 +191,16 @@ Graphically, $C$ moves the midline $y=0$ to $y=C$. This constant $C$ is called t
 > For example, the temperature outside can oscillate daily but there is an average temperature over the week.
 
 
-$y=A \cdot \sin B(x-C)+D$
+### (Extra) Wave formula in Physics and Engineering
+
+$$
+y = A \cdot \sin(\omega x-\phi)+D
+$$
+
+$\omega$ stands for frequency, $\phi$ stands for phase constant.
+
+$$
+\text{phase shift} = \frac{\phi}{\omega}
+$$
+
+In physics and engineering, $x$ represents time, $\omega x$ represents an angle of rotation, and $\phi$ represents a starting angle.
