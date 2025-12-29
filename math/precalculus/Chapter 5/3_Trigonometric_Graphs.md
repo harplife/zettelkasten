@@ -175,7 +175,7 @@ $$
 y = \sin B(x-C)
 $$
 
-It's a common mistake to think that the phase shift is $BC$ - but the phase shift remains $C$ because phase shift is measured in x-units, not angle-units.
+It's a common mistake to think that the phase shift is $BC$, but the phase shift remains $C$ because phase shift acts on the *raw input*.
 
 <center>. . .</center>
 
