@@ -23,7 +23,14 @@ Note that the "starting" point of the sine/cosine graph is at $(1,0)$ where $\th
 
 A <mark class="hltr-trippy">Period</mark> describes the specific *horizontal length* or *duration* (along the x-axis) for the repeating wave to complete one full cycle.
 
-The standard period of sine and cosine is $2\pi$. This means that the graph of these functions complete one cycle for every interval $2\pi$.
+The standard period of sine and cosine is $2\pi$. This means that the graph of these functions complete one cycle for every interval $2\pi$. This means that :
+
+$$
+\begin{align}
+  \sin(\theta+2\pi) &= \sin(\theta) \\
+  \cos(\theta+2\pi) &= \cos(\theta)
+\end{align}
+$$
 <center>. . .</center>
 
 We know that the values of $\sin(\theta)$ starts $0$, moves to $1$, back to $0$, moves to $-1$, and then finally comes back around to $0$. The highest value is $1$ and the lowest $-1$. Meaning, the <mark class="hltr-trippy">Range</mark> of the sine graph is $[-1,1]$.
@@ -91,7 +98,7 @@ The period for such function is $\pi$. This means that, compared to the standard
 > [!important] Note that $B$ is directly related to the frequency.
 > A larger $B$ value (higher frequency) compresses the graph horizontally; the period is shorter, and the cycles are faster.
 
-Noe that **frequency** and **period** are *reciprocals* :
+Note that **frequency** and **period** are *reciprocals* :
 
 $$
 B = \frac{1}{P}
@@ -128,5 +135,10 @@ $$
 
 > [!important] It's important to note that sine and cosine describe the same circular motion, but the only difference is that they are projected onto different axes.
 
-> [!important] Given two different waves, 
+> [!important] Given two or more waves of the same amplitude and period, if those waves have different starting angle, they are said to be "out of phase" with each other.
+
+> [!important] Phase shift vs. horizontal shift
+> The angle $\theta$ represents a state of rotation around the unit circle. Phase represents the *current* state of rotation around the unit circle. Graphically speaking, phase shift is the same as horizontal shift - but geometrically, it is understood that the wave is "out of phase" with the original state.
+
+
 
