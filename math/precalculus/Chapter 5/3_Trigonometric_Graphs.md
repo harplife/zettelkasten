@@ -66,7 +66,7 @@ has x-intercepts at $x=\frac{\pi}{2}$ where $n$ is an integer.
 The general wave form (of sine) :
 
 $$
-y = A \cdot \sin(Bx+C)+D
+y = A \cdot \sin(Bx-C)+D
 $$
 
 | Parameter | Effect                             |
@@ -95,6 +95,8 @@ $$
 $$
 
 For example, for $y=2 \cdot \sin(x)$, the amplitude is $2$; the graph of the function is highest at $2$, and then lowest at $-2$.
+
+> [!important] If $A<0$, the graph of sine/cosine function *flips vertically* - regardless of parity.
 
 <center>. . . </center>
 
@@ -131,6 +133,8 @@ $$
 B = \frac{1}{P}
 $$
 
+> [!important] If $B<0$, the graph of a sine function flips vertically (being an even function). On the other hand, the graph of a cosine function remains the same.
+
 <center>. . .</center>
 
 <mark class="hltr-trippy">Phase</mark> refers to the *angular* or *horizontal* position of a wave within its cycle.
@@ -141,13 +145,13 @@ The standard sine/cosine function has zero phase shift; the cycle start at phase
 The standard function can be transformed, such that :
 
 $$
-y = \sin(x+C)
+y = \sin(x-C)
 $$
 
 Where $C$ describes the phase shift.
-- This means that at $x=0$, the function becomes $y=\sin(C)$; therefore, the wave starts at $\theta=C$.
-- $(x-C)$ shifts the function *right* by $C$.
-- $(x+C)$ shifts the function *left* by $C$.
+- This means that at $x=0$, the function becomes $y=\sin(-C)$; therefore, the wave starts at $\theta=-C$.
+- $(x-C)$ shifts the function ***right*** by $C$.
+- $(x+C)$ shifts the function ***left*** by $C$.
 
 For example, given $y=\sin\left( x-\frac{\pi}{2} \right)$, the starting angle is at $-\frac{\pi}{2}$ and $\sin\left( -\frac{\pi}{2} \right)$ is $-1$. Therefore, the wave begins at $-1$, goes up to $1$, and then back down to $-1$.
 

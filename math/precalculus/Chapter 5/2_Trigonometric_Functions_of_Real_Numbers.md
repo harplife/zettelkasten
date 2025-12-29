@@ -170,9 +170,11 @@ Sine, cosecant, tangent, and cotangent are <mark class="hltr-trippy">Odd Functio
 - $\tan(-\theta)=-\tan(\theta)$
 - $\cot(-\theta)=-\cot(\theta)$
 
-Cosine and secant are Even Functions, where negative inputs are inversed. For example :
+Cosine and secant are <mark class="hltr-trippy">Even Functions</mark>, where negative inputs are inversed. For example :
 - $\cos(-\theta)=\cos(\theta)$
 - $\sec(-\theta)=\sec(\theta)$
+
+> [!important] <mark class="hltr-trippy">Parity</mark> refers to the fact of being *even* or *odd*.
 
 
 ## Fundamental Identities
