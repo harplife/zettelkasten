@@ -42,6 +42,27 @@ We know that the values of $\sin(\theta)$ starts $0$, moves to $1$, back to $0$,
 > What this means on the graph is that when the terminal point rotates *clockwise* ($\theta<0$), the graph of the odd function is *flipped*. Meaning, the graph of the sine function goes from $0$ to $-1$ instead of $0$ to $1$. Meanwhile, the graph of the even function is not affected.
 
 ---
+The sine function
+
+$$
+y = \sin(x)
+$$
+
+has x-intercepts at $x=n\pi$ where $n$ is an integer.
+
+<center>. . .</center>
+
+The cosine function
+
+$$
+y = \cos(x)
+$$
+
+has x-intercepts at $x=\frac{\pi}{2}$ where $n$ is an integer.
+
+
+## Graphs of Transformations of Sine and Cosine
+
 The general wave form (of sine) :
 
 $$
@@ -67,7 +88,11 @@ $$
 y = A \cdot \sin(x)
 $$
 
-In this case, $A$ is directly related to amplitude.
+In this case, $A$ is directly related to amplitude :
+
+$$
+\text{Amplitude} = |A|
+$$
 
 For example, for $y=2 \cdot \sin(x)$, the amplitude is $2$; the graph of the function is highest at $2$, and then lowest at $-2$.
 
@@ -81,7 +106,7 @@ $$
 y = \sin(Bx)
 $$
 
-The period of the transformed function is also changed :
+The **period** of the transformed function is related to frequency, such that :
 
 $$
 P = \frac{2\pi}{B}
@@ -153,4 +178,7 @@ y = \sin(x)+C
 $$
 
 Graphically, $C$ moves the midline $y=0$ to $y=C$. This constant $C$ is called the <mark class="hltr-trippy">Vertical Offset</mark>.
+
+> [!important] In the real world, the vertical offset can be understood as the mean value.
+> For example, the temperature outside can oscillate daily but there is an average temperature over the week.
 

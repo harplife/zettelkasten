@@ -39,7 +39,8 @@ Let's say $\theta=55$. The terminal point is then located at $(\cos(55), \sin(55
 > [!important] The outputs of Sine and Cosine are bounded to values between $-1$ and $1$.
 > Naturally, this is because they are coordinates on a circle of radius $1$.
 
-> [!important] #todo write about Periodicity, how rotating a full circle ($2\pi$) lands at the same terminal point - and how that relates to trigonometric functions $\sin(\theta+2\pi)=\sin(\theta)$.
+> [!important] A <mark class="hltr-trippy">Periodic Function</mark> is a function that repeats its values and pattern at regular intervals, meaning its graph shows a repeating wave or cycle.
+> The sine and cosine functions are periodic functions.
 
 ---
 The ratio of the two functions Sine and Cosine creates <mark class="hltr-trippy">Tangent</mark>, which represents the slope of the unit vector pointing to the terminal point.
