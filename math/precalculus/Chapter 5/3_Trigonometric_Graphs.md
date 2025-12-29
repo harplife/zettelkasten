@@ -140,5 +140,5 @@ $$
 > [!important] Phase shift vs. horizontal shift
 > The angle $\theta$ represents a state of rotation around the unit circle. Phase represents the *current* state of rotation around the unit circle. Graphically speaking, phase shift is the same as horizontal shift - but geometrically, it is understood that the wave is "out of phase" with the original state.
 
-
+<center>. . .</center>
 
