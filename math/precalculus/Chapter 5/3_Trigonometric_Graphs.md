@@ -66,7 +66,7 @@ has x-intercepts at $x=\frac{\pi}{2}$ where $n$ is an integer.
 The general wave form (of sine) :
 
 $$
-y = A \cdot \sin(Bx-C)+D
+y = A \cdot \sin B(x-C)+D
 $$
 
 | Parameter | Effect                             |
@@ -102,10 +102,10 @@ For example, for $y=2 \cdot \sin(x)$, the amplitude is $2$; the graph of the fun
 
 The number of cycles a periodic function (sine and cosine) completes over a set interval (usually $2\pi$) is called <mark class="hltr-trippy">Frequency</mark>.
 
-The standard period of sine/cosine is $2\pi$. However, when the function is transformed such that the graph is horizontally compressed/stretched,
+The standard period of sine/cosine is $2\pi$. However, when the function is transformed such that the graph is horizontally compressed/stretched, it becomes this :
 
 $$
-y = \sin(Bx)
+y = \sin B(x)
 $$
 
 The **period** of the transformed function is related to frequency, such that :
@@ -117,7 +117,7 @@ $$
 For example, given the sine function :
 
 $$
-y = \sin(2x)
+y = \sin 2(x)
 $$
 
 The period for such function is $\pi$. This means that, compared to the standard sine function whose graph completes one cycle within the interval $2\pi$, the transformed sine function completes its cycle *twice* within the same interval. Meaning, the frequency of the transformed function is $2$.
@@ -145,7 +145,7 @@ The standard sine/cosine function has zero phase shift; the cycle start at phase
 The standard function can be transformed, such that :
 
 $$
-y = \sin(x-C)
+y = \sin (x-C)
 $$
 
 Where $C$ describes the phase shift.
@@ -172,6 +172,14 @@ $$
 > The angle $\theta$ represents a state of rotation around the unit circle. Phase represents the *current* state of rotation around the unit circle. Graphically speaking, phase shift is the same as horizontal shift - but geometrically, it is understood that the wave is "out of phase" with the original state.
 
 > [!important] In physics and engineering, $\phi$ (phi) symbol is used in place of $C$.
+
+Note that when we put frequency and phase together, we get :
+
+$$
+y = \sin B(x-C)
+$$
+
+It's a common mistake to think that the phase shift is $BC$ - but the phase shift remains $C$ because phase shift is measured in x-units, not angle-units.
 
 <center>. . .</center>
 
