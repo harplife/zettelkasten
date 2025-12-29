@@ -45,7 +45,7 @@ We know that the values of $\sin(\theta)$ starts $0$, moves to $1$, back to $0$,
 The general wave form (of sine) :
 
 $$
-y = A \cdot \sin(Bx-C)+D
+y = A \cdot \sin(Bx+C)+D
 $$
 
 | Parameter | Effect                             |
@@ -98,6 +98,8 @@ The period for such function is $\pi$. This means that, compared to the standard
 > [!important] Note that $B$ is directly related to the frequency.
 > A larger $B$ value (higher frequency) compresses the graph horizontally; the period is shorter, and the cycles are faster.
 
+> [!important] In physics and engineering, $\omega$ (omega) symbol is used in place of $B$.
+
 Note that **frequency** and **period** are *reciprocals* :
 
 $$
@@ -114,13 +116,13 @@ The standard sine/cosine function has zero phase shift; the cycle start at phase
 The standard function can be transformed, such that :
 
 $$
-y = \sin(x-C)
+y = \sin(x+C)
 $$
 
 Where $C$ describes the phase shift.
-- This means that at $x=0$, the function becomes $y=\sin(-C)$; therefore, the wave starts at $\theta=-C$.
-- $(x-C)$ shifts the function right by $C$.
-- $(x+C)$ shifts the function left by $C$.
+- This means that at $x=0$, the function becomes $y=\sin(C)$; therefore, the wave starts at $\theta=C$.
+- $(x-C)$ shifts the function *right* by $C$.
+- $(x+C)$ shifts the function *left* by $C$.
 
 For example, given $y=\sin\left( x-\frac{\pi}{2} \right)$, the starting angle is at $-\frac{\pi}{2}$ and $\sin\left( -\frac{\pi}{2} \right)$ is $-1$. Therefore, the wave begins at $-1$, goes up to $1$, and then back down to $-1$.
 
@@ -140,5 +142,15 @@ $$
 > [!important] Phase shift vs. horizontal shift
 > The angle $\theta$ represents a state of rotation around the unit circle. Phase represents the *current* state of rotation around the unit circle. Graphically speaking, phase shift is the same as horizontal shift - but geometrically, it is understood that the wave is "out of phase" with the original state.
 
+> [!important] In physics and engineering, $\phi$ (phi) symbol is used in place of $C$.
+
 <center>. . .</center>
+
+A periodic function can be vertically shifted :
+
+$$
+y = \sin(x)+C
+$$
+
+Graphically, $C$ moves the midline $y=0$ to $y=C$. This constant $C$ is called the <mark class="hltr-trippy">Vertical Offset</mark>.
 
