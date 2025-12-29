@@ -186,3 +186,5 @@ Graphically, $C$ moves the midline $y=0$ to $y=C$. This constant $C$ is called t
 > [!important] In the real world, the vertical offset can be understood as the mean value.
 > For example, the temperature outside can oscillate daily but there is an average temperature over the week.
 
+
+$y=A \cdot \sin B(x-C)+D$
