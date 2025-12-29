@@ -200,6 +200,14 @@ $$
 $\omega$ stands for angular frequency (rad/s), $t$ stands for time, and $\phi$ stands for phase constant.
 
 $$
+\omega = 2\pi f
+$$
+
+where $f$ is frequency (cycles per second).
+
+For example, given frequency $5$ Hz, $w=2\pi(5)=10\pi$ rad/s.
+
+$$
 \text{phase shift} = \frac{\phi}{\omega}
 $$
 
