@@ -48,6 +48,9 @@ Key points of tangent :
 - When $x=\pm \frac{\pi}{4}$, then $\tan x=\pm 1$
 - When $x$ approaches $\pm \frac{\pi}{2}$, $\tan x$ approaches $\pm \infty$
 
+> [!important] One continuous, non-repeating segment on the graph of tangent is referred to as the <mark class="hltr-trippy">Branch</mark>.
+> In other words, each segment of the curve between two consecutive vertical asymptotes is considered a single branch. The range of each branch spans all real numbers from $-\infty$ to $\infty$.
+
 
 ### Cotangent
 
@@ -60,4 +63,25 @@ Reminder that :
 $$
 \cot x = \frac{\cos x}{\sin x}
 $$
+
+
+## Graphs of Transformations of Tangent and Cotangent
+
+### Transformations of Tangent
+
+The general form is :
+
+$$
+y = A \cdot \tan B(x-C) + D
+$$
+
+| Parameter | Effect                                           |
+| --------- | ------------------------------------------------ |
+| $A$       | vertical stretch (steeper curve) & vertical flip |
+| $B$       | horizontal compression (shortens period)         |
+| $C$       | horizontal shift                                 |
+| $D$       | vertical shift                                   |
+
+> [!important] Tangent is an odd function, so $\tan(-Bx)$ is the same as $-\tan(Bx)$.
+> This would result in vertical flip.
 
