@@ -64,6 +64,28 @@ $$
 \cot x = \frac{\cos x}{\sin x} = \frac{1}{\tan x}
 $$
 
+Cotangent is undefined when $\sin x = 0$, which happens at :
+
+$$
+x = n\pi, \quad n \in \mathbb{Z}
+$$
+
+This means that cotangent has vertical asymptotes at $0$, $\pi$, $2\pi$, and so on.
+
+Just like tangent, cotangent has period of $\pi$, which means :
+
+$$
+\cot(x+\pi) = \cot x
+$$
+
+Cotangent is also an odd function, which means it is symmetric about the origin :
+
+$$
+\cot(-x) = -\cot x
+$$
+
+Just as tangent is always increasing, cotangent is always decreasing.
+
 
 
 
