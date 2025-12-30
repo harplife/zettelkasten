@@ -212,3 +212,30 @@ $$
 $$
 
 In physics and engineering, $x$ represents time, $\omega x$ represents an angle of rotation, and $\phi$ represents a starting angle.
+
+#todo come back later to go through and write a note about the general wave formula used in physics and engineering.
+
+
+### (Extra) Radio waves
+
+Radio transmissions consist of sound waves superimposed on a harmonic electromagnetic wave form called the <mark class="hltr-trippy">Carrier Signal</mark>.
+
+Carrier alone does not have any information. It requires changing the wave in a certain way to encode information - the process of which is called the <mark class="hltr-trippy">Modulation</mark>.
+
+There are two types of radio transmission :
+- **Amplitude Modulation** (AM)
+- **Frequency Modulation** (FM)
+
+In AM broadcasting, the sound wave modulates the *amplitude* of the carrier, but the frequency remains unchanged.
+
+![[Pasted image 20251229211059.png | center | 500]]
+
+In FM broadcasting, the sound wave modulates the *frequency*, but the amplitude remains the same.
+
+![[Pasted image 20251229211111.png | center | 500]]
+
+
+## Using Graphing Devices
+
+Skip
+
