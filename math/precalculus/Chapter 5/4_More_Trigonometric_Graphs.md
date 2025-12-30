@@ -61,8 +61,10 @@ The graph of cotangent $y = \cot x$ looks like this :
 Reminder that :
 
 $$
-\cot x = \frac{\cos x}{\sin x}
+\cot x = \frac{\cos x}{\sin x} = \frac{1}{\tan x}
 $$
+
+
 
 
 ## Graphs of Transformations of Tangent and Cotangent
