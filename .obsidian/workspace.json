@@ -37,8 +37,7 @@
               "title": "4_More_Trigonometric_Graphs"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,13 +117,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "math/precalculus/Chapter 5/4_More_Trigonometric_Graphs.md",
+                "file": "math/precalculus/Chapter 5/3_Trigonometric_Graphs.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 4_More_Trigonometric_Graphs"
+              "title": "Outline of 3_Trigonometric_Graphs"
             }
           }
         ]
@@ -235,7 +234,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "math/precalculus/Chapter 5/4_More_Trigonometric_Graphs.md",
+                "file": "math/precalculus/Chapter 5/3_Trigonometric_Graphs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -245,7 +244,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 4_More_Trigonometric_Graphs"
+              "title": "Backlinks for 3_Trigonometric_Graphs"
             }
           }
         ],
@@ -271,10 +270,10 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "45ef4ec97ef5593c",
+  "active": "e903d8b3da371d58",
   "lastOpenFiles": [
-    "math/precalculus/Chapter 5/3_Trigonometric_Graphs.md",
     "math/precalculus/Chapter 5/4_More_Trigonometric_Graphs.md",
+    "math/precalculus/Chapter 5/3_Trigonometric_Graphs.md",
     "attachments/Pasted image 20251229232513.png",
     "attachments/Pasted image 20251229231955.png",
     "attachments/Pasted image 20251229211111.png",

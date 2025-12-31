@@ -164,6 +164,8 @@ $$
 
 > [!important] It's important to note that sine and cosine describe the same circular motion, but the only difference is that they are projected onto different axes.
 
+
+
 > [!important] Given two or more waves of the same amplitude and period, if those waves have different starting angle, they are said to be "out of phase" with each other.
 
 > [!important] Phase shift vs. horizontal shift
