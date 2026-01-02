@@ -91,9 +91,8 @@ Just as tangent is always increasing, cotangent is always decreasing.
 
 The graph of secant looks like this :
 
-
-
-
+![[Pasted image 20260101212955.png | center | 500]]
+> Red line is $\sec x$, whereas the green dotted line is $\cos x$ for comparison.
 
 Recall the definition :
 
@@ -101,13 +100,25 @@ $$
 \sec x = \frac{1}{\cos x}
 $$
 
-Wherever cosine is zero, secant is undefined. Meaning, the vertical asymptotes are at :
+The fact that secant is *reciprocal* to cosine explains everything about the secant graph.
+
+Wherever cosine is zero, secant is undefined. Meaning, the **vertical asymptotes** are at :
 
 $$
 x = \frac{\pi}{2}+n\pi,\quad n \in \mathbb{Z}
 $$
 
-Wherever cosine is small
+When $\cos x > 0$ and approaches zero, secant approaches positive infinity. Conversely, when $\cos x <0$ and approaches zero, secant approaches negative infinity.
+
+Whenever cosine is $\pm 1$, secant is also $\pm 1$.
+
+The range of secant is $(-\infty,-1] \cup [1, \infty)$.
+
+Like cosine, the **period** of secant is $2\pi$.
+
+Like cosine, secant is an even function, meaning it is **symmetric about the origin**.
+
+
 
 
 ## Graphs of Transformations of Tangent and Cotangent
