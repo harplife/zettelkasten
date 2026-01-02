@@ -186,6 +186,8 @@ $$
 
 It's a common mistake to think that the phase shift is $BC$, but the phase shift remains $C$ because phase shift acts on the *raw input*.
 
+> [!important] Note that functions 
+
 <center>. . .</center>
 
 A periodic function can be vertically shifted :
