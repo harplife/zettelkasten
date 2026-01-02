@@ -55,8 +55,20 @@ Thus, the graph of inverse sine looks like this :
 ![[Pasted image 20260102132213.png | center | 500]]
 > Red solid line is inverse sine. Blue dotted line is sine.
 
+<center>. . .</center>
+
+The relationship between sine and inverse sine is summed up as :
+
+$$
+\arcsin(\sin x) = x \quad \text{only if } x \in \left[ -\frac{\pi}{2}, \frac{\pi}{2} \right]
+$$
 
 
+
+
+
+Sine forgets direction.  
+Inverse sine chooses the simplest angle that produces the same height.
 
 
 
