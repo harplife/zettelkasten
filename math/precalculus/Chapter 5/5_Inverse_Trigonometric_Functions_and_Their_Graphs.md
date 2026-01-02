@@ -38,3 +38,20 @@ For example, for $\sin x = \frac{1}{2}$, there are infinitely many angles that g
 
 For sine, its restricted domain is $\left[ -\frac{\pi}{2}, \frac{\pi}{2} \right]$.
 
+![[Pasted image 20260102131309.png | center | 500]]
+
+The restricted domain becomes the **range** for inverse sine.
+
+We know that the range of sine is $[-1,1]$, which then becomes the **domain** of inverse sine.
+
+Inverse trig graphs are reflections across the line :
+
+$$
+y = x
+$$
+
+Thus, the graph of inverse sine looks like this :
+
+![[Pasted image 20260102132213.png | center | 500]]
+> Red solid line is inverse sine. Blue dotted line is sine.
+
