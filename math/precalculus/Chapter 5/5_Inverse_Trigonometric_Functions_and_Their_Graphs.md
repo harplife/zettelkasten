@@ -55,3 +55,12 @@ Thus, the graph of inverse sine looks like this :
 ![[Pasted image 20260102132213.png | center | 500]]
 > Red solid line is inverse sine. Blue dotted line is sine.
 
+
+
+
+
+
+
+## The Inverse Tangent Function
+
+#todo arctan 2 ??
