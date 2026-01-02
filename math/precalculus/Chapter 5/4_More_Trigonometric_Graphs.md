@@ -89,8 +89,19 @@ Just as tangent is always increasing, cotangent is always decreasing.
 
 ### Secant
 
+Recall the definition :
 
+$$
+\sec x = \frac{1}{\cos x}
+$$
 
+Wherever cosine is zero, secant is undefined. Meaning, the vertical asymptotes are at :
+
+$$
+x = \frac{\pi}{2}+n\pi,\quad n \in \mathbb{Z}
+$$
+
+Wherever cosine is small
 
 
 ## Graphs of Transformations of Tangent and Cotangent
