@@ -186,7 +186,8 @@ $$
 
 It's a common mistake to think that the phase shift is $BC$, but the phase shift remains $C$ because phase shift acts on the *raw input*.
 
-> [!important] Note that functions 
+> [!important] Note that some functions look like $y=\sin(Bx-BC)$. In such case, it's best to get the common factor out.
+> For example, given $y=\sin (2x-1)$, we convert it to $y=\sin 2\left( x-\frac{1}{2} \right)$. Now we can see $B=2$ and $C=\frac{1}{2}$.
 
 <center>. . .</center>
 
