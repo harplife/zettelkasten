@@ -40,6 +40,8 @@ We know that the values of $\sin(\theta)$ starts $0$, moves to $1$, back to $0$,
 > An odd function, such as the sine function, outputs a negative value if the input is negative. On the other hand, an even function, like the cosine function, output is not affected by the sign of the input.
 > 
 > What this means on the graph is that when the terminal point rotates *clockwise* ($\theta<0$), the graph of the odd function is *flipped*. Meaning, the graph of the sine function goes from $0$ to $-1$ instead of $0$ to $1$. Meanwhile, the graph of the even function is not affected.
+> 
+> This also means that an even function is **symmetric about the y-axis**, while an odd function is **symmetric about the origin**.
 
 ---
 The sine function

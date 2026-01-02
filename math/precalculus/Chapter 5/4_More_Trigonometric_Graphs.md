@@ -116,9 +116,42 @@ The range of secant is $(-\infty,-1] \cup [1, \infty)$.
 
 Like cosine, the **period** of secant is $2\pi$.
 
-Like cosine, secant is an even function, meaning it is **symmetric about the origin**.
+Like cosine, secant is an even function, meaning it is **symmetric about the y-axis**.
 
 
+### Cosecant
+
+The graph of cosecant looks like this :
+
+![[Pasted image 20260101214840.png | center | 500]]
+> Red line is $\csc x$, whereas the green dotted line is $\sin x$ for comparison.
+
+Recall the definition :
+
+$$
+\csc x = \frac{1}{\sin x}
+$$
+
+Everything about the graph of cosecant can be explained by the fact that cosecant is *reciprocal* to sine.
+
+Wherever sine is zero, cosecant is undefined. Meaning, the **vertical asymptotes** are at :
+
+$$
+x = n\pi,\quad n \in \mathbb{Z}
+$$
+
+When $\sin x > 0$ and approaches zero, cosecant approaches positive infinity. Conversely, when $\sin x <0$ and approaches zero, cosecant approaches negative infinity.
+
+Whenever sine is $\pm 1$, cosecant is also $\pm 1$.
+
+The range of cosecant is $(-\infty,-1] \cup [1, \infty)$.
+
+Like sine, the **period** of cosecant is $2\pi$.
+
+Like sine, cosecant is an odd function, meaning it is **symmetric about the origin**.
+
+> [!important] Like cosine is $\frac{\pi}{2}$ horizontal shift away from sine, cosecant is also $\frac{\pi}{2}$ horizontal shift away from secant.
+> $$\csc x = \sec\left( x+\frac{\pi}{2} \right)$$
 
 
 ## Graphs of Transformations of Tangent and Cotangent
@@ -140,4 +173,22 @@ $$
 
 > [!important] Tangent is an odd function, so $\tan(-Bx)$ is the same as $-\tan(Bx)$.
 > This would result in vertical flip.
+
+> [!important] Transformation of cotangent is similar to tangent.
+
+
+### Transformations of Secant
+
+The general form is :
+
+$$
+y = A \cdot \sec B(x-C) + D
+$$
+
+| Parameter | Effect                                           |
+| --------- | ------------------------------------------------ |
+| $A$       | vertical stretch (steeper curve) & vertical flip |
+| $B$       | horizontal compression (shortens period)         |
+| $C$       | horizontal shift                                 |
+| $D$       | vertical shift                                   |
 
