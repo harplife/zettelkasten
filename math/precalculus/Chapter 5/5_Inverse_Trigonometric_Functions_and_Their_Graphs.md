@@ -44,6 +44,13 @@ The restricted domain becomes the **range** for inverse sine.
 
 We know that the range of sine is $[-1,1]$, which then becomes the **domain** of inverse sine.
 
+> [!important] The restricted range of inverse sine raises the question of "what if actual angle is outside the range?"
+> Note that inverse sine only gives the "reference" angle, and it does not give the full orientation. For example, the angle that satisfies $\sin x = \frac{1}{2}$ is $\frac{\pi}{6}$ (according to inverse sine), but it could also be $\frac{5\pi}{6}$ or infinitely many other angles.
+> 
+> In such a case where the "actual" angle is outside the range, the actual angle can be solved only by maintaining the context. Meaning, additional information about direction is needed - which can simply be "left or right" or "forward or backward", but it can be within the equation by using the supplementary angle.
+> 
+> For example, $\sin(\pi-x)=\frac{1}{2}$ gives enough context that the we are facing the other way. It can be solved with $\pi-x = \arcsin\left( \frac{1}{2} \right)$, which gives us $\frac{5\pi}{6}$; which is the "actual" angle we are looking for.
+
 Inverse trig graphs are reflections across the line :
 
 $$
@@ -64,11 +71,9 @@ $$
 $$
 
 
+## The Inverse Cosine Function
 
 
-
-Sine forgets direction.  
-Inverse sine chooses the simplest angle that produces the same height.
 
 
 
