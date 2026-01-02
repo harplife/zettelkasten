@@ -70,21 +70,25 @@ $$
 x = n\pi, \quad n \in \mathbb{Z}
 $$
 
-This means that cotangent has vertical asymptotes at $0$, $\pi$, $2\pi$, and so on.
+This means that cotangent has **vertical asymptotes** at $0$, $\pi$, $2\pi$, and so on.
 
-Just like tangent, cotangent has period of $\pi$, which means :
+Just like tangent, cotangent has **period** of $\pi$, which means :
 
 $$
 \cot(x+\pi) = \cot x
 $$
 
-Cotangent is also an odd function, which means it is symmetric about the origin :
+Cotangent is also an odd function, which means it is **symmetric about the origin** :
 
 $$
 \cot(-x) = -\cot x
 $$
 
 Just as tangent is always increasing, cotangent is always decreasing.
+
+
+### Secant
+
 
 
 
