@@ -89,6 +89,12 @@ Just as tangent is always increasing, cotangent is always decreasing.
 
 ### Secant
 
+The graph of secant looks like this :
+
+
+
+
+
 Recall the definition :
 
 $$
