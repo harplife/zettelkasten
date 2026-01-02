@@ -86,6 +86,44 @@ $$
 
 Just as tangent is always increasing, cotangent is always decreasing.
 
+---
+The graph of cotangent looks similar to the graph of tangent, only it looks like tangent reflected over the y-axis and then shifted horizontally. In fact, it looks like :
+
+$$
+\cot x = -\tan\left( x-\frac{\pi}{2} \right)
+$$
+
+The equation above actually holds true.
+
+In order to understand how, we start with definitions :
+
+$$
+\tan x = \frac{\sin x}{\cos x}, \quad \cot x = \frac{\cos x}{\sin x}
+$$
+
+We look at the phase-shift identifies of sine and cosine :
+
+$$
+\begin{align}
+  \sin\left( x-\frac{\pi}{2} \right) &= -\cos x \\
+  \cos \left( x-\frac{\pi}{2} \right) &= \sin x
+\end{align}
+$$
+
+When we shift the graph of tangent horizontally by $\frac{\pi}{2}$, we get :
+
+$$
+\tan \left( x-\frac{\pi}{2} \right) = \frac{\sin\left( x-\frac{\pi}{2} \right)}{\cos \left( x-\frac{\pi}{2} \right)} = -\frac{\cos x}{\sin x} = -\cot x
+$$
+
+Rearranging the equation above, we get :
+
+$$
+\cot x = -\tan\left( x-\frac{\pi}{2} \right)
+$$
+
+> [!note] Is there any significance to this? I don't know. I just thought it was cool.
+
 
 ### Secant
 
