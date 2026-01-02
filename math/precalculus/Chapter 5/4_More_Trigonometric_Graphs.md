@@ -209,6 +209,8 @@ $$
 | $C$       | horizontal shift                                 |
 | $D$       | vertical shift                                   |
 
+Period is $\frac{\pi}{B}$.
+
 > [!important] Tangent is an odd function, so $\tan(-Bx)$ is the same as $-\tan(Bx)$.
 > This would result in vertical flip.
 
@@ -229,4 +231,9 @@ $$
 | $B$       | horizontal compression (shortens period)         |
 | $C$       | horizontal shift                                 |
 | $D$       | vertical shift                                   |
+
+Period is $\frac{2\pi}{B}$
+
+> [!important] Transformation of cosecant is similar to secant.
+
 
