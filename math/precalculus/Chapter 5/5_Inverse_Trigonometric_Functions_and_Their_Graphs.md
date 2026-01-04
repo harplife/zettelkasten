@@ -91,8 +91,16 @@ $$
 [0, \pi]
 $$
 
+![[Pasted image 20260104141028.png | center | 500]]
 
+The restricted domain then becomes the **range** for inverse cosine.
 
+We know that the range of cosine is $[-1,1]$, which then becomes the **domain** for inverse cosine.
+
+The graph of inverse cosine looks like this :
+
+![[Pasted image 20260104141816.png | center | 500]]
+> Blue solid line is inverse cosine. Green dotted line is cosine. Orange dotted line shows where the reflection occurs.
 
 
 
