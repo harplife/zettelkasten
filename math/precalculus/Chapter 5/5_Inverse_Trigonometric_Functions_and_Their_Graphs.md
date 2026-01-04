@@ -73,6 +73,25 @@ $$
 
 ## The Inverse Cosine Function
 
+Given the base cosine function :
+
+$$
+y = \cos x
+$$
+
+Its inverse is defined as :
+
+$$
+y = \cos^{-1} (x) \quad \text{ or } \quad \arccos (x)
+$$
+
+Because cosine is not a one-to-one function, its domain has to be restricted to :
+
+$$
+[0, \pi]
+$$
+
+
 
 
 
