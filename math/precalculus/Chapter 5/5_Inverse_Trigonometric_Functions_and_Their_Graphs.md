@@ -103,8 +103,10 @@ The graph of inverse cosine looks like this :
 > Blue solid line is inverse cosine. Green dotted line is cosine. Orange dotted line shows where the reflection occurs.
 
 
-
-
 ## The Inverse Tangent Function
 
 #todo arctan 2 ??
+
+
+## (Extra) Inverse Functions in CG
+
