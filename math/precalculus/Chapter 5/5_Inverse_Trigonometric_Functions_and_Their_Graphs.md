@@ -108,5 +108,5 @@ The graph of inverse cosine looks like this :
 #todo arctan 2 ??
 
 
-## (Extra) Inverse Functions in CG
+
 
