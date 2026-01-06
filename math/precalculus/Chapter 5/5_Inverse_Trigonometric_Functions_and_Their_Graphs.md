@@ -110,3 +110,4 @@ The graph of inverse cosine looks like this :
 
 ## (Extra) Inverse Functions in CG
 
+If inverse trig is expensive in computer graphics, is there a more efficient way to calculate angle from a coordinate? Tell me how shaders avoid inverse trig altogether.
