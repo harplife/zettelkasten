@@ -22,8 +22,10 @@ $$
 Its inverse is defined as :
 
 $$
-y = \sin^{-1}(x) \quad \text{ or } \quad \arcsin x
+y = \sin^{-1}(x) \quad \text{where } -1\leq x \leq 1
 $$
+
+> [!important] Inverse sine is also denoted as $\arcsin$.
 
 The inverse answers :
 > "Given the value of $\sin x$, what was the angle $x$?"
@@ -85,8 +87,10 @@ $$
 Its inverse is defined as :
 
 $$
-y = \cos^{-1} (x) \quad \text{ or } \quad \arccos (x)
+y = \cos^{-1} (x) \quad \text{where } -1\leq x \leq 1
 $$
+
+> [!important] Inverse cosine is also denoted as $\arccos$.
 
 Because cosine is not a one-to-one function, its domain has to be restricted to :
 
@@ -128,8 +132,10 @@ $$
 Its inverse is defined as :
 
 $$
-\theta = \tan^{-1} \left( \frac{y}{x} \right) \quad \text{ or } \quad \arctan\left( \frac{y}{x} \right)
+\theta = \tan^{-1} \quad \text{where } x \in \mathbb{R}
 $$
+
+> [!important] Inverse tangent is also denoted as $\arctan$.
 
 The inverse tangent answers :
 > "Given a slope y/x, what angle has that slope?"
@@ -139,7 +145,7 @@ The inverse tangent answers :
 Tangent is not a one-to-one function, and thus its domain has to be restricted for it to have an inverse. In this case, the interval where the "branch" that sits on the origin exists does the job. meaning, the **range** for inverse tangent is :
 
 $$
-\left[ -\frac{\pi}{2}, \frac{\pi}{2} \right]
+\left( -\frac{\pi}{2}, \frac{\pi}{2} \right)
 $$
 
 Since the range of tangent is all real numbers, the **domain** of inverse tangent is :
@@ -189,10 +195,10 @@ $$
 Its inverse function is defined as :
 
 $$
-y = \sec^{-1}(x)
+y = \sec^{-1}(x) \quad \text{where } |x| \geq {1}
 $$
 
-> [!important] It also goes by the name **arcsec**, but it seems like there's no LaTex symbol for this one.
+> [!important] It also goes by the name *arcsec*, but it seems like there's no LaTex symbol for this one.
 
 Inverse secant answers :
 > "At what angle has secant equal to this value?"
@@ -241,7 +247,7 @@ $$
 Its inverse function is defined as :
 
 $$
-y = \csc^{-1}(x)
+y = \csc^{-1}(x) \quad \text{where } |x| \geq {1}
 $$
 
 > [!important] It is often written as *arccsc*, but there is no LaTex symbol for this one.
@@ -268,4 +274,30 @@ As such is the case, inverse sine often used in place of inverse cosecant.
 
 
 ## The Inverse Cotangent Function
+
+> [!warning] The definition of inverse cotangent may *vary* by convention.
+
+Given base cotangent function :
+
+$$
+\cot x = \frac{\cos x}{\sin x} = \frac{1}{\tan x}
+$$
+
+The graph of cotangent looks like :
+
+![[Pasted image 20251229232513.png | center | 500]]
+
+Note here that, in order to have an inverse, we need to restrict the domain of cotangent - but in this case, it's not clear where to set the interval :
+
+$$
+\left[ -\frac{\pi}{2}, \frac{\pi}{2} \right] \quad \text{ or } \quad [0, \pi]
+$$
+
+<center>. . .</center>
+
+In the textbook, the domain is restricted to $(0, \pi)$. Thus, the definition of inverse cotangent is :
+
+$$
+y = \cot^{-1}(x) \quad \text{where } x \in \mathbb{R}
+$$
 
