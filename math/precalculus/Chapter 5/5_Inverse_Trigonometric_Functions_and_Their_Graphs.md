@@ -105,8 +105,47 @@ The graph of inverse cosine looks like this :
 
 ## The Inverse Tangent Function
 
-#todo arctan 2 ??
+Given the base tangent function :
 
+$$
+\tan \theta = \frac{\text{opposite}}{\text{adjacent}} = \frac{y}{x}
+$$
 
+Its inverse is defined as :
 
+$$
+\theta = \tan^{-1} \left( \frac{y}{x} \right) \quad \text{ or } \quad \arctan\left( \frac{y}{x} \right)
+$$
+
+The inverse tangent answers :
+> "Given a slope y/x, what angle has that slope?"
+
+<center>. . .</center>
+
+Tangent is not a one-to-one function, and thus its domain has to be restricted for it to have an inverse. In this case, the interval where the "branch" that sits on the origin exists does the job. meaning, the **range** for inverse tangent is :
+
+$$
+\left[ -\frac{\pi}{2}, \frac{\pi}{2} \right]
+$$
+
+Since the range of tangent is all real numbers, the **domain** of inverse tangent is :
+
+$$
+(-\infty, \infty)
+$$
+
+<center>. . .</center>
+
+The graph of inverse tangent looks like this :
+
+![[Pasted image 20260107083704.png | center]]
+> Red solid line is inverse tangent. Blue dotted line is tangent (restricted). Orange dotted line shows reflection at $y=x$.
+
+<center>. . .</center>
+
+Given a point $(x,y)$, $\arctan\left( \frac{y}{x} \right)$ gives the angle the line from the origin makes with the x-axis - but only in Quadrants I and IV. This is where problems arise.
+
+There is an ambiguity problem with inverse tangent - where slope $1$ ($\theta=\frac{\pi}{4}$) could mean that the point is either at $(1,1)$ or $(-1,-1)$. Same thing happens with slope $-1$.
+
+> [!warning] Basically, inverse tangent *cannot* tell which quadrant the point is in.
 
