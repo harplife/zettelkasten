@@ -67,7 +67,10 @@ Thus, the graph of inverse sine looks like this :
 The relationship between sine and inverse sine is summed up as :
 
 $$
-\arcsin(\sin x) = x \quad \text{only if } x \in \left[ -\frac{\pi}{2}, \frac{\pi}{2} \right]
+\begin{align}
+  \sin(\arcsin x) &= x \quad \text{only if } x \in [-1,1] \\
+  \arcsin(\sin x) &= x \quad \text{only if } x \in \left[ -\frac{\pi}{2}, \frac{\pi}{2} \right]
+\end{align}
 $$
 
 
@@ -101,6 +104,17 @@ The graph of inverse cosine looks like this :
 
 ![[Pasted image 20260104141816.png | center | 500]]
 > Blue solid line is inverse cosine. Green dotted line is cosine. Orange dotted line shows where the reflection occurs.
+
+<center>. . .</center>
+
+The relationship between cosine and inverse cosine is summed up as :
+
+$$
+\begin{align}
+  \cos(\arccos x) &= x \quad \text{only if } x \in [-1,1]\\
+  \arccos(\cos x) &= x \quad \text{only if } x \in \left[ 0, \pi \right]
+\end{align}
+$$
 
 
 ## The Inverse Tangent Function
@@ -143,9 +157,26 @@ The graph of inverse tangent looks like this :
 
 <center>. . .</center>
 
+The relationship between tangent and inverse tangent is summed up as :
+
+$$
+\begin{align}
+  \tan(\arctan x) &= x \quad \text{only if } x \in \mathbb{R}\\
+  \arctan(\tan x) &= x \quad \text{only if } x \in \left[ -\frac{\pi}{2}, \frac{\pi}{2} \right]
+\end{align}
+$$
+
+<center>. . .</center>
+
 Given a point $(x,y)$, $\arctan\left( \frac{y}{x} \right)$ gives the angle the line from the origin makes with the x-axis - but only in Quadrants I and IV. This is where problems arise.
 
 There is an ambiguity problem with inverse tangent - where slope $1$ ($\theta=\frac{\pi}{4}$) could mean that the point is either at $(1,1)$ or $(-1,-1)$. Same thing happens with slope $-1$.
 
 > [!warning] Basically, inverse tangent *cannot* tell which quadrant the point is in.
+
+> [!important] When it comes to programming (specifically CG), a different version of inverse tangent is used to retain direction.
+> Generally, the function looks like this : `atan2(y,x)`
+
+
+## The Inverse Secant Function
 
