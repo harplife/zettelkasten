@@ -232,3 +232,37 @@ The relationship is explained by the fact that secant is **reciprocal** to cosin
 
 ## The Inverse Cosecant Function
 
+Given the base cosecant function :
+
+$$
+y = \csc x
+$$
+
+Its inverse function is defined as :
+
+$$
+y = \csc^{-1}(x)
+$$
+
+> [!important] It is often written as *arccsc*, but there is no LaTex symbol for this one.
+
+The **domain** of inverse cosecant is $(-\infty, -1] \cup [1,\infty)$.
+
+The **range** of inverse cosecant is $\left[ -\frac{\pi}{2}, \frac{\pi}{2} \right]$.
+
+The graph of inverse cosecant looks like this :
+
+![[Pasted image 20260107132507.png | center]]
+> Red solid line is inverse cosecant. Blue dotted line is cosecant (restricted). Orange dotted line shows the reflection at $y=x$.
+
+The relationship between inverse sine and inverse cosecant is as follows :
+
+$$
+\csc^{-1}(x) = \sin^{-1}\left( \frac{1}{x} \right)
+$$
+
+As such is the case, inverse sine often used in place of inverse cosecant.
+
+
+## The Inverse Cotangent Function
+
