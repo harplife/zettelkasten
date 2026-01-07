@@ -283,6 +283,17 @@ $$
 \cot x = \frac{\cos x}{\sin x} = \frac{1}{\tan x}
 $$
 
+Its inverse function is defined as :
+
+
+$$
+y = \cot^{-1}(x) \quad \text{where } x \in \mathbb{R}
+$$
+
+However, this is *NOT* a complete definition.
+
+<center>. . .</center>
+
 The graph of cotangent looks like :
 
 ![[Pasted image 20251229232513.png | center | 500]]
@@ -297,7 +308,4 @@ $$
 
 In the textbook, the domain is restricted to $(0, \pi)$. Thus, the definition of inverse cotangent is :
 
-$$
-y = \cot^{-1}(x) \quad \text{where } x \in \mathbb{R}
-$$
 
