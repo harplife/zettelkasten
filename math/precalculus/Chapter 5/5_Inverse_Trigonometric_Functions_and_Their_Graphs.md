@@ -194,6 +194,9 @@ $$
 
 > [!important] It also goes by the name **arcsec**, but it seems like there's no LaTex symbol for this one.
 
+Inverse secant answers :
+> "At what angle does the unit vector scale by a factor of $x$?"
+
 <center>. . .</center>
 
 Because secant is not a one-to-one function, its domain has to be restricted for there to be an inverse. In this case, the **range** of inverse secant is $[0, \pi]$.
@@ -202,4 +205,30 @@ Because secant is not a one-to-one function, its domain has to be restricted for
 > The graph of secant with the interval $[0,\pi]$ highlighted.
 
 The **domain** of inverse secant is $(-\infty,-1] \cup [1, \infty)$. Note that it skips the values between $-1$ and $1$.
+
+<center>. . .</center>
+
+The graph of inverse secant looks like this :
+
+![[Pasted image 20260107131019.png | center]]
+> Red solid line is inverse secant. Blue dotted line is secant (restricted). Orange dotted line shows the reflection at $y=x$.
+
+<center>. . .</center>
+
+The relationship between inverse cosine and inverse secant is :
+
+$$
+\sec^{-1}(x) = \cos^{-1}\left( \frac{1}{x} \right)
+$$
+
+The relationship is explained by the fact that secant is **reciprocal** to cosine.
+
+> [!important] The range of inverse secant matches with the range of inverse cosine.
+> The domain of inverse cosine happens to sit right between the hole in the domain of inverse secant.
+> ![[Pasted image 20260107130812.png | center | 500]]
+
+> [!warning] Inverse secant is rarely used (in application) because inverse cosine can easily replace it.
+
+
+## The Inverse Cosecant Function
 
