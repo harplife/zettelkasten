@@ -195,11 +195,11 @@ $$
 > [!important] It also goes by the name **arcsec**, but it seems like there's no LaTex symbol for this one.
 
 Inverse secant answers :
-> "At what angle does the unit vector scale by a factor of $x$?"
+> "At what angle has secant equal to this value?"
 
 <center>. . .</center>
 
-Because secant is not a one-to-one function, its domain has to be restricted for there to be an inverse. In this case, the **range** of inverse secant is $[0, \pi]$.
+Because secant is not a one-to-one function, its domain has to be restricted for there to be an inverse. In this case, the **range** of inverse secant is $\left[ 0, \frac{\pi}{2} \right) \cup \left( \frac{\pi}{2}, \pi \right]$
 
 ![[Pasted image 20260107105358.png | center | 500]]
 > The graph of secant with the interval $[0,\pi]$ highlighted.
@@ -246,9 +246,12 @@ $$
 
 > [!important] It is often written as *arccsc*, but there is no LaTex symbol for this one.
 
+Inverse cosecant answers :
+> "What angle has cosecant equal to this value?"
+
 The **domain** of inverse cosecant is $(-\infty, -1] \cup [1,\infty)$.
 
-The **range** of inverse cosecant is $\left[ -\frac{\pi}{2}, \frac{\pi}{2} \right]$.
+The **range** of inverse cosecant is $\left[ -\frac{\pi}{2}, 0 \right) \cup \left( 0, \frac{\pi}{2} \right]$.
 
 The graph of inverse cosecant looks like this :
 
