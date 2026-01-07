@@ -180,3 +180,17 @@ There is an ambiguity problem with inverse tangent - where slope $1$ ($\theta=\f
 
 ## The Inverse Secant Function
 
+Given the base secant function :
+
+$$
+\sec x = \frac{1}{\cos x}
+$$
+
+Its inverse function is defined as :
+
+$$
+y = \sec^{-1}(x)
+$$
+
+> [!important] It also goes by the name **arcsec**, but it seems like there's no LaTex symbol for this one.
+
