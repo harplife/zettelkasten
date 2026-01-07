@@ -194,3 +194,12 @@ $$
 
 > [!important] It also goes by the name **arcsec**, but it seems like there's no LaTex symbol for this one.
 
+<center>. . .</center>
+
+Because secant is not a one-to-one function, its domain has to be restricted for there to be an inverse. In this case, the **range** of inverse secant is $[0, \pi]$.
+
+![[Pasted image 20260107105358.png | center | 500]]
+> The graph of secant with the interval $[0,\pi]$ highlighted.
+
+The **domain** of inverse secant is $(-\infty,-1] \cup [1, \infty)$. Note that it skips the values between $-1$ and $1$.
+

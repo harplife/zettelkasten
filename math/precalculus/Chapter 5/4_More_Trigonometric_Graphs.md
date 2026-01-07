@@ -150,7 +150,9 @@ When $\cos x > 0$ and approaches zero, secant approaches positive infinity. Conv
 
 Whenever cosine is $\pm 1$, secant is also $\pm 1$.
 
-The range of secant is $(-\infty,-1] \cup [1, \infty)$.
+The **domain** of secant is all real numbers.
+
+The **range** of secant is $(-\infty,-1] \cup [1, \infty)$.
 
 Like cosine, the **period** of secant is $2\pi$.
 
