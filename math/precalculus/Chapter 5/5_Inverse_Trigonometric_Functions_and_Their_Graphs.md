@@ -275,8 +275,6 @@ As such is the case, inverse sine often used in place of inverse cosecant.
 
 ## The Inverse Cotangent Function
 
-> [!warning] The definition of inverse cotangent may *vary* by convention.
-
 Given base cotangent function :
 
 $$
@@ -292,6 +290,8 @@ $$
 
 However, this is *NOT* a complete definition.
 
+> [!warning] The definition of inverse cotangent may *vary* by convention.
+
 <center>. . .</center>
 
 The graph of cotangent looks like :
@@ -301,11 +301,20 @@ The graph of cotangent looks like :
 Note here that, in order to have an inverse, we need to restrict the domain of cotangent - but in this case, it's not clear where to set the interval :
 
 $$
-\left[ -\frac{\pi}{2}, \frac{\pi}{2} \right] \quad \text{ or } \quad [0, \pi]
+\left[ -\frac{\pi}{2}, \frac{\pi}{2} \right] \quad \text{ or } \quad (0, \pi)
 $$
 
 <center>. . .</center>
 
 In the textbook, the domain is restricted to $(0, \pi)$. Thus, the definition of inverse cotangent is :
 
+$$
+y = \cot x \text{ for } x \in (0, \pi) \iff x = \cot^{-1}(y)
+$$
+
+In other words :
+
+$$
+y = \cot^{-1}(x) \in (0, \pi)
+$$
 
