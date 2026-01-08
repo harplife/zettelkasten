@@ -318,3 +318,5 @@ $$
 y = \cot^{-1}(x) \in (0, \pi)
 $$
 
+The graph of inverse cotangent looks like this :
+
