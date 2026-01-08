@@ -326,6 +326,7 @@ The graph of inverse cotangent looks like this :
 
 In this convention, the properties of the inverse cotangent are :
 - Avoids the vertical asymptotes at $0$ and $\pi$.
+- Covers both Quadrant I and Quadrant II.
 - Always returns a **positive** angle.
 - Covers all real numbers in once.
 
