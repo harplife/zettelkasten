@@ -322,7 +322,7 @@ The domain for inverse cotangent is $(-\infty, \infty)$.
 
 The graph of inverse cotangent looks like this :
 
-![[Pasted image 20260107210749.png | center]]
+![[Pasted image 20260107212208.png | center]]
 > Red solid line is inverse cotangent. Blue dotted line is cotangent. Orange dotted line shows the reflection at $y=x$.
 
 The properties of the inverse cotangent (in this definition) :
