@@ -67,4 +67,14 @@ Example :
 
 Angular frequency is the rate of rotation (or oscillation) measuring how fast something spins (or vibrates) in radians per second.
 - It quantifies the change in angle over time.
-- It is related to normal frequency $f$ by $\omega = 2\pi f$.
+
+Angular frequency (of a circular motion) is defined as :
+
+$$
+\omega = \frac{2\pi}{T} = 2\pi f
+$$
+
+Where $T$ is period and $f$ is frequency.
+
+![[Pasted image 20260108171123.png | center]]
+
