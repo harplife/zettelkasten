@@ -327,6 +327,7 @@ The graph of inverse cotangent looks like this :
 In this convention, the properties of the inverse cotangent are :
 - Avoids the vertical asymptotes at $0$ and $\pi$.
 - Always returns a **positive** angle.
+- Covers all real numbers in once.
 
 ---
 In another convention, the domain is restricted to $\left( -\frac{\pi}{2}, \frac{\pi}{2} \right)$. Thus, the definition of inverse cotangent is :
@@ -355,6 +356,10 @@ The graph of inverse cotangent looks like this :
 > Red solid line is inverse cotangent. Blue dotted line is cotangent (restricted). Orange dotted line shows the reflection at $y=x$.
 
 In this convention, the properties of the inverse cotangent are :
-- Undefined at $x=0$
-- 
+- Undefined at $x=0$. In other words, it does not cover all real numbers.
+- Loses quadrant information (?)
+
+#todo why does this convention look like arctan(1/x) and the other doesn't?
+
+
 
