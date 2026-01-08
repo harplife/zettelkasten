@@ -9,13 +9,24 @@
 
 ## (Extra) Periodic Motion
 
-<mark class="hltr-trippy">Periodic Motion</mark> is any motion that repeats itself over regular, fixed intervals of time, following a **cyclical pattern** (e.g. a swing, a clock pendulum, or Earth's orbit around the sun) and **frequency** (cycles per second).
+<mark class="hltr-trippy">Periodic Motion</mark> is any motion that repeats itself over regular, fixed intervals of time.
+
+Example of period motions :
+- Pendulum
+- Earth's orbit around the Sun
 
 Key characteristics of periodic motion :
-- Period
-- Frequency
-- Amplitude
-- Equilibrium Position
+- Period $T$
+- Frequency $f$
+- Amplitude $A$
+
+Periodic motion can be categorized as :
+- Rotational (e.g. hands on a clock, merry-go-round)
+- Oscillatory (e.g. metronome, guitar string vibration, rocking chair)
+- Orbital (e.g. satellites orbiting Earth, electrons orbiting a nucleus)
+
+The simplest kind of periodic motion is a **circular periodic motion**, where an object moves in a circle at constant speed and angle increases uniformly.
+- e.g. clock hands, rotating wheels, planets (idealized)
 
 Types of periodic motion :
 - Oscillatory Motion
@@ -65,7 +76,7 @@ Example :
 
 <center>. . .</center>
 
-Angular frequency is the rate of rotation (or oscillation) measuring how fast something spins (or vibrates) in radians per second.
+<mark class="hltr-trippy">Angular frequency</mark> (rad/s) is the rate of rotation (or oscillation) measuring how fast something spins (or vibrates) in radians per second.
 - It quantifies the change in angle over time.
 
 Angular frequency (of a circular motion) is defined as :
