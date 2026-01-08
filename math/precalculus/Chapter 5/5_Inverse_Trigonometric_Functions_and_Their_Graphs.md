@@ -306,7 +306,7 @@ $$
 
 <center>. . .</center>
 
-In the textbook, the domain is restricted to $(0, \pi)$. Thus, the definition of inverse cotangent is :
+In one convention (which is used in the textbook), the domain is restricted to $(0, \pi)$. Thus, the definition of inverse cotangent is :
 
 $$
 y = \cot x \text{ for } x \in (0, \pi) \iff x = \cot^{-1}(y)
@@ -318,5 +318,24 @@ $$
 y = \cot^{-1}(x) \in (0, \pi)
 $$
 
+The domain for inverse cotangent is $(-\infty, \infty)$.
+
 The graph of inverse cotangent looks like this :
+
+![[Pasted image 20260107210749.png | center]]
+> Red solid line is inverse cotangent. Blue dotted line is cotangent. Orange dotted line shows the reflection at $y=x$.
+
+<center>. . .</center>
+
+In another convention, the domain is restricted to $\left( -\frac{\pi}{2}, \frac{\pi}{2} \right)$. Thus, the definition of inverse cotangent is :
+
+$$
+y = \cot x \text{ for } x \in \left( -\frac{\pi}{2}, \frac{\pi}{2} \right) \iff x = \cot^{-1}(y)
+$$
+
+In other words :
+
+$$
+y = \cot^{-1}(x) \in \left( -\frac{\pi}{2}, \frac{\pi}{2} \right)
+$$
 
