@@ -184,7 +184,12 @@ There is an ambiguity problem with inverse tangent - where slope $1$ ($\theta=\f
 > Generally, the function looks like this : `atan2(y,x)`
 
 
-## The Inverse Secant Function
+## Other inverse functions
+
+> [!important] Inverse secant, cosecant, and cotangent functions are rarely used, and they can be replaced by the three aforementioned inverse functions.
+
+
+### The Inverse Secant Function
 
 Given the base secant function :
 
@@ -236,7 +241,7 @@ The relationship is explained by the fact that secant is **reciprocal** to cosin
 > [!warning] Inverse secant is rarely used (in application) because inverse cosine can easily replace it.
 
 
-## The Inverse Cosecant Function
+### The Inverse Cosecant Function
 
 Given the base cosecant function :
 
@@ -273,7 +278,7 @@ $$
 As such is the case, inverse sine often used in place of inverse cosecant.
 
 
-## The Inverse Cotangent Function
+### The Inverse Cotangent Function
 
 Given base cotangent function :
 
@@ -358,9 +363,5 @@ The graph of inverse cotangent looks like this :
 
 In this convention, the properties of the inverse cotangent are :
 - Undefined at $x=0$. In other words, it does not cover all real numbers.
-- Loses quadrant information (?)
-
-#todo why does this convention look like arctan(1/x) and the other doesn't?
-
-
+- Loses quadrant information
 
