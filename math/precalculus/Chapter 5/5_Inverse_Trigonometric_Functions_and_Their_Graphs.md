@@ -304,8 +304,7 @@ $$
 \left[ -\frac{\pi}{2}, \frac{\pi}{2} \right] \quad \text{ or } \quad (0, \pi)
 $$
 
-<center>. . .</center>
-
+---
 In one convention (which is used in the textbook), the domain is restricted to $(0, \pi)$. Thus, the definition of inverse cotangent is :
 
 $$
@@ -322,15 +321,14 @@ The domain for inverse cotangent is $(-\infty, \infty)$.
 
 The graph of inverse cotangent looks like this :
 
-![[Pasted image 20260107212208.png | center]]
-> Red solid line is inverse cotangent. Blue dotted line is cotangent. Orange dotted line shows the reflection at $y=x$.
+![[Pasted image 20260107212208.png | center | 700]]
+> Red solid line is inverse cotangent. Blue dotted line is cotangent (restricted). Orange dotted line shows the reflection at $y=x$.
 
-The properties of the inverse cotangent (in this definition) :
+In this convention, the properties of the inverse cotangent are :
 - Avoids the vertical asymptotes at $0$ and $\pi$.
 - Always returns a **positive** angle.
 
-<center>. . .</center>
-
+---
 In another convention, the domain is restricted to $\left( -\frac{\pi}{2}, \frac{\pi}{2} \right)$. Thus, the definition of inverse cotangent is :
 
 $$
@@ -342,4 +340,21 @@ In other words :
 $$
 y = \cot^{-1}(x) \in \left( -\frac{\pi}{2}, \frac{\pi}{2} \right)
 $$
+
+In this convention, inverse cotangent is a reciprocal to inverse tangent :
+
+$$
+\cot^{-1}(x) = \tan^{-1}\left( \frac{1}{x} \right)
+$$
+
+The domain for inverse cotangent is $(-\infty, \infty)$.
+
+The graph of inverse cotangent looks like this :
+
+![[Pasted image 20260107220158.png | center | 500]]
+> Red solid line is inverse cotangent. Blue dotted line is cotangent (restricted). Orange dotted line shows the reflection at $y=x$.
+
+In this convention, the properties of the inverse cotangent are :
+- Undefined at $x=0$
+- 
 
