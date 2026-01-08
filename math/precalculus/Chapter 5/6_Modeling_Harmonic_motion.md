@@ -65,4 +65,6 @@ Example :
 
 <center>. . .</center>
 
-Angular frequency
+Angular frequency is the rate of rotation (or oscillation) measuring how fast something spins (or vibrates) in radians per second.
+- It quantifies the change in angle over time.
+- It is related to normal frequency $f$ by $\omega = 2\pi f$.
