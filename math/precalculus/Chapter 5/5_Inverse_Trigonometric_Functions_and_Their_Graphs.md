@@ -325,6 +325,10 @@ The graph of inverse cotangent looks like this :
 ![[Pasted image 20260107210749.png | center]]
 > Red solid line is inverse cotangent. Blue dotted line is cotangent. Orange dotted line shows the reflection at $y=x$.
 
+The properties of the inverse cotangent (in this definition) :
+- Avoids the vertical asymptotes at $0$ and $\pi$.
+- Always returns a **positive** angle.
+
 <center>. . .</center>
 
 In another convention, the domain is restricted to $\left( -\frac{\pi}{2}, \frac{\pi}{2} \right)$. Thus, the definition of inverse cotangent is :
