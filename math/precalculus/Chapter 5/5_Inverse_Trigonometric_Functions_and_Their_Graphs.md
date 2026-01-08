@@ -240,6 +240,11 @@ The relationship is explained by the fact that secant is **reciprocal** to cosin
 
 > [!warning] Inverse secant is rarely used (in application) because inverse cosine can easily replace it.
 
+---
+Just FYI, the textbook definition of inverse secant is fucked up.
+
+![[Pasted image 20260107224457.png | center | 700]]
+
 
 ### The Inverse Cosecant Function
 
@@ -276,6 +281,11 @@ $$
 $$
 
 As such is the case, inverse sine often used in place of inverse cosecant.
+
+---
+Just FYI, the textbook definition of inverse cosecant is fucked up.
+
+![[Pasted image 20260107224527.png | center | 700]]
 
 
 ### The Inverse Cotangent Function
