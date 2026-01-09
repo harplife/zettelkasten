@@ -1399,12 +1399,13 @@
         }
       },
       "active": "9c4a7f579d54fcc6",
-      "mtime": "2026-01-08T23:33:55-06:00",
+      "mtime": "2026-01-09T08:36:34-06:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "math",
           "math/fun_facts",
           "math/precalculus",
+          "math/precalculus/Chapter 4",
           "math/precalculus/Chapter 5",
           "math/precalculus/Resources"
         ]

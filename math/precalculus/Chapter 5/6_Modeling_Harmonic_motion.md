@@ -149,6 +149,8 @@ Different variations of harmonic motion include :
 - Nonlinear
 - Quasi-harmonic
 
+Simple and Damped Harmonic Motions are foundational. Hence, only these two will be covered in this section.
+
 <center>. . .</center>
 
 Read more about simple harmonic motion at university physics level :
@@ -167,11 +169,30 @@ Examples of damping :
 <mark class="hltr-trippy">Damped Harmonic Motion</mark> (DHM) is a type of oscillation where the amplitude gradually decreases over time due to energy loss (from damping forces like resistance), causing the system to eventually stop.
 - DHM is a more realistic model than SHM.
 
-Underdamped
-Critically damped
-Overdamped
+Typical mathematical form (conceptual) of DHM :
+
+$$
+x(t) = Ae^{-kt}\cos(\omega t+\phi)
+$$
+
+> [!important] We studied exponential decay in [[6_Modeling_with_Exponential_Functions|chapter 4.6]].
 
 
+Types of DHM :
+- Underdamped
+- Critically damped
+- Overdamped
 
+<center>. . .</center>
+
+DHM is **Underdamped** when the system oscillates but with decreasing amplitude, crossing equilibrium multiple times before stopping (e.g. a gentle swing, guitar string).
+
+<center>. . .</center>
+
+DHM is **Critically Damped** when the system returns to equilibrium as quickly as possible without oscillating or overshooting (e.g. a good car shock absorber, door closers).
+
+<center>. . .</center>
+
+DHM is **Overdamped** when the system returns to equilibrium slowly, without oscillating, taking longer than a critically damped system (e.g. thick fluid motion, heavy shock absorbers).
 
 
