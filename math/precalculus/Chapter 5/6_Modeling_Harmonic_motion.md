@@ -93,6 +93,10 @@ Example :
 - Energy increases with amplitude
 - It does not affect the timing of the motion
 
+$$
+\text{amplitude} = |A|
+$$
+
 Example :
 - Larger swing of a pendulum
 - Louder sound
@@ -100,7 +104,15 @@ Example :
 
 <center>. . .</center>
 
-**Period** describes time for one full cycle, whereas **Frequency** describes number of cycles per unit time.
+**Period** $T$ describes time for one full cycle, whereas **Frequency** $f$ describes number of cycles per unit time.
+
+$$
+T = \frac{2\pi}{\omega}
+$$
+
+$$
+f = \frac{\omega}{2\pi}
+$$
 
 <center>. . .</center>
 
@@ -117,10 +129,20 @@ Where $T$ is period and $f$ is frequency.
 
 ![[Pasted image 20260108171123.png | center]]
 
-> [!important] We had defined the general transformation of a sine function to be $y = A \sin(Bx-C)+D$
-> In physics and engineering, it is defined as $$x(t) = A \cos(\omega t + \phi)$$
-> 
-> Note that SMH is defined with cosine because it mathematically describes a system starting at maximum displacement at $t=0$, where $\cos(0)=1$. Sine also works but cosine just simplifies the math.
+<center>. . .</center>
+
+We had defined the general transformation of a sine function to be $y = A \sin(Bx-C)+D$
+
+In physics and engineering, it is defined as
+
+$$x(t) = A \cos(\omega t + \phi)$$
+Note that SMH is defined with cosine because it mathematically describes a system starting at maximum displacement at $t=0$, where $\cos(0)=1$. Sine also works but cosine just simplifies the math.
+
+In textbook, harmonic motion also accounts for vertical and horizontal shift, and therefore defined as :
+
+$$
+y = a \cos(\omega(t-c))+b
+$$
 
 <center>. . .</center>
 
@@ -190,6 +212,8 @@ Typical mathematical form (conceptual) of DHM :
 $$
 x(t) = Ae^{-kt}\cos(\omega t+\phi)
 $$
+
+Where $A$ is the initial amplitude, and $k$ is the damping constant.
 
 > [!important] We studied exponential decay in [[6_Modeling_with_Exponential_Functions|chapter 4.6]].
 
