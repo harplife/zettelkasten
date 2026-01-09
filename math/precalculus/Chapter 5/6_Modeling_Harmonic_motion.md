@@ -59,9 +59,18 @@ $$
 > 
 > It is also said that sinusoidal motion is *smooth*. In other words, non-harmonic motions are *not* smooth.
 
-> [!important] In the context of mathematics, the term *Harmonic* really just means it oscillates smoothly and periodically.
+> [!important] The term "Harmonic" means the system has a linear restoring force that is proportional to the displacement from equilibrium and always directed toward it.
+> Mathematically (according to Hooke's Law), it is defined as $$F = -kx$$
+> 
+> where $F$ is Force, $k$ is Spring Constant (measure of stiffness), and $x$ is Displacement (distance stretched/compressed). The negative sign $-$ signifies that the force is a restoring force.
+> 
+> Everything else (oscillation, sine waves, frequency) comes after this fact.
 
-#todo Harmonic -> proportional to displacement and opposite in direction?
+> [!warning] Oscillation is a *behavior*, not a property.
+> Oscillation depends on damping, energy, and inertia. That means, a system can be :
+> - Harmonic and oscillatory
+> - Harmonic but non-oscillatory
+> - Non-harmonic but oscillatory (briefly or approximately)
 
 <center>. . .</center>
 
