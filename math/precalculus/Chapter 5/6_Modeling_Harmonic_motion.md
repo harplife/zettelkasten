@@ -161,6 +161,13 @@ $$
 > [!important] In Calculus, we can see how SHM is derived from Hooke's Law $F=-kx$ and Newton's Second Law $F=ma$.
 > For now, it should suffice to know that $\omega=\sqrt{ \frac{k}{m} }$. Meaning, angular frequency is the square root of stiffness over mass; A stiffer spring increases restorative force, while more mass increases inertia, dictating how fast the system cyles.
 
+> [!important] Best way to understand how the two versions of the SHM model is pretty much the same, is to go to [Desmos](https://www.desmos.com/calculator) and set up three equations.
+> - $y=\cos(2\pi t)$ for the base
+> - $y=\cos(2\pi t+r\pi)$ for the physics version (add slider for $r$)
+> - $y=\cos(2\pi(t-p))$ for the textbook version (add slider for $p$)
+> 
+> We can see that angular displacement of $r=\pi$ is the same as going backward in time $p=-0.5$.
+
 <center>. . .</center>
 
 <mark class="hltr-green">Example</mark>
@@ -173,7 +180,6 @@ We can see that :
 - Equilibrium is at $y=0$
 - Amplitude is $2$
 - The angular frequency is $2\pi$, which means it goes through 1 cycle per second.
-- 
 
 <center>. . .</center>
 
@@ -271,4 +277,25 @@ $g(t)=10e^{-0.1t}\cos \pi t$
 We can see that :
 - Angular frequency is $\pi$ per second (1 cycle per 2 second)
 - Amplitude starts at $10$ but decays exponentially over time
+
+
+## Phase and Phase Difference
+
+We've pretty much covered this already.
+
+$$
+y = \sin(kt-b) = \sin k\left( t-\frac{b}{k} \right)
+$$
+
+Where $b$ is the **phase**, and $\frac{b}{k}$ is the **horizontal shift**.
+
+Given two curves :
+
+$$
+y_{1} = A \sin(kt-b) \quad \text{ and } \quad y_{2}=A \sin(kt-c)
+$$
+
+The **phase difference** between $y_{1}$ and $y_{2}$ is $b-c$.
+
+If the phase difference is a multiple of $2\pi$ (or however long the period is), the waves are **in phase**. Otherwise, the waves are **out of phase**.
 
