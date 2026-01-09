@@ -127,6 +127,10 @@ $$
 
 > [!important] The period of harmonic motion is $2\pi$ *in phase*, and $2\pi/\omega$ *in time*.
 > Both are called "period", but they live in different spaces.
+> 
+> Note that the period in phase does not change, and the period in time is proportional to angular frequency. In other words, cosine always has a phase period of $2\pi$, but its time period depends on how fast phase advances in time.
+> 
+> Be mindful of **Phase Space** and **Time Domain**.
 
 <center>. . .</center>
 
