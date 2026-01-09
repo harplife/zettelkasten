@@ -297,5 +297,14 @@ $$
 
 The **phase difference** between $y_{1}$ and $y_{2}$ is $b-c$.
 
-If the phase difference is a multiple of $2\pi$ (or however long the period is), the waves are **in phase**. Otherwise, the waves are **out of phase**.
+If the phase difference is a multiple of $2\pi$, the waves are **in phase**. Otherwise, the waves are **out of phase**.
+
+> [!warning] A little context for the statement above
+> The statement above assumes :
+> 1) same angular frequency $\omega$
+> 2) same type of waveform (both sine or cosine)
+> 3) same reference direction
+
+
+
 
