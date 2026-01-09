@@ -104,12 +104,33 @@ Example :
 
 <center>. . .</center>
 
-**Period** $T$ describes time for one full cycle, whereas **Frequency** $f$ describes number of cycles per unit time.
+**Period** $T$ describes time for one full cycle.
 
 $$
 T = \frac{2\pi}{\omega}
 $$
 
+If a function $x(t)$ is a periodic with period $T$, then :
+
+$$
+x(t+T) = x(t)
+$$
+
+That equation is the *formal* definition of period.
+
+
+Given $x(t)=A \cos(\omega t)$, the cosine repeats when $wt \to wt + 2\pi$. Therefore :
+
+$$
+wT = 2\pi \implies T = \frac{2\pi}{\omega}
+$$
+
+> [!important] The period of harmonic motion is $2\pi$ *in phase*, and $2\pi/\omega$ *in time*.
+> Both are called "period", but they live in different spaces.
+
+<center>. . .</center>
+
+**Frequency** $f$ describes number of cycles per unit time.
 $$
 f = \frac{\omega}{2\pi}
 $$
