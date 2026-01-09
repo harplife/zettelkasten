@@ -117,7 +117,17 @@ Velocity is *largest at equilibrium* and *zero at the extremes*.
 Acceleration always *points toward equilibrium*.
 
 > [!important] Velocity is represented by a tangent line on the wave.
-> Looking at the velocity and the speed of change in velocity is at the heart of calculus.
+> Looking at the velocity and the changes in velocity (acceleration) is at the heart of calculus.
+
+<center>. . .</center>
+
+What makes a simple harmonic motion "simple" is the fact that it is highly idealized :
+- Motion continues forever
+- Amplitude is constant
+- Frequency is constant
+- Perfectly symmetric oscillation
+
+SHM is a *model*, not reality.
 
 <center>. . .</center>
 
