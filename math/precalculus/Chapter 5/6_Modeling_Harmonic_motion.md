@@ -50,6 +50,8 @@ x(t) = A \sin(wt+\phi) \quad \text{ or } \quad x(t) = A \cos(wt+\phi)
 $$
 
 > [!important] A motion that creates a sine wave is said to be **Sinusoidal**.
+> In math, the term "*Harmonic*" means the system has a sinusoidal component. In other words, if a motion, as a function of time, has a shape of the sine wave, then it is considered harmonic.
+> 
 > **Non-harmonic motion** is a motion that repeats but is not *sinusoidal*. Examples include :
 > - Square waves
 > - Sawtooth waves
@@ -59,12 +61,15 @@ $$
 > 
 > It is also said that sinusoidal motion is *smooth*. In other words, non-harmonic motions are *not* smooth.
 
-> [!important] The term "Harmonic" means the system has a linear restoring force that is proportional to the displacement from equilibrium and always directed toward it.
+> [!important] In physics, the term "*Harmonic*" means the system has a linear restoring force that is proportional to the displacement from equilibrium and always directed toward it.
 > Mathematically (according to Hooke's Law), it is defined as $$F = -kx$$
 > 
 > where $F$ is Force, $k$ is Spring Constant (measure of stiffness), and $x$ is Displacement (distance stretched/compressed). The negative sign $-$ signifies that the force is a restoring force.
 > 
 > Everything else (oscillation, sine waves, frequency) comes after this fact.
+> 
+> ---
+> Non-harmonic motions are considered non-harmonic in this sense, too. Although they do have a restoring force, it is not smooth and proportional to displacement.
 
 > [!warning] Oscillation is a *behavior*, not a property.
 > Oscillation depends on damping, energy, and inertia. That means, a system can be :
