@@ -11,6 +11,8 @@
 
 <mark class="hltr-trippy">Periodic Motion</mark> is any motion that repeats itself over regular, fixed intervals of time.
 
+> [!warning] Periodic motion doesn't have to be *uniform* - many periodic motions change speed continuously.
+
 Example of period motions :
 - Pendulum
 - Earth's orbit around the Sun
@@ -20,10 +22,10 @@ Key characteristics of periodic motion :
 - Frequency $f$
 - Amplitude $A$
 
-Periodic motion can be categorized as :
-- Rotational (e.g. hands on a clock, merry-go-round)
-- Oscillatory (e.g. metronome, guitar string vibration, rocking chair)
-- Orbital (e.g. satellites orbiting Earth, electrons orbiting a nucleus)
+Periodic motion is often described as **rotational**, **oscillatory**, or **orbital**, depending on the geometry of the motion.
+
+> [!important] Rotational, oscillatory, and orbital motion is *descriptive* but it is not categorical.
+> In fact, these can overlap. Orbital motion is often just rotational motion, and oscillatory motion can be viewed as a projection of rotational motion.
 
 The simplest kind of periodic motion is a **circular periodic motion**, where an object moves in a circle at constant speed and angle increases uniformly.
 - e.g. clock hands, rotating wheels, planets (idealized)
@@ -39,7 +41,7 @@ Oscillatory Motion is a type of periodic motion where the object moves back and 
 
 ## Simple Harmonic Motion
 
-<mark class="hltr-trippy">Simple Harmonic Motion</mark> (SHM) is a specific, smooth type of periodic motion (e.g. spring or pendulum) where the restoring force is proportional to the displacement and always points toward an equilibrium position.
+<mark class="hltr-trippy">Simple Harmonic Motion</mark> (SHM) is a smooth and oscillatory periodic motion in which the restoring influence is proportional to the displacement from equilibrium and always directed toward it.
 
 SHM is often represented by a sine (or cosine) wave. In its simplest form, the position of the object varies like :
 
