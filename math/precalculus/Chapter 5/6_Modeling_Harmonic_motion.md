@@ -155,3 +155,14 @@ Quasi-harmonic
 Underdamped
 Critically damped
 Overdamped
+
+
+
+## (Extra) Atomic Spectra
+
+Every element has a unique set of frequencies it can emit or absorb.
+
+When atoms are energized, their electrons jump between allowed energy levels. Each jump emits or absorbs light of a specific frequency - this produces **Spectral Lines**.
+
+Example :
+- Hydrogen emits specific red, blue, 
