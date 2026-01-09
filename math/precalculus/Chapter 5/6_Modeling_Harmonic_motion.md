@@ -23,20 +23,13 @@ Key characteristics of periodic motion :
 - Amplitude $A$
 
 Periodic motion is often described as **rotational**, **oscillatory**, or **orbital**, depending on the geometry of the motion.
+- Oscillation describes a periodic motion where the object moves back and forth about a fixed point
 
 > [!important] Rotational, oscillatory, and orbital motion is *descriptive* but it is not categorical.
 > In fact, these can overlap. Orbital motion is often just rotational motion, and oscillatory motion can be viewed as a projection of rotational motion.
 
 The simplest kind of periodic motion is a **circular periodic motion**, where an object moves in a circle at constant speed and angle increases uniformly.
 - e.g. clock hands, rotating wheels, planets (idealized)
-
-Types of periodic motion :
-- Oscillatory Motion
-- Simple Harmonic Motion
-
-### Oscillatory Motion
-
-Oscillatory Motion is a type of periodic motion where the object moves back and forth about a fixed point (e.g. pendulum).
 
 
 ## Simple Harmonic Motion
@@ -58,6 +51,8 @@ $$
 > - Gait cycles in walking
 > 
 > It is also said that sinusoidal motion is *smooth*. In other words, non-harmonic motions are *not* smooth.
+
+> [!important] In the context of mathematics, the term *Harmonic* really just means it oscillates smoothly and periodically.
 
 <center>. . .</center>
 
@@ -130,8 +125,6 @@ What makes a simple harmonic motion "simple" is the fact that it is highly ideal
 SHM is a *model*, not reality.
 
 <center>. . .</center>
-
-Harmonic?
 
 Many real systems behave approximately harmonically near equilibrium.
 
