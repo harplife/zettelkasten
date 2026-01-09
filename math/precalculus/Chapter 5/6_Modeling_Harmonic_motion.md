@@ -144,6 +144,8 @@ $$
 y = a \cos(\omega(t-c))+b
 $$
 
+![[Pasted image 20260109155359.png | center | 500]]
+
 Both are the same model written in two different ways.
 
 The textbook version is more focused on graph transformations, and therefore more clear on the variables that affect the graph (such as horizontal shift $c$ and vertical shift $b$).
@@ -158,6 +160,20 @@ $$
 
 > [!important] In Calculus, we can see how SHM is derived from Hooke's Law $F=-kx$ and Newton's Second Law $F=ma$.
 > For now, it should suffice to know that $\omega=\sqrt{ \frac{k}{m} }$. Meaning, angular frequency is the square root of stiffness over mass; A stiffer spring increases restorative force, while more mass increases inertia, dictating how fast the system cyles.
+
+<center>. . .</center>
+
+<mark class="hltr-green">Example</mark>
+
+$y= 2 \sin 2\pi t$
+
+![[Pasted image 20260109155729.png | center | 500]]
+
+We can see that :
+- Equilibrium is at $y=0$
+- Amplitude is $2$
+- The angular frequency is $2\pi$, which means it goes through 1 cycle per second.
+- 
 
 <center>. . .</center>
 
@@ -244,4 +260,15 @@ DHM is **Critically Damped** when the system returns to equilibrium as quickly a
 
 DHM is **Overdamped** when the system returns to equilibrium slowly, without oscillating, taking longer than a critically damped system (e.g. thick fluid motion, heavy shock absorbers).
 
+<center>. . .</center>
+
+<mark class="hltr-green">Example</mark>
+
+$g(t)=10e^{-0.1t}\cos \pi t$
+
+![[Pasted image 20260109154916.png | center | 700]]
+
+We can see that :
+- Angular frequency is $\pi$ per second (1 cycle per 2 second)
+- Amplitude starts at $10$ but decays exponentially over time
 
