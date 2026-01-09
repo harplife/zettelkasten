@@ -102,6 +102,32 @@ Where $T$ is period and $f$ is frequency.
 > [!important] We had defined the general transformation of a sine function to be $y = A \sin(Bx-C)+D$
 > In physics and engineering, it is defined as $$x(t) = A \sin(\omega t + \phi)$$
 
+<center>. . .</center>
+
+Phase $\phi$ determines the initial angle on the circle. Any shift in phase shifts the wave horizontally in time.
+
+Two harmonic systems can have same frequency and same amplitude, but they can be *out of phase* with each other.
+
+<center>. . .</center>
+
+Harmonic motions deal with **velocity** and **acceleration**.
+
+Velocity is *largest at equilibrium* and *zero at the extremes*.
+
+Acceleration always *points toward equilibrium*.
+
+> [!important] Velocity is represented by a tangent line on the wave.
+> Looking at the velocity and the speed of change in velocity is at the heart of calculus.
+
+<center>. . .</center>
+
+Harmonic?
+
+Many real systems behave approximately harmonically near equilibrium.
+
+Even complicated systems become harmonic when disturbances are small, and can be modeled with sine/cosine locally.
+
+This is why harmonic motion is called the "first approximation of nature".
 
 
 
