@@ -156,11 +156,8 @@ $$
   \phi = -\omega c \iff c = -\frac{\phi}{\omega}
 $$
 
-<center>. . .</center>
-
-Phase $\phi$ determines the initial angle on the circle. Any shift in phase shifts the wave horizontally in time.
-
-Two harmonic systems can have same frequency and same amplitude, but they can be *out of phase* with each other.
+> [!important] In Calculus, we can see how SHM is derived from Hooke's Law $F=-kx$ and Newton's Second Law $F=ma$.
+> For now, it should suffice to know that $\omega=\sqrt{ \frac{k}{m} }$. Meaning, angular frequency is the square root of stiffness over mass; A stiffer spring increases restorative force, while more mass increases inertia, dictating how fast the system cyles.
 
 <center>. . .</center>
 
