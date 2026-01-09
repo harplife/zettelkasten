@@ -147,6 +147,10 @@ Driven
 Nonlinear
 Quasi-harmonic
 
+<center>. . .</center>
+
+Read more about simple harmonic motion at university physics level :
+- https://openstax.org/books/university-physics-volume-1/pages/15-1-simple-harmonic-motion
 
 ## Damped Harmonic Motion
 
@@ -157,8 +161,6 @@ Critically damped
 Overdamped
 
 
-
-## (Extra) Atomic Spectra
 
 
 
