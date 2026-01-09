@@ -61,9 +61,7 @@ $$
 
 <center>. . .</center>
 
-Every harmonic system has :
-- A rest position (**equilibrium**)
-- Motion occurs around that position
+Every harmonic system has a rest position, which is called <mark class="hltr-trippy">Equilibrium</mark>, and the motion occurs around that position.
 
 Example :
 - Mass on a spring --> equilibrium at spring's natural length
@@ -100,4 +98,10 @@ $$
 Where $T$ is period and $f$ is frequency.
 
 ![[Pasted image 20260108171123.png | center]]
+
+> [!important] We had defined the general transformation of a sine function to be $y = A \sin(Bx-C)+D$
+> In physics and engineering, it is defined as $$x(t) = A \sin(\omega t + \phi)$$
+
+
+
 
