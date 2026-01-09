@@ -160,13 +160,5 @@ Overdamped
 
 ## (Extra) Atomic Spectra
 
-Every element has a unique set of frequencies it can emit or absorb.
 
-When atoms are energized, their electrons jump between allowed energy levels. Each jump emits or absorbs light of a specific frequency - this produces **Spectral Lines**.
-- These frequencies are discrete, characteristic, and unique to each element.
-
-Example :
-- Hydrogen emits specific red, blue, violet lines
-- Sodium produces a strong yellow doublet
-- Neon produces red-orange light
 
