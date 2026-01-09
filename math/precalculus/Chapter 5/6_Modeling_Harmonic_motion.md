@@ -31,6 +31,11 @@ Periodic motion is often described as **rotational**, **oscillatory**, or **orbi
 The simplest kind of periodic motion is a **circular periodic motion**, where an object moves in a circle at constant speed and angle increases uniformly.
 - e.g. clock hands, rotating wheels, planets (idealized)
 
+> [!important] A periodic motion that is composed of two or more incommensurate frequencies is called a **Quasi-Periodic Motion**.
+> Examples :
+> - Planetary orbits with perturbations
+> - Rotating objects with wobble
+> - 
 
 ## Simple Harmonic Motion
 
@@ -128,9 +133,13 @@ SHM is a *model*, not reality.
 
 Many real systems behave approximately harmonically near equilibrium.
 
-Even complicated systems become harmonic when disturbances are small, and can be modeled with sine/cosine locally.
+Even complicated systems become harmonic when disturbances are *small*, and can be modeled with sine/cosine *locally*.
 
 This is why harmonic motion is called the "first approximation of nature".
 
+<center>. . .</center>
 
+Damped
+
+Driven
 
