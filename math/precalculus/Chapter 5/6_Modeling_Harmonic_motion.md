@@ -156,8 +156,6 @@ $$
   \phi = -\omega c \iff c = -\frac{\phi}{\omega}
 $$
 
-
-
 <center>. . .</center>
 
 Phase $\phi$ determines the initial angle on the circle. Any shift in phase shifts the wave horizontally in time.
