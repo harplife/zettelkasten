@@ -144,6 +144,20 @@ $$
 y = a \cos(\omega(t-c))+b
 $$
 
+Both are the same model written in two different ways.
+
+The textbook version is more focused on graph transformations, and therefore more clear on the variables that affect the graph (such as horizontal shift $c$ and vertical shift $b$).
+
+The physics version describes the "pure" SHM, thus $b=0$. If the equilibrium is not at zero (such as when gravity shifts equilibrium), it accounts for it by $y=x(t)+b$.
+
+$\phi$ is a phase shift (angular displacement) measured in radians. $c$ is a time shift (temporal displacement) measured in seconds. They encode the same information, scaled by angular frequency $\omega$ :
+
+$$
+  \phi = -\omega c \iff c = -\frac{\phi}{\omega}
+$$
+
+
+
 <center>. . .</center>
 
 Phase $\phi$ determines the initial angle on the circle. Any shift in phase shifts the wave horizontally in time.
