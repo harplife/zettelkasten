@@ -102,7 +102,9 @@ Where $T$ is period and $f$ is frequency.
 ![[Pasted image 20260108171123.png | center]]
 
 > [!important] We had defined the general transformation of a sine function to be $y = A \sin(Bx-C)+D$
-> In physics and engineering, it is defined as $$x(t) = A \sin(\omega t + \phi)$$
+> In physics and engineering, it is defined as $$x(t) = A \cos(\omega t + \phi)$$
+> 
+> Note that SMH is defined with cosine because it mathematically describes a system starting at maximum displacement at $t=0$, where $\cos(0)=1$. Sine also works but cosine just simplifies the math.
 
 <center>. . .</center>
 
@@ -141,11 +143,11 @@ This is why harmonic motion is called the "first approximation of nature".
 
 <center>. . .</center>
 
-Damped
-
-Driven
-Nonlinear
-Quasi-harmonic
+Different variations of harmonic motion include :
+- Damped
+- Driven
+- Nonlinear
+- Quasi-harmonic
 
 <center>. . .</center>
 
@@ -154,7 +156,16 @@ Read more about simple harmonic motion at university physics level :
 
 ## Damped Harmonic Motion
 
+<mark class="hltr-trippy">Damping</mark> is any mechanism that removes energy from the system.
 
+Examples of damping :
+- Friction
+- Air resistance
+- Electrical resistance
+- Internal material losses
+
+<mark class="hltr-trippy">Damped Harmonic Motion</mark> (DHM) is a type of oscillation where the amplitude gradually decreases over time due to energy loss (from damping forces like resistance), causing the system to eventually stop.
+- DHM is a more realistic model than SHM.
 
 Underdamped
 Critically damped
