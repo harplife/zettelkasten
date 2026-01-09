@@ -61,6 +61,8 @@ $$
 
 > [!important] In the context of mathematics, the term *Harmonic* really just means it oscillates smoothly and periodically.
 
+#todo Harmonic -> proportional to displacement and opposite in direction?
+
 <center>. . .</center>
 
 Every harmonic system has a rest position, which is called <mark class="hltr-trippy">Equilibrium</mark>, and the motion occurs around that position.
