@@ -135,6 +135,12 @@ $$
 f = \frac{\omega}{2\pi}
 $$
 
+The fundamental relationship between period and frequency is :
+
+$$
+f = \frac{1}{T} \iff T = \frac{1}{f}
+$$
+
 <center>. . .</center>
 
 <mark class="hltr-trippy">Angular frequency</mark> (rad/s) is the rate of rotation (or oscillation) measuring how fast something spins (or vibrates) in radians per second.
