@@ -35,7 +35,9 @@ The simplest kind of periodic motion is a **circular periodic motion**, where an
 > Examples :
 > - Planetary orbits with perturbations
 > - Rotating objects with wobble
-> - 
+> - Music chords
+> 
+> Such motion never repeats exactly but it is still structured.
 
 ## Simple Harmonic Motion
 
@@ -142,4 +144,14 @@ This is why harmonic motion is called the "first approximation of nature".
 Damped
 
 Driven
+Nonlinear
+Quasi-harmonic
 
+
+## Damped Harmonic Motion
+
+
+
+Underdamped
+Critically damped
+Overdamped
