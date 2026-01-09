@@ -49,6 +49,16 @@ $$
 x(t) = A \sin(wt+\phi) \quad \text{ or } \quad x(t) = A \cos(wt+\phi)
 $$
 
+> [!important] A motion that creates a sine wave is said to be **Sinusoidal**.
+> **Non-harmonic motion** is a motion that repeats but is not *sinusoidal*. Examples include :
+> - Square waves
+> - Sawtooth waves
+> - Triangle waves
+> - Heartbeat signals
+> - Gait cycles in walking
+> 
+> It is also said that sinusoidal motion is *smooth*. In other words, non-harmonic motions are *not* smooth.
+
 <center>. . .</center>
 
 Every harmonic system has :
