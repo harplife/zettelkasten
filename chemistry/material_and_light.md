@@ -128,3 +128,75 @@ Examples :
 Chemically :
 - Excited electrons drop energy levels
 - Emit photons
+
+
+## Properties of Material
+
+Light interacts with electrons in atoms and molecules.
+
+These electrons can :
+- Oscillate
+- Jump between energy levels
+- Dissipate energy as heat
+
+> [!important] Different materials = different electron structures = different visual responses.
+
+
+### Metals
+
+- Electrons are **delocalized** (free-ish electrons)
+- Incoming light makes electrons oscillate collectively
+- Results :
+	- Strong reflection
+	- Color mostly comes from the light source (color in the reflection, not the base)
+	- Sharp highlights
+	- High specular & low diffuse
+
+> [!important] Metallic bonds + electron sea --> mirror-like behavior
+
+
+### Non-metals
+
+- Examples
+	- Wood
+	- Plastic
+	- Skin
+- Electrons are **bound** in molecules
+- Light penetrates a bit, scatters, then exits
+- Some wavelengths are absorbed --> color
+
+This leads to :
+- Diffuse reflection
+- Softer highlights
+- Subsurface scattering (for skin, wax, milk)
+
+Chemistry decides :
+- Which wavelengths are absorbed
+- How deep light penetrates
+- How random the scattering is
+
+### Why "Color" is a Chemical Property
+
+When you see red paint :
+- The molecules absorb blue & green light
+- Red wavelengths are reflected
+
+That absorption depends on :
+- Molecular structure
+- Electron energy gaps
+- Bonding patterns
+
+Physically Based Rendering (PBR) works because it respects chemical reality.
+
+Key assumptions :
+- Energy conservation
+- Microfacet theory
+- Fresnel effects
+
+> [!important] All of these trace back to how electrons in matter respond to electromagnetic waves.
+
+
+
+
+
+
