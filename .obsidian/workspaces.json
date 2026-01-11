@@ -13,10 +13,15 @@
                 "id": "c06d504145e806fb",
                 "type": "leaf",
                 "state": {
-                  "type": "empty",
-                  "state": {},
+                  "type": "markdown",
+                  "state": {
+                    "file": "chemistry/material_and_light.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
                   "icon": "lucide-file",
-                  "title": "New tab"
+                  "title": "material_and_light"
                 }
               }
             ]
@@ -84,16 +89,6 @@
                   "icon": "lucide-bookmark",
                   "title": "Bookmarks"
                 }
-              },
-              {
-                "id": "86bff414d2d51e56",
-                "type": "leaf",
-                "state": {
-                  "type": "center-panes",
-                  "state": {},
-                  "icon": "lucide-ghost",
-                  "title": "center-panes"
-                }
               }
             ]
           },
@@ -107,12 +102,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
+                    "file": "chemistry/material_and_light.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline"
+                  "title": "Outline of material_and_light"
                 }
               }
             ]
@@ -281,10 +277,10 @@
         }
       },
       "active": "c06d504145e806fb",
-      "mtime": "2025-10-12T13:58:28-05:00",
+      "mtime": "2026-01-11T10:15:19-06:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
-          "computer_graphics",
+          "chemistry",
           "music/vocal"
         ]
       }
@@ -1384,7 +1380,7 @@
         }
       },
       "active": "94e124c029256205",
-      "mtime": "2026-01-10T15:33:48-06:00",
+      "mtime": "2026-01-11T10:13:54-06:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "math",
@@ -1744,5 +1740,5 @@
       }
     }
   },
-  "active": "Math"
+  "active": "general"
 }
