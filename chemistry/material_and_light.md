@@ -105,9 +105,19 @@ Light changes direction inside the material.
 
 #### Subsurface Scattering (SSS)
 
+SSS occurs because :
 - Light enters
-- Scatters internally
+- Scatters internally (bounces between molecules)
 - Exits somewhere else
+
+This happens because :
+- Molecules are semi-transparent
+- Bonds vibrate and redirect photons
+
+In chemistry terms :
+- Partial absorption
+- Molecular vibration
+- Non-uniform scattering
 
 Critical for :
 - Skin
@@ -196,7 +206,33 @@ Key assumptions :
 > [!important] All of these trace back to how electrons in matter respond to electromagnetic waves.
 
 
+Chemistry topics that affect light :
+- Atomic orbitals --> light absorption
+- Energy levels --> color
+- Bonding --> transparency vs. opacity
+- Vibrational modes --> scattering & heat
+- States of matter --> surface roughness
 
 
+## Hierarchy of Particles
 
+Smallest --> Largest
 
+1. Subatomic particles
+	- Electrons
+	- Protons
+	- Neutrons
+2. Atoms
+	- One nucleus (protons + neutrons)
+	- Surrounded by electrons
+3. Molecules
+	- Two or more atoms bonded together
+
+An "element" is not a physical object. It describes the type of an atom, which is defined by the number of protons in the atom.
+
+Examples :
+- Hydrogen = atoms with 1 proton
+- Carbon = atoms with 6 protons
+- Oxygen = atoms with 8 protons
+
+A molecule is a structured 
