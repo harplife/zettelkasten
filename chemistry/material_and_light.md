@@ -235,4 +235,42 @@ Examples :
 - Carbon = atoms with 6 protons
 - Oxygen = atoms with 8 protons
 
-A molecule is a structured 
+A molecule is a structured combination of atoms.
+- A single atom can be called a molecule (e.g. noble gases)
+- A solid may not have discrete molecules (e.g. metals, crystals)
+
+
+## Molecular Structure
+
+Molecules (and atoms) have preferred ways of bonding. These preferences lead to specific structures.
+- This preference is due to energy minimization.
+
+Bonding is constraint-based optimization. Atoms and molecules arrange themselves to :
+- Lower total energy
+- Satisfy electron constraints
+- Balance attractive and repulsive forces
+
+There are two levels of structure :
+- Atomic bonding --> molecules
+- Molecule-to-molecule interactions --> Materials
+
+---
+Level 1 : Atomic boding --> molecules
+
+Atoms bond to form molecules (e.g. $H_{2}O$, $CO_{2}$).
+
+These bonds are :
+- Directional
+- Quantized
+- Geometry-specific
+
+For example, water ($H_{2}O$) forms a bent shape.
+
+![[Pasted image 20260111115024.png | center | 500]]
+
+Carbon forms tetrahedral or planar structures.
+
+
+Electron geometries + molecular geometries
+![[Pasted image 20260111115425.png]]
+
