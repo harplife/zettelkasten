@@ -270,7 +270,38 @@ For example, water ($H_{2}O$) forms a bent shape.
 
 Carbon forms tetrahedral or planar structures.
 
-
-Electron geometries + molecular geometries
+Electron geometries + [molecular geometries](https://en.wikipedia.org/wiki/Molecular_geometry)
 ![[Pasted image 20260111115425.png]]
+
+This is Strong Bonding (covalent, ionic, metallic) - see also [Chemical Bond](https://en.wikipedia.org/wiki/Chemical_bond)
+
+![[Pasted image 20260111115947.png | center | 300]]
+
+<center>. . .</center>
+
+Electrons impose hard constraints, which leads to recurring motifs in structures :
+- Chains
+- Rings
+- Sheets
+- 3D networks
+
+Same rules --> same shapes --> predictable materials.
+
+That's why :
+- Diamond is rigid
+- Graphite is slippery
+- Polymers are flexible
+
+---
+Level 2 : Molecule-to-molecule interactions --> Materials
+
+Once molecules exists, they interact with each other (see [Molecular binding](https://en.wikipedia.org/wiki/Molecular_binding))
+- Hydrogen bonding
+- Dipole interactions
+- Van der Waals forces
+
+These are weaker bonds, but they :
+- Determine whether something is solid or liquid
+- Control crystal formation
+- Decide softness, elasticity, melting point
 
