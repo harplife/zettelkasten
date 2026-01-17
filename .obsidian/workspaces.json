@@ -15,13 +15,13 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "chemistry/material_and_light.md",
+                    "file": "SWIC/2026 Spring/math_203_calculus.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": false
                   },
                   "icon": "lucide-file",
-                  "title": "material_and_light"
+                  "title": "math_203_calculus"
                 }
               }
             ]
@@ -102,13 +102,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "chemistry/material_and_light.md",
+                    "file": "SWIC/2026 Spring/math_203_calculus.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of material_and_light"
+                  "title": "Outline of math_203_calculus"
                 }
               }
             ]
@@ -239,7 +239,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "chemistry/material_and_light.md",
+                    "file": "SWIC/2026 Spring/math_203_calculus.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -249,7 +249,7 @@
                     "unlinkedCollapsed": false
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for material_and_light"
+                  "title": "Backlinks for math_203_calculus"
                 }
               }
             ],
@@ -275,12 +275,13 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "227e6011dc684b16",
-      "mtime": "2026-01-17T08:28:12-06:00",
+      "active": "c06d504145e806fb",
+      "mtime": "2026-01-17T08:30:00-06:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "chemistry",
-          "music/vocal"
+          "music/vocal",
+          "SWIC"
         ]
       }
     },
@@ -2025,4 +2026,4 @@
     }
   },
   "active": "general"
-}                     
+}
