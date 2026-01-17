@@ -237,7 +237,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer_graphics/3D_Modeling.md",
+                "file": "chemistry/material_and_light.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -247,7 +247,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 3D_Modeling"
+              "title": "Backlinks for material_and_light"
             }
           }
         ],
@@ -255,8 +255,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 362.5,
-    "collapsed": true
+    "width": 362.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -274,7 +273,7 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "c06d504145e806fb",
+  "active": "227e6011dc684b16",
   "lastOpenFiles": [
     "attachments/Pasted image 20260111115947.png",
     "attachments/Pasted image 20260111115425.png",
