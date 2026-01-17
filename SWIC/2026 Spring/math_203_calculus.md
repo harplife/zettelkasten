@@ -16,9 +16,30 @@
 ### Textbook
 
 Calculus - Early Transcendentals 3e (Pearson) by Briggs, Cochran, Gillett, and Schulz
+- ISBN 10 : 0-13-476364-5
+- ISBN 13 : 978-0-13-476364-4
+- [Amazon link](https://www.amazon.com/Calculus-Transcendentals-William-L-Briggs/dp/0134763645)
 
 ![[Pasted image 20260117085443.png | center | 300]]
 
+Chapters :
+1. Functions
+2. Limits
+3. Derivatives
+4. Applications of the Derivative
+5. Integration
+6. Applications of Integration
+7. Logarithmic, Exponential, and Hyperbolic Functions
+8. Integration Techniques
+9. Differential Equations
+10. Sequences and Infinite Series
+11. Power Series
+12. Parametric and Polar Curves
+13. Vectors and the Geometry of Space
+14. Vector-Valued Functions
+15. Functions of Several Variables
+16. Multiple Integration
+17. Vector Calculus
 
 
 ### Course Description
@@ -32,7 +53,7 @@ Calculus - Early Transcendentals 3e (Pearson) by Briggs, Cochran, Gillett, and S
 
 ### Course Objectives
 
-> [!important] According to the instructor, Calculus I will cover mainly limits, derivatives, and integration.
+> [!important] According to the instructor, Calculus I will cover mainly limits, derivatives, and integration (intro).
 > This is equivalent to Chapter 2~5 in the textbook.
 
 #### Limits
@@ -91,6 +112,16 @@ Calculus - Early Transcendentals 3e (Pearson) by Briggs, Cochran, Gillett, and S
 
 
 ### Learning Resources
+
+- [BrightSpace](https://swic.brightspace.com/d2l/home) (SWIC LMS)
+- [Pearson - MyLab Math](https://mylabmastering.pearson.com/courses/13960122/)
+- Mathematica Lab?
+
+> [!important] Class is mostly managed by BrightSpace, but assignments and textbook contents are on MyLab Math.
+
+> [!important] 
+
+### Grading
 
 
 
