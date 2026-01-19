@@ -2,7 +2,7 @@
 
 ## Chemical Properties
 
-- Extremely unreactive (called a *noble gas*)
+- Extremely **unreactive** (called a *noble gas*)
 - Does not burn
 - Does not easily form compounds
 - Exists as single atoms, not molecules.
@@ -22,9 +22,10 @@
 ## Common Uses
 
 - Balloons and airships (lighter than air and non-flammable)
-- Cryogenics (extreme cooling)
+- Cryogenics (cooling MRI machines and superconducting magnets)
 - Shielding sensitive equipment
 - Leak detection
+- Protective atmospheres for welding
 - Astronomy
 
 

@@ -88,6 +88,8 @@ These appear as bright, sharp lines, not a continuous rainbow.
 
 > [!note] Explosive history of balloons
 > Before [[Helium (He)]] was used for balloons, balloons were once filled with hydrogen instead. Of course, people eventually learned that wasn't a great idea because the hydrogen balloons would literally explode.
+> 
+> See also "[Hindenburg disaster](https://en.wikipedia.org/wiki/Hindenburg_disaster)", where they filled an air ship *Hindenburg* with Hydrogen gas - which resulted in catastrophic explosion.
 
 
 ## Discovery
@@ -100,4 +102,4 @@ These appear as bright, sharp lines, not a continuous rainbow.
 	- Showed it produced water when burned
 - Other notes :
 	- Antoine Lavoisier named it Hydrogen (Greek for "water former")
-- 
+
