@@ -45,6 +45,9 @@ Helium has a rich and colorful spectrum, especially when excited by electricity.
 ![[Pasted image 20260119005807.png]]
 > Red glow in helium's plasma state
 
+![[The_colour_sphere_of_the_Sun.jpg]]
+> Helium is responsible for orange color of the Sun. ([Source](https://www.esa.int/ESA_Multimedia/Images/2017/10/The_colour_sphere_of_the_Sun))
+
 
 ---
 < Absorption Spectrum >
@@ -52,3 +55,14 @@ Helium has a rich and colorful spectrum, especially when excited by electricity.
 Cool helium gas absorbs light at the same wavelengths.
 
 
+---
+Helium spectra is important in Astronomy because it is used to :
+- Identify stars
+- Study stellar temperatures
+- Calibrate spectroscopic instruments
+
+
+## Fun Facts
+
+- Discovered in 1868 in the Sun before being found on Earth (the name comes from Helios, the Greek sun god)
+- Helium changes your voice

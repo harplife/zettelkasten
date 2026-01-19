@@ -50,6 +50,9 @@ https://science.nasa.gov/mission/webb/science-overview/science-explainers/spectr
 ![[Pasted image 20260119005643.png]]
 > Purple glow in hydrogen's plasma state
 
+![[The_colour_sphere_of_the_Sun.jpg]]
+> Hydrogen is responsible for several colors of the Sun. ([source](https://www.esa.int/ESA_Multimedia/Images/2017/10/The_colour_sphere_of_the_Sun))
+
 
 ---
 < Absorption Spectrum >

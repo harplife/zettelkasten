@@ -2032,11 +2032,12 @@
         }
       },
       "active": "c06d504145e806fb",
-      "mtime": "2026-01-19T00:58:38-06:00",
+      "mtime": "2026-01-19T01:07:49-06:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "chemistry",
           "chemistry/elements",
+          "goals",
           "music/vocal"
         ]
       }
