@@ -1395,7 +1395,7 @@
         }
       },
       "active": "61f72ce80323c43a",
-      "mtime": "2026-01-18T23:22:19-06:00",
+      "mtime": "2026-01-19T11:42:28-06:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "math",
@@ -1770,13 +1770,13 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "chemistry/elements/Helium (He).md",
+                    "file": "chemistry/elements/Hydrogen (H).md",
                     "mode": "source",
                     "source": false,
                     "backlinks": false
                   },
                   "icon": "lucide-file",
-                  "title": "Helium (He)"
+                  "title": "Hydrogen (H)"
                 }
               }
             ]
@@ -1857,13 +1857,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "chemistry/elements/Helium (He).md",
+                    "file": "chemistry/elements/Hydrogen (H).md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of Helium (He)"
+                  "title": "Outline of Hydrogen (H)"
                 }
               }
             ]
@@ -2032,7 +2032,7 @@
         }
       },
       "active": "c06d504145e806fb",
-      "mtime": "2026-01-19T10:30:12-06:00",
+      "mtime": "2026-01-19T14:16:49-06:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "chemistry",
@@ -2329,5 +2329,5 @@
       }
     }
   },
-  "active": "Math"
+  "active": "Chemistry"
 }

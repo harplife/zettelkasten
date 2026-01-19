@@ -3,10 +3,10 @@
 ## Chemical Properties
 
 - Highly reactive, especially with Oxygen
-- Burns easily in air, producing water
-- Usually exists as diatomic molecule, rather than single atoms
-- Can form covalent bonds
-- Can form ions
+- Flammable; burns with a pale blue flame and produces water
+- Usually exists as **diatomic molecule**, rather than single atoms
+- Can form **covalent bonds**
+- Can form **ions**
 
 > [!important] Hydrogen's behavior depends strongly on its state, what it's bonded to, or what it is inside of.
 
@@ -27,6 +27,16 @@
 - Petroleum refining
 - Found in all living things, involved in energy transfer inside cells
 
+### Notable Compounds
+
+|Compound|Formula|Use|Found in Nature or Manufactured?|
+|---|---|---|---|
+|**Water**|H₂O|Drinking, life, climate|**Both** (natural & manufactured)|
+|**Ammonia**|NH₃|Fertilizers, cleaners|**Manufactured** (Haber process)|
+|**Methane**|CH₄|Fuel (natural gas)|**Both**|
+|**Hydrochloric acid**|HCl|Digestion, industry|**Both**|
+|**Hydrogen peroxide**|H₂O₂|Disinfectant, bleaching|**Both** (trace natural, mostly manufactured)|
+
 
 ## Atomic Spectra
 
@@ -35,12 +45,18 @@ https://science.nasa.gov/mission/webb/science-overview/science-explainers/spectr
 ---
 < Emission Spectrum >
 
-- When hydrogen gas is energized (e.g. by electricity), it emits specific colors of light. In the visible range, it produces :
-	- Violet (410 nm)
-	- Blue (434 nm)
-	- Blue-green (486 nm)
-	- Red (656 nm)
-- These appear as bright, sharp lines, not a continuous rainbow.
+When hydrogen gas is energized (e.g. by electricity), it emits specific colors of light. In the visible range, it produces :
+
+|Color|Wavelength (nm)|
+|---|---|
+|**Deep red**|**656 nm**|
+|**Blue-green**|**486 nm**|
+|**Violet**|**434 nm**|
+|**Violet (dimmer)**|**410 nm**|
+
+These appear as bright, sharp lines, not a continuous rainbow.
+
+> [!important] Hydrogen also emits *UV light* and *IR light*.
 
 ![[Pasted image 20260119002506.png | center]]
 
@@ -73,3 +89,15 @@ https://science.nasa.gov/mission/webb/science-overview/science-explainers/spectr
 > [!note] Explosive history of balloons
 > Before [[Helium (He)]] was used for balloons, balloons were once filled with hydrogen instead. Of course, people eventually learned that wasn't a great idea because the hydrogen balloons would literally explode.
 
+
+## Discovery
+
+- When : 1766 (recognized as an element)
+- Who : Henry Cavendish
+- How :
+	- Reacted metals with acids
+	- Collected a gas Henry called "inflammable air"
+	- Showed it produced water when burned
+- Other notes :
+	- Antoine Lavoisier named it Hydrogen (Greek for "water former")
+- 
