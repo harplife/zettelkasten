@@ -4,86 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "48e407348db680e6",
+        "id": "2d775d3245f9509a",
         "type": "tabs",
         "children": [
           {
-            "id": "3643feedec790cda",
+            "id": "c06d504145e806fb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atomic_Spectra.md",
+                "file": "chemistry/material_and_light.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Atomic_Spectra"
-            }
-          },
-          {
-            "id": "1656a9989a0550c3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "math/precalculus/Resources/essence_of_trigonometry.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "essence_of_trigonometry"
-            }
-          },
-          {
-            "id": "9c4a7f579d54fcc6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "math/precalculus/Chapter 5/6_Modeling_Harmonic_motion.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "6_Modeling_Harmonic_motion"
-            }
-          },
-          {
-            "id": "94e124c029256205",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "math/precalculus/Chapter 6/1_Angle_Measure.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "1_Angle_Measure"
-            }
-          },
-          {
-            "id": "61f72ce80323c43a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "math/calculus/Chapter 2/1_The_Idea_of_Limits.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "1_The_Idea_of_Limits"
+              "title": "material_and_light"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -97,7 +36,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "935f28b3df870977",
+            "id": "19ce5a4d65676126",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -116,9 +55,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "alphabetical",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
+                "useHierarchy": true
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -163,20 +100,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "math/calculus/Chapter 2/1_The_Idea_of_Limits.md",
+                "file": "chemistry/material_and_light.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 1_The_Idea_of_Limits"
+              "title": "Outline of material_and_light"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 296.5
+    "width": 347.5
   },
   "right": {
     "id": "f152d8fd8ec1f4e0",
@@ -192,8 +129,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -212,7 +149,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "math/precalculus/Chapter 1/2_Exponents_and_Radicals.md",
+                "file": "study_LearnCpp_GettingStarted.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -240,7 +177,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of 2_Exponents_and_Radicals"
+              "title": "Graph of study_LearnCpp_GettingStarted"
             }
           },
           {
@@ -249,12 +186,32 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "math/precalculus/Chapter 1/2_Exponents_and_Radicals.md",
+                "file": "study_LearnCpp_GettingStarted.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2_Exponents_and_Radicals"
+              "title": "Outgoing links from study_LearnCpp_GettingStarted"
+            }
+          },
+          {
+            "id": "c513c08b64ec3a16",
+            "type": "leaf",
+            "state": {
+              "type": "dictionary-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "dictionary-view"
+            }
+          },
+          {
+            "id": "cc30698aa4dc8073",
+            "type": "leaf",
+            "state": {
+              "type": "mathpad-view",
+              "state": {},
+              "icon": "sigma",
+              "title": "Mathpad"
             }
           }
         ],
@@ -280,7 +237,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "math/calculus/Chapter 2/1_The_Idea_of_Limits.md",
+                "file": "computer_graphics/3D_Modeling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -290,7 +247,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 1_The_Idea_of_Limits"
+              "title": "Backlinks for 3D_Modeling"
             }
           }
         ],
@@ -298,7 +255,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 362.5
+    "width": 362.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -316,10 +274,11 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "61f72ce80323c43a",
+  "active": "19ce5a4d65676126",
   "lastOpenFiles": [
-    "SWIC/2026 Spring/math_203_calculus.md",
+    "chemistry/fun_facts",
     "math/calculus/Chapter 2/1_The_Idea_of_Limits.md",
+    "SWIC/2026 Spring/math_203_calculus.md",
     "math/calculus/chapter_2.md",
     "math/calculus/Chapter 2",
     "math/precalculus/Chapter 6/1_Angle_Measure.md",
@@ -363,7 +322,6 @@
     "math/precalculus/Exercises/ex_4_6_20251216.md",
     "math/fun_facts/discovery_by_math.md",
     "math/precalculus/Exercises/ex_4_5_20251210.md",
-    "math/precalculus/Exercises/ex_4_4_20251210.md",
     "computer_graphics/Computer_Graphics_Mindmap.canvas",
     "computer_graphics/projects/solo_leveling_mindmap.canvas",
     "architecture/architecture_mindmap.canvas",
