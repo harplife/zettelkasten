@@ -1,4 +1,4 @@
-# Sodium (Na) - The Explosive One
+# Sodium (Na)
 
 - Sodium is a soft metal that you can cut with a knife.
 - It reacts violently with water - from fizzle to explosion.

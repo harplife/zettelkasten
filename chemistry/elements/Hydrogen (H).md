@@ -1,10 +1,4 @@
-# Hydrogen (H) - The Original Element
-
-- Hydrogen is the simplest element : just one proton and one electron.
-- It makes up about 75% of all normal matter in the universe.
-- The sun shines because hydrogen atoms fuse together.
-- When hydrogen burns, it doesn't produce smoke - it produces water.
-
+# Hydrogen (H)
 
 ## Chemical Properties
 
@@ -22,7 +16,7 @@
 - Gaseous state at room temperature
 - Colorless and odorless
 - Extremely light - lightest element known
-- Atomic number 1 - it has one proton in its nucleus
+- Atomic number 1 (one proton and one electron) - the simplest element of any element.
 
 
 ## Common Uses
@@ -52,6 +46,11 @@ https://science.nasa.gov/mission/webb/science-overview/science-explainers/spectr
 
 ![[Pasted image 20260119002708.png]]
 
+
+![[Pasted image 20260119005643.png]]
+> Purple glow in hydrogen's plasma state
+
+
 ---
 < Absorption Spectrum >
 
@@ -67,4 +66,7 @@ https://science.nasa.gov/mission/webb/science-overview/science-explainers/spectr
 - A single hydrogen atom nucleus is just a bare proton.
 - When hydrogen burns, it doesn't make smoke - it makes water. Because water is already "burned", it cannot be burned anymore.
 - Hydrogen spectral lines help us measure how fast galaxies are moving away from us (see Doppler shift).
+
+> [!note] Explosive history of balloons
+> Before [[Helium (He)]] was used for balloons, balloons were once filled with hydrogen instead. Of course, people eventually learned that wasn't a great idea because the hydrogen balloons would literally explode.
 
