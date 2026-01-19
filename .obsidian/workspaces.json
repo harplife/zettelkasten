@@ -2032,7 +2032,7 @@
         }
       },
       "active": "c06d504145e806fb",
-      "mtime": "2026-01-19T01:07:49-06:00",
+      "mtime": "2026-01-19T10:30:12-06:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "chemistry",
@@ -2329,5 +2329,5 @@
       }
     }
   },
-  "active": "Chemistry"
+  "active": "Math"
 }
