@@ -65,4 +65,7 @@ Helium spectra is important in Astronomy because it is used to :
 ## Fun Facts
 
 - Discovered in 1868 in the Sun before being found on Earth (the name comes from Helios, the Greek sun god)
-- Helium changes your voice
+- Helium changes your voice when inhaled (but it is not good to inhale helium)
+- Helium on Earth mostly comes from radioactive decay underground
+- Helium is a non-renewable resource on Earth - once released, it escapes into space
+
