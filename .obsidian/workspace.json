@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chemistry/material_and_light.md",
+                "file": "chemistry/elements/Hydrogen (H).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "material_and_light"
+              "title": "Hydrogen (H)"
             }
           }
         ]
@@ -100,13 +100,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "chemistry/material_and_light.md",
+                "file": "chemistry/elements/Hydrogen (H).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of material_and_light"
+              "title": "Outline of Hydrogen (H)"
             }
           }
         ]
@@ -274,8 +274,15 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "19ce5a4d65676126",
+  "active": "c06d504145e806fb",
   "lastOpenFiles": [
+    "chemistry/elements/Copper (Cu).md",
+    "chemistry/elements/Hydrogen (H).md",
+    "chemistry/elements/Sodium (Na).md",
+    "chemistry/compounds/Sodium Chloride (Table Salt).md",
+    "chemistry/compounds",
+    "chemistry/material_and_light.md",
+    "chemistry/elements",
     "chemistry/fun_facts",
     "math/calculus/Chapter 2/1_The_Idea_of_Limits.md",
     "SWIC/2026 Spring/math_203_calculus.md",
@@ -286,7 +293,6 @@
     "attachments/Math 203-001 - Spring 2026 Syllabus.pdf",
     "attachments/Math 203 - Spring 2026 Schedule.pdf",
     "attachments/Pasted image 20260117085443.png",
-    "chemistry/material_and_light.md",
     "SWIC/2026 Spring",
     "SWIC",
     "attachments/Pasted image 20260111115947.png",
@@ -295,9 +301,6 @@
     "chemistry",
     "attachments/Pasted image 20260110153448.png",
     "math/precalculus/Chapter 5/6_Modeling_Harmonic_motion.md",
-    "math/precalculus/Chapter 6",
-    "math/precalculus/Resources/Precalculus_Chapter_12.pdf",
-    "math/precalculus/Resources/Precalculus_Chapter_11.pdf",
     "attachments/Pasted image 20260109155729.png",
     "attachments/Pasted image 20260109155359.png",
     "attachments/Pasted image 20260109154916.png",
@@ -319,9 +322,6 @@
     "math/precalculus/Exercises/ex_5_1_20251222.md",
     "math/precalculus/Exercises/ex_4_7_20251222.md",
     "math/precalculus/Chapter 4/7_Logarithmic_Scales.md",
-    "math/precalculus/Exercises/ex_4_6_20251216.md",
-    "math/fun_facts/discovery_by_math.md",
-    "math/precalculus/Exercises/ex_4_5_20251210.md",
     "computer_graphics/Computer_Graphics_Mindmap.canvas",
     "computer_graphics/projects/solo_leveling_mindmap.canvas",
     "architecture/architecture_mindmap.canvas",
