@@ -14,7 +14,7 @@
 - Can form covalent bonds
 - Can form ions
 
-> [!important] Hydrogen's behavior depends strongly on what it's bonded to.
+> [!important] Hydrogen's behavior depends strongly on its state, what it's bonded to, or what it is inside of.
 
 
 ## Physical Properties
@@ -65,4 +65,6 @@ https://science.nasa.gov/mission/webb/science-overview/science-explainers/spectr
 - Most abundant element in the universe (75%), but rare as free hydrogen on Earth.
 - The Hindenburg disaster (1937) made hydrogen infamous, through the chemistry was misunderstood at the time.
 - A single hydrogen atom nucleus is just a bare proton.
-- When hydrogen burns, it doesn't make smoke - it makes water.
+- When hydrogen burns, it doesn't make smoke - it makes water. Because water is already "burned", it cannot be burned anymore.
+- Hydrogen spectral lines help us measure how fast galaxies are moving away from us (see Doppler shift).
+
