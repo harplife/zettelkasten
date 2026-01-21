@@ -1793,9 +1793,21 @@
                   "icon": "lucide-file",
                   "title": "3 - Lithium (Li)"
                 }
+              },
+              {
+                "id": "1439f9868e3fa7ad",
+                "type": "leaf",
+                "state": {
+                  "type": "release-notes",
+                  "state": {
+                    "currentVersion": "1.11.5"
+                  },
+                  "icon": "lucide-book-up",
+                  "title": "Release Notes 1.11.5"
+                }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -1873,13 +1885,12 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "chemistry/elements/3 - Lithium (Li).md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of 3 - Lithium (Li)"
+                  "title": "Outline"
                 }
               }
             ]
@@ -2028,8 +2039,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 362.5,
-        "collapsed": true
+        "width": 362.5
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -2047,8 +2057,8 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "a81115194eca9aca",
-      "mtime": "2026-01-20T23:55:07-06:00",
+      "active": "227e6011dc684b16",
+      "mtime": "2026-01-21T00:51:51-06:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "chemistry",

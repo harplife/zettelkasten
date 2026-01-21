@@ -36,9 +36,21 @@
               "icon": "lucide-file",
               "title": "3 - Lithium (Li)"
             }
+          },
+          {
+            "id": "1439f9868e3fa7ad",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.5"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.5"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -116,13 +128,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "chemistry/elements/3 - Lithium (Li).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 3 - Lithium (Li)"
+              "title": "Outline"
             }
           }
         ]
@@ -271,8 +282,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 362.5,
-    "collapsed": true
+    "width": 362.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -290,7 +300,7 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "a81115194eca9aca",
+  "active": "227e6011dc684b16",
   "lastOpenFiles": [
     "chemistry/elements/2 - Helium (He).md",
     "chemistry/elements/3 - Lithium (Li).md",
