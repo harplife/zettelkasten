@@ -36,21 +36,9 @@
               "icon": "lucide-file",
               "title": "3 - Lithium (Li)"
             }
-          },
-          {
-            "id": "1439f9868e3fa7ad",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.11.5"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.5"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"

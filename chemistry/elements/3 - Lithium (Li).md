@@ -36,3 +36,12 @@
 |**Lithium bromide**|LiBr|Absorption refrigeration|**Manufactured**|
 
 
+## Atomic Spectra
+
+### Emission Spectrum
+
+|Color|Wavelength (nm)|
+|---|---|
+|**Deep crimson red**|**~670.8 nm**|
+|Weak orange-red|~610 nm|
+|Weak blue-violet|~460 nm|
