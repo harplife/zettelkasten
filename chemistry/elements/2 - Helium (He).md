@@ -3,19 +3,19 @@
 ## Chemical Properties
 
 - Extremely **unreactive** (called a *noble gas*)
-- Does not burn
-- Does not easily form compounds
-- Exists as single atoms, not molecules.
+- Does **not burn**
+- Does **not normally form compounds**
+- Exists as **single atoms**, not molecules
 
 > [!important] Helium's electrons form a very stable arrangement, so helium has almost no "desire" to react with other elemtns.
 
 
 ## Physical Properties
 
-- Gaseous state at room temperature
-- Colorless and odorless
-- Very low density (second-lightest element after [[Hydrogen (H)]])
-- Atomic number 2 (two protons and two electrons)
+- **Gaseous** state at room temperature
+- **Colorless** and **odorless**
+- **Very low density** (second-lightest element after [[1 - Hydrogen (H)]])
+- **Atomic number 2** (two protons and two electrons)
 - Extremely low boiling point (the lowest of any element)
 
 
@@ -27,6 +27,14 @@
 - Leak detection
 - Protective atmospheres for welding
 - Astronomy
+
+
+### Notable Compounds
+
+| Compound                          | Formula | Notes                          | Found in Nature or Manufactured? |
+| --------------------------------- | ------- | ------------------------------ | -------------------------------- |
+| _(None, under normal conditions)_ | —       | Helium is chemically inert     | —                                |
+| **Helium excimers**               | He₂*    | Very short-lived, only in labs | **Manufactured (experimental)**  |
 
 
 ## Atomic Spectra
@@ -69,4 +77,19 @@ Helium spectra is important in Astronomy because it is used to :
 - Helium changes your voice when inhaled (but it is not good to inhale helium)
 - Helium on Earth mostly comes from radioactive decay underground
 - Helium is a non-renewable resource on Earth - once released, it escapes into space
+
+
+## Discovery
+
+- When : 1868 (identified), 1895 (isolated on Earth)
+- Who :
+	- Pierre Janssen and Norman Lockyer (independently)
+	- William Ramsay (isolated it on Earth)
+- How :
+	- Janssen and Lockyer observed unknown yellow spectral lines in sunlight during a solar eclipse.
+	- They concluded a new element existed in the Sun.
+	- Ramsay later extracted helium from uranium-bearing minerals.
+
+
+> [!important] Helium was discovered in space before Earth.
 

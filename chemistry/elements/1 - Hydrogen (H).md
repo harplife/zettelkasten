@@ -87,7 +87,7 @@ These appear as bright, sharp lines, not a continuous rainbow.
 - Hydrogen spectral lines help us measure how fast galaxies are moving away from us (see Doppler shift).
 
 > [!note] Explosive history of balloons
-> Before [[Helium (He)]] was used for balloons, balloons were once filled with hydrogen instead. Of course, people eventually learned that wasn't a great idea because the hydrogen balloons would literally explode.
+> Before [[2 - Helium (He)]] was used for balloons, balloons were once filled with hydrogen instead. Of course, people eventually learned that wasn't a great idea because the hydrogen balloons would literally explode.
 > 
 > See also "[Hindenburg disaster](https://en.wikipedia.org/wiki/Hindenburg_disaster)", where they filled an air ship *Hindenburg* with Hydrogen gas - which resulted in catastrophic explosion.
 
