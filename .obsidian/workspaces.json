@@ -1873,12 +1873,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
+                    "file": "chemistry/elements/3 - Lithium (Li).md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline"
+                  "title": "Outline of 3 - Lithium (Li)"
                 }
               }
             ]
@@ -2009,7 +2010,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "computer_graphics/3D_Modeling.md",
+                    "file": "chemistry/elements/3 - Lithium (Li).md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -2019,7 +2020,7 @@
                     "unlinkedCollapsed": false
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for 3D_Modeling"
+                  "title": "Backlinks for 3 - Lithium (Li)"
                 }
               }
             ],
@@ -2045,8 +2046,8 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "227e6011dc684b16",
-      "mtime": "2026-01-21T00:51:57-06:00",
+      "active": "a81115194eca9aca",
+      "mtime": "2026-01-21T01:23:19-06:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "chemistry",

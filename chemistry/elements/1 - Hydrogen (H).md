@@ -42,8 +42,10 @@
 
 https://science.nasa.gov/mission/webb/science-overview/science-explainers/spectroscopy-101-how-absorption-and-emission-spectra-work/
 
----
-< Emission Spectrum >
+### Emission Spectrum
+
+![[Pasted image 20260119005643.png]]
+> Purple glow in hydrogen's plasma state
 
 When hydrogen gas is energized (e.g. by electricity), it emits specific colors of light. In the visible range, it produces :
 
@@ -62,16 +64,13 @@ These appear as bright, sharp lines, not a continuous rainbow.
 
 ![[Pasted image 20260119002708.png]]
 
-
-![[Pasted image 20260119005643.png]]
-> Purple glow in hydrogen's plasma state
+![[Pasted image 20260121011600.png]]
 
 ![[The_colour_sphere_of_the_Sun.jpg]]
 > Hydrogen is responsible for several colors of the Sun. ([source](https://www.esa.int/ESA_Multimedia/Images/2017/10/The_colour_sphere_of_the_Sun))
 
 
----
-< Absorption Spectrum >
+### Absorption Spectrum
 
 - If white light passes through cool hydrogen gas, hydrogen absorbs the same colors it would emit.
 
