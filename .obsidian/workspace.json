@@ -13,32 +13,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chemistry/elements/2 - Helium (He).md",
+                "file": "anthropology/ANTH_150_Cultural_Anthropology.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "2 - Helium (He)"
-            }
-          },
-          {
-            "id": "a81115194eca9aca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "chemistry/elements/3 - Lithium (Li).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "3 - Lithium (Li)"
+              "title": "ANTH_150_Cultural_Anthropology"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -116,13 +100,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "chemistry/elements/3 - Lithium (Li).md",
+                "file": "anthropology/ANTH_150_Cultural_Anthropology.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 3 - Lithium (Li)"
+              "title": "Outline of ANTH_150_Cultural_Anthropology"
             }
           }
         ]
@@ -253,7 +237,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "chemistry/elements/3 - Lithium (Li).md",
+                "file": "anthropology/ANTH_150_Cultural_Anthropology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -263,7 +247,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 3 - Lithium (Li)"
+              "title": "Backlinks for ANTH_150_Cultural_Anthropology"
             }
           }
         ],
@@ -289,11 +273,14 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "a81115194eca9aca",
+  "active": "c06d504145e806fb",
   "lastOpenFiles": [
+    "SWIC/2026 Spring/math_203_calculus.md",
+    "anthropology/ANTH_150_Cultural_Anthropology.md",
+    "anthropology",
+    "chemistry/elements/3 - Lithium (Li).md",
     "chemistry/elements/2 - Helium (He).md",
     "chemistry/elements/1 - Hydrogen (H).md",
-    "chemistry/elements/3 - Lithium (Li).md",
     "attachments/Pasted image 20260121011600.png",
     "attachments/Pasted image 20260121011523.png",
     "attachments/Pasted image 20260121011309.png",
@@ -312,7 +299,6 @@
     "chemistry/material_and_light.md",
     "chemistry/elements",
     "chemistry/fun_facts",
-    "SWIC/2026 Spring/math_203_calculus.md",
     "math/calculus/chapter_2.md",
     "math/calculus/Chapter 2",
     "math/calculus",
@@ -321,7 +307,6 @@
     "attachments/Pasted image 20260117085443.png",
     "SWIC/2026 Spring",
     "SWIC",
-    "chemistry",
     "math/precalculus/Chapter 5/6_Modeling_Harmonic_motion.md",
     "math/precalculus/Chapter 4/6_Modeling_with_Exponential_Functions.md",
     "math/precalculus/Chapter 4/5_Exponential_and_Logarithmic_Equations.md",

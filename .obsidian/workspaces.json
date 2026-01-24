@@ -15,13 +15,13 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "SWIC/2026 Spring/math_203_calculus.md",
+                    "file": "anthropology/ANTH_150_Cultural_Anthropology.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": false
                   },
                   "icon": "lucide-file",
-                  "title": "math_203_calculus"
+                  "title": "ANTH_150_Cultural_Anthropology"
                 }
               }
             ]
@@ -102,13 +102,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "SWIC/2026 Spring/math_203_calculus.md",
+                    "file": "anthropology/ANTH_150_Cultural_Anthropology.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of math_203_calculus"
+                  "title": "Outline of ANTH_150_Cultural_Anthropology"
                 }
               }
             ]
@@ -239,7 +239,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "SWIC/2026 Spring/math_203_calculus.md",
+                    "file": "anthropology/ANTH_150_Cultural_Anthropology.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -249,7 +249,7 @@
                     "unlinkedCollapsed": false
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for math_203_calculus"
+                  "title": "Backlinks for ANTH_150_Cultural_Anthropology"
                 }
               }
             ],
@@ -276,9 +276,10 @@
         }
       },
       "active": "c06d504145e806fb",
-      "mtime": "2026-01-17T08:30:00-06:00",
+      "mtime": "2026-01-23T19:03:14-06:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
+          "anthropology",
           "chemistry",
           "music/vocal",
           "SWIC"
@@ -2047,7 +2048,7 @@
         }
       },
       "active": "a81115194eca9aca",
-      "mtime": "2026-01-21T01:23:19-06:00",
+      "mtime": "2026-01-23T19:01:19-06:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "chemistry",
@@ -2344,5 +2345,5 @@
       }
     }
   },
-  "active": "Chemistry"
+  "active": "general"
 }
