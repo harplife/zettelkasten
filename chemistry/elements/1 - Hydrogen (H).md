@@ -115,3 +115,9 @@ Top producers :
 - Other notes :
 	- Antoine Lavoisier named it Hydrogen (Greek for "water former")
 
+
+## Wave Function
+
+![[Pasted image 20260124091731.png]]
+
+Hydrogen density plots for n up to 4. Wavefunctions of the electron in a hydrogen atom at different energy levels. Quantum mechanics cannot predict the exact location of a particle in space, only the probability of finding it at different locations. The brighter areas represent a higher probability of finding the electron.
