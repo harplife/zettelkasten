@@ -30,14 +30,16 @@ https://science.nasa.gov/mission/webb/science-overview/science-explainers/spectr
 
 When hydrogen gas is energized (e.g. by electricity), it emits specific colors of light. In the visible range, it produces :
 
-|Color|Wavelength (nm)|
-|---|---|
-|**Deep red**|**656 nm**|
-|**Blue-green**|**486 nm**|
-|**Violet**|**434 nm**|
-|**Violet (dimmer)**|**410 nm**|
+| Color               | Wavelength (nm) |
+| ------------------- | --------------- |
+| **Deep red**        | **656 nm**      |
+| **Blue-green**      | **486 nm**      |
+| **Violet**          | **434 nm**      |
+| **Violet (dimmer)** | **410 nm**      |
 
 These appear as bright, sharp lines, not a continuous rainbow.
+
+> [!important] The most intense emission line is red (656 nm), often defining the color of excited hydrogen.
 
 > [!important] Hydrogen also emits *UV light* and *IR light*.
 
