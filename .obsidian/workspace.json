@@ -51,9 +51,24 @@
               "icon": "lucide-file",
               "title": "Timeline_of_Element_Discoveries"
             }
+          },
+          {
+            "id": "b55e54ebb380224f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "chemistry/Periodic_Table_and_The_Origins.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Periodic_Table_and_The_Origins"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -131,13 +146,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "chemistry/Timeline_of_Element_Discoveries.md",
+                "file": "chemistry/Periodic_Table_and_The_Origins.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Timeline_of_Element_Discoveries"
+              "title": "Outline of Periodic_Table_and_The_Origins"
             }
           }
         ]
@@ -268,7 +283,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "chemistry/Timeline_of_Element_Discoveries.md",
+                "file": "chemistry/Periodic_Table_and_The_Origins.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -278,7 +293,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Timeline_of_Element_Discoveries"
+              "title": "Backlinks for Periodic_Table_and_The_Origins"
             }
           }
         ],
@@ -304,12 +319,14 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "7e609f731ec72db3",
+  "active": "b55e54ebb380224f",
   "lastOpenFiles": [
+    "attachments/Nucleosynthesis_periodic_table.svg",
+    "chemistry/Periodic_Table_and_The_Origins.md",
+    "chemistry/Timeline_of_Element_Discoveries.md",
     "attachments/A-timeline-of-the-discoveries-of-the-chemical-elements-Jan-2019.pdf",
     "attachments/Pasted image 20260124164602.png",
     "chemistry/elements/1 - Hydrogen (H).md",
-    "chemistry/Timeline_of_Element_Discoveries.md",
     "Untitled.base",
     "attachments/Pasted image 20260124161446.png",
     "chemistry/Alchemy.md",
@@ -328,7 +345,6 @@
     "chemistry/elements/Copper (Cu).md",
     "math/calculus/Chapter 2/1_The_Idea_of_Limits.md",
     "math/precalculus/Chapter 6/1_Angle_Measure.md",
-    "attachments/The_colour_sphere_of_the_Sun.jpg",
     "chemistry/elements/Sodium (Na).md",
     "chemistry/compounds/Sodium Chloride (Table Salt).md",
     "chemistry/compounds",
@@ -340,7 +356,6 @@
     "math/calculus",
     "attachments/Math 203-001 - Spring 2026 Syllabus.pdf",
     "attachments/Math 203 - Spring 2026 Schedule.pdf",
-    "SWIC/2026 Spring",
     "math/precalculus/Chapter 5/6_Modeling_Harmonic_motion.md",
     "math/precalculus/Chapter 4/6_Modeling_with_Exponential_Functions.md",
     "math/precalculus/Chapter 4/5_Exponential_and_Logarithmic_Equations.md",
@@ -351,7 +366,6 @@
     "math/precalculus/Chapter 5/4_More_Trigonometric_Graphs.md",
     "math/precalculus/Resources/essence_of_trigonometry.md",
     "Atomic_Spectra.md",
-    "math/precalculus/Chapter 5/3_Trigonometric_Graphs.md",
     "computer_graphics/Computer_Graphics_Mindmap.canvas",
     "computer_graphics/projects/solo_leveling_mindmap.canvas",
     "architecture/architecture_mindmap.canvas",
