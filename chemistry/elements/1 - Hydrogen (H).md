@@ -19,25 +19,6 @@
 - Atomic number 1 (one proton and one electron) - the simplest element of any element.
 
 
-## Common Uses
-
-- Rocket fuel
-- Hydrogen fuel cells
-- Making ammonia for fertilizers (Haber process)
-- Petroleum refining
-- Found in all living things, involved in energy transfer inside cells
-
-### Notable Compounds
-
-|Compound|Formula|Use|Found in Nature or Manufactured?|
-|---|---|---|---|
-|**Water**|H₂O|Drinking, life, climate|**Both** (natural & manufactured)|
-|**Ammonia**|NH₃|Fertilizers, cleaners|**Manufactured** (Haber process)|
-|**Methane**|CH₄|Fuel (natural gas)|**Both**|
-|**Hydrochloric acid**|HCl|Digestion, industry|**Both**|
-|**Hydrogen peroxide**|H₂O₂|Disinfectant, bleaching|**Both** (trace natural, mostly manufactured)|
-
-
 ## Atomic Spectra
 
 https://science.nasa.gov/mission/webb/science-overview/science-explainers/spectroscopy-101-how-absorption-and-emission-spectra-work/
@@ -75,6 +56,38 @@ These appear as bright, sharp lines, not a continuous rainbow.
 - If white light passes through cool hydrogen gas, hydrogen absorbs the same colors it would emit.
 
 ![[Pasted image 20260119002352.png | center]]
+
+
+## Common Uses
+
+- Rocket fuel
+- Hydrogen fuel cells
+- Making ammonia for fertilizers (Haber process)
+- Petroleum refining
+- Found in all living things, involved in energy transfer inside cells
+
+### Notable Compounds
+
+|Compound|Formula|Use|Found in Nature or Manufactured?|
+|---|---|---|---|
+|**Water**|H₂O|Drinking, life, climate|**Both** (natural & manufactured)|
+|**Ammonia**|NH₃|Fertilizers, cleaners|**Manufactured** (Haber process)|
+|**Methane**|CH₄|Fuel (natural gas)|**Both**|
+|**Hydrochloric acid**|HCl|Digestion, industry|**Both**|
+|**Hydrogen peroxide**|H₂O₂|Disinfectant, bleaching|**Both** (trace natural, mostly manufactured)|
+
+
+### Production
+
+- Produced mainly by steam reforming of natural gas.
+- Produced also by electrolysis of water.
+- Emerging: green hydrogen (renewable electricity)
+
+Top producers :
+1. China
+2. US
+3. India
+4. Russia Germany
 
 
 ## Fun Facts

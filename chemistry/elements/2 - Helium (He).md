@@ -17,6 +17,38 @@
 - **Very low density** (second-lightest element after [[1 - Hydrogen (H)]])
 - **Atomic number 2** (two protons and two electrons)
 - Extremely low boiling point (the lowest of any element)
+- Cannot be solidified at normal pressure
+
+> [!important] Solid helium
+> **Solid Helium** is a unique quantum solid that only forms under extreme pressure (around 25 atmospheres or more) and very low temperature (near absolute zero) because its *high zero-point energy* prevents it from freezing at normal atmospheric pressure. It's known as a "**quantum solid**" due to quantum effects, exhibiting strange behaviors like super-solidity, where it can seemingly flow through itself like a superfluid.
+
+> [!important] Zero-Point Energy
+> Helium atoms have high kinetic energy even at absolute zero (0 Kelvin) due to quantum mechanics, meaning they constantly vibrate and resist forming a fixed crystal lattice.
+
+
+## Atomic Spectra
+
+### Emission Spectrum
+
+Helium has a rich and colorful spectrum, especially when excited by electricity.
+
+| Color (approx.) | Wavelength (nm)  |
+| --------------- | ---------------- |
+| Red             | ~668, ~706       |
+| Yellow/Orange   | ~588 nm          |
+| Blue-green      | ~470, ~492, ~502 |
+| Blue/Violet     | ~402, ~447       |
+
+![[Pasted image 20260119005807.png]]
+> Red glow in helium's plasma state
+
+![[The_colour_sphere_of_the_Sun.jpg]]
+> Helium is responsible for orange color of the Sun. ([Source](https://www.esa.int/ESA_Multimedia/Images/2017/10/The_colour_sphere_of_the_Sun))
+
+
+### Absorption Spectrum
+
+Cool helium gas absorbs light at the same wavelengths.
 
 
 ## Common Uses
@@ -36,39 +68,6 @@
 | _(None, under normal conditions)_ | —       | Helium is chemically inert     | —                                |
 | **Helium excimers**               | He₂*    | Very short-lived, only in labs | **Manufactured (experimental)**  |
 
-
-## Atomic Spectra
-
----
-< Emission Spectrum >
-
-Helium has a rich and colorful spectrum, especially when excited by electricity.
-
-| Color (approx.) | Wavelength (nm)  |
-| --------------- | ---------------- |
-| Red             | ~668, ~706       |
-| Yellow/Orange   | ~588 nm          |
-| Blue-green      | ~470, ~492, ~502 |
-| Blue/Violet     | ~402, ~447       |
-
-![[Pasted image 20260119005807.png]]
-> Red glow in helium's plasma state
-
-![[The_colour_sphere_of_the_Sun.jpg]]
-> Helium is responsible for orange color of the Sun. ([Source](https://www.esa.int/ESA_Multimedia/Images/2017/10/The_colour_sphere_of_the_Sun))
-
-
----
-< Absorption Spectrum >
-
-Cool helium gas absorbs light at the same wavelengths.
-
-
----
-Helium spectra is important in Astronomy because it is used to :
-- Identify stars
-- Study stellar temperatures
-- Calibrate spectroscopic instruments
 
 
 ## Fun Facts
