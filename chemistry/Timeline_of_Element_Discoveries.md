@@ -41,6 +41,9 @@ From wiki entry of [Timeline of Chemical Element Discoveries](https://en.wikiped
 | 20  | Calcium                          | 1739               | J. H. Pott       | 1808               | H. Davy          |
 | 14  | Silicon                          | 1739               | J. H. Pott       | 1823               | J. Berzelius     |
 | 13  | Aluminium                        | 1746               | J. H. Pott       | 1825               | H. C. Orsted     |
+| 28  | Nickel                           | 1751               | F. Cronstedt     | ''                 | ''               |
+| 12  | Magnesium                        | 1755               | J. Black         | 1808               | H. Davy          |
+| 25  | Manganese                        | 1770               | T. O. Bergman    | 1774               | J. G. Gahn       |
 |     |                                  |                    |                  |                    |                  |
 
 
