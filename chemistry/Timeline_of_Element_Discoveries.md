@@ -42,3 +42,10 @@ From wiki entry of [Timeline of Chemical Element Discoveries](https://en.wikiped
 | 14  | Silicon                          | 1739               | J. H. Pott       | 1823               | J. Berzelius     |
 | 13  | Aluminium                        | 1746               | J. H. Pott       | 1825               | H. C. Orsted     |
 |     |                                  |                    |                  |                    |                  |
+
+
+## Other Resources
+
+![[A-timeline-of-the-discoveries-of-the-chemical-elements-Jan-2019.pdf]]
+> source - [compoundchem.com](https://www.compoundchem.com/2019/01/15/elements-timeline/)
+
