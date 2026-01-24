@@ -1,5 +1,8 @@
 # Lithium (Li)
 
+![[Pasted image 20260124083553.png | center | 300]]
+
+
 ## Chemical Properties
 
 - Highly reactive, especially with water and air
