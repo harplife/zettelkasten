@@ -40,4 +40,5 @@ From wiki entry of [Timeline of Chemical Element Discoveries](https://en.wikiped
 | 27  | Cobalt                           | 1735               | G. Brandt        | ''                 | ''               |
 | 20  | Calcium                          | 1739               | J. H. Pott       | 1808               | H. Davy          |
 | 14  | Silicon                          | 1739               | J. H. Pott       | 1823               | J. Berzelius     |
+| 13  | Aluminium                        | 1746               | J. H. Pott       | 1825               | H. C. Orsted     |
 |     |                                  |                    |                  |                    |                  |
