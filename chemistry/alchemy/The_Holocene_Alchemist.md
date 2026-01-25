@@ -15,6 +15,20 @@ The journey of modern day alchemist in the Holocene epoch.
 
 #todo you need to learn [IPA](https://jakubmarian.com/international-phonetic-alphabet-ipa-for-english-vowels/) first in order to use UPA.
 
+---
+(UPA)
+![[Pasted image 20260125174549.png]]
+
+(IPA)
+ɔːl hjuːmən biː.ɪŋz ɑː bɔːn friː ænd iːkwəɫ ɪn dɪgnɪti ænd raɪts. ðeɪ ɑː ɪndaʊd wɪθ riːzn ænd kɒn ʃns  ænd ʃʊd ækt təwɔːdz wʌn ənʌðə ɪn ə spɪrɪt ɒv brʌðəhʊd.
+
+(English)
+All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood.
+
+---
+
+
+
 
 
 
