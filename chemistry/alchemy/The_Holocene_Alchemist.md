@@ -27,7 +27,10 @@ Here are several cool ways to make symbols for chemical elements:
 
 
 
-## Alchemic Transparency
+## Alchemic Lattice Structures
+
+
+
 
 Metals are usually reflective because the ions are tightly bonded and electrons are free to move around; the free electrons bounce off the photons.
 - The strength of an ionic bond is determined by the magnitude of the charges on the ions and the distance between their nuclei (ionic radius); stronger bonds have higher charges and smaller radii, leading to greater electrostatic attraction and higher lattice energy.
