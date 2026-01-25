@@ -9,6 +9,12 @@ The journey of modern day alchemist in the Holocene epoch.
 > Explanation of the symbols in [[Alchemical Periodic Table Symbols.pdf]]. ([source](https://www.reddit.com/r/alchemy/comments/1m482ld/i_made_alchemical_symbols_for_all_118_chemical/))
 
 
+### Alchemic Language
+
+
+
+
+
 ### ideas for designing alchemic symbols
 
 Creating cool, custom chemical element symbols can involve combining modern design with historical, artistic, or thematic elements. Unique approaches include designing alchemical-style glyphs, creating visual mnemonic icons, using artistic color-coding, or developing thematic, illustrated symbols based on an element's properties, such as its name origin or uses.

@@ -98,7 +98,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -176,13 +176,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "chemistry/Periodic_Table.md",
+                "file": "chemistry/alchemy/The_Holocene_Alchemist.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Periodic_Table"
+              "title": "Outline of The_Holocene_Alchemist"
             }
           }
         ]
@@ -313,7 +313,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "chemistry/Periodic_Table.md",
+                "file": "chemistry/alchemy/The_Holocene_Alchemist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -323,7 +323,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Periodic_Table"
+              "title": "Backlinks for The_Holocene_Alchemist"
             }
           }
         ],
@@ -349,11 +349,11 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "ee4707b6261fc57e",
+  "active": "ee0c5b9a3c529700",
   "lastOpenFiles": [
+    "chemistry/Periodic_Table.md",
     "attachments/Periodic_table_large.svg",
     "chemistry/alchemy/The_Holocene_Alchemist.md",
-    "chemistry/Periodic_Table.md",
     "attachments/Alchemical Periodic Table Symbols.pdf",
     "attachments/Pasted image 20260124195933.png",
     "attachments/Pasted image 20260124194303.png",
@@ -371,7 +371,6 @@
     "Untitled.base",
     "attachments/Pasted image 20260124161446.png",
     "chemistry/alchemy/Alchemy.md",
-    "attachments/Pasted image 20260124091731.png",
     "chemistry/elements/2 - Helium (He).md",
     "chemistry/elements/3 - Lithium (Li).md",
     "anthropology/ANTH_150_Cultural_Anthropology.md",
