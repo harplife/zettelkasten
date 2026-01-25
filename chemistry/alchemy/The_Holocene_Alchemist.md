@@ -33,6 +33,10 @@ Here are several cool ways to make symbols for chemical elements:
 - The study of crystals and crystal formation is known as [Crystallography](https://en.wikipedia.org/wiki/Crystallography).
 
 
+![[Pasted image 20260124193944.png]]
+> ([source](<https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_1e_(OpenSTAX)/10%3A_Liquids_and_Solids/10.07%3A_Lattice_Structures_in_Crystalline_Solids>))
+
+
 ### Crystal Optics
 
 The crystal structure (and symmetry) play a critical role in determining many physical properties, including [Optical Transparency](https://en.wikipedia.org/wiki/Transparency_and_translucency).
@@ -43,12 +47,23 @@ The crystal structure (and symmetry) play a critical role in determining many ph
 
 Metals are usually reflective because the ions are tightly bonded and electrons are free to move around; the free electrons bounce off the photons.
 - The strength of an ionic bond is determined by the magnitude of the charges on the ions and the distance between their nuclei (ionic radius); stronger bonds have higher charges and smaller radii, leading to greater electrostatic attraction and higher lattice energy.
-- See also : Lattice Structure
-- See also : Metallic Bonding
+- See also : [Metallic Bonding](https://en.wikipedia.org/wiki/Metallic_bonding)
 
-Metal
+![[Pasted image 20260124194258.png]]
+![[Pasted image 20260124194303.png]]
 
-Metals (compound) can become transparent 
+> [!important] Random Thought : Magic Circle being similar to the shapes of bonding?
+
+Metals are naturally opaque due to their free electrons, but **metal compounds** can become transparent when their electronic structure is altered to create a large "bandgap". Meaning, the electrons are tightly bound and unable to absorb/reflect visible light, allowing photons to pass through.
+- #example aluminum oxidizes to become [aluminum oxide](https://en.wikipedia.org/wiki/Aluminium_oxide), which when crystalline, is the mineral [corundum](https://en.wikipedia.org/wiki/Corundum); if trace elements like iron and titanium are present, it becomes a blue sapphire.
+- Transparent materials have a high "energy gap" between their electrons' current state and the next available state. In these materials, the energy required for an electron to jump to a higher level is greater than the energy of visible light photons, preventing absorption.
+- Molecular (atomic) structure can also affect opacity of the material. For instance, carbon can be opaque (graphite) or transparent (diamond) based on its structure. See [Allotropy](https://en.wikipedia.org/wiki/Allotropy).
+	- ![[Pasted image 20260124195933.png | 300]]
+- #example [Indium Tin Oxide](https://en.wikipedia.org/wiki/Indium_tin_oxide) is a transparent, electrically conductive, and chemically stable ternary compound used extensively for touchscreens, flat panel displays, solar cells, and smart windows.
+
+
+
+
 
 
 Single [Calcite](https://en.wikipedia.org/wiki/Calcite) crystals display an optical property called [birefringence](https://en.wikipedia.org/wiki/Birefringence) (double refraction).
