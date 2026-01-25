@@ -21,7 +21,12 @@ Here are several cool ways to make symbols for chemical elements:
 - **Language-Origin Illustrations**: Incorporate the Latin or Greek roots of the element into the design, such as using a Roman-style font for 'Na' (from _natrium_) or 'Au' (from _aurum_) to evoke the ancient origins of the element names.
 - **Element Spelling Art**: Create "element words" by picking elements whose symbols spell out a word (e.g., BaNaNa, BeArS) and designing the letters using the visual styling of their respective, unique periodic table square.
 
-  
+
+
+## Alchemic Number Theory
+
+
+
 
 
 
