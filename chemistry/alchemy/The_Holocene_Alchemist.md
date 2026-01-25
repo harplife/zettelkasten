@@ -11,7 +11,7 @@ The journey of modern day alchemist in the Holocene epoch.
 
 ### Alchemic Language
 
-
+#todo consider using Universal Phonetic Alphabet (by Jakub Marian)
 
 
 
