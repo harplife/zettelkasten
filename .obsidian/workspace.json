@@ -81,9 +81,24 @@
               "icon": "lucide-file",
               "title": "The_Holocene_Alchemist"
             }
+          },
+          {
+            "id": "ee4707b6261fc57e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "chemistry/Periodic_Table.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Periodic_Table"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -161,13 +176,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "chemistry/alchemy/The_Holocene_Alchemist.md",
+                "file": "chemistry/Periodic_Table.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of The_Holocene_Alchemist"
+              "title": "Outline of Periodic_Table"
             }
           }
         ]
@@ -298,7 +313,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "chemistry/alchemy/The_Holocene_Alchemist.md",
+                "file": "chemistry/Periodic_Table.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -308,7 +323,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for The_Holocene_Alchemist"
+              "title": "Backlinks for Periodic_Table"
             }
           }
         ],
@@ -334,17 +349,19 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "ee0c5b9a3c529700",
+  "active": "ee4707b6261fc57e",
   "lastOpenFiles": [
+    "attachments/Periodic_table_large.svg",
+    "chemistry/alchemy/The_Holocene_Alchemist.md",
+    "chemistry/Periodic_Table.md",
+    "attachments/Alchemical Periodic Table Symbols.pdf",
     "attachments/Pasted image 20260124195933.png",
     "attachments/Pasted image 20260124194303.png",
     "attachments/Pasted image 20260124194258.png",
     "attachments/Pasted image 20260124193944.png",
     "attachments/Pasted image 20260124191218.png",
-    "attachments/Alchemical Periodic Table Symbols.pdf",
     "attachments/alchemic_symbols_118_elements_20260124.png",
     "chemistry/Periodic_Table_and_The_Origins.md",
-    "chemistry/alchemy/The_Holocene_Alchemist.md",
     "chemistry/alchemy",
     "attachments/Nucleosynthesis_periodic_table.svg",
     "chemistry/Timeline_of_Element_Discoveries.md",
@@ -357,7 +374,6 @@
     "attachments/Pasted image 20260124091731.png",
     "chemistry/elements/2 - Helium (He).md",
     "chemistry/elements/3 - Lithium (Li).md",
-    "attachments/Pasted image 20260124083553.png",
     "anthropology/ANTH_150_Cultural_Anthropology.md",
     "SWIC/2026 Spring/math_203_calculus.md",
     "anthropology",
@@ -381,7 +397,6 @@
     "math/precalculus/Chapter 4/2_The_Natural_Exponential_Function.md",
     "math/precalculus/Chapter 4/1_Exponential_Functions.md",
     "math/precalculus/Chapter 5/4_More_Trigonometric_Graphs.md",
-    "math/precalculus/Resources/essence_of_trigonometry.md",
     "computer_graphics/Computer_Graphics_Mindmap.canvas",
     "computer_graphics/projects/solo_leveling_mindmap.canvas",
     "architecture/architecture_mindmap.canvas",
