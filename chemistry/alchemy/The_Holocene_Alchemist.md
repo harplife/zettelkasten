@@ -27,6 +27,11 @@ All human beings are born free and equal in dignity and rights. They are endowed
 
 ---
 
+![[Pasted image 20260125175130.png]]
+
+![[Pasted image 20260125175404.png]]
+
+
 
 
 
