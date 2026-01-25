@@ -11,7 +11,10 @@ The journey of modern day alchemist in the Holocene epoch.
 
 ### Alchemic Language
 
-#todo consider using Universal Phonetic Alphabet (by Jakub Marian)
+#todo consider learning [Universal Phonetic Alphabet](https://www.omniglot.com/conscripts/upa.htm) (by Jakub Marian).
+
+#todo you need to learn [IPA](https://jakubmarian.com/international-phonetic-alphabet-ipa-for-english-vowels/) first in order to use UPA.
+
 
 
 
