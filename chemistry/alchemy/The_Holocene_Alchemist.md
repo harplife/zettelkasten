@@ -34,6 +34,69 @@ Symbols for elements in the periodic table :
 (English)
 All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood.
 
+According to IPA, General American typically features :
+- Consonants (24): These include p, b, t, d, k, g, f, v, θ, ð, s, z, ʃ, ʒ, h, tʃ, dʒ, m, n, ŋ, l, r, w, j.
+- Vowels (14-16): The vowel system includes vowels such as i, ɪ, eɪ, ɛ, æ, ɑ, ɔ, oʊ, ʊ, u, ʌ, ə, aɪ, aʊ, ɔɪ.
+
+Examples of GA consonants :
+/p/: **p**en, to**p**
+/b/: **b**at, ro**b**
+/t/: **t**en, be**t**
+/d/: **d**og, la**dd**er
+/k/: **c**at, **k**ing, bac**k**
+/g/: **g**et, do**g**
+/tʃ/ (ch): **ch**in, mat**ch**
+/dʒ/ (j): **j**am, pa**ge**
+/f/: **f**an, pu**ff**
+/v/: **v**an, ha**ve**
+/θ/ (th): **th**in, ba**th**
+/ð/ (th): **th**en, ba**the**
+/s/: **s**it, pa**ss**
+/z/: **z**oo, ro**se**
+/ʃ/ (sh): **sh**ip, di**sh**
+/ʒ/ (zh): plea**s**ure, gara**g**e
+/h/: hat, **wh**o
+/m/: **m**ap, ha**mm**er
+/n/: **n**et, su**nn**y
+/ŋ/ (ng): si**ng**er, ba**ng**
+/l/: **l**ight, fi**ll**
+/r/ (ɹ): **r**un, ca**r**
+/w/: **wi**n, q**uee**n
+/j/ (y): **y**es, **y**ou
+/?/ (Glottal stop): bu**tt**on, moun**ta**in, **u**h-**o**h
+
+Examples of GA vowels :
+- /i/ (long E): b**ee**t, m**e**
+- /ɪ/ (short I): b**i**t, f**i**ll
+- /eɪ/ (long A): b**ai**t, d**a**y
+- /ɛ/ (short E): b**e**t, m**e**d
+- /æ/ (short A): b**a**t, m**a**d
+- /ɑ/ (open O): p**o**t, f**a**ther
+- /ə/ (schwa): **a**bout, sof**a**
+- /ʌ/ (short U): b**u**t, r**u**n
+- /u/ (long U): b**oo**t, y**ou**
+- /ʊ/ (short OO): b**oo**k, p**u**t
+- /oʊ/ (long O): b**oa**t, n**o**
+- /ɔ/ (open O): d**o**g, l**aw**
+- /aɪ/ (long I): b**i**te, m**y**
+- /aʊ/ (ou): b**ou**ght, n**o**w
+- /ɔɪ/ (oy): b**oy** , v**oi**ce
+- /ɝ/ (r-colored): b**ir**d, p**ur**ple
+- /ɚ/ (unstressed r): broth**er** 
+
+> [!important] Watch out for mergers.
+> - **Caught-Cot Merger** : The vowel in "cot" (/ɑ/ or /ɒ/) merges with the vowel in "caught" (/ɔ/); half of GA speakers use /ɑ/ for both "caught" and "cot".
+> - **Lot-Palm-Thought Merger** : "lot", "palm", and "thought" all share the same /ɑ/ or /ɒ/ vowel sound.
+> - **Pin-Pen Merger** : In some dialects, "pin" and "pen" sound the same.
+> - **Mary-Marry-Merry Merger** : In most American accents, the vowels in _Mary_ (/ɛər/), _marry_ (/ær/), and _merry_ (/ɛr/) have merged before a prevocalic 'r', making all three words homophones.
+> - **Weak Vowel Merger (/ɪ/–/ə/):** In unstressed syllables, the KIT vowel (/ɪ/) often merges with the COMMA vowel (/ə/). This causes pairs like _affected_ and _effected_ to sound identical.
+> - **Hurry–Furry Merger (/ʌr/–/ɜːr/):** The vowel in _hurry_ (/ʌ/) often merges with the NURSE vowel (/ɜːr/ or /ər/), meaning they are pronounced with the same sound.
+> - **Wine–Whine Merger (/w/–/hw/):** The voiceless labial-velar fricative /hw/ has merged with the voiced /w/ for the vast majority of American speakers, making "wine" and "whine" homophones.
+> - **Southern /l/ Mergers** : Feel–Fill (/i/–/ɪ/), Fail–Fell (/eɪ/–/ɛ/)
+
+
+
+
 ---
 
 #### Consonants
