@@ -60,12 +60,13 @@ Examples of GA consonants :
 /z/: **z**oo, ro**se**
 /ʃ/ (sh): **sh**ip, di**sh**
 /ʒ/ (zh): plea**s**ure, gara**g**e
-/h/: hat, **wh**o
+/h/: **h**at, **wh**o
 /m/: **m**ap, ha**mm**er
 /n/: **n**et, su**nn**y
 /ŋ/ (ng): si**ng**er, ba**ng**
 /l/: **l**ight, fi**ll**
 /r/ (ɹ): **r**un, ca**r**
+
 /w/: **wi**n, q**uee**n
 /j/ (y): **y**es, **y**ou
 /?/ (Glottal stop): bu**tt**on, moun**ta**in, **u**h-**o**h
