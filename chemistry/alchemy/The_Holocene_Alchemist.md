@@ -89,6 +89,12 @@ Examples of GA vowels :
 - /ɝ/ (r-colored): b**ir**d, p**ur**ple
 - /ɚ/ (unstressed r): broth**er** 
 
+
+| Phoneme | Examples |
+| ------- | -------- |
+|         |          |
+
+
 > [!important] Watch out for mergers.
 > - **Caught-Cot Merger** : The vowel in "cot" (/ɑ/ or /ɒ/) merges with the vowel in "caught" (/ɔ/); half of GA speakers use /ɑ/ for both "caught" and "cot".
 > - **Lot-Palm-Thought Merger** : "lot", "palm", and "thought" all share the same /ɑ/ or /ɒ/ vowel sound.
