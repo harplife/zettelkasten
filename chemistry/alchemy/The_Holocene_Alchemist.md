@@ -64,9 +64,12 @@ The slash-like symbol is
 > See also [IPA vowel chart with audio](https://en.wikipedia.org/wiki/IPA_vowel_chart_with_audio)
 
 
+#### Full IPA chart
 
+#todo move the full IPA chart to more appropriate note.
 
-
+![[IPA_chart_2020.svg]]
+> ([source](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet_chart))
 
 
 
