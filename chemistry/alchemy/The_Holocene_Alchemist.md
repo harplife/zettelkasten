@@ -66,6 +66,9 @@ The slash-like symbol is
 
 #### Full IPA chart
 
+Wiki has [Help:IPA/English](https://en.wikipedia.org/wiki/Help:IPA/English) page that shows a table of English consonants/vowels matched with IPA.
+
+
 #todo move the full IPA chart to more appropriate note.
 
 ![[IPA_chart_2020.svg]]
