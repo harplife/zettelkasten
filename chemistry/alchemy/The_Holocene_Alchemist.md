@@ -71,8 +71,7 @@ Examples of GA consonants :
 /?/ (Glottal stop): bu**tt**on, moun**ta**in, **u**h-**o**h
 
 Examples of GA vowels :
-- /i/ (long E): b**ee**t, m**e**
-- /ɪ/ (short I): b**i**t, f**i**ll
+- : 
 - /eɪ/ (long A): b**ai**t, d**a**y
 - /ɛ/ (short E): b**e**t, m**e**d
 - /æ/ (short A): b**a**t, m**a**d
@@ -89,10 +88,10 @@ Examples of GA vowels :
 - /ɝ/ (r-colored): b**ir**d, p**ur**ple
 - /ɚ/ (unstressed r): broth**er** 
 
-
-| Phoneme | Examples |
-| ------- | -------- |
-|         |          |
+| Phoneme       | Examples                                |
+| ------------- | --------------------------------------- |
+| /i/ (long E)  | b**ee**t, m**e**, fl**ee**ce, happ**y** |
+| /ɪ/ (short I) | b**i**t, f**i**ll, kit, mirror, near    |
 
 
 > [!important] Watch out for mergers.
