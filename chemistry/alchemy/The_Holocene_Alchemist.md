@@ -13,7 +13,7 @@ The journey of modern day alchemist in the Holocene epoch.
 
 #todo consider learning [Universal Phonetic Alphabet](https://www.omniglot.com/conscripts/upa.htm) (by Jakub Marian).
 
-#todo you need to learn [IPA](https://jakubmarian.com/international-phonetic-alphabet-ipa-for-english-vowels/) first in order to use UPA. This [interactive IPA chart](https://www.ipachart.com/) should help.
+#todo you need to learn [IPA](https://jakubmarian.com/international-phonetic-alphabet-ipa-for-english-vowels/) first in order to use UPA. This [interactive IPA chart](https://www.ipachart.com/) should help. Also, use [toPhonetics](https://tophonetics.com/) to convert Enligsh to IPA.
 
 ---
 (UPA)
