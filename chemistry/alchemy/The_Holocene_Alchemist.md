@@ -145,6 +145,8 @@ Know the difference between long vowels and short vowels. Common vowels in Engli
 - O: /oʊ/ dote /doʊt/ (not /daʊt/, which would be doubt)
 - U: /juː/ use /juːz/
 
+Note that vowel length is not phonemic in General American, and therefore vowels such as /i/ are customarily transcribed without the length mark /ː/.
+
 ![[Pasted image 20260125181318.png | center | 500]]
 > See also [IPA vowel chart with audio](https://en.wikipedia.org/wiki/IPA_vowel_chart_with_audio)
 
