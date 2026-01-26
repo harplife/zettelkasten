@@ -76,7 +76,7 @@ Examples of GA consonants :
 
 Examples of GA vowels :
 - : 
-- /eɪ/ (long A): b**ai**t, d**a**y
+- : b**ai**t, d**a**y
 - /ɛ/ (short E): b**e**t, m**e**d
 - /æ/ (short A): b**a**t, m**a**d
 - /ɑ/ (open O): p**o**t, f**a**ther
@@ -92,10 +92,17 @@ Examples of GA vowels :
 - /ɝ/ (r-colored): b**ir**d, p**ur**ple
 - /ɚ/ (unstressed r): broth**er** 
 
-| Phoneme       | Examples                                |
-| ------------- | --------------------------------------- |
-| /i/ (long E)  | b**ee**t, m**e**, fl**ee**ce, happ**y** |
-| /ɪ/ (short I) | b**i**t, f**i**ll, kit, mirror, near    |
+| Phoneme           | Examples                                         |
+| ----------------- | ------------------------------------------------ |
+| **/i/** (long E)  | b**ee**t, m**e**, fl**ee**ce, happ**y**          |
+| **/ɪ/** (short I) | b**i**t, f**i**ll, k**i**t, m**i**rror, n**e**ar |
+| **/eɪ/** (long A) |                                                  |
+|                   |                                                  |
+|                   |                                                  |
+|                   |                                                  |
+|                   |                                                  |
+|                   |                                                  |
+|                   |                                                  |
 
 
 > [!important] Watch out for mergers.
