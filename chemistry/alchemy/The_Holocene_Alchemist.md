@@ -5,8 +5,16 @@ The journey of modern day alchemist in the Holocene epoch.
 
 ## Alchemic Symbols
 
+Symbols for elements in the periodic table :
 ![[alchemic_symbols_118_elements_20260124.png]]
 > Explanation of the symbols in [[Alchemical Periodic Table Symbols.pdf]]. ([source](https://www.reddit.com/r/alchemy/comments/1m482ld/i_made_alchemical_symbols_for_all_118_chemical/))
+
+#todo There should be symbols for states of matter, fire, electricity, atoms (and subatomic particles), light, and etc.
+- Photon is usually denoted by the Greek letter gamma $\gamma$.
+	- $c$ for speed of light, $\lambda$ for wavelength, and $\nu$ for frequency.
+- I will mostly incorporate scientific symbols (Greek symbols, SI units, etc.).
+
+
 
 
 ### Alchemic Language
