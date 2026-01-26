@@ -34,9 +34,14 @@ Symbols for elements in the periodic table :
 (English)
 All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood.
 
+---
 According to IPA, General American typically features :
 - Consonants (24): These include p, b, t, d, k, g, f, v, θ, ð, s, z, ʃ, ʒ, h, tʃ, dʒ, m, n, ŋ, l, r, w, j.
 - Vowels (14-16): The vowel system includes vowels such as i, ɪ, eɪ, ɛ, æ, ɑ, ɔ, oʊ, ʊ, u, ʌ, ə, aɪ, aʊ, ɔɪ.
+
+Consonant phonemes in [General American](https://en.wikipedia.org/wiki/General_American_English)
+![[Pasted image 20260125224252.png]]
+> left consonant in a box is *voiceless*, and the right is *voiced*.
 
 Examples of GA consonants :
 /p/: **p**en, to**p**
@@ -124,9 +129,6 @@ The slash-like symbol is
 > [Manner](https://en.wikipedia.org/wiki/Manner_of_articulation) (left columns) and [Place](https://en.wikipedia.org/wiki/Place_of_articulation) (top columns). Dotted symbols indicate "voiced" consonants (though there are exceptions).
 > See also [IPA consonant chart with audio](https://en.wikipedia.org/wiki/IPA_consonant_chart_with_audio)
 
-
-Consonant phonemes in [General American](https://en.wikipedia.org/wiki/General_American_English)
-![[Pasted image 20260125224252.png]]
 
 
 
