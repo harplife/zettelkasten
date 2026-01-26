@@ -13,7 +13,7 @@ The journey of modern day alchemist in the Holocene epoch.
 
 #todo consider learning [Universal Phonetic Alphabet](https://www.omniglot.com/conscripts/upa.htm) (by Jakub Marian).
 
-#todo you need to learn [IPA](https://jakubmarian.com/international-phonetic-alphabet-ipa-for-english-vowels/) first in order to use UPA.
+#todo you need to learn [IPA](https://jakubmarian.com/international-phonetic-alphabet-ipa-for-english-vowels/) first in order to use UPA. This [interactive IPA chart](https://www.ipachart.com/) should help.
 
 ---
 (UPA)
@@ -26,6 +26,27 @@ The journey of modern day alchemist in the Holocene epoch.
 All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood.
 
 ---
+
+#### Consonants
+
+Consonants are defined by two "large" parameters and one "small" parameter.
+
+Large parameters (there are many possible combinations of both) :
+- manner of articulation
+- place of articulation
+
+ Small parameter (it takes only two possible values) :
+ - voiced/voiceless
+ 
+For the indication of the value the following symbols are used :
+
+![[Pasted image 20260125180421.png | center]]
+
+The slash-like symbol is sort of central, the rounded symbols are somewhat opposite of the spiky ones. However, they also maintain a linguistical logic. There will actually be more symbols, but those additional symbols are used for rarely used (and sort of complementary) concepts.
+
+The slash-like symbol is 
+
+
 
 ![[Pasted image 20260125175130.png]]
 
