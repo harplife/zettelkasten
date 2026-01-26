@@ -49,7 +49,12 @@ The slash-like symbol is
 
 
 ![[Pasted image 20260125175130.png]]
+> [Manner](https://en.wikipedia.org/wiki/Manner_of_articulation) (left columns) and [Place](https://en.wikipedia.org/wiki/Place_of_articulation) (top columns)
+> See also [IPA consonant chart with audio](https://en.wikipedia.org/wiki/IPA_consonant_chart_with_audio)
 
+
+
+#### Vowels
 
 
 ![[Pasted image 20260125175404.png]]
@@ -57,6 +62,11 @@ The slash-like symbol is
 
 ![[Pasted image 20260125181318.png | center | 500]]
 > See also [IPA vowel chart with audio](https://en.wikipedia.org/wiki/IPA_vowel_chart_with_audio)
+
+
+
+
+
 
 
 
