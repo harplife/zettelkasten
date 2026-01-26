@@ -13,6 +13,7 @@ Symbols for elements in the periodic table :
 - Photon is usually denoted by the Greek letter gamma $\gamma$.
 	- $c$ for speed of light, $\lambda$ for wavelength, and $\nu$ for frequency.
 - I will mostly incorporate scientific symbols (Greek symbols, SI units, etc.).
+- See [Alchemical Symbols](https://en.wikipedia.org/wiki/Alchemical_symbol)
 
 
 
