@@ -70,6 +70,10 @@ Examples of GA consonants :
 /j/ (y): **y**es, **y**ou
 /?/ (Glottal stop): bu**tt**on, moun**ta**in, **u**h-**o**h
 
+> [!important] It seems GA sound of "r" (in words like *red* or *try*) is often denoted as **/ɹ/** as opposed to **/r/**.
+> This is because **/r/** is a voiced alveolar trill (Spanish sounding), whereas **/ɹ/** is voiced alveolar approximant (English sounding). In American English, the sound is often further back in the mouth, technically a voiced post-alveolar approximant **/ɹ̠/**.
+
+
 Examples of GA vowels :
 - : 
 - /eɪ/ (long A): b**ai**t, d**a**y
