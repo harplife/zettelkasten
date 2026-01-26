@@ -50,11 +50,13 @@ The slash-like symbol is
 
 ![[Pasted image 20260125175130.png]]
 
+
+
 ![[Pasted image 20260125175404.png]]
 
 
-
-
+![[Pasted image 20260125181318.png | center | 500]]
+> See also [IPA vowel chart with audio](https://en.wikipedia.org/wiki/IPA_vowel_chart_with_audio)
 
 
 
