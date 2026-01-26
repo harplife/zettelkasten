@@ -68,6 +68,7 @@ Examples of GA consonants :
 /r/ (ɹ): **r**un, ca**r**
 
 /w/: **wi**n, q**uee**n
+- Sometimes **/ʍ/** is used for "wh" sound where "h" sound is not prominent but it is still more "breathier" than "w" sound (e.g. *which* or *whale*).
 /j/ (y): **y**es, **y**ou
 /?/ (Glottal stop): bu**tt**on, moun**ta**in, **u**h-**o**h
 
@@ -77,7 +78,7 @@ Examples of GA consonants :
 
 Examples of GA vowels :
 - : 
-- : b**ai**t, d**a**y
+- : 
 - /ɛ/ (short E): b**e**t, m**e**d
 - /æ/ (short A): b**a**t, m**a**d
 - /ɑ/ (open O): p**o**t, f**a**ther
@@ -93,17 +94,19 @@ Examples of GA vowels :
 - /ɝ/ (r-colored): b**ir**d, p**ur**ple
 - /ɚ/ (unstressed r): broth**er** 
 
-| Phoneme           | Examples                                         |
-| ----------------- | ------------------------------------------------ |
-| **/i/** (long E)  | b**ee**t, m**e**, fl**ee**ce, happ**y**          |
-| **/ɪ/** (short I) | b**i**t, f**i**ll, k**i**t, m**i**rror, n**e**ar |
-| **/eɪ/** (long A) |                                                  |
-|                   |                                                  |
-|                   |                                                  |
-|                   |                                                  |
-|                   |                                                  |
-|                   |                                                  |
-|                   |                                                  |
+Long vs. short -> vowel quality (not duration) -> same as lax vs. tense
+
+| Phoneme  | Vowel Quality | Examples                                                 |
+| -------- | ------------- | -------------------------------------------------------- |
+| **/i/**  | long E        | b**ee**t, m**e**, fl**ee**ce, happ**y**, **ea**t         |
+| **/ɪ/**  | short I       | b**i**t, f**i**ll, k**i**t, m**i**rror, n**e**ar, **i**t |
+| **/eɪ/** | long A        | b**ai**t, d**ay**                                        |
+|          |               |                                                          |
+|          |               |                                                          |
+|          |               |                                                          |
+|          |               |                                                          |
+|          |               |                                                          |
+|          |               |                                                          |
 
 
 > [!important] Watch out for mergers.
