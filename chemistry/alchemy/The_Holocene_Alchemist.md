@@ -73,6 +73,12 @@ Consonant phonemes in [General American](https://en.wikipedia.org/wiki/General_A
 
 ![[Pasted image 20260125175404.png]]
 
+Know the difference between long vowels and short vowels. Common vowels in English :
+- A: /eɪ/ rake /reɪk/ (not /raɪk/, which would be Germanic reich)
+- E: /iː/ seem /siːm/
+- I: /aɪ/ rice /raɪs/ (not /reɪs/, which would be race)
+- O: /oʊ/ dote /doʊt/ (not /daʊt/, which would be doubt)
+- U: /juː/ use /juːz/
 
 ![[Pasted image 20260125181318.png | center | 500]]
 > See also [IPA vowel chart with audio](https://en.wikipedia.org/wiki/IPA_vowel_chart_with_audio)
