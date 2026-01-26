@@ -49,7 +49,7 @@ The slash-like symbol is
 
 
 ![[Pasted image 20260125175130.png]]
-> [Manner](https://en.wikipedia.org/wiki/Manner_of_articulation) (left columns) and [Place](https://en.wikipedia.org/wiki/Place_of_articulation) (top columns). Dotted symbols indicated "voiced" consonants.
+> [Manner](https://en.wikipedia.org/wiki/Manner_of_articulation) (left columns) and [Place](https://en.wikipedia.org/wiki/Place_of_articulation) (top columns). Dotted symbols indicate "voiced" consonants (though there are exceptions).
 > See also [IPA consonant chart with audio](https://en.wikipedia.org/wiki/IPA_consonant_chart_with_audio)
 
 
