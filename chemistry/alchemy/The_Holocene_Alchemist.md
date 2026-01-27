@@ -93,9 +93,6 @@ Examples of GA vowels :
 | **/u/** | tense         | long ooh    | b**oo**t, y**ou**, g**oo**se                                                               |                    |
 | **/ʊ/** | lax           | short ooh   | b**oo**k, p**u**t, f**oo**t, c**u**re                                                      |                    |
 
-
-> [!important] Caught-Cot Merger --> "ah" sound is close to "uh" sound
-
 Diphthongs
 
 | Phoneme  | Examples                                                                 | Merge                       |
@@ -105,12 +102,12 @@ Diphthongs
 | **/aɪ/** | b**i**te, m**y**                                                         |                             |
 | **/aʊ/** | n**ow**, m**ou**th, h**ou**se, t**ow**n, ab**ou**t, s**ou**nd, p**ow**er |                             |
 | **/ɔɪ/** | b**oy** , v**oi**ce, n**oi**se, ch**oi**ce, enj**oy**                    | **/oɪ/**                    |
-|          |                                                                          |                             |
-|          |                                                                          |                             |
-|          |                                                                          |                             |
+
+> [!important] In GA, **/e/** and **/o/** are only present in diphthongs.
 
 
 ![[Pasted image 20260126185235.png | center | 500]]
+> Distinctive features of vowels : **Height** (low-mid-high), **Frontness** (back-central-front), **Tenseness** (tense-lax), **Roundedness** (rounded-unrounded)
 
 tense vs. lax : tense vowels are produced with greater muscular effort, longer duration, and more peripheral tongue positioning. Conversely, lax vowels are produced with less muscular effort, shorter duration, and a more centralized tongue position. Tense vowels often appear in open syllables, whereas lax vowels are restricted to closed syllables.
 
