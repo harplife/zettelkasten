@@ -119,8 +119,7 @@ tense vs. lax : tense vowels are produced with greater muscular effort, longer d
 
 
 > [!important] Watch out for mergers.
-> - **Caught-Cot Merger** : The vowel in "cot" (/ɑ/ or /ɒ/) merges with the vowel in "caught" (/ɔ/); half of GA speakers use /ɑ/ for both "caught" and "cot".
-> - **Lot-Palm-Thought Merger** : "lot", "palm", and "thought" all share the same /ɑ/ or /ɒ/ vowel sound.
+> - **Caught-Cot/Lot-Palm-Thought Merger** : The vowel in "cot" (/ɑ/ or /ɒ/) merges with the vowel in "caught" (/ɔ/); half of GA speakers use /ɑ/ for both "caught" and "cot".
 > - **Pin-Pen Merger** : In some dialects, "pin" and "pen" sound the same.
 > - **Mary-Marry-Merry Merger** : In most American accents, the vowels in _Mary_ (/ɛər/), _marry_ (/ær/), and _merry_ (/ɛr/) have merged before a prevocalic 'r', making all three words homophones.
 > - **Weak Vowel Merger (/ɪ/–/ə/):** In unstressed syllables, the KIT vowel (/ɪ/) often merges with the COMMA vowel (/ə/). This causes pairs like _affected_ and _effected_ to sound identical.
