@@ -68,9 +68,13 @@ Examples of GA consonants :
 /r/ (ɹ): **r**un, ca**r**
 
 
-| Phoneme |     |
-| ------- | --- |
-|         |     |
+| Manner         | Lenis | Fortis |
+| -------------- | ----- | ------ |
+| Nasal          |       |        |
+| Stop (Plosive) |       |        |
+| Affricate      |       |        |
+| Fricative      |       |        |
+| Approximant    |       |        |
 
 
 
@@ -114,7 +118,7 @@ Diphthongs
 
 
 ![[Pasted image 20260126185235.png | center | 500]]
-> Distinctive features of vowels : **Height** (low-mid-high), **Frontness** (back-central-front), **Tenseness** (tense-lax), **Roundedness** (rounded-unrounded)
+> Distinctive features of vowels : **Height** (low-mid-high), **Frontness** (back-central-front), [Tenseness](https://en.wikipedia.org/wiki/Tenseness) (tense-lax), **Roundedness** (rounded-unrounded)
 
 tense vs. lax : tense vowels are produced with greater muscular effort, longer duration, and more peripheral tongue positioning. Conversely, lax vowels are produced with less muscular effort, shorter duration, and a more centralized tongue position. Tense vowels often appear in open syllables, whereas lax vowels are restricted to closed syllables.
 
