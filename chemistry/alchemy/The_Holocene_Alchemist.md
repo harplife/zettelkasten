@@ -51,31 +51,44 @@ Consonant phonemes in [General American](https://en.wikipedia.org/wiki/General_A
 /l/: **l**ight, fi**ll**
 /r/ (ɹ): **r**un, ca**r**
 
+/z/
 
-| Phoneme   | Voiced/Voiceless | Example                     |
-| --------- | ---------------- | --------------------------- |
-| /b/       | voiced           | **b**at, ro**b**            |
-| /p/       | voiceless        | **p**en, to**p**            |
-| /d/       | voiced           | **d**og, la**dd**er         |
-| /t/       | voiceless        | **t**en, be**t**            |
-| /g/:      | voiced           | **g**et, do**g**            |
-| /k/:      | voiceless        | **c**at, **k**ing, bac**k** |
-| /dʒ/ (j)  | voiced           | **j**am, pa**ge**           |
-| /tʃ/ (ch) | voiceless        | **ch**in, mat**ch**         |
-| /v/       | voiced           | **v**an, ha**ve**           |
-| /f/       | voiceless        | **f**an, pu**ff**           |
-| /z/       | voiced           | **z**oo, ro**se**           |
-| /s/       | voiceless        | **s**it, pa**ss**           |
-| /ð/ (th)  | voiced           | **th**en, ba**the**         |
-| /θ/ (th)  | voiceless        | **th**in, ba**th**          |
-| /ʒ/ (zh)  | voiced           | plea**s**ure, gara**g**e    |
-| /ʃ/ (sh)  | voiceless        | **sh**ip, di**sh**          |
-|           |                  |                             |
-|           |                  |                             |
+| Phoneme   | Voiced/Voiceless | Example                              |
+| --------- | ---------------- | ------------------------------------ |
+| /b/       | voiced           | **b**at, ro**b**                     |
+| /p/       | voiceless        | **p**en, to**p**                     |
+| /d/       | voiced           | **d**og, la**dd**er                  |
+| /t/       | voiceless        | **t**en, be**t**                     |
+| /g/:      | voiced           | **g**et, do**g**                     |
+| /k/:      | voiceless        | **c**at, **k**ing, bac**k**          |
+| /dʒ/ (j)  | voiced           | **j**am, pa**ge**                    |
+| /tʃ/ (ch) | voiceless        | **ch**in, mat**ch**                  |
+| /v/       | voiced           | **v**an, ha**ve**                    |
+| /f/       | voiceless        | **f**an, pu**ff**                    |
+| /z/       | voiced           | **z**oo, ro**se**                    |
+| /s/       | voiceless        | **s**it, pa**ss**                    |
+| /ð/ (th)  | voiced           | **th**en, ba**the**                  |
+| /θ/ (th)  | voiceless        | **th**in, ba**th**                   |
+| /ʒ/ (zh)  | voiced           | plea**s**ure, gara**g**e, vi**si**on |
+| /ʃ/ (sh)  | voiceless        | **sh**ip, di**sh**                   |
+|           |                  |                                      |
+|           |                  |                                      |
 
 [Affricates](https://en.wikipedia.org/wiki/Affricate) (begins with a stop and ends with fricative)
 /t͡ʃ/ (ch) : choice, chew, watch
 /d͡ʒ/ (j) : job, giant, magic, age, badge, soldier
+
+
+[Syllabic Consonants](https://en.wikipedia.org/wiki/Syllabic_consonant) (when vowel isn't aspirated. Can be substituted with **/ə/**)
+/l̩/ : bottle (/ˈbɑɾɪl/ or ˈbɑɾəl)
+/m̩/ : rhythm
+/n̩/ : button, mountain
+/ɹ̩/ : teacher
+
+
+Allophones
+**/ɾ/** (flap) : water, bottle
+**/ʔ/** (glottal stop) : button, mountain
 
 
 
