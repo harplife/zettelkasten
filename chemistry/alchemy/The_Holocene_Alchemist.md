@@ -44,59 +44,56 @@ Consonant phonemes in [General American](https://en.wikipedia.org/wiki/General_A
 > left consonant in a box is *voiceless*, and the right is *voiced*.
 
 
-/h/: **h**at, **wh**o
-/m/: **m**ap, ha**mm**er
-/n/: **n**et, su**nn**y
-/ŋ/ (ng): si**ng**er, ba**ng**
-/l/: **l**ight, fi**ll**
-/r/ (ɹ): **r**un, ca**r**
+> [!important] Phonemic vs. Phonetic
+> The `/ /` represents **phonemic**, the abstract representation of sound. The `[ ]` represents **phonetic**, the actual produced/observed sound.
 
-/z/
+| Phoneme            | Voiced/Voiceless | Example                                         |
+| ------------------ | ---------------- | ----------------------------------------------- |
+| /b/                | voiced           | **b**at, ro**b**                                |
+| /p/                | voiceless        | **p**en, to**p**                                |
+| /d/                | voiced           | **d**og, la**dd**er                             |
+| /t/                | voiceless        | **t**en, be**t**                                |
+| /g/                | voiced           | **g**et, do**g**                                |
+| /k/                | voiceless        | **c**at, **k**ing, bac**k**                     |
+| /v/                | voiced           | **v**an, ha**ve**                               |
+| /f/                | voiceless        | **f**an, pu**ff**                               |
+| /z/                | voiced           | **z**oo, ro**se**                               |
+| /s/                | voiceless        | **s**it, pa**ss**                               |
+| /ʒ/ (zh)           | voiced           | plea**s**ure, gara**g**e, vi**si**on            |
+| /ʃ/ (sh)           | voiceless        | **sh**ip, di**sh**                              |
+| /d͡ʒ/ (j)          | voiced           | job, giant, magic, age, badge, soldier, jealous |
+| /t͡ʃ/ (ch)         | voiceless        | choice, chew, watch                             |
+| /ð/ (soft th)      | voiced           | **th**is, **th**en, mo**th**er                  |
+| /θ/ (hissy th)     | voiceless        | **th**in, **th**ink, ba**th**, bir**th**day     |
+| /h/                | voiceless        | **h**at, **wh**o                                |
+| /m/                | voiced           | **m**ap, ha**mm**er                             |
+| /n/                | voiced           | **n**et, su**nn**y                              |
+| /ŋ/ (ng)           | voiced           | si**ng**er, ba**ng**                            |
+| /l/                | voiced           | **l**ight, fi**ll**                             |
+| /ɹ/ (r but no tap) | voiced           | **r**un, ca**r**                                |
 
-| Phoneme   | Voiced/Voiceless | Example                              |
-| --------- | ---------------- | ------------------------------------ |
-| /b/       | voiced           | **b**at, ro**b**                     |
-| /p/       | voiceless        | **p**en, to**p**                     |
-| /d/       | voiced           | **d**og, la**dd**er                  |
-| /t/       | voiceless        | **t**en, be**t**                     |
-| /g/:      | voiced           | **g**et, do**g**                     |
-| /k/:      | voiceless        | **c**at, **k**ing, bac**k**          |
-| /dʒ/ (j)  | voiced           | **j**am, pa**ge**                    |
-| /tʃ/ (ch) | voiceless        | **ch**in, mat**ch**                  |
-| /v/       | voiced           | **v**an, ha**ve**                    |
-| /f/       | voiceless        | **f**an, pu**ff**                    |
-| /z/       | voiced           | **z**oo, ro**se**                    |
-| /s/       | voiceless        | **s**it, pa**ss**                    |
-| /ð/ (th)  | voiced           | **th**en, ba**the**                  |
-| /θ/ (th)  | voiceless        | **th**in, ba**th**                   |
-| /ʒ/ (zh)  | voiced           | plea**s**ure, gara**g**e, vi**si**on |
-| /ʃ/ (sh)  | voiceless        | **sh**ip, di**sh**                   |
-|           |                  |                                      |
-|           |                  |                                      |
+
 
 [Affricates](https://en.wikipedia.org/wiki/Affricate) (begins with a stop and ends with fricative)
-/t͡ʃ/ (ch) : choice, chew, watch
-/d͡ʒ/ (j) : job, giant, magic, age, badge, soldier
-
+ (j) (voiced) : 
+ (ch) (voiceless) : 
 
 [Syllabic Consonants](https://en.wikipedia.org/wiki/Syllabic_consonant) (when vowel isn't aspirated. Can be substituted with **/ə/**)
 /m̩/ : rhythm, prism, bottom
 /n̩/ : button, mountain, hidden
-
 /ɹ̩/ : teacher
 /l̩/ : bottle (/ˈbɑɾɪl/ or ˈbɑɾəl), little, final
 
 
 Allophones
 **/ɾ/** (flap) : water, bottle
-**/ʔ/** (glottal stop) : button, mountain
+**/ʔ/** (glottal stop) : button, mountain, uh-oh
 
 
-
+Approximants (semi-vowel)
 /w/: **wi**n, q**uee**n
-- Sometimes **/ʍ/** is used for "wh" sound where "h" sound is not prominent but it is still more "breathier" than "w" sound (e.g. *which* or *whale*).
+- Sometimes **/ʍ/** or **/hw/** is used for "wh" sound where "h" sound is not prominent but it is still more "breathier" than "w" sound (e.g. *which* or *whale*).
 /j/ (y): **y**es, **y**ou
-/?/ (Glottal stop): bu**tt**on, moun**ta**in, **u**h-**o**h
 
 > [!important] It seems GA sound of "r" (in words like *red* or *try*) is often denoted as **/ɹ/** as opposed to **/r/**.
 > This is because **/r/** is a voiced alveolar trill (Spanish sounding), whereas **/ɹ/** is voiced alveolar approximant (English sounding). In American English, the sound is often further back in the mouth, technically a voiced post-alveolar approximant **/ɹ̠/**.
