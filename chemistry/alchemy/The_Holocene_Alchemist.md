@@ -96,17 +96,17 @@ Examples of GA vowels :
 
 Long vs. short -> vowel quality (not duration) -> same as lax vs. tense
 
-| Phoneme  | Vowel Name | Examples                                                       | Merge   |
-| -------- | ---------- | -------------------------------------------------------------- | ------- |
-| **/i/**  | long E     | b**ee**t, m**e**, fl**ee**ce, happ**y**, **ea**t               |         |
-| **/ɪ/**  | short I    | b**i**t, f**i**ll, k**i**t, m**i**rror, n**e**ar, **i**t       |         |
-| **/eɪ/** | long A     | b**ai**t, d**ay**, f**a**ce                                    |         |
-| **/ɛ/**  | short E    | b**e**t, m**e**d, dr**e**ss, c**a**rry, ch**e**rry, sq**ua**re | **/e/** |
-| **/æ/**  | short A    | b**a**t, m**a**d, tr**a**p, b**a**th                           |         |
-| **/ɑ/**  | open O     | p**o**t, f**a**ther, p**a**lm, st**a**rt, l**o**t, s**o**rry   | **/ɔ/** |
-| /ə/      | schwa      | **a**bout, sof**a**, moth**e**r                                |         |
-|          |            |                                                                |         |
-|          |            |                                                                |         |
+| Phoneme  | Vowel Quality | Examples                                                                                   | Merge   |
+| -------- | ------------- | ------------------------------------------------------------------------------------------ | ------- |
+| **/i/**  | long          | b**ee**t, m**e**, fl**ee**ce, happ**y**, **ea**t                                           |         |
+| **/ɪ/**  | short         | b**i**t, f**i**ll, k**i**t, m**i**rror, n**e**ar, **i**t                                   |         |
+| **/eɪ/** | long          | b**ai**t, d**ay**, f**a**ce                                                                |         |
+| **/ɛ/**  | short         | b**e**t, m**e**d, dr**e**ss, c**a**rry, ch**e**rry, sq**ua**re                             | **/e/** |
+| **/æ/**  | short         | b**a**t, m**a**d, tr**a**p, b**a**th                                                       |         |
+| **/ɑ/**  | open          | p**o**t, f**a**ther, p**a**lm, st**a**rt, l**o**t, s**o**rry,<br>h**o**t, n**o**t, b**o**x | **/ɔ/** |
+| /ə/      | schwa         | **a**bout, sof**a**, moth**e**r                                                            |         |
+|          |               |                                                                                            |         |
+|          |               |                                                                                            |         |
 
 > [!important] The difference between **/e/** and **/ɛ/**
 > **/e/** is a close-mid front unrounded vowel, and in GA, it is only used as first part of the diphthong **/eɪ/** glide. Although it sounds similar to **/ɛ/** (open-mid front unrounded vowel), jaw is more closed and tongue is closer to the roof of the mouth - using **/e/** instead of **/ɛ/** in words like "bed" (**/bɛd/**) can make the word sound closer to "bid" (**/bɪd/**).
