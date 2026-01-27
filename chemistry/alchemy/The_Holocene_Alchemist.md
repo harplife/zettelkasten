@@ -68,6 +68,10 @@ Examples of GA consonants :
 /r/ (ɹ): **r**un, ca**r**
 
 
+| Phoneme |     |
+| ------- | --- |
+|         |     |
+
 
 
 /w/: **wi**n, q**uee**n
