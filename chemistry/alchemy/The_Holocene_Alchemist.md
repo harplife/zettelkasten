@@ -68,13 +68,13 @@ Examples of GA consonants :
 /r/ (ɹ): **r**un, ca**r**
 
 
-| Manner         | Lenis | Fortis |
-| -------------- | ----- | ------ |
-| Nasal          |       |        |
-| Stop (Plosive) |       |        |
-| Affricate      |       |        |
-| Fricative      |       |        |
-| Approximant    |       |        |
+| Manner         | Lenis | Example | Fortis | Example |
+| -------------- | ----- | ------- | ------ | ------- |
+| Nasal          |       |         |        |         |
+| Stop (Plosive) |       |         |        |         |
+| Affricate      |       |         |        |         |
+| Fricative      |       |         |        |         |
+| Approximant    |       |         |        |         |
 
 
 
