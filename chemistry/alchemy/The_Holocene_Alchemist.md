@@ -43,23 +43,7 @@ Consonant phonemes in [General American](https://en.wikipedia.org/wiki/General_A
 ![[Pasted image 20260125224252.png]]
 > left consonant in a box is *voiceless*, and the right is *voiced*.
 
-Examples of GA consonants :
-/p/: **p**en, to**p**
-/b/: **b**at, ro**b**
-/t/: **t**en, be**t**
-/d/: **d**og, la**dd**er
-/k/: **c**at, **k**ing, bac**k**
-/g/: **g**et, do**g**
-/tʃ/ (ch): **ch**in, mat**ch**
-/dʒ/ (j): **j**am, pa**ge**
-/f/: **f**an, pu**ff**
-/v/: **v**an, ha**ve**
-/θ/ (th): **th**in, ba**th**
-/ð/ (th): **th**en, ba**the**
-/s/: **s**it, pa**ss**
-/z/: **z**oo, ro**se**
-/ʃ/ (sh): **sh**ip, di**sh**
-/ʒ/ (zh): plea**s**ure, gara**g**e
+
 /h/: **h**at, **wh**o
 /m/: **m**ap, ha**mm**er
 /n/: **n**et, su**nn**y
@@ -68,13 +52,30 @@ Examples of GA consonants :
 /r/ (ɹ): **r**un, ca**r**
 
 
-| Manner         | Voiced | Example | Voiceless | Example |
-| -------------- | ------ | ------- | --------- | ------- |
-| Nasal          |        |         |           |         |
-| Stop (Plosive) |        |         |           |         |
-| Affricate      |        |         |           |         |
-| Fricative      |        |         |           |         |
-| Approximant    |        |         |           |         |
+| Phoneme   | Voiced/Voiceless | Example                     |
+| --------- | ---------------- | --------------------------- |
+| /b/       | voiced           | **b**at, ro**b**            |
+| /p/       | voiceless        | **p**en, to**p**            |
+| /d/       | voiced           | **d**og, la**dd**er         |
+| /t/       | voiceless        | **t**en, be**t**            |
+| /g/:      | voiced           | **g**et, do**g**            |
+| /k/:      | voiceless        | **c**at, **k**ing, bac**k** |
+| /dʒ/ (j)  | voiced           | **j**am, pa**ge**           |
+| /tʃ/ (ch) | voiceless        | **ch**in, mat**ch**         |
+| /v/       | voiced           | **v**an, ha**ve**           |
+| /f/       | voiceless        | **f**an, pu**ff**           |
+| /z/       | voiced           | **z**oo, ro**se**           |
+| /s/       | voiceless        | **s**it, pa**ss**           |
+| /ð/ (th)  | voiced           | **th**en, ba**the**         |
+| /θ/ (th)  | voiceless        | **th**in, ba**th**          |
+| /ʒ/ (zh)  | voiced           | plea**s**ure, gara**g**e    |
+| /ʃ/ (sh)  | voiceless        | **sh**ip, di**sh**          |
+|           |                  |                             |
+|           |                  |                             |
+
+[Affricates](https://en.wikipedia.org/wiki/Affricate) (begins with a stop and ends with fricative)
+/t͡ʃ/ (ch) : choice, chew, watch
+/d͡ʒ/ (j) : job, giant, magic, age, badge, soldier
 
 
 
