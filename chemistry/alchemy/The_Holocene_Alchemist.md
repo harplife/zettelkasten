@@ -67,6 +67,9 @@ Examples of GA consonants :
 /l/: **l**ight, fi**ll**
 /r/ (ɹ): **r**un, ca**r**
 
+
+
+
 /w/: **wi**n, q**uee**n
 - Sometimes **/ʍ/** is used for "wh" sound where "h" sound is not prominent but it is still more "breathier" than "w" sound (e.g. *which* or *whale*).
 /j/ (y): **y**es, **y**ou
