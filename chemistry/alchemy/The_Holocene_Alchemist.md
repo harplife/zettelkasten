@@ -77,11 +77,6 @@ Examples of GA consonants :
 
 
 Examples of GA vowels :
--  (lax): 
--  (): 
--  (open O): 
-- /aɪ/ (long I): b**i**te, m**y**
-- /aʊ/ (ou, tense): b**ou**ght, n**o**w
 - /ɔɪ/ (oy): b**oy** , v**oi**ce
 - /ɝ/ (r-colored): b**ir**d, p**ur**ple
 - /ɚ/ (unstressed r): broth**er** 
@@ -95,8 +90,8 @@ Examples of GA vowels :
 | **/ɑ/** | lax           | ah          | p**o**t, f**a**ther, p**a**lm, st**a**rt, l**o**t, s**o**rry,<br>h**o**t, n**o**t, b**o**x | **/ɔ/**            |
 | **/ɔ/** | lax, rounded  | aw          | d**o**g, l**aw**, th**ou**ght, cl**o**th, north, force, forest                             |                    |
 | **/ə/** | lax, neutral  | uh          | **a**bout, sof**a**, moth**e**r, b**u**t, r**u**n, str**u**t                               | **/ʌ/** (stressed) |
-| **/u/** | tense         |             | b**oo**t, y**ou**, g**oo**se                                                               |                    |
-| **/ʊ/** | lax           |             | b**oo**k, p**u**t, f**oo**t, c**u**re                                                      |                    |
+| **/u/** | tense         | long ooh    | b**oo**t, y**ou**, g**oo**se                                                               |                    |
+| **/ʊ/** | lax           | short ooh   | b**oo**k, p**u**t, f**oo**t, c**u**re                                                      |                    |
 |         |               |             |                                                                                            |                    |
 |         |               |             |                                                                                            |                    |
 |         |               |             |                                                                                            |                    |
@@ -106,14 +101,14 @@ Examples of GA vowels :
 
 Diphthongs
 
-| Phoneme  | Vowel Quality | Examples                           | Merge                                 |
-| -------- | ------------- | ---------------------------------- | ------------------------------------- |
-| **/eɪ/** | tense         | b**ai**t, d**ay**, f**a**ce        |                                       |
-| **/oʊ/** | tense         | b**oa**t, n**o**, g**o**, h**o**me | **/əʊ/** (British), **/o/**, **/ow/** |
-|          |               |                                    |                                       |
-|          |               |                                    |                                       |
-|          |               |                                    |                                       |
-|          |               |                                    |                                       |
+| Phoneme  | Examples                                                                 | Merge                       |
+| -------- | ------------------------------------------------------------------------ | --------------------------- |
+| **/eɪ/** | b**ai**t, d**ay**, f**a**ce                                              |                             |
+| **/oʊ/** | b**oa**t, n**o**, g**o**, h**o**me, cl**o**ne, dr**o**ne                 | **/əʊ/**, **/o/**, **/ow/** |
+| **/aɪ/** | b**i**te, m**y**                                                         |                             |
+| **/aʊ/** | n**ow**, m**ou**th, h**ou**se, t**ow**n, ab**ou**t, s**ou**nd, p**ow**er |                             |
+|          |                                                                          |                             |
+|          |                                                                          |                             |
 
 
 ![[Pasted image 20260126185235.png | center | 500]]
