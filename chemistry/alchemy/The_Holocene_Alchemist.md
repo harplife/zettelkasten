@@ -86,21 +86,21 @@ Examples of GA vowels :
 - /ɝ/ (r-colored): b**ir**d, p**ur**ple
 - /ɚ/ (unstressed r): broth**er** 
 
-| Phoneme | Vowel Quality | Sound | Examples                                                                                   | Merge   |
-| ------- | ------------- | ----- | ------------------------------------------------------------------------------------------ | ------- |
-| **/i/** | tense         |       | b**ee**t, m**e**, fl**ee**ce, happ**y**, **ea**t                                           |         |
-| **/ɪ/** | lax           |       | b**i**t, f**i**ll, k**i**t, m**i**rror, n**e**ar, **i**t                                   |         |
-| **/ɛ/** | lax           |       | b**e**t, m**e**d, dr**e**ss, c**a**rry, ch**e**rry, sq**ua**re                             | **/e/** |
-| **/æ/** | lax           |       | b**a**t, m**a**d, tr**a**p, b**a**th                                                       |         |
-| **/ɑ/** | lax           |       | p**o**t, f**a**ther, p**a**lm, st**a**rt, l**o**t, s**o**rry,<br>h**o**t, n**o**t, b**o**x | **/ɔ/** |
-| **/ɔ/** | lax, rounded  | aw    | d**o**g, l**aw**, th**ou**ght, cl**o**th, north, force, forest                             |         |
-| **/ə/** | lax, neutral  | uh    | **a**bout, sof**a**, moth**e**r, b**u**t, r**u**n, str**u**t                               | **/ʌ/** |
-| **/u/** | tense         |       | b**oo**t, y**ou**, g**oo**se                                                               |         |
-| **/ʊ/** | lax           |       | b**oo**k, p**u**t, f**oo**t, c**u**re                                                      |         |
-|         |               |       |                                                                                            |         |
-|         |               |       |                                                                                            |         |
-|         |               |       |                                                                                            |         |
-|         |               |       |                                                                                            |         |
+| Phoneme | Vowel Quality | Sound | Examples                                                                                   | Merge              |
+| ------- | ------------- | ----- | ------------------------------------------------------------------------------------------ | ------------------ |
+| **/i/** | tense         |       | b**ee**t, m**e**, fl**ee**ce, happ**y**, **ea**t                                           |                    |
+| **/ɪ/** | lax           |       | b**i**t, f**i**ll, k**i**t, m**i**rror, n**e**ar, **i**t                                   |                    |
+| **/ɛ/** | lax           |       | b**e**t, m**e**d, dr**e**ss, c**a**rry, ch**e**rry, sq**ua**re                             | **/e/**            |
+| **/æ/** | lax           |       | b**a**t, m**a**d, tr**a**p, b**a**th                                                       |                    |
+| **/ɑ/** | lax           |       | p**o**t, f**a**ther, p**a**lm, st**a**rt, l**o**t, s**o**rry,<br>h**o**t, n**o**t, b**o**x | **/ɔ/**            |
+| **/ɔ/** | lax, rounded  | aw    | d**o**g, l**aw**, th**ou**ght, cl**o**th, north, force, forest                             |                    |
+| **/ə/** | lax, neutral  | uh    | **a**bout, sof**a**, moth**e**r, b**u**t, r**u**n, str**u**t                               | **/ʌ/** (stressed) |
+| **/u/** | tense         |       | b**oo**t, y**ou**, g**oo**se                                                               |                    |
+| **/ʊ/** | lax           |       | b**oo**k, p**u**t, f**oo**t, c**u**re                                                      |                    |
+|         |               |       |                                                                                            |                    |
+|         |               |       |                                                                                            |                    |
+|         |               |       |                                                                                            |                    |
+|         |               |       |                                                                                            |                    |
 
 > [!important] Caught-Cot Merger --> "ah" sound is close to "uh" sound
 
