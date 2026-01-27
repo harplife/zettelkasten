@@ -47,30 +47,30 @@ Consonant phonemes in [General American](https://en.wikipedia.org/wiki/General_A
 > [!important] Phonemic vs. Phonetic
 > The `/ /` represents **phonemic**, the abstract representation of sound. The `[ ]` represents **phonetic**, the actual produced/observed sound.
 
-| Phoneme            | Voiced/Voiceless | Example                                         |
-| ------------------ | ---------------- | ----------------------------------------------- |
-| /b/                | voiced           | **b**at, ro**b**                                |
-| /p/                | voiceless        | **p**en, to**p**                                |
-| /d/                | voiced           | **d**og, la**dd**er                             |
-| /t/                | voiceless        | **t**en, be**t**                                |
-| /g/                | voiced           | **g**et, do**g**                                |
-| /k/                | voiceless        | **c**at, **k**ing, bac**k**                     |
-| /v/                | voiced           | **v**an, ha**ve**                               |
-| /f/                | voiceless        | **f**an, pu**ff**                               |
-| /z/                | voiced           | **z**oo, ro**se**                               |
-| /s/                | voiceless        | **s**it, pa**ss**                               |
-| /ʒ/ (zh)           | voiced           | plea**s**ure, gara**g**e, vi**si**on            |
-| /ʃ/ (sh)           | voiceless        | **sh**ip, di**sh**                              |
-| /d͡ʒ/ (j)          | voiced           | job, giant, magic, age, badge, soldier, jealous |
-| /t͡ʃ/ (ch)         | voiceless        | choice, chew, watch                             |
-| /ð/ (soft th)      | voiced           | **th**is, **th**en, mo**th**er                  |
-| /θ/ (hissy th)     | voiceless        | **th**in, **th**ink, ba**th**, bir**th**day     |
-| /h/                | voiceless        | **h**at, **wh**o                                |
-| /m/                | voiced           | **m**ap, ha**mm**er                             |
-| /n/                | voiced           | **n**et, su**nn**y                              |
-| /ŋ/ (ng)           | voiced           | si**ng**er, ba**ng**                            |
-| /l/                | voiced           | **l**ight, fi**ll**                             |
-| /ɹ/ (r but no tap) | voiced           | **r**un, ca**r**                                |
+| Phoneme                | Voiced/Voiceless | Example                                         |
+| ---------------------- | ---------------- | ----------------------------------------------- |
+| **/b/**                | voiced           | **b**at, ro**b**                                |
+| **/p/**                | voiceless        | **p**en, to**p**                                |
+| **/d/**                | voiced           | **d**og, la**dd**er                             |
+| **/t/**                | voiceless        | **t**en, be**t**                                |
+| **/g/**                | voiced           | **g**et, do**g**                                |
+| **/k/**                | voiceless        | **c**at, **k**ing, bac**k**                     |
+| **/v/**                | voiced           | **v**an, ha**ve**                               |
+| **/f/**                | voiceless        | **f**an, pu**ff**                               |
+| **/z/**                | voiced           | **z**oo, ro**se**                               |
+| **/s/**                | voiceless        | **s**it, pa**ss**                               |
+| **/ʒ/** (zh)           | voiced           | plea**s**ure, gara**g**e, vi**si**on            |
+| **/ʃ/** (sh)           | voiceless        | **sh**ip, di**sh**                              |
+| **/d͡ʒ/** (j)          | voiced           | job, giant, magic, age, badge, soldier, jealous |
+| **/t͡ʃ/** (ch)         | voiceless        | choice, chew, watch                             |
+| **/ð/** (soft th)      | voiced           | **th**is, **th**en, mo**th**er                  |
+| **/θ/** (hissy th)     | voiceless        | **th**in, **th**ink, ba**th**, bir**th**day     |
+| **/h/**                | voiceless        | **h**at, **wh**o                                |
+| **/m/**                | voiced           | **m**ap, ha**mm**er                             |
+| **/n/**                | voiced           | **n**et, su**nn**y                              |
+| **/ŋ/** (ng)           | voiced           | si**ng**er, ba**ng**                            |
+| **/l/**                | voiced           | **l**ight, fi**ll**                             |
+| **/ɹ/** (r but no tap) | voiced           | **r**un, ca**r**                                |
 
 
 
