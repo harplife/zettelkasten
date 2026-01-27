@@ -77,36 +77,34 @@ Examples of GA consonants :
 
 
 Examples of GA vowels :
-- : 
-- : 
--  (): 
--  (): 
--  (): 
--  (): 
-- /ʌ/ (short U): b**u**t, r**u**n
-- /u/ (long U): b**oo**t, y**ou**
-- /ʊ/ (short OO): b**oo**k, p**u**t
-- /oʊ/ (long O): b**oa**t, n**o**
+-  (lax): 
+- /oʊ/ (tense): b**oa**t, n**o**
 - /ɔ/ (open O): d**o**g, l**aw**
 - /aɪ/ (long I): b**i**te, m**y**
-- /aʊ/ (ou): b**ou**ght, n**o**w
+- /aʊ/ (ou, tense): b**ou**ght, n**o**w
 - /ɔɪ/ (oy): b**oy** , v**oi**ce
 - /ɝ/ (r-colored): b**ir**d, p**ur**ple
 - /ɚ/ (unstressed r): broth**er** 
 
-Long vs. short -> vowel quality (not duration) -> same as lax vs. tense
-
 | Phoneme  | Vowel Quality | Examples                                                                                   | Merge   |
 | -------- | ------------- | ------------------------------------------------------------------------------------------ | ------- |
-| **/i/**  | long          | b**ee**t, m**e**, fl**ee**ce, happ**y**, **ea**t                                           |         |
-| **/ɪ/**  | short         | b**i**t, f**i**ll, k**i**t, m**i**rror, n**e**ar, **i**t                                   |         |
-| **/eɪ/** | long          | b**ai**t, d**ay**, f**a**ce                                                                |         |
-| **/ɛ/**  | short         | b**e**t, m**e**d, dr**e**ss, c**a**rry, ch**e**rry, sq**ua**re                             | **/e/** |
-| **/æ/**  | short         | b**a**t, m**a**d, tr**a**p, b**a**th                                                       |         |
-| **/ɑ/**  | open          | p**o**t, f**a**ther, p**a**lm, st**a**rt, l**o**t, s**o**rry,<br>h**o**t, n**o**t, b**o**x | **/ɔ/** |
-| /ə/      | schwa         | **a**bout, sof**a**, moth**e**r                                                            |         |
+| **/i/**  | tense         | b**ee**t, m**e**, fl**ee**ce, happ**y**, **ea**t                                           |         |
+| **/ɪ/**  | lax           | b**i**t, f**i**ll, k**i**t, m**i**rror, n**e**ar, **i**t                                   |         |
+| **/eɪ/** | tense         | b**ai**t, d**ay**, f**a**ce                                                                |         |
+| **/ɛ/**  | lax           | b**e**t, m**e**d, dr**e**ss, c**a**rry, ch**e**rry, sq**ua**re                             | **/e/** |
+| **/æ/**  | lax           | b**a**t, m**a**d, tr**a**p, b**a**th                                                       |         |
+| **/ɑ/**  | lax           | p**o**t, f**a**ther, p**a**lm, st**a**rt, l**o**t, s**o**rry,<br>h**o**t, n**o**t, b**o**x | **/ɔ/** |
+| **/ə/**  | lax           | **a**bout, sof**a**, moth**e**r, b**u**t, r**u**n, str**u**t                               | **/ʌ/** |
+| /u/      | tense         | b**oo**t, y**ou**, g**oo**se                                                               |         |
+| /ʊ/      | lax           | b**oo**k, p**u**t, f**oo**t, c**u**re                                                      |         |
 |          |               |                                                                                            |         |
 |          |               |                                                                                            |         |
+|          |               |                                                                                            |         |
+|          |               |                                                                                            |         |
+
+![[Pasted image 20260126185235.png | center | 500]]
+
+tense vs. lax : tense vowels are produced with greater muscular effort, longer duration, and more peripheral tongue positioning. Conversely, lax vowels are produced with less muscular effort, shorter duration, and a more centralized tongue position. Tense vowels often appear in open syllables, whereas lax vowels are restricted to closed syllables.
 
 > [!important] The difference between **/e/** and **/ɛ/**
 > **/e/** is a close-mid front unrounded vowel, and in GA, it is only used as first part of the diphthong **/eɪ/** glide. Although it sounds similar to **/ɛ/** (open-mid front unrounded vowel), jaw is more closed and tongue is closer to the roof of the mouth - using **/e/** instead of **/ɛ/** in words like "bed" (**/bɛd/**) can make the word sound closer to "bid" (**/bɪd/**).
