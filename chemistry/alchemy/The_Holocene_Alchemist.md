@@ -107,7 +107,7 @@ Diphthongs
 | **/oʊ/** | b**oa**t, n**o**, g**o**, h**o**me, cl**o**ne, dr**o**ne                 | **/əʊ/**, **/o/**, **/ow/** |
 | **/aɪ/** | b**i**te, m**y**                                                         |                             |
 | **/aʊ/** | n**ow**, m**ou**th, h**ou**se, t**ow**n, ab**ou**t, s**ou**nd, p**ow**er |                             |
-| /ɔɪ/     | b**oy** , v**oi**ce                                                      |                             |
+| /ɔɪ/     | b**oy** , v**oi**ce, n**oi**se, ch**oi**ce, enj**oy**                    | /oɪ/                        |
 |          |                                                                          |                             |
 
 
