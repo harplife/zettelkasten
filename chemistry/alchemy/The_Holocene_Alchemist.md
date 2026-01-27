@@ -101,7 +101,7 @@ Long vs. short -> vowel quality (not duration) -> same as lax vs. tense
 | **/i/**  | long E     | b**ee**t, m**e**, fl**ee**ce, happ**y**, **ea**t               |         |
 | **/ɪ/**  | short I    | b**i**t, f**i**ll, k**i**t, m**i**rror, n**e**ar, **i**t       |         |
 | **/eɪ/** | long A     | b**ai**t, d**ay**, f**a**ce                                    |         |
-| **/ɛ/**  | short E    | b**e**t, m**e**d, dr**e**ss, c**a**rry, ch**e**rry, sq**ua**re |         |
+| **/ɛ/**  | short E    | b**e**t, m**e**d, dr**e**ss, c**a**rry, ch**e**rry, sq**ua**re | **/e/** |
 | **/æ/**  | short A    | b**a**t, m**a**d, tr**a**p, b**a**th                           |         |
 | **/ɑ/**  | open O     | p**o**t, f**a**ther, p**a**lm, st**a**rt, l**o**t, s**o**rry   | **/ɔ/** |
 | /ə/      | schwa      | **a**bout, sof**a**, moth**e**r                                |         |
