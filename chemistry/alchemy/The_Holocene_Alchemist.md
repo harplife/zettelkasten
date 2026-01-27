@@ -68,13 +68,13 @@ Examples of GA consonants :
 /r/ (ɹ): **r**un, ca**r**
 
 
-| Manner         | Lenis | Example | Fortis | Example |
-| -------------- | ----- | ------- | ------ | ------- |
-| Nasal          |       |         |        |         |
-| Stop (Plosive) |       |         |        |         |
-| Affricate      |       |         |        |         |
-| Fricative      |       |         |        |         |
-| Approximant    |       |         |        |         |
+| Manner         | Voiced | Example | Voiceless | Example |
+| -------------- | ------ | ------- | --------- | ------- |
+| Nasal          |        |         |           |         |
+| Stop (Plosive) |        |         |           |         |
+| Affricate      |        |         |           |         |
+| Fricative      |        |         |           |         |
+| Approximant    |        |         |           |         |
 
 
 
@@ -87,10 +87,7 @@ Examples of GA consonants :
 > This is because **/r/** is a voiced alveolar trill (Spanish sounding), whereas **/ɹ/** is voiced alveolar approximant (English sounding). In American English, the sound is often further back in the mouth, technically a voiced post-alveolar approximant **/ɹ̠/**.
 
 
-Examples of GA vowels :
--  (oy): 
-- /ɝ/ (r-colored): b**ir**d, p**ur**ple
-- /ɚ/ (unstressed r): broth**er** 
+
 
 | Phoneme | Vowel Quality | Sound       | Examples                                                                                   | Merge              |
 | ------- | ------------- | ----------- | ------------------------------------------------------------------------------------------ | ------------------ |
@@ -118,7 +115,7 @@ Diphthongs
 
 
 ![[Pasted image 20260126185235.png | center | 500]]
-> Distinctive features of vowels : **Height** (low-mid-high), **Frontness** (back-central-front), [Tenseness](https://en.wikipedia.org/wiki/Tenseness) (tense-lax), **Roundedness** (rounded-unrounded)
+> Distinctive features of vowels : [Height](https://en.wikipedia.org/wiki/Vowel#Height) (low-mid-high), [Backness](https://en.wikipedia.org/wiki/Vowel#Backness) (back-central-front), [Tenseness](https://en.wikipedia.org/wiki/Tenseness) (tense-lax), [Roundedness](https://en.wikipedia.org/wiki/Roundedness) (rounded-unrounded)
 
 tense vs. lax : tense vowels are produced with greater muscular effort, longer duration, and more peripheral tongue positioning. Conversely, lax vowels are produced with less muscular effort, shorter duration, and a more centralized tongue position. Tense vowels often appear in open syllables, whereas lax vowels are restricted to closed syllables.
 
@@ -135,6 +132,10 @@ tense vs. lax : tense vowels are produced with greater muscular effort, longer d
 > - **Wine–Whine Merger (/w/–/hw/):** The voiceless labial-velar fricative /hw/ has merged with the voiced /w/ for the vast majority of American speakers, making "wine" and "whine" homophones.
 > - **Southern /l/ Mergers** : Feel–Fill (/i/–/ɪ/), Fail–Fell (/eɪ/–/ɛ/)
 
+> [!warning] As a personal preference, I'll use postvocalic **/r/** instead of rhotic vowels.
+> Examples of [rhotic (r-colored) vowels](https://en.wikipedia.org/wiki/Vowel#Backness) :
+> - **/ɝ/** (r-colored): b**ir**d, p**ur**ple
+> - **/ɚ/** (unstressed r): broth**er**
 
 
 
@@ -145,8 +146,8 @@ tense vs. lax : tense vowels are produced with greater muscular effort, longer d
 Consonants are defined by two "large" parameters and one "small" parameter.
 
 Large parameters (there are many possible combinations of both) :
-- manner of articulation
-- place of articulation
+- [manner of articulation](https://en.wikipedia.org/wiki/Manner_of_articulation)
+- [place of articulation](https://en.wikipedia.org/wiki/Place_of_articulation)
 
  Small parameter (it takes only two possible values) :
  - voiced/voiceless
