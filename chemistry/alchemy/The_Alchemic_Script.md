@@ -6,7 +6,7 @@
 > - Use notations that look aesthetically fitting
 > - Write vertically if possible
 > 
-> I do feel somewhat limited by this script, in a sense that giving it anymore visual functionality is an overkill. I need to pick up 
+> I do feel somewhat limited by this script, in a sense that giving it anymore visual functionality is an overkill. I need to pick up a conscript specifically for English, so that I can write it in convenince.
 
 #todo consider learning  (by Jakub Marian).
 
