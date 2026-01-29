@@ -16,9 +16,10 @@ Symbols for elements in the periodic table :
 - See [Alchemical Symbols](https://en.wikipedia.org/wiki/Alchemical_symbol)
 
 
+---
+$\frac{(w+9k)(w+k)}{w(w+k)}$ = $\frac{w+9k}{w}$
 
 
-### Alchemic Language
 
 
 ### ideas for designing alchemic symbols

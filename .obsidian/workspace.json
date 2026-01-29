@@ -113,7 +113,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -191,13 +191,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "chemistry/alchemy/The_Alchemic_Script.md",
+                "file": "chemistry/alchemy/The_Holocene_Alchemist.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of The_Alchemic_Script"
+              "title": "Outline of The_Holocene_Alchemist"
             }
           }
         ]
@@ -328,7 +328,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "chemistry/alchemy/The_Alchemic_Script.md",
+                "file": "chemistry/alchemy/The_Holocene_Alchemist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -338,7 +338,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for The_Alchemic_Script"
+              "title": "Backlinks for The_Holocene_Alchemist"
             }
           }
         ],
@@ -364,10 +364,11 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "d41929df1cce8d83",
+  "active": "ee0c5b9a3c529700",
   "lastOpenFiles": [
-    "chemistry/alchemy/The_Holocene_Alchemist.md",
     "chemistry/alchemy/The_Alchemic_Script.md",
+    "chemistry/Periodic_Table.md",
+    "chemistry/alchemy/The_Holocene_Alchemist.md",
     "attachments/Pasted image 20260126185235.png",
     "attachments/Pasted image 20260125224252.png",
     "chemistry/alchemy/Alchemy.md",
@@ -379,7 +380,6 @@
     "attachments/Pasted image 20260125175130.png",
     "attachments/Pasted image 20260125174549.png",
     "attachments/udhr_upa.gif",
-    "chemistry/Periodic_Table.md",
     "attachments/Periodic_table_large.svg",
     "attachments/Alchemical Periodic Table Symbols.pdf",
     "chemistry/Periodic_Table_and_The_Origins.md",

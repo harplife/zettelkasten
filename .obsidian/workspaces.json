@@ -1871,7 +1871,7 @@
                 }
               }
             ],
-            "currentTab": 5
+            "currentTab": 4
           }
         ],
         "direction": "vertical"
@@ -1949,13 +1949,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "chemistry/alchemy/The_Alchemic_Script.md",
+                    "file": "chemistry/alchemy/The_Holocene_Alchemist.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of The_Alchemic_Script"
+                  "title": "Outline of The_Holocene_Alchemist"
                 }
               }
             ]
@@ -2086,7 +2086,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "chemistry/alchemy/The_Alchemic_Script.md",
+                    "file": "chemistry/alchemy/The_Holocene_Alchemist.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -2096,7 +2096,7 @@
                     "unlinkedCollapsed": false
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for The_Alchemic_Script"
+                  "title": "Backlinks for The_Holocene_Alchemist"
                 }
               }
             ],
@@ -2122,8 +2122,8 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "d41929df1cce8d83",
-      "mtime": "2026-01-27T22:02:16-06:00",
+      "active": "ee0c5b9a3c529700",
+      "mtime": "2026-01-28T19:14:24-06:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "chemistry",
