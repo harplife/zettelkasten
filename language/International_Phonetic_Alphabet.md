@@ -32,3 +32,13 @@ IPA consists of :
 - 107 letters representing consonants and vowels
 - 31 [diacritics](https://en.wikipedia.org/wiki/Diacritic)
 - 17 additional signs to indicate suprasegmental qualities, such as length, tone, stress, and intonation
+
+
+## Official IPA Chart
+
+![[IPA_chart_2020.svg]]
+> Official IPA Chart Year 2020 ([Source](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet_chart))
+
+
+### Interactive IPA Chart
+

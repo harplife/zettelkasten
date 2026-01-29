@@ -181,16 +181,11 @@ Know the difference between long vowels and short vowels. Common vowels in Engli
 Note that vowel length is not phonemic in General American, and therefore vowels such as /i/ are customarily transcribed without the length mark /ː/.
 
 ![[Pasted image 20260125181318.png | center | 500]]
-> See also [IPA vowel chart with audio](https://en.wikipedia.org/wiki/IPA_vowel_chart_with_audio)
+
+
 
 
 #### Full IPA chart
 
 Wiki has [Help:IPA/English](https://en.wikipedia.org/wiki/Help:IPA/English) page that shows a table of English consonants/vowels matched with IPA.
-
-
-#todo move the full IPA chart to more appropriate note.
-
-![[IPA_chart_2020.svg]]
-> ([source](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet_chart))
 
