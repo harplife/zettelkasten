@@ -17,8 +17,14 @@ Symbols for elements in the periodic table :
 
 
 ---
-model-dependent realism
-whorfianism/whorf-sapir hypothesis or Linguistic Relativity
+[model-dependent realism](https://en.wikipedia.org/wiki/Model-dependent_realism) : earlier in Stephen Hawking's life, he was optimistic about the Theory of Life. He believed there is a universal theory that can explain everything and bridge the gap between the Newtonian Physics and the Quantum Theory. However, later in his life, he stated that the theory of everything may not exist (or we simply can't find it) because we (humans) can only model the perceived reality; therefore, the closest we can get to the theory of everything is a network of models based on observed/perceived reality.
+
+whorfianism/whorf-sapir hypothesis or [Linguistic Relativity](https://en.wikipedia.org/wiki/Linguistic_relativity)
+- Broaden perception by learning words that are not available in American English
+	- https://www.berlitz.com/blog/words-emotions-dont-exist-english
+	- https://www.upworthy.com/emotions-that-dont-exist-in-english
+	- https://www.bbc.com/future/article/20170126-the-untranslatable-emotions-you-never-knew-you-had
+- 
 
 
 
