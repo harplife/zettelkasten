@@ -18,7 +18,7 @@ Symbols for elements in the periodic table :
 
 ---
 
-
+$\frac{(x-6)(x-2)}{(x-4)(x-2)}$ = $\frac{x-6}{x-4}$
 
 
 
