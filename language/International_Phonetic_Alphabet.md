@@ -14,11 +14,10 @@
 
 #definition [The International Phonetic Alphabet](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet) (IPA) :  an alphabetic system of phonetic notation based primarily on the Latin script.
 
-
 ![[IPA_in_IPA.svg | center | 500]]
 > "IPA", transcribed according to received pronunciation as \[aɪ̯ pʰiː eɪ̯\].
 
-
+---
 The IPA is designed to represent the qualities of speech that are part of lexical sounds in spoken (oral) language. Those qualities are :
 - Phones
 - Intonation
@@ -41,4 +40,9 @@ IPA consists of :
 
 
 ### Interactive IPA Chart
+
+https://www.ipachart.com/
+
+
+## Basic Overview
 
