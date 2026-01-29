@@ -17,7 +17,7 @@ Symbols for elements in the periodic table :
 
 
 ---
-$\frac{(w+9k)(w+k)}{w(w+k)}$ = $\frac{w+9k}{w}$
+$\frac{(x-3)(\sqrt{ 5x+21 }+6)}{(\sqrt{ 5x+21 }-6)(\sqrt{ 5x+21 }+6)}$ = $\frac{\sqrt{ 5x+21 }+6}{5}$
 
 
 
