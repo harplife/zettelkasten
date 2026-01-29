@@ -17,6 +17,8 @@ Symbols for elements in the periodic table :
 
 
 ---
+#todo make a separate note about "design thinking".
+
 [model-dependent realism](https://en.wikipedia.org/wiki/Model-dependent_realism) : earlier in Stephen Hawking's life, he was optimistic about the Theory of Life. He believed there is a universal theory that can explain everything and bridge the gap between the Newtonian Physics and the Quantum Theory. However, later in his life, he stated that the theory of everything may not exist (or we simply can't find it) because we (humans) can only model the perceived reality; therefore, the closest we can get to the theory of everything is a network of models based on observed/perceived reality.
 
 whorfianism/whorf-sapir hypothesis or [Linguistic Relativity](https://en.wikipedia.org/wiki/Linguistic_relativity)
