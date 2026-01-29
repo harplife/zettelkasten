@@ -17,7 +17,8 @@ Symbols for elements in the periodic table :
 
 
 ---
-
+model-dependent realism
+whorfianism/whorf-sapir hypothesis or Linguistic Relativity
 
 
 
