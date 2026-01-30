@@ -85,3 +85,8 @@ All the variations of the places of articulations are then :
 
 In the table above, I use the term "against" but it doesn't necessarily mean the articulators (organs) have to touch each other. A consonant can be produced by getting the articulators just near each other (without touching), in which case, the consonant is called an [Approximant](https://en.wikipedia.org/wiki/Approximant).
 
+![[Pasted image 20260129231817.png]]
+
+There is a distinction between active (moving part) and passive (static part) articulators, but I'll pass on the detail for now.
+
+---
