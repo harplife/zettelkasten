@@ -62,8 +62,26 @@ The places of articulation are largely divided into four major parts :
 - [Labial](https://en.wikipedia.org/wiki/Labial_consonant) (lips)
 - [Coronal](https://en.wikipedia.org/wiki/Coronal_consonant) (front part of the tongue)
 - [Dorsal](https://en.wikipedia.org/wiki/Dorsal_consonant) (back part of the tongue)
-- [Laryngeal](https://en.wikipedia.org/wiki/Laryngeal_consonant) ()
+- [Laryngeal](https://en.wikipedia.org/wiki/Laryngeal_consonant) (throat)
 
-Labial (lips) :
-- Bilabial
-- Labio-
+It is possible that a consonant is produced by using two simultaneous places of articulation, in which case, it is called a [Co-articulated Consonant](https://en.wikipedia.org/wiki/Co-articulated_consonant).
+
+All the variations of the places of articulations are then :
+
+| Place of Articulation | Sound produced by using ..                                                  |
+| --------------------- | --------------------------------------------------------------------------- |
+| Bilabial              | Both lips                                                                   |
+| Labio-dental          | Lower lip + upper teeth                                                     |
+| Linguo-labial         | Tongue tip against upper lip                                                |
+| Dental                | Tongue tip against upper teeth                                              |
+| Alveolar              | Tongue tip against the superior alveolar ridge                              |
+| Post-alveolar         | Tongue tip against back of the alveolar ridge                               |
+| Retro-flex            | Tongue tip curled up against between the alveolar ridge and the hard palate |
+| Palatal               | Tongue body against the hard palate                                         |
+| Velar                 | Tongue body against the soft palate                                         |
+| Uvular                | Tongue body against the uvula                                               |
+| Pharyngeal/epiglottal | Tongue root against mid/upper pharynx                                       |
+| Glottal               | Glottis                                                                     |
+
+In the table above, I use the term "against" but it doesn't necessarily mean the articulators (organs) have to touch each other. A consonant can be produced by getting the articulators just near each other (without touching), in which case, the consonant is called an [Approximant](https://en.wikipedia.org/wiki/Approximant).
+
