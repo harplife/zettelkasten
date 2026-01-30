@@ -50,7 +50,14 @@ https://www.ipachart.com/
 
 #definition A **Syllable** is a basic unit of organization within a sequence of speech sounds (e.g. a word).
 
+The general structure of a syllable consists of two components :
+- Onset
+- Rhyme
 
+> [!warning] The structure of syllable is not "defined" in any sort of way. Different languages tend to have their own structure of a syllable.
+> Most languages do often share the common structure of *onset* and *rhyme* though.
+
+The two components of a syllable is usually separated by the *first vowel*. The onset describes the sound that comes before that vowel, and the rhyme describes the vowel sound and the sound that follows.
 
 ### General American English
 
