@@ -19,9 +19,9 @@
 
 ---
 The IPA is designed to represent the qualities of speech that are part of lexical sounds in spoken (oral) language. Those qualities are :
-- Phones
-- Intonation
-- The separation of syllables
+- **Phones**
+- **Intonation**
+- **The separation of syllables**
 
 The general principle of the IPA is to provide one letter for each distinctive sound (phoneme). This means that :
 - It does not use combinations of letters to represent single sounds (e.g. "sh", "ea"), nor single letters to represent multiple sounds (e.g. "x").
@@ -45,6 +45,18 @@ https://www.ipachart.com/
 
 
 ## Basic Overview
+
+### General American English
+
+#definition **General American English** (GA or GenAM) is the umbrella accent of American English used by a majority of Americans, encompassing a continuum rather than a single unified accent. Basically, it is an accent of American English that lacks any distinctly regional, ethnic, or socioeconomic characteristics - which is used as a convenient basis for comparison.
+
+We'll focus mainly on GA so that it keeps things simple - it will limit the amount of IPA letters we'd have to learn initially, and it will serve as a foundation for learning IPA letters meaningful for other languages.
+
+Regardless of language, the speech sound is divided into two main categories :
+- Consonant
+- Vowel
+
+
 
 ### Consonants
 
