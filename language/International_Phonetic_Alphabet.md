@@ -46,3 +46,11 @@ https://www.ipachart.com/
 
 ## Basic Overview
 
+### Consonants
+
+IPA categorizes consonants based on three primary, articulatory features :
+- [Place of articulation](https://en.wikipedia.org/wiki/Place_of_articulation) : where the constriction occurs
+- [Manner of articulation](https://en.wikipedia.org/wiki/Manner_of_articulation) : how the airflow is restricted
+- [Voicing](<https://en.wikipedia.org/wiki/Voice_(phonetics)>) : whether the vocal cords vibrate
+
+These features are arranged in a chart to organize consonants, primarily focusing on pulmonic airstream mechanisms, with separate categories for non-pulmonic sounds.
