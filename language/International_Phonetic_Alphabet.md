@@ -125,15 +125,16 @@ Key manners of articulation include :
 #definition **Glide** (Semi-Vowel or Semi-Consonant) is a sound produced with little to no friction in vocal tract, acting as a transition to or from a vowel.
 
 The main consonant glides in English are :
-- **/j/** ([voiced palatal approximant](https://en.wikipedia.org/wiki/Voiced_palatal_approximant), like the 'y' in "yes")
-- **/w/** ([voiced labial-velar approximant](https://en.wikipedia.org/wiki/Voiced_labial–velar_approximant), like the 'w' in "wet").
+- **/j/** ([voiced palatal approximant](https://en.wikipedia.org/wiki/Voiced_palatal_approximant), like the 'y' in "yes" and "you")
+- **/w/** ([voiced labial-velar approximant](https://en.wikipedia.org/wiki/Voiced_labial–velar_approximant), like the 'w' in "wet" and "win")
 
-Diphthongs are "gliding vowels" formed by combining two adjacent vowel sounds within a single syllable, where the tongue moves from one position to another. Common English diphthongs are :
-- **/aɪ/** (sky, pie, eye)
-- **/aʊ/** : "house," "cow," "out"
-- **/eɪ/** : "day," "rain," "ate"
-- **/oʊ/** : "boat," "know," "show"
-- **/ɔɪ/** : "boy," "toy," "coin"
-- **/eə/** : "hair," "bear"
-- **/ɪə/** : "near," "fear"
-- **/ʊə/** : "tour," "cure"
+#definition **Diphthongs** are "gliding vowels" formed by combining two adjacent vowel sounds within a single syllable, where the tongue moves from one position to another. Common English diphthongs are :
+- **/aɪ/** ("sky", "pie", "eye")
+- **/aʊ/** ("house," "cow," "out")
+- **/eɪ/** ("day," "rain," "ate")
+- **/oʊ/** ("boat," "know," "show")
+- **/ɔɪ/** ("boy," "toy," "coin")
+- **/eə/** ("hair," "bear")
+- **/ɪə/** ("near," "fear")
+- **/ʊə/** ("tour," "cure")
+
