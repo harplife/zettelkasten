@@ -53,4 +53,7 @@ IPA categorizes consonants based on three primary, articulatory features :
 - [Manner of articulation](https://en.wikipedia.org/wiki/Manner_of_articulation) : how the airflow is restricted
 - [Voicing](<https://en.wikipedia.org/wiki/Voice_(phonetics)>) : whether the vocal cords vibrate
 
-These features are arranged in a chart to organize consonants, primarily focusing on pulmonic airstream mechanisms, with separate categories for non-pulmonic sounds.
+These features are arranged in a chart to organize consonants, primarily focusing on pulmonic sounds.
+- #definition [Pulmonic Egressive Sounds](https://en.wikipedia.org/wiki/Egressive_sound#Pulmonic_egressive) : Sounds produced through the mouth (or nose) using the air stream created by the lungs, ribs, and diaphragm.
+	- The majority of sounds in most languages are pulmonic egressive sounds.
+
