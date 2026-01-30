@@ -46,22 +46,30 @@ https://www.ipachart.com/
 
 ## Basic Overview
 
+### Syllable
+
+#definition A **Syllable** is a basic unit of organization within a sequence of speech sounds (e.g. a word).
+
+
+
 ### General American English
 
 #definition **General American English** (GA or GenAM) is the umbrella accent of American English used by a majority of Americans, encompassing a continuum rather than a single unified accent. Basically, it is an accent of American English that lacks any distinctly regional, ethnic, or socioeconomic characteristics - which is used as a convenient basis for comparison.
 
 We'll focus mainly on GA so that it keeps things simple - it will limit the amount of IPA letters we'd have to learn initially, and it will serve as a foundation for learning IPA letters meaningful for other languages.
 
-Regardless of language, the speech sound is divided into two main categories :
-- Consonant
-- Vowel
+Regardless of language, the speech sound is divided into two principal classes :
+- [Consonant](https://en.wikipedia.org/wiki/Consonant)
+- [Vowel](https://en.wikipedia.org/wiki/Vowel)
 
+---
+The majority of sounds in most languages are *pulmonic egressive sounds* - which is our main focus. From here on, when I mention consonants/vowels, I'm referring to pulmonic consonants/vowels.
+- #definition [Pulmonic Egressive Sounds](https://en.wikipedia.org/wiki/Egressive_sound#Pulmonic_egressive) : Sounds produced through the mouth (or nose) using the air stream created by the lungs, ribs, and diaphragm.
 
 
 ### Consonants
 
-The majority of sounds in most languages are *pulmonic egressive sounds* - which is our main focus. From here on, when I mention consonants/vowels, I'm referring to pulmonic consonants/vowels.
-- #definition [Pulmonic Egressive Sounds](https://en.wikipedia.org/wiki/Egressive_sound#Pulmonic_egressive) : Sounds produced through the mouth (or nose) using the air stream created by the lungs, ribs, and diaphragm.
+#definition A **Consonant** is a speech sound that is articulated with complete or partial closure of the vocal tract.
 
 IPA categorizes consonants based on three primary, articulatory features :
 - [Place of articulation](https://en.wikipedia.org/wiki/Place_of_articulation)
@@ -127,7 +135,9 @@ Key manners of articulation include :
 
 ### Vowels
 
-
+#definition A Vowel is a speech sound produced with an open vocal tract, allowing air to flow freely without significant restriction from the articulators.
+- All vowel sounds are voiced.
+- 
 
 
 ### Other IPA features
