@@ -49,16 +49,25 @@ https://www.ipachart.com/
 ### Consonants
 
 IPA categorizes consonants based on three primary, articulatory features :
-- [Place of articulation](https://en.wikipedia.org/wiki/Place_of_articulation) : where the constriction occurs
-- [Manner of articulation](https://en.wikipedia.org/wiki/Manner_of_articulation) : how the airflow is restricted
-- [Voicing](<https://en.wikipedia.org/wiki/Voice_(phonetics)>) : whether the vocal cords vibrate
+- [Place of articulation](https://en.wikipedia.org/wiki/Place_of_articulation)
+- [Manner of articulation](https://en.wikipedia.org/wiki/Manner_of_articulation)
+- [Voicing](<https://en.wikipedia.org/wiki/Voice_(phonetics)>)
 
 These features are arranged in a chart to organize consonants, primarily focusing on pulmonic sounds.
 - #definition [Pulmonic Egressive Sounds](https://en.wikipedia.org/wiki/Egressive_sound#Pulmonic_egressive) : Sounds produced through the mouth (or nose) using the air stream created by the lungs, ribs, and diaphragm.
 	- The majority of sounds in most languages are pulmonic egressive sounds.
 
 ---
-The places of articulation are largely divided into four major parts :
+**Voicing** refers to a classification of speech sounds that tend to be associated with vocal cord vibration but may not actually be voiced at the articulatory level. In other words, speech sounds can be described as either "voiced" or "voiceless (unvoiced)".
+
+It's easier to understand with an example. When we make sound associated with the English letter "s", our vocal cord does not vibrate while "s" is pronounced. However, our vocal cord does vibrate when we pronounce "z".
+
+There are other letter pairs that are voiced/voiceless, such as p/b, t/d, f/v, and more. Note that the letters in a pair are pronounced in the same way (place and manner), which we'll find out more about below.
+
+---
+**The Place of Articulation** is the approximate location in the vocal tract (e.g. lips, teeth, or palate) where the air stream is constricted/blocked to produce a consonant sound.
+
+They are largely divided into four major parts :
 - [Labial](https://en.wikipedia.org/wiki/Labial_consonant) (lips)
 - [Coronal](https://en.wikipedia.org/wiki/Coronal_consonant) (front part of the tongue)
 - [Dorsal](https://en.wikipedia.org/wiki/Dorsal_consonant) (back part of the tongue)
@@ -68,20 +77,20 @@ It is possible that a consonant is produced by using two simultaneous places of 
 
 All the variations of the places of articulations are then :
 
-| Place of Articulation | Sound produced by using ..                                                  |
-| --------------------- | --------------------------------------------------------------------------- |
-| Bilabial              | Both lips                                                                   |
-| Labio-dental          | Lower lip + upper teeth                                                     |
-| Linguo-labial         | Tongue tip against upper lip                                                |
-| Dental                | Tongue tip against upper teeth                                              |
-| Alveolar              | Tongue tip against the superior alveolar ridge                              |
-| Post-alveolar         | Tongue tip against back of the alveolar ridge                               |
-| Retro-flex            | Tongue tip curled up against between the alveolar ridge and the hard palate |
-| Palatal               | Tongue body against the hard palate                                         |
-| Velar                 | Tongue body against the soft palate                                         |
-| Uvular                | Tongue body against the uvula                                               |
-| Pharyngeal/epiglottal | Tongue root against mid/upper pharynx                                       |
-| Glottal               | Glottis                                                                     |
+| Place of Articulation     | Articulators                                                                |
+| ------------------------- | --------------------------------------------------------------------------- |
+| **Bilabial**              | Both lips                                                                   |
+| **Labio-dental**          | Lower lip + upper teeth                                                     |
+| **Linguo-labial**         | Tongue tip against upper lip                                                |
+| **Dental**                | Tongue tip against upper teeth                                              |
+| **Alveolar**              | Tongue tip against the superior alveolar ridge                              |
+| **Post-alveolar**         | Tongue tip against back of the alveolar ridge                               |
+| **Retro-flex**            | Tongue tip curled up against between the alveolar ridge and the hard palate |
+| **Palatal**               | Tongue body against the hard palate                                         |
+| **Velar**                 | Tongue body against the soft palate                                         |
+| **Uvular**                | Tongue body against the uvula                                               |
+| **Pharyngeal/epiglottal** | Tongue root against mid/upper pharynx                                       |
+| **Glottal**               | Glottis                                                                     |
 
 In the table above, I use the term "against" but it doesn't necessarily mean the articulators (organs) have to touch each other. A consonant can be produced by getting the articulators just near each other (without touching), in which case, the consonant is called an [Approximant](https://en.wikipedia.org/wiki/Approximant).
 
@@ -90,3 +99,15 @@ In the table above, I use the term "against" but it doesn't necessarily mean the
 There is a distinction between active (moving part) and passive (static part) articulators, but I'll pass on the detail for now.
 
 ---
+**The Manner of Articulation** describes *how* speech organs (e.g. tongue, lips, teeth) constrict or modify airflow in the vocal tract to produce consonant sounds.
+
+Key manners of articulation include :
+
+| Manner of Articulation | Meaning                                                                                                                                                                                                                                                                                                                                                                                                  |
+| ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Plosive (or Stop)      | Oral occlusive; Blocking of the oral vocal tract and no nasal air flow, causing complete air flow stop. If the consonant is voiced, the voicing is the only sound made during occlusion; if it is voiceless, a stop is completely silent. However, we do hear the effect that the onset of the occlusion has on the preceding vowel, as well as the release burst and its effect on the following vowel. |
+| Nasal                  | Nasal occlusive; Air passes through the nose while the oral tract is blocked. Majority of nasal consonants are voiced. Not to be confused with *nasalized consonant*.                                                                                                                                                                                                                                    |
+| Vibrant                | One or more brief occlusions occur; a momentary closure of the oral cavity is called a *flap/tap*, whereas several momentary closure of the oral cavity (vibrating of the articulator) is called a *trill*.                                                                                                                                                                                              |
+| Fricative (or Spirant) | A continuous *frication* (turbulent and noisy airflow) at the place of articulation. Types of fricative include *Sibilant* Fricatives and *Lateral* Fricatives.                                                                                                                                                                                                                                          |
+| Affricate              | Begins like a stop but releases into a fricative rather than having a separate release of its own.                                                                                                                                                                                                                                                                                                       |
+| Approximant            | Very little obstruction.                                                                                                                                                                                                                                                                                                                                                                                 |
