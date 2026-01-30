@@ -128,4 +128,12 @@ The main consonant glides in English are :
 - **/j/** ([voiced palatal approximant](https://en.wikipedia.org/wiki/Voiced_palatal_approximant), like the 'y' in "yes")
 - **/w/** ([voiced labial-velar approximant](https://en.wikipedia.org/wiki/Voiced_labial–velar_approximant), like the 'w' in "wet").
 
-Diphthongs are "gliding vowels"
+Diphthongs are "gliding vowels" formed by combining two adjacent vowel sounds within a single syllable, where the tongue moves from one position to another. Common English diphthongs are :
+- **/aɪ/** (sky, pie, eye)
+- **/aʊ/** : "house," "cow," "out"
+- **/eɪ/** : "day," "rain," "ate"
+- **/oʊ/** : "boat," "know," "show"
+- **/ɔɪ/** : "boy," "toy," "coin"
+- **/eə/** : "hair," "bear"
+- **/ɪə/** : "near," "fear"
+- **/ʊə/** : "tour," "cure"
