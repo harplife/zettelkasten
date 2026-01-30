@@ -48,14 +48,13 @@ https://www.ipachart.com/
 
 ### Consonants
 
+The majority of sounds in most languages are *pulmonic egressive sounds* - which is our main focus. From here on, when I mention consonants/vowels, I'm referring to pulmonic consonants/vowels.
+- #definition [Pulmonic Egressive Sounds](https://en.wikipedia.org/wiki/Egressive_sound#Pulmonic_egressive) : Sounds produced through the mouth (or nose) using the air stream created by the lungs, ribs, and diaphragm.
+
 IPA categorizes consonants based on three primary, articulatory features :
 - [Place of articulation](https://en.wikipedia.org/wiki/Place_of_articulation)
 - [Manner of articulation](https://en.wikipedia.org/wiki/Manner_of_articulation)
 - [Voicing](<https://en.wikipedia.org/wiki/Voice_(phonetics)>)
-
-These features are arranged in a chart to organize consonants, primarily focusing on pulmonic sounds.
-- #definition [Pulmonic Egressive Sounds](https://en.wikipedia.org/wiki/Egressive_sound#Pulmonic_egressive) : Sounds produced through the mouth (or nose) using the air stream created by the lungs, ribs, and diaphragm.
-	- The majority of sounds in most languages are pulmonic egressive sounds.
 
 ---
 **Voicing** refers to a classification of speech sounds that tend to be associated with vocal cord vibration but may not actually be voiced at the articulatory level. In other words, speech sounds can be described as either "voiced" or "voiceless (unvoiced)".
@@ -98,6 +97,7 @@ In the table above, I use the term "against" but it doesn't necessarily mean the
 
 There is a distinction between active (moving part) and passive (static part) articulators, but I'll pass on the detail for now.
 
+
 ---
 **The Manner of Articulation** describes *how* speech organs (e.g. tongue, lips, teeth) constrict or modify airflow in the vocal tract to produce consonant sounds.
 
@@ -112,3 +112,20 @@ Key manners of articulation include :
 | **Affricate**              | Begins like a stop but releases into a fricative rather than having a separate release of its own.                                                                                                                                                                                                                                                                                                       |
 | **Approximant**            | Very little obstruction. Types of approximant include *Semivowel/Glide* and *Laterals*.                                                                                                                                                                                                                                                                                                                  |
 
+
+### Vowels
+
+
+
+
+### Other IPA features
+
+#### Glide and Diphthongs
+
+#definition **Glide** (Semi-Vowel or Semi-Consonant) is a sound produced with little to no friction in vocal tract, acting as a transition to or from a vowel.
+
+The main consonant glides in English are :
+- **/j/** ([voiced palatal approximant](https://en.wikipedia.org/wiki/Voiced_palatal_approximant), like the 'y' in "yes")
+- **/w/** ([voiced labial-velar approximant](https://en.wikipedia.org/wiki/Voiced_labial–velar_approximant), like the 'w' in "wet").
+
+Diphthongs are "gliding vowels"
