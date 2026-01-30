@@ -71,12 +71,12 @@ Consonant phonemes in [General American](https://en.wikipedia.org/wiki/General_A
 /l̩/ : bottle (/ˈbɑɾɪl/ or ˈbɑɾəl), little, final
 
 
-Allophones
+Allophones <-- I don't think this is what it's called
 **/ɾ/** (flap) : water, bottle
 **/ʔ/** (glottal stop) : button, mountain, uh-oh
 
 
-Approximants (semi-vowel)
+Approximants (semi-vowel) // co-articulated consonants
 /w/: **wi**n, q**uee**n
 - Sometimes **/ʍ/** or **/hw/** is used for "wh" sound where "h" sound is not prominent but it is still more "breathier" than "w" sound (e.g. *which* or *whale*).
 /j/ (y): **y**es, **y**ou
