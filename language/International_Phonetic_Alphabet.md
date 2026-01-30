@@ -57,3 +57,13 @@ These features are arranged in a chart to organize consonants, primarily focusin
 - #definition [Pulmonic Egressive Sounds](https://en.wikipedia.org/wiki/Egressive_sound#Pulmonic_egressive) : Sounds produced through the mouth (or nose) using the air stream created by the lungs, ribs, and diaphragm.
 	- The majority of sounds in most languages are pulmonic egressive sounds.
 
+---
+The places of articulation are largely divided into four major parts :
+- [Labial](https://en.wikipedia.org/wiki/Labial_consonant) (lips)
+- [Coronal](https://en.wikipedia.org/wiki/Coronal_consonant) (front part of the tongue)
+- [Dorsal](https://en.wikipedia.org/wiki/Dorsal_consonant) (back part of the tongue)
+- [Laryngeal](https://en.wikipedia.org/wiki/Laryngeal_consonant) ()
+
+Labial (lips) :
+- Bilabial
+- Labio-
