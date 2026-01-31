@@ -8,7 +8,7 @@
 
 #definition [Phone](<https://en.wikipedia.org/wiki/Phone_(phonetics)>) : (in phonetics) Any distinct speech sound.
 - Phones are the [segments](<https://en.wikipedia.org/wiki/Segment_(linguistics)>) of speech that possess distinct physical or perceptual properties, regardless of whether the exact sound is critical to the meanings of words.
-- See also : [Phoneme](https://en.wikipedia.org/wiki/Phoneme), [Allophone](https://en.wikipedia.org/wiki/Allophone)
+- See also : [Allophone](https://en.wikipedia.org/wiki/Allophone)
 
 #definition [Phonetic Notation](https://en.wikipedia.org/wiki/Phonetic_transcription) (Phonetic Transcription) : The visual representation of phones by means of symbols.
 
@@ -57,7 +57,47 @@ The general structure of a syllable consists of two components :
 > [!warning] The structure of syllable is not "defined" in any sort of way. Different languages tend to have their own structure of a syllable.
 > Most languages do often share the common structure of *onset* and *rhyme* though.
 
-The two components of a syllable is usually separated by the *first vowel*. The onset describes the sound that comes before that vowel, and the rhyme describes the vowel sound and the sound that follows.
+The two components of a syllable is usually separated by the *first vowel*. The **Onset** describes the sound (consonant) that comes before that vowel, and the **Rhyme** describes the vowel sound and the consonant sound that follows.
+
+> [!important] The "rhyme" of a syllable is the part used in [poetic rhymes](https://en.wikipedia.org/wiki/Rhyme) (rhyming).
+> The rhyme (of a syllable) is often spelled "rime" to distinguish it from the poetic rhyme.
+
+Rhyme consists of two segments, Nucleus and Coda.
+- **Nucleus** is usually a single vowel, but it can be a cluster of vowels or a syllabic consonant (more on this later).
+- **Coda** is a single or cluster of consonant that follows the nucleus.
+
+> [!important] A syllable must have a nucleus, but both onset and coda are *optional*.
+> It is possible to have a syllable with just the nucleus, like "a" in "able (a-ble)".
+
+> [!warning] When there are multiple syllables in a word, it may prove challenging to distinguish between onset and coda.
+> There are some rules and constraints to help :
+> - The "Greedy" Onset Rule
+> - Phonotactic Constraints
+> 
+> There are exceptions though, so we just need to find what works.
+
+#example Putting it together, we can use a single syllable to describe the sound of the word "dog" :
+- The initial consonant "d" sound is the onset
+- The "aw" sound is the nucleus
+- The final "g" sound is the coda
+
+We will be using the IPA letters to describe the sound of the onset, the nucleus, and the coda.
+
+> [!important] We don't need to deconstruct component syllables and syllable components in order to use the IPA notation & letters.
+> It's just good to be aware what syllable is, so that we can distinguish the sounds in a syllable.
+
+
+### Phoneme
+
+A [Phoneme](https://en.wikipedia.org/wiki/Phoneme) is any set of similar speech sounds that are *perceptually* regarded as a single basic sound. It is considered a smallest possible phonetic unit.
+
+
+
+### Basic Notations
+
+> [!important] Phonemic vs. Phonetic
+> The `/ /` represents **phonemic**, the abstract representation of sound. The `[ ]` represents **phonetic**, the actual produced/observed sound.
+
 
 ### General American English
 
@@ -140,11 +180,80 @@ Key manners of articulation include :
 | **Approximant**            | Very little obstruction. Types of approximant include *Semivowel/Glide* and *Laterals*.                                                                                                                                                                                                                                                                                                                  |
 
 
+#### Common GA Consonants & Examples
+
+GA typically features **24 consonants** (p, b, t, d, k, g, f, v, θ, ð, s, z, ʃ, ʒ, h, tʃ, dʒ, m, n, ŋ, l, r, w, j).
+
+Consonant phonemes in [General American](https://en.wikipedia.org/wiki/General_American_English)
+![[Pasted image 20260125224252.png]]
+> left consonant in a box is *voiceless*, and the right is *voiced*.
+
+---
+#example common GA consonants :
+
+| Phoneme                | Voiced/Voiceless | Example                                                                     |
+| ---------------------- | ---------------- | --------------------------------------------------------------------------- |
+| **/b/**                | voiced           | **b**at, ro**b**                                                            |
+| **/p/**                | voiceless        | **p**en, to**p**                                                            |
+| **/d/**                | voiced           | **d**og, la**dd**er                                                         |
+| **/t/**                | voiceless        | **t**en, be**t**                                                            |
+| **/g/**                | voiced           | **g**et, do**g**                                                            |
+| **/k/**                | voiceless        | **c**at, **k**ing, bac**k**                                                 |
+| **/v/**                | voiced           | **v**an, ha**ve**                                                           |
+| **/f/**                | voiceless        | **f**an, pu**ff**                                                           |
+| **/z/**                | voiced           | **z**oo, ro**se**                                                           |
+| **/s/**                | voiceless        | **s**it, pa**ss**                                                           |
+| **/ʒ/** (zh)           | voiced           | plea**s**ure, gara**g**e, vi**si**on                                        |
+| **/ʃ/** (sh)           | voiceless        | **sh**ip, di**sh**                                                          |
+| **/d͡ʒ/** (j)          | voiced           | **j**ob, **g**iant, ma**g**ic, a**g**e, ba**dg**e, sol**d**ier, **j**ealous |
+| **/t͡ʃ/** (ch)         | voiceless        | **ch**oice, **ch**ew, wat**ch**                                             |
+| **/ð/** (soft th)      | voiced           | **th**is, **th**en, mo**th**er                                              |
+| **/θ/** (hissy th)     | voiceless        | **th**in, **th**ink, ba**th**, bir**th**day                                 |
+| **/h/**                | voiceless        | **h**at, **wh**o                                                            |
+| **/m/**                | voiced           | **m**ap, ha**mm**er                                                         |
+| **/n/**                | voiced           | **n**et, su**nn**y                                                          |
+| **/ŋ/** (ng)           | voiced           | si**ng**er, ba**ng**                                                        |
+| **/l/**                | voiced           | **l**ight, fi**ll**                                                         |
+| **/ɹ/** (r but no tap) | voiced           | **r**un, ca**r**                                                            |
+
+---
+An [Affricate](https://en.wikipedia.org/wiki/Affricate) is a consonant that begins as a stop and releases as a fricative, generally with the same place of articulation. GA has two affricate phonemes :
+- **/d͡ʒ/** (j)
+- **/t͡ʃ/** (ch)
+
+---
+[Syllabic Consonants](https://en.wikipedia.org/wiki/Syllabic_consonant) (when vowel isn't aspirated. Can be substituted with **/ə/**)
+/m̩/ : rhythm, prism, bottom
+/n̩/ : button, mountain, hidden
+/ɹ̩/ : teacher
+/l̩/ : bottle (/ˈbɑɾɪl/ or ˈbɑɾəl), little, final
+
+---
+Allophones <-- I don't think this is what it's called
+**/ɾ/** (flap) : water, bottle
+**/ʔ/** (glottal stop) : button, mountain, uh-oh
+
+---
+Approximants (semi-vowel) // co-articulated consonants
+/w/: **wi**n, q**uee**n
+- Sometimes **/ʍ/** or **/hw/** is used for "wh" sound where "h" sound is not prominent but it is still more "breathier" than "w" sound (e.g. *which* or *whale*).
+/j/ (y): **y**es, **y**ou
+
+> [!important] It seems GA sound of "r" (in words like *red* or *try*) is often denoted as **/ɹ/** as opposed to **/r/**.
+> This is because **/r/** is a voiced alveolar trill (Spanish sounding), whereas **/ɹ/** is voiced alveolar approximant (English sounding). In American English, the sound is often further back in the mouth, technically a voiced post-alveolar approximant **/ɹ̠/**.
+
+
+
 ### Vowels
 
 #definition A Vowel is a speech sound produced with an open vocal tract, allowing air to flow freely without significant restriction from the articulators.
 - All vowel sounds are voiced.
 - 
+
+
+#### Common GA Vowels & Examples
+
+GA typically features **14-16 vowels**, (i, ɪ, eɪ, ɛ, æ, ɑ, ɔ, oʊ, ʊ, u, ʌ, ə, aɪ, aʊ, ɔɪ).
 
 
 ### Other IPA features
