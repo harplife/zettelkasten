@@ -229,8 +229,10 @@ Consonant phonemes in [General American](https://en.wikipedia.org/wiki/General_A
 
 ---
 #define An [Affricate](https://en.wikipedia.org/wiki/Affricate) is a consonant that begins as a stop and releases as a fricative, generally with the same place of articulation. GA has two affricate phonemes :
-- **/d͡ʒ/** (j)
-- **/t͡ʃ/** (ch)
+- `/d͡ʒ/` (j)
+- `/t͡ʃ/` (ch)
+
+While tie bar (arc) symbol above or below the two consonants is not necessary, but it helps to clarify.
 
 ---
 #define [Co-articulated Consonants](https://en.wikipedia.org/wiki/Co-articulated_consonant) are sounds produced with two simultaneous, distinct articulators. In English, these commonly manifest as secondary articulations, such as labialization (lip rounding) and velarization (tongue backing).
@@ -243,9 +245,13 @@ Consonant phonemes in [General American](https://en.wikipedia.org/wiki/General_A
 /l̩/ : bottle (/ˈbɑɾɪl/ or ˈbɑɾəl), little, final
 
 ---
-Allophones <-- I don't think this is what it's called
+Allophones for `/t/`
 **/ɾ/** (flap) : water, bottle
 **/ʔ/** (glottal stop) : button, mountain, uh-oh
+
+Allophones for `/l/`
+
+
 
 ---
 Approximants (semi-vowel) // co-articulated consonants
