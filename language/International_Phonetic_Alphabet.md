@@ -103,7 +103,7 @@ Free Variation
 - Tomato -> to-may-to, to-mah-to
 - Either -> ee-ther, ai-ther
 
-In IPA, phonemic transcription (using slashes `/ /`) represents the abstract, distinct sound units (phonemes) that change word meaning (as in separates words from one another), while phonetic transcription (using brackets `[ ]`) provides a precise, detailed representation of the actual sounds produced (allophones).
+In IPA, phonemic transcription (using slashes `/ /`) represents the abstract, distinct sound units (phonemes) that change word meaning (as in separates words from one another), while phonetic transcription (using brackets `[ ]`) provides a precise, detailed representation of the actual sounds produced (allophones). `< >` for spelling.
 
 
 
