@@ -152,9 +152,7 @@ They are largely divided into four major parts :
 - [Dorsal](https://en.wikipedia.org/wiki/Dorsal_consonant) (back part of the tongue)
 - [Laryngeal](https://en.wikipedia.org/wiki/Laryngeal_consonant) (throat)
 
-It is possible that a consonant is produced by using two simultaneous places of articulation, in which case, it is called a [Co-articulated Consonant](https://en.wikipedia.org/wiki/Co-articulated_consonant).
-
-All the variations of the places of articulations are then :
+All the variations of the places of articulations are :
 
 | Place of Articulation     | Articulators                                                                |
 | ------------------------- | --------------------------------------------------------------------------- |
@@ -204,35 +202,38 @@ Consonant phonemes in [General American](https://en.wikipedia.org/wiki/General_A
 ---
 #example common GA consonants :
 
-| Phoneme                | Voiced/Voiceless | Example                                                                     |
-| ---------------------- | ---------------- | --------------------------------------------------------------------------- |
-| **/b/**                | voiced           | **b**at, ro**b**                                                            |
-| **/p/**                | voiceless        | **p**en, to**p**                                                            |
-| **/d/**                | voiced           | **d**og, la**dd**er                                                         |
-| **/t/**                | voiceless        | **t**en, be**t**                                                            |
-| **/g/**                | voiced           | **g**et, do**g**                                                            |
-| **/k/**                | voiceless        | **c**at, **k**ing, bac**k**                                                 |
-| **/v/**                | voiced           | **v**an, ha**ve**                                                           |
-| **/f/**                | voiceless        | **f**an, pu**ff**                                                           |
-| **/z/**                | voiced           | **z**oo, ro**se**                                                           |
-| **/s/**                | voiceless        | **s**it, pa**ss**                                                           |
-| **/ʒ/** (zh)           | voiced           | plea**s**ure, gara**g**e, vi**si**on                                        |
-| **/ʃ/** (sh)           | voiceless        | **sh**ip, di**sh**                                                          |
-| **/d͡ʒ/** (j)          | voiced           | **j**ob, **g**iant, ma**g**ic, a**g**e, ba**dg**e, sol**d**ier, **j**ealous |
-| **/t͡ʃ/** (ch)         | voiceless        | **ch**oice, **ch**ew, wat**ch**                                             |
-| **/ð/** (soft th)      | voiced           | **th**is, **th**en, mo**th**er                                              |
-| **/θ/** (hissy th)     | voiceless        | **th**in, **th**ink, ba**th**, bir**th**day                                 |
-| **/h/**                | voiceless        | **h**at, **wh**o                                                            |
-| **/m/**                | voiced           | **m**ap, ha**mm**er                                                         |
-| **/n/**                | voiced           | **n**et, su**nn**y                                                          |
-| **/ŋ/** (ng)           | voiced           | si**ng**er, ba**ng**                                                        |
-| **/l/**                | voiced           | **l**ight, fi**ll**                                                         |
-| **/ɹ/** (r but no tap) | voiced           | **r**un, ca**r**                                                            |
+| Phoneme              | Voiced/Voiceless | Example                                                                     |
+| -------------------- | ---------------- | --------------------------------------------------------------------------- |
+| `/b/`                | voiced           | **b**at, ro**b**                                                            |
+| `/p/`                | voiceless        | **p**en, to**p**                                                            |
+| `/d/`                | voiced           | **d**og, la**dd**er                                                         |
+| `/t/`                | voiceless        | **t**en, be**t**                                                            |
+| `/g/`                | voiced           | **g**et, do**g**                                                            |
+| `/k/`                | voiceless        | **c**at, **k**ing, bac**k**                                                 |
+| `/v/`                | voiced           | **v**an, ha**ve**                                                           |
+| `/f/`                | voiceless        | **f**an, pu**ff**                                                           |
+| `/z/`                | voiced           | **z**oo, ro**se**                                                           |
+| `/s/`                | voiceless        | **s**it, pa**ss**                                                           |
+| `/ʒ/` (zh)           | voiced           | plea**s**ure, gara**g**e, vi**si**on                                        |
+| `/ʃ/` (sh)           | voiceless        | **sh**ip, di**sh**                                                          |
+| `/d͡ʒ/` (j)          | voiced           | **j**ob, **g**iant, ma**g**ic, a**g**e, ba**dg**e, sol**d**ier, **j**ealous |
+| `/t͡ʃ/` (ch)         | voiceless        | **ch**oice, **ch**ew, wat**ch**                                             |
+| `/ð/` (soft th)      | voiced           | **th**is, **th**en, mo**th**er                                              |
+| `/θ/` (hissy th)     | voiceless        | **th**in, **th**ink, ba**th**, bir**th**day                                 |
+| `/h/`                | voiceless        | **h**at, **wh**o                                                            |
+| `/m/`                | voiced           | **m**ap, ha**mm**er                                                         |
+| `/n/`                | voiced           | **n**et, su**nn**y                                                          |
+| `/ŋ/` (ng)           | voiced           | si**ng**er, ba**ng**                                                        |
+| `/l/`                | voiced           | **l**ight, fi**ll**                                                         |
+| `/ɹ/` (r but no tap) | voiced           | **r**un, ca**r**                                                            |
 
 ---
-An [Affricate](https://en.wikipedia.org/wiki/Affricate) is a consonant that begins as a stop and releases as a fricative, generally with the same place of articulation. GA has two affricate phonemes :
+#define An [Affricate](https://en.wikipedia.org/wiki/Affricate) is a consonant that begins as a stop and releases as a fricative, generally with the same place of articulation. GA has two affricate phonemes :
 - **/d͡ʒ/** (j)
 - **/t͡ʃ/** (ch)
+
+---
+#define [Co-articulated Consonants](https://en.wikipedia.org/wiki/Co-articulated_consonant) are sounds produced with two simultaneous, distinct articulators. In English, these commonly manifest as secondary articulations, such as labialization (lip rounding) and velarization (tongue backing).
 
 ---
 [Syllabic Consonants](https://en.wikipedia.org/wiki/Syllabic_consonant) (when vowel isn't aspirated. Can be substituted with **/ə/**)
