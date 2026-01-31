@@ -92,9 +92,12 @@ We will be using the IPA letters to describe the sound of the onset, the nucleus
 A single phone (a smallest unit of speech sound) can be either *phonemic* or *phonetic*.
 
 A [Phoneme](https://en.wikipedia.org/wiki/Phoneme) is any set of similar speech sounds that are *perceptually* regarded as a single basic sound, which makes words distinguishable from one another. In other words, a phoneme is a distinguishable smallest unit (or cluster) of sound that differentiates meaning.
-- For instance, the words "Cat" and "Pat" are differentiated because "C" and "P" are phonemes.
+- #example In GA, the words "Cat" and "Pat" are differentiated because "C" and "P" are phonemes.
 
 An [Allophone](https://en.wikipedia.org/wiki/Allophone) is any set of perceptually indistinguishable speech sounds used to pronounce a single phoneme.
+- #example In GA, the "t" sounds in the words "hit", "tip" and "little" are allophones; phonemically, the "t" sounds are the same sound, but they are different phonetically.
+
+#todo taking a break for dinner. Continue writing this section 2026/01/30 6:55
 
 Free Variation
 - Tomato -> to-may-to, to-mah-to
@@ -102,8 +105,7 @@ Free Variation
 
 In IPA, phonemic transcription (using slashes `/ /`) represents the abstract, distinct sound units (phonemes) that change word meaning (as in separates words from one another), while phonetic transcription (using brackets `[ ]`) provides a precise, detailed representation of the actual sounds produced (allophones).
 
-> [!important] Phonemic vs. Phonetic
-> The  represents **phonemic**, the abstract representation of sound. The  represents **phonetic**, the actual produced/observed sound.
+
 
 
 ### General American English
