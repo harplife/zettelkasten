@@ -293,6 +293,12 @@ While tie bar (arc) symbol above or below the two consonants is not necessary, b
 ---
 #define [Co-articulated Consonants](https://en.wikipedia.org/wiki/Co-articulated_consonant) are sounds produced with two simultaneous, distinct articulators. In English, these commonly manifest as secondary articulations, such as labialization (lip rounding) and velarization (tongue backing).
 
+Labilization
+w and y
+
+velarization
+and dark L
+
 ---
 [Syllabic Consonants](https://en.wikipedia.org/wiki/Syllabic_consonant) (when vowel isn't aspirated. Can be substituted with **/ə/**)
 /m̩/ : rhythm, prism, bottom
@@ -320,7 +326,7 @@ Approximants (semi-vowel) // co-articulated consonants
 
 
 ---
-Nasalized vs. Velarized
+#todo Nasalization for vowels
 
 
 
