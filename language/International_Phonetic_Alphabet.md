@@ -231,14 +231,20 @@ Consonant phonemes in [General American](https://en.wikipedia.org/wiki/General_A
 | `/ɹ/` (r but no tap) | voiced           | **r**un, ca**r**                                                            |
 
 ---
-A [Sibilant](https://en.wikipedia.org/wiki/Sibilant) is a high-intensity, high-pitched fricative or affricate consonant produced by directing airflow with the tongue against the teeth. In other words, it is a "hissing" or "hushing" sound.
+#define A [Sibilant](https://en.wikipedia.org/wiki/Sibilant) is a high-intensity, high-pitched fricative or affricate consonant produced by directing airflow with the tongue against the teeth. In other words, it is a "hissing" or "hushing" sound.
 
 In GA, the sibilant consonants are :
 - (fricatives) `/s, z, ʃ, ʒ/`
 - (affricates) `/d͡ʒ, t͡ʃ/`
 
+---
+#define An [Interdental Consonant](https://en.wikipedia.org/wiki/Interdental_consonant) is a consonant produced by placing the tip of the tongue between the upper and lower front teeth.
+- This differs from typical dental consonants, which are articulated with the tongue against the *back* of the upper incisors.
 
+In GA, the interdental consonants are :
+- (fricatives) `/ð, θ/`
 
+> [!important]
 
 ---
 #define A [Liquid Consonant](https://en.wikipedia.org/wiki/Liquid_consonant) is a consonant that consists of *rhotics* and *voiced lateral approximants*.
