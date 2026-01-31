@@ -87,25 +87,29 @@ We will be using the IPA letters to describe the sound of the onset, the nucleus
 > It's just good to be aware what syllable is, so that we can distinguish the sounds in a syllable.
 
 
-### Phoneme and Allophones
+### Phonemes and Allophones
 
-A single phone (a smallest unit of speech sound) can be either *phonemic* or *phonetic*.
+A single **phone** (a smallest unit of speech sound) can be either *phonemic* or *phonetic*.
 
-A [Phoneme](https://en.wikipedia.org/wiki/Phoneme) is any set of similar speech sounds that are *perceptually* regarded as a single basic sound, which makes words distinguishable from one another. In other words, a phoneme is a distinguishable smallest unit (or cluster) of sound that differentiates meaning.
-- #example In GA, the words "Cat" and "Pat" are differentiated because "C" and "P" are phonemes.
+A [Phoneme](https://en.wikipedia.org/wiki/Phoneme) is any set of similar speech sounds that are *perceptually* regarded as a single basic sound, which makes words *distinguishable* from one another. In other words, a phoneme is a distinguishable smallest unit (or cluster) of sound that differentiates meaning.
+- #example In American English, the words "Cat" and "Pat" are differentiated because "C" and "P" are phonemes.
 
-An [Allophone](https://en.wikipedia.org/wiki/Allophone) is any set of perceptually indistinguishable speech sounds used to pronounce a single phoneme.
-- #example In GA, the "t" sounds in the words "hit", "tip" and "little" are allophones; phonemically, the "t" sounds are the same sound, but they are different phonetically.
+An [Allophone](https://en.wikipedia.org/wiki/Allophone) is any set of *perceptually indistinguishable* speech sounds used to pronounce a single phoneme.
+- #example In American English, the "t" sounds in the words "top", "water" and "mountain" are allophones. They all share the same phoneme "t", but they all sound slightly different.
 
-#todo taking a break for dinner. Continue writing this section 2026/01/30 6:55
+In IPA, we use the **phonemic** transcription (using slashes `/ /`) when we describe sound by their abstract, distinct sound using *phonemes*. We use the **phonetic** transcription (using brackets `[ ]`) when we describe the actual sounds precisely and detailed (including subtle variations like allophones).
 
-Free Variation
-- Tomato -> to-may-to, to-mah-to
-- Either -> ee-ther, ai-ther
+#example Going back to the words "top", "water", and "mountain", we can transcribe them phonemically or phonetically. Like so :
+- top : `/tɑp/` or `[tʰɑp]`
+- water : `/ˈwɔtər/` or `[ˈwɔɾɚ]`
+- mountain : `/mɑntn/` or `[ˈmãʊ̃ʔn̩]`
 
-In IPA, phonemic transcription (using slashes `/ /`) represents the abstract, distinct sound units (phonemes) that change word meaning (as in separates words from one another), while phonetic transcription (using brackets `[ ]`) provides a precise, detailed representation of the actual sounds produced (allophones). `< >` for spelling.
+Note that these words have `/t/` in common, but it is pronounced in three different ways -  "t" `[tʰ]`, "d/r" `[ɾ]`, or some kind of groaning sound `[ʔ]`.
 
-
+> [!important] "Perceived Sound" is an important factor in IPA.
+> We all have our own unique dialects and accents, which means not all of us will pronounce the words the same. Not only that, our unique minds perceive things differently in our own unique ways, including sounds.
+> 
+> While IPA is used to describe speech sound systematically and in detail, it is not a perfect measurement of speech sound. Meaning, we aren't shooting for perfect representation of speech sound, and instead, we are trying to describe the sound as we hear and perceive them.
 
 
 ### General American English
@@ -114,9 +118,9 @@ In IPA, phonemic transcription (using slashes `/ /`) represents the abstract, di
 
 We'll focus mainly on GA so that it keeps things simple - it will limit the amount of IPA letters we'd have to learn initially, and it will serve as a foundation for learning IPA letters meaningful for other languages.
 
-Regardless of language, the speech sound is divided into two principal classes :
-- [Consonant](https://en.wikipedia.org/wiki/Consonant)
-- [Vowel](https://en.wikipedia.org/wiki/Vowel)
+Regardless of language, the speech sound is divided into two principal classes based on *obstruction of the vocal tract* :
+- [Consonant](https://en.wikipedia.org/wiki/Consonant) (obstructed sound)
+- [Vowel](https://en.wikipedia.org/wiki/Vowel) (unobstructed sound)
 
 ---
 The majority of sounds in most languages are *pulmonic egressive sounds* - which is our main focus. From here on, when I mention consonants/vowels, I'm referring to pulmonic consonants/vowels.
