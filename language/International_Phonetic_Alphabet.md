@@ -244,10 +244,18 @@ In GA, the sibilant consonants are :
 In GA, the interdental consonants are :
 - (fricatives) `/ð, θ/`
 
-> [!important]
+> [!important] Though these sound alike, these are distinct phonemes and not allophones.
+> The distinction is more clear with these minimal pairs (`/θ/` - `/ð/`) :
+> - thigh - thy
+> - ether - either
+> - teeth - teethe (teething)
+> 
+> There are some general rules to distinguish them, but we'll skip on that for now.
 
 ---
 #define A [Liquid Consonant](https://en.wikipedia.org/wiki/Liquid_consonant) is a consonant that consists of *rhotics* and *voiced lateral approximants*.
+- #define A [Rhotic Consonant](https://en.wikipedia.org/wiki/Rhotic_consonant) refers to "R-like" sound.
+- #define A [Lateral Consonant](https://en.wikipedia.org/wiki/Lateral_consonant) refers to "L-like" sound.
 
 
 
