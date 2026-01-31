@@ -253,12 +253,16 @@ In GA, the interdental consonants are :
 > There are some general rules to distinguish them, but we'll skip on that for now.
 
 ---
-#define A [Liquid Consonant](https://en.wikipedia.org/wiki/Liquid_consonant) is a consonant that consists of *rhotics* and *voiced lateral approximants*.
+#define A [Liquid Consonant](https://en.wikipedia.org/wiki/Liquid_consonant) (Liquid) is a unique, vowel-like consonant produced with partial, non-obstructive closure in the mouth. Liquids either *modify* or are *modified by* surrounding sounds, often influencing preceding vowels.
+
+Liquids consists of *rhotics* and *voiced lateral approximants* :
 - #define A [Rhotic Consonant](https://en.wikipedia.org/wiki/Rhotic_consonant) refers to "R-like" sound.
 - #define A [Lateral Consonant](https://en.wikipedia.org/wiki/Lateral_consonant) refers to "L-like" sound.
 
+In GA, the only rhotic consonant is the voiced alveolar approximant `/ɹ/`, used for the the English letter `⟨r⟩`. It is typically written as `/r/` (voiced alveolar trill) for convenience, but the main difference is that the tongue does not touch alveolar for `/ɹ/`.
+- `/r/` is more prominent in Spanish languages. It is called a "rolling-R".
 
-
+In GA, the only lateral consonant is the voiced dental and alveolar lateral approximant `/l/`
 
 ---
 #define An [Affricate](https://en.wikipedia.org/wiki/Affricate) is a consonant that begins as a stop and releases as a fricative, generally with the same place of articulation. GA has two affricate phonemes :
