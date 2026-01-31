@@ -174,7 +174,7 @@ All the variations of the places of articulations are :
 
 In the table above, I use the term "against" but it doesn't necessarily mean the articulators (organs) have to touch each other. A consonant can be produced by getting the articulators just near each other (without touching), in which case, the consonant is called an [Approximant](https://en.wikipedia.org/wiki/Approximant).
 
-![[Pasted image 20260129231817.png]]
+![[Pasted image 20260131120548.png]]
 
 There is a distinction between active (moving part) and passive (static part) articulators, but I'll pass on the detail for now.
 
@@ -202,33 +202,35 @@ Consonant phonemes in [General American](https://en.wikipedia.org/wiki/General_A
 ![[Pasted image 20260125224252.png]]
 > left consonant in a box is *voiceless*, and the right is *voiced*.
 
+> [!important] The chart above is *not as accurate* as the official IPA chart. It's just for generalization.
+
 ---
 #example common GA consonants :
 
-| Phoneme              | Voiced/Voiceless | Example                                                                     |
-| -------------------- | ---------------- | --------------------------------------------------------------------------- |
-| `/b/`                | voiced           | **b**at, ro**b**                                                            |
-| `/p/`                | voiceless        | **p**en, to**p**                                                            |
-| `/d/`                | voiced           | **d**og, la**dd**er                                                         |
-| `/t/`                | voiceless        | **t**en, be**t**                                                            |
-| `/g/`                | voiced           | **g**et, do**g**                                                            |
-| `/k/`                | voiceless        | **c**at, **k**ing, bac**k**                                                 |
-| `/v/`                | voiced           | **v**an, ha**ve**                                                           |
-| `/f/`                | voiceless        | **f**an, pu**ff**                                                           |
-| `/z/`                | voiced           | **z**oo, ro**se**                                                           |
-| `/s/`                | voiceless        | **s**it, pa**ss**                                                           |
-| `/ʒ/` (zh)           | voiced           | plea**s**ure, gara**g**e, vi**si**on                                        |
-| `/ʃ/` (sh)           | voiceless        | **sh**ip, di**sh**                                                          |
-| `/d͡ʒ/` (j)          | voiced           | **j**ob, **g**iant, ma**g**ic, a**g**e, ba**dg**e, sol**d**ier, **j**ealous |
-| `/t͡ʃ/` (ch)         | voiceless        | **ch**oice, **ch**ew, wat**ch**                                             |
-| `/ð/` (soft th)      | voiced           | **th**is, **th**en, mo**th**er                                              |
-| `/θ/` (hissy th)     | voiceless        | **th**in, **th**ink, ba**th**, bir**th**day                                 |
-| `/h/`                | voiceless        | **h**at, **wh**o                                                            |
-| `/m/`                | voiced           | **m**ap, ha**mm**er                                                         |
-| `/n/`                | voiced           | **n**et, su**nn**y                                                          |
-| `/ŋ/` (ng)           | voiced           | si**ng**er, ba**ng**                                                        |
-| `/l/`                | voiced           | **l**ight, fi**ll**                                                         |
-| `/ɹ/` (r but no tap) | voiced           | **r**un, ca**r**                                                            |
+| Phoneme               | Voiced/Voiceless | Example                                                                     |
+| --------------------- | ---------------- | --------------------------------------------------------------------------- |
+| `/b/`                 | voiced           | **b**at, ro**b**                                                            |
+| `/p/`                 | voiceless        | **p**en, to**p**                                                            |
+| `/d/`                 | voiced           | **d**og, la**dd**er                                                         |
+| `/t/`                 | voiceless        | **t**en, be**t**                                                            |
+| `/g/`                 | voiced           | **g**et, do**g**                                                            |
+| `/k/`                 | voiceless        | **c**at, **k**ing, bac**k**                                                 |
+| `/v/`                 | voiced           | **v**an, ha**ve**                                                           |
+| `/f/`                 | voiceless        | **f**an, pu**ff**                                                           |
+| `/z/`                 | voiced           | **z**oo, ro**se**                                                           |
+| `/s/`                 | voiceless        | **s**it, pa**ss**                                                           |
+| `/ʒ/` (zh)            | voiced           | plea**s**ure, gara**g**e, vi**si**on                                        |
+| `/ʃ/` (sh)            | voiceless        | **sh**ip, di**sh**                                                          |
+| `/d͡ʒ/` (j)           | voiced           | **j**ob, **g**iant, ma**g**ic, a**g**e, ba**dg**e, sol**d**ier, **j**ealous |
+| `/t͡ʃ/` (ch)          | voiceless        | **ch**oice, **ch**ew, wat**ch**                                             |
+| `/ð/` (soft th)       | voiced           | **th**is, **th**en, mo**th**er                                              |
+| `/θ/` (hissy th)      | voiceless        | **th**in, **th**ink, ba**th**, bir**th**day                                 |
+| `/h/`                 | voiceless        | **h**at, **wh**o                                                            |
+| `/m/`                 | voiced           | **m**ap, ha**mm**er                                                         |
+| `/n/`                 | voiced           | **n**et, su**nn**y                                                          |
+| `/ŋ/` (ng)            | voiced           | si**ng**er, ba**ng**                                                        |
+| `/l/`                 | voiced           | **l**ight, fi**ll**                                                         |
+| `/ɹ̠/` (r but no tap) | voiced           | **r**un, ca**r**                                                            |
 
 ---
 #define A [Sibilant](https://en.wikipedia.org/wiki/Sibilant) is a high-intensity, high-pitched fricative or affricate consonant produced by directing airflow with the tongue against the teeth. In other words, it is a "hissing" or "hushing" sound.
@@ -257,12 +259,29 @@ In GA, the interdental consonants are :
 
 Liquids consists of *rhotics* and *voiced lateral approximants* :
 - #define A [Rhotic Consonant](https://en.wikipedia.org/wiki/Rhotic_consonant) refers to "R-like" sound.
-- #define A [Lateral Consonant](https://en.wikipedia.org/wiki/Lateral_consonant) refers to "L-like" sound.
+- #define A [Lateral Consonant](https://en.wikipedia.org/wiki/Lateral_consonant) refers to "L-like" sound, where the sound is produced by blocking the flow of air along the center of the mouth with the tongue (forcing the air to escape around the tongue).
 
-In GA, the only rhotic consonant is the voiced alveolar approximant `/ɹ/`, used for the the English letter `⟨r⟩`. It is typically written as `/r/` (voiced alveolar trill) for convenience, but the main difference is that the tongue does not touch alveolar for `/ɹ/`.
+<center>. . .</center>
+
+In GA, the only rhotic consonant is the voiced post-alveolar approximant `/ɹ̠/`, used for the the English letter `⟨r⟩`. It is typically written as `/r/` (voiced alveolar trill) for convenience, but the main difference is that the tongue does not touch the alveolar.
 - `/r/` is more prominent in Spanish languages. It is called a "rolling-R".
+- #define The term "rhoticity" indicates whether an accent pronounces the `⟨r⟩`s. A rhotic accent pronounces it ("car" -> car), and non-rhotic accent doesn't ("car" -> cah).
 
-In GA, the only lateral consonant is the voiced dental and alveolar lateral approximant `/l/`
+<center>. . .</center>
+
+In GA, there are *technically* two lateral consonants :
+- Voiced alveolar lateral approximant `/l/`, aka "Light L"
+- Velarized alveolar lateral approximant `/ɫ/`, aka "Dark L"
+
+The sound `/l/` is produced by placing the tip of the tongue against the alveolar ridge to block the central airflow. Generally, this sound occurs before vowels (e.g. "light", "fly").
+
+The sound `/ɫ/` is produced by velarization (without the tip of the tongue touching the alveolar). Generally, this sound occurs after vowels or at the end of words (e.g. "pool", "well").
+- #define [Velarization](https://en.wikipedia.org/wiki/Velarization) modifies the articulation of a consonant by raising the back of the tongue toward the velum.
+
+Both  `/l, ɫ/` are allophones of `⟨l⟩`, so distinction between them does not change the meaning of the word. In fact, it can be said that `/l/` is the only lateral consonant because :
+- the usage between the two comes down to *accent*
+- `/l/` can replace `/ɫ/` for *enunciation* (e.g. "fill", "ball")
+- `/ɫ/` is written as `/l/` for convenience
 
 ---
 #define An [Affricate](https://en.wikipedia.org/wiki/Affricate) is a consonant that begins as a stop and releases as a fricative, generally with the same place of articulation. GA has two affricate phonemes :
@@ -298,6 +317,10 @@ Approximants (semi-vowel) // co-articulated consonants
 
 > [!important] It seems GA sound of "r" (in words like *red* or *try*) is often denoted as **/ɹ/** as opposed to **/r/**.
 > This is because **/r/** is a voiced alveolar trill (Spanish sounding), whereas **/ɹ/** is voiced alveolar approximant (English sounding). In American English, the sound is often further back in the mouth, technically a voiced post-alveolar approximant **/ɹ̠/**.
+
+
+---
+Nasalized vs. Velarized
 
 
 
