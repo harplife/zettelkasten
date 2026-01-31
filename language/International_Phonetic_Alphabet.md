@@ -111,6 +111,9 @@ Note that these words have `/t/` in common, but it is pronounced in three differ
 > 
 > While IPA is used to describe speech sound systematically and in detail, it is not a perfect measurement of speech sound. Meaning, we aren't shooting for perfect representation of speech sound, and instead, we are trying to describe the sound as we hear and perceive them.
 
+Additionally, the angular brackets `⟨ ⟩` are used to indicate *graphemes* or spelling of a language in written text, rather than their phonetic sounds.
+- #define A **Grapheme** is the smallest functional unit of a writing system, representing a single phoneme.
+- #example The spelling of the word "cat" is indicated as `⟨cat⟩`. Each individual letters are `⟨c⟩`, `⟨a⟩`, and `⟨t⟩`.
 
 ### General American English
 
@@ -226,6 +229,22 @@ Consonant phonemes in [General American](https://en.wikipedia.org/wiki/General_A
 | `/ŋ/` (ng)           | voiced           | si**ng**er, ba**ng**                                                        |
 | `/l/`                | voiced           | **l**ight, fi**ll**                                                         |
 | `/ɹ/` (r but no tap) | voiced           | **r**un, ca**r**                                                            |
+
+---
+A [Sibilant](https://en.wikipedia.org/wiki/Sibilant) is a high-intensity, high-pitched fricative or affricate consonant produced by directing airflow with the tongue against the teeth. In other words, it is a "hissing" or "hushing" sound.
+
+In GA, the sibilant consonants are :
+- (fricatives) `/s, z, ʃ, ʒ/`
+- (affricates) `/d͡ʒ, t͡ʃ/`
+
+
+
+
+---
+#define A [Liquid Consonant](https://en.wikipedia.org/wiki/Liquid_consonant) is a consonant that consists of *rhotics* and *voiced lateral approximants*.
+
+
+
 
 ---
 #define An [Affricate](https://en.wikipedia.org/wiki/Affricate) is a consonant that begins as a stop and releases as a fricative, generally with the same place of articulation. GA has two affricate phonemes :
