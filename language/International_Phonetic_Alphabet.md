@@ -87,16 +87,23 @@ We will be using the IPA letters to describe the sound of the onset, the nucleus
 > It's just good to be aware what syllable is, so that we can distinguish the sounds in a syllable.
 
 
-### Phoneme
+### Phoneme and Allophones
 
-A [Phoneme](https://en.wikipedia.org/wiki/Phoneme) is any set of similar speech sounds that are *perceptually* regarded as a single basic sound. It is considered a smallest possible phonetic unit.
+A single phone (a smallest unit of speech sound) can be either *phonemic* or *phonetic*.
 
+A [Phoneme](https://en.wikipedia.org/wiki/Phoneme) is any set of similar speech sounds that are *perceptually* regarded as a single basic sound, which makes words distinguishable from one another. In other words, a phoneme is a distinguishable smallest unit (or cluster) of sound that differentiates meaning.
+- For instance, the words "Cat" and "Pat" are differentiated because "C" and "P" are phonemes.
 
+An [Allophone](https://en.wikipedia.org/wiki/Allophone) is any set of perceptually indistinguishable speech sounds used to pronounce a single phoneme.
 
-### Basic Notations
+Free Variation
+- Tomato -> to-may-to, to-mah-to
+- Either -> ee-ther, ai-ther
+
+In IPA, phonemic transcription (using slashes `/ /`) represents the abstract, distinct sound units (phonemes) that change word meaning (as in separates words from one another), while phonetic transcription (using brackets `[ ]`) provides a precise, detailed representation of the actual sounds produced (allophones).
 
 > [!important] Phonemic vs. Phonetic
-> The `/ /` represents **phonemic**, the abstract representation of sound. The `[ ]` represents **phonetic**, the actual produced/observed sound.
+> The  represents **phonemic**, the abstract representation of sound. The  represents **phonetic**, the actual produced/observed sound.
 
 
 ### General American English
