@@ -194,7 +194,7 @@ Key manners of articulation include :
 | **Approximant**            | Very little obstruction. Types of approximant include *Semivowel/Glide* and *Laterals*.                                                                                                                                                                                                                                                                                                                  |
 
 
-#### Common GA Consonants & Examples
+#### Common GA Consonants
 
 GA typically features **24 consonants** (p, b, t, d, k, g, f, v, θ, ð, s, z, ʃ, ʒ, h, tʃ, dʒ, m, n, ŋ, l, r, w, j).
 
@@ -291,22 +291,6 @@ Both  `/l, ɫ/` are allophones of `⟨l⟩`, so distinction between them does no
 While tie bar (arc) symbol above or below the two consonants is not necessary, but it helps to clarify.
 
 ---
-#define [Co-articulated Consonants](https://en.wikipedia.org/wiki/Co-articulated_consonant) are sounds produced with two simultaneous, distinct articulators. In English, these commonly manifest as secondary articulations, such as labialization (lip rounding) and velarization (tongue backing).
-
-Labilization
-w and y
-
-velarization
-and dark L
-
----
-[Syllabic Consonants](https://en.wikipedia.org/wiki/Syllabic_consonant) (when vowel isn't aspirated. Can be substituted with **/ə/**)
-/m̩/ : rhythm, prism, bottom
-/n̩/ : button, mountain, hidden
-/ɹ̩/ : teacher
-/l̩/ : bottle (/ˈbɑɾɪl/ or ˈbɑɾəl), little, final
-
----
 Allophones for `/t/`
 **/ɾ/** (flap) : water, bottle
 **/ʔ/** (glottal stop) : button, mountain, uh-oh
@@ -348,6 +332,22 @@ GA typically features **14-16 vowels**, (i, ɪ, eɪ, ɛ, æ, ɑ, ɔ, oʊ, ʊ, u,
 
 #todo A [Co-articulated Consonant](https://en.wikipedia.org/wiki/Co-articulated_consonant) is a consonant produced by simultaneous (or rapidly overlapping) articulations of adjacent sounds, commonly resulting in labialization, velarization, nasalization, and palatalization.
 
+labialization
+w and y
+
+velarization
+light l and dark l (already covered this)
+
+
+#### Syllabic Consonants
+
+[Syllabic Consonants](https://en.wikipedia.org/wiki/Syllabic_consonant) (when vowel isn't aspirated. Can be substituted with **/ə/**)
+/m̩/ : rhythm, prism, bottom
+/n̩/ : button, mountain, hidden
+/ɹ̩/ : teacher
+/l̩/ : bottle (/ˈbɑɾɪl/ or ˈbɑɾəl), little, final
+
+In GA, English consonants 
 
 
 
@@ -359,6 +359,9 @@ The main consonant glides in English are :
 - **/j/** ([voiced palatal approximant](https://en.wikipedia.org/wiki/Voiced_palatal_approximant), like the 'y' in "yes" and "you")
 - **/w/** ([voiced labial-velar approximant](https://en.wikipedia.org/wiki/Voiced_labial–velar_approximant), like the 'w' in "wet" and "win")
 
+#todo wait, isn't this labialization??
+
+---
 #definition **Diphthongs** are "gliding vowels" formed by combining two adjacent vowel sounds within a single syllable, where the tongue moves from one position to another. Common English diphthongs are :
 - **/aɪ/** ("sky", "pie", "eye")
 - **/aʊ/** ("house," "cow," "out")
