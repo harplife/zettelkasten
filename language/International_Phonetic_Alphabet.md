@@ -278,7 +278,7 @@ The sound `/l/` is produced by placing the tip of the tongue against the alveola
 The sound `/ɫ/` is produced by velarization (without the tip of the tongue touching the alveolar). Generally, this sound occurs after vowels or at the end of words (e.g. "pool", "well").
 - #define [Velarization](https://en.wikipedia.org/wiki/Velarization) modifies the articulation of a consonant by raising the back of the tongue toward the velum.
 
-Both  `/l, ɫ/` are allophones of `⟨l⟩`, so distinction between them does not change the meaning of the word. In fact, it can be said that `/l/` is the only lateral consonant because :
+Both  `/l, ɫ/` are *allophones* of `⟨l⟩`, so distinction between them does not change the meaning of the word. In fact, it can be said that `/l/` is the only lateral consonant because :
 - the usage between the two comes down to *accent*
 - `/l/` can replace `/ɫ/` for *enunciation* (e.g. "fill", "ball")
 - `/ɫ/` is written as `/l/` for convenience
