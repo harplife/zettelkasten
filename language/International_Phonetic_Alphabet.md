@@ -341,18 +341,28 @@ light l and dark l (already covered this)
 
 #### Syllabic Consonants
 
-#define A [Syllabic Consonants](https://en.wikipedia.org/wiki/Syllabic_consonant) is a consonant that function as the nucleus of a syllable, replacing an expected vowel in unstressed (unaspirated) syllables.
+#define A [Syllabic Consonants](https://en.wikipedia.org/wiki/Syllabic_consonant) is a consonant that function as the nucleus of a syllable, replacing an expected vowel (if there is one) in an unstressed (unaspirated), final syllable.
 
-In GA, consonants such as `/n, m, r, l/`
+In GA, consonants such as `/n, m, r, l/` often acts as syllabic consonants.
+- `/n/` : butt**on**, mount**ain**, hidd**en**
+- `/m/` : rhyth**m**, pris**m**, bott**om**
+- `/r/` : teach**er**, butt**er**, mot**or**
+- `/l/` : bott**le**, litt**le**, fin**al**
 
- (when vowel isn't aspirated. Can be substituted with **/ə/**)
-/m̩/ : rhythm, prism, bottom
-/n̩/ : button, mountain, hidden
-/ɹ̩/ : teacher
-/l̩/ : bottle (/ˈbɑɾɪl/ or ˈbɑɾəl), little, final
+Syllabic consonants are denoted with a small vertical line diacritic below the consonant symbol. Like so,
+- `/n/` - `[n̩]`
+- `/m/` - `[m̩]`
+- `/r/` - `[ɹ̩]`
+- `/l/` - `[l̩]`
 
-In GA, English consonants 
+> [!important] Precise phonetic accuracy is conveyed using diacritic. Meaning, phonetic transcription is used for syllabic consonants.
+> The word "Button" could be transcribed phonemically `/ˈbʌtən/` and phonetically `[bʌtn̩]`.
 
+In case of syllabic consonants, we can phonemically transcribe them with a preceding vowel `/ə/`.
+- `/n/` - `/ən/` - "button" is `/ˈbʌtən/`
+- `/m/` - `/əm/` - "rhythm" is `/ˈrɪðəm/`
+- `/r/` - `/ər/` - "butter" is `/ˈbʌtər/`
+- `/l/` - `/əl/` - "bottle" is `/ˈbɑtəl/`
 
 
 #### Glide and Diphthongs
