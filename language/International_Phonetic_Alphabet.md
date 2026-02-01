@@ -341,7 +341,11 @@ light l and dark l (already covered this)
 
 #### Syllabic Consonants
 
-[Syllabic Consonants](https://en.wikipedia.org/wiki/Syllabic_consonant) (when vowel isn't aspirated. Can be substituted with **/ə/**)
+#define A [Syllabic Consonants](https://en.wikipedia.org/wiki/Syllabic_consonant) is a consonant that function as the nucleus of a syllable, replacing an expected vowel in unstressed (unaspirated) syllables.
+
+In GA, consonants such as `/n, m, r, l/`
+
+ (when vowel isn't aspirated. Can be substituted with **/ə/**)
 /m̩/ : rhythm, prism, bottom
 /n̩/ : button, mountain, hidden
 /ɹ̩/ : teacher
