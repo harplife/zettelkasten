@@ -342,7 +342,14 @@ Approximants (semi-vowel) // co-articulated consonants
 GA typically features **14-16 vowels**, (i, ɪ, eɪ, ɛ, æ, ɑ, ɔ, oʊ, ʊ, u, ʌ, ə, aɪ, aʊ, ɔɪ).
 
 
-### Other IPA features
+### Special Consonants & Vowels
+
+#### Co-articulated Consonants
+
+#todo A [Co-articulated Consonant](https://en.wikipedia.org/wiki/Co-articulated_consonant) is a consonant produced by simultaneous (or rapidly overlapping) articulations of adjacent sounds, commonly resulting in labialization, velarization, nasalization, and palatalization.
+
+
+
 
 #### Glide and Diphthongs
 
