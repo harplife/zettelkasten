@@ -291,6 +291,8 @@ Both  `/l, ɫ/` are allophones of `⟨l⟩`, so distinction between them does no
 While tie bar (arc) symbol above or below the two consonants is not necessary, but it helps to clarify.
 
 ---
+We've covered before that an **allophone** is any set of indistinguishable speech sounds used to pronounce a single phoneme.
+
 Allophones for `/t/`
 **/ɾ/** (flap) : water, bottle
 **/ʔ/** (glottal stop) : button, mountain, uh-oh
@@ -363,6 +365,9 @@ In case of syllabic consonants, we can phonemically transcribe them with a prece
 - `/m/` - `/əm/` - "rhythm" is `/ˈrɪðəm/`
 - `/r/` - `/ər/` - "butter" is `/ˈbʌtər/`
 - `/l/` - `/əl/` - "bottle" is `/ˈbɑtəl/`
+
+> [!note] I've always wondered how Americans interpret the Korean "ㅡ" sound (transcribed as `/ɯ/`). It seems unaspirated, unstressed `/ə/` is the closest we get.
+
 
 
 #### Glide and Diphthongs
