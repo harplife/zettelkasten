@@ -296,11 +296,11 @@ We've covered before that an **allophone** is any set of indistinguishable speec
 We're not going to cover every allophones of each phonemes in GA, but we'll cover some phonemes with significant differences - `/t, p, k/`.
 
 In GA, `/t/` is rather particular and has more allophones than other phonemes.
-- Aspirated `[tʰ]` : "top", "tap", "time", "talk", "train"
-- Unaspirated `[t]` (generally for `/st/`) : "stop", "star", "stick"
-- Alveolar Tap/Flap `[ɾ]` : "uh-oh", "coating", "betting", "atom"
-- Glottal Stop `[ʔ]` : "button", "mountain", "bottle", "lightbulb"
-- Unreleased `[t̚]` (word final, unaspirated) : "amount", "ancient", "cat", "goat", "vent", "patient"
+- Aspirated "True" T `[tʰ]` : "top", "tap", "time", "talk", "train"
+- Unaspirated T `[t]` (generally for `/st/`) : "stop", "star", "stick"
+- Flapped T `[ɾ]` : "uh-oh", "coating", "betting", "atom", "bottle"
+- Glottalized T `[ʔ]` : "button", "mountain", "lightbulb", "right now"
+- Unreleased T `[t̚]` (word final, unaspirated) : "amount", "ancient", "cat", "goat", "vent", "patient"
 - Nasal Release
 
 > [!warning] Although google search is telling me that there is "regular" `/t/`, I'm not getting a sound explanation or example of such.
