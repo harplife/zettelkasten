@@ -301,16 +301,6 @@
             }
           },
           {
-            "id": "c513c08b64ec3a16",
-            "type": "leaf",
-            "state": {
-              "type": "dictionary-view",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "dictionary-view"
-            }
-          },
-          {
             "id": "cc30698aa4dc8073",
             "type": "leaf",
             "state": {
@@ -321,7 +311,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       },
       {
         "id": "baddb2b819dd740a",
@@ -379,10 +369,10 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "6bfd33caace19aee",
+  "active": "cc30698aa4dc8073",
   "lastOpenFiles": [
-    "chemistry/alchemy/The_Alchemic_Script.md",
     "language/International_Phonetic_Alphabet.md",
+    "chemistry/alchemy/The_Alchemic_Script.md",
     "attachments/Pasted image 20260131120548.png",
     "attachments/Pasted image 20260129231817.png",
     "attachments/Pasted image 20260129174322.png",

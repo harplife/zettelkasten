@@ -233,6 +233,13 @@ Consonant phonemes in [General American](https://en.wikipedia.org/wiki/General_A
 | `/ɹ̠/` (r but no tap) | voiced           | **r**un, ca**r**                                                            |
 
 ---
+#define An [Affricate](https://en.wikipedia.org/wiki/Affricate) is a consonant that begins as a stop and releases as a fricative, generally with the same place of articulation. GA has two affricate phonemes :
+- `/d͡ʒ/` (j)
+- `/t͡ʃ/` (ch)
+
+While tie bar (arc) symbol above or below the two consonants is not necessary, but it helps to clarify.
+
+---
 #define A [Sibilant](https://en.wikipedia.org/wiki/Sibilant) is a high-intensity, high-pitched fricative or affricate consonant produced by directing airflow with the tongue against the teeth. In other words, it is a "hissing" or "hushing" sound.
 
 In GA, the sibilant consonants are :
@@ -284,19 +291,31 @@ Both  `/l, ɫ/` are *allophones* of `⟨l⟩`, so distinction between them does 
 - `/ɫ/` is written as `/l/` for convenience
 
 ---
-#define An [Affricate](https://en.wikipedia.org/wiki/Affricate) is a consonant that begins as a stop and releases as a fricative, generally with the same place of articulation. GA has two affricate phonemes :
-- `/d͡ʒ/` (j)
-- `/t͡ʃ/` (ch)
-
-While tie bar (arc) symbol above or below the two consonants is not necessary, but it helps to clarify.
-
----
 We've covered before that an **allophone** is any set of indistinguishable speech sounds used to pronounce a single phoneme.
+
+We're not going to cover every allophones of each phonemes in GA, but we'll cover some phonemes with significant differences - `/t, p, k/`.
+
+In GA, `/t/` is rather particular and has more allophones than other phonemes.
+- Regular `/t/`
+- Aspirated `[tʰ]`
+- Unaspirated `[t]`
+- Alveolar Tap/Flap `[ɾ]`
+- Glottal Stop `[ʔ]`
+- Unreleased `[t̚]` : "amount", "ancient", "cat", "goat", "vent", "patient"
+- Nasal Release
 
 Allophones for `/t/`
 **/ɾ/** (flap) : water, bottle
 **/ʔ/** (glottal stop) : button, mountain, uh-oh
 
+<center>. . .</center>
+
+
+Allophones for p
+Allophones for k
+
+Honorable mentions
+Allophones for d
 Allophones for `/l/`
 
 
@@ -330,6 +349,21 @@ GA typically features **14-16 vowels**, (i, ɪ, eɪ, ɛ, æ, ɑ, ɔ, oʊ, ʊ, u,
 
 ### Special Consonants & Vowels
 
+#### Assimilation
+
+#todo assimilation of place, or of manner
+
+#todo Word Boundary Assimilation
+
+#todo Dentalization
+
+> [!important] Omitting word boundary assimilation (assimilation in connected speech) is generally considered a form of clear, careful, or slow enunciation.
+> - Ten bucks -> instead of "tem bucks", say ten. bucks.
+> - want you -> instead of "wanchu", say want. you.
+> - did you -> instead of "didju", say did. you.
+> - bless you -> instead of "bleshu", say bless. you.
+
+
 #### Co-articulated Consonants
 
 #todo A [Co-articulated Consonant](https://en.wikipedia.org/wiki/Co-articulated_consonant) is a consonant produced by simultaneous (or rapidly overlapping) articulations of adjacent sounds, commonly resulting in labialization, velarization, nasalization, and palatalization.
@@ -339,6 +373,7 @@ w and y
 
 velarization
 light l and dark l (already covered this)
+n to ŋ
 
 
 #### Syllabic Consonants
@@ -369,6 +404,44 @@ In case of syllabic consonants, we can phonemically transcribe them with a prece
 > [!note] I've always wondered how Americans interpret the Korean "ㅡ" sound (transcribed as `/ɯ/`). It seems unaspirated, unstressed `/ə/` is the closest we get.
 
 
+#### Affricated T
+
+Affricated T `[t͡ʃ]` ("ch") is not *technically* an allophone of `/t/`, but it can sometimes be considered as one depending on context. Such as :
+- `⟨t⟩` + `⟨u⟩` combination
+- `⟨t⟩` + `⟨r⟩` combination
+- Connected Speech (Word-Boundary Assimilation)
+
+<center>. . .</center>
+
+When a word contains a `⟨t⟩` followed by a `⟨u⟩` with `/j/` sound (often spelled with `⟨u⟩`, `⟨ure⟩`, or `⟨iu⟩`), `/t/` commonly becomes `[t͡ʃ]`.
+- "Picture" : `/ˈpɪktjər/` -> `[ˈpɪkt͡ʃər]`
+- "Natural" : `/ˈnætjərəl/` -> `[ˈnæt͡ʃrəl]`
+- "Actual" : `/ˈæktjuəl/` -> `[ˈækt͡ʃuəl]`
+- "Virtue" : `/ˈvɜːrtjuː/` -> `[ˈvɜːrt͡ʃuː]`
+- "Fortune" : `/ˈfɔːrtjən/` -> `[ˈfɔːrt͡ʃən]`
+- "Century" : `/ˈsɛntjəri/` -> `[ˈsɛnt͡ʃəri]`
+- "Capture" : `/ˈkæptjər/` -> `[ˈkæpt͡ʃər] `
+
+<center>. . .</center>
+
+When a word contains a `⟨t⟩` followed by a `⟨r⟩`, `/t/` commonly becomes `[t͡ʃ]`.
+- "True" : `/truː/` -> `[t͡ʃruː]`
+- "Tree" : `/triː/` -> `[t͡ʃriː]`
+- "Try" : `/traɪ/` -> `[t͡ʃraɪ]`
+- "Trip" : `/trɪp/` -> `[t͡ʃrɪp]`
+- "Traffic" : `/ˈtræfɪk/` -> `[ˈt͡ʃræfɪk] `
+
+<center>. . .</center>
+
+#todo probably should cover Assimilation before this topic.
+
+When a word ending in `/t/` is followed by a word starting with `/j/`, the sounds blend into `[t͡ʃ]`.
+- "Meet you" : `/miːt juː/` -> `[miːt͡ʃuː]`
+- "Don't you" : `/doʊnt juː/` -> `[doʊnt͡ʃuː]`
+- "Won't you" : `/woʊnt juː/` -> `[woʊnt͡ʃuː]`
+- "Got you" : `/ɡɑːt juː/` -> `[ɡɑːt͡ʃu]`
+
+
 
 #### Glide and Diphthongs
 
@@ -391,3 +464,43 @@ The main consonant glides in English are :
 - **/ɪə/** ("near," "fear")
 - **/ʊə/** ("tour," "cure")
 
+
+
+### Non-Phonetic Words
+
+#define **Non-Phonetic Words** (aka Red Words) are words that are spelled differently than how it sounds.
+
+In GA, there are very few universal rules to predict the pronunciation of the red words; there are patterns, etymological clues, and common consonant/vowel combinations that helps. Otherwise, they must generally be memorized.
+
+Silent letters
+- initial kn : knife, knee, know, knight
+- initial wr : write, wrong, wrist, wrap
+- initial ps : psychology, pseudo
+- -mn at the end : autumn, damn, column
+- -bt at the end : doubt, debt
+- -mb at the end : comb, thumb
+- -gh or -ght : though, through, thought, enough, tough
+
+
+
+Loanword and origin (borrowed words)
+- French influence (words ending in -et or -eau, or containing -ou-) : rendezvous, bouquet, ballet, echelon, faux pas
+- Greek influence (words with 'ch' pronounced as /k/) : character, chaos, psychology, archipelago
+
+
+
+Vowel diphthongs and inconsistencies
+
+
+
+Double consonants
+
+
+
+I before e
+
+
+Silent e at the end
+
+
+Function words

@@ -2059,16 +2059,6 @@
                 }
               },
               {
-                "id": "c513c08b64ec3a16",
-                "type": "leaf",
-                "state": {
-                  "type": "dictionary-view",
-                  "state": {},
-                  "icon": "lucide-ghost",
-                  "title": "dictionary-view"
-                }
-              },
-              {
                 "id": "cc30698aa4dc8073",
                 "type": "leaf",
                 "state": {
@@ -2079,7 +2069,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 4
           },
           {
             "id": "baddb2b819dd740a",
@@ -2137,8 +2127,8 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "6bfd33caace19aee",
-      "mtime": "2026-02-01T13:20:54-06:00",
+      "active": "cc30698aa4dc8073",
+      "mtime": "2026-02-01T18:29:53-06:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "chemistry",
