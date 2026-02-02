@@ -24,7 +24,7 @@ The IPA is designed to represent the qualities of speech that are part of lexica
 
 The general principle of the IPA is to provide one letter for each distinctive sound (phoneme). This means that :
 - It does not use combinations of letters to represent single sounds (e.g. "sh", "ea"), nor single letters to represent multiple sounds (e.g. "x").
-- There are no letters that have context-dependent sound values (e.g. "c" sounding like "case" or "cease", and "g" sounding like "game" or "germ").
+- In the strictest sense, there are no letters that have context-dependent sound values (e.g. "c" sounding like "case" or "cease", and "g" sounding like "game" or "germ"). Every single speech sound has their equivalent symbol.
 
 IPA consists of :
 - 107 letters representing consonants and vowels
@@ -96,6 +96,8 @@ A [Phoneme](https://en.wikipedia.org/wiki/Phoneme) is any set of similar speech 
 An [Allophone](https://en.wikipedia.org/wiki/Allophone) is any set of *perceptually indistinguishable* speech sounds used to pronounce a single phoneme.
 - #example In American English, the "t" sounds in the words "top", "water" and "mountain" are allophones. They all share the same phoneme "t", but they all sound slightly different.
 
+<center>. . .</center>
+
 In IPA, we use the **phonemic** transcription (using slashes `/ /`) when we describe sound by their abstract, distinct sound using *phonemes*. We use the **phonetic** transcription (using brackets `[ ]`) when we describe the actual sounds precisely and detailed (including subtle variations like allophones).
 
 #example Going back to the words "top", "water", and "mountain", we can transcribe them phonemically or phonetically. Like so :
@@ -103,12 +105,12 @@ In IPA, we use the **phonemic** transcription (using slashes `/ /`) when we desc
 - water : `/ˈwɔtər/` or `[ˈwɔɾɚ]`
 - mountain : `/mɑntn/` or `[ˈmãʊ̃ʔn̩]`
 
-Note that these words have `/t/` in common, but it is pronounced in three different ways -  "t" `[tʰ]`, "d/r" `[ɾ]`, or some kind of groaning sound `[ʔ]`.
+Note that these words have `/t/` in common, but it is pronounced in three different ways -  "t" `[tʰ]`, "d/r" `[ɾ]`, or some kind of groaning sound `[ʔ]`. More on this later.
 
 > [!important] "Perceived Sound" is an important factor in IPA.
 > We all have our own unique dialects and accents, which means not all of us will pronounce the words the same. Not only that, our unique minds perceive things differently in our own unique ways, including sounds.
 > 
-> While IPA is used to describe speech sound systematically and in detail, it is not a perfect measurement of speech sound. Meaning, we aren't shooting for perfect representation of speech sound, and instead, we are trying to describe the sound as we hear and perceive them.
+> While IPA is used to describe speech sound systematically and in detail, it is not a perfect measurement of speech sound. Meaning, we aren't shooting for perfect representation of speech sound, and instead, we are trying to describe the sound as we hear and perceive them as best as possible.
 
 Additionally, the angular brackets `⟨ ⟩` are used to indicate *graphemes* or spelling of a language in written text, rather than their phonetic sounds.
 - #define A **Grapheme** is the smallest functional unit of a writing system, representing a single phoneme.
