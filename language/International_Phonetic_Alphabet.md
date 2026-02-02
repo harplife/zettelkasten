@@ -296,9 +296,9 @@ We've covered before that an **allophone** is any set of indistinguishable speec
 We're not going to cover every allophones of each phonemes in GA, but we'll cover some phonemes with significant differences - `/t, p, k/`.
 
 In GA, `/t/` is rather particular and has more allophones than other phonemes.
-- Regular `/t/`
-- Aspirated `[tʰ]`
-- Unaspirated `[t]`
+- Regular `/t/` : "sentence", "painting"
+- Aspirated `[tʰ]` : "top", "tap", "time", "talk", "train"
+- Unaspirated `[t]` (generally for `/st/`) : "stop", "star"
 - Alveolar Tap/Flap `[ɾ]`
 - Glottal Stop `[ʔ]`
 - Unreleased `[t̚]` : "amount", "ancient", "cat", "goat", "vent", "patient"
@@ -483,24 +483,28 @@ Silent letters
 
 
 
-Loanword and origin (borrowed words)
+Loanword and origin
 - French influence (words ending in -et or -eau, or containing -ou-) : rendezvous, bouquet, ballet, echelon, faux pas
 - Greek influence (words with 'ch' pronounced as /k/) : character, chaos, psychology, archipelago
 
 
 
 Vowel diphthongs and inconsistencies
+- "ou" : though, through, tough, thought
+- "o" as /ʌ/ : from, love, come, does
 
 
-
-Double consonants
-
+Double consonant pairs
+- accommodate, aggression, occurrence
 
 
 I before e
+- weird, foreign, neighbor, weigh, glacier, science
 
 
 Silent e at the end
+- bathe, soothe
 
 
 Function words
+- high-frequency, small words : the, to, was, you, one, of, where, were
