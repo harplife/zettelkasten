@@ -293,7 +293,7 @@ Both  `/l, ɫ/` are *allophones* of `⟨l⟩`, so distinction between them does 
 ---
 We've covered before that an **allophone** is any set of indistinguishable speech sounds used to pronounce a single phoneme.
 
-We're not going to cover every allophones of each phonemes in GA, but we'll cover some phonemes with significant differences - `/t, p, k/`.
+We're not going to cover every allophones of each phonemes in GA, but we'll cover the allophones of `/t/`.
 
 In GA, `/t/` is rather particular and has more allophones than other phonemes.
 - Aspirated "True" T `[tʰ]` : "top", "tap", "time", "talk", "train"
@@ -309,20 +309,11 @@ In GA, `/t/` is rather particular and has more allophones than other phonemes.
 > - Middle (flap or stop)
 > - Final (unreleased)
 
-Allophones for `/t/`
-**/ɾ/** (flap) : water, bottle
-**/ʔ/** (glottal stop) : button, mountain, uh-oh
+> [!important] The allophones of `/d/` are similar to the allophones of `/t/` in a few ways.
+> - Alveolar Flap `[ɾ]` : "buddy", "leader"
+> - Nasal Release : "hidden"
 
-<center>. . .</center>
-
-
-Allophones for p
-Allophones for k
-
-Honorable mentions
-Allophones for d
-Allophones for `/l/`
-
+> [!important] In GA, phonemes like `/p, k/` have aspirated, unaspirated, and unreleased allophones.
 
 
 ---
