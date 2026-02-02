@@ -8,7 +8,6 @@
 
 #definition [Phone](<https://en.wikipedia.org/wiki/Phone_(phonetics)>) : (in phonetics) Any distinct speech sound.
 - Phones are the [segments](<https://en.wikipedia.org/wiki/Segment_(linguistics)>) of speech that possess distinct physical or perceptual properties, regardless of whether the exact sound is critical to the meanings of words.
-- See also : [Allophone](https://en.wikipedia.org/wiki/Allophone)
 
 #definition [Phonetic Notation](https://en.wikipedia.org/wiki/Phonetic_transcription) (Phonetic Transcription) : The visual representation of phones by means of symbols.
 
