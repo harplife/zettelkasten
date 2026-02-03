@@ -43,6 +43,11 @@ IPA consists of :
 https://www.ipachart.com/
 
 
+### IPA Manners and Features
+
+![[IPA-features.svg]]
+
+
 ## Basic Overview
 
 ### Syllable
