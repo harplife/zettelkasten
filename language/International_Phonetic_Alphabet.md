@@ -366,10 +366,14 @@ GA typically features **14-16 vowels**, (i, ɪ, eɪ, ɛ, æ, ɑ, ɔ, oʊ, ʊ, u,
 #todo labialization
 `/w/` and `/j/`
 
+
 #todo Yod Dropping after alveolar consonants
 - `/j/` is dropped in stressed syllables after all alveolar and dental consonants (except `/p, b, f, h, k, m/`).
+	- `/j/` is dropped after `/t,d,n,s,z,l/`
 - This applies also to syllables often transcribed with the secondary stress mark `⟨ˌ⟩` (e.g. "avenue" `/ˈævəˌnu/`), but it is retained for unstressed syllables (e.g. "menu" `/ˈmɛnju/`).
-- new, Tuesday, assume, duke
+- new, Tuesday, assume, duke, tune, due, suit
+
+> [!note] This actually blows my mind. I've been saying all these words with yod all this time.
 
 
 #todo velarization
