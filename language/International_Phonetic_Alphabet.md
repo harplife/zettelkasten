@@ -203,6 +203,8 @@ Consonant phonemes in [General American](https://en.wikipedia.org/wiki/General_A
 
 > [!important] The chart above is *not as accurate* as the official IPA chart. It's just for generalization.
 
+> [!important] See [IPA : Full List of Consonants](https://en.wikipedia.org/wiki/List_of_consonants).
+
 ---
 #example common GA consonants :
 
@@ -231,21 +233,24 @@ Consonant phonemes in [General American](https://en.wikipedia.org/wiki/General_A
 | `/l/`                 | voiced           | **l**ight, fi**ll**                                                         |
 | `/ɹ̠/` (r but no tap) | voiced           | **r**un, ca**r**                                                            |
 
----
+#### Affricates
+
 #define An [Affricate](https://en.wikipedia.org/wiki/Affricate) is a consonant that begins as a stop and releases as a fricative, generally with the same place of articulation. GA has two affricate phonemes :
 - `/d͡ʒ/` (j)
 - `/t͡ʃ/` (ch)
 
 While tie bar (arc) symbol above or below the two consonants is not necessary, but it helps to clarify.
 
----
+#### Sibilants
+
 #define A [Sibilant](https://en.wikipedia.org/wiki/Sibilant) is a high-intensity, high-pitched fricative or affricate consonant produced by directing airflow with the tongue against the teeth. In other words, it is a "hissing" or "hushing" sound.
 
 In GA, the sibilant consonants are :
 - (fricatives) `/s, z, ʃ, ʒ/`
 - (affricates) `/d͡ʒ, t͡ʃ/`
 
----
+#### Interdental Consonants
+
 #define An [Interdental Consonant](https://en.wikipedia.org/wiki/Interdental_consonant) is a consonant produced by placing the tip of the tongue between the upper and lower front teeth.
 - This differs from typical dental consonants, which are articulated with the tongue against the *back* of the upper incisors.
 
@@ -260,7 +265,8 @@ In GA, the interdental consonants are :
 > 
 > There are some general rules to distinguish them, but we'll skip on that for now.
 
----
+#### Liquids (Rhotic and Lateral)
+
 #define A [Liquid Consonant](https://en.wikipedia.org/wiki/Liquid_consonant) (Liquid) is a unique, vowel-like consonant produced with partial, non-obstructive closure in the mouth. Liquids either *modify* or are *modified by* surrounding sounds, often influencing preceding vowels.
 
 Liquids consists of *rhotics* and *voiced lateral approximants* :
@@ -269,15 +275,15 @@ Liquids consists of *rhotics* and *voiced lateral approximants* :
 
 <center>. . .</center>
 
-In GA, the only rhotic consonant is the voiced post-alveolar approximant `/ɹ̠/`, used for the the English letter `⟨r⟩`. It is typically written as `/r/` (voiced alveolar trill) for convenience, but the main difference is that the tongue does not touch the alveolar.
+In GA, the only rhotic consonant is the **voiced post-alveolar approximant** `/ɹ̠/`, used for the the English letter `⟨r⟩`. It is typically written as `/r/` (voiced alveolar trill) for convenience, but the main difference is that the tongue does not touch the alveolar.
 - `/r/` is more prominent in Spanish languages. It is called a "rolling-R".
 - #define The term "rhoticity" indicates whether an accent pronounces the `⟨r⟩`s. A rhotic accent pronounces it ("car" -> car), and non-rhotic accent doesn't ("car" -> cah).
 
 <center>. . .</center>
 
 In GA, there are *technically* two lateral consonants :
-- Voiced alveolar lateral approximant `/l/`, aka "Light L"
-- Velarized alveolar lateral approximant `/ɫ/`, aka "Dark L"
+- **Voiced alveolar lateral approximant** `/l/`, aka "Light L"
+- **Velarized alveolar lateral approximant** `/ɫ/`, aka "Dark L"
 
 The sound `/l/` is produced by placing the tip of the tongue against the alveolar ridge to block the central airflow. Generally, this sound occurs before vowels (e.g. "light", "fly").
 
@@ -289,7 +295,9 @@ Both  `/l, ɫ/` are *allophones* of `⟨l⟩`, so distinction between them does 
 - `/l/` can replace `/ɫ/` for *enunciation* (e.g. "fill", "ball")
 - `/ɫ/` is written as `/l/` for convenience
 
----
+
+#### Allophones
+
 We've covered before that an **allophone** is any set of indistinguishable speech sounds used to pronounce a single phoneme.
 
 We're not going to cover every allophones of each phonemes in GA, but we'll cover the allophones of `/t/`.
@@ -313,21 +321,6 @@ In GA, `/t/` is rather particular and has more allophones than other phonemes.
 > - Nasal Release : "hidden"
 
 > [!important] In GA, phonemes like `/p, k/` have aspirated, unaspirated, and unreleased allophones.
-
-
----
-Approximants (semi-vowel) // co-articulated consonants
-/w/: **wi**n, q**uee**n
-- Sometimes **/ʍ/** or **/hw/** is used for "wh" sound where "h" sound is not prominent but it is still more "breathier" than "w" sound (e.g. *which* or *whale*).
-/j/ (y): **y**es, **y**ou
-
-> [!important] It seems GA sound of "r" (in words like *red* or *try*) is often denoted as **/ɹ/** as opposed to **/r/**.
-> This is because **/r/** is a voiced alveolar trill (Spanish sounding), whereas **/ɹ/** is voiced alveolar approximant (English sounding). In American English, the sound is often further back in the mouth, technically a voiced post-alveolar approximant **/ɹ̠/**.
-
-
----
-#todo Nasalization for vowels
-
 
 
 ### Vowels
@@ -366,6 +359,9 @@ GA typically features **14-16 vowels**, (i, ɪ, eɪ, ɛ, æ, ɑ, ɔ, oʊ, ʊ, u,
 #todo labialization
 `/w/` and `/j/`
 
+/w/: **wi**n, q**uee**n
+- Sometimes **/ʍ/** or **/hw/** is used for "wh" sound where "h" sound is not prominent but it is still more "breathier" than "w" sound (e.g. *which* or *whale*).
+/j/ (y): **y**es, **y**ou
 
 #todo Yod Dropping after alveolar consonants
 - `/j/` is dropped in stressed syllables after all alveolar and dental consonants (except `/p, b, f, h, k, m/`).
