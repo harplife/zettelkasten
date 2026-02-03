@@ -177,8 +177,6 @@ In the table above, I use the term "against" but it doesn't necessarily mean the
 
 ![[Pasted image 20260131120548.png]]
 
-There is a distinction between active (moving part) and passive (static part) articulators, but I'll pass on the detail for now.
-
 
 ---
 **The Manner of Articulation** describes *how* speech organs (e.g. tongue, lips, teeth) constrict or modify airflow in the vocal tract to produce consonant sounds.
@@ -197,7 +195,7 @@ Key manners of articulation include :
 
 #### Common GA Consonants
 
-GA typically features **24 consonants** (p, b, t, d, k, g, f, v, θ, ð, s, z, ʃ, ʒ, h, tʃ, dʒ, m, n, ŋ, l, r, w, j).
+GA typically features **24 consonants** (`/p, b, t, d, k, g, f, v, θ, ð, s, z, ʃ, ʒ, h, tʃ, dʒ, m, n, ŋ, l, r, w, j/`).
 
 Consonant phonemes in [General American](https://en.wikipedia.org/wiki/General_American_English)
 ![[Pasted image 20260125224252.png]]
@@ -365,10 +363,16 @@ GA typically features **14-16 vowels**, (i, ɪ, eɪ, ɛ, æ, ɑ, ɔ, oʊ, ʊ, u,
 
 #todo A [Co-articulated Consonant](https://en.wikipedia.org/wiki/Co-articulated_consonant) is a consonant produced by simultaneous (or rapidly overlapping) articulations of adjacent sounds, commonly resulting in labialization, velarization, nasalization, and palatalization.
 
-labialization
-w and y
+#todo labialization
+`/w/` and `/j/`
 
-velarization
+#todo Yod Dropping after alveolar consonants
+- `/j/` is dropped in stressed syllables after all alveolar and dental consonants (except `/p, b, f, h, k, m/`).
+- This applies also to syllables often transcribed with the secondary stress mark `⟨ˌ⟩` (e.g. "avenue" `/ˈævəˌnu/`), but it is retained for unstressed syllables (e.g. "menu" `/ˈmɛnju/`).
+- new, Tuesday, assume, duke
+
+
+#todo velarization
 light l and dark l (already covered this)
 n to ŋ
 
@@ -460,7 +464,6 @@ The main consonant glides in English are :
 - **/eə/** ("hair," "bear")
 - **/ɪə/** ("near," "fear")
 - **/ʊə/** ("tour," "cure")
-
 
 
 ### Non-Phonetic Words
