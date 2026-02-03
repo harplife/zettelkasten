@@ -340,6 +340,25 @@ In GA, `/t/` is rather particular and has more allophones than other phonemes.
 GA typically features **14-16 vowels**, (i, ɪ, eɪ, ɛ, æ, ɑ, ɔ, oʊ, ʊ, u, ʌ, ə, aɪ, aʊ, ɔɪ).
 
 
+
+#### Stresses
+
+marking the louder/longer syllable with a superscript vertical line (ˈ) for primary and subscript (ˌ) for secondary, typically placed before the affected syllable
+
+While English is not strictly syllable-timed, stress patterns heavily influence vowel reduction, where unstressed vowels often become a schwa /ə/ or /ɪ/.
+
+Key Patterns for English Stress:
+
+- **Noun vs. Verb Pairs:** Many two-syllable words change meaning based on stress placement: Nouns typically stress the first syllable (_REcord_ /ˈrɛkərd/), while verbs stress the second (_reCORD_ /rɪˈkɔrd/).
+- **Compound Nouns:** Often, the first element receives primary stress (e.g., _NEWspaper_ /ˈnuzˌpeɪpər/).
+- **Two-Syllable Nouns/Adjectives:** Frequently stress the first syllable (e.g., _TABLE_ /ˈteɪbəl/, _HAPPY_ /ˈhæpi/).
+- **Two-Syllable Verbs/Prepositions:** Frequently stress the second syllable (e.g., _DECIDE_ /dɪˈsaɪd/, _ABOUT_ /əˈbaʊt/).
+- **Suffix Influence:** Words ending in _-tion_, _-sion_, _-ic_, and _-ity_ usually place primary stress on the syllable immediately preceding the suffix (e.g., _information_ /ˌɪnfərˈmeɪʃən/).
+- **Length & Position:** Primary stress can fall on the 1st, 2nd, or 3rd syllable, making it essential to check the dictionary for unfamiliar words, as spelling does not always indicate stress placement.
+- **Secondary Stress:** Often found in long words, particularly on the first or second syllable, preceding the primary stress (e.g., _monumental_ /ˌmɑnjəˈmɛntəl/).
+
+
+
 ### Special Consonants & Vowels
 
 #### Assimilation
