@@ -356,7 +356,8 @@ A stress is described as either *primary* or *secondary*.
 **Secondary Stress** marks the weaker but still noticeably loud syllable in the word, and denoted with a lowered tick `⟨ˌ⟩`.
 - #example "Information" -> `/ˌɪn.fərˈmeɪ.ʃən/`, the "in" sound is slightly emphasized.
 
-Typically, a syllable break `⟨.⟩`
+Typically, a syllable break `⟨.⟩` is used to indicate the division between syllables within a word. It makes transcription easier to read (so it is mostly for convenience).
+- When a stress is used in a word, a syllable break is used to distinguish unstressed 
 
 When a stress is used in a word,  is often used to distinguish unstressed syllables.
 
