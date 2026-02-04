@@ -534,3 +534,16 @@ Silent e at the end
 
 Function words
 - high-frequency, small words : the, to, was, you, one, of, where, were
+
+
+
+---
+
+
+
+```lua
+-7 |  1  0  -3
+        -7  49
+   ------------
+      1 -7  46
+```
