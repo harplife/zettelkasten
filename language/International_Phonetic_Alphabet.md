@@ -351,11 +351,12 @@ In the IPA, stress is marked by a vertical tick placed *before* the syllable.
 A stress is described as either *primary* or *secondary*.
 
 **Primary Stress** marks the loudest/most prominent syllable in the word, and denoted with a raised tick `⟨ˈ⟩`.
-- #example "Tomato" -> `/təˈmeɪtoʊ/`, the "may" sound is the loudest.
+- #example "Tomato" -> `/təˈmeɪ.toʊ/`, the "may" sound is the loudest.
 
-Secondary Stress marks the weaker but still noticeably loud syllable in the word, and denoted with a lowered tick `⟨ˌ⟩`.
-- #example "Information" -> `/ˌɪnfərˈmeɪʃən/`, the "in" sound is slightly emphasized.
+**Secondary Stress** marks the weaker but still noticeably loud syllable in the word, and denoted with a lowered tick `⟨ˌ⟩`.
+- #example "Information" -> `/ˌɪn.fərˈmeɪ.ʃən/`, the "in" sound is slightly emphasized.
 
+When a stress is used, a syllable break `⟨.⟩` is often used to distinguish
 
 Syllables that have neither primary nor secondary stress are called unstressed.
 
