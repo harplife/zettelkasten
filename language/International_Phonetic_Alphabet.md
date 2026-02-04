@@ -343,6 +343,18 @@ GA typically features **14-16 vowels**, (i, ɪ, eɪ, ɛ, æ, ɑ, ɔ, oʊ, ʊ, u,
 
 #### Stresses
 
+#define [Stress](<https://en.wikipedia.org/wiki/Stress_(linguistics)>) (or Accent) is the relative emphasis or prominence given to a certain syllable in a word or to a certain word in a phrase or sentence.
+- This emphasis is made by increased loudness and vowel length, full articulation of the vowel, and changes in pitch/tone.
+
+In the IPA, stress is marked by a vertical tick placed *before* the syllable.
+
+A stress is described as either *primary* or *secondary*.
+
+**Primary Stress** marks the loudest/most prominent syllable in the word, and denoted with a raised tick `⟨ˈ⟩`.
+- #example "Tomato" -> `/təˈmeɪ.toʊ/` the "may" sound is the loudest.
+
+Secondary Stress marks the weaker, but still noticeable
+
 marking the louder/longer syllable with a superscript vertical line (ˈ) for primary and subscript (ˌ) for secondary, typically placed before the affected syllable
 
 Syllables that have neither primary nor secondary stress are called unstressed.
@@ -538,8 +550,3 @@ Function words
 
 
 ---
-
-
-$\frac{x+10}{x}$
-
-
