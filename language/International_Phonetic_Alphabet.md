@@ -345,6 +345,8 @@ GA typically features **14-16 vowels**, (i, ɪ, eɪ, ɛ, æ, ɑ, ɔ, oʊ, ʊ, u,
 
 marking the louder/longer syllable with a superscript vertical line (ˈ) for primary and subscript (ˌ) for secondary, typically placed before the affected syllable
 
+Syllables that have neither primary nor secondary stress are called unstressed.
+
 While English is not strictly syllable-timed, stress patterns heavily influence vowel reduction, where unstressed vowels often become a schwa /ə/ or /ɪ/.
 
 Key Patterns for English Stress:
