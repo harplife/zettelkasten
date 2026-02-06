@@ -373,10 +373,10 @@ In GA, unstressed syllables are reduced in four different ways :
 
 
 #example Mid/low vowels reduced to `/ə/` :
-- About : /əˈbaʊt/ (from /æ/ or /eɪ/)
-- Sofa : /ˈsoʊfə/
-- Computer : /kəmˈpjuːtɚ/
-- Official : /əˈfɪʃəl/
+- "About" : /əˈbaʊt/ (from /æ/ or /eɪ/)
+- "Sofa" : /ˈsoʊfə/
+- "Computer" : /kəmˈpjuːtɚ/
+- "Official" : /əˈfɪʃəl/
 
 <center>. . .</center>
 
