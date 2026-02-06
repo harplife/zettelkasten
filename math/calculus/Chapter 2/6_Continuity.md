@@ -160,8 +160,29 @@ Def : Continuity at Endpoints
 
 Theorem : The Intermediate Value Theorem
 
-Suppose $f$ is continuous on the interval $[a,b]$ and $L$ is a number strictly between $f(a)$ and $f(b)$. Then, there exists at least one number $c$ in $(a, b)$ satisfying $f(c)=L$.
+Suppose $f$ is **continuous** on the interval $[a,b]$ and $L$ is a number strictly between $f(a)$ and $f(b)$. Then, there exists **at least one** number $c$ in $(a, b)$ satisfying $f(c)=L$.
 
+> [!important] If $L$ is above the maximum or below the minimum of $f(a)$ and $f(b)$, the theorem does not apply, though the function could still hit $L$ elsewhere, it is not guaranteed by the IVT.
+
+You can use the IVT to determine if an equation has a solution on the given interval :
+
+1) Define the function
+2) Verify continuity
+3) Evaluate endpoints & verify $f(a)<L<f(b)$
+4) Apply the theorem
+
+---
+#example Use the IVT to show that $\sqrt{ x^4+25x^3+10 }=5$ has a solution on the interval $(0,1)$.
+
+1) Let $f(x)=\sqrt{ x^4+25x^3+10 }$
+2) $f$ is continuous on $[0,1]$
+3) $f(0)=3.2$, $f(1)=6$, and $L=5$ --> $f(0)<L<f(1)$
+4) By the IVT, there exists $c$ in $(0,1)$ such that $f(c)=5$ .
+
+
+### Finding the c value using the calculator
+
+Use the "Calc" function on TI-84 (2nd --> trace), select "intersect", choose curve 1 (of function 1), choose curve 2 (of function 2), and then enter. It should give an estimate on where these two curves intersect.
 
 
 
