@@ -359,8 +359,9 @@ A stress is described as either *primary* or *secondary*.
 Typically, a **syllable break** `⟨.⟩` is used to indicate the division between syllables within a word. It makes transcription easier to read (it is mostly for convenience).
 - When a stress is used in a word, a syllable break helps to distinguish unstressed syllables.
 
-Absence of stress on a syllable, or on a word in some cases, is frequently associated in English with vowel reduction.
+Absence of stress on a syllable, or on a word in some cases, is frequently associated with *vowel reduction*.
 - #define [Vowel Reduction](https://en.wikipedia.org/wiki/Vowel_reduction) refers to any change in the acoustic quality of vowels as a result of changes in stress, sonority, duration, loudness, articulation, or position in the word, which are perceived as "weakening". It often makes the vowels shorter.
+- Many such syllables are pronounced with a centralized vowel (e.g. schwa `/ə/`) or with certain other vowels that are described as being "reduced" (or sometimes with a syllabic consonant as the syllable nucleus).
 
 
 <center>. . .</center>
