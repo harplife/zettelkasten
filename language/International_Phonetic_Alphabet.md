@@ -340,6 +340,7 @@ In GA, `/t/` is rather particular and has more allophones than other phonemes.
 GA typically features **14-16 vowels**, (i, ɪ, eɪ, ɛ, æ, ɑ, ɔ, oʊ, ʊ, u, ʌ, ə, aɪ, aʊ, ɔɪ).
 
 ɝ <-- r-colored vowel, stressed er sound for bird, nurse, learn
+ɚ <-- r-colored vowel, unstressed er sound for teacher, color
 
 #### Stresses
 
@@ -386,6 +387,9 @@ In GA, unstressed syllables are reduced in four different ways :
 - Surprise
 - Governor
 - Caterpillar
+- Library
+- Particular
+- Frustrated
 
 #example R-Colored Vowel Reduction `/ɚ/`
 - "Doctor" : `/ˈdɑːktɚ/`
