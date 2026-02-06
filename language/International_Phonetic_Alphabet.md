@@ -369,7 +369,7 @@ Absence of stress on a syllable, or on a word in some cases, is frequently assoc
 In GA, unstressed syllables are reduced in four different ways :
 - Mid/Low Vowels to `/ə/`
 - High Front/Back Vowels to `/ɪ/` or `/ə/`
-- R-Colored Vowel Reduction `/ɚ/`
+- 
 - Suffix Reduction
 
 
@@ -384,17 +384,13 @@ In GA, unstressed syllables are reduced in four different ways :
 - "Potato" : `/pəˈteɪtoʊ/` (first 'o' reduces)
 
 #example R-Dissimilation
-- Surprise
-- Governor
-- Caterpillar
-- Library
-- Particular
-- Frustrated
+- Surprise:  /səɹˈpɹaɪz/ \(\rightarrow \) Dissimilated [səˈpɹaɪz] (dropping the first /r/).
+- Library:  /ˈlaɪbɹɛɹi/ \(\rightarrow \) Dissimilated [ˈlaɪbɛɹi] (dropping the first /r/).
+- Governor:  /ˈɡʌvərnər/ \(\rightarrow \) Dissimilated [ˈɡʌvənər].
+- Caterpillar:  /ˈkætəɹpɪlər/ \(\rightarrow \) Dissimilated [ˈkætəpɪlər].
+- Particular:  /pərˈtɪkjələr/ \(\rightarrow \) Dissimilated [pəˈtɪkjələr].
+- Frustrated:  /fɹʌˈstreɪtɪd/ \(\rightarrow \) Dissimilated [fʌˈstreɪtɪd]. 
 
-#example R-Colored Vowel Reduction `/ɚ/`
-- "Doctor" : `/ˈdɑːktɚ/`
-- "Sister" : `/ˈsɪstɚ/`
-- "Better" : `/ˈbɛtɚ/`
 
 #example Suffix Reduction
 - "Darkness" : `/ˈdɑːrk.nəs/` (reduces to `/nəs/`)
