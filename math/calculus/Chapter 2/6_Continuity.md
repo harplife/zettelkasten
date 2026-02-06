@@ -59,7 +59,44 @@ $f(2)=\sqrt{ x-3 }=\sqrt{ -1 }$ --> Undefined.
 It fails the first condition, so it is not continuous.
 
 
+## Continuity of Composite Functions at a Point
 
+#theorem Limits of Composite Functions
+
+1. If $g$ is continuous at $a$ and $f$ is continuous at $g(a)$, then $f(g(x))$ is continuous at $a$ and $\lim\limits_{x \to a} f(g(x))=f(\lim\limits_{x \to a} g(x))$ .
+2. If $\lim\limits_{x \to a} g(x) = L$ and $f$ is continuous at $L$, then $\lim\limits_{x \to a} f(g(x))=f(L)$ .
+
+> [!important] This is a preview of **Chain Rule**, which we'll learn later on.
+
+---
+#example Evaluate the following function, and justify the answer.
+
+$$
+\lim\limits_{x \to \infty} \left( \frac{2x+1}{x} \right)^3
+$$
+
+Using the Limits of Composite Functions Theorem, we can identify $f(x)$ and $g(x)$ as :
+
+$$
+\begin{align}
+  f(x) &= x^3 \\
+  g(x) &= \frac{2x+1}{x}
+\end{align}
+$$
+
+We first find the limit of $g(x)$ as $x \to \infty$ :
+
+$$
+\lim\limits_{x \to \infty} \left( \frac{2x+1}{x} \right)
+= \lim\limits_{x \to \infty} \frac{\left( 2+\frac{1}{x} \right)}{1}
+\to \frac{2+0}{1} = 2
+$$
+
+Then we find the limit of $f(g(x))$ as $x \to \infty$ :
+
+$$
+\lim\limits_{x \to \infty} 2^3 = 8
+$$
 
 
 
