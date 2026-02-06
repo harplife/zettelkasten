@@ -372,13 +372,13 @@ In GA, unstressed syllables are reduced in four different ways :
 - Suffix Reduction
 
 
-#example Mid/low vowels reduced to `/ə/` :
+#example Mid/Low Vowels to `/ə/` :
 - "About" : `/əˈbaʊt/`
 - "Sofa" : `/ˈsoʊfə/`
 - "Computer" : `/kəmˈpjuːtɚ/`
 - "Official" : `/əˈfɪʃəl/`
 
-#example High front/back vowels to `/ɪ/` or `/ə/`
+#example High Front/Back Vowels to `/ɪ/` or `/ə/`
 - "Decide" : `/dɪˈsaɪd/` (often /ɪ/ or /ə/)
 - "Potato" : `/pəˈteɪtoʊ/` (first 'o' reduces)
 
@@ -386,6 +386,10 @@ In GA, unstressed syllables are reduced in four different ways :
 - "Doctor" : `/ˈdɑːktɚ/`
 - "Sister" : `/ˈsɪstɚ/`
 - "Better" : `/ˈbɛtɚ/`
+
+#example Suffix Reduction
+- "Darkness" : `/ˈdɑːrk.nəs/` (reduces to `/nəs/`)
+- "Important" : `/ɪmˈpɔːr.tənt/` (reduces to `/tənt/`) 
 
 <center>. . .</center>
 
