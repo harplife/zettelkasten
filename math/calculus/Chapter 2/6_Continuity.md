@@ -36,14 +36,26 @@ f(x)= \begin{cases}
 2, &x=3
 \end{cases}
 $$
-1)
+1) Prove that $f(a)$ is defined.
+
 $f(3)=2$ --> defined.
 
-2)
-$\lim\limits_{x \to 3} f(x) = 3-1 = 2$ --> exists
+2) Prove that $\lim\limits_{x \to a} f(x)$ exists.
 
-3)
-$f(x)=\lim\limits_{x \to 3} f(x)=2$
+First, we determine what $\lim\limits_{x \to a} f(x)$ is, and then simplify :
+$$
+\begin{align}
+  \lim\limits_{x \to 3} f(x) &= \frac{x^2-4x+3}{x-3} \\
+  &= \frac{(x-3)(x-1)}{x-3} \\
+  &= x-1
+\end{align}
+$$
+
+Second, we find the limit : $\lim\limits_{x \to 3} f(x) = 3-1 = 2$ --> exists
+
+3) Prove that $f(a) = \lim\limits_{x \to a} f(x)$ .
+
+$f(3)=\lim\limits_{x \to 3} f(x)=2$
 
 All three conditions are met. Therefore, the $f$ is continuous at $a=3$.
 
@@ -69,11 +81,7 @@ It fails the first condition, so it is not continuous.
 > [!important] This is a preview of **Chain Rule**, which we'll learn later on.
 
 ---
-#example Evaluate the following function, and justify the answer.
-
-$$
-\lim\limits_{x \to \infty} \left( \frac{2x+1}{x} \right)^3
-$$
+#example Evaluate the following function, and justify the answer : $$\lim\limits_{x \to \infty} \left( \frac{2x+1}{x} \right)^3$$
 
 Using the Limits of Composite Functions Theorem, we can identify $f(x)$ and $g(x)$ as :
 
@@ -95,8 +103,65 @@ $$
 Then we find the limit of $f(g(x))$ as $x \to \infty$ :
 
 $$
-\lim\limits_{x \to \infty} 2^3 = 8
+\lim\limits_{x \to \infty} \left( \frac{2x+1}{x} \right)^3 \to 2^3 = 8
 $$
+
+---
+#example Evaluate the following function, and justify the answer : $$\lim\limits_{x \to 4} \tan \left( \frac{x-4}{\sqrt{ x }-2} \right)$$
+
+Using the Limits of Composite Functions Theorem, we can identify $f(x)$ and $g(x)$ as :
+
+$$
+\begin{align}
+  f(x) &= \tan x \\
+  g(x) &= \frac{x-4}{\sqrt{ x }-2}
+\end{align}
+$$
+
+We first find the limit of $g(x)$ as $x \to 4$ :
+
+$$
+\begin{align}
+  \lim\limits_{x \to 4} \frac{x-4}{\sqrt{ x }-2} &= \lim\limits_{x \to 4} \frac{(x-4)(\sqrt{ x }+2)}{(\sqrt{ x }-2)(\sqrt{ x }+2)} \\
+  &= \lim\limits_{x \to 4} \frac{(x-4)(\sqrt{ x }+2)}{x-4} \\
+  &= \lim\limits_{x \to 4} \sqrt{ x }+2 \\
+  &\to \sqrt{ 4 } + 2 = 4
+\end{align}
+$$
+
+Then we find the limit of $f(g(x))$ as $x \to 4$ :
+
+$$
+\lim\limits_{x \to 4} \tan \left( \frac{x-4}{\sqrt{ x }-2} \right) \to \tan 4 \approx 1.158
+$$
+
+
+## Continuity on an Interval
+
+Informally : A function is **continuous** on an interval $I$ if it is continuous at **every** point in that interval.
+
+We can look at a graph and easily determine if the graph is continuous at a given interval.
+
+#example By looking at a graph, if we see that there are no holes or break in between $[-3,2]$, then we can say that $f$ is continuous on $[-3,2]$.
+
+
+### Continuity at Endpoints
+
+Def : Continuity at Endpoints
+
+1. A function is **right** continuous at $a$ if $\lim\limits_{x \to a^{+}} f(x)=f(a)$ .
+2. A function is left continuous at $a$ if $\lim\limits_{x \to a^{-}} f(x) = f(a)$ .
+
+---
+#example If we see a graph of a curve that goes from $-3$ (filled dot) and $2$ (empty dot), then we can say $f$ is **right** continuous at $-3$. Additionally, we can say $f$ is continuous at $[-3,2)$.
+
+
+## The Intermediate Value Theorem
+
+Theorem : The Intermediate Value Theorem
+
+Suppose $f$ is continuous on the interval $[a,b]$ and $L$ is a number strictly between $f(a)$ and $f(b)$. Then, there exists at least one number $c$ in $(a, b)$ satisfying $f(c)=L$.
+
 
 
 
