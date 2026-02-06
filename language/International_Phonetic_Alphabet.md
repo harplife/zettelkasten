@@ -392,8 +392,15 @@ In GA, unstressed syllables are reduced in four different ways :
 
 
 #example Suffix Reduction
-- "Darkness" : `/ˈdɑːrk.nəs/` (reduces to `/nəs/`)
-- "Important" : `/ɪmˈpɔːr.tənt/` (reduces to `/tənt/`) 
+- -ate
+- -less
+- -es
+- -er
+- -tion
+- -ity
+- -al
+- -ous
+- -ant
 
 <center>. . .</center>
 
