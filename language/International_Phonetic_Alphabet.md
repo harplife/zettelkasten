@@ -369,7 +369,6 @@ Absence of stress on a syllable, or on a word in some cases, is frequently assoc
 In GA, unstressed syllables are reduced in four different ways :
 - Mid/Low Vowels to `/ə/`
 - High Front/Back Vowels to `/ɪ/` or `/ə/`
-- 
 - Suffix Reduction
 
 
