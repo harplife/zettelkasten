@@ -383,13 +383,13 @@ In GA, unstressed syllables are reduced in four different ways :
 - "Decide" : `/dɪˈsaɪd/` (often /ɪ/ or /ə/)
 - "Potato" : `/pəˈteɪtoʊ/` (first 'o' reduces)
 
-#example R-Dissimilation
-- Surprise:  /səɹˈpɹaɪz/ \(\rightarrow \) Dissimilated [səˈpɹaɪz] (dropping the first /r/).
-- Library:  /ˈlaɪbɹɛɹi/ \(\rightarrow \) Dissimilated [ˈlaɪbɛɹi] (dropping the first /r/).
-- Governor:  /ˈɡʌvərnər/ \(\rightarrow \) Dissimilated [ˈɡʌvənər].
-- Caterpillar:  /ˈkætəɹpɪlər/ \(\rightarrow \) Dissimilated [ˈkætəpɪlər].
-- Particular:  /pərˈtɪkjələr/ \(\rightarrow \) Dissimilated [pəˈtɪkjələr].
-- Frustrated:  /fɹʌˈstreɪtɪd/ \(\rightarrow \) Dissimilated [fʌˈstreɪtɪd]. 
+#example R-Dissimilation (dropping the first `/r/`)
+- "Surprise" : `/səɹˈpɹaɪz/` --> `[səˈpɹaɪz]`
+- "Library" : `/ˈlaɪbɹɛɹi/` --> `[ˈlaɪbɛɹi]`
+- "Governor" : `/ˈɡʌvərnər/` --> `[ˈɡʌvənər]`
+- "Caterpillar" : `/ˈkætəɹpɪlər/` --> `[ˈkætəpɪlər]`
+- "Particular" : `/pərˈtɪkjələr/` --> `[pəˈtɪkjələr]`
+- "Frustrated" : `/fɹʌˈstreɪtɪd/` --> `[fʌˈstreɪtɪd]`
 
 
 #example Suffix Reduction
