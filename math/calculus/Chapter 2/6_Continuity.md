@@ -150,7 +150,7 @@ We can look at a graph and easily determine if the graph is continuous at a give
 Def : Continuity at Endpoints
 
 1. A function is **right** continuous at $a$ if $\lim\limits_{x \to a^{+}} f(x)=f(a)$ .
-2. A function is left continuous at $a$ if $\lim\limits_{x \to a^{-}} f(x) = f(a)$ .
+2. A function is **left** continuous at $a$ if $\lim\limits_{x \to a^{-}} f(x) = f(a)$ .
 
 ---
 #example If we see a graph of a curve that goes from $-3$ (filled dot) and $2$ (empty dot), then we can say $f$ is **right** continuous at $-3$. Additionally, we can say $f$ is continuous at $[-3,2)$.
@@ -193,4 +193,8 @@ $$\lim\limits_{x \to c} f(x)=L \iff \forall \epsilon > 0, \exists \delta > 0 \te
 
 Interpretation :
 
-"**For every** error margin (ϵ > 0), **there exists** a window on the x-axis (δ > 0), **such that** **if** the distance between x and c is within the window (but not exactly c), **then** the distance between the function and the limit is smaller than the error margin".
+"**For every** error margin ($\epsilon > 0$), **there exists** a window on the x-axis ($\delta > 0$), **such that** **if** the distance between $x$ and $c$ is within the window (but not exactly $c$), **then** the distance between the function and the limit is smaller than the error margin".
+
+1. Solve for delta (in terms of epsilon) with $|f(x)-L|<\delta$
+2. Prove the relationship with delta and epsilon
+
