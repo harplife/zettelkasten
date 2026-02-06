@@ -382,6 +382,11 @@ In GA, unstressed syllables are reduced in four different ways :
 - "Decide" : `/dɪˈsaɪd/` (often /ɪ/ or /ə/)
 - "Potato" : `/pəˈteɪtoʊ/` (first 'o' reduces)
 
+#example R-Colored Vowel Reduction `/ɚ/`
+- "Doctor" : `/ˈdɑːktɚ/`
+- "Sister" : `/ˈsɪstɚ/`
+- "Better" : `/ˈbɛtɚ/`
+
 <center>. . .</center>
 
 
