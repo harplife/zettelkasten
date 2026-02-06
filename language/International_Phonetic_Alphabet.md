@@ -379,8 +379,8 @@ In GA, unstressed syllables are reduced in four different ways :
 - "Official" : `/əˈfɪʃəl/`
 
 #example High front/back vowels to `/ɪ/` or `/ə/`
-- Decide: /dɪˈsaɪd/ (often /ɪ/ or /ə/)
-- Potato: /pəˈteɪtoʊ/ (first 'o' reduces)
+- "Decide" : `/dɪˈsaɪd/` (often /ɪ/ or /ə/)
+- "Potato" : `/pəˈteɪtoʊ/` (first 'o' reduces)
 
 <center>. . .</center>
 
