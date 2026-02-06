@@ -373,10 +373,14 @@ In GA, unstressed syllables are reduced in four different ways :
 
 
 #example Mid/low vowels reduced to `/ə/` :
-- "About" : /əˈbaʊt/ (from /æ/ or /eɪ/)
-- "Sofa" : /ˈsoʊfə/
-- "Computer" : /kəmˈpjuːtɚ/
-- "Official" : /əˈfɪʃəl/
+- "About" : `/əˈbaʊt/`
+- "Sofa" : `/ˈsoʊfə/`
+- "Computer" : `/kəmˈpjuːtɚ/`
+- "Official" : `/əˈfɪʃəl/`
+
+#example High front/back vowels to `/ɪ/` or `/ə/`
+- Decide: /dɪˈsaɪd/ (often /ɪ/ or /ə/)
+- Potato: /pəˈteɪtoʊ/ (first 'o' reduces)
 
 <center>. . .</center>
 
