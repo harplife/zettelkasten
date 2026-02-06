@@ -28,11 +28,32 @@ From the checklist, we have the following consequence :
 If $f$ is continuous at $a$, then $\lim\limits_{ x \to a } f(x)=f(a)$ and **direct substitution** may be used to evaluate $\lim\limits_{ x \to a } f(x)$. In other words, solve for $f(a)$ to get the limit.
 
 ---
-#example Is the function $f(x)=$
+#example Is the following function continuous at $a=3$ ?
+
+$$
+f(x)= \begin{cases}
+\frac{x^2-4x+3}{x-3}, &x \neq 3 \\
+2, &x=3
+\end{cases}
+$$
+1)
+$f(3)=2$ --> defined.
+
+2)
+$\lim\limits_{x \to 3} f(x) = 3-1 = 2$ --> exists
+
+3)
+$f(x)=\lim\limits_{x \to 3} f(x)=2$
+
+All three conditions are met. Therefore, the $f$ is continuous at $a=3$.
 
 ---
-#example Is the function $f(x)=\sqrt{ x-3 }$ continuous at $a=2$ ?
+#example Is the following function continuous at $a=2$ ?
 
+$$
+f(x)=\sqrt{ x-3 }
+$$
+1)
 $f(2)=\sqrt{ x-3 }=\sqrt{ -1 }$ --> Undefined.
 
 It fails the first condition, so it is not continuous.
