@@ -363,11 +363,20 @@ Absence of stress on a syllable, or on a word in some cases, is frequently assoc
 - #define [Vowel Reduction](https://en.wikipedia.org/wiki/Vowel_reduction) refers to any change in the acoustic quality of vowels as a result of changes in stress, sonority, duration, loudness, articulation, or position in the word, which are perceived as "weakening". It often makes the vowels shorter.
 - Many such syllables are pronounced with a centralized vowel (e.g. schwa `/ə/`) or with certain other vowels that are described as being "reduced" (or sometimes with a syllabic consonant as the syllable nucleus).
 
-In GA, unstressed syllables are often reduced to schwa `/ə/`. For example :
-- "about"
-- "sofa"
-- "computer"
-- "official"
+<center>. . .</center>
+
+In GA, unstressed syllables are reduced in four different ways :
+- Mid/Low Vowels to `/ə/`
+- High Front/Back Vowels to `/ɪ/` or `/ə/`
+- R-Colored Vowel Reduction `/ɚ/`
+- Suffix Reduction
+
+
+#example Mid/low vowels reduced to `/ə/` :
+- About : /əˈbaʊt/ (from /æ/ or /eɪ/)
+- Sofa : /ˈsoʊfə/
+- Computer : /kəmˈpjuːtɚ/
+- Official : /əˈfɪʃəl/
 
 <center>. . .</center>
 
