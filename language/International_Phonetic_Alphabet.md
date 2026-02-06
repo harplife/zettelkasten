@@ -391,16 +391,16 @@ In GA, unstressed syllables are reduced in four different ways :
 - "Frustrated" : `/fɹʌˈstreɪtɪd/` --> `[fʌˈstreɪtɪd]`
 
 
-#example Suffix Reduction
-- -ate
-- -less
-- -es
-- -er
-- -tion
-- -ity
-- -al
-- -ous
-- -ant
+#example Suffix Reduction to `/ə/`
+- -ate `/ət/` (climate, delegate, private)
+- -less `/ləs/` (careless, helpless)
+- -es or -ed `/əz,əd/` (roses, wanted)
+- -er `/ər/` (teacher, better, driver)
+- -tion/-sion `/ʃən/` (operation, information, decision)
+- -ity `/əɾi/` (city, reality)
+- -al `/ə/` (musical)
+- -ous `/ə/` (famous)
+- -ant `/ə/` (important)
 
 <center>. . .</center>
 
