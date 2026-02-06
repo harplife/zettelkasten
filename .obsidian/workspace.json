@@ -4,101 +4,131 @@
     "type": "split",
     "children": [
       {
-        "id": "48e407348db680e6",
+        "id": "2d775d3245f9509a",
         "type": "tabs",
         "children": [
           {
-            "id": "3643feedec790cda",
+            "id": "a81115194eca9aca",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atomic_Spectra.md",
+                "file": "chemistry/elements/1 - Hydrogen (H).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Atomic_Spectra"
+              "title": "1 - Hydrogen (H)"
             }
           },
           {
-            "id": "1656a9989a0550c3",
+            "id": "30d7fcef401fa682",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "math/precalculus/Resources/essence_of_trigonometry.md",
+                "file": "chemistry/alchemy/Alchemy.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "essence_of_trigonometry"
+              "title": "Alchemy"
             }
           },
           {
-            "id": "9c4a7f579d54fcc6",
+            "id": "7e609f731ec72db3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "math/precalculus/Chapter 5/6_Modeling_Harmonic_motion.md",
+                "file": "chemistry/Timeline_of_Element_Discoveries.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "6_Modeling_Harmonic_motion"
+              "title": "Timeline_of_Element_Discoveries"
             }
           },
           {
-            "id": "94e124c029256205",
+            "id": "b55e54ebb380224f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "math/precalculus/Chapter 6/1_Angle_Measure.md",
+                "file": "chemistry/Periodic_Table_and_The_Origins.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "1_Angle_Measure"
+              "title": "Periodic_Table_and_The_Origins"
             }
           },
           {
-            "id": "61f72ce80323c43a",
+            "id": "ee4707b6261fc57e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "math/calculus/Chapter 2/1_The_Idea_of_Limits.md",
+                "file": "chemistry/Periodic_Table.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "1_The_Idea_of_Limits"
+              "title": "Periodic_Table"
             }
           },
           {
-            "id": "909287d299936c42",
+            "id": "ee0c5b9a3c529700",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "math/calculus/Chapter 2/6_Continuity.md",
+                "file": "chemistry/alchemy/The_Holocene_Alchemist.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "6_Continuity"
+              "title": "The_Holocene_Alchemist"
+            }
+          },
+          {
+            "id": "d41929df1cce8d83",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "chemistry/alchemy/The_Alchemic_Script.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "The_Alchemic_Script"
+            }
+          },
+          {
+            "id": "6bfd33caace19aee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "language/International_Phonetic_Alphabet.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "International_Phonetic_Alphabet"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -112,7 +142,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "935f28b3df870977",
+            "id": "19ce5a4d65676126",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -131,9 +161,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "alphabetical",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
+                "useHierarchy": true
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -178,20 +206,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "math/calculus/Chapter 2/6_Continuity.md",
+                "file": "language/International_Phonetic_Alphabet.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 6_Continuity"
+              "title": "Outline of International_Phonetic_Alphabet"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 296.5
+    "width": 347.5
   },
   "right": {
     "id": "f152d8fd8ec1f4e0",
@@ -207,8 +235,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -227,7 +255,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "math/precalculus/Chapter 1/2_Exponents_and_Radicals.md",
+                "file": "study_LearnCpp_GettingStarted.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -255,7 +283,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of 2_Exponents_and_Radicals"
+              "title": "Graph of study_LearnCpp_GettingStarted"
             }
           },
           {
@@ -264,16 +292,26 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "math/precalculus/Chapter 1/2_Exponents_and_Radicals.md",
+                "file": "study_LearnCpp_GettingStarted.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2_Exponents_and_Radicals"
+              "title": "Outgoing links from study_LearnCpp_GettingStarted"
+            }
+          },
+          {
+            "id": "cc30698aa4dc8073",
+            "type": "leaf",
+            "state": {
+              "type": "mathpad-view",
+              "state": {},
+              "icon": "sigma",
+              "title": "Mathpad"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       },
       {
         "id": "baddb2b819dd740a",
@@ -295,7 +333,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "math/calculus/Chapter 2/6_Continuity.md",
+                "file": "language/International_Phonetic_Alphabet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -305,7 +343,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 6_Continuity"
+              "title": "Backlinks for International_Phonetic_Alphabet"
             }
           }
         ],
@@ -331,10 +369,10 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "909287d299936c42",
+  "active": "cc30698aa4dc8073",
   "lastOpenFiles": [
-    "math/calculus/Chapter 2/1_The_Idea_of_Limits.md",
     "math/calculus/Chapter 2/6_Continuity.md",
+    "math/calculus/Chapter 2/1_The_Idea_of_Limits.md",
     "language/International_Phonetic_Alphabet.md",
     "attachments/IPA-features.svg",
     "attachments/IPA-features.svg.opdownload",
