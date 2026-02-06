@@ -369,7 +369,7 @@ Absence of stress on a syllable, or on a word in some cases, is frequently assoc
 In GA, unstressed syllables are reduced in four different ways :
 - Mid/Low Vowels to `/ə/`
 - High Front/Back Vowels to `/ɪ/` or `/ə/`
-- Suffix Reduction
+- Suffix Reduction to `/ə/`
 
 
 #example Mid/Low Vowels to `/ə/` :
@@ -398,9 +398,9 @@ In GA, unstressed syllables are reduced in four different ways :
 - -er `/ər/` (teacher, better, driver)
 - -tion/-sion `/ʃən/` (operation, information, decision)
 - -ity `/əɾi/` (city, reality)
-- -al `/ə/` (musical)
-- -ous `/ə/` (famous)
-- -ant `/ə/` (important)
+- -al `/əl/` (musical)
+- -ous `/əs/` (famous)
+- -ant `/ənt/` (important)
 
 <center>. . .</center>
 
