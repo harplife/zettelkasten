@@ -165,7 +165,6 @@ Suppose $f$ is continuous on the interval $[a,b]$ and $L$ is a number strictly b
 
 
 
-
 ## Precise Definition (Epsilon-Delta Def)
 
 
