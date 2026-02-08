@@ -33,6 +33,107 @@ Key idea
 - Language sharpens *category edges*, not sensory ability.
 
 
+### Attentional Bias
+
+What happens
+- Language directs habitual attention toward certain features of the environment.
+
+Examples
+- Absolute spatial languages (north/south instead of left/right)
+- Languages with obligatory evidential markers (source of information)
+
+Effect
+- Speakers routinely notice and remember features their language requires them to encode.
+
+Key idea
+- You pay attention to what your language forces you to talk about.
+
+
+### Memory Encoding and Recall
+
+What happens
+- Linguistic categories influence how experiences are stored and retrieved.
+
+Examples
+- Remembering colors better when they cross a named boundary
+- Remembering events differently depending on grammatical tense or aspect
+
+Effect
+- Language affects what details *are remembered*, not what is perceived initially.
+
+
+### Perceptual Speed and Efficiency
+
+What happens
+- Linguistic labels speed up perceptual decisions.
+
+Examples
+- Faster color discrimination when colors have different names
+- Faster object identification when a lexical label is available
+
+Effect
+- Reduced cognitive load during perception
+
+Key idea
+- Language acts as a cognitive shortcut.
+
+
+### Spatial Perception and Navigation
+
+What happens
+- Linguistic reference systems influence spatial reasoning.
+
+Examples
+- Absolute (cardinal) vs. relative (left/right) spatial terms
+- Use of uphill/downhill or seaward/landward systems
+
+Effect
+- Improved orientation and navigation skills aligned with the linguistic system
+
+
+### Temporal Perception
+
+What happens
+- Language frames how time is conceptualized and mentally organized.
+
+Examples
+- Tense-heavy languages vs. tenseless languages
+- Spatial metaphors for time (horizontal vs. vertical timelines)
+
+Effect
+- Differences in how people order events or reason about duration
+
+
+### Object Salience and Categorization
+
+What happens
+- Grammatical categories make certain object properties salient.
+
+Examples
+- Grammatical gender
+- Classifier systems (shape, material, animacy)
+
+Effect
+- Speakers are biased to associate objects with culturally meaningful properties.
+
+
+### Sensory Feature Weighting
+
+What happens
+- Language influences which sensory dimensions matter most.
+
+Examples
+- Shape-based vs. material-based noun classification
+- Sound symbolism influencing perceived size or texture
+
+Effect
+- Certain sensory cues are prioritized over others.
+
+
+### Emotional Perception and Evaluation
+
+
+
 
 
 ## Examples of Linguistic Relativity
