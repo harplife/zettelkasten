@@ -29,12 +29,12 @@
 
 ### Notable Compounds
 
-| Compound             | Formula | Use                 | Origin           |
-| -------------------- | ------- | ------------------- | ---------------- |
-| Lithium carbonate    | Li₂CO₃  | Batteries, medicine | **Both**         |
-| Lithium hydroxide    | LiOH    | CO₂ removal         | **Manufactured** |
-| Lithium cobalt oxide | LiCoO₂  | Batteries           | **Manufactured** |
-| Lithium chloride     | LiCl    | Dehumidifiers       | **Both**         |
+| Compound             | Formula | Use                                      | Origin           |
+| -------------------- | ------- | ---------------------------------------- | ---------------- |
+| Lithium carbonate    | Li₂CO₃  | Batteries, medicine                      | **Both**         |
+| Lithium hydroxide    | LiOH    | CO₂ removal for spacecrafts & submarines | **Manufactured** |
+| Lithium cobalt oxide | LiCoO₂  | Batteries                                | **Manufactured** |
+| Lithium chloride     | LiCl    | Dehumidifiers                            | **Both**         |
 (Origin : natural, manufactured, or both)
 
 
