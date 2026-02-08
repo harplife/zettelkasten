@@ -76,3 +76,18 @@ Top producers :
 
 ## Fun Facts
 
+- Emeralds and aquamarines owe their structure to beryllium
+- Beryllium breaks many “rules” taught about metals
+	- Covalent bond (as opposed to ionic), brittle (instead of malleable), high melting point even though low density, and transparent under x-ray.
+- Used in the James Webb Space Telescope
+- Safe as a solid metal, dangerous as airborne dust
+- Helps scientists understand how stars evolve
+
+
+## Discovery
+
+- When: 1798
+- Who: Louis-Nicolas Vauquelin
+- How:
+	- Analyzed emeralds and beryl
+	- Found a new element distinct from aluminum

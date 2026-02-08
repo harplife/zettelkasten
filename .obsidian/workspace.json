@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chemistry/elements/4 - Beryllium (Be).md",
+                "file": "chemistry/elements/5 - Rubidium - Rb.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "4 - Beryllium (Be)"
+              "title": "5 - Rubidium - Rb"
             }
           },
           {
@@ -220,13 +220,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "chemistry/elements/4 - Beryllium (Be).md",
+                "file": "chemistry/elements/5 - Rubidium - Rb.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 4 - Beryllium (Be)"
+              "title": "Outline of 5 - Rubidium - Rb"
             }
           }
         ]
@@ -347,7 +347,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "chemistry/elements/4 - Beryllium (Be).md",
+                "file": "chemistry/elements/5 - Rubidium - Rb.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -357,7 +357,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 4 - Beryllium (Be)"
+              "title": "Backlinks for 5 - Rubidium - Rb"
             }
           }
         ],
@@ -385,11 +385,12 @@
   },
   "active": "bf20a03f0a3bbaf6",
   "lastOpenFiles": [
-    "attachments/Pasted image 20260208171010.png",
+    "chemistry/elements/4 - Beryllium (Be).md",
+    "chemistry/elements/5 - Rubidium - Rb.md",
     "chemistry/elements/3 - Lithium (Li).md",
+    "attachments/Pasted image 20260208171010.png",
     "chemistry/elements/2 - Helium (He).md",
     "chemistry/elements/1 - Hydrogen (H).md",
-    "chemistry/elements/4 - Beryllium (Be).md",
     "attachments/Pasted image 20260208165955.png",
     "attachments/Pasted image 20260208162813.png",
     "chemistry/Periodic_Table_and_The_Origins.md",
@@ -411,7 +412,6 @@
     "attachments/Pasted image 20260129174322.png",
     "attachments/IPA_in_IPA.svg",
     "attachments/IPA_in_IPA.svg.opdownload",
-    "attachments/Pasted image 20260126185235.png",
     "attachments/IPA_chart_2020.svg.opdownload",
     "attachments/Alchemical Periodic Table Symbols.pdf",
     "chemistry/alchemy",
