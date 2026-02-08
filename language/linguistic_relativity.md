@@ -106,7 +106,7 @@ Languages **guide attention** and **highlight what matters to their cultures**, 
 
 
 - #definition [Lethologica](https://en.wikipedia.org/wiki/Tip_of_the_tongue) ("tip-of-the-tongue") : Temporary inability to retrieve a word from memory.
-- Aphasia : A language disorder affecting expression, understanding, reading, or writing due to brain damage.
+- #definition **Aphasia** : A language disorder affecting expression, understanding, reading, or writing due to brain damage.
 	- ![[Pasted image 20260208145934.png]]
-- Hypocognition : Lacking the linguistic or cognitive representation for an idea (lacking the word to describe the concept).
+- #definition [Hypocognition](https://en.wikipedia.org/wiki/Hypocognition) : Lacking the linguistic or cognitive representation for an idea (lacking the word to describe the concept).
 - 
