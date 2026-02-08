@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chemistry/elements/2 - Helium (He).md",
+                "file": "chemistry/elements/3 - Lithium (Li).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "2 - Helium (He)"
+              "title": "3 - Lithium (Li)"
             }
           },
           {
@@ -236,13 +236,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "chemistry/elements/2 - Helium (He).md",
+                "file": "chemistry/elements/3 - Lithium (Li).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2 - Helium (He)"
+              "title": "Outline of 3 - Lithium (Li)"
             }
           }
         ]
@@ -363,7 +363,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "chemistry/elements/2 - Helium (He).md",
+                "file": "chemistry/elements/3 - Lithium (Li).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -373,7 +373,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2 - Helium (He)"
+              "title": "Backlinks for 3 - Lithium (Li)"
             }
           }
         ],
@@ -401,10 +401,11 @@
   },
   "active": "bf20a03f0a3bbaf6",
   "lastOpenFiles": [
-    "chemistry/elements/1 - Hydrogen (H).md",
-    "chemistry/elements/2 - Helium (He).md",
-    "chemistry/elements/3 - Lithium (Li).md",
     "chemistry/elements/4 - Beryllium (Be).md",
+    "chemistry/elements/3 - Lithium (Li).md",
+    "chemistry/elements/2 - Helium (He).md",
+    "attachments/Pasted image 20260208162813.png",
+    "chemistry/elements/1 - Hydrogen (H).md",
     "chemistry/Periodic_Table_and_The_Origins.md",
     "chemistry/Timeline_of_Element_Discoveries.md",
     "chemistry/alchemy/Alchemy.md",
@@ -426,7 +427,6 @@
     "attachments/IPA_in_IPA.svg.opdownload",
     "attachments/Pasted image 20260126185235.png",
     "attachments/Pasted image 20260125224252.png",
-    "attachments/IPA_chart_2020.svg",
     "attachments/IPA_chart_2020.svg.opdownload",
     "attachments/Alchemical Periodic Table Symbols.pdf",
     "chemistry/alchemy",
@@ -446,7 +446,6 @@
     "math/precalculus/Chapter 5/6_Modeling_Harmonic_motion.md",
     "math/precalculus/Chapter 4/6_Modeling_with_Exponential_Functions.md",
     "math/precalculus/Chapter 4/5_Exponential_and_Logarithmic_Equations.md",
-    "math/precalculus/Chapter 4/4_Laws_of_Logarithms.md",
     "computer_graphics/Computer_Graphics_Mindmap.canvas",
     "computer_graphics/projects/solo_leveling_mindmap.canvas",
     "architecture/architecture_mindmap.canvas",

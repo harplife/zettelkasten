@@ -27,6 +27,30 @@
 - Alloys (lightweight, strong materials for aerospace)
 - Fireworks and flares (produces a bright crimson-red flame)
 
+### Notable Compounds
+
+| Compound             | Formula | Use                 | Origin           |
+| -------------------- | ------- | ------------------- | ---------------- |
+| Lithium carbonate    | Li₂CO₃  | Batteries, medicine | **Both**         |
+| Lithium hydroxide    | LiOH    | CO₂ removal         | **Manufactured** |
+| Lithium cobalt oxide | LiCoO₂  | Batteries           | **Manufactured** |
+| Lithium chloride     | LiCl    | Dehumidifiers       | **Both**         |
+(Origin : natural, manufactured, or both)
+
+
+### Production
+
+- Hard rock minerals ([spodumene](https://en.wikipedia.org/wiki/Spodumene))
+- Salt brines (lithium-rich salt flats)
+
+[Top producers](https://en.wikipedia.org/wiki/List_of_countries_by_lithium_production) :
+1. Australia
+2. Chile
+3. China
+4. Zimbabwe
+5. Argentina
+6. Brazil
+
 
 ### Notable Compounds
 

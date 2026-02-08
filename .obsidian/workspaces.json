@@ -1802,13 +1802,13 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "chemistry/elements/2 - Helium (He).md",
+                    "file": "chemistry/elements/3 - Lithium (Li).md",
                     "mode": "source",
                     "source": false,
                     "backlinks": false
                   },
                   "icon": "lucide-file",
-                  "title": "2 - Helium (He)"
+                  "title": "3 - Lithium (Li)"
                 }
               },
               {
@@ -2010,13 +2010,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "chemistry/elements/2 - Helium (He).md",
+                    "file": "chemistry/elements/3 - Lithium (Li).md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of 2 - Helium (He)"
+                  "title": "Outline of 3 - Lithium (Li)"
                 }
               }
             ]
@@ -2137,7 +2137,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "chemistry/elements/2 - Helium (He).md",
+                    "file": "chemistry/elements/3 - Lithium (Li).md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -2147,7 +2147,7 @@
                     "unlinkedCollapsed": false
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for 2 - Helium (He)"
+                  "title": "Backlinks for 3 - Lithium (Li)"
                 }
               }
             ],
@@ -2174,7 +2174,7 @@
         }
       },
       "active": "bf20a03f0a3bbaf6",
-      "mtime": "2026-02-08T16:19:09-06:00",
+      "mtime": "2026-02-08T16:29:57-06:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "chemistry",

@@ -74,12 +74,20 @@ Cool helium gas absorbs light at the same wavelengths.
 - Produced during radioactive decay underground
 - Separated by cryogenic distillation
 
-Top producers :
-1. United States
-2. Qatar
-3. Algeria
-4. Russia
-5. Australia
+
+Top Producers (projection based on 2022 [study](https://www.frontiersin.org/journals/environmental-science/articles/10.3389/fenvs.2022.1028471/full)):
+
+| Rank | Country       | Est. Helium Resource (billion m³ or Bcf) |
+| ---- | ------------- | ---------------------------------------- |
+| 1    | United States | 20.6 billion m³                          |
+| 2    | Qatar         | 10.1 billion m³                          |
+| 3    | Algeria       | 8.2 billion m³                           |
+| 4    | Russia        | 6.8 billion m³                           |
+| 5    | Canada        | 2.0 billion m³                           |
+| 6    | China         | 1.1 billion m³                           |
+![[Pasted image 20260208162813.png | center | 500]]
+
+
 
 
 ## Fun Facts
