@@ -69,6 +69,10 @@ Top producers :
 4. Mozambique
 5. Brazil
 
+![[Pasted image 20260208171010.png]]
+> World Map Showing Beryllium Deposits ([source](https://www.usgs.gov/media/images/world-map-showing-beryllium-deposits))
+
+
 
 ## Fun Facts
 
