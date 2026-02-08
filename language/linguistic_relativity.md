@@ -16,6 +16,30 @@
 
 ## Mechanisms of Linguistic Relativity
 
+Mechanisms of Linguistic Relativity
+- Categorical Perception
+- Attentional Bias
+- Memory Encoding and Recall
+- Perceptual Speed and Efficiency
+- Spatial Perception and Navigation
+- Temporal Perception
+- Object Salience and Categorization
+- Sensory Feature Weighting
+- Emotional Perception and Evaluation
+- Social Perception
+- Causal Perception and Agency
+- Cross-Modal Perception
+- Cultural Perceptual Calibration
+- Top-Down Neural Modulation
+
+Linguistic relativity affects perception by :
+- guiding attention
+- sharpening categories
+- biasing memory and interpretation
+- speeding up perception
+- modulating sensory processing
+
+
 ### Categorical Perception
 
 What happens
@@ -132,8 +156,80 @@ Effect
 
 ### Emotional Perception and Evaluation
 
+What happens
+- Emotion vocabularies shape emotional discrimination.
+
+Examples
+- Languages with many emotion terms (e.g., shame vs. guilt distinctions)
+- Culture-specific emotional concepts
+
+Effect
+- Finer emotional differentiation and awareness
 
 
+### Social Perception
+
+What happens
+- Linguistic markers encode social relationships.
+
+Examples
+- Formal vs. informal pronouns
+- Honorific systems
+
+Effect
+- Heightened sensitivity to social hierarchy and politeness norms
+
+
+### Causal Perception and Agency
+
+What happens
+- Grammatical structures influence how events are interpreted.
+
+Examples
+- Languages that encode agency explicitly vs. implicitly
+- Passive vs. agentless constructions
+
+Effect
+- Differences in blame attribution and responsibility judgments
+
+
+### Cross-Modal Perception
+
+What happens
+- Linguistic metaphors link different sensory domains.
+
+Examples
+- High vs. low pitch described spatially
+- Bright vs. dark sounds
+
+Effect
+- Language shapes how sensory modalities interact.
+
+
+### Cultural Perceptual Calibration
+
+What happens
+- Language reinforces culturally important distinctions.
+
+Examples
+- Snow terms in Arctic cultures
+- Plant and animal classification in Indigenous languages
+
+Effect
+- Fine-grained perception in ecologically relevant domains
+
+
+### Top-Down Neural Modulation
+
+What happens
+- Language areas influence sensory cortex activity.
+
+Evidence
+- Stronger neural responses when categories are linguistically distinct
+- Left-hemisphere language regions modulating visual perception
+
+Effect
+- Language actively shapes perceptual processing in real time.
 
 
 ## Examples of Linguistic Relativity
