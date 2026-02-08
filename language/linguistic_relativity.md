@@ -100,3 +100,13 @@ Languages **guide attention** and **highlight what matters to their cultures**, 
 - #example Dyirbal noun classes : noun categories reflect cultural beliefs and mythology.
 - #example When it comes to time, English uses past/present/future tenses. However, Chinese language does not have tenses based on time - instead, they first give context to time.
 
+
+
+## Concepts to Learn
+
+
+- #definition [Lethologica](https://en.wikipedia.org/wiki/Tip_of_the_tongue) ("tip-of-the-tongue") : Temporary inability to retrieve a word from memory.
+- Aphasia : A language disorder affecting expression, understanding, reading, or writing due to brain damage.
+	- ![[Pasted image 20260208145934.png]]
+- Hypocognition : Lacking the linguistic or cognitive representation for an idea (lacking the word to describe the concept).
+- 
