@@ -34,7 +34,30 @@ This is a view held by Dr. Antonio Benitez-Burraco, in his article in Psychology
 
 > [!important] The term "interactionist" is not an official term for this view. However, it is fitting.
 
-The **interactionist** perspective argues that we all experience the world the same with all our senses, and language influences how we *process* our experience.
+The **interactionist** perspective argues that we share a *universal* foundation for perception and thought, but language *influences* how we focus, organize, and attend to aspects of reality.
 - It sees both universalist and relativist perspectives as "half-right".
-- The "process" is the key operative term here.
 
+<center>. . .</center>
+
+Language **does not limit perception**, but it **enhances discrimination along linguistically defined boundaries**.
+- #example while speakers of all languages can distinguish colors regardless of language, people are better at distinguishing colors that have different names in their language. This is supported by neuroscience.
+
+<center>. . .</center>
+
+Language make certain distinctions more **cognitively salient**, which affects behavior and skills.
+- #xample (Counting) Chinese-speaking children learn numbers earlier because the number system is more regular ("ten one" instead of "eleven").
+- #example (Spatial orientation) Some languages use absolute directions (north/south/west/east) instead of relative (left/right/up/down). Speakers of such languages become exceptionally good at orientation because their language requires constant awareness of direction.
+
+<center>. . .</center>
+
+Languages **guide attention** and **highlight what matters to their cultures**, by lexicalization and grammaticalization.
+
+#define [Lexicalization](https://en.wikipedia.org/wiki/Lexicalization) : The linguistic process by which new words, concepts, or set phrases are added to a language's vocabulary, or when multi-word expressions become established as single lexical units.
+- #define [Lexicon](https://en.wikipedia.org/wiki/Lexicon) : The vocabulary of a language or branch of knowledge.
+- #define **Focal Vocabulary** (aka Jargon) : A specialized set of terms and distinctions that are particularly important to a specific culture, group, or activity, reflecting their unique experiences, environment, or expertise.
+
+#define [Grammaticalization](https://en.wikipedia.org/wiki/Grammaticalization) : The linguistic process in which words change from representing objects or actions to serving grammatical functions (content words developing into new function words).
+
+(Lexicalization) Words exist for concepts that are culturally important. New words are added for new needs, and old words disappear when objects or practices vanish. Different cultures therefore have very different lexicons.
+
+(Grammaticalization) 
