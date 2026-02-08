@@ -68,6 +68,18 @@ Cool helium gas absorbs light at the same wavelengths.
 | _(None, under normal conditions)_ | —       | Helium is chemically inert     | —                                |
 | **Helium excimers**               | He₂*    | Very short-lived, only in labs | **Manufactured (experimental)**  |
 
+### Production
+
+- Extracted from natural gas deposits
+- Produced during radioactive decay underground
+- Separated by cryogenic distillation
+
+Top producers :
+1. United States
+2. Qatar
+3. Algeria
+4. Russia
+5. Australia
 
 
 ## Fun Facts

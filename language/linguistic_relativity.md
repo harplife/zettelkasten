@@ -306,4 +306,10 @@ Languages **guide attention** and **highlight what matters to their cultures**, 
 - #definition **Aphasia** : A language disorder affecting expression, understanding, reading, or writing due to brain damage.
 	- ![[Pasted image 20260208145934.png]]
 - #definition [Hypocognition](https://en.wikipedia.org/wiki/Hypocognition) : Lacking the linguistic or cognitive representation for an idea (lacking the word to describe the concept).
-- 
+
+
+
+## Application of Linguistic Relativity
+
+### Computer Engineering
+

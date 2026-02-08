@@ -89,7 +89,8 @@ Top producers :
 1. China
 2. US
 3. India
-4. Russia Germany
+4. Russia
+5. Germany
 
 
 ## Fun Facts
