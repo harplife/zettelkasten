@@ -14,6 +14,42 @@
 > [!important] Linguistic Relativity is highly favored over Linguistic Determinism.
 
 
+## Mechanisms of Linguistic Relativity
+
+### Categorical Perception
+
+What happens
+- Continuous sensory input is divided into discrete categories shaped by language.
+
+Examples
+- Color boundaries (blue vs. green, light vs. dark blue in Russian)
+- Phoneme perception (e.g., /r/ vs. /l/ in English vs. Japanese)
+
+Effect
+- Faster and more accurate discrimination across linguistic boundaries
+- Slower discrimination within the same linguistic category
+
+Key idea
+- Language sharpens *category edges*, not sensory ability.
+
+
+
+
+## Examples of Linguistic Relativity
+
+#example **Color Perception** (Russian Blue): Russian speakers distinguish between light blue (goluboy) and dark blue (siniy) as two completely different colors, unlike English speakers who treat both as blue. Consequently, Russian speakers are faster and more accurate at differentiating these shades in experiments.
+
+#example **Gendered Objects** (German/Spanish): Languages that assign genders to objects, such as German and Spanish, cause speakers to describe items based on gendered stereotypes. For instance, a "key" (feminine in German) might be described as "delicate" or "shiny," while Spanish speakers, for whom it is masculine, might describe the same object as "hard" or "jagged".
+
+#example **Spatial Navigation** (Directional Language): Some languages (like Guugu Yimithirr) do not use relative terms like "left" or "right," but rather cardinal directions (north, south, east, west). Speakers of such languages have an incredible, constant sense of orientation, even in unfamiliar places.
+
+#example **Future Tense and Savings** (Financial Behavior): Research suggests that speakers of languages that do not strongly grammatically distinguish the future from the present (e.g., German) tend to save more money, as their language makes the future feel more connected to the present than languages with strict future tenses (e.g., English).
+
+#example **Vocabulary for Environment** (Inuit Snow): While sometimes exaggerated, the principle holds that languages with specialized vocabulary for specific elements—such as the various words for snow in Inuit dialects—allow speakers to categorize and perceive environmental nuances more finely than speakers of languages with limited terms.
+
+#example **Relationship to Time** (Left-to-Right): Languages written from left to right (like English) lead speakers to conceptualize time as moving from left to right, whereas languages written right-to-left, or vertically, foster different cognitive layouts of chronological events. 
+
+
 ## Relativist vs. Universalist
 
 When it comes to linguistic relativity, there are two opposing perspectives :
@@ -60,4 +96,7 @@ Languages **guide attention** and **highlight what matters to their cultures**, 
 
 (Lexicalization) Words exist for concepts that are culturally important. New words are added for new needs, and old words disappear when objects or practices vanish. Different cultures therefore have very different lexicons.
 
-(Grammaticalization) 
+(Grammaticalization) Some distinctions are embedded deeply in grammar and must be considered whenever you speak. In other words, grammar forces speakers to habitually attend to certain dimensions of experience.
+- #example Dyirbal noun classes : noun categories reflect cultural beliefs and mythology.
+- #example When it comes to time, English uses past/present/future tenses. However, Chinese language does not have tenses based on time - instead, they first give context to time.
+
