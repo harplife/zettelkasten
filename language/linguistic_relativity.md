@@ -13,3 +13,28 @@
 
 > [!important] Linguistic Relativity is highly favored over Linguistic Determinism.
 
+
+## Relativist vs. Universalist
+
+When it comes to linguistic relativity, there are two opposing perspectives :
+- Relativist
+- Universalist
+
+The **relativist** perspective argues that language influences our perception, therefore we all (groups separated by different languages) experience different worlds.
+- "strong" version argues that language directly shapes concept, which shapes our experience, which translates to different worlds
+- "weak" version argues that language influences pre-existing concept & new concept can form, which shapes our experience, which translates to different worlds
+
+The **universalist** perspective argues that language does not influence our perception, therefore we all experience the same world.
+- Different languages just mean different labels for the same pre-existing concepts.
+
+
+## Interactionist
+
+This is a view held by Dr. Antonio Benitez-Burraco, in his article in Psychology Today ([source](https://www.psychologytoday.com/us/blog/the-biolinguistic-turn/201702/how-the-language-we-speak-affects-the-way-we-think)). It can be interpreted as the modern take on linguistic relativity.
+
+> [!important] The term "interactionist" is not an official term for this view. However, it is fitting.
+
+The **interactionist** perspective argues that we all experience the world the same with all our senses, and language influences how we *process* our experience.
+- It sees both universalist and relativist perspectives as "half-right".
+- The "process" is the key operative term here.
+
