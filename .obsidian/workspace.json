@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chemistry/elements/38 - Strontium - Sr.md",
+                "file": "chemistry/Periodic_Table.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "38 - Strontium - Sr"
+              "title": "Periodic_Table"
             }
           },
           {
@@ -220,13 +220,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "chemistry/elements/38 - Strontium - Sr.md",
+                "file": "chemistry/Periodic_Table.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 38 - Strontium - Sr"
+              "title": "Outline of Periodic_Table"
             }
           }
         ]
@@ -347,7 +347,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "chemistry/elements/38 - Strontium - Sr.md",
+                "file": "chemistry/Periodic_Table.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -357,7 +357,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 38 - Strontium - Sr"
+              "title": "Backlinks for Periodic_Table"
             }
           }
         ],
@@ -385,9 +385,9 @@
   },
   "active": "bf20a03f0a3bbaf6",
   "lastOpenFiles": [
+    "chemistry/elements/38 - Strontium - Sr.md",
     "attachments/Pasted image 20260208174715.png",
     "chemistry/elements/37 - Rubidium - Rb.md",
-    "chemistry/elements/38 - Strontium - Sr.md",
     "attachments/Pasted image 20260208174156.png",
     "attachments/Pasted image 20260208173739.png",
     "attachments/Pasted image 20260208172704.png",
@@ -412,7 +412,6 @@
     "attachments/IPA-features.svg",
     "attachments/IPA-features.svg.opdownload",
     "chemistry/alchemy/The_Alchemic_Script.md",
-    "attachments/Pasted image 20260131120548.png",
     "attachments/IPA_in_IPA.svg.opdownload",
     "attachments/IPA_chart_2020.svg.opdownload",
     "attachments/Alchemical Periodic Table Symbols.pdf",

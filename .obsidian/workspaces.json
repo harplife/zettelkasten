@@ -1787,13 +1787,13 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "chemistry/elements/38 - Strontium - Sr.md",
+                    "file": "chemistry/Periodic_Table.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": false
                   },
                   "icon": "lucide-file",
-                  "title": "38 - Strontium - Sr"
+                  "title": "Periodic_Table"
                 }
               },
               {
@@ -1994,13 +1994,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "chemistry/elements/38 - Strontium - Sr.md",
+                    "file": "chemistry/Periodic_Table.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of 38 - Strontium - Sr"
+                  "title": "Outline of Periodic_Table"
                 }
               }
             ]
@@ -2121,7 +2121,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "chemistry/elements/38 - Strontium - Sr.md",
+                    "file": "chemistry/Periodic_Table.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -2131,7 +2131,7 @@
                     "unlinkedCollapsed": false
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for 38 - Strontium - Sr"
+                  "title": "Backlinks for Periodic_Table"
                 }
               }
             ],
@@ -2158,7 +2158,7 @@
         }
       },
       "active": "bf20a03f0a3bbaf6",
-      "mtime": "2026-02-08T17:46:07-06:00",
+      "mtime": "2026-02-09T07:39:26-06:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "chemistry",
