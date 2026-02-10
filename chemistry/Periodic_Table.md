@@ -5,7 +5,7 @@
 
 The **Period** (row) dictates how many shells are present.
 
-**Electron Shells** : The specific, quantized energy levels or "orbits" surrounding an atomic nucelus where electrons are located. They represent the distance of electrons from the nucelus, with inner shells holding lower energy and filling first.
+**Electron Shells** : The specific, quantized energy levels or "orbits" surrounding an atomic nucleus where electrons are located. They represent the distance of electrons from the nucelus, with inner shells holding lower energy and filling first.
 - Valence Shell : Outermost shell, usually determines chemical properties
 - Electrons in atoms fill shells following a specific, predictable pattern based on energy levels and quantum mechanics. The max number of electrons in each shell follows the 2n^2 formula (where n is the shell number), resulting in 2, 8, 18, and 32 electrons for the first four shells.
 
@@ -43,3 +43,32 @@ Halogens
 Noble-gases
 
 
+
+
+
+![[Pasted image 20260210065242.png]]
+
+
+
+## Periodic Trends
+
+#define **Periodic Trends** describe predictable patterns in element properties across the periodic table, generally increasing/decreasing down groups and across periods.
+- Exceptions arises from electron configurations and orbital stability.
+
+Included in periodic trends are,
+- Atomic Radius : Decreases across a period (more protons pulling electrons in), increases down a group (more electron shells).
+- Ionization Energy (IE) : Generally increases across a period (harder to remove electron), decreases down a group (further from nucleus).
+- Electro-negativity : Increases across a period, decreases down a group (towards top-right).
+- Electron Affinity (EA) : Generally increases across a period, decreases down a group (more negative/exothermic).
+- Metallic Character : Decreases across a period, increases down a group.
+
+Exceptions in periodic trends are,
+- Subshell Transitions (s to p) : Moving from Group 2 (s²) to Group 13 (s²p¹), the added p-electron is further from the nucleus and shielded by s-electrons, making it easier to remove (e.g., Mg to Al, Be to B).
+- Electron Pairing : Moving from Group 15 (p³) to Group 16 (p⁴), the extra electron in Group 16 must pair up in an orbital, causing repulsion and making it easier to remove than expected (e.g., N to O, P to S).
+- Full/Half-Full Subshells : Stable half-filled (p³) and full-filled (p⁶) subshells resist electron removal, leading to higher IE than expected.
+- Noble Gases : Complete valence shells make them largely unreactive and give them very high ionization energies, but they don't follow the standard trend for electronegativity/EA.
+
+
+![[Periodicity-Trends-in-the-Periodic-Table.pdf]]
+
+![[Periodic-Table-Orbitals-Dec-2016.pdf]]
