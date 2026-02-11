@@ -1916,7 +1916,8 @@
                   "title": "linguistic_relativity"
                 }
               }
-            ]
+            ],
+            "currentTab": 8
           }
         ],
         "direction": "vertical"
@@ -1994,13 +1995,12 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "chemistry/Periodic_Table.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of Periodic_Table"
+                  "title": "Outline"
                 }
               }
             ]
@@ -2099,7 +2099,7 @@
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 1
           },
           {
             "id": "baddb2b819dd740a",
@@ -2121,7 +2121,6 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "chemistry/Periodic_Table.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -2131,7 +2130,7 @@
                     "unlinkedCollapsed": false
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for Periodic_Table"
+                  "title": "Backlinks"
                 }
               }
             ],
@@ -2157,8 +2156,8 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "bf20a03f0a3bbaf6",
-      "mtime": "2026-02-09T07:39:26-06:00",
+      "active": "227e6011dc684b16",
+      "mtime": "2026-02-10T07:20:41-06:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "chemistry",

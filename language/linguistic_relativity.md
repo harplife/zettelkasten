@@ -313,3 +313,27 @@ Languages **guide attention** and **highlight what matters to their cultures**, 
 
 ### Computer Engineering
 
+#### 1. Lexicalization to Attentional Bias
+
+Deliberately learn and use precise technical terms instead of vague ones.
+
+Example
+
+Instead of  "The program is slow", use :
+- "memory-boud"
+- "cache-miss heavy"
+- "branch-mispredict dominated"
+- "I/O-latency limited"
+
+Having a word forces you to :
+- Notice the phenomenon
+- Separate it from others
+- Reason about it precisely
+
+Summary :
+- More words = finer perceptual resolution in problem space
+
+#### 2. Categorical Perception
+
+
+

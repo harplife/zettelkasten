@@ -142,7 +142,8 @@
               "title": "linguistic_relativity"
             }
           }
-        ]
+        ],
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -220,13 +221,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "chemistry/Periodic_Table.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Periodic_Table"
+              "title": "Outline"
             }
           }
         ]
@@ -325,7 +325,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       },
       {
         "id": "baddb2b819dd740a",
@@ -347,7 +347,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "chemistry/Periodic_Table.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -357,7 +356,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Periodic_Table"
+              "title": "Backlinks"
             }
           }
         ],
@@ -383,8 +382,9 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "bf20a03f0a3bbaf6",
+  "active": "227e6011dc684b16",
   "lastOpenFiles": [
+    "chemistry/Periodic_Table.md",
     "attachments/Periodicity-Trends-in-the-Periodic-Table.pdf",
     "attachments/Periodicity-Trends-in-the-Periodic-Table.pdf.opdownload",
     "attachments/Periodic-Table-Orbitals-Dec-2016.pdf",
@@ -409,7 +409,6 @@
     "chemistry/Timeline_of_Element_Discoveries.md",
     "chemistry/alchemy/Alchemy.md",
     "chemistry/alchemy/The_Holocene_Alchemist.md",
-    "chemistry/Periodic_Table.md",
     "language/linguistic_relativity.md",
     "language/International_Phonetic_Alphabet.md",
     "math/calculus/Chapter 2/6_Continuity.md",
@@ -421,7 +420,6 @@
     "attachments/Alchemical Periodic Table Symbols.pdf",
     "chemistry/alchemy",
     "attachments/A-timeline-of-the-discoveries-of-the-chemical-elements-Jan-2019.pdf",
-    "Untitled.base",
     "anthropology/ANTH_150_Cultural_Anthropology.md",
     "SWIC/2026 Spring/math_203_calculus.md",
     "chemistry/elements/Copper (Cu).md",
