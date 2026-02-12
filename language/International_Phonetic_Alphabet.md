@@ -356,15 +356,15 @@ GA typically features **14-16 vowels**, (i, ɪ, eɪ, ɛ, æ, ɑ, ɔ, oʊ, ʊ, u,
 
 | Phoneme | Vowel Quality | Sound       | Examples                                                                                   | Merge              |
 | ------- | ------------- | ----------- | ------------------------------------------------------------------------------------------ | ------------------ |
-| **/i/** | tense         | long i      | b**ee**t, m**e**, fl**ee**ce, happ**y**, **ea**t                                           |                    |
-| **/ɪ/** | lax           | short i     | b**i**t, f**i**ll, k**i**t, m**i**rror, n**e**ar, **i**t                                   |                    |
-| **/ɛ/** | lax           | mid-open eh | b**e**t, m**e**d, dr**e**ss, c**a**rry, ch**e**rry, sq**ua**re                             | **/e/**            |
-| **/æ/** | lax           | open eh     | b**a**t, m**a**d, tr**a**p, b**a**th                                                       |                    |
-| **/ɑ/** | lax           | ah          | p**o**t, f**a**ther, p**a**lm, st**a**rt, l**o**t, s**o**rry,<br>h**o**t, n**o**t, b**o**x | **/ɔ/**            |
-| **/ɔ/** | lax, rounded  | aw          | d**o**g, l**aw**, th**ou**ght, cl**o**th, n**o**rth, f**o**rce, f**o**rest                 | **/o/**            |
-| **/ə/** | lax, neutral  | uh          | **a**bout, sof**a**, moth**e**r, b**u**t, r**u**n, str**u**t                               | **/ʌ/** (stressed) |
-| **/u/** | tense         | long ooh    | b**oo**t, y**ou**, g**oo**se                                                               |                    |
-| **/ʊ/** | lax           | short ooh   | b**oo**k, p**u**t, f**oo**t, c**u**re                                                      |                    |
+| `/i/`   | tense         | long i      | b**ee**t, m**e**, fl**ee**ce, happ**y**, **ea**t                                           |                    |
+| `/ɪ/`   | lax           | short i     | b**i**t, f**i**ll, k**i**t, m**i**rror, n**e**ar, **i**t                                   |                    |
+| `/ɛ/`   | lax           | mid-open eh | b**e**t, m**e**d, dr**e**ss, c**a**rry, ch**e**rry, sq**ua**re                             | **/e/**            |
+| `/æ/`   | lax           | open eh     | b**a**t, m**a**d, tr**a**p, b**a**th                                                       |                    |
+| `/ɑ/`   | lax           | ah          | p**o**t, f**a**ther, p**a**lm, st**a**rt, l**o**t, s**o**rry,<br>h**o**t, n**o**t, b**o**x | **/ɔ/**, `/ɒ/`     |
+| `/ɔ/`   | lax, rounded  | aw          | d**o**g, l**aw**, th**ou**ght, cl**o**th, n**o**rth, f**o**rce, f**o**rest                 | **/o/**            |
+| `/ə/`   | lax, neutral  | uh          | **a**bout, sof**a**, moth**e**r, b**u**t, r**u**n, str**u**t                               | **/ʌ/** (stressed) |
+| `/u/`   | tense         | long ooh    | b**oo**t, y**ou**, g**oo**se                                                               |                    |
+| `/ʊ/`   | lax           | short ooh   | b**oo**k, p**u**t, f**oo**t, c**u**re                                                      |                    |
 
 Diphthongs
 
