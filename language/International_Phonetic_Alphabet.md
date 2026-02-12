@@ -649,8 +649,7 @@ Function words
 [wine-whine](https://en.wikipedia.org/wiki/Pronunciation_of_English_⟨wh⟩#Wine–whine_merger)
 [full-fool](https://en.wikipedia.org/wiki/English-language_vowel_changes_before_historic_/l/#Full–fool_merger)
 [fill-feel](https://en.wikipedia.org/wiki/English-language_vowel_changes_before_historic_/l/#Fill–feel_merger)
-do-dew
-pin-pen
+[pin-pen](https://en.wikipedia.org/wiki/Phonological_history_of_English_close_front_vowels#Pin–pen_merger)
 
 
 #### Wine-Whine Merger

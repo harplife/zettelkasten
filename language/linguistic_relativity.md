@@ -521,3 +521,9 @@ By the time I master English and Korean, I'm hoping I'd be fluent in IPA to some
 
 My theory is that by learning more languages, I'd be able to collect some lexicons (including focal vocabs) and grammars that aren't normally seen in English; in order to broaden my horizon and shift focus in a beneficial way.
 
+
+
+## Non-native English Pronunciations
+
+https://en.wikipedia.org/wiki/Non-native_pronunciations_of_English
+

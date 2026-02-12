@@ -143,7 +143,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -221,13 +221,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "language/International_Phonetic_Alphabet.md",
+                "file": "language/linguistic_relativity.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of International_Phonetic_Alphabet"
+              "title": "Outline of linguistic_relativity"
             }
           }
         ]
@@ -348,7 +348,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "language/International_Phonetic_Alphabet.md",
+                "file": "language/linguistic_relativity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -358,7 +358,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for International_Phonetic_Alphabet"
+              "title": "Backlinks for linguistic_relativity"
             }
           }
         ],
@@ -384,10 +384,10 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "6bfd33caace19aee",
+  "active": "641e5336b764f231",
   "lastOpenFiles": [
-    "chemistry/alchemy/The_Alchemic_Script.md",
     "language/International_Phonetic_Alphabet.md",
+    "chemistry/alchemy/The_Alchemic_Script.md",
     "language/linguistic_relativity.md",
     "language/formal_methods.md",
     "chemistry/Periodic_Table.md",
