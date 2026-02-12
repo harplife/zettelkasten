@@ -351,3 +351,119 @@ Example
 - "N+1 query problem"
 - "ABA problem"
 
+Once a pattern is named :
+- You recognize it faster
+- You avoid rediscovering it
+- You can transfer knowledge across contexts
+
+
+#### 3. Grammaticalization to Obligatory Encoding
+
+Use language to force attention to hidden dimensions.
+
+Create mandatory checklists or sentence frames when reasoning.
+
+When designing a system, force yourself to complete :
+- The time complexity bottleneck is ..
+- The space complexity tradeoff is ..
+- The failure mode under load is ..
+- The security assumption here is ..
+
+By mimicking grammatical obligation :
+- Just like some language force speakers to encode time or evidence, you force yourself to encode performance, safety, and scalability.
+
+
+#### 4. Top-Down Modulation & Cognitive Offloading
+
+Externalize thought with diagrams and pseudocode
+
+Translate thoughts into :
+- Precise variable names
+- Pseudocode
+- State machines
+- Timing diagrams
+
+Language (including formal notations) reshapes :
+- What you attend to
+- What inconsistencies become visible
+
+
+#### 5. Frame Shifting
+
+Switch linguistic frames deliberately.
+
+Describe the same problem in multiple languages :
+- Algorithmic language (inputs, outputs, invariants)
+- Systems language (latency, throughput, contention)
+- Mathematical language (state space, mappings)
+- User-facing language (what breaks if this fails?)
+
+Each frame highlights different aspects of reality.
+
+
+#### 6. Cross-Modal and Metaphorical Mapping
+
+Adopt metaphors intentionally, not accidentally :
+- Memory as Hierarchy vs. Pipeline
+- Threads as Workers vs. Resources
+- Programs as Flows vs. States
+
+Metaphors bias reasoning :
+- Some make performance clearer
+- Others hide failure modes
+
+
+#### 7. Causal Perception & Agency
+
+Improve debugging by linguistic precision
+
+Avoid vague causal language :
+- Instead of "the compiler broke", say "undefined behavior was triggered due to aliasing" or "data race caused non-deterministic write order"
+
+Precise causal language :
+- Reduces magical thinking
+- Forces mechanistic explanations
+- Leads to faster root-cause analysis
+
+
+#### 8. Category Reinforcement
+
+Train perception through code reviews
+
+During reviews, explicitly label issues :
+- Lifetime violation
+- Invariant break
+- API leakage
+- Temporal coupling
+
+Repeated linguistic labeling :
+- Trains your perceptual system
+- Turns slow reasoning into fast recognition
+
+
+#### 9. Linguistic Diversity to Attentional Flexibility
+
+Learn multiple programming languages for cognitive gain.
+
+Expose yourself to languages with radically different constraints :
+- C/C++ (memory & lifetimes)
+- Rust (ownership & borrowing)
+- Haskell (purity & types)
+- Python (expressivity & dynamism)
+
+Each language :
+- Grammaticalizes different concerns
+- Forces attention to different failure modes
+
+
+#### 10. Language-Driven Thought Restructure
+
+Use writing as a thinking tool
+
+Write :
+- Design docs
+- Post-mortems
+- "Explain it to a junior" notes
+
+Language exposes gaps brutally and productively.
+
