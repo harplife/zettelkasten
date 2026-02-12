@@ -468,5 +468,25 @@ Write :
 Language exposes gaps brutally and productively.
 
 
+#### Formal Methods
 
+See [[formal_methods|Formal Methods]].
 
+Formal methods :
+- Force explicit encoding of assumptions
+- Remove ambiguity
+- Change what you notice
+
+They are like a programming language that :
+- Grammaticalizes invariants
+- Makes implicit assumptions illegal
+- Forces attention to edge cases
+
+In linguistic relativity terms, formal systems reshape cognition by restructuring the language in which you reason.
+
+---
+The practical path for learning formal methods is :
+1. Learn basic logic (propositional + predicate logic)
+2. Study Hoare logic
+3. Learn TLA+ for distributed systems
+4. Explore a proof assistant (Lean or Coq)

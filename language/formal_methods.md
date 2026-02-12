@@ -11,6 +11,7 @@
 #define [Formal Methods](https://en.wikipedia.org/wiki/Formal_methods) are mathematical techniques for specifying, modeling, and verifying software systems to ensure correctness, safety, and reliability.
 - The point is to use logic and mathematics (as opposed to informal reasoning) to prove correctness of a system.
 - #define In theoretical computer science, an algorithm is [correct](<https://en.wikipedia.org/wiki/Correctness_(computer_science)>) with respect to a specification if it behaves as specified.
+- Properties of an execution of a computer program have long been formulated by giving [safety and liveness properties](https://en.wikipedia.org/wiki/Safety_and_liveness_properties).
 
 Formal methods employ a variety of theoretical computer science fundamentals, including :
 - Logic calculi
@@ -66,6 +67,11 @@ Specification languages include :
 - TLA+
 
 
+<center>. . .</center>
+
+#example Say there's a function that sorts a list. Instead of informally saying "The function sorts a list", I can specify that "For all lists `L`, `sorted(L') AND permutation(L, L')`". This clearly indicates that the output list is sorted and the output list contains exactly the same elements as the input; this way, correctness has a precise meaning.
+
+
 ---
 #define A [Mathematical Model](https://en.wikipedia.org/wiki/Mathematical_model) is an abstract description of a concrete system using mathematical concepts and language. The process of developing a mathematical model is termed **Mathematical Modeling**.
 
@@ -75,9 +81,68 @@ Modeling is an abstract representation of the system, such as :
 - Logical formulas
 - Algebraic models
 
+<center>. . .</center>
+
+#example A traffic light system might be modeled as :
+
+```mathematica
+State ∈ {Red, Green, Yellow}
+Transitions:
+Red → Green
+Green → Yellow
+Yellow → Red
+```
+
+With this model, safety properties can then be reasoned.
+
 ---
 #define [Formal Verification](https://en.wikipedia.org/wiki/Formal_verification) is the act of proving the correctness of a system with respect to a certain formal specification (or property).
 - The verification of these systems is done by ensuring the existence of a formal proof of a mathematical model of the system.
+
+
+## Variations of Formal Methods
+
+Formal methods differ mainly in how verification is performed. Variations of formal methods include :
+- Theorem Proving (Deductive Verification)
+- Model Checking
+- Type Systems (Lightweight Formal Methods)
+- Static Analysis
+- Abstract Interpretation
+
+---
+**Theorem Proving** involves using mathematical proofs and proof tools. Examples :
+- Coq
+- Lean
+- Isabelle
+
+They are very powerful but labor-intensive.
+
+---
+**Model Checking** involves exploring all possible system states and finding counter-examples if properties fail. Examples :
+- TLA+
+- SPIN
+- NuSMV
+- Alloy
+
+They are highly automated and excellent for concurrency & distributed systems. However, not great for large systems (state explosion).
+
+---
+**Type Systems** encode correctness constraints in types which are checked at compile time. Examples :
+- Rust ownership system
+- Haskell type system
+
+They are practical and widely used, tend to be lightweight, and prevents many classes of bugs.
+
+---
+**Static Analysis** involves analyzing code without executing it and checking for violations of rules or properties. Examples :
+- Null pointer detection
+- Data race analysis
+- Security property checks
+
+Although it scales well, it is usually conservative (may give false positives).
+
+---
+Abstract Interpretation involves approximating program behavior mathematically. It is used for scalable static analysis, and common in safety-critical systems and compiler optimizations.
 
 
 ## Vienna Development Method
