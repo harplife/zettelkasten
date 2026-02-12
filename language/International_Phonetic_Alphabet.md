@@ -637,7 +637,7 @@ Function words
 #### Drawl
 
 #define A [Drawl](https://en.wikipedia.org/wiki/Drawl) is a perceived feature of some varieties of spoken English and generally indicates slower, longer vowel sounds and diphthongs.
-- This particular speech pattern exists primarily in varieties of English, such as [Southern American English](https://en.wikipedia.org/wiki/Southern_American_English) ().
+- This particular speech pattern exists primarily in varieties of English, such as [Southern American English](https://en.wikipedia.org/wiki/Southern_American_English) ([Southern Accent](<https://en.wikipedia.org/wiki/Southern_accent_(United_States)>)).
 
 
 
