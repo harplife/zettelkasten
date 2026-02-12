@@ -353,7 +353,7 @@ In GA, `/t/` is rather particular and has more allophones than other phonemes.
 #definition A [Vowel](https://en.wikipedia.org/wiki/Vowel) is a speech sound produced with an open vocal tract, allowing air to flow freely without significant restriction from the articulators.
 - Vowels vary in quality, loudness, and length.
 - Vowels are usually voiced.
-- Vowels are closely involved in prosodic variation such as tone, intonation and stress.
+- Vowels are closely involved in prosodic variation such as [tone](<https://en.wikipedia.org/wiki/Tone_(linguistics)>), intonation and stress.
 
 
 
