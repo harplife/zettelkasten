@@ -214,30 +214,30 @@ Consonant phonemes in [General American](https://en.wikipedia.org/wiki/General_A
 
 #example common GA consonants :
 
-| Phoneme               | Voiced/Voiceless | Example                                                                     |
-| --------------------- | ---------------- | --------------------------------------------------------------------------- |
-| `/b/`                 | voiced           | **b**at, ro**b**                                                            |
-| `/p/`                 | voiceless        | **p**en, to**p**                                                            |
-| `/d/`                 | voiced           | **d**og, la**dd**er                                                         |
-| `/t/`                 | voiceless        | **t**en, be**t**                                                            |
-| `/g/`                 | voiced           | **g**et, do**g**                                                            |
-| `/k/`                 | voiceless        | **c**at, **k**ing, bac**k**                                                 |
-| `/v/`                 | voiced           | **v**an, ha**ve**                                                           |
-| `/f/`                 | voiceless        | **f**an, pu**ff**                                                           |
-| `/z/`                 | voiced           | **z**oo, ro**se**                                                           |
-| `/s/`                 | voiceless        | **s**it, pa**ss**                                                           |
-| `/ʒ/` (zh)            | voiced           | plea**s**ure, gara**g**e, vi**si**on                                        |
-| `/ʃ/` (sh)            | voiceless        | **sh**ip, di**sh**                                                          |
-| `/d͡ʒ/` (j)           | voiced           | **j**ob, **g**iant, ma**g**ic, a**g**e, ba**dg**e, sol**d**ier, **j**ealous |
-| `/t͡ʃ/` (ch)          | voiceless        | **ch**oice, **ch**ew, wat**ch**                                             |
-| `/ð/` (soft th)       | voiced           | **th**is, **th**en, mo**th**er                                              |
-| `/θ/` (hissy th)      | voiceless        | **th**in, **th**ink, ba**th**, bir**th**day                                 |
-| `/h/`                 | voiceless        | **h**at, **wh**o                                                            |
-| `/m/`                 | voiced           | **m**ap, ha**mm**er                                                         |
-| `/n/`                 | voiced           | **n**et, su**nn**y                                                          |
-| `/ŋ/` (ng)            | voiced           | si**ng**er, ba**ng**                                                        |
-| `/l/`                 | voiced           | **l**ight, fi**ll**                                                         |
-| `/ɹ̠/` (r but no tap) | voiced           | **r**un, ca**r**                                                            |
+| Phoneme              | Voiced/Voiceless | Example                                                                     |
+| -------------------- | ---------------- | --------------------------------------------------------------------------- |
+| `/b/`                | voiced           | **b**at, ro**b**                                                            |
+| `/p/`                | voiceless        | **p**en, to**p**                                                            |
+| `/d/`                | voiced           | **d**og, la**dd**er                                                         |
+| `/t/`                | voiceless        | **t**en, be**t**                                                            |
+| `/g/`                | voiced           | **g**et, do**g**                                                            |
+| `/k/`                | voiceless        | **c**at, **k**ing, bac**k**                                                 |
+| `/v/`                | voiced           | **v**an, ha**ve**                                                           |
+| `/f/`                | voiceless        | **f**an, pu**ff**                                                           |
+| `/z/`                | voiced           | **z**oo, ro**se**                                                           |
+| `/s/`                | voiceless        | **s**it, pa**ss**                                                           |
+| `/ʒ/` (zh)           | voiced           | plea**s**ure, gara**g**e, vi**si**on                                        |
+| `/ʃ/` (sh)           | voiceless        | **sh**ip, di**sh**                                                          |
+| `/d͡ʒ/` (j)          | voiced           | **j**ob, **g**iant, ma**g**ic, a**g**e, ba**dg**e, sol**d**ier, **j**ealous |
+| `/t͡ʃ/` (ch)         | voiceless        | **ch**oice, **ch**ew, wat**ch**                                             |
+| `/ð/` (soft th)      | voiced           | **th**is, **th**en, mo**th**er                                              |
+| `/θ/` (hissy th)     | voiceless        | **th**in, **th**ink, ba**th**, bir**th**day                                 |
+| `/h/`                | voiceless        | **h**at, **wh**o                                                            |
+| `/m/`                | voiced           | **m**ap, ha**mm**er                                                         |
+| `/n/`                | voiced           | **n**et, su**nn**y                                                          |
+| `/ŋ/` (ng)           | voiced           | si**ng**er, ba**ng**                                                        |
+| `/l/`                | voiced           | **l**ight, fi**ll**                                                         |
+| `/ɹ/` (r but no tap) | voiced           | **r**un, ca**r**                                                            |
 
 <center>. . .</center>
 
@@ -300,9 +300,11 @@ Liquids consists of *rhotics* and *voiced lateral approximants* :
 
 <center>. . .</center>
 
-In GA, the only rhotic consonant is the **voiced post-alveolar approximant** `/ɹ̠/`, used for the the English letter `⟨r⟩`. It is typically written as `/r/` (voiced alveolar trill) for convenience, but the main difference is that the tongue does not touch the alveolar.
+In GA, the only rhotic consonant is the [voiced alveolar approximant](https://en.wikipedia.org/wiki/Voiced_alveolar_approximant) `/ɹ/`, used for the the English letter `⟨r⟩`. It is typically written as `/r/` (voiced alveolar trill) for convenience, but the main difference is that the tongue does not touch the alveolar.
 - `/r/` is more prominent in Spanish languages. It is called a "rolling-R".
 - #define The term "rhoticity" indicates whether an accent pronounces the `⟨r⟩`s. A rhotic accent pronounces it ("car" -> car), and non-rhotic accent doesn't ("car" -> cah).
+
+> [!important] To be more accurate, GA IPA uses voiced post-alveolar approximant `/ɹ̠/`, but we simplify it to `/ɹ/`.
 
 <center>. . .</center>
 
@@ -379,32 +381,46 @@ GA typically features **14-16 vowels**, (`/i, ɪ, eɪ, ɛ, æ, ɑ, ɔ, oʊ, ʊ, 
 | `/u/`   | tense         | long ooh    | b**oo**t, y**ou**, g**oo**se                                                               |                   |
 | `/ʊ/`   | lax           | short ooh   | b**oo**k, p**u**t, f**oo**t, c**u**re                                                      |                   |
 
+> [!important] #todo Note that there isn't a "oh" sound or tense "ah" sound, or 으 sound.
 
 
 #### Diphthongs
 
-#define **Diphthongs** are "gliding vowels" formed by combining two adjacent vowel sounds within a single syllable, where the tongue moves from one position to another. Common English diphthongs are :
-- **/aɪ/** ("sky", "pie", "eye")
-- **/aʊ/** ("house," "cow," "out")
-- **/eɪ/** ("day," "rain," "ate")
-- **/oʊ/** ("boat," "know," "show")
-- **/ɔɪ/** ("boy," "toy," "coin")
-- **/eə/** ("hair," "bear")
-- **/ɪə/** ("near," "fear")
-- **/ʊə/** ("tour," "cure")
+#define **Diphthongs** are "gliding vowels" formed by combining two adjacent vowel sounds within a single syllable, where the tongue moves from one position to another.
 
+Common English diphthongs are :
 
 | Phoneme | Examples                                                                 | Merge                       |
 | ------- | ------------------------------------------------------------------------ | --------------------------- |
-| `/eɪ/`  | b**ai**t, d**ay**, f**a**ce                                              |                             |
-| `/oʊ/`  | b**oa**t, n**o**, g**o**, h**o**me, cl**o**ne, dr**o**ne                 | **/əʊ/**, **/o/**, **/ow/** |
 | `/aɪ/`  | b**i**te, m**y**, sk**y**, p**ie**, **eye**                              |                             |
 | `/aʊ/`  | n**ow**, m**ou**th, h**ou**se, t**ow**n, ab**ou**t, s**ou**nd, p**ow**er |                             |
+| `/eɪ/`  | b**ai**t, d**ay**, f**a**ce, r**ai**n                                    |                             |
+| `/eə/`  | h**ai**r, b**ea**r                                                       |                             |
+| `/ɪə/`  | n**ea**r, f**ea**r                                                       |                             |
+| `/oʊ/`  | b**oa**t, n**o**, g**o**, h**o**me, cl**o**ne, dr**o**ne                 | **/əʊ/**, **/o/**, **/ow/** |
 | `/ɔɪ/`  | b**oy** , v**oi**ce, n**oi**se, ch**oi**ce, enj**oy**                    | **/oɪ/**                    |
-
+| `/ɔʊ/`  | thr**ow**                                                                |                             |
+| `/ʊə/`  | t**ou**r, c**u**r**e**                                                   |                             |
 
 Some vowels only appear in diphthongs, such as :
 - `/e/` in `/eɪ/` or `/eə/`
+- `/a/` in `/aɪ/` or `/aʊ/`
+- `/o/` in `/oʊ/`
+
+---
+The distinction between **rhoticity** and **non-rhoticity** is one of the most prominent ways in which varieties of the English language are classified.
+- In rhotic accents, the sound of the post-vocalic `/ɹ/` is preserved.
+- In non-rhotic accents, the sound of the post-vocalic `/ɹ/` is NOT preserved.
+
+#define Post-vocalic consonant refers to a consonant that occurs after a vowel.
+
+The rhotic dialects of English include Scotland, Ireland, U.S., and Canada.
+
+The non-rhotic dialects of English include England, Wales, Australia, New Zealand, and South Africa.
+
+Basically, a rhotic English speaker pronounces the word like "hard" as `/ˈhɑːrd/`, where as non-rhotic speakers pronounce it `/ˈhɑːd/` - dropping the `/ɹ/` sound.
+
+This is an important distinction because 
 
 
 #### Stress
