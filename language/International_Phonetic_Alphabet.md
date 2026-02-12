@@ -388,7 +388,7 @@ GA typically features **14-16 vowels**, (`/i, ɪ, eɪ, ɛ, æ, ɑ, ɔ, oʊ, ʊ, 
 
 <center>. . .</center>
 
-There isn't really an "oh" sound in GA. When we look at words like "go", the vowels are pronounced like "oh-ooh". `/ɔ/` is actually pretty close, 
+There isn't really an "oh" sound in GA. When we look at words like "go", the vowels are pronounced like "oh-ooh". From my perspective, `/ɔ/` is pretty close 
 
 
 We'll see in the Diphthongs section that `/o/` (short "oh" sound) is used.
