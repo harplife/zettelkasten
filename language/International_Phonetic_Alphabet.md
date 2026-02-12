@@ -2,16 +2,16 @@
 
 ## Definition and Purpose
 
-#definition [Linguistic](https://en.wikipedia.org/wiki/Linguistics) : The Scientific study of language.
+#define [Linguistic](https://en.wikipedia.org/wiki/Linguistics) : The Scientific study of language.
 
-#definition [Phonetics](https://en.wikipedia.org/wiki/Phonetics) : A branch of linguistics that studies speech sounds, encompassing their production (articulatory), transmission (acoustic), and perception (auditory).
+#define [Phonetics](https://en.wikipedia.org/wiki/Phonetics) : A branch of linguistics that studies speech sounds, encompassing their production (articulatory), transmission (acoustic), and perception (auditory).
 
-#definition [Phone](<https://en.wikipedia.org/wiki/Phone_(phonetics)>) : (in phonetics) Any distinct speech sound.
+#define [Phone](<https://en.wikipedia.org/wiki/Phone_(phonetics)>) : (in phonetics) Any distinct speech sound.
 - Phones are the [segments](<https://en.wikipedia.org/wiki/Segment_(linguistics)>) of speech that possess distinct physical or perceptual properties, regardless of whether the exact sound is critical to the meanings of words.
 
-#definition [Phonetic Notation](https://en.wikipedia.org/wiki/Phonetic_transcription) (Phonetic Transcription) : The visual representation of phones by means of symbols.
+#define [Phonetic Notation](https://en.wikipedia.org/wiki/Phonetic_transcription) (Phonetic Transcription) : The visual representation of phones by means of symbols.
 
-#definition [The International Phonetic Alphabet](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet) (IPA) :  an alphabetic system of phonetic notation based primarily on the Latin script.
+#define [The International Phonetic Alphabet](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet) (IPA) :  an alphabetic system of phonetic notation based primarily on the Latin script.
 
 ![[IPA_in_IPA.svg | center | 500]]
 > "IPA", transcribed according to received pronunciation as \[aɪ̯ pʰiː eɪ̯\].
@@ -52,7 +52,7 @@ https://www.ipachart.com/
 
 ### Syllable
 
-#definition A **Syllable** is a basic unit of organization within a sequence of speech sounds (e.g. a word).
+#define A **Syllable** is a basic unit of organization within a sequence of speech sounds (e.g. a word).
 
 The general structure of a syllable consists of two components :
 - Onset
@@ -123,7 +123,7 @@ Additionally, the angular brackets `⟨ ⟩` are used to indicate *graphemes* or
 
 ### General American English
 
-#definition **General American English** (GA or GenAM) is the umbrella accent of American English used by a majority of Americans, encompassing a continuum rather than a single unified accent. Basically, it is an accent of American English that lacks any distinctly regional, ethnic, or socioeconomic characteristics - which is used as a convenient basis for comparison.
+#define **General American English** (GA or GenAM) is the umbrella accent of American English used by a majority of Americans, encompassing a continuum rather than a single unified accent. Basically, it is an accent of American English that lacks any distinctly regional, ethnic, or socioeconomic characteristics - which is used as a convenient basis for comparison.
 
 We'll focus mainly on GA so that it keeps things simple - it will limit the amount of IPA letters we'd have to learn initially, and it will serve as a foundation for learning IPA letters meaningful for other languages.
 
@@ -133,12 +133,12 @@ Regardless of language, the speech sound is divided into two principal classes b
 
 ---
 The majority of sounds in most languages are *pulmonic egressive sounds* - which is our main focus. From here on, when I mention consonants/vowels, I'm referring to pulmonic consonants/vowels.
-- #definition [Pulmonic Egressive Sounds](https://en.wikipedia.org/wiki/Egressive_sound#Pulmonic_egressive) : Sounds produced through the mouth (or nose) using the air stream created by the lungs, ribs, and diaphragm.
+- #define [Pulmonic Egressive Sounds](https://en.wikipedia.org/wiki/Egressive_sound#Pulmonic_egressive) : Sounds produced through the mouth (or nose) using the air stream created by the lungs, ribs, and diaphragm.
 
 
 ### Consonants
 
-#definition A [Consonant](https://en.wikipedia.org/wiki/Consonant) is a speech sound that is articulated with complete or partial closure of the vocal tract.
+#define A [Consonant](https://en.wikipedia.org/wiki/Consonant) is a speech sound that is articulated with complete or partial closure of the vocal tract.
 
 IPA categorizes consonants based on three primary, articulatory features :
 - [Place of articulation](https://en.wikipedia.org/wiki/Place_of_articulation)
@@ -350,7 +350,7 @@ In GA, `/t/` is rather particular and has more allophones than other phonemes.
 
 ### Vowels
 
-#definition A [Vowel](https://en.wikipedia.org/wiki/Vowel) is a speech sound produced with an open vocal tract, allowing air to flow freely without significant restriction from the articulators.
+#define A [Vowel](https://en.wikipedia.org/wiki/Vowel) is a speech sound produced with an open vocal tract, allowing air to flow freely without significant restriction from the articulators.
 - Vowels vary in quality, loudness, and length.
 - Vowels are usually voiced.
 - Vowels are closely involved in prosodic variation such as [tone](<https://en.wikipedia.org/wiki/Tone_(linguistics)>), [intonation](<https://en.wikipedia.org/wiki/Intonation_(linguistics)>) and [stress](<https://en.wikipedia.org/wiki/Stress_(linguistics)>). Note that American English tend to be monotone but stress is still very impactful.
@@ -362,31 +362,49 @@ In GA, `/t/` is rather particular and has more allophones than other phonemes.
 
 GA typically features **14-16 vowels**, (`/i, ɪ, eɪ, ɛ, æ, ɑ, ɔ, oʊ, ʊ, u, ʌ, ə, aɪ, aʊ, ɔɪ/`).
 
-ɝ <-- r-colored vowel, stressed er sound for bird, nurse, learn
-ɚ <-- r-colored vowel, unstressed er sound for teacher, color
-
+> [!important] Vowels are more versatile than consonants.
+> - Vowel sounds may differ by region, and when they are, we call it *regional dialect*.
+> - Vowel sounds follow trends; some vowels *merge*.
+> - Vowel sounds may vary by syntax; they are either *stressed* or *reduced*.
 
 | Phoneme | Vowel Quality | Sound       | Examples                                                                                   | Merge             |
 | ------- | ------------- | ----------- | ------------------------------------------------------------------------------------------ | ----------------- |
+| `/ɑ/`   | lax           | ah          | p**o**t, f**a**ther, p**a**lm, st**a**rt, l**o**t, s**o**rry,<br>h**o**t, n**o**t, b**o**x | `/ɔ/`, `/ɒ/`      |
+| `/æ/`   | lax           | open eh     | b**a**t, m**a**d, tr**a**p, b**a**th                                                       |                   |
+| `/ɛ/`   | lax           | mid-open eh | b**e**t, m**e**d, dr**e**ss, c**a**rry, ch**e**rry                                         | `/e/`             |
 | `/i/`   | tense         | long i      | b**ee**t, m**e**, fl**ee**ce, happ**y**, **ea**t                                           |                   |
 | `/ɪ/`   | lax           | short i     | b**i**t, f**i**ll, k**i**t, m**i**rror, n**e**ar, **i**t                                   |                   |
-| `/ɛ/`   | lax           | mid-open eh | b**e**t, m**e**d, dr**e**ss, c**a**rry, ch**e**rry, sq**ua**re                             | `/e/`             |
-| `/æ/`   | lax           | open eh     | b**a**t, m**a**d, tr**a**p, b**a**th                                                       |                   |
-| `/ɑ/`   | lax           | ah          | p**o**t, f**a**ther, p**a**lm, st**a**rt, l**o**t, s**o**rry,<br>h**o**t, n**o**t, b**o**x | `/ɔ/`, `/ɒ/`      |
 | `/ɔ/`   | lax, rounded  | aw          | d**o**g, l**aw**, th**ou**ght, cl**o**th, n**o**rth, f**o**rce, f**o**rest                 | `/o/`, `/oʊ/`     |
 | `/ə/`   | lax, neutral  | uh          | **a**bout, sof**a**, moth**e**r, b**u**t, r**u**n, str**u**t                               | `/ʌ/ ` (stressed) |
 | `/u/`   | tense         | long ooh    | b**oo**t, y**ou**, g**oo**se                                                               |                   |
 | `/ʊ/`   | lax           | short ooh   | b**oo**k, p**u**t, f**oo**t, c**u**re                                                      |                   |
 
-Diphthongs
+
+
+#### Diphthongs
+
+#define **Diphthongs** are "gliding vowels" formed by combining two adjacent vowel sounds within a single syllable, where the tongue moves from one position to another. Common English diphthongs are :
+- **/aɪ/** ("sky", "pie", "eye")
+- **/aʊ/** ("house," "cow," "out")
+- **/eɪ/** ("day," "rain," "ate")
+- **/oʊ/** ("boat," "know," "show")
+- **/ɔɪ/** ("boy," "toy," "coin")
+- **/eə/** ("hair," "bear")
+- **/ɪə/** ("near," "fear")
+- **/ʊə/** ("tour," "cure")
+
 
 | Phoneme | Examples                                                                 | Merge                       |
 | ------- | ------------------------------------------------------------------------ | --------------------------- |
 | `/eɪ/`  | b**ai**t, d**ay**, f**a**ce                                              |                             |
 | `/oʊ/`  | b**oa**t, n**o**, g**o**, h**o**me, cl**o**ne, dr**o**ne                 | **/əʊ/**, **/o/**, **/ow/** |
-| `/aɪ/`  | b**i**te, m**y**                                                         |                             |
+| `/aɪ/`  | b**i**te, m**y**, sk**y**, p**ie**, **eye**                              |                             |
 | `/aʊ/`  | n**ow**, m**ou**th, h**ou**se, t**ow**n, ab**ou**t, s**ou**nd, p**ow**er |                             |
 | `/ɔɪ/`  | b**oy** , v**oi**ce, n**oi**se, ch**oi**ce, enj**oy**                    | **/oɪ/**                    |
+
+
+Some vowels only appear in diphthongs, such as :
+- `/e/` in `/eɪ/` or `/eə/`
 
 
 #### Stress
@@ -469,6 +487,12 @@ Key Patterns for English Stress:
 - **Length & Position:** Primary stress can fall on the 1st, 2nd, or 3rd syllable, making it essential to check the dictionary for unfamiliar words, as spelling does not always indicate stress placement.
 - **Secondary Stress:** Often found in long words, particularly on the first or second syllable, preceding the primary stress (e.g., _monumental_ /ˌmɑnjəˈmɛntəl/).
 
+
+
+#### R-Colored Vowels
+
+ɝ <-- r-colored vowel, stressed er sound for bird, nurse, learn
+ɚ <-- r-colored vowel, unstressed er sound for teacher, color
 
 
 
@@ -583,7 +607,7 @@ When a word ending in `/t/` is followed by a word starting with `/j/`, the sound
 
 #### Glide and Diphthongs
 
-#definition **Glide** ([Semi-Vowel](https://en.wikipedia.org/wiki/Semivowel) or Semi-Consonant) is a sound produced with little to no friction in vocal tract, acting as a transition to or from a vowel.
+#define **Glide** ([Semi-Vowel](https://en.wikipedia.org/wiki/Semivowel) or Semi-Consonant) is a sound produced with little to no friction in vocal tract, acting as a transition to or from a vowel.
 
 The main consonant glides in English are :
 - **/j/** ([voiced palatal approximant](https://en.wikipedia.org/wiki/Voiced_palatal_approximant), like the 'y' in "yes" and "you")
@@ -591,16 +615,7 @@ The main consonant glides in English are :
 
 #todo wait, isn't this labialization??
 
----
-#definition **Diphthongs** are "gliding vowels" formed by combining two adjacent vowel sounds within a single syllable, where the tongue moves from one position to another. Common English diphthongs are :
-- **/aɪ/** ("sky", "pie", "eye")
-- **/aʊ/** ("house," "cow," "out")
-- **/eɪ/** ("day," "rain," "ate")
-- **/oʊ/** ("boat," "know," "show")
-- **/ɔɪ/** ("boy," "toy," "coin")
-- **/eə/** ("hair," "bear")
-- **/ɪə/** ("near," "fear")
-- **/ʊə/** ("tour," "cure")
+
 
 
 ### Linguistic Features
