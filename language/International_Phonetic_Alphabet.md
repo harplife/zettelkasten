@@ -378,8 +378,8 @@ GA typically features **14-16 vowels**, (`/i, ɪ, eɪ, ɛ, æ, ɑ, ɔ, oʊ, ʊ, 
 | `/ɪ/`   | lax           | short i            | b**i**t, f**i**ll, k**i**t, m**i**rror, n**e**ar, **i**t                                   |                  |
 | `/ɔ/`   | lax, rounded  | aw<br>(rounded uh) | d**o**g, l**aw**, th**ou**ght, cl**o**th, n**o**rth, f**o**rce, f**o**rest                 | `/o/`            |
 | `/ə/`   | lax, neutral  | uh                 | **a**bout, sof**a**, moth**e**r, b**u**t, r**u**n, str**u**t                               | `/ʌ/` (stressed) |
-| `/u/`   | tense         | long ooh           | b**oo**t, y**ou**, g**oo**se                                                               |                  |
-| `/ʊ/`   | lax           | short ooh          | b**oo**k, p**u**t, f**oo**t, c**u**re                                                      |                  |
+| `/u/`   | tense         | long ooh           | b**oo**t, y**ou**, g**oo**se, s**ui**t                                                     |                  |
+| `/ʊ/`   | lax           | short ooh          | b**oo**k, p**u**t, f**oo**t, c**u**re, s**oo**t                                            |                  |
 
 > [!important] #todo Note that there isn't a "oh" sound or tense "ah" sound, or 으 sound.
 > - Uh and oh is kind of considered the same.
