@@ -388,7 +388,9 @@ GA typically features **14-16 vowels**, (`/i, ɪ, eɪ, ɛ, æ, ɑ, ɔ, oʊ, ʊ, 
 
 <center>. . .</center>
 
-There isn't really an "oh" sound in GA. When we look at words like "go", the vowels are pronounced like "oh-ooh". From my perspective, `/ɔ/` is pretty close 
+There isn't really an "oh" sound in GA. When we look at words like "go", the vowels are pronounced like "oh-ooh".
+
+The "aw" sound `/ɔ/` is pretty close because it's a rounded. Maybe because of this, `/o/` has been merged into `/ɔ/`.
 
 
 We'll see in the Diphthongs section that `/o/` (short "oh" sound) is used.
@@ -409,7 +411,6 @@ Common English diphthongs are :
 | `/eɪ/`  | eh-i   | b**ai**t, d**ay**, f**a**ce, r**ai**n                                    |                               |
 | `/oʊ/`  | oh-ooh | b**oa**t, n**o**, g**o**, h**o**me, cl**o**ne, dr**o**ne                 | `/əʊ/`, `/o/`, `/ow/`, `/ɔʊ/` |
 | `/ɔɪ/`  | uh-i   | b**oy** , v**oi**ce, n**oi**se, ch**oi**ce, enj**oy**                    | `/oɪ/`                        |
-
 
 Note that some vowels only appear in diphthongs, such as :
 - `/e/` in `/eɪ/` or `/eə/`
