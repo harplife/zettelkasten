@@ -514,3 +514,10 @@ I want to use IPA in order to speak English better, but also to train my ears to
 Then, I want to explore further with Korean - to understand how the consonants and vowels are interpreted and see how they differ from English. Then, I want to understand just how "English" accent can affect Korean.
 - Once I'm comfortable with the way I speak Korean, maybe I can consider tutoring people with Korean.
 
+By the time I master English and Korean, I'm hoping I'd be fluent in IPA to some degree. I want to learn Japanese and Spanish from then on.
+
+
+### Universal Lexicon & Grammar
+
+My theory is that by learning more languages, I'd be able to collect some lexicons (including focal vocabs) and grammars that aren't normally seen in English; in order to broaden my horizon and shift focus in a beneficial way.
+
