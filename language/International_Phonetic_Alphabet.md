@@ -210,7 +210,8 @@ Consonant phonemes in [General American](https://en.wikipedia.org/wiki/General_A
 
 > [!important] See [IPA : Full List of Consonants](https://en.wikipedia.org/wiki/List_of_consonants).
 
----
+<center>. . .</center>
+
 #example common GA consonants :
 
 | Phoneme               | Voiced/Voiceless | Example                                                                     |
@@ -238,10 +239,23 @@ Consonant phonemes in [General American](https://en.wikipedia.org/wiki/General_A
 | `/l/`                 | voiced           | **l**ight, fi**ll**                                                         |
 | `/ɹ̠/` (r but no tap) | voiced           | **r**un, ca**r**                                                            |
 
+<center>. . .</center>
+
 Note that the English alphabet has fewer consonant letters than the English language has consonant sounds, so *digraphs* like `⟨ch⟩`, `⟨sh⟩`, `⟨th⟩`, and `⟨ng⟩` are used to extend the alphabet, though some letters and digraphs represent more than one consonant.
 - #xample The sound spelled `⟨th⟩` in "this" is a different consonant from the `⟨th⟩` sound in "thin".
 - #define A [Digraph](<https://en.wikipedia.org/wiki/Digraph_(orthography)>) is a pair of characters used to write either a single phoneme, or a sequence of phonemes that does not correspond to the normal values of the two characters combined.
 - `⟨wh⟩` is sort of a digraph too, but we'll ignore this for now. This will be further discussed in the GA Mergers section.
+
+<center>. . .</center>
+
+Letter `⟨x⟩` is pronounced using the consonant cluster `/ks/` or `/gz/`.
+
+Letter `⟨q⟩` is pronounced using the consonant cluster `/kw/`.
+
+<center>. . .</center>
+
+> [!warning] Consonants `/w, j/` are called Semi-Vowels, which changes the way vowels are sounded.
+> This will be covered in *Special Consonants & Vowels --> Glide and Diphthongs*.
 
 
 #### Affricates
@@ -397,7 +411,7 @@ Diphthongs
 
 #todo A [Co-articulated Consonant](https://en.wikipedia.org/wiki/Co-articulated_consonant) is a consonant produced by simultaneous (or rapidly overlapping) articulations of adjacent sounds, commonly resulting in labialization, velarization, nasalization, and palatalization.
 
-#todo labialization
+#todo labialization <-- may be redundant with Glide and Diphthongs?
 `/w/` and `/j/`
 
 /w/: **wi**n, q**uee**n
@@ -487,7 +501,7 @@ When a word ending in `/t/` is followed by a word starting with `/j/`, the sound
 
 #### Glide and Diphthongs
 
-#definition **Glide** (Semi-Vowel or Semi-Consonant) is a sound produced with little to no friction in vocal tract, acting as a transition to or from a vowel.
+#definition **Glide** ([Semi-Vowel](https://en.wikipedia.org/wiki/Semivowel) or Semi-Consonant) is a sound produced with little to no friction in vocal tract, acting as a transition to or from a vowel.
 
 The main consonant glides in English are :
 - **/j/** ([voiced palatal approximant](https://en.wikipedia.org/wiki/Voiced_palatal_approximant), like the 'y' in "yes" and "you")
