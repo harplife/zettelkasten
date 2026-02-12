@@ -511,4 +511,6 @@ https://www.reddit.com/r/math/comments/1qzh3t6/sharing_a_category_theory_cheat_s
 
 I want to use IPA in order to speak English better, but also to train my ears to hear words better and train my mouth to speak words better in general.
 
-Then, I want to explore further 
+Then, I want to explore further with Korean - to understand how the consonants and vowels are interpreted and see how they differ from English. Then, I want to understand just how "English" accent can affect Korean.
+- Once I'm comfortable with the way I speak Korean, maybe I can consider tutoring people with Korean.
+
