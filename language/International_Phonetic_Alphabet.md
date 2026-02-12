@@ -643,6 +643,16 @@ Function words
 
 ### GA Mergers
 
+[mary-marry-merry](https://en.wikipedia.org/wiki/English-language_vowel_changes_before_historic_/r/#Mary–marry–merry_merger)
+[cot-caught](https://en.wikipedia.org/wiki/Cot–caught_merger)
+[horse-hoarse](https://en.wikipedia.org/wiki/English-language_vowel_changes_before_historic_/r/#Horse–hoarse_merger)
+[wine-whine](https://en.wikipedia.org/wiki/Pronunciation_of_English_⟨wh⟩#Wine–whine_merger)
+[full-fool](https://en.wikipedia.org/wiki/English-language_vowel_changes_before_historic_/l/#Full–fool_merger)
+[fill-feel](https://en.wikipedia.org/wiki/English-language_vowel_changes_before_historic_/l/#Fill–feel_merger)
+do-dew
+pin-pen
+
+
 #### Wine-Whine Merger
 
 `⟨wh⟩` is a diagraph that is now most commonly pronounced `/w/` (the same as `⟨w⟩`), due to **Wine-Whine Merger**.
