@@ -143,7 +143,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -221,13 +221,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "language/linguistic_relativity.md",
+                "file": "language/International_Phonetic_Alphabet.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of linguistic_relativity"
+              "title": "Outline of International_Phonetic_Alphabet"
             }
           }
         ]
@@ -348,7 +348,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "language/linguistic_relativity.md",
+                "file": "language/International_Phonetic_Alphabet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -358,7 +358,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for linguistic_relativity"
+              "title": "Backlinks for International_Phonetic_Alphabet"
             }
           }
         ],
@@ -386,8 +386,8 @@
   },
   "active": "227e6011dc684b16",
   "lastOpenFiles": [
-    "language/International_Phonetic_Alphabet.md",
     "language/linguistic_relativity.md",
+    "language/International_Phonetic_Alphabet.md",
     "language/formal_methods.md",
     "chemistry/Periodic_Table.md",
     "attachments/Periodicity-Trends-in-the-Periodic-Table.pdf",
