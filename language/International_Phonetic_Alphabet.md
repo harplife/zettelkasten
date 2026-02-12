@@ -607,6 +607,7 @@ Key Patterns for English Stress:
 #### Non-Phonetic Words
 
 #define **Non-Phonetic Words** (aka Red Words) are words that are spelled differently than how it sounds.
+- See also : [Spelling-to-Sound Correspondences](https://en.wikipedia.org/wiki/English_orthography#Spelling-to-sound_correspondences)
 
 In GA, there are very few universal rules to predict the pronunciation of the red words; there are patterns, etymological clues, and common consonant/vowel combinations that helps. Otherwise, they must generally be memorized.
 
