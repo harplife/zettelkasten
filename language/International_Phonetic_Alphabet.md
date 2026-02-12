@@ -638,7 +638,11 @@ Function words
 
 #define A [Drawl](https://en.wikipedia.org/wiki/Drawl) is a perceived feature of some varieties of spoken English and generally indicates slower, longer vowel sounds and diphthongs.
 - This particular speech pattern exists primarily in varieties of English, such as [Southern American English](https://en.wikipedia.org/wiki/Southern_American_English) ([Southern Accent](<https://en.wikipedia.org/wiki/Southern_accent_(United_States)>)).
+- See also : [Midland American English](https://en.wikipedia.org/wiki/Midland_American_English)
 
+The major characteristic of the Southern drawl is vowel breaking.
+- #define [Vowel Breaking](https://en.wikipedia.org/wiki/Vowel_breaking) (Diphthongization) is the sound change of a monophthong into a diphthong or triphthong.
+- The short front vowels `/æ/`, `/ɛ/`, and `/ɪ/` may be somewhat raised (or become an up-gliding diphthong, or both) before finally centralizing towards a schwa-like off-glide `[i̯ə]`. For example, "set" without drawl is `/sɛt/` but with drawl is `[sɛi̯ət]`.
 
 
 ### GA Mergers
