@@ -128,8 +128,8 @@ Additionally, the angular brackets `⟨ ⟩` are used to indicate *graphemes* or
 We'll focus mainly on GA so that it keeps things simple - it will limit the amount of IPA letters we'd have to learn initially, and it will serve as a foundation for learning IPA letters meaningful for other languages.
 
 Regardless of language, the speech sound is divided into two principal classes based on *obstruction of the vocal tract* :
-- [Consonant](https://en.wikipedia.org/wiki/Consonant) (obstructed sound)
-- [Vowel](https://en.wikipedia.org/wiki/Vowel) (unobstructed sound)
+- **Consonant** (obstructed sound)
+- **Vowel** (unobstructed sound)
 
 ---
 The majority of sounds in most languages are *pulmonic egressive sounds* - which is our main focus. From here on, when I mention consonants/vowels, I'm referring to pulmonic consonants/vowels.
@@ -138,7 +138,7 @@ The majority of sounds in most languages are *pulmonic egressive sounds* - which
 
 ### Consonants
 
-#definition A **Consonant** is a speech sound that is articulated with complete or partial closure of the vocal tract.
+#definition A [Consonant](https://en.wikipedia.org/wiki/Consonant) is a speech sound that is articulated with complete or partial closure of the vocal tract.
 
 IPA categorizes consonants based on three primary, articulatory features :
 - [Place of articulation](https://en.wikipedia.org/wiki/Place_of_articulation)
@@ -238,6 +238,12 @@ Consonant phonemes in [General American](https://en.wikipedia.org/wiki/General_A
 | `/l/`                 | voiced           | **l**ight, fi**ll**                                                         |
 | `/ɹ̠/` (r but no tap) | voiced           | **r**un, ca**r**                                                            |
 
+Note that the English alphabet has fewer consonant letters than the English language has consonant sounds, so digraphs like `⟨ch⟩`, `⟨sh⟩`, `⟨th⟩`, and `⟨ng⟩` are used to extend the alphabet, though some letters and digraphs represent more than one consonant.
+- #xample The sound spelled `⟨th⟩` in "this" is a different consonant from the `⟨th⟩` sound in "thin".
+- #define A [Digraph](<https://en.wikipedia.org/wiki/Digraph_(orthography)>) is a pair of characters used to write either a single phoneme, or a sequence of phonemes that does not correspond to the normal values of the two characters combined.
+- ⟨wh⟩
+
+
 #### Affricates
 
 #define An [Affricate](https://en.wikipedia.org/wiki/Affricate) is a consonant that begins as a stop and releases as a fricative, generally with the same place of articulation. GA has two affricate phonemes :
@@ -330,9 +336,10 @@ In GA, `/t/` is rather particular and has more allophones than other phonemes.
 
 ### Vowels
 
-#definition A Vowel is a speech sound produced with an open vocal tract, allowing air to flow freely without significant restriction from the articulators.
+#definition A [Vowel](https://en.wikipedia.org/wiki/Vowel) is a speech sound produced with an open vocal tract, allowing air to flow freely without significant restriction from the articulators.
 - All vowel sounds are voiced.
-- 
+
+
 
 
 #### Common GA Vowels & Examples
@@ -341,6 +348,32 @@ GA typically features **14-16 vowels**, (i, ɪ, eɪ, ɛ, æ, ɑ, ɔ, oʊ, ʊ, u,
 
 ɝ <-- r-colored vowel, stressed er sound for bird, nurse, learn
 ɚ <-- r-colored vowel, unstressed er sound for teacher, color
+
+
+
+
+| Phoneme | Vowel Quality | Sound       | Examples                                                                                   | Merge              |
+| ------- | ------------- | ----------- | ------------------------------------------------------------------------------------------ | ------------------ |
+| **/i/** | tense         | long i      | b**ee**t, m**e**, fl**ee**ce, happ**y**, **ea**t                                           |                    |
+| **/ɪ/** | lax           | short i     | b**i**t, f**i**ll, k**i**t, m**i**rror, n**e**ar, **i**t                                   |                    |
+| **/ɛ/** | lax           | mid-open eh | b**e**t, m**e**d, dr**e**ss, c**a**rry, ch**e**rry, sq**ua**re                             | **/e/**            |
+| **/æ/** | lax           | open eh     | b**a**t, m**a**d, tr**a**p, b**a**th                                                       |                    |
+| **/ɑ/** | lax           | ah          | p**o**t, f**a**ther, p**a**lm, st**a**rt, l**o**t, s**o**rry,<br>h**o**t, n**o**t, b**o**x | **/ɔ/**            |
+| **/ɔ/** | lax, rounded  | aw          | d**o**g, l**aw**, th**ou**ght, cl**o**th, n**o**rth, f**o**rce, f**o**rest                 | **/o/**            |
+| **/ə/** | lax, neutral  | uh          | **a**bout, sof**a**, moth**e**r, b**u**t, r**u**n, str**u**t                               | **/ʌ/** (stressed) |
+| **/u/** | tense         | long ooh    | b**oo**t, y**ou**, g**oo**se                                                               |                    |
+| **/ʊ/** | lax           | short ooh   | b**oo**k, p**u**t, f**oo**t, c**u**re                                                      |                    |
+
+Diphthongs
+
+| Phoneme  | Examples                                                                 | Merge                       |
+| -------- | ------------------------------------------------------------------------ | --------------------------- |
+| **/eɪ/** | b**ai**t, d**ay**, f**a**ce                                              |                             |
+| **/oʊ/** | b**oa**t, n**o**, g**o**, h**o**me, cl**o**ne, dr**o**ne                 | **/əʊ/**, **/o/**, **/ow/** |
+| **/aɪ/** | b**i**te, m**y**                                                         |                             |
+| **/aʊ/** | n**ow**, m**ou**th, h**ou**se, t**ow**n, ab**ou**t, s**ou**nd, p**ow**er |                             |
+| **/ɔɪ/** | b**oy** , v**oi**ce, n**oi**se, ch**oi**ce, enj**oy**                    | **/oɪ/**                    |
+
 
 
 ### Special Consonants & Vowels

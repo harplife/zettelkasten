@@ -24,29 +24,6 @@ All human beings are born free and equal in dignity and rights. They are endowed
 
 ---
 
-
-| Phoneme | Vowel Quality | Sound       | Examples                                                                                   | Merge              |
-| ------- | ------------- | ----------- | ------------------------------------------------------------------------------------------ | ------------------ |
-| **/i/** | tense         | long i      | b**ee**t, m**e**, fl**ee**ce, happ**y**, **ea**t                                           |                    |
-| **/ɪ/** | lax           | short i     | b**i**t, f**i**ll, k**i**t, m**i**rror, n**e**ar, **i**t                                   |                    |
-| **/ɛ/** | lax           | mid-open eh | b**e**t, m**e**d, dr**e**ss, c**a**rry, ch**e**rry, sq**ua**re                             | **/e/**            |
-| **/æ/** | lax           | open eh     | b**a**t, m**a**d, tr**a**p, b**a**th                                                       |                    |
-| **/ɑ/** | lax           | ah          | p**o**t, f**a**ther, p**a**lm, st**a**rt, l**o**t, s**o**rry,<br>h**o**t, n**o**t, b**o**x | **/ɔ/**            |
-| **/ɔ/** | lax, rounded  | aw          | d**o**g, l**aw**, th**ou**ght, cl**o**th, n**o**rth, f**o**rce, f**o**rest                 | **/o/**            |
-| **/ə/** | lax, neutral  | uh          | **a**bout, sof**a**, moth**e**r, b**u**t, r**u**n, str**u**t                               | **/ʌ/** (stressed) |
-| **/u/** | tense         | long ooh    | b**oo**t, y**ou**, g**oo**se                                                               |                    |
-| **/ʊ/** | lax           | short ooh   | b**oo**k, p**u**t, f**oo**t, c**u**re                                                      |                    |
-
-Diphthongs
-
-| Phoneme  | Examples                                                                 | Merge                       |
-| -------- | ------------------------------------------------------------------------ | --------------------------- |
-| **/eɪ/** | b**ai**t, d**ay**, f**a**ce                                              |                             |
-| **/oʊ/** | b**oa**t, n**o**, g**o**, h**o**me, cl**o**ne, dr**o**ne                 | **/əʊ/**, **/o/**, **/ow/** |
-| **/aɪ/** | b**i**te, m**y**                                                         |                             |
-| **/aʊ/** | n**ow**, m**ou**th, h**ou**se, t**ow**n, ab**ou**t, s**ou**nd, p**ow**er |                             |
-| **/ɔɪ/** | b**oy** , v**oi**ce, n**oi**se, ch**oi**ce, enj**oy**                    | **/oɪ/**                    |
-
 > [!important] In GA, **/e/** and **/o/** are only present in diphthongs.
 
 
