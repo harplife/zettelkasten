@@ -335,5 +335,19 @@ Summary :
 
 #### 2. Categorical Perception
 
+Name patterns, not just solutions
 
+Learn names for recurring patterns in :
+- Algorithms
+- Concurrency
+- Bugs
+- Architecture
+
+Example
+
+- "Race condition"
+- "False sharing"
+- "Priority inversion"
+- "N+1 query problem"
+- "ABA problem"
 
