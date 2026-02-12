@@ -353,7 +353,7 @@ In GA, `/t/` is rather particular and has more allophones than other phonemes.
 #definition A [Vowel](https://en.wikipedia.org/wiki/Vowel) is a speech sound produced with an open vocal tract, allowing air to flow freely without significant restriction from the articulators.
 - Vowels vary in quality, loudness, and length.
 - Vowels are usually voiced.
-- Vowels are closely involved in prosodic variation such as [tone](<https://en.wikipedia.org/wiki/Tone_(linguistics)>), intonation and stress.
+- Vowels are closely involved in prosodic variation such as [tone](<https://en.wikipedia.org/wiki/Tone_(linguistics)>), [intonation](<https://en.wikipedia.org/wiki/Intonation_(linguistics)>) and [stress](<https://en.wikipedia.org/wiki/Stress_(linguistics)>). Note that American English tend to be monotone but stress is still very impactful.
 
 
 
@@ -387,6 +387,88 @@ Diphthongs
 | `/aɪ/`  | b**i**te, m**y**                                                         |                             |
 | `/aʊ/`  | n**ow**, m**ou**th, h**ou**se, t**ow**n, ab**ou**t, s**ou**nd, p**ow**er |                             |
 | `/ɔɪ/`  | b**oy** , v**oi**ce, n**oi**se, ch**oi**ce, enj**oy**                    | **/oɪ/**                    |
+
+
+#### Stress
+
+#define [Stress](<https://en.wikipedia.org/wiki/Stress_(linguistics)>) (or Accent) is the relative emphasis or prominence given to a certain syllable in a word or to a certain word in a phrase or sentence.
+- This emphasis is made by increased loudness and vowel length, full articulation of the vowel, and changes in pitch/tone.
+
+In the IPA, stress is marked by a vertical tick placed *before* the syllable.
+
+A stress is described as either *primary* or *secondary*.
+
+#define A **Primary Stress** marks the loudest/most prominent syllable in the word, and denoted with a raised tick `⟨ˈ⟩`.
+- #example "Tomato" -> `/təˈmeɪ.toʊ/`, the "may" sound is the loudest.
+
+#define A [Secondary Stress](https://en.wikipedia.org/wiki/Secondary_stress) marks the weaker but still noticeably loud syllable in the word, and denoted with a lowered tick `⟨ˌ⟩`.
+- #example "Information" -> `/ˌɪn.fərˈmeɪ.ʃən/`, the "in" sound is slightly emphasized.
+
+Typically, a **syllable break** `⟨.⟩` is used to indicate the division between syllables within a word. It makes transcription easier to read (it is mostly for convenience).
+- When a stress is used in a word, a syllable break helps to distinguish unstressed syllables.
+
+Absence of stress on a syllable, or on a word in some cases, is frequently associated with *vowel reduction*.
+- #define [Vowel Reduction](https://en.wikipedia.org/wiki/Vowel_reduction) refers to any change in the acoustic quality of vowels as a result of changes in stress, sonority, duration, loudness, articulation, or position in the word, which are perceived as "weakening". It often makes the vowels shorter.
+- Many such syllables are pronounced with a centralized vowel (e.g. schwa `/ə/`) or with certain other vowels that are described as being "reduced" (or sometimes with a syllabic consonant as the syllable nucleus).
+
+<center>. . .</center>
+
+In GA, unstressed syllables are reduced in four different ways :
+- Mid/Low Vowels to `/ə/`
+- High Front/Back Vowels to `/ɪ/` or `/ə/`
+- R-Dissimilation (dropping the first `/r/`)
+- Suffix Reduction to `/ə/`
+
+#example Mid/Low Vowels to `/ə/` :
+- "About" : `/əˈbaʊt/`
+- "Sofa" : `/ˈsoʊfə/`
+- "Computer" : `/kəmˈpjuːtɚ/`
+- "Official" : `/əˈfɪʃəl/`
+
+#example High Front/Back Vowels to `/ɪ/` or `/ə/`
+- "Decide" : `/dɪˈsaɪd/` (often /ɪ/ or /ə/)
+- "Potato" : `/pəˈteɪtoʊ/` (first 'o' reduces)
+
+#example R-Dissimilation (dropping the first `/r/`)
+- "Surprise" : `/səɹˈpɹaɪz/` --> `[səˈpɹaɪz]`
+- "Library" : `/ˈlaɪbɹɛɹi/` --> `[ˈlaɪbɛɹi]`
+- "Governor" : `/ˈɡʌvərnər/` --> `[ˈɡʌvənər]`
+- "Caterpillar" : `/ˈkætəɹpɪlər/` --> `[ˈkætəpɪlər]`
+- "Particular" : `/pərˈtɪkjələr/` --> `[pəˈtɪkjələr]`
+- "Frustrated" : `/fɹʌˈstreɪtɪd/` --> `[fʌˈstreɪtɪd]`
+
+#example Suffix Reduction to `/ə/`
+- -ate `/ət/` (climate, delegate, private)
+- -less `/ləs/` (careless, helpless)
+- -es or -ed `/əz,əd/` (roses, wanted)
+- -er `/ər/` (teacher, better, driver)
+- -tion/-sion `/ʃən/` (operation, information, decision)
+- -ity `/əɾi/` (city, reality)
+- -al `/əl/` (musical)
+- -ous `/əs/` (famous)
+- -ant `/ənt/` (important)
+
+<center>. . .</center>
+
+
+> [!important] Many languages have rhythmic stress.
+> Location of the stress may not be predictable, but when the location of one stressed syllable (which may be the primary stress) is known, certain syllables before or after can be predicted to also be stressed (secondary stress).
+> 
+> However, it's not very predictable in English. Lol
+
+
+While English is not strictly syllable-timed, stress patterns heavily influence vowel reduction, where unstressed vowels often become a schwa /ə/ or /ɪ/.
+
+Key Patterns for English Stress:
+
+- **Noun vs. Verb Pairs:** Many two-syllable words change meaning based on stress placement: Nouns typically stress the first syllable (_REcord_ /ˈrɛkərd/), while verbs stress the second (_reCORD_ /rɪˈkɔrd/). Another examples include "convert" and "import".
+- **Compound Nouns:** Often, the first element receives primary stress (e.g., _NEWspaper_ /ˈnuzˌpeɪpər/).
+- **Two-Syllable Nouns/Adjectives:** Frequently stress the first syllable (e.g., _TABLE_ /ˈteɪbəl/, _HAPPY_ /ˈhæpi/).
+- **Two-Syllable Verbs/Prepositions:** Frequently stress the second syllable (e.g., _DECIDE_ /dɪˈsaɪd/, _ABOUT_ /əˈbaʊt/).
+- **Suffix Influence:** Words ending in _-tion_, _-sion_, _-ic_, and _-ity_ usually place primary stress on the syllable immediately preceding the suffix (e.g., _information_ /ˌɪnfərˈmeɪʃən/).
+- **Length & Position:** Primary stress can fall on the 1st, 2nd, or 3rd syllable, making it essential to check the dictionary for unfamiliar words, as spelling does not always indicate stress placement.
+- **Secondary Stress:** Often found in long words, particularly on the first or second syllable, preceding the primary stress (e.g., _monumental_ /ˌmɑnjəˈmɛntəl/).
+
 
 
 
@@ -522,87 +604,6 @@ The main consonant glides in English are :
 
 
 ### Linguistic Features
-
-#### Stresses
-
-#define [Stress](<https://en.wikipedia.org/wiki/Stress_(linguistics)>) (or Accent) is the relative emphasis or prominence given to a certain syllable in a word or to a certain word in a phrase or sentence.
-- This emphasis is made by increased loudness and vowel length, full articulation of the vowel, and changes in pitch/tone.
-
-In the IPA, stress is marked by a vertical tick placed *before* the syllable.
-
-A stress is described as either *primary* or *secondary*.
-
-#define A **Primary Stress** marks the loudest/most prominent syllable in the word, and denoted with a raised tick `⟨ˈ⟩`.
-- #example "Tomato" -> `/təˈmeɪ.toʊ/`, the "may" sound is the loudest.
-
-#define A [Secondary Stress](https://en.wikipedia.org/wiki/Secondary_stress) marks the weaker but still noticeably loud syllable in the word, and denoted with a lowered tick `⟨ˌ⟩`.
-- #example "Information" -> `/ˌɪn.fərˈmeɪ.ʃən/`, the "in" sound is slightly emphasized.
-
-Typically, a **syllable break** `⟨.⟩` is used to indicate the division between syllables within a word. It makes transcription easier to read (it is mostly for convenience).
-- When a stress is used in a word, a syllable break helps to distinguish unstressed syllables.
-
-Absence of stress on a syllable, or on a word in some cases, is frequently associated with *vowel reduction*.
-- #define [Vowel Reduction](https://en.wikipedia.org/wiki/Vowel_reduction) refers to any change in the acoustic quality of vowels as a result of changes in stress, sonority, duration, loudness, articulation, or position in the word, which are perceived as "weakening". It often makes the vowels shorter.
-- Many such syllables are pronounced with a centralized vowel (e.g. schwa `/ə/`) or with certain other vowels that are described as being "reduced" (or sometimes with a syllabic consonant as the syllable nucleus).
-
-<center>. . .</center>
-
-In GA, unstressed syllables are reduced in four different ways :
-- Mid/Low Vowels to `/ə/`
-- High Front/Back Vowels to `/ɪ/` or `/ə/`
-- R-Dissimilation (dropping the first `/r/`)
-- Suffix Reduction to `/ə/`
-
-#example Mid/Low Vowels to `/ə/` :
-- "About" : `/əˈbaʊt/`
-- "Sofa" : `/ˈsoʊfə/`
-- "Computer" : `/kəmˈpjuːtɚ/`
-- "Official" : `/əˈfɪʃəl/`
-
-#example High Front/Back Vowels to `/ɪ/` or `/ə/`
-- "Decide" : `/dɪˈsaɪd/` (often /ɪ/ or /ə/)
-- "Potato" : `/pəˈteɪtoʊ/` (first 'o' reduces)
-
-#example R-Dissimilation (dropping the first `/r/`)
-- "Surprise" : `/səɹˈpɹaɪz/` --> `[səˈpɹaɪz]`
-- "Library" : `/ˈlaɪbɹɛɹi/` --> `[ˈlaɪbɛɹi]`
-- "Governor" : `/ˈɡʌvərnər/` --> `[ˈɡʌvənər]`
-- "Caterpillar" : `/ˈkætəɹpɪlər/` --> `[ˈkætəpɪlər]`
-- "Particular" : `/pərˈtɪkjələr/` --> `[pəˈtɪkjələr]`
-- "Frustrated" : `/fɹʌˈstreɪtɪd/` --> `[fʌˈstreɪtɪd]`
-
-#example Suffix Reduction to `/ə/`
-- -ate `/ət/` (climate, delegate, private)
-- -less `/ləs/` (careless, helpless)
-- -es or -ed `/əz,əd/` (roses, wanted)
-- -er `/ər/` (teacher, better, driver)
-- -tion/-sion `/ʃən/` (operation, information, decision)
-- -ity `/əɾi/` (city, reality)
-- -al `/əl/` (musical)
-- -ous `/əs/` (famous)
-- -ant `/ənt/` (important)
-
-<center>. . .</center>
-
-
-> [!important] Many languages have rhythmic stress.
-> Location of the stress may not be predictable, but when the location of one stressed syllable (which may be the primary stress) is known, certain syllables before or after can be predicted to also be stressed (secondary stress).
-> 
-> However, it's not very predictable in English. Lol
-
-
-While English is not strictly syllable-timed, stress patterns heavily influence vowel reduction, where unstressed vowels often become a schwa /ə/ or /ɪ/.
-
-Key Patterns for English Stress:
-
-- **Noun vs. Verb Pairs:** Many two-syllable words change meaning based on stress placement: Nouns typically stress the first syllable (_REcord_ /ˈrɛkərd/), while verbs stress the second (_reCORD_ /rɪˈkɔrd/).
-- **Compound Nouns:** Often, the first element receives primary stress (e.g., _NEWspaper_ /ˈnuzˌpeɪpər/).
-- **Two-Syllable Nouns/Adjectives:** Frequently stress the first syllable (e.g., _TABLE_ /ˈteɪbəl/, _HAPPY_ /ˈhæpi/).
-- **Two-Syllable Verbs/Prepositions:** Frequently stress the second syllable (e.g., _DECIDE_ /dɪˈsaɪd/, _ABOUT_ /əˈbaʊt/).
-- **Suffix Influence:** Words ending in _-tion_, _-sion_, _-ic_, and _-ity_ usually place primary stress on the syllable immediately preceding the suffix (e.g., _information_ /ˌɪnfərˈmeɪʃən/).
-- **Length & Position:** Primary stress can fall on the 1st, 2nd, or 3rd syllable, making it essential to check the dictionary for unfamiliar words, as spelling does not always indicate stress placement.
-- **Secondary Stress:** Often found in long words, particularly on the first or second syllable, preceding the primary stress (e.g., _monumental_ /ˌmɑnjəˈmɛntəl/).
-
 
 #### Non-Phonetic Words
 
