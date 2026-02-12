@@ -382,6 +382,9 @@ GA typically features **14-16 vowels**, (`/i, ɪ, eɪ, ɛ, æ, ɑ, ɔ, oʊ, ʊ, 
 | `/ʊ/`   | lax           | short ooh   | b**oo**k, p**u**t, f**oo**t, c**u**re                                                      |                   |
 
 > [!important] #todo Note that there isn't a "oh" sound or tense "ah" sound, or 으 sound.
+> - Uh and oh is kind of considered the same.
+> - short ah only happens in diphthong
+> - 으 is like an omission of vowel, replaced by consonant
 
 
 #### Diphthongs
@@ -390,37 +393,38 @@ GA typically features **14-16 vowels**, (`/i, ɪ, eɪ, ɛ, æ, ɑ, ɔ, oʊ, ʊ, 
 
 Common English diphthongs are :
 
-| Phoneme | Examples                                                                 | Merge                       |
-| ------- | ------------------------------------------------------------------------ | --------------------------- |
-| `/aɪ/`  | b**i**te, m**y**, sk**y**, p**ie**, **eye**                              |                             |
-| `/aʊ/`  | n**ow**, m**ou**th, h**ou**se, t**ow**n, ab**ou**t, s**ou**nd, p**ow**er |                             |
-| `/eɪ/`  | b**ai**t, d**ay**, f**a**ce, r**ai**n                                    |                             |
-| `/eə/`  | h**ai**r, b**ea**r                                                       |                             |
-| `/ɪə/`  | n**ea**r, f**ea**r                                                       |                             |
-| `/oʊ/`  | b**oa**t, n**o**, g**o**, h**o**me, cl**o**ne, dr**o**ne                 | **/əʊ/**, **/o/**, **/ow/** |
-| `/ɔɪ/`  | b**oy** , v**oi**ce, n**oi**se, ch**oi**ce, enj**oy**                    | **/oɪ/**                    |
-| `/ɔʊ/`  | thr**ow**                                                                |                             |
-| `/ʊə/`  | t**ou**r, c**u**r**e**                                                   |                             |
+| Phoneme | Sound  | Examples                                                                 | Merge                               |
+| ------- | ------ | ------------------------------------------------------------------------ | ----------------------------------- |
+| `/aɪ/`  | ah-i   | b**i**te, m**y**, sk**y**, p**ie**, **eye**                              |                                     |
+| `/aʊ/`  | ah-ooh | n**ow**, m**ou**th, h**ou**se, t**ow**n, ab**ou**t, s**ou**nd, p**ow**er |                                     |
+| `/eɪ/`  | eh-i   | b**ai**t, d**ay**, f**a**ce, r**ai**n                                    |                                     |
+| `/oʊ/`  | oh-ooh | b**oa**t, n**o**, g**o**, h**o**me, cl**o**ne, dr**o**ne                 | **/əʊ/**, **/o/**, **/ow/**, `/ɔʊ/` |
+| `/ɔɪ/`  | uh-i   | b**oy** , v**oi**ce, n**oi**se, ch**oi**ce, enj**oy**                    | **/oɪ/**                            |
 
-Some vowels only appear in diphthongs, such as :
+
+Note that some vowels only appear in diphthongs, such as :
 - `/e/` in `/eɪ/` or `/eə/`
 - `/a/` in `/aɪ/` or `/aʊ/`
 - `/o/` in `/oʊ/`
 
----
-The distinction between **rhoticity** and **non-rhoticity** is one of the most prominent ways in which varieties of the English language are classified.
-- In rhotic accents, the sound of the post-vocalic `/ɹ/` is preserved.
-- In non-rhotic accents, the sound of the post-vocalic `/ɹ/` is NOT preserved.
+#### R-Colored Vowels
 
-#define Post-vocalic consonant refers to a consonant that occurs after a vowel.
+| Phoneme | Examples                                     | R-Colored |
+| ------- | -------------------------------------------- | --------- |
+| `/eə/`  | h**ai**r, b**ea**r, w**ea**r, sq**uare**     | `/eɚ/`    |
+| `/ɪə/`  | n**ea**r, f**ea**r, here, beer, year, clear  | `/ɪɚ/`    |
+| `/ʊə/`  | t**ou**r, c**u**r**e**, p**oo**r, end**ure** | `/ʊɚ/`    |
 
-The rhotic dialects of English include Scotland, Ireland, U.S., and Canada.
+ɝ <-- r-colored vowel, stressed (louder, longer, higher pitch) er sound for bird, nurse, learn
+ɚ <-- r-colored vowel, unstressed (weaker, shorter) er sound for teacher, color (can be thought of as r-colored schwa)
 
-The non-rhotic dialects of English include England, Wales, Australia, New Zealand, and South Africa.
 
-Basically, a rhotic English speaker pronounces the word like "hard" as `/ˈhɑːrd/`, where as non-rhotic speakers pronounce it `/ˈhɑːd/` - dropping the `/ɹ/` sound.
+r-colored vowels
 
-This is an important distinction because 
+`/eə/`, `/ɪə/`, `/ʊə/`
+
+
+/ɹ/
 
 
 #### Stress
@@ -505,10 +509,6 @@ Key Patterns for English Stress:
 
 
 
-#### R-Colored Vowels
-
-ɝ <-- r-colored vowel, stressed er sound for bird, nurse, learn
-ɚ <-- r-colored vowel, unstressed er sound for teacher, color
 
 
 
