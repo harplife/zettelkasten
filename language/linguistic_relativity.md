@@ -490,3 +490,25 @@ The practical path for learning formal methods is :
 2. Study Hoare logic
 3. Learn TLA+ for distributed systems
 4. Explore a proof assistant (Lean or Coq)
+
+
+#### Additional Reading
+
+https://en.wikipedia.org/wiki/Mathematical_structure
+
+https://en.wikipedia.org/wiki/Category_theory
+
+https://www.reddit.com/r/math/comments/1qzh3t6/sharing_a_category_theory_cheat_sheet_i_made/
+
+
+
+### International Phonetic Alphabet
+
+[[International_Phonetic_Alphabet]] is a way to take linguistic relativity to my advantage.
+- It shifts attention onto the pronunciations.
+- It creates more salience onto the pronunciations.
+- It helps understanding how a language works; from range of spoken consonants and vowels to patterns of phonetic features (e.g. stress, vowel reduction, etc.).
+
+I want to use IPA in order to speak English better, but also to train my ears to hear words better and train my mouth to speak words better in general.
+
+Then, I want to explore further 
