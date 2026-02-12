@@ -369,22 +369,31 @@ GA typically features **14-16 vowels**, (`/i, ɪ, eɪ, ɛ, æ, ɑ, ɔ, oʊ, ʊ, 
 > - Vowel sounds follow trends; some vowels *merge*.
 > - Vowel sounds may vary by syntax; they are either *stressed* or *reduced*.
 
-| Phoneme | Vowel Quality | Sound       | Examples                                                                                   | Merge             |
-| ------- | ------------- | ----------- | ------------------------------------------------------------------------------------------ | ----------------- |
-| `/ɑ/`   | lax           | ah          | p**o**t, f**a**ther, p**a**lm, st**a**rt, l**o**t, s**o**rry,<br>h**o**t, n**o**t, b**o**x | `/ɔ/`, `/ɒ/`      |
-| `/æ/`   | lax           | open eh     | b**a**t, m**a**d, tr**a**p, b**a**th                                                       |                   |
-| `/ɛ/`   | lax           | mid-open eh | b**e**t, m**e**d, dr**e**ss, c**a**rry, ch**e**rry                                         | `/e/`             |
-| `/i/`   | tense         | long i      | b**ee**t, m**e**, fl**ee**ce, happ**y**, **ea**t                                           |                   |
-| `/ɪ/`   | lax           | short i     | b**i**t, f**i**ll, k**i**t, m**i**rror, n**e**ar, **i**t                                   |                   |
-| `/ɔ/`   | lax, rounded  | aw          | d**o**g, l**aw**, th**ou**ght, cl**o**th, n**o**rth, f**o**rce, f**o**rest                 | `/o/`, `/oʊ/`     |
-| `/ə/`   | lax, neutral  | uh          | **a**bout, sof**a**, moth**e**r, b**u**t, r**u**n, str**u**t                               | `/ʌ/ ` (stressed) |
-| `/u/`   | tense         | long ooh    | b**oo**t, y**ou**, g**oo**se                                                               |                   |
-| `/ʊ/`   | lax           | short ooh   | b**oo**k, p**u**t, f**oo**t, c**u**re                                                      |                   |
+| Phoneme | Vowel Quality | Sound              | Examples                                                                                   | Merge            |
+| ------- | ------------- | ------------------ | ------------------------------------------------------------------------------------------ | ---------------- |
+| `/ɑ/`   | lax           | ah                 | p**o**t, f**a**ther, p**a**lm, st**a**rt, l**o**t, s**o**rry,<br>h**o**t, n**o**t, b**o**x | `/ɒ/` (rounded)  |
+| `/æ/`   | lax           | open eh            | b**a**t, m**a**d, tr**a**p, b**a**th                                                       |                  |
+| `/ɛ/`   | lax           | mid-open eh        | b**e**t, m**e**d, dr**e**ss, c**a**rry, ch**e**rry                                         | `/e/`            |
+| `/i/`   | tense         | long i             | b**ee**t, m**e**, fl**ee**ce, happ**y**, **ea**t                                           |                  |
+| `/ɪ/`   | lax           | short i            | b**i**t, f**i**ll, k**i**t, m**i**rror, n**e**ar, **i**t                                   |                  |
+| `/ɔ/`   | lax, rounded  | aw<br>(rounded uh) | d**o**g, l**aw**, th**ou**ght, cl**o**th, n**o**rth, f**o**rce, f**o**rest                 | `/o/`            |
+| `/ə/`   | lax, neutral  | uh                 | **a**bout, sof**a**, moth**e**r, b**u**t, r**u**n, str**u**t                               | `/ʌ/` (stressed) |
+| `/u/`   | tense         | long ooh           | b**oo**t, y**ou**, g**oo**se                                                               |                  |
+| `/ʊ/`   | lax           | short ooh          | b**oo**k, p**u**t, f**oo**t, c**u**re                                                      |                  |
 
 > [!important] #todo Note that there isn't a "oh" sound or tense "ah" sound, or 으 sound.
 > - Uh and oh is kind of considered the same.
 > - short ah only happens in diphthong
 > - 으 is like an omission of vowel, replaced by consonant
+
+<center>. . .</center>
+
+There isn't really an "oh" sound in GA. When we look at words like "go", the vowels are pronounced like "oh-ooh". `/ɔ/` is actually pretty close, 
+
+
+We'll see in the Diphthongs section that `/o/` (short "oh" sound) is used.
+
+
 
 
 #### Diphthongs
@@ -393,18 +402,17 @@ GA typically features **14-16 vowels**, (`/i, ɪ, eɪ, ɛ, æ, ɑ, ɔ, oʊ, ʊ, 
 
 Common English diphthongs are :
 
-| Phoneme | Sound  | Examples                                                                 | Merge                               |
-| ------- | ------ | ------------------------------------------------------------------------ | ----------------------------------- |
-| `/aɪ/`  | ah-i   | b**i**te, m**y**, sk**y**, p**ie**, **eye**                              |                                     |
-| `/aʊ/`  | ah-ooh | n**ow**, m**ou**th, h**ou**se, t**ow**n, ab**ou**t, s**ou**nd, p**ow**er |                                     |
-| `/eɪ/`  | eh-i   | b**ai**t, d**ay**, f**a**ce, r**ai**n                                    |                                     |
-| `/oʊ/`  | oh-ooh | b**oa**t, n**o**, g**o**, h**o**me, cl**o**ne, dr**o**ne                 | **/əʊ/**, **/o/**, **/ow/**, `/ɔʊ/` |
-| `/ɔɪ/`  | uh-i   | b**oy** , v**oi**ce, n**oi**se, ch**oi**ce, enj**oy**                    | **/oɪ/**                            |
+| Phoneme | Sound  | Examples                                                                 | Merge                         |
+| ------- | ------ | ------------------------------------------------------------------------ | ----------------------------- |
+| `/aɪ/`  | ah-i   | b**i**te, m**y**, sk**y**, p**ie**, **eye**                              |                               |
+| `/aʊ/`  | ah-ooh | n**ow**, m**ou**th, h**ou**se, t**ow**n, ab**ou**t, s**ou**nd, p**ow**er |                               |
+| `/eɪ/`  | eh-i   | b**ai**t, d**ay**, f**a**ce, r**ai**n                                    |                               |
+| `/oʊ/`  | oh-ooh | b**oa**t, n**o**, g**o**, h**o**me, cl**o**ne, dr**o**ne                 | `/əʊ/`, `/o/`, `/ow/`, `/ɔʊ/` |
+| `/ɔɪ/`  | uh-i   | b**oy** , v**oi**ce, n**oi**se, ch**oi**ce, enj**oy**                    | `/oɪ/`                        |
 
 
 Note that some vowels only appear in diphthongs, such as :
 - `/e/` in `/eɪ/` or `/eə/`
-- `/a/` in `/aɪ/` or `/aʊ/`
 - `/o/` in `/oʊ/`
 
 #### R-Colored Vowels
