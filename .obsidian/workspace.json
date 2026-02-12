@@ -141,9 +141,24 @@
               "icon": "lucide-file",
               "title": "linguistic_relativity"
             }
+          },
+          {
+            "id": "caaba14efbd5b2e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "language/formal_methods.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "formal_methods"
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -221,12 +236,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "language/formal_methods.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of formal_methods"
             }
           }
         ]
@@ -347,6 +363,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "language/formal_methods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -356,7 +373,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for formal_methods"
             }
           }
         ],
@@ -382,8 +399,10 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "227e6011dc684b16",
+  "active": "caaba14efbd5b2e4",
   "lastOpenFiles": [
+    "language/linguistic_relativity.md",
+    "language/formal_methods.md",
     "chemistry/Periodic_Table.md",
     "attachments/Periodicity-Trends-in-the-Periodic-Table.pdf",
     "attachments/Periodicity-Trends-in-the-Periodic-Table.pdf.opdownload",
@@ -409,7 +428,6 @@
     "chemistry/Timeline_of_Element_Discoveries.md",
     "chemistry/alchemy/Alchemy.md",
     "chemistry/alchemy/The_Holocene_Alchemist.md",
-    "language/linguistic_relativity.md",
     "language/International_Phonetic_Alphabet.md",
     "math/calculus/Chapter 2/6_Continuity.md",
     "math/calculus/Chapter 2/1_The_Idea_of_Limits.md",

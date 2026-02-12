@@ -1915,9 +1915,24 @@
                   "icon": "lucide-file",
                   "title": "linguistic_relativity"
                 }
+              },
+              {
+                "id": "caaba14efbd5b2e4",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "language/formal_methods.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "formal_methods"
+                }
               }
             ],
-            "currentTab": 8
+            "currentTab": 9
           }
         ],
         "direction": "vertical"
@@ -1995,12 +2010,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
+                    "file": "language/formal_methods.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline"
+                  "title": "Outline of formal_methods"
                 }
               }
             ]
@@ -2121,6 +2137,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
+                    "file": "language/formal_methods.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -2130,7 +2147,7 @@
                     "unlinkedCollapsed": false
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks"
+                  "title": "Backlinks for formal_methods"
                 }
               }
             ],
@@ -2156,8 +2173,8 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "227e6011dc684b16",
-      "mtime": "2026-02-10T07:20:41-06:00",
+      "active": "caaba14efbd5b2e4",
+      "mtime": "2026-02-11T20:42:59-06:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "chemistry",
