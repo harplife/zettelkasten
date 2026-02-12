@@ -238,10 +238,10 @@ Consonant phonemes in [General American](https://en.wikipedia.org/wiki/General_A
 | `/l/`                 | voiced           | **l**ight, fi**ll**                                                         |
 | `/ɹ̠/` (r but no tap) | voiced           | **r**un, ca**r**                                                            |
 
-Note that the English alphabet has fewer consonant letters than the English language has consonant sounds, so digraphs like `⟨ch⟩`, `⟨sh⟩`, `⟨th⟩`, and `⟨ng⟩` are used to extend the alphabet, though some letters and digraphs represent more than one consonant.
+Note that the English alphabet has fewer consonant letters than the English language has consonant sounds, so *digraphs* like `⟨ch⟩`, `⟨sh⟩`, `⟨th⟩`, and `⟨ng⟩` are used to extend the alphabet, though some letters and digraphs represent more than one consonant.
 - #xample The sound spelled `⟨th⟩` in "this" is a different consonant from the `⟨th⟩` sound in "thin".
 - #define A [Digraph](<https://en.wikipedia.org/wiki/Digraph_(orthography)>) is a pair of characters used to write either a single phoneme, or a sequence of phonemes that does not correspond to the normal values of the two characters combined.
-- ⟨wh⟩
+- `⟨wh⟩` is sort of a digraph too, but we'll ignore this for now. This will be further discussed in the GA Mergers section.
 
 
 #### Affricates
@@ -634,5 +634,38 @@ Function words
 - high-frequency, small words : the, to, was, you, one, of, where, were
 
 
+#### Drawl
 
----
+#define A [Drawl](https://en.wikipedia.org/wiki/Drawl) is a perceived feature of some varieties of spoken English and generally indicates slower, longer vowel sounds and diphthongs.
+- This particular speech pattern exists primarily in varieties of English, such as [Southern American English](https://en.wikipedia.org/wiki/Southern_American_English) ().
+
+
+
+### GA Mergers
+
+#### Wine-Whine Merger
+
+`⟨wh⟩` is a diagraph that is now most commonly pronounced `/w/` (the same as `⟨w⟩`), due to **Wine-Whine Merger**.
+- Some dialects in southern U.S. retain the traditional pronunciation `/hw`.
+- For more detailed info, check out this [link](https://en.wikipedia.org/wiki/Pronunciation_of_English_⟨wh⟩).
+
+#example `⟨wh⟩` words affected by the wine-whine merger :
+- "Whale" - `/ˈweɪl/` or `/ˈhweɪl/`
+- "White" - `/ˈwaɪt/` or `/ˈhwaɪt/`
+- "Which" - `/ˈwɪtʃ/` or `/ˈhwɪtʃ/`
+- "When" - `/ˈwɛn/` or `/ˈhwɛn/`
+- "Wheel" - `/ˈwil/` or `/ˈhwil/`
+- "Whisper" - `/ˈwɪspər/` or `/ˈhwɪspər/`
+- "Why" - `/ˈwaɪ/` or `/ˈhwaɪ/`
+- "Whether" - `/ˈwɛðər/` or `/ˈhwɛðər/`
+- "Whine" - `/ˈwaɪn/` or `/ˈhwaɪn/`
+- "Whip" - `/ˈwɪp/` or `/ˈhwɪp/`
+
+#example `⟨wh⟩` words unaffected by the wine-whine merger :
+- "Who" - `/hu/`
+- "Whom" - `/hum/`
+- "Whose" - `/huz/`
+- "Whole" - `/hoʊl/`
+- "Whoop" - `/hup/`
+
+
