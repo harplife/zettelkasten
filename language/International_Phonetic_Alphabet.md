@@ -367,6 +367,7 @@ The [Cardinal Vowel System](https://en.wikipedia.org/wiki/Cardinal_vowels) is a 
 The Cardinal Vowels consists of 8 primary and 10+ secondary reference points.
 
 ![[Cardinal_Vowels.svg]]
+> This is a **vowel quadrilateral diagram** based on the Cardinal Vowel System. There are many variations of this diagram (also just referred to as vowel quadrilateral).
 
 > [!warning] Note that the Cardinal Vowel System is designed as a reference framework.
 > It is *NOT* a complete inventory of all human speech sounds.
@@ -390,6 +391,7 @@ Variations of the primary cardinal vowels and the ones in between are called the
 
 
 ![[Pasted image 20260213133525.png]]
+> Wikipedia version of 
 
 <center>. . .</center>
 
