@@ -395,17 +395,27 @@ Variations of the primary cardinal vowels and the ones in between are called the
 
 <center>. . .</center>
 
-Modern, scientific description of vowels are more commonly based on acoustic analysis of *formant* frequencies (F₁ and F₂).
+Modern, scientific description of vowels are more commonly based on acoustic analysis of *formant* frequencies ($F_{1}$ and $F_{2}$).
 
 #define A [Formant](https://en.wikipedia.org/wiki/Formant) is a resonance frequency (an acoustic energy peak) of the human vocal tract that shapes speech sounds, particularly determining the quality of vowels.
 - The information that humans require to distinguish between speech sounds can be represented purely quantitatively by specifying peaks in the frequency spectrum.
 - Most of these formants are produced by tube and chamber resonance.
 - They appear as dark, horizontal bands on a spectrogram.
-- The formant with the lowest frequency is called F₁, the second F₂, and so forth.
+- The formant with the lowest frequency is called $F_{1}$, the second $F_{2}$, and so forth.
+- $F_{0}$ represents the *fundamental frequency*, which is the actual pitch of the speech sound.
 
-The first two formants F₁ and F₂ are considered the most important formants 
+> [!important] Mathematically, a formant is defined as a spectral peak in the sound spectrum of the voice, representing a resonance of the human vocal tract.
+> It is best understood as the local maximum in the frequency envelope of a sound, typically corresponding to a pole in a linear predictive coding (LPC) filter model.
+> 
+> A formant is characterized by three main components :
+> - **Center Frequency** ($F_{i}$) - The frequency of the maximum energy, where $i$ is the formant number.
+> - **Bandwidth** - The width of the resonance, determining how sharply peaked the energy is.
+> - **Amplitude** - The intensity of the energy at that resonance.
 
-- with the first three (, F₃) being crucial for identifying vowels by signaling tongue height and backness.
+Multiple studies have established the average formant frequencies for vowels.
+- Each vowel has a distinct F₁ and F₂ pattern; they are considered the most important formants as they are responsible for vowel sounds.
+- Formants F₃ and up are responsible for timbre (vocal color of a voice).
+- Female, male, and child speakers have different average formant frequencies, typically higher in children and females due to shorter vocal tracts.
 
 
 
