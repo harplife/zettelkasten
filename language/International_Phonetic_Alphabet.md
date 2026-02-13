@@ -417,9 +417,13 @@ Multiple studies have established **the average formant frequencies for vowels**
 - Formants $F_{3}$ and up are responsible for timbre (vocal color of a voice).
 - Female, male, and child speakers have different average formant frequencies, typically higher in children and females due to shorter vocal tracts.
 
-$F_{1}$ is inversely related to vowel height. Higher $F_{1}$ frequency corresponds to a lower tongue position (more open mouth).
+$F_{1}$ is a key indicator for vocal height. Higher $F_{1}$ corresponds to a lower tongue position (more open mouth).
 
-$F_{2}$ is related to backness. Higher $F_{2}$ frequency corresponds to a more forward tongue position.
+$F_{2}$ is a key indicator for vocal backness. Higher $F_{2}$ corresponds to a more forward tongue position.
+
+$F_{3}$ is a key indicator for lip rounding. Lower $F_{3}$ corresponds to a more tight roundedness.
+- Lip rounding lowers all formants, but its effects on $F_{2}$ and $F_{3}$ is often more pronounced than on $F_{1}$.
+- $F_{3}$ is also affected by other tongue and throat adjustments, such as retroflexion (r-coloring), which also lowers $F_{3}$.
 
 ![[Pasted image 20260213174514.png]]
 
