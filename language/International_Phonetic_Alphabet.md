@@ -369,33 +369,41 @@ GA typically features **14-16 vowels**, (`/i, ɪ, eɪ, ɛ, æ, ɑ, ɔ, oʊ, ʊ, 
 > - Vowel sounds follow trends; some vowels *merge*.
 > - Vowel sounds may vary by syntax; they are either *stressed* or *reduced*.
 
-| Phoneme | Vowel Quality | Sound              | Examples                                                                                   | Merge            |
-| ------- | ------------- | ------------------ | ------------------------------------------------------------------------------------------ | ---------------- |
-| `/ɑ/`   | lax           | ah                 | p**o**t, f**a**ther, p**a**lm, st**a**rt, l**o**t, s**o**rry,<br>h**o**t, n**o**t, b**o**x | `/ɒ/` (rounded)  |
-| `/æ/`   | lax           | open eh            | b**a**t, m**a**d, tr**a**p, b**a**th                                                       |                  |
-| `/ɛ/`   | lax           | mid-open eh        | b**e**t, m**e**d, dr**e**ss, c**a**rry, ch**e**rry                                         | `/e/`            |
-| `/i/`   | tense         | long i             | b**ee**t, m**e**, fl**ee**ce, happ**y**, **ea**t                                           |                  |
-| `/ɪ/`   | lax           | short i            | b**i**t, f**i**ll, k**i**t, m**i**rror, n**e**ar, **i**t                                   |                  |
-| `/ɔ/`   | lax, rounded  | aw<br>(rounded uh) | d**o**g, l**aw**, th**ou**ght, cl**o**th, n**o**rth, f**o**rce, f**o**rest                 | `/o/`            |
-| `/ə/`   | lax, neutral  | uh                 | **a**bout, sof**a**, moth**e**r, b**u**t, r**u**n, str**u**t                               | `/ʌ/` (stressed) |
-| `/u/`   | tense         | long ooh           | b**oo**t, y**ou**, g**oo**se, s**ui**t                                                     |                  |
-| `/ʊ/`   | lax           | short ooh          | b**oo**k, p**u**t, f**oo**t, c**u**re, s**oo**t                                            |                  |
+#define A [Monophthong](https://en.wikipedia.org/wiki/Monophthong) (Pure Vowel) is a vowel sound characterized by a relatively stable articulatory configuration throughout its duration.
+- During the production of a monophthong, the tongue does not undergo significant vertical (height) or horizontal (front-back) movement toward a different position of articulation.
+- Monophthongs are represented by just one phoneme.
+
+| Phoneme | Vowel Quality | Sound                    | Examples                                                                                   | Merge            |
+| ------- | ------------- | ------------------------ | ------------------------------------------------------------------------------------------ | ---------------- |
+| `/ɑ/`   | lax           | open back ah             | p**o**t, f**a**ther, p**a**lm, st**a**rt, l**o**t, s**o**rry,<br>h**o**t, n**o**t, b**o**x | `/ɒ/` (rounded)  |
+| `/æ/`   | lax           | open eh                  | b**a**t, m**a**d, tr**a**p, b**a**th                                                       |                  |
+| `/ɛ/`   | lax           | mid-open eh              | b**e**t, m**e**d, dr**e**ss, c**a**rry, ch**e**rry                                         | `/e/`            |
+| `/i/`   | tense         | long i                   | b**ee**t, m**e**, fl**ee**ce, happ**y**, **ea**t                                           |                  |
+| `/ɪ/`   | lax           | short i                  | b**i**t, f**i**ll, k**i**t, m**i**rror, n**e**ar, **i**t                                   |                  |
+| `/ɔ/`   | lax, rounded  | aw<br>(long, rounded uh) | d**o**g, l**aw**, th**ou**ght, cl**o**th, n**o**rth, f**o**rce, f**o**rest                 | `/o/`            |
+| `/ə/`   | lax, neutral  | uh                       | **a**bout, sof**a**, moth**e**r, b**u**t, r**u**n, str**u**t                               | `/ʌ/` (stressed) |
+| `/u/`   | tense         | long ooh                 | b**oo**t, y**ou**, g**oo**se, s**ui**t                                                     |                  |
+| `/ʊ/`   | lax           | short ooh                | b**oo**k, p**u**t, f**oo**t, c**u**re, s**oo**t                                            |                  |
 
 > [!important] #todo Note that there isn't a "oh" sound or tense "ah" sound, or 으 sound.
 > - Uh and oh is kind of considered the same.
 > - short ah only happens in diphthong
 > - 으 is like an omission of vowel, replaced by consonant
 
+---
+From a Korean's perspective, there are some vowels "missing" in GA, such as short "oh", and 으.
+
 <center>. . .</center>
 
-There isn't really an "oh" sound in GA. When we look at words like "go", the vowels are pronounced like "oh-ooh".
+There isn't really a short "oh" sound `/o/` in GA.
+- When we look at words like "go", the vowels are pronounced like "oh-ooh".
+- When we look at words like "dog", the vowels are pronounced like "aw".
 
-The "aw" sound `/ɔ/` is pretty close because it's a rounded. Maybe because of this, `/o/` has been merged into `/ɔ/`.
+Although, technically `/o/` is used in GA, but it's only used in diphthongs.
 
+<center>. . .</center>
 
-We'll see in the Diphthongs section that `/o/` (short "oh" sound) is used.
-
-
+There isn't really a short "ah" sound in GA.
 
 
 #### Diphthongs
