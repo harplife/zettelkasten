@@ -395,7 +395,13 @@ Variations of the primary cardinal vowels and the ones in between are called the
 
 <center>. . .</center>
 
-#todo Modern, scientific descrptions of vowels are more commonly based on acoustic analysis of formant frequencies (F_1 and F_2).
+Modern, scientific description of vowels are more commonly based on acoustic analysis of *formant* frequencies (F₁ and F₂).
+
+#define [Formants](https://en.wikipedia.org/wiki/Formant) are distinctive frequency components of the acoustic signal produced by the human vocal tract.
+- The information that humans require to distinguish between speech sounds can be represented purely quantitatively by specifying peaks in the frequency spectrum.
+- Most of these formants are produced by tube and chamber resonance.
+
+The formant with the lowest frequency is called F₁, the second F₂, and so forth.
 
 
 
