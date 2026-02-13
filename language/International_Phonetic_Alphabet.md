@@ -360,7 +360,7 @@ In GA, `/t/` is rather particular and has more allophones than other phonemes.
 
 
 
-#### Common GA Vowels & Examples
+#### Common GA Vowels
 
 GA typically features **14-16 vowels**, (`/i, ɪ, eɪ, ɛ, æ, ɑ, ɔ, oʊ, ʊ, u, ʌ, ə, aɪ, aʊ, ɔɪ/`).
 
@@ -391,9 +391,9 @@ From a Korean's perspective, it feels like there are some vowels "missing" in GA
 <center>. . .</center>
 
 The `/o/` "oh" sound is not used in GA (at least, not as monophthong).
-- When we look at words like "go", the vowels are pronounced like "oh-ooh".
-- When we look at words like "dog", the vowels are pronounced like "aw".
-- `/o/` is used only in diphthongs.
+- When we look at words like "go", the letter `⟨o⟩` is pronounced like "oh-ooh".
+- When we look at words like "dog", the letter `⟨o⟩` is pronounced like "aw".
+- When we look at words like "boy", the letter `⟨o⟩` is pronounced like "uh".
 
 <center>. . .</center>
 
