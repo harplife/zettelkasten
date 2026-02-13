@@ -358,6 +358,9 @@ In GA, `/t/` is rather particular and has more allophones than other phonemes.
 - Vowels are closely involved in prosodic variation such as [tone](<https://en.wikipedia.org/wiki/Tone_(linguistics)>), [intonation](<https://en.wikipedia.org/wiki/Intonation_(linguistics)>) and [stress](<https://en.wikipedia.org/wiki/Stress_(linguistics)>). Note that American English tend to be monotone but stress is still very impactful.
 
 
+#todo articulation of vowel is primarily by height and backness.
+
+
 
 
 #### Common GA Vowels
