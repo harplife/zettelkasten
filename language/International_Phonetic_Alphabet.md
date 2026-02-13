@@ -255,7 +255,7 @@ Letter `⟨q⟩` is pronounced using the consonant cluster `/kw/`.
 <center>. . .</center>
 
 > [!warning] Consonants `/w, j/` are called Semi-Vowels, which changes the way vowels are sounded.
-> This will be covered in *Special Consonants & Vowels --> Glide and Diphthongs*.
+> This will be covered in [[#Semi-Vowels]].
 
 
 #### Affricates
@@ -385,25 +385,21 @@ GA typically features **14-16 vowels**, (`/i, ɪ, eɪ, ɛ, æ, ɑ, ɔ, oʊ, ʊ, 
 | `/u/`   | tense         | long ooh                 | b**oo**t, y**ou**, g**oo**se, s**ui**t                                                     |                  |
 | `/ʊ/`   | lax           | short ooh                | b**oo**k, p**u**t, f**oo**t, c**u**re, s**oo**t                                            |                  |
 
-> [!important] #todo Note that there isn't a "oh" sound or tense "ah" sound, or 으 sound.
-> - Uh and oh is kind of considered the same.
-> - short ah only happens in diphthong
-> - 으 is like an omission of vowel, replaced by consonant
-
 ---
-From a Korean's perspective, there are some vowels "missing" in GA, such as short "oh", and 으.
+From a Korean's perspective, it feels like there are some vowels "missing" in GA, such as short "oh", and 으.
 
 <center>. . .</center>
 
-There isn't really a short "oh" sound `/o/` in GA.
+The `/o/` "oh" sound is not used in GA (at least, not as monophthong).
 - When we look at words like "go", the vowels are pronounced like "oh-ooh".
 - When we look at words like "dog", the vowels are pronounced like "aw".
-
-Although, technically `/o/` is used in GA, but it's only used in diphthongs.
+- `/o/` is used only in diphthongs.
 
 <center>. . .</center>
 
-There isn't really a short "ah" sound in GA.
+The `/ɯ/` "으" sound is  not at all used in GA.
+- Fun fact : this sound can be made by pronouncing `/u/` without the rounding the lips.
+- The closest we get is `/ə/`, especially when it is followed by `/r/` or `/l/`. However, in this case, the vowel can be omitted. See [[#Syllabic Consonants]].
 
 
 #### Diphthongs
@@ -423,6 +419,7 @@ Common English diphthongs are :
 Note that some vowels only appear in diphthongs, such as :
 - `/e/` in `/eɪ/` or `/eə/`
 - `/o/` in `/oʊ/`
+
 
 #### R-Colored Vowels
 
@@ -638,7 +635,7 @@ When a word ending in `/t/` is followed by a word starting with `/j/`, the sound
 
 
 
-#### Glide and Diphthongs
+#### Semi-Vowels
 
 #define **Glide** ([Semi-Vowel](https://en.wikipedia.org/wiki/Semivowel) or Semi-Consonant) is a sound produced with little to no friction in vocal tract, acting as a transition to or from a vowel.
 
@@ -646,7 +643,7 @@ The main consonant glides in English are :
 - **/j/** ([voiced palatal approximant](https://en.wikipedia.org/wiki/Voiced_palatal_approximant), like the 'y' in "yes" and "you")
 - **/w/** ([voiced labial-velar approximant](https://en.wikipedia.org/wiki/Voiced_labial–velar_approximant), like the 'w' in "wet" and "win")
 
-#todo wait, isn't this labialization??
+#todo this is consonant labialization
 
 
 
