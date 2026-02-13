@@ -431,8 +431,14 @@ Although they are less common, **triphthongs** (three vowels) exists in GA as we
 - `/eɪəɹ/` - player, layer, prayer
 - `/oʊəɹ/` - lower, mower, slower
 - `/aʊəl/` - vowel, towel, bowel, dowel
-- `/ɔɪəl/` - loyal, royal.
+- `/ɔɪəl/` - loyal, royal
 - `/aɪəl/` - dial, vial, denial
+
+Exceptions are words like :
+- Hiatus - `/haɪˈeɪtəs/`
+- Oasis - `/oʊˈeɪsəs/`
+
+Whether there is any "true" triphthong in GA is something that is debated because they are almost always split by a *syllable boundary*.
 
 
 #### R-Colored Vowels
@@ -462,6 +468,8 @@ Diphthongs `/eə/`, `/ɪə/`, and `/ʊə/` are often followed by `/ɹ/`.
 | `/eəɹ/`  | `[eɚ]`    | h**ai**r, b**ea**r, w**ea**r, sq**uare**     |
 | `/ɪəɹ/`  | `[ɪɚ]`    | n**ea**r, f**ea**r, here, beer, year, clear  |
 | `/ʊəɹ/`  | `[ʊɚ]`    | t**ou**r, c**u**r**e**, p**oo**r, end**ure** |
+
+> [!important] Seems like `/ʊə/` and `/ɪə/` are often followed by `/ɹ/` or `/l/`
 
 
 #### Stress
