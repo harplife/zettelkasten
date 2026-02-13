@@ -412,12 +412,16 @@ Modern, scientific description of vowels are more commonly based on acoustic ana
 > - **Bandwidth** - The width of the resonance, determining how sharply peaked the energy is.
 > - **Amplitude** - The intensity of the energy at that resonance.
 
-Multiple studies have established the average formant frequencies for vowels.
-- Each vowel has a distinct F₁ and F₂ pattern; they are considered the most important formants as they are responsible for vowel sounds.
-- Formants F₃ and up are responsible for timbre (vocal color of a voice).
+Multiple studies have established **the average formant frequencies for vowels**.
+- Each vowel has a distinct $F_{1}$ and $F_{2}$ pattern; they are considered the most important formants as they are responsible for vowel sounds.
+- Formants $F_{3}$ and up are responsible for timbre (vocal color of a voice).
 - Female, male, and child speakers have different average formant frequencies, typically higher in children and females due to shorter vocal tracts.
 
+$F_{1}$ is inversely related to vowel height. Higher $F_{1}$ frequency corresponds to a lower tongue position (more open mouth).
 
+$F_{2}$ is related to backness. Higher $F_{2}$ frequency corresponds to a more forward tongue position.
+
+![[Pasted image 20260213174514.png]]
 
 
 
