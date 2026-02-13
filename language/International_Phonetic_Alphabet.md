@@ -423,6 +423,8 @@ Note that some vowels only appear in diphthongs, such as :
 
 #### R-Colored Vowels
 
+#define An [R-Colored Vowel](https://en.wikipedia.org/wiki/R-colored_vowel) (Rhotic Vowel) is a vowel that is modified in a way that results in a lowering in frequency of the third formant.
+
 | Phoneme | Examples                                     | R-Colored |
 | ------- | -------------------------------------------- | --------- |
 | `/eə/`  | h**ai**r, b**ea**r, w**ea**r, sq**uare**     | `/eɚ/`    |
