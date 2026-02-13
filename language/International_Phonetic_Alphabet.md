@@ -366,7 +366,21 @@ The [Cardinal Vowel System](https://en.wikipedia.org/wiki/Cardinal_vowels) descr
 
 The Cardinal Vowels consists of 8 primary and 10+ secondary reference points.
 
+![[Cardinal_Vowels.svg]]
 
+In this system, three vowels have articulatory definitions :
+- `/i/`
+- `/ɑ/`
+- `/u/`
+
+These three vowels serve as the "**Corner Vowels**", by which the other vowels are described to be *auditorily equidistant* from. There are **four degrees of aperture** (height) :
+- **Close** (high tongue position)
+- **Close-Mid**
+- **Open-Mid**
+- **Open** (low tongue position)
+
+These degrees of aperture plus the front-back distinction define eight reference points on a mixture of articulatory and auditory criteria; these eight vowels are known as the eight **Primary Cardinal Vowels**.
+- Vowels like these are "claimed to be" common in the world's languages.
 
 <center>. . .</center>
 
