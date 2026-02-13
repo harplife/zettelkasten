@@ -302,7 +302,7 @@ Liquids consists of *rhotics* and *voiced lateral approximants* :
 
 In GA, the only rhotic consonant is the [voiced alveolar approximant](https://en.wikipedia.org/wiki/Voiced_alveolar_approximant) `/ɹ/`, used for the the English letter `⟨r⟩`. It is typically written as `/r/` (voiced alveolar trill) for convenience, but the main difference is that the tongue does not touch the alveolar.
 - `/r/` is more prominent in Spanish languages. It is called a "rolling-R".
-- #define The term "rhoticity" indicates whether an accent pronounces the `⟨r⟩`s. A rhotic accent pronounces it ("car" -> car), and non-rhotic accent doesn't ("car" -> cah).
+- #define The term **Rhoticity** indicates whether an accent pronounces the `⟨r⟩`s. A rhotic accent pronounces it ("car" -> car), and non-rhotic accent doesn't ("car" -> cah).
 
 > [!important] To be more accurate, GA IPA uses voiced post-alveolar approximant `/ɹ̠/`, but we simplify it to `/ɹ/`.
 
@@ -408,13 +408,16 @@ The `/ɯ/` "으" sound is  not at all used in GA.
 
 Common English diphthongs are :
 
-| Phoneme | Sound  | Examples                                                                 | Merge                         |
-| ------- | ------ | ------------------------------------------------------------------------ | ----------------------------- |
-| `/aɪ/`  | ah-i   | b**i**te, m**y**, sk**y**, p**ie**, **eye**                              |                               |
-| `/aʊ/`  | ah-ooh | n**ow**, m**ou**th, h**ou**se, t**ow**n, ab**ou**t, s**ou**nd, p**ow**er |                               |
-| `/eɪ/`  | eh-i   | b**ai**t, d**ay**, f**a**ce, r**ai**n                                    |                               |
-| `/oʊ/`  | oh-ooh | b**oa**t, n**o**, g**o**, h**o**me, cl**o**ne, dr**o**ne                 | `/əʊ/`, `/o/`, `/ow/`, `/ɔʊ/` |
-| `/ɔɪ/`  | uh-i   | b**oy** , v**oi**ce, n**oi**se, ch**oi**ce, enj**oy**                    | `/oɪ/`                        |
+| Phonemes | Sound  | Examples                                                                 | Merge                            |
+| -------- | ------ | ------------------------------------------------------------------------ | -------------------------------- |
+| `/aɪ/`   | ah-i   | b**i**t**e**, m**y**, sk**y**, p**ie**, **eye**                          |                                  |
+| `/aʊ/`   | ah-ooh | n**ow**, m**ou**th, h**ou**se, t**ow**n, ab**ou**t, s**ou**nd, p**ow**er |                                  |
+| `/eɪ/`   | eh-i   | b**ai**t, d**ay**, f**a**ce, r**ai**n                                    |                                  |
+| `/oʊ/`   | oh-ooh | b**oa**t, n**o**, g**o**, h**o**me, cl**o**ne, dr**o**ne                 | `/əʊ/`, `/o/`,<br>`/ow/`, `/ɔʊ/` |
+| `/ɔɪ/`   | uh-i   | b**oy** , v**oi**ce, n**oi**se, ch**oi**ce, enj**oy**                    | `/oɪ/`                           |
+| `/eə/`   | eh-uh  | h**ai**r, b**ea**r, w**ea**r, sq**uare**                                 |                                  |
+| `/ɪə/`   | i-uh   | n**ea**r, f**ea**r, h**e**r**e**, b**ee**r, y**ea**r, cl**ea**r          |                                  |
+| `/ʊə/`   | ooh-uh | t**ou**r, c**u**r**e**, p**oo**r, end**ure**                             |                                  |
 
 Note that some vowels only appear in diphthongs, such as :
 - `/e/` in `/eɪ/` or `/eə/`
@@ -423,26 +426,38 @@ Note that some vowels only appear in diphthongs, such as :
 
 #### R-Colored Vowels
 
-`/eə/`, `/ɪə/`, and `/ʊə/` are diphthongs too, but they are special in a way that they are often r-colored.
+#define An [R-Colored Vowel](https://en.wikipedia.org/wiki/R-colored_vowel) (Rhotic Vowel) is a vowel that is modified by a rhotic consonant (e.g. `/ɹ/`).
+- A r-colored vowel is used to represent a single, *merged* sound where both the vowel and the rhotic consonant are produced *simultaneously*, rather than *sequentially*.
 
-#define An [R-Colored Vowel](https://en.wikipedia.org/wiki/R-colored_vowel) (Rhotic Vowel) is a vowel that is modified in a way that results in a lowering in frequency of the third formant.
+There are four common r-colored vowels in GA :
+- `[ɚ]` (short "er" sound) - teach**er**, col**or**, stand**ar**d, dinn**er**
+- `[ɝ]` (long "er" sound) - b**ir**d, n**ur**se, l**ear**n
+- `[ɑ˞]` ("ar" sound) - c**ar**, st**ar**t
+- `[ɔ˞]` ("awr" sound) - n**or**th, f**or**ce, f**or**est
 
-| Phoneme | Examples                                     | R-Colored |
-| ------- | -------------------------------------------- | --------- |
-| `/eə/`  | h**ai**r, b**ea**r, w**ea**r, sq**uare**     | `/eɚ/`    |
-| `/ɪə/`  | n**ea**r, f**ea**r, here, beer, year, clear  | `/ɪɚ/`    |
-| `/ʊə/`  | t**ou**r, c**u**r**e**, p**oo**r, end**ure** | `/ʊɚ/`    |
+The only difference between `[ɝ]` and `[ɚ]` comes down to [[#Stress]].
+- `[ɝ]` is stressed, so it is louder, longer, and/or of higher pitch. 
+- `[ɚ]` is unstressed, so it is weaker, and/or shorter.
 
 ɝ <-- r-colored vowel, stressed (louder, longer, higher pitch) er sound for bird, nurse, learn
 ɚ <-- r-colored vowel, unstressed (weaker, shorter) er sound for teacher, color (can be thought of as r-colored schwa)
 
 
+
+
+
 r-colored vowels
 
+`/eə/`, `/ɪə/`, and `/ʊə/` are diphthongs too, but they are special in a way that they are often r-colored.
 
 
 
-/ɹ/
+| Phonemes | Examples                                     | R-Colored |
+| -------- | -------------------------------------------- | --------- |
+| `/eəɹ/`  | h**ai**r, b**ea**r, w**ea**r, sq**uare**     | `[eɚ]`    |
+| `/ɪəɹ/`  | n**ea**r, f**ea**r, here, beer, year, clear  | `[ɪɚ]`    |
+| `/ʊəɹ/`  | t**ou**r, c**u**r**e**, p**oo**r, end**ure** | `[ʊɚ]`    |
+
 
 
 #### Stress
