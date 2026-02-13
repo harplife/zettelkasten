@@ -397,11 +397,17 @@ Variations of the primary cardinal vowels and the ones in between are called the
 
 Modern, scientific description of vowels are more commonly based on acoustic analysis of *formant* frequencies (F₁ and F₂).
 
-#define [Formants](https://en.wikipedia.org/wiki/Formant) are distinctive frequency components of the acoustic signal produced by the human vocal tract.
+#define A [Formant](https://en.wikipedia.org/wiki/Formant) is a resonance frequency (an acoustic energy peak) of the human vocal tract that shapes speech sounds, particularly determining the quality of vowels.
 - The information that humans require to distinguish between speech sounds can be represented purely quantitatively by specifying peaks in the frequency spectrum.
 - Most of these formants are produced by tube and chamber resonance.
+- They appear as dark, horizontal bands on a spectrogram.
+- The formant with the lowest frequency is called F₁, the second F₂, and so forth.
 
-The formant with the lowest frequency is called F₁, the second F₂, and so forth.
+The first two formants F₁ and F₂ are considered the most important formants 
+
+- with the first three (, F₃) being crucial for identifying vowels by signaling tongue height and backness.
+
+
 
 
 
