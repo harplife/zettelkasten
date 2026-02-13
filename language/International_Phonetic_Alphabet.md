@@ -357,8 +357,10 @@ In GA, `/t/` is rather particular and has more allophones than other phonemes.
 - Vowels are usually voiced.
 - Vowels are closely involved in prosodic variation such as [tone](<https://en.wikipedia.org/wiki/Tone_(linguistics)>), [intonation](<https://en.wikipedia.org/wiki/Intonation_(linguistics)>) and [stress](<https://en.wikipedia.org/wiki/Stress_(linguistics)>). Note that American English tend to be monotone but stress is still very impactful.
 
-
-#todo articulation of vowel is primarily by height and backness.
+The [Cardinal Vowel System](https://en.wikipedia.org/wiki/Cardinal_vowels) describe vowels in terms of the features of tongue height (vertical dimension), tongue backness (horizontal dimension), and roundedness (lip articulation).
+- This is a foundational auditory-based reference framework.
+- This is an "idealized" system, rather than a precise physical map of the tongue.
+- Although outdated, it is still commonly used in linguistics as a tool to classify vowel sounds.
 
 
 
