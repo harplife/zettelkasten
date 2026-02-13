@@ -423,6 +423,17 @@ Note that some vowels only appear in diphthongs, such as :
 - `/e/` in `/eɪ/` or `/eə/`
 - `/o/` in `/oʊ/`
 
+---
+Although they are less common, **triphthongs** (three vowels) exists in GA as well. It typically occur when a "true" diphthong is followed by `/əɹ/` or `/əl/`. For example,
+- `/aɪəɹ/` - fire, choir, desire, tire
+- `/aʊəɹ/` - hour, power, flower, sour
+- `/ɔɪəɹ/` - royal, loyal, enjoyable, employer
+- `/eɪəɹ/` - player, layer, prayer
+- `/oʊəɹ/` - lower, mower, slower
+- `/aʊəl/` - vowel, towel, bowel, dowel
+- `/ɔɪəl/` - loyal, royal.
+- `/aɪəl/` - dial, vial, denial
+
 
 #### R-Colored Vowels
 
@@ -435,29 +446,22 @@ There are four common r-colored vowels in GA :
 - `[ɑ˞]` ("ar" sound) - c**ar**, st**ar**t
 - `[ɔ˞]` ("awr" sound) - n**or**th, f**or**ce, f**or**est
 
-The only difference between `[ɝ]` and `[ɚ]` comes down to [[#Stress]].
+The difference between `[ɝ]` and `[ɚ]` only comes down to [[#Stress]].
 - `[ɝ]` is stressed, so it is louder, longer, and/or of higher pitch. 
 - `[ɚ]` is unstressed, so it is weaker, and/or shorter.
+- This distinction is increasingly viewed as unnecessary, and so `[ɚ]` is often used in place of `[ɝ]` (they are interchangeable).
 
-ɝ <-- r-colored vowel, stressed (louder, longer, higher pitch) er sound for bird, nurse, learn
-ɚ <-- r-colored vowel, unstressed (weaker, shorter) er sound for teacher, color (can be thought of as r-colored schwa)
+R-colored vowel is really just used for accuracy, and so it is common to just separate the vowels (e.g. `/əɹ/` instead of `[ɝ]`).
 
+<center>. . .</center>
 
+Diphthongs `/eə/`, `/ɪə/`, and `/ʊə/` are often followed by `/ɹ/`.
 
-
-
-r-colored vowels
-
-`/eə/`, `/ɪə/`, and `/ʊə/` are diphthongs too, but they are special in a way that they are often r-colored.
-
-
-
-| Phonemes | Examples                                     | R-Colored |
-| -------- | -------------------------------------------- | --------- |
-| `/eəɹ/`  | h**ai**r, b**ea**r, w**ea**r, sq**uare**     | `[eɚ]`    |
-| `/ɪəɹ/`  | n**ea**r, f**ea**r, here, beer, year, clear  | `[ɪɚ]`    |
-| `/ʊəɹ/`  | t**ou**r, c**u**r**e**, p**oo**r, end**ure** | `[ʊɚ]`    |
-
+| Phonemes | R-Colored | Examples                                     |
+| -------- | --------- | -------------------------------------------- |
+| `/eəɹ/`  | `[eɚ]`    | h**ai**r, b**ea**r, w**ea**r, sq**uare**     |
+| `/ɪəɹ/`  | `[ɪɚ]`    | n**ea**r, f**ea**r, here, beer, year, clear  |
+| `/ʊəɹ/`  | `[ʊɚ]`    | t**ou**r, c**u**r**e**, p**oo**r, end**ure** |
 
 
 #### Stress
