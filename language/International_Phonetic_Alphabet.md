@@ -372,9 +372,9 @@ The Cardinal Vowels consists of 8 primary and 10+ secondary reference points.
 > It is *NOT* a complete inventory of all human speech sounds.
 
 In this system, three vowels have articulatory definitions :
-- `/i/`
-- `/ɑ/`
-- `/u/`
+- `/i/` (represents Closed Front Vowel)
+- `/u/` (represents Closed Back Vowel)
+- `/ɑ/` (represents Open Back Vowel)
 
 These three vowels serve as the "**Corner Vowels**", by which the other vowels are described to be *auditorily equidistant* from. There are **four degrees of aperture** (height) :
 - **Close** (high tongue position)
@@ -387,6 +387,9 @@ These degrees of aperture *plus* the front-back distinction define eight referen
 - We can see numbers on the diagram. The primary ones are CV 1 through 8.
 
 Variations of the primary cardinal vowels and the ones in between are called the **Secondary Cardinal Vowels**.
+
+
+![[Pasted image 20260213133525.png]]
 
 <center>. . .</center>
 
