@@ -470,17 +470,17 @@ GA typically features **14-16 vowels**, (`/i, ɪ, eɪ, ɛ, æ, ɑ, ɔ, oʊ, ʊ, 
 - During the production of a monophthong, the tongue does not undergo significant vertical (height) or horizontal (front-back) movement toward a different position of articulation.
 - Monophthongs are represented by just one phoneme.
 
-| Phoneme | Vowel Quality | Sound                    | Examples                                                                                   | Merge            |
-| ------- | ------------- | ------------------------ | ------------------------------------------------------------------------------------------ | ---------------- |
-| `/ɑ/`   | lax           | open back ah             | p**o**t, f**a**ther, p**a**lm, st**a**rt, l**o**t, s**o**rry,<br>h**o**t, n**o**t, b**o**x | `/ɒ/` (rounded)  |
-| `/æ/`   | lax           | open eh                  | b**a**t, m**a**d, tr**a**p, b**a**th                                                       |                  |
-| `/ɛ/`   | lax           | mid-open eh              | b**e**t, m**e**d, dr**e**ss, c**a**rry, ch**e**rry                                         | `/e/`            |
-| `/i/`   | tense         | long i                   | b**ee**t, m**e**, fl**ee**ce, happ**y**, **ea**t                                           |                  |
-| `/ɪ/`   | lax           | short i                  | b**i**t, f**i**ll, k**i**t, m**i**rror, n**e**ar, **i**t                                   |                  |
-| `/ɔ/`   | lax, rounded  | aw<br>(long, rounded uh) | d**o**g, l**aw**, th**ou**ght, cl**o**th, n**o**rth, f**o**rce, f**o**rest                 | `/o/`            |
-| `/ə/`   | lax, neutral  | uh                       | **a**bout, sof**a**, moth**e**r, b**u**t, r**u**n, str**u**t                               | `/ʌ/` (stressed) |
-| `/u/`   | tense         | long ooh                 | b**oo**t, y**ou**, g**oo**se, s**ui**t                                                     |                  |
-| `/ʊ/`   | lax           | short ooh                | b**oo**k, p**u**t, f**oo**t, c**u**re, s**oo**t                                            |                  |
+| Phoneme | Vowel Quality | Sound                    | Examples                                                                                   | Merge                   |
+| ------- | ------------- | ------------------------ | ------------------------------------------------------------------------------------------ | ----------------------- |
+| `/ɑ/`   | lax           | open back ah             | p**o**t, f**a**ther, p**a**lm, st**a**rt, l**o**t, s**o**rry,<br>h**o**t, n**o**t, b**o**x | `/ɒ/` (rounded)         |
+| `/æ/`   | lax           | open eh                  | b**a**t, m**a**d, tr**a**p, b**a**th                                                       |                         |
+| `/ɛ/`   | lax           | mid-open eh              | b**e**t, m**e**d, dr**e**ss, c**a**rry, ch**e**rry                                         | `/e/`                   |
+| `/i/`   | tense         | long i                   | b**ee**t, m**e**, fl**ee**ce, happ**y**, **ea**t                                           |                         |
+| `/ɪ/`   | lax           | short i                  | b**i**t, f**i**ll, k**i**t, m**i**rror, n**e**ar, **i**t                                   |                         |
+| `/ɔ/`   | lax, rounded  | aw<br>(long, rounded uh) | d**o**g, l**aw**, th**ou**ght, cl**o**th, n**o**rth, f**o**rce, f**o**rest                 | `/o/`                   |
+| `/ə/`   | lax, neutral  | uh                       | **a**bout, sof**a**, moth**e**r, b**u**t, r**u**n, str**u**t                               | `/ʌ/` (stressed), `/ɜ/` |
+| `/u/`   | tense         | long ooh                 | b**oo**t, y**ou**, g**oo**se, s**ui**t                                                     |                         |
+| `/ʊ/`   | lax           | short ooh                | b**oo**k, p**u**t, f**oo**t, c**u**re, s**oo**t                                            |                         |
 
 ---
 From a Korean's perspective, it feels like there are some vowels "missing" in GA, such as short "oh", and 으.
@@ -553,6 +553,8 @@ The difference between `[ɝ]` and `[ɚ]` only comes down to [[#Stress]].
 - `[ɝ]` is stressed, so it is louder, longer, and/or of higher pitch. 
 - `[ɚ]` is unstressed, so it is weaker, and/or shorter.
 - This distinction is increasingly viewed as unnecessary, and so `[ɚ]` is often used in place of `[ɝ]` (they are interchangeable).
+
+> [!important] Also, `/ɜ/` is not a true phoneme in GA. It really only shows up when it's r-colored.
 
 R-colored vowel is really just used for accuracy, and so it is common to just separate the vowels (e.g. `/əɹ/` instead of `[ɝ]`).
 
