@@ -417,6 +417,9 @@ Multiple studies have established **the average formant frequencies for vowels**
 - Formants $F_{3}$ and up are responsible for timbre (vocal color of a voice).
 - Female, male, and child speakers have different average formant frequencies, typically higher in children and females due to shorter vocal tracts.
 
+> [!important] Formants are not affected by pitch.
+> When we say "ah", the formants that make up that sound will remain the same no matter the pitch of the sound.
+
 $F_{1}$ is a key indicator for tongue height. Higher $F_{1}$ corresponds to a lower tongue position (more open mouth).
 
 $F_{2}$ is a key indicator for tongue backness. Higher $F_{2}$ corresponds to a more forward tongue position.
