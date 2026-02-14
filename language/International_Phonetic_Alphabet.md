@@ -389,7 +389,6 @@ These degrees of aperture *plus* the front-back distinction define eight referen
 
 Variations of the primary cardinal vowels and the ones in between are called the **Secondary Cardinal Vowels**.
 
-
 ![[Pasted image 20260213133525.png]]
 > Wikipedia version of vowel quadrilateral diagram, which includes most of the vowels. ([Source](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet_chart))
 
@@ -434,10 +433,13 @@ $F_{3}$ is a key indicator for lip rounding. Lower $F_{3}$ corresponds to a more
 
 As mentioned before, each vowel has a distinct $F_{1}$ and $F_{2}$ pattern. As such, vowel is often graphically analyzed in $F_{1} : F_{2}$ vowel space.
 
-![[Pasted image 20260213181834.png | center | 600]]
+![[Pasted image 20260213181834.png | center | 500]]
 
-![[Pasted image 20260213185951.png | center | 500]]
+![[Pasted image 20260213185951.png | center | 400]]
 > ([Source](https://en.wikipedia.org/wiki/Formant))
+
+![[Pasted image 20260213190957.png | center | 500]]
+> Vowel diagram based on formants. The gray area indicates impossible vocal sounds.
 
 > [!important] This takes me back to Technical Ear Training back in Wester University.
 > The formants somewhat matches with what I learned in TET.
