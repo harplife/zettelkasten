@@ -425,7 +425,16 @@ $F_{3}$ is a key indicator for lip rounding. Lower $F_{3}$ corresponds to a more
 - Lip rounding lowers all formants, but its effects on $F_{2}$ and $F_{3}$ is often more pronounced than on $F_{1}$.
 - $F_{3}$ is also affected by other tongue and throat adjustments, such as retroflexion (r-coloring), which also lowers $F_{3}$.
 
-![[Pasted image 20260213174514.png]]
+![[Pasted image 20260213180719.png | center | 500]]
+![[Pasted image 20260213181203.png | center | 500]]
+![[Pasted image 20260213181211.png | center | 500]]
+
+As mentioned before, each vowel has a distinct $F_{1}$ and $F_{2}$ pattern. As such, vowel is often graphically analyzed in $F_{1} : F_{2}$ vowel space.
+
+![[Pasted image 20260213181834.png | center | 600]]
+
+
+
 
 
 
