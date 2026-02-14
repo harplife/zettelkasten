@@ -436,10 +436,23 @@ As mentioned before, each vowel has a distinct $F_{1}$ and $F_{2}$ pattern. As s
 
 ![[Pasted image 20260213181834.png | center | 600]]
 
+![[Pasted image 20260213185951.png | center | 500]]
+> ([Source](https://en.wikipedia.org/wiki/Formant))
 
+> [!important] This takes me back to Technical Ear Training back in Wester University.
+> The formants somewhat matches with what I learned in TET.
+> - The "ah" resides around 1,000 Hz (where both $F_{1}$ and $F_{2}$ is nearby)
+> - The "aw" (similar to "oh") resides around 500 Hz ($F_{1}$ and $F_{2}$ nearby)
+> - The "ooh" resides around 250 Hz ($F_{1}$ is nearby, $F_{2}$ is not too far away)
+> - The "eh" resides around 2,000 Hz ($F_{2}$ is nearby)
+> - The only exception might be "i" sound, which is supposed to reside at 4,000 Hz. But it does make sense, considering it wasn't exactly the same as the way the vowel is actually sounded.
+> 
 
+> [!important] Watch the Youtube video explaining and demonstrating the formants.
+> https://www.youtube.com/watch?v=jpbFnsusfp0
 
-
+> [!important] [Linear Predictive Coding](https://en.wikipedia.org/wiki/Linear_predictive_coding) (LPC) sounds very interesting. It is the basis of how vocoder works.
+> #todo Look it up sometimes, when digital sound processing becomes a relevant topic. Pitch Detection and Beat Detection sounds like a fun read too. Also related is [Spectral Density Estimation](https://en.wikipedia.org/wiki/Spectral_density_estimation).
 
 
 #### Common GA Vowels
