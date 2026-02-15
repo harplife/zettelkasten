@@ -523,6 +523,9 @@ Note that some vowels only appear in diphthongs, such as :
 - `/o/` in `/oʊ/`
 - `/a/` in `/aɪ/` or `/aʊ/`
 
+Modern GA notations sometimes replace these vowels :
+- `/ɔɪ/` - 
+
 ---
 Although they are less common, **triphthongs** (three vowels) exists in GA as well. It typically occur when a "true" diphthong is followed by `/əɹ/` or `/əl/`. For example,
 - `/aɪəɹ/` - fire, choir, desire, tire
