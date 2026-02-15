@@ -472,7 +472,7 @@ GA typically features **14-16 vowels**, (`/i, ɪ, eɪ, ɛ, æ, ɑ, ɔ, oʊ, ʊ, 
 
 | Phoneme | Vowel Quality | Sound                    | Examples                                                                                   | Merge                   |
 | ------- | ------------- | ------------------------ | ------------------------------------------------------------------------------------------ | ----------------------- |
-| `/ɑ/`   | lax           | open back ah             | p**o**t, f**a**ther, p**a**lm, st**a**rt, l**o**t, s**o**rry,<br>h**o**t, n**o**t, b**o**x | `/ɒ/` (rounded)         |
+| `/ɑ/`   | tense         | open back ah             | p**o**t, f**a**ther, p**a**lm, st**a**rt, l**o**t, s**o**rry,<br>h**o**t, n**o**t, b**o**x | `/ɒ/` (rounded)         |
 | `/æ/`   | lax           | open eh                  | b**a**t, m**a**d, tr**a**p, b**a**th                                                       |                         |
 | `/ɛ/`   | lax           | mid-open eh              | b**e**t, m**e**d, dr**e**ss, c**a**rry, ch**e**rry                                         | `/e/`                   |
 | `/i/`   | tense         | long i                   | b**ee**t, m**e**, fl**ee**ce, happ**y**, **ea**t                                           |                         |
@@ -481,6 +481,8 @@ GA typically features **14-16 vowels**, (`/i, ɪ, eɪ, ɛ, æ, ɑ, ɔ, oʊ, ʊ, 
 | `/ə/`   | lax, neutral  | uh                       | **a**bout, sof**a**, moth**e**r, b**u**t, r**u**n, str**u**t                               | `/ʌ/` (stressed), `/ɜ/` |
 | `/u/`   | tense         | long ooh                 | b**oo**t, y**ou**, g**oo**se, s**ui**t                                                     |                         |
 | `/ʊ/`   | lax           | short ooh                | b**oo**k, p**u**t, f**oo**t, c**u**re, s**oo**t                                            |                         |
+
+![[IPA_GA_Vowels.svg]]
 
 ---
 From a Korean's perspective, it feels like there are some vowels "missing" in GA, such as short "oh", and 으.
