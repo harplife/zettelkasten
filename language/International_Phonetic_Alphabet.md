@@ -642,7 +642,6 @@ In GA, unstressed syllables are reduced in four different ways :
 
 <center>. . .</center>
 
-
 > [!important] Many languages have rhythmic stress.
 > Location of the stress may not be predictable, but when the location of one stressed syllable (which may be the primary stress) is known, certain syllables before or after can be predicted to also be stressed (secondary stress).
 > 
@@ -653,7 +652,7 @@ While English is not strictly syllable-timed, stress patterns heavily influence 
 
 Key Patterns for English Stress:
 
-- **Noun vs. Verb Pairs:** Many two-syllable words change meaning based on stress placement: Nouns typically stress the first syllable (_REcord_ /ˈrɛkərd/), while verbs stress the second (_reCORD_ /rɪˈkɔrd/). Another examples include "convert" and "import".
+- **Noun vs. Verb Pairs:** Many two-syllable words change meaning based on stress placement: Nouns typically stress the first syllable (_REcord_ /ˈrɛkərd/), while verbs stress the second (_reCORD_ /rɪˈkɔrd/). Another examples include "convert" and "import". See [Initial-Stress-Derived Noun](https://en.wikipedia.org/wiki/Initial-stress-derived_noun)
 - **Compound Nouns:** Often, the first element receives primary stress (e.g., _NEWspaper_ /ˈnuzˌpeɪpər/).
 - **Two-Syllable Nouns/Adjectives:** Frequently stress the first syllable (e.g., _TABLE_ /ˈteɪbəl/, _HAPPY_ /ˈhæpi/).
 - **Two-Syllable Verbs/Prepositions:** Frequently stress the second syllable (e.g., _DECIDE_ /dɪˈsaɪd/, _ABOUT_ /əˈbaʊt/).
