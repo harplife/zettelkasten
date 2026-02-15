@@ -519,6 +519,7 @@ Common English diphthongs are :
 Note that some vowels only appear in diphthongs, such as :
 - `/e/` in `/eɪ/` or `/eə/`
 - `/o/` in `/oʊ/`
+- `/a/` in `/aɪ/` or `/aʊ/`
 
 ---
 Although they are less common, **triphthongs** (three vowels) exists in GA as well. It typically occur when a "true" diphthong is followed by `/əɹ/` or `/əl/`. For example,
