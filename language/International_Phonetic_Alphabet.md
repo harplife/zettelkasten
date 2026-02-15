@@ -513,7 +513,7 @@ Common English diphthongs are :
 | `/aʊ/`   | ah-ooh | n**ow**, m**ou**th, h**ou**se, t**ow**n, ab**ou**t, s**ou**nd, p**ow**er |                                  |
 | `/eɪ/`   | eh-i   | b**ai**t, d**ay**, f**a**ce, r**ai**n                                    |                                  |
 | `/oʊ/`   | oh-ooh | b**oa**t, n**o**, g**o**, h**o**me, cl**o**ne, dr**o**ne                 | `/əʊ/`, `/o/`,<br>`/ow/`, `/ɔʊ/` |
-| `/ɔɪ/`   | uh-i   | b**oy** , v**oi**ce, n**oi**se, ch**oi**ce, enj**oy**                    | `/oɪ/`                           |
+| `/ɔɪ/`   | uh-i   | b**oy**, v**oi**ce, n**oi**se, ch**oi**ce, enj**oy**                     | `/oɪ/`                           |
 | `/eə/`   | eh-uh  | h**ai**r, b**ea**r, w**ea**r, sq**uare**                                 |                                  |
 | `/ɪə/`   | i-uh   | n**ea**r, f**ea**r, h**e**r**e**, b**ee**r, y**ea**r, cl**ea**r          |                                  |
 | `/ʊə/`   | ooh-uh | t**ou**r, c**u**r**e**, p**oo**r, end**ure**                             |                                  |
