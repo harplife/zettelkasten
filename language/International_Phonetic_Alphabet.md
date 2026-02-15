@@ -135,6 +135,9 @@ Regardless of language, the speech sound is divided into two principal classes b
 The majority of sounds in most languages are *pulmonic egressive sounds* - which is our main focus. From here on, when I mention consonants/vowels, I'm referring to pulmonic consonants/vowels.
 - #define [Pulmonic Egressive Sounds](https://en.wikipedia.org/wiki/Egressive_sound#Pulmonic_egressive) : Sounds produced through the mouth (or nose) using the air stream created by the lungs, ribs, and diaphragm.
 
+---
+Printable version of GA IPA Basics - [[General_American_IPA_Basics_v1_20260215.pdf]]
+
 
 ### Consonants
 
