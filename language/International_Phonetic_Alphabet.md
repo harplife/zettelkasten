@@ -200,7 +200,7 @@ Key manners of articulation include :
 
 #### Common GA Consonants
 
-GA typically features **24 consonants** (`/p, b, t, d, k, g, f, v, θ, ð, s, z, ʃ, ʒ, h, tʃ, dʒ, m, n, ŋ, l, r, w, j/`).
+GA typically features **24 consonants** (`/p, b, t, d, k, g, f, v, θ, ð, s, z, ʃ, ʒ, h, t͡ʃ, d͡ʒ, m, n, ŋ, l, ɹ, w, j/`).
 
 Consonant phonemes in [General American](https://en.wikipedia.org/wiki/General_American_English)
 ![[Pasted image 20260125224252.png]]
