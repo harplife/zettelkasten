@@ -647,8 +647,7 @@ In GA, unstressed syllables are reduced in four different ways :
 > 
 > However, it's not very predictable in English. Lol
 
-
-While English is not strictly syllable-timed, stress patterns heavily influence vowel reduction, where unstressed vowels often become a schwa /ə/ or /ɪ/.
+While English is not strictly syllable-timed, stress patterns heavily influence vowel reduction, where unstressed vowels often become a schwa `/ə/` or `/ɪ/`.
 
 Key Patterns for English Stress:
 
@@ -659,10 +658,6 @@ Key Patterns for English Stress:
 - **Suffix Influence:** Words ending in _-tion_, _-sion_, _-ic_, and _-ity_ usually place primary stress on the syllable immediately preceding the suffix (e.g., _information_ /ˌɪnfərˈmeɪʃən/).
 - **Length & Position:** Primary stress can fall on the 1st, 2nd, or 3rd syllable, making it essential to check the dictionary for unfamiliar words, as spelling does not always indicate stress placement.
 - **Secondary Stress:** Often found in long words, particularly on the first or second syllable, preceding the primary stress (e.g., _monumental_ /ˌmɑnjəˈmɛntəl/).
-
-
-
-
 
 
 ### Special Consonants & Vowels
