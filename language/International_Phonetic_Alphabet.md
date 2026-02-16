@@ -694,8 +694,8 @@ Progressive Assimilation
 Examples of progressive assimilation for noun plural `/s/` :
 - "Dogs" - `/dɔɡz/`
 - "Bags" - `/bæɡz/`
-- "Trees"
-- "Days"
+- "Trees" - `/tɹiz/`
+- "Days" - 
 
 Examples of progressive assimilation for verb conjugate `/s/` :
 - "Brings"
