@@ -664,6 +664,9 @@ Key Patterns for English Stress:
 
 #### Assimilation
 
+#define [Assimilation](<https://en.wikipedia.org/wiki/Assimilation_(phonology)>) is a common phonological process where a speech sound changes to become more similar to a neighboring sound, making words easier to pronounce.
+- A sound may change to match the sound before it (**progressive**), after it (**regressive**), or merge with an adjacent sound into a new single sound (**coalescent**).
+
 #todo assimilation of place, or of manner
 
 #todo Word Boundary Assimilation
