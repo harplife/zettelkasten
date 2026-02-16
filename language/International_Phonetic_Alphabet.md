@@ -660,24 +660,77 @@ Key Patterns for English Stress:
 - **Secondary Stress:** Often found in long words, particularly on the first or second syllable, preceding the primary stress (e.g., _monumental_ /ˌmɑnjəˈmɛntəl/).
 
 
-### Special Consonants & Vowels
+
+### Coarticulation
+
+#define [Coarticulation](https://en.wikipedia.org/wiki/Coarticulation), in its general sense, refers to a situation in which a speech sound is influenced by its neighboring sound.
+- This phenomenon makes speech more fluid and faster, but often distorts individual phonemes based on their neighbors.
+
+Coarticulation can refer to two different phenomena :
+- Assimilation of the place (or manner) of articulation
+- The production of a co-articulated consonant
+
 
 #### Assimilation
 
 #define [Assimilation](<https://en.wikipedia.org/wiki/Assimilation_(phonology)>) is a common phonological process where a speech sound changes to become more similar to a neighboring sound, making words easier to pronounce.
 - A sound may change to match the sound before it (**progressive**), after it (**regressive**), or merge with an adjacent sound into a new single sound (**coalescent**).
+- Assimilation can change either the **place** or the **manner** of articulation.
+- Assimilation can occur where the final sound of one word changes to become more similar to the first sound of the next word, in which case, it is called **Word Boundary Assimilation**.
 
-#todo assimilation of place, or of manner
+---
+Progressive Assimilation
+- `/s/` to `/z/`
+- #todo /d/ to /t/
+- #todo voicing assimilation
 
-#todo Word Boundary Assimilation
+ When `/s/` follows a *voiced* sound, `/s/` becomes voiced.
+- Plural noun s to z
+- Verb conjugate s to z
+- Intervocalic s to z
 
-#todo Dentalization
+> [!important] Note that all vowels are *voiced*.
+
+Examples of progressive assimilation for noun plural `/s/` :
+- "Dogs" - `/dɔɡz/`
+- "Bags" - `/bæɡz/`
+- "Trees"
+- "Days"
+
+Examples of progressive assimilation for verb conjugate `/s/` :
+- "Brings"
+- "Runs"
+- "Loves"
+
+Examples of progressive assimilation for intervocalic `/s/` :
+- "Reason"
+- "Season"
+- "Easy"
+
+> [!warning] There are exceptions like "basic", "basis", or "crisis".
 
 > [!important] Omitting word boundary assimilation (assimilation in connected speech) is generally considered a form of clear, careful, or slow enunciation.
 > - Ten bucks -> instead of "tem bucks", say ten. bucks.
 > - want you -> instead of "wanchu", say want. you.
 > - did you -> instead of "didju", say did. you.
 > - bless you -> instead of "bleshu", say bless. you.
+
+---
+#todo Regressive Assimilation
+
+
+
+---
+#todo Coalescent Assmilation
+
+
+
+### Special Consonants & Vowels
+
+
+
+
+#todo Dentalization
 
 
 #### Co-articulated Consonants
@@ -729,8 +782,6 @@ In case of syllabic consonants, we can phonemically transcribe them with a prece
 - `/m/` - `/əm/` - "rhythm" is `/ˈrɪðəm/`
 - `/r/` - `/ər/` - "butter" is `/ˈbʌtər/`
 - `/l/` - `/əl/` - "bottle" is `/ˈbɑtəl/`
-
-> [!note] I've always wondered how Americans interpret the Korean "ㅡ" sound (transcribed as `/ɯ/`). It seems unaspirated, unstressed `/ə/` is the closest we get.
 
 
 #### Affricated T
