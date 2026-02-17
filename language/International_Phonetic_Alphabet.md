@@ -786,7 +786,7 @@ In case of syllabic consonants, we can phonemically transcribe them with a prece
 
 #### Affricated T
 
-Affricated T `[t͡ʃ]` ("ch") is not *technically* an allophone of `/t/`, but it can sometimes be considered as one depending on context. Such as :
+Affricated T `[t͡ʃ]` ("ch") is not *technically* an allophone of `/t/`, but it can sometimes be considered as one depending on context - such as :
 - `⟨t⟩` + `⟨u⟩` combination
 - `⟨t⟩` + `⟨r⟩` combination
 - Connected Speech (Word-Boundary Assimilation)
@@ -824,6 +824,14 @@ When a word ending in `/t/` is followed by a word starting with `/j/`, the sound
 
 > [!important] In contexts requiring very crisp, precise, or slow speech (e.g. formal public speaking, acting, singing), avoiding the affrication of `/t/` and `/d/` is often considered more articulate.
 > Otherwise, the affrication is totally normal and natural for casual and informal speech.
+
+
+#### Affricated D
+
+Affricated D `/d͡ʒ/` ("j") is not technically an allophone of `/d/`, but it can sometimes be considered as one when **yod-coalescence** occurs.
+
+In this context, `[d͡ʒ]` is a sound variation of `/d/` when it appears before `/j/` (yod) sound, typically in unstressed syllables.
+
 
 
 #### Semi-Vowels
