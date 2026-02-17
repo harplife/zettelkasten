@@ -269,6 +269,10 @@ Letter `⟨q⟩` is pronounced using the consonant cluster `/kw/`.
 
 While tie bar (arc) symbol above or below the two consonants is not necessary, but it helps to clarify.
 
+> [!important] While affricates are easy to spot with words like "job" or "choice" where letters clearly indicate sound, it can be difficult to spot them otherwise.
+> Affricates are harder to spot in words like "true" (sounds like Chroo) or "educate" (sounds like eh-ju-cate). We'll discuss more about this once we cover **Assmilation**.
+
+
 #### Sibilants
 
 #define A [Sibilant](https://en.wikipedia.org/wiki/Sibilant) is a high-intensity, high-pitched fricative or affricate consonant produced by directing airflow with the tongue against the teeth. In other words, it is a "hissing" or "hushing" sound.
