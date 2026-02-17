@@ -822,6 +822,9 @@ When a word ending in `/t/` is followed by a word starting with `/j/`, the sound
 - "Got you" : `/ɡɑːt juː/` -> `[ɡɑːt͡ʃu]`
 
 
+> [!important] In contexts requiring very crisp, precise, or slow speech (e.g. formal public speaking, acting, singing), avoiding the affrication of `/t/` and `/d/` is often considered more articulate.
+> Otherwise, the affrication is totally normal and natural for casual and informal speech.
+
 
 #### Semi-Vowels
 
