@@ -830,8 +830,13 @@ When a word ending in `/t/` is followed by a word starting with `/j/`, the sound
 
 Affricated D `/d͡ʒ/` ("j") is not technically an allophone of `/d/`, but it can sometimes be considered as one when **yod-coalescence** occurs.
 
-In this context, `[d͡ʒ]` is a sound variation of `/d/` when it appears before `/j/` (yod) sound, typically in unstressed syllables.
+In this context, `[d͡ʒ]` is a sound variation of `/d/` when it appears before `/j/` (yod) sound, typically in unstressed syllables. For example,
+- "Educate" - `/ˈɛdjəkeɪt/` --> `/ˈɛd͡ʒəkeɪt/`
+- "Soldier" - `/ˈsoʊldjər/` --> `/ˈsoʊld͡ʒər/`
+- "Gradual" - `/ˈɡrædjuəl/` --> `/ˈɡræd͡ʒuəl/`
 
+Same thing happens with a connected speech. For example,
+- "Did you" - `/ˈdɪd ju/` --> `/ˈdɪd͡ʒu/`
 
 
 #### Semi-Vowels
