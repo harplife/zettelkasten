@@ -272,6 +272,20 @@ While tie bar (arc) symbol above or below the two consonants is not necessary, b
 > [!important] While affricates are easy to spot with words like "job" or "choice" where letters clearly indicate sound, it can be difficult to spot them otherwise.
 > Affricates are harder to spot in words like "true" (sounds like Chroo) or "educate" (sounds like eh-ju-cate). We'll discuss more about this once we cover **Assmilation**.
 
+<center>. . .</center>
+
+`/d͡ʒ/` is commonly spelled with `⟨j⟩`, `⟨g⟩`, `⟨ge⟩`, or `⟨dg⟩`. For example,
+- `⟨j⟩` : job, joke, jet, major, injury
+- `⟨g⟩` : giant, gentle, register, agility
+- `⟨dg⟩` or `⟨dge⟩` : budget, judge, bridge
+- `⟨ge⟩` : page, huge, language
+
+<center>. . .</center>
+
+`/t͡ʃ/` is commonly spelled with `⟨ch⟩` or `⟨tch⟩`. For example,
+- `⟨ch⟩` : chain, check, rich
+- `⟨tch⟩` : match, catch, kitchen
+
 
 #### Sibilants
 
