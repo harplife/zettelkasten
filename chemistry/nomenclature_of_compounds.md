@@ -8,7 +8,7 @@ A binary ionic compound is a compound made of :
 - A nonmetal (anion, negative ion)
 
 
-### Ionic Charge
+### Ionic Bond
 
 #define **Ionic Bond** is a strong electrostatic attraction between oppositely charged ions (a cation and an anion) formed when one atom completely transfers valence electrons to another.
 - Primarily occurring between metals and non-metals, this bond results from the electrostatic attraction between positive and negative ions, creating neutral, high-melting-point, solid compounds (e.g. sodium chloride).
@@ -52,4 +52,71 @@ Examples :
 - FeCl₃ --> iron(III) chloride
 
 > [!warning] There are no prefixes involved with naming ionic binary compounds.
+
+
+## Molecular Binary Compounds
+
+
+### Covalent Bond
+
+#define A **Covalent Bond** is a chemical link formed when two non-metal atoms share pairs of valence electrons to achieve stability and fill their outer electron shells.
+- These bonds, which create molecules, arise from the electrostatic attraction between positive nuclei and shared negative electrons.
+- Key types include polar (unequal sharing) and nonpolar (equal sharing) bonds.
+- Covalent bond can occur between two atoms of the same element, forming a molecule.
+
+> [!important] A molecule is two or more atoms chemically bonded together, while a compound is a substance composed of two or more *different* elements bonded together.
+> All compounds are technically molecules, but not all molecules are compounds, as molecules can consist of only one element.
+> 
+> #example O₂ is a molecule, not a compound. MgO is a compound (and a molecule).
+
+
+### Basic Naming Rules
+
+Biggest thing about naming molecular binary compounds is the fact that prefix is used.
+
+Prefixes :
+
+|Number|Prefix|
+|---|---|
+|1|mono-|
+|2|di-|
+|3|tri-|
+|4|tetra-|
+|5|penta-|
+|6|hexa-|
+|7|hepta-|
+|8|octa-|
+|9|nona-|
+|10|deca-|
+
+For molecular binary compounds,
+> Name = prefix + first element name + prefix + second element name (with -ide ending)
+
+Follow these steps :
+1. Name the first element
+	- Use the prefix (count the number of atoms)
+	- Use the element's name exactly as written
+2. Name the second element
+	- Use the prefix (count the number of atoms)
+	- Take the root of the element name
+	- Add -ide suffix
+
+> [!warning] Exception : Mono- prefix is *NOT* used for the first element.
+
+> [!important] Vowel Dropping Rule
+> If prefix ends in a vowel and element starts with a vowel, drop one vowel.
+> #example mono + oxide --> monoxide
+> #example penta + oxide --> pentoxide
+
+---
+#example molecular binary compounds naming
+
+CO --> carbon monoxide
+
+CO₂ --> carbon dioxide
+
+N₂O₅ --> dinitrogen pentoxide
+
+SO₃ --> sulfur trioxide
+
 
