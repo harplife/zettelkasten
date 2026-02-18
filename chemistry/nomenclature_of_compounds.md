@@ -231,3 +231,13 @@ However, because polyatomic ions can be either cations or anions, it can be :
 - (NH₄)₂SO₄ --> ammonium sulfate
 - NH₄NO₃ --> ammonium nitrate
 - (NH₄)₃PO₄ --> ammonium phosphate
+
+
+## Acid
+
+#define An Acid is a substance that produces H⁺ (hydrogen ions) in water.
+- #example HCl (in water) --> H⁺ + Cl⁻
+
+#define H⁺ is a **proton ion** (or just proton) is a hydrogen atom that has lost its single electron, leaving behind only the positively charged nucleus. It is also referred to as hydrogen ion or hydrogen cation.
+- Due to its tiny size and positive charge, a free proton is extremely reactive and rarely exists alone in aqueous solutions, typically forming hydronium ions (H_3O^+) or higher clusters.
+- Proton ions are the defining species for acidity in aqueous solutions. A lower pH directly indicates a higher concentration of H⁺ ions.
