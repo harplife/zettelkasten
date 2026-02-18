@@ -156,6 +156,11 @@ Common polyatomic ions :
 | sulfite                          | SO₃²⁻   | −2     |
 
 
+<center>. . .</center>
+
+
+
+
 ### Basic Naming Rules
 
 Because we are dealing with polyatomic ions, we will somewhat follow the naming rules for ionic binary compounds :
