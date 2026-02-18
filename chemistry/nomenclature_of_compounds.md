@@ -120,11 +120,51 @@ N₂O₅ --> dinitrogen pentoxide
 SO₃ --> sulfur trioxide
 
 
-## Inorganic Nomenclature
+## Inorganic Compounds
+
+#define **Inorganic compounds** are chemical substances that generally lack carbon-hydrogen (C-H) bonds, distinguishing them from organic compounds. Primarily composed of minerals, metals, and non-metals, these compounds are usually found in non-living matter, such as water, salts, and acids. They typically exhibit high thermal stability, high melting points, and solubility in water.
+
+> [!important] The binary compounds we've gone through so far are inorganic compounds.
+> We'll go through inorganic compounds that include polyatomic ions.
 
 ### Polyatomic Ion
 
 #define A **Polyatomic Ion** is a charged group of two or more covalently bonded atoms that acts as a single ion.
 - Unlike single-atom ions, these charged molecules (or molecular ions) maintain their identity as a group during chemical reactions.
 - They are commonly negative (anions) but can be positive (cations).
+
+<center>. . .</center>
+
+Common polyatomic ions :
+
+|Name|Formula|Charge|
+|---|---|---|
+|ammonium|NH₄⁺|+1|
+|hydroxide|OH⁻|−1|
+|nitrate|NO₃⁻|−1|
+|nitrite|NO₂⁻|−1|
+|sulfate|SO₄²⁻|−2|
+|sulfite|SO₃²⁻|−2|
+|carbonate|CO₃²⁻|−2|
+|phosphate|PO₄³⁻|−3|
+|acetate|C₂H₃O₂⁻ (or CH₃COO⁻)|−1|
+
+
+### Basic Naming Rules
+
+Because we are dealing with polyatomic ions, we will somewhat follow the naming rules for ionic binary compounds :
+> Name = Cation + Anion
+
+However, because polyatomic ions can be either cations or anions, it can be :
+- Metal + polyatomic anion
+- Polyatomic cation + non-metal
+- Polyatomic cation + polyatomic anion
+
+> [!warning] "-ide" suffix does *NOT* apply to polyatomic ion.
+
+> [!warning] If the metal has multiple charges, Roman numerals are still being used!
+> #example Fe(NO₃)₂ --> iron(II) nitrate
+
+> [!important] When writing formulas, if more than one polyatomic ion is needed, use parentheses.
+> #example calcium nitrate --> Ca²⁺ + NO₃⁻ = Ca(NO₃)₂
 
