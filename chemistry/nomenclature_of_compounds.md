@@ -133,6 +133,9 @@ SO₃ --> sulfur trioxide
 - Unlike single-atom ions, these charged molecules (or molecular ions) maintain their identity as a group during chemical reactions.
 - They are commonly negative (anions) but can be positive (cations).
 
+#define An **Oxyanion** is a negatively charged polyatomic ion that contains oxygen bonded to another element.
+- Oxygen is extremely good at stabilizing negative charge, through electronegativity and resonance.
+
 <center>. . .</center>
 
 Common polyatomic ions :
@@ -158,7 +161,38 @@ Common polyatomic ions :
 
 <center>. . .</center>
 
+Memorization tips
 
+
+Memorize the "-ate" Oxygen Pattern Family :
+
+| Base Element | -ate Ion             | Charge |
+| ------------ | -------------------- | ------ |
+| Carbon       | CO₃²⁻ (carbonate)    | −2     |
+| Chlorine     | ClO₃⁻ (chlorate)     | −1     |
+| Chromium     | CrO₄²⁻ (chromate)    | −2     |
+| Manganese    | MnO₄⁻ (permanganate) | −1     |
+| Nitrogen     | NO₃⁻ (nitrate)       | −1     |
+| Phosphorus   | PO₄³⁻ (phosphate)    | −3     |
+| Sulfur       | SO₄²⁻ (sulfate)      | −2     |
+
+Memorize the oddballs :
+
+| Name      | Formula | Charge |
+| --------- | ------- | ------ |
+| ammonium  | NH₄⁺    | +1     |
+| hydroxide | OH⁻     | -1     |
+| cyanide   | CN⁻     | -1     |
+| acetate   | C₂H₃O₂⁻ | -1     |
+
+
+No need to memorize the "-ite" versions. "-ite" indicates one less oxygen than "-ate". Thus, you only need to memorize "-ate" versions.
+- Overall charge stays identical despite the removal of one oxygen atom.
+- "hypo-" prefix further reduces the oxygen count to "-ite", whereas "per-" prefix adds one to "-ate". Meaning, "per-..-ate" > "-ate" > "-ite" > "hypo-..-ite"
+
+
+If hydrogen is added to an oxyanion, charge becomes 1 less negative.
+- #example carbonate (CO₃²⁻) has charge of -2. When hydrogen is added, it becomes bicarbonate (HCO₃⁻), which has charge of -1.
 
 
 ### Basic Naming Rules
@@ -179,3 +213,21 @@ However, because polyatomic ions can be either cations or anions, it can be :
 > [!important] When writing formulas, if more than one polyatomic ion is needed, use parentheses.
 > #example calcium nitrate --> Ca²⁺ + NO₃⁻ = Ca(NO₃)₂
 
+---
+#example **Metal + polyatomic anion** :
+- NaNO₃ --> sodium nitrate
+- CaCO₃ --> calcium carbonate
+- FeSO₄ --> iron(II) sulfate
+- K₂Cr₂O₇ --> potassium dichromate
+
+
+#example **Polyatomic cation + non-metal** :
+- NH₄Cl --> ammonium chloride
+- NH₄Br --> ammonium bromide
+- (NH₄)₂S --> ammonium sulfide
+
+
+#example **Polyatomic cation + non-metal** :
+- (NH₄)₂SO₄ --> ammonium sulfate
+- NH₄NO₃ --> ammonium nitrate
+- (NH₄)₃PO₄ --> ammonium phosphate
