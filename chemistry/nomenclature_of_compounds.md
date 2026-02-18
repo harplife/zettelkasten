@@ -188,6 +188,7 @@ Memorize the oddballs :
 | hydroxide | OH⁻     | -1     |
 | cyanide   | CN⁻     | -1     |
 | acetate   | C₂H₃O₂⁻ | -1     |
+| Oxalate   | C₂O₄²⁻  | −2     |
 
 <center>. . .</center>
 
