@@ -120,3 +120,11 @@ N₂O₅ --> dinitrogen pentoxide
 SO₃ --> sulfur trioxide
 
 
+## Inorganic Nomenclature
+
+### Polyatomic Ion
+
+#define A **Polyatomic Ion** is a charged group of two or more covalently bonded atoms that acts as a single ion.
+- Unlike single-atom ions, these charged molecules (or molecular ions) maintain their identity as a group during chemical reactions.
+- They are commonly negative (anions) but can be positive (cations).
+
