@@ -159,12 +159,10 @@ Common polyatomic ions :
 | sulfite                          | SO₃²⁻   | −2     |
 
 
-<center>. . .</center>
-
-Memorization tips
+#### Memorization Tips
 
 
-Memorize the "-ate" Oxygen Pattern Family :
+Memorize the "-ate" version of *oxyanions* :
 
 | Base Element | -ate Ion             | Charge |
 | ------------ | -------------------- | ------ |
@@ -176,6 +174,12 @@ Memorize the "-ate" Oxygen Pattern Family :
 | Phosphorus   | PO₄³⁻ (phosphate)    | −3     |
 | Sulfur       | SO₄²⁻ (sulfate)      | −2     |
 
+No need to memorize the "-ite" versions. "-ite" indicates one less oxygen than "-ate". Thus, you only need to memorize "-ate" versions.
+- Overall charge stays identical despite the removal of one oxygen atom.
+- "hypo-" prefix further reduces the oxygen count to "-ite", whereas "per-" prefix adds one to "-ate". Meaning, "per-..-ate" > "-ate" > "-ite" > "hypo-..-ite"
+
+<center>. . .</center>
+
 Memorize the oddballs :
 
 | Name      | Formula | Charge |
@@ -185,11 +189,7 @@ Memorize the oddballs :
 | cyanide   | CN⁻     | -1     |
 | acetate   | C₂H₃O₂⁻ | -1     |
 
-
-No need to memorize the "-ite" versions. "-ite" indicates one less oxygen than "-ate". Thus, you only need to memorize "-ate" versions.
-- Overall charge stays identical despite the removal of one oxygen atom.
-- "hypo-" prefix further reduces the oxygen count to "-ite", whereas "per-" prefix adds one to "-ate". Meaning, "per-..-ate" > "-ate" > "-ite" > "hypo-..-ite"
-
+<center>. . .</center>
 
 If hydrogen is added to an oxyanion, charge becomes 1 less negative.
 - #example carbonate (CO₃²⁻) has charge of -2. When hydrogen is added, it becomes bicarbonate (HCO₃⁻), which has charge of -1.
@@ -235,9 +235,67 @@ However, because polyatomic ions can be either cations or anions, it can be :
 
 ## Acid
 
-#define An Acid is a substance that produces H⁺ (hydrogen ions) in water.
-- #example HCl (in water) --> H⁺ + Cl⁻
-
 #define H⁺ is a **proton ion** (or just proton) is a hydrogen atom that has lost its single electron, leaving behind only the positively charged nucleus. It is also referred to as hydrogen ion or hydrogen cation.
 - Due to its tiny size and positive charge, a free proton is extremely reactive and rarely exists alone in aqueous solutions, typically forming hydronium ions (H_3O^+) or higher clusters.
 - Proton ions are the defining species for acidity in aqueous solutions. A lower pH directly indicates a higher concentration of H⁺ ions.
+
+#define By the Arrhenius definition, an **Acid** is a substance that produces H⁺ in water.
+- Brønsted–Lowry definition, an acid is a **proton donor**.
+- Acids almost always start with hydrogen, which means it has hydrogen written first in the formula (e.g. HCl, H₂SO₄, HNO₃)
+
+
+### Binary Acid
+
+#define A **Binary Acid** is an acid that contains hydrogen and one non-metal without oxygen.
+- Binary acids are only considered acids when in an aqueous state (aq).
+
+> [!important] Key identification criteria for binary acids
+> 1. Formula Structure : Starts with H (Hydrogen) and has **only one** other element (non-metal).
+> 2. No Oxygen
+> 3. Liquid State
+> 4. Nonmetal Element : Usually a halogen or sulfur.
+
+#example Binary acids include :
+- Hydrofluoric acid - HF(aq)
+- Hydrochloric acid - HCl(aq)
+- Hydrobromic acid - HBr(aq)
+- Hydroiodic acid - HI(aq)
+- Hydrosulfuric acid (H₂S)
+
+> [!important] If a binary compound is not in aqueous state, then it follows the binary compound naming convention.
+> For example, HCl(g) or HCl(s) is named hydrogen chloride (binary covalent compound); NOT hydrochloric acid.
+
+
+#### Basic Naming Rules
+
+Binary acids follow this naming pattern :
+> Name = hydro- + root of non-metal + -ic + acid
+
+
+### Oxyacid
+
+#define An **Oxyacid** is an acid that contains hydrogen, non-metal, and oxygen.
+- Oxyacids usually come from oxyanions. Basically, oxyacids are oxyanions with hydrogen added.
+
+#example Oxyacids :
+- HNO₃ --> nitric acid
+- HNO₂ --> nitrous acid
+- H₂SO₄ --> sulfuric acid
+- H₂SO₃ --> sulfurous acid
+- H₂CO₃ --> carbonic acid
+- HClO₃ --> chloric acid
+
+
+#### Basic Naming Rules
+
+Oxyacids follow this naming pattern :
+
+|If anion ends in|Acid ends in|
+|---|---|
+|-ate|-ic acid|
+|-ite|-ous acid|
+
+> [!important] There is no "hydro-" prefix.
+
+> [!important] "hypo-" or "per-" prefixes stays as they are.
+
