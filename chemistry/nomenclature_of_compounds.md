@@ -137,17 +137,23 @@ SO₃ --> sulfur trioxide
 
 Common polyatomic ions :
 
-|Name|Formula|Charge|
-|---|---|---|
-|ammonium|NH₄⁺|+1|
-|hydroxide|OH⁻|−1|
-|nitrate|NO₃⁻|−1|
-|nitrite|NO₂⁻|−1|
-|sulfate|SO₄²⁻|−2|
-|sulfite|SO₃²⁻|−2|
-|carbonate|CO₃²⁻|−2|
-|phosphate|PO₄³⁻|−3|
-|acetate|C₂H₃O₂⁻ (or CH₃COO⁻)|−1|
+| Name                             | Formula | Charge |
+| -------------------------------- | ------- | ------ |
+| acetate                          | C₂H₃O₂⁻ | −1     |
+| ammonium                         | NH₄⁺    | +1     |
+| bicarbonate (hydrogen carbonate) | HCO₃⁻   | −1     |
+| carbonate                        | CO₃²⁻   | −2     |
+| chlorate                         | ClO₃⁻   | −1     |
+| chromate                         | CrO₄²⁻  | −2     |
+| cyanide                          | CN⁻     | −1     |
+| dichromate                       | Cr₂O₇²⁻ | −2     |
+| hydroxide                        | OH⁻     | −1     |
+| nitrate                          | NO₃⁻    | −1     |
+| nitrite                          | NO₂⁻    | −1     |
+| permanganate                     | MnO₄⁻   | −1     |
+| phosphate                        | PO₄³⁻   | −3     |
+| sulfate                          | SO₄²⁻   | −2     |
+| sulfite                          | SO₃²⁻   | −2     |
 
 
 ### Basic Naming Rules
