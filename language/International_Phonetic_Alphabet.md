@@ -689,6 +689,8 @@ A semi-vowel often acts as an onset that glides to a nucleus (a vowel).
 
 The main semi-vowels in GA are `/j/` and `/w/`.
 
+<center>. . .</center>
+
 `/j/` is a [voiced palatal approximant](https://en.wikipedia.org/wiki/Voiced_palatal_approximant), called simply as "yod", which is a sound that occurs most commonly in the spellings `⟨y⟩`, `⟨u⟩`, `⟨ew⟩`, `⟨ue⟩`, `⟨iu⟩`, `⟨io⟩`, and `⟨eo⟩`.
 - It appears frequently at the start of words (e.g. "yes", "use") or after consonants (e.g. computer, music).
 
@@ -697,10 +699,16 @@ The main semi-vowels in GA are `/j/` and `/w/`.
 - `⟨u⟩` - cute, use, unit, human, music
 - `⟨ew⟩` - view, few
 - `⟨ue⟩` - queue, value
+
+#example words with yod sound in rapid speech :
 - `⟨iu⟩` - medium
 - `⟨io⟩` - union, opinion, onion
 - `⟨eo⟩` - theory, video
 
+> [!important] The letter `⟨j⟩` has a chaotic, split history, originating as a stylistic variation of `⟨I⟩` in Latin to represent the semi-vowel `/j/`.
+> Its varied pronunciations result from the letter being adopted for different sounds as Romance languages developed `/dʒ/` and Germanic languages kept the original `/j/` sound. It also evolved into Spanish `/h/` sound and French `/ʒ/` sound.
+
+<center>. . .</center>
 
 - **/w/** ([voiced labial-velar approximant](https://en.wikipedia.org/wiki/Voiced_labial–velar_approximant), like the 'w' in "wet" and "win")
 
