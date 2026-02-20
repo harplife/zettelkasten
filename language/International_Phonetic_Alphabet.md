@@ -258,7 +258,7 @@ Letter `⟨q⟩` is pronounced using the consonant cluster `/kw/`.
 <center>. . .</center>
 
 > [!warning] Consonants `/w, j/` are called Semi-Vowels, which changes the way vowels are sounded.
-> This will be covered in [[#Semi-Vowels]].
+> This will be covered in detail at [[#Semi-Vowels (Semi-Consonant)]].
 
 
 #### Affricates
@@ -679,6 +679,37 @@ Key Patterns for English Stress:
 
 
 
+### Semi-Vowels (Semi-Consonant)
+
+#define A [Semi-Vowel](https://en.wikipedia.org/wiki/Semivowel) (Semi-Consonant) is a sound that is phonetically similar to a vowel sound but functions as the syllable boundary, rather than as the nucleus of a syllable.
+
+#define A **Glide** is a sound produced with little to no friction in vocal tract, acting as a transition to or from a vowel.
+
+A semi-vowel often acts as an onset that glides to a nucleus (a vowel).
+
+The main semi-vowels in GA are `/j/` and `/w/`.
+
+`/j/` is a [voiced palatal approximant](https://en.wikipedia.org/wiki/Voiced_palatal_approximant), called simply as "yod", which is a sound that occurs most commonly in the spellings `⟨y⟩`, `⟨u⟩`, `⟨ew⟩`, `⟨ue⟩`, `⟨iu⟩`, `⟨io⟩`, and `⟨eo⟩`.
+- It appears frequently at the start of words (e.g. "yes", "use") or after consonants (e.g. computer, music).
+
+#example words with yod sound :
+- `⟨y⟩` - yes, yellow, beyond, lawyer
+- `⟨u⟩` - cute, use, unit, human, music
+- `⟨ew⟩` - view, few
+- `⟨ue⟩` - queue, value
+- `⟨iu⟩` - medium
+- `⟨io⟩` - union, opinion, onion
+- `⟨eo⟩` - theory, video
+
+
+- **/w/** ([voiced labial-velar approximant](https://en.wikipedia.org/wiki/Voiced_labial–velar_approximant), like the 'w' in "wet" and "win")
+
+
+
+
+
+
+
 ### Coarticulation
 
 #define [Coarticulation](https://en.wikipedia.org/wiki/Coarticulation), in its general sense, refers to a situation in which a speech sound is influenced by its neighboring sound.
@@ -737,22 +768,14 @@ Examples of progressive assimilation for intervocalic `/s/` :
 #todo Regressive Assimilation
 
 
+consonant labialization is a secondary articulation where a consonant is produced with simultaneous lip rounding or protrusion.
+- This is often a result of regressive assimilation, where a consonant becomes labialized due to a following rounded vowel (e.g. /u/ or /o/).
+
 
 ---
 #todo Coalescent Assimilation
 
 
-
-
-#### Semi-Vowels
-
-#define **Glide** ([Semi-Vowel](https://en.wikipedia.org/wiki/Semivowel) or Semi-Consonant) is a sound produced with little to no friction in vocal tract, acting as a transition to or from a vowel.
-
-The main consonant glides in English are :
-- **/j/** ([voiced palatal approximant](https://en.wikipedia.org/wiki/Voiced_palatal_approximant), like the 'y' in "yes" and "you")
-- **/w/** ([voiced labial-velar approximant](https://en.wikipedia.org/wiki/Voiced_labial–velar_approximant), like the 'w' in "wet" and "win")
-
-#todo this is consonant labialization
 
 
 
