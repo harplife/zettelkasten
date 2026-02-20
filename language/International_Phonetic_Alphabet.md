@@ -743,6 +743,22 @@ Examples of progressive assimilation for intervocalic `/s/` :
 
 
 
+
+#### Semi-Vowels
+
+#define **Glide** ([Semi-Vowel](https://en.wikipedia.org/wiki/Semivowel) or Semi-Consonant) is a sound produced with little to no friction in vocal tract, acting as a transition to or from a vowel.
+
+The main consonant glides in English are :
+- **/j/** ([voiced palatal approximant](https://en.wikipedia.org/wiki/Voiced_palatal_approximant), like the 'y' in "yes" and "you")
+- **/w/** ([voiced labial-velar approximant](https://en.wikipedia.org/wiki/Voiced_labial–velar_approximant), like the 'w' in "wet" and "win")
+
+#todo this is consonant labialization
+
+
+
+
+
+
 #### Co-articulated Consonants
 
 #todo A [Co-articulated Consonant](https://en.wikipedia.org/wiki/Co-articulated_consonant) is a consonant produced by simultaneous (or rapidly overlapping) articulations of adjacent sounds, commonly resulting in labialization, velarization, nasalization, and palatalization.
@@ -905,16 +921,6 @@ In case of syllabic consonants, we can phonemically transcribe them with a prece
 
 
 
-
-#### Semi-Vowels
-
-#define **Glide** ([Semi-Vowel](https://en.wikipedia.org/wiki/Semivowel) or Semi-Consonant) is a sound produced with little to no friction in vocal tract, acting as a transition to or from a vowel.
-
-The main consonant glides in English are :
-- **/j/** ([voiced palatal approximant](https://en.wikipedia.org/wiki/Voiced_palatal_approximant), like the 'y' in "yes" and "you")
-- **/w/** ([voiced labial-velar approximant](https://en.wikipedia.org/wiki/Voiced_labial–velar_approximant), like the 'w' in "wet" and "win")
-
-#todo this is consonant labialization
 
 
 
