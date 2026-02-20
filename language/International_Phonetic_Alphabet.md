@@ -692,7 +692,7 @@ Coarticulation can refer to two different phenomena :
 #### Assimilation
 
 #define [Assimilation](<https://en.wikipedia.org/wiki/Assimilation_(phonology)>) is a common phonological process where a speech sound changes to become more similar to a neighboring sound, making words easier to pronounce.
-- A sound may change to match the sound before it (**progressive**), after it (**regressive**), or merge with an adjacent sound into a new single sound (**coalescent**).
+- A sound may change to match the sound before it (**progressive**), after it (**regressive**), or merge with an adjacent sound into a new single sound (**coalescent**/**reciprocal**).
 - Assimilation can change either the **place** or the **manner** of articulation.
 - Assimilation can occur where the final sound of one word changes to become more similar to the first sound of the next word, in which case, it is called **Word Boundary Assimilation**.
 
@@ -739,7 +739,44 @@ Examples of progressive assimilation for intervocalic `/s/` :
 
 
 ---
-#todo Coalescent Assmilation
+#todo Coalescent Assimilation
+
+
+#### Yod-Coalescence
+
+#define **Yod-Coalescence** is a form of *assimilative palatalization* where an alveolar consonant `/t,d,s,z/` merges with a following palatal approximant `/j/` (the "yod") to produce post-alveolar sounds `/ʃ,ʒ,d͡ʒ,t͡ʃ/`.
+- In GA, this is common when the vowel following the `/j/` is *unstressed*.
+- It is also a form of connected speech reduction.
+
+#example Yod-Coalescence in GA :
+- `/t/` + `/j/` = `/tʃ/` --> nature, actually, won't you
+- `/d/` + `/j/` = `/dʒ/` --> educate, residual, did you
+- `/s/` + `/j/` = `/ʃ/` --> issue, assume
+- `/z/` + `/j/` = `/ʒ/` --> azure
+
+> [!important] Yod-coalescence is more common in British English than American English.
+> In GA, yod is dropped in some cases where yod-coalescence is expected. This is called **Yod-Dropping**.
+
+
+#### Yod-Dropping
+
+
+#todo Yod Dropping after alveolar consonants
+- `/j/` is dropped in stressed syllables after all alveolar and dental consonants (except `/p, b, f, h, k, m/`).
+	- `/j/` is dropped after `/t,d,n,s,z,l/`
+- This applies also to syllables often transcribed with the secondary stress mark `⟨ˌ⟩` (e.g. "avenue" `/ˈævəˌnu/`), but it is retained for unstressed syllables (e.g. "menu" `/ˈmɛnju/`).
+- new, Tuesday, assume, duke, tune, due, suit
+
+> [!note] This actually blows my mind. I've been saying all these words with yod all this time.
+
+The "Long U" `/juː/` is typically represented by spellings like `⟨u⟩`, `⟨ew⟩`, `⟨eu⟩`, `⟨ue⟩`, and `⟨ui⟩`.
+
+
+y+vowel(s) : ye, yea, yo, you, yu, ..
+
+ie : soldier, audience, convenience
+
+
 
 
 
@@ -762,13 +799,7 @@ Examples of progressive assimilation for intervocalic `/s/` :
 - Sometimes **/ʍ/** or **/hw/** is used for "wh" sound where "h" sound is not prominent but it is still more "breathier" than "w" sound (e.g. *which* or *whale*).
 /j/ (y): **y**es, **y**ou
 
-#todo Yod Dropping after alveolar consonants
-- `/j/` is dropped in stressed syllables after all alveolar and dental consonants (except `/p, b, f, h, k, m/`).
-	- `/j/` is dropped after `/t,d,n,s,z,l/`
-- This applies also to syllables often transcribed with the secondary stress mark `⟨ˌ⟩` (e.g. "avenue" `/ˈævəˌnu/`), but it is retained for unstressed syllables (e.g. "menu" `/ˈmɛnju/`).
-- new, Tuesday, assume, duke, tune, due, suit
 
-> [!note] This actually blows my mind. I've been saying all these words with yod all this time.
 
 
 #todo velarization
