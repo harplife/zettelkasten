@@ -710,8 +710,20 @@ The main semi-vowels in GA are `/j/` and `/w/`.
 
 <center>. . .</center>
 
-- **/w/** ([voiced labial-velar approximant](https://en.wikipedia.org/wiki/Voiced_labial–velar_approximant), like the 'w' in "wet" and "win")
+`/w/` is a [voiced labial-velar approximant](https://en.wikipedia.org/wiki/Voiced_labial–velar_approximant), which is a sound primarily produced by the letter `⟨w⟩` before or after a vowel.
+- It is also sometimes represented by `⟨u⟩` ad `⟨wh⟩`
 
+#example The letter `⟨w⟩` followed by a vowel :
+- `⟨wa⟩` - way, water, wash
+- `⟨we⟩` - week, went, wet
+- `⟨wi⟩` - with, win, wink
+- `⟨wo⟩` - word, woman, work
+- `⟨woo⟩` - wood, woo
+
+#example The letter `⟨w⟩` after a vowel :
+- 
+
+> [!important] The letter `⟨w⟩` is silent before `⟨r⟩` (e.g. write, wrong, wrist).
 
 
 
