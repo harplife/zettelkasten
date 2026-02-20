@@ -802,7 +802,7 @@ In case of syllabic consonants, we can phonemically transcribe them with a prece
 - `/l/` - `/əl/` - "bottle" is `/ˈbɑtəl/`
 
 
-#### Affricated T
+#### Affricated T (Assimilation)
 
 Affricated T `[t͡ʃ]` ("ch") is not *technically* an allophone of `/t/`, but it can sometimes be considered as one depending on context - such as :
 - `⟨t⟩` + `⟨u⟩` combination
@@ -844,17 +844,40 @@ When a word ending in `/t/` is followed by a word starting with `/j/`, the sound
 > Otherwise, the affrication is totally normal and natural for casual and informal speech.
 
 
-#### Affricated D
+#### Affricated D (Assimilation)
 
 Affricated D `/d͡ʒ/` ("j") is not technically an allophone of `/d/`, but it can sometimes be considered as one when **yod-coalescence** occurs.
 
-In this context, `[d͡ʒ]` is a sound variation of `/d/` when it appears before `/j/` (yod) sound, typically in unstressed syllables. For example,
+In this context, `[d͡ʒ]` is a sound variation of `/d/` when it appears before `/j/` (yod) sound (typically happens with , typically in unstressed syllables. For example,
 - "Educate" - `/ˈɛdjəkeɪt/` --> `/ˈɛd͡ʒəkeɪt/`
 - "Soldier" - `/ˈsoʊldjər/` --> `/ˈsoʊld͡ʒər/`
 - "Gradual" - `/ˈɡrædjuəl/` --> `/ˈɡræd͡ʒuəl/`
 
 Same thing happens with a connected speech. For example,
 - "Did you" - `/ˈdɪd ju/` --> `/ˈdɪd͡ʒu/`
+
+<center>. . .</center>
+
+In a bit of weaker case, `/d/` becomes *slightly* affricated with `⟨dr⟩` :
+- e.g. drama, drum, dry
+
+
+
+---
+#todo **Yod-Coalescence** is a form of *reciprocal assimilation* where an alveolar consonant `/t, d, s, z/` merges with a following yod `/j/` to create a new, single affricate or fricative sound (ch, j, sh, zh).
+- It typically occurs in unstressed syllables
+- It also occurs in connected speech (got you, would you)
+
+> [!important] Yod-coalescence generally happens less in General American than in many British accents.
+> American English often prefers to drop the `/j/` sound entirely - this process is called **Yod-Dropping**.
+> 
+> #todo yod-dropping in regards to words like "news" (`/nuz/`).
+
+/tj/ becomes /tʃ/ (e.g., nature, virtue, ~~Tuesday~~, ~~tune~~).
+/dj/ becomes /dʒ/ (e.g., soldier, ~~during~~, graduate, educate).
+/sj/ becomes /ʃ/ (e.g., issue, pressure).
+/zj/ becomes /ʒ/ (e.g., pleasure, leisure).
+
 
 
 #### Semi-Vowels
