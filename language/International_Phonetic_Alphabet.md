@@ -743,6 +743,28 @@ Examples of progressive assimilation for intervocalic `/s/` :
 
 
 
+#### Co-articulated Consonants
+
+#todo A [Co-articulated Consonant](https://en.wikipedia.org/wiki/Co-articulated_consonant) is a consonant produced by simultaneous (or rapidly overlapping) articulations of adjacent sounds, commonly resulting in labialization, velarization, nasalization, and palatalization.
+
+#todo labialization <-- may be redundant with Glide and Diphthongs?
+`/w/` and `/j/`
+
+/w/: **wi**n, q**uee**n
+- Sometimes **/ʍ/** or **/hw/** is used for "wh" sound where "h" sound is not prominent but it is still more "breathier" than "w" sound (e.g. *which* or *whale*).
+/j/ (y): **y**es, **y**ou
+
+
+
+
+#todo velarization
+light l and dark l (already covered this)
+n to ŋ
+
+
+
+
+
 
 #### Affricated T (Assimilation)
 
@@ -821,7 +843,7 @@ In a bit of weaker case, `/d/` becomes *slightly* affricated with `⟨dr⟩` :
 
 ---
 
-
+followed by a `⟨u⟩` with `/j/` sound (often spelled with `⟨u⟩`, `⟨ure⟩`, or `⟨iu⟩`)
 
 
 #### Yod-Dropping
@@ -853,24 +875,6 @@ ie : soldier, audience, convenience
 
 #todo Dentalization
 
-
-#### Co-articulated Consonants
-
-#todo A [Co-articulated Consonant](https://en.wikipedia.org/wiki/Co-articulated_consonant) is a consonant produced by simultaneous (or rapidly overlapping) articulations of adjacent sounds, commonly resulting in labialization, velarization, nasalization, and palatalization.
-
-#todo labialization <-- may be redundant with Glide and Diphthongs?
-`/w/` and `/j/`
-
-/w/: **wi**n, q**uee**n
-- Sometimes **/ʍ/** or **/hw/** is used for "wh" sound where "h" sound is not prominent but it is still more "breathier" than "w" sound (e.g. *which* or *whale*).
-/j/ (y): **y**es, **y**ou
-
-
-
-
-#todo velarization
-light l and dark l (already covered this)
-n to ŋ
 
 
 #### Syllabic Consonants
