@@ -50,11 +50,10 @@ https://www.ipachart.com/
 
 ## Phonetics
 
-#todo #define Phonetics
+#todo #define Phonetics is the branch of linguistics that studies the physical production, acoustic transmission, and perception of speech sounds.
+- It examines how vocal organs create sounds (articulatory), the physical properties of sound waves (acoustic), and how listeners interpret them (auditory).
+- This field uses the IPA to classify speech sounds.
 
-focuses on the physical production, transmission, and perception of speech sounds.
-
-detailed, infinite variations of sound.
 
 ### Syllable
 
@@ -680,8 +679,6 @@ Anytime the letter `⟨y⟩` appears as a consonant at the beginning (onset) of 
 
 #define [Phonology](https://en.wikipedia.org/wiki/Phonology) is the branch of linguistics that studies the systematic organization and patterns of sounds within a specific language to convey meaning.
 - It focuses on how phonemes and sound features function cognitively and structurally, rather than just their physical production (phonetics).
-
-
 
 
 ### Stress
