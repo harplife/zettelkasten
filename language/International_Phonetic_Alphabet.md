@@ -247,7 +247,7 @@ Consonant phonemes in [General American](https://en.wikipedia.org/wiki/General_A
 Note that the English alphabet has fewer consonant letters than the English language has consonant sounds, so *digraphs* like `⟨ch⟩`, `⟨sh⟩`, `⟨th⟩`, and `⟨ng⟩` are used to extend the alphabet, though some letters and digraphs represent more than one consonant.
 - #xample The sound spelled `⟨th⟩` in "this" is a different consonant from the `⟨th⟩` sound in "thin".
 - #define A [Digraph](<https://en.wikipedia.org/wiki/Digraph_(orthography)>) is a pair of characters used to write either a single phoneme, or a sequence of phonemes that does not correspond to the normal values of the two characters combined.
-- `⟨wh⟩` is sort of a digraph too, but we'll ignore this for now. This will be further discussed in the GA Mergers section.
+- `⟨wh⟩` is sort of a digraph too, but we'll ignore this for now.
 
 <center>. . .</center>
 
@@ -716,10 +716,12 @@ The main semi-vowels in GA are `/j/` and `/w/`.
 
 #example The letter `⟨w⟩` followed by a vowel :
 - `⟨wa⟩` --> `/wɔ/` or `/wɑ/` - water, wash, wander, toward, reward
+	- `⟨wa⟩` --> `/wʌ/` - was, watch
 	- `⟨wa⟩` --> `/weɪ/` - way, wake, wave, wale, wade, wait
 - `⟨we⟩` --> `/wɪ/` - week, went, wet, between
 - `⟨wi⟩` --> `/wɪ/` - with, win, wink, twin
-- `⟨wo⟩` --> `/wʊ/` - woman, would, wolf, 
+	- `⟨wi⟩` --> `/wa/` - wife, 
+- `⟨wo⟩` --> `/wʊ/` - woman, would, wolf
 	- `⟨wor⟩` --> `/wɔɹ/` - work, war, word
 - `⟨woo⟩` --> `/wʊ/` - woo, wool, wood
 
@@ -732,6 +734,9 @@ The main semi-vowels in GA are `/j/` and `/w/`.
 - `⟨qu⟩` - queen `/kwin/`, quick `/kwɪk/`, quiet `/'kwaiət/`, quake `/kweɪk/`
 - `⟨gu⟩` - language `/'læŋɡwɪdʒ/`, guava `/'gwɑːvə/`
 
+#example The digraph `⟨wh⟩` pronounced as `/w/` or `/ʍ/` :
+- what, whale, when, wheel, white, whip, who, whole
+- 
 
 > [!important] The letter `⟨w⟩` is silent before `⟨r⟩` (e.g. write, wrong, wrist).
 
