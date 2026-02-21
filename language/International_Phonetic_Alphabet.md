@@ -694,9 +694,12 @@ Coarticulation can refer to two different phenomena :
 Key types of coarticulation :
 - Anticipatory (Regressive) Coarticulation
 - Perseverative (Progressive) Coarticulation
-- Secondary Articulation (labialization or palatalization)
+- Reciprocal Coarticulation (bidirectional, feature from preceding sound and following sound affect each other)
+- Coalescent Coarticulation (bidirectional, sounds from before and after merge to become new)
 - Vowel Centralization (unstressed vowel laxing to uh)
 
+
+Note that coalescent coarticulation is a process, which often results in Secondary Articulation (labialization or palatalization).
 
 
 #### Assimilation
