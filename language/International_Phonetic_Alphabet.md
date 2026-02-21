@@ -725,6 +725,9 @@ The main semi-vowels in GA are `/j/` and `/w/`.
 	- `⟨wor⟩` --> `/wɔɹ/` - work, war, word
 - `⟨woo⟩` --> `/wʊ/` - woo, wool, wood
 
+> [!important] What does `/wʊ/` sound like?
+> The production of `/wʊ/` sound starts by rounding the lips tightly and moving the tongue to the back, then gliding directly into a relaxed `/ʊ/` sound.
+
 #example The letter `⟨w⟩` after a vowel :
 - `⟨ow⟩` --> `/aʊ/` - cow, now, how
 - `⟨aw⟩` --> `/ɔː/` - saw, raw, law
