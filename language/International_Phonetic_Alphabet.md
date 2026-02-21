@@ -690,16 +690,20 @@ The main semi-vowels in GA are `/j/` and `/w/`.
 
 <center>. . .</center>
 
-`/j/` is a [voiced palatal approximant](https://en.wikipedia.org/wiki/Voiced_palatal_approximant), called simply as "yod", which is a sound that occurs most commonly in the spellings `⟨y⟩`, `⟨u⟩`, `⟨ew⟩`, `⟨ue⟩`, `⟨iu⟩`, `⟨io⟩`, and `⟨eo⟩`.
+`/j/` is a [voiced palatal approximant](https://en.wikipedia.org/wiki/Voiced_palatal_approximant), called simply as "yod", which is a sound primarily produced by the letter `⟨y⟩`, but also occurs commonly in the spellings `⟨u⟩`, `⟨ew⟩`, `⟨ue⟩`, `⟨iu⟩`, `⟨io⟩`, and `⟨eo⟩`.
 - It appears frequently at the start of words (e.g. "yes", "use") or after consonants (e.g. computer, music).
 
-#example words with yod sound :
-- `⟨y⟩` - yes, yellow, beyond, lawyer
-- `⟨u⟩` - cute, use, unit, human, music
-- `⟨ew⟩` - view, few
-- `⟨ue⟩` - queue, value
+Anytime the letter `⟨y⟩` appears as a consonant at the beginning (onset) of a syllable, `/j/` sound modifies the following vowel, by arching up the middle of the tongue towards the hard palate.
 
-#example words with yod sound in rapid speech :
+#example words with `⟨y⟩` + vowel combination :
+- you, young, beyond, yet, yes
+
+#example vowel(s) with yod sound :
+- `⟨u⟩` --> `/ju/` - cute, use, unit, human, music
+- `⟨ew⟩` --> `/ju/` - view, few
+- `⟨ue⟩` --> `/ju/` - queue, value
+
+#example vowel(s) with yod sound in rapid speech :
 - `⟨iu⟩` - medium
 - `⟨io⟩` - union, opinion, onion
 - `⟨eo⟩` - theory, video
