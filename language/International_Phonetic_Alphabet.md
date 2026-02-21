@@ -258,7 +258,7 @@ Letter `⟨q⟩` is pronounced using the consonant cluster `/kw/`.
 <center>. . .</center>
 
 > [!warning] Consonants `/w, j/` are called Semi-Vowels, which changes the way vowels are sounded.
-> This will be covered in detail at [[#Semi-Vowels (Semi-Consonant)]].
+> This will be covered in detail at [[#Semi-Vowels (j and w)]]
 
 
 #### Affricates
@@ -678,7 +678,7 @@ Key Patterns for English Stress:
 - **Secondary Stress:** Often found in long words, particularly on the first or second syllable, preceding the primary stress (e.g., _monumental_ /ˌmɑnjəˈmɛntəl/).
 
 
-### Semi-Vowels (Semi-Consonant)
+### Semi-Vowels (j and w)
 
 #define A [Semi-Vowel](https://en.wikipedia.org/wiki/Semivowel) (Semi-Consonant) is a sound that is phonetically similar to a vowel sound but functions as the syllable boundary, rather than as the nucleus of a syllable.
 
@@ -726,7 +726,7 @@ Anytime the letter `⟨y⟩` appears as a consonant at the beginning (onset) of 
 	- `⟨wi⟩` --> `/wa/` - wife, 
 - `⟨wo⟩` --> `/wʊ/` - woman, would, wolf
 	- `⟨wor⟩` --> `/wɔɹ/` - work, war, word
-- `⟨woo⟩` --> `/wʊ/` - woo, wool, wood
+	- `⟨woo⟩` --> `/wʊ/` - woo, wool, wood
 
 > [!important] What does `/wʊ/` sound like?
 > The production of `/wʊ/` sound starts by rounding the lips tightly and moving the tongue to the back, then gliding directly into a relaxed `/ʊ/` sound.
@@ -743,9 +743,7 @@ Anytime the letter `⟨y⟩` appears as a consonant at the beginning (onset) of 
 #example The digraph `⟨wh⟩` pronounced as `/w/` or `/ʍ/` :
 - what, whale, when, wheel, white, whip, who, whole
 
-
 > [!important] The letter `⟨w⟩` is silent before `⟨r⟩` (e.g. write, wrong, wrist).
-
 
 
 ### Coarticulation
