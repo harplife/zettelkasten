@@ -710,23 +710,30 @@ The main semi-vowels in GA are `/j/` and `/w/`.
 
 <center>. . .</center>
 
-`/w/` is a [voiced labial-velar approximant](https://en.wikipedia.org/wiki/Voiced_labial–velar_approximant), which is a sound primarily produced by the letter `⟨w⟩` before or after a vowel.
+`/w/` is a [voiced labial-velar approximant](https://en.wikipedia.org/wiki/Voiced_labial–velar_approximant), which is a sound primarily produced by the letter `⟨w⟩` followed by a vowel.
+- It can also come before a vowel producing a different sound.
 - It is also sometimes represented by `⟨u⟩` ad `⟨wh⟩`
 
 #example The letter `⟨w⟩` followed by a vowel :
-- `⟨wa⟩` - way, water, wash
-- `⟨we⟩` - week, went, wet
-- `⟨wi⟩` - with, win, wink
-- `⟨wo⟩` - word, woman, work
-- `⟨woo⟩` - wood, woo
+- `⟨wa⟩` --> `/wɔ/` or `/wɑ/` - water, wash, wander, toward, reward
+	- `⟨wa⟩` --> `/weɪ/` - way, wake, wave, wale, wade, wait
+- `⟨we⟩` --> `/wɪ/` - week, went, wet, between
+- `⟨wi⟩` --> `/wɪ/` - with, win, wink, twin
+- `⟨wo⟩` --> `/wʊ/` - woman, would, wolf, 
+	- `⟨wor⟩` --> `/wɔɹ/` - work, war, word
+- `⟨woo⟩` --> `/wʊ/` - woo, wool, wood
 
 #example The letter `⟨w⟩` after a vowel :
-- 
+- `⟨ow⟩` --> `/aʊ/` - cow, now, how
+- `⟨aw⟩` --> `/ɔː/` - saw, raw, law
+- `⟨ew⟩` --> `/juː/` - few, new, drew
+
+#example The letter `⟨u⟩` after `⟨q⟩` or `⟨g⟩` :
+- `⟨qu⟩` - queen `/kwin/`, quick `/kwɪk/`, quiet `/'kwaiət/`, quake `/kweɪk/`
+- `⟨gu⟩` - language `/'læŋɡwɪdʒ/`, guava `/'gwɑːvə/`
+
 
 > [!important] The letter `⟨w⟩` is silent before `⟨r⟩` (e.g. write, wrong, wrist).
-
-
-
 
 
 
