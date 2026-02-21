@@ -191,6 +191,8 @@ In the table above, I use the term "against" but it doesn't necessarily mean the
 
 ![[Pasted image 20260131120548.png]]
 
+#todo There's an [svg version of Places of Articulation](https://en.wikipedia.org/wiki/File:Places_of_articulation.svg), but it may need editing to include a legend for the labels.
+
 
 ---
 **The Manner of Articulation** describes *how* speech organs (e.g. tongue, lips, teeth) constrict or modify airflow in the vocal tract to produce consonant sounds.
@@ -676,7 +678,7 @@ Anytime the letter `⟨y⟩` appears as a consonant at the beginning (onset) of 
 
 ## Phonology
 
-#todo #define Phonology is the branch of linguistics that studies the systematic organization and patterns of sounds within a specific language to convey meaning.
+#define [Phonology](https://en.wikipedia.org/wiki/Phonology) is the branch of linguistics that studies the systematic organization and patterns of sounds within a specific language to convey meaning.
 - It focuses on how phonemes and sound features function cognitively and structurally, rather than just their physical production (phonetics).
 
 
