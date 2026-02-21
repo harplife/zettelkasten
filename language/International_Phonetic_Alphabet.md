@@ -822,22 +822,22 @@ consonant labialization is a secondary articulation where a consonant is produce
 
 #todo A [Co-articulated Consonant](https://en.wikipedia.org/wiki/Co-articulated_consonant) is a consonant produced by simultaneous (or rapidly overlapping) articulations of adjacent sounds, commonly resulting in labialization, velarization, nasalization, and palatalization.
 
-#todo labialization <-- may be redundant with Glide and Diphthongs?
-`/w/` and `/j/`
 
-/w/: **wi**n, q**uee**n
-- Sometimes **/ʍ/** or **/hw/** is used for "wh" sound where "h" sound is not prominent but it is still more "breathier" than "w" sound (e.g. *which* or *whale*).
-/j/ (y): **y**es, **y**ou
-
-
-
+velarization is a secondary articulation where the back of the tongue is raised toward the soft palate (the velum) while another sound is being produced.
 
 #todo velarization
 light l and dark l (already covered this)
-n to ŋ
 
 
+velarization (nasal assimilation) --> n (alveolar nasal) to ŋ (velar nasal "engma") when it precedes a velar consonant such as k or g
 
+velarization is a common phonological process in connected speech and within words (assimilation of place), where the nasal consonant adopts the articulation point of the following sound to make speech faster and smoother.
+
+"In case" `[ɪŋ keɪs]`
+"Green grass" `[ɡriŋ ɡræs]`
+"Bank" `[bæŋk]`
+"Uncle" `[ˈʌŋkl̩]`
+"Thank" `[θæŋk]`
 
 
 
