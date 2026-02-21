@@ -678,7 +678,6 @@ Key Patterns for English Stress:
 - **Secondary Stress:** Often found in long words, particularly on the first or second syllable, preceding the primary stress (e.g., _monumental_ /ˌmɑnjəˈmɛntəl/).
 
 
-
 ### Semi-Vowels (Semi-Consonant)
 
 #define A [Semi-Vowel](https://en.wikipedia.org/wiki/Semivowel) (Semi-Consonant) is a sound that is phonetically similar to a vowel sound but functions as the syllable boundary, rather than as the nucleus of a syllable.
