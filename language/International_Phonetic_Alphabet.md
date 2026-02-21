@@ -736,7 +736,7 @@ The main semi-vowels in GA are `/j/` and `/w/`.
 
 #example The digraph `⟨wh⟩` pronounced as `/w/` or `/ʍ/` :
 - what, whale, when, wheel, white, whip, who, whole
-- 
+
 
 > [!important] The letter `⟨w⟩` is silent before `⟨r⟩` (e.g. write, wrong, wrist).
 
