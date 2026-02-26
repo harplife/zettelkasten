@@ -1117,3 +1117,7 @@ $$
 \sin{5x} \cdot \cot {x} = \sin {5x} \cdot \frac{\cos {x}}{\sin {x}}
 $$
 
+$$
+\frac{\sin {5x} \cdot \cos {x}}{\sin {x}}
+$$
+
