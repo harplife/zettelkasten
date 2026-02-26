@@ -1121,3 +1121,7 @@ $$
 \frac{\sin {5x} \cdot \cos {x}}{\sin {x}}
 $$
 
+$$
+\frac{\sin 5x}{\sin x} \cdot \cos x
+$$
+
