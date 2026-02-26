@@ -1112,3 +1112,8 @@ The major characteristic of the Southern drawl is vowel breaking.
 - "Whoop" - `/hup/`
 
 
+
+$$
+\sin{5x} \cdot \cot {x} = \sin {5x} \cdot \frac{\cos {x}}{\sin {x}}
+$$
+
