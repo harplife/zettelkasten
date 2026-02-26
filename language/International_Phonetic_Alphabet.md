@@ -1112,3 +1112,24 @@ The major characteristic of the Southern drawl is vowel breaking.
 - "Whoop" - `/hup/`
 
 
+
+
+$$
+\frac{-8r-r^{1/2}+9}{r+5}
+$$
+
+
+
+$$
+\frac{(r+5)\left( -8-\frac{1}{2\sqrt{ r }} \right) - (1)(-8r-r^{1/2}+9)}{(r+5)^2}
+$$
+
+
+$$
+-8r-40-\frac{r}{2\sqrt{ r }}-\frac{5}{2\sqrt{ r }}+8r+r^{1/2}-9
+$$
+
+
+$$
+\frac{-49 + 8r + r^{1/2} - \frac{r-5}{2\sqrt{ r }}}{(r+t)^2}
+$$
