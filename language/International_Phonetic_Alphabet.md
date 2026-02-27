@@ -210,11 +210,12 @@ Key manners of articulation include :
 
 #### Common GA Consonants
 
-GA typically features **24 consonant** phonemes (`/p, b, t, d, k, g, f, v, θ, ð, s, z, ʃ, ʒ, h, t͡ʃ, d͡ʒ, m, n, ŋ, l, ɹ, w, j/`).
+GA typically features **24 "standard" consonant phonemes**  :`/p, b, t, d, k, g, f, v, θ, ð, s, z, ʃ, ʒ, h, t͡ʃ, d͡ʒ, m, n, ŋ, l, ɹ, w, j/`
 
 > [!important] There isn't a fixed number of phonemes because spoken language changes over time and place (e.g. regional dialects).
 
-> [!important] English language has more consonant phonemes than consonant letters (of which there are 21).
+> [!important] English language has *more* consonant phonemes than consonant letters (of which there are 21).
+> We'll first discuss the 24 standard consonant phonemes, and then also discuss *variations* of these phonemes.
 
 Consonant phonemes in [General American](https://en.wikipedia.org/wiki/General_American_English)
 ![[Pasted image 20260125224252.png]]
@@ -226,7 +227,7 @@ Consonant phonemes in [General American](https://en.wikipedia.org/wiki/General_A
 
 <center>. . .</center>
 
-#example common GA consonants :
+#example common (standard) GA consonants :
 
 | Phoneme              | Voiced/Voiceless | Example                                                                     |
 | -------------------- | ---------------- | --------------------------------------------------------------------------- |
@@ -243,7 +244,7 @@ Consonant phonemes in [General American](https://en.wikipedia.org/wiki/General_A
 | `/ʒ/` (zh)           | voiced           | plea**s**ure, gara**g**e, vi**si**on                                        |
 | `/ʃ/` (sh)           | voiceless        | **sh**ip, di**sh**, pre**ss**ure                                            |
 | `/d͡ʒ/` (j)          | voiced           | **j**ob, **g**iant, ma**g**ic, a**g**e, ba**dg**e, sol**d**ier, **j**ealous |
-| `/t͡ʃ/` (ch)         | voiceless        | **ch**oice, **ch**ew, wat**ch**                                             |
+| `/t͡ʃ/` (ch)         | voiceless        | **ch**oice, **ch**ew, wa**tch**                                             |
 | `/ð/` (soft th)      | voiced           | **th**is, **th**en, mo**th**er                                              |
 | `/θ/` (hissy th)     | voiceless        | **th**in, **th**ink, ba**th**, bir**th**day                                 |
 | `/h/`                | voiceless        | **h**at, **wh**o                                                            |
@@ -256,13 +257,13 @@ Consonant phonemes in [General American](https://en.wikipedia.org/wiki/General_A
 > [!important] The difference between `/z/` and `/ʒ/`
 > `/z/` is an alveolar sound made with the tongue near the front ridge, while `/ʒ/` is a postalveolar fricative made with the tongue further back and often with rounded lips. `/z/` sounds sharper, whereas `/ʒ/` has a softer "sh" quality.
 
-> [!warning] Consonants `/w, j/` are called Semi-Vowels, which changes the way vowels are sounded.
-> This will be covered in detail at [[#Semi-Vowels (j and w)]]
+> [!warning] Note that `/w, j/` are omitted from the list. They are considered consonants too, but they are also called "semi-vowels" due to their unique behavior.
+> They will be covered in detail at [[#Semi-Vowels (j and w)]]
 
 
 #### Phoneme-to-Grapheme Correspondence
 
-In English language, a grapheme (a letter or a sequence of letters) may correspond to a single phoneme, or a cluster of phonemes, OR correspond to different phonemes depending on context.
+In English language, a *grapheme* (a letter or a sequence of letters) may correspond to a single phoneme, or a cluster of phonemes, OR correspond to different phonemes depending on context.
 - And vice versa!
 
 #example letters that correspond to one standard phoneme :
@@ -291,7 +292,7 @@ In English language, a grapheme (a letter or a sequence of letters) may correspo
 - `⟨t⟩` to `/t/` ("top") or `[ɾ]` ("better") or `[ʔ]` ("button")
 
 > [!important] `⟨t⟩` is a bit of a special case because it is corresponding to standard phoneme `/t/` but also to non-standard phonemes `[ɾ]` and `[ʔ]`.
-> Technically, these are variations of `/t/` sounds referred to as **allophones**. More about this later.
+> Technically, these are variations of `/t/` sounds referred to as *allophones*. More about this later.
 
 > [!important] In the **Phonology** section, we'll learn more about how context creates variance in the speech sound.
 
