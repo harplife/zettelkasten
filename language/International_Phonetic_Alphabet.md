@@ -258,7 +258,7 @@ Consonant phonemes in [General American](https://en.wikipedia.org/wiki/General_A
 In English language, a grapheme (a letter or a sequence of letters) may correspond to a single phoneme, or a cluster of phonemes, OR correspond to different phonemes depending on context.
 - And vice versa!
 
-Example of letters that correspond to one standard phoneme :
+#example letters that correspond to one standard phoneme :
 - `⟨b⟩` to `/b/` (as in "boy")
 - `⟨d⟩` to `/d/` (as in "dog")
 - `⟨f⟩` to `/f/` (as in "fish")
@@ -271,19 +271,48 @@ Example of letters that correspond to one standard phoneme :
 - `⟨w⟩` to `/w/` (as in "water")
 - `⟨z⟩` to `/z/` (as in "zipper")
 
-Example of letters that correspond to a cluster of phonemes :
+#example letters that correspond to a cluster of phonemes :
 - `⟨x⟩` to `/ks/` ("box") or `/gz/` ("exist")
 - `⟨q⟩` to `/kw/` (as in "quiet")
 
-Example of letters that correspond to different phonemes depending on context :
+#example letters that correspond to different phonemes depending on context :
 - `⟨c⟩` to `/k/` ("cat") or `/s/` ("city")
 - `⟨g⟩` to `/g/` ("go"), `/d͡ʒ/` ("giant"), or `/ʒ/` ("garage")
 - `⟨l⟩` to `/l/` ("life") or `/ɫ/` ("ball")
 - `⟨n⟩` to `/n/` ("no") or `/ŋ/` ("sing" or "punk")
 - `⟨s⟩` to `/s/` ("same"), `/z/` ("easy"), `/ʒ/` ("vision"), or `/ʃ/` ("pressure")
-- `⟨t⟩` to `/t/` ("top") or `/ɾ/` ("better") or `[ʔ]` ("button")
+- `⟨t⟩` to `/t/` ("top") or `[ɾ]` ("better") or `[ʔ]` ("button")
+
+> [!important] `⟨t⟩` is a bit of a special case because 
 
 > [!important] In the **Phonology** section, we'll learn more about how context creates variance in the speech sound.
+
+<center>. . .</center>
+
+#todo move this to assimilation section
+
+Typically, `⟨s⟩` produces `/z/` sound when it is either between two vowels, or when it is a part of a coda (final consonant of a syllable).
+
+#example words with `⟨s⟩` between two vowels :
+- Easy `/ˈiːzi/`
+- Phase `/feɪz/`
+- Present `/ˈprɛznt/`
+- Because `/bɪˈkɔːz/`
+- Music `/ˈmjuːzɪk/`
+
+#example `⟨s⟩` as a coda :
+- Is `/ɪz/`
+- Was `/wʌz/`
+- Dogs `/dɔːgz/`
+- Ends `/ɛndz/`
+- Always `/ˈɔːlweɪz/`
+- Please `/pliːz/`
+- Goes `/goʊz/`
+- Eyes `/aɪz/`
+
+If the preceding consonant is voiceless (`/p,k,k,f,ʃ,t͡ʃ,θ/`), the `⟨s⟩` produces `/s/`.
+- cats `/kæts/`
+- ducks `/dʌks/`
 
 
 #### Allophones
