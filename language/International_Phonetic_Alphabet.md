@@ -123,7 +123,7 @@ Note that these words have `/t/` in common, but it is pronounced in three differ
 > While IPA is used to describe speech sound systematically and in detail, it is not a perfect measurement of speech sound. Meaning, we aren't shooting for perfect representation of speech sound, and instead, we are trying to describe the sound as we hear and perceive them as best as possible.
 
 Additionally, the angular brackets `⟨ ⟩` are used to indicate *graphemes* or spelling of a language in written text, rather than their phonetic sounds.
-- #define A **Grapheme** is the smallest functional unit of a writing system, representing a single phoneme.
+- #define A [Grapheme](https://en.wikipedia.org/wiki/Grapheme) is the smallest functional unit of a writing system, representing a single phoneme.
 - #example The spelling of the word "cat" is indicated as `⟨cat⟩`. Each individual letters are `⟨c⟩`, `⟨a⟩`, and `⟨t⟩`.
 
 ### General American English
@@ -232,12 +232,12 @@ Consonant phonemes in [General American](https://en.wikipedia.org/wiki/General_A
 | `/t/`                | voiceless        | **t**en, be**t**                                                            |
 | `/g/`                | voiced           | **g**et, do**g**                                                            |
 | `/k/`                | voiceless        | **c**at, **k**ing, bac**k**                                                 |
-| `/v/`                | voiced           | **v**an, ha**ve**                                                           |
-| `/f/`                | voiceless        | **f**an, pu**ff**                                                           |
+| `/v/`                | voiced           | **v**an, ha**v**e                                                           |
+| `/f/`                | voiceless        | **f**an, pu**ff**, **ph**oto                                                |
 | `/z/`                | voiced           | **z**oo, ro**se**                                                           |
 | `/s/`                | voiceless        | **s**it, pa**ss**                                                           |
 | `/ʒ/` (zh)           | voiced           | plea**s**ure, gara**g**e, vi**si**on                                        |
-| `/ʃ/` (sh)           | voiceless        | **sh**ip, di**sh**                                                          |
+| `/ʃ/` (sh)           | voiceless        | **sh**ip, di**sh**, pre**ss**ure                                            |
 | `/d͡ʒ/` (j)          | voiced           | **j**ob, **g**iant, ma**g**ic, a**g**e, ba**dg**e, sol**d**ier, **j**ealous |
 | `/t͡ʃ/` (ch)         | voiceless        | **ch**oice, **ch**ew, wat**ch**                                             |
 | `/ð/` (soft th)      | voiced           | **th**is, **th**en, mo**th**er                                              |
@@ -249,23 +249,81 @@ Consonant phonemes in [General American](https://en.wikipedia.org/wiki/General_A
 | `/l/`                | voiced           | **l**ight, fi**ll**                                                         |
 | `/ɹ/` (r but no tap) | voiced           | **r**un, ca**r**                                                            |
 
-<center>. . .</center>
-
-Note that the English alphabet has fewer consonant letters than the English language has consonant sounds, so *digraphs* like `⟨ch⟩`, `⟨sh⟩`, `⟨th⟩`, and `⟨ng⟩` are used to extend the alphabet, though some letters and digraphs represent more than one consonant.
-- #xample The sound spelled `⟨th⟩` in "this" is a different consonant from the `⟨th⟩` sound in "thin".
-- #define A [Digraph](<https://en.wikipedia.org/wiki/Digraph_(orthography)>) is a pair of characters used to write either a single phoneme, or a sequence of phonemes that does not correspond to the normal values of the two characters combined.
-- `⟨wh⟩` is sort of a digraph too, but we'll ignore this for now.
-
-<center>. . .</center>
-
-Letter `⟨x⟩` is pronounced using the consonant cluster `/ks/` or `/gz/`.
-
-Letter `⟨q⟩` is pronounced using the consonant cluster `/kw/`.
-
-<center>. . .</center>
-
 > [!warning] Consonants `/w, j/` are called Semi-Vowels, which changes the way vowels are sounded.
 > This will be covered in detail at [[#Semi-Vowels (j and w)]]
+
+
+#### Phoneme-to-Grapheme Correspondence
+
+In English language, a grapheme (a letter or a sequence of letters) may correspond to a single phoneme, or a cluster of phonemes, OR correspond to different phonemes depending on context.
+- And vice versa!
+
+Example of letters that correspond to one standard phoneme :
+- `⟨b⟩` to `/b/` (as in "boy")
+- `⟨d⟩` to `/d/` (as in "dog")
+- `⟨f⟩` to `/f/` (as in "fish")
+- `⟨h⟩` to `/h/` (as in "hello")
+- `⟨j⟩` to `/d͡ʒ/` (as in "joy")
+- `⟨m⟩` to `/m/` (as in "money")
+- `⟨p⟩` to `/p/` (as in "pop")
+- `⟨r⟩` to `/ɹ/` (as in "rain")
+- `⟨v⟩` to `/v/` (as in "very")
+- `⟨w⟩` to `/w/` (as in "water")
+- `⟨z⟩` to `/z/` (as in "zipper")
+
+Example of letters that correspond to a cluster of phonemes :
+- `⟨x⟩` to `/ks/` ("box") or `/gz/` ("exist")
+- `⟨q⟩` to `/kw/` (as in "quiet")
+
+Example of letters that correspond to different phonemes depending on context :
+- `⟨c⟩` to `/k/` ("cat") or `/s/` ("city")
+- `⟨g⟩` to `/g/` ("go") or `/d͡ʒ/` ("giant")
+- `⟨l⟩` to `/l/` ("life") or `/ɫ/` ("ball")
+- `⟨n⟩` to `/n/` ("no") or `/ŋ/` ("sing" or "punk")
+- `⟨s⟩` to `/s/` ("same"), `/z/` ("easy"), or `/ʃ/` ("pressure")
+- `⟨t⟩` to `/t/` ("top") or `/ɾ/` ("better") or `[ʔ]` ("button")
+
+> [!important] In the **Phonology** section, we'll learn more about how context creates variance in the speech sound.
+
+
+#### Allophones
+
+We've covered before that an **allophone** is any set of indistinguishable speech sounds used to pronounce a single phoneme.
+
+We're not going to cover every allophones of each phonemes in GA, but we'll cover the allophones of `/t/`.
+
+In GA, `/t/` is rather particular and has more allophones than other phonemes.
+- Aspirated "True" T `[tʰ]` : "top", "tap", "time", "talk", "train"
+- Unaspirated T `[t]` (generally for `/st/`) : "stop", "star", "stick"
+- Flapped T `[ɾ]` : "uh-oh", "coating", "betting", "atom", "bottle"
+- Glottal/Nasal Release T `[ʔ]` : "button", "mountain", "curtain", "certain"
+	- Emphatic/Coda T : "won't", "apartment", "lightbulb", "right now"
+- Unreleased T `[t̚]` (word final, unaspirated) : "amount", "ancient", "cat", "goat", "vent", "patient"
+
+> [!warning] Although google search is telling me that there is "regular" `/t/`, I'm not getting a sound explanation or example of such.
+> It seems to me that `/t/` sounds differently based on where it is placed :
+> - Initial (aspirated or unaspirated)
+> - Middle (flap or stop)
+> - Final (unreleased)
+
+> [!important] The allophones of `/d/` are similar to the allophones of `/t/` in a few ways.
+> - Alveolar Flap `[ɾ]` : "buddy", "leader"
+> - Nasal Release : "hidden"
+
+> [!important] In GA, phonemes like `/p, k/` have aspirated, unaspirated, and unreleased allophones.
+
+
+#### Digraphs
+
+#define A [Digraph](<https://en.wikipedia.org/wiki/Digraph_(orthography)>) is a pair of characters used to write either a single phoneme, or a sequence of phonemes that does not correspond to the normal values of the two characters combined.
+
+The English alphabet has fewer consonant *letters* than the English language has consonant *sounds*, so *digraphs* are used to extend the alphabet. The consonant digraphs include :
+- `⟨ch⟩` for `/t͡ʃ/`
+- `⟨sh⟩` for `/ʃ/`
+- `⟨th⟩` for `/ð/` or `/θ/`
+- `⟨ng⟩` for `/ŋ/`
+- `⟨wh⟩` for `/h/` or `/w/`
+- `⟨ph⟩` for `/f/`
 
 
 #### Affricates
@@ -284,8 +342,8 @@ While tie bar (arc) symbol above or below the two consonants is not necessary, b
 `/d͡ʒ/` is commonly spelled with `⟨j⟩`, `⟨g⟩`, `⟨ge⟩`, or `⟨dg⟩`. For example,
 - `⟨j⟩` : job, joke, jet, major, injury
 - `⟨g⟩` : giant, gentle, register, agility
-- `⟨dg⟩` or `⟨dge⟩` : budget, judge, bridge
 - `⟨ge⟩` : page, huge, language
+- `⟨dg⟩` or `⟨dge⟩` : budget, judge, bridge
 
 <center>. . .</center>
 
@@ -349,33 +407,6 @@ Both  `/l, ɫ/` are *allophones* of `⟨l⟩`, so distinction between them does 
 - the usage between the two comes down to *accent*
 - `/l/` can replace `/ɫ/` for *enunciation* (e.g. "fill", "ball")
 - `/ɫ/` is written as `/l/` for convenience
-
-
-#### Allophones
-
-We've covered before that an **allophone** is any set of indistinguishable speech sounds used to pronounce a single phoneme.
-
-We're not going to cover every allophones of each phonemes in GA, but we'll cover the allophones of `/t/`.
-
-In GA, `/t/` is rather particular and has more allophones than other phonemes.
-- Aspirated "True" T `[tʰ]` : "top", "tap", "time", "talk", "train"
-- Unaspirated T `[t]` (generally for `/st/`) : "stop", "star", "stick"
-- Flapped T `[ɾ]` : "uh-oh", "coating", "betting", "atom", "bottle"
-- Glottal/Nasal Release T `[ʔ]` : "button", "mountain", "curtain", "certain"
-	- Emphatic/Coda T : "won't", "apartment", "lightbulb", "right now"
-- Unreleased T `[t̚]` (word final, unaspirated) : "amount", "ancient", "cat", "goat", "vent", "patient"
-
-> [!warning] Although google search is telling me that there is "regular" `/t/`, I'm not getting a sound explanation or example of such.
-> It seems to me that `/t/` sounds differently based on where it is placed :
-> - Initial (aspirated or unaspirated)
-> - Middle (flap or stop)
-> - Final (unreleased)
-
-> [!important] The allophones of `/d/` are similar to the allophones of `/t/` in a few ways.
-> - Alveolar Flap `[ɾ]` : "buddy", "leader"
-> - Nasal Release : "hidden"
-
-> [!important] In GA, phonemes like `/p, k/` have aspirated, unaspirated, and unreleased allophones.
 
 
 ### Vowels
