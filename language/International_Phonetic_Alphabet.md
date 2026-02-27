@@ -277,10 +277,10 @@ Example of letters that correspond to a cluster of phonemes :
 
 Example of letters that correspond to different phonemes depending on context :
 - `⟨c⟩` to `/k/` ("cat") or `/s/` ("city")
-- `⟨g⟩` to `/g/` ("go") or `/d͡ʒ/` ("giant")
+- `⟨g⟩` to `/g/` ("go"), `/d͡ʒ/` ("giant"), or `/ʒ/` ("garage")
 - `⟨l⟩` to `/l/` ("life") or `/ɫ/` ("ball")
 - `⟨n⟩` to `/n/` ("no") or `/ŋ/` ("sing" or "punk")
-- `⟨s⟩` to `/s/` ("same"), `/z/` ("easy"), or `/ʃ/` ("pressure")
+- `⟨s⟩` to `/s/` ("same"), `/z/` ("easy"), `/ʒ/` ("vision"), or `/ʃ/` ("pressure")
 - `⟨t⟩` to `/t/` ("top") or `/ɾ/` ("better") or `[ʔ]` ("button")
 
 > [!important] In the **Phonology** section, we'll learn more about how context creates variance in the speech sound.
