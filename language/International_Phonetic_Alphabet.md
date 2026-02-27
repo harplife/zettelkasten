@@ -294,16 +294,29 @@ In English language, a *grapheme* (a letter or a sequence of letters) may corres
 > [!important] `⟨t⟩` is a bit of a special case because it is corresponding to standard phoneme `/t/` but also to non-standard phonemes `[ɾ]` and `[ʔ]`.
 > Technically, these are variations of `/t/` sounds referred to as *allophones*. More about this later.
 
-> [!important] In the **Phonology** section, we'll learn more about how context creates variance in the speech sound.
+> [!important] In the *Phonology* section, we'll learn more about how context creates variance in the speech sound.
 
 
 #### Allophones
 
-We've covered before that an **allophone** is any set of indistinguishable speech sounds used to pronounce a single phoneme.
+While the *phoneme* is the "ideal" version of a sound, the *allophone* is the actual physical sound produced in specific phonetic environments.
 
-We're not going to cover every allophones of each phonemes in GA, but we'll cover the allophones of `/t/`.
+Some GA consonant standard phonemes (`/f,θ,ð,s,ʃ,ʒ,t͡ʃ,d͡ʒ,ŋ/`) does not have any allophones, but the rest of them do. We won't cover every allophones here because most of them are *indistinguishable*, but in general, the allophones can be :
+- Aspirated
+- Unaspirated
+- Unreleased
+- Devoiced (partial or fully)
+- Palatalized
+- Syllabic
+- Dentalized
 
-In GA, `/t/` is rather particular and has more allophones than other phonemes.
+> [!important] The processes that create allophones will be explored in the *Phonology* section.
+
+<center>. . .</center>
+
+We'll cover specifically the allophones of `/t/`, because in American English, it is rather particular and has more allophones than other phonemes.
+
+The allophones of `/t/` are :
 - Aspirated "True" T `[tʰ]` : "top", "tap", "time", "talk", "train"
 - Unaspirated T `[t]` (generally for `/st/`) : "stop", "star", "stick"
 - Flapped T `[ɾ]` : "coating", "betting", "atom", "bottle"
