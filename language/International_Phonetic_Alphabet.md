@@ -210,7 +210,11 @@ Key manners of articulation include :
 
 #### Common GA Consonants
 
-GA typically features **24 consonants** (`/p, b, t, d, k, g, f, v, θ, ð, s, z, ʃ, ʒ, h, t͡ʃ, d͡ʒ, m, n, ŋ, l, ɹ, w, j/`).
+GA typically features **24 consonant** phonemes (`/p, b, t, d, k, g, f, v, θ, ð, s, z, ʃ, ʒ, h, t͡ʃ, d͡ʒ, m, n, ŋ, l, ɹ, w, j/`).
+
+> [!important] There isn't a fixed number of phonemes because spoken language changes over time and place (e.g. regional dialects).
+
+> [!important] English language has more consonant phonemes than consonant letters (of which there are 21).
 
 Consonant phonemes in [General American](https://en.wikipedia.org/wiki/General_American_English)
 ![[Pasted image 20260125224252.png]]
@@ -249,6 +253,9 @@ Consonant phonemes in [General American](https://en.wikipedia.org/wiki/General_A
 | `/l/`                | voiced           | **l**ight, fi**ll**                                                         |
 | `/ɹ/` (r but no tap) | voiced           | **r**un, ca**r**                                                            |
 
+> [!important] The difference between `/z/` and `/ʒ/`
+> `/z/` is an alveolar sound made with the tongue near the front ridge, while `/ʒ/` is a postalveolar fricative made with the tongue further back and often with rounded lips. `/z/` sounds sharper, whereas `/ʒ/` has a softer "sh" quality.
+
 > [!warning] Consonants `/w, j/` are called Semi-Vowels, which changes the way vowels are sounded.
 > This will be covered in detail at [[#Semi-Vowels (j and w)]]
 
@@ -283,36 +290,10 @@ In English language, a grapheme (a letter or a sequence of letters) may correspo
 - `⟨s⟩` to `/s/` ("same"), `/z/` ("easy"), `/ʒ/` ("vision"), or `/ʃ/` ("pressure")
 - `⟨t⟩` to `/t/` ("top") or `[ɾ]` ("better") or `[ʔ]` ("button")
 
-> [!important] `⟨t⟩` is a bit of a special case because 
+> [!important] `⟨t⟩` is a bit of a special case because it is corresponding to standard phoneme `/t/` but also to non-standard phonemes `[ɾ]` and `[ʔ]`.
+> Technically, these are variations of `/t/` sounds referred to as **allophones**. More about this later.
 
 > [!important] In the **Phonology** section, we'll learn more about how context creates variance in the speech sound.
-
-<center>. . .</center>
-
-#todo move this to assimilation section
-
-Typically, `⟨s⟩` produces `/z/` sound when it is either between two vowels, or when it is a part of a coda (final consonant of a syllable).
-
-#example words with `⟨s⟩` between two vowels :
-- Easy `/ˈiːzi/`
-- Phase `/feɪz/`
-- Present `/ˈprɛznt/`
-- Because `/bɪˈkɔːz/`
-- Music `/ˈmjuːzɪk/`
-
-#example `⟨s⟩` as a coda :
-- Is `/ɪz/`
-- Was `/wʌz/`
-- Dogs `/dɔːgz/`
-- Ends `/ɛndz/`
-- Always `/ˈɔːlweɪz/`
-- Please `/pliːz/`
-- Goes `/goʊz/`
-- Eyes `/aɪz/`
-
-If the preceding consonant is voiceless (`/p,k,k,f,ʃ,t͡ʃ,θ/`), the `⟨s⟩` produces `/s/`.
-- cats `/kæts/`
-- ducks `/dʌks/`
 
 
 #### Allophones
@@ -324,8 +305,8 @@ We're not going to cover every allophones of each phonemes in GA, but we'll cove
 In GA, `/t/` is rather particular and has more allophones than other phonemes.
 - Aspirated "True" T `[tʰ]` : "top", "tap", "time", "talk", "train"
 - Unaspirated T `[t]` (generally for `/st/`) : "stop", "star", "stick"
-- Flapped T `[ɾ]` : "uh-oh", "coating", "betting", "atom", "bottle"
-- Glottal/Nasal Release T `[ʔ]` : "button", "mountain", "curtain", "certain"
+- Flapped T `[ɾ]` : "coating", "betting", "atom", "bottle"
+- Glottal/Nasal Release T `[ʔ]` : "button", "mountain", "curtain", "certain", "uh-oh",
 	- Emphatic/Coda T : "won't", "apartment", "lightbulb", "right now"
 - Unreleased T `[t̚]` (word final, unaspirated) : "amount", "ancient", "cat", "goat", "vent", "patient"
 
@@ -1031,8 +1012,30 @@ Diphthongs `/eə/`, `/ɪə/`, and `/ʊə/` are often followed by `/ɹ/`.
 
 
 
+#### s to z
 
+Typically, `⟨s⟩` produces `/z/` sound when it is either between two vowels, or when it is a part of a coda (final consonant of a syllable).
 
+#example words with `⟨s⟩` between two vowels :
+- Easy `/ˈiːzi/`
+- Phase `/feɪz/`
+- Present `/ˈprɛznt/`
+- Because `/bɪˈkɔːz/`
+- Music `/ˈmjuːzɪk/`
+
+#example `⟨s⟩` as a coda :
+- Is `/ɪz/`
+- Was `/wʌz/`
+- Dogs `/dɔːgz/`
+- Ends `/ɛndz/`
+- Always `/ˈɔːlweɪz/`
+- Please `/pliːz/`
+- Goes `/goʊz/`
+- Eyes `/aɪz/`
+
+If the preceding consonant is voiceless (`/p,k,k,f,ʃ,t͡ʃ,θ/`), the `⟨s⟩` produces `/s/`.
+- cats `/kæts/`
+- ducks `/dʌks/`
 
 
 
