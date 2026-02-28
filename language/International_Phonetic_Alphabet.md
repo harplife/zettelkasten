@@ -455,7 +455,9 @@ In American English, `⟨l⟩` is typically transcribed as `/l/`, which is the s
 - Vowels are usually voiced.
 - Vowels are closely involved in prosodic variation such as [tone](<https://en.wikipedia.org/wiki/Tone_(linguistics)>), [intonation](<https://en.wikipedia.org/wiki/Intonation_(linguistics)>) and [stress](<https://en.wikipedia.org/wiki/Stress_(linguistics)>). Note that American English tend to be monotone but stress is still very impactful.
 
-<center>. . .</center>
+In linguistics, vowels are studied using the *Cardinal Vowel System* and acoustic analysis of *Formants*.
+
+#### Cardinal Vowel System
 
 The [Cardinal Vowel System](https://en.wikipedia.org/wiki/Cardinal_vowels) is a foundational auditory-based **reference framework** which describe vowels in terms of the features of tongue **height** (vertical dimension), tongue **backness** (horizontal dimension), and **roundedness** (lip articulation).
 - This is meant to be used as a reference, so that vowels (not described in the system) can be described in reference to the cardinal vowels.
@@ -481,7 +483,7 @@ These three vowels serve as the "**Corner Vowels**", by which the other vowels a
 - **Open-Mid**
 - **Open** (low tongue position)
 
-These degrees of aperture *plus* the front-back distinction define eight reference points on a mixture of articulatory and auditory criteria; these eight vowels are known as the eight **Primary Cardinal Vowels**.
+These degrees of aperture *plus* the front-back distinction define *eight reference points* on a mixture of articulatory and auditory criteria; these eight vowels are known as the eight **Primary Cardinal Vowels**.
 - Vowels like these are "claimed to be" common in the world's languages.
 - We can see numbers on the diagram. The primary ones are CV 1 through 8.
 
@@ -490,7 +492,8 @@ Variations of the primary cardinal vowels and the ones in between are called the
 ![[Pasted image 20260213133525.png]]
 > Wikipedia version of vowel quadrilateral diagram, which includes most of the vowels. ([Source](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet_chart))
 
-<center>. . .</center>
+
+#### Acoustic Analysis of Formants
 
 Modern, scientific description of vowels are more commonly based on acoustic analysis of *formant* frequencies ($F_{1}$ and $F_{2}$).
 
