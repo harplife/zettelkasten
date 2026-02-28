@@ -808,17 +808,18 @@ Key Patterns for English Stress :
 
 Many two-syllable words change meaning based on stress placement: Nouns typically stress the first syllable (), while verbs stress the second (). Another examples include "convert" and "import". See [Initial-Stress-Derived Noun](https://en.wikipedia.org/wiki/Initial-stress-derived_noun)
 
-| Word     | Noun IPA       | Verb IPA      |
-| -------- | -------------- | ------------- |
-| Record   | `/ˈrɛkərd/`    | `/rɪˈkɔrd/`   |
-| Convert  | `/ˈkɑːnvɜːrt/` | `/kənˈvɜːrt/` |
-| Conflict | `/ˈkɑːnflɪkt/` | `/kənˈflɪkt/` |
-| Desert   | `/ˈdɛzɚt/`     | `/dɪˈzɜːrt/`  |
-| Object   | `/ˈɑːbdɛkt/`   | `/əbˈdʒɛkt/`  |
-| Produce  | `/ˈproʊduːs/`  | `/prəˈduːs/`  |
-| Progress | `/ˈprɔːɡrɛs/`  | `/prəˈɡrɛs/`  |
-| Project  | `/ˈprɔːdʒɛkt/` | `/prəˈdʒɛkt/` |
-|          |                |               |
+| Word      | Noun IPA       | Verb IPA      | Note             |
+| --------- | -------------- | ------------- | ---------------- |
+| Affect    | `/ˈæfɛkt/`     | `/əˈfɛkt/`    |                  |
+| Attribute | `/ˈætrəˌbjut/` | `/əˈtrɪbjut/` |                  |
+| Convert   | `/ˈkɑːnvɜːrt/` | `/kənˈvɜːrt/` | `/ɑː/` or `/ɔː/` |
+| Conflict  | `/ˈkɑːnflɪkt/` | `/kənˈflɪkt/` | `/ɑː/` or `/ɔː/` |
+| Desert    | `/ˈdɛzɚt/`     | `/dɪˈzɜːrt/`  |                  |
+| Object    | `/ˈɑːbdɛkt/`   | `/əbˈdʒɛkt/`  |                  |
+| Produce   | `/ˈproʊduːs/`  | `/prəˈduːs/`  |                  |
+| Progress  | `/ˈprɔːɡrɛs/`  | `/prəˈɡrɛs/`  |                  |
+| Project   | `/ˈprɔːdʒɛkt/` | `/prəˈdʒɛkt/` |                  |
+| Record    | `/ˈrɛkərd/`    | `/rɪˈkɔrd/`   |                  |
 
 
 
