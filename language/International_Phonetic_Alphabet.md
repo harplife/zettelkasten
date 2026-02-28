@@ -800,9 +800,6 @@ Key Patterns for English Stress :
 - **Length & Position:** Primary stress can fall on the 1st, 2nd, or 3rd syllable, making it essential to check the dictionary for unfamiliar words, as spelling does not always indicate stress placement.
 - **Secondary Stress:** Often found in long words, particularly on the first or second syllable, preceding the primary stress (e.g., _monumental_ /ˌmɑnjəˈmɛntəl/).
 
-
-
-
 ---
 Many two-syllable words change meaning based on stress placement - nouns typically stress the first syllable, while verbs stress the second. This pattern occurs due to *initial-stress-derived noun*.
 
@@ -820,6 +817,13 @@ Many two-syllable words change meaning based on stress placement - nouns typical
 | Progress  | `/ˈprɔːɡrɛs/`  | `/prəˈɡrɛs/`  |                  |
 | Project   | `/ˈprɔːdʒɛkt/` | `/prəˈdʒɛkt/` |                  |
 | Record    | `/ˈrɛkərd/`    | `/rɪˈkɔrd/`   |                  |
+
+---
+#define A **Compound Noun** is a single noun formed by combining two or more words, often changing the original words' meanings to define a specific person, place, or thing. They can be written as one solid word, or multiple separate words (spaced or hyphenated).
+- #example Compound Nouns : bedroom, ice cream, mother-in-law, newspaper
+
+Generally, primary stress is placed on the first element of the compound noun.
+
 
 
 
