@@ -568,9 +568,8 @@ GA typically features **14-16 vowels**, (`/i, ɪ, eɪ, ɛ, æ, ɑ, ɔ, oʊ, ʊ, 
 > - Vowel sounds follow trends; some vowels *merge*.
 > - Vowel sounds may vary by syntax; they are either *stressed* or *reduced*.
 
-#define A [Monophthong](https://en.wikipedia.org/wiki/Monophthong) (Pure Vowel) is a vowel sound characterized by a relatively stable articulatory configuration throughout its duration.
+#define A [Monophthong](https://en.wikipedia.org/wiki/Monophthong) (Pure Vowel) is a single phoneme characterized by a relatively stable articulatory configuration throughout its duration.
 - During the production of a monophthong, the tongue does not undergo significant vertical (height) or horizontal (front-back) movement toward a different position of articulation.
-- Monophthongs are represented by just one phoneme.
 
 | Phoneme | Vowel Quality | Sound                    | Examples                                                                                   | Merge                   |
 | ------- | ------------- | ------------------------ | ------------------------------------------------------------------------------------------ | ----------------------- |
