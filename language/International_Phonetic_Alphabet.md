@@ -831,9 +831,9 @@ Suffixes tend to cause the primary stress to move to the syllable immediately pr
 - Verb endings : "-ate", "-en", "-ify", "-ize"
 
 #example Stress shift caused by suffix :
-- complicate /ˈkɑmpləˌkeɪt/ --> complication /ˌkɑmpləˈkeɪʃən/
-- atom /ˈætəm/ --> atomic /əˈtɑmɪk/
-- able /ˈeɪbəl/ --> ability /əˈbɪləti/
+- complicate `/ˈkɑmpləˌkeɪt/` --> complication `/ˌkɑmpləˈkeɪʃən/`
+- atom `/ˈætəm/` --> atomic `/əˈtɑmɪk/`
+- able `/ˈeɪbəl/` --> ability `/əˈbɪləti/`
 
 
 ### Coarticulation
