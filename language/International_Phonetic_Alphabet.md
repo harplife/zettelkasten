@@ -286,7 +286,7 @@ In English language, a *grapheme* (a letter or a sequence of letters) may corres
 - `⟨q⟩` to `/kw/` (as in "quiet")
 
 #example letters that correspond to different phonemes depending on context :
-- `⟨c⟩` to `/k/` ("cat") or `/s/` ("city")
+- `⟨c⟩` to `/k/` ("cat"), `/s/` ("city"), or `/ʃ/` ("official")
 - `⟨g⟩` to `/g/` ("go"), `/d͡ʒ/` ("giant"), or `/ʒ/` ("garage")
 - `⟨l⟩` to `/l/` ("life") or `[ɫ]` ("ball")
 - `⟨n⟩` to `/n/` ("no") or `/ŋ/` ("sing" or "punk")
