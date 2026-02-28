@@ -794,8 +794,7 @@ While English is not strictly syllable-timed, stress patterns heavily influence 
 Key Patterns for English Stress :
 - Two-Syllable Noun vs. Verb Pairs (Initial-Stress-Derived Noun)
 - Compound Nouns
-- **Suffix Influence:** Words ending in _-tion_, _-sion_, _-ic_, and _-ity_ usually place primary stress on the syllable immediately preceding the suffix (e.g., _information_ /ˌɪnfərˈmeɪʃən/).
-- **Length & Position:** Primary stress can fall on the 1st, 2nd, or 3rd syllable, making it essential to check the dictionary for unfamiliar words, as spelling does not always indicate stress placement.
+- Suffix Stress Shift
 - **Secondary Stress:** Often found in long words, particularly on the first or second syllable, preceding the primary stress (e.g., _monumental_ /ˌmɑnjəˈmɛntəl/).
 
 ---
@@ -831,9 +830,9 @@ Suffixes tend to cause the primary stress to move to the syllable immediately pr
 - Verb endings : "-ate", "-en", "-ify", "-ize"
 
 #example Stress shift caused by suffix :
-- complicate `/ˈkɑmpləˌkeɪt/` --> complication `/ˌkɑmpləˈkeɪʃən/`
-- atom `/ˈætəm/` --> atomic `/əˈtɑmɪk/`
-- able `/ˈeɪbəl/` --> ability `/əˈbɪləti/`
+- "complicate" `/ˈkɑmpləˌkeɪt/` --> "complication" `/ˌkɑmpləˈkeɪʃən/`
+- "atom" `/ˈætəm/` --> "atomic" `/əˈtɑmɪk/`
+- "able" `/ˈeɪbəl/` --> "ability" `/əˈbɪləti/`
 
 
 ### Coarticulation
