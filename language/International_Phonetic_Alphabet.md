@@ -792,7 +792,7 @@ In GA, unstressed syllables are reduced in four different ways :
 While English is not strictly syllable-timed, stress patterns heavily influence vowel reduction, where unstressed vowels often become a schwa `/ə/` or `/ɪ/`.
 
 Key Patterns for English Stress :
-- Noun vs. Verb Pairs
+- Noun vs. Verb Pairs (Initial-Stress-Derived Noun)
 - **Compound Nouns:** Often, the first element receives primary stress (e.g., _NEWspaper_ /ˈnuzˌpeɪpər/).
 - **Two-Syllable Nouns/Adjectives:** Frequently stress the first syllable (e.g., _TABLE_ /ˈteɪbəl/, _HAPPY_ /ˈhæpi/).
 - **Two-Syllable Verbs/Prepositions:** Frequently stress the second syllable (e.g., _DECIDE_ /dɪˈsaɪd/, _ABOUT_ /əˈbaʊt/).
@@ -804,9 +804,9 @@ Key Patterns for English Stress :
 
 
 ---
+Many two-syllable words change meaning based on stress placement - nouns typically stress the first syllable, while verbs stress the second. This pattern occurs due to *initial-stress-derived noun*.
 
-
-Many two-syllable words change meaning based on stress placement: Nouns typically stress the first syllable (), while verbs stress the second (). Another examples include "convert" and "import". See [Initial-Stress-Derived Noun](https://en.wikipedia.org/wiki/Initial-stress-derived_noun)
+#define [Initial-Stress-Derived Noun](https://en.wikipedia.org/wiki/Initial-stress-derived_noun) is a phonological process in English that moves stress to the first syllable of verbs when they are used as nouns or adjectives.
 
 | Word      | Noun IPA       | Verb IPA      | Note             |
 | --------- | -------------- | ------------- | ---------------- |
