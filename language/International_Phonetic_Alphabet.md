@@ -350,6 +350,7 @@ In GA, the sibilant consonants are :
 - (fricatives) `/s, z, ʃ, ʒ/`
 - (affricates) `/d͡ʒ, t͡ʃ/`
 
+
 #### Interdental Consonants
 
 #define An [Interdental Consonant](https://en.wikipedia.org/wiki/Interdental_consonant) is a consonant produced by placing the tip of the tongue between the upper and lower front teeth.
@@ -365,7 +366,6 @@ In GA, the interdental consonants are :
 > - teeth - teethe (teething)
 > 
 > There are some general rules to distinguish them, but we'll skip on that for now.
-
 
 
 #### Allophones
@@ -456,6 +456,7 @@ In American English, `⟨l⟩` is typically transcribed as `/l/`, which is the s
 - Vowels are closely involved in prosodic variation such as [tone](<https://en.wikipedia.org/wiki/Tone_(linguistics)>), [intonation](<https://en.wikipedia.org/wiki/Intonation_(linguistics)>) and [stress](<https://en.wikipedia.org/wiki/Stress_(linguistics)>). Note that American English tend to be monotone but stress is still very impactful.
 
 In linguistics, vowels are studied using the *Cardinal Vowel System* and acoustic analysis of *Formants*.
+
 
 #### Cardinal Vowel System
 
