@@ -823,8 +823,17 @@ Many two-syllable words change meaning based on stress placement - nouns typical
 Generally, primary stress is placed on the first element of the compound noun.
 
 ---
+Suffixes tend to cause the primary stress to move to the syllable immediately preceding them.
 
+#example Common suffix types :
+- Noun endings : "-tion", "-sion", "-ness", "-ment", "-ity"
+- Adjective endings : "-ful", "-less", "-ous", "-able", "-ive"
+- Verb endings : "-ate", "-en", "-ify", "-ize"
 
+#example Stress shift caused by suffix :
+- complicate /ˈkɑmpləˌkeɪt/ --> complication /ˌkɑmpləˈkeɪʃən/
+- atom /ˈætəm/ --> atomic /əˈtɑmɪk/
+- able /ˈeɪbəl/ --> ability /əˈbɪləti/
 
 
 ### Coarticulation
