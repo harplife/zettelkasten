@@ -771,15 +771,15 @@ In GA, unstressed syllables are reduced in four different ways :
 - "Frustrated" : `/fɹʌˈstreɪtɪd/` --> `[fʌˈstreɪtɪd]`
 
 #example Suffix Reduction to `/ə/`
-- -ate `/ət/` (climate, delegate, private)
-- -less `/ləs/` (careless, helpless)
-- -es or -ed `/əz,əd/` (roses, wanted)
-- -er `/ər/` (teacher, better, driver)
-- -tion/-sion `/ʃən/` (operation, information, decision)
-- -ity `/əɾi/` (city, reality)
-- -al `/əl/` (musical)
-- -ous `/əs/` (famous)
-- -ant `/ənt/` (important)
+- "-ate" --> `/ət/` : climate, delegate, private
+- "-less" --> `/ləs/` : careless, helpless
+- "-es" or "-ed" --> `/əz,əd/` : roses, wanted
+- "-er" --> `/ər/` : teacher, better, driver
+- "-tion" or "-sion" --> `/ʃən/` : operation, information, decision
+- "-ity" --> `/əɾi/` : city, reality
+- "-al" --> `/əl/` : musical
+- "-ous" --> `/əs/` : famous
+- "-ant" --> `/ənt/` : important
 
 
 #### Key Patterns for Stress in GA
@@ -791,17 +791,30 @@ In GA, unstressed syllables are reduced in four different ways :
 
 While English is not strictly syllable-timed, stress patterns heavily influence vowel reduction, where unstressed vowels often become a schwa `/ə/` or `/ɪ/`.
 
-#todo put the list below into a table, pattern - description - example
-
 Key Patterns for English Stress :
-
-- **Noun vs. Verb Pairs:** Many two-syllable words change meaning based on stress placement: Nouns typically stress the first syllable (_REcord_ /ˈrɛkərd/), while verbs stress the second (_reCORD_ /rɪˈkɔrd/). Another examples include "convert" and "import". See [Initial-Stress-Derived Noun](https://en.wikipedia.org/wiki/Initial-stress-derived_noun)
+- Noun vs. Verb Pairs
 - **Compound Nouns:** Often, the first element receives primary stress (e.g., _NEWspaper_ /ˈnuzˌpeɪpər/).
 - **Two-Syllable Nouns/Adjectives:** Frequently stress the first syllable (e.g., _TABLE_ /ˈteɪbəl/, _HAPPY_ /ˈhæpi/).
 - **Two-Syllable Verbs/Prepositions:** Frequently stress the second syllable (e.g., _DECIDE_ /dɪˈsaɪd/, _ABOUT_ /əˈbaʊt/).
 - **Suffix Influence:** Words ending in _-tion_, _-sion_, _-ic_, and _-ity_ usually place primary stress on the syllable immediately preceding the suffix (e.g., _information_ /ˌɪnfərˈmeɪʃən/).
 - **Length & Position:** Primary stress can fall on the 1st, 2nd, or 3rd syllable, making it essential to check the dictionary for unfamiliar words, as spelling does not always indicate stress placement.
 - **Secondary Stress:** Often found in long words, particularly on the first or second syllable, preceding the primary stress (e.g., _monumental_ /ˌmɑnjəˈmɛntəl/).
+
+
+
+
+---
+
+
+Many two-syllable words change meaning based on stress placement: Nouns typically stress the first syllable (), while verbs stress the second (). Another examples include "convert" and "import". See [Initial-Stress-Derived Noun](https://en.wikipedia.org/wiki/Initial-stress-derived_noun)
+
+| Word    | Noun IPA    | Verb IPA    |
+| ------- | ----------- | ----------- |
+| Record  | `/ˈrɛkərd/` | `/rɪˈkɔrd/` |
+| Convert |             |             |
+| Import  |             |             |
+| Permit  |             |             |
+
 
 
 ### Coarticulation
