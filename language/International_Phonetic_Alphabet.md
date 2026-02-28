@@ -104,6 +104,7 @@ A [Phoneme](https://en.wikipedia.org/wiki/Phoneme) is any set of similar speech 
 - #example In American English, the words "Cat" and "Pat" are differentiated because "C" and "P" are phonemes.
 
 An [Allophone](https://en.wikipedia.org/wiki/Allophone) is any set of *perceptually indistinguishable* speech sounds used to pronounce a single phoneme.
+- An allophone is said to be a **phonetic realization** of a phoneme.
 - #example In American English, the "t" sounds in the words "top", "water" and "mountain" are allophones. They all share the same phoneme "t", but they all sound slightly different.
 
 <center>. . .</center>
@@ -125,6 +126,7 @@ Note that these words have `/t/` in common, but it is pronounced in three differ
 Additionally, the angular brackets `⟨ ⟩` are used to indicate *graphemes* or spelling of a language in written text, rather than their phonetic sounds.
 - #define A [Grapheme](https://en.wikipedia.org/wiki/Grapheme) is the smallest functional unit of a writing system, representing a single phoneme.
 - #example The spelling of the word "cat" is indicated as `⟨cat⟩`. Each individual letters are `⟨c⟩`, `⟨a⟩`, and `⟨t⟩`.
+
 
 ### General American English
 
@@ -286,7 +288,7 @@ In English language, a *grapheme* (a letter or a sequence of letters) may corres
 #example letters that correspond to different phonemes depending on context :
 - `⟨c⟩` to `/k/` ("cat") or `/s/` ("city")
 - `⟨g⟩` to `/g/` ("go"), `/d͡ʒ/` ("giant"), or `/ʒ/` ("garage")
-- `⟨l⟩` to `/l/` ("life") or `/ɫ/` ("ball")
+- `⟨l⟩` to `/l/` ("life") or `[ɫ]` ("ball")
 - `⟨n⟩` to `/n/` ("no") or `/ŋ/` ("sing" or "punk")
 - `⟨s⟩` to `/s/` ("same"), `/z/` ("easy"), `/ʒ/` ("vision"), or `/ʃ/` ("pressure")
 - `⟨t⟩` to `/t/` ("top") or `[ɾ]` ("better") or `[ʔ]` ("button")
@@ -297,49 +299,10 @@ In English language, a *grapheme* (a letter or a sequence of letters) may corres
 > [!important] In the *Phonology* section, we'll learn more about how context creates variance in the speech sound.
 
 
-#### Allophones
-
-While the *phoneme* is the "ideal" version of a sound, the *allophone* is the actual physical sound produced in specific phonetic environments.
-
-Some GA consonant standard phonemes (`/f,θ,ð,s,ʃ,ʒ,t͡ʃ,d͡ʒ,ŋ/`) does not have any allophones, but the rest of them do. We won't cover every allophones here because most of them are *indistinguishable*, but in general, the allophones can be :
-- Aspirated
-- Unaspirated
-- Unreleased
-- Devoiced (partial or fully)
-- Palatalized
-- Syllabic
-- Dentalized
-
-> [!important] The processes that create allophones will be explored in the *Phonology* section.
-
-<center>. . .</center>
-
-We'll cover specifically the allophones of `/t/`, because in American English, it is rather particular and has more allophones than other phonemes.
-
-The allophones of `/t/` are :
-- Aspirated "True" T `[tʰ]` : "top", "tap", "time", "talk", "train"
-- Unaspirated T `[t]` (generally for `/st/`) : "stop", "star", "stick"
-- Flapped T `[ɾ]` : "coating", "betting", "atom", "bottle"
-- Glottal/Nasal Release T `[ʔ]` : "button", "mountain", "curtain", "certain", "uh-oh",
-	- Emphatic/Coda T : "won't", "apartment", "lightbulb", "right now"
-- Unreleased T `[t̚]` (word final, unaspirated) : "amount", "ancient", "cat", "goat", "vent", "patient"
-
-> [!warning] Although google search is telling me that there is "regular" `/t/`, I'm not getting a sound explanation or example of such.
-> It seems to me that `/t/` sounds differently based on where it is placed :
-> - Initial (aspirated or unaspirated)
-> - Middle (flap or stop)
-> - Final (unreleased)
-
-> [!important] The allophones of `/d/` are similar to the allophones of `/t/` in a few ways.
-> - Alveolar Flap `[ɾ]` : "buddy", "leader"
-> - Nasal Release : "hidden"
-
-> [!important] In GA, phonemes like `/p, k/` have aspirated, unaspirated, and unreleased allophones.
-
-
 #### Digraphs
 
-#define A [Digraph](<https://en.wikipedia.org/wiki/Digraph_(orthography)>) is a pair of characters used to write either a single phoneme, or a sequence of phonemes that does not correspond to the normal values of the two characters combined.
+#define A [Digraph](<https://en.wikipedia.org/wiki/Digraph_(orthography)>) is a pair of letters used to produce a single phoneme.
+- It can also produce a cluster of phonemes (simultaneously) that does not correspond to the normal values of the two characters combined.
 
 The English alphabet has fewer consonant *letters* than the English language has consonant *sounds*, so *digraphs* are used to extend the alphabet. The consonant digraphs include :
 - `⟨ch⟩` for `/t͡ʃ/`
@@ -348,6 +311,9 @@ The English alphabet has fewer consonant *letters* than the English language has
 - `⟨ng⟩` for `/ŋ/`
 - `⟨wh⟩` for `/h/` or `/w/`
 - `⟨ph⟩` for `/f/`
+
+> [!warning] If each letter in a pair of letters retains its own, individual sound, these are *NOT* considered a digraph.
+> For example, `⟨fl⟩` in "fly" or `⟨bl⟩` in "blue" are not digraphs because they do not produce a single phoneme.
 
 
 #### Affricates
@@ -400,11 +366,60 @@ In GA, the interdental consonants are :
 > 
 > There are some general rules to distinguish them, but we'll skip on that for now.
 
+
+
+#### Allophones
+
+While the *phoneme* is the "ideal" version of a sound, the *allophone* is the actual physical sound produced in specific phonetic environments.
+
+Some GA consonant standard phonemes (`/f,θ,ð,s,ʃ,ʒ,t͡ʃ,d͡ʒ,ŋ/`) does not have any allophones, but the rest of them do. We won't cover every allophones here because most of them are *indistinguishable*, but in general, the allophones can be :
+- Aspirated
+- Unaspirated
+- Unreleased
+- Devoiced (partial or fully)
+- Palatalized
+- Syllabic
+- Dentalized
+
+> [!important] The processes that create allophones will be explored in the *Phonology* section.
+
+---
+We'll cover specifically the allophones of `/t/`, because in American English, it is rather particular and has more allophones than other phonemes.
+
+The allophones of `/t/` are :
+- **Aspirated** "True" T `[tʰ]` : "top", "tap", "time", "talk", "train"
+- **Unaspirated** T `[t]` (generally for `/st/`) : "stop", "star", "stick"
+- **Flapped** T `[ɾ]` : "coating", "betting", "atom", "bottle"
+- **Glottalized** T
+	- **Coda** T `[ʔ]` : "apartment", "lightbulb", "right now"
+	- **Nasal Released** T `[ʔn]` : "button", "mountain", "curtain", "certain"
+- **Unreleased** T `[t̚]` (word final, unaspirated) : "amount", "ancient", "cat", "goat", "vent", "patient"
+
+> [!important] Basically, `/t/` sounds differently based on where it is placed in a word.
+> - **Word-initial** (aspirated or unaspirated)
+> - **Word-medial** (flapped or glottalized)
+> - **Word-final** (released or unreleased)
+
+<center>. . .</center>
+
+Some of these allophones are somewhat distinguishable from the standard `/t/` sound, which contradicts the definition of allophone. It may be more intuitive to call them *Conditioned Variants*.
+
+#define **Conditioned Variants** are predictable variations of a single phoneme which are context-dependent; they are determined by surrounding sounds (*assimilation*), and in *complementary distribution* with each other.
+- #define **Complementary Distribution** means each variant appears in specific environments (contexts) where others don't. In other words, only one variant per environment.
+
+<center>. . .</center>
+
+> [!important] The allophones of `/d/` are similar to the allophones of `/t/`.
+> - Alveolar Flap `[ɾ]` : "buddy", "leader"
+> - Nasal Release `[ʔn]` : "hidden"
+
+
 #### Liquids (Rhotic and Lateral)
 
-#define A [Liquid Consonant](https://en.wikipedia.org/wiki/Liquid_consonant) (Liquid) is a unique, vowel-like consonant produced with partial, non-obstructive closure in the mouth. Liquids either *modify* or are *modified by* surrounding sounds, often influencing preceding vowels.
+#define A [Liquid Consonant](https://en.wikipedia.org/wiki/Liquid_consonant) (Liquid) is a unique, vowel-like consonant produced with partial, non-obstructive closure in the mouth.
+- Liquids either *modify* or *are modified by* surrounding sounds, often influencing preceding vowels.
 
-Liquids consists of *rhotics* and *voiced lateral approximants* :
+Liquids consists of *rhotics* and *laterals* :
 - #define A [Rhotic Consonant](https://en.wikipedia.org/wiki/Rhotic_consonant) refers to "R-like" sound.
 - #define A [Lateral Consonant](https://en.wikipedia.org/wiki/Lateral_consonant) refers to "L-like" sound, where the sound is produced by blocking the flow of air along the center of the mouth with the tongue (forcing the air to escape around the tongue).
 
@@ -422,15 +437,15 @@ In GA, there are *technically* two lateral consonants :
 - **Voiced alveolar lateral approximant** `/l/`, aka "Light L"
 - **Velarized alveolar lateral approximant** `/ɫ/`, aka "Dark L"
 
-The sound `/l/` is produced by placing the tip of the tongue against the alveolar ridge to block the central airflow. Generally, this sound occurs before vowels (e.g. "light", "fly").
+The sound `/l/` is produced by placing the tip of the tongue against the alveolar ridge to block the central airflow. Generally, this sound occurs as syllable-onset (e.g. "light", "fly").
 
-The sound `/ɫ/` is produced by velarization (without the tip of the tongue touching the alveolar). Generally, this sound occurs after vowels or at the end of words (e.g. "pool", "well").
+The sound `/ɫ/` is produced by *velarization* (without the tip of the tongue touching the alveolar). Generally, this sound occurs as syllable-coda (e.g. "always") or word-final (e.g. "well").
 - #define [Velarization](https://en.wikipedia.org/wiki/Velarization) modifies the articulation of a consonant by raising the back of the tongue toward the velum.
 
-Both  `/l, ɫ/` are *allophones* of `⟨l⟩`, so distinction between them does not change the meaning of the word. In fact, it can be said that `/l/` is the only lateral consonant because :
-- the usage between the two comes down to *accent*
-- `/l/` can replace `/ɫ/` for *enunciation* (e.g. "fill", "ball")
-- `/ɫ/` is written as `/l/` for convenience
+> [!warning] `/ɫ/` never appears as onset of a syllable.
+
+In American English, `⟨l⟩` is typically transcribed as `/l/`, which is the standard phoneme which the letter corresponds to. In this case, `[ɫ]` is described as an allophone of `/l/`.
+- Ironically, `/l/` can replace `/ɫ/` for *enunciation* (e.g. "fill", "ball").
 
 
 ### Vowels
