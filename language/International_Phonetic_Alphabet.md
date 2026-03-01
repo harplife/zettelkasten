@@ -830,7 +830,19 @@ Generally, *primary stress* is placed on the *first* element of the compound nou
 Generally, *primary stress* is placed on the *second* element of the compound verb.
 
 ---
+Prefixes tend not to influence stress patterns, unless the prefix changes one syllable word to two syllable.
 
+#example Common prefixes for verbs :
+- "Un-" (unfold)
+- "Re-" (redo)
+- "Dis-" (dislike)
+- "Mis-" (misunderstand)
+- "De-" (decode)
+- "Pre-" (prepare)
+- "Sub-" (submit)
+
+- Verbs have primary stress on the second syllable (or element) with or without prefixes
+- Nouns have primary stress on the first syllable (or element) with or without prefixes
 
 
 
