@@ -795,7 +795,6 @@ Key Patterns for English Stress :
 - Two-Syllable Noun vs. Verb Pairs (Initial-Stress-Derived Noun)
 - Compound Nouns
 - Compound Verbs
-- Prefix
 - Suffix
 - **Secondary Stress:** Often found in long words, particularly on the first or second syllable, preceding the primary stress (e.g., _monumental_ /ˌmɑnjəˈmɛntəl/).
 
@@ -823,14 +822,20 @@ Many two-syllable words change meaning based on stress placement - nouns typical
 
 Generally, *primary stress* is placed on the *first* element of the compound noun.
 
+<center>. . .</center>
+
+#todo how prefix affects this
+
+
 ---
 #define A **Compound Verb** is a single verb composed of two or more words that function together as a single unit, or a single subject performing multiple actions. They can be written as one solid word, or multiple separate words (spaced or hyphenated).
 - #example Compound Verbs : skydive, dry-clean, turn on
 
 Generally, *primary stress* is placed on the *second* element of the compound verb.
 
----
-Prefixes tend not to influence stress patterns, unless the prefix changes one syllable word to two syllable.
+<center>. . .</center>
+
+#todo how prefix affects this
 
 #example Common prefixes for verbs :
 - "Un-" (unfold)
@@ -840,13 +845,6 @@ Prefixes tend not to influence stress patterns, unless the prefix changes one sy
 - "De-" (decode)
 - "Pre-" (prepare)
 - "Sub-" (submit)
-
-- Verbs have primary stress on the second syllable (or element) with or without prefixes
-- Nouns have primary stress on the first syllable (or element) with or without prefixes
-
-
-
-
 
 ---
 Suffixes tend to cause the primary stress to move to the syllable immediately preceding them.
