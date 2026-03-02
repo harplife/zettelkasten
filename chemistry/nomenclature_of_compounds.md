@@ -228,7 +228,7 @@ However, because polyatomic ions can be either cations or anions, it can be :
 - (NH₄)₂S --> ammonium sulfide
 
 
-#example **Polyatomic cation + non-metal** :
+#example **Polyatomic cation + polyatomic anion** :
 - (NH₄)₂SO₄ --> ammonium sulfate
 - NH₄NO₃ --> ammonium nitrate
 - (NH₄)₃PO₄ --> ammonium phosphate
