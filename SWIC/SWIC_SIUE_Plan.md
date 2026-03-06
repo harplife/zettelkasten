@@ -54,6 +54,9 @@
 | ECE Design Lab (Senior Project Part 2) |          | ECE 405             |           |
 
 Four ECE/CS Electives
+- #todo find out what the options are
+
+Considerations for electives :
 
 | Topic                      | SWIC | SIUE     | Prerequisite For |
 | -------------------------- | ---- | -------- | ---------------- |
