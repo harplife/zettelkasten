@@ -2174,7 +2174,7 @@
         }
       },
       "active": "bc3c908e79bba033",
-      "mtime": "2026-03-01T20:31:39-06:00",
+      "mtime": "2026-03-06T11:19:52-06:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "chemistry",
@@ -2201,13 +2201,13 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "SWIC/2026 Spring/math_203_calculus.md",
+                    "file": "SWIC/SWIC_SIUE_Plan.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": false
                   },
                   "icon": "lucide-file",
-                  "title": "math_203_calculus"
+                  "title": "SWIC_SIUE_Plan"
                 }
               }
             ]
@@ -2288,13 +2288,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "SWIC/2026 Spring/math_203_calculus.md",
+                    "file": "SWIC/SWIC_SIUE_Plan.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of math_203_calculus"
+                  "title": "Outline of SWIC_SIUE_Plan"
                 }
               }
             ]
@@ -2383,16 +2383,6 @@
                 }
               },
               {
-                "id": "c513c08b64ec3a16",
-                "type": "leaf",
-                "state": {
-                  "type": "dictionary-view",
-                  "state": {},
-                  "icon": "lucide-ghost",
-                  "title": "dictionary-view"
-                }
-              },
-              {
                 "id": "cc30698aa4dc8073",
                 "type": "leaf",
                 "state": {
@@ -2425,7 +2415,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "SWIC/2026 Spring/math_203_calculus.md",
+                    "file": "SWIC/SWIC_SIUE_Plan.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -2435,7 +2425,7 @@
                     "unlinkedCollapsed": false
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for math_203_calculus"
+                  "title": "Backlinks for SWIC_SIUE_Plan"
                 }
               }
             ],
@@ -2462,7 +2452,7 @@
         }
       },
       "active": "c06d504145e806fb",
-      "mtime": "2026-01-17T13:25:07-06:00",
+      "mtime": "2026-03-06T11:28:08-06:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "chemistry",
@@ -2759,5 +2749,5 @@
       }
     }
   },
-  "active": "Chemistry"
+  "active": "SWIC"
 }
