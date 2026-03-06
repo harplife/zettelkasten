@@ -55,9 +55,13 @@
 
 Four ECE/CS Electives
 
-| Topic | SWIC | SIUE | Prerequisite For |
-| ----- | ---- | ---- | ---------------- |
-|       |      |      |                  |
+| Topic                      | SWIC | SIUE     | Prerequisite For |
+| -------------------------- | ---- | -------- | ---------------- |
+| Computer Graphics          |      | CS 482   |                  |
+| Artificial Intelligence    |      | CS 438   |                  |
+| Applied Numerical Analysis |      | MATH 462 |                  |
+|                            |      |          |                  |
+|                            |      |          |                  |
 
 
 
