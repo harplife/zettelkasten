@@ -25,33 +25,33 @@
 ## SIUE B.S. in CE Requirements
 
 
-| Topic                                  | SWIC     | SIUE                | Selection |
-| -------------------------------------- | -------- | ------------------- | --------- |
-| Calculus I                             | MATH 203 | MATH 150            | SWIC      |
-| Calculus II                            | MATH 204 | MATH 152            | SWIC      |
-| Calculus III                           | MATH 205 | MATH 250            | SWIC      |
-| Discrete Mathematcis                   |          | MATH 224            |           |
-| Differential Equations I               | MATH 290 | MATH 305            | SWIC      |
-| Probability and Statistics             |          | ECE 352             |           |
-| Engineering Chemistry & Lab            | CHEM 105 | CHEM 131<br>or 121  | SWIC      |
-| Physics I for Engineering & Lab        | PHYS 204 | PHYS 141<br>or 151? | SWIC      |
-| Physics II for Engineering & Lab       | PHYS 205 | PHYS 142<br>or 152? | SWIC      |
-| Engineering Problem Solving            |          | IE 106              |           |
-| Circuit Analysis I                     | ENGR 271 | ECE 210             | SWIC?     |
-| Circuit Analysis II                    |          | ECE 211             |           |
-| Digital Systems Design                 |          | ECE 282             |           |
-| Electronic Circuits I                  |          | ECE 326             |           |
-| Engineering Economic Analysis          |          | IE 345              |           |
-| Signals and Systems                    |          | ECE 351             |           |
-| Microcontrollers                       |          | ECE 381             |           |
-| Advanced Digital Systems Engineering   |          | ECE 483             |           |
-| Introduction to Computing I            | MATH 171 | CS 140              |           |
-| Introduction to Computing II           | MATH 271 | CS 150              |           |
-| Intro to Computer Organization & Arch. |          | CS 286              |           |
-| Operating Systems                      |          | CS 314              |           |
-| Algorithms and Data Structures         |          | CS 340              |           |
-| ECE Design (Senior Project Part 1)     |          | ECE 404             |           |
-| ECE Design Lab (Senior Project Part 2) |          | ECE 405             |           |
+| Topic                                  | SIUE                | Prerequisites |
+| -------------------------------------- | ------------------- | ------------- |
+| Calculus I                             | MATH 150            |               |
+| Calculus II                            | MATH 152            |               |
+| Calculus III                           | MATH 250            |               |
+| Discrete Mathematcis                   | MATH 224            |               |
+| Differential Equations I               | MATH 305            |               |
+| Probability and Statistics             | ECE 352             |               |
+| Engineering Chemistry & Lab            | CHEM 131<br>or 121  |               |
+| Physics I for Engineering & Lab        | PHYS 141<br>or 151? |               |
+| Physics II for Engineering & Lab       | PHYS 142<br>or 152? |               |
+| Engineering Problem Solving            | IE 106              |               |
+| Circuit Analysis I                     | ECE 210             |               |
+| Circuit Analysis II                    | ECE 211             |               |
+| Digital Systems Design                 | ECE 282             |               |
+| Electronic Circuits I                  | ECE 326             |               |
+| Engineering Economic Analysis          | IE 345              |               |
+| Signals and Systems                    | ECE 351             |               |
+| Microcontrollers                       | ECE 381             |               |
+| Advanced Digital Systems Engineering   | ECE 483             |               |
+| Introduction to Computing I            | CS 140              |               |
+| Introduction to Computing II           | CS 150              |               |
+| Intro to Computer Organization & Arch. | CS 286              |               |
+| Operating Systems                      | CS 314              |               |
+| Algorithms and Data Structures         | CS 340              |               |
+| ECE Design (Senior Project Part 1)     | ECE 404             |               |
+| ECE Design Lab (Senior Project Part 2) | ECE 405             |               |
 
 Four ECE/CS Electives
 - #todo find out what the options are
