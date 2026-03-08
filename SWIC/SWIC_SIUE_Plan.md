@@ -66,30 +66,30 @@ Four ECE/CS Electives
 
 Considerations for electives :
 
-| Topic                          | SIUE    | Prerequisites     | Leads to |
-| ------------------------------ | ------- | ----------------- | -------- |
-| Computer Graphics              | CS 482  |                   |          |
-| Artificial Intelligence        | CS 438  |                   |          |
-| Control Systems                | ECE 365 | ECE 351           |          |
-| Introduction to Communications | ECE 375 | ECE 351, ECE 352  |          |
-| High Frequency Design          | ECE 426 | ECE 326           |          |
-| Knowledge-Based Systems        | ECE 427 | CS 140            |          |
-| Analog Filter Design           | ECE 428 | ECE 351, ECE 326  |          |
-| Bioinstrumentation             | ECE 429 | ECE 327 (or grad) |          |
-| Digital Signal Processing      | ECE 436 | ECE 351 (CA)      |          |
-| Medical Imaging Systems        | ECE 427 | ECE 351 (CA)      |          |
-| Image Analysis and CV          | ECE 438 | ECE 351 (CA)      |          |
-| Digital Image Processing       | ECE 439 | ECE 351 (CA)      |          |
-| System Modeling & Optimization | ECE 455 | ECE 351 (CA)      |          |
-| Control Systems Design         | ECE 465 | ECE 365           |          |
-| Digital Control                | ECE 466 | ECE 365           |          |
-| Electronic Circuits II         | ECE 476 | ECE 326           |          |
-| Network Engineering            | ECE 477 | ECE 282           |          |
-| Microprocessor System          | ECE 482 | ECE 282           |          |
-| Digital VLSI Design            | ECE 484 | ECE 326           |          |
-|                                |         |                   |          |
-|                                |         |                   |          |
-|                                |         |                   |          |
+| Topic                          | SIUE    | Prerequisites            | Leads to |
+| ------------------------------ | ------- | ------------------------ | -------- |
+| Computer Graphics              | CS 482  | CS 286, MATH 152, CS 150 |          |
+| Artificial Intelligence        | CS 438  | CS 340                   |          |
+| Control Systems                | ECE 365 | ECE 351                  |          |
+| Introduction to Communications | ECE 375 | ECE 351, ECE 352         |          |
+| High Frequency Design          | ECE 426 | ECE 326                  |          |
+| Knowledge-Based Systems        | ECE 427 | CS 140                   |          |
+| Analog Filter Design           | ECE 428 | ECE 351, ECE 326         |          |
+| Bioinstrumentation             | ECE 429 | ECE 327 (or grad)        |          |
+| Digital Signal Processing      | ECE 436 | ECE 351 (CA)             |          |
+| Medical Imaging Systems        | ECE 427 | ECE 351 (CA)             |          |
+| Image Analysis and CV          | ECE 438 | ECE 351 (CA)             |          |
+| Digital Image Processing       | ECE 439 | ECE 351 (CA)             |          |
+| System Modeling & Optimization | ECE 455 | ECE 351 (CA)             |          |
+| Control Systems Design         | ECE 465 | ECE 365                  |          |
+| Digital Control                | ECE 466 | ECE 365                  |          |
+| Electronic Circuits II         | ECE 476 | ECE 326                  |          |
+| Network Engineering            | ECE 477 | ECE 282                  |          |
+| Microprocessor System          | ECE 482 | ECE 282                  |          |
+| Digital VLSI Design            | ECE 484 | ECE 326                  |          |
+|                                |         |                          |          |
+|                                |         |                          |          |
+|                                |         |                          |          |
 
 If courses outside the department are allowed :
 
@@ -255,54 +255,78 @@ CVIP core courses (9-500L, 6-400L) :
 
 Electives (9-500L, 9-400L) :
 
-| Number   | Title                            | Credits | Prerequisites                |
-| -------- | -------------------------------- | ------- | ---------------------------- |
-| ECE 436  | Digital Signal Processing        | 3       | ECE 351 (CA)                 |
-| ECE 438  | Image Analysis & Computer Vision | 3       | ECE 351 (CA)                 |
-| CS 438   | Artificial Intelligence          | 3       | CS 340                       |
-| CS 482   | Computer Graphics                | 3       | CS 150, CS 286, MATH 152     |
-| CS 582   | Advanced Computer Graphics       | 3       | CS 482                       |
-| ECE 510  | Engineering Research Methods     | 3       |                              |
-| ECE 532  | Applications of DSP              | 3       | ECE 436, ECE 352             |
-| CS 537   | Intro to Expert Systems          | 3       | CS 340                       |
-|          |                                  |         |                              |
-| PHYS 410 | Optics                           | 3       | PHYS 201, PHYS 251, MATH 305 |
-|          |                                  |         |                              |
-|          |                                  |         |                              |
+| Number  | Title                            | Credits | Prerequisites            |
+| ------- | -------------------------------- | ------- | ------------------------ |
+| ECE 436 | Digital Signal Processing        | 3       | ECE 351 (CA)             |
+| ECE 438 | Image Analysis & Computer Vision | 3       | ECE 351 (CA)             |
+| CS 438  | Artificial Intelligence          | 3       | CS 340                   |
+| CS 482  | Computer Graphics                | 3       | CS 150, CS 286, MATH 152 |
+| CS 582  | Advanced Computer Graphics       | 3       | CS 482                   |
+| ECE 510 | Engineering Research Methods     | 3       |                          |
+| ECE 532 | Applications of DSP              | 3       | ECE 436, ECE 352         |
+| CS 537  | Intro to Expert Systems          | 3       | CS 340                   |
+|         |                                  |         |                          |
+|         |                                  |         |                          |
+|         |                                  |         |                          |
 
 
 
 ## SIUE B.S. to M.S. Complete Planner
 
 B.S. in CE with electives specifically geared towards M.S. in ECE.
+- Minor in Physics as well
 
-| Number   | Title                                  | Prerequisites                    |
-| -------- | -------------------------------------- | -------------------------------- |
-| MATH 224 | Discrete Mathematics                   | CS 140                           |
-| CS 140   | Introduction to Computing I            |                                  |
-| CS 150   | Introduction to Computing II           | CS 140                           |
-| CS 286   | Intro to Computer Organization & Arch. | CS 150                           |
-| CS 314   | Operating Systems                      | CS 286                           |
-| CS 340   | Algorithms and Data Structures         | CS 150, MATH 224, MATH 150       |
-| IE 106   | Engineering Problem Solving            |                                  |
-| IE 345   | Engineering Economic Analysis          |                                  |
-| ECE 210  | Circuit Analysis I                     | MATH 150                         |
-| ECE 211  | Circuit Analysis II                    | ECE 210, MATH 250, MATH 305 (CA) |
-| ECE 282  | Digital Systems Design                 | CS 140                           |
-| ECE 326  | Electronic Circuits I                  | ECE 211                          |
-| ECE 351  | Signals and Systems                    | ECE 211                          |
-| ECE 352  | Probability and Statistics             | ECE 351 (CA)                     |
-| ECE 381  | Microcontrollers                       | ECE 282                          |
-| ECE 404  | ECE Design (Senior Project Part 1)     |                                  |
-| ECE 405  | ECE Design Lab (Senior Project Part 2) |                                  |
-| ECE 483  | Advanced Digital Systems Engineering   | ECE 282                          |
+### Undergraduate
 
+> [!important] Each table is set based on fulfilled prerequisites.
 
-| Number   | Title  | Prerequisites                |
-| -------- | ------ | ---------------------------- |
-| PHYS 251 | Waves  | PHYS 152                     |
-| PHYS 410 | Optics | PHYS 201, PHYS 251, MATH 305 |
+| Number   | Title                         | Prerequisites | Note                 |
+| -------- | ----------------------------- | ------------- | -------------------- |
+| CS 140   | Introduction to Computing I   |               |                      |
+| IE 106   | Engineering Problem Solving   |               |                      |
+| IE 345   | Engineering Economic Analysis |               |                      |
+| ECE 210  | Circuit Analysis I            | MATH 150      | May be taken at SWIC |
+| PHYS 251 | Waves                         | PHYS 152      |                      |
 
+| Number   | Title                        | Prerequisites                    | Note |
+| -------- | ---------------------------- | -------------------------------- | ---- |
+| CS 150   | Introduction to Computing II | CS 140                           |      |
+| MATH 224 | Discrete Mathematics         | CS 140                           |      |
+| ECE 211  | Circuit Analysis II          | ECE 210, MATH 250, MATH 305 (CA) |      |
+| ECE 282  | Digital Systems Design       | CS 140                           |      |
+| PHYS 410 | Optics                       | PHYS 201, PHYS 251, MATH 305     |      |
 
-### First Semester
+| Number  | Title                                  | Prerequisites              | Note                |
+| ------- | -------------------------------------- | -------------------------- | ------------------- |
+| CS 286  | Intro to Computer Organization & Arch. | CS 150                     |                     |
+| CS 340  | Algorithms and Data Structures         | CS 150, MATH 224, MATH 150 |                     |
+| ECE 326 | Electronic Circuits I                  | ECE 211                    |                     |
+| ECE 351 | Signals and Systems                    | ECE 211                    |                     |
+| ECE 352 | Probability and Statistics             | ECE 351 (CA)               |                     |
+| ECE 483 | Advanced Digital Systems Engineering   | ECE 282                    |                     |
+| ECE 381 | Microcontrollers                       | ECE 282                    |                     |
+| ECE 438 | Image Analysis & Computer Vision       | ECE 351 (CA)               | elective, CVIP core |
+| ECE 439 | Digital Image Processing               | ECE 351 (CA)               | elective, CVIP core |
+| ECE 404 | ECE Design (Senior Project Part 1)     |                            |                     |
 
+| Number  | Title                                  | Prerequisites    | Note     |
+| ------- | -------------------------------------- | ---------------- | -------- |
+| CS 314  | Operating Systems                      | CS 286           |          |
+| CS 482  | Computer Graphics                      | CS 286, MATH 152 | elective |
+| CS 438  | Artificial Intelligence                | CS 340           | elective |
+| ECE 405 | ECE Design Lab (Senior Project Part 2) | ECE 404          |          |
+
+### Graduate
+
+Eleven courses with at least six 500-level courses.
+
+| Number  | Title                                             | Prerequisites | Note |
+| ------- | ------------------------------------------------- | ------------- | ---- |
+| ECE 510 | Engineering Research Methods                      |               |      |
+| ECE 535 | Advanced Image Compression Methods and Algorithms | ECE 439       |      |
+| ECE 538 | Image Analysis & Computer Vision II               | ECE 438       |      |
+| ECE 539 | Digital Image Processing II                       | ECE 439       |      |
+|         |                                                   |               |      |
+|         |                                                   |               |      |
+|         |                                                   |               |      |
+|         |                                                   |               |      |
