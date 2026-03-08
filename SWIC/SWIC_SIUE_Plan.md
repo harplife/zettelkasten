@@ -56,6 +56,9 @@
 > "CC" for Concurrency Allowed
 
 
+> [!important] **ECE 351 Signals and Systems** seems to be a core course that is prerequisite for many grad-level courses.
+
+
 ---
 
 Four ECE/CS Electives
@@ -201,3 +204,16 @@ If Allowed :
 - PHYS 514 Photonics I
 - CS 535 Software Engineering
 - CS 547 Network Programming
+
+
+CVIP core courses :
+
+| Number  | Title                                             | Prerequisites |
+| ------- | ------------------------------------------------- | ------------- |
+| ECE 438 | Image Analysis & Computer Vision                  | ECE 351 (CA)  |
+| ECE 439 | Digital Image Processing                          | ECE 351 (CA)  |
+| ECE 535 | Advanced Image Compression Methods and Algorithms | ECE 439       |
+| ECE 538 | Image Analysis & Computer Vision II               | ECE 438       |
+| ECE 539 | Digital Image Processing II                       | ECE 439       |
+
+
