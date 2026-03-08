@@ -113,3 +113,91 @@ If math courses are allowed :
 | ENGR 103 Engineering Graphics | CE 204 Engineering Graphics    |
 | ENGR 271 Electrical Circuit   | ECE 210 Circuit Analysis I     |
 
+
+
+## SIUE M.S. in ECE Requirements
+
+33 credit hours, 18 of which must be 500-level courses.
+
+<center>. . .</center>
+
+**ECE Core Courses** (one course from each of the following two areas) :
+- Signals and Systems
+	- ECE 532 Applications of Digital Signal Processing
+	- ECE 535 Advanced Image Compression Methods and Algorithms
+	- ECE 539 Digital Image Processing II
+	- ECE 563 Optimal Control
+	- ECE 574 Digital Communications
+- Computer Systems
+	- ECE 538 Image Analysis and Computer Vision II
+	- ECE 577 Advanced Network Engineering
+	- ECE 581 High Performance Architectures I
+	- ECE 582 High Performance Architectures II
+	- ECE 584 Analog CMOS Integrated Circuit Design
+	- ECE 585 Mixed-Signal Design & Modeling
+- In addition, ECE 510 Engineering Research Methods is highly recommended for all graduate students.
+
+<center>. . .</center>
+
+Take four or five of the following (maximum of two out-of-department courses) :
+- ECE 427 Knowledge-Based Systems
+- ECE 436 Digital Signal Processing (DSP)
+- ECE 437 Medical Imaging Systems
+- ECE 447 Radar Systems
+- ECE 467 Introduction to Robotics - Dynamics and Control
+- ECE 484 VLSI Design
+- ECE 532 Applications of DSP
+- ECE 581 Parallel Architectures I
+- ECE 584 Analog CMOS IC Design
+- ECE 585 Mixed-Signal Design and Modeling
+- ECE 591 Independent Study
+- ECE 595 Electrical Engineering Master's Project
+- ME 458 Mechatronics
+- GEOG 422 Remote Sensing and Digital Image Processing
+- CS 438 Artificial Intelligence
+- CS 482 Computer Graphics
+- CS 582 Topics in Computer Graphics
+- MATH 421 Linear Algebra II
+- MATH 423 Combinatorics and Graph Theory
+- MATH 466 Numerical Linear Algebra with Applications
+- PHYS 410 Optics
+
+Other courses of interest :
+- ECE 466 Digital Control
+- ECE 482 Microprocessor Systems
+- ECE 483 Advanced Digital Systems Engineering
+- ECE 574 Digital Communication
+- ECE 582 Parallel Architectures II
+- GEOG 425 Raster Based Geographic Information Systems (GIS)
+- GEOG 525 Seminar in Geographic Information Systems (GIS)
+- MATH 462 Engineering Mathematics II
+- MATH 465 Numerical Analysis
+- PHYS 117 Light and Color (not for graduate credit)
+- PHYS 504 Applications of Fiber Optics
+- PHYS 514 Photonics I
+- PHYS 515 Photonics II
+
+<center>. . .</center>
+
+> [!important] Seems like CVIP core courses cover ECE core courses requirements.
+
+CVIP Core courses :
+- ECE 438 Image Analysis & Computer Vision
+- ECE 439 Digital Image Processing
+- ECE 535 Advanced Image Compression Methods and Algorithms
+- ECE 538 Image Analysis & Computer Vision II
+- ECE 539 Digital Image Processing II
+
+Electives :
+- ECE 436 / ECE 532 Digital Signal Processing (DSP)
+- ECE 467 Robotics-Dynamics and Control
+- ECE 574 Digital Communications
+- CS 438 Artificial Intelligence
+- CS 482 / CS 582 Computer Graphics
+- ECE 510 Engineering Research Methods
+- ECE 563 Optimal Control
+
+If Allowed :
+- PHYS 514 Photonics I
+- CS 535 Software Engineering
+- CS 547 Network Programming
