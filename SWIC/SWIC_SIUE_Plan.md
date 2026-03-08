@@ -30,7 +30,7 @@
 | MATH 150            | Calculus I                             |                                  |
 | MATH 152            | Calculus II                            |                                  |
 | MATH 250            | Calculus III                           |                                  |
-| MATH 224            | Discrete Mathematcis                   | CS 140                           |
+| MATH 224            | Discrete Mathematics                   | CS 140                           |
 | MATH 305            | Differential Equations I               | MATH 250                         |
 | CHEM 131<br>or 121  | Engineering Chemistry & Lab            |                                  |
 | PHYS 141<br>or 151? | Physics I for Engineering & Lab        |                                  |
@@ -275,4 +275,34 @@ Electives (9-500L, 9-400L) :
 ## SIUE B.S. to M.S. Complete Planner
 
 B.S. in CE with electives specifically geared towards M.S. in ECE.
+
+| Number   | Title                                  | Prerequisites                    |
+| -------- | -------------------------------------- | -------------------------------- |
+| MATH 224 | Discrete Mathematics                   | CS 140                           |
+| CS 140   | Introduction to Computing I            |                                  |
+| CS 150   | Introduction to Computing II           | CS 140                           |
+| CS 286   | Intro to Computer Organization & Arch. | CS 150                           |
+| CS 314   | Operating Systems                      | CS 286                           |
+| CS 340   | Algorithms and Data Structures         | CS 150, MATH 224, MATH 150       |
+| IE 106   | Engineering Problem Solving            |                                  |
+| IE 345   | Engineering Economic Analysis          |                                  |
+| ECE 210  | Circuit Analysis I                     | MATH 150                         |
+| ECE 211  | Circuit Analysis II                    | ECE 210, MATH 250, MATH 305 (CA) |
+| ECE 282  | Digital Systems Design                 | CS 140                           |
+| ECE 326  | Electronic Circuits I                  | ECE 211                          |
+| ECE 351  | Signals and Systems                    | ECE 211                          |
+| ECE 352  | Probability and Statistics             | ECE 351 (CA)                     |
+| ECE 381  | Microcontrollers                       | ECE 282                          |
+| ECE 404  | ECE Design (Senior Project Part 1)     |                                  |
+| ECE 405  | ECE Design Lab (Senior Project Part 2) |                                  |
+| ECE 483  | Advanced Digital Systems Engineering   | ECE 282                          |
+
+
+| Number   | Title  | Prerequisites                |
+| -------- | ------ | ---------------------------- |
+| PHYS 251 | Waves  | PHYS 152                     |
+| PHYS 410 | Optics | PHYS 201, PHYS 251, MATH 305 |
+
+
+### First Semester
 
