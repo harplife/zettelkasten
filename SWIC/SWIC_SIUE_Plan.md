@@ -326,7 +326,7 @@ Eleven courses with at least six 500-level courses.
 | ECE 535 | Advanced Image Compression Methods and Algorithms | ECE 439       |      |
 | ECE 538 | Image Analysis & Computer Vision II               | ECE 438       |      |
 | ECE 539 | Digital Image Processing II                       | ECE 439       |      |
-|         |                                                   |               |      |
+| CS 582  | Advanced Computer Graphics                        | CS 482        |      |
 |         |                                                   |               |      |
 |         |                                                   |               |      |
 |         |                                                   |               |      |
