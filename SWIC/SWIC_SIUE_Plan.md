@@ -120,7 +120,9 @@ If math courses are allowed :
 
 ## SIUE M.S. in ECE Requirements
 
-33 credit hours, 18 of which must be 500-level courses.
+33 credit hours
+- 18 credit hours of 500-level courses
+- 15 credit hours of electives
 
 <center>. . .</center>
 
@@ -180,7 +182,8 @@ Other courses of interest :
 - PHYS 514 Photonics I
 - PHYS 515 Photonics II
 
-<center>. . .</center>
+
+### Selections
 
 > [!important] Seems like CVIP core courses cover ECE core courses requirements.
 
@@ -206,14 +209,28 @@ If Allowed :
 - CS 547 Network Programming
 
 
-CVIP core courses :
+CVIP core courses (9-500L, 6-400L) :
 
-| Number  | Title                                             | Prerequisites |
-| ------- | ------------------------------------------------- | ------------- |
-| ECE 438 | Image Analysis & Computer Vision                  | ECE 351 (CA)  |
-| ECE 439 | Digital Image Processing                          | ECE 351 (CA)  |
-| ECE 535 | Advanced Image Compression Methods and Algorithms | ECE 439       |
-| ECE 538 | Image Analysis & Computer Vision II               | ECE 438       |
-| ECE 539 | Digital Image Processing II                       | ECE 439       |
+| Number  | Title                                             | Credits | Prerequisites |
+| ------- | ------------------------------------------------- | ------- | ------------- |
+| ECE 438 | Image Analysis & Computer Vision                  | 3       | ECE 351 (CA)  |
+| ECE 439 | Digital Image Processing                          | 3       | ECE 351 (CA)  |
+| ECE 535 | Advanced Image Compression Methods and Algorithms | 3       | ECE 439       |
+| ECE 538 | Image Analysis & Computer Vision II               | 3       | ECE 438       |
+| ECE 539 | Digital Image Processing II                       | 3       | ECE 439       |
 
+Electives (9-500L, 9-400L):
 
+| Number  | Title                            | Prerequisites |
+| ------- | -------------------------------- | ------------- |
+| ECE 438 | Image Analysis & Computer Vision | ECE 351 (CA)  |
+| CS 438  | Artificial Intelligence          |               |
+|         |                                  |               |
+|         |                                  |               |
+|         |                                  |               |
+|         |                                  |               |
+|         |                                  |               |
+|         |                                  |               |
+|         |                                  |               |
+|         |                                  |               |
+|         |                                  |               |
