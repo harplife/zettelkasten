@@ -222,7 +222,7 @@ Other courses of interest :
 - PHYS 515 Photonics II
 
 
-### Selections
+### Current Plan
 
 > [!important] Seems like CVIP core courses cover ECE core courses requirements.
 
