@@ -25,35 +25,35 @@
 ## SIUE B.S. in CE Requirements
 
 
-| Topic                                  | SIUE                | Prerequisites                    |
-| -------------------------------------- | ------------------- | -------------------------------- |
-| Calculus I                             | MATH 150            |                                  |
-| Calculus II                            | MATH 152            |                                  |
-| Calculus III                           | MATH 250            |                                  |
-| Discrete Mathematcis                   | MATH 224            | CS 140                           |
-| Differential Equations I               | MATH 305            | MATH 250                         |
-| Engineering Chemistry & Lab            | CHEM 131<br>or 121  |                                  |
-| Physics I for Engineering & Lab        | PHYS 141<br>or 151? |                                  |
-| Physics II for Engineering & Lab       | PHYS 142<br>or 152? |                                  |
-| Introduction to Computing I            | CS 140              |                                  |
-| Introduction to Computing II           | CS 150              | CS 140                           |
-| Intro to Computer Organization & Arch. | CS 286              | CS 150                           |
-| Operating Systems                      | CS 314              | CS 286                           |
-| Algorithms and Data Structures         | CS 340              | CS 150, MATH 224, MATH 150       |
-| Engineering Problem Solving            | IE 106              |                                  |
-| Engineering Economic Analysis          | IE 345              |                                  |
-| Circuit Analysis I                     | ECE 210             | MATH 150                         |
-| Circuit Analysis II                    | ECE 211             | ECE 210, MATH 250, MATH 305 (CA) |
-| Digital Systems Design                 | ECE 282             | CS 140                           |
-| Electronic Circuits I                  | ECE 326             | ECE 211                          |
-| Signals and Systems                    | ECE 351             | ECE 211                          |
-| Probability and Statistics             | ECE 352             | ECE 351 (CA)                     |
-| Microcontrollers                       | ECE 381             | ECE 282                          |
-| ECE Design (Senior Project Part 1)     | ECE 404             |                                  |
-| ECE Design Lab (Senior Project Part 2) | ECE 405             |                                  |
-| Advanced Digital Systems Engineering   | ECE 483             | ECE 282                          |
+| Number              | Title                                  | Prerequisites                    |
+| ------------------- | -------------------------------------- | -------------------------------- |
+| MATH 150            | Calculus I                             |                                  |
+| MATH 152            | Calculus II                            |                                  |
+| MATH 250            | Calculus III                           |                                  |
+| MATH 224            | Discrete Mathematcis                   | CS 140                           |
+| MATH 305            | Differential Equations I               | MATH 250                         |
+| CHEM 131<br>or 121  | Engineering Chemistry & Lab            |                                  |
+| PHYS 141<br>or 151? | Physics I for Engineering & Lab        |                                  |
+| PHYS 142<br>or 152? | Physics II for Engineering & Lab       |                                  |
+| CS 140              | Introduction to Computing I            |                                  |
+| CS 150              | Introduction to Computing II           | CS 140                           |
+| CS 286              | Intro to Computer Organization & Arch. | CS 150                           |
+| CS 314              | Operating Systems                      | CS 286                           |
+| CS 340              | Algorithms and Data Structures         | CS 150, MATH 224, MATH 150       |
+| IE 106              | Engineering Problem Solving            |                                  |
+| IE 345              | Engineering Economic Analysis          |                                  |
+| ECE 210             | Circuit Analysis I                     | MATH 150                         |
+| ECE 211             | Circuit Analysis II                    | ECE 210, MATH 250, MATH 305 (CA) |
+| ECE 282             | Digital Systems Design                 | CS 140                           |
+| ECE 326             | Electronic Circuits I                  | ECE 211                          |
+| ECE 351             | Signals and Systems                    | ECE 211                          |
+| ECE 352             | Probability and Statistics             | ECE 351 (CA)                     |
+| ECE 381             | Microcontrollers                       | ECE 282                          |
+| ECE 404             | ECE Design (Senior Project Part 1)     |                                  |
+| ECE 405             | ECE Design Lab (Senior Project Part 2) |                                  |
+| ECE 483             | Advanced Digital Systems Engineering   | ECE 282                          |
 
-> "CC" for Concurrency Allowed
+> "CA" for Concurrency Allowed
 
 
 > [!important] **ECE 351 Signals and Systems** seems to be a core course that is prerequisite for many grad-level courses.
@@ -91,17 +91,17 @@ Considerations for electives :
 |                                |         |                   |          |
 |                                |         |                   |          |
 
-If math courses are allowed :
+If courses outside the department are allowed :
 
-| Topic                      | SIUE     | Prerequisites | Leads to |
-| -------------------------- | -------- | ------------- | -------- |
-|                            |          |               |          |
-| Introduction to Analysis   | MATH 350 |               |          |
-| Engineering Mathematics    | MATH 355 | MATH 305      |          |
-| Applied Numerical Analysis | MATH 462 |               |          |
-|                            |          |               |          |
-|                            |          |               |          |
-|                            |          |               |          |
+| Topic                      | SIUE     | Prerequisites      | Leads to |
+| -------------------------- | -------- | ------------------ | -------- |
+|                            |          |                    |          |
+| Introduction to Analysis   | MATH 350 |                    |          |
+| Engineering Mathematics    | MATH 355 | MATH 305           |          |
+| Applied Numerical Analysis | MATH 462 |                    |          |
+| Waves                      | PHYS 251 | PHYS 152, MATH 250 | PHYS 410 |
+|                            |          |                    |          |
+|                            |          |                    |          |
 
 
 
@@ -115,6 +115,45 @@ If math courses are allowed :
 | MATH 271 Computer Science II  | CS 150 Intro to Computing II   |
 | ENGR 103 Engineering Graphics | CE 204 Engineering Graphics    |
 | ENGR 271 Electrical Circuit   | ECE 210 Circuit Analysis I     |
+
+
+## Minor in B.S. Physics
+
+Required Courses :
+- PHYS 151/151L – University Physics I
+- PHYS 152/152L – University Physics II
+- PHYS 201/201L – University Physics III
+- PHYS 251 – Waves
+
+One of the following :
+- PHYS 230 – Planetary and Solar System Astronomy
+- PHYS 240 – Introduction to Biomedical Physics
+- PHYS 304 – Intro to Quantum Physics
+- PHYS 314 – Modern Data Acquisition
+- PHYS 318 – Theory & Application of Electronic Measure
+- PHYS 320 – Special Relativity
+- PHYS 321 – Mechanics
+- PHYS 323 – Statistical Mechanics
+- PHYS 406 – Electromagnetic Fields and Waves
+- PHYS 410 – Optics
+- PHYS 416 – Quantum Mechanics
+- PHYS 419 – Mathematical Physics
+- PHYS 430 – Intro to Physics Education Research
+- PHYS 450 – Solid State Physics
+
+
+### Current Plan
+
+Revised : 2026/03/08
+
+| Number   | Title                  | Pre.                         | Note          |
+| -------- | ---------------------- | ---------------------------- | ------------- |
+| PHYS 151 | University Physics I   |                              | SWIC PHYS 205 |
+| PHYS 152 | University Physics II  |                              | SWIC PHYS 206 |
+| PHYS 201 | University Physics III |                              | SWIC PHYS 207 |
+| PHYS 251 | Waves                  | PHYS 152                     |               |
+| PHYS 410 | Optics                 | PHYS 201, PHYS 251, MATH 305 |               |
+
 
 
 
@@ -161,7 +200,7 @@ Take four or five of the following (maximum of two out-of-department courses) :
 - GEOG 422 Remote Sensing and Digital Image Processing
 - CS 438 Artificial Intelligence
 - CS 482 Computer Graphics
-- CS 582 Topics in Computer Graphics
+- CS 582 Advanced Computer Graphics
 - MATH 421 Linear Algebra II
 - MATH 423 Combinatorics and Graph Theory
 - MATH 466 Numerical Linear Algebra with Applications
@@ -203,11 +242,6 @@ Electives :
 - ECE 510 Engineering Research Methods
 - ECE 563 Optimal Control
 
-If Allowed :
-- PHYS 514 Photonics I
-- CS 535 Software Engineering
-- CS 547 Network Programming
-
 
 CVIP core courses (9-500L, 6-400L) :
 
@@ -219,18 +253,26 @@ CVIP core courses (9-500L, 6-400L) :
 | ECE 538 | Image Analysis & Computer Vision II               | 3       | ECE 438       |
 | ECE 539 | Digital Image Processing II                       | 3       | ECE 439       |
 
-Electives (9-500L, 9-400L):
+Electives (9-500L, 9-400L) :
 
-| Number  | Title                            | Prerequisites |
-| ------- | -------------------------------- | ------------- |
-| ECE 438 | Image Analysis & Computer Vision | ECE 351 (CA)  |
-| CS 438  | Artificial Intelligence          |               |
-|         |                                  |               |
-|         |                                  |               |
-|         |                                  |               |
-|         |                                  |               |
-|         |                                  |               |
-|         |                                  |               |
-|         |                                  |               |
-|         |                                  |               |
-|         |                                  |               |
+| Number   | Title                            | Credits | Prerequisites                |
+| -------- | -------------------------------- | ------- | ---------------------------- |
+| ECE 436  | Digital Signal Processing        | 3       | ECE 351 (CA)                 |
+| ECE 438  | Image Analysis & Computer Vision | 3       | ECE 351 (CA)                 |
+| CS 438   | Artificial Intelligence          | 3       | CS 340                       |
+| CS 482   | Computer Graphics                | 3       | CS 150, CS 286, MATH 152     |
+| CS 582   | Advanced Computer Graphics       | 3       | CS 482                       |
+| ECE 510  | Engineering Research Methods     | 3       |                              |
+| ECE 532  | Applications of DSP              | 3       | ECE 436, ECE 352             |
+| CS 537   | Intro to Expert Systems          | 3       | CS 340                       |
+|          |                                  |         |                              |
+| PHYS 410 | Optics                           | 3       | PHYS 201, PHYS 251, MATH 305 |
+|          |                                  |         |                              |
+|          |                                  |         |                              |
+
+
+
+## SIUE B.S. to M.S. Complete Planner
+
+B.S. in CE with electives specifically geared towards M.S. in ECE.
+
