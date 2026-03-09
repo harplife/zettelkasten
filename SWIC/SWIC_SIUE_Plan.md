@@ -222,6 +222,12 @@ Other courses of interest :
 - PHYS 515 Photonics II
 
 
+> [!important] GEOG courses seem interesting too
+> - GEOG 421 Digital Elevation Modeling
+> - GEOG 422 Remote Sensing and Digital Image Processing
+> - 
+
+
 ### Current Plan
 
 > [!important] Seems like CVIP core courses cover ECE core courses requirements.
