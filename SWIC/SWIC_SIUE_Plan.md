@@ -228,6 +228,13 @@ Other courses of interest :
 > - GEOG 444 Drones for Mapping and Communication
 > - 
 
+> [!important] Mechanical Engineering courses to check out
+> - ME 262 Dynamics
+> - ME 354 Numerical Simulation
+> - ME 356 Dynamical Systems Modeling
+> - ME 370 Materials Engineering
+
+
 
 ### Current Plan
 
