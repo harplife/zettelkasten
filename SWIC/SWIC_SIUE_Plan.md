@@ -226,7 +226,7 @@ Other courses of interest :
 > - GEOG 421 Digital Elevation Modeling
 > - GEOG 422 Remote Sensing and Digital Image Processing
 > - GEOG 444 Drones for Mapping and Communication
-> - 
+
 
 > [!important] Mechanical Engineering courses to check out
 > - ME 262 Dynamics
