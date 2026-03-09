@@ -320,13 +320,15 @@ B.S. in CE with electives specifically geared towards M.S. in ECE.
 
 Eleven courses with at least six 500-level courses.
 
-| Number  | Title                                             | Prerequisites | Note |
-| ------- | ------------------------------------------------- | ------------- | ---- |
-| ECE 510 | Engineering Research Methods                      |               |      |
-| ECE 535 | Advanced Image Compression Methods and Algorithms | ECE 439       |      |
-| ECE 538 | Image Analysis & Computer Vision II               | ECE 438       |      |
-| ECE 539 | Digital Image Processing II                       | ECE 439       |      |
-| CS 582  | Advanced Computer Graphics                        | CS 482        |      |
-|         |                                                   |               |      |
-|         |                                                   |               |      |
-|         |                                                   |               |      |
+| Number  | Title                                             | Prerequisites | Note      |
+| ------- | ------------------------------------------------- | ------------- | --------- |
+| ECE 510 | Engineering Research Methods                      |               |           |
+| ECE 535 | Advanced Image Compression Methods and Algorithms | ECE 439       | CVIP core |
+| ECE 538 | Image Analysis & Computer Vision II               | ECE 438       | CVIP core |
+| ECE 539 | Digital Image Processing II                       | ECE 439       | CVIP core |
+| CS 582  | Advanced Computer Graphics                        | CS 482        |           |
+| CS 537  | Introduction to Expert Systems                    | CS 340        |           |
+|         |                                                   |               |           |
+|         |                                                   |               |           |
+|         |                                                   |               |           |
+|         |                                                   |               |           |
