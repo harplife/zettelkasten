@@ -233,6 +233,9 @@ Other courses of interest :
 > - ME 354 Numerical Simulation
 > - ME 356 Dynamical Systems Modeling
 > - ME 370 Materials Engineering
+> - ME 450 Automatic Control
+> - ME 458 Mechatronics
+> - ME 466 Digital Control
 
 
 
