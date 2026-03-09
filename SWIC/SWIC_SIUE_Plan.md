@@ -287,6 +287,11 @@ B.S. in CE with electives specifically geared towards M.S. in ECE.
 
 > [!important] Each table is set based on fulfilled prerequisites.
 
+> [!important] Regarding Spring 2027
+> Course load for Spring 2027 at SWIC is looking to be too small. I might be better off taking Electrical Circuits (Circuit Analysis I), Differential Equations, and University Physics III (Light) at SIUE.
+
+PHYS 201 (SWIC PHYS 206) University Physics III (Light) may have to be taken at SIUE.
+
 | Number   | Title                         | Prerequisites | Note                 |
 | -------- | ----------------------------- | ------------- | -------------------- |
 | CS 140   | Introduction to Computing I   |               |                      |
