@@ -29,3 +29,18 @@ $$
 | Negative Exponent Rule   | $a^{-m}=\frac{1}{a^m}$                         |
 | Fractional Exponent Rule | $a^{m/n}=\sqrt[n]{ a^m }$                      |
 
+
+### Exponent Problem Traps
+
+#### Hidden Base Conversion Trap
+
+Trap : Two exponents with different bases, but they turn out to be powers of the same base.
+
+#example Hidden base conversion trap in $\frac{16x}{8x}$ :
+
+$$
+\begin{align}
+  \text{Simplify : }\frac{16x}{8x} \\
+
+\end{align}
+$$
