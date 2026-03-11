@@ -13,15 +13,17 @@
 | Quotient Rule          | $\frac{d}{dx}\left[ \frac{f(x)}{g(x)} \right]=\frac{g(x)f'(x)-f(x)g'(x)}{[g(x)]^2}$ |
 | Chain Rule             | $\frac{d}{dx}f(g(x))=f'(g(x))g'(x)$                                                 |
 
+
 ## Derivative of Exponential Functions
 
+| Name                     | Equation                                                                         |
+| ------------------------ | -------------------------------------------------------------------------------- |
+| Special Exponential Rule | $\frac{d}{dx}(e^{g(x)})=e^{g(x)}g'(x)$<br>or $\frac{d}{dx}(e^x)=e^x$             |
+| General Exponential Rule | $\frac{d}{dx}(a^{g(x)})=\ln(a)a^{g(x)}g'(x)$<br>or $\frac{d}{dx}(a^x)=\ln(a)a^x$ |
 
-|     | Equation                                     |
-| --- | -------------------------------------------- |
-|     | $\frac{d}{dx}(e^{g(x)})=e^{g(x)}g'(x)$       |
-|     | $\frac{d}{dx}(a^{g(x)})=\ln(a)a^{g(x)}g'(x)$ |
-|     | $\frac{d}{dx}(e^x)=e^x$                      |
-|     | $\frac{d}{dx}(a^x)=\ln(a)a^x$                |
+$$
+a^x = e^{x \ln a}
+$$
 
 
 ## Derivative of Logarithmic Functions
