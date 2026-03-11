@@ -137,10 +137,11 @@ $$
 The formal definition of Logarithms :
 
 $$
-\text{If } x=b^y, \text{ then } y=\log_{b} x
+\text{If } x=b^y, \text{ then } y=\log_{b} x \quad \text{given } x>0
 $$
 
 where $b$ is the base, $x$ is the argument, and $y$ is the exponent result.
+- $x>0$ because $b^y$ can never produce a negative number.
 
 #define A <mark class="hltr-trippy">Common Logarithm</mark> refers to a logarithm with base $10$, and it is denoted simply as $\log x$ without any indication of the base.
 
@@ -149,3 +150,15 @@ where $b$ is the base, $x$ is the argument, and $y$ is the exponent result.
 
 ### Logarithm Rules/Laws
 
+
+| Name                | Equation                                                                            |
+| ------------------- | ----------------------------------------------------------------------------------- |
+| Product Rule        | $\log_{b}(xy)=\log_{b}x+\log_{b}y$                                                  |
+| Quotient Rule       | $\log_{b}\left(\frac{x}{y} \right)=\log_{b}x-\log_{b}y$                             |
+| Power Rule          | $\log_{b}(x^n)=n \log_{b} x$                                                        |
+| Change of Base Rule | $\log_{b}x=\frac{\log_{c}x}{\log_{c}b}$<br>or $\log_{b}x \cdot \log_{c}b=\log_{c}x$ |
+| Zero Rule           | $\log_{b}(1)=0$                                                                     |
+| Identity Rule       | $\log_{b}(b)=1$                                                                     |
+| Equality Rule       | $\log_{b}x=\log_{b}y \to x=y$                                                       |
+| Inverse Rule        | $b^{\log_{b}x}=x \log_{b}(b^x)=x$                                                   |
+| Reciprocal Rule     | $\log_{b}\left( \frac{1}{x} \right)=-\log_{b}(x)$                                   |
