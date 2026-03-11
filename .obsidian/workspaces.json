@@ -1182,13 +1182,13 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "math/Exponents.md",
+                    "file": "math/Exponents_and_Logarithms.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": false
                   },
                   "icon": "lucide-file",
-                  "title": "Exponents"
+                  "title": "Exponents_and_Logarithms"
                 }
               }
             ],
@@ -1272,13 +1272,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "math/Exponents.md",
+                    "file": "math/Exponents_and_Logarithms.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of Exponents"
+                  "title": "Outline of Exponents_and_Logarithms"
                 }
               }
             ]
@@ -1389,7 +1389,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "math/Exponents.md",
+                    "file": "math/Exponents_and_Logarithms.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1399,7 +1399,7 @@
                     "unlinkedCollapsed": false
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for Exponents"
+                  "title": "Backlinks for Exponents_and_Logarithms"
                 }
               }
             ],
@@ -1426,7 +1426,7 @@
         }
       },
       "active": "4c4962a1051d0678",
-      "mtime": "2026-03-11T08:01:24-05:00",
+      "mtime": "2026-03-11T13:01:06-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "math",

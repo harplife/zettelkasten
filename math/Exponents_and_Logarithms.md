@@ -1,8 +1,8 @@
-# Exponents
+# Exponents and Logarithms
 
-## Basic Algebra
+## Exponents
 
-An exponent or power is a mathematical operation of repeated multiplication, represented by base $b$ and exponent $n$ :
+#define An <mark class="hltr-trippy">Exponentiation</mark> is a mathematical operation, denoted as $b^n$, that represents repeated multiplication of a base number $b$ by itself a specified number of times $n$, known as the *exponent* or *power*.
 
 $$
 b^n
@@ -128,4 +128,24 @@ $$
   \text{Simplify } &: (2^4)^{3x/4} = 2^{4 \cdot 3x/4} = 2^{3x}
 \end{align}
 $$
+
+
+## Logarithms
+
+#define A <mark class="hltr-trippy">Logarithm</mark> is the **inverse** operation of **exponentiation**, representing the exponent to which a base number must be raised to produce a given value.
+
+The formal definition of Logarithms :
+
+$$
+\text{If } x=b^y, \text{ then } y=\log_{b} x
+$$
+
+where $b$ is the base, $x$ is the argument, and $y$ is the exponent result.
+
+#define A <mark class="hltr-trippy">Common Logarithm</mark> refers to a logarithm with base $10$, and it is denoted simply as $\log x$ without any indication of the base.
+
+#define A Natural Logarithm refers to a logarithm with base $e$, and it is denoted as $\ln x$.
+
+
+### Logarithm Rules/Laws
 
