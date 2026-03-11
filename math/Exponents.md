@@ -78,9 +78,9 @@ Trap : Exponents with different powers can be factored.
 
 $$
 \begin{align}
-  \text{Rewrite } &: 3^{2x}+3^{2x} \cdot 3 \\
-  \text{Factor } &: 3^{2x}(1+3) \\
-  \text{Simplify } &: 4 \cdot 3^{2x}
+  \text{Rewrite } &: 3^{2x+1} = 3^{2x} \cdot 3 \to 3^{2x}+3^{2x} \cdot 3 \\
+  \text{Factor } &: 3^{2x}(1+3) = 4 \cdot 3^{2x}\\
+  \text{Simplify } &: 4 \cdot 3^{2x} = 4 \cdot 9^x
 \end{align}
 $$
 
@@ -116,4 +116,16 @@ $$
 $$
 
 
-#### Hidden Simplification Trap
+#### Fractional Exponent Trap
+
+Trap : Fractional exponents can sometimes be cancelled out.
+
+#eaxmple Fractional exponent trap in $16^{3x/4}$ :
+
+$$
+\begin{align}
+  \text{Rewrite } &: 16 = 2^4 \to (2^4)^{3x/4} \\
+  \text{Simplify } &: (2^4)^{3x/4} = 2^{4 \cdot 3x/4} = 2^{3x}
+\end{align}
+$$
+
