@@ -150,7 +150,6 @@ where $b$ is the base, $x$ is the argument, and $y$ is the exponent result.
 
 ### Logarithm Rules/Laws
 
-
 | Name                | Equation                                                                            |
 | ------------------- | ----------------------------------------------------------------------------------- |
 | Product Rule        | $\log_{b}(xy)=\log_{b}x+\log_{b}y$                                                  |
