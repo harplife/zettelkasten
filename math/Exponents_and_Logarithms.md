@@ -161,3 +161,4 @@ where $b$ is the base, $x$ is the argument, and $y$ is the exponent result.
 | Equality Rule       | $\log_{b}x=\log_{b}y \to x=y$                                                       |
 | Inverse Rule        | $b^{\log_{b}x}=x \log_{b}(b^x)=x$                                                   |
 | Reciprocal Rule     | $\log_{b}\left( \frac{1}{x} \right)=-\log_{b}(x)$                                   |
+
