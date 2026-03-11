@@ -16,15 +16,35 @@
 ## Derivative of Exponential Functions
 
 
-
+|     | Equation                                     |
+| --- | -------------------------------------------- |
+|     | $\frac{d}{dx}(e^{g(x)})=e^{g(x)}g'(x)$       |
+|     | $\frac{d}{dx}(a^{g(x)})=\ln(a)a^{g(x)}g'(x)$ |
+|     | $\frac{d}{dx}(e^x)=e^x$                      |
+|     | $\frac{d}{dx}(a^x)=\ln(a)a^x$                |
 
 
 ## Derivative of Logarithmic Functions
 
-
+| Name | Equation                                             |
+| ---- | ---------------------------------------------------- |
+|      | $\frac{d}{dx}(\ln x)=\frac{1}{x}, x>0$               |
+|      | $\frac{d}{dx}\ln(g(x))=\frac{g'(x)}{g(x)}$           |
+|      | $\frac{d}{dx}(\log_{a}x)=\frac{1}{x \ln a}, x>0$     |
+|      | $\frac{d}{dx}(\log_{a}g(x))=\frac{g'(x)}{g(x)\ln a}$ |
 
 
 ## Derivative of Trigonometric Functions
+
+| Name                    | Equation                              |
+| ----------------------- | ------------------------------------- |
+| Derivative of Sine      | $\frac{d}{dx}(\sin x)=\cos x$         |
+| Derivative of Cosine    | $\frac{d}{dx}(\cos x)=-\sin x$        |
+| Derivative of Tangent   | $\frac{d}{dx}(\tan x)=\sec^2 x$       |
+| Derivative of Cotangent | $\frac{d}{dx}(\cot x)=-\csc^2 x$      |
+| Derivative of Secant    | $\frac{d}{dx}(\sec x)=\sec x \tan x$  |
+| Derivative of Cosecant  | $\frac{d}{dx}(\csc x)=-\csc x \cot x$ |
+
 
 
 ### Inverse Trigonometric Functions
