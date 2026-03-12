@@ -8,50 +8,54 @@ The number $e$ is a mathematical constant, approximately equal to $2.71828$.
 - It is the base of the exponential function $f(x)=e^x$
 
 
-## Compound Interest
+## The Limit Definition of $e$
 
-As we learn math, $e$ first appears when studying continuous growth in precalculus. Specifically, we see that $e$ appears in compound interest.
+As we learn math, $e$ first appears when studying **continuous growth** in precalculus. Specifically, we see that $e$ appears in **compound interest**.
 
 Compound interest is defined by the formula :
 $$
 A = P\left( 1+\frac{r}{n} \right)^{nt}
 $$
+where :
+- $A$ is the total money after interest
+- $P$ is the initial investment called the principal
+- $r$ is the annual interest rate expressed as a decimal
+- $n$ is the compounding frequency (e.g. annually=1, monthly=12, daily=365)
+- $t$ is the total number of years
 
-If the bank compounds once per year, then :
+Compound interest becomes the number $e$ when interest is calculated and added to the principal continuously - at every possible instant rather than annually or monthly.
 
+In other words, the number $e$ represents the maximum possible growth rate for a 100% interest rate over one period, often referred to as **continuous compounding**.
+
+<center>. . .</center>
+
+Say initial investment is $P=1$, and the interest rate is $r=1$. Given one year $t=1$, let's see what happens when the compounding frequency $n$ is increased.
+
+If the bank compounds once per year $n=1$, then :
 $$
 (1+1)^1 = 2
 $$
 
-Twice per year :
-
+Four times per year $n=4$ :
 $$
-\left( 1+\frac{1}{2} \right)^2 = 2.25
-$$
-
-Four times per year :
-
-$$
-\left( 1+\frac{1}{4} \right)^4 \approx 2.441
+\left( 1+\frac{1}{4} \right)^4 \approx 2.441\dots
 $$
 
-$n$ times per year :
-
+365 times per year $n=365$ :
 $$
-\left( 1+\frac{1}{n} \right)^n
+\left( 1+\frac{1}{365} \right)^{365} \approx 2.714\dots
 $$
 
 If we compound infinitely often, the expression approaches :
+$$
+\lim_{ n \to \infty } \left( 1+\frac{1}{n} \right)^n \approx 2.718\dots
+$$
+Which is, $e$.
 
+Thus, $e$ is defined as :
 $$
 e = \lim_{ n \to \infty } \left( 1+\frac{1}{n} \right)^n
 $$
-
-Which approximates to $2.718\dots$
-
-
-
-
 
 
 ## Exponential Function
@@ -63,6 +67,50 @@ The [Exponential Function](https://en.wikipedia.org/wiki/Exponential_function) i
 It is called *exponential* because its argument can be seen as an exponent to which a constant number $e$ (the base) is raised.
 
 > [!important] I previously thought exponential function just meant any constant raised to $x$.
-> I think it's an important to note that $e^x$ is the base function; changing the base $n^x$ is just a variation of that base function.
+> I think it's an important to note that $e^x$ is the base function; changing the base $n^x$ is just a variation of that base function. In fact, $f(x)=ab^x$ is called the **General Exponential Function** - but it's just commonly referred to as an exponential function.
 > 
 > This makes sense why derivative of an exponential function whose base is not $e$ still includes a natural log.
+
+
+## The Limit Definition of $e^x$
+
+Recall the compound interest formula :
+$$
+A = P\left( 1+\frac{r}{n} \right)^{nt}
+$$
+
+Suppose $m=\frac{n}{r}$ :
+$$
+\begin{align}
+  A &= P\left( 1+\frac{r}{n} \right)^{nt} \\
+    &= P\left[ \left( 1+\frac{r}{n} \right)^{n/r} \right]^{rt} \\
+    &= P\left[ \left( 1+\frac{1}{m} \right)^m \right]^{rt}
+\end{align}
+$$
+
+Recall the limit definition of $e$ :
+$$
+e = \lim_{ n \to \infty } \left( 1+\frac{1}{n} \right)^n
+$$
+
+As $m$ becomes infinitely large, the quantity $\left( 1+\frac{1}{m} \right)^m$ approaches the number $e$. Thus, we can define the formula when compounding is done continuously :
+$$
+\begin{align}
+  A &= P\left[ \lim_{ n \to \infty } \left( 1+\frac{1}{m} \right)^m \right]^{rt} \\
+    &= Pe^{rt}
+\end{align}
+$$
+
+This is the formula for **Continuously Compounded Interest**, which serves as the theoretical upper limit of how fast the amount can grow under a given interest rate.
+
+Now, given that initial investment is $P=1$ and one year of time $t=1$, we can describe the total money after interest $A$ as a function of growth rate $r$. Say $x=r$ for convenience.
+
+$$
+f(x) = e^x
+$$
+
+In other words :
+$$
+f(x) = P\left[ \lim_{ n \to \infty } \left( 1+\frac{1}{m} \right)^m \right]^{xt}
+$$
+
