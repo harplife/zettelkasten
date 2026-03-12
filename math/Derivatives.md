@@ -21,9 +21,72 @@
 | Special Exponential Rule | $\frac{d}{dx}(e^{g(x)})=e^{g(x)}g'(x)$<br>or $\frac{d}{dx}(e^x)=e^x$             |
 | General Exponential Rule | $\frac{d}{dx}(a^{g(x)})=\ln(a)a^{g(x)}g'(x)$<br>or $\frac{d}{dx}(a^x)=\ln(a)a^x$ |
 
+#todo 2026-03-12
+- Why derivative of $e^x$ is $e^x$
+- Proof of the derivative of exponents (using chain rule)
+- why e matter?
+- Why does ln appear for general exponents?
+- Implicit differentiations
+
+In the context of calculus, how is Euler's number e defined?
+
+Tell me more about the part where you said we can convert exponentials using logs :
 $$
 a^x = e^{x \ln a}
 $$
+
+
+### Derivative of $e^x$ - The Limit Approach
+
+The derivative of a function $f(x)$ is defined as :
+$$
+\frac{d}{dx}f(x) = \lim_{ h \to 0 } \frac{f(x+h)-f(x)}{h}
+$$
+
+Given $f(x)=e^x$, we can find its derivative using the limit definition.
+
+---
+Step 1 - Define the derivative
+
+Let
+$$
+f(x) = e^x
+$$
+
+Then the derivative becomes
+$$
+\lim_{ h \to 0 } \frac{e^{x+h} - e^x}{h}
+$$
+
+---
+Step 2 - Use the exponent rule and factor
+
+By the product rule of exponents
+$$
+e^{x+h} = e^xe^h
+$$
+
+Substitute this into the expression
+$$
+\frac{e^xe^h-e^x}{h}
+$$
+
+Factor out $e^x$
+$$
+e^x \cdot \frac{e^h-1}{h}
+$$
+
+Now the derivative becomes
+$$
+e^x \lim_{ h \to 0 } \frac{e^h-1}{h}
+$$
+
+> [!important] Note that $e^x$ comes out of the limit because it does not depend on $h$.
+
+---
+Step 3 - Find the value that the limit reaches
+
+
 
 
 ## Derivative of Logarithmic Functions

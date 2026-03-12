@@ -128,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -208,13 +208,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "math/Exponents_and_Logarithms.md",
+                "file": "math/Derivatives.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Exponents_and_Logarithms"
+              "title": "Outline of Derivatives"
             }
           }
         ]
@@ -325,7 +325,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "math/Exponents_and_Logarithms.md",
+                "file": "math/Derivatives.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -335,7 +335,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Exponents_and_Logarithms"
+              "title": "Backlinks for Derivatives"
             }
           }
         ],
@@ -361,10 +361,10 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "4c4962a1051d0678",
+  "active": "6f3b17683bc259ff",
   "lastOpenFiles": [
-    "math/Derivatives.md",
     "math/Exponents_and_Logarithms.md",
+    "math/Derivatives.md",
     "math/calculus/Chapter 2/6_Continuity.md",
     "chemistry/Balancing_Chemical_Equations.md",
     "chemistry/nomenclature_of_compounds.md",
