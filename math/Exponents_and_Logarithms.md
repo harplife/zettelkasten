@@ -16,6 +16,7 @@ $$
 5^3 = 5 \times 5 \times 5 = 125
 $$
 
+
 ### Exponent Rules/Laws
 
 | Name                     | Equation                                       |
@@ -93,7 +94,7 @@ Trap : Expressions are written so that cancellation is not immediately obvious, 
 
 $$
 \begin{align}
-  \text{Rewrite } &: 4^{x+1} = (2)^{2x+21} \to \frac{2^{2x+2}}{2^{2x}} \\
+  \text{Rewrite } &: 4^{x+1} = (2)^{2x+2} \to \frac{2^{2x+2}}{2^{2x}} \\
   \text{Simplify } &: \frac{2^{2x+2}}{2^{2x}}=2^{2x+2-2x}=2^2=4
 \end{align}
 $$
