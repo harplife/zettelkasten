@@ -10,7 +10,13 @@ The number $e$ is a mathematical constant, approximately equal to $2.71828$.
 
 ## Exponential Function
 
-The Exponential Function is the unique real function which maps zero to one and has a derivative everywhere equal to its value.
+The [Exponential Function](https://en.wikipedia.org/wiki/Exponential_function) is the unique real function which maps zero to one and has a derivative everywhere equal to its value. It is denoted as $e^x$ or $\exp x$.
 
-![[exponential_function.svg|500]]
+![[exponential_function.svg|center|500]]
 
+It is called *exponential* because its argument can be seen as an exponent to which a constant number $e$ (the base) is raised.
+
+> [!important] I previously thought exponential function just meant any constant raised to $x$.
+> I think it's an important to note that $e^x$ is the base function; changing the base $n^x$ is just a variation of that base function.
+> 
+> This makes sense why derivative of an exponential function whose base is not $e$ still includes a natural log.

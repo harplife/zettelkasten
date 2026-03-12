@@ -2,8 +2,8 @@ img {
 	background: white;
 }
 
-img[alt*="center"] {
+img[alt*="center"],
+.cm-content .image-embed[alt*="center"] {
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	margin-inline: auto !important;
 }
