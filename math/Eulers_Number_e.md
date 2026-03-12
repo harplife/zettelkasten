@@ -101,6 +101,8 @@ $$
 
 Here, we see that $e^t$ is represents the theoretical upper limit of the growth rate at any given time $t$.
 
+<center>. . .</center>
+
 
 
 ---
