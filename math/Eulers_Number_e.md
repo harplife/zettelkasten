@@ -74,10 +74,41 @@ It is called *exponential* because its argument can be seen as an exponent to wh
 
 ## The Limit Definition of $e^x$
 
+
+
+
+
+---
+
+
 Recall the compound interest formula :
 $$
 A = P\left( 1+\frac{r}{n} \right)^{nt}
 $$
+
+Let's say the initial investment is $P=1$ with interest rate $r=1$. The formula then becomes :
+$$
+A = \left( 1+\frac{1}{n} \right)^{nt}
+$$
+
+If we look at what happens to growth as $n$ approaches infinity, we get :
+$$
+\lim_{ n \to \infty } \left( 1+\frac{r}{n} \right)^n
+$$
+
+Recall the limit definition of $e$ :
+$$
+e = \lim_{ n \to \infty } \left( 1+\frac{1}{n} \right)^n
+$$
+
+$$
+e^x = \lim_{ n \to \infty } \left( 1+\frac{x}{n} \right)^n
+$$
+
+$$
+e = \lim_{ n \to \infty } \left( 1+\frac{1}{n} \right)^n
+$$
+
 
 Suppose $m=\frac{n}{r}$ :
 $$
@@ -88,10 +119,6 @@ $$
 \end{align}
 $$
 
-Recall the limit definition of $e$ :
-$$
-e = \lim_{ n \to \infty } \left( 1+\frac{1}{n} \right)^n
-$$
 
 As $m$ becomes infinitely large, the quantity $\left( 1+\frac{1}{m} \right)^m$ approaches the number $e$. Thus, we can define the formula when compounding is done continuously :
 $$
