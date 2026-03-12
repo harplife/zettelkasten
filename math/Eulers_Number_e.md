@@ -74,13 +74,6 @@ It is called *exponential* because its argument can be seen as an exponent to wh
 
 ## The Limit Definition of $e^x$
 
-
-
-
-
----
-
-
 Recall the compound interest formula :
 $$
 A = P\left( 1+\frac{r}{n} \right)^{nt}
@@ -88,18 +81,38 @@ $$
 
 Let's say the initial investment is $P=1$ with interest rate $r=1$. The formula then becomes :
 $$
-A = \left( 1+\frac{1}{n} \right)^{nt}
+\left( 1+\frac{1}{n} \right)^{nt}
 $$
 
-If we look at what happens to growth as $n$ approaches infinity, we get :
+By the product rule of the exponents, we can change the expression to :
 $$
-\lim_{ n \to \infty } \left( 1+\frac{r}{n} \right)^n
+\left( 1+\frac{1}{n} \right)^{nt} = \left[ \left( 1+\frac{1}{n} \right)^n \right]^t
 $$
 
 Recall the limit definition of $e$ :
 $$
 e = \lim_{ n \to \infty } \left( 1+\frac{1}{n} \right)^n
 $$
+
+Suppose we take compound frequency $n$ to infinity, we then get :
+$$
+\left[\lim_{ n \to \infty }  \left( 1+\frac{1}{n} \right)^n \right]^t = e^t
+$$
+
+Here, we see that $e^t$ is represents the theoretical upper limit of the growth rate at any given time $t$.
+
+
+
+---
+
+
+
+If we look at what happens to growth as $n$ approaches infinity, we get :
+$$
+\lim_{ n \to \infty } \left( 1+\frac{r}{n} \right)^n
+$$
+
+
 
 $$
 e^x = \lim_{ n \to \infty } \left( 1+\frac{x}{n} \right)^n
