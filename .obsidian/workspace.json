@@ -358,7 +358,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 362.5
+    "width": 362.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -378,6 +379,8 @@
   },
   "active": "33eb81d590fd6e44",
   "lastOpenFiles": [
+    "attachments/exponential_function.svg",
+    "attachments/exponential_function.svg.opdownload",
     "math/Derivatives.md",
     "math/Eulers_Number_e.md",
     "math/Exponents_and_Logarithms.md",
@@ -422,8 +425,6 @@
     "math/calculus/Chapter 2/1_The_Idea_of_Limits.md",
     "attachments/IPA-features.svg.opdownload",
     "attachments/IPA_in_IPA.svg.opdownload",
-    "attachments/IPA_chart_2020.svg.opdownload",
-    "anthropology/ANTH_150_Cultural_Anthropology.md",
     "computer_graphics/Computer_Graphics_Mindmap.canvas",
     "computer_graphics/projects/solo_leveling_mindmap.canvas",
     "architecture/architecture_mindmap.canvas",
