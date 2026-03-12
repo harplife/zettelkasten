@@ -163,3 +163,204 @@ where $b$ is the base, $x$ is the argument, and $y$ is the exponent result.
 | Inverse Rule        | $b^{\log_{b}x}=x \log_{b}(b^x)=x$                                                   |
 | Reciprocal Rule     | $\log_{b}\left( \frac{1}{x} \right)=-\log_{b}(x)$                                   |
 
+
+#### Proof of The Product Rule
+
+Rule :
+$$
+\log_{b}(xy)=\log_{b}(x)+\log_{b}(y)
+$$
+
+---
+**Step 1 - Define the logs**
+
+Let
+$$
+\begin{align}
+  \log_{b}(x) &= m \\
+  \log_{b}(y) &= n
+\end{align}
+$$
+
+By definition of logarithm :
+$$
+\begin{align}
+  b^m &= x \\
+  b^n &=y 
+\end{align}
+$$
+
+---
+**Step 2 - Multiply the numbers**
+
+$$
+xy = (b^m)(b^n)
+$$
+
+Using the product rule of exponents :
+$$
+b^mb^n = b^{m+n}
+$$
+
+So
+$$
+xy = b^{m+n}
+$$
+
+---
+**Step 3 - Convert back to logarithm form**
+
+If
+$$
+  b^{m+n} = xy
+$$
+
+and
+$$
+\log_{b}(b^{m+n}) = m+n
+$$
+
+then
+$$
+\log_{b}(xy) = m+n
+$$
+
+---
+**Step 4 - Substitute back the original numbers**
+
+Recall
+$$
+\begin{align}
+  m = \log_{b}(x) \\
+  n = \log_{b}(y)
+\end{align}
+$$
+
+Plug in the original logs to finalize the proof
+$$
+\log_{b}(xy) = \log_{b}(x) + \log_{b}(y)
+$$
+
+
+#### Proof of the Power Rule
+
+Rule :
+$$
+\log_{b}(x^k) = k \log_{b}(x)
+$$
+
+---
+**Step 1 - Define the logarithm**
+
+Let
+$$
+\log_{b}(x) = m
+$$
+
+By definition of logarithm
+$$
+x = b^m
+$$
+
+---
+**Step 2 - Raise both sides to power** $k$
+
+$$
+x^k = (b^m)^k
+$$
+
+By the power of the product rule of exponents
+$$
+(b^m)^k=b^{mk}
+$$
+
+So
+$$
+x^k = b^{mk}
+$$
+
+---
+**Step 3 - Convert back to log**
+
+If
+$$
+b^{mk} = x^k
+$$
+
+and
+$$
+\log_{b}(b^{mk})=mk
+$$
+
+Then
+$$
+\log_{b}(x^k)=mk
+$$
+
+---
+**Step 4 - Substitute back the original numbers**
+
+Recall
+$$
+m = \log_{b}(x)
+$$
+
+Substitute the original log and finalize the proof
+$$
+\log_{b}(x^k) = k \log_{b}(x)
+$$
+
+
+#### Proof of the Change of Base Rule
+
+Rule :
+$$
+\log_{b}(a) = \frac{\log_{c}(a)}{\log_{c}(b)}
+$$
+
+---
+Step 1 - Define the logarithm
+
+Let
+$$
+x = \log_{b}(a)
+$$
+
+By definition of logarithm :
+$$
+b^x=a
+$$
+
+---
+**Step 2 - Take log base** $c$ **of both sides**
+
+$$
+\log_{c}(b^x) = \log_{c}(a)
+$$
+
+---
+**Step 3 - Apply the power rule**
+
+$$
+x \log_{c}(b) = \log_{c}(a)
+$$
+
+---
+**Step 4 - Isolate** $x$
+
+$$
+x = \frac{\log_{c}(a)}{\log_{c}(b)}
+$$
+
+---
+**Step 5 - Substitute the original number**
+
+Recall
+$$
+x = \log_{b}(a)
+$$
+
+Substitute the original log and finalize the proof
+$$
+\log_{b}(a) = \frac{\log_{c}(a)}{\log_{c}(b)}
+$$
