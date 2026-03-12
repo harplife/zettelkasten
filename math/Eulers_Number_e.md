@@ -8,6 +8,21 @@ The number $e$ is a mathematical constant, approximately equal to $2.71828$.
 - It is the base of the exponential function $f(x)=e^x$
 
 
+## Compound Interest
+
+As we learn math, $e$ first appears when studying continuous growth in precalculus. Specifically, we see that $e$ appears in compound interest.
+
+Compound interest is defined by the formula :
+$$
+A = P\left( 1+\frac{r}{n} \right)^{nt}
+$$
+
+
+
+
+
+
+
 ## Exponential Function
 
 The [Exponential Function](https://en.wikipedia.org/wiki/Exponential_function) is the unique real function which maps zero to one and has a derivative everywhere equal to its value. It is denoted as $e^x$ or $\exp x$.
