@@ -158,7 +158,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -238,13 +238,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "math/precalculus/Chapter 4/2_The_Natural_Exponential_Function.md",
+                "file": "math/Eulers_Number_e.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2_The_Natural_Exponential_Function"
+              "title": "Outline of Eulers_Number_e"
             }
           }
         ]
@@ -355,7 +355,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "math/precalculus/Chapter 4/2_The_Natural_Exponential_Function.md",
+                "file": "math/Eulers_Number_e.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -365,7 +365,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2_The_Natural_Exponential_Function"
+              "title": "Backlinks for Eulers_Number_e"
             }
           }
         ],
@@ -391,10 +391,11 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "73e8e7e2a8863899",
+  "active": "33eb81d590fd6e44",
   "lastOpenFiles": [
-    "math/precalculus/Chapter 4/1_Exponential_Functions.md",
+    "math/precalculus/Chapter 4/2_The_Natural_Exponential_Function.md",
     "math/Eulers_Number_e.md",
+    "math/precalculus/Chapter 4/1_Exponential_Functions.md",
     "attachments/exponential_function.svg",
     "attachments/exponential_function.svg.opdownload",
     "math/Derivatives.md",
@@ -436,7 +437,6 @@
     "chemistry/Timeline_of_Element_Discoveries.md",
     "chemistry/alchemy/Alchemy.md",
     "chemistry/alchemy/The_Holocene_Alchemist.md",
-    "math/calculus/Chapter 2/1_The_Idea_of_Limits.md",
     "attachments/IPA-features.svg.opdownload",
     "attachments/IPA_in_IPA.svg.opdownload",
     "computer_graphics/Computer_Graphics_Mindmap.canvas",

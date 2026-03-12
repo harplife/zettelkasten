@@ -17,6 +17,37 @@ $$
 A = P\left( 1+\frac{r}{n} \right)^{nt}
 $$
 
+If the bank compounds once per year, then :
+
+$$
+(1+1)^1 = 2
+$$
+
+Twice per year :
+
+$$
+\left( 1+\frac{1}{2} \right)^2 = 2.25
+$$
+
+Four times per year :
+
+$$
+\left( 1+\frac{1}{4} \right)^4 \approx 2.441
+$$
+
+$n$ times per year :
+
+$$
+\left( 1+\frac{1}{n} \right)^n
+$$
+
+If we compound infinitely often, the expression approaches :
+
+$$
+e = \lim_{ n \to \infty } \left( 1+\frac{1}{n} \right)^n
+$$
+
+Which approximates to $2.718\dots$
 
 
 
