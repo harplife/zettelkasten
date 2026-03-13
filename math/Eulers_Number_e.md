@@ -85,7 +85,7 @@ $$
 
 For $f(x)=e^x$, the slope of the tangent line is defined as :
 $$
-\lim_{ h \to 0 } \frac{e^h-1}{h}
+\lim_{ h \to 0 } \frac{e^{x+h}-e^x}{h}
 $$
 
 Informally, 
