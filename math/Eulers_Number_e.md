@@ -443,3 +443,24 @@ $$
 \boxed{\frac{d}{dx} a^x = a^x \cdot \ln(a)}
 $$
 
+
+### Alternative way
+
+By using the identity law of exponents, we can get :
+$$
+a^x = e^{x \ln a}
+$$
+
+Which means we can get derivative of $a^x$ with :
+$$
+\frac{d}{dx} e^{x \ln a}
+$$
+
+> [!warning] This requires knowing how **derivative of natural logarithm** works.
+
+
+
+
+TOdo
+- Finding the derivative of $5^{3x}$ (how does the chain rule work?)
+
