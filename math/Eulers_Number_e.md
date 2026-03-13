@@ -109,7 +109,7 @@ $$
 
 Third, it requires understanding the **Binomial Theorem** :
 $$
-\left( 1+\frac{h}{n} \right)^n = 1 + h + \frac{n(n-1)}{2n^2}h^2 + \frac{n(n-1)(n-2)}{6n^3}h^3 + \dots
+\left( 1+\frac{h}{n} \right)^n = 1 + h + \frac{n(n-1)}{2!n^2}h^2 + \frac{n(n-1)(n-2)}{3!n^3}h^3 + \dots
 $$
 
 Which, as $n \to \infty$ :
