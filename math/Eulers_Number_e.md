@@ -88,7 +88,7 @@ $$
 \lim_{ h \to 0 } \frac{e^h-1}{h}
 $$
 
-
+Informally, 
 
 
 
