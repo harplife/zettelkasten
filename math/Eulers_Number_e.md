@@ -98,12 +98,12 @@ $$
 $$
 is a bit difficult.
 
-First of all, it requires understanding that :
+First of all, it requires understanding $e$ is defined as :
 $$
 e = \lim_{ n \to \infty } \left( 1+\frac{1}{n} \right)^n
 $$
 
-Which means, by the **Power Law of the Limits** :
+Which means, by the **Power Law of the Limits**, we get the definition of $e^x$ :
 $$
 e^x = \left( \lim_{ n \to \infty } \left( 1+\frac{1}{n} \right)^n \right)^x
 = \lim_{ n \to \infty } \left( 1+\frac{1}{n} \right)^{nx}
@@ -126,7 +126,7 @@ $$
 
 > [!important] The intuition behind this is that taking *many small steps* (left) is effectively the same as taking *fewer but larger steps* (right).
 
-So that :
+So that we get the *alternate* definition of $e^x$ :
 $$
 e^x = \lim_{ n \to \infty } \left( 1+\frac{x}{n} \right)^n
 $$
@@ -145,12 +145,12 @@ $$
 \end{align}
 $$
 
-Which leads to the **Power Series** for $e^h$ :
+Which leads to the **Power Series** of $e^h$ :
 $$
 e^h = 1 + h + \frac{h^2}{2!} + \frac{h^3}{3!} + \dots
 $$
 
-Lastly, it requires understanding that substituting the power series of $e^h$ is the key to taking the limit :
+Lastly, it requires understanding that substituting the power series of $e^h$ is the key to taking the limit as $h \to 0$ :
 $$
 \begin{align}
   e^h &= 1 + h + \frac{h^2}{2!} + \frac{h^3}{3!} + \dots \\
