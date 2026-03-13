@@ -75,8 +75,54 @@ Note that in most math textbooks, $f(x)=e^x$ is referred to as the **Special Exp
 
 
 
-$e$ is defined such that limit as $h$ approaches $0$, $\frac{e^h-1}{h}$ equals $1$.
-
+$e$ is defined such that :
 $$
 \lim_{ h \to 0 } \frac{e^h-1}{h}=1
 $$
+
+Meaning, the slope of the tangent line at $x=0$ for $f(x)=e^x$ is equal to $1$.
+
+It is defined in this way so that $e^x$ is the only exponential whose derivative equals itself.
+
+> [!important] $e$ is not some number that mathematicians arbitrarily chose.
+> Mathematicians chose this number because of the specific properties :
+> - Slope of the tangent line at $x=0$ for $e^x$ is $1$
+> - Derivative of $e^x$ is $e^x$
+
+<center>. . .</center>
+
+Proving
+$$
+\lim_{ h \to 0 } \frac{e^h-1}{h}=1
+$$
+is a bit difficult.
+
+First of all, it requires understanding that :
+$$
+e = \lim_{ n \to \infty } \left( 1+\frac{1}{n} \right)^n
+$$
+
+Second, it requires understanding that :
+$$
+e^x = \lim_{ n \to \infty } \left( 1+\frac{x}{n} \right)^n
+$$
+
+Third, it requires understanding the **Binomial Theorem** :
+$$
+\left( 1+\frac{h}{n} \right)^n =
+$$
+
+
+<center>. . .</center>
+
+The fact that
+$$
+\lim_{ h \to 0 } \frac{e^h-1}{h}=1
+$$
+
+helps proving why
+$$
+\frac{d}{dx} e^x = e^x
+$$
+
+Because ..
