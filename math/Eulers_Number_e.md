@@ -103,7 +103,7 @@ $$
 e = \lim_{ n \to \infty } \left( 1+\frac{1}{n} \right)^n
 $$
 
-Which means :
+Which means, by the **Power Law of the Limits** :
 $$
 e^x = \left( \lim_{ n \to \infty } \left( 1+\frac{1}{n} \right)^n \right)^x
 = \lim_{ n \to \infty } \left( 1+\frac{1}{n} \right)^{nx}
