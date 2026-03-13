@@ -74,6 +74,7 @@ Note that in most math textbooks, $f(x)=e^x$ is referred to as the **Special Exp
 > This makes sense why derivative of an exponential function whose base is not $e$ still includes a natural log.
 
 
+## Key Properties of $e$
 
 $e$ is defined such that :
 $$
@@ -102,7 +103,28 @@ $$
 e = \lim_{ n \to \infty } \left( 1+\frac{1}{n} \right)^n
 $$
 
-Second, it requires understanding that :
+Which means :
+$$
+e^x = \left( \lim_{ n \to \infty } \left( 1+\frac{1}{n} \right)^n \right)^x
+= \lim_{ n \to \infty } \left( 1+\frac{1}{n} \right)^{nx}
+$$
+
+Second, it requires understanding the **Taylor Series Expansion** and how it is used as a **fundamental linear approximation** :
+$$
+\ln(1+t) \approx t
+$$
+
+Which leads to :
+$$
+\ln\left( 1+\frac{1}{n} \right) \approx \frac{1}{n}
+$$
+
+Which basically proves that :
+$$
+\lim_{ n \to \infty } \left( 1+\frac{1}{n} \right)^{nx} \iff \lim_{ n \to \infty } \left( 1+\frac{x}{n} \right)^n
+$$
+
+So that :
 $$
 e^x = \lim_{ n \to \infty } \left( 1+\frac{x}{n} \right)^n
 $$
@@ -117,17 +139,44 @@ $$
 \begin{align}
   \frac{n(n-1)}{n^2} &\to 1 \\
   \frac{n(n-1)(n-2)}{n^3} &\to 1 \\
-  \dots &\to 1
+  \vdots &\to 1
 \end{align}
 $$
 
-This is how we get the **Power Series** for $e^h$ :
+Which leads to the **Power Series** for $e^h$ :
 $$
 e^h = 1 + h + \frac{h^2}{2!} + \frac{h^3}{3!} + \dots
 $$
 
+Lastly, it requires understanding that substituting the power series of $e^h$ is the key to taking the limit :
+$$
+\begin{align}
+  e^h &= 1 + h + \frac{h^2}{2!} + \frac{h^3}{3!} + \dots \\
+  e^h-1 &= h + \frac{h^2}{2!} + \frac{h^3}{3!} + \dots \\
+  \frac{e^h-1}{h} &= 1 + \frac{h}{2!} + \frac{h^2}{3!} + \dots
+\end{align}
+$$
 
+Let $h \to 0$. This means every term containing $h$ goes to $0$ :
+$$
+\begin{align}
+  \frac{h}{2!} \to 0 \\
+  \frac{h^2}{3!} \to 0 \\
+  \vdots \to 0
+\end{align}
+$$
 
+So the limit becomes :
+$$
+\lim_{ h \to 0 } (1 + \frac{h}{2!} + \frac{h^2}{3!} + \dots) \to
+(1 + 0 + 0 + \dots)
+= 1
+$$
+
+Therefore :
+$$
+\lim_{ h \to 0 } \frac{e^h-1}{h}=1
+$$
 
 <center>. . .</center>
 
