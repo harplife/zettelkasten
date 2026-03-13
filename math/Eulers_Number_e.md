@@ -74,3 +74,9 @@ Note that in most math textbooks, $f(x)=e^x$ is referred to as the **Special Exp
 > This makes sense why derivative of an exponential function whose base is not $e$ still includes a natural log.
 
 
+
+$e$ is defined such that limit as $h$ approaches $0$, $\frac{e^h-1}{h}$ equals $1$.
+
+$$
+\lim_{ h \to 0 } \frac{e^h-1}{h}=1
+$$
