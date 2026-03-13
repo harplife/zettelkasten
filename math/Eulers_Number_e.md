@@ -446,20 +446,63 @@ $$
 
 ### Alternative way
 
-By using the identity law of exponents, we can get :
+Recall the identity law of exponents :
+$$e^{\ln x}=x$$
+
+Replace $x$ with $a$ :
 $$
-a^x = e^{x \ln a}
+e^{\ln a} = a
 $$
 
-Which means we can get derivative of $a^x$ with :
+Raise both sides to the power of $x$ :
 $$
-\frac{d}{dx} e^{x \ln a}
+e^{x \ln a} = a^x
 $$
+
+This means that :
+$$
+\frac{d}{dx} e^{x \ln a} = \frac{d}{dx} a^x
+$$
+
+We can use this fact to find the derivative of $a^x$.
 
 > [!warning] This requires knowing how **derivative of natural logarithm** works.
 
+---
+**Step 1 - Use the chain rule**
 
+By the chain rule, $f(u)=e^u$ becomes the outside function, whereas $u = x \ln a$ becomes the inside function :
+$$
+\frac{d}{dx} e^{x \ln a} = \frac{d}{du} e^u \cdot \frac{d}{dx} u
+$$
 
+We know that derivative of $e^x$ is equal to itself :
+$$
+\frac{d}{du} e^u = e^u = e^{x \ln a}
+$$
+
+Since $\ln a$ is just a constant multiple, we get :
+$$
+\frac{d}{dx} u = \frac{d}{dx} x \ln a = \ln a \frac{d}{dx} x = \ln a
+$$
+
+Putting it together, we then get :
+$$
+\frac{d}{dx} e^{x \ln a} = e^{x \ln a} \cdot \ln a
+$$
+
+---
+**Step 2 - Substitute back** $a^x$
+
+Since :
+$$
+e^{x \ln a} = a^x
+$$
+
+We get :
+$$
+\frac{d}{dx} a^x = a^x \ln a
+$$
 
 TOdo
 - Finding the derivative of $5^{3x}$ (how does the chain rule work?)
