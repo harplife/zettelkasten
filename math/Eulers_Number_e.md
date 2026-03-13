@@ -78,7 +78,12 @@ Note that in most math textbooks, $f(x)=e^x$ is referred to as the **Special Exp
 
 $e$ is the unique base such that the tangent line to the graph of $f(x)=e^x$ has a slope of exactly $1$ at $x=0$.
 
-We can see that this is true by looking at the limit :
+Recall the limit definition of the slope of the tangent line :
+$$
+m_{\tan} = \lim_{ h \to 0 } \frac{f(x-h)-f(x)}{h}
+$$
+
+For $f(x)=e^x$, the slope of the tangent line is defined as :
 $$
 \lim_{ h \to 0 } \frac{e^h-1}{h}
 $$
