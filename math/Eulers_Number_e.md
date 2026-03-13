@@ -109,8 +109,24 @@ $$
 
 Third, it requires understanding the **Binomial Theorem** :
 $$
-\left( 1+\frac{h}{n} \right)^n =
+\left( 1+\frac{h}{n} \right)^n = 1 + h + \frac{n(n-1)}{2n^2}h^2 + \frac{n(n-1)(n-2)}{6n^3}h^3 + \dots
 $$
+
+Which, as $n \to \infty$ :
+$$
+\begin{align}
+  \frac{n(n-1)}{n^2} &\to 1 \\
+  \frac{n(n-1)(n-2)}{n^3} &\to 1 \\
+  \dots &\to 1
+\end{align}
+$$
+
+This is how we get the **Power Series** for $e^h$ :
+$$
+e^h = 1 + h + \frac{h^2}{2!} + \frac{h^3}{3!} + \dots
+$$
+
+
 
 
 <center>. . .</center>
