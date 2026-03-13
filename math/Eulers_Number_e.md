@@ -249,3 +249,9 @@ $$
 > [!important] The number $e$ is **specifically chosen** so that the exponential function satisfies :
 > *rate of growth = current value* at every point on the curve.
 
+
+
+
+$$
+1+h \leq e^h \leq \frac{1}{1-h}
+$$
