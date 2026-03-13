@@ -119,10 +119,12 @@ $$
 \ln\left( 1+\frac{1}{n} \right) \approx \frac{1}{n}
 $$
 
-Which basically proves that :
+Which basically proves that (by taking natural logarithm on both sides) :
 $$
 \lim_{ n \to \infty } \left( 1+\frac{1}{n} \right)^{nx} \iff \lim_{ n \to \infty } \left( 1+\frac{x}{n} \right)^n
 $$
+
+> [!important] The intuition behind this is that taking *many small steps* (left) is effectively the same as taking *fewer but larger steps* (right).
 
 So that :
 $$
@@ -178,7 +180,7 @@ $$
 \lim_{ h \to 0 } \frac{e^h-1}{h}=1
 $$
 
-<center>. . .</center>
+## Derivative of $e^x$
 
 The fact that
 $$
@@ -190,4 +192,60 @@ $$
 \frac{d}{dx} e^x = e^x
 $$
 
-Because ..
+---
+**Step 1 - Apply the limit definition of derivative to** $e^x$
+
+The limit definition of derivative :
+$$
+\frac{d}{dx} f(x) = \lim_{ h \to 0 } \frac{f(x+h)-f(x)}{h}
+$$
+
+Which, when applied to $f(x)=e^x$ :
+$$
+\frac{d}{dx} e^x = \lim_{ h \to 0 } \frac{e^{x+h}-e^x}{h}
+$$
+
+---
+**Step 2 - Use the product rule of the exponents**
+
+$$
+e^{x+h} = e^xe^h
+$$
+
+Which means :
+$$
+\lim_{ h \to 0 } \frac{e^{x+h}-e^x}{h} = 
+\lim_{ h \to 0 } \frac{e^xe^h-e^x}{h}
+$$
+
+From here, we can factor out $e^x$ from the numerator :
+$$
+\lim_{ h \to 0 } e^x \cdot \frac{e^h-1}{h}
+$$
+
+---
+**Step 3 - Take the limit**
+
+By the constant multiple law of the limits :
+$$
+\lim_{ h \to 0 } e^x \cdot \frac{e^h-1}{h} = e^x \cdot \lim_{ h \to 0 } \frac{e^h-1}{h}
+$$
+
+Using the property of $e$ which states that :
+$$
+\lim_{ h \to 0 } \frac{e^h-1}{h} = 1
+$$
+
+We get :
+$$
+e^x \cdot \lim_{ h \to 0 } \frac{e^h-1}{h} = e^x \cdot 1 = e^x
+$$
+
+Therefore,
+$$
+\frac{d}{dx} e^x = e^x
+$$
+
+> [!important] The number $e$ is **specifically chosen** so that the exponential function satisfies :
+> *rate of growth = current value* at every point on the curve.
+
