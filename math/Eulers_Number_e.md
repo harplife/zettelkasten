@@ -66,10 +66,21 @@ The [Exponential Function](https://en.wikipedia.org/wiki/Exponential_function) i
 
 It is called *exponential* because its argument can be seen as an exponent to which a constant number $e$ (the base) is raised.
 
+Note that in most math textbooks, $f(x)=e^x$ is referred to as the **Special Exponential Function**, while $f(x)=ab^x$ is referred to as the **General Exponential Function** or just **exponential function**.
+
 > [!important] I previously thought exponential function just meant any constant raised to $x$.
-> I think it's an important to note that $e^x$ is the base function; changing the base $n^x$ is just a variation of that base function. In fact, $f(x)=ab^x$ is called the **General Exponential Function** - but it's just commonly referred to as an exponential function.
+> I think it's an important to note that $e^x$ is the base function; changing the base $n^x$ is just a variation of that base function.
 > 
 > This makes sense why derivative of an exponential function whose base is not $e$ still includes a natural log.
+
+
+### Slope of the Tangent Line at $x=0$
+
+$e$ is the unique base such that the tangent line to the graph of $f(x)=e^x$ has a slope of exactly $1$ at $x=0$.
+
+
+
+
 
 
 ## The Limit Definition of $e^x$
