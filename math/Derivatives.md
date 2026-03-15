@@ -27,6 +27,10 @@ $$
 a^x = e^{x \ln a}
 $$
 
+#todo What does inverse functions have reciprocal derivatives mean?
+$$
+g'(x) = \frac{1}{f'(g(x))}
+$$
 
 ### Derivative of $e^x$
 
@@ -316,8 +320,6 @@ $$
 
 ### Derivative of Natural Log
 
-
-
 Recall the limit definition of derivative :
 $$
 f'(x) = \lim_{ h \to 0 } \frac{f(x+h)-f(x)}{h}
@@ -333,14 +335,23 @@ $$
 \ln (x+h)-\ln x = \ln\left( \frac{x+h}{x} \right)
 $$
 
+We simplify :
+$$
+\ln \left( \frac{x+h}{x} \right) = \ln \left( 1+\frac{h}{x} \right)
+$$
+
 The derivative then becomes :
 $$
-\lim_{ h \to 0 } \frac{\ln\left( \frac{x+h}{x} \right)}{h}
+\lim_{ h \to 0 } \frac{\ln\left( 1 + \frac{h}{x} \right)}{h}
 $$
 
 
 
-You say that I have to just accept knowing what the "fundamental property of the natural logarithm" is, in order to get the proof for derivative of natural log. However, the proof I was given in class says otherwise :
+
+
+
+
+#### The Inverse Function Approach
 
 Say $y=\ln x$ only and only if $e^y=x$.
 
@@ -350,7 +361,7 @@ I then isolate $y'$ to one side to get $y'=\frac{1}{e^y}$.
 
 Finally, I use substitution to get $y'=\frac{1}{x}$.
 
-Now, are you saying this is an incomplete proof, or did you mess up?
+
 
 
 
