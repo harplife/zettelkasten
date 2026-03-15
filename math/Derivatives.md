@@ -38,9 +38,9 @@ $$
 > [!warning] Don't get inverse function confused with *multiplicative inverse* (reciprocal) or the *additive inverse* (opposite).
 > The inverse of $f(x)=x$ is $x$ ; NOT $\frac{1}{x}$ or $-x$.
 
-Let $g$ be the inverse of $f$ :
+Let $f$ and $g$ be inverses :
 $$
-g(f(x)) = x
+g = f^{-1} \implies g(f(x)) = x
 $$
 
 Differentiate both sides :
@@ -63,13 +63,13 @@ $$
 g'(f(x)) = \frac{1}{f'(x)}
 $$
 
-If we let $y=f'(x)$, then we can say that $x=f(y)$ and $y=g(x)$. Substitute :
-$$
-g'(x) = g'(f(y)) = \frac{1}{f'(y)}=\frac{1}{f'(g(x))}
-$$
+Let $u=f(x)$. This means :
+- $f^{-1}(u)=g(u)=x$
+- $g'(f(x)) \to g'(u)$
 
+Substitute :
 $$
-\frac{1}{f'(x)} = \frac{1}{f'(y)}
+g'(u) = \frac{1}{f'(g(u))}
 $$
 
 
