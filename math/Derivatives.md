@@ -64,12 +64,29 @@ g'(f(x)) = \frac{1}{f'(x)}
 $$
 
 Let $u=f(x)$. This means :
-- $f^{-1}(u)=g(u)=x$
-- $g'(f(x)) \to g'(u)$
+- $x=f^{-1}(u)=g(u)$
+- $g'(f(x)) = g'(u)$
 
 Substitute :
 $$
 g'(u) = \frac{1}{f'(g(u))}
+$$
+
+Rename the dummy variable $u \to x$ :
+$$
+\boxed{g'(x) = \frac{1}{f'(g(x))}}
+$$
+
+---
+We can see that this relationship holds true with $f(x)=e^x$ and its inverse $g(x)=\ln x$.
+
+$$
+g'(x)=\frac{1}{f'(g(x))}=\frac{1}{f'(\ln x)} = \frac{1}{e^{\ln x}} = \frac{1}{x}
+$$
+
+Note that :
+$$
+f'(x) = e^x \implies f'(\ln x) = e^{\ln x} = x
 $$
 
 
