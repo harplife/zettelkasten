@@ -91,7 +91,30 @@ Note that in most math textbooks, $f(x)=e^x$ is referred to as the **Special Exp
 > This makes sense why derivative of an exponential function whose base is not $e$ still includes a natural log.
 
 
-## Key Property of $e$
+### General Exponential Function in terms of $e$
+
+As mentioned before, the general exponential function $a^x$ is just a variation of $e^x$. In fact, the relationship is described with this equation :
+$$
+e^{x \ln a} = a^x
+$$
+
+> [!important] This is a very convenient fact that can be used to find *derivative of general exponential function*, once you know the *derivative of special exponential function*.
+
+Recall the inverse rule :
+$$
+b^{\log_{b} x} = x \iff \log_{b} b^x = x
+$$
+
+This means :
+$$e^{\ln a}=a$$
+
+Raise both sides to the power of $x$ :
+$$
+e^{x \ln a} = a^x
+$$
+
+
+## Fundamental Property of $e$
 
 $e$ is defined such that :
 $$
@@ -106,7 +129,7 @@ It is defined in this way so that $e^x$ is the only exponential whose derivative
 > Mathematicians chose this number because of this specific property.
 
 
-### Proof of the Key Property
+### Proof of the Fundamental Property
 
 Proving
 $$
@@ -293,4 +316,13 @@ Since both sides of the limit matches, we can say that :
 $$
 \boxed{\lim_{ h \to 0 } \frac{e^h-1}{h} = 1}
 $$
+
+
+## The Fundamental Property of Natural Log
+
+$$
+\lim_{ h \to 0 } \frac{\ln(1+h)}{h} = 1
+$$
+
+#todo Find the proof for the fundamental property of natural log.
 

@@ -22,19 +22,15 @@
 | General Exponential Rule | $\frac{d}{dx}(a^{g(x)})=\ln(a)a^{g(x)}g'(x)$<br>or $\frac{d}{dx}(a^x)=\ln(a)a^x$ |
 
 
-#todo Tell me more about the part where you said we can convert exponentials using logs :
-$$
-a^x = e^{x \ln a}
-$$
-
 #todo What does inverse functions have reciprocal derivatives mean?
 $$
 g'(x) = \frac{1}{f'(g(x))}
 $$
 
+
 ### Derivative of $e^x$
 
-Recall that the [[Eulers_Number_e#Key Property of $e$|key property of ]] $e$ is that the slope of the tangent line at $x=0$ for $e^x$ is $1$ :
+Recall that the the fundamental property of $e$ is that the slope of the tangent line at $x=0$ for $e^x$ is $1$ :
 $$
 \lim_{ h \to 0 } \frac{e^h-1}{h}=1
 $$
@@ -102,9 +98,29 @@ $$
 > *rate of growth = current value* at every point on the curve.
 
 
+#### Derivative of e^{g(x)}
+
+Let $g(x)$ be any function differentiable at $x$.
+
+We can differentiate $e^{g(x)}$ by using the chain rule.
+
+Outside function is $e^u$ and the inside function is $u=g(x)$ :
+$$
+\begin{align}
+  \frac{d}{dx} e^{g(x)} &= \frac{d}{dx} e^u \cdot u' \\
+  &= e^u \cdot u'
+\end{align}
+$$
+
+Plug the original numbers back in  :
+$$
+\boxed{\frac{d}{dx} e^{g(x)} = e^{g(x)} \cdot g'(x)}
+$$
+
+
 ### Derivative of $a^x$
 
-Recall the key property of $e$ :
+Recall the fundamental property of $e$ :
 $$
 \lim_{ h \to 0 } \frac{e^h-1}{h} = 1
 $$
@@ -185,7 +201,7 @@ $$
 
 > [!important] This might be my favorite approach.
 
-Recall the identity rule of exponents :
+Recall the inverse rule :
 $$e^{\ln a}=a$$
 
 Raise both sides to the power of $x$ :
@@ -282,40 +298,40 @@ y' = a^x \ln a
 $$
 
 
-#### The General Rule
+#### Derivative of a^{g(x)}
 
-For any function of the form (where $a$ and $b$ are constants) :
-$$
-a^{bx}
-$$
+Let $g(x)$ be any function differentiable at $x$.
 
-In order to find the derivative :
-$$
-\frac{d}{dx} a^{bx}
-$$
+We use the chain rule to find the derivative of $a^{g(x)}$.
 
-We can use the chain rule to define the outside and inside functions :
-- $f(u)=a^u$
-- $g(x)=u=bx$
-
-Therefore :
+The outside function is $a^u$ and the inside function is $u=g(x)$ :
 $$
 \begin{align}
-  \frac{d}{dx} a^{bx} &= \frac{d}{dx} a^u \cdot \frac{d}{dx} u \\
-  &= a^u \cdot \ln(a) \cdot u' \\
-  &= a^{bx} \cdot \ln(a) \cdot b
+  \frac{d}{dx} a^{g(x)} &= \frac{d}{dx} a^u \cdot \frac{d}{dx} u \\
+  &= a^u \cdot \ln(a) \cdot u'
 \end{align}
+$$
+
+Substitute the original numbers back in and we get :
+$$
+\boxed{\frac{d}{dx} a^{g(x)} = a^{g(x)} \cdot \ln(a) \cdot g'(x)}
 $$
 
 
 ## Derivative of Logarithmic Functions
 
-| Name | Equation                                             |
-| ---- | ---------------------------------------------------- |
-|      | $\frac{d}{dx}(\ln x)=\frac{1}{x}, x>0$               |
-|      | $\frac{d}{dx}\ln(g(x))=\frac{g'(x)}{g(x)}$           |
-|      | $\frac{d}{dx}(\log_{a}x)=\frac{1}{x \ln a}, x>0$     |
-|      | $\frac{d}{dx}(\log_{a}g(x))=\frac{g'(x)}{g(x)\ln a}$ |
+| Name                                             | Equation                                             |
+| ------------------------------------------------ | ---------------------------------------------------- |
+| Derivative of Natural Log of $x$                 | $\frac{d}{dx}(\ln x)=\frac{1}{x}, x>0$               |
+| Derivative of Natural Log of any function of $x$ | $\frac{d}{dx}\ln(g(x))=\frac{g'(x)}{g(x)}$           |
+| Derivative of log of $x$                         | $\frac{d}{dx}(\log_{a}x)=\frac{1}{x \ln a}, x>0$     |
+| Derivative of log of any function of $x$         | $\frac{d}{dx}(\log_{a}g(x))=\frac{g'(x)}{g(x)\ln a}$ |
+
+> [!important] Logarithms measure multiplicative growth.
+> This means that if $x$ doubles :
+> $$\ln(2x)-\ln(x)=\ln 2$$
+> 
+> The change depends on **ratios**, not absolute differences. Because of this, the rate of change scales as $\frac{1}{x}$. Meaning, the change is slower for larger $x$ whereas it is faster for smaller $x$.
 
 
 ### Derivative of Natural Log
@@ -345,24 +361,149 @@ $$
 \lim_{ h \to 0 } \frac{\ln\left( 1 + \frac{h}{x} \right)}{h}
 $$
 
+We let :
+$$
+u = \frac{h}{x}
+$$
 
+Substitute $u$ in :
+$$
+\lim_{ u \to 0 } \frac{\ln (1+u)}{xu}
+$$
 
+> [!important] Note that limit as $xu \to 0$ is the same thing as limit as $u \to 0$.
+> $x$ in this case is treated as a constant, and it is inconsequential to how $u$ approaches $0$.
 
+Factor out the constant and then use the constant multiple rule :
+$$
+\lim_{ u \to 0 } \frac{1}{x} \cdot \frac{\ln(1+u)}{u} = \frac{1}{x} \lim_{ u \to 0 } \frac{\ln(1+u)}{u}
+$$
 
+Recall the fundamental property of natural log :
+$$
+\lim_{ h \to 0 } \frac{\ln(1+h)}{h} = 1
+$$
+
+It follows that :
+$$
+\frac{1}{x} \lim_{ u \to 0 } \frac{\ln(1+u)}{u} = \frac{1}{x} (1) = \frac{1}{x}
+$$
+
+Therefore :
+$$
+\boxed{\frac{d}{dx} \ln x = \frac{1}{x}}
+$$
 
 
 #### The Inverse Function Approach
 
-Say $y=\ln x$ only and only if $e^y=x$.
+Let :
+$$
+y = \ln x \iff e^y = x
+$$
 
-I take the derivative on both sides of $e^y=x$ to get $e^y \cdot y' = 1$.
+Take the derivative on both sides of $e^y=x$ :
+$$
+e^y \cdot y' = 1
+$$
 
-I then isolate $y'$ to one side to get $y'=\frac{1}{e^y}$.
+Isolate $y'$ to one side :
+$$
+y' = \frac{1}{e^y}
+$$
 
-Finally, I use substitution to get $y'=\frac{1}{x}$.
+Finally, use substitution :
+$$
+\boxed{y' = \frac{1}{x}}
+$$
 
 
+#### Derivative of Natural Log of any function of $x$
 
+Let $g(x)$ be any differentiable function of $x$.
+
+In order to get derivative of natural log of $g(x)$, we use the chain rule.
+
+The outside function is $\ln u$, and the inside function is $u = g(x)$. Thus :
+$$
+\begin{align}
+  \frac{d}{dx} \ln(g(x)) &= \frac{d}{dx} \ln u \cdot u' \\
+  &= \frac{1}{u} \cdot u' \\
+  &= \frac{1}{g(x)} \cdot g'(x)
+\end{align}
+$$
+
+Simplify and we get :
+$$
+\boxed{\frac{d}{dx} \ln(g(x)) = \frac{g'(x)}{g(x)}}
+$$
+
+
+### Derivative of Log
+
+Consider logarithm with base $a$ :
+$$
+\log_{a} x
+$$
+
+By the change-of-base rule of logs :
+$$
+\log_{a} x = \frac{\ln x}{\ln a}
+$$
+
+This means that :
+$$
+\frac{d}{dx} \log_{a} x = \frac{d}{dx} \frac{\ln x}{\ln a}
+$$
+
+Take out the constant :
+$$
+\begin{align}
+  \frac{d}{dx} \left( \frac{\ln x}{\ln a} \right) &= \frac{d}{dx} \left( \frac{1}{\ln a} \cdot \ln x \right) \\
+  &= \frac{1}{\ln a} \cdot \frac{d}{dx} \ln x
+\end{align}
+$$
+
+We know that :
+$$
+\frac{d}{dx} \ln x = \frac{1}{x}
+$$
+
+Substitute :
+$$
+= \frac{1}{\ln a}\left( \frac{1}{x} \right) = \frac{1}{x \ln a}
+$$
+
+Therefore :
+$$
+\boxed{\frac{d}{dx} \log_{a} x = \frac{1}{x\ln a}}
+$$
+
+
+#### Derivative of Log of any function of $x$
+
+Let $g(x)$ be any function differentiable at $x$.
+
+We can use the chain rule to find the derivative of $\log(g(x))$.
+
+The outside function is $\log_{a} u$, inside function is $u=g(x)$ :
+$$
+\begin{align}
+  \frac{d}{dx}(\log_{a}g(x)) &= \frac{d}{dx} \log_{a} u \cdot u' \\
+  &= \frac{1}{u \ln a} \cdot u' \\
+  &= \frac{u'}{u \ln a}
+\end{align}
+$$
+
+Plug the original numbers back in :
+$$
+\frac{u'}{u \ln a} = \frac{g'(x)}{g(x) \ln a}
+$$
+
+Therefore :
+$$
+\frac{d}{dx}(\log_{a}g(x)) = \frac{g'(x)}{g(x) \ln a}
+$$
 
 
 ## Derivative of Trigonometric Functions

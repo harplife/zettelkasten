@@ -160,7 +160,7 @@ where $b$ is the base, $x$ is the argument, and $y$ is the exponent result.
 | Zero Rule           | $\log_{b}(1)=0$                                                                     |
 | Identity Rule       | $\log_{b}(b)=1$                                                                     |
 | Equality Rule       | $\log_{b}x=\log_{b}y \to x=y$                                                       |
-| Inverse Rule        | $b^{\log_{b}x}=x \log_{b}(b^x)=x$                                                   |
+| Inverse Rule        | $b^{\log_{b}x}=x$<br>or $\log_{b}(b^x)=x$                                           |
 | Reciprocal Rule     | $\log_{b}\left( \frac{1}{x} \right)=-\log_{b}(x)$                                   |
 
 
