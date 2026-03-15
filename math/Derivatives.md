@@ -68,6 +68,10 @@ $$
 g'(x) = g'(f(y)) = \frac{1}{f'(y)}=\frac{1}{f'(g(x))}
 $$
 
+$$
+\frac{1}{f'(x)} = \frac{1}{f'(y)}
+$$
+
 
 ### Derivative of $e^x$
 
