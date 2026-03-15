@@ -185,15 +185,12 @@ $$
 $$
 
 
-#### The Natural Log Approach
+#### The Chain Rule Approach
 
-Recall the identity law of exponents :
-$$e^{\ln x}=x$$
+> [!important] This might be my favorite approach.
 
-Replace $x$ with $a$ :
-$$
-e^{\ln a} = a
-$$
+Recall the identity rule of exponents :
+$$e^{\ln a}=a$$
 
 Raise both sides to the power of $x$ :
 $$
@@ -207,8 +204,6 @@ $$
 
 We can use this fact to find the derivative of $a^x$.
 
-> [!warning] This requires knowing how **derivative of natural logarithm** works.
-
 ---
 **Step 1 - Use the chain rule**
 
@@ -217,12 +212,12 @@ $$
 \frac{d}{dx} e^{x \ln a} = \frac{d}{du} e^u \cdot \frac{d}{dx} u
 $$
 
-We know that derivative of $e^x$ is equal to itself :
+For outside function, we know that derivative of $e^x$ is equal to itself :
 $$
-\frac{d}{du} e^u = e^u = e^{x \ln a}
+\frac{d}{du} e^u = e^u \to e^{x \ln a}
 $$
 
-Since $\ln a$ is just a constant multiple, we get :
+For inside function, since $\ln a$ is just a constant multiple, we get :
 $$
 \frac{d}{dx} u = \frac{d}{dx} x \ln a = \ln a \frac{d}{dx} x = \ln a
 $$
@@ -245,9 +240,12 @@ $$
 \frac{d}{dx} a^x = a^x \ln a
 $$
 
+
 #### The Change of Base Rule Approach
 
-> [!important] This is the way that was taught in class. Honestly, it's much simpler.
+> [!important] This is the way that was taught in class.
+
+> [!warning] This requires knowing ahead of time the derivative of natural log.
 
 By the inverse rule, we can say that :
 $$
@@ -262,11 +260,55 @@ $$
 We can use these facts to find the derivative of $a^x$.
 
 ---
-**Step 1 - Find the derivative of** $x$
+**Step 1 - Differentiate both sides**
 
-Given that $y=a^x$ and $x=\frac{\ln y}{\ln a}$, we first find the derivative of $x$ :
+Given $x=\frac{\ln y}{\ln a}$, differentiate both sides :
 $$
-\frac{d}{dx} x = 
+\frac{d}{dx} x = \frac{d}{dx} \frac{\ln y}{\ln a}
+$$
+
+---
+**Step 2 - Compute and finalize the proof**
+
+We use the fact that derivative of $x$ is just one, $\ln a$ is really just a constant multiple, and the fact that derivative of $\ln y$ is derivative of $y$ over $y$. Therefore, we get :
+$$
+1 = \frac{1}{\ln a} \cdot \frac{y'}{y}
+$$
+
+We neatly organize this by isolating the derivative of $y$ :
+$$
+y' = y \ln a
+$$
+
+We then substitute $y$ :
+$$
+y' = a^x \ln a
+$$
+
+
+#### The General Rule
+
+For any function of the form (where $a$ and $b$ are constants) :
+$$
+a^{bx}
+$$
+
+In order to find the derivative :
+$$
+\frac{d}{dx} a^{bx}
+$$
+
+We can use the chain rule to define the outside and inside functions :
+- $f(u)=a^u$
+- $g(x)=u=bx$
+
+Therefore :
+$$
+\begin{align}
+  \frac{d}{dx} a^{bx} &= \frac{d}{dx} a^u \cdot \frac{d}{dx} u \\
+  &= a^u \cdot \ln(a) \cdot u' \\
+  &= a^{bx} \cdot \ln(a) \cdot b
+\end{align}
 $$
 
 

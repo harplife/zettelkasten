@@ -294,37 +294,3 @@ $$
 \boxed{\lim_{ h \to 0 } \frac{e^h-1}{h} = 1}
 $$
 
-
-## Derivative of $a^x$
-
-
-### Alternative way
-
-
-
-
-### The General Rule
-
-For any function of the form (where $a$ and $b$ are constants) :
-$$
-a^{bx}
-$$
-
-In order to find the derivative :
-$$
-\frac{d}{dx} a^{bx}
-$$
-
-We can use the chain rule to define the outside and inside functions :
-- $f(u)=a^u$
-- $g(x)=u=bx$
-
-Therefore :
-$$
-\begin{align}
-  \frac{d}{dx} a^{bx} &= \frac{d}{dx} a^u \cdot \frac{d}{dx} u \\
-  &= a^u \cdot \ln(a) \cdot u' \\
-  &= a^{bx} \cdot \ln(a) \cdot b
-\end{align}
-$$
-
