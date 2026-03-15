@@ -340,6 +340,19 @@ $$
 
 
 
+You say that I have to just accept knowing what the "fundamental property of the natural logarithm" is, in order to get the proof for derivative of natural log. However, the proof I was given in class says otherwise :
+
+Say $y=\ln x$ only and only if $e^y=x$.
+
+I take the derivative on both sides of $e^y=x$ to get $e^y \cdot y' = 1$.
+
+I then isolate $y'$ to one side to get $y'=\frac{1}{e^y}$.
+
+Finally, I use substitution to get $y'=\frac{1}{x}$.
+
+Now, are you saying this is an incomplete proof, or did you mess up?
+
+
 
 ## Derivative of Trigonometric Functions
 
