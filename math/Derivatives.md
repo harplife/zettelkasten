@@ -21,16 +21,8 @@
 | Special Exponential Rule | $\frac{d}{dx}(e^{g(x)})=e^{g(x)}g'(x)$<br>or $\frac{d}{dx}(e^x)=e^x$             |
 | General Exponential Rule | $\frac{d}{dx}(a^{g(x)})=\ln(a)a^{g(x)}g'(x)$<br>or $\frac{d}{dx}(a^x)=\ln(a)a^x$ |
 
-#todo 2026-03-12
-- Why derivative of $e^x$ is $e^x$
-- Proof of the derivative of exponents (using chain rule)
-- why e matter?
-- Why does ln appear for general exponents?
-- Implicit differentiations
 
-In the context of calculus, how is Euler's number e defined?
-
-Tell me more about the part where you said we can convert exponentials using logs :
+#todo Tell me more about the part where you said we can convert exponentials using logs :
 $$
 a^x = e^{x \ln a}
 $$
@@ -320,6 +312,33 @@ $$
 |      | $\frac{d}{dx}\ln(g(x))=\frac{g'(x)}{g(x)}$           |
 |      | $\frac{d}{dx}(\log_{a}x)=\frac{1}{x \ln a}, x>0$     |
 |      | $\frac{d}{dx}(\log_{a}g(x))=\frac{g'(x)}{g(x)\ln a}$ |
+
+
+### Derivative of Natural Log
+
+
+
+Recall the limit definition of derivative :
+$$
+f'(x) = \lim_{ h \to 0 } \frac{f(x+h)-f(x)}{h}
+$$
+
+For derivative of $\ln x$, we define it this way :
+$$
+\frac{d}{dx} \ln x = \lim_{ h \to 0 } \frac{\ln(x+h)-\ln x}{h}
+$$
+
+By the quotient rule of logs :
+$$
+\ln (x+h)-\ln x = \ln\left( \frac{x+h}{x} \right)
+$$
+
+The derivative then becomes :
+$$
+\lim_{ h \to 0 } \frac{\ln\left( \frac{x+h}{x} \right)}{h}
+$$
+
+
 
 
 ## Derivative of Trigonometric Functions
