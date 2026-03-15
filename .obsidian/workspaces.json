@@ -1222,7 +1222,7 @@
                 }
               }
             ],
-            "currentTab": 8
+            "currentTab": 7
           }
         ],
         "direction": "vertical"
@@ -1302,13 +1302,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "math/Eulers_Number_e.md",
+                    "file": "math/Derivatives.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of Eulers_Number_e"
+                  "title": "Outline of Derivatives"
                 }
               }
             ]
@@ -1419,7 +1419,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "math/Eulers_Number_e.md",
+                    "file": "math/Derivatives.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1429,7 +1429,7 @@
                     "unlinkedCollapsed": false
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for Eulers_Number_e"
+                  "title": "Backlinks for Derivatives"
                 }
               }
             ],
@@ -1455,8 +1455,8 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "33eb81d590fd6e44",
-      "mtime": "2026-03-13T18:47:33-05:00",
+      "active": "6f3b17683bc259ff",
+      "mtime": "2026-03-15T10:45:31-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "math",

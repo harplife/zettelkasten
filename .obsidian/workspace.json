@@ -143,7 +143,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -223,13 +223,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "math/Eulers_Number_e.md",
+                "file": "math/Derivatives.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Eulers_Number_e"
+              "title": "Outline of Derivatives"
             }
           }
         ]
@@ -340,7 +340,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "math/Eulers_Number_e.md",
+                "file": "math/Derivatives.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -350,7 +350,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Eulers_Number_e"
+              "title": "Backlinks for Derivatives"
             }
           }
         ],
@@ -376,13 +376,13 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "33eb81d590fd6e44",
+  "active": "6f3b17683bc259ff",
   "lastOpenFiles": [
+    "math/Exponents_and_Logarithms.md",
+    "math/Eulers_Number_e.md",
     "math/Limits.md",
     "attachments/Pasted image 20260313184715.png",
-    "math/Eulers_Number_e.md",
     "math/precalculus/Chapter 4/2_The_Natural_Exponential_Function.md",
-    "math/Exponents_and_Logarithms.md",
     "math/Derivatives.md",
     "math/precalculus/Chapter 4/1_Exponential_Functions.md",
     "attachments/exponential_function.svg",
