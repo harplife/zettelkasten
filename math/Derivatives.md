@@ -28,6 +28,47 @@ g'(x) = \frac{1}{f'(g(x))}
 $$
 
 
+## Reciprocal Derivatives of Inverses
+
+Two functions $f$ and $g$ are inverse functions if :
+$$
+g(f(x)) = x \quad \text{ and } \quad f(g(x)) = x
+$$
+
+> [!warning] Don't get inverse function confused with *multiplicative inverse* (reciprocal) or the *additive inverse* (opposite).
+> The inverse of $f(x)=x$ is $x$ ; NOT $\frac{1}{x}$ or $-x$.
+
+Let $g$ be the inverse of $f$ :
+$$
+g(f(x)) = x
+$$
+
+Differentiate both sides :
+$$
+\frac{d}{dx}[g(f(x))] = 1
+$$
+
+For the left side, apply the chain rule :
+$$
+\frac{d}{dx}[g(f(x))] = g'(f(x)) \cdot f'(x)
+$$
+
+Thus, we have :
+$$
+g'(f(x)) \cdot f'(x) = 1
+$$
+
+Isolate :
+$$
+g'(f(x)) = \frac{1}{f'(x)}
+$$
+
+If we let $y=f'(x)$, then we can say that $x=f(y)$ and $y=g(x)$. Substitute :
+$$
+g'(x) = g'(f(y)) = \frac{1}{f'(y)}=\frac{1}{f'(g(x))}
+$$
+
+
 ### Derivative of $e^x$
 
 Recall that the the fundamental property of $e$ is that the slope of the tangent line at $x=0$ for $e^x$ is $1$ :
@@ -530,4 +571,6 @@ $$
 
 
 ## Implicit Differentiation
+
+
 
