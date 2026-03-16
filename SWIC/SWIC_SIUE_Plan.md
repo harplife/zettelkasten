@@ -76,6 +76,8 @@
 
 > [!important] **ECE 351 Signals and Systems** seems to be a core course that is prerequisite for many grad-level courses.
 
+Is CE 204 Engineering Graphics not required??
+
 
 ---
 
