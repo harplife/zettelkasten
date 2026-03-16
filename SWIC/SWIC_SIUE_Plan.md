@@ -23,21 +23,21 @@
 
 ### Revised
 
-| SWIC Courses                 | SIUE Equivalent Courses            |
-| ---------------------------- | ---------------------------------- |
-| ANTH 150 anthro              | ANTH 111B Human Culture & Comm     |
-| CHEM 101 intro chem          | CHEM 1XX Introductory Chemistry    |
-| MATH 191 intro stat          | STAT 244 Statistics                |
-| MATH 203 Calc 1              | MATH 150 Calculus I                |
-| MATH 204 Calc 2              | MATH 152 Calculus II               |
-| MATH 292 Linear Algebra      | MATH 321 Linear Algebra            |
-| PHYS 204 Mechanics           | PHYS 151 University Physics I      |
-| MATH 205 Calc 3              | MATH 250 Calculus III              |
-| PHYS 205 HEM                 | PHYS 152 University Physics II     |
-| ENGR 271 Electrical Circuits | ECE 210 Circuit Analysis I         |
-| MATH 290 DE                  | MATH 305 Differential Equations I  |
-| CHEM 105 General Chem        | CHEM 121A General Chemistry        |
-| PHYS 206 Light               | PHYS 201 University Physics III    |
+| SWIC Courses                 | SIUE Equivalent Courses           |
+| ---------------------------- | --------------------------------- |
+| ANTH 150 anthro              | ANTH 111B Human Culture & Comm    |
+| CHEM 101 intro chem          | CHEM 1XX Introductory Chemistry   |
+| MATH 191 intro stat          | STAT 244 Statistics               |
+| MATH 203 Calc 1              | MATH 150 Calculus I               |
+| MATH 204 Calc 2              | MATH 152 Calculus II              |
+| MATH 292 Linear Algebra      | MATH 321 Linear Algebra           |
+| PHYS 204 Mechanics           | PHYS 151 University Physics I     |
+| MATH 205 Calc 3              | MATH 250 Calculus III             |
+| PHYS 205 HEM                 | PHYS 152 University Physics II    |
+| ENGR 271 Electrical Circuits | ECE 210 Circuit Analysis I        |
+| MATH 290 DE                  | MATH 305 Differential Equations I |
+| CHEM 105 General Chem        | CHEM 121A General Chemistry       |
+| PHYS 206 Light               | PHYS 201 University Physics III   |
 
 
 ## SIUE B.S. in CE Requirements
@@ -310,6 +310,26 @@ Electives (9-500L, 9-400L) :
 
 B.S. in CE with electives specifically geared towards M.S. in ECE.
 - Minor in Physics as well
+
+
+### SWIC
+
+| SWIC Courses                 | SIUE Equivalent Courses           |
+| ---------------------------- | --------------------------------- |
+| ANTH 150 anthro              | ANTH 111B Human Culture & Comm    |
+| CHEM 101 intro chem          | CHEM 1XX Introductory Chemistry   |
+| MATH 191 intro stat          | STAT 244 Statistics               |
+| MATH 203 Calc 1              | MATH 150 Calculus I               |
+| MATH 204 Calc 2              | MATH 152 Calculus II              |
+| MATH 292 Linear Algebra      | MATH 321 Linear Algebra           |
+| PHYS 204 Mechanics           | PHYS 151 University Physics I     |
+| MATH 205 Calc 3              | MATH 250 Calculus III             |
+| PHYS 205 HEM                 | PHYS 152 University Physics II    |
+| ENGR 271 Electrical Circuits | ECE 210 Circuit Analysis I        |
+| MATH 290 DE                  | MATH 305 Differential Equations I |
+| CHEM 105 General Chem        | CHEM 121A General Chemistry       |
+| PHYS 206 Light               | PHYS 201 University Physics III   |
+
 
 ### Undergraduate
 
