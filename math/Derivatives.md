@@ -14,20 +14,6 @@
 | Chain Rule             | $\frac{d}{dx}f(g(x))=f'(g(x))g'(x)$                                                 |
 
 
-## Derivative of Exponential Functions
-
-| Name                     | Equation                                                                         |
-| ------------------------ | -------------------------------------------------------------------------------- |
-| Special Exponential Rule | $\frac{d}{dx}(e^{g(x)})=e^{g(x)}g'(x)$<br>or $\frac{d}{dx}(e^x)=e^x$             |
-| General Exponential Rule | $\frac{d}{dx}(a^{g(x)})=\ln(a)a^{g(x)}g'(x)$<br>or $\frac{d}{dx}(a^x)=\ln(a)a^x$ |
-
-
-#todo What does inverse functions have reciprocal derivatives mean?
-$$
-g'(x) = \frac{1}{f'(g(x))}
-$$
-
-
 ## Reciprocal Derivatives of Inverses
 
 Two functions $f$ and $g$ are inverse functions if :
@@ -89,6 +75,13 @@ $$
 f'(x) = e^x \implies f'(\ln x) = e^{\ln x} = x
 $$
 
+
+## Derivative of Exponential Functions
+
+| Name                     | Equation                                                                         |
+| ------------------------ | -------------------------------------------------------------------------------- |
+| Special Exponential Rule | $\frac{d}{dx}(e^{g(x)})=e^{g(x)}g'(x)$<br>or $\frac{d}{dx}(e^x)=e^x$             |
+| General Exponential Rule | $\frac{d}{dx}(a^{g(x)})=\ln(a)a^{g(x)}g'(x)$<br>or $\frac{d}{dx}(a^x)=\ln(a)a^x$ |
 
 ### Derivative of $e^x$
 
