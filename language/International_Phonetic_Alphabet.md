@@ -265,10 +265,13 @@ Consonant phonemes in [General American](https://en.wikipedia.org/wiki/General_A
 > [!warning] Note that `/w, j/` are omitted from the list. They are considered consonants too, but they are also called "semi-vowels" due to their unique behavior.
 > They will be covered in detail at [[#Semi-Vowels (j and w)]]
 
+> [!important] Note that `/x/` is not included in the GA IPA consonants.
+> `/x/` represents a voiceless velar fricative, which is a raspy sound that is found in languages like Scottish ("loch") or Spanish ("jamón").
+
 
 #### Phoneme-to-Grapheme Correspondence
 
-In English language, a *grapheme* (a letter or a sequence of letters) may correspond to a single phoneme, or a cluster of phonemes, OR correspond to different phonemes depending on context.
+In English language, a grapheme (a letter or a sequence of letters) may correspond to a single phoneme, or a cluster of phonemes, OR correspond to different phonemes depending on context.
 - And vice versa!
 
 #example letters that correspond to one standard phoneme :
@@ -285,7 +288,8 @@ In English language, a *grapheme* (a letter or a sequence of letters) may corres
 - `⟨z⟩` to `/z/` (as in "zipper")
 
 #example letters that correspond to a cluster of phonemes :
-- `⟨x⟩` to `/ks/` ("box") or `/gz/` ("exist")
+- `⟨x⟩` to `/ks/` ("box") or `/gz/` ("exam")
+	- Sometimes `/z/` ("xylophone")
 - `⟨q⟩` to `/kw/` (as in "quiet")
 
 #example letters that correspond to different phonemes depending on context :
