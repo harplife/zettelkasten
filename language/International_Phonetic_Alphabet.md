@@ -311,16 +311,32 @@ In English language, a grapheme (a letter or a sequence of letters) may correspo
 #define A [Digraph](<https://en.wikipedia.org/wiki/Digraph_(orthography)>) is a pair of letters used to produce a single phoneme.
 - It can also produce a cluster of phonemes (simultaneously) that does not correspond to the normal values of the two characters combined.
 
-The English alphabet has fewer consonant *letters* than the English language has consonant *sounds*, so *digraphs* are used to extend the alphabet. The consonant digraphs include :
+The English alphabet has fewer consonant *letters* than the English language has consonant *sounds*, so *digraphs* are used to extend the alphabet. This kind of consonant digraphs include :
 - `⟨ch⟩` for `/t͡ʃ/`
 - `⟨sh⟩` for `/ʃ/`
 - `⟨th⟩` for `/ð/` or `/θ/`
 - `⟨ng⟩` for `/ŋ/`
-- `⟨wh⟩` for `/h/` or `/w/`
-- `⟨ph⟩` for `/f/`
 
 > [!warning] If each letter in a pair of letters retains its own, individual sound, these are *NOT* considered a digraph.
 > For example, `⟨fl⟩` in "fly" or `⟨bl⟩` in "blue" are not digraphs because they do not produce a single phoneme.
+
+<center>. . .</center>
+
+There are a few consonant digraphs that doesn't necessarily extend the alphabet :
+- `⟨wh⟩` -  `/h/`, `/w/`, or `\ʍ\` (hw) - "who", "what", "whiskey"
+- `⟨wr⟩` - `/ɹ/` - "wrong"
+- `⟨gn⟩` - `/n/` - "gnaw"
+- `⟨kn⟩` - `/n/` - "know"
+- `⟨ph⟩` - `/f/` - "phone"
+
+
+#### Sibilants
+
+#define A [Sibilant](https://en.wikipedia.org/wiki/Sibilant) is a high-intensity, high-pitched fricative or affricate consonant produced by directing airflow with the tongue against the teeth. In other words, it is a "hissing" or "hushing" sound.
+
+In GA, the sibilant consonants are :
+- (fricatives) `/s, z, ʃ, ʒ/`
+- (affricates) `/d͡ʒ, t͡ʃ/`
 
 
 #### Affricates
@@ -347,15 +363,6 @@ While tie bar (arc) symbol above or below the two consonants is not necessary, b
 `/t͡ʃ/` is commonly spelled with `⟨ch⟩` or `⟨tch⟩`. For example,
 - `⟨ch⟩` : chain, check, rich
 - `⟨tch⟩` : match, catch, kitchen
-
-
-#### Sibilants
-
-#define A [Sibilant](https://en.wikipedia.org/wiki/Sibilant) is a high-intensity, high-pitched fricative or affricate consonant produced by directing airflow with the tongue against the teeth. In other words, it is a "hissing" or "hushing" sound.
-
-In GA, the sibilant consonants are :
-- (fricatives) `/s, z, ʃ, ʒ/`
-- (affricates) `/d͡ʒ, t͡ʃ/`
 
 
 #### Interdental Consonants
