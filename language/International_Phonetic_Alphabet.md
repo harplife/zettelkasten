@@ -105,7 +105,7 @@ An [Allophone](https://en.wikipedia.org/wiki/Allophone) is any set of *perceptua
 - An allophone is said to be a **phonetic realization** of a phoneme.
 - #example In American English, the "t" sounds in the words "top", "water" and "mountain" are allophones. They all share the same phoneme "t", but they all sound slightly different.
 
-<center>. . .</center>
+#### Methods of Transcription
 
 In IPA, we use the **phonemic** transcription (using slashes `/ /`) when we describe sound by their abstract, distinct sound using *phonemes*. We use the **phonetic** transcription (using brackets `[ ]`) when we describe the actual sounds precisely and detailed (including subtle variations like allophones).
 
@@ -149,19 +149,23 @@ Printable version of GA IPA Basics - [[General_American_IPA_Basics_v1_20260215.p
 #define A [Consonant](https://en.wikipedia.org/wiki/Consonant) is a speech sound that is articulated with complete or partial closure of the vocal tract.
 
 IPA categorizes consonants based on three primary, articulatory features :
-- [Place of articulation](https://en.wikipedia.org/wiki/Place_of_articulation)
-- [Manner of articulation](https://en.wikipedia.org/wiki/Manner_of_articulation)
-- [Voicing](<https://en.wikipedia.org/wiki/Voice_(phonetics)>)
+- Voicing
+- The Place of Articulation
+- The Manner of Articulation
 
----
-**Voicing** refers to a classification of speech sounds that tend to be associated with vocal cord vibration but may not actually be voiced at the articulatory level. In other words, speech sounds can be described as either "voiced" or "voiceless (unvoiced)".
+
+#### Voicing
+
+#define [Voicing](<https://en.wikipedia.org/wiki/Voice_(phonetics)>) refers to a classification of speech sounds that tend to be associated with vocal cord vibration but may not actually be voiced at the articulatory level. In other words, speech sounds can be described as either "voiced" or "voiceless (unvoiced)".
 
 It's easier to understand with an example. When we make sound associated with the English letter "s", our vocal cord does not vibrate while "s" is pronounced. However, our vocal cord does vibrate when we pronounce "z".
 
 There are other letter pairs that are voiced/voiceless, such as p/b, t/d, f/v, and more. Note that the letters in a pair are pronounced in the same way (place and manner), which we'll find out more about below.
 
----
-**The Place of Articulation** is the approximate location in the vocal tract (e.g. lips, teeth, or palate) where the air stream is constricted/blocked to produce a consonant sound.
+
+#### The Place of Articulation
+
+#define [Place of articulation](https://en.wikipedia.org/wiki/Place_of_articulation) is the approximate location in the vocal tract (e.g. lips, teeth, or palate) where the air stream is constricted/blocked to produce a consonant sound.
 
 They are largely divided into four major parts :
 - [Labial](https://en.wikipedia.org/wiki/Labial_consonant) (lips)
@@ -193,8 +197,9 @@ In the table above, I use the term "against" but it doesn't necessarily mean the
 #todo There's an [svg version of Places of Articulation](https://en.wikipedia.org/wiki/File:Places_of_articulation.svg), but it may need editing to include a legend for the labels.
 
 
----
-**The Manner of Articulation** describes *how* speech organs (e.g. tongue, lips, teeth) constrict or modify airflow in the vocal tract to produce consonant sounds.
+#### The Manner of Articulation
+
+#define [Manner of articulation](https://en.wikipedia.org/wiki/Manner_of_articulation) describes *how* speech organs (e.g. tongue, lips, teeth) constrict or modify airflow in the vocal tract to produce consonant sounds.
 
 Key manners of articulation include :
 
