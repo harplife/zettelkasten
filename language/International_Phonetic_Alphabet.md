@@ -50,9 +50,7 @@ https://www.ipachart.com/
 
 ## Phonetics
 
-#define [Phonetics](https://en.wikipedia.org/wiki/Phonetics) is the branch of linguistics that studies the physical production, acoustic transmission, and perception of speech sounds.
-- It examines how vocal organs create sounds (articulatory), the physical properties of sound waves (acoustic), and how listeners interpret them (auditory).
-- This field uses the IPA to classify speech sounds.
+In order to study how humans produce and perceive speech sound, phonetics field uses the IPA to classify speech sounds first - which is what we'll discuss in this section.
 
 
 ### Syllable
