@@ -269,7 +269,7 @@ Consonant phonemes in [General American](https://en.wikipedia.org/wiki/General_A
 > `/x/` represents a voiceless velar fricative, which is a raspy sound that is found in languages like Scottish ("loch") or Spanish ("jamón").
 
 
-#### Phoneme-to-Grapheme Correspondence
+#### Grapheme-to-Phoneme Correspondence
 
 In English language, a grapheme (a letter or a sequence of letters) may correspond to a single phoneme, or a cluster of phonemes, OR correspond to different phonemes depending on context.
 - And vice versa!
@@ -614,6 +614,39 @@ The `/o/` "oh" sound is not used in GA (at least, not as monophthong).
 The `/ɯ/` "으" sound is  not at all used in GA.
 - Fun fact : this sound can be made by pronouncing `/u/` without the rounding the lips.
 - The closest we get is `/ə/`, especially when it is followed by `/r/` or `/l/`. However, in this case, the vowel can be omitted. See [[#Syllabic Consonants]].
+
+
+#### Phoneme-to-Grapheme Correspondence
+
+
+| Phoneme | Grapheme | Example           |
+| ------- | -------- | ----------------- |
+| `/æ/`   | `⟨a⟩`    | cat, apple        |
+| `/ɛ/`   | `⟨e⟩`    | bed, hen          |
+|         | `⟨ea⟩`   | head, lead (noun) |
+|         | `⟨ai⟩`   | said              |
+| `/ɪ/`   | i        | sit               |
+|         | e        | england           |
+|         | o        | women             |
+|         | y        | gym               |
+|         |          |                   |
+|         |          |                   |
+|         |          |                   |
+|         |          |                   |
+|         |          |                   |
+|         |          |                   |
+|         |          |                   |
+
+
+
+---
+Open Syllables : A vowel at the end of a syllable is usually tense/long (e.g. be, go)
+
+Closed Syllables : A vowel followed by a consonant is usually lax/short (e.g. pet, sit)
+
+
+
+
 
 
 #### Diphthongs
@@ -1276,3 +1309,12 @@ The major characteristic of the Southern drawl is vowel breaking.
 - "Whole" - `/hoʊl/`
 - "Whoop" - `/hup/`
 
+
+
+### Magic E
+
+Key reasons for Magic E
+- Long Vowel Marker (Vowel-Consonant-E) : extends the preceding vowel with e sound (e.g. tape, kite)
+- Preventing Forbidden Endings : English words typically do not end in 'v' or 'u'. Silent 'e' is added to words like have, give, blue, and true.
+- Softening Consonants : The silent 'e' makes the preceding consonants like 'c' or 'g' soft rather than hard. For example, race (not rack) and page (not pag).
+- Distinguishing Plurals : It helps differentiate between singular words and plural, such as tense and tens.
