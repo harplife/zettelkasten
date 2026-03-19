@@ -245,7 +245,7 @@ Consonant phonemes in [General American](https://en.wikipedia.org/wiki/General_A
 | `/v/`                | voiced           | **v**an, ha**v**e                                                           |
 | `/f/`                | voiceless        | **f**an, pu**ff**, **ph**oto                                                |
 | `/z/`                | voiced           | **z**oo, ro**se**                                                           |
-| `/s/`                | voiceless        | **s**it, pa**ss**                                                           |
+| `/s/`                | voiceless        | **s**it, pa**ss**, **c**eiling                                              |
 | `/ʒ/` (zh)           | voiced           | plea**s**ure, gara**g**e, vi**si**on                                        |
 | `/ʃ/` (sh)           | voiceless        | **sh**ip, di**sh**, pre**ss**ure                                            |
 | `/d͡ʒ/` (j)          | voiced           | **j**ob, **g**iant, ma**g**ic, a**g**e, ba**dg**e, sol**d**ier, **j**ealous |
