@@ -55,7 +55,7 @@ In order to study how humans produce and perceive speech sound, phonetics field 
 
 ### Syllable
 
-#define A **Syllable** is a basic unit of organization within a sequence of speech sounds (e.g. a word).
+#define A [Syllable](https://en.wikipedia.org/wiki/Syllable) is a basic unit of organization within a sequence of speech sounds (e.g. a word).
 
 The general structure of a syllable consists of two components :
 - Onset
