@@ -1933,21 +1933,6 @@
                 }
               },
               {
-                "id": "641e5336b764f231",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "language/linguistic_relativity.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "linguistic_relativity"
-                }
-              },
-              {
                 "id": "6bfd33caace19aee",
                 "type": "leaf",
                 "state": {
@@ -1961,39 +1946,9 @@
                   "icon": "lucide-file",
                   "title": "International_Phonetic_Alphabet"
                 }
-              },
-              {
-                "id": "bc3c908e79bba033",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "chemistry/nomenclature_of_compounds.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "nomenclature_of_compounds"
-                }
-              },
-              {
-                "id": "267c315ca24850e8",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "chemistry/Balancing_Chemical_Equations.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Balancing_Chemical_Equations"
-                }
               }
             ],
-            "currentTab": 10
+            "currentTab": 7
           }
         ],
         "direction": "vertical"
@@ -2071,13 +2026,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "chemistry/Balancing_Chemical_Equations.md",
+                    "file": "language/International_Phonetic_Alphabet.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of Balancing_Chemical_Equations"
+                  "title": "Outline of International_Phonetic_Alphabet"
                 }
               }
             ]
@@ -2198,7 +2153,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "chemistry/Balancing_Chemical_Equations.md",
+                    "file": "language/International_Phonetic_Alphabet.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -2208,7 +2163,7 @@
                     "unlinkedCollapsed": false
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for Balancing_Chemical_Equations"
+                  "title": "Backlinks for International_Phonetic_Alphabet"
                 }
               }
             ],
@@ -2234,8 +2189,8 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "267c315ca24850e8",
-      "mtime": "2026-03-11T08:01:00-05:00",
+      "active": "6bfd33caace19aee",
+      "mtime": "2026-03-18T19:19:34-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "chemistry",
@@ -2810,5 +2765,5 @@
       }
     }
   },
-  "active": "SWIC"
+  "active": "Chemistry"
 }

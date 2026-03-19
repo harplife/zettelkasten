@@ -34,7 +34,7 @@ IPA consists of :
 
 ## Official IPA Chart
 
-![[IPA_chart_2020.svg]]
+![[IPA_chart_2020.svg | center | 600]]
 > Official IPA Chart Year 2020 ([Source](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet_chart))
 
 
@@ -45,12 +45,12 @@ https://www.ipachart.com/
 
 ### IPA Manners and Features
 
-![[IPA-features.svg]]
+![[IPA-features.svg | center | 600]]
 
 
 ## Phonetics
 
-#todo #define Phonetics is the branch of linguistics that studies the physical production, acoustic transmission, and perception of speech sounds.
+#define [Phonetics](https://en.wikipedia.org/wiki/Phonetics) is the branch of linguistics that studies the physical production, acoustic transmission, and perception of speech sounds.
 - It examines how vocal organs create sounds (articulatory), the physical properties of sound waves (acoustic), and how listeners interpret them (auditory).
 - This field uses the IPA to classify speech sounds.
 
