@@ -616,39 +616,6 @@ The `/ɯ/` "으" sound is  not at all used in GA.
 - The closest we get is `/ə/`, especially when it is followed by `/r/` or `/l/`. However, in this case, the vowel can be omitted. See [[#Syllabic Consonants]].
 
 
-#### Phoneme-to-Grapheme Correspondence
-
-
-| Phoneme | Grapheme | Example           |
-| ------- | -------- | ----------------- |
-| `/æ/`   | `⟨a⟩`    | cat, apple        |
-| `/ɛ/`   | `⟨e⟩`    | bed, hen          |
-|         | `⟨ea⟩`   | head, lead (noun) |
-|         | `⟨ai⟩`   | said              |
-| `/ɪ/`   | i        | sit               |
-|         | e        | england           |
-|         | o        | women             |
-|         | y        | gym               |
-|         |          |                   |
-|         |          |                   |
-|         |          |                   |
-|         |          |                   |
-|         |          |                   |
-|         |          |                   |
-|         |          |                   |
-
-
-
----
-Open Syllables : A vowel at the end of a syllable is usually tense/long (e.g. be, go)
-
-Closed Syllables : A vowel followed by a consonant is usually lax/short (e.g. pet, sit)
-
-
-
-
-
-
 #### Diphthongs
 
 #define **Diphthongs** are "gliding vowels" formed by combining two adjacent vowel sounds within a single syllable, where the tongue moves from one position to another.
@@ -691,6 +658,109 @@ Exceptions are words like :
 - Oasis - `/oʊˈeɪsəs/`
 
 Whether there is any "true" triphthong in GA is something that is debated because they are almost always split by a *syllable boundary*.
+
+
+#### Phoneme-to-Grapheme Correspondence
+
+> [!important] This is a clear example of how English words are not written as they are pronounced.
+> There are some patterns that help,
+> - **Open Syllables** : A vowel at the end of a syllable is usually tense/long (e.g. be, go)
+> - **Closed Syllables** : A vowel followed by a consonant is usually lax/short (e.g. pet, sit)
+> - **Reduced Vowels** : Unstressed vowels tend to become schwa `/ə/`
+> 
+> We'll find out more about patterns that affect pronunciation under **Phonology**.
+
+#example Monophthong-to-Grapheme Correspondences
+
+| Phoneme | Grapheme | Example                 | Note           |
+| ------- | -------- | ----------------------- | -------------- |
+| `/ɑ/`   | `⟨o⟩`    | pot, lot                |                |
+|         | `⟨a⟩`    | father, palm            |                |
+| `/æ/`   | `⟨a⟩`    | cat, apple              |                |
+|         | `⟨ai⟩`   | plaid, plait            |                |
+| `/ɛ/`   | `⟨e⟩`    | bed, hen                |                |
+|         | `⟨ea⟩`   | head, lead (noun)       |                |
+|         | `⟨ai⟩`   | said, again, against    |                |
+| `/i/`   | `⟨e⟩`    | be, me                  |                |
+|         | ee       | see, bee                |                |
+|         | ea       | meat, seat              |                |
+|         | ie       | brief, thief, fief      |                |
+|         | y        | lady, lily              |                |
+|         | ey       | key                     |                |
+| `/ɪ/`   | i        | sit, kit                |                |
+|         | e        | english                 |                |
+|         | o        | women                   | Extremely rare |
+|         | y        | gym                     | Rare?          |
+| `/ɔ/`   | a        | call                    |                |
+|         | aw       | saw, paw                |                |
+|         | au       | taught, paul            |                |
+|         | o        | dog, doll               |                |
+|         | or/ore   | fork, pore              |                |
+| `/ə/`   | u        | cup, bus, suppose, null |                |
+|         | o        | monkey                  |                |
+|         | oo       | blood                   |                |
+|         | a        | about                   |                |
+|         | e        | the                     |                |
+|         | i        | pencil                  |                |
+| `/u/`   | ue       | blue, clue              |                |
+|         | u_e      | flute, rude             |                |
+|         | oo       | cool, food, brood       |                |
+|         | ou       | group                   |                |
+|         | ew       | dew, lewd, shrewd       |                |
+| `/ʊ/`   | o        | wolf                    |                |
+|         | oo       | look, book              |                |
+|         | u        | bush                    |                |
+
+---
+#example Diphthong-to-Grapheme Correspondences
+
+| Phoneme | Grapheme | Example           | Note   |
+| ------- | -------- | ----------------- | ------ |
+| `/aɪ/`  | ie       | pie, lie          |        |
+|         | i_e      | kite, pike        |        |
+|         | igh      | light, sigh       |        |
+|         | y        | fly, python       |        |
+|         | uy       | guy               | rare?? |
+| `/aʊ/`  | ou       | shout, mound      |        |
+|         | ow       | now, down, shower |        |
+| `/eɪ/`  | a_e      | mate, name        |        |
+|         | ai       | maid, paid        |        |
+|         | ay       | say, bay          |        |
+|         | ey       | they              | Rare?  |
+|         | eigh     | eight, weight     |        |
+| `/oʊ/`  | oe       | toe               |        |
+|         | o_e      | bone, tone        |        |
+|         | ow       | sow, show         |        |
+|         | oa       | boat              |        |
+| `/ɔɪ/`  | oi       | join, point       |        |
+|         | oy       | boy, toys         |        |
+|         | uoy      | buoy              | rare?? |
+| `/ɪə/`  | ea       | idea, area        |        |
+
+<center>. . .</center>
+
+These diphthongs tend to appear when `/əɹ/` or `/əl/` is present.
+
+| Phoneme | Grapheme | Example                     | Note  |
+| ------- | -------- | --------------------------- | ----- |
+| `/eə/`  | air      | hair, chair                 |       |
+|         | are      | care, share                 |       |
+|         | ear      | bear, wear                  |       |
+|         | ere      | there, where                |       |
+|         | eir      | their, heirloom, chandelier |       |
+|         | ier      | fiery                       | rare? |
+| `/ɪə/`  | ear      | near, clear                 |       |
+|         | eer      | beer, cheer                 |       |
+|         | ere      | here, sincere               |       |
+|         | ier      | pier, fierce, premier       |       |
+|         | ial      | material                    |       |
+| `/ʊə/`  | ure      | endure, mature              |       |
+|         | our      | tour, pour                  |       |
+
+
+
+
+
 
 
 ### Semi-Vowels (j and w)
