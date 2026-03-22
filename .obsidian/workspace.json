@@ -4,127 +4,142 @@
     "type": "split",
     "children": [
       {
-        "id": "2d775d3245f9509a",
+        "id": "48e407348db680e6",
         "type": "tabs",
         "children": [
           {
-            "id": "bf20a03f0a3bbaf6",
+            "id": "3643feedec790cda",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chemistry/Periodic_Table.md",
+                "file": "Atomic_Spectra.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Periodic_Table"
+              "title": "Atomic_Spectra"
             }
           },
           {
-            "id": "30d7fcef401fa682",
+            "id": "1656a9989a0550c3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chemistry/alchemy/Alchemy.md",
+                "file": "math/precalculus/Resources/essence_of_trigonometry.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Alchemy"
+              "title": "essence_of_trigonometry"
             }
           },
           {
-            "id": "7e609f731ec72db3",
+            "id": "9c4a7f579d54fcc6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chemistry/Timeline_of_Element_Discoveries.md",
+                "file": "math/precalculus/Chapter 5/6_Modeling_Harmonic_motion.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Timeline_of_Element_Discoveries"
+              "title": "6_Modeling_Harmonic_motion"
             }
           },
           {
-            "id": "b55e54ebb380224f",
+            "id": "94e124c029256205",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chemistry/Periodic_Table_and_The_Origins.md",
+                "file": "math/precalculus/Chapter 6/1_Angle_Measure.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Periodic_Table_and_The_Origins"
+              "title": "1_Angle_Measure"
             }
           },
           {
-            "id": "ee4707b6261fc57e",
+            "id": "61f72ce80323c43a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chemistry/Periodic_Table.md",
+                "file": "math/calculus/Chapter 2/1_The_Idea_of_Limits.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Periodic_Table"
+              "title": "1_The_Idea_of_Limits"
             }
           },
           {
-            "id": "ee0c5b9a3c529700",
+            "id": "909287d299936c42",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chemistry/alchemy/The_Holocene_Alchemist.md",
+                "file": "math/calculus/Chapter 2/6_Continuity.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "The_Holocene_Alchemist"
+              "title": "6_Continuity"
             }
           },
           {
-            "id": "d41929df1cce8d83",
+            "id": "4c4962a1051d0678",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chemistry/alchemy/The_Alchemic_Script.md",
+                "file": "math/Exponents_and_Logarithms.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "The_Alchemic_Script"
+              "title": "Exponents_and_Logarithms"
             }
           },
           {
-            "id": "6bfd33caace19aee",
+            "id": "6f3b17683bc259ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "language/International_Phonetic_Alphabet.md",
+                "file": "math/Derivatives.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "International_Phonetic_Alphabet"
+              "title": "Derivatives"
+            }
+          },
+          {
+            "id": "33eb81d590fd6e44",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "math/Eulers_Number_e.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Eulers_Number_e"
             }
           }
         ],
@@ -142,7 +157,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "19ce5a4d65676126",
+            "id": "935f28b3df870977",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -161,7 +176,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "alphabetical",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -173,7 +190,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#definition",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -206,20 +223,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "language/International_Phonetic_Alphabet.md",
+                "file": "math/Derivatives.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of International_Phonetic_Alphabet"
+              "title": "Outline of Derivatives"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 347.5
+    "width": 296.5
   },
   "right": {
     "id": "f152d8fd8ec1f4e0",
@@ -235,8 +252,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           },
           {
@@ -255,7 +272,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "study_LearnCpp_GettingStarted.md",
+                "file": "math/precalculus/Chapter 1/2_Exponents_and_Radicals.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -283,7 +300,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of study_LearnCpp_GettingStarted"
+              "title": "Graph of 2_Exponents_and_Radicals"
             }
           },
           {
@@ -292,22 +309,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study_LearnCpp_GettingStarted.md",
+                "file": "math/precalculus/Chapter 1/2_Exponents_and_Radicals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from study_LearnCpp_GettingStarted"
-            }
-          },
-          {
-            "id": "cc30698aa4dc8073",
-            "type": "leaf",
-            "state": {
-              "type": "mathpad-view",
-              "state": {},
-              "icon": "sigma",
-              "title": "Mathpad"
+              "title": "Outgoing links from 2_Exponents_and_Radicals"
             }
           }
         ],
@@ -333,7 +340,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "language/International_Phonetic_Alphabet.md",
+                "file": "math/Derivatives.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -343,7 +350,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for International_Phonetic_Alphabet"
+              "title": "Backlinks for Derivatives"
             }
           }
         ],
@@ -369,25 +376,30 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "6bfd33caace19aee",
+  "active": "6f3b17683bc259ff",
   "lastOpenFiles": [
-    "language/linguistic_relativity.md",
+    "math/Exponents_and_Logarithms.md",
+    "math/Derivatives.md",
+    "math/Eulers_Number_e.md",
+    "math/calculus/Chapter 2/6_Continuity.md",
+    "math/calculus/Chapter 2/1_The_Idea_of_Limits.md",
+    "math/precalculus/Chapter 6/1_Angle_Measure.md",
+    "math/precalculus/Chapter 5/6_Modeling_Harmonic_motion.md",
+    "math/precalculus/Resources/essence_of_trigonometry.md",
+    "Atomic_Spectra.md",
     "language/International_Phonetic_Alphabet.md",
+    "language/linguistic_relativity.md",
     "chemistry/nomenclature_of_compounds.md",
     "chemistry/Balancing_Chemical_Equations.md",
     "chemistry/material_and_light.md",
     "SWIC/SWIC_SIUE_Plan.md",
-    "math/Derivatives.md",
     "math/Untitled.md",
-    "math/Eulers_Number_e.md",
-    "math/Exponents_and_Logarithms.md",
     "math/Limits.md",
     "attachments/Pasted image 20260313184715.png",
     "math/precalculus/Chapter 4/2_The_Natural_Exponential_Function.md",
     "math/precalculus/Chapter 4/1_Exponential_Functions.md",
     "attachments/exponential_function.svg",
     "attachments/exponential_function.svg.opdownload",
-    "math/calculus/Chapter 2/6_Continuity.md",
     "SWIC/SIUE_ECE_Courses.md",
     "SIUE",
     "SWIC/2026 Spring/math_203_calculus.md",
@@ -410,11 +422,6 @@
     "attachments/Periodic-Table-Orbitals-Dec-2016.pdf.opdownload",
     "chemistry/elements/38 - Strontium - Sr.md",
     "chemistry/elements/37 - Rubidium - Rb.md",
-    "chemistry/elements/4 - Beryllium (Be).md",
-    "chemistry/elements/3 - Lithium (Li).md",
-    "chemistry/elements/2 - Helium (He).md",
-    "chemistry/elements/1 - Hydrogen (H).md",
-    "chemistry/Periodic_Table_and_The_Origins.md",
     "attachments/IPA-features.svg.opdownload",
     "attachments/IPA_in_IPA.svg.opdownload",
     "computer_graphics/Computer_Graphics_Mindmap.canvas",
