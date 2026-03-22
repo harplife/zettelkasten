@@ -52,4 +52,11 @@ $$
 \end{align}
 $$
 
-$\frac{1}{\sqrt{ 1+x^2 }}$
+
+$\tan(\theta)=\frac{x}{1}$
+
+
+opposite : x
+adjacent : 1
+
+hyp = $\sqrt{ 1+\times^2 }$
