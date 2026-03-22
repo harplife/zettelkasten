@@ -19,3 +19,7 @@ https://www.technologyuk.net/mathematics/trigonometry/trigonometric-identities.s
 
 
 Note : [Trigonometry playlist on the same channel](https://www.youtube.com/playlist?list=PLZh9gzIvXQUvc6SufrIpkVrVLdhcGthSy)
+
+
+## Trigonometric Identities
+

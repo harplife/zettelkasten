@@ -1107,13 +1107,13 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "math/precalculus/Resources/essence_of_trigonometry.md",
+                    "file": "math/Essence_of_Trigonometry.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": false
                   },
                   "icon": "lucide-file",
-                  "title": "essence_of_trigonometry"
+                  "title": "Essence_of_Trigonometry"
                 }
               },
               {
@@ -1207,6 +1207,21 @@
                 }
               },
               {
+                "id": "99dd58939947fc5a",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "math/Essence_of_Trigonometry.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Essence_of_Trigonometry"
+                }
+              },
+              {
                 "id": "33eb81d590fd6e44",
                 "type": "leaf",
                 "state": {
@@ -1222,7 +1237,7 @@
                 }
               }
             ],
-            "currentTab": 7
+            "currentTab": 8
           }
         ],
         "direction": "vertical"
@@ -1302,13 +1317,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "math/Derivatives.md",
+                    "file": "math/Essence_of_Trigonometry.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of Derivatives"
+                  "title": "Outline of Essence_of_Trigonometry"
                 }
               }
             ]
@@ -1419,7 +1434,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "math/Derivatives.md",
+                    "file": "math/Essence_of_Trigonometry.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1429,7 +1444,7 @@
                     "unlinkedCollapsed": false
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for Derivatives"
+                  "title": "Backlinks for Essence_of_Trigonometry"
                 }
               }
             ],
@@ -1455,8 +1470,8 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "6f3b17683bc259ff",
-      "mtime": "2026-03-22T13:07:49-05:00",
+      "active": "99dd58939947fc5a",
+      "mtime": "2026-03-22T14:39:30-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "math",
@@ -1464,7 +1479,6 @@
           "math/calculus/Chapter 2",
           "math/fun_facts",
           "math/precalculus",
-          "math/precalculus/Chapter 4",
           "math/precalculus/Resources"
         ]
       }
