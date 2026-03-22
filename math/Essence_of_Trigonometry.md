@@ -42,12 +42,14 @@ Note : [Trigonometry playlist on the same channel](https://www.youtube.com/playl
 | $\sec^{-1}(x)$ | $\sin(\sec^{-1}(x)=\sqrt{ 1-\frac{1}{x^2} }$  | $\cos(\sec^{-1}(x))=\frac{1}{x}$              | $\tan(\sec^{-1}(x))=\pm \sqrt{ x^2-1 }$           |
 | $\csc^{-1}(x)$ | $\sin(\csc^{-1}(x))=\frac{1}{x}$              | $\cos(\csc^{-1}(x))=\sqrt{ 1-\frac{1}{x^2} }$ | $\tan(\csc^{-1}(x))=\pm \frac{1}{\sqrt{ x^2-1 }}$ |
 
+> [!important] For relationships between $\cot$, $\csc$, $\sec$ and their inverses, just find the reciprocals from the chart above.
 
-| $\theta$       | $\cot(\theta)$                                    | $\sec(\theta)$ | $\csc(\theta)$ |
-| -------------- | ------------------------------------------------- | -------------- | -------------- |
-| $\sin^{-1}(x)$ | $\cot(\sin^{-1}(x))=\frac{\sqrt{ 1-x^2 }}{x}$     |                |                |
-| $\cos^{-1}(x)$ | $\cot(\cos^{-1}(x))=\frac{x}{\sqrt{ 1-x^2 }}$     |                |                |
-| $\tan^{-1}(x)$ | $\cot(\tan^{-1}(x))=\frac{1}{x}$                  |                |                |
-| $\cot^{-1}(x)$ | $\cot(\cot^{-1}(x))=x$                            |                |                |
-| $\sec^{-1}(x)$ | $\cot(\sec^{-1}(x))=\pm \frac{1}{\sqrt{ x^2-1 }}$ |                |                |
-| $\csc^{-1}(x)$ | $\cot(\csc^{-1}(x))=\pm \sqrt{ x^2-1 }$           |                |                |
+Note :
+
+$$
+\begin{align}
+  \frac{\sqrt{ 1-x^2 }}{x}
+\end{align}
+$$
+
+$\frac{1}{\sqrt{ 1+x^2 }}$
