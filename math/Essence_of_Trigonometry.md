@@ -44,19 +44,18 @@ Note : [Trigonometry playlist on the same channel](https://www.youtube.com/playl
 
 > [!important] For relationships between $\cot$, $\csc$, $\sec$ and their inverses, just find the reciprocals from the chart above.
 
+
 Note :
+- Hypotenuse is often $\sqrt{ 1+x^2 }$
+- Opp/Adj are either $1$, $x$, $\sqrt{ 1-x^2 }$, or $\sqrt{ x^2-1 }$
+
+
 
 $$
-\begin{align}
-  \frac{\sqrt{ 1-x^2 }}{x}
-\end{align}
+\sqrt{ 1-\frac{1}{x^2} }
 $$
 
 
-$\tan(\theta)=\frac{x}{1}$
-
-
-opposite : x
-adjacent : 1
-
-hyp = $\sqrt{ 1+\times^2 }$
+$$
+\frac{\sqrt{ x^2-1 }}{|x|}
+$$
