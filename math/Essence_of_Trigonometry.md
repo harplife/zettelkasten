@@ -23,3 +23,5 @@ Note : [Trigonometry playlist on the same channel](https://www.youtube.com/playl
 
 ## Trigonometric Identities
 
+### Pythagorean Identities
+
