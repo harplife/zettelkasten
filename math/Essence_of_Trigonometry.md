@@ -25,3 +25,16 @@ Note : [Trigonometry playlist on the same channel](https://www.youtube.com/playl
 
 ### Pythagorean Identities
 
+
+
+## Inverse Trigonometric Identities
+
+
+
+## Relationships between trig functions and inverses
+
+
+
+| $\theta$ | $\sin(\theta)$ | $\cos(\theta)$ | $\tan(\theta)$ |     |     |     |
+| -------- | -------------- | -------------- | -------------- | --- | --- | --- |
+|          |                |                |                |     |     |     |
