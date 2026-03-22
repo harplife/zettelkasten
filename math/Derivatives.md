@@ -63,6 +63,12 @@ $$
 \boxed{g'(x) = \frac{1}{f'(g(x))}}
 $$
 
+Or more accurately :
+
+$$
+\boxed{(f^{-1})'(u) = \frac{u'}{f'(f^{-1}(u))}}
+$$
+
 ---
 We can see that this relationship holds true with $f(x)=e^x$ and its inverse $g(x)=\ln x$.
 
@@ -573,8 +579,22 @@ $$
 | Derivative of Cosecant  | $\frac{d}{dx}(\csc x)=-\csc x \cot x$ |
 
 
+### Inverse Trig Functions
 
-### Inverse Trigonometric Functions
+| Name                            | Equation                                              | RDI\*                          |
+| ------------------------------- | ----------------------------------------------------- | ------------------------------ |
+| Derivative of Inverse Sine      | $\frac{d}{dx}(\sin^{-1}u)=\frac{u'}{\sqrt{ 1-u^2 }}$  | $\frac{u'}{\cos(\sin^{-1} u)}$ |
+| Derivative of Inverse Cosine    | $\frac{d}{dx}(\cos^{-1}u)=-\frac{u'}{\sqrt{ 1-u^2 }}$ | $-\frac{u'}{\sin(\cos^{-1}u)}$ |
+| Derivative of Inverse Tangent   | $\frac{d}{dx}$                                        |                                |
+| Derivative of Inverse Cotangent | $\frac{d}{dx}$                                        |                                |
+| Derivative of Inverse Secant    | $\frac{d}{dx}$                                        |                                |
+| Derivative of Inverse Cosecant  | $\frac{d}{dx}$                                        |                                |
+
+\*Reciprocal Derivatives of Inverses :
+$$
+\boxed{(f^{-1})'(u) = \frac{u'}{f'(f^{-1}(u))}}
+$$
+
 
 
 ### Hyperbolic Functions
