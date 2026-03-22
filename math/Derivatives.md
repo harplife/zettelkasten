@@ -581,14 +581,14 @@ $$
 
 ### Inverse Trig Functions
 
-| Name                            | Equation                                              | RDI\*                          |
-| ------------------------------- | ----------------------------------------------------- | ------------------------------ |
-| Derivative of Inverse Sine      | $\frac{d}{dx}(\sin^{-1}u)=\frac{u'}{\sqrt{ 1-u^2 }}$  | $\frac{u'}{\cos(\sin^{-1} u)}$ |
-| Derivative of Inverse Cosine    | $\frac{d}{dx}(\cos^{-1}u)=-\frac{u'}{\sqrt{ 1-u^2 }}$ | $-\frac{u'}{\sin(\cos^{-1}u)}$ |
-| Derivative of Inverse Tangent   | $\frac{d}{dx}$                                        |                                |
-| Derivative of Inverse Cotangent | $\frac{d}{dx}$                                        |                                |
-| Derivative of Inverse Secant    | $\frac{d}{dx}$                                        |                                |
-| Derivative of Inverse Cosecant  | $\frac{d}{dx}$                                        |                                |
+| Name                            | Equation                                                     | RDI\*                             |
+| ------------------------------- | ------------------------------------------------------------ | --------------------------------- |
+| Derivative of Inverse Sine      | $\frac{d}{dx}(\sin^{-1}u)=\frac{u'}{\sqrt{ 1-u^2 }}$         | $\frac{u'}{\cos(\sin^{-1} u)}$    |
+| Derivative of Inverse Cosine    | $\frac{d}{dx}(\cos^{-1}u)=-\frac{u'}{\sqrt{ 1-u^2 }}$        | $-\frac{u'}{\sin(\cos^{-1}u)}$    |
+| Derivative of Inverse Tangent   | $\frac{d}{dx}(\tan^{-1}u)=\frac{u'}{1+u^2}$                  | $\frac{u'}{\sec^2(\tan^{-1}(u))}$ |
+| Derivative of Inverse Cotangent | $\frac{d}{dx}=-\frac{u'}{1+u^2}$                             |                                   |
+| Derivative of Inverse Secant    | $\frac{d}{dx}(\sec^{-1}x)=\frac{u'}{\|x\|\sqrt{ x^2-1 }}$    |                                   |
+| Derivative of Inverse Cosecant  | $\frac{d}{dx}(\csc^{-1}(x))=-\frac{u'}{\|x\|\sqrt{ x^2-1 }}$ |                                   |
 
 \*Reciprocal Derivatives of Inverses :
 $$

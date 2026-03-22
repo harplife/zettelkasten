@@ -33,29 +33,25 @@ Note : [Trigonometry playlist on the same channel](https://www.youtube.com/playl
 
 ## Relationships between trig functions and inverses
 
-| $\theta$       | $\sin(\theta)$                                | $\cos(\theta)$                                | $\tan(\theta)$                                    |
-| -------------- | --------------------------------------------- | --------------------------------------------- | ------------------------------------------------- |
-| $\sin^{-1}(x)$ | $\sin(\sin^{-1}(x))=x$                        | $\cos(\sin^{-1}(x))=\sqrt{ 1-x^2 }$           | $\tan(\sin^{-1}(x))=\frac{x}{\sqrt{ 1-x^2 }}$     |
-| $\cos^{-1}(x)$ | $\sin(\cos^{-1}(x))=\sqrt{ 1-x^2 }$           | $\cos(\cos^{-1}(x))=x$                        | $\tan(\cos^{-1}(x))=\frac{\sqrt{ 1-x^2 }}{x}$     |
-| $\tan^{-1}(x)$ | $\sin(\tan^{-1}(x))=\frac{x}{\sqrt{ 1+x^2 }}$ | $\cos(\tan^{-1}(x))=\frac{1}{\sqrt{ 1+x^2 }}$ | $\tan(\tan^{-1}(x))=x$                            |
-| $\cot^{-1}(x)$ | $\sin(\cot^{-1}(x))=\frac{1}{\sqrt{ 1+x^2 }}$ | $\cos(\cot^{-1}(x))=\frac{x}{\sqrt{ 1+x^2 }}$ | $\tan(\cot^{-1}(x))=\frac{1}{x}$                  |
-| $\sec^{-1}(x)$ | $\sin(\sec^{-1}(x)=\sqrt{ 1-\frac{1}{x^2} }$  | $\cos(\sec^{-1}(x))=\frac{1}{x}$              | $\tan(\sec^{-1}(x))=\pm \sqrt{ x^2-1 }$           |
-| $\csc^{-1}(x)$ | $\sin(\csc^{-1}(x))=\frac{1}{x}$              | $\cos(\csc^{-1}(x))=\sqrt{ 1-\frac{1}{x^2} }$ | $\tan(\csc^{-1}(x))=\pm \frac{1}{\sqrt{ x^2-1 }}$ |
+| $\theta$       | $\sin(\theta)$                                   | $\cos(\theta)$                                    | $\tan(\theta)$                                    |
+| -------------- | ------------------------------------------------ | ------------------------------------------------- | ------------------------------------------------- |
+| $\sin^{-1}(x)$ | $\sin(\sin^{-1}(x))=x$                           | $\cos(\sin^{-1}(x))=\sqrt{ 1-x^2 }$               | $\tan(\sin^{-1}(x))=\frac{x}{\sqrt{ 1-x^2 }}$     |
+| $\cos^{-1}(x)$ | $\sin(\cos^{-1}(x))=\sqrt{ 1-x^2 }$              | $\cos(\cos^{-1}(x))=x$                            | $\tan(\cos^{-1}(x))=\frac{\sqrt{ 1-x^2 }}{x}$     |
+| $\tan^{-1}(x)$ | $\sin(\tan^{-1}(x))=\frac{x}{\sqrt{ 1+x^2 }}$    | $\cos(\tan^{-1}(x))=\frac{1}{\sqrt{ 1+x^2 }}$     | $\tan(\tan^{-1}(x))=x$                            |
+| $\cot^{-1}(x)$ | $\sin(\cot^{-1}(x))=\frac{1}{\sqrt{ 1+x^2 }}$    | $\cos(\cot^{-1}(x))=\frac{x}{\sqrt{ 1+x^2 }}$     | $\tan(\cot^{-1}(x))=\frac{1}{x}$                  |
+| $\sec^{-1}(x)$ | $\sin(\sec^{-1}(x)=\frac{\sqrt{ x^2-1 }}{\|x\|}$ | $\cos(\sec^{-1}(x))=\frac{1}{x}$                  | $\tan(\sec^{-1}(x))=\pm \sqrt{ x^2-1 }$           |
+| $\csc^{-1}(x)$ | $\sin(\csc^{-1}(x))=\frac{1}{x}$                 | $\cos(\csc^{-1}(x))=\frac{\sqrt{ x^2-1 }}{\|x\|}$ | $\tan(\csc^{-1}(x))=\pm \frac{1}{\sqrt{ x^2-1 }}$ |
 
 > [!important] For relationships between $\cot$, $\csc$, $\sec$ and their inverses, just find the reciprocals from the chart above.
 
+> [!important] The inner functions (inverses) set the context for the lengths, then the outer functions (trig functions) finds the length of a side as a proportion of the other two sides.
+> For example, $\sin(\tan^{-1}(x))$ describes the length of opposite side as opposite over hypotenuse, and given that the opposite side is $x$ and the hypotenuse is $\sqrt{ 1+x^2 }$, it is $\frac{x}{\sqrt{ 1+x^2 }}$ .
 
-Note :
-- Hypotenuse is often $\sqrt{ 1+x^2 }$
-- Opp/Adj are either $1$, $x$, $\sqrt{ 1-x^2 }$, or $\sqrt{ x^2-1 }$
-
-
-
-$$
-\sqrt{ 1-\frac{1}{x^2} }
-$$
-
-
-$$
-\frac{\sqrt{ x^2-1 }}{|x|}
-$$
+| Sides          | Opposite         | Adjacent         | Hypotenuse       | Diagram                              |
+| -------------- | ---------------- | ---------------- | ---------------- | ------------------------------------ |
+| $\sin(\theta)$ | $x$              | $\sqrt{ 1-x^2 }$ | $1$              | ![[trig_sine_lengths.svg\|150]]      |
+| $\cos(\theta)$ | $\sqrt{ 1-x^2 }$ | $x$              | $1$              | ![[trig_cosine_lengths.svg\|150]]    |
+| $\tan(\theta)$ | $x$              | $1$              | $\sqrt{ 1+x^2 }$ | ![[trig_tangent_lengths.svg\|150]]   |
+| $\cot(\theta)$ | $1$              | $x$              | $\sqrt{ 1+x^2 }$ | ![[trig_cotangent_lengths.svg\|150]] |
+| $\sec(\theta)$ | $\sqrt{ x^2-1 }$ | $1$              | $x$              | ![[trig_secant_lengths.svg\|150]]    |
+| $\csc(\theta)$ | $1$              | $\sqrt{ x^2-1 }$ | $x$              | ![[trig_cosecant_lengths.svg\|150]]  |

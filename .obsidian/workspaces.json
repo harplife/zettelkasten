@@ -1237,7 +1237,7 @@
                 }
               }
             ],
-            "currentTab": 8
+            "currentTab": 7
           }
         ],
         "direction": "vertical"
@@ -1317,13 +1317,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "math/Essence_of_Trigonometry.md",
+                    "file": "math/Derivatives.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of Essence_of_Trigonometry"
+                  "title": "Outline of Derivatives"
                 }
               }
             ]
@@ -1434,7 +1434,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "math/Essence_of_Trigonometry.md",
+                    "file": "math/Derivatives.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1444,7 +1444,7 @@
                     "unlinkedCollapsed": false
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for Essence_of_Trigonometry"
+                  "title": "Backlinks for Derivatives"
                 }
               }
             ],
@@ -1470,8 +1470,8 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "99dd58939947fc5a",
-      "mtime": "2026-03-22T16:14:48-05:00",
+      "active": "6f3b17683bc259ff",
+      "mtime": "2026-03-22T17:46:07-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "math",
