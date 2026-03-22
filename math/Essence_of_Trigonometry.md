@@ -3,7 +3,7 @@
 A collection of visual aids and other stuffs to understand trigonometry.
 
 ---
-![[Trigonometric_functions_derivation_animation.svg]]
+![[Trigonometric_functions_derivation_animation.svg | center | 600]]
 
 ---
 https://www.technologyuk.net/mathematics/trigonometry/trigonometric-identities.shtml
