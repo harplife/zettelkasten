@@ -33,14 +33,14 @@ Note : [Trigonometry playlist on the same channel](https://www.youtube.com/playl
 
 ## Relationships between trig functions and inverses
 
-| $\theta$       | $\sin(\theta)$                                   | $\cos(\theta)$                                    | $\tan(\theta)$                                    |
-| -------------- | ------------------------------------------------ | ------------------------------------------------- | ------------------------------------------------- |
-| $\sin^{-1}(x)$ | $\sin(\sin^{-1}(x))=x$                           | $\cos(\sin^{-1}(x))=\sqrt{ 1-x^2 }$               | $\tan(\sin^{-1}(x))=\frac{x}{\sqrt{ 1-x^2 }}$     |
-| $\cos^{-1}(x)$ | $\sin(\cos^{-1}(x))=\sqrt{ 1-x^2 }$              | $\cos(\cos^{-1}(x))=x$                            | $\tan(\cos^{-1}(x))=\frac{\sqrt{ 1-x^2 }}{x}$     |
-| $\tan^{-1}(x)$ | $\sin(\tan^{-1}(x))=\frac{x}{\sqrt{ 1+x^2 }}$    | $\cos(\tan^{-1}(x))=\frac{1}{\sqrt{ 1+x^2 }}$     | $\tan(\tan^{-1}(x))=x$                            |
-| $\cot^{-1}(x)$ | $\sin(\cot^{-1}(x))=\frac{1}{\sqrt{ 1+x^2 }}$    | $\cos(\cot^{-1}(x))=\frac{x}{\sqrt{ 1+x^2 }}$     | $\tan(\cot^{-1}(x))=\frac{1}{x}$                  |
-| $\sec^{-1}(x)$ | $\sin(\sec^{-1}(x)=\frac{\sqrt{ x^2-1 }}{\|x\|}$ | $\cos(\sec^{-1}(x))=\frac{1}{x}$                  | $\tan(\sec^{-1}(x))=\pm \sqrt{ x^2-1 }$           |
-| $\csc^{-1}(x)$ | $\sin(\csc^{-1}(x))=\frac{1}{x}$                 | $\cos(\csc^{-1}(x))=\frac{\sqrt{ x^2-1 }}{\|x\|}$ | $\tan(\csc^{-1}(x))=\pm \frac{1}{\sqrt{ x^2-1 }}$ |
+| $\theta$       | $\sin(\theta)$                                             | $\cos(\theta)$                                              | $\tan(\theta)$                                    |
+| -------------- | ---------------------------------------------------------- | ----------------------------------------------------------- | ------------------------------------------------- |
+| $\sin^{-1}(x)$ | $\sin(\sin^{-1}(x))=x$                                     | $\cos(\sin^{-1}(x))=\sqrt{ 1-x^2 }$                         | $\tan(\sin^{-1}(x))=\frac{x}{\sqrt{ 1-x^2 }}$     |
+| $\cos^{-1}(x)$ | $\sin(\cos^{-1}(x))=\sqrt{ 1-x^2 }$                        | $\cos(\cos^{-1}(x))=x$                                      | $\tan(\cos^{-1}(x))=\frac{\sqrt{ 1-x^2 }}{x}$     |
+| $\tan^{-1}(x)$ | $\sin(\tan^{-1}(x))=\frac{x}{\sqrt{ 1+x^2 }}$              | $\cos(\tan^{-1}(x))=\frac{1}{\sqrt{ 1+x^2 }}$               | $\tan(\tan^{-1}(x))=x$                            |
+| $\cot^{-1}(x)$ | $\sin(\cot^{-1}(x))=\frac{1}{\sqrt{ 1+x^2 }}$              | $\cos(\cot^{-1}(x))=\frac{x}{\sqrt{ 1+x^2 }}$               | $\tan(\cot^{-1}(x))=\frac{1}{x}$                  |
+| $\sec^{-1}(x)$ | $\sin(\sec^{-1}(x)=\frac{\sqrt{ x^2-1 }}{\lvert x \rvert}$ | $\cos(\sec^{-1}(x))=\frac{1}{x}$                            | $\tan(\sec^{-1}(x))=\pm \sqrt{ x^2-1 }$           |
+| $\csc^{-1}(x)$ | $\sin(\csc^{-1}(x))=\frac{1}{x}$                           | $\cos(\csc^{-1}(x))=\frac{\sqrt{ x^2-1 }}{\lvert x \rvert}$ | $\tan(\csc^{-1}(x))=\pm \frac{1}{\sqrt{ x^2-1 }}$ |
 
 > [!important] For relationships between $\cot$, $\csc$, $\sec$ and their inverses, just find the reciprocals from the chart above.
 

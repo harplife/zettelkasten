@@ -581,20 +581,21 @@ $$
 
 ### Inverse Trig Functions
 
-| Name                            | Equation                                                     | RDI\*                             |
-| ------------------------------- | ------------------------------------------------------------ | --------------------------------- |
-| Derivative of Inverse Sine      | $\frac{d}{dx}(\sin^{-1}u)=\frac{u'}{\sqrt{ 1-u^2 }}$         | $\frac{u'}{\cos(\sin^{-1} u)}$    |
-| Derivative of Inverse Cosine    | $\frac{d}{dx}(\cos^{-1}u)=-\frac{u'}{\sqrt{ 1-u^2 }}$        | $-\frac{u'}{\sin(\cos^{-1}u)}$    |
-| Derivative of Inverse Tangent   | $\frac{d}{dx}(\tan^{-1}u)=\frac{u'}{1+u^2}$                  | $\frac{u'}{\sec^2(\tan^{-1}(u))}$ |
-| Derivative of Inverse Cotangent | $\frac{d}{dx}=-\frac{u'}{1+u^2}$                             |                                   |
-| Derivative of Inverse Secant    | $\frac{d}{dx}(\sec^{-1}x)=\frac{u'}{\|x\|\sqrt{ x^2-1 }}$    |                                   |
-| Derivative of Inverse Cosecant  | $\frac{d}{dx}(\csc^{-1}(x))=-\frac{u'}{\|x\|\sqrt{ x^2-1 }}$ |                                   |
+| Name                            | Equation                                                              | RDI\*                                          |
+| ------------------------------- | --------------------------------------------------------------------- | ---------------------------------------------- |
+| Derivative of Inverse Sine      | $\frac{d}{dx}(\sin^{-1}u)=\frac{u'}{\sqrt{ 1-u^2 }}$                  | $\frac{u'}{\cos(\sin^{-1} u)}$                 |
+| Derivative of Inverse Cosine    | $\frac{d}{dx}(\cos^{-1}u)=-\frac{u'}{\sqrt{ 1-u^2 }}$                 | $-\frac{u'}{\sin(\cos^{-1}u)}$                 |
+| Derivative of Inverse Tangent   | $\frac{d}{dx}(\tan^{-1}u)=\frac{u'}{1+u^2}$                           | $\frac{u'}{\sec^2(\tan^{-1}u)}$                |
+| Derivative of Inverse Cotangent | $\frac{d}{dx}(\cot^{-1}u)=-\frac{u'}{1+u^2}$                          | $-\frac{u'}{\csc^2(\cot^{-1}u)}$               |
+| Derivative of Inverse Secant    | $\frac{d}{dx}(\sec^{-1}u)=\frac{u'}{\lvert x \rvert \sqrt{ x^2-1 }}$  | $\frac{u'}{\sec(\sec^{-1}u) \tan(\sec^{-1}u)}$ |
+| Derivative of Inverse Cosecant  | $\frac{d}{dx}(\csc^{-1}u)=-\frac{u'}{\lvert x \rvert \sqrt{ x^2-1 }}$ | $-\frac{u'}{\csc(\csc^{-1}u)\cot(\csc^{-1}u)}$ |
 
 \*Reciprocal Derivatives of Inverses :
 $$
 \boxed{(f^{-1})'(u) = \frac{u'}{f'(f^{-1}(u))}}
 $$
 
+> [!important] Check out [[Essence_of_Trigonometry#Relationships between trig functions and inverses]] to get a better understanding how derivatives of inverse functions work.
 
 
 ### Hyperbolic Functions
