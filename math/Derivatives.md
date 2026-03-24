@@ -600,7 +600,12 @@ $$
 
 
 $$
-f'(x) = \frac{35x^4}{\sqrt{ 1-7x^5 }}
+f'(w) = -\sin(\sin^{-1}(2w)) \cdot \frac{2w'}{\sqrt{ 1-4w^2 }}
+$$
+
+
+$$
+f'(w) = -\frac{4ww'}{\sqrt{ 1-4w^2 }}
 $$
 
 
