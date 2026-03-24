@@ -63,5 +63,3 @@ Note : [Trigonometry playlist on the same channel](https://www.youtube.com/playl
 | $\csc(\theta)$ | $1$              | $\sqrt{ x^2-1 }$ | $x$              | ![[trig_cosecant_lengths.svg\|150]]  |
 
 
-
-

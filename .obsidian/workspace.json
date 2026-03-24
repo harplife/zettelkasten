@@ -158,7 +158,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -238,13 +238,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "math/Essence_of_Trigonometry.md",
+                "file": "math/Derivatives.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Essence_of_Trigonometry"
+              "title": "Outline of Derivatives"
             }
           }
         ]
@@ -355,7 +355,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "math/Essence_of_Trigonometry.md",
+                "file": "math/Derivatives.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -365,7 +365,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Essence_of_Trigonometry"
+              "title": "Backlinks for Derivatives"
             }
           }
         ],
@@ -391,12 +391,12 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "99dd58939947fc5a",
+  "active": "6f3b17683bc259ff",
   "lastOpenFiles": [
+    "math/Essence_of_Trigonometry.md",
     "attachments/Unit_circle_angles_color.svg",
     "attachments/Unit_circle_angles_color.svg.opdownload",
     "math/Derivatives.md",
-    "math/Essence_of_Trigonometry.md",
     "math/Eulers_Number_e.md",
     "math/Exponents_and_Logarithms.md",
     "attachments/trig_cosecant_lengths.svg",
@@ -433,7 +433,6 @@
     "SIUE",
     "SWIC/2026 Spring/math_203_calculus.md",
     "attachments/Pasted image 20260217214620.png",
-    "attachments/Pasted image 20260217214513.png",
     "attachments/General_American_IPA_Basics_v1_20260215.pdf",
     "chemistry/alchemy/The_Alchemic_Script.md",
     "language/formal_methods.md",

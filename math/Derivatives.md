@@ -598,6 +598,13 @@ $$
 > [!important] Check out [[Essence_of_Trigonometry#Relationships between trig functions and inverses]] to get a better understanding how derivatives of inverse functions work.
 
 
+
+$$
+\frac{d}{dx}(\tan^{-1}x) = \frac{1}{1+x^2}
+$$
+
+
+
 ### Hyperbolic Functions
 
 
