@@ -61,3 +61,7 @@ Note : [Trigonometry playlist on the same channel](https://www.youtube.com/playl
 | $\cot(\theta)$ | $1$              | $x$              | $\sqrt{ 1+x^2 }$ | ![[trig_cotangent_lengths.svg\|150]] |
 | $\sec(\theta)$ | $\sqrt{ x^2-1 }$ | $1$              | $x$              | ![[trig_secant_lengths.svg\|150]]    |
 | $\csc(\theta)$ | $1$              | $\sqrt{ x^2-1 }$ | $x$              | ![[trig_cosecant_lengths.svg\|150]]  |
+
+
+
+
