@@ -598,12 +598,10 @@ $$
 > [!important] Check out [[Essence_of_Trigonometry#Relationships between trig functions and inverses]] to get a better understanding how derivatives of inverse functions work.
 
 
+
 $$
-A = \pi r^2
+V = s^3
 $$
-
-
-
 
 
 
