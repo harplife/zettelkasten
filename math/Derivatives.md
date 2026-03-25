@@ -603,6 +603,10 @@ $$
 V = s^3
 $$
 
+$$
+\frac{ds}{dt} = \frac{dV}{dt} \cdot \frac{1}{3s^2}
+$$
+
 
 
 ### Hyperbolic Functions
