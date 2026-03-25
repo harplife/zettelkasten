@@ -598,18 +598,8 @@ $$
 > [!important] Check out [[Essence_of_Trigonometry#Relationships between trig functions and inverses]] to get a better understanding how derivatives of inverse functions work.
 
 
-$$
-f'(x) = \frac{6}{x^2\sqrt{ 1-\frac{36}{x^2} }}
-$$
 
 
-$$
-\frac{6}{x^2\sqrt{ \frac{x^2-36}{x^2} }}
-$$
-
-$$
-\frac{6}{x\sqrt{ x^2-36 }}
-$$
 
 
 
