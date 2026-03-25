@@ -598,8 +598,11 @@ $$
 > [!important] Check out [[Essence_of_Trigonometry#Relationships between trig functions and inverses]] to get a better understanding how derivatives of inverse functions work.
 
 
+$$
+l^2 = f^2 + h^2
+$$
 
-
+Find $\frac{dh}{dt}$ when $\frac{df}{dt}=0.4$ and $f=8$
 
 
 
