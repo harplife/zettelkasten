@@ -587,8 +587,8 @@ $$
 | Derivative of Inverse Cosine    | $\frac{d}{dx}(\cos^{-1}u)=-\frac{u'}{\sqrt{ 1-u^2 }}$                 | $-\frac{u'}{\sin(\cos^{-1}u)}$                 |
 | Derivative of Inverse Tangent   | $\frac{d}{dx}(\tan^{-1}u)=\frac{u'}{1+u^2}$                           | $\frac{u'}{\sec^2(\tan^{-1}u)}$                |
 | Derivative of Inverse Cotangent | $\frac{d}{dx}(\cot^{-1}u)=-\frac{u'}{1+u^2}$                          | $-\frac{u'}{\csc^2(\cot^{-1}u)}$               |
-| Derivative of Inverse Secant    | $\frac{d}{dx}(\sec^{-1}u)=\frac{u'}{\lvert x \rvert \sqrt{ x^2-1 }}$  | $\frac{u'}{\sec(\sec^{-1}u) \tan(\sec^{-1}u)}$ |
-| Derivative of Inverse Cosecant  | $\frac{d}{dx}(\csc^{-1}u)=-\frac{u'}{\lvert x \rvert \sqrt{ x^2-1 }}$ | $-\frac{u'}{\csc(\csc^{-1}u)\cot(\csc^{-1}u)}$ |
+| Derivative of Inverse Secant    | $\frac{d}{dx}(\sec^{-1}u)=\frac{u'}{\lvert u \rvert \sqrt{ u^2-1 }}$  | $\frac{u'}{\sec(\sec^{-1}u) \tan(\sec^{-1}u)}$ |
+| Derivative of Inverse Cosecant  | $\frac{d}{dx}(\csc^{-1}u)=-\frac{u'}{\lvert u \rvert \sqrt{ u^2-1 }}$ | $-\frac{u'}{\csc(\csc^{-1}u)\cot(\csc^{-1}u)}$ |
 
 \*Reciprocal Derivatives of Inverses :
 $$
@@ -598,6 +598,20 @@ $$
 > [!important] Check out [[Essence_of_Trigonometry#Relationships between trig functions and inverses]] to get a better understanding how derivatives of inverse functions work.
 
 
+
+
+$$
+f(x) = 4 \tan^{-1}(e^{5x})
+$$
+
+$$
+f'(x) = 4 \cdot \frac{\frac{d}{dx} e^{5x}}{1+e^{10x}}
+$$
+
+
+$$
+f'(x) = \frac{4 \cdot e^{5x} \cdot 5}{1+e^{10x}}
+$$
 
 
 
