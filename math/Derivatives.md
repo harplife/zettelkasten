@@ -598,9 +598,28 @@ $$
 > [!important] Check out [[Essence_of_Trigonometry#Relationships between trig functions and inverses]] to get a better understanding how derivatives of inverse functions work.
 
 
+$$
+A = s^2
+$$
 
+Known : 
+$$
+\frac{ds}{dt} = 6
+$$
 
+Find :
+$$
+\frac{dA}{dt}
+$$
+when $s=10$
 
+$$
+\frac{dA}{dt} = 2s \cdot \frac{ds}{dt}
+$$
+
+$$
+\frac{dA}{dt} = 2(10) \cdot 6
+$$
 
 
 
