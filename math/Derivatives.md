@@ -602,9 +602,32 @@ $$
 l^2 = f^2 + h^2
 $$
 
-Find $\frac{dh}{dt}$ when $\frac{df}{dt}=0.4$ and $f=8$
+Find $\frac{dh}{dt}$ when $\frac{df}{dt}=0.4$ and $f=8$ given $l = 10$
 
 
+$$
+100 = f^2 + h^2
+$$
+
+
+$$
+0 = 2f \frac{df}{dt} + 2h \frac{dh}{dt}
+$$
+
+$$
+0 = 6.4 + 2h \frac{dh}{dt}
+$$
+
+$$
+6 = h
+$$
+
+
+$$
+-\frac{6.4}{12} = \frac{dh}{dt}
+$$
+
+5.866666666
 
 
 
