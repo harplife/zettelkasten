@@ -604,7 +604,6 @@ $$
 
 
 
-
 ### Hyperbolic Functions
 
 
