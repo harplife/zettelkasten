@@ -599,27 +599,11 @@ $$
 
 
 $$
-A = s^2
+A = \pi r^2
 $$
 
-Known : 
-$$
-\frac{ds}{dt} = 6
-$$
 
-Find :
-$$
-\frac{dA}{dt}
-$$
-when $s=10$
 
-$$
-\frac{dA}{dt} = 2s \cdot \frac{ds}{dt}
-$$
-
-$$
-\frac{dA}{dt} = 2(10) \cdot 6
-$$
 
 
 
