@@ -1,5 +1,25 @@
 # Essence of Trigonometry
 
+
+## Graphs of Trigonometric Functions
+
+
+| Function  | Period | Domain                      | Range                            | Graph                      |
+| --------- | ------ | --------------------------- | -------------------------------- | -------------------------- |
+| Sine      | $2\pi$ | $(-\infty, \infty)$         | $[-1,1]$                         | ![[Sine_one_period.svg]]   |
+| Cosine    | $2\pi$ | $(-\infty, \infty)$         | $[-1,1]$                         | ![[Cosine_one_period.svg]] |
+| Tangent   | $\pi$  | $x \neq \frac{\pi}{2}+n\pi$ | $(-\infty, \infty)$              | ![[Tangent-plot.svg]]      |
+| Cotangent | $\pi$  | $x \neq n\pi$               | $(-\infty, \infty)$              | ![[Cotangent.svg]]         |
+| Secant    | $2\pi$ | $x \neq \frac{\pi}{2}+n\pi$ | $(-\infty, -1] \cup [1, \infty)$ | ![[Secant.svg]]            |
+| Cosecant  | $2\pi$ | $x \neq n\pi$               | $(-\infty, -1] \cup [1, \infty)$ | ![[Cosecant.svg]]          |
+
+
+
+
+
+## Random Collections
+
+
 A collection of visual aids and other stuffs to understand trigonometry.
 
 ---
