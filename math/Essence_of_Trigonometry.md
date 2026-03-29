@@ -13,7 +13,13 @@
 | Secant    | $2\pi$ | $x \neq \frac{\pi}{2}+n\pi$ | $(-\infty, -1] \cup [1, \infty)$ | ![[Secant.svg]]            |
 | Cosecant  | $2\pi$ | $x \neq n\pi$               | $(-\infty, -1] \cup [1, \infty)$ | ![[Cosecant.svg]]          |
 
+### Inverses
 
+![[inverse_trigs.svg | center | 500]]
+
+> [!important] It's interesting how..
+> - everything kind of converges on $\left( 1, \frac{\pi}{4} \right)$
+> - arcsin & arccsc and arccos & arcsec are connected
 
 
 
