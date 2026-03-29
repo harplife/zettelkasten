@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!-- Extensive adjustments and optimizations performed manually by Obscure2020 -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="419px" height="419px" viewBox="0 0 419 419" stroke-miterlimit="10" xml:space="preserve">
+<g fill="none">
+	<circle stroke="#000000" cx="177" cy="243" r="165.197"/>
+	<path stroke="#000000" d="M 177 243 L 293.814 126.186"/>
+	<path stroke="#0000FF" d="M 177 243 H 293.814"/>
+	<path stroke="#FF0000" d="M 293.814 243 V 126.186"/>
+	<path stroke="#008000" d="M 293.814 243 H 342.2"/>
+	<path stroke="#FF6FCF" d="M 342.2 243 H 410.628"/>
+	<path stroke="#0000FF" d="M 177 126.186 H 293.814"/>
+	<path stroke="#FF0000" d="M 177 243 V 126.186"/>
+	<path stroke="#00FFFF" d="M 177 126.186 V 77.8"/>
+	<path stroke="#408000" d="M 177 77.8 V 9.372"/>
+	<path stroke="#C29035" d="M 177.050 9.422 L 293.814 126.187"/>
+	<path stroke="#D5A258" d="M 294.465 126.837 L 410.488 242.860"/>
+	<path stroke="#FF99CC" d="M 128.612 13.963 V 238.122"/>
+	<path stroke="#009966" d="M 180.547 284.3 H 404.777"/>
+	<g stroke-dasharray="5,5">
+		<path stroke="#009966" d="M 177 284.3 V 243"/>
+		<path stroke="#FF99CC" d="M 128.02 243 H 176.48"/>
+		<path stroke="#009966" d="M 410.628 284.3 V 243"/>
+		<path stroke="#FF99CC" d="M 128.254 9.372 H 176.496"/>
+		<path stroke="#000000" d="M 293.814 126.186 L 410.628 9.372"/>
+	</g>
+	<path stroke="#000000" d="M 177 237.111 H 170.667 V 243 M 293.981 237.111 H 287.647 V 243 M 298.136 121.684 L 293.656 117.205 L 289.492 121.37 M 295.946 124.054 L 299.005 120.996"/>
+</g>
+<g font-family="'Helvetica'">
+	<text transform="matrix(1 0 0 1 220.9404 240.2754)" fill="#0000FF" font-size="18">cos</text>
+	<text transform="matrix(1 0 0 1 219.6621 123.3833)" fill="#0000FF" font-size="18">cos</text>
+	<text transform="matrix(1 0 0 1 152.9365 186.5454)" fill="#FF0000" font-size="18">sin</text>
+	<text transform="matrix(1 0 0 1 295.1006 186.5454)" fill="#FF0000" font-size="18">sin</text>
+	<text transform="matrix(1 0 0 1 295.334 240.9736)" fill="#008000" font-size="17">versin</text>
+	<text transform="matrix(1 0 0 1 350.958 240.9736)" fill="#FF6FCF" font-size="17">exsec</text>
+	<text transform="matrix(1 0 0 1 283.5869 282.2666)" fill="#009966" font-size="17">sec</text>
+	<text transform="matrix(1 0 0 1 148.0342 107.6465)" fill="#00FFFF" font-size="18">cvs</text>
+	<text transform="matrix(1 0 0 1 129.3682 48.5347)" fill="#408000" font-size="18">excsc</text>
+	<text transform="matrix(1 0 0 1 98.6963 132.3965)" fill="#FF99CC" font-size="18">csc</text>
+	<text transform="matrix(0.7071 0.7071 -0.7071 0.7071 232.0459 58.1387)" fill="#C29035" font-size="17.0001">cot</text>
+	<text transform="matrix(0.7071 0.7071 -0.7071 0.7071 338.5742 163.6113)" fill="#D5A258" font-size="17.0001">tan</text>
+	<text transform="matrix(1 0 0 1 228.9385 181.7324)" fill="#000000" font-size="17">1</text>
+</g>
+<path fill="#FF99CC" d="M 124.808 234.885 H 132.417 L 128.698 242.489 z M 124.808 17.427 H 132.417 L 128.698 9.823 z"/>
+<path fill="none" stroke="#FF99CC" d="M 124.761 9.372 H 132.371"/>
+<path fill="none" stroke="#FFFFFF" d="M 133.125 7.841 V 10.904 M 132.652 241.841 V 244.904"/>
+<path fill="none" stroke="#FF99CC" d="M 124.957 243 H 132.566"/>
+<path fill="#009966" d="M 185.104 280.494 V 288.104 L 177.5 284.215 z M 402.628 280.494 V 288.104 L 410.231 284.215 z"/>
+<path fill="none" stroke="#009966" d="M 177 288.104 V 280.495"/>
+<path fill="none" stroke="#FFFFFF" d="M 178.355 279.708 H 175.295 M 412.293 279.626 H 409.232"/>
+<path fill="none" stroke="#009966" d="M 410.628 288.187 V 280.577"/>
+<defs>
+	<clipPath id="arc_clip">
+		<path d="M 177 243 H 293.814 V 126.186 z"/>
+	</clipPath>
+</defs>
+<circle fill="none" stroke="#000000" clip-path="url(#arc_clip)" cx="177" cy="243" r="9.479"/>
+<text transform="matrix(1 0 0 1 187.915 241.3203)" fill="#000000" font-family="'Symbol'" font-size="12">q</text>
+</svg>

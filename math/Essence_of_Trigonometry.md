@@ -18,6 +18,11 @@ https://www.technologyuk.net/mathematics/trigonometry/trigonometric-identities.s
 > [Trig Visualized: One Diagram to Rule them All - Mathematical Visual Proofs - Youtube](https://www.youtube.com/watch?v=dUkCgTOOpQ0)
 
 
+![[Trig_Functions.svg]]
+
+![[Unit-circle_sin_cos_tan_cot_exsec_excsc_versin_vercos_coversin_covercos.svg]]
+
+
 Note : [Trigonometry playlist on the same channel](https://www.youtube.com/playlist?list=PLZh9gzIvXQUvc6SufrIpkVrVLdhcGthSy)
 
 
