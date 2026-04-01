@@ -105,3 +105,11 @@ Note : [Trigonometry playlist on the same channel](https://www.youtube.com/playl
 
 
 
+
+$$
+f(x) = -16x^2 + 16x + 32
+$$
+
+$$
+f'(x) = -32x + 16
+$$
