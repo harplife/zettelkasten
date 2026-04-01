@@ -105,26 +105,3 @@ Note : [Trigonometry playlist on the same channel](https://www.youtube.com/playl
 
 
 
-$$
-f(x) = 5 \sin^2 x
-$$
-
-$$
-f'(x) = 10 \sin x \cos x
-$$
-
-$$
-0 = \sin x \cos x
-$$
-
-$$
-x = 0, \frac{\pi}{2}, \pi
-$$
-
-$$
-\begin{align}
-  f(0) &= 0 \\
-  f\left( \frac{\pi}{2} \right) &= 5 \\
-  f(\pi) &= 0
-\end{align}
-$$
