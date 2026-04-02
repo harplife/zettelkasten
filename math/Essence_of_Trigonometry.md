@@ -104,12 +104,3 @@ Note : [Trigonometry playlist on the same channel](https://www.youtube.com/playl
 | $\csc(\theta)$ | $1$              | $\sqrt{ x^2-1 }$ | $x$              | ![[trig_cosecant_lengths.svg\|150]]  |
 
 
-
-
-$$
-f(x) = -16x^2 + 16x + 32
-$$
-
-$$
-f'(x) = -32x + 16
-$$
