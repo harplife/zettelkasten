@@ -579,6 +579,8 @@ $$
 | Derivative of Secant    | $\frac{d}{dx}(\sec x)=\sec x \tan x$  |
 | Derivative of Cosecant  | $\frac{d}{dx}(\csc x)=-\csc x \cot x$ |
 
+#todo Add a note about derivative of trig "composite" function (e.g. $\sin (x^2+1)$)
+
 
 ### Inverse Trig Functions
 
