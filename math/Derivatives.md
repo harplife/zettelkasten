@@ -89,6 +89,7 @@ $$
 | Special Exponential Rule | $\frac{d}{dx}(e^{g(x)})=e^{g(x)}g'(x)$<br>or $\frac{d}{dx}(e^x)=e^x$             |
 | General Exponential Rule | $\frac{d}{dx}(a^{g(x)})=\ln(a)a^{g(x)}g'(x)$<br>or $\frac{d}{dx}(a^x)=\ln(a)a^x$ |
 
+
 ### Derivative of $e^x$
 
 Recall that the the fundamental property of $e$ is that the slope of the tangent line at $x=0$ for $e^x$ is $1$ :
