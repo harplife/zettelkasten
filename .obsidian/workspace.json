@@ -158,7 +158,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -238,13 +238,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "math/Derivatives.md",
+                "file": "math/Exponents_and_Logarithms.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Derivatives"
+              "title": "Outline of Exponents_and_Logarithms"
             }
           }
         ]
@@ -355,7 +355,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "math/Derivatives.md",
+                "file": "math/Exponents_and_Logarithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -365,7 +365,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Derivatives"
+              "title": "Backlinks for Exponents_and_Logarithms"
             }
           }
         ],
@@ -391,8 +391,9 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "6f3b17683bc259ff",
+  "active": "227e6011dc684b16",
   "lastOpenFiles": [
+    "math/Derivatives.md",
     "math/Essence_of_Trigonometry.md",
     "attachments/inverse_trigs.svg",
     "attachments/Cosecant.svg",
@@ -413,7 +414,6 @@
     "attachments/angle_sum_diff_identities_fig.svg.opdownload",
     "attachments/Unit-circle_sin_cos_tan_cot_exsec_excsc_versin_vercos_coversin_covercos.svg.opdownload",
     "attachments/Trig_Functions.svg.opdownload",
-    "math/Derivatives.md",
     "attachments/Unit_circle_angles_color.svg.opdownload",
     "math/Eulers_Number_e.md",
     "math/Exponents_and_Logarithms.md",

@@ -1237,7 +1237,7 @@
                 }
               }
             ],
-            "currentTab": 9
+            "currentTab": 6
           }
         ],
         "direction": "vertical"
@@ -1317,13 +1317,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "math/Derivatives.md",
+                    "file": "math/Exponents_and_Logarithms.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of Derivatives"
+                  "title": "Outline of Exponents_and_Logarithms"
                 }
               }
             ]
@@ -1434,7 +1434,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "math/Derivatives.md",
+                    "file": "math/Exponents_and_Logarithms.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1444,7 +1444,7 @@
                     "unlinkedCollapsed": false
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for Derivatives"
+                  "title": "Backlinks for Exponents_and_Logarithms"
                 }
               }
             ],
@@ -1470,8 +1470,8 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "6f3b17683bc259ff",
-      "mtime": "2026-04-02T06:05:44-05:00",
+      "active": "4c4962a1051d0678",
+      "mtime": "2026-04-02T06:15:29-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "math",
