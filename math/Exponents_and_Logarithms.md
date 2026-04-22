@@ -370,5 +370,5 @@ $$
 
 
 $$
-\lim_{ x \to 21 } \frac{2x-42}{2\pi\cos(\pi x)}
+\lim_{ x \to 21 } \frac{2x-42}{2\pi\sin(\pi x)\cos(\pi x)}
 $$
