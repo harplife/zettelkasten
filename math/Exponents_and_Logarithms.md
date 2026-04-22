@@ -368,5 +368,14 @@ $$
 
 
 $$
-\lim_{ x \to \frac{\pi}{2}^- } ()
+\lim_{ x \to \frac{\pi}{2}^- } (11 \tan x)^{11 \cos x}
+$$
+
+
+$$
+\ln y = 11 \cos x \cdot \ln 11 \tan x
+$$
+
+$$
+\frac{11 \ln 11 \tan x}{\sec x}
 $$
