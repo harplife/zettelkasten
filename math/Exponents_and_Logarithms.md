@@ -379,3 +379,16 @@ $$
 $$
 \frac{11 \ln 11 \tan x}{\sec x}
 $$
+
+
+$$
+\frac{11 \cdot \frac{11 \sec^2 x}{11 \tan x}}{\sec x \tan x}
+$$
+
+$$
+\frac{11 \sec^2 x}{\sec x \tan^2 x}
+$$
+
+$$
+\frac{11 \sec x}{\tan^2 x}
+$$
