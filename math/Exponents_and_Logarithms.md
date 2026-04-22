@@ -369,8 +369,9 @@ $$
 
 $$
 \begin{align}
-  \text{Let } y=x^{10x} \\
-  \ln y = 10x \ln x \\
-  \lim_{ x \to 0^+ } \ln y = \lim_{ x \to 0^+ } 10x
+  \text{Let } y&=x^{10x} \\
+  \ln y &= 10x \ln x \\
+  \lim_{ x \to 0^+ } \ln y &= \lim_{ x \to 0^+ } 10x \ln x = 0 \cdot \infty \\
+  &= \lim_{ x \to 0^+ } \frac{\ln x}{\frac{1}{10x}} = 
 \end{align}
 $$
