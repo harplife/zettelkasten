@@ -364,3 +364,11 @@ Substitute the original log and finalize the proof
 $$
 \log_{b}(a) = \frac{\log_{c}(a)}{\log_{c}(b)}
 $$
+
+
+
+
+
+$$
+\lim_{ x \to 21 } \frac{2x-42}{2\pi\cos(\pi x)}
+$$
