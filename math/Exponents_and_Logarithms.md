@@ -366,3 +366,11 @@ $$
 $$
 
 
+
+$$
+\begin{align}
+  \text{Let } y=x^{10x} \\
+  \ln y = 10x \ln x \\
+  \lim_{ x \to 0^+ } \ln y = \lim_{ x \to 0^+ } 10x
+\end{align}
+$$
