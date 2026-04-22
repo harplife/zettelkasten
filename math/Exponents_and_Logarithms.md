@@ -380,5 +380,9 @@ $$
 $$
 
 $$
-11 \cdot 11 \sec^2 x
+\frac{11 \cdot 11 \sec^2 x}{\sec x \tan x \cdot 11 \tan x}
+$$
+
+$$
+\frac{11 \sec x}{\tan^2 x}
 $$
