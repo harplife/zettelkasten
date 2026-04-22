@@ -370,10 +370,5 @@ $$
 
 
 $$
-\lim_{ x \to -\pi } (x+\pi)\csc x = 0 \cdot \infty
-$$
-
-$$
-\lim_{ x \to -\pi } \frac{x+\pi}{\sin x} = \frac{0}{0}
-\implies \lim_{ x \to -\pi } \frac{1}{\cos x}
+\lim_{ x \to \infty } 
 $$
