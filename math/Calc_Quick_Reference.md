@@ -47,3 +47,33 @@
 | Inverse Tangent Rule     | $\frac{d}{dx}[\arctan(x)] = \frac{1}{1+x^2}$                                        |
 | Inverse Secant Rule      | $\frac{d}{dx}[\sec^{-1}(x)] = \frac{1}{\lvert x \rvert \sqrt{ x^2 -1 }}$            |
 
+
+## Integral Laws
+
+is read as "the integral from $a$ to $b$ of $f(x)$ with respect to $x$".
+
+| Integral Property / Rule                 | General Form                                                                  |
+| ---------------------------------------- | ----------------------------------------------------------------------------- |
+| Constant Multiple Rule                   | $\int cf(x) dx = c\int f(x) dx$                                               |
+| Sum Rule                                 | $\int [f(x)+g(x)] dx = \int f(x) dx + \int g(x) dx$                           |
+| Difference Rule                          | $\int [f(x)-g(x)] dx = \int f(x) dx - \int g(x) dx$                           |
+| Power Rule for Integrals                 | $\int x^n dx = \frac{x^{n+1}}{n+1}+C) for (n\neq -1$                          |
+| Logarithmic Integral Rule                | $\int \frac{1}{x} dx = \ln\lvert x\rvert + C$                                 |
+| Exponential Integral Rule                | $\int e^x dx = e^x + C$                                                       |
+| General Exponential Rule                 | $\int a^x dx = \frac{a^x}{\ln(a)} + C$                                        |
+| Sine Integral Rule                       | $\int \sin(x) dx = -\cos(x)+C$                                                |
+| Cosine Integral Rule                     | $\int \cos(x) dx = \sin(x)+C$                                                 |
+| Secant Squared Rule                      | $\int \sec^2(x) dx = \tan(x)+C$                                               |
+| Cosecant Squared Rule                    | $\int \csc^2(x) dx = -\cot(x)+C$                                              |
+| Secant Tangent Rule                      | $\int \sec(x)\tan(x) dx = \sec(x)+C$                                          |
+| Cosecant Cotangent Rule                  | $\int \csc(x)\cot(x) dx = -\csc(x)+C$                                         |
+| Substitution Rule                        | $\int f(g(x))g'(x) dx = \int f(u) du$                                         |
+| Integration by Parts                     | $\int u dv = uv - \int v du$                                                  |
+| Definite Integral Linearity              | $\int_a^b [cf(x)+g(x)] dx = c\int_a^b f(x) dx + \int_a^b g(x) dx$             |
+| Zero Width Property                      | $\int_a^a f(x) dx = 0$                                                        |
+| Reversal Property                        | $\int_a^b f(x) dx = -\int_b^a f(x) dx$                                        |
+| Additivity Over Intervals                | $\int_a^c f(x) dx + \int_c^b f(x) dx = \int_a^b f(x) dx$                      |
+| Comparison Property                      | If $f(x)\ge g(x)$, then $\int_a^b f(x) dx \ge \int_a^b g(x) dx$               |
+| Absolute Value Inequality                | $\left\lvert \int_a^b f(x) dx \right\rvert \le \int_a^b \lvert f(x)\rvert dx$ |
+| Fundamental Theorem of Calculus (Part 1) | $\frac{d}{dx}\int_a^x f(t) dt = f(x)$                                         |
+| Fundamental Theorem of Calculus (Part 2) | $\int_a^b f(x) dx = F(b)-F(a)$                                                |
