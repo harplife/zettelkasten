@@ -1235,9 +1235,24 @@
                   "icon": "lucide-file",
                   "title": "Derivatives"
                 }
+              },
+              {
+                "id": "fad7199b4ee33d45",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "math/Calc_Quick_Reference.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Calc_Quick_Reference"
+                }
               }
             ],
-            "currentTab": 6
+            "currentTab": 10
           }
         ],
         "direction": "vertical"
@@ -1317,13 +1332,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "math/Exponents_and_Logarithms.md",
+                    "file": "math/Calc_Quick_Reference.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of Exponents_and_Logarithms"
+                  "title": "Outline of Calc_Quick_Reference"
                 }
               }
             ]
@@ -1434,7 +1449,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "math/Exponents_and_Logarithms.md",
+                    "file": "math/Calc_Quick_Reference.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1444,7 +1459,7 @@
                     "unlinkedCollapsed": false
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for Exponents_and_Logarithms"
+                  "title": "Backlinks for Calc_Quick_Reference"
                 }
               }
             ],
@@ -1470,8 +1485,8 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "227e6011dc684b16",
-      "mtime": "2026-05-08T06:55:58-05:00",
+      "active": "fad7199b4ee33d45",
+      "mtime": "2026-05-08T06:57:16-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "math",
