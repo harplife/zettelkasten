@@ -110,3 +110,8 @@ $\int_a^b f(x)  \,dx$ is read as "the integral from $a$ to $b$ of $f(x)$ with re
 | Absolute Value Inequality                | $\left\lvert \int_a^b f(x)  \,dx \right\rvert \le \int_a^b \lvert f(x)\rvert  \,dx$ |
 | Fundamental Theorem of Calculus (Part 1) | $\frac{d}{ \,dx}\int_a^x f(t) \,dt = f(x)$                                          |
 | Fundamental Theorem of Calculus (Part 2) | $\int_a^b f(x)  \,dx = F(b)-F(a)$                                                   |
+
+
+## Riemann Sum
+
+how to write integral as riemann sum???
