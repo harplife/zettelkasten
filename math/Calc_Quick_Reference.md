@@ -7,19 +7,30 @@ $$
 -b \pm \frac{\sqrt{ b^2-4ac }}{2a}
 $$
 
+
 Volumes of 3D Shapes
 - Cuboid : $whl$
 - Cone : $\frac{1}{3} \pi r^2 h$
 - Cylinder : $\pi r^2 h$
 - Sphere : $\frac{4}{3} \pi r^3$
 
+
 Trig Values of Special Angles
 
-|     |     |
-| --- | --- |
-|     |     |
+| Radians         | Sine                   | Cosine                 | Tangent                |
+| --------------- | ---------------------- | ---------------------- | ---------------------- |
+| $0$             | $0$                    | $1$                    | $0$                    |
+| $\frac{\pi}{6}$ | $\frac{1}{2}$          | $\frac{\sqrt{ 3 }}{2}$ | $\frac{\sqrt{ 3 }}{3}$ |
+| $\frac{\pi}{4}$ | $\frac{\sqrt{ 2 }}{2}$ | $\frac{\sqrt{ 2 }}{2}$ | $1$                    |
+| $\frac{\pi}{3}$ | $\frac{\sqrt{ 3 }}{2}$ | $\frac{1}{2}$          | $\sqrt{ 3 }$           |
+| $\frac{\pi}{2}$ | $1$                    | $0$                    | DNE                    |
+| $-\pi$          | $0$                    | $-1$                   | $0$                    |
 
 
+Distance Formula
+$$
+d = \sqrt{ (x_{2}-x_{1})^2 + (y_{2}-y_{1})^2 }
+$$
 
 
 ## Limit Laws
