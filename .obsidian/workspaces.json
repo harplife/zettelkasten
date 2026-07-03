@@ -1485,8 +1485,8 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "fad7199b4ee33d45",
-      "mtime": "2026-05-08T06:57:16-05:00",
+      "active": "227e6011dc684b16",
+      "mtime": "2026-07-03T12:01:12-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "math",
@@ -1494,7 +1494,8 @@
           "math/calculus/Chapter 2",
           "math/fun_facts",
           "math/precalculus",
-          "math/precalculus/Resources"
+          "math/precalculus/Resources",
+          "muay_thai"
         ]
       }
     },
