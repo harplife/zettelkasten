@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"5299ac0e4cda9607","x":-95,"y":-720,"width":250,"height":56,"type":"text","text":"MATH 150 Calculus I"},
+		{"id":"62e5203791e4c718","type":"text","text":"MATH 152 Calculus III","x":-95,"y":-300,"width":250,"height":60},
+		{"id":"0e7a7c7a080d142c","x":-95,"y":-520,"width":250,"height":60,"type":"text","text":"MATH 152 Calculus II"},
+		{"id":"fe634d0110eb9fbd","x":-147,"y":-100,"width":355,"height":50,"type":"text","text":"MATH 305 Differential Equations"}
+	],
+	"edges":[
+		{"id":"0d0f51982b05430b","fromNode":"5299ac0e4cda9607","fromSide":"bottom","toNode":"0e7a7c7a080d142c","toSide":"top"},
+		{"id":"7b528d2cc70ef6f3","fromNode":"0e7a7c7a080d142c","fromSide":"bottom","toNode":"62e5203791e4c718","toSide":"top"},
+		{"id":"c3dcc1d25d94d12d","fromNode":"62e5203791e4c718","fromSide":"bottom","toNode":"fe634d0110eb9fbd","toSide":"top"}
+	]
+}

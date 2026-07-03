@@ -2242,7 +2242,7 @@
             "type": "tabs",
             "children": [
               {
-                "id": "c06d504145e806fb",
+                "id": "325932b6ab39f473",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -2255,8 +2255,26 @@
                   "icon": "lucide-file",
                   "title": "SWIC_SIUE_Plan"
                 }
+              },
+              {
+                "id": "9480292afc8cc1a9",
+                "type": "leaf",
+                "state": {
+                  "type": "canvas",
+                  "state": {
+                    "file": "SWIC/SIUE EE Courses Dependency Map.canvas",
+                    "viewState": {
+                      "x": 0,
+                      "y": 0,
+                      "zoom": 0
+                    }
+                  },
+                  "icon": "lucide-layout-dashboard",
+                  "title": "SIUE EE Courses Dependency Map"
+                }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -2334,20 +2352,21 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "SWIC/SWIC_SIUE_Plan.md",
+                    "file": "SWIC/SIUE EE Courses Dependency Map.canvas",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of SWIC_SIUE_Plan"
+                  "title": "Outline of SIUE EE Courses Dependency Map"
                 }
               }
             ]
           }
         ],
         "direction": "horizontal",
-        "width": 347.5
+        "width": 347.5,
+        "collapsed": true
       },
       "right": {
         "id": "f152d8fd8ec1f4e0",
@@ -2461,7 +2480,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "SWIC/SWIC_SIUE_Plan.md",
+                    "file": "SWIC/SIUE EE Courses Dependency Map.canvas",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -2471,7 +2490,7 @@
                     "unlinkedCollapsed": false
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for SWIC_SIUE_Plan"
+                  "title": "Backlinks for SIUE EE Courses Dependency Map"
                 }
               }
             ],
@@ -2479,7 +2498,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 362.5
+        "width": 362.5,
+        "collapsed": true
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -2497,11 +2517,13 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "c06d504145e806fb",
-      "mtime": "2026-03-15T23:35:00-05:00",
+      "active": "9480292afc8cc1a9",
+      "mtime": "2026-07-03T12:05:18-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
+          "anthropology",
           "chemistry",
+          "language",
           "music/vocal",
           "SWIC",
           "windows"
@@ -2795,5 +2817,5 @@
       }
     }
   },
-  "active": "Math"
+  "active": "SWIC"
 }
