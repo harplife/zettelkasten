@@ -1,13 +1,36 @@
 {
 	"nodes":[
-		{"id":"5299ac0e4cda9607","x":-95,"y":-720,"width":250,"height":56,"type":"text","text":"MATH 150 Calculus I"},
-		{"id":"62e5203791e4c718","type":"text","text":"MATH 152 Calculus III","x":-95,"y":-300,"width":250,"height":60},
-		{"id":"0e7a7c7a080d142c","x":-95,"y":-520,"width":250,"height":60,"type":"text","text":"MATH 152 Calculus II"},
-		{"id":"fe634d0110eb9fbd","x":-147,"y":-100,"width":355,"height":50,"type":"text","text":"MATH 305 Differential Equations"}
+		{"id":"5299ac0e4cda9607","x":-95,"y":-720,"width":250,"height":56,"color":"4","type":"text","text":"MATH 150 Calculus I"},
+		{"id":"62e5203791e4c718","type":"text","text":"MATH 250 Calculus III","x":-95,"y":-300,"width":250,"height":60,"color":"4"},
+		{"id":"0e7a7c7a080d142c","x":-95,"y":-520,"width":250,"height":60,"color":"4","type":"text","text":"MATH 152 Calculus II"},
+		{"id":"fe634d0110eb9fbd","x":-147,"y":-100,"width":355,"height":50,"color":"4","type":"text","text":"MATH 305 Differential Equations"},
+		{"id":"449ce2523e8f6bac","x":-540,"y":-100,"width":308,"height":50,"color":"3","type":"text","text":"MATH 321 Linear Algebra I"},
+		{"id":"7b676cab4e3bcae9","type":"text","text":"MATH 437 Differential Geometry","x":-301,"y":220,"width":308,"height":50},
+		{"id":"b8d7067ab9c0b889","type":"text","text":"MATH 421 Linear Algebra II","x":-540,"y":140,"width":308,"height":50,"color":"3"},
+		{"id":"4c9767176753f854","type":"text","text":"MATH 223 Logic","x":-940,"y":-255,"width":308,"height":50},
+		{"id":"6054aa424b3747b3","type":"text","text":"MATH 430 Intro to Topology","x":-940,"y":220,"width":308,"height":50},
+		{"id":"5c2a7701cdd8bca6","type":"text","text":"MATH 350 Intro to Analysis","x":-940,"y":30,"width":308,"height":50},
+		{"id":"dbff3084fc2f7c6b","type":"text","text":"MATH 355 Engineering Mathematics","x":340,"y":30,"width":355,"height":50,"color":"4"},
+		{"id":"a4c7436966adcb85","x":1020,"y":-720,"width":339,"height":50,"color":"4","type":"text","text":"CS 140/145 Intro to Computing I"},
+		{"id":"5c04cfba1140f163","type":"text","text":"CS 150 Intro to Computing II","x":1020,"y":-540,"width":339,"height":50},
+		{"id":"47190735170d4846","type":"text","text":"CS 286 Intro to Computer Organization","x":1000,"y":-380,"width":380,"height":50},
+		{"id":"72cdd0cbe3ad229b","type":"text","text":"CS 482 Computer Graphics","x":1000,"y":-200,"width":380,"height":50}
 	],
 	"edges":[
 		{"id":"0d0f51982b05430b","fromNode":"5299ac0e4cda9607","fromSide":"bottom","toNode":"0e7a7c7a080d142c","toSide":"top"},
 		{"id":"7b528d2cc70ef6f3","fromNode":"0e7a7c7a080d142c","fromSide":"bottom","toNode":"62e5203791e4c718","toSide":"top"},
-		{"id":"c3dcc1d25d94d12d","fromNode":"62e5203791e4c718","fromSide":"bottom","toNode":"fe634d0110eb9fbd","toSide":"top"}
+		{"id":"c3dcc1d25d94d12d","fromNode":"62e5203791e4c718","fromSide":"bottom","toNode":"fe634d0110eb9fbd","toSide":"top"},
+		{"id":"3fcff1e65a71d600","fromNode":"62e5203791e4c718","fromSide":"bottom","toNode":"449ce2523e8f6bac","toSide":"top"},
+		{"id":"a4cd678ec63aef53","fromNode":"fe634d0110eb9fbd","fromSide":"bottom","toNode":"dbff3084fc2f7c6b","toSide":"top"},
+		{"id":"e74757c4359fddb9","fromNode":"449ce2523e8f6bac","fromSide":"bottom","toNode":"b8d7067ab9c0b889","toSide":"top"},
+		{"id":"0f0e387809fd0f5b","fromNode":"62e5203791e4c718","fromSide":"bottom","toNode":"4c9767176753f854","toSide":"top"},
+		{"id":"3f01cc0d34c1728a","fromNode":"4c9767176753f854","fromSide":"bottom","toNode":"5c2a7701cdd8bca6","toSide":"top"},
+		{"id":"e7ff9715817ee829","fromNode":"5c2a7701cdd8bca6","fromSide":"bottom","toNode":"6054aa424b3747b3","toSide":"top"},
+		{"id":"b64b9d278a1028e4","fromNode":"62e5203791e4c718","fromSide":"bottom","toNode":"7b676cab4e3bcae9","toSide":"top"},
+		{"id":"7e5162d8b6c3be9c","fromNode":"449ce2523e8f6bac","fromSide":"bottom","toNode":"7b676cab4e3bcae9","toSide":"top"},
+		{"id":"bce4617e9b868ae1","fromNode":"5299ac0e4cda9607","fromSide":"right","toNode":"a4c7436966adcb85","toSide":"left"},
+		{"id":"3935b3c92715c74d","fromNode":"a4c7436966adcb85","fromSide":"bottom","toNode":"5c04cfba1140f163","toSide":"top"},
+		{"id":"ddcd5bfb225f061b","fromNode":"5c04cfba1140f163","fromSide":"bottom","toNode":"47190735170d4846","toSide":"top"},
+		{"id":"90d5073dad9bc16b","fromNode":"47190735170d4846","fromSide":"bottom","toNode":"72cdd0cbe3ad229b","toSide":"top"}
 	]
 }
