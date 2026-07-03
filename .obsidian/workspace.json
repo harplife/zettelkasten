@@ -30,8 +30,8 @@
               "state": {
                 "file": "SWIC/SIUE EE Courses Dependency Map.canvas",
                 "viewState": {
-                  "x": 1068.1918541441592,
-                  "y": -504.84017965241105,
+                  "x": 1527.8428438025562,
+                  "y": -426.14285505763485,
                   "zoom": -0.8000000000000002
                 }
               },
@@ -264,7 +264,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 362.5
+    "width": 362.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -282,7 +283,7 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "227e6011dc684b16",
+  "active": "9480292afc8cc1a9",
   "lastOpenFiles": [
     "SWIC/SWIC_SIUE_Plan.md",
     "SWIC/SIUE EE Courses Dependency Map.canvas",
