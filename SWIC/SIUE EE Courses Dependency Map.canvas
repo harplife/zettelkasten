@@ -64,7 +64,27 @@
 		{"id":"707be3fe58367aac","type":"text","text":"ECE 341 Electromechanical Energy Conversion","x":3417,"y":120,"width":282,"height":80,"color":"4"},
 		{"id":"dbff3084fc2f7c6b","type":"text","text":"MATH 355 Engineering Mathematics","x":495,"y":-20,"width":355,"height":50,"color":"4"},
 		{"id":"6fbaa15689ca3839","type":"text","text":"MATH 464 Partial Differential Equations","x":72,"y":270,"width":380,"height":50},
-		{"id":"4f642a8b11e829a7","type":"text","text":"MATH 462 Applied Numerical Analysis","x":262,"y":100,"width":380,"height":50,"color":"3"}
+		{"id":"4f642a8b11e829a7","type":"text","text":"MATH 462 Applied Numerical Analysis","x":262,"y":100,"width":380,"height":50,"color":"3"},
+		{
+			"id":"55b47d9179d48ee5",
+			"type":"text",
+			"text":"# SIUE Courses\n\n## Courses List\n- [ECE](https://www.siue.edu/academics/undergraduate/courses/index.shtml?subject=ECE)\n- [MATH](https://www.siue.edu/academics/undergraduate/courses/index.shtml?subject=MATH)\n- [CS](https://www.siue.edu/academics/undergraduate/courses/index.shtml?subject=CS)\n- [IE](https://www.siue.edu/academics/undergraduate/courses/index.shtml?subject=IE)\n- [PHYS](https://www.siue.edu/academics/undergraduate/courses/index.shtml?subject=PHYS)\n\n## Note\n- Physics department is eliminated. Teach out is taking in place until 2029. I need to figure out whether I can somehow take optics/photonics courses during the teach out phase.",
+			"styleAttributes":{},
+			"x":-1120,
+			"y":-1335,
+			"width":794,
+			"height":585
+		},
+		{
+			"id":"b1a393bf693392af",
+			"type":"text",
+			"text":"```embed\ntitle: \"Degree Requirements - Electrical Engineering | SIUE\"\nimage: \"https://siue.edu/_files/2016/img/menu-arrow-up.png\"\ndescription: \"Graduation Requirements\"\nurl: \"https://www.siue.edu/academics/undergraduate/degrees-and-programs/electrical-engineering/degree-requirements.shtml\"\nfavicon: \"\"\naspectRatio: \"65.85365853658537\"\n```\n",
+			"styleAttributes":{},
+			"x":-1384,
+			"y":-1747,
+			"width":1152,
+			"height":225
+		}
 	],
 	"edges":[
 		{"id":"0d0f51982b05430b","fromNode":"5299ac0e4cda9607","fromSide":"bottom","toNode":"0e7a7c7a080d142c","toSide":"top"},
@@ -122,7 +142,7 @@
 		{"id":"d9d7330bdf15322f","fromNode":"6807077b1ac1eea3","fromSide":"bottom","toNode":"7d07964aca5d704a","toSide":"top","fromEnd":"arrow","color":"1"},
 		{"id":"56a233380c7740d5","fromNode":"2af82b2fa854e379","fromSide":"bottom","toNode":"c90f094dd9d61c0b","toSide":"top"},
 		{"id":"c0acc9f4fe76832e","fromNode":"2af82b2fa854e379","fromSide":"bottom","toNode":"2dc3831c1b807366","toSide":"top"},
-		{"id":"5e7f1b9483051feb","fromNode":"1b9490903b50e97b","fromSide":"bottom","toNode":"06f4470cbd24c81e","toSide":"top"},
+		{"id":"5e7f1b9483051feb","fromFloating":false,"fromNode":"1b9490903b50e97b","fromSide":"bottom","toNode":"06f4470cbd24c81e","toSide":"top"},
 		{"id":"c3199d2eb4a3d9ca","fromNode":"06f4470cbd24c81e","fromSide":"bottom","toNode":"57289e510b52308b","toSide":"top"},
 		{"id":"ab896103979c2737","fromNode":"06f4470cbd24c81e","fromSide":"bottom","toNode":"9e72516e7dc0389e","toSide":"top"},
 		{"id":"e58928146fef294a","fromNode":"06f4470cbd24c81e","fromSide":"bottom","toNode":"269b957a89ee4f2d","toSide":"top"},
