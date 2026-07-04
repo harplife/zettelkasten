@@ -2,9 +2,8 @@
 	"nodes":[
 		{"id":"f6aedff74dbb4fe1","type":"text","text":"IE 345 Engineering Economic Analysis","x":-160,"y":-1220,"width":380,"height":50,"color":"4"},
 		{"id":"ccb3fdcd5a3eb369","type":"text","text":"ECON 111 Macroeconomics","x":-110,"y":-1055,"width":282,"height":50,"color":"5"},
-		{"id":"4017cf9564e112cc","type":"text","text":"PHYS 201 Physics III","x":2290,"y":-1140,"width":300,"height":50},
-		{"id":"857746930d952a13","type":"text","text":"PHYS 251 Waves","x":1939,"y":-1140,"width":300,"height":50},
-		{"id":"561b89b9a4ac0ca8","type":"text","text":"PHYS 410 Optics","x":1939,"y":-1060,"width":300,"height":50},
+		{"id":"857746930d952a13","type":"text","text":"PHYS 251 Waves","x":1939,"y":-1140,"width":300,"height":50,"color":"6"},
+		{"id":"561b89b9a4ac0ca8","type":"text","text":"PHYS 410 Optics","x":1939,"y":-1060,"width":300,"height":50,"color":"6"},
 		{"id":"4cf6a52c61804ee1","type":"text","text":"PHYS 471 Laser Physics and Technology","x":2047,"y":-940,"width":415,"height":50},
 		{"id":"7a5ea68bc76963e1","type":"text","text":"PHYS 472 Photonics Lab","x":2126,"y":-860,"width":257,"height":50},
 		{"id":"0994aabae5ee1d96","type":"text","text":"ECE 340 Electromagnetics","x":2555,"y":-150,"width":282,"height":50,"color":"4"},
@@ -280,7 +279,14 @@
 			"width":390,
 			"height":60
 		},
-		{"id":"da6bd13b1868bffe","type":"text","text":"ECE 467 Robotics-Dynamics and Control","x":3040,"y":-500,"width":376,"height":50}
+		{"id":"da6bd13b1868bffe","type":"text","text":"ECE 467 Robotics-Dynamics and Control","x":3040,"y":-500,"width":376,"height":50},
+		{"id":"4017cf9564e112cc","type":"text","text":"PHYS 201 Physics III","x":2290,"y":-1140,"width":300,"height":50},
+		{"id":"1c8df33b1ea5326d","type":"text","text":"ME 354 Numerical Simulation","x":1939,"y":-1740,"width":300,"height":50},
+		{"id":"2e5d2555b634c2a9","type":"text","text":"ME 356 Dynamical Systems Modeling","x":2326,"y":-1745,"width":384,"height":60},
+		{"id":"2ac4c3e103cf01f3","type":"text","text":"ME 262 Dynamics","x":2368,"y":-1890,"width":300,"height":50},
+		{"id":"6271c8a861dfb203","type":"text","text":"CE 242 Mechanics of Solids","x":2780,"y":-1890,"width":300,"height":50},
+		{"id":"fa530fe1c3038cfb","type":"text","text":"CE 240 Statics","x":2368,"y":-2040,"width":300,"height":50},
+		{"id":"c307f46f02f38abc","type":"text","text":"ME 458 Mechatronics","x":2738,"y":-1610,"width":384,"height":60,"color":"6"}
 	],
 	"edges":[
 		{"id":"0d0f51982b05430b","fromNode":"5299ac0e4cda9607","fromSide":"bottom","toNode":"0e7a7c7a080d142c","toSide":"top"},
@@ -625,6 +631,71 @@
 			"fromNode":"72cdd0cbe3ad229b",
 			"fromSide":"bottom",
 			"toNode":"80a2af9bbb6e5427",
+			"toSide":"top"
+		},
+		{
+			"id":"3646986367f97f1c",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"fa530fe1c3038cfb",
+			"fromSide":"bottom",
+			"toNode":"2ac4c3e103cf01f3",
+			"toSide":"top"
+		},
+		{
+			"id":"c5b77efb9cb39287",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"fa530fe1c3038cfb",
+			"fromSide":"bottom",
+			"toNode":"6271c8a861dfb203",
+			"toSide":"top"
+		},
+		{
+			"id":"e93316f8fe286281",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"a4c7436966adcb85",
+			"fromSide":"right",
+			"toNode":"1c8df33b1ea5326d",
+			"toSide":"left"
+		},
+		{
+			"id":"db11144835edf71d",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"fe634d0110eb9fbd",
+			"fromSide":"right",
+			"toNode":"1c8df33b1ea5326d",
+			"toSide":"left"
+		},
+		{
+			"id":"841ad54c216c9fd0",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"2ac4c3e103cf01f3",
+			"fromSide":"bottom",
+			"toNode":"2e5d2555b634c2a9",
+			"toSide":"top"
+		},
+		{
+			"id":"e65023e3a0771630",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"1c8df33b1ea5326d",
+			"fromSide":"right",
+			"toNode":"2e5d2555b634c2a9",
+			"toSide":"left",
+			"fromEnd":"arrow",
+			"color":"1"
+		},
+		{
+			"id":"4937676c3060b67f",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"2e5d2555b634c2a9",
+			"fromSide":"bottom",
+			"toNode":"c307f46f02f38abc",
 			"toSide":"top"
 		}
 	],
