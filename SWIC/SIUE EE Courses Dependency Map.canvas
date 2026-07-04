@@ -285,18 +285,18 @@
 		{"id":"6271c8a861dfb203","type":"text","text":"CE 242 Mechanics of Solids","x":2780,"y":-1890,"width":300,"height":50},
 		{"id":"fa530fe1c3038cfb","type":"text","text":"CE 240 Statics","x":2368,"y":-2040,"width":300,"height":50},
 		{"id":"c307f46f02f38abc","type":"text","text":"ME 458 Mechatronics","x":2738,"y":-1610,"width":384,"height":60,"color":"6"},
+		{"id":"6fbaa15689ca3839","type":"text","text":"MATH 464 Partial Differential Equations","x":-440,"y":-32,"width":380,"height":50},
+		{"id":"dbff3084fc2f7c6b","type":"text","text":"MATH 355 Engineering Mathematics","x":73,"y":-32,"width":355,"height":50,"color":"4"},
 		{
 			"id":"f729d8e72451ab0a",
 			"type":"text",
-			"text":"# SIUE Plan\n\n## Plan (2026-07-04)\n\nBy the time I transfer to SIUE, I will have finished up to:\n- Differential Equations\n- Physics 3\n- Statics, Dynamics, and Mechanics of Solids\n- Macroeconomics\n- Computer Programming for Engineers\n\nI'm hoping to test out of CS 150 Intro to Computing II, so that I can fill the prerequisite for CS482 Computer Graphics. The main problem in this case, is that I need to take CS 286 Intro to Computer Organization and I can only take one non-ECE course elective. I would have to pay this one out of pocket, if Financial Aid doesn't cover it. Hopefully by then, I might be able to figure something out with scholarship.\n\n### Fall 2027\nThese courses are confirmed to be able during Fall semester (2026):\n- ECE 211 Circuit Analysis II (SuSpF - 4)\n- ECE 282 Digital Systems Design (SuSpF - 4)\n- MATH 355 Engineering Mathematics (F - 5)\n- IE 106 Engineering Problem Solving (SuSpF - 3)\n\n### Spring 2028\n- ECE 326 Electronic Circuits I (SpF - 4)\n- ECE 340 Electromagnetics (SpF - 3)\n- ECE 351 Signals and Systems (SuSpF - 3)\n- ECE 352 Probability and Statistics (SpF - 3)\n- ECE 365 Control Systems (SpF - 3)\n\n### Summer 2028\n- IE 345 Engineering Economic Analysis (SuSpF - 3)\n\n### Spring 2028\n- ",
+			"text":"# SIUE Plan\n\n## Plan (2026-07-04)\n\nBy the time I transfer to SIUE, I will have finished up to:\n- Differential Equations\n- Physics 3\n- Statics, Dynamics, and Mechanics of Solids\n- Macroeconomics\n- Computer Programming for Engineers\n\nI'm hoping to test out of CS 150 Intro to Computing II, so that I can fill the prerequisite for CS482 Computer Graphics. The main problem in this case, is that I need to take CS 286 Intro to Computer Organization and I can only take one non-ECE course elective. I would have to pay this one out of pocket, if Financial Aid doesn't cover it. Hopefully by then, I might be able to figure something out with scholarship.\n\n### Fall 2027\nThese courses are confirmed to be able during Fall semester (2026):\n- ECE 211 Circuit Analysis II (SuSpF - 4)\n- ECE 282 Digital Systems Design (SuSpF - 4)\n- MATH 355 Engineering Mathematics (F - 5)\n- IE 106 Engineering Problem Solving (SuSpF - 3)\n- IE 345 Engineering Economic Analysis (SuSpF - 3)\n\n### Spring 2028\n- ECE 326 Electronic Circuits I (SpF - 4)\n- ECE 340 Electromagnetics (SpF - 3)\n- ECE 351 Signals and Systems (SuSpF - 3)\n- ECE 352 Probability and Statistics (SpF - 3)\n- ECE 365 Control Systems (SpF - 3)\n- \n\n### Summer 2028\n- ECE 198/199 Work Experience/Co-Op I (SuSpF - 0)\n\n### Fall 2028\n- ECE 341 Electromechanical Energy Conversion (SpF - 4)\n- ECE 375 Intro to Comm (SuSpF - 3)\n- ECE 404 ECE Design (SpF - 3)\n- ECE 438 Computer Vision I (F - 3)\n- ECE 436 Digital Signal Processing (SpF - 3)\n\n### Spring 202\n- ECE 439 Digital Image Processing I (Sp - 3)\n- ECE 447 Radar Systems (Sp - 3)\n- ECE 405 ECE Design Lab (SpF - 3)\n\n\n\n- CS 482 Computer Graphics\n- PHYS 251 Waves\n- PHYS 410 Optics\n- MATH 462 Applied Numerical Analysis\n- MATH 464 Partial Differential Equations\n\n### Fall 2028\n\n\n\n",
 			"styleAttributes":{},
-			"x":-1500,
-			"y":405,
+			"x":-1520,
+			"y":435,
 			"width":720,
 			"height":1505
-		},
-		{"id":"6fbaa15689ca3839","type":"text","text":"MATH 464 Partial Differential Equations","x":-440,"y":-32,"width":380,"height":50},
-		{"id":"dbff3084fc2f7c6b","type":"text","text":"MATH 355 Engineering Mathematics","x":73,"y":-32,"width":355,"height":50,"color":"4"}
+		}
 	],
 	"edges":[
 		{"id":"0d0f51982b05430b","fromNode":"5299ac0e4cda9607","fromSide":"bottom","toNode":"0e7a7c7a080d142c","toSide":"top"},
@@ -353,7 +353,7 @@
 		{"id":"d9d7330bdf15322f","fromNode":"6807077b1ac1eea3","fromSide":"bottom","toNode":"7d07964aca5d704a","toSide":"top","fromEnd":"arrow","color":"1"},
 		{"id":"56a233380c7740d5","fromNode":"2af82b2fa854e379","fromSide":"bottom","toNode":"c90f094dd9d61c0b","toSide":"top"},
 		{"id":"c0acc9f4fe76832e","fromNode":"2af82b2fa854e379","fromSide":"bottom","toNode":"2dc3831c1b807366","toSide":"top"},
-		{"id":"5e7f1b9483051feb","fromFloating":false,"fromNode":"1b9490903b50e97b","fromSide":"bottom","toNode":"06f4470cbd24c81e","toSide":"top"},
+		{"id":"5e7f1b9483051feb","fromFloating":false,"toFloating":false,"fromNode":"1b9490903b50e97b","fromSide":"bottom","toNode":"06f4470cbd24c81e","toSide":"top"},
 		{"id":"c3199d2eb4a3d9ca","fromNode":"06f4470cbd24c81e","fromSide":"bottom","toNode":"57289e510b52308b","toSide":"top"},
 		{"id":"ab896103979c2737","fromNode":"06f4470cbd24c81e","fromSide":"bottom","toNode":"9e72516e7dc0389e","toSide":"top"},
 		{"id":"e58928146fef294a","fromNode":"06f4470cbd24c81e","fromSide":"bottom","toNode":"269b957a89ee4f2d","toSide":"top"},
