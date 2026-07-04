@@ -286,7 +286,17 @@
 		{"id":"2ac4c3e103cf01f3","type":"text","text":"ME 262 Dynamics","x":2368,"y":-1890,"width":300,"height":50},
 		{"id":"6271c8a861dfb203","type":"text","text":"CE 242 Mechanics of Solids","x":2780,"y":-1890,"width":300,"height":50},
 		{"id":"fa530fe1c3038cfb","type":"text","text":"CE 240 Statics","x":2368,"y":-2040,"width":300,"height":50},
-		{"id":"c307f46f02f38abc","type":"text","text":"ME 458 Mechatronics","x":2738,"y":-1610,"width":384,"height":60,"color":"6"}
+		{"id":"c307f46f02f38abc","type":"text","text":"ME 458 Mechatronics","x":2738,"y":-1610,"width":384,"height":60,"color":"6"},
+		{
+			"id":"f729d8e72451ab0a",
+			"type":"text",
+			"text":"# SIUE Plan\n\n## Plan (2026-07-04)\n\nBy the time I transfer to SIUE, I will have finished up to:\n- Differential Equations\n- Physics 3\n- Statics, Dynamics, and Mechanics of Solids\n- Macroeconomics\n- Computer Programming for Engineers\n\nI'm hoping to test out of CS 150 Intro to Computing II, so that I can fill the prerequisite for CS482 Computer Graphics. The main problem in this case, is that I need to take CS 286 Intro to Computer Organization and I can only take one non-ECE course elective. I would have to pay this one out of pocket, if Financial Aid doesn't cover it. Hopefully by then, I might be able to figure something out with scholarship.\n\n",
+			"styleAttributes":{},
+			"x":-1500,
+			"y":720,
+			"width":720,
+			"height":780
+		}
 	],
 	"edges":[
 		{"id":"0d0f51982b05430b","fromNode":"5299ac0e4cda9607","fromSide":"bottom","toNode":"0e7a7c7a080d142c","toSide":"top"},
