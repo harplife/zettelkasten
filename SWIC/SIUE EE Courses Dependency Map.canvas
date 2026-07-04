@@ -42,7 +42,7 @@
 		{"id":"2af82b2fa854e379","type":"text","text":"ECE 365 Control Systems","x":2052,"y":531,"width":282,"height":50,"color":"4"},
 		{"id":"da6bd13b1868bffe","type":"text","text":"ECE 467 Robotics-Dynamics and Control","x":2951,"y":556,"width":376,"height":50},
 		{"id":"6807077b1ac1eea3","type":"text","text":"Concurrency","x":2007,"y":165,"width":165,"height":50,"color":"1"},
-		{"id":"9c2cfeac0bca9991","type":"text","text":"ECE 447 Radar Systems","x":1539,"y":531,"width":323,"height":50},
+		{"id":"9c2cfeac0bca9991","type":"text","text":"ECE 447 Radar Systems","x":1539,"y":531,"width":323,"height":50,"color":"3"},
 		{"id":"8dee368448137e53","type":"text","text":"ECE 326 Electronic Circuits I","x":821,"y":-220,"width":282,"height":50,"color":"4"},
 		{"id":"728f66eb0da83f83","type":"text","text":"ECE 211 Circuit Analysis II","x":1129,"y":-440,"width":282,"height":50,"color":"4"},
 		{"id":"0e7a7c7a080d142c","type":"text","text":"MATH 152 Calculus II","x":-94,"y":-650,"width":250,"height":50,"color":"5"},
@@ -56,12 +56,12 @@
 		{"id":"23a525c5efe65234","type":"text","text":"ECE 476 Electronic Circuits II","x":-5,"y":715,"width":322,"height":50},
 		{"id":"380ee5b63033ac67","type":"text","text":"ECE 428 Analog Filter Design","x":760,"y":1020,"width":282,"height":50},
 		{"id":"b8d7067ab9c0b889","type":"text","text":"MATH 421 Linear Algebra II","x":-540,"y":140,"width":308,"height":50},
-		{"id":"dbff3084fc2f7c6b","type":"text","text":"MATH 355 Engineering Mathematics","x":155,"y":230,"width":355,"height":50,"color":"4"},
-		{"id":"4f642a8b11e829a7","type":"text","text":"MATH 462 Applied Numerical Analysis","x":-95,"y":340,"width":380,"height":50},
-		{"id":"449ce2523e8f6bac","type":"text","text":"MATH 321 Linear Algebra I","x":-540,"y":-125,"width":308,"height":50,"color":"3"},
+		{"id":"449ce2523e8f6bac","type":"text","text":"MATH 321 Linear Algebra I","x":-540,"y":-125,"width":308,"height":50},
 		{"id":"bd28f490d0b9ea84","type":"text","text":"IE 106 Engineering Problem Solving","x":-159,"y":-1360,"width":380,"height":50,"color":"4"},
 		{"id":"f4ec43c06f90e656","type":"text","text":"PHYS 152/152 Physics II","x":2105,"y":-1295,"width":300,"height":50,"color":"5"},
-		{"id":"2f16f23ae31df512","type":"text","text":"PHYS 141/151 Physics I","x":2105,"y":-1370,"width":300,"height":50,"color":"5"}
+		{"id":"2f16f23ae31df512","type":"text","text":"PHYS 141/151 Physics I","x":2105,"y":-1370,"width":300,"height":50,"color":"5"},
+		{"id":"dbff3084fc2f7c6b","type":"text","text":"MATH 355 Engineering Mathematics","x":208,"y":140,"width":355,"height":50,"color":"4"},
+		{"id":"4f642a8b11e829a7","type":"text","text":"MATH 462 Applied Numerical Analysis","x":-55,"y":270,"width":380,"height":50,"color":"3"}
 	],
 	"edges":[
 		{"id":"0d0f51982b05430b","fromNode":"5299ac0e4cda9607","fromSide":"bottom","toNode":"0e7a7c7a080d142c","toSide":"top"},
