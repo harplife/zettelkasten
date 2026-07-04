@@ -19,11 +19,17 @@ S_{n} = \frac{\Delta x}{3}[f(x_{0})+4f(x_{1})+2f(x_{2})+\dots+4(x_{n-1})+f(x_{n}
 $$
 
 
-
-
 | Method                     | Choice of (x_k^*)                                       | Summation Form                                        |
 | -------------------------- | ------------------------------------------------------- | ----------------------------------------------------- |
 | **General Riemann Sum**    | Any point in the (k)-th subinterval                     | $\displaystyle \sum_{k=1}^{n} f(x_k^*),\Delta x$      |
 | **Left-Hand Riemann Sum**  | $\displaystyle x_k^*=a+(k-1)\Delta x$                   | $\displaystyle L_n=\sum_{k=1}^{n} f(x_k^*)\,\Delta x$ |
 | **Midpoint Riemann Sum**   | $\displaystyle x_k^*=a+\left(k-\tfrac12\right)\Delta x$ | $\displaystyle M_n=\sum_{k=1}^{n} f(x_k^*)\,\Delta x$ |
 | **Right-Hand Riemann Sum** | $\displaystyle x_k^*=a+k\Delta x$                       | $\displaystyle R_n=\sum_{k=1}^{n} f(x_k^*)\,\Delta x$ |
+
+
+
+shortcuts
+
+
+Simpson's Rule
+$S(2n)=\frac{2M(n)+T(n)}{3}$
