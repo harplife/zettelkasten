@@ -17,7 +17,7 @@
 		{"id":"f4ec43c06f90e656","type":"text","text":"PHYS 152/152 Physics II","x":2290,"y":-1350,"width":300,"height":50,"color":"5"},
 		{"id":"2f16f23ae31df512","type":"text","text":"PHYS 141/151 Physics I","x":2290,"y":-1425,"width":300,"height":50,"color":"5"},
 		{"id":"1b9490903b50e97b","type":"text","text":"ECE 282 Digital Systems Design","x":1747,"y":-745,"width":300,"height":50,"color":"4"},
-		{"id":"a4c7436966adcb85","type":"text","text":"CS 140/145 Intro to Computing I","x":793,"y":-1660,"width":339,"height":50,"color":"4"},
+		{"id":"a4c7436966adcb85","type":"text","text":"CS 140/145 Intro to Computing I","x":793,"y":-1660,"width":339,"height":50,"color":"5"},
 		{"id":"5c04cfba1140f163","type":"text","text":"CS 150 Intro to Computing II","x":793,"y":-1575,"width":339,"height":50},
 		{"id":"47190735170d4846","type":"text","text":"CS 286 Intro to Computer Organization","x":773,"y":-1460,"width":380,"height":50},
 		{
@@ -222,11 +222,9 @@
 		{"id":"449ce2523e8f6bac","type":"text","text":"MATH 321 Linear Algebra I","x":-1274,"y":-137,"width":308,"height":50},
 		{"id":"b8d7067ab9c0b889","type":"text","text":"MATH 421 Linear Algebra II","x":-1274,"y":128,"width":308,"height":50},
 		{"id":"7b676cab4e3bcae9","type":"text","text":"MATH 437 Differential Geometry","x":-934,"y":128,"width":308,"height":50},
-		{"id":"dbff3084fc2f7c6b","type":"text","text":"MATH 355 Engineering Mathematics","x":49,"y":-32,"width":355,"height":50,"color":"4"},
 		{"id":"4f642a8b11e829a7","type":"text","text":"MATH 462 Applied Numerical Analysis","x":-184,"y":88,"width":380,"height":50,"color":"3"},
 		{"id":"fe634d0110eb9fbd","type":"text","text":"MATH 305 Differential Equations","x":-172,"y":-187,"width":355,"height":50,"color":"5"},
 		{"id":"f467d6ef91747752","type":"text","text":"ECE 351 Signals and Systems","x":1032,"y":18,"width":282,"height":50,"color":"4"},
-		{"id":"6fbaa15689ca3839","type":"text","text":"MATH 464 Partial Differential Equations","x":-490,"y":-7,"width":380,"height":50},
 		{"id":"72cdd0cbe3ad229b","type":"text","text":"CS 482 Computer Graphics","x":773,"y":-1350,"width":380,"height":50,"color":"6"},
 		{
 			"id":"80a2af9bbb6e5427",
@@ -290,13 +288,15 @@
 		{
 			"id":"f729d8e72451ab0a",
 			"type":"text",
-			"text":"# SIUE Plan\n\n## Plan (2026-07-04)\n\nBy the time I transfer to SIUE, I will have finished up to:\n- Differential Equations\n- Physics 3\n- Statics, Dynamics, and Mechanics of Solids\n- Macroeconomics\n- Computer Programming for Engineers\n\nI'm hoping to test out of CS 150 Intro to Computing II, so that I can fill the prerequisite for CS482 Computer Graphics. The main problem in this case, is that I need to take CS 286 Intro to Computer Organization and I can only take one non-ECE course elective. I would have to pay this one out of pocket, if Financial Aid doesn't cover it. Hopefully by then, I might be able to figure something out with scholarship.\n\n",
+			"text":"# SIUE Plan\n\n## Plan (2026-07-04)\n\nBy the time I transfer to SIUE, I will have finished up to:\n- Differential Equations\n- Physics 3\n- Statics, Dynamics, and Mechanics of Solids\n- Macroeconomics\n- Computer Programming for Engineers\n\nI'm hoping to test out of CS 150 Intro to Computing II, so that I can fill the prerequisite for CS482 Computer Graphics. The main problem in this case, is that I need to take CS 286 Intro to Computer Organization and I can only take one non-ECE course elective. I would have to pay this one out of pocket, if Financial Aid doesn't cover it. Hopefully by then, I might be able to figure something out with scholarship.\n\n### Fall 2027\nThese courses are confirmed to be able during Fall semester (2026):\n- ECE 211 Circuit Analysis II\n- ECE 282 Digital Systems Design\n- MATH 355 Engineering Mathematics\n- IE 106 Engineering Problem Solving\n- IE 345 Engineering Economic Analysis\n\n### Spring 2028\n",
 			"styleAttributes":{},
 			"x":-1500,
-			"y":720,
+			"y":405,
 			"width":720,
-			"height":780
-		}
+			"height":1260
+		},
+		{"id":"6fbaa15689ca3839","type":"text","text":"MATH 464 Partial Differential Equations","x":-440,"y":-32,"width":380,"height":50},
+		{"id":"dbff3084fc2f7c6b","type":"text","text":"MATH 355 Engineering Mathematics","x":73,"y":-32,"width":355,"height":50,"color":"4"}
 	],
 	"edges":[
 		{"id":"0d0f51982b05430b","fromNode":"5299ac0e4cda9607","fromSide":"bottom","toNode":"0e7a7c7a080d142c","toSide":"top"},
