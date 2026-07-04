@@ -9,7 +9,6 @@
 		{"id":"ccb3fdcd5a3eb369","type":"text","text":"ECON 111 Macroeconomics","x":-110,"y":-1055,"width":282,"height":50,"color":"5"},
 		{"id":"a4c7436966adcb85","type":"text","text":"CS 140/145 Intro to Computing I","x":790,"y":-1765,"width":339,"height":50,"color":"4"},
 		{"id":"9e33ba9ff6bf4eea","type":"text","text":"ECE 427 Knowledge-Based Systems","x":1295,"y":-675,"width":339,"height":50},
-		{"id":"f4ec43c06f90e656","type":"text","text":"PHYS 152/152 Physics II","x":2290,"y":-1400,"width":300,"height":50,"color":"5"},
 		{"id":"4017cf9564e112cc","type":"text","text":"PHYS 201 Physics III","x":2290,"y":-1140,"width":300,"height":50},
 		{"id":"857746930d952a13","type":"text","text":"PHYS 251 Waves","x":1939,"y":-1140,"width":300,"height":50},
 		{"id":"561b89b9a4ac0ca8","type":"text","text":"PHYS 410 Optics","x":1939,"y":-1060,"width":300,"height":50},
@@ -49,7 +48,6 @@
 		{"id":"0e7a7c7a080d142c","type":"text","text":"MATH 152 Calculus II","x":-94,"y":-650,"width":250,"height":50,"color":"5"},
 		{"id":"62e5203791e4c718","type":"text","text":"MATH 250 Calculus III","x":-95,"y":-582,"width":250,"height":50,"color":"5"},
 		{"id":"9fd6506e85e32996","type":"text","text":"OR","x":1576,"y":765,"width":90,"height":55,"color":"1"},
-		{"id":"2f16f23ae31df512","type":"text","text":"PHYS 141/151 Physics I","x":2290,"y":-1475,"width":300,"height":50,"color":"5"},
 		{"id":"5c04cfba1140f163","type":"text","text":"CS 150 Intro to Computing II","x":790,"y":-1680,"width":339,"height":50},
 		{"id":"72cdd0cbe3ad229b","type":"text","text":"CS 482 Computer Graphics","x":660,"y":-1270,"width":380,"height":50,"color":"3"},
 		{"id":"47190735170d4846","type":"text","text":"CS 286 Intro to Computer Organization","x":770,"y":-1475,"width":380,"height":50},
@@ -61,7 +59,9 @@
 		{"id":"dbff3084fc2f7c6b","type":"text","text":"MATH 355 Engineering Mathematics","x":155,"y":230,"width":355,"height":50,"color":"4"},
 		{"id":"4f642a8b11e829a7","type":"text","text":"MATH 462 Applied Numerical Analysis","x":-95,"y":340,"width":380,"height":50},
 		{"id":"449ce2523e8f6bac","type":"text","text":"MATH 321 Linear Algebra I","x":-540,"y":-125,"width":308,"height":50,"color":"3"},
-		{"id":"bd28f490d0b9ea84","type":"text","text":"IE 106 Engineering Problem Solving","x":-159,"y":-1360,"width":380,"height":50,"color":"4"}
+		{"id":"bd28f490d0b9ea84","type":"text","text":"IE 106 Engineering Problem Solving","x":-159,"y":-1360,"width":380,"height":50,"color":"4"},
+		{"id":"f4ec43c06f90e656","type":"text","text":"PHYS 152/152 Physics II","x":2105,"y":-1295,"width":300,"height":50,"color":"5"},
+		{"id":"2f16f23ae31df512","type":"text","text":"PHYS 141/151 Physics I","x":2105,"y":-1370,"width":300,"height":50,"color":"5"}
 	],
 	"edges":[
 		{"id":"0d0f51982b05430b","fromNode":"5299ac0e4cda9607","fromSide":"bottom","toNode":"0e7a7c7a080d142c","toSide":"top"},
@@ -80,7 +80,6 @@
 		{"id":"ddcd5bfb225f061b","fromNode":"5c04cfba1140f163","fromSide":"bottom","toNode":"47190735170d4846","toSide":"top"},
 		{"id":"90d5073dad9bc16b","fromNode":"47190735170d4846","fromSide":"bottom","toNode":"72cdd0cbe3ad229b","toSide":"top"},
 		{"id":"51c398adebc04ff6","fromNode":"f82529279b087dc8","fromSide":"bottom","toNode":"728f66eb0da83f83","toSide":"top"},
-		{"id":"e3039a35f0a13719","fromNode":"5299ac0e4cda9607","fromSide":"right","toNode":"f82529279b087dc8","toSide":"left"},
 		{"id":"bd1d107859d9e435","fromNode":"62e5203791e4c718","fromSide":"right","toNode":"728f66eb0da83f83","toSide":"left"},
 		{"id":"b1b4d3bc45443161","fromNode":"a4c7436966adcb85","fromSide":"right","toNode":"1b9490903b50e97b","toSide":"top"},
 		{"id":"38f4ba8c8ed82dcd","fromNode":"728f66eb0da83f83","fromSide":"bottom","toNode":"8dee368448137e53","toSide":"top"},
@@ -92,7 +91,7 @@
 		{"id":"3d441aa3aec28400","fromNode":"0e7a7c7a080d142c","fromSide":"right","toNode":"f4ec43c06f90e656","toSide":"left"},
 		{"id":"4c26cdf8168b2de4","fromNode":"f4ec43c06f90e656","fromSide":"bottom","toNode":"4017cf9564e112cc","toSide":"top"},
 		{"id":"02455d425dbc9094","fromNode":"f4ec43c06f90e656","fromSide":"bottom","toNode":"857746930d952a13","toSide":"top"},
-		{"id":"a6a43901bc7e12e8","fromNode":"62e5203791e4c718","fromSide":"right","toNode":"857746930d952a13","toSide":"left"},
+		{"id":"a6a43901bc7e12e8","fromFloating":false,"fromNode":"62e5203791e4c718","fromSide":"right","toNode":"857746930d952a13","toSide":"left"},
 		{"id":"6d61da08a25ed6a4","fromNode":"f4ec43c06f90e656","fromSide":"right","toNode":"0994aabae5ee1d96","toSide":"top"},
 		{"id":"33ac43fa5b5820a8","fromNode":"857746930d952a13","fromSide":"bottom","toNode":"561b89b9a4ac0ca8","toSide":"top"},
 		{"id":"ecc07aaff90a18ce","fromNode":"0994aabae5ee1d96","fromSide":"bottom","toNode":"707be3fe58367aac","toSide":"top"},
@@ -144,6 +143,16 @@
 			"fromSide":"bottom",
 			"toNode":"b8d7067ab9c0b889",
 			"toSide":"top"
+		},
+		{
+			"id":"0a75ede8e637b80d",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"5299ac0e4cda9607",
+			"fromSide":"right",
+			"toNode":"f82529279b087dc8",
+			"toSide":"left"
 		}
 	],
 	"metadata":{
