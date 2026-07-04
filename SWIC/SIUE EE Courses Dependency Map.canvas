@@ -288,12 +288,12 @@
 		{
 			"id":"f729d8e72451ab0a",
 			"type":"text",
-			"text":"# SIUE Plan\n\n## Plan (2026-07-04)\n\nBy the time I transfer to SIUE, I will have finished up to:\n- Differential Equations\n- Physics 3\n- Statics, Dynamics, and Mechanics of Solids\n- Macroeconomics\n- Computer Programming for Engineers\n\nI'm hoping to test out of CS 150 Intro to Computing II, so that I can fill the prerequisite for CS482 Computer Graphics. The main problem in this case, is that I need to take CS 286 Intro to Computer Organization and I can only take one non-ECE course elective. I would have to pay this one out of pocket, if Financial Aid doesn't cover it. Hopefully by then, I might be able to figure something out with scholarship.\n\n### Fall 2027\nThese courses are confirmed to be able during Fall semester (2026):\n- ECE 211 Circuit Analysis II\n- ECE 282 Digital Systems Design\n- MATH 355 Engineering Mathematics\n- IE 106 Engineering Problem Solving\n- IE 345 Engineering Economic Analysis\n\n### Spring 2028\n",
+			"text":"# SIUE Plan\n\n## Plan (2026-07-04)\n\nBy the time I transfer to SIUE, I will have finished up to:\n- Differential Equations\n- Physics 3\n- Statics, Dynamics, and Mechanics of Solids\n- Macroeconomics\n- Computer Programming for Engineers\n\nI'm hoping to test out of CS 150 Intro to Computing II, so that I can fill the prerequisite for CS482 Computer Graphics. The main problem in this case, is that I need to take CS 286 Intro to Computer Organization and I can only take one non-ECE course elective. I would have to pay this one out of pocket, if Financial Aid doesn't cover it. Hopefully by then, I might be able to figure something out with scholarship.\n\n### Fall 2027\nThese courses are confirmed to be able during Fall semester (2026):\n- ECE 211 Circuit Analysis II (SuSpF - 4)\n- ECE 282 Digital Systems Design (SuSpF - 4)\n- MATH 355 Engineering Mathematics (F - 5)\n- IE 106 Engineering Problem Solving (SuSpF - 3)\n\n### Spring 2028\n- ECE 326 Electronic Circuits I (SpF - 4)\n- ECE 340 Electromagnetics (SpF - 3)\n- ECE 351 Signals and Systems (SuSpF - 3)\n- ECE 352 Probability and Statistics (SpF - 3)\n- ECE 365 Control Systems (SpF - 3)\n\n### Summer 2028\n- IE 345 Engineering Economic Analysis (SuSpF - 3)\n\n### Spring 2028\n- ",
 			"styleAttributes":{},
 			"x":-1500,
 			"y":405,
 			"width":720,
-			"height":1260
+			"height":1505
 		},
 		{"id":"6fbaa15689ca3839","type":"text","text":"MATH 464 Partial Differential Equations","x":-440,"y":-32,"width":380,"height":50},
 		{"id":"dbff3084fc2f7c6b","type":"text","text":"MATH 355 Engineering Mathematics","x":73,"y":-32,"width":355,"height":50,"color":"4"}
