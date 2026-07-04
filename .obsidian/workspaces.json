@@ -1242,13 +1242,13 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "math/Calc_Quick_Reference.md",
+                    "file": "math/Riemann_Sums.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": false
                   },
                   "icon": "lucide-file",
-                  "title": "Calc_Quick_Reference"
+                  "title": "Riemann_Sums"
                 }
               }
             ],
@@ -1332,13 +1332,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "math/Calc_Quick_Reference.md",
+                    "file": "math/Riemann_Sums.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of Calc_Quick_Reference"
+                  "title": "Outline of Riemann_Sums"
                 }
               }
             ]
@@ -1449,7 +1449,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "math/Calc_Quick_Reference.md",
+                    "file": "math/Riemann_Sums.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1459,7 +1459,7 @@
                     "unlinkedCollapsed": false
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for Calc_Quick_Reference"
+                  "title": "Backlinks for Riemann_Sums"
                 }
               }
             ],
@@ -1485,8 +1485,8 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "227e6011dc684b16",
-      "mtime": "2026-07-03T12:01:12-05:00",
+      "active": "fad7199b4ee33d45",
+      "mtime": "2026-07-03T20:05:59-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "math",
@@ -2264,8 +2264,8 @@
                   "state": {
                     "file": "SWIC/SIUE EE Courses Dependency Map.canvas",
                     "viewState": {
-                      "x": 1623.9514612744601,
-                      "y": -490.911370639673,
+                      "x": 2394.7298068085342,
+                      "y": 424.90637669789146,
                       "zoom": -0.8000000000000002
                     }
                   },
@@ -2518,7 +2518,7 @@
         }
       },
       "active": "9480292afc8cc1a9",
-      "mtime": "2026-07-03T12:55:21-05:00",
+      "mtime": "2026-07-03T20:05:29-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "anthropology",
@@ -2817,5 +2817,5 @@
       }
     }
   },
-  "active": "SWIC"
+  "active": "Math"
 }
