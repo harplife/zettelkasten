@@ -59,9 +59,9 @@
 		{"id":"fe634d0110eb9fbd","type":"text","text":"MATH 305 Differential Equations","x":135,"y":-125,"width":355,"height":50,"color":"4"},
 		{"id":"23a525c5efe65234","type":"text","text":"ECE 476 Electronic Circuits II","x":-5,"y":715,"width":322,"height":50},
 		{"id":"380ee5b63033ac67","type":"text","text":"ECE 428 Analog Filter Design","x":760,"y":1020,"width":282,"height":50},
-		{"id":"dbff3084fc2f7c6b","type":"text","text":"MATH 355 Engineering Mathematics","x":43,"y":280,"width":355,"height":50,"color":"4"},
 		{"id":"b8d7067ab9c0b889","type":"text","text":"MATH 421 Linear Algebra II","x":-540,"y":140,"width":308,"height":50},
-		{"id":"4f642a8b11e829a7","type":"text","text":"MATH 462 Applied Numerical Analysis","x":-576,"y":330,"width":380,"height":50}
+		{"id":"dbff3084fc2f7c6b","type":"text","text":"MATH 355 Engineering Mathematics","x":155,"y":230,"width":355,"height":50,"color":"4"},
+		{"id":"4f642a8b11e829a7","type":"text","text":"MATH 462 Applied Numerical Analysis","x":-95,"y":340,"width":380,"height":50}
 	],
 	"edges":[
 		{"id":"0d0f51982b05430b","fromNode":"5299ac0e4cda9607","fromSide":"bottom","toNode":"0e7a7c7a080d142c","toSide":"top"},
@@ -134,6 +134,7 @@
 		{"id":"c96e60a3f9b148ef","fromNode":"8dee368448137e53","fromSide":"bottom","toNode":"8bca8adaeea170e4","toSide":"top"},
 		{"id":"5522b39dc876963e","fromNode":"380ee5b63033ac67","fromSide":"top","toNode":"8bca8adaeea170e4","toSide":"bottom"},
 		{"id":"1cc37c1c00e86eac","fromNode":"6807077b1ac1eea3","fromSide":"top","toNode":"f467d6ef91747752","toSide":"right","fromEnd":"arrow","color":"1"},
-		{"id":"b200cda7307633cd","fromNode":"3157075f84a4e695","fromSide":"top","toNode":"6807077b1ac1eea3","toSide":"bottom","fromEnd":"arrow","color":"1"}
+		{"id":"b200cda7307633cd","fromNode":"3157075f84a4e695","fromSide":"top","toNode":"6807077b1ac1eea3","toSide":"bottom","fromEnd":"arrow","color":"1"},
+		{"id":"1cbf3316056a40ef","fromNode":"fe634d0110eb9fbd","fromSide":"bottom","toNode":"4f642a8b11e829a7","toSide":"top"}
 	]
 }
