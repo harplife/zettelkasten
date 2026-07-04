@@ -30,11 +30,9 @@
 		{"id":"9e72516e7dc0389e","type":"text","text":"ECE 483 Advanced Digital Systems Engineering","x":2890,"y":1160,"width":437,"height":50},
 		{"id":"69d3a45b25c3967f","type":"text","text":"ECE 381 Microcontrollers","x":1808,"y":1160,"width":300,"height":50},
 		{"id":"8bca8adaeea170e4","type":"text","text":"","x":579,"y":190,"width":50,"height":50},
-		{"id":"23a525c5efe65234","type":"text","text":"ECE 476 Electronic Circuits II","x":7,"y":693,"width":322,"height":50},
 		{"id":"94b2b2d14dd67d1a","type":"text","text":"ECE 426 High Freq Design","x":208,"y":782,"width":282,"height":50},
 		{"id":"54089cc47834cc5a","type":"text","text":"ECE 444 Power Electronics","x":349,"y":855,"width":323,"height":50},
 		{"id":"9bc9c5493790d503","type":"text","text":"ECE 484 Digital VLSI Design","x":560,"y":932,"width":300,"height":50},
-		{"id":"380ee5b63033ac67","type":"text","text":"ECE 428 Analog Filter Design","x":760,"y":1017,"width":282,"height":50},
 		{"id":"cece343bf12d81f4","type":"text","text":"ECE 375 Intro to Comm","x":1102,"y":732,"width":282,"height":50,"color":"4"},
 		{"id":"002a6a5aa623fbfe","type":"text","text":"ECE 438 Computer Vision","x":941,"y":180,"width":323,"height":50},
 		{"id":"06f4470cbd24c81e","type":"text","text":"","x":1862,"y":880,"width":50,"height":50},
@@ -60,7 +58,9 @@
 		{"id":"47190735170d4846","type":"text","text":"CS 286 Intro to Computer Organization","x":770,"y":-1475,"width":380,"height":50},
 		{"id":"7b676cab4e3bcae9","type":"text","text":"MATH 437 Differential Geometry","x":-200,"y":140,"width":308,"height":50},
 		{"id":"fe634d0110eb9fbd","type":"text","text":"MATH 305 Differential Equations","x":135,"y":-125,"width":355,"height":50,"color":"4"},
-		{"id":"dbff3084fc2f7c6b","type":"text","text":"MATH 355 Engineering Mathematics","x":43,"y":320,"width":355,"height":50,"color":"4"}
+		{"id":"dbff3084fc2f7c6b","type":"text","text":"MATH 355 Engineering Mathematics","x":43,"y":320,"width":355,"height":50,"color":"4"},
+		{"id":"23a525c5efe65234","type":"text","text":"ECE 476 Electronic Circuits II","x":-5,"y":715,"width":322,"height":50},
+		{"id":"380ee5b63033ac67","type":"text","text":"ECE 428 Analog Filter Design","x":760,"y":1020,"width":282,"height":50}
 	],
 	"edges":[
 		{"id":"0d0f51982b05430b","fromNode":"5299ac0e4cda9607","fromSide":"bottom","toNode":"0e7a7c7a080d142c","toSide":"top"},
