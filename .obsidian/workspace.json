@@ -30,8 +30,8 @@
               "state": {
                 "file": "SWIC/SIUE EE Courses Dependency Map.canvas",
                 "viewState": {
-                  "x": -603.6676337142836,
-                  "y": 1139.508398493054,
+                  "x": 1188.970415657071,
+                  "y": 1221.688711727022,
                   "zoom": -0.8000000000000002
                 }
               },
@@ -264,7 +264,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 362.5
+    "width": 362.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -282,7 +283,7 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "227e6011dc684b16",
+  "active": "9480292afc8cc1a9",
   "lastOpenFiles": [
     "math/Riemann_Sums.md",
     "math/Calc_Quick_Reference.md",

@@ -548,7 +548,7 @@
 			"toNode":"cbeebe5c4255e8ba",
 			"toSide":"top"
 		},
-		{"id":"bdf78f2cf43a0561","fromNode":"fe634d0110eb9fbd","fromSide":"right","toNode":"0994aabae5ee1d96","toSide":"left"},
+		{"id":"bdf78f2cf43a0561","fromFloating":false,"fromNode":"fe634d0110eb9fbd","fromSide":"right","toNode":"0994aabae5ee1d96","toSide":"left"},
 		{
 			"id":"9e29f53aeed0c73f",
 			"styleAttributes":{"path":"long-dashed"},

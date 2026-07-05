@@ -2264,9 +2264,9 @@
                   "state": {
                     "file": "SWIC/SIUE EE Courses Dependency Map.canvas",
                     "viewState": {
-                      "x": -749.2486372351259,
-                      "y": 1672.9400540868944,
-                      "zoom": -0.40000000000000013
+                      "x": 1338.0085233176364,
+                      "y": -267.3013649276723,
+                      "zoom": -0.8000000000000002
                     }
                   },
                   "icon": "lucide-layout-dashboard",
@@ -2518,7 +2518,7 @@
         }
       },
       "active": "9480292afc8cc1a9",
-      "mtime": "2026-07-04T15:46:17-05:00",
+      "mtime": "2026-07-05T10:26:12-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "anthropology",
