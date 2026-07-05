@@ -48,9 +48,7 @@
 		{"id":"9c2cfeac0bca9991","type":"text","text":"ECE 447 Radar Systems","x":2799,"y":526,"width":323,"height":60},
 		{"id":"4b55156feb0958ec","type":"text","text":"ECE 352 Probability and Statistics","x":1480,"y":320,"width":322,"height":60,"color":"4"},
 		{"id":"2dc3831c1b807366","type":"text","text":"ECE 466 Digital Control","x":1947,"y":770,"width":322,"height":50},
-		{"id":"23a525c5efe65234","type":"text","text":"ECE 476 Electronic Circuits II","x":-526,"y":818,"width":322,"height":50,"color":"3"},
-		{"id":"94b2b2d14dd67d1a","type":"text","text":"ECE 426 High Freq Design","x":-313,"y":885,"width":282,"height":50},
-		{"id":"54089cc47834cc5a","type":"text","text":"ECE 444 Power Electronics","x":-172,"y":958,"width":323,"height":50,"color":"3"},
+		{"id":"54089cc47834cc5a","type":"text","text":"ECE 444 Power Electronics","x":-172,"y":958,"width":323,"height":50},
 		{"id":"22d659397fbcfed2","type":"text","text":"ECE 429 Bioinstrumentation","x":-668,"y":743,"width":282,"height":50},
 		{"id":"707be3fe58367aac","type":"text","text":"ECE 341 Electromechanical Energy Conversion","x":5604,"y":35,"width":282,"height":80,"color":"4"},
 		{"id":"bfb3e88d815928ab","type":"text","text":"ECE 445 Power Distribution System","x":5266,"y":220,"width":338,"height":50},
@@ -206,7 +204,7 @@
 			"height":60
 		},
 		{"id":"380ee5b63033ac67","type":"text","text":"ECE 428 Analog Filter Design","x":428,"y":1035,"width":282,"height":50},
-		{"id":"9bc9c5493790d503","type":"text","text":"ECE 484 Digital VLSI Design","x":101,"y":1035,"width":300,"height":50},
+		{"id":"9bc9c5493790d503","type":"text","text":"ECE 484 Digital VLSI Design","x":101,"y":1035,"width":300,"height":50,"color":"3"},
 		{"id":"269b957a89ee4f2d","type":"text","text":"ECE 482 Microprocessor System","x":4047,"y":1320,"width":323,"height":60,"color":"3"},
 		{"id":"69d3a45b25c3967f","type":"text","text":"ECE 381 Microcontrollers","x":3122,"y":1320,"width":300,"height":60},
 		{"id":"c4baeb4ab0aa104c","type":"text","text":"ECE 477 Network Engineering","x":3580,"y":1320,"width":323,"height":60},
@@ -296,7 +294,9 @@
 			"y":435,
 			"width":960,
 			"height":2385
-		}
+		},
+		{"id":"23a525c5efe65234","type":"text","text":"ECE 476 Electronic Circuits II","x":-382,"y":880,"width":322,"height":50,"color":"3"},
+		{"id":"94b2b2d14dd67d1a","type":"text","text":"ECE 426 High Freq Design","x":-532,"y":820,"width":282,"height":50}
 	],
 	"edges":[
 		{"id":"0d0f51982b05430b","fromNode":"5299ac0e4cda9607","fromSide":"bottom","toNode":"0e7a7c7a080d142c","toSide":"top"},
