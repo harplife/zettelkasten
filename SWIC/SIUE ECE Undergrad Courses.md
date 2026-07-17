@@ -1,0 +1,49 @@
+# SIUE ECE Undergrad Courses
+
+| Course  | Title                                                       | Credit Hours | Term Frequency       | Prerequisites                                                                                      |
+| ------- | ----------------------------------------------------------- | :----------: | -------------------- | -------------------------------------------------------------------------------------------------- |
+| ECE 145 | Introduction to Computer Programming                        |      3       | Infrequently         | MATH 120 (C) **or** MATH 120E (C)                                                                  |
+| ECE 198 | Electrical and Computer Engineering Work Experience I       |      0       | Summer, Spring, Fall | None listed                                                                                        |
+| ECE 199 | Electrical and Computer Engineering Cooperative Education I |      0       | Summer, Spring, Fall | None listed                                                                                        |
+| ECE 210 | Circuit Analysis I                                          |     0–3      | Summer, Spring, Fall | MATH 150 (C)                                                                                       |
+| ECE 211 | Circuit Analysis II                                         |     0–4      | Summer, Spring, Fall | ECE 210 (C) **and** MATH 250 (C)                                                                   |
+| ECE 282 | Digital Systems Design                                      |     0–4      | Summer, Spring, Fall | CS 140 (C) **or** CS 145 (C)                                                                       |
+| ECE 298 | Electrical and Computer Engineering Work Experience II      |      0       | Summer, Spring, Fall | None listed                                                                                        |
+| ECE 299 | ECE Cooperative Education II                                |      0       | Summer, Spring, Fall | None listed                                                                                        |
+| ECE 326 | Electronic Circuits I                                       |     0–4      | Spring, Fall         | ECE 211 (C) **and** MATH 305 (C)                                                                   |
+| ECE 340 | Electromagnetics                                            |     0–3      | Spring, Fall         | PHYS 142 (C) **or** PHYS 152 (C), **and** PHYS 152L (C), **and** ECE 211 (C), **and** MATH 305 (C) |
+| ECE 341 | Principles of Electromechanical Energy Conversion           |     0–4      | Spring, Fall         | ECE 340 (C)                                                                                        |
+| ECE 351 | Signals and Systems                                         |      3       | Summer, Spring, Fall | ECE 211 (C) **and** MATH 305 (C)                                                                   |
+| ECE 352 | Probability and Statistics                                  |      3       | Spring, Fall         | ECE 351 (C, concurrency allowed)                                                                   |
+| ECE 365 | Control Systems                                             |      3       | Spring, Fall         | ECE 351 (C, concurrency allowed)                                                                   |
+| ECE 375 | Introduction to Communications                              |      3       | Summer, Spring, Fall | ECE 351 (C) **and** ECE 352 (C)                                                                    |
+| ECE 381 | Microcontrollers                                            |      3       | Spring, Fall         | ECE 282 (C)                                                                                        |
+| ECE 398 | Electrical and Computer Engineering Work Experience III     |      0       | Summer, Spring, Fall | None listed                                                                                        |
+| ECE 399 | ECE Cooperative Education III                               |      0       | Summer, Spring, Fall | None listed                                                                                        |
+| ECE 404 | Electrical and Computer Engineering Design                  |      3       | Spring, Fall         | ECE 282 (C), ECE 351 (C), **and one of:** ECE 365, ECE 375, or ECE 381 (all C)                     |
+| ECE 405 | Electrical and Computer Engineering Design Laboratory       |      3       | Spring, Fall         | ECE 404 (C)                                                                                        |
+| ECE 426 | High Frequency Design                                       |      3       | Fall                 | ECE 326 (C)                                                                                        |
+| ECE 427 | Knowledge-Based Systems                                     |      3       | Summer               | CS 140 (C) **or** CS 145 (C)                                                                       |
+| ECE 428 | Analog Filter Design                                        |      3       | Fall                 | ECE 351 (C) **and** ECE 326 (C)                                                                    |
+| ECE 429 | Bioinstrumentation                                          |      3       | Occasionally         | ECE 327 (C) **or** admission to Graduate Engineering Program                                       |
+| ECE 436 | Digital Signal Processing                                   |      3       | Spring, Fall         | ECE 351 (C, concurrency allowed)                                                                   |
+| ECE 437 | Medical Imaging Systems                                     |      3       | Occasionally         | ECE 351 (C, concurrency allowed)                                                                   |
+| ECE 438 | Image Analysis and Computer Vision                          |      3       | Fall                 | ECE 351 **or** ME 356 **or** instructor consent                                                    |
+| ECE 439 | Digital Image Processing                                    |      3       | Spring               | ECE 351 (C, concurrency allowed)                                                                   |
+| ECE 444 | Power Electronics                                           |      3       | Spring               | ECE 326 (C) **or** admission to Graduate Engineering Program                                       |
+| ECE 445 | Power Distribution System                                   |      3       | Spring               | ECE 341 (C)                                                                                        |
+| ECE 446 | Power System Analysis                                       |      3       | Summer               | ECE 341 (C)                                                                                        |
+| ECE 447 | Radar Systems                                               |      3       | Spring               | ECE 340 (C) **and** ECE 351 (C)                                                                    |
+| ECE 455 | System Modeling & Optimization                              |      3       | Occasionally         | ECE 351 (C, concurrency allowed)                                                                   |
+| ECE 465 | Control Systems Design                                      |      3       | Fall                 | ECE 365 (C)                                                                                        |
+| ECE 466 | Digital Control                                             |      3       | Occasionally         | ME 450 (C) **or** ECE 365 (C)                                                                      |
+| ECE 467 | Robotics – Dynamics and Control                             |      3       | Fall                 | Instructor consent                                                                                 |
+| ECE 476 | Electronic Circuits II                                      |      3       | Spring               | ECE 326 (C)                                                                                        |
+| ECE 477 | Network Engineering                                         |      3       | Spring, Fall         | ECE 282 (C)                                                                                        |
+| ECE 482 | Microprocessor System                                       |     0–3      | Fall                 | ECE 282 (C)                                                                                        |
+| ECE 483 | Advanced Digital Systems Engineering                        |     0–3      | Summer, Spring       | ECE 282 (C)                                                                                        |
+| ECE 484 | Digital VLSI Design                                         |      3       | Fall                 | ECE 326 (C)                                                                                        |
+| ECE 491 | Independent Study                                           |     1–4      | Summer, Spring, Fall | Instructor consent                                                                                 |
+| ECE 492 | Topics in Electrical and Computer Engineering               |     2–6      | Summer, Spring, Fall | Instructor consent                                                                                 |
+
+[[SIUE ECE Undergrad Courses 2026.pdf]]

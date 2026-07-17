@@ -2242,39 +2242,38 @@
             "type": "tabs",
             "children": [
               {
-                "id": "325932b6ab39f473",
+                "id": "bb40ac88e65d1032",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "SWIC/SWIC_SIUE_Plan.md",
+                    "file": "SWIC/UIUC_MS_ECE.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": false
                   },
                   "icon": "lucide-file",
-                  "title": "SWIC_SIUE_Plan"
+                  "title": "UIUC_MS_ECE"
                 }
               },
               {
-                "id": "9480292afc8cc1a9",
+                "id": "fd83e2e34f72d854",
                 "type": "leaf",
                 "state": {
                   "type": "canvas",
                   "state": {
                     "file": "SWIC/SIUE EE Courses Dependency Map.canvas",
                     "viewState": {
-                      "x": 1338.0085233176364,
-                      "y": -267.3013649276723,
-                      "zoom": -0.8000000000000002
+                      "x": 1991.5,
+                      "y": 510,
+                      "zoom": -3.1844535507467517
                     }
                   },
                   "icon": "lucide-layout-dashboard",
                   "title": "SIUE EE Courses Dependency Map"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "vertical"
@@ -2352,13 +2351,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "SWIC/SIUE EE Courses Dependency Map.canvas",
+                    "file": "SWIC/UIUC_MS_ECE.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of SIUE EE Courses Dependency Map"
+                  "title": "Outline of UIUC_MS_ECE"
                 }
               }
             ]
@@ -2382,8 +2381,8 @@
                 "state": {
                   "type": "advanced-tables-toolbar",
                   "state": {},
-                  "icon": "lucide-file",
-                  "title": "Plugin no longer active"
+                  "icon": "spreadsheet",
+                  "title": "Advanced Tables"
                 }
               },
               {
@@ -2456,9 +2455,18 @@
                   "icon": "sigma",
                   "title": "Mathpad"
                 }
+              },
+              {
+                "id": "5c414e937df88b75",
+                "type": "leaf",
+                "state": {
+                  "type": "git-view",
+                  "state": {},
+                  "icon": "git-pull-request",
+                  "title": "Source Control"
+                }
               }
-            ],
-            "currentTab": 1
+            ]
           },
           {
             "id": "baddb2b819dd740a",
@@ -2480,7 +2488,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "SWIC/SIUE EE Courses Dependency Map.canvas",
+                    "file": "SWIC/UIUC_MS_ECE.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -2490,7 +2498,7 @@
                     "unlinkedCollapsed": false
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for SIUE EE Courses Dependency Map"
+                  "title": "Backlinks for UIUC_MS_ECE"
                 }
               }
             ],
@@ -2517,8 +2525,8 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "9480292afc8cc1a9",
-      "mtime": "2026-07-05T10:26:12-05:00",
+      "active": "bb40ac88e65d1032",
+      "mtime": "2026-07-10T09:23:33-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "anthropology",

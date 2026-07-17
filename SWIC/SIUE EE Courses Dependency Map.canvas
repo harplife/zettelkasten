@@ -18,7 +18,7 @@
 		{"id":"2f16f23ae31df512","type":"text","text":"PHYS 141/151 Physics I","x":2290,"y":-1425,"width":300,"height":50,"color":"5"},
 		{"id":"1b9490903b50e97b","type":"text","text":"ECE 282 Digital Systems Design","x":1747,"y":-745,"width":300,"height":50,"color":"4"},
 		{"id":"a4c7436966adcb85","type":"text","text":"CS 140/145 Intro to Computing I","x":793,"y":-1660,"width":339,"height":50,"color":"5"},
-		{"id":"5c04cfba1140f163","type":"text","text":"CS 150 Intro to Computing II","x":793,"y":-1575,"width":339,"height":50},
+		{"id":"5c04cfba1140f163","type":"text","text":"CS 150 Intro to Computing II","x":793,"y":-1575,"width":339,"height":50,"color":"5"},
 		{"id":"47190735170d4846","type":"text","text":"CS 286 Intro to Computer Organization","x":773,"y":-1460,"width":380,"height":50},
 		{
 			"id":"55b47d9179d48ee5",
@@ -47,8 +47,6 @@
 		{"id":"cece343bf12d81f4","type":"text","text":"ECE 375 Intro to Comm","x":1198,"y":526,"width":282,"height":60,"color":"4"},
 		{"id":"9c2cfeac0bca9991","type":"text","text":"ECE 447 Radar Systems","x":2799,"y":526,"width":323,"height":60},
 		{"id":"4b55156feb0958ec","type":"text","text":"ECE 352 Probability and Statistics","x":1480,"y":320,"width":322,"height":60,"color":"4"},
-		{"id":"2dc3831c1b807366","type":"text","text":"ECE 466 Digital Control","x":1947,"y":770,"width":322,"height":50},
-		{"id":"54089cc47834cc5a","type":"text","text":"ECE 444 Power Electronics","x":-172,"y":958,"width":323,"height":50},
 		{"id":"22d659397fbcfed2","type":"text","text":"ECE 429 Bioinstrumentation","x":-668,"y":743,"width":282,"height":50},
 		{"id":"707be3fe58367aac","type":"text","text":"ECE 341 Electromechanical Energy Conversion","x":5604,"y":35,"width":282,"height":80,"color":"4"},
 		{"id":"bfb3e88d815928ab","type":"text","text":"ECE 445 Power Distribution System","x":5266,"y":220,"width":338,"height":50},
@@ -204,7 +202,7 @@
 			"height":60
 		},
 		{"id":"380ee5b63033ac67","type":"text","text":"ECE 428 Analog Filter Design","x":428,"y":1035,"width":282,"height":50},
-		{"id":"9bc9c5493790d503","type":"text","text":"ECE 484 Digital VLSI Design","x":101,"y":1035,"width":300,"height":50,"color":"3"},
+		{"id":"9bc9c5493790d503","type":"text","text":"ECE 484 Digital VLSI Design","x":101,"y":1035,"width":300,"height":50,"color":"2"},
 		{"id":"269b957a89ee4f2d","type":"text","text":"ECE 482 Microprocessor System","x":4047,"y":1320,"width":323,"height":60,"color":"3"},
 		{"id":"69d3a45b25c3967f","type":"text","text":"ECE 381 Microcontrollers","x":3122,"y":1320,"width":300,"height":60},
 		{"id":"c4baeb4ab0aa104c","type":"text","text":"ECE 477 Network Engineering","x":3580,"y":1320,"width":323,"height":60},
@@ -279,24 +277,36 @@
 		{"id":"4017cf9564e112cc","type":"text","text":"PHYS 201 Physics III","x":2290,"y":-1140,"width":300,"height":50},
 		{"id":"1c8df33b1ea5326d","type":"text","text":"ME 354 Numerical Simulation","x":1939,"y":-1740,"width":300,"height":50},
 		{"id":"2e5d2555b634c2a9","type":"text","text":"ME 356 Dynamical Systems Modeling","x":2326,"y":-1745,"width":384,"height":60},
-		{"id":"2ac4c3e103cf01f3","type":"text","text":"ME 262 Dynamics","x":2368,"y":-1890,"width":300,"height":50},
-		{"id":"6271c8a861dfb203","type":"text","text":"CE 242 Mechanics of Solids","x":2780,"y":-1890,"width":300,"height":50},
-		{"id":"fa530fe1c3038cfb","type":"text","text":"CE 240 Statics","x":2368,"y":-2040,"width":300,"height":50},
+		{"id":"2ac4c3e103cf01f3","type":"text","text":"ME 262 Dynamics","x":2368,"y":-1890,"width":300,"height":50,"color":"5"},
+		{"id":"6271c8a861dfb203","type":"text","text":"CE 242 Mechanics of Solids","x":2780,"y":-1890,"width":300,"height":50,"color":"5"},
+		{"id":"fa530fe1c3038cfb","type":"text","text":"CE 240 Statics","x":2368,"y":-2040,"width":300,"height":50,"color":"5"},
 		{"id":"c307f46f02f38abc","type":"text","text":"ME 458 Mechatronics","x":2738,"y":-1610,"width":384,"height":60,"color":"6"},
 		{"id":"6fbaa15689ca3839","type":"text","text":"MATH 464 Partial Differential Equations","x":-440,"y":-32,"width":380,"height":50},
 		{"id":"dbff3084fc2f7c6b","type":"text","text":"MATH 355 Engineering Mathematics","x":73,"y":-32,"width":355,"height":50,"color":"4"},
 		{
 			"id":"f729d8e72451ab0a",
 			"type":"text",
-			"text":"# SIUE Plan\n\n## Plan (2026-07-04)\n\nBy the time I transfer to SIUE, I will have finished up to:\n- Differential Equations\n- Physics 3\n- Statics, Dynamics, and Mechanics of Solids\n- Macroeconomics\n- Computer Programming for Engineers\n\nI'm hoping to test out of CS 150 Intro to Computing II, so that I can fill the prerequisite for CS482 Computer Graphics. The main problem in this case, is that I need to take CS 286 Intro to Computer Organization and I can only take one non-ECE course elective. I would have to pay this one out of pocket, if Financial Aid doesn't cover it. Hopefully by then, I might be able to figure something out with scholarship.\n\n### Fall 2027\nThese courses are confirmed to be able during Fall semester (2026):\n- ECE 211 Circuit Analysis II (SuSpF - 4)\n- ECE 282 Digital Systems Design (SuSpF - 4)\n- MATH 355 Engineering Mathematics (F - 5)\n- MATH 462 Applied Numerical Analysis (SpF - 3)\n\n### Spring 2028\n- ECE 326 Electronic Circuits I (SpF - 4)\n- ECE 340 Electromagnetics (SpF - 3)\n- ECE 351 Signals and Systems (SuSpF - 3)\n- ECE 352 Probability and Statistics (SpF - 3)\n- ECE 365 Control Systems (SpF - 3)\n\n### Summer 2028\n- IE 106 Engineering Problem Solving (SuSpF - 3)\n- ECE 198/199 Work Experience/Co-Op I (SuSpF - 0)\n\n### Fall 2028\n- ECE 341 Electromechanical Energy Conversion (SpF - 4)\n- ECE 375 Intro to Comm (SuSpF - 3)\n- ECE 404 ECE Design (SpF - 3)\n- ECE 438 Computer Vision I (F - 3)\n- ECE 436 Digital Signal Processing (SpF - 3)\n\n### Spring 2028\n- ECE 447 Radar Systems (Sp - 3)\n- ECE 405 ECE Design Lab (SpF - 3)\n- ECE 439 Digital Image Processing I (Sp - 3)\n- ECE 298/299 Work Experience/Co-Op II (SuSpF - 0)\n\n### Summer 2028\n- IE 345 Engineering Economic Analysis (SuSpF - 3)\n- ECE 398/399 Work Experience/Co-Op III (SuSpF - 0)\n\n### Options\n> [!warning] Consider taking non-specialized courses.\n> Instead of courses like Computer Vision/image processing, I might be better off with classes like Electronic Circuits II, Analog Filter Design, and System Modeling & Optimization.\n\n- CS 482 Computer Graphics (3)\n- PHYS 251 Waves (Sp - 4)\n- PHYS 410 Optics (3)\n\n",
+			"text":"# SIUE Plan\n\n## Plan (2026-07-04)\n\nBy the time I transfer to SIUE, I will have finished up to:\n- Differential Equations\n- Physics 3\n- Statics, Dynamics, and Mechanics of Solids\n- Macroeconomics\n- Computer Programming for Engineers\n\nI'm hoping to test out of CS 150 Intro to Computing II, so that I can fill the prerequisite for CS482 Computer Graphics. The main problem in this case, is that I need to take CS 286 Intro to Computer Organization and I can only take one non-ECE course elective. I would have to pay this one out of pocket, if Financial Aid doesn't cover it. Hopefully by then, I might be able to figure something out with scholarship.\n\n### Fall 2027\n- ECE 211 Circuit Analysis II (SuSpF - 4)\n- ECE 282 Digital Systems Design (SuSpF - 4)\n- MATH 355 Engineering Mathematics (F - 5)\n- MATH 462 Applied Numerical Analysis (SpF - 3) (**Elective**)\n\n### Spring 2028\n- ECE 326 Electronic Circuits I (SpF - 4)\n- ECE 340 Electromagnetics (SpF - 3)\n- ECE 351 Signals and Systems (SuSpF - 3)\n- ECE 352 Probability and Statistics (SpF - 3)\n- ECE 365 Control Systems (SpF - 3)\n\n### Summer 2028\n- IE 106 Engineering Problem Solving (SuSpF - 3)\n- ECE 198/199 Work Experience/Co-Op I (SuSpF - 0)\n\n### Fall 2028\n- ECE 341 Electromechanical Energy Conversion (SpF - 4)\n- ECE 375 Intro to Comm (SuSpF - 3)\n- ECE 404 ECE Design (SpF - 3)\n- ECE 484 Digital VLSI Design (F - 3) (**Elective**)\n- ECE 482 Microprocessor System (F - 3) (**Elective**)\n\n### Spring 2028\n- ECE 476 Electronic Circuits II (Sp - 3) (Elective)\n- ECE 405 ECE Design Lab (SpF - 3)\n- ECE 436 Digital Signal Processing (SpF - 3) (**Elective**)\n- ECE 298/299 Work Experience/Co-Op II (SuSpF - 0)\n\n### Summer 2028\n- IE 345 Engineering Economic Analysis (SuSpF - 3)\n- ECE 398/399 Work Experience/Co-Op III (SuSpF - 0)\n\n### Options\n- CS 482 Computer Graphics (3)\n- PHYS 251 Waves (Sp - 4)\n- PHYS 410 Optics (3)\n\n|Rank|Course|Why it complements your EE plan|\n|---|---|---|\n|**1**|**Advanced/Numerical Methods (Math)**|Adds computational tools used across all EE specialties.|\n|**2**|**Advanced Linear Algebra (Math)**|Deepens the mathematical foundation behind DSP, controls, communications, and machine learning.|\n|**3**|**ME 356 – Dynamical Systems Modeling**|Broadens your understanding of system modeling beyond electrical systems.|\n|**4**|**ME 426 – Systems Engineering**|Develops skills in designing and managing complex multidisciplinary systems.|\n|**5**|**ME 458 – Mechatronics** _(if prerequisites can be satisfied or waived)_|Integrates sensors, actuators, controls, and embedded systems into real-world engineering applications.|",
 			"styleAttributes":{},
 			"x":-1760,
 			"y":435,
 			"width":960,
-			"height":2385
+			"height":2625
 		},
 		{"id":"23a525c5efe65234","type":"text","text":"ECE 476 Electronic Circuits II","x":-382,"y":880,"width":322,"height":50,"color":"3"},
-		{"id":"94b2b2d14dd67d1a","type":"text","text":"ECE 426 High Freq Design","x":-532,"y":820,"width":282,"height":50}
+		{"id":"94b2b2d14dd67d1a","type":"text","text":"ECE 426 High Freq Design","x":-532,"y":820,"width":282,"height":50},
+		{"id":"54089cc47834cc5a","type":"text","text":"ECE 444 Power Electronics\n- Take this course somehow, if possible.","x":-250,"y":1035,"width":323,"height":182,"color":"1"},
+		{
+			"id":"92a7d8d8a103796d",
+			"type":"text",
+			"text":"# Work & Research Experience\n\n## Co-Op Plans\n- **Co-op I:** Embedded systems or electronics test/development.\n- **Co-op II:** Digital hardware, FPGA, or semiconductor-related work.\n- **Co-op III:** Controls, communications, power, or another area that interests you.\n\n### Regional Employers\n- Boeing\n- Emerson\n- **Ameren**\n\t- [[Electrical Engineering Fall Co-Op Ameren.pdf]]\n- Spire\n- Scott Air Force Base (civilian engineering and contractor opportunities)\n- General Motors\n- Anheuser-Busch (industrial controls and automation)\n- World Wide Technology\n\n## Research\n\n### URCA\n\nSIUE has a program called Undergraduate Research and Creative Activities (URCA).\n- Basically, you join a faculty member's existing research project.",
+			"styleAttributes":{},
+			"x":-2740,
+			"y":1180,
+			"width":920,
+			"height":1300
+		},
+		{"id":"2dc3831c1b807366","type":"text","text":"ECE 466 Digital Control","x":2799,"y":905,"width":322,"height":50}
 	],
 	"edges":[
 		{"id":"0d0f51982b05430b","fromNode":"5299ac0e4cda9607","fromSide":"bottom","toNode":"0e7a7c7a080d142c","toSide":"top"},
