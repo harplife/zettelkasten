@@ -68,4 +68,37 @@ and $f(x)>0$, $f \in C$, and $f' < 0$ for all sufficiently large $x$.
 > 
 > Easy way to think about it is that a statement such as $x^2 > x$ is true only if $x$ is larger than $1$ (for positive real numbers).
 
+After summing the first $n$ terms :
+$$
+S_{n} = \sum_{k=1}^n a_{k}
+$$
+
+The remainder is :
+$$
+R_{n} = S - S_{n}
+$$
+
+Where $S$ is the exact infinite sum.
+
+The remainder always satisfies :
+$$
+\boxed{
+  \int_{n+1}^{\infty} f(x)\,dx \leq R_{n} \leq \int_{n}^{\infty} f(x)\,dx
+}
+$$
+
+Lower Bound :
+$$
+L(n) = \int_{n+1}^{\infty} f(x)\,dx
+$$
+
+Upper Bound :
+$$
+U(n) = \int_{n}^{\infty} f(x)\,dx
+$$
+
+The Remainder $R_{n}$ can then be estimated by evaluating the integrals of the Lower and Upper bounds.
+
+
+#### Example
 
