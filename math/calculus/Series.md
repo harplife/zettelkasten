@@ -106,7 +106,8 @@ $$
   R_{n} =&(a_{1} + a_{2} + \dots a_{n} + a_{n+1}+ a_{n+2} + \dots) \\
 &-(a_{1} + a_{2} + \dots + a_{n}) \\
 =&a_{n+1} + a_{n+2} + a_{n+3} + \dots \\
-=&f(n+1) + f(n+2) + f(n+3) + \dots
+=&f(n+1) + f(n+2) + f(n+3) + \dots \\
+=& \int_{n}^{n+1} f(x)\,dx
 \end{align}
 $$
 Think of each term as the area of a rectangle with $\text{width} = 1$ and $\text{height} = f(k)$.
