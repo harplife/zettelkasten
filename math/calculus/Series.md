@@ -50,3 +50,22 @@
 
 ## Integral Test Remainder Estimate
 
+### Bounds for the Remainder
+
+Suppose there exists a convergent series
+$$
+\sum_{k=1}^{\infty} a_{k}
+$$
+where
+$$
+a_{k} = f(x)
+$$
+
+and $f(x)>0$, $f \in C$, and $f' < 0$ for all sufficiently large $x$.
+
+> [!important] "For all sufficiently large $x$"
+> It means that a mathematical statement becomes true once $x$ crosses a certain threshold and stays true for all values of $x$ greater than that. It is used in limits and asymptotic analysis to describe the behavior of a function as $x$ approaches $\infty$.
+> 
+> Easy way to think about it is that a statement such as $x^2 > x$ is true only if $x$ is larger than $1$ (for positive real numbers).
+
+
