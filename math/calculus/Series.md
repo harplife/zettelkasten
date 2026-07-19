@@ -50,7 +50,7 @@
 
 ## Integral Test Remainder Estimate
 
-### Bounds for the Remainder
+### Bounds of the Remainder
 
 Suppose there exists a convergent series
 $$
@@ -120,4 +120,78 @@ $$
 $$
 
 #### Example
+
+Given :
+$$
+\sum \frac{7}{4k^5}
+$$
+
+We see that the function is positive, continuous, and decreasing for all positive integers.
+
+The upper bound is :
+$$
+\int_{n}^{\infty} \frac{7}{4x^5}\,dx = \frac{7}{16n^4}
+$$
+
+The lower bound is :
+$$
+\int_{n+1}^{\infty} \frac{7}{4x^5}\,dx = \frac{7}{16(n+1)^4}
+$$
+
+Therefore :
+$$
+\frac{7}{16(n+1)^4} \leq R_{n} \leq \frac{7}{16n^4}
+$$
+
+
+### Estimate of the Infinite Sum
+
+> [!important] Once the lower and upper bounds for the remainder is found, the bounds can be used to estimate the infinite sum.
+
+Given that :
+$$
+\begin{align}
+  &S = S_{n} + R_{n} \\
+  &L(n) \leq R_{n} \leq U(n)
+\end{align}
+$$
+We can deduce that :
+$$
+S_{n} + L(n) \leq S \leq S_{n} + U(n)
+$$
+
+Thus, the infinite sum must lie inside :
+$$
+S_{n} + \int_{n+1}^{\infty} f(x)\,dx \leq S \leq S_{n} + \int_{n}^{\infty} f(x)\,dx
+$$
+
+#### Example
+
+Given :
+$$
+\sum \frac{7}{4k^5}
+$$
+
+Suppose that we want to approximate the value of the infinite sum at 10th term. First, compute the partial sum :
+$$
+S_{10} = 1.814587847
+$$
+
+In the previous example, we found the lower and upper bounds for the remainder :
+$$
+\frac{7}{16(n+1)^4} \leq R_{n} \leq \frac{7}{16n^4}
+$$
+
+Evaluate the bounds at 10th term :
+$$
+\frac{7}{16(11)^4} \leq R_{10} \leq \frac{7}{16(10)^4}
+$$
+
+Therefore :
+$$
+\begin{align}
+  1.814587847 + 0.000029882 \leq &S \leq 1.814587847+ 0.000043750 \\
+  \to 1.814617729 \leq &S \leq 1.814631597
+\end{align}
+$$
 
