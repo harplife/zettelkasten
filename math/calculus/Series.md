@@ -99,6 +99,21 @@ $$
 
 The Remainder $R_{n}$ can then be estimated by evaluating the integrals of the Lower and Upper bounds.
 
+---
+Note that $R_{n}$ can be viewed in terms of Riemann Sums. Assume $a_{k}=f(k)$:
+$$
+\begin{align}
+  R_{n} =&(a_{1} + a_{2} + \dots a_{n} + a_{n+1}+ a_{n+2} + \dots) \\
+&-(a_{1} + a_{2} + \dots + a_{n}) \\
+=&a_{n+1} + a_{n+2} + a_{n+3} + \dots \\
+=&f(n+1) + f(n+2) + f(n+3) + \dots
+\end{align}
+$$
+Think of each term as the area of a rectangle with $\text{width} = 1$ and $\text{height} = f(k)$.
+
+> [!important] The Lower and Upper bound inequalities are derived from Riemann Sums.
+> Because the graph is positive and decreasing, Left-Hand Riemann Sum is always larger than the actual area under the graph. Thus, Left-Hand Riemann Sum becomes the upper bound. Like so, Right-Hand Riemann Sum is always smaller and thus it becomes the lower bound.
+
 
 #### Example
 
