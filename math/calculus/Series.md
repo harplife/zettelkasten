@@ -115,6 +115,9 @@ Think of each term as the area of a rectangle with $\text{width} = 1$ and $\text
 > [!important] The Lower and Upper bound inequalities are derived from Riemann Sums.
 > Because the graph is positive and decreasing, Left-Hand Riemann Sum is always larger than the actual area under the graph. Thus, Left-Hand Riemann Sum becomes the upper bound. Like so, Right-Hand Riemann Sum is always smaller and thus it becomes the lower bound.
 
+$$
+\int_{n+1}^{\infty} f(x)\,dx \leq \int_{n}^{n+1} f(x)\,dx \leq \int_{n}^{\infty} f(x)\,dx
+$$
 
 #### Example
 
