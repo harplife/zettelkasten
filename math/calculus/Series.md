@@ -210,7 +210,21 @@ $$
 $$
 
 
-## Alternating Series Sum Estimation
+## Alternating Series  Remainder Theorem
+
+Suppose
+$$
+\sum_{k=1}^{\infty}(-1)^{k+1}a_{k}
+$$
+or
+$$
+\sum_{k=1}^{\infty}(-1)^k a_{k}
+$$
+is an alternating series, where
+- $a_{k}>0$
+
+
+
 
 Given $b_{n}$ is the non-alternating part of the series; if an alternating series passes the AST and converges to a total sum $S$, the absolute error of using the $n$-th partial sum $S_{n}$ is always less than or equal to the very next term $b_{n+1}$ :
 $$
