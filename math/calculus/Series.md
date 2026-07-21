@@ -262,6 +262,25 @@ $$
 > The exact total sum $S$ is always trapped between any two consecutive partial sums $S_{n}$ and $S_{n+1}$. The distance from the current guess $S_{n}$ to the actual target $S$ cannot be larger than the jump from $S_{n}$ to $S_{n+1}$. That jump is exactly $b_{n+1}$.
 
 
+### Find the Upper Bound for Error
+
+Given :
+$$
+\sum_{k=1}^{\infty}(-1)^{k+1} \frac{1}{k}
+$$
+
+Approximate the remainder using the first five terms.
+
+The sixth term is the first omitted term, which is :
+$$
+a_{n+1} = a_{6} = \frac{1}{6}
+$$
+
+Thus, the remainder is :
+$$
+\lvert R_{n} \rvert \leq \frac{1}{6}
+$$
+
 ### Finding the terms
 
 Finding the terms needed for precision up to $10^{-n}$
