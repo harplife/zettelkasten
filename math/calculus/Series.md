@@ -209,3 +209,19 @@ $$
 \end{align}
 $$
 
+
+## Alternating Series Sum Estimation
+
+Given $b_{n}$ is the non-alternating part of the series; if an alternating series passes the AST and converges to a total sum $S$, the absolute error of using the $n$-th partial sum $S_{n}$ is always less than or equal to the very next term $b_{n+1}$ :
+$$
+\text{Error} = \lvert S-S_{n} \rvert \leq b_{n+1}
+$$
+
+> [!important] This works because the terms alternate signs and decrease in size, each new term overcorrects the previous one.
+> The exact total sum $S$ is always trapped between any two consecutive partial sums $S_{n}$ and $S_{n+1}$. The distance from the current guess $S_{n}$ to the actual target $S$ cannot be larger than the jump from $S_{n}$ to $S_{n+1}$. That jump is exactly $b_{n+1}$.
+
+
+### Finding the terms
+
+Finding the terms needed for precision up to $10^{-n}$
+
