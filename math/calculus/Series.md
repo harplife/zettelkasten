@@ -222,9 +222,36 @@ $$
 $$
 is an alternating series, where
 - $a_{k}>0$
+- $a_{k+1} \leq a_{k}$ (the terms decrease)
+- $\displaystyle \lim_{ k \to \infty } a_{k} =0$
 
+Approximate the infinite sum by the first $n$ terms :
+$$
+S_{n} = a_{1} - a_{2} + a_{3} - \dots + (-1)^{n+1}a_{n}
+$$
 
+Then the remainder
+$$
+R_{n} = S - S_{n}
+$$
 
+satisfies
+$$
+\lvert R_{n} \rvert \leq a_{n+1}
+$$
+
+This is the **Alternating Series Remainder Theorem**.
+
+Unlike the Integral Test, there is only one bound :
+$$
+\lvert \text{Error} \rvert = \text{first ommitted term}
+$$
+So the largest possible error is simply the magnitude of the next term.
+
+> [!question] first omitted term?
+
+---
+Another explanation:
 
 Given $b_{n}$ is the non-alternating part of the series; if an alternating series passes the AST and converges to a total sum $S$, the absolute error of using the $n$-th partial sum $S_{n}$ is always less than or equal to the very next term $b_{n+1}$ :
 $$
