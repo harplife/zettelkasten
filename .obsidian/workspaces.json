@@ -1518,7 +1518,7 @@
         }
       },
       "active": "f02fc1ed6ec896f0",
-      "mtime": "2026-07-20T12:27:57-05:00",
+      "mtime": "2026-07-25T10:46:11-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "math",
@@ -2296,16 +2296,17 @@
                   "state": {
                     "file": "SWIC/SIUE EE Courses Dependency Map.canvas",
                     "viewState": {
-                      "x": 1991.5,
-                      "y": 510,
-                      "zoom": -3.1844535507467517
+                      "x": 1189.3625908928996,
+                      "y": 1157.4056918809138,
+                      "zoom": -1.1844535507467522
                     }
                   },
                   "icon": "lucide-layout-dashboard",
                   "title": "SIUE EE Courses Dependency Map"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -2521,7 +2522,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "SWIC/UIUC_MS_ECE.md",
+                    "file": "SWIC/SIUE EE Courses Dependency Map.canvas",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -2531,7 +2532,7 @@
                     "unlinkedCollapsed": false
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for UIUC_MS_ECE"
+                  "title": "Backlinks for SIUE EE Courses Dependency Map"
                 }
               }
             ],
@@ -2539,7 +2540,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 362.5
+        "width": 362.5,
+        "collapsed": true
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -2557,8 +2559,8 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "227e6011dc684b16",
-      "mtime": "2026-07-17T13:23:41-05:00",
+      "active": "fd83e2e34f72d854",
+      "mtime": "2026-07-25T11:00:12-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "anthropology",
@@ -2857,5 +2859,5 @@
       }
     }
   },
-  "active": "Math"
+  "active": "SWIC"
 }

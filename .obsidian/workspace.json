@@ -4,206 +4,43 @@
     "type": "split",
     "children": [
       {
-        "id": "48e407348db680e6",
+        "id": "2d775d3245f9509a",
         "type": "tabs",
         "children": [
           {
-            "id": "3643feedec790cda",
+            "id": "bb40ac88e65d1032",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atomic_Spectra.md",
+                "file": "SWIC/UIUC_MS_ECE.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Atomic_Spectra"
+              "title": "UIUC_MS_ECE"
             }
           },
           {
-            "id": "1656a9989a0550c3",
+            "id": "fd83e2e34f72d854",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "math/Essence_of_Trigonometry.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "SWIC/SIUE EE Courses Dependency Map.canvas",
+                "viewState": {
+                  "x": -1325.5792330144486,
+                  "y": 2151.9737894339155,
+                  "zoom": -0.38445355074675214
+                }
               },
-              "icon": "lucide-file",
-              "title": "Essence_of_Trigonometry"
-            }
-          },
-          {
-            "id": "9c4a7f579d54fcc6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "math/precalculus/Chapter 5/6_Modeling_Harmonic_motion.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "6_Modeling_Harmonic_motion"
-            }
-          },
-          {
-            "id": "94e124c029256205",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "math/precalculus/Chapter 6/1_Angle_Measure.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "1_Angle_Measure"
-            }
-          },
-          {
-            "id": "61f72ce80323c43a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "math/calculus/Chapter 2/1_The_Idea_of_Limits.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "1_The_Idea_of_Limits"
-            }
-          },
-          {
-            "id": "909287d299936c42",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "math/calculus/Chapter 2/6_Continuity.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "6_Continuity"
-            }
-          },
-          {
-            "id": "4c4962a1051d0678",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "math/Exponents_and_Logarithms.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Exponents_and_Logarithms"
-            }
-          },
-          {
-            "id": "33eb81d590fd6e44",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "math/Eulers_Number_e.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Eulers_Number_e"
-            }
-          },
-          {
-            "id": "99dd58939947fc5a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "math/Essence_of_Trigonometry.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Essence_of_Trigonometry"
-            }
-          },
-          {
-            "id": "6f3b17683bc259ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "math/Derivatives.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Derivatives"
-            }
-          },
-          {
-            "id": "fad7199b4ee33d45",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "math/calculus/Riemann_Sums.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Riemann_Sums"
-            }
-          },
-          {
-            "id": "f3843b246ef5bc24",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "math/calculus/Derivatives.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Derivatives"
-            }
-          },
-          {
-            "id": "f02fc1ed6ec896f0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "math/calculus/Series.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Series"
+              "icon": "lucide-layout-dashboard",
+              "title": "SIUE EE Courses Dependency Map"
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -217,7 +54,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "935f28b3df870977",
+            "id": "19ce5a4d65676126",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -236,9 +73,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "alphabetical",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
+                "useHierarchy": true
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -283,20 +118,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "math/calculus/Series.md",
+                "file": "SWIC/UIUC_MS_ECE.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Series"
+              "title": "Outline of UIUC_MS_ECE"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 296.5,
+    "width": 347.5,
     "collapsed": true
   },
   "right": {
@@ -333,7 +168,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "math/precalculus/Chapter 1/2_Exponents_and_Radicals.md",
+                "file": "study_LearnCpp_GettingStarted.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -361,7 +196,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of 2_Exponents_and_Radicals"
+              "title": "Graph of study_LearnCpp_GettingStarted"
             }
           },
           {
@@ -370,12 +205,32 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "math/precalculus/Chapter 1/2_Exponents_and_Radicals.md",
+                "file": "study_LearnCpp_GettingStarted.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2_Exponents_and_Radicals"
+              "title": "Outgoing links from study_LearnCpp_GettingStarted"
+            }
+          },
+          {
+            "id": "cc30698aa4dc8073",
+            "type": "leaf",
+            "state": {
+              "type": "mathpad-view",
+              "state": {},
+              "icon": "sigma",
+              "title": "Mathpad"
+            }
+          },
+          {
+            "id": "5c414e937df88b75",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -401,7 +256,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "math/calculus/Series.md",
+                "file": "SWIC/SIUE EE Courses Dependency Map.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -411,7 +266,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Series"
+              "title": "Backlinks for SIUE EE Courses Dependency Map"
             }
           }
         ],
@@ -419,7 +274,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 362.5
+    "width": 362.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -437,12 +293,12 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "227e6011dc684b16",
+  "active": "fd83e2e34f72d854",
   "lastOpenFiles": [
-    "math/calculus/Derivatives.md",
-    "math/calculus/Series.md",
-    "math/calculus/Riemann_Sums.md",
     "SWIC/UIUC_MS_ECE.md",
+    "math/calculus/Series.md",
+    "math/calculus/Derivatives.md",
+    "math/calculus/Riemann_Sums.md",
     "SWIC/SIUE EE Courses Dependency Map.canvas",
     "SWIC/SWIC_SIUE_Plan.md",
     "SWIC/SIUE ECE Undergrad Courses.md",
