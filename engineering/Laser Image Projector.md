@@ -67,6 +67,7 @@
 
 ## Subsystems
 
+```
 Laser Projector
 │
 ├── Power Electronics
@@ -82,6 +83,32 @@ Laser Projector
 ├── Mechanical Design
 ├── Thermal Management
 └── Safety System
+```
+
+
+```
+HDMI Input
+      │
+Video Processing
+      │
+Frame Memory
+      │
+Display Engine
+      │
+Light Source
+      │
+Optical Engine
+      │
+Projection Lens
+      │
+Power Electronics
+      │
+Cooling
+      │
+Software & Calibration
+```
+
+
 
 ### Laser Source
 - Red diode
@@ -616,6 +643,21 @@ Design a portable RGB laser projector capable of displaying computer-generated i
 - Produce an image at least one meter wide.
 	- Edit: 2K resolution over 30 inch diagonal?
 
+
+|Specification|Target|
+|---|---|
+|HDMI Input|720p or 1080p accepted|
+|Internal Resolution|128×128 to 320×240 rendered by the scanner|
+|Refresh Rate|30–60 fps|
+|RGB Lasers|Yes|
+|Beam Steering|Galvanometers or MEMS mirrors|
+|Custom FPGA|Yes|
+|Custom Laser Drivers|Yes|
+|Custom PCB|Yes|
+|Automatic Calibration|Optional|
+|Closed-loop Mirror Control|Yes|
+
+
 #### Optical
 - Project image onto a flat surface.
 - Maintain focus from 1–3 meters.
@@ -759,7 +801,3 @@ Typical technologies
 - LCoS
 - Laser-phosphor engines
 
-
-BenQ TK710STi
-
-DLA-RS3200
