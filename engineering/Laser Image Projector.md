@@ -21,6 +21,7 @@
 
 ![[Pasted image 20260731091949.png]]
 
+
 ## Related Engineering Topics
 
 |Area|Examples|
@@ -446,7 +447,6 @@ Learn
 - change control
 
 
-
 #### Optical Design Software
 Learn basic ray tracing with
 - OpticStudio (Zemax) if your university provides access
@@ -577,3 +577,105 @@ Topics
 |9|RGB projector|Color mixing|
 |10|Image projector|Full capstone|
 
+
+## Requirements Decomposition
+
+```
+Goal
+│
+├── System Requirements
+│   ├── Optical Requirements
+│   ├── Electrical Requirements
+│   ├── Mechanical Requirements
+│   ├── Software Requirements
+│   └── Safety Requirements
+│
+├── Subsystem Requirements
+│   ├── Laser Module
+│   ├── Scanner
+│   ├── Controller
+│   ├── Power Supply
+│   └── Cooling
+│
+└── Component Requirements
+```
+
+
+### Mission Statement
+
+Design a portable RGB laser projector capable of displaying computer-generated images onto a wall.
+
+
+### System Requirements
+- Display a full-color image.
+- Operate continuously for one hour
+	- Edit: maybe more like 6 hours?
+- Accept images from USB.
+	- Edit: maybe more like HDMI
+- Project onto a surface two meters away.
+- Produce an image at least one meter wide.
+	- Edit: 2K resolution over 30 inch diagonal?
+
+#### Optical
+- Project image onto a flat surface.
+- Maintain focus from 1–3 meters.
+- Keep beam divergence below a chosen limit.
+
+
+#### Electrical
+- Operate from a 24 V supply.
+- Limit laser current to the specified operating range.
+- Consume less than a target power budget.
+
+
+#### Mechanical
+- Fit inside a specified enclosure size.
+- Total weight below a target.
+- Include adjustable optical mounts.
+
+
+#### Software
+- Display PNG images.
+	- Edit: Display image from HDMI
+- Update images at a target frame rate.
+- Support brightness adjustment.
+
+
+#### Safety
+- Emergency stop button.
+- Laser interlock.
+- Automatic shutdown on over-temperature.
+
+
+### Subsystem Requirements
+
+```
+Laser Projector
+├── Power
+├── Controller
+├── Scanner
+├── Optics
+├── Cooling
+├── User Interface
+└── Safety
+```
+
+
+#### Controller
+
+Controller shall
+- receive image data
+- store image
+- generate scan pattern
+- synchronize mirrors
+- modulate lasers
+
+#### Laser Module
+
+Laser subsystem shall
+- generate red light
+- generate green light
+- generate blue light
+- modulate brightness
+- remain within operating temperature
+- include current protection
