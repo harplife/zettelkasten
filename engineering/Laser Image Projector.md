@@ -670,6 +670,7 @@ Controller shall
 - synchronize mirrors
 - modulate lasers
 
+
 #### Laser Module
 
 Laser subsystem shall
@@ -679,3 +680,4 @@ Laser subsystem shall
 - modulate brightness
 - remain within operating temperature
 - include current protection
+
