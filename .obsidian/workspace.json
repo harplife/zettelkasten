@@ -21,6 +21,23 @@
               "icon": "lucide-file",
               "title": "Laser Image Projector"
             }
+          },
+          {
+            "id": "63391903521e9e1a",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "SWIC/SIUE EE Courses Dependency Map.canvas",
+                "viewState": {
+                  "x": -1129.2385280235458,
+                  "y": 1977.7493318209267,
+                  "zoom": 0.015546449253247885
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "SIUE EE Courses Dependency Map"
+            }
           }
         ]
       }
@@ -113,7 +130,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 347.5
+    "width": 347.5,
+    "collapsed": true
   },
   "right": {
     "id": "f152d8fd8ec1f4e0",
@@ -276,10 +294,10 @@
   },
   "active": "fd83e2e34f72d854",
   "lastOpenFiles": [
-    "attachments/Pasted image 20260731091949.png",
-    "attachments/Laser Projector - System Diagram.png",
     "SWIC/SIUE EE Courses Dependency Map.canvas",
     "engineering/Laser Image Projector.md",
+    "attachments/Pasted image 20260731091949.png",
+    "attachments/Laser Projector - System Diagram.png",
     "engineering",
     "anthropology/ANTH_150_Cultural_Anthropology.md",
     "SWIC/UIUC_MS_ECE.md",
@@ -309,7 +327,6 @@
     "attachments/Sine_one_period.svg",
     "attachments/Sine_one_period.svg.opdownload",
     "attachments/Pasted image 20260329083806.png",
-    "attachments/Pasted image 20260329083236.png",
     "math/Eulers_Number_e.md",
     "math/calculus/Chapter 2/6_Continuity.md",
     "math/calculus/Chapter 2/1_The_Idea_of_Limits.md",

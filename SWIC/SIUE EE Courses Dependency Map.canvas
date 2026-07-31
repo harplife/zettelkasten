@@ -283,16 +283,6 @@
 		{"id":"c307f46f02f38abc","type":"text","text":"ME 458 Mechatronics","x":2738,"y":-1610,"width":384,"height":60,"color":"6"},
 		{"id":"6fbaa15689ca3839","type":"text","text":"MATH 464 Partial Differential Equations","x":-440,"y":-32,"width":380,"height":50},
 		{"id":"dbff3084fc2f7c6b","type":"text","text":"MATH 355 Engineering Mathematics","x":73,"y":-32,"width":355,"height":50,"color":"4"},
-		{
-			"id":"f729d8e72451ab0a",
-			"type":"text",
-			"text":"# SIUE Plan\n\n## Plan (2026-07-04)\n\nBy the time I transfer to SIUE, I will have finished up to:\n- Differential Equations\n- Physics 3\n- Statics, Dynamics, and Mechanics of Solids\n- Macroeconomics\n- Computer Programming for Engineers\n\nI'm hoping to test out of CS 150 Intro to Computing II, so that I can fill the prerequisite for CS482 Computer Graphics. The main problem in this case, is that I need to take CS 286 Intro to Computer Organization and I can only take one non-ECE course elective. I would have to pay this one out of pocket, if Financial Aid doesn't cover it. Hopefully by then, I might be able to figure something out with scholarship.\n\n### Fall 2027\n- ECE 211 Circuit Analysis II (SuSpF - 4)\n- ECE 282 Digital Systems Design (SuSpF - 4)\n- MATH 355 Engineering Mathematics (F - 5)\n- MATH 462 Applied Numerical Analysis (SpF - 3) (**Elective**)\n\n### Spring 2028\n- ECE 326 Electronic Circuits I (SpF - 4)\n- ECE 340 Electromagnetics (SpF - 3)\n- ECE 351 Signals and Systems (SuSpF - 3)\n- ECE 352 Probability and Statistics (SpF - 3)\n- ECE 365 Control Systems (SpF - 3)\n\n### Summer 2028\n- IE 106 Engineering Problem Solving (SuSpF - 3)\n- ECE 198/199 Work Experience/Co-Op I (SuSpF - 0)\n\n### Fall 2028\n- ECE 341 Electromechanical Energy Conversion (SpF - 4)\n- ECE 375 Intro to Comm (SuSpF - 3)\n- ECE 404 ECE Design (SpF - 3)\n- ECE 484 Digital VLSI Design (F - 3) (**Elective**)\n- ECE 482 Microprocessor System (F - 3) (**Elective**)\n\n### Spring 2028\n- ECE 476 Electronic Circuits II (Sp - 3) (**Elective**)\n- ECE 405 ECE Design Lab (SpF - 3)\n- ECE 436 Digital Signal Processing (SpF - 3) (**Elective**)\n- ECE 298/299 Work Experience/Co-Op II (SuSpF - 0)\n\n### Summer 2028\n- IE 345 Engineering Economic Analysis (SuSpF - 3)\n- ECE 398/399 Work Experience/Co-Op III (SuSpF - 0)\n\n### Options\n- CS 482 Computer Graphics (3)\n- PHYS 251 Waves (Sp - 4)\n- PHYS 410 Optics (3)\n\n|Rank|Course|Why it complements your EE plan|\n|---|---|---|\n|**1**|**Advanced/Numerical Methods (Math)**|Adds computational tools used across all EE specialties.|\n|**2**|**Advanced Linear Algebra (Math)**|Deepens the mathematical foundation behind DSP, controls, communications, and machine learning.|\n|**3**|**ME 356 – Dynamical Systems Modeling**|Broadens your understanding of system modeling beyond electrical systems.|\n|**4**|**ME 426 – Systems Engineering**|Develops skills in designing and managing complex multidisciplinary systems.|\n|**5**|**ME 458 – Mechatronics** _(if prerequisites can be satisfied or waived)_|Integrates sensors, actuators, controls, and embedded systems into real-world engineering applications.|",
-			"styleAttributes":{},
-			"x":-1760,
-			"y":435,
-			"width":960,
-			"height":2625
-		},
 		{"id":"23a525c5efe65234","type":"text","text":"ECE 476 Electronic Circuits II","x":-382,"y":880,"width":322,"height":50,"color":"3"},
 		{"id":"94b2b2d14dd67d1a","type":"text","text":"ECE 426 High Freq Design","x":-532,"y":820,"width":282,"height":50},
 		{"id":"54089cc47834cc5a","type":"text","text":"ECE 444 Power Electronics\n- Take this course somehow, if possible.","x":-250,"y":1035,"width":323,"height":182,"color":"1"},
@@ -306,7 +296,17 @@
 			"width":920,
 			"height":1300
 		},
-		{"id":"2dc3831c1b807366","type":"text","text":"ECE 466 Digital Control","x":2799,"y":905,"width":322,"height":50}
+		{"id":"2dc3831c1b807366","type":"text","text":"ECE 466 Digital Control","x":2799,"y":905,"width":322,"height":50},
+		{
+			"id":"f729d8e72451ab0a",
+			"type":"text",
+			"text":"# SIUE Plan\n\n## Plan (2026-07-04)\n\nBy the time I transfer to SIUE, I will have finished up to:\n- Differential Equations\n- Physics 3\n- Statics, Dynamics, and Mechanics of Solids\n- Macroeconomics\n- Computer Programming for Engineers\n\nI'm hoping to test out of CS 150 Intro to Computing II, so that I can fill the prerequisite for CS482 Computer Graphics. The main problem in this case, is that I need to take CS 286 Intro to Computer Organization and I can only take one non-ECE course elective. I would have to pay this one out of pocket, if Financial Aid doesn't cover it. Hopefully by then, I might be able to figure something out with scholarship.\n\n### Fall 2027\n- ECE 211 Circuit Analysis II (SuSpF - 4)\n- ECE 282 Digital Systems Design (SuSpF - 4)\n- MATH 355 Engineering Mathematics (F - 5)\n- MATH 462 Applied Numerical Analysis (SpF - 3) (**Elective**)\n\n### Spring 2028\n- ECE 326 Electronic Circuits I (SpF - 4)\n- ECE 340 Electromagnetics (SpF - 3)\n- ECE 351 Signals and Systems (SuSpF - 3)\n- ECE 352 Probability and Statistics (SpF - 3)\n- ECE 365 Control Systems (SpF - 3)\n\n### Summer 2028\n- IE 106 Engineering Problem Solving (SuSpF - 3)\n- ECE 198/199 Work Experience/Co-Op I (SuSpF - 0)\n\n### Fall 2028\n- ECE 341 Electromechanical Energy Conversion (SpF - 4)\n- ECE 375 Intro to Comm (SuSpF - 3)\n- ECE 404 ECE Design (SpF - 3)\n- ECE 484 Digital VLSI Design (F - 3) (**Elective**)\n- ECE 482 Microprocessor System (F - 3) (**Elective**)\n\n### Spring 2028\n- ECE 476 Electronic Circuits II (Sp - 3) (**Elective**)\n- ECE 405 ECE Design Lab (SpF - 3)\n- ECE 436 Digital Signal Processing (SpF - 3) (**Elective**)\n- ECE 298/299 Work Experience/Co-Op II (SuSpF - 0)\n\n### Summer 2028\n- IE 345 Engineering Economic Analysis (SuSpF - 3)\n- ECE 398/399 Work Experience/Co-Op III (SuSpF - 0)\n\n### Options\n- CS 482 Computer Graphics (3)\n- PHYS 251 Waves (Sp - 4)\n- PHYS 410 Optics (3)\n\n|Rank|Course|Why it complements your EE plan|\n|---|---|---|\n|**1**|**Advanced/Numerical Methods (Math)**|Adds computational tools used across all EE specialties.|\n|**2**|**Advanced Linear Algebra (Math)**|Deepens the mathematical foundation behind DSP, controls, communications, and machine learning.|\n|**3**|**ME 356 – Dynamical Systems Modeling**|Broadens your understanding of system modeling beyond electrical systems.|\n|**4**|**ME 426 – Systems Engineering**|Develops skills in designing and managing complex multidisciplinary systems.|\n|**5**|**ME 458 – Mechatronics** _(if prerequisites can be satisfied or waived)_|Integrates sensors, actuators, controls, and embedded systems into real-world engineering applications.|",
+			"styleAttributes":{},
+			"x":-1720,
+			"y":435,
+			"width":960,
+			"height":2625
+		}
 	],
 	"edges":[
 		{"id":"0d0f51982b05430b","fromNode":"5299ac0e4cda9607","fromSide":"bottom","toNode":"0e7a7c7a080d142c","toSide":"top"},

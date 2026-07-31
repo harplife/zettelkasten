@@ -1,5 +1,9 @@
 # Laser Image Projector
 
+"I built a projector" :
+- Design and implementation of an FPGA-controlled RGB laser projection system with closed-loop galvanometer control and automatic geometric calibration.
+
+
 ## References
 - [How a laser show projector works - FesixGermany](https://www.youtube.com/watch?v=57RMK1En_yc)
 - [DLP & LCD & Laser PROJECTOR - How They Work + TEARDOWN - Electronoobs](https://www.youtube.com/watch?v=U-HXgM9wdpY)
@@ -61,6 +65,22 @@
 
 
 ## Subsystems
+
+Laser Projector
+│
+├── Power Electronics
+├── Laser Drivers
+├── Optical System
+├── Beam Combining
+├── Beam Steering
+├── Motor/MEMS Control
+├── FPGA or MCU
+├── Image Processing
+├── Signal Generation
+├── Feedback Control
+├── Mechanical Design
+├── Thermal Management
+└── Safety System
 
 ### Laser Source
 - Red diode
@@ -159,4 +179,103 @@ Because visible lasers can pose eye hazards, incorporate safety features such as
 - beam stops and interlocks,
 - emergency shutdown circuitry,
 - compliance with your university's laboratory safety policies.
+
+
+## Required Skills/Knowledge
+
+**Measurement**
+- Digital multimeter
+- Oscilloscope
+- Bench power supply
+- Function generator
+
+**Electronics**
+- Breadboard
+- Soldering station
+- Logic analyzer
+
+**Software**
+- KiCad
+- LTspice
+- MATLAB or Python
+- C/C++
+- Git
+
+**Mechanical**
+- CAD (Fusion 360 or SolidWorks)
+- 3D printing
+
+**Optics**
+- Optical mounts
+- Mirrors
+- Lenses
+- Alignment targets
+
+
+### Knowledge-by-Course
+
+| Course                                            | Major knowledge gained                                                 | Projector subsystem(s)                               | Example applications                                                   |
+| ------------------------------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------- | ---------------------------------------------------------------------- |
+| **ECE 211 - Circuit Analysis II**                 | AC analysis, transients, filters, resonance                            | Power distribution, analog signal conditioning       | RC filters, regulator stability, resonance analysis                    |
+| **ECE 282 - Digital Systems Design**              | Logic design, FSMs, FPGA fundamentals, memory                          | Digital controller, image timing, frame buffer       | Scan controller, timing generator, FPGA implementation                 |
+| **MATH 355 - Engineering Mathematics**            | Differential equations, Laplace transforms, Fourier analysis, matrices | System modeling, signal analysis, calibration        | PID analysis, mirror dynamics, geometric correction                    |
+| **ECE 326 - Electronic Circuits I**               | Transistors, op-amps, analog feedback, current regulation              | Laser drivers, analog interfaces, sensor electronics | Constant-current laser driver, photodiode amplifier                    |
+| **ECE 340 - Electromagnetics**                    | Maxwell's equations, EM waves, reflection, refraction                  | Optical system                                       | Laser propagation, lenses, mirrors, polarization                       |
+| **ECE 351 - Signals and Systems**                 | Sampling, convolution, Fourier transforms, LTI systems                 | Image generation, waveform synthesis                 | Scan waveforms, anti-alias filtering, signal processing                |
+| **ECE 352 - Probability & Statistics**            | Noise analysis, estimation, statistical inference                      | Calibration, testing, quality assurance              | Brightness calibration, measurement uncertainty                        |
+| **ECE 365 - Control Systems**                     | Feedback, PID, stability, frequency response                           | Mirror control, autofocus, thermal regulation        | Closed-loop galvanometer control, laser power regulation               |
+| **ECE 341 - Electromechanical Energy Conversion** | Motors, magnetic actuators, electromechanical systems                  | Beam steering hardware                               | Galvanometers, voice-coil or electromagnetic MEMS actuators            |
+| **ECE 375 - Introduction to Communications**      | Digital communications, interfaces, error detection                    | Video input and external communications              | HDMI/USB interfaces, wireless control, firmware updates                |
+| **IE 106 - Engineering Problem Solving**          | Engineering design process, requirements, optimization                 | Entire project lifecycle                             | Requirements definition, trade studies, project planning               |
+| **IE 345 - Engineering Economics Analysis**       | Manufacturing, quality, cost, production planning                      | Product realization                                  | PCB assembly planning, optical alignment procedures, manufacturability |
+| **ECE 436 - Digital Signal Processing**           | Advanced digital hardware concepts                                     | High-speed digital processing                        | FPGA architecture, memory pipelines, real-time processing              |
+| **ECE 476 - Electronic Circuits II**              | Advanced signal processing/communications                              | Image and signal processing                          | Digital filtering, spectral analysis, efficient data transfer          |
+| **ECE 482 - Microprocessor System**               | Embedded computing and system integration                              | Embedded controller                                  | RTOS, DMA, peripheral control, firmware architecture                   |
+| **ECE 484 - Digital VLSI Design**                 | Advanced electronic system design                                      | System integration and optimization                  | Hardware integration, debugging, reliability engineering               |
+
+
+## Optics
+
+
+### Geometric Optics
+- lenses
+- mirrors
+- focal length
+- magnification
+
+
+### Wave Optics
+- interference
+- diffraction
+- polarization
+
+
+### Lasers
+- stimulated emission
+- coherence
+- beam divergence
+- Gaussian beams
+
+
+### Electro-Optics
+- modulators
+- laser diodes
+- photodiodes
+- beam steering
+
+
+## Incremental Subprojects
+
+|Stage|Project|Skills learned|
+|---|---|---|
+|1|LED flasher|Basic circuits|
+|2|PWM LED brightness|Timers, microcontrollers|
+|3|Constant-current driver|Analog electronics|
+|4|Laser diode driver (low-power)|Current regulation, safety|
+|5|Servo-controlled mirror|Motor control|
+|6|Galvanometer driver|Control systems|
+|7|XY laser drawing system|Embedded programming|
+|8|Vector graphics projector|Timing, synchronization|
+|9|RGB projector|Color mixing|
+|10|Image projector|Full capstone|
 
