@@ -11,7 +11,6 @@
 - [How laser projectors work - X-Laser USA](https://www.youtube.com/watch?v=jscpGsmAEmE)
 
 
-
 ## System Diagram
 
 ![[Laser Projector - System Diagram.png]]
