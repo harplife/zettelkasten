@@ -482,29 +482,83 @@ Study
 - Gaussian beams
 - beam expanders
 
+Textbooks:
+- [Optics - Eugene Hecht](https://www.amazon.com/Optics-Global-NA/dp/1292096934)
+- [Lasers - Anthony Siegman](https://www.amazon.com/dp/0935702113)
+- [Fundamentals of Photonics - Saleh, Teich](https://www.amazon.com/Fundamentals-Photonics-Wiley-Applied-Optics-dp-1119506875/dp/1119506875)
+
+
 ##### Geometric Optics
-- lenses
-- mirrors
-- focal length
-- magnification
+
+Topics:
+- Reflection
+- Refraction (Snell's Law)
+- Thin lenses
+- Mirrors
+- Focal length
+- Image formation
+- Magnification
+- Prisms
+- Apertures
+- Stops
+- Field of view
+
+For a laser projector, this stage answers questions like:
+- How do I collimate a laser?
+- Which lens should I use?
+- How do I focus the image?
+- Why is my image blurry?
+- How do beam expanders work?
 
 ##### Wave Optics
-- interference
-- diffraction
-- polarization
+Topics:
+- Interference
+- Diffraction
+- Huygens' Principle
+- Coherence
+- Polarization
+- Fourier optics (intro)
+- Resolution
+- Fraunhofer diffraction
+- Fresnel diffraction
+
+For a laser projector, this explains:
+- Why laser beams create speckle
+- Why diffraction limits image sharpness
+- Why apertures matter
+- Why beam quality matters
 
 ##### Lasers
-- stimulated emission
-- coherence
-- beam divergence
+Topics
+- Stimulated emission
+- Population inversion
+- Optical resonators
+- Gain media
+- Laser cavities
 - Gaussian beams
+- Beam divergence
+- TEM modes
+- Q-switching (basic understanding)
+- Laser diodes
 
+At this point, you'll understand:
+- Why laser beams stay narrow
+- Why lasers are coherent
+- Why diode lasers need collimation
+- Why projector optics are designed the way they are
 
 ##### Electro-Optics
-- modulators
-- laser diodes
-- photodiodes
-- beam steering
+Topics
+- Laser diodes
+- LEDs
+- Photodiodes
+- Avalanche photodiodes
+- Electro-optic modulators
+- Acousto-optic modulators
+- Fiber optics
+- Integrated photonics
+- Silicon photonics
+- Optical detectors
 
 
 ## Incremental Subprojects
