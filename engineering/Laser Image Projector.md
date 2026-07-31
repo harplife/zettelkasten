@@ -1,5 +1,17 @@
 # Laser Image Projector
 
+## References
+- [How a laser show projector works - FesixGermany](https://www.youtube.com/watch?v=57RMK1En_yc)
+- [DLP & LCD & Laser PROJECTOR - How They Work + TEARDOWN - Electronoobs](https://www.youtube.com/watch?v=U-HXgM9wdpY)
+- [ESP32 Laser Projector with stepper motors | StanleyProjects.com - StanleyProjects](https://www.youtube.com/watch?v=w1O48Ysdiiw)
+- [$2 vs $200,000 Projector - Linus Tech Tips](https://www.youtube.com/watch?v=JAPMSoM6U7w)
+- [DIY Laser Show with ESP32 Laser DAC | StanleyProjects.com - StanleyProjects](https://www.youtube.com/watch?v=9YASnlB_t_U)
+- [DIY Laser Image Projector (100ft+ Range!) - Ben Makes Everything](https://www.youtube.com/watch?v=fEPicBSYeNQ)
+- [DIY Laser Projector - Built from an old hard drive - Ben Makes Everything](https://www.youtube.com/watch?v=u9TpJ-_hBR8)
+- [How laser projectors work - X-Laser USA](https://www.youtube.com/watch?v=jscpGsmAEmE)
+
+
+
 ## System Diagram
 
 ![[Laser Projector - System Diagram.png]]
