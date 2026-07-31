@@ -234,30 +234,273 @@ Because visible lasers can pose eye hazards, incorporate safety features such as
 | **ECE 484 - Digital VLSI Design**                 | Advanced electronic system design                                      | System integration and optimization                  | Hardware integration, debugging, reliability engineering               |
 
 
-## Optics
+### Knowledge-by-Self
+- Engineering tools
+- Electronics tools
+- Programming
+- Optics
+- Mechanical design
+- Project management
+
+#### Electronics CAD
+need to learn:
+- Schematic capture
+- PCB layout
+- Component footprints
+- Design rules
+- Ground planes
+- Differential routing
+- Power routing
+
+Recommended software:
+- **KiCad** (free)
+- Autodesk Fusion Electronics (formerly Eagle)
+
+Example progression:
+```
+LED flasher
+↓
+Arduino shield
+↓
+Laser driver PCB
+↓
+Galvo controller PCB
+↓
+Complete projector motherboard
+```
 
 
-### Geometric Optics
+#### Mechanical CAD
+Laser projectors require
+- mounting lasers
+- mounting mirrors
+- lens holders
+- enclosures
+- cooling
+- alignment fixtures
+
+Learn:
+- sketches
+- constraints
+- assemblies
+- tolerances
+- sheet metal basics
+
+Software
+- Autodesk Fusion
+- SolidWorks
+- Onshape
+
+
+#### PCB Manufacturing
+Learn
+- Gerber files
+- assembly drawings
+- BOMs
+- pick-and-place files
+- solder stencil generation
+
+
+#### Soldering & Assembly
+Learn
+- through-hole soldering
+- SMD soldering
+- hot air rework
+- microscope inspection
+- connector crimping
+
+
+#### Embedded Programming
+Learn
+- STM32
+- ESP32
+- RP2040
+
+Topics
+- timers
+- DMA
+- interrupts
+- ADC
+- DAC
+- PWM
+
+
+#### FPGA Development
+Learn
+- Verilog/SystemVerilog or VHDL
+- Vivado or Quartus
+- simulation
+- timing analysis
+
+Project examples
+```
+LED blinking
+↓
+VGA controller
+↓
+Frame buffer
+↓
+Laser scan generator
+```
+
+
+#### Python
+Use it for
+- automation
+- calibration
+- plotting
+- testing
+- image processing
+
+Libraries
+- NumPy
+- SciPy
+- OpenCV
+- Matplotlib
+
+
+#### MATLAB (or GNU Octave)
+Learn
+- plotting
+- FFT
+- filters
+- simulations
+- control systems
+
+
+#### LTspice
+Circuit Simulation
+
+Examples
+- op-amps
+- MOSFETs
+- filters
+- regulators
+- laser drivers
+
+
+#### Image Processing
+Learn
+- grayscale
+- RGB
+- interpolation
+- edge detection
+- raster scanning
+- vector graphics
+
+
+#### Computer Vision
+Possible additions
+- autofocus
+- automatic calibration
+- keystone correction
+- screen detection
+
+
+#### Precision Mechanics
+Learn
+- tolerance stack-up
+- alignment
+- vibration isolation
+- thermal expansion
+- fasteners
+- bearings
+
+
+#### 3D Printing
+Print
+- brackets
+- lens mounts
+- laser holders
+- electronics enclosures
+
+Fusion → STL → print?
+
+
+#### Version Control
+Version control (Using Git)
+- firmware
+- PCB files
+- CAD
+- documentation
+
+
+#### Technical Documentation
+Learn to create
+- block diagrams
+- wiring diagrams
+- schematics
+- assembly drawings
+- test plans
+- design reports
+- requirements documents
+
+
+#### Project Management
+Learn
+- requirements decomposition
+- milestones
+- risk assessment
+- issue tracking
+- design reviews
+- change control
+
+
+
+#### Optical Design Software
+Learn basic ray tracing with
+- OpticStudio (Zemax) if your university provides access
+- OpticsRayTracer (good for learning concepts)
+- OSLO EDU (educational edition)
+
+Topics
+- ray tracing
+- focal length
+- beam expansion
+- aberrations
+
+
+#### Laser Safety
+Understand
+- laser classes
+- eye hazards
+- diffuse vs. specular reflections
+- beam stops
+- optical density (OD) of safety eyewear
+- alignment procedures
+
+
+
+#### Optics
+
+Study
+- lenses
+- mirrors
+- focal length
+- numerical aperture
+- diffraction
+- Gaussian beams
+- beam expanders
+
+##### Geometric Optics
 - lenses
 - mirrors
 - focal length
 - magnification
 
-
-### Wave Optics
+##### Wave Optics
 - interference
 - diffraction
 - polarization
 
-
-### Lasers
+##### Lasers
 - stimulated emission
 - coherence
 - beam divergence
 - Gaussian beams
 
 
-### Electro-Optics
+##### Electro-Optics
 - modulators
 - laser diodes
 - photodiodes
