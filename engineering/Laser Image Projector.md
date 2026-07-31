@@ -486,6 +486,7 @@ Textbooks:
 - [Optics - Eugene Hecht](https://www.amazon.com/Optics-Global-NA/dp/1292096934)
 - [Lasers - Anthony Siegman](https://www.amazon.com/dp/0935702113)
 - [Fundamentals of Photonics - Saleh, Teich](https://www.amazon.com/Fundamentals-Photonics-Wiley-Applied-Optics-dp-1119506875/dp/1119506875)
+- [Modern Optical Engineering - Warren Smith](https://www.amazon.com/dp/0071363602)
 
 
 ##### Geometric Optics
