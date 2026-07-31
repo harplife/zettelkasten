@@ -22,6 +22,9 @@
 
 ![[Pasted image 20260731091949.png]]
 
+![[Pasted image 20260731152915.png]]
+> Blue laser + Color Wheel Projector Setup - [source](https://theprojectionroomstore.com/en-us/blogs/news/how-do-projectors-work)
+
 
 ## Related Engineering Topics
 
