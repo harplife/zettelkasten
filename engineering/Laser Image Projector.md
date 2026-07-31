@@ -13,6 +13,7 @@
 - [DIY Laser Image Projector (100ft+ Range!) - Ben Makes Everything](https://www.youtube.com/watch?v=fEPicBSYeNQ)
 - [DIY Laser Projector - Built from an old hard drive - Ben Makes Everything](https://www.youtube.com/watch?v=u9TpJ-_hBR8)
 - [How laser projectors work - X-Laser USA](https://www.youtube.com/watch?v=jscpGsmAEmE)
+- [how does a mini projector work | teardown and disassembly | what inside ? - Geek4tec](https://www.youtube.com/watch?v=0iQxchw0xoA)
 
 
 ## System Diagram
