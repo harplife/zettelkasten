@@ -4,6 +4,7 @@
 
 ![[Laser Projector - System Diagram.png]]
 
+![[Pasted image 20260731091949.png]]
 
 ## Related Engineering Topics
 
