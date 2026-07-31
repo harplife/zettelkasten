@@ -681,3 +681,82 @@ Laser subsystem shall
 - remain within operating temperature
 - include current protection
 
+
+
+## Benchmark
+
+### Class 1 : Hobby Projector
+
+Typical cost:
+- **$300–800**
+
+Capabilities:
+- RGB lasers
+- Vector graphics
+- Logos
+- Simple animations
+- Text
+- Beam effects
+
+Resolution:
+- Not really measured in pixels
+- Draws vector paths
+
+Brightness:
+- Roughly **0.5–3 W optical output**
+
+Scanning:
+- 20–30 kpps galvanometers
+
+Typical uses:
+- Laser shows
+- Educational demonstrations
+- Hobby projects
+
+
+### Class 2 : Professional Laser Show Projector
+
+Typical cost:
+- **$2,000–10,000**
+
+Capabilities:
+- High-speed scanners
+- Accurate color mixing
+- Complex vector graphics
+- Audience-safe scanning (with appropriate safety systems)
+- Large venue projection
+
+Brightness:
+- **5–30 W optical output**
+
+Scanning:
+- 30–60 kpps
+
+Features:
+- ILDA input
+- DMX
+- Ethernet
+- Auto calibration
+- Temperature monitoring
+
+
+### Class 3 : Laser Image Projector
+
+Typical cost:
+- **$1,500–6,000** (consumer products)
+
+Capabilities:
+- Full-motion video
+- 4K (some models)
+- HDR
+- Thousands of lumens
+- Digital image processing
+- Color calibration
+
+Typical technologies
+- MEMS scanning
+- DLP
+- LCoS
+- Laser-phosphor engines
+
+
