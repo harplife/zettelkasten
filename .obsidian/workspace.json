@@ -8,39 +8,21 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bb40ac88e65d1032",
+            "id": "fd83e2e34f72d854",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SWIC/UIUC_MS_ECE.md",
+                "file": "engineering/Laser Image Projector.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "UIUC_MS_ECE"
-            }
-          },
-          {
-            "id": "fd83e2e34f72d854",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "SWIC/SIUE EE Courses Dependency Map.canvas",
-                "viewState": {
-                  "x": -1325.5792330144486,
-                  "y": 2151.9737894339155,
-                  "zoom": -0.38445355074675214
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "SIUE EE Courses Dependency Map"
+              "title": "Laser Image Projector"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,21 +100,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SWIC/UIUC_MS_ECE.md",
+                "file": "engineering/Laser Image Projector.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of UIUC_MS_ECE"
+              "title": "Outline of Laser Image Projector"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 347.5,
-    "collapsed": true
+    "width": 347.5
   },
   "right": {
     "id": "f152d8fd8ec1f4e0",
@@ -295,11 +276,14 @@
   },
   "active": "fd83e2e34f72d854",
   "lastOpenFiles": [
+    "SWIC/SIUE EE Courses Dependency Map.canvas",
+    "engineering/Laser Image Projector.md",
+    "engineering",
+    "anthropology/ANTH_150_Cultural_Anthropology.md",
     "SWIC/UIUC_MS_ECE.md",
     "math/calculus/Series.md",
     "math/calculus/Derivatives.md",
     "math/calculus/Riemann_Sums.md",
-    "SWIC/SIUE EE Courses Dependency Map.canvas",
     "SWIC/SWIC_SIUE_Plan.md",
     "SWIC/SIUE ECE Undergrad Courses.md",
     "attachments/Electrical Engineering Fall Co-Op Ameren.pdf",
@@ -307,7 +291,6 @@
     "math/Calc_Quick_Reference.md",
     "SWIC/Untitled.base",
     "SWIC/SIUE EE Map.md",
-    "anthropology/ANTH_150_Cultural_Anthropology.md",
     "math/Exponents_and_Logarithms.md",
     "math/Essence_of_Trigonometry.md",
     "attachments/inverse_trigs.svg",
@@ -326,7 +309,6 @@
     "attachments/Pasted image 20260329083806.png",
     "attachments/Pasted image 20260329083236.png",
     "attachments/angle_sum_diff_identities_fig.svg",
-    "attachments/angle_sum_diff_identities_fig.svg.opdownload",
     "math/Eulers_Number_e.md",
     "math/calculus/Chapter 2/6_Continuity.md",
     "math/calculus/Chapter 2/1_The_Idea_of_Limits.md",
@@ -340,8 +322,6 @@
     "chemistry/material_and_light.md",
     "math/Limits.md",
     "math/precalculus/Chapter 4/2_The_Natural_Exponential_Function.md",
-    "math/precalculus/Chapter 4/1_Exponential_Functions.md",
-    "SWIC/SIUE_ECE_Courses.md",
     "computer_graphics/Computer_Graphics_Mindmap.canvas",
     "computer_graphics/projects/solo_leveling_mindmap.canvas",
     "architecture/architecture_mindmap.canvas",
