@@ -23,6 +23,21 @@
             }
           },
           {
+            "id": "5cefb925714b6ee1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "engineering/Brain Computer Interface.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Brain Computer Interface"
+            }
+          },
+          {
             "id": "63391903521e9e1a",
             "type": "leaf",
             "state": {
@@ -39,7 +54,8 @@
               "title": "SIUE EE Courses Dependency Map"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -117,13 +133,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "engineering/Laser Image Projector.md",
+                "file": "engineering/Brain Computer Interface.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Laser Image Projector"
+              "title": "Outline of Brain Computer Interface"
             }
           }
         ]
@@ -291,11 +307,13 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "fd83e2e34f72d854",
+  "active": "5cefb925714b6ee1",
   "lastOpenFiles": [
+    "attachments/fNIRS BCI System Diagram.png",
+    "engineering/Laser Image Projector.md",
+    "engineering/Brain Computer Interface.md",
     "attachments/Pasted image 20260731152915.png",
     "SWIC/SIUE EE Courses Dependency Map.canvas",
-    "engineering/Laser Image Projector.md",
     "attachments/Pasted image 20260731091949.png",
     "attachments/Laser Projector - System Diagram.png",
     "engineering",
@@ -326,7 +344,6 @@
     "attachments/Cosine_one_period.svg.opdownload",
     "attachments/Sine_one_period.svg",
     "attachments/Sine_one_period.svg.opdownload",
-    "attachments/Pasted image 20260329083806.png",
     "math/Eulers_Number_e.md",
     "math/calculus/Chapter 2/6_Continuity.md",
     "math/calculus/Chapter 2/1_The_Idea_of_Limits.md",
@@ -339,7 +356,6 @@
     "chemistry/Balancing_Chemical_Equations.md",
     "chemistry/material_and_light.md",
     "math/Limits.md",
-    "math/precalculus/Chapter 4/2_The_Natural_Exponential_Function.md",
     "computer_graphics/Computer_Graphics_Mindmap.canvas",
     "computer_graphics/projects/solo_leveling_mindmap.canvas",
     "architecture/architecture_mindmap.canvas",
