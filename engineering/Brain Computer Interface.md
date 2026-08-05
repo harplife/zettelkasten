@@ -85,7 +85,7 @@ Most adult fNIR systems use 30 mm between the light emitter and detector. This g
 
 ### Short-Separation Channels
 
-Modern fNIR systems often include extra detector very close to the source.
+Modern fNIR systems often include extra detectors very close (5~10 mm) to the source. These short channels only measure blood flow changes in the skin and bone; these measurements are subtracted from the deep channels, leaving a clean map of actual brain activity.
 
 
 ## Subsystems
