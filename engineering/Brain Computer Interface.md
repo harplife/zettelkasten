@@ -54,6 +54,14 @@ Because the light only penetrates a few centimeters, fNIRS can only read signals
 > [!important] Complete signal chain
 > Neural firing > Metabolism increases > Blood flow increases > HbO up, HbR down > Optical absorption changes > Photodiodes detect intensity > Amplifier > ADC > Signal processing > Machine Learning > BCI output
 
+These are the limitations of fNIR :
+- Only images the outer 1~2 cm of cortex
+- Hair reduces optical signal quality
+- Motion can introduce artifacts (although more resilient than EEG)
+- Ambient light and physiological rhythms can introduce noise
+
+> [!warning] The biggest limitation with fNIR
+> Although fNIR is known to provide better spatial resolution than EEG, it is much slower due to **hemodynamic delay**. The useful signal typically peaks several seconds after neurons become active. This makes it poorly suited for fast tasks such as controlling a robotic arm or typing at high speed.
 
 
 ## Subsystems
