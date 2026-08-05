@@ -68,6 +68,23 @@ These are the limitations of fNIR :
 > Although fNIR is known to provide better spatial resolution than EEG, it is much slower due to **hemodynamic delay**. The useful signal typically peaks 2~6 seconds after neurons become active. This makes it poorly suited for fast tasks such as controlling a robotic arm or typing at high speed.
 
 
+## Emitter-Detector Layout
+
+Most adult fNIR systems use 30 mm between the light emitter and detector. This gives reasonable penetration, acceptable signal strength, and usable cortical sensitivity.
+
+|Separation|Typical Use|
+|---|---|
+|5–10 mm|Superficial tissue measurement|
+|20 mm|Children / thin skulls|
+|**30 mm**|Standard adult cortical measurement|
+|35–40 mm|Deeper penetration, lower SNR|
+|>45 mm|Rare in CW systems|
+
+### Short-Separation Channels
+
+Modern fNIR systems often include extra detector very close to the source.
+
+
 ## Subsystems
 
 ![[fNIRS BCI System Diagram.png]]
