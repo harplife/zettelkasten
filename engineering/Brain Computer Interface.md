@@ -81,6 +81,8 @@ Most adult fNIR systems use 30 mm between the light emitter and detector. This g
 |35–40 mm|Deeper penetration, lower SNR|
 |>45 mm|Rare in CW systems|
 
+![[Pasted image 20260804232057.png]]
+
 ### Short-Separation Channels
 
 Modern fNIR systems often include extra detector very close to the source.
