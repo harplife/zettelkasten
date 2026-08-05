@@ -102,7 +102,8 @@ The cap is divided into intersecting grid lines spaced out by **10% or 20%** of 
 
 ![[Pasted image 20260805145947.png]]
 
-
+> [!important] Hybrid EEG-fNIR BCI Layout
+> There are several ways to go about how to place EEG and fNIR together, but the one that makes most sense to me is just placing EEG in between fNIR channels - considering fNIR emitters and detectors has to be 30 mm apart.
 
 
 
