@@ -124,12 +124,36 @@ If I manage to build a BCI that works, I want to :
 
 > [!important] The Theta/Beta Ratio (TBR)
 > Studies suggest that individuals with ADHD often exhibit an elevated ratio of slow theta waves (associated with daydreaming or drowsiness) to fast beta waves (associated with active focus) in the frontal lobe.
+> 
+> EEG BCI can measure theta waves at 4~8 Hz and beta waves at 13~30 Hz.
 
 While a BCI can track attention drops and record data that differs from a neurotypical baseline on average, it cannot officially diagnose ADHD on an individual level.
 - Brainwave patterns overlap heavily between individuals. A high TBR can also be caused by lack of sleep, stress, or anxiety.
 
 However, BCI can be used for gamified intervention - the **Neurofeedback Training**.
 - An example is a game where the game avatar accelerate forward only if the user's beta waves are generated. Conversely, the avatar slows down if the user's theta waves spike. Over multiple sessions, this BCI feedback loop leverages neuroplasticity to help individuals strengthen their working memory and self-regulate focus.
+
+### Other Games
+
+[Dual N-Back Game](https://brainworkshop.sourceforge.net/)
+
+Working Memory & Cognitive Load Games
+- **Stroop Test Games:** Match color words with conflicting font colors.
+- **Trail Making Tests:** Connect numbers and letters in alternating sequence.
+- **Mental Rotation Games:** Rotate complex 3D shapes to fit slots.
+- **Digit Span Tasks:** Recall increasingly long strings of spoken numbers.
+- **Flanker Tasks:** Identify target shapes surrounded by distracting shapes.
+
+Task-Switching & Executive Function Games
+- **Wisconsin Card Sorting:** Discover changing rules by matching hidden patterns.
+- **Task-Switching Blocks:** Alternate rapidly between sorting shapes and colors.
+- **Continuous Performance:** Press keys only when specific sequences appear.
+
+
+
+## BCI Task : Drone Controller??
+
+I haven't done research yet, but it would be fun if BCI can sent directional commands to a drone. Or a toy car to start with.
 
 
 
