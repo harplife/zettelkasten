@@ -86,6 +86,22 @@ Most adult fNIR systems use 30 mm between the light emitter and detector. This g
 > [!important] Short-Separation Channels
 > Modern fNIR systems often include extra detectors very close (5~10 mm) to the source. These short channels only measure blood flow changes in the skin and bone; these measurements are subtracted from the deep channels, leaving a clean map of actual brain activity.
 
+### 10-20 Anchor System
+
+[10-20 Anchor System (EEG BCI)](<https://en.wikipedia.org/wiki/10–20_system_(EEG)>) is an internationally recognized method to describe and apply the location of scalp electrodes. This method was developed to maintain standardized testing methods ensuring that a subject's study outcomes could be compiled, reproduced, and effectively analyzed and compared using the scientific method.
+
+Scientists map the cap by measuring the distance between four major, unchanging bony landmarks on the skull :
+- Nasion : the depression at the bridge of the nose
+- Inion : the prominent bony bump at the very base of the back of the skull
+- Preauricular Points : The small indentations just in front of each ear canal
+
+The cap is divided into intersecting grid lines spaced out by **10% or 20%** of the total measured front-to-back or side-to-side distance of a person's skull.
+
+![[Pasted image 20260805145406.png | center | 500]]
+> Each electrode placement site has a letter to identify the lobe, or area of the brain it is reading from: **pre-frontal (Fp), frontal (F), temporal (T), parietal (P), occipital (O), and central (C)**. Note that there is no "central lobe". There are also **(z)** sites, where electrodes are placed on the midline sagittal plane of the skull and is present mostly for reference/measurement points.
+
+![[Pasted image 20260805145947.png]]
+
 
 
 
