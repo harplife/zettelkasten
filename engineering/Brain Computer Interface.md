@@ -1,4 +1,6 @@
-# fNIRS BCI
+# BCI
+
+## fNIR
 
 **Functional Near-Infrared Spectroscopy (fNIRS) Brain-Computer Interfaces (BCI)**
 
@@ -69,7 +71,7 @@ These are the limitations of fNIR :
 > Although fNIR is known to provide better spatial resolution than EEG, it is much slower due to **hemodynamic delay**. The useful signal typically peaks 2~6 seconds after neurons become active. This makes it poorly suited for fast tasks such as controlling a robotic arm or typing at high speed.
 
 
-## Emitter-Detector Layout
+### Emitter-Detector Layout
 
 Most adult fNIR systems use 30 mm between the light emitter and detector. This gives reasonable penetration, acceptable signal strength, and usable cortical sensitivity.
 
@@ -86,7 +88,7 @@ Most adult fNIR systems use 30 mm between the light emitter and detector. This g
 > [!important] Short-Separation Channels
 > Modern fNIR systems often include extra detectors very close (5~10 mm) to the source. These short channels only measure blood flow changes in the skin and bone; these measurements are subtracted from the deep channels, leaving a clean map of actual brain activity.
 
-### 10-20 Anchor System
+## 10-20 Anchor System
 
 [10-20 Anchor System (EEG BCI)](<https://en.wikipedia.org/wiki/10–20_system_(EEG)>) is an internationally recognized method to describe and apply the location of scalp electrodes. This method was developed to maintain standardized testing methods ensuring that a subject's study outcomes could be compiled, reproduced, and effectively analyzed and compared using the scientific method.
 
@@ -116,11 +118,21 @@ If I manage to build a BCI that works, I want to :
 1. Replicate the study where they were able to generate the seen image from the BCI data
 2. Try to see if an image can be generated from complete imagination
 3. Try to see if words can (visual or auditory) can trigger images in the head
-4. Try to see if 
+
+
+## BCI Task : Neurofeedback Training
+
+> [!important] The Theta/Beta Ratio (TBR)
+> Studies suggest that individuals with ADHD often exhibit an elevated ratio of slow theta waves (associated with daydreaming or drowsiness) to fast beta waves (associated with active focus) in the frontal lobe.
+
+While a BCI can track attention drops and record data that differs from a neurotypical baseline on average, it cannot officially diagnose ADHD on an individual level.
+- Brainwave patterns overlap heavily between individuals. A high TBR can also be caused by lack of sleep, stress, or anxiety.
+
+However, BCI can be used for gamified intervention - the **Neurofeedback Training**.
+- An example is a game where the game avatar accelerate forward only if the user's beta waves are generated. Conversely, the avatar slows down if the user's theta waves spike. Over multiple sessions, this BCI feedback loop leverages neuroplasticity to help individuals strengthen their working memory and self-regulate focus.
 
 
 
-
-## Subsystems
+## fNIR Subsystems
 
 ![[fNIRS BCI System Diagram.png]]
