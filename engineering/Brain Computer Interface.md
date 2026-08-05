@@ -106,6 +106,16 @@ The cap is divided into intersecting grid lines spaced out by **10% or 20%** of 
 > There are several ways to go about how to place EEG and fNIR together, but the one that makes most sense to me is just placing EEG in between fNIR channels - considering fNIR emitters and detectors has to be 30 mm apart.
 
 
+## BCI Task : Visual System
+
+![[Functional_Near-Infrared_Spectrometry_as_a_Useful_.pdf]]
+
+There are researches that suggest that BCIs can be used as a diagnostic tool to understand the visual system. There were experiments where they were able to determine the color that a person was seeing at that point. Furthermore, there were experiments where they were able to reconstruct images from fNIR data (collected when original images were shown).
+
+If I manage to build a BCI that works, 
+
+
+
 
 ## Subsystems
 
