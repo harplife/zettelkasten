@@ -122,6 +122,8 @@ If I manage to build a BCI that works, I want to :
 
 ## BCI Task : Neurofeedback Training
 
+![[Pasted image 20260805161145.png]]
+
 > [!important] The Theta/Beta Ratio (TBR)
 > Studies suggest that individuals with ADHD often exhibit an elevated ratio of slow theta waves (associated with daydreaming or drowsiness) to fast beta waves (associated with active focus) in the frontal lobe.
 > 
@@ -132,6 +134,7 @@ While a BCI can track attention drops and record data that differs from a neurot
 
 However, BCI can be used for gamified intervention - the **Neurofeedback Training**.
 - An example is a game where the game avatar accelerate forward only if the user's beta waves are generated. Conversely, the avatar slows down if the user's theta waves spike. Over multiple sessions, this BCI feedback loop leverages neuroplasticity to help individuals strengthen their working memory and self-regulate focus.
+
 
 ### Other Games
 
@@ -150,8 +153,7 @@ Task-Switching & Executive Function Games
 - **Continuous Performance:** Press keys only when specific sequences appear.
 
 
-
-## BCI Task : Drone Controller??
+## BCI Task : Telekinesis
 
 I haven't done research yet, but it would be fun if BCI can sent directional commands to a drone. Or a toy car to start with.
 
