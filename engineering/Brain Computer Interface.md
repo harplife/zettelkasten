@@ -43,6 +43,7 @@ Light does not travel in a straight line through the head; it enters the scalp, 
 > [!important] The deepest part of the banana is approximately halfway between the emitter and detector.
 
 ![[Pasted image 20260804220924.png | center | 500]]
+![[Pasted image 20260804231244.png | center | 500]]
 
 To reach the brain tissue, the light must pass through and return from several distinct layers:
 - Skin and scalp (extracerebral layer)
