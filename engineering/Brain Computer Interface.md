@@ -40,16 +40,7 @@ Using two or more wavelengths allows solving for both concentrations using the m
 
 Light does not travel in a straight line through the head; it enters the scalp, scatters wildly, and arcs back up to the surface in a curved, banana-shaped path.
 
-```
-Emitter ●
-         \
-          \
-           )
-          (
-         /
-        /
-Detector ●
-```
+![[Pasted image 20260804220924.png | center | 300]]
 
 To reach the brain tissue, the light must pass through and return from several distinct layers:
 - Skin and scalp (extracerebral layer)
@@ -72,7 +63,7 @@ These are the limitations of fNIR :
 - Ambient light and physiological rhythms can introduce noise
 
 > [!warning] The biggest limitation with fNIR
-> Although fNIR is known to provide better spatial resolution than EEG, it is much slower due to **hemodynamic delay**. The useful signal typically peaks several seconds after neurons become active. This makes it poorly suited for fast tasks such as controlling a robotic arm or typing at high speed.
+> Although fNIR is known to provide better spatial resolution than EEG, it is much slower due to **hemodynamic delay**. The useful signal typically peaks 2~6 seconds after neurons become active. This makes it poorly suited for fast tasks such as controlling a robotic arm or typing at high speed.
 
 
 ## Subsystems
