@@ -38,6 +38,18 @@
             }
           },
           {
+            "id": "b07c3728238bfb6a",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.13.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.13.4"
+            }
+          },
+          {
             "id": "63391903521e9e1a",
             "type": "leaf",
             "state": {
@@ -55,7 +67,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -75,7 +87,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -133,13 +147,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "engineering/Brain Computer Interface.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Brain Computer Interface"
+              "title": "Outline"
             }
           }
         ]
@@ -280,7 +293,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for SIUE EE Courses Dependency Map"
+              "title": "Backlinks"
             }
           }
         ],
@@ -288,8 +301,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 362.5,
-    "collapsed": true
+    "width": 362.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -307,7 +319,7 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "5cefb925714b6ee1",
+  "active": "227e6011dc684b16",
   "lastOpenFiles": [
     "attachments/Pasted image 20260805161145.png",
     "attachments/Functional_Near-Infrared_Spectrometry_as_a_Useful_.pdf",
