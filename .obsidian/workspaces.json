@@ -2304,18 +2304,6 @@
                 }
               },
               {
-                "id": "b07c3728238bfb6a",
-                "type": "leaf",
-                "state": {
-                  "type": "release-notes",
-                  "state": {
-                    "currentVersion": "1.13.4"
-                  },
-                  "icon": "lucide-book-up",
-                  "title": "Release Notes 1.13.4"
-                }
-              },
-              {
                 "id": "63391903521e9e1a",
                 "type": "leaf",
                 "state": {
@@ -2586,7 +2574,7 @@
         }
       },
       "active": "227e6011dc684b16",
-      "mtime": "2026-09-05T10:16:55-05:00",
+      "mtime": "2026-09-05T10:16:58-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "anthropology",
@@ -2915,13 +2903,13 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "engineering/Brain Computer Interface.md",
+                    "file": "engineering/History of Heat Engine.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": false
                   },
                   "icon": "lucide-file",
-                  "title": "Brain Computer Interface"
+                  "title": "History of Heat Engine"
                 }
               },
               {
@@ -2962,7 +2950,9 @@
                   "type": "file-explorer",
                   "state": {
                     "sortOrder": "alphabetical",
-                    "autoReveal": false
+                    "autoReveal": false,
+                    "showSearch": false,
+                    "searchQuery": ""
                   },
                   "icon": "lucide-folder-closed",
                   "title": "Files"
@@ -3020,13 +3010,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "engineering/Brain Computer Interface.md",
+                    "file": "engineering/History of Heat Engine.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of Brain Computer Interface"
+                  "title": "Outline"
                 }
               }
             ]
@@ -3195,7 +3185,7 @@
         }
       },
       "active": "5cefb925714b6ee1",
-      "mtime": "2026-08-04T16:47:46-05:00",
+      "mtime": "2026-09-05T10:17:19-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "anthropology",
@@ -3209,5 +3199,5 @@
       }
     }
   },
-  "active": "SWIC"
+  "active": "Engineering"
 }
