@@ -26,3 +26,25 @@ The history of the heat engine is a multi-century journey that evolved from anci
 * From Vacuum to High Pressure: Early engines (Newcomen and Watt) were actually "atmospheric engines." They used steam simply to create a vacuum, letting the weight of the outside air do the heavy lifting. By the early 1800s, engineers like Richard Trevithick developed high-pressure steam engines, which were compact and powerful enough to run locomotives.
 * The Shift to Internal Combustion: In 1860, Étienne Lenoir invented the first commercially successful internal combustion engine. This technology was perfected in 1876 by Nikolaus Otto (the four-stroke gasoline engine) and in 1892 by Rudolf Diesel (the compression-ignition diesel engine), shifting the world away from external steam boilers.
 
+
+
+#todo vector cross product operation in latex (get it to its own note?)
+
+$$
+\begin{align*}
+\vec{u} \times \vec{v} &= \begin{vmatrix}
+\hat{i} & \hat{j} & \hat{k} \\
+1 & 3 & -2 \\
+2 & -1 & 4
+\end{vmatrix} \\[1ex]
+&= \hat{i} \begin{vmatrix} 3 & -2 \\ -1 & 4 \end{vmatrix} 
+ - \hat{j} \begin{vmatrix} 1 & -2 \\ 2 & 4 \end{vmatrix} 
+ + \hat{k} \begin{vmatrix} 1 & 3 \\ 2 & -1 \end{vmatrix} \\[1ex]
+&= \hat{i} \big[(3)(4) - (-2)(-1)\big] 
+ - \hat{j} \big[(1)(4) - (-2)(2)\big] 
+ + \hat{k} \big[(1)(-1) - (3)(2)\big] \\[1ex]
+&= \hat{i} [12 - 2] - \hat{j} [4 - (-4)] + \hat{k} [-1 - 6] \\[1ex]
+&= 10\hat{i} - 8\hat{j} - 7\hat{k} \\[1ex]
+&= \langle 10, -8, -7 \rangle
+\end{align*}
+$$
