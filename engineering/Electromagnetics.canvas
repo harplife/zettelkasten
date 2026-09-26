@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{
+			"id":"7b12c7b4bbf6c131",
+			"type":"text",
+			"text":"## Electric Charge\n\n",
+			"styleAttributes":{},
+			"x":-80,
+			"y":-240,
+			"width":620,
+			"height":540
+		}
+	],
+	"edges":[],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

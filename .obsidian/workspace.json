@@ -38,32 +38,20 @@
             }
           },
           {
-            "id": "2b86072138312709",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.13.7"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.13.7"
-            }
-          },
-          {
             "id": "63391903521e9e1a",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
-                "file": "SWIC/SIUE EE Courses Dependency Map.canvas",
+                "file": "engineering/Electromagnetics.canvas",
                 "viewState": {
-                  "x": -988.9035778295561,
-                  "y": 2006.3666549977404,
-                  "zoom": -0.7844535507467522
+                  "x": 328.9872369155444,
+                  "y": 243.9299944068716,
+                  "zoom": -1.2000000000000002
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "SIUE EE Courses Dependency Map"
+              "title": "Electromagnetics"
             }
           }
         ],
@@ -147,6 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "engineering/Electromagnetics.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -159,7 +148,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 347.5
+    "width": 347.5,
+    "collapsed": true
   },
   "right": {
     "id": "f152d8fd8ec1f4e0",
@@ -283,7 +273,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SWIC/SIUE EE Courses Dependency Map.canvas",
+                "file": "engineering/Electromagnetics.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -301,7 +291,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 362.5
+    "width": 362.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -319,11 +310,12 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "227e6011dc684b16",
+  "active": "63391903521e9e1a",
   "lastOpenFiles": [
+    "engineering/History of Heat Engine.md",
+    "engineering/Electromagnetics.canvas",
     "attachments/Aeolipile_illustration.svg",
     "engineering/Brain Computer Interface.md",
-    "engineering/History of Heat Engine.md",
     "attachments/Pasted image 20260805161145.png",
     "attachments/Functional_Near-Infrared_Spectrometry_as_a_Useful_.pdf",
     "attachments/Pasted image 20260805145947.png",
@@ -336,7 +328,6 @@
     "attachments/Pasted image 20260731152915.png",
     "SWIC/SIUE EE Courses Dependency Map.canvas",
     "attachments/Pasted image 20260731091949.png",
-    "attachments/Laser Projector - System Diagram.png",
     "engineering",
     "anthropology/ANTH_150_Cultural_Anthropology.md",
     "SWIC/UIUC_MS_ECE.md",

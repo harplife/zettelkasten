@@ -2913,32 +2913,20 @@
                 }
               },
               {
-                "id": "2b86072138312709",
-                "type": "leaf",
-                "state": {
-                  "type": "release-notes",
-                  "state": {
-                    "currentVersion": "1.13.7"
-                  },
-                  "icon": "lucide-book-up",
-                  "title": "Release Notes 1.13.7"
-                }
-              },
-              {
                 "id": "63391903521e9e1a",
                 "type": "leaf",
                 "state": {
                   "type": "canvas",
                   "state": {
-                    "file": "SWIC/SIUE EE Courses Dependency Map.canvas",
+                    "file": "engineering/Electromagnetics.canvas",
                     "viewState": {
-                      "x": -988.9035778295561,
-                      "y": 2006.3666549977404,
-                      "zoom": -0.7844535507467522
+                      "x": 0,
+                      "y": 0,
+                      "zoom": 0
                     }
                   },
                   "icon": "lucide-layout-dashboard",
-                  "title": "SIUE EE Courses Dependency Map"
+                  "title": "Electromagnetics"
                 }
               }
             ],
@@ -3022,6 +3010,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
+                    "file": "engineering/Electromagnetics.canvas",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
@@ -3034,7 +3023,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 347.5
+        "width": 347.5,
+        "collapsed": true
       },
       "right": {
         "id": "f152d8fd8ec1f4e0",
@@ -3158,7 +3148,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "SWIC/SIUE EE Courses Dependency Map.canvas",
+                    "file": "engineering/Electromagnetics.canvas",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -3176,7 +3166,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 362.5
+        "width": 362.5,
+        "collapsed": true
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -3194,8 +3185,8 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "227e6011dc684b16",
-      "mtime": "2026-09-26T18:35:41-05:00",
+      "active": "63391903521e9e1a",
+      "mtime": "2026-09-26T18:36:26-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "anthropology",
