@@ -2913,6 +2913,18 @@
                 }
               },
               {
+                "id": "2b86072138312709",
+                "type": "leaf",
+                "state": {
+                  "type": "release-notes",
+                  "state": {
+                    "currentVersion": "1.13.7"
+                  },
+                  "icon": "lucide-book-up",
+                  "title": "Release Notes 1.13.7"
+                }
+              },
+              {
                 "id": "63391903521e9e1a",
                 "type": "leaf",
                 "state": {
@@ -2930,7 +2942,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -3010,7 +3022,6 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "engineering/History of Heat Engine.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
@@ -3157,7 +3168,7 @@
                     "unlinkedCollapsed": false
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for SIUE EE Courses Dependency Map"
+                  "title": "Backlinks"
                 }
               }
             ],
@@ -3165,8 +3176,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 362.5,
-        "collapsed": true
+        "width": 362.5
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -3184,8 +3194,8 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "5cefb925714b6ee1",
-      "mtime": "2026-09-05T10:17:19-05:00",
+      "active": "227e6011dc684b16",
+      "mtime": "2026-09-26T18:35:41-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "anthropology",
