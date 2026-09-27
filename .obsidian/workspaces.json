@@ -2920,9 +2920,9 @@
                   "state": {
                     "file": "engineering/Electromagnetics.canvas",
                     "viewState": {
-                      "x": -1181.0893609075015,
-                      "y": -793.3346959630938,
-                      "zoom": -0.40000000000000013
+                      "x": -581.9283269854413,
+                      "y": 381.54177681357027,
+                      "zoom": -1.2000000000000002
                     }
                   },
                   "icon": "lucide-layout-dashboard",
@@ -2945,7 +2945,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -3025,7 +3025,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "engineering/drudes_formula.md",
+                    "file": "engineering/Electromagnetics.canvas",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
@@ -3038,7 +3038,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 347.5
+        "width": 347.5,
+        "collapsed": true
       },
       "right": {
         "id": "f152d8fd8ec1f4e0",
@@ -3162,7 +3163,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "engineering/drudes_formula.md",
+                    "file": "engineering/Electromagnetics.canvas",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -3199,8 +3200,8 @@
           "workspaces-plus:Manage workspaces": false
         }
       },
-      "active": "cf14250f9601c79a",
-      "mtime": "2026-09-27T11:52:01-05:00",
+      "active": "63391903521e9e1a",
+      "mtime": "2026-09-27T12:21:51-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "anthropology",
