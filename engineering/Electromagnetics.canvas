@@ -739,16 +739,6 @@
 			"height":60
 		},
 		{
-			"id":"f74303dd64e81090",
-			"type":"text",
-			"text":"==Ohm's Law== states that the electric current flowing through a conductor is directly proportional to the voltage applied across it, provided its temperature remains constant.",
-			"styleAttributes":{},
-			"x":-1300,
-			"y":-1200,
-			"width":460,
-			"height":160
-		},
-		{
 			"id":"52ba99657dc187c9",
 			"type":"text",
 			"text":"==Current Density== specifies precisely where and in which direction the charge flows at any given point in space.",
@@ -779,26 +769,6 @@
 			"height":150
 		},
 		{
-			"id":"7c736e7f825e76a1",
-			"type":"text",
-			"text":"Unit of Measurement",
-			"styleAttributes":{},
-			"x":-1350,
-			"y":-2070,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"f92fcf389ab853e8",
-			"type":"text",
-			"text":"ohm $\\Omega$",
-			"styleAttributes":{},
-			"x":-1660,
-			"y":-2100,
-			"width":130,
-			"height":60
-		},
-		{
 			"id":"a1e25a31ef08aab3",
 			"type":"text",
 			"text":"==Electrical Resistance== measures how much a specific object opposes the flow of electric current. It depends on the material and the physical dimensions (length and thickness) of the object.",
@@ -807,6 +777,46 @@
 			"y":-1940,
 			"width":600,
 			"height":140
+		},
+		{
+			"id":"7c736e7f825e76a1",
+			"type":"text",
+			"text":"Unit of Measurement",
+			"styleAttributes":{},
+			"x":-680,
+			"y":-1970,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"f92fcf389ab853e8",
+			"type":"text",
+			"text":"ohm $\\Omega$",
+			"styleAttributes":{},
+			"x":-1000,
+			"y":-2000,
+			"width":130,
+			"height":60
+		},
+		{
+			"id":"f74303dd64e81090",
+			"type":"text",
+			"text":"==Ohm's Law== states that the electric current flowing through a conductor is directly proportional to the voltage applied across it, provided its temperature remains constant.",
+			"styleAttributes":{},
+			"x":-1165,
+			"y":-1740,
+			"width":460,
+			"height":160
+		},
+		{
+			"id":"6bdc22a94edf026b",
+			"type":"text",
+			"text":"$$\nV = IR\n$$",
+			"styleAttributes":{},
+			"x":-1025,
+			"y":-1480,
+			"width":180,
+			"height":80
 		}
 	],
 	"edges":[
@@ -1547,6 +1557,15 @@
 			"toNode":"c3e9d7497076e16a",
 			"toSide":"top",
 			"fromEnd":"arrow"
+		},
+		{
+			"id":"36ffe9cfa31af521",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"f74303dd64e81090",
+			"fromSide":"bottom",
+			"toNode":"6bdc22a94edf026b",
+			"toSide":"top"
 		}
 	],
 	"metadata":{
