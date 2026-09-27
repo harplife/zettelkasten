@@ -970,6 +970,16 @@
 			"y":740,
 			"width":180,
 			"height":80
+		},
+		{
+			"id":"243542db4a70c655",
+			"type":"text",
+			"text":"==Electromagnetic Field== is an invisible physical field ",
+			"styleAttributes":{},
+			"x":-880,
+			"y":720,
+			"width":420,
+			"height":260
 		}
 	],
 	"edges":[
@@ -1827,6 +1837,15 @@
 			"fromNode":"9d9a90433f2fcc65",
 			"fromSide":"bottom",
 			"toNode":"20c9f7c186a3db93",
+			"toSide":"top"
+		},
+		{
+			"id":"59eaafd94d09c3f7",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"44a4fac076d12657",
+			"fromSide":"bottom",
+			"toNode":"243542db4a70c655",
 			"toSide":"top"
 		}
 	],
