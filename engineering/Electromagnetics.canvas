@@ -737,6 +737,36 @@
 			"y":-805,
 			"width":440,
 			"height":340
+		},
+		{
+			"id":"5aeefa3be756cd2b",
+			"type":"text",
+			"text":"$$\n\\nabla \\times \\vec{H} = \\vec{J}_{f}\n$$",
+			"styleAttributes":{},
+			"x":-2840,
+			"y":-855,
+			"width":280,
+			"height":100
+		},
+		{
+			"id":"6bef558fb3f504db",
+			"type":"text",
+			"text":"Ampere's Law",
+			"styleAttributes":{},
+			"x":-2830,
+			"y":-980,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"52ba99657dc187c9",
+			"type":"text",
+			"text":"==Current Density== specifies precisely where and in which direction the charge flows at any given point in space.",
+			"styleAttributes":{},
+			"x":-3020,
+			"y":-1280,
+			"width":420,
+			"height":120
 		}
 	],
 	"edges":[
@@ -1421,6 +1451,15 @@
 			"fromSide":"left",
 			"toNode":"8163333b7c5fc839",
 			"toSide":"right"
+		},
+		{
+			"id":"608a5525d0da07d1",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"6bef558fb3f504db",
+			"fromSide":"bottom",
+			"toNode":"5aeefa3be756cd2b",
+			"toSide":"top"
 		}
 	],
 	"metadata":{
