@@ -840,16 +840,6 @@
 		},
 		{"id":"06ef4b3d449ce793","type":"file","file":"attachments/Pasted image 20260927111109.jpg","x":-3028,"y":-2480,"width":752,"height":325},
 		{
-			"id":"e152e084a86a07d0",
-			"type":"text",
-			"text":"Electrical conductance and resistance are determined by a material's electronic structure; specifically, the availability and mobility of free electrons that can move around to carry an electric current.",
-			"styleAttributes":{},
-			"x":-2430,
-			"y":-1390,
-			"width":660,
-			"height":120
-		},
-		{
 			"id":"e3d863f8af84331b",
 			"type":"text",
 			"text":"==Electrical Conductor== is an object or type of material that allows the flow of charge (electric current) in one or more directions.",
@@ -868,6 +858,56 @@
 			"y":-465,
 			"width":420,
 			"height":120
+		},
+		{
+			"id":"e152e084a86a07d0",
+			"type":"text",
+			"text":"Electrical conductance and resistance are determined by a material's electronic structure; specifically, the availability and mobility of free electrons that can move around to carry an electric current.",
+			"styleAttributes":{},
+			"x":-2280,
+			"y":-1490,
+			"width":660,
+			"height":120
+		},
+		{
+			"id":"a4d3cc9da1de1292",
+			"type":"text",
+			"text":"Electrical conductance and resistance are affected by a material's electron density (charge carrier density).",
+			"styleAttributes":{},
+			"x":-2100,
+			"y":-1200,
+			"width":445,
+			"height":140
+		},
+		{
+			"id":"70402503c4844ca7",
+			"type":"text",
+			"text":"Electrical conductivity $\\sigma$ is directly proportional to the number of free electrons per unit volume $n$.",
+			"styleAttributes":{},
+			"x":-1532,
+			"y":-1200,
+			"width":345,
+			"height":145
+		},
+		{
+			"id":"2c61ffb3fd2cb36b",
+			"type":"text",
+			"text":"==Drude's formula for electrical conductivity==\n\n$$\n\\sigma = \\frac{ne^2 \\tau}{m}\n$$\n\nWhere:\n- $\\sigma$ = electrical conductivity\n- $n$ = free electron density\n- $e^2$ = elementary charge\n- $\\tau$ = relaxation time\n- $m$ = electron mass",
+			"styleAttributes":{},
+			"x":-1106,
+			"y":-1320,
+			"width":371,
+			"height":385
+		},
+		{
+			"id":"62c8b8d1d97897a8",
+			"type":"text",
+			"text":"==Relaxation Time== is the average time an electron can travel before colliding with an atom or defect. A higher relaxation time means electrons can travel further without bumping into obstacles - which results in higher conductance.",
+			"styleAttributes":{},
+			"x":-1280,
+			"y":-840,
+			"width":545,
+			"height":180
 		}
 	],
 	"edges":[
@@ -1662,6 +1702,33 @@
 			"fromSide":"left",
 			"toNode":"e152e084a86a07d0",
 			"toSide":"right"
+		},
+		{
+			"id":"21906b458343e6cb",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"a4d3cc9da1de1292",
+			"fromSide":"right",
+			"toNode":"70402503c4844ca7",
+			"toSide":"left"
+		},
+		{
+			"id":"5ca06a79470d7fc7",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"70402503c4844ca7",
+			"fromSide":"right",
+			"toNode":"2c61ffb3fd2cb36b",
+			"toSide":"left"
+		},
+		{
+			"id":"6751c8f73fefb595",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"2c61ffb3fd2cb36b",
+			"fromSide":"bottom",
+			"toNode":"62c8b8d1d97897a8",
+			"toSide":"top"
 		}
 	],
 	"metadata":{
