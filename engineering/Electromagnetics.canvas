@@ -1,5 +1,6 @@
 {
 	"nodes":[
+		{"id":"527fb13a00244023","type":"group","x":-5680,"y":-960,"width":2020,"height":200,"label":"Microscopic version"},
 		{
 			"id":"20475392f008a131",
 			"type":"text",
@@ -524,65 +525,157 @@
 			"width":460,
 			"height":60
 		},
-		{
-			"id":"6bd7583578235311",
-			"type":"text",
-			"text":"==Gauss's Law for Electric Fields==",
-			"styleAttributes":{},
-			"x":-5460,
-			"y":-1440,
-			"width":380,
-			"height":60
-		},
-		{
-			"id":"ca7ba63efaafb7e1",
-			"type":"text",
-			"text":"Gauss's Law of Magnetic Fields",
-			"styleAttributes":{},
-			"x":-4920,
-			"y":-1440,
-			"width":340,
-			"height":60
-		},
+		{"id":"9f4c2d60508c5839","type":"file","file":"attachments/Pasted image 20260926203057.jpg","x":-5680,"y":-2296,"width":543,"height":673},
 		{
 			"id":"3a4ee7664b023957",
 			"type":"text",
-			"text":"Faraday's Law of Induction",
+			"text":"==Faraday's Law of Induction==",
 			"styleAttributes":{},
-			"x":-4460,
-			"y":-1460,
+			"x":-4580,
+			"y":-1380,
 			"width":320,
 			"height":60
 		},
 		{
+			"id":"29163aad136c0907",
+			"type":"text",
+			"text":"A magnetic field that changes over time induces a rotating (curling) electric field",
+			"styleAttributes":{},
+			"x":-4580,
+			"y":-1240,
+			"width":320,
+			"height":120
+		},
+		{
 			"id":"7901c1422ae92a5a",
 			"type":"text",
-			"text":"The Ampere-Maxwell Law",
+			"text":"==The Ampere-Maxwell Law==",
 			"styleAttributes":{},
-			"x":-3900,
-			"y":-1460,
+			"x":-4100,
+			"y":-1400,
 			"width":260,
+			"height":60
+		},
+		{
+			"id":"d3d6195ec4782a68",
+			"type":"text",
+			"text":"Magnetic fields are generated either by electric current density ($J$) or by an electric field changing over time ($\\frac{\\partial E}{\\partial t}$)",
+			"styleAttributes":{},
+			"x":-4100,
+			"y":-1260,
+			"width":380,
+			"height":140
+		},
+		{
+			"id":"6f1de6fe793c31fd",
+			"type":"text",
+			"text":"Magnetic monopoles do not exist. Magnetic field lines are continuous loops; the total magnetic flux out of any closed surface is always zero.",
+			"styleAttributes":{},
+			"x":-5150,
+			"y":-1240,
+			"width":400,
+			"height":160
+		},
+		{
+			"id":"ca7ba63efaafb7e1",
+			"type":"text",
+			"text":"==Gauss's Law of Magnetic Fields==",
+			"styleAttributes":{},
+			"x":-5120,
+			"y":-1380,
+			"width":340,
 			"height":60
 		},
 		{
 			"id":"6840973c75f7e11c",
 			"type":"text",
-			"text":"Electric charges create diverging electric fields. Net electric flux out of a closed surface is proportional to the enclosed electric charge density ($\\rho$) divided by the permittivity of free space ($\\varepsilon$)",
+			"text":"Electric charges create diverging electric fields. Net electric flux out of a closed surface is proportional to the enclosed electric charge density ($\\rho$) divided by the permittivity of free space ($\\varepsilon_{0}$)",
 			"styleAttributes":{},
-			"x":-5560,
-			"y":-1320,
+			"x":-5760,
+			"y":-1260,
 			"width":480,
 			"height":160
+		},
+		{
+			"id":"6bd7583578235311",
+			"type":"text",
+			"text":"==Gauss's Law for Electric Fields==",
+			"styleAttributes":{},
+			"x":-5660,
+			"y":-1380,
+			"width":380,
+			"height":60
+		},
+		{
+			"id":"c648267ecc629c0d",
+			"type":"text",
+			"text":"Furthermore, it showed that self-sustaining oscillating electric and magnetic fields propagate through space at the speed of light, proving light itself is an electromagnetic force.",
+			"styleAttributes":{},
+			"x":-3820,
+			"y":-1755,
+			"width":600,
+			"height":132
+		},
+		{
+			"id":"fc8f9ce3ed5c649c",
+			"type":"text",
+			"text":"These equations proved that electricity and magnetism are two aspects of a single fundamental force (electromagnetism).",
+			"styleAttributes":{},
+			"x":-4390,
+			"y":-1747,
+			"width":480,
+			"height":117
+		},
+		{"id":"367ea13768e018c6","type":"file","file":"attachments/del operator (nabla).jpg","x":-6700,"y":-1560,"width":720,"height":720},
+		{
+			"id":"f12af2c97b0026cb",
+			"type":"text",
+			"text":"Microscopic version",
+			"styleAttributes":{},
+			"x":-5640,
+			"y":-1100,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"22dab4c638565975",
+			"type":"text",
+			"text":"$$\n\\nabla \\times E = - \\frac{\\partial B}{\\partial t}\n$$",
+			"styleAttributes":{},
+			"x":-4560,
+			"y":-905,
+			"width":280,
+			"height":100
+		},
+		{
+			"id":"a02d8b5e2e64ffaa",
+			"type":"text",
+			"text":"$$\n\\nabla \\cdot B = 0\n$$",
+			"styleAttributes":{},
+			"x":-5080,
+			"y":-895,
+			"width":260,
+			"height":80
+		},
+		{
+			"id":"b8ca0956f1396408",
+			"type":"text",
+			"text":"$$\n\\nabla \\times B = \\mu_{0} \\left(J + \\varepsilon_{0} \\frac{\\partial E}{\\partial t}\\right)\n$$",
+			"styleAttributes":{},
+			"x":-4130,
+			"y":-910,
+			"width":440,
+			"height":110
 		},
 		{
 			"id":"40198a8110338736",
 			"type":"text",
 			"text":"$$\n\\nabla \\cdot E = \\frac{\\rho}{\\varepsilon_{0}}\n$$",
 			"styleAttributes":{},
-			"x":-5560,
-			"y":-980,
+			"x":-5640,
+			"y":-905,
 			"width":260,
-			"height":280
+			"height":100
 		}
 	],
 	"edges":[
@@ -1125,12 +1218,93 @@
 			"toSide":"top"
 		},
 		{
+			"id":"edfa3dfd961db624",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"91cb8c1c01ece953",
+			"fromSide":"left",
+			"toNode":"9f4c2d60508c5839",
+			"toSide":"right"
+		},
+		{
+			"id":"0f46f25990e119b6",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"ca7ba63efaafb7e1",
+			"fromSide":"bottom",
+			"toNode":"6f1de6fe793c31fd",
+			"toSide":"top"
+		},
+		{
+			"id":"70ff09c3c4ffc0b1",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"3a4ee7664b023957",
+			"fromSide":"bottom",
+			"toNode":"29163aad136c0907",
+			"toSide":"top"
+		},
+		{
+			"id":"8143867e81cd9cd4",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"7901c1422ae92a5a",
+			"fromSide":"bottom",
+			"toNode":"d3d6195ec4782a68",
+			"toSide":"top"
+		},
+		{
+			"id":"f625a7f451786b18",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"91cb8c1c01ece953",
+			"fromSide":"right",
+			"toNode":"fc8f9ce3ed5c649c",
+			"toSide":"left"
+		},
+		{
+			"id":"c5a7c424995557b4",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"fc8f9ce3ed5c649c",
+			"fromSide":"right",
+			"toNode":"c648267ecc629c0d",
+			"toSide":"left"
+		},
+		{
 			"id":"ec1f74ac3f90554a",
 			"styleAttributes":{},
 			"toFloating":false,
 			"fromNode":"6840973c75f7e11c",
 			"fromSide":"bottom",
 			"toNode":"40198a8110338736",
+			"toSide":"top"
+		},
+		{
+			"id":"31366603f093b235",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"6f1de6fe793c31fd",
+			"fromSide":"bottom",
+			"toNode":"a02d8b5e2e64ffaa",
+			"toSide":"top"
+		},
+		{
+			"id":"0278d4c5199ed33f",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"29163aad136c0907",
+			"fromSide":"bottom",
+			"toNode":"22dab4c638565975",
+			"toSide":"top"
+		},
+		{
+			"id":"31072787a01623f9",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"d3d6195ec4782a68",
+			"fromSide":"bottom",
+			"toNode":"b8ca0956f1396408",
 			"toSide":"top"
 		}
 	],
