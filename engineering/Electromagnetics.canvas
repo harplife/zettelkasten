@@ -228,7 +228,7 @@
 		{
 			"id":"3ce8dda98aa2538e",
 			"type":"text",
-			"text":"==Electrical Conductivity== is a material's intrinsic property to conduct an electric current. It is also a measurement of how easily a material allows an electric current to flow.",
+			"text":"==Electrical Conductivity== is a material's intrinsic property to conduct an electric current.",
 			"styleAttributes":{},
 			"x":30,
 			"y":-1060,
@@ -254,16 +254,6 @@
 			"y":-700,
 			"width":320,
 			"height":140
-		},
-		{
-			"id":"c3e9d7497076e16a",
-			"type":"text",
-			"text":"==Electrical Resistivity== is a material's intrinsic property to oppose an electric current.",
-			"styleAttributes":{},
-			"x":30,
-			"y":-1320,
-			"width":460,
-			"height":100
 		},
 		{
 			"id":"3c34323da40e6145",
@@ -485,16 +475,6 @@
 			"y":760,
 			"width":260,
 			"height":60
-		},
-		{
-			"id":"f74303dd64e81090",
-			"type":"text",
-			"text":"==Ohm's Law== states that the electric current flowing through a conductor is directly proportional to the voltage applied across it, provided its temperature remains constant.",
-			"styleAttributes":{},
-			"x":-1680,
-			"y":-580,
-			"width":460,
-			"height":160
 		},
 		{
 			"id":"60755f6ec6460b2a",
@@ -751,7 +731,7 @@
 		{
 			"id":"6bef558fb3f504db",
 			"type":"text",
-			"text":"Ampere's Law",
+			"text":"==Ampere's Law==",
 			"styleAttributes":{},
 			"x":-2830,
 			"y":-980,
@@ -759,14 +739,74 @@
 			"height":60
 		},
 		{
+			"id":"f74303dd64e81090",
+			"type":"text",
+			"text":"==Ohm's Law== states that the electric current flowing through a conductor is directly proportional to the voltage applied across it, provided its temperature remains constant.",
+			"styleAttributes":{},
+			"x":-1300,
+			"y":-1200,
+			"width":460,
+			"height":160
+		},
+		{
 			"id":"52ba99657dc187c9",
 			"type":"text",
 			"text":"==Current Density== specifies precisely where and in which direction the charge flows at any given point in space.",
 			"styleAttributes":{},
-			"x":-3020,
-			"y":-1280,
+			"x":-1780,
+			"y":-560,
 			"width":420,
 			"height":120
+		},
+		{
+			"id":"e3d863f8af84331b",
+			"type":"text",
+			"text":"==Electrical Conductor== is an object or type of material that allows the flow of charge (electric current) in one or more directions.",
+			"styleAttributes":{},
+			"x":-1180,
+			"y":-780,
+			"width":360,
+			"height":150
+		},
+		{
+			"id":"a1e25a31ef08aab3",
+			"type":"text",
+			"text":"==Electrical Resistance== measures how much a specific object opposes the flow of electric current. It depends on the material and the physical dimensions (length and thickness) of the object.",
+			"styleAttributes":{},
+			"x":-880,
+			"y":-1520,
+			"width":600,
+			"height":140
+		},
+		{
+			"id":"7c736e7f825e76a1",
+			"type":"text",
+			"text":"Unit of Measurement",
+			"styleAttributes":{},
+			"x":-40,
+			"y":-1680,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"f92fcf389ab853e8",
+			"type":"text",
+			"text":"ohm $\\Omega$",
+			"styleAttributes":{},
+			"x":360,
+			"y":-1680,
+			"width":130,
+			"height":60
+		},
+		{
+			"id":"c3e9d7497076e16a",
+			"type":"text",
+			"text":"==Electrical Resistivity== is a material's intrinsic, fundamental property of a specific material itself. It measures how strongly a substance resists current regardless of its shape or size.",
+			"styleAttributes":{},
+			"x":30,
+			"y":-1345,
+			"width":460,
+			"height":150
 		}
 	],
 	"edges":[
@@ -1460,6 +1500,33 @@
 			"fromSide":"bottom",
 			"toNode":"5aeefa3be756cd2b",
 			"toSide":"top"
+		},
+		{
+			"id":"9c7cfcee9e444296",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"d3a1f1530dbf0f81",
+			"fromSide":"top",
+			"toNode":"52ba99657dc187c9",
+			"toSide":"right"
+		},
+		{
+			"id":"6e7428bf3d954f90",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"a1e25a31ef08aab3",
+			"fromSide":"right",
+			"toNode":"7c736e7f825e76a1",
+			"toSide":"left"
+		},
+		{
+			"id":"e834bf3bbf798752",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"7c736e7f825e76a1",
+			"fromSide":"right",
+			"toNode":"f92fcf389ab853e8",
+			"toSide":"left"
 		}
 	],
 	"metadata":{
