@@ -904,10 +904,20 @@
 			"type":"text",
 			"text":"==Relaxation Time== is the average time an electron can travel before colliding with an atom or defect. A higher relaxation time means electrons can travel further without bumping into obstacles - which results in higher conductance.",
 			"styleAttributes":{},
-			"x":-1280,
+			"x":-1240,
 			"y":-840,
 			"width":545,
 			"height":180
+		},
+		{
+			"id":"b88dfe684e96802d",
+			"type":"text",
+			"text":"How Drude's formula is derived",
+			"styleAttributes":{},
+			"x":-1720,
+			"y":-840,
+			"width":340,
+			"height":90
 		}
 	],
 	"edges":[
