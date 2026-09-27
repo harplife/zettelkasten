@@ -2,176 +2,7 @@
 	"nodes":[
 		{"id":"527fb13a00244023","type":"group","x":-5760,"y":-960,"width":2100,"height":200,"label":"Microscopic version"},
 		{"id":"8163333b7c5fc839","type":"group","x":-5760,"y":-660,"width":2100,"height":180,"label":"Macroscopic version"},
-		{
-			"id":"20475392f008a131",
-			"type":"text",
-			"text":"Types of Charge",
-			"styleAttributes":{},
-			"x":180,
-			"y":-240,
-			"width":240,
-			"height":80
-		},
-		{
-			"id":"abf0e45514274857",
-			"type":"text",
-			"text":"Negative Charge",
-			"styleAttributes":{},
-			"x":540,
-			"y":-360,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"e1ebd7b10a5b64fb",
-			"type":"text",
-			"text":"Positive Charge",
-			"styleAttributes":{},
-			"x":540,
-			"y":-160,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"af4ba51e8a2a9d48",
-			"type":"text",
-			"text":"Properties of Charge",
-			"styleAttributes":{},
-			"x":170,
-			"y":260,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"fe950b9e623c28b0",
-			"type":"text",
-			"text":"Charge is quantized.",
-			"styleAttributes":{},
-			"x":600,
-			"y":240,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"12796cb50fb09bd2",
-			"type":"text",
-			"text":"Charge can neither be created nor destroyed; it can only be transferred from place to place, from one object to another.",
-			"styleAttributes":{},
-			"x":1160,
-			"y":560,
-			"width":510,
-			"height":120
-		},
-		{
-			"id":"1217f94900cf2ebb",
-			"type":"text",
-			"text":"Law of Conservation of Charge",
-			"styleAttributes":{},
-			"x":600,
-			"y":580,
-			"width":420,
-			"height":80
-		},
-		{
-			"id":"c401bc214a8e93ec",
-			"type":"text",
-			"text":"If two objects that have equal and opposite charges are physically close to each other, then the forces they apply on some other charged object cancel, for a net force of zero.",
-			"styleAttributes":{},
-			"x":1160,
-			"y":720,
-			"width":510,
-			"height":160
-		},
-		{
-			"id":"13254e8293498b51",
-			"type":"text",
-			"text":"The smallest charge is $e \\equiv 1.602 \\times 10^{-19} \\,\\text{C}$.",
-			"styleAttributes":{},
-			"x":1160,
-			"y":170,
-			"width":420,
-			"height":100
-		},
-		{
-			"id":"f8e1d274febf81cb",
-			"type":"text",
-			"text":"The magnitude of the charge is independent of the type.",
-			"styleAttributes":{},
-			"x":600,
-			"y":400,
-			"width":520,
-			"height":60
-		},
-		{
-			"id":"2b76c31c1e63b8ef",
-			"type":"text",
-			"text":"Charge is a scalar quantity, meaning it has magnitude but no direction. The positive/negative indication only refers to algebraic polarity - they are opposite states that can cancel each other out to equal zero.",
-			"styleAttributes":{},
-			"x":1340,
-			"y":320,
-			"width":480,
-			"height":180
-		},
-		{
-			"id":"65ab50771e2ed9e4",
-			"type":"text",
-			"text":"Unit of Measurement",
-			"styleAttributes":{},
-			"x":175,
-			"y":8,
-			"width":245,
-			"height":65
-		},
-		{
-			"id":"99e0671db9687d73",
-			"type":"text",
-			"text":"Coulombs $C$",
-			"styleAttributes":{},
-			"x":600,
-			"y":13,
-			"width":210,
-			"height":60
-		},
-		{
-			"id":"3ce8dda98aa2538e",
-			"type":"text",
-			"text":"==Electrical Conductivity== is a material's intrinsic property to conduct an electric current.",
-			"styleAttributes":{},
-			"x":30,
-			"y":-1060,
-			"width":460,
-			"height":160
-		},
-		{
-			"id":"5022d859808c225a",
-			"type":"text",
-			"text":"Commonly represented as sigma $\\sigma$.",
-			"styleAttributes":{},
-			"x":670,
-			"y":-1030,
-			"width":340,
-			"height":60
-		},
-		{
-			"id":"f031b6825ba0b607",
-			"type":"text",
-			"text":"Conduction electrons can be thought of as physical vehicles that carry the electric charge",
-			"styleAttributes":{},
-			"x":100,
-			"y":-700,
-			"width":320,
-			"height":140
-		},
-		{
-			"id":"3c34323da40e6145",
-			"type":"text",
-			"text":"Commonly represented as rho $\\rho$.",
-			"styleAttributes":{},
-			"x":670,
-			"y":-1300,
-			"width":340,
-			"height":60
-		},
+		{"id":"df6f49546e91d9e9","type":"group","x":900,"y":1000,"width":320,"height":220,"label":"Types of Electric Force"},
 		{
 			"id":"8fe20b8b53734418",
 			"type":"text",
@@ -183,116 +14,6 @@
 			"height":160
 		},
 		{
-			"id":"dbfa2967838af430",
-			"type":"text",
-			"text":"Conductivity can be thought of as a measure of how easily the conduction electrons move through a material.",
-			"styleAttributes":{},
-			"x":640,
-			"y":-710,
-			"width":340,
-			"height":160
-		},
-		{
-			"id":"1c17c6751639d046",
-			"type":"text",
-			"text":"Unit of Measurement",
-			"styleAttributes":{},
-			"x":730,
-			"y":-860,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"8999aa1ccdb5bd5a",
-			"type":"text",
-			"text":"(SI unit) Siemens per Meter $S/m$",
-			"styleAttributes":{},
-			"x":1120,
-			"y":-900,
-			"width":360,
-			"height":70
-		},
-		{
-			"id":"c33f7d91fee0e588",
-			"type":"text",
-			"text":"$$\n\\sigma = \\frac{J}{E}\n$$",
-			"styleAttributes":{},
-			"x":1840,
-			"y":-1220,
-			"width":280,
-			"height":100
-		},
-		{
-			"id":"6498f3d412ef4d34",
-			"type":"text",
-			"text":"$$\n\\rho = \\frac{E}{J}\n$$\n\nwhere:\n- E = electric field\n- J = current density",
-			"styleAttributes":{},
-			"x":1400,
-			"y":-1890,
-			"width":260,
-			"height":240
-		},
-		{
-			"id":"334ec36ab747821d",
-			"type":"text",
-			"text":"$$\n\\sigma = \\frac{1}{\\rho}\n$$",
-			"styleAttributes":{},
-			"x":1420,
-			"y":-1235,
-			"width":240,
-			"height":130
-		},
-		{
-			"id":"01cd9bb1a7b36d91",
-			"type":"text",
-			"text":"Microscopic formula",
-			"styleAttributes":{},
-			"x":970,
-			"y":-1800,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"1edff7e5c97bef1e",
-			"type":"text",
-			"text":"The formula for the resistance/resistivity of a uniform conductor",
-			"styleAttributes":{},
-			"x":855,
-			"y":-2210,
-			"width":395,
-			"height":110
-		},
-		{
-			"id":"cb9e1df0e7fbcc60",
-			"type":"text",
-			"text":"Unit of Measurement",
-			"styleAttributes":{},
-			"x":760,
-			"y":-1440,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"fe8e161093bc0633",
-			"type":"text",
-			"text":"Ohm-meter $\\ohm \\cdot m$",
-			"styleAttributes":{},
-			"x":1120,
-			"y":-1440,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"0f5cd398a807c979",
-			"type":"text",
-			"text":"$$\n\\rho = R \\cdot \\frac{A}{L}\n$$\n\nwhere:\n- R = electrical resistance in ohms\n- A = cross-sectional area in square meters\n- L = length of the material in meters",
-			"styleAttributes":{},
-			"x":1400,
-			"y":-2320,
-			"width":390,
-			"height":300
-		},
-		{
 			"id":"7b12c7b4bbf6c131",
 			"type":"text",
 			"text":"==Electric Charge== is a fundamental physical property of matter that allows particles to experience and exert electric forces on one another.",
@@ -302,7 +23,6 @@
 			"width":380,
 			"height":240
 		},
-		{"id":"436e65106e708188","type":"file","file":"attachments/Pasted image 20260926195315.jpg","x":1120,"y":-731,"width":516,"height":343},
 		{
 			"id":"d3a1f1530dbf0f81",
 			"type":"text",
@@ -314,16 +34,6 @@
 			"height":160
 		},
 		{
-			"id":"f819c013e7e06aa0",
-			"type":"text",
-			"text":"Unit of Measurement",
-			"styleAttributes":{},
-			"x":-1620,
-			"y":-107,
-			"width":260,
-			"height":60
-		},
-		{
 			"id":"a3e7afa47898ec9e",
 			"type":"text",
 			"text":"1 amp equals 1 coulomb of charge moving past a point per second.",
@@ -332,6 +42,166 @@
 			"y":-137,
 			"width":280,
 			"height":120
+		},
+		{
+			"id":"52ba99657dc187c9",
+			"type":"text",
+			"text":"==Current Density== specifies precisely where and in which direction the charge flows at any given point in space.",
+			"styleAttributes":{},
+			"x":-1980,
+			"y":-465,
+			"width":420,
+			"height":120
+		},
+		{
+			"id":"a4d3cc9da1de1292",
+			"type":"text",
+			"text":"Electrical conductance and resistance are affected by a material's electron density (charge carrier density).",
+			"styleAttributes":{},
+			"x":-2100,
+			"y":-1200,
+			"width":445,
+			"height":140
+		},
+		{
+			"id":"2c61ffb3fd2cb36b",
+			"type":"text",
+			"text":"==Drude's formula for electrical conductivity==\n\n$$\n\\sigma = \\frac{ne^2 \\tau}{m}\n$$\n\nWhere:\n- $\\sigma$ = electrical conductivity\n- $n$ = free electron density\n- $e^2$ = elementary charge\n- $\\tau$ = relaxation time\n- $m$ = electron mass",
+			"styleAttributes":{},
+			"x":-1106,
+			"y":-1320,
+			"width":371,
+			"height":385
+		},
+		{
+			"id":"62c8b8d1d97897a8",
+			"type":"text",
+			"text":"==Relaxation Time== is the average time an electron can travel before colliding with an atom or defect. A higher relaxation time means electrons can travel further without bumping into obstacles - which results in higher conductance.",
+			"styleAttributes":{},
+			"x":-1240,
+			"y":-840,
+			"width":545,
+			"height":180
+		},
+		{
+			"id":"b88dfe684e96802d",
+			"type":"text",
+			"text":"How Drude's formula is derived",
+			"styleAttributes":{},
+			"x":-1720,
+			"y":-840,
+			"width":340,
+			"height":90
+		},
+		{
+			"id":"44a4fac076d12657",
+			"type":"text",
+			"text":"A single charged particle is the source of an electric field $\\vec{E}$ that extends through space in all directions, regardless of whether a second charge is present.\n\nHaving a net charge dictates how a particle responds to and creates electromagnetic fields.",
+			"styleAttributes":{},
+			"x":-635,
+			"y":240,
+			"width":435,
+			"height":260
+		},
+		{
+			"id":"22dab4c638565975",
+			"type":"text",
+			"text":"$$\n\\nabla \\times \\vec{E} = - \\frac{\\partial \\vec{B}}{\\partial t}\n$$",
+			"styleAttributes":{},
+			"x":-4560,
+			"y":-905,
+			"width":280,
+			"height":100
+		},
+		{
+			"id":"b8ca0956f1396408",
+			"type":"text",
+			"text":"$$\n\\nabla \\times \\vec{B} = \\mu_{0} \\left(\\vec{J} + \\varepsilon_{0} \\frac{\\partial \\vec{E}}{\\partial t}\\right)\n$$",
+			"styleAttributes":{},
+			"x":-4130,
+			"y":-910,
+			"width":440,
+			"height":110
+		},
+		{
+			"id":"1fc47e21dacb6540",
+			"type":"text",
+			"text":"$$\n\\nabla \\times \\vec{E} = - \\frac{\\partial \\vec{B}}{\\partial t}\n$$",
+			"styleAttributes":{},
+			"x":-4560,
+			"y":-630,
+			"width":280,
+			"height":100
+		},
+		{
+			"id":"8a6dfa2d63e1f768",
+			"type":"text",
+			"text":"$$\n\\nabla \\times \\vec{H} = \\vec{J}_{f} + \\frac{\\partial \\vec{D}}{\\partial t}\n$$",
+			"styleAttributes":{},
+			"x":-4060,
+			"y":-630,
+			"width":300,
+			"height":100
+		},
+		{
+			"id":"0cc69427ab37530b",
+			"type":"text",
+			"text":"Where:\n- $\\vec{E}$ = electric field\n- $\\vec{B}$ = magnetic field\n- $\\rho$ = total electric charge density\n- $\\vec{J}$ = total current density\n- $\\mu_{0}$ = vacuum permeability\n- $\\nabla \\cdot$ = divergence operator\n- $\\nabla \\times$ = curl operator",
+			"styleAttributes":{},
+			"x":-6360,
+			"y":-710,
+			"width":440,
+			"height":340
+		},
+		{
+			"id":"d2c3f618c83003f9",
+			"type":"text",
+			"text":"Where:\n- $\\vec{E}$ = electric field\n- $\\vec{B}$ = magnetic field\n- $\\vec{D}$ = electric displacement field\n- $\\vec{H}$ = magnetic field intensity\n- $\\rho_{f}$ = free electric charge density\n- $\\vec{J}_{f}$ = free current density\n- $\\nabla \\cdot$ = divergence operator\n- $\\nabla \\times$ = curl operator",
+			"styleAttributes":{},
+			"x":-3520,
+			"y":-805,
+			"width":440,
+			"height":340
+		},
+		{
+			"id":"5aeefa3be756cd2b",
+			"type":"text",
+			"text":"$$\n\\nabla \\times \\vec{H} = \\vec{J}_{f}\n$$",
+			"styleAttributes":{},
+			"x":-2840,
+			"y":-855,
+			"width":280,
+			"height":100
+		},
+		{
+			"id":"6bef558fb3f504db",
+			"type":"text",
+			"text":"==Ampere's Law==",
+			"styleAttributes":{},
+			"x":-2830,
+			"y":-980,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"70402503c4844ca7",
+			"type":"text",
+			"text":"Electrical conductivity $\\sigma$ is directly proportional to the number of free electrons per unit volume $n$.",
+			"styleAttributes":{},
+			"x":-1532,
+			"y":-1200,
+			"width":345,
+			"height":145
+		},
+		{
+			"id":"f819c013e7e06aa0",
+			"type":"text",
+			"text":"Unit of Measurement",
+			"styleAttributes":{},
+			"x":-1620,
+			"y":-107,
+			"width":260,
+			"height":60
 		},
 		{
 			"id":"243e4024a9cdaefc",
@@ -374,6 +244,46 @@
 			"height":60
 		},
 		{
+			"id":"a02d8b5e2e64ffaa",
+			"type":"text",
+			"text":"$$\n\\nabla \\cdot \\vec{B} = 0\n$$",
+			"styleAttributes":{},
+			"x":-5080,
+			"y":-895,
+			"width":260,
+			"height":80
+		},
+		{
+			"id":"40198a8110338736",
+			"type":"text",
+			"text":"$$\n\\nabla \\cdot \\vec{E} = \\frac{\\rho}{\\varepsilon_{0}}\n$$",
+			"styleAttributes":{},
+			"x":-5640,
+			"y":-905,
+			"width":260,
+			"height":100
+		},
+		{
+			"id":"e73897abe31c9767",
+			"type":"text",
+			"text":"$$\n\\nabla \\cdot \\vec{B} = 0\n$$",
+			"styleAttributes":{},
+			"x":-5080,
+			"y":-620,
+			"width":260,
+			"height":80
+		},
+		{
+			"id":"f9da1d85385f8c81",
+			"type":"text",
+			"text":"$$\n\\nabla \\cdot \\vec{D} = \\rho_{f}\n$$",
+			"styleAttributes":{},
+			"x":-5650,
+			"y":-620,
+			"width":280,
+			"height":80
+		},
+		{
 			"id":"efaf4fade959011d",
 			"type":"text",
 			"text":"Alternating Current (AC)",
@@ -383,37 +293,6 @@
 			"width":260,
 			"height":60
 		},
-		{
-			"id":"60755f6ec6460b2a",
-			"type":"text",
-			"text":"==Electromagnetism==",
-			"styleAttributes":{},
-			"x":-4900,
-			"y":-2040,
-			"width":340,
-			"height":80
-		},
-		{
-			"id":"41f988c7269b764c",
-			"type":"text",
-			"text":"Foundation of classical electromagnetism",
-			"styleAttributes":{},
-			"x":-4880,
-			"y":-1900,
-			"width":300,
-			"height":100
-		},
-		{
-			"id":"91cb8c1c01ece953",
-			"type":"text",
-			"text":"The Four Maxwell's Equations (Differential Form)",
-			"styleAttributes":{},
-			"x":-4960,
-			"y":-1720,
-			"width":460,
-			"height":60
-		},
-		{"id":"9f4c2d60508c5839","type":"file","file":"attachments/Pasted image 20260926203057.jpg","x":-5680,"y":-2296,"width":543,"height":673},
 		{
 			"id":"3a4ee7664b023957",
 			"type":"text",
@@ -443,227 +322,6 @@
 			"y":-1400,
 			"width":260,
 			"height":60
-		},
-		{
-			"id":"d3d6195ec4782a68",
-			"type":"text",
-			"text":"Magnetic fields are generated either by electric current density ($J$) or by an electric field changing over time ($\\frac{\\partial E}{\\partial t}$)",
-			"styleAttributes":{},
-			"x":-4100,
-			"y":-1260,
-			"width":380,
-			"height":140
-		},
-		{
-			"id":"6f1de6fe793c31fd",
-			"type":"text",
-			"text":"Magnetic monopoles do not exist. Magnetic field lines are continuous loops; the total magnetic flux out of any closed surface is always zero.",
-			"styleAttributes":{},
-			"x":-5150,
-			"y":-1240,
-			"width":400,
-			"height":160
-		},
-		{
-			"id":"ca7ba63efaafb7e1",
-			"type":"text",
-			"text":"==Gauss's Law of Magnetic Fields==",
-			"styleAttributes":{},
-			"x":-5120,
-			"y":-1380,
-			"width":340,
-			"height":60
-		},
-		{
-			"id":"6840973c75f7e11c",
-			"type":"text",
-			"text":"Electric charges create diverging electric fields. Net electric flux out of a closed surface is proportional to the enclosed electric charge density ($\\rho$) divided by the permittivity of free space ($\\varepsilon_{0}$)",
-			"styleAttributes":{},
-			"x":-5760,
-			"y":-1260,
-			"width":480,
-			"height":160
-		},
-		{
-			"id":"6bd7583578235311",
-			"type":"text",
-			"text":"==Gauss's Law for Electric Fields==",
-			"styleAttributes":{},
-			"x":-5660,
-			"y":-1380,
-			"width":380,
-			"height":60
-		},
-		{
-			"id":"c648267ecc629c0d",
-			"type":"text",
-			"text":"Furthermore, it showed that self-sustaining oscillating electric and magnetic fields propagate through space at the speed of light, proving light itself is an electromagnetic force.",
-			"styleAttributes":{},
-			"x":-3820,
-			"y":-1755,
-			"width":600,
-			"height":132
-		},
-		{
-			"id":"fc8f9ce3ed5c649c",
-			"type":"text",
-			"text":"These equations proved that electricity and magnetism are two aspects of a single fundamental force (electromagnetism).",
-			"styleAttributes":{},
-			"x":-4390,
-			"y":-1747,
-			"width":480,
-			"height":117
-		},
-		{"id":"367ea13768e018c6","type":"file","file":"attachments/del operator (nabla).jpg","x":-6700,"y":-1560,"width":720,"height":720},
-		{
-			"id":"f12af2c97b0026cb",
-			"type":"text",
-			"text":"Microscopic version",
-			"styleAttributes":{},
-			"x":-5640,
-			"y":-1100,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"22dab4c638565975",
-			"type":"text",
-			"text":"$$\n\\nabla \\times \\vec{E} = - \\frac{\\partial \\vec{B}}{\\partial t}\n$$",
-			"styleAttributes":{},
-			"x":-4560,
-			"y":-905,
-			"width":280,
-			"height":100
-		},
-		{
-			"id":"a02d8b5e2e64ffaa",
-			"type":"text",
-			"text":"$$\n\\nabla \\cdot \\vec{B} = 0\n$$",
-			"styleAttributes":{},
-			"x":-5080,
-			"y":-895,
-			"width":260,
-			"height":80
-		},
-		{
-			"id":"b8ca0956f1396408",
-			"type":"text",
-			"text":"$$\n\\nabla \\times \\vec{B} = \\mu_{0} \\left(\\vec{J} + \\varepsilon_{0} \\frac{\\partial \\vec{E}}{\\partial t}\\right)\n$$",
-			"styleAttributes":{},
-			"x":-4130,
-			"y":-910,
-			"width":440,
-			"height":110
-		},
-		{
-			"id":"40198a8110338736",
-			"type":"text",
-			"text":"$$\n\\nabla \\cdot \\vec{E} = \\frac{\\rho}{\\varepsilon_{0}}\n$$",
-			"styleAttributes":{},
-			"x":-5640,
-			"y":-905,
-			"width":260,
-			"height":100
-		},
-		{
-			"id":"e73897abe31c9767",
-			"type":"text",
-			"text":"$$\n\\nabla \\cdot \\vec{B} = 0\n$$",
-			"styleAttributes":{},
-			"x":-5080,
-			"y":-620,
-			"width":260,
-			"height":80
-		},
-		{
-			"id":"1fc47e21dacb6540",
-			"type":"text",
-			"text":"$$\n\\nabla \\times \\vec{E} = - \\frac{\\partial \\vec{B}}{\\partial t}\n$$",
-			"styleAttributes":{},
-			"x":-4560,
-			"y":-630,
-			"width":280,
-			"height":100
-		},
-		{
-			"id":"8a6dfa2d63e1f768",
-			"type":"text",
-			"text":"$$\n\\nabla \\times \\vec{H} = \\vec{J}_{f} + \\frac{\\partial \\vec{D}}{\\partial t}\n$$",
-			"styleAttributes":{},
-			"x":-4060,
-			"y":-630,
-			"width":300,
-			"height":100
-		},
-		{
-			"id":"0cc69427ab37530b",
-			"type":"text",
-			"text":"Where:\n- $\\vec{E}$ = electric field\n- $\\vec{B}$ = magnetic field\n- $\\rho$ = total electric charge density\n- $\\vec{J}$ = total current density\n- $\\mu_{0}$ = vacuum permeability\n- $\\nabla \\cdot$ = divergence operator\n- $\\nabla \\times$ = curl operator",
-			"styleAttributes":{},
-			"x":-6360,
-			"y":-710,
-			"width":440,
-			"height":340
-		},
-		{
-			"id":"f9da1d85385f8c81",
-			"type":"text",
-			"text":"$$\n\\nabla \\cdot \\vec{D} = \\rho_{f}\n$$",
-			"styleAttributes":{},
-			"x":-5650,
-			"y":-620,
-			"width":280,
-			"height":80
-		},
-		{
-			"id":"d2c3f618c83003f9",
-			"type":"text",
-			"text":"Where:\n- $\\vec{E}$ = electric field\n- $\\vec{B}$ = magnetic field\n- $\\vec{D}$ = electric displacement field\n- $\\vec{H}$ = magnetic field intensity\n- $\\rho_{f}$ = free electric charge density\n- $\\vec{J}_{f}$ = free current density\n- $\\nabla \\cdot$ = divergence operator\n- $\\nabla \\times$ = curl operator",
-			"styleAttributes":{},
-			"x":-3520,
-			"y":-805,
-			"width":440,
-			"height":340
-		},
-		{
-			"id":"5aeefa3be756cd2b",
-			"type":"text",
-			"text":"$$\n\\nabla \\times \\vec{H} = \\vec{J}_{f}\n$$",
-			"styleAttributes":{},
-			"x":-2840,
-			"y":-855,
-			"width":280,
-			"height":100
-		},
-		{
-			"id":"6bef558fb3f504db",
-			"type":"text",
-			"text":"==Ampere's Law==",
-			"styleAttributes":{},
-			"x":-2830,
-			"y":-980,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"c3e9d7497076e16a",
-			"type":"text",
-			"text":"==Electrical Resistivity== is a material's intrinsic, fundamental property of a specific material itself. It measures how strongly a substance resists current regardless of its shape or size.",
-			"styleAttributes":{},
-			"x":30,
-			"y":-1345,
-			"width":460,
-			"height":150
-		},
-		{
-			"id":"a1e25a31ef08aab3",
-			"type":"text",
-			"text":"==Electrical Resistance== measures how much a specific object opposes the flow of electric current. It depends on the material and the physical dimensions (length and thickness) of the object.",
-			"styleAttributes":{},
-			"x":-270,
-			"y":-1940,
-			"width":600,
-			"height":140
 		},
 		{
 			"id":"e09403b9c5622675",
@@ -716,24 +374,75 @@
 			"height":60
 		},
 		{
-			"id":"f74303dd64e81090",
+			"id":"e152e084a86a07d0",
 			"type":"text",
-			"text":"==Ohm's Law== states that the electric current flowing through a conductor is directly proportional to the voltage applied across it, provided its temperature remains constant.",
+			"text":"Electrical conductance and resistance are determined by a material's electronic structure; specifically, the availability and mobility of free electrons that can move around to carry an electric current.",
 			"styleAttributes":{},
-			"x":-180,
-			"y":-2780,
-			"width":460,
-			"height":160
+			"x":-2280,
+			"y":-1490,
+			"width":660,
+			"height":120
 		},
 		{
-			"id":"6bdc22a94edf026b",
+			"id":"60755f6ec6460b2a",
 			"type":"text",
-			"text":"$$\nV = IR\n$$",
+			"text":"==Electromagnetism==",
 			"styleAttributes":{},
-			"x":-40,
-			"y":-2520,
-			"width":180,
+			"x":-4900,
+			"y":-2040,
+			"width":340,
 			"height":80
+		},
+		{
+			"id":"41f988c7269b764c",
+			"type":"text",
+			"text":"Foundation of classical electromagnetism",
+			"styleAttributes":{},
+			"x":-4880,
+			"y":-1900,
+			"width":300,
+			"height":100
+		},
+		{
+			"id":"91cb8c1c01ece953",
+			"type":"text",
+			"text":"The Four Maxwell's Equations (Differential Form)",
+			"styleAttributes":{},
+			"x":-4960,
+			"y":-1720,
+			"width":460,
+			"height":60
+		},
+		{"id":"9f4c2d60508c5839","type":"file","file":"attachments/Pasted image 20260926203057.jpg","x":-5680,"y":-2296,"width":543,"height":673},
+		{
+			"id":"d3d6195ec4782a68",
+			"type":"text",
+			"text":"Magnetic fields are generated either by electric current density ($J$) or by an electric field changing over time ($\\frac{\\partial E}{\\partial t}$)",
+			"styleAttributes":{},
+			"x":-4100,
+			"y":-1260,
+			"width":380,
+			"height":140
+		},
+		{
+			"id":"c648267ecc629c0d",
+			"type":"text",
+			"text":"Furthermore, it showed that self-sustaining oscillating electric and magnetic fields propagate through space at the speed of light, proving light itself is an electromagnetic force.",
+			"styleAttributes":{},
+			"x":-3820,
+			"y":-1755,
+			"width":600,
+			"height":132
+		},
+		{
+			"id":"fc8f9ce3ed5c649c",
+			"type":"text",
+			"text":"These equations proved that electricity and magnetism are two aspects of a single fundamental force (electromagnetism).",
+			"styleAttributes":{},
+			"x":-4390,
+			"y":-1747,
+			"width":480,
+			"height":117
 		},
 		{
 			"id":"951bfea00d0bf046",
@@ -757,89 +466,57 @@
 			"height":150
 		},
 		{
-			"id":"52ba99657dc187c9",
+			"id":"6f1de6fe793c31fd",
 			"type":"text",
-			"text":"==Current Density== specifies precisely where and in which direction the charge flows at any given point in space.",
+			"text":"Magnetic monopoles do not exist. Magnetic field lines are continuous loops; the total magnetic flux out of any closed surface is always zero.",
 			"styleAttributes":{},
-			"x":-1980,
-			"y":-465,
-			"width":420,
-			"height":120
+			"x":-5150,
+			"y":-1240,
+			"width":400,
+			"height":160
 		},
 		{
-			"id":"e152e084a86a07d0",
+			"id":"ca7ba63efaafb7e1",
 			"type":"text",
-			"text":"Electrical conductance and resistance are determined by a material's electronic structure; specifically, the availability and mobility of free electrons that can move around to carry an electric current.",
+			"text":"==Gauss's Law of Magnetic Fields==",
 			"styleAttributes":{},
-			"x":-2280,
-			"y":-1490,
-			"width":660,
-			"height":120
-		},
-		{
-			"id":"a4d3cc9da1de1292",
-			"type":"text",
-			"text":"Electrical conductance and resistance are affected by a material's electron density (charge carrier density).",
-			"styleAttributes":{},
-			"x":-2100,
-			"y":-1200,
-			"width":445,
-			"height":140
-		},
-		{
-			"id":"70402503c4844ca7",
-			"type":"text",
-			"text":"Electrical conductivity $\\sigma$ is directly proportional to the number of free electrons per unit volume $n$.",
-			"styleAttributes":{},
-			"x":-1532,
-			"y":-1200,
-			"width":345,
-			"height":145
-		},
-		{
-			"id":"2c61ffb3fd2cb36b",
-			"type":"text",
-			"text":"==Drude's formula for electrical conductivity==\n\n$$\n\\sigma = \\frac{ne^2 \\tau}{m}\n$$\n\nWhere:\n- $\\sigma$ = electrical conductivity\n- $n$ = free electron density\n- $e^2$ = elementary charge\n- $\\tau$ = relaxation time\n- $m$ = electron mass",
-			"styleAttributes":{},
-			"x":-1106,
-			"y":-1320,
-			"width":371,
-			"height":385
-		},
-		{
-			"id":"62c8b8d1d97897a8",
-			"type":"text",
-			"text":"==Relaxation Time== is the average time an electron can travel before colliding with an atom or defect. A higher relaxation time means electrons can travel further without bumping into obstacles - which results in higher conductance.",
-			"styleAttributes":{},
-			"x":-1240,
-			"y":-840,
-			"width":545,
-			"height":180
-		},
-		{
-			"id":"b88dfe684e96802d",
-			"type":"text",
-			"text":"How Drude's formula is derived",
-			"styleAttributes":{},
-			"x":-1720,
-			"y":-840,
+			"x":-5120,
+			"y":-1380,
 			"width":340,
-			"height":90
-		},
-		{"id":"36261970f8eaa98f","type":"file","file":"attachments/EF_negative_charge.svg","x":1790,"y":2460,"width":400,"height":400},
-		{"id":"cb008f77cfeb2af3","type":"file","file":"attachments/EF_positive_charge.svg","x":1350,"y":2880,"width":400,"height":400},
-		{"id":"affb20b9b6e2df5f","type":"file","file":"attachments/electric_field_of_dipole.svg","x":1230,"y":2510,"width":400,"height":300},
-		{"id":"8883e19e8d2b0786","type":"file","file":"attachments/Pasted image 20260927122156.jpg","x":-170,"y":2700,"width":1160,"height":653},
-		{
-			"id":"81a849551b7830f5",
-			"type":"text",
-			"text":"Newtons per Coulomb $N/C$",
-			"styleAttributes":{},
-			"x":1215,
-			"y":2120,
-			"width":320,
 			"height":60
 		},
+		{
+			"id":"6840973c75f7e11c",
+			"type":"text",
+			"text":"Electric charges create diverging electric fields. Net electric flux out of a closed surface is proportional to the enclosed electric charge density ($\\rho$) divided by the permittivity of free space ($\\varepsilon_{0}$)",
+			"styleAttributes":{},
+			"x":-5760,
+			"y":-1260,
+			"width":480,
+			"height":160
+		},
+		{
+			"id":"6bd7583578235311",
+			"type":"text",
+			"text":"==Gauss's Law for Electric Fields==",
+			"styleAttributes":{},
+			"x":-5660,
+			"y":-1380,
+			"width":380,
+			"height":60
+		},
+		{"id":"367ea13768e018c6","type":"file","file":"attachments/del operator (nabla).jpg","x":-6700,"y":-1560,"width":720,"height":720},
+		{
+			"id":"f12af2c97b0026cb",
+			"type":"text",
+			"text":"Microscopic version",
+			"styleAttributes":{},
+			"x":-5640,
+			"y":-1100,
+			"width":260,
+			"height":60
+		},
+		{"id":"8883e19e8d2b0786","type":"file","file":"attachments/Pasted image 20260927122156.jpg","x":-170,"y":2700,"width":1160,"height":653},
 		{
 			"id":"3d550ec7e657e6e0",
 			"type":"text",
@@ -848,16 +525,6 @@
 			"x":645,
 			"y":2180,
 			"width":420,
-			"height":60
-		},
-		{
-			"id":"6d7604ebf9dbfd6b",
-			"type":"text",
-			"text":"Volts per Meter $V/m$",
-			"styleAttributes":{},
-			"x":1215,
-			"y":2240,
-			"width":260,
 			"height":60
 		},
 		{
@@ -881,6 +548,69 @@
 			"height":160
 		},
 		{
+			"id":"12796cb50fb09bd2",
+			"type":"text",
+			"text":"Charge can neither be created nor destroyed; it can only be transferred from place to place, from one object to another.",
+			"styleAttributes":{},
+			"x":1160,
+			"y":560,
+			"width":510,
+			"height":120
+		},
+		{
+			"id":"c401bc214a8e93ec",
+			"type":"text",
+			"text":"If two objects that have equal and opposite charges are physically close to each other, then the forces they apply on some other charged object cancel, for a net force of zero.",
+			"styleAttributes":{},
+			"x":1160,
+			"y":720,
+			"width":510,
+			"height":160
+		},
+		{
+			"id":"13254e8293498b51",
+			"type":"text",
+			"text":"The smallest charge is $e \\equiv 1.602 \\times 10^{-19} \\,\\text{C}$.",
+			"styleAttributes":{},
+			"x":1160,
+			"y":170,
+			"width":420,
+			"height":100
+		},
+		{
+			"id":"2b76c31c1e63b8ef",
+			"type":"text",
+			"text":"Charge is a scalar quantity, meaning it has magnitude but no direction. The positive/negative indication only refers to algebraic polarity - they are opposite states that can cancel each other out to equal zero.",
+			"styleAttributes":{},
+			"x":1340,
+			"y":320,
+			"width":480,
+			"height":180
+		},
+		{"id":"36261970f8eaa98f","type":"file","file":"attachments/EF_negative_charge.svg","x":1790,"y":2460,"width":400,"height":400},
+		{"id":"cb008f77cfeb2af3","type":"file","file":"attachments/EF_positive_charge.svg","x":1350,"y":2880,"width":400,"height":400},
+		{"id":"affb20b9b6e2df5f","type":"file","file":"attachments/electric_field_of_dipole.svg","x":1230,"y":2510,"width":400,"height":300},
+		{
+			"id":"81a849551b7830f5",
+			"type":"text",
+			"text":"Newtons per Coulomb $N/C$",
+			"styleAttributes":{},
+			"x":1215,
+			"y":2120,
+			"width":320,
+			"height":60
+		},
+		{
+			"id":"6d7604ebf9dbfd6b",
+			"type":"text",
+			"text":"Volts per Meter $V/m$",
+			"styleAttributes":{},
+			"x":1215,
+			"y":2240,
+			"width":260,
+			"height":60
+		},
+		{
 			"id":"bfb2ae912fca2c6a",
 			"type":"text",
 			"text":"$E = \\frac{F}{q}$",
@@ -891,24 +621,235 @@
 			"height":60
 		},
 		{
-			"id":"44a4fac076d12657",
+			"id":"3c34323da40e6145",
 			"type":"text",
-			"text":"Electric charge is the source of electric force; having a net charge dictates how a particle responds to and creates electromagnetic fields.",
+			"text":"Commonly represented as rho $\\rho$.",
 			"styleAttributes":{},
-			"x":-635,
-			"y":240,
-			"width":430,
-			"height":150
+			"x":670,
+			"y":-1300,
+			"width":340,
+			"height":60
 		},
 		{
-			"id":"7ae7aeffe501e63c",
+			"id":"6498f3d412ef4d34",
 			"type":"text",
-			"text":"Electrostatic Repulsion",
+			"text":"$$\n\\rho = \\frac{E}{J}\n$$\n\nwhere:\n- E = electric field\n- J = current density",
 			"styleAttributes":{},
-			"x":680,
-			"y":980,
+			"x":1400,
+			"y":-1890,
+			"width":260,
+			"height":240
+		},
+		{
+			"id":"01cd9bb1a7b36d91",
+			"type":"text",
+			"text":"Microscopic formula",
+			"styleAttributes":{},
+			"x":970,
+			"y":-1800,
 			"width":260,
 			"height":60
+		},
+		{
+			"id":"1edff7e5c97bef1e",
+			"type":"text",
+			"text":"The formula for the resistance/resistivity of a uniform conductor",
+			"styleAttributes":{},
+			"x":855,
+			"y":-2210,
+			"width":395,
+			"height":110
+		},
+		{
+			"id":"cb9e1df0e7fbcc60",
+			"type":"text",
+			"text":"Unit of Measurement",
+			"styleAttributes":{},
+			"x":760,
+			"y":-1440,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"fe8e161093bc0633",
+			"type":"text",
+			"text":"Ohm-meter $\\ohm \\cdot m$",
+			"styleAttributes":{},
+			"x":1120,
+			"y":-1440,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"0f5cd398a807c979",
+			"type":"text",
+			"text":"$$\n\\rho = R \\cdot \\frac{A}{L}\n$$\n\nwhere:\n- R = electrical resistance in ohms\n- A = cross-sectional area in square meters\n- L = length of the material in meters",
+			"styleAttributes":{},
+			"x":1400,
+			"y":-2320,
+			"width":390,
+			"height":300
+		},
+		{
+			"id":"abf0e45514274857",
+			"type":"text",
+			"text":"Negative Charge",
+			"styleAttributes":{},
+			"x":540,
+			"y":-360,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"e1ebd7b10a5b64fb",
+			"type":"text",
+			"text":"Positive Charge",
+			"styleAttributes":{},
+			"x":540,
+			"y":-160,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"99e0671db9687d73",
+			"type":"text",
+			"text":"Coulombs $C$",
+			"styleAttributes":{},
+			"x":600,
+			"y":13,
+			"width":210,
+			"height":60
+		},
+		{
+			"id":"5022d859808c225a",
+			"type":"text",
+			"text":"Commonly represented as sigma $\\sigma$.",
+			"styleAttributes":{},
+			"x":670,
+			"y":-1030,
+			"width":340,
+			"height":60
+		},
+		{
+			"id":"dbfa2967838af430",
+			"type":"text",
+			"text":"Conductivity can be thought of as a measure of how easily the conduction electrons move through a material.",
+			"styleAttributes":{},
+			"x":640,
+			"y":-710,
+			"width":340,
+			"height":160
+		},
+		{
+			"id":"1c17c6751639d046",
+			"type":"text",
+			"text":"Unit of Measurement",
+			"styleAttributes":{},
+			"x":730,
+			"y":-860,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"8999aa1ccdb5bd5a",
+			"type":"text",
+			"text":"(SI unit) Siemens per Meter $S/m$",
+			"styleAttributes":{},
+			"x":1120,
+			"y":-900,
+			"width":360,
+			"height":70
+		},
+		{
+			"id":"c33f7d91fee0e588",
+			"type":"text",
+			"text":"$$\n\\sigma = \\frac{J}{E}\n$$",
+			"styleAttributes":{},
+			"x":1840,
+			"y":-1220,
+			"width":280,
+			"height":100
+		},
+		{
+			"id":"334ec36ab747821d",
+			"type":"text",
+			"text":"$$\n\\sigma = \\frac{1}{\\rho}\n$$",
+			"styleAttributes":{},
+			"x":1420,
+			"y":-1235,
+			"width":240,
+			"height":130
+		},
+		{"id":"436e65106e708188","type":"file","file":"attachments/Pasted image 20260926195315.jpg","x":1120,"y":-731,"width":516,"height":343},
+		{
+			"id":"af4ba51e8a2a9d48",
+			"type":"text",
+			"text":"Properties of Charge",
+			"styleAttributes":{},
+			"x":170,
+			"y":260,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"fe950b9e623c28b0",
+			"type":"text",
+			"text":"Charge is quantized.",
+			"styleAttributes":{},
+			"x":600,
+			"y":240,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"1217f94900cf2ebb",
+			"type":"text",
+			"text":"Law of Conservation of Charge",
+			"styleAttributes":{},
+			"x":600,
+			"y":580,
+			"width":420,
+			"height":80
+		},
+		{
+			"id":"f8e1d274febf81cb",
+			"type":"text",
+			"text":"The magnitude of the charge is independent of the type.",
+			"styleAttributes":{},
+			"x":600,
+			"y":400,
+			"width":520,
+			"height":60
+		},
+		{
+			"id":"65ab50771e2ed9e4",
+			"type":"text",
+			"text":"Unit of Measurement",
+			"styleAttributes":{},
+			"x":175,
+			"y":8,
+			"width":245,
+			"height":65
+		},
+		{
+			"id":"3ce8dda98aa2538e",
+			"type":"text",
+			"text":"==Electrical Conductivity== is a material's intrinsic property to conduct an electric current.",
+			"styleAttributes":{},
+			"x":30,
+			"y":-1060,
+			"width":460,
+			"height":160
+		},
+		{
+			"id":"f031b6825ba0b607",
+			"type":"text",
+			"text":"Conduction electrons can be thought of as physical vehicles that carry the electric charge",
+			"styleAttributes":{},
+			"x":100,
+			"y":-700,
+			"width":320,
+			"height":140
 		},
 		{
 			"id":"35a903218240f8a0",
@@ -921,14 +862,114 @@
 			"height":220
 		},
 		{
+			"id":"20475392f008a131",
+			"type":"text",
+			"text":"Types of Charge",
+			"styleAttributes":{},
+			"x":180,
+			"y":-240,
+			"width":240,
+			"height":80
+		},
+		{
+			"id":"c3e9d7497076e16a",
+			"type":"text",
+			"text":"==Electrical Resistivity== is a material's intrinsic, fundamental property of a specific material itself. It measures how strongly a substance resists current regardless of its shape or size.",
+			"styleAttributes":{},
+			"x":30,
+			"y":-1345,
+			"width":460,
+			"height":150
+		},
+		{
+			"id":"a1e25a31ef08aab3",
+			"type":"text",
+			"text":"==Electrical Resistance== measures how much a specific object opposes the flow of electric current. It depends on the material and the physical dimensions (length and thickness) of the object.",
+			"styleAttributes":{},
+			"x":-270,
+			"y":-1940,
+			"width":600,
+			"height":140
+		},
+		{
+			"id":"f74303dd64e81090",
+			"type":"text",
+			"text":"==Ohm's Law== states that the electric current flowing through a conductor is directly proportional to the voltage applied across it, provided its temperature remains constant.",
+			"styleAttributes":{},
+			"x":-180,
+			"y":-2780,
+			"width":460,
+			"height":160
+		},
+		{
+			"id":"6bdc22a94edf026b",
+			"type":"text",
+			"text":"$$\nV = IR\n$$",
+			"styleAttributes":{},
+			"x":-40,
+			"y":-2520,
+			"width":180,
+			"height":80
+		},
+		{
+			"id":"7ae7aeffe501e63c",
+			"type":"text",
+			"text":"Electrostatic Repulsion",
+			"styleAttributes":{},
+			"x":925,
+			"y":1040,
+			"width":260,
+			"height":60
+		},
+		{
 			"id":"418dd8da8350ec78",
 			"type":"text",
 			"text":"Electrostatic Attraction",
 			"styleAttributes":{},
-			"x":680,
-			"y":1160,
+			"x":925,
+			"y":1120,
 			"width":260,
 			"height":60
+		},
+		{
+			"id":"335f6ee62aaa8b64",
+			"type":"text",
+			"text":"Commonly denoted as $F$.",
+			"styleAttributes":{},
+			"x":905,
+			"y":1300,
+			"width":280,
+			"height":60
+		},
+		{
+			"id":"a7c86e0c59516d34",
+			"type":"text",
+			"text":"An electric force requires an interaction between at least two charged objects ($q_{1}$ and $q_{2}$). A single isolated particle cannot exert a force on itself or \"have\" a force waiting to happen in empty space.",
+			"styleAttributes":{},
+			"x":200,
+			"y":1380,
+			"width":440,
+			"height":180
+		},
+		{
+			"id":"9d9a90433f2fcc65",
+			"type":"text",
+			"text":"Electric force $\\vec{F}$ arises locally; an electric force only materializes when a second, \"test\" charge $q$ enters an electric field $\\vec{E}$ and interacts with the field right at its own location.",
+			"styleAttributes":{},
+			"x":-65,
+			"y":480,
+			"width":430,
+			"height":160
+		},
+		{
+			"id":"20c9f7c186a3db93",
+			"type":"text",
+			"text":"$$\n\\vec{F}=q\\vec{E}\n$$",
+			"styleAttributes":{},
+			"x":60,
+			"y":740,
+			"width":180,
+			"height":80
 		}
 	],
 	"edges":[
@@ -975,24 +1016,6 @@
 			"fromNode":"7b12c7b4bbf6c131",
 			"fromSide":"right",
 			"toNode":"af4ba51e8a2a9d48",
-			"toSide":"left"
-		},
-		{
-			"id":"f1017fbcf68512e5",
-			"styleAttributes":{},
-			"toFloating":false,
-			"fromNode":"35a903218240f8a0",
-			"fromSide":"right",
-			"toNode":"7ae7aeffe501e63c",
-			"toSide":"left"
-		},
-		{
-			"id":"dcc66b89a7443673",
-			"styleAttributes":{},
-			"toFloating":false,
-			"fromNode":"35a903218240f8a0",
-			"fromSide":"right",
-			"toNode":"418dd8da8350ec78",
 			"toSide":"left"
 		},
 		{
@@ -1769,6 +1792,42 @@
 			"fromSide":"bottom",
 			"toNode":"35a903218240f8a0",
 			"toSide":"left"
+		},
+		{
+			"id":"2ca323b302bb2d7c",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"35a903218240f8a0",
+			"fromSide":"bottom",
+			"toNode":"a7c86e0c59516d34",
+			"toSide":"top"
+		},
+		{
+			"id":"da3df52e0e810f42",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"35a903218240f8a0",
+			"fromSide":"right",
+			"toNode":"335f6ee62aaa8b64",
+			"toSide":"left"
+		},
+		{
+			"id":"5a42c7372624e938",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"35a903218240f8a0",
+			"fromSide":"right",
+			"toNode":"df6f49546e91d9e9",
+			"toSide":"left"
+		},
+		{
+			"id":"bb057a6951619b08",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"9d9a90433f2fcc65",
+			"fromSide":"bottom",
+			"toNode":"20c9f7c186a3db93",
+			"toSide":"top"
 		}
 	],
 	"metadata":{

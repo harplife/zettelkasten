@@ -45,9 +45,9 @@
               "state": {
                 "file": "engineering/Electromagnetics.canvas",
                 "viewState": {
-                  "x": -233.94333336746976,
-                  "y": 210.4533206797308,
-                  "zoom": -1.1102230246251565e-16
+                  "x": 99.36814213568505,
+                  "y": 787.9374685387677,
+                  "zoom": 0.10566065551723847
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -327,10 +327,11 @@
   },
   "active": "63391903521e9e1a",
   "lastOpenFiles": [
-    "attachments/Pasted image 20260927122156.jpg",
-    "engineering/drudes_formula.md",
-    "attachments/Drude Model.svg",
+    "engineering/History of Heat Engine.md",
     "engineering/Electromagnetics.canvas",
+    "engineering/drudes_formula.md",
+    "attachments/Pasted image 20260927122156.jpg",
+    "attachments/Drude Model.svg",
     "attachments/Pasted image 20260927111109.jpg",
     "attachments/del operator (nabla).jpg",
     "attachments/Pasted image 20260926203057.jpg",
@@ -338,10 +339,8 @@
     "attachments/EF_negative_charge.svg",
     "attachments/EF_positive_charge.svg",
     "attachments/electric_field_of_dipole.svg",
-    "engineering/History of Heat Engine.md",
     "attachments/Aeolipile_illustration.svg",
     "engineering/Brain Computer Interface.md",
-    "attachments/Pasted image 20260805161145.png",
     "attachments/Functional_Near-Infrared_Spectrometry_as_a_Useful_.pdf",
     "engineering/Laser Image Projector.md",
     "SWIC/SIUE EE Courses Dependency Map.canvas",
