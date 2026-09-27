@@ -817,6 +817,26 @@
 			"y":-1480,
 			"width":180,
 			"height":80
+		},
+		{
+			"id":"3f974354b2f5140a",
+			"type":"text",
+			"text":"$$\nG = \\frac{1}{R}\n$$",
+			"styleAttributes":{},
+			"x":-1950,
+			"y":-1320,
+			"width":170,
+			"height":100
+		},
+		{
+			"id":"e09403b9c5622675",
+			"type":"text",
+			"text":"Electrical resistance is the mathematical reciprocal and opposite of electrical conductance. Meaning, they are inversely proportional.",
+			"styleAttributes":{},
+			"x":-1640,
+			"y":-1280,
+			"width":460,
+			"height":120
 		}
 	],
 	"edges":[
@@ -1566,6 +1586,15 @@
 			"fromSide":"bottom",
 			"toNode":"6bdc22a94edf026b",
 			"toSide":"top"
+		},
+		{
+			"id":"56e2552904fa352a",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"e09403b9c5622675",
+			"fromSide":"left",
+			"toNode":"3f974354b2f5140a",
+			"toSide":"right"
 		}
 	],
 	"metadata":{
