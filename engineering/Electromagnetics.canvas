@@ -1,6 +1,7 @@
 {
 	"nodes":[
 		{"id":"527fb13a00244023","type":"group","x":-5680,"y":-960,"width":2020,"height":200,"label":"Microscopic version"},
+		{"id":"8163333b7c5fc839","type":"group","x":-5660,"y":-640,"width":1920,"height":140,"label":"Macroscopic version"},
 		{
 			"id":"20475392f008a131",
 			"type":"text",
@@ -676,6 +677,56 @@
 			"y":-905,
 			"width":260,
 			"height":100
+		},
+		{
+			"id":"f9da1d85385f8c81",
+			"type":"text",
+			"text":"$$\n\\nabla \\cdot D = \\rho_{f}\n$$",
+			"styleAttributes":{},
+			"x":-5640,
+			"y":-620,
+			"width":280,
+			"height":80
+		},
+		{
+			"id":"e73897abe31c9767",
+			"type":"text",
+			"text":"$$\n\\nabla \\cdot B = 0\n$$",
+			"styleAttributes":{},
+			"x":-5080,
+			"y":-620,
+			"width":260,
+			"height":80
+		},
+		{
+			"id":"1fc47e21dacb6540",
+			"type":"text",
+			"text":"$$\n\\nabla \\times E = - \\frac{\\partial B}{\\partial t}\n$$",
+			"styleAttributes":{},
+			"x":-4560,
+			"y":-630,
+			"width":280,
+			"height":100
+		},
+		{
+			"id":"8a6dfa2d63e1f768",
+			"type":"text",
+			"text":"$$\n\\nabla \\times H = J_{f} + \\frac{\\partial D}{\\partial t}\n$$",
+			"styleAttributes":{},
+			"x":-4060,
+			"y":-630,
+			"width":300,
+			"height":100
+		},
+		{
+			"id":"0cc69427ab37530b",
+			"type":"text",
+			"text":"Where:\n- $E$ = electric field\n- $B$ = magnetic field\n- $\\rho$ = total electric charge density\n- $J$ = total current density\n- $\\mu_{0}$ = vacuum permeability\n- $\\nabla \\cdot$ = divergence operator\n- $\\nabla \\times$ = curl operator",
+			"styleAttributes":{},
+			"x":-6240,
+			"y":-750,
+			"width":440,
+			"height":340
 		}
 	],
 	"edges":[
@@ -1306,6 +1357,60 @@
 			"fromSide":"bottom",
 			"toNode":"b8ca0956f1396408",
 			"toSide":"top"
+		},
+		{
+			"id":"b6c87b9f55fc8176",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"40198a8110338736",
+			"fromSide":"bottom",
+			"toNode":"f9da1d85385f8c81",
+			"toSide":"top"
+		},
+		{
+			"id":"e74c344bca08ba75",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"a02d8b5e2e64ffaa",
+			"fromSide":"bottom",
+			"toNode":"e73897abe31c9767",
+			"toSide":"top"
+		},
+		{
+			"id":"f139d754b4df872b",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"22dab4c638565975",
+			"fromSide":"bottom",
+			"toNode":"1fc47e21dacb6540",
+			"toSide":"top"
+		},
+		{
+			"id":"50612382649100c9",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"b8ca0956f1396408",
+			"fromSide":"bottom",
+			"toNode":"8a6dfa2d63e1f768",
+			"toSide":"top"
+		},
+		{
+			"id":"2d4607dc9a99158a",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"0cc69427ab37530b",
+			"fromSide":"right",
+			"toNode":"527fb13a00244023",
+			"toSide":"left"
+		},
+		{
+			"id":"cecfd42a280d5d12",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"0cc69427ab37530b",
+			"fromSide":"right",
+			"toNode":"8163333b7c5fc839",
+			"toSide":"left"
 		}
 	],
 	"metadata":{
