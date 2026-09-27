@@ -483,6 +483,106 @@
 			"y":760,
 			"width":260,
 			"height":60
+		},
+		{
+			"id":"f74303dd64e81090",
+			"type":"text",
+			"text":"==Ohm's Law== states that the electric current flowing through a conductor is directly proportional to the voltage applied across it, provided its temperature remains constant.",
+			"styleAttributes":{},
+			"x":-1680,
+			"y":-580,
+			"width":460,
+			"height":160
+		},
+		{
+			"id":"60755f6ec6460b2a",
+			"type":"text",
+			"text":"==Electromagnetism==",
+			"styleAttributes":{},
+			"x":-4900,
+			"y":-2040,
+			"width":340,
+			"height":80
+		},
+		{
+			"id":"41f988c7269b764c",
+			"type":"text",
+			"text":"Foundation of classical electromagnetism",
+			"styleAttributes":{},
+			"x":-4880,
+			"y":-1900,
+			"width":300,
+			"height":100
+		},
+		{
+			"id":"91cb8c1c01ece953",
+			"type":"text",
+			"text":"The Four Maxwell's Equations (Differential Form)",
+			"styleAttributes":{},
+			"x":-4960,
+			"y":-1720,
+			"width":460,
+			"height":60
+		},
+		{
+			"id":"6bd7583578235311",
+			"type":"text",
+			"text":"==Gauss's Law for Electric Fields==",
+			"styleAttributes":{},
+			"x":-5460,
+			"y":-1440,
+			"width":380,
+			"height":60
+		},
+		{
+			"id":"ca7ba63efaafb7e1",
+			"type":"text",
+			"text":"Gauss's Law of Magnetic Fields",
+			"styleAttributes":{},
+			"x":-4920,
+			"y":-1440,
+			"width":340,
+			"height":60
+		},
+		{
+			"id":"3a4ee7664b023957",
+			"type":"text",
+			"text":"Faraday's Law of Induction",
+			"styleAttributes":{},
+			"x":-4460,
+			"y":-1460,
+			"width":320,
+			"height":60
+		},
+		{
+			"id":"7901c1422ae92a5a",
+			"type":"text",
+			"text":"The Ampere-Maxwell Law",
+			"styleAttributes":{},
+			"x":-3900,
+			"y":-1460,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"6840973c75f7e11c",
+			"type":"text",
+			"text":"Electric charges create diverging electric fields. Net electric flux out of a closed surface is proportional to the enclosed electric charge density ($\\rho$) divided by the permittivity of free space ($\\varepsilon$)",
+			"styleAttributes":{},
+			"x":-5560,
+			"y":-1320,
+			"width":480,
+			"height":160
+		},
+		{
+			"id":"40198a8110338736",
+			"type":"text",
+			"text":"$$\n\\nabla \\cdot E = \\frac{\\rho}{\\varepsilon_{0}}\n$$",
+			"styleAttributes":{},
+			"x":-5560,
+			"y":-980,
+			"width":260,
+			"height":280
 		}
 	],
 	"edges":[
@@ -958,6 +1058,79 @@
 			"fromNode":"d3a1f1530dbf0f81",
 			"fromSide":"bottom",
 			"toNode":"efaf4fade959011d",
+			"toSide":"top"
+		},
+		{
+			"id":"63d562acf51e016c",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"60755f6ec6460b2a",
+			"fromSide":"bottom",
+			"toNode":"41f988c7269b764c",
+			"toSide":"top"
+		},
+		{
+			"id":"599c8ed5aded97ec",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"41f988c7269b764c",
+			"fromSide":"bottom",
+			"toNode":"91cb8c1c01ece953",
+			"toSide":"top"
+		},
+		{
+			"id":"e139ed84ec18e3b5",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"91cb8c1c01ece953",
+			"fromSide":"bottom",
+			"toNode":"6bd7583578235311",
+			"toSide":"top"
+		},
+		{
+			"id":"b6a11fe74bea042b",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"91cb8c1c01ece953",
+			"fromSide":"bottom",
+			"toNode":"ca7ba63efaafb7e1",
+			"toSide":"top"
+		},
+		{
+			"id":"906d2bff54d7c7ba",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"91cb8c1c01ece953",
+			"fromSide":"bottom",
+			"toNode":"3a4ee7664b023957",
+			"toSide":"top"
+		},
+		{
+			"id":"1f72e9a5db56e54c",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"91cb8c1c01ece953",
+			"fromSide":"bottom",
+			"toNode":"7901c1422ae92a5a",
+			"toSide":"top"
+		},
+		{
+			"id":"a5a222d7ac3749fc",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"6bd7583578235311",
+			"fromSide":"bottom",
+			"toNode":"6840973c75f7e11c",
+			"toSide":"top"
+		},
+		{
+			"id":"ec1f74ac3f90554a",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"6840973c75f7e11c",
+			"fromSide":"bottom",
+			"toNode":"40198a8110338736",
 			"toSide":"top"
 		}
 	],
