@@ -24,36 +24,6 @@
 			"height":240
 		},
 		{
-			"id":"d3a1f1530dbf0f81",
-			"type":"text",
-			"text":"==Electric Current== is the rate of flow of electric charge past a specific point in a conductor or circuit.",
-			"styleAttributes":{},
-			"x":-1220,
-			"y":-157,
-			"width":440,
-			"height":160
-		},
-		{
-			"id":"a3e7afa47898ec9e",
-			"type":"text",
-			"text":"1 amp equals 1 coulomb of charge moving past a point per second.",
-			"styleAttributes":{},
-			"x":-2380,
-			"y":-137,
-			"width":280,
-			"height":120
-		},
-		{
-			"id":"52ba99657dc187c9",
-			"type":"text",
-			"text":"==Current Density== specifies precisely where and in which direction the charge flows at any given point in space.",
-			"styleAttributes":{},
-			"x":-1980,
-			"y":-465,
-			"width":420,
-			"height":120
-		},
-		{
 			"id":"a4d3cc9da1de1292",
 			"type":"text",
 			"text":"Electrical conductance and resistance are affected by a material's electron density (charge carrier density).",
@@ -194,56 +164,6 @@
 			"height":145
 		},
 		{
-			"id":"f819c013e7e06aa0",
-			"type":"text",
-			"text":"Unit of Measurement",
-			"styleAttributes":{},
-			"x":-1620,
-			"y":-107,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"243e4024a9cdaefc",
-			"type":"text",
-			"text":"Amperes (amps) $A$",
-			"styleAttributes":{},
-			"x":-1980,
-			"y":-107,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"f02343275f6b3c04",
-			"type":"text",
-			"text":"Electric current requires a voltage source (electrical pressure) and a complete, closed circuit loop to flow.",
-			"styleAttributes":{},
-			"x":-2000,
-			"y":100,
-			"width":360,
-			"height":120
-		},
-		{
-			"id":"8a97b3b31918dac5",
-			"type":"text",
-			"text":"Commonly represented as $I$.",
-			"styleAttributes":{},
-			"x":-1980,
-			"y":320,
-			"width":320,
-			"height":60
-		},
-		{
-			"id":"b55b4f05b95c6bfd",
-			"type":"text",
-			"text":"Direct Current (DC)",
-			"styleAttributes":{},
-			"x":-1700,
-			"y":700,
-			"width":260,
-			"height":60
-		},
-		{
 			"id":"a02d8b5e2e64ffaa",
 			"type":"text",
 			"text":"$$\n\\nabla \\cdot \\vec{B} = 0\n$$",
@@ -282,16 +202,6 @@
 			"y":-620,
 			"width":280,
 			"height":80
-		},
-		{
-			"id":"efaf4fade959011d",
-			"type":"text",
-			"text":"Alternating Current (AC)",
-			"styleAttributes":{},
-			"x":-1280,
-			"y":760,
-			"width":260,
-			"height":60
 		},
 		{
 			"id":"3a4ee7664b023957",
@@ -972,14 +882,174 @@
 			"height":80
 		},
 		{
+			"id":"d3a1f1530dbf0f81",
+			"type":"text",
+			"text":"==Electric Current== is the rate of flow of electric charge past a specific point in a conductor or circuit.",
+			"styleAttributes":{},
+			"x":-2760,
+			"y":-207,
+			"width":440,
+			"height":160
+		},
+		{
+			"id":"a3e7afa47898ec9e",
+			"type":"text",
+			"text":"1 amp equals 1 coulomb of charge moving past a point per second.",
+			"styleAttributes":{},
+			"x":-3920,
+			"y":-187,
+			"width":280,
+			"height":120
+		},
+		{
+			"id":"52ba99657dc187c9",
+			"type":"text",
+			"text":"==Current Density== specifies precisely where and in which direction the charge flows at any given point in space.",
+			"styleAttributes":{},
+			"x":-3520,
+			"y":-515,
+			"width":420,
+			"height":120
+		},
+		{
+			"id":"243e4024a9cdaefc",
+			"type":"text",
+			"text":"Amperes (amps) $A$",
+			"styleAttributes":{},
+			"x":-3520,
+			"y":-157,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"f819c013e7e06aa0",
+			"type":"text",
+			"text":"Unit of Measurement",
+			"styleAttributes":{},
+			"x":-3160,
+			"y":-157,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"f02343275f6b3c04",
+			"type":"text",
+			"text":"Electric current requires a voltage source (electrical pressure) and a complete, closed circuit loop to flow.",
+			"styleAttributes":{},
+			"x":-3540,
+			"y":50,
+			"width":360,
+			"height":120
+		},
+		{
+			"id":"8a97b3b31918dac5",
+			"type":"text",
+			"text":"Commonly represented as $I$.",
+			"styleAttributes":{},
+			"x":-3520,
+			"y":270,
+			"width":320,
+			"height":60
+		},
+		{
+			"id":"b55b4f05b95c6bfd",
+			"type":"text",
+			"text":"Direct Current (DC)",
+			"styleAttributes":{},
+			"x":-3240,
+			"y":650,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"efaf4fade959011d",
+			"type":"text",
+			"text":"Alternating Current (AC)",
+			"styleAttributes":{},
+			"x":-2820,
+			"y":710,
+			"width":260,
+			"height":60
+		},
+		{
 			"id":"243542db4a70c655",
 			"type":"text",
-			"text":"==Electromagnetic Field== is an invisible physical field ",
+			"text":"Electromagnetic field can be described as either global or local.",
 			"styleAttributes":{},
-			"x":-880,
+			"x":-1320,
 			"y":720,
 			"width":420,
-			"height":260
+			"height":100
+		},
+		{
+			"id":"2bdcc77491550e28",
+			"type":"text",
+			"text":"In the *classical electrodynamics*, it is called the **background field** or **medium**.",
+			"styleAttributes":{},
+			"x":-1720,
+			"y":1170,
+			"width":425,
+			"height":120
+		},
+		{
+			"id":"b2a8a94540481bd0",
+			"type":"text",
+			"text":"In the *quantum field theory*, it is called **unexcited field** or the **vacuum state**.",
+			"styleAttributes":{},
+			"x":-2160,
+			"y":1170,
+			"width":340,
+			"height":120
+		},
+		{
+			"id":"e24a46f7d52ab882",
+			"type":"text",
+			"text":"The \"Global\" Field is the infinite, underlying fabric of the universe when it is at its lowest possible energy level. It fills all space and time but has an average value of zero.",
+			"styleAttributes":{},
+			"x":-2030,
+			"y":950,
+			"width":560,
+			"height":140
+		},
+		{
+			"id":"a488ba8d89bfeeee",
+			"type":"text",
+			"text":"In the quantum field theory, it is called a **field excitation** or **quantum**.",
+			"styleAttributes":{},
+			"x":-1160,
+			"y":1220,
+			"width":380,
+			"height":80
+		},
+		{
+			"id":"e3f54ee7041f4cc2",
+			"type":"text",
+			"text":"The \"Local\" Field is the localized disturbance/excitation/ripple that is generated by a particle.",
+			"styleAttributes":{},
+			"x":-900,
+			"y":950,
+			"width":380,
+			"height":120
+		},
+		{
+			"id":"1c48ad5d1ea7c6dc",
+			"type":"text",
+			"text":"In the classical electrodynamics, it is divided into **Near-Fields** and **Far-Fields**.",
+			"styleAttributes":{},
+			"x":-710,
+			"y":1200,
+			"width":320,
+			"height":120
+		},
+		{
+			"id":"d2b5f188376d3444",
+			"type":"text",
+			"text":"The Near-Field is the localized, non-propagating cloud of electromagnetic energy immediately surrounding a charged particle or a magnet.",
+			"styleAttributes":{},
+			"x":-900,
+			"y":1480,
+			"width":380,
+			"height":200
 		}
 	],
 	"edges":[
@@ -1846,6 +1916,69 @@
 			"fromNode":"44a4fac076d12657",
 			"fromSide":"bottom",
 			"toNode":"243542db4a70c655",
+			"toSide":"top"
+		},
+		{
+			"id":"fb8b7ba32bfc6907",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"243542db4a70c655",
+			"fromSide":"bottom",
+			"toNode":"e24a46f7d52ab882",
+			"toSide":"top"
+		},
+		{
+			"id":"9314cdad88589de6",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"e24a46f7d52ab882",
+			"fromSide":"bottom",
+			"toNode":"b2a8a94540481bd0",
+			"toSide":"top"
+		},
+		{
+			"id":"f4218d7447950560",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"e24a46f7d52ab882",
+			"fromSide":"bottom",
+			"toNode":"2bdcc77491550e28",
+			"toSide":"top"
+		},
+		{
+			"id":"34101ca1976edc89",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"243542db4a70c655",
+			"fromSide":"bottom",
+			"toNode":"e3f54ee7041f4cc2",
+			"toSide":"top"
+		},
+		{
+			"id":"50413903d2a02b6f",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"e3f54ee7041f4cc2",
+			"fromSide":"bottom",
+			"toNode":"a488ba8d89bfeeee",
+			"toSide":"top"
+		},
+		{
+			"id":"aadcfa388eb129e1",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"e3f54ee7041f4cc2",
+			"fromSide":"bottom",
+			"toNode":"1c48ad5d1ea7c6dc",
+			"toSide":"top"
+		},
+		{
+			"id":"d661e8a164e312b7",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"1c48ad5d1ea7c6dc",
+			"fromSide":"bottom",
+			"toNode":"d2b5f188376d3444",
 			"toSide":"top"
 		}
 	],
