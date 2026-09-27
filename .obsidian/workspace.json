@@ -45,8 +45,8 @@
               "state": {
                 "file": "engineering/Electromagnetics.canvas",
                 "viewState": {
-                  "x": -1813.668602696187,
-                  "y": -1782.4211538583672,
+                  "x": -1356.8034120342722,
+                  "y": -673.6879776980995,
                   "zoom": -0.8000000000000002
                 }
               },
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "attachments/Pasted image 20260927111109.jpg",
+                "file": "engineering/Electromagnetics.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -273,7 +273,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "attachments/Pasted image 20260927111109.jpg",
+                "file": "engineering/Electromagnetics.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",

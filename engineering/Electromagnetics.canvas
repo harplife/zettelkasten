@@ -739,26 +739,6 @@
 			"height":60
 		},
 		{
-			"id":"52ba99657dc187c9",
-			"type":"text",
-			"text":"==Current Density== specifies precisely where and in which direction the charge flows at any given point in space.",
-			"styleAttributes":{},
-			"x":-1780,
-			"y":-560,
-			"width":420,
-			"height":120
-		},
-		{
-			"id":"e3d863f8af84331b",
-			"type":"text",
-			"text":"==Electrical Conductor== is an object or type of material that allows the flow of charge (electric current) in one or more directions.",
-			"styleAttributes":{},
-			"x":-1180,
-			"y":-780,
-			"width":360,
-			"height":150
-		},
-		{
 			"id":"c3e9d7497076e16a",
 			"type":"text",
 			"text":"==Electrical Resistivity== is a material's intrinsic, fundamental property of a specific material itself. It measures how strongly a substance resists current regardless of its shape or size.",
@@ -858,7 +838,37 @@
 			"width":655,
 			"height":220
 		},
-		{"id":"06ef4b3d449ce793","type":"file","file":"attachments/Pasted image 20260927111109.jpg","x":-3028,"y":-2480,"width":752,"height":325}
+		{"id":"06ef4b3d449ce793","type":"file","file":"attachments/Pasted image 20260927111109.jpg","x":-3028,"y":-2480,"width":752,"height":325},
+		{
+			"id":"e152e084a86a07d0",
+			"type":"text",
+			"text":"Electrical conductance and resistance are determined by a material's electronic structure; specifically, the availability and mobility of free electrons that can move around to carry an electric current.",
+			"styleAttributes":{},
+			"x":-2430,
+			"y":-1390,
+			"width":660,
+			"height":120
+		},
+		{
+			"id":"e3d863f8af84331b",
+			"type":"text",
+			"text":"==Electrical Conductor== is an object or type of material that allows the flow of charge (electric current) in one or more directions.",
+			"styleAttributes":{},
+			"x":-2980,
+			"y":-1480,
+			"width":360,
+			"height":150
+		},
+		{
+			"id":"52ba99657dc187c9",
+			"type":"text",
+			"text":"==Current Density== specifies precisely where and in which direction the charge flows at any given point in space.",
+			"styleAttributes":{},
+			"x":-1980,
+			"y":-465,
+			"width":420,
+			"height":120
+		}
 	],
 	"edges":[
 		{
@@ -1642,6 +1652,15 @@
 			"fromNode":"a1e25a31ef08aab3",
 			"fromSide":"left",
 			"toNode":"53a210b2fff33b6e",
+			"toSide":"right"
+		},
+		{
+			"id":"c5cd08664a5ec978",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"a1e25a31ef08aab3",
+			"fromSide":"left",
+			"toNode":"e152e084a86a07d0",
 			"toSide":"right"
 		}
 	],
