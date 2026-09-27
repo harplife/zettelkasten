@@ -31,16 +31,6 @@
 			"height":60
 		},
 		{
-			"id":"7b12c7b4bbf6c131",
-			"type":"text",
-			"text":"==Electric Charge== is a basic property of matter that causes subatomic particles to experience a force when placed in an electromagnetic field.",
-			"styleAttributes":{},
-			"x":-420,
-			"y":-200,
-			"width":380,
-			"height":240
-		},
-		{
 			"id":"af4ba51e8a2a9d48",
 			"type":"text",
 			"text":"Properties of Charge",
@@ -236,12 +226,12 @@
 		{
 			"id":"3ce8dda98aa2538e",
 			"type":"text",
-			"text":"==Electrical Conductivity== is a material's intrinsic property to conduct an electric current.",
+			"text":"==Electrical Conductivity== is a material's intrinsic property to conduct an electric current. It is also a measurement of how easily a material allows an electric current to flow.",
 			"styleAttributes":{},
 			"x":30,
 			"y":-1060,
 			"width":460,
-			"height":90
+			"height":160
 		},
 		{
 			"id":"5022d859808c225a",
@@ -294,76 +284,6 @@
 			"height":160
 		},
 		{
-			"id":"fe8e161093bc0633",
-			"type":"text",
-			"text":"Ohm-meter $\\ohm \\cdot m$",
-			"styleAttributes":{},
-			"x":1040,
-			"y":-1560,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"cb9e1df0e7fbcc60",
-			"type":"text",
-			"text":"Unit of Measurement",
-			"styleAttributes":{},
-			"x":680,
-			"y":-1560,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"0f5cd398a807c979",
-			"type":"text",
-			"text":"$$\n\\rho = R \\cdot \\frac{A}{L}\n$$\n\nwhere:\n- R = electrical resistance in ohms\n- A = cross-sectional area in square meters\n- L = length of the material in meters",
-			"styleAttributes":{},
-			"x":580,
-			"y":-2280,
-			"width":390,
-			"height":300
-		},
-		{
-			"id":"1edff7e5c97bef1e",
-			"type":"text",
-			"text":"Formula for a uniform conductor",
-			"styleAttributes":{},
-			"x":-95,
-			"y":-2080,
-			"width":370,
-			"height":80
-		},
-		{
-			"id":"6498f3d412ef4d34",
-			"type":"text",
-			"text":"$$\n\\rho = \\frac{E}{J}\n$$\n\nwhere:\n- E = electric field\n- J = current density",
-			"styleAttributes":{},
-			"x":600,
-			"y":-1890,
-			"width":260,
-			"height":240
-		},
-		{
-			"id":"01cd9bb1a7b36d91",
-			"type":"text",
-			"text":"Microscopic formula",
-			"styleAttributes":{},
-			"x":15,
-			"y":-1800,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"334ec36ab747821d",
-			"type":"text",
-			"text":"$$\n\\sigma = \\frac{1}{\\rho}\n$$",
-			"styleAttributes":{},
-			"x":1140,
-			"y":-1220,
-			"width":240,
-			"height":130
-		},
-		{
 			"id":"dbfa2967838af430",
 			"type":"text",
 			"text":"Conductivity can be thought of as a measure of how easily the conduction electrons move through a material.",
@@ -398,10 +318,171 @@
 			"type":"text",
 			"text":"$$\n\\sigma = \\frac{J}{E}\n$$",
 			"styleAttributes":{},
-			"x":1600,
-			"y":-1820,
+			"x":1840,
+			"y":-1220,
 			"width":280,
 			"height":100
+		},
+		{
+			"id":"6498f3d412ef4d34",
+			"type":"text",
+			"text":"$$\n\\rho = \\frac{E}{J}\n$$\n\nwhere:\n- E = electric field\n- J = current density",
+			"styleAttributes":{},
+			"x":1400,
+			"y":-1890,
+			"width":260,
+			"height":240
+		},
+		{
+			"id":"334ec36ab747821d",
+			"type":"text",
+			"text":"$$\n\\sigma = \\frac{1}{\\rho}\n$$",
+			"styleAttributes":{},
+			"x":1420,
+			"y":-1235,
+			"width":240,
+			"height":130
+		},
+		{
+			"id":"01cd9bb1a7b36d91",
+			"type":"text",
+			"text":"Microscopic formula",
+			"styleAttributes":{},
+			"x":970,
+			"y":-1800,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"1edff7e5c97bef1e",
+			"type":"text",
+			"text":"Formula for a uniform conductor",
+			"styleAttributes":{},
+			"x":855,
+			"y":-2210,
+			"width":370,
+			"height":80
+		},
+		{
+			"id":"cb9e1df0e7fbcc60",
+			"type":"text",
+			"text":"Unit of Measurement",
+			"styleAttributes":{},
+			"x":760,
+			"y":-1440,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"fe8e161093bc0633",
+			"type":"text",
+			"text":"Ohm-meter $\\ohm \\cdot m$",
+			"styleAttributes":{},
+			"x":1120,
+			"y":-1440,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"0f5cd398a807c979",
+			"type":"text",
+			"text":"$$\n\\rho = R \\cdot \\frac{A}{L}\n$$\n\nwhere:\n- R = electrical resistance in ohms\n- A = cross-sectional area in square meters\n- L = length of the material in meters",
+			"styleAttributes":{},
+			"x":1400,
+			"y":-2320,
+			"width":390,
+			"height":300
+		},
+		{
+			"id":"7b12c7b4bbf6c131",
+			"type":"text",
+			"text":"==Electric Charge== is a basic property of matter that causes subatomic particles to experience a force when placed in an electromagnetic field.",
+			"styleAttributes":{},
+			"x":-610,
+			"y":-197,
+			"width":380,
+			"height":240
+		},
+		{"id":"436e65106e708188","type":"file","file":"attachments/Pasted image 20260926195315.jpg","x":1120,"y":-731,"width":516,"height":343},
+		{
+			"id":"d3a1f1530dbf0f81",
+			"type":"text",
+			"text":"==Electric Current== is the rate of flow of electric charge past a specific point in a conductor or circuit.",
+			"styleAttributes":{},
+			"x":-1220,
+			"y":-157,
+			"width":440,
+			"height":160
+		},
+		{
+			"id":"f819c013e7e06aa0",
+			"type":"text",
+			"text":"Unit of Measurement",
+			"styleAttributes":{},
+			"x":-1620,
+			"y":-107,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"a3e7afa47898ec9e",
+			"type":"text",
+			"text":"1 amp equals 1 coulomb of charge moving past a point per second.",
+			"styleAttributes":{},
+			"x":-2380,
+			"y":-137,
+			"width":280,
+			"height":120
+		},
+		{
+			"id":"243e4024a9cdaefc",
+			"type":"text",
+			"text":"Amperes (amps) $A$",
+			"styleAttributes":{},
+			"x":-1980,
+			"y":-107,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"f02343275f6b3c04",
+			"type":"text",
+			"text":"Electric current requires a voltage source (electrical pressure) and a complete, closed circuit loop to flow.",
+			"styleAttributes":{},
+			"x":-2000,
+			"y":100,
+			"width":360,
+			"height":120
+		},
+		{
+			"id":"8a97b3b31918dac5",
+			"type":"text",
+			"text":"Commonly represented as $I$.",
+			"styleAttributes":{},
+			"x":-1980,
+			"y":320,
+			"width":320,
+			"height":60
+		},
+		{
+			"id":"b55b4f05b95c6bfd",
+			"type":"text",
+			"text":"Direct Current (DC)",
+			"styleAttributes":{},
+			"x":-1700,
+			"y":700,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"efaf4fade959011d",
+			"type":"text",
+			"text":"Alternating Current (AC)",
+			"styleAttributes":{},
+			"x":-1280,
+			"y":760,
+			"width":260,
+			"height":60
 		}
 	],
 	"edges":[
@@ -545,8 +626,9 @@
 			"id":"bccf8fed82292c57",
 			"styleAttributes":{},
 			"toFloating":false,
+			"fromFloating":false,
 			"fromNode":"7b12c7b4bbf6c131",
-			"fromSide":"right",
+			"fromSide":"bottom",
 			"toNode":"17e8aced77633015",
 			"toSide":"left"
 		},
@@ -777,6 +859,106 @@
 			"fromSide":"right",
 			"toNode":"c33f7d91fee0e588",
 			"toSide":"left"
+		},
+		{
+			"id":"3e41e465fe2c106e",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"c3e9d7497076e16a",
+			"fromSide":"right",
+			"toNode":"01cd9bb1a7b36d91",
+			"toSide":"left"
+		},
+		{
+			"id":"4aefea3a20b6c2ce",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"c3e9d7497076e16a",
+			"fromSide":"right",
+			"toNode":"1edff7e5c97bef1e",
+			"toSide":"left"
+		},
+		{
+			"id":"1f2fc620e38cfa2a",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"dbfa2967838af430",
+			"fromSide":"right",
+			"toNode":"436e65106e708188",
+			"toSide":"left"
+		},
+		{
+			"id":"f1d24bfebec7f564",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"7b12c7b4bbf6c131",
+			"fromSide":"left",
+			"toNode":"d3a1f1530dbf0f81",
+			"toSide":"right"
+		},
+		{
+			"id":"3833b1da14661091",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"d3a1f1530dbf0f81",
+			"fromSide":"left",
+			"toNode":"f819c013e7e06aa0",
+			"toSide":"right"
+		},
+		{
+			"id":"6ce24ead385ee861",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"f819c013e7e06aa0",
+			"fromSide":"left",
+			"toNode":"243e4024a9cdaefc",
+			"toSide":"right"
+		},
+		{
+			"id":"60258b55be5a2c54",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"243e4024a9cdaefc",
+			"fromSide":"left",
+			"toNode":"a3e7afa47898ec9e",
+			"toSide":"right"
+		},
+		{
+			"id":"518d2153eb9174e6",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"d3a1f1530dbf0f81",
+			"fromSide":"left",
+			"toNode":"f02343275f6b3c04",
+			"toSide":"right"
+		},
+		{
+			"id":"eccdae500e8e08dd",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"d3a1f1530dbf0f81",
+			"fromSide":"left",
+			"toNode":"8a97b3b31918dac5",
+			"toSide":"right"
+		},
+		{
+			"id":"5c71343dab37e437",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"d3a1f1530dbf0f81",
+			"fromSide":"bottom",
+			"toNode":"b55b4f05b95c6bfd",
+			"toSide":"top"
+		},
+		{
+			"id":"41b3a7f30fa72139",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"d3a1f1530dbf0f81",
+			"fromSide":"bottom",
+			"toNode":"efaf4fade959011d",
+			"toSide":"top"
 		}
 	],
 	"metadata":{
