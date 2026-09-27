@@ -779,12 +779,42 @@
 			"height":140
 		},
 		{
+			"id":"e09403b9c5622675",
+			"type":"text",
+			"text":"Electrical resistance is the mathematical reciprocal and opposite of electrical conductance. Meaning, they are inversely proportional.",
+			"styleAttributes":{},
+			"x":-550,
+			"y":-1600,
+			"width":460,
+			"height":120
+		},
+		{
+			"id":"3f974354b2f5140a",
+			"type":"text",
+			"text":"$$\nG = \\frac{1}{R}\n$$",
+			"styleAttributes":{},
+			"x":-905,
+			"y":-1540,
+			"width":170,
+			"height":100
+		},
+		{
+			"id":"53a210b2fff33b6e",
+			"type":"text",
+			"text":"Electrical resistance is like microscopic friction caused by metal's fixed atoms and ions in the crystal lattice. Changing the crystal lattice arrangement alters the metal's resistance.\n\nIn quantum mechanics, electrons travel through a *perfectly* arranged crystal lattice as smoothly as a wave passing through clear water. What actually causes electrical resistance is not the atoms themselves, but deviations or disruptions in that perfect lattice which scatter the electrons.\n\nMechanical stress (by bend, roll, or hammering a cold metal) multiplies the number of grain boundaries (the borders where misaligned crystal structures crash into each other). Electrons constantly smash into these boundaries, causing electrical resistance to increase.\n\nAnnealing (baking a heavily stressed, high-resistance metal at a high temperature and then letting it cool slowly) wipes away the grain boundaries, effectively resetting the chaotic crystal lattice arrangement back into a large, immaculate structure. Therefore, it decreases the metal's resistance.\n\nSome metals completely switch their geometric crystal patterns at different temperatures. These allotropes have different levels of resistivity. For example, iron at room temperature has a Body-Centered Cubic (BCC) structure, but when heated past 912 degree Celsius, it rearranges its atoms into a Face-Centered Cubic (FCC) structure.",
+			"styleAttributes":{},
+			"x":-2145,
+			"y":-2480,
+			"width":730,
+			"height":570
+		},
+		{
 			"id":"7c736e7f825e76a1",
 			"type":"text",
 			"text":"Unit of Measurement",
 			"styleAttributes":{},
 			"x":-680,
-			"y":-1970,
+			"y":-2140,
 			"width":260,
 			"height":60
 		},
@@ -793,8 +823,8 @@
 			"type":"text",
 			"text":"ohm $\\Omega$",
 			"styleAttributes":{},
-			"x":-1000,
-			"y":-2000,
+			"x":-1010,
+			"y":-2300,
 			"width":130,
 			"height":60
 		},
@@ -803,8 +833,8 @@
 			"type":"text",
 			"text":"==Ohm's Law== states that the electric current flowing through a conductor is directly proportional to the voltage applied across it, provided its temperature remains constant.",
 			"styleAttributes":{},
-			"x":-1165,
-			"y":-1740,
+			"x":-180,
+			"y":-2780,
 			"width":460,
 			"height":160
 		},
@@ -813,41 +843,22 @@
 			"type":"text",
 			"text":"$$\nV = IR\n$$",
 			"styleAttributes":{},
-			"x":-1025,
-			"y":-1480,
+			"x":-40,
+			"y":-2520,
 			"width":180,
 			"height":80
 		},
 		{
-			"id":"3f974354b2f5140a",
+			"id":"951bfea00d0bf046",
 			"type":"text",
-			"text":"$$\nG = \\frac{1}{R}\n$$",
+			"text":"==Allotropes== are different structural forms of the same chemical element in the same physical state (e.g. carbon -> graphite and diamond). Even though they consist of the exact same type of atoms, allotropes have different atomic arrangements or bonding patterns. Because of this structural difference, they often exhibit drastically different physical and chemical properties.",
 			"styleAttributes":{},
-			"x":-1950,
-			"y":-1320,
-			"width":170,
-			"height":100
+			"x":-2980,
+			"y":-2140,
+			"width":655,
+			"height":220
 		},
-		{
-			"id":"e09403b9c5622675",
-			"type":"text",
-			"text":"Electrical resistance is the mathematical reciprocal and opposite of electrical conductance. Meaning, they are inversely proportional.",
-			"styleAttributes":{},
-			"x":-1640,
-			"y":-1280,
-			"width":460,
-			"height":120
-		},
-		{
-			"id":"53a210b2fff33b6e",
-			"type":"text",
-			"text":"Electrical resistance is like microscopic friction caused by metal's fixed atoms and ions in the crystal lattice. Changing the crystal lattice arrangement alters the metal's resistance.\n\nIn quantum mechanics, electrons travel through a *perfectly* arranged crystal lattice as smoothly as a wave passing through clear water. What actually causes electrical resistance is not the atoms themselves, but deviations or disruptions in that perfect lattice which scatter the electrons.\n\nMechanical stress (by bend, roll, or hammering a cold metal) multiplies the number of grain boundaries (the borders where misaligned crystal structures crash into each other). Electrons constantly smash into these boundaries, causing electrical resistance to increase.\n\nAnnealing (baking a heavily stressed, high-resistance metal at a high temperature and then letting it cool slowly) wipes away the grain boundaries, effectively resetting the chaotic crystal lattice arrangement back into a large, immaculate structure. Therefore, it decreases the metal's resistance.\n\nAllotropes are different structural forms of the same chemical element in the same physical state (e.g. carbon -> graphite and diamond)",
-			"styleAttributes":{},
-			"x":-2830,
-			"y":-1970,
-			"width":730,
-			"height":570
-		}
+		{"id":"06ef4b3d449ce793","type":"file","file":"attachments/Pasted image 20260927111109.jpg","x":-3028,"y":-2480,"width":752,"height":325}
 	],
 	"edges":[
 		{
@@ -1604,6 +1615,33 @@
 			"fromNode":"e09403b9c5622675",
 			"fromSide":"left",
 			"toNode":"3f974354b2f5140a",
+			"toSide":"right"
+		},
+		{
+			"id":"1b851e76f4186045",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"6bdc22a94edf026b",
+			"fromSide":"bottom",
+			"toNode":"a1e25a31ef08aab3",
+			"toSide":"top"
+		},
+		{
+			"id":"06f16c5acd27264e",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"a1e25a31ef08aab3",
+			"fromSide":"bottom",
+			"toNode":"e09403b9c5622675",
+			"toSide":"top"
+		},
+		{
+			"id":"36db9c637520b4ca",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"a1e25a31ef08aab3",
+			"fromSide":"left",
+			"toNode":"53a210b2fff33b6e",
 			"toSide":"right"
 		}
 	],

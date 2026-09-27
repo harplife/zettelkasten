@@ -45,8 +45,8 @@
               "state": {
                 "file": "engineering/Electromagnetics.canvas",
                 "viewState": {
-                  "x": -1706.4167095370788,
-                  "y": -978.7296602093913,
+                  "x": -1813.668602696187,
+                  "y": -1782.4211538583672,
                   "zoom": -0.8000000000000002
                 }
               },
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "engineering/Electromagnetics.canvas",
+                "file": "attachments/Pasted image 20260927111109.jpg",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -273,7 +273,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "engineering/Electromagnetics.canvas",
+                "file": "attachments/Pasted image 20260927111109.jpg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -312,6 +312,7 @@
   },
   "active": "63391903521e9e1a",
   "lastOpenFiles": [
+    "attachments/Pasted image 20260927111109.jpg",
     "attachments/del operator (nabla).jpg",
     "attachments/Pasted image 20260926203057.jpg",
     "attachments/Pasted image 20260926195315.jpg",
@@ -326,7 +327,6 @@
     "attachments/Functional_Near-Infrared_Spectrometry_as_a_Useful_.pdf",
     "attachments/Pasted image 20260805145947.png",
     "attachments/Pasted image 20260805145406.png",
-    "attachments/Pasted image 20260804232057.png",
     "engineering/Laser Image Projector.md",
     "SWIC/SIUE EE Courses Dependency Map.canvas",
     "engineering",
