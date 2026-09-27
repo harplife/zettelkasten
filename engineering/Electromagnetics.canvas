@@ -1,7 +1,7 @@
 {
 	"nodes":[
-		{"id":"527fb13a00244023","type":"group","x":-5680,"y":-960,"width":2020,"height":200,"label":"Microscopic version"},
-		{"id":"8163333b7c5fc839","type":"group","x":-5660,"y":-640,"width":1920,"height":140,"label":"Macroscopic version"},
+		{"id":"527fb13a00244023","type":"group","x":-5760,"y":-960,"width":2100,"height":200,"label":"Microscopic version"},
+		{"id":"8163333b7c5fc839","type":"group","x":-5760,"y":-660,"width":2100,"height":180,"label":"Macroscopic version"},
 		{
 			"id":"20475392f008a131",
 			"type":"text",
@@ -641,7 +641,7 @@
 		{
 			"id":"22dab4c638565975",
 			"type":"text",
-			"text":"$$\n\\nabla \\times E = - \\frac{\\partial B}{\\partial t}\n$$",
+			"text":"$$\n\\nabla \\times \\vec{E} = - \\frac{\\partial \\vec{B}}{\\partial t}\n$$",
 			"styleAttributes":{},
 			"x":-4560,
 			"y":-905,
@@ -651,7 +651,7 @@
 		{
 			"id":"a02d8b5e2e64ffaa",
 			"type":"text",
-			"text":"$$\n\\nabla \\cdot B = 0\n$$",
+			"text":"$$\n\\nabla \\cdot \\vec{B} = 0\n$$",
 			"styleAttributes":{},
 			"x":-5080,
 			"y":-895,
@@ -661,7 +661,7 @@
 		{
 			"id":"b8ca0956f1396408",
 			"type":"text",
-			"text":"$$\n\\nabla \\times B = \\mu_{0} \\left(J + \\varepsilon_{0} \\frac{\\partial E}{\\partial t}\\right)\n$$",
+			"text":"$$\n\\nabla \\times \\vec{B} = \\mu_{0} \\left(\\vec{J} + \\varepsilon_{0} \\frac{\\partial \\vec{E}}{\\partial t}\\right)\n$$",
 			"styleAttributes":{},
 			"x":-4130,
 			"y":-910,
@@ -671,7 +671,7 @@
 		{
 			"id":"40198a8110338736",
 			"type":"text",
-			"text":"$$\n\\nabla \\cdot E = \\frac{\\rho}{\\varepsilon_{0}}\n$$",
+			"text":"$$\n\\nabla \\cdot \\vec{E} = \\frac{\\rho}{\\varepsilon_{0}}\n$$",
 			"styleAttributes":{},
 			"x":-5640,
 			"y":-905,
@@ -679,19 +679,9 @@
 			"height":100
 		},
 		{
-			"id":"f9da1d85385f8c81",
-			"type":"text",
-			"text":"$$\n\\nabla \\cdot D = \\rho_{f}\n$$",
-			"styleAttributes":{},
-			"x":-5640,
-			"y":-620,
-			"width":280,
-			"height":80
-		},
-		{
 			"id":"e73897abe31c9767",
 			"type":"text",
-			"text":"$$\n\\nabla \\cdot B = 0\n$$",
+			"text":"$$\n\\nabla \\cdot \\vec{B} = 0\n$$",
 			"styleAttributes":{},
 			"x":-5080,
 			"y":-620,
@@ -701,7 +691,7 @@
 		{
 			"id":"1fc47e21dacb6540",
 			"type":"text",
-			"text":"$$\n\\nabla \\times E = - \\frac{\\partial B}{\\partial t}\n$$",
+			"text":"$$\n\\nabla \\times \\vec{E} = - \\frac{\\partial \\vec{B}}{\\partial t}\n$$",
 			"styleAttributes":{},
 			"x":-4560,
 			"y":-630,
@@ -711,7 +701,7 @@
 		{
 			"id":"8a6dfa2d63e1f768",
 			"type":"text",
-			"text":"$$\n\\nabla \\times H = J_{f} + \\frac{\\partial D}{\\partial t}\n$$",
+			"text":"$$\n\\nabla \\times \\vec{H} = \\vec{J}_{f} + \\frac{\\partial \\vec{D}}{\\partial t}\n$$",
 			"styleAttributes":{},
 			"x":-4060,
 			"y":-630,
@@ -721,10 +711,30 @@
 		{
 			"id":"0cc69427ab37530b",
 			"type":"text",
-			"text":"Where:\n- $E$ = electric field\n- $B$ = magnetic field\n- $\\rho$ = total electric charge density\n- $J$ = total current density\n- $\\mu_{0}$ = vacuum permeability\n- $\\nabla \\cdot$ = divergence operator\n- $\\nabla \\times$ = curl operator",
+			"text":"Where:\n- $\\vec{E}$ = electric field\n- $\\vec{B}$ = magnetic field\n- $\\rho$ = total electric charge density\n- $\\vec{J}$ = total current density\n- $\\mu_{0}$ = vacuum permeability\n- $\\nabla \\cdot$ = divergence operator\n- $\\nabla \\times$ = curl operator",
 			"styleAttributes":{},
-			"x":-6240,
-			"y":-750,
+			"x":-6360,
+			"y":-710,
+			"width":440,
+			"height":340
+		},
+		{
+			"id":"f9da1d85385f8c81",
+			"type":"text",
+			"text":"$$\n\\nabla \\cdot \\vec{D} = \\rho_{f}\n$$",
+			"styleAttributes":{},
+			"x":-5650,
+			"y":-620,
+			"width":280,
+			"height":80
+		},
+		{
+			"id":"d2c3f618c83003f9",
+			"type":"text",
+			"text":"Where:\n- $\\vec{E}$ = electric field\n- $\\vec{B}$ = magnetic field\n- $\\vec{D}$ = electric displacement field\n- $\\vec{H}$ = magnetic field intensity\n- $\\rho_{f}$ = free electric charge density\n- $\\vec{J}_{f}$ = free current density\n- $\\nabla \\cdot$ = divergence operator\n- $\\nabla \\times$ = curl operator",
+			"styleAttributes":{},
+			"x":-3520,
+			"y":-805,
 			"width":440,
 			"height":340
 		}
@@ -1404,13 +1414,13 @@
 			"toSide":"left"
 		},
 		{
-			"id":"cecfd42a280d5d12",
+			"id":"61b2ae4b87da6a1d",
 			"styleAttributes":{},
 			"toFloating":false,
-			"fromNode":"0cc69427ab37530b",
-			"fromSide":"right",
+			"fromNode":"d2c3f618c83003f9",
+			"fromSide":"left",
 			"toNode":"8163333b7c5fc839",
-			"toSide":"left"
+			"toSide":"right"
 		}
 	],
 	"metadata":{
