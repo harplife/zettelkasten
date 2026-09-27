@@ -837,6 +837,16 @@
 			"y":-1280,
 			"width":460,
 			"height":120
+		},
+		{
+			"id":"53a210b2fff33b6e",
+			"type":"text",
+			"text":"Electrical resistance is like microscopic friction caused by metal's fixed atoms and ions in the crystal lattice. Changing the crystal lattice arrangement alters the metal's resistance.\n\nIn quantum mechanics, electrons travel through a *perfectly* arranged crystal lattice as smoothly as a wave passing through clear water. What actually causes electrical resistance is not the atoms themselves, but deviations or disruptions in that perfect lattice which scatter the electrons.\n\nMechanical stress (by bend, roll, or hammering a cold metal) multiplies the number of grain boundaries (the borders where misaligned crystal structures crash into each other). Electrons constantly smash into these boundaries, causing electrical resistance to increase.\n\nAnnealing (baking a heavily stressed, high-resistance metal at a high temperature and then letting it cool slowly) wipes away the grain boundaries, effectively resetting the chaotic crystal lattice arrangement back into a large, immaculate structure. Therefore, it decreases the metal's resistance.\n\nAllotropes are different structural forms of the same chemical element in the same physical state (e.g. carbon -> graphite and diamond)",
+			"styleAttributes":{},
+			"x":-2830,
+			"y":-1970,
+			"width":730,
+			"height":570
 		}
 	],
 	"edges":[
