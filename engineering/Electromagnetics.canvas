@@ -1050,6 +1050,16 @@
 			"y":1480,
 			"width":380,
 			"height":200
+		},
+		{
+			"id":"d44a9317e0760179",
+			"type":"text",
+			"text":"",
+			"styleAttributes":{},
+			"x":-1920,
+			"y":80,
+			"width":625,
+			"height":420
 		}
 	],
 	"edges":[
