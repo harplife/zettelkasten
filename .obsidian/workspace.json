@@ -45,9 +45,9 @@
               "state": {
                 "file": "engineering/Electromagnetics.canvas",
                 "viewState": {
-                  "x": 328.9872369155444,
-                  "y": 243.9299944068716,
-                  "zoom": -1.2000000000000002
+                  "x": 804.7995266273249,
+                  "y": -1463.9548749566475,
+                  "zoom": -0.40000000000000013
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -312,6 +312,9 @@
   },
   "active": "63391903521e9e1a",
   "lastOpenFiles": [
+    "attachments/EF_negative_charge.svg",
+    "attachments/EF_positive_charge.svg",
+    "attachments/electric_field_of_dipole.svg",
     "engineering/History of Heat Engine.md",
     "engineering/Electromagnetics.canvas",
     "attachments/Aeolipile_illustration.svg",
@@ -325,9 +328,7 @@
     "attachments/Pasted image 20260804220924.png",
     "attachments/fNIRS BCI System Diagram.png",
     "engineering/Laser Image Projector.md",
-    "attachments/Pasted image 20260731152915.png",
     "SWIC/SIUE EE Courses Dependency Map.canvas",
-    "attachments/Pasted image 20260731091949.png",
     "engineering",
     "anthropology/ANTH_150_Cultural_Anthropology.md",
     "SWIC/UIUC_MS_ECE.md",

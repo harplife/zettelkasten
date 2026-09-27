@@ -2920,9 +2920,9 @@
                   "state": {
                     "file": "engineering/Electromagnetics.canvas",
                     "viewState": {
-                      "x": 0,
-                      "y": 0,
-                      "zoom": 0
+                      "x": 1432.8850505461082,
+                      "y": 1887.067616583123,
+                      "zoom": -0.40000000000000013
                     }
                   },
                   "icon": "lucide-layout-dashboard",
@@ -3186,7 +3186,7 @@
         }
       },
       "active": "63391903521e9e1a",
-      "mtime": "2026-09-26T18:36:26-05:00",
+      "mtime": "2026-09-26T19:14:06-05:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "anthropology",
