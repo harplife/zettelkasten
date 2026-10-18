@@ -143,21 +143,9 @@
               "icon": "lucide-file",
               "title": "7_step_redox_balancing"
             }
-          },
-          {
-            "id": "18efeeec4c5718ed",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.14.4"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.14.4"
-            }
           }
         ],
-        "currentTab": 9
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
