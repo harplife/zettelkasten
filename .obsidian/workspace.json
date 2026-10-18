@@ -8,69 +8,156 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fd83e2e34f72d854",
+            "id": "bf20a03f0a3bbaf6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "engineering/Laser Image Projector.md",
+                "file": "chemistry/Periodic_Table.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Laser Image Projector"
+              "title": "Periodic_Table"
             }
           },
           {
-            "id": "5cefb925714b6ee1",
+            "id": "30d7fcef401fa682",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "engineering/History of Heat Engine.md",
+                "file": "chemistry/alchemy/Alchemy.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "History of Heat Engine"
+              "title": "Alchemy"
             }
           },
           {
-            "id": "63391903521e9e1a",
+            "id": "7e609f731ec72db3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "chemistry/Timeline_of_Element_Discoveries.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Timeline_of_Element_Discoveries"
+            }
+          },
+          {
+            "id": "b55e54ebb380224f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "chemistry/Periodic_Table_and_The_Origins.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Periodic_Table_and_The_Origins"
+            }
+          },
+          {
+            "id": "ee4707b6261fc57e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "chemistry/Periodic_Table.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Periodic_Table"
+            }
+          },
+          {
+            "id": "ee0c5b9a3c529700",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "chemistry/alchemy/The_Holocene_Alchemist.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "The_Holocene_Alchemist"
+            }
+          },
+          {
+            "id": "d41929df1cce8d83",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "chemistry/alchemy/The_Alchemic_Script.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "The_Alchemic_Script"
+            }
+          },
+          {
+            "id": "6bfd33caace19aee",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
-                "file": "engineering/Electromagnetics.canvas",
+                "file": "chemistry/Chemistry_Mind_Map.canvas",
                 "viewState": {
-                  "x": -1565.357252133246,
-                  "y": 433.5598197201674,
-                  "zoom": -1.0943393444827612
+                  "x": 2994.514017517183,
+                  "y": -2413.947200874512,
+                  "zoom": -0.8000000000000002
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Electromagnetics"
+              "title": "Chemistry_Mind_Map"
             }
           },
           {
-            "id": "cf14250f9601c79a",
+            "id": "af436bcb14bc86fc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "engineering/drudes_formula.md",
+                "file": "chemistry/7_step_redox_balancing.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "drudes_formula"
+              "title": "7_step_redox_balancing"
+            }
+          },
+          {
+            "id": "18efeeec4c5718ed",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.14.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.14.4"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -117,7 +204,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#definition",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -150,7 +237,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "engineering/Electromagnetics.canvas",
+                "file": "chemistry/7_step_redox_balancing.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -180,8 +267,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -254,16 +341,6 @@
               "icon": "sigma",
               "title": "Mathpad"
             }
-          },
-          {
-            "id": "5c414e937df88b75",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
         ],
         "currentTab": 1
@@ -288,7 +365,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "engineering/Electromagnetics.canvas",
+                "file": "chemistry/7_step_redox_balancing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -306,8 +383,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 362.5,
-    "collapsed": true
+    "width": 362.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -318,18 +394,30 @@
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false,
       "workspaces:Manage workspace layouts": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "mathpad:Open Mathpad": false,
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "63391903521e9e1a",
+  "active": "227e6011dc684b16",
   "lastOpenFiles": [
-    "engineering/History of Heat Engine.md",
+    "chemistry/Chemistry_Mind_Map.canvas",
+    "chemistry/7_step_redox_balancing.md",
+    "chemistry/nomenclature_of_compounds.md",
+    "chemistry/alchemy/The_Alchemic_Script.md",
+    "language/International_Phonetic_Alphabet.md",
+    "chemistry/Untitled.base",
+    "chemistry/Periodic_Table.md",
+    "chemistry/alchemy/Alchemy.md",
+    "chemistry/Timeline_of_Element_Discoveries.md",
+    "chemistry/Periodic_Table_and_The_Origins.md",
+    "chemistry/alchemy/The_Holocene_Alchemist.md",
     "engineering/Electromagnetics.canvas",
+    "attachments/full_size_version_of_the_image.jpg",
     "engineering/drudes_formula.md",
+    "attachments/electric_dipoles.svg",
+    "engineering/History of Heat Engine.md",
     "attachments/Pasted image 20260927122156.jpg",
     "attachments/Drude Model.svg",
     "attachments/Pasted image 20260927111109.jpg",
@@ -338,8 +426,6 @@
     "attachments/Pasted image 20260926195315.jpg",
     "attachments/EF_negative_charge.svg",
     "attachments/EF_positive_charge.svg",
-    "attachments/electric_field_of_dipole.svg",
-    "attachments/Aeolipile_illustration.svg",
     "engineering/Brain Computer Interface.md",
     "attachments/Functional_Near-Infrared_Spectrometry_as_a_Useful_.pdf",
     "engineering/Laser Image Projector.md",
@@ -363,17 +449,7 @@
     "attachments/Secant.svg.opdownload",
     "attachments/Cotangent.svg.opdownload",
     "attachments/Tangent-plot.svg.opdownload",
-    "attachments/Cosine_one_period.svg.opdownload",
     "math/Eulers_Number_e.md",
-    "math/calculus/Chapter 2/6_Continuity.md",
-    "math/calculus/Chapter 2/1_The_Idea_of_Limits.md",
-    "math/precalculus/Chapter 6/1_Angle_Measure.md",
-    "math/precalculus/Chapter 5/6_Modeling_Harmonic_motion.md",
-    "Atomic_Spectra.md",
-    "language/International_Phonetic_Alphabet.md",
-    "language/linguistic_relativity.md",
-    "chemistry/nomenclature_of_compounds.md",
-    "chemistry/Balancing_Chemical_Equations.md",
     "computer_graphics/Computer_Graphics_Mindmap.canvas",
     "computer_graphics/projects/solo_leveling_mindmap.canvas",
     "architecture/architecture_mindmap.canvas",
