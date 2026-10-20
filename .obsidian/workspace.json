@@ -145,7 +145,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -192,7 +192,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#definition",
+                "query": "phonet",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -213,7 +213,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "0065a4e248a61faa",
@@ -225,7 +226,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "chemistry/7_step_redox_balancing.md",
+                "file": "chemistry/alchemy/The_Alchemic_Script.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -353,7 +354,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "chemistry/7_step_redox_balancing.md",
+                "file": "chemistry/alchemy/The_Alchemic_Script.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -390,17 +391,17 @@
   },
   "active": "227e6011dc684b16",
   "lastOpenFiles": [
-    "chemistry/Chemistry_Mind_Map.canvas",
-    "chemistry/7_step_redox_balancing.md",
-    "chemistry/nomenclature_of_compounds.md",
-    "chemistry/alchemy/The_Alchemic_Script.md",
     "language/International_Phonetic_Alphabet.md",
+    "chemistry/alchemy/The_Alchemic_Script.md",
+    "chemistry/alchemy/The_Holocene_Alchemist.md",
+    "chemistry/7_step_redox_balancing.md",
+    "chemistry/Chemistry_Mind_Map.canvas",
+    "chemistry/nomenclature_of_compounds.md",
     "chemistry/Untitled.base",
     "chemistry/Periodic_Table.md",
     "chemistry/alchemy/Alchemy.md",
     "chemistry/Timeline_of_Element_Discoveries.md",
     "chemistry/Periodic_Table_and_The_Origins.md",
-    "chemistry/alchemy/The_Holocene_Alchemist.md",
     "engineering/Electromagnetics.canvas",
     "attachments/full_size_version_of_the_image.jpg",
     "engineering/drudes_formula.md",
