@@ -52,4 +52,6 @@ When one of the coefficients $a,b,c$ becomes smaller than the others and it appr
 - When $b=0$, then the equation becomes $ax^2 + cz^2 -d = 0$. It is basically an equation of a circle (in 3D, extended infinitely along y-axis).
 
 ---
-As one of the coefficients $a,b,c$ becomes even smaller past zero (negative), 
+As one of the coefficients $a,b,c$ becomes even smaller past zero (negative), we then get a <mark class="hltr-trippy">Hyperboloid of One Sheet</mark>:
+- ![[Pasted image 20261020122757.png | center | 300]]
+- 
