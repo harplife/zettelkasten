@@ -55,3 +55,4 @@ When one of the coefficients $a,b,c$ becomes smaller than the others and it appr
 As one of the coefficients $a,b,c$ becomes even smaller past zero (negative), we then get a <mark class="hltr-trippy">Hyperboloid of One Sheet</mark>:
 - ![[Pasted image 20261020122757.png | center | 300]]
 - Note that $d=1$ has kept the "circle" on xz-plane to remain constant with the same radius. This means that any change to $c$ reflects how a circle along $z$ axis behaves.
+	- #todo not really sure how it works though. If $c$ positive, it gets flatter. As $c$ approaches zero, the surface gets elongated until it becomes a cylinder. Then, when $c$ is negative, it becomes a hyperboloid. It's like one way, the "circle" along z is smaller, whereas the other way, it's bigger.
