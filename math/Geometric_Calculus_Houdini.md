@@ -158,3 +158,9 @@ $$
 So the further along the Y direction, the larger the cross-section of the surface.
 
 The axis along which the two sheets extend (in this case, y-axis) is called the <mark class="hltr-trippy">Opening Axis</mark>. It is the same as the axis passing through both vertices, which is called the <mark class="hltr-trippy">Transverse Axis</mark>.
+
+
+### Topological Hole
+
+For any quadric surface that has an opening (e.g. Cylinder, Hyperboloid of One Sheet), the hole itself is referred to as a <mark class="hltr-trippy">Topological Hole</mark> (or just "hole" simply) or a <mark class="hltr-trippy">Tunnel</mark>.
+
