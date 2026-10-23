@@ -94,8 +94,8 @@ This can be mathematically explained:
 $$
 \begin{align}
 & x^2 + By^2 + z^2 -1 = 0 \\
-\Rightarrow\, & x^2 + z^2 = 1 - By^2 \geq 0 \\
-\Rightarrow\, & \left| y \right| \leq \frac{1}{\sqrt{ B }}
+&\Rightarrow x^2 + z^2 = 1 - By^2 \geq 0 \\
+&\Rightarrow \left| y \right| \leq \frac{1}{\sqrt{ B }}
 \end{align}
 $$
 
@@ -113,4 +113,31 @@ Given a surface $Ax^2 + By^2 + Cz^2 + J = 0$ where:
 - $B=0$
 
 This is a **Circular Cylinder**, which is said to be a **Degenerate Quadric**.
+- It is also **Closed** and  **Unbounded**.
 
+
+### Opening Axis
+
+Given a surface $Ax^2 + By^2 + Cz^2 + J = 0$ where:
+- $A=C=1$
+- $J<0$
+- $B<0$ expressed as $-k$ where $k>0$
+
+This is a Hyperboloid of One Sheet, where the surface is said to be **Closed** and **Unbounded**.
+
+The equation of the surface can be rewritten so that it describes the radius:
+$$
+\begin{align}
+&x^2 -ky^2 + z^2 = 1 \\
+&\Rightarrow x^2 + z^2 = 1 + ky^2 \\
+&\Rightarrow r^2 = 1 + ky^2 \\
+&\Rightarrow r = \sqrt{ 1 + ky^2 }
+\end{align}
+$$
+
+This means that, at any fixed y-coordinate, the horizontal cross-section is a circle with the radius:
+$$
+r(y) = \sqrt{ 1 + ky^2 }
+$$
+
+So the further along the Y direction, the larger the cross-section of the surface.
