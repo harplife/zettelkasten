@@ -21,6 +21,15 @@
 
 Implicit equation of quadric surfaces are given in Calculus 3 class like the above image. I find it rather difficult to see the relationship between these surfaces with those implicit equations. In fact, it is only after I've played around with the equations in Houdini that I've found out how a shape can turn into other shapes.
 
+---
+The full general implicit equation for a quadric surface in 3D (second-degree polynomial equation):
+
+$$
+Ax^2 + By^2 + Cz^2 + Dxy + Exz + Fyz + Gx + Hy + Iz + J = 0
+$$
+
+---
+
 I like to think all quadric surfaces begin with an Ellipsoid:
 $$
 a \cdot x^2 + b \cdot y^2 + c \cdot z^2 -d = 0
