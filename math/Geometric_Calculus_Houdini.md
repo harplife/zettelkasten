@@ -48,32 +48,47 @@ Note that the equation above is not like the standard equation. The coefficients
 If coefficients $A=B=C$, then a <mark class="hltr-trippy">Sphere</mark> is generated. Note:
 - Increasing the magnitude of $J$ simply increases the size of the sphere because $J=r^2$.
 	- If the values of $A,B,C$ are increased at the same rate while $J$ remains the same, the size of the sphere decreases.
-		- #todo It is as if $J$ is proportionate to $A,B,C$ somehow.
-- As long as $a=b=c$ and the signs $(-/+)$ match across all coefficients, you get a sphere.
+		- If $A,B,C$ gets bigger and $J$ remains constant, the sphere gets smaller.
+- As long as $A=B=C$ and the signs $(-/+)$ match across all coefficients, you get a sphere.
 
 ![[Pasted image 20261020120340.png | center | 300]]
 
 ---
-If $a,b,c$ becomes disproportionate (values differ), then we get an <mark class="hltr-trippy">Ellipsoid</mark>.
-- **Oblate Spheroid**: As one of $a,b,c$ becomes relatively larger than the others, the side that the coefficient belongs to (e.g. $b$ affects $y$) becomes thinner. For example, if $b>a=c$, the sides of the ellipsoid that's on y-axis becomes thinner. It's difficult to tell with image alone, but imagine a thick, puffy pancake.![[Pasted image 20261020120414.png | center | 300]]
-- **Prolate Spheroid**: Interestingly, if one of $a,b,c$ becomes relatively smaller than the others (but above zero), the side that the coefficient belongs to becomes elongated; it takes on a football-like shape. This reflects the standard equation, because any value between $0$ and $1$ is pretty much fraction.
+If $A,B,C$ becomes disproportionate (values differ), then we get an <mark class="hltr-trippy">Ellipsoid</mark>.
+- **Oblate Spheroid**: As one of $A,B,C$ becomes relatively larger than the others, the side that the coefficient belongs to (e.g. $B$ affects y coordinates) becomes thinner. For example, if $B>A,C$, the sides of the ellipsoid that's on y-axis becomes thinner. It's difficult to tell with image alone, but imagine a thick, puffy pancake.![[Pasted image 20261020120414.png | center | 300]]
+- **Prolate Spheroid**: Interestingly, if one of $A,B,C$ becomes relatively smaller than the others (but above zero), the side that the coefficient belongs to becomes elongated; it takes on a football-like shape. This reflects the standard equation, because any value between $0$ and $1$ is pretty much fraction.
   ![[Pasted image 20261020120948.png | center | 300]]
-- **Triaxial Ellipsoid**: If all $a,b,c$ are different, then it's just a squished football shape.
+- **Triaxial Ellipsoid**: If all $A,B,C$ are different, then it's just a squished football shape.
 
 ---
-When one of the coefficients $a,b,c$ becomes smaller than the others and it approaches zero, the side (where the coefficient belongs to) becomes infinitely elongated until the shape becomes a <mark class="hltr-trippy">Cylinder</mark>.
+When one of the coefficients $A,B,C$ becomes smaller than the others and it approaches zero, the side (where the coefficient belongs to) becomes infinitely elongated until the shape becomes a <mark class="hltr-trippy">Cylinder</mark>.
 - #todo It will be a better visualization as a gif![[Pasted image 20261020121818.png | center | 300]]
-- It remains the same that either decreasing the other two sides or increasing $d$ affects the radius.
+- It remains the same that either decreasing the other two sides or increasing the magnitude of $J$ affects the radius.
 - The signs still have to match.
-- When $b=0$, then the equation becomes $ax^2 + cz^2 -d = 0$. It is basically an equation of a circle (in 3D, extended infinitely along y-axis).
+- When $B=0$, then the equation becomes $Ax^2 + Cz^2 +J = 0$. It is basically an equation of a circle (in 3D, extended infinitely along y-axis).
 
 ---
-As one of the coefficients $a,b,c$ becomes even smaller past zero (negative), we then get a <mark class="hltr-trippy">Hyperboloid of One Sheet</mark>:
+As one of the coefficients $A,B,C$ becomes even smaller past zero (e.g. $B<0$), we then get a <mark class="hltr-trippy">Hyperboloid of One Sheet</mark>:
 - ![[Pasted image 20261020122757.png | center | 300]]
-- Note that $d=1$ has kept the "circle" on xz-plane to remain constant with the same radius. This means that any change to $b$ reflects how a circle along $z$ axis behaves.
-	- #todo not really sure how it works though. If $c$ positive, it gets flatter. As $c$ approaches zero, the surface gets elongated until it becomes a cylinder. Then, when $c$ is negative, it becomes a hyperboloid. It's like one way, the "circle" along z is smaller, whereas the other way, it's bigger.
+- Note that $J=1$ has kept the "circle" on xz-plane to remain constant with the same radius. This means that any change to $B$ reflects how a circle along y-axis behaves.
 
+---
+So far, for a sphere (ellipsoid), cylinder, and hyperboloid of one sheet, $J$ has remained a negative constant.
 
+If $J=0$,
+- Sphere becomes a dot $x = z = y$
+- Cylinder becomes a line along y-axis $x = z$ (omitted the square roots)
+- Hyperboloid of One Sheet becomes an <mark class="hltr-trippy">Elliptic Cone</mark>:
+  ![[Pasted image 20261023171930.png | center | 300]]
+
+If $J>0$,
+- Both Sphere and Cylinder becomes a degenerate, indefinite surface (totally empty)
+- Hyperboloid of One Sheet becomes a <mark class="hltr-trippy">Hyperboloid of Two Sheets</mark>:
+  ![[Pasted image 20261023172407.png | center | 300]]
+
+When the magnitude of the coefficients are all $1$ and one of the coefficients $A,B,C$ faces a negative direction, the positive value of $J$ seems to represent the distance from the origin to one side of the split surface.
+- The closest point on each sheet to the origin is called a <mark class="hltr-trippy">Vertex</mark>.
+- The distance from the origin to a vertex is called the <mark class="hltr-trippy">Semi-Transverse Axis Length</mark>.
 
 
 ### Anisotropic Scaling
@@ -83,7 +98,7 @@ Given a surface $Ax^2 + By^2 + Cz^2 + J = 0$ where:
 - $J<0$
 - $B>0$
 
-This is an **Ellipse**, where #todo the surface is said to be **Closed** and **Bounded**.
+This is an **Ellipsoid**, where #todo the surface is said to be **Closed** and **Bounded**.
 
 The behavior where the surface becomes compressed or stretched is called <mark class="hltr-trippy">Anisotropic Scaling</mark>; specifically, it is a geometric transformation that enlarges or shrinks an object by different scale factors along different axes, which changes its original shape.
 - (Compare to) Isotropic Scaling which applies the exact same scale factor to all axes to preserve shape.
@@ -116,7 +131,7 @@ This is a **Circular Cylinder**, which is said to be a **Degenerate Quadric**.
 - It is also **Closed** and  **Unbounded**.
 
 
-### Opening Axis
+### Transverse/Opening Axis
 
 Given a surface $Ax^2 + By^2 + Cz^2 + J = 0$ where:
 - $A=C=1$
@@ -141,3 +156,5 @@ r(y) = \sqrt{ 1 + ky^2 }
 $$
 
 So the further along the Y direction, the larger the cross-section of the surface.
+
+The axis along which the two sheets extend (in this case, y-axis) is called the <mark class="hltr-trippy">Opening Axis</mark>. It is the same as the axis passing through both vertices, which is called the <mark class="hltr-trippy">Transverse Axis</mark>.
