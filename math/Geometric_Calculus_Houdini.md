@@ -124,10 +124,10 @@ When $B$ increases, the maximum possible displacement along y-axis decreases.
 
 Given a surface $Ax^2 + By^2 + Cz^2 + J = 0$ where:
 - $A=C=1$
-- $J<0$
 - $B=0$
+- $J<0$
 
-This is a **Circular Cylinder**, which is said to be a **Degenerate Quadric**.
+This is a *Circular Cylinder*, which is said to be a **Degenerate Quadric**.
 - It is also **Closed** and  **Unbounded**.
 
 
@@ -135,10 +135,10 @@ This is a **Circular Cylinder**, which is said to be a **Degenerate Quadric**.
 
 Given a surface $Ax^2 + By^2 + Cz^2 + J = 0$ where:
 - $A=C=1$
-- $J<0$
 - $B<0$ expressed as $-k$ where $k>0$
+- $J<0$
 
-This is a Hyperboloid of One Sheet, where the surface is said to be **Closed** and **Unbounded**.
+This is a *Hyperboloid of One Sheet*, where the surface is said to be **Closed** and **Unbounded**.
 
 The equation of the surface can be rewritten so that it describes the radius:
 $$
@@ -163,4 +163,16 @@ The axis along which the two sheets extend (in this case, y-axis) is called the 
 ### Topological Hole
 
 For any quadric surface that has an opening (e.g. Cylinder, Hyperboloid of One Sheet), the hole itself is referred to as a <mark class="hltr-trippy">Topological Hole</mark> (or just "hole" simply) or a <mark class="hltr-trippy">Tunnel</mark>.
+- For a Hyperboloid of One Sheet, the narrowest opening through the surface is called the <mark class="hltr-trippy">Throat</mark>. The cross-section of the throat is called the <mark class="hltr-trippy">Waist</mark>.
 
+
+### Surface at Limits
+
+#### Elliptic Cone to Plane
+
+Given a surface $Ax^2 + By^2 + Cz^2 + J = 0$ where:
+- $A=C=1$
+- $B<0$
+- $J=0$
+
+ As $B$ goes to $-\infty$, the open ends on either side of the y-axis becomes bigger and the surface overall becomes flatter; eventually, the surface becomes a plane. This can be verified by taking the limit as $k \to \infty$.
