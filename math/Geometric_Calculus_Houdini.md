@@ -32,15 +32,21 @@ $$
 
 I like to think all quadric surfaces begin with an Ellipsoid:
 $$
-a \cdot x^2 + b \cdot y^2 + c \cdot z^2 -d = 0
+Ax^2 + By^2 + Cz^2 + J = 0
 $$
+
+Where:
+- $A>0$ (e.g. 1)
+- $B>0$ (e.g. 1)
+- $C>0$ (e.g. 1)
+- $J<0$ (e.g. -1)
 
 Note that the equation above is not like the standard equation. The coefficients are variables that I can control, and whatever values I put in them are equivalent to whatever the standard equation says that they are. It'll make more sense later on.
 - It is important that the opposite side remains $0$ because it basically defines the surface as where the function equals zero (iso-surface).
 
 ---
-If coefficients are set to $a=1,b=1,c=1,d=1$, then a <mark class="hltr-trippy">Sphere</mark> is generated. Note:
-- If the value of $d$, it simply increases the size of the sphere because $d=r^2$.
+If coefficients $A=B=C$, then a <mark class="hltr-trippy">Sphere</mark> is generated. Note:
+- Increasing the magnitude of $J$ it simply increases the size of the sphere because $d=r^2$.
 	- If the values of $a,b,c$ are increased at the same rate while $d$ remains the same, the size of the sphere decreases. It is as if the radius is divided by the multiplicative factor.
 - As long as $a=b=c$ and the signs $(-/+)$ match across all coefficients, you get a sphere.
 
@@ -63,5 +69,5 @@ When one of the coefficients $a,b,c$ becomes smaller than the others and it appr
 ---
 As one of the coefficients $a,b,c$ becomes even smaller past zero (negative), we then get a <mark class="hltr-trippy">Hyperboloid of One Sheet</mark>:
 - ![[Pasted image 20261020122757.png | center | 300]]
-- Note that $d=1$ has kept the "circle" on xz-plane to remain constant with the same radius. This means that any change to $c$ reflects how a circle along $z$ axis behaves.
+- Note that $d=1$ has kept the "circle" on xz-plane to remain constant with the same radius. This means that any change to $b$ reflects how a circle along $z$ axis behaves.
 	- #todo not really sure how it works though. If $c$ positive, it gets flatter. As $c$ approaches zero, the surface gets elongated until it becomes a cylinder. Then, when $c$ is negative, it becomes a hyperboloid. It's like one way, the "circle" along z is smaller, whereas the other way, it's bigger.
