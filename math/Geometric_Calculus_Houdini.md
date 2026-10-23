@@ -54,4 +54,4 @@ When one of the coefficients $a,b,c$ becomes smaller than the others and it appr
 ---
 As one of the coefficients $a,b,c$ becomes even smaller past zero (negative), we then get a <mark class="hltr-trippy">Hyperboloid of One Sheet</mark>:
 - ![[Pasted image 20261020122757.png | center | 300]]
-- 
+- Note that $d=1$ has kept the 
