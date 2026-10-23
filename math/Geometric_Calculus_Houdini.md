@@ -46,8 +46,9 @@ Note that the equation above is not like the standard equation. The coefficients
 
 ---
 If coefficients $A=B=C$, then a <mark class="hltr-trippy">Sphere</mark> is generated. Note:
-- Increasing the magnitude of $J$ it simply increases the size of the sphere because $d=r^2$.
-	- If the values of $a,b,c$ are increased at the same rate while $d$ remains the same, the size of the sphere decreases. It is as if the radius is divided by the multiplicative factor.
+- Increasing the magnitude of $J$ simply increases the size of the sphere because $J=r^2$.
+	- If the values of $A,B,C$ are increased at the same rate while $J$ remains the same, the size of the sphere decreases.
+		- #todo It is as if $J$ is proportionate to $A,B,C$ somehow.
 - As long as $a=b=c$ and the signs $(-/+)$ match across all coefficients, you get a sphere.
 
 ![[Pasted image 20261020120340.png | center | 300]]
