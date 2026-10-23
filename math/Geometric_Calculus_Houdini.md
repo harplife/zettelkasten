@@ -72,3 +72,45 @@ As one of the coefficients $a,b,c$ becomes even smaller past zero (negative), we
 - ![[Pasted image 20261020122757.png | center | 300]]
 - Note that $d=1$ has kept the "circle" on xz-plane to remain constant with the same radius. This means that any change to $b$ reflects how a circle along $z$ axis behaves.
 	- #todo not really sure how it works though. If $c$ positive, it gets flatter. As $c$ approaches zero, the surface gets elongated until it becomes a cylinder. Then, when $c$ is negative, it becomes a hyperboloid. It's like one way, the "circle" along z is smaller, whereas the other way, it's bigger.
+
+
+
+
+### Anisotropic Scaling
+
+Given a surface $Ax^2 + By^2 + Cz^2 + J = 0$ where:
+- $A=C=1$
+- $J<0$
+- $B>0$
+
+This is an **Ellipse**, where #todo the surface is said to be **Closed** and **Bounded**.
+
+The behavior where the surface becomes compressed or stretched is called <mark class="hltr-trippy">Anisotropic Scaling</mark>; specifically, it is a geometric transformation that enlarges or shrinks an object by different scale factors along different axes, which changes its original shape.
+- (Compare to) Isotropic Scaling which applies the exact same scale factor to all axes to preserve shape.
+
+We can see that, by increasing $B$, the surface along y-axis becomes flatter (compressed). However, when $B$ is decreased (approaches zero), the surface along y-axis becomes elongated (stretched).
+
+This can be mathematically explained:
+$$
+\begin{align}
+& x^2 + By^2 + z^2 -1 = 0 \\
+\Rightarrow\, & x^2 + z^2 = 1 - By^2 \geq 0 \\
+\Rightarrow\, & \left| y \right| \leq \frac{1}{\sqrt{ B }}
+\end{align}
+$$
+
+When $B$ increases, the maximum possible displacement along y-axis decreases.
+
+
+### Degeneracy
+
+<mark class="hltr-trippy">Degeneracy</mark> is the critical case where a coefficient reaches zero, causing the quadratic form to lose rank.
+- Losing a rank pretty much means losing a dimension.
+
+Given a surface $Ax^2 + By^2 + Cz^2 + J = 0$ where:
+- $A=C=1$
+- $J<0$
+- $B=0$
+
+This is a **Circular Cylinder**, which is said to be a **Degenerate Quadric**.
+
