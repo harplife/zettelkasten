@@ -28,8 +28,12 @@ $$
 Ax^2 + By^2 + Cz^2 + Dxy + Exz + Fyz + Gx + Hy + Iz + J = 0
 $$
 
----
 
+### Ellipsoid Transformations
+
+![[Sphere_to_Hyperboloid_Transforms.mp4 | center]]
+
+---
 I like to think all quadric surfaces begin with an Ellipsoid:
 $$
 Ax^2 + By^2 + Cz^2 + J = 0
