@@ -62,10 +62,12 @@ If $A,B,C$ becomes disproportionate (values differ), then we get an <mark class=
 
 ---
 When one of the coefficients $A,B,C$ becomes smaller than the others and it approaches zero, the side (where the coefficient belongs to) becomes infinitely elongated until the shape becomes a <mark class="hltr-trippy">Cylinder</mark>.
+- To be exact, when two coefficients are the same (e.g. $A=C$), the surface is a **Circular Cylinder**.
 - #todo It will be a better visualization as a gif![[Pasted image 20261020121818.png | center | 300]]
 - It remains the same that either decreasing the other two sides or increasing the magnitude of $J$ affects the radius.
 - The signs still have to match.
 - When $B=0$, then the equation becomes $Ax^2 + Cz^2 +J = 0$. It is basically an equation of a circle (in 3D, extended infinitely along y-axis).
+
 
 ---
 As one of the coefficients $A,B,C$ becomes even smaller past zero (e.g. $B<0$), we then get a <mark class="hltr-trippy">Hyperboloid of One Sheet</mark>:
@@ -91,10 +93,41 @@ When the magnitude of the coefficients are all $1$ and one of the coefficients $
 - The distance from the origin to a vertex is called the <mark class="hltr-trippy">Semi-Transverse Axis Length</mark>.
 
 
+### Hyperbolic Cylinder Transformations
+
+Given a surface $Ax^2 + By^2 + Cz^2 + J = 0$ where:
+- $A>0$ expressed as $i$
+- $B=0$ expressed as $j$
+- $C<0$ expressed as $k$
+- $J<0$ (e.g. $-1$) expressed as $d$
+
+This is a <mark class="hltr-trippy">Hyperbolic Cylinder</mark>. It basically looks like two bent planes that are symmetric at y-axis.
+
+![[Pasted image 20261023183614.png | center | 300]]
+
+What's interesting about this shape is that it's can become two different surfaces just by changing the value (and the sign) of $B$.
+
+When $B>0$, the surface becomes a *Hyperboloid of One Sheet* that opens along z-axis:
+$$
+ix^2 + jy^2 - kz^2 - d = 0
+$$
+
+![[Pasted image 20261023184252.png | center | 300]]
+
+When $B<0$, the surface becomes a *Hyperboloid of Two Sheets* that opens along x-axis:
+$$
+ix^2 - jy^2 - kz^2 - d = 0
+$$
+
+![[Pasted image 20261023184317.png | center | 300]]
+
+#todo this is one of those things that REALLY need a gif showing the transformation.
+
+
 ### Anisotropic Scaling
 
 Given a surface $Ax^2 + By^2 + Cz^2 + J = 0$ where:
-- $A=C=1$
+- $A=C$ and positive real numbers
 - $J<0$
 - $B>0$
 
@@ -123,7 +156,7 @@ When $B$ increases, the maximum possible displacement along y-axis decreases.
 - Losing a rank pretty much means losing a dimension.
 
 Given a surface $Ax^2 + By^2 + Cz^2 + J = 0$ where:
-- $A=C=1$
+- $A=C$ and positive real numbers
 - $B=0$
 - $J<0$
 
@@ -134,7 +167,7 @@ This is a *Circular Cylinder*, which is said to be a **Degenerate Quadric**.
 ### Transverse/Opening Axis
 
 Given a surface $Ax^2 + By^2 + Cz^2 + J = 0$ where:
-- $A=C=1$
+- $A=C$ and positive real numbers
 - $B<0$ expressed as $-k$ where $k>0$
 - $J<0$
 
@@ -171,8 +204,36 @@ For any quadric surface that has an opening (e.g. Cylinder, Hyperboloid of One S
 #### Elliptic Cone to Plane
 
 Given a surface $Ax^2 + By^2 + Cz^2 + J = 0$ where:
-- $A=C=1$
-- $B<0$
+- $A=C$ and positive real numbers
+- $B<0$ expressed as $-k$ where $k>0$
 - $J=0$
 
+This is an *Elliptic Cone*.
+
  As $B$ goes to $-\infty$, the open ends on either side of the y-axis becomes bigger and the surface overall becomes flatter; eventually, the surface becomes a plane. This can be verified by taking the limit as $k \to \infty$.
+![[Pasted image 20261023180917.png | center | 300]]
+The above image is the result of the following equation:
+$$
+x^2 -15000y^2 + z^2 = 0
+$$
+
+What started out as an elliptic cone looks like a single plane.
+
+
+#### Cylinder to Two Planes
+
+Given a surface $Ax^2 + By^2 + Cz^2 + J = 0$ where:
+- $A=C$ and positive real numbers
+- $B=0$
+- $J<0$ (e.g. $-1$)
+
+This is a *Circular Cylinder*.
+
+When $C$ is no longer the same as $A$, it becomes an **Elliptic Cylinder** that becomes elongated along z-axis as $C$ goes to $0$. In fact, when $C=0$, the surface becomes **Two Planes** where the equation is:
+$$
+x^2 = 1
+$$
+
+In this case, $|J|$ describes the distance from the origin to the closest point on a plane.
+
+![[Pasted image 20261023182711.png | center | 300]]
