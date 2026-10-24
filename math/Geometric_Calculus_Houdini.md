@@ -95,6 +95,9 @@ When the magnitude of the coefficients are all $1$ and one of the coefficients $
 
 ### Hyperbolic Cylinder Transformations
 
+![[Hyperbolic_Cylinder_Transforms.mp4 | center]]
+
+---
 Given a surface $Ax^2 + By^2 + Cz^2 + J = 0$ where:
 - $A>0$ expressed as $i$
 - $B=0$ expressed as $j$
@@ -120,11 +123,6 @@ ix^2 - jy^2 - kz^2 - d = 0
 $$
 
 ![[Pasted image 20261023184317.png | center | 300]]
-
-#todo this is one of those things that REALLY need a gif showing the transformation.
-
-
-![[Hyperbolic_Cylinder_Transforms.mp4 | center]]
 
 
 ### Anisotropic Scaling
