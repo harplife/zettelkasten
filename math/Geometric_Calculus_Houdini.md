@@ -124,6 +124,9 @@ $$
 #todo this is one of those things that REALLY need a gif showing the transformation.
 
 
+![[Hyperbolic_Cylinder_Transforms.mp4 | center]]
+
+
 ### Anisotropic Scaling
 
 Given a surface $Ax^2 + By^2 + Cz^2 + J = 0$ where:

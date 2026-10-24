@@ -201,21 +201,9 @@
               "icon": "lucide-file",
               "title": "Geometric_Calculus_Houdini"
             }
-          },
-          {
-            "id": "fdde7dba7bb13f13",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.14.5"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.14.5"
-            }
           }
         ],
-        "currentTab": 13
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -433,7 +421,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 362.5
+    "width": 362.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -450,8 +439,9 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "227e6011dc684b16",
+  "active": "f02fc1ed6ec896f0",
   "lastOpenFiles": [
+    "attachments/Hyperbolic_Cylinder_Transforms.mp4",
     "attachments/Pasted image 20261023184317.png",
     "attachments/Pasted image 20261023184252.png",
     "attachments/Pasted image 20261023183614.png",
@@ -462,7 +452,6 @@
     "attachments/Pasted image 20261020122757.png",
     "attachments/Pasted image 20261020121818.png",
     "attachments/Pasted image 20261020120948.png",
-    "attachments/Pasted image 20261020120414.png",
     "math/calculus/Series.md",
     "math/Geometric_Calculus_Houdini.md",
     "chemistry/alchemy/The_Alchemic_Script.md",
