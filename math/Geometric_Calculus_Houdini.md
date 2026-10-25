@@ -143,7 +143,7 @@ Given a surface $Ax^2 + By^2 + Cz^2 + Gx + Hy + Iz+ J = 0$ where:
 
 In other words:
 $$
-Ax^2 + By^2 + Iz = 0
+x^2 + y^2 - z = 0
 $$
 
 This is an <mark class="hltr-trippy">Elliptic Paraboloid</mark> with one end opening up towards positive z-axis.
@@ -157,7 +157,7 @@ From here, we can change the value of $B$ to change to different surfaces.
 ---
 If $B=0$, the equation becomes this:
 $$
-Ax^2 + Iz + J = 0
+x^2 - z = 0
 $$
 
 Which is basically an equation of parabola:
@@ -170,9 +170,17 @@ Extended in 3D space, what we get is a <mark class="hltr-trippy">Parabolic Cylin
 ![[Pasted image 20261025110310.png | Parabolic Cylinder | center | 300]]
 
 ---
-set to -1
+If $B<0$, the equation becomes this:
+$$
+x^2 - y^2 - z = 0
+$$
 
-![[Pasted image 20261025111800.png]]
+This is a <mark class="hltr-trippy">Hyperbolic Paraboloid</mark> (aka **Saddle**).
+- Unlike Elliptic Paraboloid or Hyperboloids, this surface does not have just one opening axis; it has **two opposing principal directions of curvature**. In this example, XZ trace shows a parabola opening upward to positive z-axis, and YZ trace shows a parabola opening downwards to negative z-axis.
+
+![[Pasted image 20261025111800.png | Hyperbolic Paraboloid | center | 300]]
+
+
 
 
 
