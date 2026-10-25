@@ -131,6 +131,45 @@ $$
 ![[Pasted image 20261023184317.png | center | 300]]
 
 
+### Parabolic Quadrics
+
+Given a surface $Ax^2 + By^2 + Cz^2 + Gx + Hy + Iz+ J = 0$ where:
+- $A>0$ (constant variable)
+- $B>0$ (independent variable)
+- $C=0$
+- $G=H=0$
+- $I<0$
+- $J=0$
+
+In other words:
+$$
+Ax^2 + By^2 + Iz = 0
+$$
+
+This is an <mark class="hltr-trippy">Elliptic Paraboloid</mark> with one end opening up towards positive z-axis.
+- In this case, we have two coefficients for *quadric terms* and one coefficient for a *linear term*.
+- The sign of $I$ decides the direction at which the surface opens towards; $-I$ points to positive z-axis.
+- As long as $J=0$, it sits on the origin.
+
+![[Pasted image 20261025110117.png | Elliptic Paraboloid | center | 300]]
+From here, we can change the value of $B$ to change to different surfaces.
+
+---
+If $B=0$, the equation becomes this:
+$$
+Ax^2 + Iz + J = 0
+$$
+
+Which is basically an equation of parabola:
+$$
+y = x^2
+$$
+
+Extended in 3D space, what we get is a <mark class="hltr-trippy">Parabolic Cylinder</mark> which opens up towards positive z-axis.
+- In this case, two coefficients for quadric terms are *missing*, which can be seen as the surface opening up in two different directions.
+![[Pasted image 20261025110310.png | Parabolic Cylinder | center | 300]]
+
+
 ### Anisotropic Scaling
 
 Given a surface $Ax^2 + By^2 + Cz^2 + J = 0$ where:
