@@ -35,7 +35,7 @@ $$
 
 Given this equation:
 $$
-Ax^2 + By^2 + Cz^2 - 1 = 0
+x^2 + By^2 + z^2 - 1 = 0
 $$
 If the value of $B$ is set to change from $1$ to $-1$ over time, we get a surface that changes from a sphere ($B=1$) to cylinder ($B=0$) and then to hyperboloid of one sheet ($B=1$).
 
@@ -45,7 +45,7 @@ If the value of $B$ is set to change from $1$ to $-1$ over time, we get a surfac
 
 Given this equation:
 $$
-Ax^2 + By^2 + Cz^2 - 1 = 0
+Ax^2 + By^2 + z^2 - 1 = 0
 $$
 If the value of both $A$ and $B$ are set to change from $1$ to $-1$ over time, we get a surface that changes from a sphere ($B=1$) to cylinder ($B=0$) and then to hyperboloid of one sheet ($B=1$).
 
@@ -156,10 +156,10 @@ $$
 
 Given this equation:
 $$
-x^2 + y^2 + Iz = 0
+x^2 + By^2 - z = 0
 $$
 
-If $I$ is set to change from $1$ to $-1$ over time, we get a surface that changes from a **Elliptic Paraboloid** to **Parabolic Cylinder** and then to **Hyperbolic Paraboloid**.
+If $B$ is set to change from $1$ to $-1$ over time, we get a surface that changes from a **Elliptic Paraboloid** to **Parabolic Cylinder** and then to **Hyperbolic Paraboloid**.
 
 ---
 Given a surface $Ax^2 + By^2 + Cz^2 + Gx + Hy + Iz+ J = 0$ where:
@@ -208,10 +208,6 @@ This is a <mark class="hltr-trippy">Hyperbolic Paraboloid</mark> (aka **Saddle**
 - Unlike Elliptic Paraboloid or Hyperboloids, this surface does not have just one opening axis; it has **two opposing principal directions of curvature**. In this example, XZ trace shows a parabola opening upward to positive z-axis, and YZ trace shows a parabola opening downwards to negative z-axis.
 
 ![[Pasted image 20261025111800.png | Hyperbolic Paraboloid | center | 300]]
-
-
-
-
 
 ### Anisotropic Scaling
 
