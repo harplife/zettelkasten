@@ -31,7 +31,9 @@ $$
 
 ### Ellipsoid Transformations
 
-![[Sphere_to_Hyperboloid_Transforms.mp4 | center]]
+![[Sphere_to_Hyperboloid_One_Sheet_T.mp4| Sphere to Hyperboloid of One Sheet | center]]
+
+![[Sphere_to_Hyperboloid_Two_Sheets_T.mp4| Sphere to Hyperboloid of Two Sheets | Center]]
 
 ---
 I like to think all quadric surfaces begin with an Ellipsoid:
