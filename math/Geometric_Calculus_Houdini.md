@@ -292,6 +292,16 @@ For any quadric surface that has an opening (e.g. Cylinder, Hyperboloid of One S
 
 #### Elliptic Cone to Plane
 
+![[Elliptic_Cone_to_Plane.mp4 | Elliptic Cone to Plane | center]]
+
+Given this equation:
+$$
+x^2 - By^2 + z^2 = 0
+$$
+
+As $B$ is set to change from $1$ to $\infty$ over time, the surface changes from an Elliptic Cone to a single Plane.
+
+---
 Given a surface $Ax^2 + By^2 + Cz^2 + J = 0$ where:
 - $A=C$ and positive real numbers
 - $B<0$ expressed as $-k$ where $k>0$
