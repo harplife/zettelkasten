@@ -49,7 +49,7 @@ Where:
 
 Basically:
 $$
-x^2 + By^2 + z^2 - 1 = 0
+x^2 + y^2 + z^2 - 1 = 0
 $$
 
 Note that the equation above is not like the standard equation. The coefficients are variables that I can control, and whatever values I put in them are equivalent to whatever the standard equation says that they are.
