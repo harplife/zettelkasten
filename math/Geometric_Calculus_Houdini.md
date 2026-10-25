@@ -154,6 +154,13 @@ $$
 
 ![[Parabolic_Quadrics_Transforms.mp4 | center]]
 
+Given this equation:
+$$
+x^2 + y^2 + Iz = 0
+$$
+
+If $I$ is set to change from $1$ to $-1$ over time, we get a surface that changes from a **Elliptic Paraboloid** to **Parabolic Cylinder** and then to **Hyperbolic Paraboloid**.
+
 ---
 Given a surface $Ax^2 + By^2 + Cz^2 + Gx + Hy + Iz+ J = 0$ where:
 - $A>0$ (constant variable)
