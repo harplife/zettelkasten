@@ -47,7 +47,12 @@ Where:
 - $C>0$ (e.g. 1)
 - $J<0$ (e.g. -1)
 
-Note that the equation above is not like the standard equation. The coefficients are variables that I can control, and whatever values I put in them are equivalent to whatever the standard equation says that they are. It'll make more sense later on.
+Basically:
+$$
+x^2 + By^2 + z^2 - 1 = 0
+$$
+
+Note that the equation above is not like the standard equation. The coefficients are variables that I can control, and whatever values I put in them are equivalent to whatever the standard equation says that they are.
 - It is important that the opposite side remains $0$ because it basically defines the surface as where the function equals zero (iso-surface).
 
 ---
