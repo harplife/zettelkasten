@@ -169,6 +169,12 @@ Extended in 3D space, what we get is a <mark class="hltr-trippy">Parabolic Cylin
 - In this case, two coefficients for quadric terms are *missing*, which can be seen as the surface opening up in two different directions.
 ![[Pasted image 20261025110310.png | Parabolic Cylinder | center | 300]]
 
+---
+set to -1
+
+![[Pasted image 20261025111800.png]]
+
+
 
 ### Anisotropic Scaling
 
