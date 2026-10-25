@@ -133,6 +133,9 @@ $$
 
 ### Parabolic Quadrics
 
+![[Parabolic_Quadrics_Transforms.mp4 | center]]
+
+---
 Given a surface $Ax^2 + By^2 + Cz^2 + Gx + Hy + Iz+ J = 0$ where:
 - $A>0$ (constant variable)
 - $B>0$ (independent variable)
