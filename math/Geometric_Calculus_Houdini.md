@@ -33,7 +33,21 @@ $$
 
 ![[Sphere_to_Hyperboloid_One_Sheet_T.mp4| Sphere to Hyperboloid of One Sheet | center]]
 
+Given this equation:
+$$
+Ax^2 + By^2 + Cz^2 - 1 = 0
+$$
+If the value of $B$ is set to change from $1$ to $-1$ over time, we get a surface that changes from a sphere ($B=1$) to cylinder ($B=0$) and then to hyperboloid of one sheet ($B=1$).
+
+---
+
 ![[Sphere_to_Hyperboloid_Two_Sheets_T.mp4| Sphere to Hyperboloid of Two Sheets | Center]]
+
+Given this equation:
+$$
+Ax^2 + By^2 + Cz^2 - 1 = 0
+$$
+If the value of both $A$ and $B$ are set to change from $1$ to $-1$ over time, we get a surface that changes from a sphere ($B=1$) to cylinder ($B=0$) and then to hyperboloid of one sheet ($B=1$).
 
 ---
 I like to think all quadric surfaces begin with an Ellipsoid:
